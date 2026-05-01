@@ -2,14 +2,15 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { Minus, Plus, ShoppingBag, Trash2 } from "lucide-react";
+import { CreditCard, Loader2, Minus, Plus, ShoppingBag, Trash2 } from "lucide-react";
+import { useState } from "react";
 import { useCart } from "@/components/CartProvider";
 import { ShippingSelector } from "@/components/ShippingSelector";
 import { useShippingSelection } from "@/components/useShippingSelection";
 import { formatPrice } from "@/lib/format";
 
 export function CartView() {
-  const { detailedItems, subtotal, updateQuantity, removeItem } = useCart();
+  const { detailedItems, items, subtotal, updateQuantity, removeItem } = useCart();
   const shippingProducts = detailedItems.map((item) => item.product);
   const {
     selection,
@@ -18,7 +19,45 @@ export function CartView() {
     shippingPrice: shipping,
     validation,
   } = useShippingSelection(shippingProducts);
+  const [isCheckoutLoading, setIsCheckoutLoading] = useState(false);
+  const [checkoutError, setCheckoutError] = useState<string | null>(null);
   const total = subtotal + shipping;
+
+  async function startCheckout() {
+    if (!validation.ok) {
+      setCheckoutError(validation.error);
+      return;
+    }
+
+    setIsCheckoutLoading(true);
+    setCheckoutError(null);
+
+    try {
+      const response = await fetch("/api/checkout", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ items, shipping: selection }),
+      });
+
+      const data = (await response.json()) as { url?: string; error?: string };
+
+      if (!response.ok || !data.url) {
+        throw new Error(data.error ?? "Impossible d'ouvrir Stripe Checkout.");
+      }
+
+      window.location.assign(data.url);
+    } catch (error) {
+      setCheckoutError(
+        error instanceof Error
+          ? error.message
+          : "Impossible d'ouvrir Stripe Checkout.",
+      );
+    } finally {
+      setIsCheckoutLoading(false);
+    }
+  }
 
   if (detailedItems.length === 0) {
     return (
@@ -120,6 +159,11 @@ export function CartView() {
           availableMethods={availableMethods}
           error={validation.ok ? undefined : validation.error}
         />
+        {checkoutError ? (
+          <div className="rounded-lg border border-[#fecdd3] bg-[#fff1f2] p-4 text-sm font-semibold leading-6 text-rose">
+            {checkoutError}
+          </div>
+        ) : null}
       </section>
 
       <aside className="h-fit rounded-lg border border-line bg-paper p-5 shadow-sm">
@@ -141,12 +185,19 @@ export function CartView() {
           </div>
         </div>
         {validation.ok ? (
-          <Link
-            href="/paiement"
-            className="focus-ring mt-6 inline-flex min-h-12 w-full items-center justify-center rounded-md bg-foreground px-5 py-3 text-sm font-black text-white hover:bg-[#2b2b2b]"
+          <button
+            type="button"
+            onClick={startCheckout}
+            disabled={isCheckoutLoading}
+            className="focus-ring mt-6 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-md bg-foreground px-5 py-3 text-sm font-black text-white hover:bg-[#2b2b2b] disabled:cursor-not-allowed disabled:opacity-65"
           >
-            Continuer vers le paiement
-          </Link>
+            {isCheckoutLoading ? (
+              <Loader2 className="animate-spin" size={18} aria-hidden="true" />
+            ) : (
+              <CreditCard size={18} aria-hidden="true" />
+            )}
+            Payer par carte
+          </button>
         ) : (
           <button
             type="button"

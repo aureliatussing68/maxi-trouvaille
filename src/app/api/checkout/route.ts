@@ -25,6 +25,18 @@ function getSiteUrl() {
   );
 }
 
+function getStripeProductImages(image: string, siteUrl: string) {
+  if (/^https?:\/\//.test(image)) {
+    return [image];
+  }
+
+  if (!siteUrl.startsWith("https://")) {
+    return undefined;
+  }
+
+  return [new URL(image, `${siteUrl}/`).toString()];
+}
+
 export async function POST(request: Request) {
   const secretKey = process.env.STRIPE_SECRET_KEY;
 
@@ -63,6 +75,7 @@ export async function POST(request: Request) {
   const stripe = new Stripe(secretKey, {
     apiVersion: stripeApiVersion,
   });
+  const siteUrl = getSiteUrl();
   type CheckoutSessionCreateParams = NonNullable<
     Parameters<typeof stripe.checkout.sessions.create>[0]
   >;
@@ -107,7 +120,7 @@ export async function POST(request: Request) {
         product_data: {
           name: product.name,
           description: product.shortDescription,
-          images: [product.image],
+          images: getStripeProductImages(product.image, siteUrl),
           metadata: {
             productId: product.id,
             source: product.source,
@@ -146,18 +159,18 @@ export async function POST(request: Request) {
     });
   }
 
-  const siteUrl = getSiteUrl();
   const customerEmail = shippingValidation.selection.customer.email.trim();
   const shippingCustomer = shippingValidation.selection.customer;
 
   const session = await stripe.checkout.sessions.create({
     mode: "payment",
+    payment_method_types: ["card"],
     line_items: lineItems,
     allow_promotion_codes: true,
     billing_address_collection: "auto",
     customer_email: customerEmail || undefined,
-    success_url: `${siteUrl}/paiement/succes?session_id={CHECKOUT_SESSION_ID}`,
-    cancel_url: `${siteUrl}/paiement/annule`,
+    success_url: `${siteUrl}/paiement/succes`,
+    cancel_url: `${siteUrl}/panier`,
     metadata: {
       project: "maxi-trouvaille",
       checkoutMode: "test-only",
