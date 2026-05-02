@@ -161,6 +161,7 @@ export async function POST(request: Request) {
 
   const customerEmail = shippingValidation.selection.customer.email.trim();
   const shippingCustomer = shippingValidation.selection.customer;
+  const reviewProductIds = cartProducts.map((product) => product.id).join(",");
 
   const session = await stripe.checkout.sessions.create({
     mode: "payment",
@@ -169,11 +170,12 @@ export async function POST(request: Request) {
     allow_promotion_codes: true,
     billing_address_collection: "auto",
     customer_email: customerEmail || undefined,
-    success_url: `${siteUrl}/paiement/succes`,
+    success_url: `${siteUrl}/paiement/succes?session_id={CHECKOUT_SESSION_ID}`,
     cancel_url: `${siteUrl}/panier`,
     metadata: {
       project: "maxi-trouvaille",
       checkoutMode: "test-only",
+      reviewProductIds: reviewProductIds.slice(0, 500),
       shippingMethod: shippingValidation.method.id,
       shippingPriceCents: String(shippingValidation.method.price),
       // Test-mode shortcut. Production future: store full shipping/contact

@@ -34,6 +34,7 @@ tmp-next-start*.log
 
 # local-only counters fallback
 /data/product-stats.json
+/data/product-reviews.json
 
 # env files (can opt-in for committing if needed)
 .env*

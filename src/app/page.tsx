@@ -3,17 +3,25 @@ import Link from "next/link";
 import { ArrowRight, Boxes, Search, ShieldCheck, Store } from "lucide-react";
 import { CategoryGrid } from "@/components/CategoryGrid";
 import { ProductCard } from "@/components/ProductCard";
+import { ReviewSummaryBadge } from "@/components/ReviewStars";
 import { TrustBar } from "@/components/TrustBar";
 import { getFeaturedProducts } from "@/lib/catalog";
+import {
+  getApprovedReviewSummaryMap,
+  getRecentApprovedReviews,
+} from "@/lib/product-reviews";
 import { getProductStatsMap } from "@/lib/product-stats";
 
 export const dynamic = "force-dynamic";
 
 export default async function Home() {
   const featuredProducts = getFeaturedProducts();
+  const productIds = featuredProducts.map((product) => product.id);
   const statsMap = await getProductStatsMap(
-    featuredProducts.map((product) => product.id),
+    productIds,
   );
+  const reviewSummaryMap = await getApprovedReviewSummaryMap(productIds);
+  const recentReviews = await getRecentApprovedReviews(3);
 
   return (
     <>
@@ -92,11 +100,45 @@ export default async function Home() {
                 key={product.id}
                 product={product}
                 stats={statsMap.get(product.id)}
+                reviewSummary={reviewSummaryMap.get(product.id)}
               />
             ))}
           </div>
         </div>
       </section>
+
+      {recentReviews.length > 0 ? (
+        <section className="container-page py-12">
+          <div className="mb-7">
+            <p className="text-sm font-black uppercase text-teal">Avis clients</p>
+            <h2 className="mt-2 text-3xl font-black">Meilleurs avis recents</h2>
+          </div>
+          <div className="grid gap-5 md:grid-cols-3">
+            {recentReviews.map((review) => (
+              <article
+                key={review.id}
+                className="rounded-lg border border-line bg-paper p-5 shadow-sm"
+              >
+                <ReviewSummaryBadge
+                  summary={{ averageRating: review.rating, totalReviews: 1 }}
+                />
+                <p className="mt-4 text-sm leading-6 text-muted">
+                  {review.comment}
+                </p>
+                <div className="mt-4 text-sm font-black">
+                  {review.customerName}
+                </div>
+                <Link
+                  href={`/produit/${review.productSlug}`}
+                  className="mt-2 inline-flex text-sm font-bold text-teal hover:text-foreground"
+                >
+                  {review.productName}
+                </Link>
+              </article>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       <section className="container-page py-12">
         <div className="overflow-hidden rounded-lg border border-line bg-[#102f2b] text-white shadow-sm">

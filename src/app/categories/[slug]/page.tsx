@@ -8,6 +8,7 @@ import {
   getCategoryBySlug,
 } from "@/lib/catalog";
 import { getCatalogProductsByCategory } from "@/lib/catalog-server";
+import { getApprovedReviewSummaryMap } from "@/lib/product-reviews";
 import { getProductStatsMap } from "@/lib/product-stats";
 
 export const dynamic = "force-dynamic";
@@ -40,9 +41,11 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   }
 
   const categoryProducts = await getCatalogProductsByCategory(category.id);
+  const productIds = categoryProducts.map((product) => product.id);
   const statsMap = await getProductStatsMap(
-    categoryProducts.map((product) => product.id),
+    productIds,
   );
+  const reviewSummaryMap = await getApprovedReviewSummaryMap(productIds);
 
   return (
     <>
@@ -59,6 +62,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                 key={product.id}
                 product={product}
                 stats={statsMap.get(product.id)}
+                reviewSummary={reviewSummaryMap.get(product.id)}
               />
             ))}
           </div>

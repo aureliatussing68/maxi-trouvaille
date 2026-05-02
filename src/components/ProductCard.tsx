@@ -5,17 +5,21 @@ import Link from "next/link";
 import { Pencil, Store, Tag } from "lucide-react";
 import { AddToCartButton } from "@/components/AddToCartButton";
 import { ProductStatsBadges } from "@/components/ProductEngagement";
+import { ReviewSummaryBadge } from "@/components/ReviewStars";
 import { getCategoryById, type Product } from "@/lib/catalog";
 import { formatPrice } from "@/lib/format";
 import type { ProductStats } from "@/lib/product-stats";
+import type { ProductReviewSummary } from "@/lib/product-reviews";
 
 export function ProductCard({
   product,
   stats,
+  reviewSummary,
   showAdminControls = false,
 }: {
   product: Product;
   stats?: ProductStats;
+  reviewSummary?: ProductReviewSummary;
   showAdminControls?: boolean;
 }) {
   const category = getCategoryById(product.categoryId);
@@ -53,6 +57,7 @@ export function ProductCard({
               ? "Vendu par Maxi Trouvaille"
               : "Annonce vendeur"}
           </div>
+          <ReviewSummaryBadge summary={reviewSummary} compact />
           <ProductStatsBadges stats={stats} />
         </div>
 

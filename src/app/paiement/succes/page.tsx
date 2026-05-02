@@ -5,6 +5,16 @@ export const metadata: Metadata = {
   title: "Paiement test confirme",
 };
 
-export default function PaymentSuccessPage() {
-  return <OrderSuccess />;
+type PaymentSuccessPageProps = {
+  searchParams?: Promise<{ session_id?: string | string[] }>;
+};
+
+export default async function PaymentSuccessPage({
+  searchParams,
+}: PaymentSuccessPageProps) {
+  const query = searchParams ? await searchParams : {};
+  const sessionId =
+    typeof query.session_id === "string" ? query.session_id : undefined;
+
+  return <OrderSuccess sessionId={sessionId} />;
 }

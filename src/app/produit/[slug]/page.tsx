@@ -12,6 +12,7 @@ import {
 import { notFound } from "next/navigation";
 import { AddToCartButton } from "@/components/AddToCartButton";
 import { ProductEngagement } from "@/components/ProductEngagement";
+import { ReviewSummaryBadge } from "@/components/ReviewStars";
 import { isAdminModeEnabled } from "@/lib/admin";
 import {
   getCategoryById,
@@ -19,6 +20,10 @@ import {
 } from "@/lib/catalog";
 import { getCatalogProductBySlug } from "@/lib/catalog-server";
 import { formatPrice } from "@/lib/format";
+import {
+  getApprovedReviewsForProduct,
+  getApprovedReviewSummary,
+} from "@/lib/product-reviews";
 import { getProductStats } from "@/lib/product-stats";
 
 export const dynamic = "force-dynamic";
@@ -61,8 +66,11 @@ export default async function ProductPage({
   const adminMode = isAdminModeEnabled();
   const showUpdatedMessage = query.adminMessage === "updated";
   const stats = await getProductStats(product.id);
+  const reviewSummary = await getApprovedReviewSummary(product.id);
+  const reviews = await getApprovedReviewsForProduct(product.id);
 
   return (
+    <>
     <section className="container-page grid gap-8 py-10 lg:grid-cols-[1fr_440px]">
       <div className="grid h-fit gap-3">
         <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-line bg-[#ede7db] shadow-sm">
@@ -108,6 +116,9 @@ export default async function ProductPage({
           {category?.name ?? "Categorie"}
         </Link>
         <h1 className="mt-3 text-3xl font-black leading-[1.08]">{product.name}</h1>
+        <div className="mt-3">
+          <ReviewSummaryBadge summary={reviewSummary} />
+        </div>
         {adminMode ? (
           <Link
             href={`/admin/produits/${product.slug}/modifier`}
@@ -173,5 +184,47 @@ export default async function ProductPage({
         </div>
       </div>
     </section>
+    <section className="container-page pb-12">
+      <div className="rounded-lg border border-line bg-paper p-6 shadow-sm">
+        <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
+          <div>
+            <p className="text-sm font-black uppercase text-teal">Avis clients</p>
+            <h2 className="mt-2 text-2xl font-black">Commentaires verifies</h2>
+          </div>
+          <ReviewSummaryBadge summary={reviewSummary} />
+        </div>
+
+        {reviews.length > 0 ? (
+          <div className="mt-6 grid gap-4">
+            {reviews.map((review) => (
+              <article key={review.id} className="rounded-md border border-line p-4">
+                <ReviewSummaryBadge
+                  summary={{ averageRating: review.rating, totalReviews: 1 }}
+                  compact
+                />
+                <p className="mt-3 text-sm leading-6 text-muted">
+                  {review.comment}
+                </p>
+                {review.adminReply ? (
+                  <div className="mt-3 rounded-md bg-[#eef8f6] p-3 text-sm leading-6 text-[#115e59]">
+                    <strong>Réponse Maxi Trouvaille : </strong>
+                    {review.adminReply}
+                  </div>
+                ) : null}
+                <div className="mt-3 text-xs font-bold text-muted">
+                  {review.customerName} -{" "}
+                  {new Date(review.createdAt).toLocaleDateString("fr-FR")}
+                </div>
+              </article>
+            ))}
+          </div>
+        ) : (
+          <p className="mt-5 rounded-md bg-[#f6f1e8] p-4 text-sm font-bold text-muted">
+            Aucun avis valide pour ce produit pour le moment.
+          </p>
+        )}
+      </div>
+    </section>
+    </>
   );
 }
