@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Boxes, Search, ShieldCheck, Store } from "lucide-react";
 import { CategoryGrid } from "@/components/CategoryGrid";
+import { HeroCarousel } from "@/components/HeroCarousel";
 import { ProductCard } from "@/components/ProductCard";
 import { ReviewSummaryBadge } from "@/components/ReviewStars";
 import { TrustBar } from "@/components/TrustBar";
@@ -39,22 +40,23 @@ export default async function Home() {
           <div className="max-w-3xl">
             <div className="mb-5 inline-flex items-center gap-2 rounded-md bg-white/12 px-3 py-2 text-sm font-black backdrop-blur">
               <Boxes size={18} aria-hidden="true" />
-              Arrivages, lots et bonnes affaires
+              Arrivages hebdomadaires • Colis mystères • Palettes
             </div>
             <h1 className="text-balance text-5xl font-black leading-[0.98] sm:text-7xl">
               Maxi Trouvaille
             </h1>
             <p className="mt-6 max-w-2xl text-lg leading-8 text-white/86">
-              Une boutique claire et rassurante pour vendre colis perdus,
-              trouvailles neuves ou quasi neuves, lots utiles et futurs produits
-              selectionnes.
+              Découvrez des palettes de déstockage, colis mystères, lots
+              surprises et bonnes affaires sélectionnées. Des arrivages
+              réguliers, des prix attractifs et des produits pour particuliers
+              comme pour revendeurs.
             </p>
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <Link
                 href="/boutique"
                 className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-brand px-5 py-3 text-sm font-black text-foreground hover:bg-[#ffd166]"
               >
-                Voir la boutique
+                Voir les arrivages
                 <ArrowRight size={18} aria-hidden="true" />
               </Link>
               <Link
@@ -68,27 +70,49 @@ export default async function Home() {
         </div>
       </section>
 
+      <HeroCarousel />
+
       <TrustBar />
 
       <section className="container-page py-12">
         <div className="mb-7 flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
           <div>
             <p className="text-sm font-black uppercase text-teal">Rayons prets</p>
-            <h2 className="mt-2 text-3xl font-black">Categories Maxi Trouvaille</h2>
+            <h2 className="mt-2 text-3xl font-black">
+              Catégories déstockage
+            </h2>
           </div>
           <Link href="/categories" className="text-sm font-black text-teal hover:text-foreground">
             Toutes les categories
           </Link>
         </div>
-        <CategoryGrid compact />
+        <CategoryGrid compact featuredOnly />
+      </section>
+
+      <section className="border-y border-line bg-[#102f2b] text-white">
+        <div className="container-page py-10">
+          <p className="max-w-4xl text-xl font-black leading-8">
+            Découvrez nos palettes, colis mystères et lots de déstockage. Que
+            vous soyez particulier ou revendeur, Maxi Trouvaille vous propose
+            des arrivages réguliers, des prix attractifs et des opportunités à
+            saisir.
+          </p>
+          <p className="mt-4 max-w-3xl text-sm leading-6 text-white/76">
+            Les colis mystères et palettes peuvent contenir des produits neufs,
+            quasi neufs ou d&apos;occasion. Le contenu exact n&apos;est pas promis et
+            varie selon les arrivages disponibles.
+          </p>
+        </div>
       </section>
 
       <section className="border-y border-line bg-paper">
         <div className="container-page py-12">
           <div className="mb-7 flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
             <div>
-              <p className="text-sm font-black uppercase text-teal">Produit test</p>
-              <h2 className="mt-2 text-3xl font-black">Fiche modele prete</h2>
+              <p className="text-sm font-black uppercase text-teal">Arrivages</p>
+              <h2 className="mt-2 text-3xl font-black">
+                Palettes, colis et lots prêts à vendre
+              </h2>
             </div>
             <Link href="/boutique" className="text-sm font-black text-teal hover:text-foreground">
               Aller a la boutique
@@ -181,8 +205,8 @@ export default async function Home() {
             <Search className="mb-4 text-teal" size={28} aria-hidden="true" />
             <h2 className="text-xl font-black">Catalogue simple</h2>
             <p className="mt-3 text-sm leading-6 text-muted">
-              Les produits et categories sont centralises pour ajouter de vrais
-              articles progressivement.
+              Palettes, colis mystères, lots et produits visibles sont
+              centralisés pour ajouter les vrais arrivages progressivement.
             </p>
           </div>
           <div className="rounded-lg border border-line bg-paper p-5 shadow-sm">
@@ -197,8 +221,8 @@ export default async function Home() {
             <Boxes className="mb-4 text-teal" size={28} aria-hidden="true" />
             <h2 className="text-xl font-black">Pret pour les arrivages</h2>
             <p className="mt-3 text-sm leading-6 text-muted">
-              Vetements, maison, deco, high-tech, accessoires, jouets, bricolage
-              et electricite sont deja structures.
+              Les rayons palettes, colis au poids, lots et espace revendeur sont
+              prêts pour les prochains stocks.
             </p>
           </div>
         </div>

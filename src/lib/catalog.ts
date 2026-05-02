@@ -35,7 +35,55 @@ export type Product = {
   sellerListing?: SellerListingMeta;
 };
 
+export const mainCategoryIds = [
+  "palettes-destockage",
+  "colis-mysteres",
+  "colis-au-poids",
+  "lots-bonnes-affaires",
+  "espace-revendeur",
+] as const;
+
 export const categories: Category[] = [
+  {
+    id: "palettes-destockage",
+    slug: "palettes-destockage",
+    name: "Palettes déstockage",
+    description:
+      "Palettes mystères, palettes visibles, arrivages réguliers, idéal pour revendeurs et marchés.",
+    accent: "#b45309",
+  },
+  {
+    id: "colis-mysteres",
+    slug: "colis-mysteres",
+    name: "Colis mystères",
+    description:
+      "Colis surprise, cartons mystères, contenu aléatoire issu de déstockage.",
+    accent: "#be123c",
+  },
+  {
+    id: "colis-au-poids",
+    slug: "colis-au-poids",
+    name: "Colis au poids",
+    description:
+      "Colis vendus au poids, 5 kg, 10 kg ou plus, pour découvrir plusieurs produits à prix réduit.",
+    accent: "#0f766e",
+  },
+  {
+    id: "lots-bonnes-affaires",
+    slug: "lots-bonnes-affaires",
+    name: "Lots & bonnes affaires",
+    description:
+      "Produits visibles à prix cassés : vêtements, chaussures, accessoires et trouvailles utiles.",
+    accent: "#2563eb",
+  },
+  {
+    id: "espace-revendeur",
+    slug: "espace-revendeur",
+    name: "Espace revendeur",
+    description:
+      "Lots en quantité, palettes et prix dégressifs pour professionnels, marchés et revente.",
+    accent: "#7c3aed",
+  },
   {
     id: "sport-loisirs",
     slug: "sport-loisirs",
@@ -221,6 +269,155 @@ export const categories: Category[] = [
 ];
 
 export const products: Product[] = [
+  {
+    id: "prod_palette_mystere_destockage_001",
+    slug: "palette-mystere-destockage",
+    name: "Palette mystère déstockage",
+    categoryId: "palettes-destockage",
+    price: 89900,
+    condition: "Produits possibles : neufs, quasi neufs ou occasion",
+    stock: 3,
+    badge: "Dès 899 €",
+    image:
+      "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=900&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=80",
+    ],
+    shortDescription:
+      "Palette de déstockage avec contenu variable selon arrivage, pensée pour revendeurs et marchés.",
+    description:
+      "Exemple de palette de déstockage Maxi Trouvaille. Le contenu est variable selon les arrivages et peut inclure des produits neufs, quasi neufs ou d'occasion. Aucun contenu exact n'est promis pour les palettes mystères.",
+    features: [
+      "Arrivage type palette mystère ou visible selon stock",
+      "Adapté aux revendeurs, marchés et bonnes affaires en volume",
+      "Contenu non garanti : composition variable selon déstockage",
+      "Objet volumineux : retrait ou devis livraison personnalisé",
+    ],
+    livraisonDisponible: "sur devis",
+    isTestProduct: true,
+    source: "internal",
+    status: "published",
+  },
+  {
+    id: "prod_colis_surprise_10kg_001",
+    slug: "colis-surprise-10-kg",
+    name: "Colis surprise 10 kg",
+    categoryId: "colis-au-poids",
+    price: 5900,
+    condition: "Produits possibles : neufs, quasi neufs ou occasion",
+    stock: 12,
+    badge: "10 kg",
+    image:
+      "https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&w=900&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&w=900&q=80",
+    ],
+    shortDescription:
+      "Colis vendu au poids pour découvrir plusieurs produits de déstockage à prix réduit.",
+    description:
+      "Exemple de colis surprise 10 kg. Le contenu est aléatoire et dépend des arrivages disponibles. Les produits possibles peuvent être neufs, quasi neufs ou d'occasion, sans promesse de contenu exact.",
+    features: [
+      "Format 10 kg pour tester plusieurs trouvailles",
+      "Contenu aléatoire issu de déstockage",
+      "Produits possibles : maison, accessoires, gadgets ou textile",
+      "Idéal pour particuliers curieux et petits revendeurs",
+    ],
+    livraisonDisponible: "toutes",
+    isTestProduct: true,
+    source: "internal",
+    status: "published",
+  },
+  {
+    id: "prod_colis_mystere_premium_001",
+    slug: "colis-mystere-premium",
+    name: "Colis mystère premium",
+    categoryId: "colis-mysteres",
+    price: 9900,
+    compareAtPrice: 12900,
+    condition: "Produits possibles : neufs, quasi neufs ou occasion",
+    stock: 8,
+    badge: "Premium",
+    image:
+      "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=900&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&w=900&q=80",
+    ],
+    shortDescription:
+      "Colis mystère orienté bonnes affaires, avec sélection variable selon arrivage.",
+    description:
+      "Exemple de colis mystère premium. Il s'agit d'un colis surprise dont le contenu reste aléatoire. Les articles possibles peuvent être neufs, quasi neufs ou d'occasion selon le lot disponible.",
+    features: [
+      "Sélection orientée trouvailles utiles ou cadeaux",
+      "Contenu aléatoire et non garanti",
+      "Prix attractif par rapport à l'achat à l'unité",
+      "Préparé pour une expérience simple et rassurante",
+    ],
+    livraisonDisponible: "toutes",
+    isTestProduct: true,
+    source: "internal",
+    status: "published",
+  },
+  {
+    id: "prod_lot_special_marche_001",
+    slug: "lot-special-marche",
+    name: "Lot spécial marché",
+    categoryId: "lots-bonnes-affaires",
+    price: 24900,
+    condition: "Lot visible ou semi-visible selon arrivage",
+    stock: 5,
+    badge: "Lot pro",
+    image:
+      "https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=900&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=900&q=80",
+    ],
+    shortDescription:
+      "Lot pensé pour les marchés, stands, brocantes et revente à petit prix.",
+    description:
+      "Exemple de lot spécial marché. Les articles sont sélectionnés pour créer une offre visible ou semi-visible selon les arrivages. Les états peuvent varier : neuf, quasi neuf ou occasion.",
+    features: [
+      "Pensé pour marchés, stands et revente locale",
+      "Produits possibles : vêtements, accessoires, maison ou gadgets",
+      "Prix attractif pour achat en quantité",
+      "Composition à confirmer selon arrivage disponible",
+    ],
+    livraisonDisponible: "sur devis",
+    isTestProduct: true,
+    source: "internal",
+    status: "published",
+  },
+  {
+    id: "prod_pack_revendeur_001",
+    slug: "pack-revendeur",
+    name: "Pack revendeur",
+    categoryId: "espace-revendeur",
+    price: 49900,
+    condition: "Lots en quantité selon disponibilité",
+    stock: 4,
+    badge: "Revendeur",
+    image:
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=80",
+    images: [
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=900&q=80",
+    ],
+    shortDescription:
+      "Pack en volume pour revendeurs, professionnels, marchés et lots à prix dégressif.",
+    description:
+      "Exemple de pack revendeur Maxi Trouvaille. Il prépare une offre de lots en quantité avec prix dégressifs selon volume et disponibilité. Le contenu exact dépend des arrivages.",
+    features: [
+      "Prévu pour revendeurs, marchés et professionnels",
+      "Prix dégressifs possibles selon volume",
+      "Lots visibles, semi-visibles ou mystères selon arrivage",
+      "Retrait ou devis personnalisé pour les volumes importants",
+    ],
+    livraisonDisponible: "sur devis",
+    isTestProduct: true,
+    source: "internal",
+    status: "published",
+  },
   {
     id: "prod_test_pack_decouverte_001",
     slug: "pack-decouverte-test",

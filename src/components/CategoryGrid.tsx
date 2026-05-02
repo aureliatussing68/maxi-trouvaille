@@ -3,26 +3,36 @@ import type { LucideIcon } from "lucide-react";
 import {
   Baby,
   BookOpen,
+  BriefcaseBusiness,
   Car,
   Dumbbell,
   Gamepad2,
+  Gift,
   Hammer,
   HeartPulse,
   Lamp,
   Leaf,
+  Package,
   PackageOpen,
   PawPrint,
   PlugZap,
+  Scale,
   Shirt,
+  ShoppingBag,
   Smartphone,
   Sofa,
   Sparkles,
   Store,
   WandSparkles,
 } from "lucide-react";
-import { categories } from "@/lib/catalog";
+import { categories, mainCategoryIds } from "@/lib/catalog";
 
 const iconByCategory: Record<string, LucideIcon> = {
+  "palettes-destockage": Package,
+  "colis-mysteres": Gift,
+  "colis-au-poids": Scale,
+  "lots-bonnes-affaires": ShoppingBag,
+  "espace-revendeur": BriefcaseBusiness,
   "sport-loisirs": Dumbbell,
   "auto-moto": Car,
   animaux: PawPrint,
@@ -51,15 +61,30 @@ const iconByCategory: Record<string, LucideIcon> = {
   gadgets: WandSparkles,
 };
 
-export function CategoryGrid({ compact = false }: { compact?: boolean }) {
+export function CategoryGrid({
+  compact = false,
+  featuredOnly = false,
+}: {
+  compact?: boolean;
+  featuredOnly?: boolean;
+}) {
+  const displayedCategories = featuredOnly
+    ? categories.filter((category) =>
+        mainCategoryIds.includes(category.id as (typeof mainCategoryIds)[number]),
+      )
+    : categories;
+
   return (
     <div
       className={`grid gap-3 ${
         compact ? "sm:grid-cols-2 lg:grid-cols-5" : "sm:grid-cols-2 lg:grid-cols-3"
       }`}
     >
-      {categories.map((category) => {
+      {displayedCategories.map((category) => {
         const Icon = iconByCategory[category.id] ?? PackageOpen;
+        const isMainCategory = mainCategoryIds.includes(
+          category.id as (typeof mainCategoryIds)[number],
+        );
 
         return (
           <Link
@@ -76,6 +101,11 @@ export function CategoryGrid({ compact = false }: { compact?: boolean }) {
             <h2 className="text-base font-black group-hover:text-teal">
               {category.name}
             </h2>
+            {isMainCategory ? (
+              <span className="mt-2 inline-flex w-fit rounded-md bg-[#f6f1e8] px-2 py-1 text-[11px] font-black uppercase text-teal">
+                Rayon principal
+              </span>
+            ) : null}
             <p className="mt-2 text-sm leading-6 text-muted">{category.description}</p>
           </Link>
         );

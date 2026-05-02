@@ -31,6 +31,58 @@ const keywordCategories: Array<{
   keywords: string[];
 }> = [
   {
+    categoryId: "palettes-destockage",
+    priority: 130,
+    keywords: [
+      "palette",
+      "palettes",
+      "palette mystere",
+      "palette destockage",
+      "palette visible",
+      "arrivage palette",
+    ],
+  },
+  {
+    categoryId: "colis-mysteres",
+    priority: 125,
+    keywords: [
+      "colis mystere",
+      "colis surprise",
+      "carton mystere",
+      "carton surprise",
+      "lot mystere",
+    ],
+  },
+  {
+    categoryId: "colis-au-poids",
+    priority: 120,
+    keywords: ["colis au poids", "5 kg", "10 kg", "20 kg", "kilo", "kg"],
+  },
+  {
+    categoryId: "lots-bonnes-affaires",
+    priority: 100,
+    keywords: [
+      "lot",
+      "lots",
+      "bonne affaire",
+      "prix casse",
+      "destockage",
+      "stock",
+    ],
+  },
+  {
+    categoryId: "espace-revendeur",
+    priority: 115,
+    keywords: [
+      "revendeur",
+      "grossiste",
+      "marche",
+      "professionnel",
+      "prix degressif",
+      "quantite",
+    ],
+  },
+  {
     categoryId: "sport-loisirs",
     priority: 80,
     keywords: [
@@ -319,6 +371,31 @@ export function parsePriceToCents(value: string) {
 
 function getCategoryTone(categoryId: string) {
   const tones: Record<string, { usage: string; benefit: string }> = {
+    "palettes-destockage": {
+      usage:
+        "ideal pour les arrivages en volume, les marchés, la revente ou les bonnes affaires en quantité",
+      benefit: "un format pensé pour acheter plus et mieux valoriser un stock",
+    },
+    "colis-mysteres": {
+      usage:
+        "adapte aux colis surprise et aux cartons mystères avec contenu aléatoire selon arrivage",
+      benefit: "une expérience de déstockage simple, attractive et pleine de découverte",
+    },
+    "colis-au-poids": {
+      usage:
+        "pratique pour découvrir plusieurs produits dans un format vendu au poids",
+      benefit: "un bon moyen de tester des trouvailles variées à prix réduit",
+    },
+    "lots-bonnes-affaires": {
+      usage:
+        "pensé pour regrouper des produits visibles ou semi-visibles à prix cassés",
+      benefit: "une sélection utile pour faire de bonnes affaires rapidement",
+    },
+    "espace-revendeur": {
+      usage:
+        "prévu pour les professionnels, marchés et revendeurs qui cherchent du volume",
+      benefit: "un accès simple aux lots et palettes en quantité",
+    },
     "agencement-magasin": {
       usage: "ideal pour l'equipement d'un commerce, d'une vitrine ou d'un espace de vente",
       benefit: "pratique pour presenter les produits proprement",
