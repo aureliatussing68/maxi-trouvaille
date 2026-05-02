@@ -12,11 +12,14 @@ import {
   Trash2,
   UploadCloud,
 } from "lucide-react";
+import { ProductStatsBadges } from "@/components/ProductEngagement";
 import { categories, type Product } from "@/lib/catalog";
 import { formatPrice } from "@/lib/format";
+import type { ProductStats } from "@/lib/product-stats";
 
 type ProductEditFormProps = {
   product: Product;
+  stats: ProductStats;
 };
 
 type ProductStatus = NonNullable<Product["status"]>;
@@ -54,7 +57,7 @@ function getPhotoUrl(photo: EditablePhoto) {
   return photo.type === "existing" ? photo.url : photo.previewUrl;
 }
 
-export function ProductEditForm({ product }: ProductEditFormProps) {
+export function ProductEditForm({ product, stats }: ProductEditFormProps) {
   const router = useRouter();
   const fileInputRef = useRef<HTMLInputElement>(null);
   const photosRef = useRef<EditablePhoto[]>([]);
@@ -437,6 +440,10 @@ export function ProductEditForm({ product }: ProductEditFormProps) {
           {message}
         </div>
         <div className="mt-5 grid gap-3 rounded-md border border-line p-4 text-sm">
+          <div className="border-b border-line pb-3">
+            <span className="mb-2 block font-bold text-muted">Statistiques</span>
+            <ProductStatsBadges stats={stats} />
+          </div>
           <div className="flex justify-between gap-3">
             <span className="font-bold text-muted">Prix</span>
             <span className="font-black">{previewPrice}</span>

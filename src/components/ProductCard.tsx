@@ -4,14 +4,18 @@ import Image from "next/image";
 import Link from "next/link";
 import { Pencil, Store, Tag } from "lucide-react";
 import { AddToCartButton } from "@/components/AddToCartButton";
+import { ProductStatsBadges } from "@/components/ProductEngagement";
 import { getCategoryById, type Product } from "@/lib/catalog";
 import { formatPrice } from "@/lib/format";
+import type { ProductStats } from "@/lib/product-stats";
 
 export function ProductCard({
   product,
+  stats,
   showAdminControls = false,
 }: {
   product: Product;
+  stats?: ProductStats;
   showAdminControls?: boolean;
 }) {
   const category = getCategoryById(product.categoryId);
@@ -49,6 +53,7 @@ export function ProductCard({
               ? "Vendu par Maxi Trouvaille"
               : "Annonce vendeur"}
           </div>
+          <ProductStatsBadges stats={stats} />
         </div>
 
         <div className="flex flex-wrap items-end justify-between gap-3">

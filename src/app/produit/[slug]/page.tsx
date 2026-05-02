@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import { notFound } from "next/navigation";
 import { AddToCartButton } from "@/components/AddToCartButton";
+import { ProductEngagement } from "@/components/ProductEngagement";
 import { isAdminModeEnabled } from "@/lib/admin";
 import {
   getCategoryById,
@@ -18,6 +19,7 @@ import {
 } from "@/lib/catalog";
 import { getCatalogProductBySlug } from "@/lib/catalog-server";
 import { formatPrice } from "@/lib/format";
+import { getProductStats } from "@/lib/product-stats";
 
 export const dynamic = "force-dynamic";
 
@@ -58,6 +60,7 @@ export default async function ProductPage({
   const galleryImages = product.images?.length ? product.images : [product.image];
   const adminMode = isAdminModeEnabled();
   const showUpdatedMessage = query.adminMessage === "updated";
+  const stats = await getProductStats(product.id);
 
   return (
     <section className="container-page grid gap-8 py-10 lg:grid-cols-[1fr_440px]">
@@ -115,6 +118,8 @@ export default async function ProductPage({
           </Link>
         ) : null}
         <p className="mt-4 text-sm leading-6 text-muted">{product.description}</p>
+
+        <ProductEngagement productId={product.id} initialStats={stats} />
 
         <div className="mt-5 flex flex-wrap items-end gap-3">
           <div className="text-4xl font-black">{formatPrice(product.price)}</div>

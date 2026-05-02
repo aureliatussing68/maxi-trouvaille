@@ -8,6 +8,7 @@ import {
   getCategoryBySlug,
 } from "@/lib/catalog";
 import { getCatalogProductsByCategory } from "@/lib/catalog-server";
+import { getProductStatsMap } from "@/lib/product-stats";
 
 export const dynamic = "force-dynamic";
 
@@ -39,6 +40,9 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   }
 
   const categoryProducts = await getCatalogProductsByCategory(category.id);
+  const statsMap = await getProductStatsMap(
+    categoryProducts.map((product) => product.id),
+  );
 
   return (
     <>
@@ -51,7 +55,11 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         {categoryProducts.length > 0 ? (
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {categoryProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard
+                key={product.id}
+                product={product}
+                stats={statsMap.get(product.id)}
+              />
             ))}
           </div>
         ) : (

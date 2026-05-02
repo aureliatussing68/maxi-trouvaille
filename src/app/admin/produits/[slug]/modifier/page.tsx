@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { ProductEditForm } from "@/components/ProductEditForm";
 import { isAdminModeEnabled } from "@/lib/admin";
 import { getCatalogProductBySlug, readQuickProducts } from "@/lib/catalog-server";
+import { getProductStats } from "@/lib/product-stats";
 
 export const dynamic = "force-dynamic";
 
@@ -38,7 +39,12 @@ export default async function EditProductPage({ params }: EditProductPageProps) 
   );
 
   if (quickProduct) {
-    return <ProductEditForm product={quickProduct} />;
+    return (
+      <ProductEditForm
+        product={quickProduct}
+        stats={await getProductStats(quickProduct.id)}
+      />
+    );
   }
 
   const product = await getCatalogProductBySlug(slug);

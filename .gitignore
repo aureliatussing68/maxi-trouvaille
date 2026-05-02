@@ -32,6 +32,9 @@ yarn-error.log*
 dev-server*.log
 tmp-next-start*.log
 
+# local-only counters fallback
+/data/product-stats.json
+
 # env files (can opt-in for committing if needed)
 .env*
 !.env.example

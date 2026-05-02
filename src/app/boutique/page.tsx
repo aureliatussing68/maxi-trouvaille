@@ -3,6 +3,7 @@ import { PageHeader } from "@/components/PageHeader";
 import { ProductCard } from "@/components/ProductCard";
 import { isAdminModeEnabled } from "@/lib/admin";
 import { getAllProducts } from "@/lib/catalog-server";
+import { getProductStatsMap } from "@/lib/product-stats";
 
 export const dynamic = "force-dynamic";
 
@@ -13,6 +14,9 @@ export const metadata: Metadata = {
 
 export default async function ShopPage() {
   const allProducts = await getAllProducts();
+  const statsMap = await getProductStatsMap(
+    allProducts.map((product) => product.id),
+  );
   const adminMode = isAdminModeEnabled();
 
   return (
@@ -28,6 +32,7 @@ export default async function ShopPage() {
             <ProductCard
               key={product.id}
               product={product}
+              stats={statsMap.get(product.id)}
               showAdminControls={adminMode}
             />
           ))}

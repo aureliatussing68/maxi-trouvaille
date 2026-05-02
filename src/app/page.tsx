@@ -5,9 +5,15 @@ import { CategoryGrid } from "@/components/CategoryGrid";
 import { ProductCard } from "@/components/ProductCard";
 import { TrustBar } from "@/components/TrustBar";
 import { getFeaturedProducts } from "@/lib/catalog";
+import { getProductStatsMap } from "@/lib/product-stats";
 
-export default function Home() {
+export const dynamic = "force-dynamic";
+
+export default async function Home() {
   const featuredProducts = getFeaturedProducts();
+  const statsMap = await getProductStatsMap(
+    featuredProducts.map((product) => product.id),
+  );
 
   return (
     <>
@@ -82,7 +88,11 @@ export default function Home() {
           </div>
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
             {featuredProducts.map((product) => (
-              <ProductCard key={product.id} product={product} />
+              <ProductCard
+                key={product.id}
+                product={product}
+                stats={statsMap.get(product.id)}
+              />
             ))}
           </div>
         </div>
