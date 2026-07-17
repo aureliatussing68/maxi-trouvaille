@@ -1,0 +1,61 @@
+{
+  "productId": "ali_partner_20260527_support_pc_pliant_001",
+  "productName": "Support PC portable pliant aluminium ajustable",
+  "supplierForInternalValidation": {
+    "url": "https://www.aliexpress.com/item/4001153714549.html",
+    "sku": "AE-4001153714549-LAPTOP-STAND",
+    "supplierPrice": "11.80 EUR",
+    "salePrice": "19.70 EUR",
+    "stock": 35,
+    "currentDeliveryEstimate": "Délai court Europe à vérifier avant publication"
+  },
+  "status": "HOLD",
+  "finalDecision": "HOLD",
+  "reviewedByMouss": false,
+  "evidenceFields": {
+    "checkedAt": "",
+    "supplierSellerName": "",
+    "exactVariantChosen": "",
+    "deliveryFranceEuropeProof": "",
+    "deliveryEstimateForCustomer": "",
+    "trackingAvailable": "",
+    "pricingProof": "",
+    "shippingProof": "",
+    "imageProof": "",
+    "imageRightsProof": "",
+    "finalDecision": "HOLD",
+    "reviewedByMouss": "non"
+  },
+  "imageFilesToDeposit": [
+    {
+      "role": "main",
+      "expectedFileName": "01-support-pc-portable-pliant-aluminium-ajustable-main.webp",
+      "stagingRelativePath": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\01-support-pc-portable-pliant-aluminium-ajustable-main.webp",
+      "proof": ""
+    },
+    {
+      "role": "detail",
+      "expectedFileName": "02-support-pc-portable-pliant-aluminium-ajustable-detail.webp",
+      "stagingRelativePath": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\02-support-pc-portable-pliant-aluminium-ajustable-detail.webp",
+      "proof": ""
+    },
+    {
+      "role": "usage",
+      "expectedFileName": "03-support-pc-portable-pliant-aluminium-ajustable-usage.webp",
+      "stagingRelativePath": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\03-support-pc-portable-pliant-aluminium-ajustable-usage.webp",
+      "proof": ""
+    },
+    {
+      "role": "dimensions",
+      "expectedFileName": "04-support-pc-portable-pliant-aluminium-ajustable-dimensions.webp",
+      "stagingRelativePath": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\04-support-pc-portable-pliant-aluminium-ajustable-dimensions.webp",
+      "proof": ""
+    }
+  ],
+  "notes": [
+    "Remplir uniquement avec preuves visibles.",
+    "Ne pas publier automatiquement.",
+    "Ne pas commander chez le partenaire.",
+    "Ne pas payer."
+  ]
+}

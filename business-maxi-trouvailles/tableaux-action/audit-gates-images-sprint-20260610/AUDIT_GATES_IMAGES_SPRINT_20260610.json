@@ -1,0 +1,277 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-10T04:40:15.136Z",
+  "checkedAtLocal": "2026-06-10 06:40 Europe/Paris",
+  "mode": "read_only_sprint_image_review_gate_audit",
+  "productCount": 3,
+  "reviewAllowedCount": 0,
+  "blockedReviewCount": 3,
+  "supplierDomainImageCount": 14,
+  "missingLocalTargetCount": 14,
+  "hardFailureCount": 0,
+  "products": [
+    {
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "status": "draft",
+      "reviewGateStatus": "BLOCK_REVIEW_IMAGE_GATE",
+      "reviewAllowed": false,
+      "catalogUpdateAllowed": false,
+      "publicationAllowed": false,
+      "blockers": [
+        "catalogue_pointe_encore_vers_domaine_fournisseur",
+        "fichiers_webp_locaux_manquants",
+        "fichiers_webp_locaux_non_prets",
+        "catalogue_pas_encore_aligne_sur_images_locales",
+        "image_principale_pas_locale_cible",
+        "decision_droits_images_absente"
+      ],
+      "hardFailures": [],
+      "currentImageCount": 4,
+      "supplierDomainImageCount": 4,
+      "supplierDomainImages": [
+        {
+          "url": "https://ae01.alicdn.com/kf/H96187aa9cce24db3abab3d4ee6d43387A.jpg",
+          "host": "ae01.alicdn.com"
+        },
+        {
+          "url": "https://ae01.alicdn.com/kf/H7e620756cb9241908e87e78b9ea81c0eR.jpg",
+          "host": "ae01.alicdn.com"
+        },
+        {
+          "url": "https://ae01.alicdn.com/kf/H39d47561d0eb468b981fff8ecf358b35o.jpg",
+          "host": "ae01.alicdn.com"
+        },
+        {
+          "url": "https://ae01.alicdn.com/kf/H18a4f863437b4a549aaeec68ffeaf68e6.jpg",
+          "host": "ae01.alicdn.com"
+        }
+      ],
+      "targetImageCount": 4,
+      "missingLocalTargetCount": 4,
+      "notReadyLocalTargetCount": 4,
+      "catalogImagesUsingTargetsCount": 0,
+      "targetImages": [
+        {
+          "index": 1,
+          "role": "main",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260610/pochette-organisateur-cables-double-couche-voyage/01-pochette-organisateur-cables-double-couche-voyage-main.webp",
+          "exists": false,
+          "ready": false,
+          "sizeBytes": null
+        },
+        {
+          "index": 2,
+          "role": "detail",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260610/pochette-organisateur-cables-double-couche-voyage/02-pochette-organisateur-cables-double-couche-voyage-detail.webp",
+          "exists": false,
+          "ready": false,
+          "sizeBytes": null
+        },
+        {
+          "index": 3,
+          "role": "usage",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260610/pochette-organisateur-cables-double-couche-voyage/03-pochette-organisateur-cables-double-couche-voyage-usage.webp",
+          "exists": false,
+          "ready": false,
+          "sizeBytes": null
+        },
+        {
+          "index": 4,
+          "role": "dimensions",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260610/pochette-organisateur-cables-double-couche-voyage/04-pochette-organisateur-cables-double-couche-voyage-dimensions.webp",
+          "exists": false,
+          "ready": false,
+          "sizeBytes": null
+        }
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "status": "draft",
+      "reviewGateStatus": "BLOCK_REVIEW_IMAGE_GATE",
+      "reviewAllowed": false,
+      "catalogUpdateAllowed": false,
+      "publicationAllowed": false,
+      "blockers": [
+        "catalogue_pointe_encore_vers_domaine_fournisseur",
+        "fichiers_webp_locaux_manquants",
+        "fichiers_webp_locaux_non_prets",
+        "catalogue_pas_encore_aligne_sur_images_locales",
+        "image_principale_pas_locale_cible",
+        "decision_droits_images_absente"
+      ],
+      "hardFailures": [],
+      "currentImageCount": 4,
+      "supplierDomainImageCount": 4,
+      "supplierDomainImages": [
+        {
+          "url": "https://ae01.alicdn.com/kf/H5294085d8b5041c5b8fbe948596c8533v.jpg",
+          "host": "ae01.alicdn.com"
+        },
+        {
+          "url": "https://ae01.alicdn.com/kf/H864ee1fe7f264606959adaf92760757bD.jpg",
+          "host": "ae01.alicdn.com"
+        },
+        {
+          "url": "https://ae01.alicdn.com/kf/Hf5c5424d5e564649a49e4a953f0f2a7ds.jpg",
+          "host": "ae01.alicdn.com"
+        },
+        {
+          "url": "https://ae01.alicdn.com/kf/H67b2a1a46af54ef2867fa8970a7bf6aa7.jpg",
+          "host": "ae01.alicdn.com"
+        }
+      ],
+      "targetImageCount": 4,
+      "missingLocalTargetCount": 4,
+      "notReadyLocalTargetCount": 4,
+      "catalogImagesUsingTargetsCount": 0,
+      "targetImages": [
+        {
+          "index": 1,
+          "role": "main",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260610/support-pc-portable-pliant-aluminium-ajustable/01-support-pc-portable-pliant-aluminium-ajustable-main.webp",
+          "exists": false,
+          "ready": false,
+          "sizeBytes": null
+        },
+        {
+          "index": 2,
+          "role": "detail",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260610/support-pc-portable-pliant-aluminium-ajustable/02-support-pc-portable-pliant-aluminium-ajustable-detail.webp",
+          "exists": false,
+          "ready": false,
+          "sizeBytes": null
+        },
+        {
+          "index": 3,
+          "role": "usage",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260610/support-pc-portable-pliant-aluminium-ajustable/03-support-pc-portable-pliant-aluminium-ajustable-usage.webp",
+          "exists": false,
+          "ready": false,
+          "sizeBytes": null
+        },
+        {
+          "index": 4,
+          "role": "dimensions",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260610/support-pc-portable-pliant-aluminium-ajustable/04-support-pc-portable-pliant-aluminium-ajustable-dimensions.webp",
+          "exists": false,
+          "ready": false,
+          "sizeBytes": null
+        }
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "name": "Filet rangement coffre voiture à sangles fixes",
+      "status": "draft",
+      "reviewGateStatus": "BLOCK_REVIEW_IMAGE_GATE",
+      "reviewAllowed": false,
+      "catalogUpdateAllowed": false,
+      "publicationAllowed": false,
+      "blockers": [
+        "catalogue_pointe_encore_vers_domaine_fournisseur",
+        "fichiers_webp_locaux_manquants",
+        "fichiers_webp_locaux_non_prets",
+        "catalogue_pas_encore_aligne_sur_images_locales",
+        "image_principale_pas_locale_cible",
+        "decision_droits_images_absente"
+      ],
+      "hardFailures": [],
+      "currentImageCount": 6,
+      "supplierDomainImageCount": 6,
+      "supplierDomainImages": [
+        {
+          "url": "https://ae01.alicdn.com/kf/S29472ff5afbf4d1ca78000f1c0b3a369Q.jpg",
+          "host": "ae01.alicdn.com"
+        },
+        {
+          "url": "https://ae01.alicdn.com/kf/S516954e691da4ef9857091becb7343b34.jpg",
+          "host": "ae01.alicdn.com"
+        },
+        {
+          "url": "https://ae01.alicdn.com/kf/S7b56ddb00faa40309193053e9474af2c8.jpg",
+          "host": "ae01.alicdn.com"
+        },
+        {
+          "url": "https://ae01.alicdn.com/kf/S94bd12f8f3b24a3990527e50e828a942g.jpg",
+          "host": "ae01.alicdn.com"
+        },
+        {
+          "url": "https://ae01.alicdn.com/kf/Sd9fe0b226ac948daa1e0f168080c816aT.jpg",
+          "host": "ae01.alicdn.com"
+        },
+        {
+          "url": "https://ae01.alicdn.com/kf/S854264f3c2f948ce8ab9021776cbae5en.jpg",
+          "host": "ae01.alicdn.com"
+        }
+      ],
+      "targetImageCount": 6,
+      "missingLocalTargetCount": 6,
+      "notReadyLocalTargetCount": 6,
+      "catalogImagesUsingTargetsCount": 0,
+      "targetImages": [
+        {
+          "index": 1,
+          "role": "main",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260610/filet-rangement-coffre-voiture-a-sangles-fixes/01-filet-rangement-coffre-voiture-a-sangles-fixes-main.webp",
+          "exists": false,
+          "ready": false,
+          "sizeBytes": null
+        },
+        {
+          "index": 2,
+          "role": "detail",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260610/filet-rangement-coffre-voiture-a-sangles-fixes/02-filet-rangement-coffre-voiture-a-sangles-fixes-detail.webp",
+          "exists": false,
+          "ready": false,
+          "sizeBytes": null
+        },
+        {
+          "index": 3,
+          "role": "usage",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260610/filet-rangement-coffre-voiture-a-sangles-fixes/03-filet-rangement-coffre-voiture-a-sangles-fixes-usage.webp",
+          "exists": false,
+          "ready": false,
+          "sizeBytes": null
+        },
+        {
+          "index": 4,
+          "role": "dimensions",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260610/filet-rangement-coffre-voiture-a-sangles-fixes/04-filet-rangement-coffre-voiture-a-sangles-fixes-dimensions.webp",
+          "exists": false,
+          "ready": false,
+          "sizeBytes": null
+        },
+        {
+          "index": 5,
+          "role": "detail-5",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260610/filet-rangement-coffre-voiture-a-sangles-fixes/05-filet-rangement-coffre-voiture-a-sangles-fixes-detail-5.webp",
+          "exists": false,
+          "ready": false,
+          "sizeBytes": null
+        },
+        {
+          "index": 6,
+          "role": "detail-6",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260610/filet-rangement-coffre-voiture-a-sangles-fixes/06-filet-rangement-coffre-voiture-a-sangles-fixes-detail-6.webp",
+          "exists": false,
+          "ready": false,
+          "sizeBytes": null
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "localPlanPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\plan-local-images-sprint-20260610\\PLAN_LOCAL_IMAGES_SPRINT_20260610.json",
+    "quickProductsPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\data\\quick-products.json"
+  },
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true
+  }
+}

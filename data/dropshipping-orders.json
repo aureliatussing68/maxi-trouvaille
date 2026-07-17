@@ -1,0 +1,46 @@
+[
+  {
+    "id": "drop_1784310372106_dtgqlm",
+    "orderNumber": "MT-DROP-20260717-XWX6P",
+    "stripeSessionId": "cs_test_b1xokKtPelpz5kQrjFokMdD8hLnVlbDkfivjyrPfvXBnatbB44HaHJ3fOp",
+    "paymentStatus": "stripe-session-created",
+    "status": "a-traiter",
+    "stockDecrementStatus": "pending-payment",
+    "customer": {
+      "name": "Test Client",
+      "email": "test@example.com",
+      "phone": "0600000000"
+    },
+    "shippingAddress": {
+      "street": "1 rue de la Paix",
+      "postalCode": "75001",
+      "city": "Paris",
+      "country": "France",
+      "methodLabel": "Livraison suivie à domicile"
+    },
+    "lines": [
+      {
+        "productId": "ali_partner_20260605_peigne_autonettoyant_chat_001",
+        "productSlug": "peigne-poils-chat-autonettoyant",
+        "productName": "Peigne poils chat autonettoyant",
+        "image": "/uploads/quick-products/peigne-poils-chat-autonettoyant-photo-1.webp",
+        "quantity": 1,
+        "supplierName": "AliExpress",
+        "supplierUrl": "https://www.aliexpress.com/item/1005007639873197.html",
+        "supplierSku": "AE-1005007639873197-PET-COMB",
+        "supplierPriceCents": 110,
+        "soldPriceCents": 690,
+        "marginCents": 580,
+        "supplierStock": 45,
+        "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres"
+      }
+    ],
+    "supplierTotalCents": 110,
+    "soldTotalCents": 690,
+    "estimatedMarginCents": 580,
+    "shippingPriceCents": 390,
+    "internalNote": "Commande fournisseur a valider manuellement. Aucun achat fournisseur automatique n'est execute.",
+    "createdAt": "2026-07-17T17:46:12.106Z",
+    "updatedAt": "2026-07-17T17:46:12.106Z"
+  }
+]

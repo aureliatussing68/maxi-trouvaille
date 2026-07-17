@@ -1,0 +1,42 @@
+Regression alignement validation fournisseur/import - 2026-05-25 06:39:53
+
+Global: OK
+Message alignement: Alignement fournisseur/import bloque: 2/6 point(s), aucune action lancee.
+Points OK: 4/6
+Points bloquants: 2
+
+Assertions:
+- json_written: OK
+- txt_written: OK
+- alignment_ok: OK
+- route_supplier_import_validation_alignment: OK
+- execute_supplier_import_validation_alignment: OK
+- executor_payload_ok: OK
+- current_state_blocked: OK
+- global_lane_ready: OK
+- alignment_counts: OK
+- alignment_blockers: OK
+- supplier_checklist_state: OK
+- global_blocked_components: OK
+- evidence_counts: OK
+- queue_counts: OK
+- import_locked: OK
+- unlock_denied: OK
+- generic_confirmation_denied: OK
+- no_queue_rows_exposed: OK
+- no_product_or_path_content: OK
+- read_only_alignment: OK
+- no_pending_confirmation: OK
+- no_web_or_api_started: OK
+- no_scraping_or_subprocess: OK
+- no_business_job_or_sourcing: OK
+- site_not_modified: OK
+- no_import_review: OK
+- no_import_order_payment_publication: OK
+- no_delete: OK
+- no_secret_values: OK
+- no_content_exposed: OK
+- txt_mentions_alignment: OK
+- no_secret_like_value_in_reports: OK
+
+Regression alignement validation fournisseur/import: sas global coherent, lecture seule, aucune action externe.

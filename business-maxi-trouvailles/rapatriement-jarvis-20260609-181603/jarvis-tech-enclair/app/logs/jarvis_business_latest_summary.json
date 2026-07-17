@@ -1,0 +1,108 @@
+{
+  "checked_at": "2026-06-09 17:57:31",
+  "ok": true,
+  "short_message": "Resultats business: 10 candidat(s), fiche Produit fictif - organisateur malin de bureau, 3 pub(s) brouillon, validation obligatoire.",
+  "project_path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille",
+  "files": {
+    "latest_candidates": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\latest_candidates.json",
+    "latest_product_sheet": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\fiches-produits\\latest_product_sheet.json",
+    "latest_ads_manifest": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\latest_ads_manifest.json"
+  },
+  "candidates_generated_at": "2026-05-22T14:51:43.071Z",
+  "candidates_mode": "demo_local_no_scraping",
+  "candidate_count": 10,
+  "top_candidates": [
+    {
+      "name": "Lampe LED rechargeable magnetique pour bureau",
+      "category": "maison",
+      "supplier_price": "7,90 €",
+      "sale_price": "17,90 €",
+      "margin": "10,00 €",
+      "delivery": "Europe 5 a 9 jours apres verification fournisseur",
+      "risk": "faible",
+      "score": 100,
+      "source": "manual://demo/lampe-led-rechargeable",
+      "publication_status": "not_published"
+    },
+    {
+      "name": "Organisateur de cables de voyage compact",
+      "category": "accessoires",
+      "supplier_price": "3,90 €",
+      "sale_price": "12,90 €",
+      "margin": "9,00 €",
+      "delivery": "Europe 4 a 8 jours apres verification fournisseur",
+      "risk": "faible",
+      "score": 100,
+      "source": "manual://demo/organisateur-cables",
+      "publication_status": "not_published"
+    },
+    {
+      "name": "Mini aspirateur sans fil pour voiture",
+      "category": "auto-moto",
+      "supplier_price": "12,90 €",
+      "sale_price": "29,90 €",
+      "margin": "17,00 €",
+      "delivery": "Europe 6 a 10 jours apres verification fournisseur",
+      "risk": "faible",
+      "score": 100,
+      "source": "manual://demo/mini-aspirateur-voiture",
+      "publication_status": "not_published"
+    },
+    {
+      "name": "Support telephone voiture rotation 360",
+      "category": "telephonie",
+      "supplier_price": "4,20 €",
+      "sale_price": "13,90 €",
+      "margin": "9,70 €",
+      "delivery": "Europe 5 a 8 jours apres verification fournisseur",
+      "risk": "faible",
+      "score": 100,
+      "source": "manual://demo/support-telephone-voiture",
+      "publication_status": "not_published"
+    },
+    {
+      "name": "Brosse anti-poils reutilisable pour animaux",
+      "category": "animaux",
+      "supplier_price": "5,60 €",
+      "sale_price": "14,90 €",
+      "margin": "9,30 €",
+      "delivery": "Europe 5 a 9 jours apres verification fournisseur",
+      "risk": "faible",
+      "score": 100,
+      "source": "manual://demo/brosse-anti-poils",
+      "publication_status": "not_published"
+    }
+  ],
+  "product_sheet": {
+    "title": "Produit fictif - organisateur malin de bureau",
+    "status": "brouillon_validation_humaine",
+    "publication_status": "not_published",
+    "category": "maison",
+    "promo_price": "14,90 €",
+    "supplier_price": "5,90 €",
+    "margin": "9,00 €",
+    "supplier_url": "manual://demo/produit-fictif",
+    "validation_required": true
+  },
+  "ads": {
+    "product": "Produit fictif - organisateur malin de bureau",
+    "status": "ads_brouillon_validation_humaine",
+    "platforms": [
+      "tiktok",
+      "instagram",
+      "snapchat"
+    ],
+    "publication_statuses": [
+      "not_published",
+      "not_published",
+      "not_published"
+    ]
+  },
+  "safety": {
+    "read_only": true,
+    "publication_triggered": false,
+    "import_triggered": false,
+    "order_triggered": false,
+    "manual_validation_required": true
+  }
+}

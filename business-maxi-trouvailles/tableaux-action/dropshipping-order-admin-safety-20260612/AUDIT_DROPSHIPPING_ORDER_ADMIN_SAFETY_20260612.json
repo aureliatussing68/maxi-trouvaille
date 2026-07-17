@@ -1,0 +1,80 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-12T07:55:22.779Z",
+  "mode": "read_only_dropshipping_order_admin_safety_audit",
+  "checkCount": 11,
+  "failureCount": 0,
+  "disabledGuardedControlCount": 6,
+  "onUpdateCalls": 4,
+  "checks": [
+    {
+      "name": "readiness_helper_exists",
+      "ok": true,
+      "detail": "La readiness fournisseur vient du helper partage src/lib/dropshipping-operations.ts."
+    },
+    {
+      "name": "paid_payment_required",
+      "ok": true,
+      "detail": "Une action fournisseur exige une commande marquee paid par webhook."
+    },
+    {
+      "name": "stock_done_required",
+      "ok": true,
+      "detail": "Une action fournisseur exige un stock webhook ajuste avec statut done."
+    },
+    {
+      "name": "failed_or_skipped_stock_blocked",
+      "ok": true,
+      "detail": "Les statuts stock failed/skipped restent bloques avant fournisseur."
+    },
+    {
+      "name": "supplier_actions_enabled_is_derived",
+      "ok": true,
+      "detail": "Les boutons et champs utilisent la readiness calculee, pas un etat libre."
+    },
+    {
+      "name": "supplier_controls_disabled",
+      "ok": true,
+      "detail": "Preparation fournisseur, reference, tracking et suivi client sont desactives si la commande n'est pas prete."
+    },
+    {
+      "name": "all_supplier_updates_have_visible_guard",
+      "ok": true,
+      "detail": "L'admin affiche clairement le blocage ou l'ouverture des actions fournisseur."
+    },
+    {
+      "name": "summary_flags_stock_exceptions",
+      "ok": true,
+      "detail": "Le haut de l'admin signale les commandes payees dont le stock webhook n'est pas valide."
+    },
+    {
+      "name": "readiness_has_no_side_effect",
+      "ok": true,
+      "detail": "Les helpers operations restent en lecture locale sans appel reseau ni commande fournisseur."
+    },
+    {
+      "name": "operations_board_uses_shared_contract",
+      "ok": true,
+      "detail": "Le board operations reutilise le meme helper partage que l'admin."
+    },
+    {
+      "name": "client_marketplace_names_stay_hidden",
+      "ok": true,
+      "detail": "Le panneau admin ne reintroduit aucune mention marketplace fournisseur dans la surface."
+    }
+  ],
+  "failures": [],
+  "filesInspected": [
+    "src/components/DropshippingAdminPanel.tsx",
+    "src/lib/dropshipping-operations.ts",
+    "scripts/automation/prepare_dropshipping_order_operations_board.mjs"
+  ],
+  "safety": {
+    "readOnlyAudit": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noPublication": true,
+    "noExternalApiCall": true,
+    "noSecretsCopied": true
+  }
+}

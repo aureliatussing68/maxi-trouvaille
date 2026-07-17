@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-05-24 22:08:17",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "plans_present": true,
+    "selected_count_matches_rows": true,
+    "queries_present": true,
+    "checks_present": true,
+    "short_message_present": true,
+    "txt_mentions_short_message": true,
+    "route_business_supplier_verification": true,
+    "execute_business_supplier_verification": true,
+    "executor_uses_short_message": true,
+    "each_row_manual_validation": true,
+    "read_only": true,
+    "no_web_search_started": true,
+    "no_import": true,
+    "no_order": true,
+    "no_payment": true,
+    "no_publication": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true,
+    "no_secret_like_value_in_text": true
+  },
+  "short_message": "Plan fournisseurs: 5 produit(s), 0 source(s) reelle(s), aucune recherche lancee.",
+  "executor_message": "Plan fournisseurs: 5 produit(s), 0 source(s) reelle(s), aucune recherche lancee.",
+  "selected_count": 5,
+  "note": "Regression lecture seule du plan verification fournisseurs. Plan uniquement, aucune recherche web."
+}

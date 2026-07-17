@@ -1,0 +1,298 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-19T02:24:52.576Z",
+  "generatedAtLocal": "2026-06-19 04:24 Europe/Paris",
+  "mode": "read_only_offline_demo_mobile_audit",
+  "offlinePagePath": "src/app/offline/page.tsx",
+  "serviceWorkerPath": "public/sw.js",
+  "serviceWorkerRegistrationPath": "src/components/ServiceWorkerRegister.tsx",
+  "layoutPath": "src/app/layout.tsx",
+  "requiredOfflineSignals": [
+    "Chemin demo mobile",
+    "CustomerSupportQuickLinks",
+    "Paiement Maxi Trouvaille",
+    "Rien n&apos;est envoye hors ligne.",
+    "/",
+    "/boutique",
+    "/produits-partenaires",
+    "/suivi-colis",
+    "/contact"
+  ],
+  "requiredDemoRoutes": [
+    "/boutique",
+    "/produits-partenaires",
+    "/nouveautes",
+    "/promotions",
+    "/suivi-colis",
+    "/contact"
+  ],
+  "requiredRegistrationSignals": [
+    {
+      "label": "Client Component isole",
+      "value": "\"use client\";",
+      "detail": "Le composant d'enregistrement doit rester client-only pour utiliser window/navigator."
+    },
+    {
+      "label": "API navigateur gardee",
+      "value": "\"serviceWorker\" in navigator",
+      "detail": "L'enregistrement doit verifier le support navigateur avant d'appeler navigator.serviceWorker."
+    },
+    {
+      "label": "Contexte securise",
+      "value": "window.isSecureContext",
+      "detail": "Le service worker doit rester limite aux contextes securises ou au local."
+    },
+    {
+      "label": "Localhost IPv4",
+      "value": "127.0.0.1",
+      "detail": "La demo locale IPv4 doit continuer a accepter le service worker."
+    },
+    {
+      "label": "Localhost IPv6",
+      "value": "::1",
+      "detail": "La demo locale IPv6 doit continuer a accepter le service worker."
+    },
+    {
+      "label": "Scope racine",
+      "value": "navigator.serviceWorker",
+      "detail": "Le composant doit piloter navigator.serviceWorker cote client."
+    },
+    {
+      "label": "URL service worker",
+      "value": "serviceWorkerUrl = \"/sw.js\"",
+      "detail": "L'enregistrement doit rester pointe sur public/sw.js."
+    },
+    {
+      "label": "Scope public",
+      "value": "serviceWorkerScope = \"/\"",
+      "detail": "Le scope doit couvrir la surface publique de demo."
+    },
+    {
+      "label": "Register silencieux",
+      "value": ".register(serviceWorkerUrl, { scope: serviceWorkerScope })",
+      "detail": "Le service worker doit rester enregistre avec le scope public attendu."
+    },
+    {
+      "label": "Update silencieux",
+      "value": "registration.update()",
+      "detail": "Le service worker doit pouvoir recuperer une version precache plus recente."
+    },
+    {
+      "label": "Annulation propre",
+      "value": "cancelled",
+      "detail": "L'effet doit eviter de poursuivre apres demontage du composant."
+    }
+  ],
+  "forbiddenOfflineShortcutUrls": [
+    "/admin",
+    "/api",
+    "/panier",
+    "/paiement",
+    "/dropshipping",
+    "/conditions-dropshipping",
+    "/vendre",
+    "/deposer-annonce"
+  ],
+  "offlineHrefs": [
+    {
+      "value": "/boutique",
+      "line": 27
+    },
+    {
+      "value": "/produits-partenaires",
+      "line": 33
+    },
+    {
+      "value": "/suivi-colis",
+      "line": 39
+    },
+    {
+      "value": "/",
+      "line": 80
+    },
+    {
+      "value": "/produits-partenaires",
+      "line": 85
+    },
+    {
+      "value": "/contact",
+      "line": 90
+    },
+    {
+      "value": "/",
+      "line": 117
+    },
+    {
+      "value": "/boutique",
+      "line": 123
+    }
+  ],
+  "offlineHrefCount": 8,
+  "appShellUrls": [
+    {
+      "value": "/",
+      "line": 2
+    },
+    {
+      "value": "/offline",
+      "line": 2
+    },
+    {
+      "value": "/icons/icon-192.png",
+      "line": 3
+    },
+    {
+      "value": "/icons/icon-512.png",
+      "line": 5
+    },
+    {
+      "value": "/icons/icon-maskable-512.png",
+      "line": 6
+    },
+    {
+      "value": "/icons/apple-touch-icon.png",
+      "line": 7
+    }
+  ],
+  "demoRoutes": [
+    {
+      "value": "/boutique",
+      "line": 10
+    },
+    {
+      "value": "/produits-partenaires",
+      "line": 10
+    },
+    {
+      "value": "/nouveautes",
+      "line": 12
+    },
+    {
+      "value": "/promotions",
+      "line": 12
+    },
+    {
+      "value": "/suivi-colis",
+      "line": 13
+    },
+    {
+      "value": "/contact",
+      "line": 14
+    }
+  ],
+  "demoRouteCount": 6,
+  "precacheUrls": [
+    {
+      "value": "/",
+      "line": 2
+    },
+    {
+      "value": "/offline",
+      "line": 2
+    },
+    {
+      "value": "/icons/icon-192.png",
+      "line": 3
+    },
+    {
+      "value": "/icons/icon-512.png",
+      "line": 5
+    },
+    {
+      "value": "/icons/icon-maskable-512.png",
+      "line": 6
+    },
+    {
+      "value": "/icons/apple-touch-icon.png",
+      "line": 7
+    },
+    {
+      "value": "/boutique",
+      "line": 10
+    },
+    {
+      "value": "/produits-partenaires",
+      "line": 10
+    },
+    {
+      "value": "/nouveautes",
+      "line": 12
+    },
+    {
+      "value": "/promotions",
+      "line": 12
+    },
+    {
+      "value": "/suivi-colis",
+      "line": 13
+    },
+    {
+      "value": "/contact",
+      "line": 14
+    }
+  ],
+  "precacheUrlCount": 12,
+  "registrationSignals": [
+    {
+      "label": "Client Component isole",
+      "line": 1
+    },
+    {
+      "label": "API navigateur gardee",
+      "line": 10
+    },
+    {
+      "label": "Contexte securise",
+      "line": 19
+    },
+    {
+      "label": "Localhost IPv4",
+      "line": 16
+    },
+    {
+      "label": "Localhost IPv6",
+      "line": 17
+    },
+    {
+      "label": "Scope racine",
+      "line": 30
+    },
+    {
+      "label": "URL service worker",
+      "line": 5
+    },
+    {
+      "label": "Scope public",
+      "line": 6
+    },
+    {
+      "label": "Register silencieux",
+      "line": 31
+    },
+    {
+      "label": "Update silencieux",
+      "line": 37
+    },
+    {
+      "label": "Annulation propre",
+      "line": 23
+    }
+  ],
+  "registrationSignalCount": 11,
+  "findingCount": 0,
+  "findings": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true,
+    "noExternalRequest": true
+  },
+  "files": {
+    "json": "business-maxi-trouvailles/tableaux-action/audit-offline-demo-mobile-20260619/AUDIT_OFFLINE_DEMO_MOBILE_20260619.json",
+    "md": "business-maxi-trouvailles/tableaux-action/audit-offline-demo-mobile-20260619/AUDIT_OFFLINE_DEMO_MOBILE_20260619.md",
+    "csv": "business-maxi-trouvailles/tableaux-action/audit-offline-demo-mobile-20260619/maxi-audit-offline-demo-mobile-20260619.csv"
+  }
+}

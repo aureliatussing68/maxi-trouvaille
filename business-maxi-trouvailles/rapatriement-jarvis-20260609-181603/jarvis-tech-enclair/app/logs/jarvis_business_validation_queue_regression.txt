@@ -1,0 +1,29 @@
+Regression file produits a valider - 2026-05-31 05:09:12
+Global: OK
+Message court: File validation: 6 produit(s), 0 pret(s), 6 a relire, validation manuelle.
+Produits lus: 6
+Bloques: 6
+Prets: 0
+Message executor: File validation: 6 produit(s), 0 pret(s), 6 a relire, validation manuelle.
+
+- json_written: OK
+- txt_written: OK
+- queue_dir_present: OK
+- rows_list_present: OK
+- at_least_one_review_pack: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- route_business_validation_queue: OK
+- execute_business_validation_queue: OK
+- executor_uses_short_message: OK
+- read_only: OK
+- site_not_modified: OK
+- import_not_started: OK
+- order_not_started: OK
+- payment_not_started: OK
+- publication_not_started: OK
+- manual_validation_required: OK
+- no_values_exposed: OK
+- no_secret_like_value_in_report: OK
+
+Securite: lecture seule, aucun secret, aucun import/commande/paiement/publication.

@@ -1,0 +1,91 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "ok": true,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "metrics": {
+      "title": "Maxi Trouvaille - Boutique dropshipping",
+      "h1": "Maxi Trouvaille",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "bodyHeight": 8186,
+      "headings": [
+        "Maxi Trouvaille",
+        "Dropshipping encadré",
+        "Validation humaine",
+        "Suivi colis",
+        "Une vitrine propre, sans fiche produit fragile.",
+        "Rayons dropshipping prioritaires"
+      ]
+    },
+    "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-production-mobile\\home-viewport.png"
+  },
+  {
+    "route": "/boutique",
+    "status": 200,
+    "ok": true,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "metrics": {
+      "title": "Boutique dropshipping | Maxi Trouvaille",
+      "h1": "Produits partenaires Maxi Trouvaille",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "bodyHeight": 7876,
+      "headings": [
+        "Produits partenaires Maxi Trouvaille",
+        "Nouveautés, promotions et catégories prioritaires",
+        "Une vitrine propre, sans fiche produit fragile.",
+        "Boutique",
+        "Aide"
+      ]
+    },
+    "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-production-mobile\\boutique-viewport.png"
+  },
+  {
+    "route": "/produits-partenaires",
+    "status": 200,
+    "ok": true,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "metrics": {
+      "title": "Produits partenaires | Maxi Trouvaille",
+      "h1": "Boutique dropshipping Maxi Trouvaille",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "bodyHeight": 7920,
+      "headings": [
+        "Boutique dropshipping Maxi Trouvaille",
+        "Paiement sécurisé",
+        "Livraison estimée",
+        "Validation humaine",
+        "Une vitrine propre, sans fiche produit fragile.",
+        "Promotions et nouveautés en avant"
+      ]
+    },
+    "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-production-mobile\\produits-partenaires-viewport.png"
+  },
+  {
+    "route": "/suivi-colis",
+    "status": 200,
+    "ok": true,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "metrics": {
+      "title": "Suivi colis | Maxi Trouvaille",
+      "h1": "Suivi de commande",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "bodyHeight": 1354,
+      "headings": [
+        "Suivi de commande",
+        "Suivre un colis",
+        "Boutique",
+        "Aide"
+      ]
+    },
+    "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-production-mobile\\suivi-colis-viewport.png"
+  }
+]

@@ -1,5 +1,6 @@
 import { NextResponse } from "next/server";
 import { isAdminModeEnabled } from "@/lib/admin";
+import { adminApiUnavailable } from "@/lib/admin-api";
 import {
   deleteReview,
   updateReviewAdmin,
@@ -13,13 +14,9 @@ type AdminReviewRouteProps = {
   params: Promise<{ reviewId: string }>;
 };
 
-function requireAdmin() {
-  return isAdminModeEnabled();
-}
-
 export async function PATCH(request: Request, { params }: AdminReviewRouteProps) {
-  if (!requireAdmin()) {
-    return NextResponse.json({ error: "Admin desactive." }, { status: 403 });
+  if (!isAdminModeEnabled()) {
+    return adminApiUnavailable();
   }
 
   const { reviewId } = await params;
@@ -45,8 +42,8 @@ export async function PATCH(request: Request, { params }: AdminReviewRouteProps)
 }
 
 export async function DELETE(_request: Request, { params }: AdminReviewRouteProps) {
-  if (!requireAdmin()) {
-    return NextResponse.json({ error: "Admin desactive." }, { status: 403 });
+  if (!isAdminModeEnabled()) {
+    return adminApiUnavailable();
   }
 
   const { reviewId } = await params;

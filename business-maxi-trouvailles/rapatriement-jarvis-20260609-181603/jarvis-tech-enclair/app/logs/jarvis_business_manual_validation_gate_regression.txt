@@ -1,0 +1,72 @@
+Regression sas validation business - 2026-06-08 21:56:00
+
+Global: OK
+Message sas: Sas validation business bloque: 1 point(s), aucune execution auto.
+
+Composants:
+- business_handoff_gate
+- business_execution_guard
+- business_confirmation_barrier
+- business_validation_decision_status
+- business_import_gate
+
+Assertions:
+- json_written: OK
+- txt_written: OK
+- gate_ok: OK
+- route_business_manual_validation_gate: OK
+- execute_business_manual_validation_gate: OK
+- components_present: OK
+- automatic_unlock_denied: OK
+- generic_voice_confirmation_no_unlock: OK
+- manual_validation_required: OK
+- runtime_handoff_present: OK
+- runtime_handoff_matches_business_handoff: OK
+- runtime_handoff_status_present: OK
+- runtime_handoff_dry_run: OK
+- runtime_handoff_manual_confirmation: OK
+- runtime_handoff_no_process_start: OK
+- runtime_handoff_no_process_kill: OK
+- runtime_handoff_no_container_change: OK
+- runtime_handoff_no_window_action: OK
+- runtime_handoff_no_browser_open: OK
+- runtime_handoff_no_ai_secret: OK
+- runtime_handoff_paths_hidden: OK
+- runtime_handoff_no_process_started: OK
+- runtime_handoff_no_process_killed: OK
+- runtime_handoff_no_container_changed: OK
+- runtime_recovery_not_started: OK
+- runtime_handoff_source_display_only: OK
+- runtime_handoff_source_snapshot_only: OK
+- runtime_handoff_source_handoff_only: OK
+- no_business_job_started: OK
+- no_subprocess_started: OK
+- no_sourcing: OK
+- no_pending_or_confirmation: OK
+- no_import_order_payment_publication: OK
+- no_delete: OK
+- read_only_aggregation: OK
+- no_secret_values: OK
+- no_content_exposed: OK
+- uses_business_execution_snapshot: OK
+- uses_business_handoff_snapshot: OK
+- uses_runtime_handoff_snapshot: OK
+- runtime_handoff_display_only: OK
+- runtime_handoff_snapshot_only: OK
+- runtime_handoff_handoff_only: OK
+- runtime_handoff_dry_run_only: OK
+- runtime_handoff_safety_no_process_start: OK
+- runtime_handoff_safety_no_process_kill: OK
+- runtime_handoff_safety_no_container_change: OK
+- runtime_handoff_safety_manual_confirmation: OK
+- runtime_handoff_safety_no_window_action: OK
+- runtime_handoff_safety_no_browser_open: OK
+- runtime_handoff_safety_no_ai_secret: OK
+- runtime_handoff_safety_paths_hidden: OK
+- runtime_handoff_safety_matches_business_handoff: OK
+- no_runtime_recovery_started: OK
+- txt_mentions_runtime_handoff: OK
+- txt_mentions_gate: OK
+- no_secret_like_value_in_reports: OK
+
+Regression lecture seule: le sas business agrege les gardes sans creer de deverrouillage automatique.

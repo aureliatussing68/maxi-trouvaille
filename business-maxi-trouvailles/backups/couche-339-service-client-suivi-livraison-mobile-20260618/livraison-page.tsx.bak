@@ -1,0 +1,138 @@
+import type { Metadata } from "next";
+import type { LucideIcon } from "lucide-react";
+import {
+  Handshake,
+  Headphones,
+  MapPin,
+  PackageCheck,
+  Route,
+  ShieldCheck,
+  Truck,
+} from "lucide-react";
+import { CustomerJourneyPanel } from "@/components/CustomerJourneyPanel";
+import { PageHeader } from "@/components/PageHeader";
+
+type DeliveryPromise = {
+  icon: LucideIcon;
+  title: string;
+  text: string;
+};
+
+const deliveryPromises: DeliveryPromise[] = [
+  {
+    icon: ShieldCheck,
+    title: "Délai affiché avant paiement",
+    text: "La fiche validée indique un délai client clair avant l'ouverture du paiement.",
+  },
+  {
+    icon: Truck,
+    title: "Expédition suivie",
+    text: "Le suivi colis est rattaché à la commande dès que l'expédition est confirmée.",
+  },
+  {
+    icon: Headphones,
+    title: "Contact Maxi Trouvaille",
+    text: "Le client garde Maxi Trouvaille comme interlocuteur en cas de question.",
+  },
+];
+
+export const metadata: Metadata = {
+  title: "Livraison",
+  description:
+    "Livraison Maxi Trouvaille avec suivi colis, paiement sécurisé et préparation par partenaire logistique.",
+};
+
+export default function ShippingPage() {
+  return (
+    <>
+      <PageHeader
+        eyebrow="Livraison"
+        title="Livraison claire avant paiement"
+        description="Maxi Trouvaille présente des options simples, le suivi colis et l'expédition par partenaire logistique pour les produits concernés."
+      />
+      <section className="container-page border-b border-line py-10">
+        <CustomerJourneyPanel />
+      </section>
+      <section className="container-page border-b border-line py-10">
+        <div className="grid gap-4 rounded-lg border border-line bg-[#faf7f0] p-5 shadow-sm lg:grid-cols-[1fr_1.1fr] lg:items-center">
+          <div>
+            <p className="text-sm font-black uppercase text-teal">
+              Livraison partenaire
+            </p>
+            <h2 className="mt-2 text-2xl font-black">
+              Une livraison expliquée avant chaque achat.
+            </h2>
+            <p className="mt-3 text-sm leading-6 text-muted">
+              Les produits partenaires restent simples à comprendre: le client
+              paie Maxi Trouvaille, reçoit un délai estimé et retrouve son suivi
+              colis depuis Maxi Trouvaille.
+            </p>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-3">
+            {deliveryPromises.map((item) => {
+              const Icon = item.icon;
+
+              return (
+                <article
+                  key={item.title}
+                  className="rounded-lg border border-line bg-white p-4"
+                >
+                  <span className="flex h-10 w-10 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
+                    <Icon size={19} aria-hidden="true" />
+                  </span>
+                  <h3 className="mt-4 text-sm font-black">{item.title}</h3>
+                  <p className="mt-2 text-xs font-semibold leading-5 text-muted">
+                    {item.text}
+                  </p>
+                </article>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+      <section className="container-page grid gap-5 py-10 md:grid-cols-2">
+        <article className="rounded-lg border border-line bg-paper p-6 shadow-sm">
+          <Handshake className="mb-4 text-teal" size={28} aria-hidden="true" />
+          <h2 className="text-xl font-black">Remise en main propre gratuite</h2>
+          <p className="mt-3 text-sm leading-6 text-muted">
+            Frais de livraison a 0 €. Le retrait est a convenir directement avec
+            Maxi Trouvaille selon les disponibilites.
+          </p>
+        </article>
+        <article className="rounded-lg border border-line bg-paper p-6 shadow-sm">
+          <MapPin className="mb-4 text-teal" size={28} aria-hidden="true" />
+          <h2 className="text-xl font-black">Mondial Relay a partir de 4,90 €</h2>
+          <p className="mt-3 text-sm leading-6 text-muted">
+            Le panier demande les coordonnées utiles pour préparer le relais et
+            garder une livraison lisible.
+          </p>
+        </article>
+        <article className="rounded-lg border border-line bg-paper p-6 shadow-sm">
+          <Truck className="mb-4 text-teal" size={28} aria-hidden="true" />
+          <h2 className="text-xl font-black">Colissimo domicile a partir de 7,90 €</h2>
+          <p className="mt-3 text-sm leading-6 text-muted">
+            Pour Colissimo, l&apos;adresse complete est demandee avant paiement afin
+            de preparer l&apos;expedition a domicile.
+          </p>
+        </article>
+        <article className="rounded-lg border border-line bg-paper p-6 shadow-sm">
+          <PackageCheck className="mb-4 text-teal" size={28} aria-hidden="true" />
+          <h2 className="text-xl font-black">Objets volumineux sur devis</h2>
+          <p className="mt-3 text-sm leading-6 text-muted">
+            Certains produits peuvent etre limites au retrait ou demander un devis
+            personnalise. Dans ce cas, Mondial Relay et Colissimo ne sont pas
+            proposes dans le panier.
+          </p>
+        </article>
+        <article className="rounded-lg border border-line bg-paper p-6 shadow-sm">
+          <Route className="mb-4 text-teal" size={28} aria-hidden="true" />
+          <h2 className="text-xl font-black">Produits partenaires</h2>
+          <p className="mt-3 text-sm leading-6 text-muted">
+            Les produits partenaires affichent un délai estimé propre. Le suivi
+            colis sera ajouté dès que l&apos;expédition est confirmée.
+          </p>
+        </article>
+      </section>
+    </>
+  );
+}

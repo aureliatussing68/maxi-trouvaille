@@ -1,0 +1,79 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-11T11:44:56.477Z",
+  "targetUrl": "http://127.0.0.1:3048/admin/preuves-partenaires?status=hold&zone=image",
+  "checks": [
+    {
+      "label": "desktop",
+      "viewport": {
+        "width": 1366,
+        "height": 900
+      },
+      "url": "http://127.0.0.1:3048/admin/preuves-partenaires?status=hold&zone=image",
+      "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-127-checklist-session-sprint-desktop.png",
+      "visible": {
+        "checklist": true,
+        "export": true
+      },
+      "checkboxes": 15,
+      "firstCheckboxEnabled": true,
+      "firstCheckboxBefore": false,
+      "firstCheckboxAfter": true,
+      "downloadName": "maxi-sprint-zone-hold-image-toutes.csv",
+      "csvChecks": {
+        "dataUrl": true,
+        "filename": true,
+        "checklistColumn": true,
+        "sessionImageColumn": true,
+        "sessionSupplierColumn": true,
+        "sessionValidationColumn": true,
+        "sprintLinkColumn": true
+      },
+      "csvPreview": [
+        "\"ordre_zone\",\"zone_preuve\",\"score\",\"produit\",\"slug\",\"categorie\",\"statut\",\"action_zone\",\"checklist_session\",\"preuves_a_remplir\",\"zones_preuves\",\"image\",\"marge\",\"livraison\",\"blocages\",\"session_image_ok\",\"session_fournisseur_ok\",\"session_prix_ok\",\"session_livraison_ok\",\"session_validation_mouss\",\"note_session\",\"lien_sprint\"",
+        "\"1\",\"image\",\"217\",\"Pochette organisateur câbles double couche voyage\",\"pochette-organisateur-cables-double-couche-voyage\",\"dropshipping-accessoires\",\"HOLD_MISSING_EVIDENCE\",\"Prouver l'image exacte et les droits de pochette-organisateur-cables-double-couche-voyage, puis garder la fiche en HOLD.\",\"Image exacte: Image exacte prioritaire | Fournisseur et SKU: a confirmer sur la fiche pochette-organisateur-cables-double-couche-voyage | Prix, marge et stock: Marge a verrouiller | Livraison, suivi et delai France/Europe: Delai a prouver | Validation Mouss: garder HOLD tant que tout n'est pas coche\",\"2\",\"Fournisseur/SKU | Livraison/suivi\",\"Image exacte prioritaire\",\"Marge a verrouiller\",\"Delai a prouver\",\"Date de verification | Renseigner la date exacte de controle fournisseur. | Nom vendeur fournisseur | Copier le nom du vendeur affiche sur la page fournisseur. | Variante exacte | Preciser couleur, format, lot, taille ou option vendue. | Preuve delai France/Europe | Noter la preuve visible du delai France/Europe.\",\"\",\"\",\"\",\"\",\"\",\"\",\"/admin/preuves-partenaires?status=hold&q=pochette-organisateur-cables-double-couche-voyage&zone=image#top-verification-pochette-organisateur-cables-double-couche-voyage\""
+      ],
+      "overflow": {
+        "horizontalOverflow": 0,
+        "offenders": []
+      },
+      "consoleErrors": []
+    },
+    {
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:3048/admin/preuves-partenaires?status=hold&zone=image",
+      "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-127-checklist-session-sprint-mobile.png",
+      "visible": {
+        "checklist": true,
+        "export": true
+      },
+      "checkboxes": 15,
+      "firstCheckboxEnabled": true,
+      "firstCheckboxBefore": false,
+      "firstCheckboxAfter": true,
+      "downloadName": "maxi-sprint-zone-hold-image-toutes.csv",
+      "csvChecks": {
+        "dataUrl": true,
+        "filename": true,
+        "checklistColumn": true,
+        "sessionImageColumn": true,
+        "sessionSupplierColumn": true,
+        "sessionValidationColumn": true,
+        "sprintLinkColumn": true
+      },
+      "csvPreview": [
+        "\"ordre_zone\",\"zone_preuve\",\"score\",\"produit\",\"slug\",\"categorie\",\"statut\",\"action_zone\",\"checklist_session\",\"preuves_a_remplir\",\"zones_preuves\",\"image\",\"marge\",\"livraison\",\"blocages\",\"session_image_ok\",\"session_fournisseur_ok\",\"session_prix_ok\",\"session_livraison_ok\",\"session_validation_mouss\",\"note_session\",\"lien_sprint\"",
+        "\"1\",\"image\",\"217\",\"Pochette organisateur câbles double couche voyage\",\"pochette-organisateur-cables-double-couche-voyage\",\"dropshipping-accessoires\",\"HOLD_MISSING_EVIDENCE\",\"Prouver l'image exacte et les droits de pochette-organisateur-cables-double-couche-voyage, puis garder la fiche en HOLD.\",\"Image exacte: Image exacte prioritaire | Fournisseur et SKU: a confirmer sur la fiche pochette-organisateur-cables-double-couche-voyage | Prix, marge et stock: Marge a verrouiller | Livraison, suivi et delai France/Europe: Delai a prouver | Validation Mouss: garder HOLD tant que tout n'est pas coche\",\"2\",\"Fournisseur/SKU | Livraison/suivi\",\"Image exacte prioritaire\",\"Marge a verrouiller\",\"Delai a prouver\",\"Date de verification | Renseigner la date exacte de controle fournisseur. | Nom vendeur fournisseur | Copier le nom du vendeur affiche sur la page fournisseur. | Variante exacte | Preciser couleur, format, lot, taille ou option vendue. | Preuve delai France/Europe | Noter la preuve visible du delai France/Europe.\",\"\",\"\",\"\",\"\",\"\",\"\",\"/admin/preuves-partenaires?status=hold&q=pochette-organisateur-cables-double-couche-voyage&zone=image#top-verification-pochette-organisateur-cables-double-couche-voyage\""
+      ],
+      "overflow": {
+        "horizontalOverflow": 0,
+        "offenders": []
+      },
+      "consoleErrors": []
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+Regression TODO API business - 2026-05-24 09:07:04
+Global: OK
+Message court: API business: 2 variable(s) a completer, aucune valeur de cle affichee.
+Message executeur: API business: 2 variable(s) a completer, aucune valeur de cle affichee.
+Variables a completer: 2
+
+- json_written: OK
+- txt_written: OK
+- doc_written: OK
+- key_statuses_present: OK
+- key_statuses_only: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- doc_mentions_short_message: OK
+- route_business_api_todo: OK
+- execute_business_api_todo: OK
+- executor_uses_short_message: OK
+- manual_steps_present: OK
+- no_values_exposed: OK
+- read_only: OK
+- no_purchase: OK
+- no_publication: OK
+- no_secret_like_value_in_text: OK
+
+Securite: lecture seule, aucun secret, aucun achat, aucune publication.

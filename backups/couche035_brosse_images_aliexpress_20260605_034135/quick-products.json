@@ -1,0 +1,1230 @@
+[
+  {
+    "id": "ali_partner_20260527_support_tel_voiture_001",
+    "slug": "support-telephone-voiture-360-partenaire",
+    "name": "Support téléphone voiture 360°",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf - fournisseur partenaire",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/category-images/auto-moto.webp",
+    "images": [
+      "/uploads/category-images/auto-moto.webp"
+    ],
+    "shortDescription": "Support orientable pour garder le téléphone visible en voiture, pratique pour GPS et appels mains libres.",
+    "description": "Support téléphone voiture 360° pensé pour une utilisation simple au quotidien : GPS, appels mains libres et maintien stable du smartphone. Produit partenaire neuf, à valider manuellement avant toute commande fournisseur.",
+    "features": [
+      "Rotation 360° pour ajuster facilement l'angle de vue",
+      "Pensé pour GPS, trajets quotidiens et mains libres",
+      "Produit partenaire neuf avec validation humaine avant commande",
+      "Délai estimé : 7 à 15 jours ouvrés selon fournisseur"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "draft",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress Choice - à confirmer",
+      "supplierUrl": "https://www.aliexpress.com/wholesale?SearchText=360+rearview+mirror+phone+holder+choice",
+      "supplierSku": "AE-CHOICE-CAR-HOLDER-001",
+      "supplierPriceCents": 970,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 15 jours ouvrés estimés",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1360,
+      "marginCents": 390,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-05-27"
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://www.mypredicthub.com/blog/best-holders-and-stands-product-on-aliexpress-2026-guide",
+      "evidenceNote": "Prix repere $10.92 et option livraison rapide indiquee dans le guide source.",
+      "markupPercent": 40,
+      "pricingRule": "Prix de vente = prix fournisseur estime x 1,40, arrondi aux 10 centimes superieurs.",
+      "validationStatus": "HOLD - photo fournisseur exacte a valider avant publication"
+    },
+    "price": 1360,
+    "imageValidation": {
+      "status": "hold",
+      "checkedAt": "2026-06-05",
+      "reason": "Image de categorie generique detectee. Photo fournisseur exacte requise avant publication.",
+      "nextAction": "Selectionner une annonce fournisseur precise, verifier que la photo correspond au produit vendu, puis remplacer image/images avant remise en published."
+    }
+  },
+  {
+    "id": "ali_partner_20260527_lampes_detection_001",
+    "slug": "lot-2-lampes-led-detection-mouvement-usb",
+    "name": "Lot 2 lampes LED détection mouvement USB",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf - fournisseur partenaire",
+    "stock": 50,
+    "badge": "Nouveauté",
+    "image": "/uploads/category-images/maison.webp",
+    "images": [
+      "/uploads/category-images/maison.webp"
+    ],
+    "shortDescription": "Lampes LED rechargeables avec détection de mouvement pour placard, couloir ou coin sombre.",
+    "description": "Lot de 2 lampes LED compactes avec détection de mouvement, utile pour éclairer un placard, une entrée, un couloir ou un meuble. Produit partenaire neuf, à valider manuellement avant toute commande fournisseur.",
+    "features": [
+      "Détection de mouvement pour éclairage automatique",
+      "Recharge USB pratique",
+      "Format lot de 2 pour augmenter la valeur panier",
+      "Délai estimé : 7 à 15 jours ouvrés selon fournisseur"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "draft",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress Choice - à confirmer",
+      "supplierUrl": "https://www.aliexpress.com/wholesale?SearchText=USB+motion+sensor+cabinet+light+choice",
+      "supplierSku": "AE-CHOICE-MOTION-LIGHT-002",
+      "supplierPriceCents": 540,
+      "supplierStock": 50,
+      "deliveryEstimate": "7 à 15 jours ouvrés estimés",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 760,
+      "marginCents": 220,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-05-27"
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://www.reddit.com/r/xiaomi_discount/comments/1mzsd1z",
+      "evidenceNote": "Prix repere $2.70 par lampe sur offre AliExpress similaire.",
+      "markupPercent": 40,
+      "pricingRule": "Prix de vente = prix fournisseur estime x 1,40, arrondi aux 10 centimes superieurs.",
+      "validationStatus": "HOLD - photo fournisseur exacte a valider avant publication"
+    },
+    "price": 760,
+    "imageValidation": {
+      "status": "hold",
+      "checkedAt": "2026-06-05",
+      "reason": "Image de categorie generique detectee. Photo fournisseur exacte requise avant publication.",
+      "nextAction": "Selectionner une annonce fournisseur precise, verifier que la photo correspond au produit vendu, puis remplacer image/images avant remise en published."
+    }
+  },
+  {
+    "id": "ali_partner_20260527_brosse_poils_animaux_001",
+    "slug": "brosse-anti-poils-animaux-reutilisable",
+    "name": "Brosse anti-poils animaux réutilisable",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf - fournisseur partenaire",
+    "stock": 45,
+    "badge": "Nouveauté",
+    "image": "/uploads/category-images/animaux.webp",
+    "images": [
+      "/uploads/category-images/animaux.webp"
+    ],
+    "shortDescription": "Brosse réutilisable pour retirer les poils de chien et chat sur canapé, tapis, lit ou voiture.",
+    "description": "Brosse anti-poils animaux réutilisable, utile pour nettoyer canapés, tapis, couvertures, sièges auto et paniers. Produit partenaire neuf, à valider manuellement avant toute commande fournisseur.",
+    "features": [
+      "Réutilisable, sans recharge jetable",
+      "Utile sur canapé, tapis, lit et siège auto",
+      "Produit pratique pour propriétaires de chiens et chats",
+      "Délai estimé : 7 à 15 jours ouvrés selon fournisseur"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "draft",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress Choice - à confirmer",
+      "supplierUrl": "https://www.aliexpress.com/wholesale?SearchText=reusable+pet+hair+remover+brush+choice",
+      "supplierSku": "AE-CHOICE-PET-BRUSH-003",
+      "supplierPriceCents": 789,
+      "supplierStock": 45,
+      "deliveryEstimate": "7 à 15 jours ouvrés estimés",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1110,
+      "marginCents": 321,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-05-27"
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://vi.pricearchive.org/aliexpress.com/item/1005011984700750",
+      "evidenceNote": "Prix repere PriceArchive : 7,89 EUR.",
+      "markupPercent": 40,
+      "pricingRule": "Prix de vente = prix fournisseur estime x 1,40, arrondi aux 10 centimes superieurs.",
+      "validationStatus": "HOLD - photo fournisseur exacte a valider avant publication"
+    },
+    "price": 1110,
+    "imageValidation": {
+      "status": "hold",
+      "checkedAt": "2026-06-05",
+      "reason": "Image de categorie generique detectee. Photo fournisseur exacte requise avant publication.",
+      "nextAction": "Selectionner une annonce fournisseur precise, verifier que la photo correspond au produit vendu, puis remplacer image/images avant remise en published."
+    }
+  },
+  {
+    "id": "ali_partner_20260527_support_pc_pliant_001",
+    "slug": "support-ordinateur-portable-pliant-aluminium",
+    "name": "Support ordinateur portable pliant aluminium",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf - fournisseur partenaire",
+    "stock": 35,
+    "badge": "Nouveauté",
+    "image": "/uploads/category-images/high-tech.webp",
+    "images": [
+      "/uploads/category-images/high-tech.webp"
+    ],
+    "shortDescription": "Support pliant pour ordinateur portable, pratique pour bureau, télétravail et déplacements.",
+    "description": "Support ordinateur portable pliant en aluminium, pensé pour améliorer l'angle de travail et garder un setup propre. Produit partenaire neuf, à valider manuellement avant toute commande fournisseur.",
+    "features": [
+      "Compatible avec de nombreux ordinateurs 10 à 15,6 pouces",
+      "Format pliant facile à transporter",
+      "Idéal télétravail, bureau et étudiant",
+      "Délai estimé : 7 à 15 jours ouvrés selon fournisseur"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "draft",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress Choice - à confirmer",
+      "supplierUrl": "https://www.aliexpress.com/wholesale?SearchText=foldable+aluminum+laptop+stand+choice",
+      "supplierSku": "AE-CHOICE-LAPTOP-STAND-004",
+      "supplierPriceCents": 1180,
+      "supplierStock": 35,
+      "deliveryEstimate": "7 à 15 jours ouvrés estimés",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1660,
+      "marginCents": 480,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-05-27"
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://www.pricearchive.org/aliexpress.com/item/1005009671290730",
+      "evidenceNote": "Prix repere PriceArchive : $13.26.",
+      "markupPercent": 40,
+      "pricingRule": "Prix de vente = prix fournisseur estime x 1,40, arrondi aux 10 centimes superieurs.",
+      "validationStatus": "HOLD - photo fournisseur exacte a valider avant publication"
+    },
+    "price": 1660,
+    "imageValidation": {
+      "status": "hold",
+      "checkedAt": "2026-06-05",
+      "reason": "Image de categorie generique detectee. Photo fournisseur exacte requise avant publication.",
+      "nextAction": "Selectionner une annonce fournisseur precise, verifier que la photo correspond au produit vendu, puis remplacer image/images avant remise en published."
+    }
+  },
+  {
+    "id": "ali_partner_20260527_sacs_rangement_vide_001",
+    "slug": "sacs-rangement-sous-vide-voyage",
+    "name": "Sacs rangement sous vide voyage",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf - fournisseur partenaire",
+    "stock": 60,
+    "badge": "Nouveauté",
+    "image": "/uploads/category-images/accessoires.webp",
+    "images": [
+      "/uploads/category-images/accessoires.webp"
+    ],
+    "shortDescription": "Sacs de compression pour gagner de la place dans une valise, un placard ou un rangement maison.",
+    "description": "Sacs rangement sous vide pratiques pour comprimer vêtements, linge ou affaires de voyage. Produit partenaire neuf, à valider manuellement avant toute commande fournisseur.",
+    "features": [
+      "Aide à gagner de la place en voyage ou à la maison",
+      "Produit léger et facile à expédier",
+      "Intéressant pour départs vacances et rangement saisonnier",
+      "Délai estimé : 7 à 15 jours ouvrés selon fournisseur"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "draft",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress Choice - à confirmer",
+      "supplierUrl": "https://www.aliexpress.com/wholesale?SearchText=travel+vacuum+storage+bags+choice",
+      "supplierSku": "AE-CHOICE-VACUUM-BAGS-005",
+      "supplierPriceCents": 530,
+      "supplierStock": 60,
+      "deliveryEstimate": "7 à 15 jours ouvrés estimés",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 750,
+      "marginCents": 220,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-05-27"
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://www.sistastore.com/products/170869",
+      "evidenceNote": "Prix repere $5.97, note 4.9 et volume de ventes indique par la source.",
+      "markupPercent": 40,
+      "pricingRule": "Prix de vente = prix fournisseur estime x 1,40, arrondi aux 10 centimes superieurs.",
+      "validationStatus": "HOLD - photo fournisseur exacte a valider avant publication"
+    },
+    "price": 750,
+    "imageValidation": {
+      "status": "hold",
+      "checkedAt": "2026-06-05",
+      "reason": "Image de categorie generique detectee. Photo fournisseur exacte requise avant publication.",
+      "nextAction": "Selectionner une annonce fournisseur precise, verifier que la photo correspond au produit vendu, puis remplacer image/images avant remise en published."
+    }
+  },
+  {
+    "id": "ali_partner_20260527_mini_humidificateur_usb_001",
+    "slug": "mini-humidificateur-usb-bureau-maison",
+    "name": "Mini humidificateur USB bureau & maison",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf - fournisseur partenaire",
+    "stock": 50,
+    "badge": "Nouveauté",
+    "image": "/uploads/category-images/maison.webp",
+    "images": [
+      "/uploads/category-images/maison.webp"
+    ],
+    "shortDescription": "Petit humidificateur USB pour bureau, chambre ou voiture, format compact et facile à poser.",
+    "description": "Mini humidificateur USB compact pour bureau, chambre, coin détente ou voiture. Produit partenaire neuf, à valider manuellement avant toute commande fournisseur.",
+    "features": [
+      "Format compact pour bureau ou table de nuit",
+      "Alimentation USB simple",
+      "Produit visuel facile à mettre en avant en vidéo",
+      "Délai estimé : 7 à 15 jours ouvrés selon fournisseur"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "draft",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress Choice - à confirmer",
+      "supplierUrl": "https://www.aliexpress.com/wholesale?SearchText=mini+USB+humidifier+choice",
+      "supplierSku": "AE-CHOICE-HUMIDIFIER-006",
+      "supplierPriceCents": 360,
+      "supplierStock": 50,
+      "deliveryEstimate": "7 à 15 jours ouvrés estimés",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 510,
+      "marginCents": 150,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-05-27"
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://ko.pricearchive.org/aliexpress.com/item/1005007578805705",
+      "evidenceNote": "Prix repere PriceArchive : environ $4.05 à $4.23.",
+      "markupPercent": 40,
+      "pricingRule": "Prix de vente = prix fournisseur estime x 1,40, arrondi aux 10 centimes superieurs.",
+      "validationStatus": "HOLD - photo fournisseur exacte a valider avant publication"
+    },
+    "price": 510,
+    "imageValidation": {
+      "status": "hold",
+      "checkedAt": "2026-06-05",
+      "reason": "Image de categorie generique detectee. Photo fournisseur exacte requise avant publication.",
+      "nextAction": "Selectionner une annonce fournisseur precise, verifier que la photo correspond au produit vendu, puis remplacer image/images avant remise en published."
+    }
+  },
+  {
+    "id": "ali_partner_20260527_pochette_cables_voyage_001",
+    "slug": "pochette-rangement-cables-voyage-premium",
+    "name": "Pochette rangement câbles voyage",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf - fournisseur partenaire",
+    "stock": 55,
+    "badge": "Nouveauté",
+    "image": "/uploads/category-images/accessoires.webp",
+    "images": [
+      "/uploads/category-images/accessoires.webp"
+    ],
+    "shortDescription": "Pochette zippée pour ranger chargeurs, câbles, écouteurs et petits accessoires tech.",
+    "description": "Pochette rangement câbles voyage, utile pour organiser chargeurs, câbles, écouteurs, cartes mémoire et petits accessoires. Produit partenaire neuf, à valider manuellement avant toute commande fournisseur.",
+    "features": [
+      "Rangement simple pour accessoires tech",
+      "Format voyage, bureau ou sac à dos",
+      "Produit léger avec bon potentiel d'achat impulsif",
+      "Délai estimé : 7 à 15 jours ouvrés selon fournisseur"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "draft",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress Choice - à confirmer",
+      "supplierUrl": "https://www.aliexpress.com/wholesale?SearchText=travel+cable+organizer+bag+choice",
+      "supplierSku": "AE-CHOICE-CABLE-BAG-007",
+      "supplierPriceCents": 1100,
+      "supplierStock": 55,
+      "deliveryEstimate": "7 à 15 jours ouvrés estimés",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1540,
+      "marginCents": 440,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-05-27"
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://www.sistastore.com/products/132954",
+      "evidenceNote": "Prix repere $12.37, note 4.9 et volume de ventes indique par la source.",
+      "markupPercent": 40,
+      "pricingRule": "Prix de vente = prix fournisseur estime x 1,40, arrondi aux 10 centimes superieurs.",
+      "validationStatus": "HOLD - photo fournisseur exacte a valider avant publication"
+    },
+    "price": 1540,
+    "imageValidation": {
+      "status": "hold",
+      "checkedAt": "2026-06-05",
+      "reason": "Image de categorie generique detectee. Photo fournisseur exacte requise avant publication.",
+      "nextAction": "Selectionner une annonce fournisseur precise, verifier que la photo correspond au produit vendu, puis remplacer image/images avant remise en published."
+    }
+  },
+  {
+    "id": "ali_partner_20260527_gourde_pliable_001",
+    "slug": "gourde-pliable-silicone-voyage",
+    "name": "Gourde pliable silicone voyage",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf - fournisseur partenaire",
+    "stock": 70,
+    "badge": "Nouveauté",
+    "image": "/uploads/category-images/accessoires.webp",
+    "images": [
+      "/uploads/category-images/accessoires.webp"
+    ],
+    "shortDescription": "Gourde souple et pliable pour sport, voyage, randonnée ou sac du quotidien.",
+    "description": "Gourde pliable en silicone, pratique pour transporter une bouteille légère qui prend moins de place une fois vide. Produit partenaire neuf, à valider manuellement avant toute commande fournisseur.",
+    "features": [
+      "Format pliable pour gagner de la place",
+      "Utile en sport, voyage, camping ou sac quotidien",
+      "Produit visuel et facile à présenter",
+      "Délai estimé : 7 à 15 jours ouvrés selon fournisseur"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "draft",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress Choice - à confirmer",
+      "supplierUrl": "https://www.aliexpress.com/wholesale?SearchText=collapsible+silicone+water+bottle+choice",
+      "supplierSku": "AE-CHOICE-FOLD-BOTTLE-008",
+      "supplierPriceCents": 370,
+      "supplierStock": 70,
+      "deliveryEstimate": "7 à 15 jours ouvrés estimés",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 520,
+      "marginCents": 150,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-05-27"
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://aliexpress.ru/popular/%D1%81%D0%BA%D0%BB%D0%B0%D0%B4%D0%BD%D0%B0%D1%8F-%D0%B1%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0-%D0%B4%D0%BB%D1%8F-%D0%B2%D0%BE%D0%B4%D1%8B-%D1%81%D0%B8%D0%BB%D0%B8%D0%BA%D0%BE%D0%BD",
+      "evidenceNote": "Page AliExpress indiquant plusieurs offres avec notes et volumes d'achat.",
+      "markupPercent": 40,
+      "pricingRule": "Prix de vente = prix fournisseur estime x 1,40, arrondi aux 10 centimes superieurs.",
+      "validationStatus": "HOLD - photo fournisseur exacte a valider avant publication"
+    },
+    "price": 520,
+    "imageValidation": {
+      "status": "hold",
+      "checkedAt": "2026-06-05",
+      "reason": "Image de categorie generique detectee. Photo fournisseur exacte requise avant publication.",
+      "nextAction": "Selectionner une annonce fournisseur precise, verifier que la photo correspond au produit vendu, puis remplacer image/images avant remise en published."
+    }
+  },
+  {
+    "id": "ali_partner_20260527_tapis_evier_silicone_001",
+    "slug": "tapis-silicone-anti-eclaboussures-evier",
+    "name": "Tapis silicone anti-éclaboussures évier",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf - fournisseur partenaire",
+    "stock": 60,
+    "badge": "Nouveauté",
+    "image": "/uploads/category-images/cuisine.webp",
+    "images": [
+      "/uploads/category-images/cuisine.webp"
+    ],
+    "shortDescription": "Tapis silicone à placer autour du robinet pour limiter les traces d'eau et poser une éponge.",
+    "description": "Tapis silicone anti-éclaboussures pour évier, pratique pour limiter les traces d'eau autour du robinet et garder l'espace plus propre. Produit partenaire neuf, à valider manuellement avant toute commande fournisseur.",
+    "features": [
+      "Aide à garder le plan de travail plus propre",
+      "Peut servir de support éponge ou petit égouttoir",
+      "Produit cuisine simple, visuel et démonstratif",
+      "Délai estimé : 7 à 15 jours ouvrés selon fournisseur"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "draft",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress Choice - à confirmer",
+      "supplierUrl": "https://www.aliexpress.com/wholesale?SearchText=silicone+sink+splash+guard+choice",
+      "supplierSku": "AE-CHOICE-SINK-MAT-009",
+      "supplierPriceCents": 500,
+      "supplierStock": 60,
+      "deliveryEstimate": "7 à 15 jours ouvrés estimés",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 700,
+      "marginCents": 200,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-05-27"
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://es.pricearchive.org/aliexpress.com/item/1005011663468333",
+      "evidenceNote": "Prix repere PriceArchive : $5.63.",
+      "markupPercent": 40,
+      "pricingRule": "Prix de vente = prix fournisseur estime x 1,40, arrondi aux 10 centimes superieurs.",
+      "validationStatus": "HOLD - photo fournisseur exacte a valider avant publication"
+    },
+    "price": 700,
+    "imageValidation": {
+      "status": "hold",
+      "checkedAt": "2026-06-05",
+      "reason": "Image de categorie generique detectee. Photo fournisseur exacte requise avant publication.",
+      "nextAction": "Selectionner une annonce fournisseur precise, verifier que la photo correspond au produit vendu, puis remplacer image/images avant remise en published."
+    }
+  },
+  {
+    "id": "ali_partner_20260527_filet_coffre_voiture_001",
+    "slug": "filet-rangement-coffre-voiture",
+    "name": "Filet rangement coffre voiture",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf - fournisseur partenaire",
+    "stock": 45,
+    "badge": "Nouveauté",
+    "image": "/uploads/category-images/auto-moto.webp",
+    "images": [
+      "/uploads/category-images/auto-moto.webp"
+    ],
+    "shortDescription": "Filet de rangement pour organiser le coffre et éviter que les petits objets se baladent.",
+    "description": "Filet rangement coffre voiture, utile pour maintenir câbles, petits outils, sacs ou accessoires auto en place. Produit partenaire neuf, à valider manuellement avant toute commande fournisseur.",
+    "features": [
+      "Aide à organiser le coffre et les petits accessoires auto",
+      "Produit léger, pratique et facile à expédier",
+      "Intéressant pour famille, trajet quotidien ou véhicule pro",
+      "Délai estimé : 7 à 15 jours ouvrés selon fournisseur"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "draft",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress Choice - à confirmer",
+      "supplierUrl": "https://www.aliexpress.com/wholesale?SearchText=car+trunk+storage+net+organizer+choice",
+      "supplierSku": "AE-CHOICE-CAR-NET-010",
+      "supplierPriceCents": 400,
+      "supplierStock": 45,
+      "deliveryEstimate": "7 à 15 jours ouvrés estimés",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 560,
+      "marginCents": 160,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-05-27"
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://no.pricearchive.org/aliexpress.com/item/1005006160871310",
+      "evidenceNote": "Produit similaire référence par PriceArchive.",
+      "markupPercent": 40,
+      "pricingRule": "Prix de vente = prix fournisseur estime x 1,40, arrondi aux 10 centimes superieurs.",
+      "validationStatus": "HOLD - photo fournisseur exacte a valider avant publication"
+    },
+    "price": 560,
+    "imageValidation": {
+      "status": "hold",
+      "checkedAt": "2026-06-05",
+      "reason": "Image de categorie generique detectee. Photo fournisseur exacte requise avant publication.",
+      "nextAction": "Selectionner une annonce fournisseur precise, verifier que la photo correspond au produit vendu, puis remplacer image/images avant remise en published."
+    }
+  },
+  {
+    "id": "quick_1777967227448_iypy8l",
+    "slug": "double-prise-murale-avec-4-ports-usb-mosbs4s8",
+    "name": "Double prise murale avec 4 ports USB",
+    "categoryId": "electricite",
+    "price": 1500,
+    "condition": "Neuf sans emballage",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/generated-products/double-prise-usb.webp",
+    "images": [
+      "/uploads/generated-products/double-prise-usb.webp"
+    ],
+    "shortDescription": "Double prise murale avec quatre ports USB intégrés, pratique pour créer un coin charge dans une chambre, un bureau ou une pièce de vie. Installation éle...",
+    "description": "Double prise murale avec quatre ports USB intégrés, pratique pour créer un coin charge dans une chambre, un bureau ou une pièce de vie. Installation électrique à faire vérifier par une personne compétente.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Deux prises secteur",
+      "Quatre ports USB intégrés",
+      "Format encastrable à vérifier avant pose",
+      "État : Neuf sans emballage",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Électricité"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777967227442_dxng53",
+    "slug": "pave-tactile-macbook-piece-detachee-a-verifier-mosbs4s2",
+    "name": "Pavé tactile MacBook - pièce à vérifier",
+    "categoryId": "informatique",
+    "price": 4500,
+    "condition": "À vérifier",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/generated-products/pave-tactile-macbook.webp",
+    "images": [
+      "/uploads/generated-products/pave-tactile-macbook.webp"
+    ],
+    "shortDescription": "Pavé tactile / trackpad de MacBook en pièce détachée. La référence exacte n’est pas confirmée sur photo : compatibilité à vérifier avant achat.",
+    "description": "Pavé tactile / trackpad de MacBook en pièce détachée. La référence exacte n’est pas confirmée sur photo : compatibilité à vérifier avant achat.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Pièce de réparation",
+      "Connectique visible",
+      "Modèle compatible à confirmer",
+      "État : À vérifier",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Informatique"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777967227436_jmkl9v",
+    "slug": "ventilateur-tour-de-cou-rechargeable-usb-mosbs4rw",
+    "name": "Ventilateur tour de cou rechargeable USB",
+    "categoryId": "high-tech",
+    "price": 1500,
+    "condition": "Neuf sans emballage",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/generated-products/ventilateur-tour-de-cou.webp",
+    "images": [
+      "/uploads/generated-products/ventilateur-tour-de-cou.webp"
+    ],
+    "shortDescription": "Ventilateur de cou rechargeable, léger et mains libres. Idéal pour se rafraîchir au bureau, en trajet, en balade ou pendant les fortes chaleurs.",
+    "description": "Ventilateur de cou rechargeable, léger et mains libres. Idéal pour se rafraîchir au bureau, en trajet, en balade ou pendant les fortes chaleurs.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Recharge USB",
+      "Format tour de cou",
+      "Pratique en été ou en déplacement",
+      "État : Neuf sans emballage",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : High-tech"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777967227430_q1m0xu",
+    "slug": "compteur-energie-wifi-ketotek-63a-mosbs4rq",
+    "name": "Compteur d’énergie WiFi KETOTEK 63A",
+    "categoryId": "electricite",
+    "price": 1900,
+    "condition": "Neuf sans emballage",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/generated-products/compteur-energie-wifi.webp",
+    "images": [
+      "/uploads/generated-products/compteur-energie-wifi.webp"
+    ],
+    "shortDescription": "Compteur d’énergie WiFi KETOTEK pour suivi de consommation électrique. Produit à faire installer et contrôler par une personne qualifiée.",
+    "description": "Compteur d’énergie WiFi KETOTEK pour suivi de consommation électrique. Produit à faire installer et contrôler par une personne qualifiée.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Suivi de consommation",
+      "Format rail électrique",
+      "Installation à vérifier par un professionnel",
+      "État : Neuf sans emballage",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Électricité"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777967227424_hcgr0h",
+    "slug": "filtre-de-douche-chrome-universel-mosbs4rk",
+    "name": "Filtre de douche chromé universel",
+    "categoryId": "maison",
+    "price": 1900,
+    "condition": "Neuf sans emballage",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/generated-products/filtre-douche-chrome.webp",
+    "images": [
+      "/uploads/generated-products/filtre-douche-chrome.webp"
+    ],
+    "shortDescription": "Filtre de douche chromé au format universel, utile pour améliorer le confort sous la douche et filtrer l’eau selon la cartouche fournie.",
+    "description": "Filtre de douche chromé au format universel, utile pour améliorer le confort sous la douche et filtrer l’eau selon la cartouche fournie.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Finition chromée",
+      "Format compact",
+      "Compatibilité à vérifier avec votre douche",
+      "État : Neuf sans emballage",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Maison"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777967227418_rtcb72",
+    "slug": "cassette-velo-sunrace-a-verifier-mosbs4re",
+    "name": "Cassette vélo SunRace - compatibilité à vérifier",
+    "categoryId": "sport-loisirs",
+    "price": 1200,
+    "condition": "Neuf sans emballage",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/generated-products/cassette-velo.webp",
+    "images": [
+      "/uploads/generated-products/cassette-velo.webp"
+    ],
+    "shortDescription": "Cassette vélo SunRace en bon état visuel. Le nombre de vitesses et la compatibilité exacte sont à vérifier avant montage.",
+    "description": "Cassette vélo SunRace en bon état visuel. Le nombre de vitesses et la compatibilité exacte sont à vérifier avant montage.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Pièce vélo",
+      "Marque SunRace visible",
+      "Compatibilité transmission à confirmer",
+      "État : À vérifier",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Sport & loisirs"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777967227411_o8dn1w",
+    "slug": "systeme-d-alerte-sos-wifi-avec-2-boutons-mosbs4r7",
+    "name": "Système d’alerte SOS WiFi avec 2 boutons",
+    "categoryId": "beaute-sante",
+    "price": 1900,
+    "condition": "Neuf sans emballage",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/generated-products/systeme-alerte-sos-wifi.webp",
+    "images": [
+      "/uploads/generated-products/systeme-alerte-sos-wifi.webp"
+    ],
+    "shortDescription": "Système d’alerte SOS WiFi avec base et deux boutons d’appel. Pratique pour une personne âgée, un proche à surveiller ou un besoin d’alerte simple à domi...",
+    "description": "Système d’alerte SOS WiFi avec base et deux boutons d’appel. Pratique pour une personne âgée, un proche à surveiller ou un besoin d’alerte simple à domicile.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Base SOS WiFi",
+      "Deux boutons d’appel",
+      "Notice et accessoires visibles",
+      "État : Neuf sans emballage",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Beauté / santé"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777967227405_xiog25",
+    "slug": "kit-habillage-console-centrale-effet-carbone-mosbs4r1",
+    "name": "Kit habillage console centrale effet carbone",
+    "categoryId": "auto-moto",
+    "price": 1900,
+    "condition": "Neuf sans emballage",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/generated-products/habillage-console-carbone.webp",
+    "images": [
+      "/uploads/generated-products/habillage-console-carbone.webp"
+    ],
+    "shortDescription": "Kit d’habillage effet carbone pour console centrale automobile. Donne un look plus sportif à l’intérieur du véhicule. Compatibilité exacte à vérifier av...",
+    "description": "Kit d’habillage effet carbone pour console centrale automobile. Donne un look plus sportif à l’intérieur du véhicule. Compatibilité exacte à vérifier avant achat.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Finition effet carbone",
+      "Accessoire intérieur voiture",
+      "Compatibilité véhicule à vérifier",
+      "État : Neuf sans emballage",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Auto / moto"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777967227399_3ngsxx",
+    "slug": "regulateur-d-alternateur-are4011-12v-mosbs4qv",
+    "name": "Régulateur d’alternateur ARE4011 12V",
+    "categoryId": "auto-moto",
+    "price": 900,
+    "condition": "À vérifier",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/generated-products/regulateur-alternateur.webp",
+    "images": [
+      "/uploads/generated-products/regulateur-alternateur.webp"
+    ],
+    "shortDescription": "Régulateur d’alternateur 12V, référence ARE4011 visible. Pièce auto à contrôler avant montage pour confirmer la compatibilité.",
+    "description": "Régulateur d’alternateur 12V, référence ARE4011 visible. Pièce auto à contrôler avant montage pour confirmer la compatibilité.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Référence ARE4011 visible",
+      "Pièce électrique auto",
+      "Compatibilité à vérifier",
+      "État : À vérifier",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Auto / moto"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777967227392_x08el0",
+    "slug": "compteur-gps-85-mm-0-125-km-h-mosbs4qo",
+    "name": "Compteur GPS 85 mm 0-125 km/h",
+    "categoryId": "auto-moto",
+    "price": 4900,
+    "condition": "Neuf sans emballage",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/generated-products/compteur-gps-85mm.webp",
+    "images": [
+      "/uploads/generated-products/compteur-gps-85mm.webp"
+    ],
+    "shortDescription": "Compteur GPS rond 85 mm gradué jusqu’à 125 km/h, fourni avec câblage. Convient pour projet auto, bateau, quad ou engin compatible, à vérifier avant bran...",
+    "description": "Compteur GPS rond 85 mm gradué jusqu’à 125 km/h, fourni avec câblage. Convient pour projet auto, bateau, quad ou engin compatible, à vérifier avant branchement.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Diamètre 85 mm",
+      "Affichage 0-125 km/h",
+      "Câblage présent",
+      "État : Neuf sans emballage",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Auto / moto"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777967227385_6kinul",
+    "slug": "carburateur-type-pwk-avec-durite-et-gicleurs-mosbs4qh",
+    "name": "Carburateur type PWK avec durite et gicleurs",
+    "categoryId": "auto-moto",
+    "price": 2900,
+    "condition": "Neuf sans emballage",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/generated-products/carburateur-pwk-kit.webp",
+    "images": [
+      "/uploads/generated-products/carburateur-pwk-kit.webp"
+    ],
+    "shortDescription": "Carburateur type PWK avec durite et gicleurs fournis. Pièce destinée à un montage mécanique compatible, à contrôler avant installation.",
+    "description": "Carburateur type PWK avec durite et gicleurs fournis. Pièce destinée à un montage mécanique compatible, à contrôler avant installation.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Kit avec durite",
+      "Gicleurs fournis",
+      "Montage compatible à vérifier",
+      "État : Neuf sans emballage",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Auto / moto"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777967227378_a4y2s1",
+    "slug": "poche-de-froid-epaule-revix-reusable-mosbs4qa",
+    "name": "Poche de froid épaule Revix réutilisable",
+    "categoryId": "beaute-sante",
+    "price": 1500,
+    "condition": "Neuf sans emballage",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/generated-products/poche-froid-epaule.webp",
+    "images": [
+      "/uploads/generated-products/poche-froid-epaule.webp"
+    ],
+    "shortDescription": "Poche de froid Revix pour épaule, réutilisable et ajustable. Utile après effort, gêne musculaire ou besoin de froid localisé.",
+    "description": "Poche de froid Revix pour épaule, réutilisable et ajustable. Utile après effort, gêne musculaire ou besoin de froid localisé.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Marque Revix",
+      "Format épaule",
+      "Réutilisable après passage au froid",
+      "État : Très bon état",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Beauté / santé"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777967227371_z392tm",
+    "slug": "accoudoir-central-voiture-avec-rangements-usb-mosbs4q3",
+    "name": "Accoudoir central voiture avec rangements USB",
+    "categoryId": "auto-moto",
+    "price": 1900,
+    "condition": "Neuf sans emballage",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/generated-products/accoudoir-central-usb.webp",
+    "images": [
+      "/uploads/generated-products/accoudoir-central-usb.webp"
+    ],
+    "shortDescription": "Accoudoir central noir pour voiture avec rangement et ports USB visibles. Pratique pour améliorer le confort et ajouter du rangement à l’avant.",
+    "description": "Accoudoir central noir pour voiture avec rangement et ports USB visibles. Pratique pour améliorer le confort et ajouter du rangement à l’avant.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Rangement intégré",
+      "Ports USB visibles",
+      "Compatibilité véhicule à vérifier",
+      "État : Neuf sans emballage",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Auto / moto"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777967227326_2d240r",
+    "slug": "paire-de-supports-reglables-pour-coffre-voiture-mosbs4ou",
+    "name": "Supports réglables pour coffre voiture - paire",
+    "categoryId": "auto-moto",
+    "price": 900,
+    "condition": "À vérifier",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/generated-products/supports-coffre-reglables.webp",
+    "images": [
+      "/uploads/generated-products/supports-coffre-reglables.webp"
+    ],
+    "shortDescription": "Paire de supports réglables pour coffre de voiture, avec vis de serrage. Accessoire pratique pour organiser ou maintenir un élément dans le coffre.",
+    "description": "Paire de supports réglables pour coffre de voiture, avec vis de serrage. Accessoire pratique pour organiser ou maintenir un élément dans le coffre.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Paire de supports",
+      "Réglage par vis",
+      "Largeur à vérifier selon coffre",
+      "État : Neuf sans emballage",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Auto / moto"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777965447791_zo5ykz",
+    "slug": "carburateur-chinaroller-4t-50ccm-euro4-alpha-motors-firenze-50-euro-4-no-mosapzlb",
+    "name": "Carburateur scooter 4T 50cc Euro 4 - à vérifier",
+    "categoryId": "auto-moto",
+    "price": 5000,
+    "condition": "Neuf",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&w=900&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&w=900&q=80"
+    ],
+    "shortDescription": "Carburateur pour scooter 4T 50cc Euro 4. Plusieurs compatibilités sont possibles, mais le modèle exact doit être vérifié avant achat et montage.",
+    "description": "Carburateur pour scooter 4T 50cc Euro 4. Plusieurs compatibilités sont possibles, mais le modèle exact doit être vérifié avant achat et montage.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Pièce scooter 50cc",
+      "Compatible selon modèle",
+      "Référence exacte à contrôler",
+      "État : À vérifier",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Auto / moto"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777965396343_eklfed",
+    "slug": "filtre-a-eau-robinet-acier-inoxydable-13-etapes-purificateur-eau-uv-sans-mosaovw7",
+    "name": "Filtre robinet inox 13 étapes avec LED",
+    "categoryId": "maison",
+    "price": 1800,
+    "condition": "Neuf",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/quick-products/1777965396342-hr1jm1t.webp",
+    "images": [
+      "/uploads/quick-products/1777965396342-hr1jm1t.webp",
+      "/uploads/quick-products/1777965396342-y4ekcn7.webp"
+    ],
+    "shortDescription": "Filtre à eau pour robinet en acier inoxydable, avec filtration annoncée en plusieurs étapes et indicateur LED. Produit pratique pour la cuisine, compati...",
+    "description": "Filtre à eau pour robinet en acier inoxydable, avec filtration annoncée en plusieurs étapes et indicateur LED. Produit pratique pour la cuisine, compatibilité robinet à vérifier.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Format robinet",
+      "Corps inox",
+      "Cartouche et compatibilité à vérifier",
+      "État : Neuf sans emballage",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Maison"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777965323270_9u3e6r",
+    "slug": "plafonnier-led-3-spots-orientables-blanc-gu10-mosanbie",
+    "name": "Plafonnier LED 3 spots orientables blanc GU10",
+    "categoryId": "electricite",
+    "price": 1200,
+    "condition": "Neuf",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/quick-products/1777965323267-sj5aeyb.webp",
+    "images": [
+      "/uploads/quick-products/1777965323267-sj5aeyb.webp",
+      "/uploads/quick-products/1777965323268-0zep2do.webp",
+      "/uploads/quick-products/1777965323269-ql4tyib.webp"
+    ],
+    "shortDescription": "Plafonnier blanc avec trois spots orientables pour cuisine, salon, couloir ou chambre. Fonctionne avec ampoules GU10 non fournies.",
+    "description": "Plafonnier blanc avec trois spots orientables pour cuisine, salon, couloir ou chambre. Fonctionne avec ampoules GU10 non fournies.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Trois spots orientables",
+      "Finition blanche",
+      "Ampoules GU10 à prévoir",
+      "État : Neuf",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Électricité"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777650980194_b0oph0",
+    "slug": "applique-murale-led-doree-eclairage-tricolore-mon3huua",
+    "name": "Applique murale LED dorée tricolore",
+    "categoryId": "electricite",
+    "price": 1500,
+    "condition": "Neuf",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/quick-products/1777650980192-ii300nj.webp",
+    "images": [
+      "/uploads/quick-products/1777650980192-ii300nj.webp",
+      "/uploads/quick-products/1777650980193-xfxix8e.webp"
+    ],
+    "shortDescription": "Applique murale LED dorée avec éclairage tricolore. Jolie finition pour une chambre, un couloir ou un salon. Branchement à vérifier avant pose.",
+    "description": "Applique murale LED dorée avec éclairage tricolore. Jolie finition pour une chambre, un couloir ou un salon. Branchement à vérifier avant pose.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Finition dorée",
+      "Éclairage tricolore",
+      "Pose murale",
+      "État : Neuf",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Électricité"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777650923266_xcbd4c",
+    "slug": "controleur-led-programmable-5-canaux-rgb-rgbw-12v-24v-20a-mon3gmwy",
+    "name": "Contrôleur LED RGB/RGBW 5 canaux 12V/24V",
+    "categoryId": "electricite",
+    "price": 2000,
+    "condition": "Neuf",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/quick-products/1777650923264-ihyovso.webp",
+    "images": [
+      "/uploads/quick-products/1777650923264-ihyovso.webp",
+      "/uploads/quick-products/1777650923265-ii3k8di.webp"
+    ],
+    "shortDescription": "Contrôleur LED programmable 5 canaux pour rubans RGB/RGBW en 12V ou 24V. Pratique pour un éclairage décoratif ou un setup lumineux.",
+    "description": "Contrôleur LED programmable 5 canaux pour rubans RGB/RGBW en 12V ou 24V. Pratique pour un éclairage décoratif ou un setup lumineux.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "5 canaux",
+      "Compatible RGB/RGBW",
+      "12V/24V selon installation",
+      "État : Neuf",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Électricité"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777647232146_g2hfba",
+    "slug": "interrupteur-d-eclairage-bouton-de-lampe-antibrouillard-pour-interrupteu-mon19itu",
+    "name": "Interrupteur de phares chrome compatible Golf MK5/MK6",
+    "categoryId": "auto-moto",
+    "price": 1200,
+    "condition": "Neuf",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/quick-products/1777647232144-wfegupk.webp",
+    "images": [
+      "/uploads/quick-products/1777647232144-wfegupk.webp",
+      "/uploads/quick-products/1777647232145-olmrmod.webp",
+      "/uploads/quick-products/1777647232145-huoj9nz.webp"
+    ],
+    "shortDescription": "Interrupteur de phares / antibrouillard finition chromée, annoncé compatible Golf MK5/MK6 et référence 5ND 941 431 B. Compatibilité à vérifier avant achat.",
+    "description": "Interrupteur de phares / antibrouillard finition chromée, annoncé compatible Golf MK5/MK6 et référence 5ND 941 431 B. Compatibilité à vérifier avant achat.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Finition chromée",
+      "Référence compatible visible",
+      "Montage véhicule à vérifier",
+      "État : Neuf",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Auto / moto"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777647164353_5u1mta",
+    "slug": "tapis-educateurs-pour-chiot-lot-entame-env-80-90-restants-mon182ip",
+    "name": "Tapis éducateurs pour chiot - lot entamé",
+    "categoryId": "animaux",
+    "price": 1000,
+    "condition": "Occasion",
+    "stock": 1,
+    "badge": "Ajout rapide",
+    "image": "/uploads/quick-products/1777647164351-430hgui.webp",
+    "images": [
+      "/uploads/quick-products/1777647164351-430hgui.webp",
+      "/uploads/quick-products/1777647164352-5uf5yu9.webp",
+      "/uploads/quick-products/1777647164353-x41i0kv.webp"
+    ],
+    "shortDescription": "Lot entamé de tapis éducateurs pour chiot, environ 80 à 90 pièces restantes selon estimation visuelle. Pratique pour apprentissage ou protection au quot...",
+    "description": "Lot entamé de tapis éducateurs pour chiot, environ 80 à 90 pièces restantes selon estimation visuelle. Pratique pour apprentissage ou protection au quotidien.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Lot entamé",
+      "Environ 80 à 90 tapis restants",
+      "Pratique pour chiot ou petit chien",
+      "État : Occasion",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Animaux"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777647119072_rr89iy",
+    "slug": "raquette-tennis-babolat-roland-garros-pulse-housse-mon173kw",
+    "name": "Raquettes tennis Babolat Roland Garros Pulse avec housse",
+    "categoryId": "sport-loisirs",
+    "price": 2500,
+    "condition": "Occasion",
+    "stock": 2,
+    "badge": "Ajout rapide",
+    "image": "/uploads/quick-products/1777647119070-d0z5fg5.webp",
+    "images": [
+      "/uploads/quick-products/1777647119070-d0z5fg5.webp",
+      "/uploads/quick-products/1777647119071-czsnq5a.webp",
+      "/uploads/quick-products/1777647119072-0xcqk4o.webp"
+    ],
+    "shortDescription": "Raquettes de tennis Babolat Roland Garros Pulse avec housse. Bon plan pour s’équiper à petit prix, état visuel à vérifier sur place.",
+    "description": "Raquettes de tennis Babolat Roland Garros Pulse avec housse. Bon plan pour s’équiper à petit prix, état visuel à vérifier sur place.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Lot de 2 unités disponibles",
+      "Housse fournie",
+      "Idéal loisir ou reprise du tennis",
+      "État : Occasion",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Sport & loisirs"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777646338631_hpsokc",
+    "slug": "tete-de-mannequin-aimantee-mon0qddz",
+    "name": "Lot de têtes de mannequin aimantées",
+    "categoryId": "mannequins-bustes",
+    "price": 1500,
+    "condition": "Occasion",
+    "stock": 101,
+    "badge": "Ajout rapide",
+    "image": "/uploads/quick-products/1777646338629-1qr8159.webp",
+    "images": [
+      "/uploads/quick-products/1777646338629-1qr8159.webp",
+      "/uploads/quick-products/1777646338629-9o11sa0.webp",
+      "/uploads/quick-products/1777646338630-d1y6r5q.webp",
+      "/uploads/quick-products/1777646333634-u0u1izn.webp",
+      "/uploads/quick-products/1777646333635-wynqy8z.webp",
+      "/uploads/quick-products/1777646333637-ggdfjo8.webp"
+    ],
+    "shortDescription": "Lot de têtes de mannequin aimantées au niveau du cou, pratique pour vitrine, présentation produit, photo ou vente en magasin.",
+    "description": "Lot de têtes de mannequin aimantées au niveau du cou, pratique pour vitrine, présentation produit, photo ou vente en magasin.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Stock important disponible",
+      "Cou aimanté",
+      "Idéal présentation, vitrine ou stand",
+      "État : Occasion",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Mannequins & bustes"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  },
+  {
+    "id": "quick_1777646055749_ij6xpa",
+    "slug": "mannequin-tete-vitrine-test-mon0kb45",
+    "name": "Buste mannequin vitrine - à vérifier",
+    "categoryId": "mannequins-bustes",
+    "price": 2500,
+    "condition": "Occasion",
+    "stock": 3,
+    "badge": "Ajout rapide",
+    "image": "/uploads/generated-products/mannequin-vitrine-placeholder.webp",
+    "images": [
+      "/uploads/generated-products/mannequin-vitrine-placeholder.webp"
+    ],
+    "shortDescription": "Buste mannequin pour vitrine ou présentation produit. Format pratique pour boutique, marché ou shooting photo. État et dimensions à vérifier.",
+    "description": "Buste mannequin pour vitrine ou présentation produit. Format pratique pour boutique, marché ou shooting photo. État et dimensions à vérifier.",
+    "features": [
+      "Prix cassé Maxi Trouvaille",
+      "Support de présentation",
+      "Utile pour vitrine ou stand",
+      "Dimensions à confirmer",
+      "État : À vérifier",
+      "Produit issu de déstockage, retour client ou fin de série",
+      "Catégorie : Mannequins & bustes"
+    ],
+    "source": "internal",
+    "status": "published",
+    "livraisonDisponible": "toutes"
+  }
+]

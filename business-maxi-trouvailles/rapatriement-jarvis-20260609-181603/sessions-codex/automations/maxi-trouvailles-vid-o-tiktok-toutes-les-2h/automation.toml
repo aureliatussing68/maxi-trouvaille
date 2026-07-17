@@ -1,0 +1,13 @@
+version = 1
+id = "maxi-trouvailles-vid-o-tiktok-toutes-les-2h"
+kind = "cron"
+name = "Maxi Trouvailles - vidéo pub toutes les 1h30"
+prompt = "Utiliser le workflow local Maxi Trouvailles sans toucher à Spotify ni SOS Débarras. Cadence : créer une nouvelle vidéo toutes les 1h30. 1) Générer une nouvelle vidéo pub avec C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\scripts\\maxi_tiktok_factory.py depuis C:\\Users\\sinek\\Desktop\\maxi-trouvaille. 2) Vérifier que le MP4 existe via C:\\Users\\sinek\\Desktop\\TIKTOK\\latest_maxi_tiktok_manifest.json. 3) Publier la dernière vidéo prête avec C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\scripts\\publish_latest_tiktok.js si la session TikTok est connectée et aucune validation sensible n’est demandée. Varier absolument les thèmes et articles : palette, article du jour, moins de 20 euros, auto/maison/high-tech/sport, arrivage, bientôt les enchères, sélection petits prix. Éviter de remettre les mêmes produits deux vidéos de suite. Objectif qualité et accroche : hook fort, voix réaliste, visuels produits, montage dynamique, style vendeur sans fausse promesse. Si Instagram/Facebook/Snapchat sont déjà ouverts et connectés sans demande de mot de passe/code/CAPTCHA, préparer ou publier une version adaptée ; sinon préparer les vidéos/textes pour validation demain. Ne jamais créer de compte, saisir mot de passe, code SMS/email, CAPTCHA, IBAN, paiement ou information personnelle. Si publication impossible, laisser vidéo, légende, capture et rapport dans C:\\Users\\sinek\\Desktop\\TIKTOK et expliquer l’action manuelle. Ajouter une ligne de rapport dans C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\rapport.txt avec statut, vidéo et heure."
+status = "PAUSED"
+rrule = "FREQ=MINUTELY;INTERVAL=90"
+model = "gpt-5.2"
+reasoning_effort = "medium"
+execution_environment = "local"
+cwds = ["C:\\Users\\sinek\\Desktop\\maxi-trouvaille"]
+created_at = 1778026602157
+updated_at = 1778083063453

@@ -1,0 +1,118 @@
+{
+  "checked_at": "2026-06-05 15:58:07",
+  "ok": true,
+  "maxi_local_ready": false,
+  "stats": {
+    "count": 9,
+    "avg_ms": 3,
+    "median_ms": 2,
+    "max_ms": 12
+  },
+  "latency_ok": true,
+  "targets": {
+    "median_ms_max": 100,
+    "max_ms_max": 1200
+  },
+  "slow_threshold_ms": 2500,
+  "slow": [],
+  "checks": [
+    {
+      "text": "business_readiness",
+      "handled": true,
+      "ok": true,
+      "tool_id": "maxi.business_readiness",
+      "action": "business_readiness",
+      "status": "executed",
+      "error": "",
+      "wall_ms": 2
+    },
+    {
+      "text": "maxi_routes",
+      "handled": true,
+      "ok": true,
+      "tool_id": "maxi.routes_health",
+      "action": "maxi_routes",
+      "status": "skipped_maxi_offline",
+      "error": "maxi_local_offline",
+      "wall_ms": 0
+    },
+    {
+      "text": "pipeline_status",
+      "handled": true,
+      "ok": true,
+      "tool_id": "maxi.pipeline_status",
+      "action": "pipeline_status",
+      "status": "executed",
+      "error": "",
+      "wall_ms": 1
+    },
+    {
+      "text": "latest_summary",
+      "handled": true,
+      "ok": true,
+      "tool_id": "maxi.business_latest_summary",
+      "action": "latest_summary",
+      "status": "executed",
+      "error": "",
+      "wall_ms": 2
+    },
+    {
+      "text": "job_monitor",
+      "handled": true,
+      "ok": true,
+      "tool_id": "maxi.business_job_monitor",
+      "action": "job_monitor",
+      "status": "executed",
+      "error": "",
+      "wall_ms": 2
+    },
+    {
+      "text": "source_guard",
+      "handled": true,
+      "ok": true,
+      "tool_id": "maxi.business_source_guard",
+      "action": "source_guard",
+      "status": "executed",
+      "error": "",
+      "wall_ms": 2
+    },
+    {
+      "text": "api_todo",
+      "handled": true,
+      "ok": true,
+      "tool_id": "maxi.business_api_todo",
+      "action": "api_todo",
+      "status": "executed",
+      "error": "",
+      "wall_ms": 3
+    },
+    {
+      "text": "business_fast_status",
+      "handled": true,
+      "ok": true,
+      "tool_id": "maxi.business_fast_status",
+      "action": "business_fast_status",
+      "status": "executed",
+      "error": "",
+      "wall_ms": 12
+    },
+    {
+      "text": "business_dashboard",
+      "handled": true,
+      "ok": true,
+      "tool_id": "maxi.business_dashboard",
+      "action": "business_dashboard",
+      "status": "skipped_maxi_offline",
+      "error": "maxi_local_offline",
+      "wall_ms": 0
+    }
+  ],
+  "safety": {
+    "read_only": true,
+    "offline_safe": true,
+    "no_import": true,
+    "no_order": true,
+    "no_payment": true,
+    "no_publication": true
+  }
+}

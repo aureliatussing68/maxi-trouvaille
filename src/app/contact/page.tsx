@@ -1,77 +1,169 @@
 import type { Metadata } from "next";
-import { Mail, MapPin, MessageSquare } from "lucide-react";
+import Link from "next/link";
+import {
+  CreditCard,
+  Headphones,
+  Mail,
+  MessageSquare,
+  PackageCheck,
+  ShieldCheck,
+  Truck,
+  type LucideIcon,
+} from "lucide-react";
 import { PageHeader } from "@/components/PageHeader";
+import { CustomerJourneyPanel } from "@/components/CustomerJourneyPanel";
+import { CustomerSupportQuickLinks } from "@/components/CustomerSupportQuickLinks";
+import { ServiceReadinessPanel } from "@/components/ServiceReadinessPanel";
+import { getStorefrontControlMetrics } from "@/lib/storefront-control-metrics";
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "Service client",
+  description:
+    "Service client Maxi Trouvaille pour les questions paiement, suivi colis, livraison et produits partenaires.",
 };
 
-export default function ContactPage() {
+type SupportCard = {
+  icon: LucideIcon;
+  title: string;
+  text: string;
+  href: string;
+  action: string;
+};
+
+const supportCards: SupportCard[] = [
+  {
+    icon: Truck,
+    title: "Suivi colis",
+    text: "Retrouver le point de suivi prévu pour les commandes Maxi Trouvaille.",
+    href: "/suivi-colis",
+    action: "Ouvrir le suivi",
+  },
+  {
+    icon: CreditCard,
+    title: "Paiement",
+    text: "Comprendre le paiement Maxi Trouvaille pour les articles validés.",
+    href: "/paiement",
+    action: "Voir le paiement",
+  },
+  {
+    icon: PackageCheck,
+    title: "Rayons partenaires",
+    text: "Explorer les univers en préparation sans exposer de fiche non validée.",
+    href: "/produits-partenaires",
+    action: "Voir les rayons",
+  },
+];
+
+export default async function ContactPage() {
+  const metrics = await getStorefrontControlMetrics();
+
   return (
     <>
       <PageHeader
-        eyebrow="Contact"
-        title="Une question sur Maxi Trouvaille ?"
-        description="La boutique est en preparation. Cette page est prete pour le futur support client."
+        eyebrow="Service client"
+        title="Maxi Trouvaille reste le point de contact."
+        description="Questions produit, paiement, livraison ou suivi colis: le client garde Maxi Trouvaille comme interlocuteur principal."
       />
+      <section className="container-page border-b border-line py-10">
+        <ServiceReadinessPanel metrics={metrics} />
+        <CustomerJourneyPanel className="mt-10" />
+        <CustomerSupportQuickLinks className="mt-10" />
+      </section>
       <section className="container-page grid gap-6 py-10 lg:grid-cols-[1fr_360px]">
-        <form
-          action="mailto:contact@maxitrouvaille.fr"
-          method="post"
-          encType="text/plain"
-          className="grid gap-4 rounded-lg border border-line bg-paper p-6 shadow-sm"
-        >
-          <label className="grid gap-2 text-sm font-bold">
-            Nom
-            <input
-              name="name"
-              className="focus-ring min-h-11 rounded-md border border-line px-3"
-              placeholder="Votre nom"
-            />
-          </label>
-          <label className="grid gap-2 text-sm font-bold">
-            E-mail
-            <input
-              name="email"
-              type="email"
-              className="focus-ring min-h-11 rounded-md border border-line px-3"
-              placeholder="vous@email.fr"
-            />
-          </label>
-          <label className="grid gap-2 text-sm font-bold">
-            Message
-            <textarea
-              name="message"
-              rows={6}
-              className="focus-ring rounded-md border border-line px-3 py-3"
-              placeholder="Votre message"
-            />
-          </label>
-          <button
-            type="submit"
-            className="focus-ring min-h-11 rounded-md bg-foreground px-5 py-2.5 text-sm font-black text-white hover:bg-[#2b2b2b]"
-          >
-            Envoyer
-          </button>
-        </form>
+        <div className="grid gap-4">
+          <div className="rounded-lg border border-line bg-paper p-6 shadow-sm">
+            <div className="flex items-start gap-3">
+              <Headphones
+                className="mt-1 text-teal"
+                size={26}
+                aria-hidden="true"
+              />
+              <div>
+                <p className="text-sm font-black uppercase text-teal">
+                  Assistance Maxi Trouvaille
+                </p>
+                <h2 className="mt-1 text-2xl font-black">
+                  Une réponse propre à chaque étape.
+                </h2>
+              </div>
+            </div>
+            <p className="mt-4 max-w-2xl text-sm leading-6 text-muted">
+              Les demandes client sont prévues pour rester centralisées chez
+              Maxi Trouvaille. Les produits partenaires sont préparés avec des
+              informations de livraison, de stock et d&apos;image claires avant
+              publication.
+            </p>
+            <div className="mt-5 grid gap-3 sm:grid-cols-3">
+              <div className="rounded-md bg-[#eef8f6] p-3">
+                <p className="text-sm font-black text-teal">Paiement</p>
+                <p className="mt-1 text-xs font-semibold leading-5 text-muted">
+                  Ouvert seulement après validation.
+                </p>
+              </div>
+              <div className="rounded-md bg-[#f6f1e8] p-3">
+                <p className="text-sm font-black text-teal">Livraison</p>
+                <p className="mt-1 text-xs font-semibold leading-5 text-muted">
+                  Préparation par partenaire logistique.
+                </p>
+              </div>
+              <div className="rounded-md bg-[#f7f4ee] p-3">
+                <p className="text-sm font-black text-teal">Suivi</p>
+                <p className="mt-1 text-xs font-semibold leading-5 text-muted">
+                  Maxi Trouvaille reste le repère client.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="grid gap-3 md:grid-cols-3">
+            {supportCards.map((card) => {
+              const Icon = card.icon;
+
+              return (
+                <Link
+                  key={card.title}
+                  href={card.href}
+                  className="focus-ring rounded-lg border border-line bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:border-[#d5c8b7] hover:shadow-md"
+                >
+                  <span className="flex h-10 w-10 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
+                    <Icon size={19} aria-hidden="true" />
+                  </span>
+                  <h3 className="mt-4 font-black">{card.title}</h3>
+                  <p className="mt-2 text-sm leading-6 text-muted">{card.text}</p>
+                  <p className="mt-3 text-sm font-black text-teal">
+                    {card.action}
+                  </p>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
 
         <aside className="grid h-fit gap-4">
           <div className="rounded-lg border border-line bg-paper p-5 shadow-sm">
             <Mail className="mb-3 text-teal" size={24} aria-hidden="true" />
-            <h2 className="font-black">E-mail</h2>
-            <p className="mt-2 text-sm text-muted">contact@maxitrouvaille.fr</p>
+            <h2 className="font-black">Contact</h2>
+            <p className="mt-2 text-sm leading-6 text-muted">
+              contact@maxitrouvaille.fr
+            </p>
+            <p className="mt-2 text-xs font-bold leading-5 text-muted">
+              Une réponse claire peut être préparée par l&apos;équipe Maxi Trouvaille.
+            </p>
           </div>
           <div className="rounded-lg border border-line bg-paper p-5 shadow-sm">
-            <MapPin className="mb-3 text-teal" size={24} aria-hidden="true" />
-            <h2 className="font-black">Zone</h2>
-            <p className="mt-2 text-sm text-muted">France, informations a completer.</p>
+            <ShieldCheck className="mb-3 text-teal" size={24} aria-hidden="true" />
+            <h2 className="font-black">Validation avant publication</h2>
+            <p className="mt-2 text-sm leading-6 text-muted">
+              Une fiche apparaît seulement quand les preuves clés sont
+              complètes.
+            </p>
           </div>
           <div className="rounded-lg border border-line bg-paper p-5 shadow-sm">
             <MessageSquare className="mb-3 text-teal" size={24} aria-hidden="true" />
-            <h2 className="font-black">Support</h2>
+            <h2 className="font-black">Service client</h2>
             <p className="mt-2 text-sm leading-6 text-muted">
-              Les demandes de commande, livraison et retour seront centralisees
-              ici lors du lancement.
+              Commande, livraison, retour ou suivi: le client reste accompagné
+              par Maxi Trouvaille.
             </p>
           </div>
         </aside>

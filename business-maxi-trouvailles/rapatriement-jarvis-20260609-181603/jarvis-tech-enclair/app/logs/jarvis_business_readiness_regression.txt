@@ -1,0 +1,25 @@
+Regression business readiness - 2026-05-24 08:45:34
+Global: OK
+Message court: Business Maxi pret: mode brouillon, publication/paiement/commande bloques.
+Message executeur: Business Maxi pret: mode brouillon, publication/paiement/commande bloques.
+
+- json_written: OK
+- txt_written: OK
+- fresh_run_not_cached: OK
+- second_run_cached: OK
+- cached_fast: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- route_business_readiness: OK
+- execute_business_readiness: OK
+- executor_uses_short_message: OK
+- project_check_present: OK
+- business_dirs_check_present: OK
+- aliexpress_statuses_present: OK
+- aliexpress_statuses_only: OK
+- no_auto_publish: OK
+- no_auto_order: OK
+- no_auto_payment: OK
+- no_production_write: OK
+- manual_validation_required: OK
+- no_secret_like_value_in_text: OK

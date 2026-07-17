@@ -2,6 +2,9 @@
 
 import { useEffect } from "react";
 
+const serviceWorkerUrl = "/sw.js";
+const serviceWorkerScope = "/";
+
 export function ServiceWorkerRegister() {
   useEffect(() => {
     if (!("serviceWorker" in navigator)) {
@@ -10,26 +13,45 @@ export function ServiceWorkerRegister() {
 
     const isLocalApp =
       window.location.hostname === "localhost" ||
-      window.location.hostname === "127.0.0.1";
+      window.location.hostname === "127.0.0.1" ||
+      window.location.hostname === "::1";
 
     if (!window.isSecureContext && !isLocalApp) {
       return;
     }
 
+    let cancelled = false;
+
     const registerWorker = () => {
-      navigator.serviceWorker.register("/sw.js", { scope: "/" }).catch(() => {
-        // L'installation PWA ne doit jamais bloquer l'achat ni l'ajout rapide.
-      });
+      if (cancelled) {
+        return;
+      }
+
+      navigator.serviceWorker
+        .register(serviceWorkerUrl, { scope: serviceWorkerScope })
+        .then((registration) => {
+          if (cancelled) {
+            return;
+          }
+
+          registration.update().catch(() => undefined);
+        })
+        .catch(() => {
+          // La PWA ne doit jamais bloquer la visite.
+        });
     };
 
     if (document.readyState === "complete") {
       registerWorker();
-      return;
+      return () => {
+        cancelled = true;
+      };
     }
 
     window.addEventListener("load", registerWorker, { once: true });
 
     return () => {
+      cancelled = true;
       window.removeEventListener("load", registerWorker);
     };
   }, []);

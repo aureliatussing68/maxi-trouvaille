@@ -1,0 +1,153 @@
+{
+  "checked_at": "2026-06-09 17:57:29",
+  "ok": false,
+  "base_url": "http://127.0.0.1:3010",
+  "base_reachable": false,
+  "base_status": {
+    "ok": false,
+    "status": "KO",
+    "code": 0,
+    "detail": "URLError",
+    "elapsed_ms": 1204
+  },
+  "ok_count": 0,
+  "total": 13,
+  "routes": [
+    {
+      "name": "accueil",
+      "path": "/",
+      "url": "http://127.0.0.1:3010/",
+      "ok": false,
+      "status": "KO",
+      "code": 0,
+      "detail": "base_unreachable:URLError",
+      "elapsed_ms": 1204
+    },
+    {
+      "name": "boutique",
+      "path": "/boutique",
+      "url": "http://127.0.0.1:3010/boutique",
+      "ok": false,
+      "status": "KO",
+      "code": 0,
+      "detail": "base_unreachable:URLError",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "categories",
+      "path": "/categories",
+      "url": "http://127.0.0.1:3010/categories",
+      "ok": false,
+      "status": "KO",
+      "code": 0,
+      "detail": "base_unreachable:URLError",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "panier",
+      "path": "/panier",
+      "url": "http://127.0.0.1:3010/panier",
+      "ok": false,
+      "status": "KO",
+      "code": 0,
+      "detail": "base_unreachable:URLError",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "admin_dropshipping",
+      "path": "/admin/dropshipping",
+      "url": "http://127.0.0.1:3010/admin/dropshipping",
+      "ok": false,
+      "status": "KO",
+      "code": 0,
+      "detail": "base_unreachable:URLError",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "admin_ajout_rapide",
+      "path": "/admin/ajout-rapide",
+      "url": "http://127.0.0.1:3010/admin/ajout-rapide",
+      "ok": false,
+      "status": "KO",
+      "code": 0,
+      "detail": "base_unreachable:URLError",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "admin_ajout_images",
+      "path": "/admin/ajout-images",
+      "url": "http://127.0.0.1:3010/admin/ajout-images",
+      "ok": false,
+      "status": "KO",
+      "code": 0,
+      "detail": "base_unreachable:URLError",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "admin_messages",
+      "path": "/admin/messages",
+      "url": "http://127.0.0.1:3010/admin/messages",
+      "ok": false,
+      "status": "KO",
+      "code": 0,
+      "detail": "base_unreachable:URLError",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "dropshipping_nouveautes",
+      "path": "/categories/dropshipping-nouveautes",
+      "url": "http://127.0.0.1:3010/categories/dropshipping-nouveautes",
+      "ok": false,
+      "status": "KO",
+      "code": 0,
+      "detail": "base_unreachable:URLError",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "dropshipping_promotions",
+      "path": "/categories/dropshipping-promotions",
+      "url": "http://127.0.0.1:3010/categories/dropshipping-promotions",
+      "ok": false,
+      "status": "KO",
+      "code": 0,
+      "detail": "base_unreachable:URLError",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "dropshipping_high_tech",
+      "path": "/categories/dropshipping-high-tech",
+      "url": "http://127.0.0.1:3010/categories/dropshipping-high-tech",
+      "ok": false,
+      "status": "KO",
+      "code": 0,
+      "detail": "base_unreachable:URLError",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "dropshipping_maison",
+      "path": "/categories/dropshipping-maison",
+      "url": "http://127.0.0.1:3010/categories/dropshipping-maison",
+      "ok": false,
+      "status": "KO",
+      "code": 0,
+      "detail": "base_unreachable:URLError",
+      "elapsed_ms": 0
+    },
+    {
+      "name": "dropshipping_accessoires",
+      "path": "/categories/dropshipping-accessoires",
+      "url": "http://127.0.0.1:3010/categories/dropshipping-accessoires",
+      "ok": false,
+      "status": "KO",
+      "code": 0,
+      "detail": "base_unreachable:URLError",
+      "elapsed_ms": 0
+    }
+  ],
+  "safety": {
+    "read_only": true,
+    "no_browser_opened": true,
+    "no_product_write": true,
+    "no_publish": true
+  }
+}

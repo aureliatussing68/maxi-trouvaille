@@ -1,0 +1,23 @@
+Checklist manuelle import fournisseur - 2026-06-09 18:00:36
+
+Global: OK
+Statut: SUPPLIER_IMPORT_MANUAL_CHECKLIST_BLOCKED
+Message court: Checklist import fournisseur bloquee: 4/6 point(s) a traiter, aucune action lancee.
+Checklist prete: non
+Deblocage autorise maintenant: non
+Points OK: 2/6
+Points bloquants: 4
+Preuves manquantes: 55/55
+File validation prete: 0/6
+Import brouillon autorise: non
+Confirmation vocale generique deverrouille: non
+
+Checklist:
+- Preuves fournisseur completes: A TRAITER
+- Validation Mouss fournisseur specifique: A TRAITER
+- File validation contient un item pret: A TRAITER
+- Garde import brouillon pret: A TRAITER
+- Confirmation vocale generique bloquee: OK
+- Aucune action sensible lancee: OK
+
+Securite: checklist lecture seule, aucun detail produit ou chemin expose, aucune recherche web/API, aucune revue import lancee, aucun import, achat, paiement, publication ou suppression.

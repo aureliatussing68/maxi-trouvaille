@@ -1,0 +1,34 @@
+import type { Metadata } from "next";
+import { PageHeader } from "@/components/PageHeader";
+import { ProductImageManager } from "@/components/ProductImageManager";
+import { getCategoryById } from "@/lib/catalog";
+import { readQuickProducts } from "@/lib/catalog-server";
+import { defaultProductImage } from "@/lib/quick-products";
+
+export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = {
+  title: "Ajout images produits",
+};
+
+export default async function ProductImagesPage() {
+  const products = (await readQuickProducts()).slice(0, 14).map((product) => ({
+    id: product.id,
+    slug: product.slug,
+    name: product.name,
+    price: product.price,
+    categoryName: getCategoryById(product.categoryId)?.name ?? "Categorie",
+    image: product.image || defaultProductImage,
+  }));
+
+  return (
+    <>
+      <PageHeader
+        eyebrow="Admin"
+        title="Ajout images produits"
+        description="Ajoutez rapidement les photos des 14 derniers produits crees. Chaque image est sauvegardee directement sur le bon produit."
+      />
+      <ProductImageManager products={products} />
+    </>
+  );
+}

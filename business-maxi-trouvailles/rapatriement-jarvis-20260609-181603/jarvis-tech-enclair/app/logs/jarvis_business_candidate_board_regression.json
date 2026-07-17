@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-05-24 22:26:51",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "html_written": true,
+    "candidates_present": true,
+    "rows_match_count": true,
+    "short_message_present": true,
+    "txt_mentions_short_message": true,
+    "html_mentions_display_only": true,
+    "route_business_candidate_board": true,
+    "execute_business_candidate_board": true,
+    "executor_uses_short_message": true,
+    "display_only": true,
+    "read_only": true,
+    "no_import": true,
+    "no_order": true,
+    "no_payment": true,
+    "no_publication": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true,
+    "not_opened_in_regression": true,
+    "no_secret_like_value_in_reports": true
+  },
+  "short_message": "Tableau produits: 10 candidat(s) affiches, 0 source(s) reelle(s), affichage seulement.",
+  "shown_candidates": 10,
+  "html_path": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_candidate_board.html",
+  "executor_message": "Tableau produits: 10 candidat(s) affiches, 0 source(s) reelle(s), affichage seulement.",
+  "note": "Regression lecture seule du tableau candidats business. Affichage local uniquement."
+}

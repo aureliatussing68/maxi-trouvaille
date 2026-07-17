@@ -1,0 +1,25 @@
+Sas decision recherche fournisseur - 2026-06-09 18:00:56
+
+Global: OK
+Statut: WAITING_MOUSS_SUPPLIER_DECISION
+Message court: Decision fournisseur en attente: 1 point(s), aucune recherche automatique.
+Handoff manuel fournisseur pret: non
+Paquet pret: oui
+Slots paquet: 5
+Liens reels a trouver: 5
+Decision connue: oui
+Decision: PENDING_MOUSS_DECISION
+Decision fournisseur validee: non
+Recherche automatique autorisee: non
+Confirmation vocale generique deverrouille recherche fournisseur: non
+
+Blocages:
+- decision_mouss_non_validee
+
+Prochaines etapes manuelles:
+- Verifier que Mouss a coche une seule decision fournisseur explicite.
+- Relire le paquet fournisseur manuel avant toute recherche externe.
+- Faire la recherche fournisseur hors automatisation tant que les API ne sont pas completes.
+- Garder import, commande, paiement, publication et suppression dans des validations separees.
+
+Securite: sas decision seulement, aucune recherche web/API, aucun scraping, aucun import, aucune commande, aucun paiement, aucune publication.

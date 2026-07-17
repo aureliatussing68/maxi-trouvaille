@@ -1,0 +1,167 @@
+export const dropshippingOrderStatuses = [
+  "a-traiter",
+  "pret-a-commander",
+  "commande-fournisseur",
+  "expedie",
+  "livre",
+  "probleme-fournisseur",
+] as const;
+
+export type DropshippingOrderStatus = (typeof dropshippingOrderStatuses)[number];
+
+export const dropshippingStatusLabels: Record<DropshippingOrderStatus, string> = {
+  "a-traiter": "à traiter",
+  "pret-a-commander": "prêt à commander",
+  "commande-fournisseur": "commandé fournisseur",
+  expedie: "expédié",
+  livre: "livré",
+  "probleme-fournisseur": "problème fournisseur",
+};
+
+export type DropshippingOrderPaymentStatus =
+  | "stripe-session-created"
+  | "paid"
+  | "failed"
+  | "refunded";
+
+export type DropshippingOrderLine = {
+  productId: string;
+  productSlug: string;
+  productName: string;
+  image: string;
+  quantity: number;
+  supplierName: string;
+  supplierUrl: string;
+  supplierSku: string;
+  supplierPriceCents: number;
+  soldPriceCents: number;
+  marginCents: number;
+  supplierStock?: number;
+  deliveryEstimate: string;
+};
+
+export type DropshippingCustomer = {
+  name: string;
+  email: string;
+  phone: string;
+};
+
+export type DropshippingShippingAddress = {
+  street: string;
+  postalCode: string;
+  city: string;
+  country: string;
+  methodLabel: string;
+};
+
+export type DropshippingOrder = {
+  id: string;
+  orderNumber: string;
+  stripeSessionId?: string;
+  paymentStatus: DropshippingOrderPaymentStatus;
+  status: DropshippingOrderStatus;
+  customer: DropshippingCustomer;
+  shippingAddress: DropshippingShippingAddress;
+  lines: DropshippingOrderLine[];
+  supplierTotalCents: number;
+  soldTotalCents: number;
+  estimatedMarginCents: number;
+  shippingPriceCents: number;
+  trackingNumber?: string;
+  supplierOrderReference?: string;
+  internalNote?: string;
+  followUpMessagePreparedAt?: string;
+  createdAt: string;
+  updatedAt: string;
+};
+
+export type DropshippingRoundingMode = "none" | "x90" | "x99";
+
+export type DropshippingMarginSettings = {
+  supplierPriceCents: number;
+  marginPercent: number;
+  fixedMarginCents: number;
+  roundingMode: DropshippingRoundingMode;
+};
+
+export function parseMoneyToCents(value: unknown) {
+  const normalized = String(value ?? "")
+    .replace(/[^\d,.-]/g, "")
+    .replace(",", ".");
+  const amount = Number.parseFloat(normalized);
+
+  if (!Number.isFinite(amount) || amount < 0) {
+    return 0;
+  }
+
+  return Math.round(amount * 100);
+}
+
+export function formatInputPrice(cents: number) {
+  return (Math.max(0, Math.round(cents)) / 100).toFixed(2);
+}
+
+function applyPsychologicalRounding(cents: number, mode: DropshippingRoundingMode) {
+  if (mode === "none") {
+    return cents;
+  }
+
+  const target = mode === "x90" ? 90 : 99;
+  const euros = Math.floor(cents / 100);
+  let rounded = euros * 100 + target;
+
+  if (rounded < cents) {
+    rounded += 100;
+  }
+
+  return rounded;
+}
+
+export function calculateDropshippingSalePrice(settings: DropshippingMarginSettings) {
+  const supplier = Math.max(0, Math.round(settings.supplierPriceCents));
+  const percentMargin = Math.round(
+    supplier * Math.max(0, settings.marginPercent) * 0.01,
+  );
+  const subtotal = supplier + percentMargin + Math.max(0, settings.fixedMarginCents);
+  const salePriceCents = applyPsychologicalRounding(
+    subtotal,
+    settings.roundingMode,
+  );
+
+  return {
+    supplierPriceCents: supplier,
+    salePriceCents,
+    marginCents: Math.max(0, salePriceCents - supplier),
+  };
+}
+
+export function sanitizeDropshippingStatus(value: unknown): DropshippingOrderStatus {
+  return dropshippingOrderStatuses.some((status) => status === value)
+    ? (value as DropshippingOrderStatus)
+    : "a-traiter";
+}
+
+export function normalizeSupplierUrl(value: unknown) {
+  const raw = String(value ?? "").trim();
+
+  if (!raw) {
+    return "";
+  }
+
+  try {
+    const url = new URL(raw);
+    url.hash = "";
+    return url.toString();
+  } catch {
+    return "";
+  }
+}
+
+export function isAliExpressUrl(value: string) {
+  try {
+    const url = new URL(value);
+    return /(^|\.)aliexpress\./i.test(url.hostname);
+  } catch {
+    return false;
+  }
+}

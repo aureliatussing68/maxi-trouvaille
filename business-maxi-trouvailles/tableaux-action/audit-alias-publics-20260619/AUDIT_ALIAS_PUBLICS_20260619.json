@@ -1,0 +1,135 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-19T01:48:21.327Z",
+  "generatedAtLocal": "2026-06-19 03:48 Europe/Paris",
+  "mode": "read_only_public_route_alias_audit",
+  "expectedAliasCount": 15,
+  "aliasCount": 15,
+  "aliases": [
+    {
+      "source": "/aide",
+      "destination": "/faq",
+      "permanent": true,
+      "line": 3
+    },
+    {
+      "source": "/catalogue",
+      "destination": "/boutique",
+      "permanent": true,
+      "line": 4
+    },
+    {
+      "source": "/cgv",
+      "destination": "/conditions-generales-vente",
+      "permanent": true,
+      "line": 5
+    },
+    {
+      "source": "/conditions-dropshipping",
+      "destination": "/conditions-produits-partenaires",
+      "permanent": true,
+      "line": 9
+    },
+    {
+      "source": "/confidentialite",
+      "destination": "/politique-confidentialite",
+      "permanent": true,
+      "line": 14
+    },
+    {
+      "source": "/deposer-annonce",
+      "destination": "/produits-partenaires",
+      "permanent": true,
+      "line": 19
+    },
+    {
+      "source": "/dropshipping",
+      "destination": "/produits-partenaires",
+      "permanent": true,
+      "line": 24
+    },
+    {
+      "source": "/livraison-colis",
+      "destination": "/livraison",
+      "permanent": true,
+      "line": 29
+    },
+    {
+      "source": "/mentions",
+      "destination": "/mentions-legales",
+      "permanent": true,
+      "line": 31
+    },
+    {
+      "source": "/partenaires",
+      "destination": "/produits-partenaires",
+      "permanent": true,
+      "line": 32
+    },
+    {
+      "source": "/produits",
+      "destination": "/boutique",
+      "permanent": true,
+      "line": 36
+    },
+    {
+      "source": "/retours",
+      "destination": "/retours-remboursements",
+      "permanent": true,
+      "line": 38
+    },
+    {
+      "source": "/shop",
+      "destination": "/boutique",
+      "permanent": true,
+      "line": 42
+    },
+    {
+      "source": "/suivi",
+      "destination": "/suivi-colis",
+      "permanent": true,
+      "line": 44
+    },
+    {
+      "source": "/vendre",
+      "destination": "/produits-partenaires",
+      "permanent": true,
+      "line": 45
+    }
+  ],
+  "sitemapRequiredRouteCount": 11,
+  "sitemapStaticRouteCount": 15,
+  "sitemapIndexedAliasRoutes": [],
+  "robotsRequiredDisallowCount": 8,
+  "robotsMatchedDisallowCount": 8,
+  "findingCount": 0,
+  "findings": [],
+  "sources": {
+    "nextConfig": {
+      "path": "next.config.ts",
+      "exists": true
+    },
+    "sitemap": {
+      "path": "src/app/sitemap.ts",
+      "exists": true
+    },
+    "robots": {
+      "path": "src/app/robots.ts",
+      "exists": true
+    }
+  },
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true,
+    "noExternalRequest": true
+  },
+  "files": {
+    "json": "business-maxi-trouvailles/tableaux-action/audit-alias-publics-20260619/AUDIT_ALIAS_PUBLICS_20260619.json",
+    "md": "business-maxi-trouvailles/tableaux-action/audit-alias-publics-20260619/AUDIT_ALIAS_PUBLICS_20260619.md",
+    "csv": "business-maxi-trouvailles/tableaux-action/audit-alias-publics-20260619/maxi-audit-alias-publics-20260619.csv"
+  }
+}

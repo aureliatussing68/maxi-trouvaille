@@ -1,0 +1,2367 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-17T19:39:22.549Z",
+  "generatedAtLocal": "2026-06-17 21:39 Europe/Paris",
+  "mode": "read_only_seo_hold_visibility_audit",
+  "status": "OK_HOLD_PRODUCTS_NOT_INDEXABLE",
+  "totalProductCount": 121,
+  "publicProductCount": 0,
+  "nonPublicProductCount": 121,
+  "routeShieldedProductCount": 4,
+  "readinessBlockedProductCount": 0,
+  "staticNonPublicProductCount": 10,
+  "quickNonPublicProductCount": 111,
+  "failureCount": 0,
+  "checks": [
+    {
+      "id": "catalog_public_filter_uses_readiness_gate",
+      "ok": true,
+      "failure": "Le filtre public du catalogue doit garder le verrou readiness dropshipping strict.",
+      "status": "OK"
+    },
+    {
+      "id": "catalog_server_public_lookup_reuses_is_public_product",
+      "ok": true,
+      "failure": "Le lookup public par slug doit repasser par isPublicProduct avant de servir une fiche.",
+      "status": "OK"
+    },
+    {
+      "id": "product_route_uses_public_lookup",
+      "ok": true,
+      "failure": "La page produit publique doit utiliser getPublicCatalogProductBySlug(slug).",
+      "status": "OK"
+    },
+    {
+      "id": "admin_preview_noindex",
+      "ok": true,
+      "failure": "Le mode adminPreview doit rester en noindex/nofollow.",
+      "status": "OK"
+    },
+    {
+      "id": "static_params_filter_public_products",
+      "ok": true,
+      "failure": "generateStaticParams ne doit pas preparer les produits brouillons/HOLD.",
+      "status": "OK"
+    },
+    {
+      "id": "dynamic_params_disabled_for_unlisted_products",
+      "ok": true,
+      "failure": "Les slugs produit non generes doivent retourner une vraie 404 HTTP.",
+      "status": "OK"
+    },
+    {
+      "id": "product_route_not_force_dynamic",
+      "ok": true,
+      "failure": "La route produit ne doit pas forcer le rendu dynamique pendant le focus HOLD SEO.",
+      "status": "OK"
+    },
+    {
+      "id": "sitemap_uses_public_products",
+      "ok": true,
+      "failure": "Le sitemap doit partir de getPublicProducts(), pas de tous les produits.",
+      "status": "OK"
+    },
+    {
+      "id": "robots_blocks_admin_preview",
+      "ok": true,
+      "failure": "robots.txt doit bloquer admin, api admin et adminPreview.",
+      "status": "OK"
+    }
+  ],
+  "failures": [],
+  "publicProducts": [],
+  "nonPublicProducts": [
+    {
+      "origin": "src/lib/catalog.ts",
+      "slug": "palette-mystere-destockage",
+      "name": "Palette mystère déstockage",
+      "status": "published",
+      "categoryId": "palettes-destockage",
+      "dropshippingEnabled": false,
+      "routeShielded": true,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "src/lib/catalog.ts",
+      "slug": "colis-surprise-10-kg",
+      "name": "Colis surprise 10 kg",
+      "status": "published",
+      "categoryId": "colis-au-poids",
+      "dropshippingEnabled": false,
+      "routeShielded": true,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "src/lib/catalog.ts",
+      "slug": "colis-mystere-premium",
+      "name": "Colis mystère premium",
+      "status": "published",
+      "categoryId": "colis-mysteres",
+      "dropshippingEnabled": false,
+      "routeShielded": true,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "src/lib/catalog.ts",
+      "slug": "lot-special-marche",
+      "name": "Lot spécial marché",
+      "status": "published",
+      "categoryId": "lots-bonnes-affaires",
+      "dropshippingEnabled": false,
+      "routeShielded": true,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "src/lib/catalog.ts",
+      "slug": "pack-revendeur",
+      "name": "Pack revendeur",
+      "status": "draft",
+      "categoryId": "espace-revendeur",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "src/lib/catalog.ts",
+      "slug": "mini-imprimante-thermique-bluetooth",
+      "name": "Mini imprimante thermique Bluetooth",
+      "status": "draft",
+      "categoryId": "dropshipping-high-tech",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready"
+      ]
+    },
+    {
+      "origin": "src/lib/catalog.ts",
+      "slug": "organisateur-cables-voyage-tech",
+      "name": "Organisateur de câbles et accessoires tech",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready"
+      ]
+    },
+    {
+      "origin": "src/lib/catalog.ts",
+      "slug": "projecteur-galaxie-led-ambiance",
+      "name": "Projecteur galaxie LED pour ambiance",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready"
+      ]
+    },
+    {
+      "origin": "src/lib/catalog.ts",
+      "slug": "mini-aspirateur-voiture-sans-fil",
+      "name": "Mini aspirateur voiture sans fil",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready"
+      ]
+    },
+    {
+      "origin": "src/lib/catalog.ts",
+      "slug": "pack-decouverte-test",
+      "name": "Pack decouverte test",
+      "status": "draft",
+      "categoryId": "high-tech",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "peigne-poils-chat-autonettoyant-pet-hold",
+      "name": "Peigne poils chat autonettoyant",
+      "status": "draft",
+      "categoryId": "dropshipping-animaux",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "gamelle-macaron-chat-chien-anti-choc",
+      "name": "Gamelle macaron chat chien anti-choc",
+      "status": "draft",
+      "categoryId": "dropshipping-animaux",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "sac-banane-sport-etanche-randonnee",
+      "name": "Sac banane sport étanche randonnée",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "corde-paracorde-camping-randonnee-5-15-30m",
+      "name": "Corde paracorde camping randonnée 5/15/30 m",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "lampe-velo-usb-rechargeable-affichage-batterie",
+      "name": "Lampe vélo USB rechargeable affichage batterie",
+      "status": "draft",
+      "categoryId": "dropshipping-high-tech",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "ruban-double-face-puissant-maison-promo",
+      "name": "Ruban double-face puissant maison promo",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "nano-tape-double-face-salle-de-bain-cuisine",
+      "name": "Nano tape double-face salle de bain cuisine",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "support-eponge-evier-inox-auto-adhesif",
+      "name": "Support éponge évier inox auto-adhésif",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "set-coupe-ongles-manucure-portable-promo",
+      "name": "Set coupe-ongles manucure portable promo",
+      "status": "draft",
+      "categoryId": "dropshipping-beaute",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "tondeuse-t9-barbe-cheveux-promo",
+      "name": "Tondeuse T9 barbe cheveux promo",
+      "status": "draft",
+      "categoryId": "dropshipping-beaute",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "support-telephone-magnetique-voiture-promo",
+      "name": "Support téléphone magnétique voiture promo",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "brosse-massage-cuir-chevelu-silicone-best-seller",
+      "name": "Brosse massage cuir chevelu silicone best-seller",
+      "status": "draft",
+      "categoryId": "dropshipping-beaute",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "spray-huile-cuisine-reutilisable-best-seller",
+      "name": "Spray huile cuisine réutilisable best-seller",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "papier-cuisson-air-fryer-promo-lot",
+      "name": "Papier cuisson air fryer lot promo",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "support-mural-balai-serpillere-4-crochets",
+      "name": "Support mural balai et serpillère 4 crochets",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "sac-lavage-chaussures-machine-best-seller",
+      "name": "Sac lavage chaussures machine best-seller",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "trousse-maquillage-voyage-transparente-best-seller",
+      "name": "Trousse maquillage voyage transparente best-seller",
+      "status": "draft",
+      "categoryId": "dropshipping-mode",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "sac-voyage-pliable-cabine-leger",
+      "name": "Sac voyage pliable cabine léger",
+      "status": "draft",
+      "categoryId": "dropshipping-mode",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "machine-bulles-automatique-enfant-exterieur",
+      "name": "Machine à bulles automatique enfant extérieur",
+      "status": "draft",
+      "categoryId": "dropshipping-enfant",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "avion-mousse-lanceur-enfant-jeu-exterieur",
+      "name": "Avion mousse avec lanceur jeu extérieur",
+      "status": "draft",
+      "categoryId": "dropshipping-enfant",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "serviette-microfibre-auto-detailing-promo",
+      "name": "Serviette microfibre auto detailing promo",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "cable-usb-c-240w-renforce-best-seller",
+      "name": "Câble USB-C 240W renforcé best-seller",
+      "status": "draft",
+      "categoryId": "dropshipping-high-tech",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "organisateur-cables-1-5m-bureau-best-seller",
+      "name": "Organisateur câbles 1/5 m bureau best-seller",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "support-telephone-voiture-360-partenaire",
+      "name": "Support téléphone voiture flexible à ventouse 360°",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_missing",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "lampe-led-detection-mouvement-usb-rechargeable",
+      "name": "Lampe LED à détection de mouvement USB rechargeable",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_missing",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "brosse-anti-poils-animaux-reutilisable",
+      "name": "Brosse anti-poils animaux 4-en-1 réutilisable",
+      "status": "draft",
+      "categoryId": "dropshipping-animaux",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_missing",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "support-pc-portable-pliant-aluminium-ajustable",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "status": "draft",
+      "categoryId": "dropshipping-high-tech",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_missing",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "sacs-rangement-sous-vide-voyage-grand-volume",
+      "name": "Sacs rangement sous vide grand volume voyage",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_missing",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "mini-humidificateur-usb-rechargeable-268ml",
+      "name": "Mini humidificateur USB rechargeable 268 ml",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_missing",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "pochette-organisateur-cables-double-couche-voyage",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "delivery_estimate_not_ready",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_missing",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "gourde-pliable-silicone-voyage-mousqueton",
+      "name": "Gourde pliable silicone voyage avec mousqueton",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_missing",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "tapis-silicone-anti-eclaboussures-robinet-evier",
+      "name": "Tapis silicone anti-éclaboussures robinet évier",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_missing",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "filet-rangement-coffre-voiture-sangles-fixes",
+      "name": "Filet rangement coffre voiture à sangles fixes",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_missing",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "double-prise-murale-avec-4-ports-usb-mosbs4s8",
+      "name": "Double prise murale avec 4 ports USB",
+      "status": "draft",
+      "categoryId": "electricite",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "pave-tactile-macbook-piece-detachee-a-verifier-mosbs4s2",
+      "name": "Pavé tactile MacBook - pièce à vérifier",
+      "status": "draft",
+      "categoryId": "informatique",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "ventilateur-tour-de-cou-rechargeable-usb-mosbs4rw",
+      "name": "Ventilateur tour de cou rechargeable USB",
+      "status": "draft",
+      "categoryId": "high-tech",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "compteur-energie-wifi-ketotek-63a-mosbs4rq",
+      "name": "Compteur d’énergie WiFi KETOTEK 63A",
+      "status": "draft",
+      "categoryId": "electricite",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "filtre-de-douche-chrome-universel-mosbs4rk",
+      "name": "Filtre de douche chromé universel",
+      "status": "draft",
+      "categoryId": "maison",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "cassette-velo-sunrace-a-verifier-mosbs4re",
+      "name": "Cassette vélo SunRace - compatibilité à vérifier",
+      "status": "draft",
+      "categoryId": "sport-loisirs",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "systeme-d-alerte-sos-wifi-avec-2-boutons-mosbs4r7",
+      "name": "Système d’alerte SOS WiFi avec 2 boutons",
+      "status": "draft",
+      "categoryId": "beaute-sante",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "kit-habillage-console-centrale-effet-carbone-mosbs4r1",
+      "name": "Kit habillage console centrale effet carbone",
+      "status": "draft",
+      "categoryId": "auto-moto",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "regulateur-d-alternateur-are4011-12v-mosbs4qv",
+      "name": "Régulateur d’alternateur ARE4011 12V",
+      "status": "draft",
+      "categoryId": "auto-moto",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "compteur-gps-85-mm-0-125-km-h-mosbs4qo",
+      "name": "Compteur GPS 85 mm 0-125 km/h",
+      "status": "draft",
+      "categoryId": "auto-moto",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "carburateur-type-pwk-avec-durite-et-gicleurs-mosbs4qh",
+      "name": "Carburateur type PWK avec durite et gicleurs",
+      "status": "draft",
+      "categoryId": "auto-moto",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "poche-de-froid-epaule-revix-reusable-mosbs4qa",
+      "name": "Poche de froid épaule Revix réutilisable",
+      "status": "draft",
+      "categoryId": "beaute-sante",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "accoudoir-central-voiture-avec-rangements-usb-mosbs4q3",
+      "name": "Accoudoir central voiture avec rangements USB",
+      "status": "draft",
+      "categoryId": "auto-moto",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "paire-de-supports-reglables-pour-coffre-voiture-mosbs4ou",
+      "name": "Supports réglables pour coffre voiture - paire",
+      "status": "draft",
+      "categoryId": "auto-moto",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "carburateur-chinaroller-4t-50ccm-euro4-alpha-motors-firenze-50-euro-4-no-mosapzlb",
+      "name": "Carburateur scooter 4T 50cc Euro 4 - à vérifier",
+      "status": "draft",
+      "categoryId": "auto-moto",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "filtre-a-eau-robinet-acier-inoxydable-13-etapes-purificateur-eau-uv-sans-mosaovw7",
+      "name": "Filtre robinet inox 13 étapes avec LED",
+      "status": "draft",
+      "categoryId": "maison",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "plafonnier-led-3-spots-orientables-blanc-gu10-mosanbie",
+      "name": "Plafonnier LED 3 spots orientables blanc GU10",
+      "status": "draft",
+      "categoryId": "electricite",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "applique-murale-led-doree-eclairage-tricolore-mon3huua",
+      "name": "Applique murale LED dorée tricolore",
+      "status": "draft",
+      "categoryId": "electricite",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "controleur-led-programmable-5-canaux-rgb-rgbw-12v-24v-20a-mon3gmwy",
+      "name": "Contrôleur LED RGB/RGBW 5 canaux 12V/24V",
+      "status": "draft",
+      "categoryId": "electricite",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "interrupteur-d-eclairage-bouton-de-lampe-antibrouillard-pour-interrupteu-mon19itu",
+      "name": "Interrupteur de phares chrome compatible Golf MK5/MK6",
+      "status": "draft",
+      "categoryId": "auto-moto",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "tapis-educateurs-pour-chiot-lot-entame-env-80-90-restants-mon182ip",
+      "name": "Tapis éducateurs pour chiot - lot entamé",
+      "status": "draft",
+      "categoryId": "animaux",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "raquette-tennis-babolat-roland-garros-pulse-housse-mon173kw",
+      "name": "Raquettes tennis Babolat Roland Garros Pulse avec housse",
+      "status": "draft",
+      "categoryId": "sport-loisirs",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "tete-de-mannequin-aimantee-mon0qddz",
+      "name": "Lot de têtes de mannequin aimantées",
+      "status": "draft",
+      "categoryId": "mannequins-bustes",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "mannequin-tete-vitrine-test-mon0kb45",
+      "name": "Buste mannequin vitrine - à vérifier",
+      "status": "draft",
+      "categoryId": "mannequins-bustes",
+      "dropshippingEnabled": false,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "boite-rangement-cables-bureau-partenaire-hold",
+      "name": "Boite rangement cables bureau",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "support-telephone-voiture-ventouse-partenaire-hold",
+      "name": "Support telephone voiture ventouse",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "lampe-led-placard-rechargeable-partenaire-hold",
+      "name": "Lampe LED placard rechargeable",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "rouleau-adhesif-poils-animaux-lavable-partenaire-hold",
+      "name": "Rouleau adhesif poils animaux lavable",
+      "status": "draft",
+      "categoryId": "dropshipping-animaux",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "organisateur-tiroir-cuisine-extensible-partenaire-hold",
+      "name": "Organisateur tiroir cuisine extensible",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "brosse-nettoyage-joints-cuisine-partenaire-hold",
+      "name": "Brosse nettoyage joints cuisine",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "sacs-compression-voyage-lot-partenaire-hold",
+      "name": "Sacs compression voyage lot",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "mini-humidificateur-usb-bureau-partenaire-hold",
+      "name": "Mini humidificateur USB bureau",
+      "status": "draft",
+      "categoryId": "dropshipping-high-tech",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "protege-coins-silicone-enfant-partenaire-hold",
+      "name": "Protege coins silicone enfant",
+      "status": "draft",
+      "categoryId": "dropshipping-enfant",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "gourde-chien-voyage-anti-fuite-partenaire-hold",
+      "name": "Gourde chien voyage anti fuite",
+      "status": "draft",
+      "categoryId": "dropshipping-animaux",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "attaches-cables-velcro-lot-partenaire-hold",
+      "name": "Attaches cables velcro lot",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "sac-rangement-chaussures-voyage-partenaire-hold",
+      "name": "Sac rangement chaussures voyage",
+      "status": "draft",
+      "categoryId": "dropshipping-mode",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "miroir-maquillage-led-compact-partenaire-hold",
+      "name": "Miroir maquillage LED compact",
+      "status": "draft",
+      "categoryId": "dropshipping-beaute",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "bandeau-skincare-microfibre-partenaire-hold",
+      "name": "Bandeau skincare microfibre",
+      "status": "draft",
+      "categoryId": "dropshipping-beaute",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "organisateur-maquillage-transparent-partenaire-hold",
+      "name": "Organisateur maquillage transparent",
+      "status": "draft",
+      "categoryId": "dropshipping-beaute",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "housse-protection-canape-animal-partenaire-hold",
+      "name": "Housse protection canape animal",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "tapis-egouttoir-vaisselle-microfibre-partenaire-hold",
+      "name": "Tapis egouttoir vaisselle microfibre",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "etagere-douche-angle-adhesive-partenaire-hold",
+      "name": "Etagere douche angle adhesive",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "sac-repas-isotherme-pliable-partenaire-hold",
+      "name": "Sac repas isotherme pliable",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "mini-pompe-air-usb-voyage-partenaire-hold",
+      "name": "Mini pompe air USB voyage",
+      "status": "draft",
+      "categoryId": "dropshipping-high-tech",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "tapis-souris-ergonomique-repose-poignet-partenaire-hold",
+      "name": "Tapis souris ergonomique repose poignet",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "brosse-chaussures-nettoyage-3-en-1-partenaire-hold",
+      "name": "Brosse chaussures nettoyage 3 en 1",
+      "status": "draft",
+      "categoryId": "dropshipping-mode",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "diffuseur-voiture-clip-ventilation-partenaire-hold",
+      "name": "Diffuseur voiture clip ventilation",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "filet-rangement-jouets-bain-enfant-partenaire-hold",
+      "name": "Filet rangement jouets bain enfant",
+      "status": "draft",
+      "categoryId": "dropshipping-enfant",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "porte-savon-drainant-silicone-partenaire-hold",
+      "name": "Porte savon drainant silicone",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "brosse-bouteille-flexible-partenaire-hold",
+      "name": "Brosse bouteille flexible",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "organisateur-sac-a-main-feutre-partenaire-hold",
+      "name": "Organisateur sac a main feutre",
+      "status": "draft",
+      "categoryId": "dropshipping-mode",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "pelle-litiere-chat-avec-support-partenaire-hold",
+      "name": "Pelle litiere chat avec support",
+      "status": "draft",
+      "categoryId": "dropshipping-animaux",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "coussinets-meubles-anti-rayures-lot-partenaire-hold",
+      "name": "Coussinets meubles anti rayures lot",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "range-epices-adhesif-cuisine-partenaire-hold",
+      "name": "Range epices adhesif cuisine",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "support-tablette-lit-canape-partenaire-hold",
+      "name": "Support tablette lit canape",
+      "status": "draft",
+      "categoryId": "dropshipping-high-tech",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "trousse-toilette-suspendue-voyage-partenaire-hold",
+      "name": "Trousse toilette suspendue voyage",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "bouchons-evier-silicone-lot-partenaire-hold",
+      "name": "Bouchons evier silicone lot",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "organisateur-telecommande-canape-partenaire-hold",
+      "name": "Organisateur telecommande canape",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "sangle-valise-ajustable-voyage-partenaire-hold",
+      "name": "Sangle valise ajustable voyage",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "peigne-demelage-animaux-double-face-partenaire-hold",
+      "name": "Peigne demelage animaux double face",
+      "status": "draft",
+      "categoryId": "dropshipping-animaux",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "boite-a-the-compartiments-bambou-partenaire-hold",
+      "name": "Boite a the compartiments bambou",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "porte-cles-mural-adhesif-partenaire-hold",
+      "name": "Porte cles mural adhesif",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "tapis-repas-chat-silicone-partenaire-hold",
+      "name": "Tapis repas chat silicone",
+      "status": "draft",
+      "categoryId": "dropshipping-animaux",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "support-casque-bureau-adhesif-partenaire-hold",
+      "name": "Support casque bureau adhesif",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "organisateur-frigo-transparent-partenaire-hold",
+      "name": "Organisateur frigo transparent",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "brosse-ventilation-voiture-partenaire-hold",
+      "name": "Brosse ventilation voiture",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "pochette-cable-voyage-electronique-partenaire-hold",
+      "name": "Pochette cable voyage electronique",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "support-ordinateur-portable-pliable-partenaire-hold",
+      "name": "Support ordinateur portable pliable",
+      "status": "draft",
+      "categoryId": "dropshipping-high-tech",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "mini-balai-table-ramasse-miettes-partenaire-hold",
+      "name": "Mini balai table ramasse miettes",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "boite-rangement-medicaments-vide-partenaire-hold",
+      "name": "Boite rangement medicaments vide",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "sac-filet-linge-delicat-lot-partenaire-hold",
+      "name": "Sac filet linge delicat lot",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "cache-multiprise-boite-rangement-cables-partenaire-hold",
+      "name": "Cache multiprise boite rangement cables",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "grattoir-vitroceramique-cuisine-partenaire-hold",
+      "name": "Grattoir vitroceramique cuisine",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "organisateur-coffre-voiture-pliable-partenaire-hold",
+      "name": "Organisateur coffre voiture pliable",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "porte-brosse-a-dents-adhesif-partenaire-hold",
+      "name": "Porte brosse a dents adhesif",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "trousse-premiers-soins-vide-voyage-partenaire-hold",
+      "name": "Trousse premiers soins vide voyage",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "gant-brossage-animaux-silicone-partenaire-hold",
+      "name": "Gant brossage animaux silicone",
+      "status": "draft",
+      "categoryId": "dropshipping-animaux",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    },
+    {
+      "origin": "data/quick-products.json",
+      "slug": "support-eponges-evier-ventouse-partenaire-hold",
+      "name": "Support eponges evier ventouse",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "dropshippingEnabled": true,
+      "routeShielded": false,
+      "publicReadinessBlockers": [
+        "supplier_url_exact_missing",
+        "supplier_sku_missing",
+        "supplier_price_missing",
+        "margin_missing",
+        "supplier_stock_missing",
+        "delivery_estimate_not_ready",
+        "exact_images_not_verified",
+        "image_rights_not_ready",
+        "source_price_not_ready",
+        "source_delivery_not_ready",
+        "validation_gate_not_ready",
+        "internal_sourcing_hold"
+      ]
+    }
+  ],
+  "routeShieldedProducts": [
+    {
+      "origin": "src/lib/catalog.ts",
+      "slug": "palette-mystere-destockage",
+      "status": "published",
+      "categoryId": "palettes-destockage",
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "src/lib/catalog.ts",
+      "slug": "colis-surprise-10-kg",
+      "status": "published",
+      "categoryId": "colis-au-poids",
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "src/lib/catalog.ts",
+      "slug": "colis-mystere-premium",
+      "status": "published",
+      "categoryId": "colis-mysteres",
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    },
+    {
+      "origin": "src/lib/catalog.ts",
+      "slug": "lot-special-marche",
+      "status": "published",
+      "categoryId": "lots-bonnes-affaires",
+      "publicReadinessBlockers": [
+        "dropshipping_disabled"
+      ]
+    }
+  ],
+  "readinessBlockedProducts": [],
+  "sources": {
+    "catalogServerPath": "src\\lib\\catalog-server.ts",
+    "productPagePath": "src\\app\\produit\\[slug]\\page.tsx",
+    "sitemapPath": "src\\app\\sitemap.ts",
+    "robotsPath": "src\\app\\robots.ts",
+    "catalogPath": "src\\lib\\catalog.ts",
+    "quickProductsPath": "data\\quick-products.json"
+  },
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true
+  },
+  "files": {
+    "json": "business-maxi-trouvailles\\tableaux-action\\audit-seo-hold-visibility-20260617\\AUDIT_SEO_HOLD_VISIBILITY_20260617.json",
+    "md": "business-maxi-trouvailles\\tableaux-action\\audit-seo-hold-visibility-20260617\\AUDIT_SEO_HOLD_VISIBILITY_20260617.md",
+    "csv": "business-maxi-trouvailles\\tableaux-action\\audit-seo-hold-visibility-20260617\\AUDIT_SEO_HOLD_VISIBILITY_20260617.csv"
+  }
+}

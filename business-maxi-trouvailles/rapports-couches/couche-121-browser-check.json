@@ -1,0 +1,17 @@
+{
+  "ok": true,
+  "url": "http://127.0.0.1:3042/admin/preuves-partenaires?status=hold",
+  "lotCardCount": 3,
+  "proofBlockCount": 3,
+  "proofCounters": 3,
+  "csvHeaderOk": true,
+  "csvDataRowCount": 3,
+  "csvHasProofZones": true,
+  "overflow": false,
+  "mobileOverflow": false,
+  "consoleErrors": [],
+  "screenshots": {
+    "desktop": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-121-compteur-preuves-desktop.png",
+    "mobile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-121-compteur-preuves-mobile.png"
+  }
+}

@@ -1,0 +1,39 @@
+Regression dossier produit a valider - 2026-05-24 10:30:05
+Global: OK
+Message court: Dossier produit pret: Organisateur de cables de voyage compact, import bloque pour relecture manuelle, 2 blocage(s), validation Mouss obligatoire.
+Message executeur: Dossier produit pret: Organisateur de cables de voyage compact, import bloque pour relecture manuelle, 2 blocage(s), validation Mouss obligatoire.
+Dossier: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_130345
+Dossier premier passage: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_130345
+Nouveau premier/deuxieme passage: False / False
+Decision import: BLOCKED_FOR_MANUAL_REVIEW
+
+- json_written: OK
+- txt_written: OK
+- review_dir_present: OK
+- idempotent_same_dir: OK
+- idempotent_reused_existing: OK
+- idempotent_no_second_duplicate: OK
+- product_present: OK
+- import_decision_present: OK
+- files_written: OK
+- readme_written: OK
+- review_markdown_written: OK
+- blockers_present: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- readme_mentions_short_message: OK
+- review_mentions_validation_rules: OK
+- route_business_review_pack: OK
+- execute_business_review_pack: OK
+- executor_uses_short_message: OK
+- local_files_only: OK
+- site_not_modified: OK
+- import_not_started: OK
+- order_not_started: OK
+- payment_not_started: OK
+- publication_not_started: OK
+- manual_validation_required: OK
+- no_values_exposed: OK
+- no_secret_like_value_in_reports: OK
+
+Securite: fichiers locaux seulement, aucun secret, aucun import/commande/paiement/publication.

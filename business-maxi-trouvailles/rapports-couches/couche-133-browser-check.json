@@ -1,0 +1,54 @@
+{
+  "ok": true,
+  "url": "http://127.0.0.1:3053/admin/pilotage",
+  "desktop": {
+    "viewport": {
+      "width": 1440,
+      "height": 1200
+    },
+    "visibility": {
+      "Depot photo exact": true,
+      "Alerte post-depot": true,
+      "Depot incomplet": true,
+      "8 WebP exacts manquants. HOLD maintenu.": true,
+      "npm run catalog:audit-photo-checklist": true,
+      "npm run catalog:audit-sprint-image-human-review": true,
+      "Exporter depot photo CSV": true
+    },
+    "statusBadge": true,
+    "overflowCount": 0,
+    "screenshot": "business-maxi-trouvailles\\rapports-couches\\couche-133-pilotage-gate-post-depot-desktop.png"
+  },
+  "mobile": {
+    "viewport": {
+      "width": 390,
+      "height": 1200
+    },
+    "visibility": {
+      "Depot photo exact": true,
+      "Alerte post-depot": true,
+      "Depot incomplet": true,
+      "8 WebP exacts manquants. HOLD maintenu.": true,
+      "npm run catalog:audit-photo-checklist": true,
+      "npm run catalog:audit-sprint-image-human-review": true,
+      "Exporter depot photo CSV": true
+    },
+    "statusBadge": true,
+    "overflowCount": 0,
+    "screenshot": "business-maxi-trouvailles\\rapports-couches\\couche-133-pilotage-gate-post-depot-mobile.png"
+  },
+  "export": {
+    "hrefPresent": true,
+    "filename": "maxi-depot-photo-exact.csv",
+    "hasExpectedFileHeader": true,
+    "hasDropPathHeader": true,
+    "hasForbiddenPublicLeak": false,
+    "rowCount": 11
+  },
+  "consoleErrors": [],
+  "pageErrors": [],
+  "screenshots": {
+    "desktop": "business-maxi-trouvailles\\rapports-couches\\couche-133-pilotage-gate-post-depot-desktop.png",
+    "mobile": "business-maxi-trouvailles\\rapports-couches\\couche-133-pilotage-gate-post-depot-mobile.png"
+  }
+}

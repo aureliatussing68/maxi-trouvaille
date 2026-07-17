@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "url": "http://localhost:3052/admin/pilotage",
+  "checks": {
+    "depotBlockVisible": true,
+    "webpExpectedVisible": true,
+    "webpValidVisible": true,
+    "pathVisible": true,
+    "productOneVisible": true,
+    "productTwoVisible": true,
+    "expectedCsvNameVisible": true,
+    "downloadName": "maxi-depot-photo-exact.csv",
+    "hrefIsDataCsv": true,
+    "csvHasExpectedFile": true,
+    "csvHasDropPath": true,
+    "csvHasPochette": true,
+    "csvHasSupport": true,
+    "csvNoAliExpress": true,
+    "csvNoSupplierUrlField": true,
+    "desktopOverflowPx": 0,
+    "mobileDepotVisible": true,
+    "mobileExportVisible": true,
+    "mobileOverflowPx": 0
+  },
+  "consoleErrors": [],
+  "screenshots": {
+    "desktop": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-132-pilotage-depot-photo-desktop.png",
+    "mobile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-132-pilotage-depot-photo-mobile.png"
+  }
+}

@@ -1,0 +1,405 @@
+import fs from "node:fs";
+import path from "node:path";
+
+const root = process.cwd();
+const actionRoot = path.join(root, "business-maxi-trouvailles", "tableaux-action");
+const requiredSafetyFlags = [
+  "readOnly",
+  "noPublicUploadsWrite",
+  "noImageGeneration",
+  "noImageDownload",
+  "noCatalogWrite",
+  "noPublication",
+  "noPayment",
+  "noSupplierOrder",
+  "noMessageSent",
+  "manualValidationRequired",
+];
+const sensitivePattern =
+  /(https?:\/\/|aliexpress|alicdn|ae-pic|temu|dhgate|api[_-]?key|token|secret|password|sk_live|sk_test)/i;
+const forbiddenPositiveActionPattern =
+  /\b(publier|publication|commander|commande fournisseur|payer|paiement|deployer|copier dans public\/uploads|utiliser image approximative)\b/i;
+const allowedWarningPattern =
+  /\b(ne jamais|ne rien|aucun|aucune|interdit|forbidden|bloque|blocages|desactive|désactive|incomplete|sans validation|avant toute|forbiddenActions)\b/i;
+
+function datePartsParis(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Paris",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(date);
+  const byType = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+
+  return {
+    dateKey: `${byType.year}${byType.month}${byType.day}`,
+    localLabel: `${byType.year}-${byType.month}-${byType.day} ${byType.hour}:${byType.minute} Europe/Paris`,
+  };
+}
+
+function latestDirectoryUnder(dirPath, prefix, excludedPrefix = null) {
+  if (!dirPath || !fs.existsSync(dirPath)) {
+    return null;
+  }
+
+  return (
+    fs
+      .readdirSync(dirPath, { withFileTypes: true })
+      .filter(
+        (entry) =>
+          entry.isDirectory() &&
+          entry.name.startsWith(prefix) &&
+          (!excludedPrefix || !entry.name.startsWith(excludedPrefix)),
+      )
+      .map((entry) => path.join(dirPath, entry.name))
+      .sort((a, b) => fs.statSync(b).mtimeMs - fs.statSync(a).mtimeMs)[0] ?? null
+  );
+}
+
+function latestFileUnder(dirPath, prefix) {
+  if (!dirPath || !fs.existsSync(dirPath)) {
+    return null;
+  }
+
+  return (
+    fs
+      .readdirSync(dirPath)
+      .filter((name) => name.startsWith(prefix) && name.endsWith(".json"))
+      .map((name) => path.join(dirPath, name))
+      .sort((a, b) => fs.statSync(b).mtimeMs - fs.statSync(a).mtimeMs)[0] ?? null
+  );
+}
+
+function readJson(filePath) {
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
+function rel(filePath) {
+  return path.relative(root, filePath).replace(/\\/g, "/");
+}
+
+function collectTextFiles(dirPath) {
+  if (!dirPath || !fs.existsSync(dirPath)) {
+    return [];
+  }
+
+  return fs
+    .readdirSync(dirPath)
+    .filter((name) => [".json", ".md", ".csv"].includes(path.extname(name).toLowerCase()))
+    .map((name) => path.join(dirPath, name));
+}
+
+function assertCondition(condition, code, message, details = {}) {
+  if (!condition) {
+    return { code, message, details };
+  }
+  return null;
+}
+
+function csvEscape(value) {
+  const text = typeof value === "object" && value !== null ? JSON.stringify(value) : String(value ?? "");
+  return `"${text.replace(/"/g, '""')}"`;
+}
+
+function toCsv(failures) {
+  const headers = ["code", "message", "details"];
+
+  return `${headers.join(",")}\n${failures
+    .map((failure) => headers.map((header) => csvEscape(failure[header])).join(","))
+    .join("\n")}\n`;
+}
+
+function markdown(summary) {
+  const rows =
+    summary.failures.length === 0
+      ? ["| OK | Aucun echec | - |"]
+      : summary.failures.map(
+          (failure) => `| ${failure.code} | ${failure.message} | ${csvEscape(failure.details)} |`,
+        );
+
+  return `${[
+    "# Audit tableau execution du jour",
+    "",
+    `Date locale: ${summary.generatedAtLocal}`,
+    `Tableau source: ${summary.boardJson ?? "introuvable"}`,
+    "",
+    "## Synthese",
+    "",
+    `- Statut: ${summary.ok ? "OK" : "ECHEC"}`,
+    `- Mode source: ${summary.boardMode ?? "inconnu"}`,
+    `- Actions controlees: ${summary.actionCount}`,
+    `- Lanes controlees: ${summary.laneCount}`,
+    `- Fichiers scannes: ${summary.scannedFileCount}`,
+    `- Echecs: ${summary.failureCount}`,
+    "",
+    "| Code | Message | Details |",
+    "|---|---|---|",
+    ...rows,
+    "",
+    "## Garde-fous",
+    "",
+    "- Lecture seule.",
+    "- Aucune modification catalogue.",
+    "- Aucune copie image publique.",
+    "- Aucune publication.",
+    "- Aucun paiement.",
+    "- Aucune commande partenaire.",
+    "- Aucun message externe.",
+    "",
+  ].join("\n")}\n`;
+}
+
+function hasSensitiveMarker(value) {
+  return sensitivePattern.test(String(value ?? ""));
+}
+
+function hasPositiveForbiddenAction(value) {
+  const text = String(value ?? "");
+  return forbiddenPositiveActionPattern.test(text) && !allowedWarningPattern.test(text);
+}
+
+function actionFailures(action, index) {
+  const forbiddenActions = Array.isArray(action.forbiddenActions) ? action.forbiddenActions : [];
+  const nextAction = String(action.nextAction ?? "");
+  const allowedAction = String(action.allowedAction ?? "");
+  const serialized = JSON.stringify(action);
+
+  return [
+    assertCondition(action.rank === index + 1, "action_rank_gap", "Le rang d'action n'est pas continu.", {
+      index,
+      rank: action.rank,
+      id: action.id,
+    }),
+    assertCondition(typeof action.lane === "string" && action.lane.length > 0, "action_lane_missing", "Lane manquante.", {
+      index,
+      id: action.id,
+    }),
+    assertCondition(
+      typeof action.status === "string" && action.status.length > 0,
+      "action_status_missing",
+      "Statut action manquant.",
+      { index, id: action.id },
+    ),
+    assertCondition(!hasSensitiveMarker(serialized), "action_sensitive_marker", "Marqueur sensible dans une action.", {
+      index,
+      id: action.id,
+      lane: action.lane,
+    }),
+    assertCondition(
+      !hasPositiveForbiddenAction(nextAction),
+      "next_action_forbidden_positive",
+      "Une prochaine action ressemble a une action sensible positive.",
+      { index, id: action.id, lane: action.lane, nextAction },
+    ),
+    assertCondition(
+      !hasPositiveForbiddenAction(allowedAction),
+      "allowed_action_forbidden_positive",
+      "Une action autorisee ressemble a une action sensible.",
+      { index, id: action.id, lane: action.lane, allowedAction },
+    ),
+    assertCondition(
+      action.lane !== "images_publiques_exactes" ||
+        forbiddenActions.some((item) => /copier dans public\/uploads/i.test(String(item))),
+      "public_image_forbidden_copy_missing",
+      "Une action image publique ne rappelle pas l'interdiction de copie publique.",
+      { index, id: action.id, lane: action.lane },
+    ),
+    assertCondition(
+      action.lane !== "images_publiques_exactes" ||
+        forbiddenActions.some((item) => /utiliser image approximative/i.test(String(item))),
+      "public_image_forbidden_approx_missing",
+      "Une action image publique ne rappelle pas l'interdiction d'image approximative.",
+      { index, id: action.id, lane: action.lane },
+    ),
+    assertCondition(
+      action.lane !== "images_publiques_exactes" ||
+        forbiddenActions.some((item) => /publier fiche/i.test(String(item))),
+      "public_image_forbidden_publish_missing",
+      "Une action image publique ne rappelle pas l'interdiction de publication.",
+      { index, id: action.id, lane: action.lane },
+    ),
+    assertCondition(
+      action.lane !== "images_publiques_exactes" ||
+        forbiddenActions.some((item) => /commander fournisseur/i.test(String(item))),
+      "public_image_forbidden_order_missing",
+      "Une action image publique ne rappelle pas l'interdiction de commande fournisseur.",
+      { index, id: action.id, lane: action.lane },
+    ),
+  ].filter(Boolean);
+}
+
+const boardDir = latestDirectoryUnder(actionRoot, "execution-du-jour-", "execution-du-jour-audit-");
+const boardJsonPath = latestFileUnder(boardDir, "EXECUTION_DU_JOUR_MAXI_");
+const { dateKey, localLabel } = datePartsParis();
+const outputDir = path.join(actionRoot, `execution-du-jour-audit-${dateKey}`);
+fs.mkdirSync(outputDir, { recursive: true });
+
+const failures = [];
+let board = null;
+let actions = [];
+let lanes = [];
+let scannedFiles = [];
+
+if (!boardDir || !boardJsonPath) {
+  failures.push({
+    code: "board_missing",
+    message: "Aucun tableau execution du jour n'a ete trouve.",
+    details: {},
+  });
+} else {
+  board = readJson(boardJsonPath);
+  actions = Array.isArray(board.actions) ? board.actions : [];
+  lanes = Array.isArray(board.lanes) ? board.lanes : [];
+  scannedFiles = collectTextFiles(boardDir);
+
+  failures.push(
+    assertCondition(board.ok === true, "board_not_ok", "Le tableau n'est pas marque OK."),
+    assertCondition(
+      board.mode === "read_only_daily_execution_board",
+      "board_mode_invalid",
+      "Le mode du tableau est invalide.",
+      { mode: board.mode },
+    ),
+    assertCondition(board.actionCount === actions.length, "action_count_mismatch", "actionCount ne correspond pas.", {
+      actionCount: board.actionCount,
+      rows: actions.length,
+    }),
+    assertCondition(lanes.length > 0, "lanes_missing", "Aucune lane presente dans le tableau."),
+    assertCondition(actions.length > 0, "actions_missing", "Aucune action presente dans le tableau."),
+    ...requiredSafetyFlags.map((flag) =>
+      assertCondition(board.safety?.[flag] === true, `safety_${flag}_missing`, `Garde-fou absent: ${flag}.`),
+    ),
+    assertCondition(
+      board.metrics?.generatedArtifactLeakFindingCount === 0,
+      "generated_artifact_leak_metric_not_zero",
+      "Le tableau indique des fuites dans les artefacts generes.",
+      { value: board.metrics?.generatedArtifactLeakFindingCount },
+    ),
+    assertCondition(
+      board.metrics?.publicSurfaceFailureCount === 0,
+      "public_surface_failure_metric_not_zero",
+      "Le tableau indique des echecs sur la surface publique.",
+      { value: board.metrics?.publicSurfaceFailureCount },
+    ),
+    assertCondition(
+      board.metrics?.checkoutFailureCount === 0,
+      "checkout_failure_metric_not_zero",
+      "Le tableau indique des echecs checkout.",
+      { value: board.metrics?.checkoutFailureCount },
+    ),
+    assertCondition(
+      board.metrics?.surpriseFailureCount === 0,
+      "surprise_failure_metric_not_zero",
+      "Le tableau indique des echecs colis surprise/HOLD.",
+      { value: board.metrics?.surpriseFailureCount },
+    ),
+    assertCondition(
+      board.metrics?.publicImageCopyApplied === false,
+      "public_image_copy_applied",
+      "Le tableau indique une copie image publique appliquee.",
+      { value: board.metrics?.publicImageCopyApplied },
+    ),
+    assertCondition(
+      board.metrics?.publicImageMoussSensitiveValuesExported !== true,
+      "public_image_mouss_sensitive_values_exported",
+      "Le tableau indique des valeurs sensibles exportees par le board Mouss.",
+      { value: board.metrics?.publicImageMoussSensitiveValuesExported },
+    ),
+    assertCondition(
+      board.metrics?.publicImageTextProofFormSensitiveValuesExported !== true,
+      "public_image_text_proof_form_sensitive_values_exported",
+      "Le tableau indique des valeurs sensibles exportees par le formulaire preuves texte images.",
+      { value: board.metrics?.publicImageTextProofFormSensitiveValuesExported },
+    ),
+    ...lanes.flatMap((lane, index) => [
+      assertCondition(typeof lane.lane === "string" && lane.lane.length > 0, "lane_name_missing", "Lane sans nom.", {
+        index,
+      }),
+      assertCondition(Number.isInteger(lane.actionCount), "lane_action_count_invalid", "Compteur lane invalide.", {
+        index,
+        lane: lane.lane,
+        actionCount: lane.actionCount,
+      }),
+      assertCondition(!hasSensitiveMarker(JSON.stringify(lane)), "lane_sensitive_marker", "Marqueur sensible dans une lane.", {
+        index,
+        lane: lane.lane,
+      }),
+      assertCondition(
+        !hasPositiveForbiddenAction(lane.firstAction),
+        "lane_first_action_forbidden_positive",
+        "Une premiere action de lane ressemble a une action sensible positive.",
+        { index, lane: lane.lane, firstAction: lane.firstAction },
+      ),
+    ]),
+    ...actions.flatMap(actionFailures),
+    ...scannedFiles
+      .map((filePath) =>
+        assertCondition(
+          !hasSensitiveMarker(fs.readFileSync(filePath, "utf8")),
+          "artifact_sensitive_marker",
+          "Marqueur sensible dans un fichier du tableau execution.",
+          { file: rel(filePath) },
+        ),
+      )
+      .filter(Boolean),
+  );
+}
+
+const cleanFailures = failures.filter(Boolean);
+const summary = {
+  ok: cleanFailures.length === 0,
+  generatedAt: new Date().toISOString(),
+  generatedAtLocal: localLabel,
+  mode: "read_only_daily_execution_board_audit",
+  boardDir: boardDir ? rel(boardDir) : null,
+  boardJson: boardJsonPath ? rel(boardJsonPath) : null,
+  boardMode: board?.mode ?? null,
+  actionCount: actions.length,
+  laneCount: lanes.length,
+  scannedFileCount: scannedFiles.length,
+  failureCount: cleanFailures.length,
+  failures: cleanFailures,
+  safety: {
+    readOnlyAudit: true,
+    noCatalogWrite: true,
+    noImageDownload: true,
+    noImageFileCreated: true,
+    noPublicImageWrite: true,
+    noPublication: true,
+    noPayment: true,
+    noSupplierOrder: true,
+    noMessageSent: true,
+  },
+};
+
+const jsonPath = path.join(outputDir, `AUDIT_EXECUTION_DU_JOUR_MAXI_${dateKey}.json`);
+const mdPath = path.join(outputDir, `AUDIT_EXECUTION_DU_JOUR_MAXI_${dateKey}.md`);
+const csvPath = path.join(outputDir, `maxi-audit-execution-du-jour-${dateKey}.csv`);
+
+fs.writeFileSync(jsonPath, `${JSON.stringify(summary, null, 2)}\n`, "utf8");
+fs.writeFileSync(mdPath, markdown(summary), "utf8");
+fs.writeFileSync(csvPath, toCsv(cleanFailures), "utf8");
+
+console.log(
+  JSON.stringify(
+    {
+      ok: summary.ok,
+      mode: summary.mode,
+      actionCount: summary.actionCount,
+      laneCount: summary.laneCount,
+      scannedFileCount: summary.scannedFileCount,
+      failureCount: summary.failureCount,
+      files: { jsonPath, mdPath, csvPath },
+      safety: summary.safety,
+    },
+    null,
+    2,
+  ),
+);
+
+if (!summary.ok) {
+  process.exitCode = 1;
+}

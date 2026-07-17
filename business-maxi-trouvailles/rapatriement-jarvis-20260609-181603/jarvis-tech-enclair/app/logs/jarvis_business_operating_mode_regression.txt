@@ -1,0 +1,31 @@
+Regression mode operationnel business - 2026-05-24 09:02:05
+Global: OK
+Mode: demo_draft_only
+Message court: Mode business Maxi: demo_draft_only, 2 API a completer, brouillon uniquement, actions sensibles bloquees.
+Message executeur: Mode business Maxi: demo_draft_only, 2 API a completer, brouillon uniquement, actions sensibles bloquees.
+Variables a completer: 2
+
+- json_written: OK
+- txt_written: OK
+- mode_present: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- route_business_operating_mode: OK
+- execute_business_operating_mode: OK
+- executor_uses_short_message: OK
+- draft_search_allowed: OK
+- publication_blocked: OK
+- order_blocked: OK
+- payment_blocked: OK
+- delete_blocked: OK
+- read_only_check: OK
+- draft_only: OK
+- no_purchase: OK
+- no_payment: OK
+- no_publication: OK
+- no_delete: OK
+- manual_validation_required: OK
+- no_values_exposed: OK
+- no_secret_like_value_in_text: OK
+
+Securite: lecture seule, brouillon uniquement, aucun secret, aucune action sensible.

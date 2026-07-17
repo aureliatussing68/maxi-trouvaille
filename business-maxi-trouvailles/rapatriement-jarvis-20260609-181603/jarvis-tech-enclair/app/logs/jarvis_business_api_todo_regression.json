@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-05-24 09:07:04",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "doc_written": true,
+    "key_statuses_present": true,
+    "key_statuses_only": true,
+    "short_message_present": true,
+    "txt_mentions_short_message": true,
+    "doc_mentions_short_message": true,
+    "route_business_api_todo": true,
+    "execute_business_api_todo": true,
+    "executor_uses_short_message": true,
+    "manual_steps_present": true,
+    "no_values_exposed": true,
+    "read_only": true,
+    "no_purchase": true,
+    "no_publication": true,
+    "no_secret_like_value_in_text": true
+  },
+  "short_message": "API business: 2 variable(s) a completer, aucune valeur de cle affichee.",
+  "executor_message": "API business: 2 variable(s) a completer, aucune valeur de cle affichee.",
+  "missing_count": 2,
+  "note": "Regression lecture seule du TODO API business. Aucune valeur de cle n'est affichee."
+}

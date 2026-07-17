@@ -1,0 +1,298 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import type { ReactNode } from "react";
+import {
+  ArrowRight,
+  ArrowUpRight,
+  BadgePercent,
+  Camera,
+  Headphones,
+  PackageCheck,
+  ShieldCheck,
+  Sparkles,
+  Truck,
+} from "lucide-react";
+import { CategoryGrid } from "@/components/CategoryGrid";
+import { CustomerJourneyPanel } from "@/components/CustomerJourneyPanel";
+import { PageHeader } from "@/components/PageHeader";
+import { PartnerArticlePreviewPanel } from "@/components/PartnerArticlePreviewPanel";
+import { PartnerLaunchBoard } from "@/components/PartnerLaunchBoard";
+import {
+  PartnerMobileShowcasePanel,
+  PartnerValidationPromisePanel,
+} from "@/components/PartnerMobileShowcasePanel";
+import { ProductCard } from "@/components/ProductCard";
+import { StorefrontReadinessPanel } from "@/components/StorefrontReadinessPanel";
+import {
+  categories,
+  isDropshippingCategory,
+  isDropshippingProduct,
+  isNewProduct,
+  isPromotionProduct,
+} from "@/lib/catalog";
+import { getAllProducts, getPublicProducts } from "@/lib/catalog-server";
+import { getApprovedReviewSummaryMap } from "@/lib/product-reviews";
+import { getProductStatsMap } from "@/lib/product-stats";
+
+export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = {
+  title: "Produits partenaires",
+  description:
+    "Produits partenaires, promotions et nouveautes vendus par Maxi Trouvaille avec paiement securise et suivi colis.",
+};
+
+export default async function PartnerProductsPage() {
+  const [publicProducts, catalogProducts] = await Promise.all([
+    getPublicProducts(),
+    getAllProducts(),
+  ]);
+  const partnerProducts = publicProducts.filter(isDropshippingProduct);
+  const highlightedProducts = [
+    ...partnerProducts.filter(isPromotionProduct),
+    ...partnerProducts.filter(
+      (product) => isNewProduct(product) && !isPromotionProduct(product),
+    ),
+    ...partnerProducts,
+  ].filter(
+    (product, index, source) =>
+      source.findIndex((item) => item.id === product.id) === index,
+  );
+  const productIds = highlightedProducts.map((product) => product.id);
+  const [statsMap, reviewSummaryMap] = await Promise.all([
+    getProductStatsMap(productIds),
+    getApprovedReviewSummaryMap(productIds),
+  ]);
+  const partnerCategories = categories.filter(
+    (category) => category.parentId === "dropshipping",
+  );
+  const partnerCandidateCount = catalogProducts.filter(isDropshippingProduct).length;
+  const partnerCategoryCount = categories.filter(isDropshippingCategory).length;
+  const launchLinks = [
+    {
+      href: "/categories/nouveautes-partenaires",
+      label: "Nouveautés",
+      text: "Les dernieres idees partenaires preparees avant affichage produit.",
+      icon: Sparkles,
+    },
+    {
+      href: "/categories/promotions-partenaires",
+      label: "Promotions",
+      text: "Prix suivis, offre gardée sous contrôle avant publication.",
+      icon: BadgePercent,
+    },
+    {
+      href: "/categories/maison-partenaires",
+      label: "Maison",
+      text: "Objets utiles, simples à comprendre et faciles à montrer.",
+      icon: PackageCheck,
+    },
+    {
+      href: "/categories/high-tech-partenaires",
+      label: "High-tech",
+      text: "Accessoires lisibles, variantes limitées et preuves attendues.",
+      icon: Camera,
+    },
+  ];
+
+  return (
+    <>
+      <PageHeader
+        eyebrow="Produits partenaires"
+        title="Boutique partenaires Maxi Trouvaille"
+        description="Produits partenaires vendus par Maxi Trouvaille : paiement securise sur le site, service client Maxi Trouvaille, suivi colis et expedition par partenaire logistique."
+      />
+
+      <section className="container-page border-b border-line py-8">
+        <div className="grid gap-4 md:grid-cols-3">
+          <TrustItem
+            icon={<ShieldCheck size={22} aria-hidden="true" />}
+            title="Paiement sécurisé"
+            text="Le client paie uniquement sur Maxi Trouvaille via un tunnel sécurisé."
+          />
+          <TrustItem
+            icon={<Truck size={22} aria-hidden="true" />}
+            title="Livraison estimée"
+            text="Chaque fiche affiche un délai propre et un suivi colis dès expédition."
+          />
+          <TrustItem
+            icon={<PackageCheck size={22} aria-hidden="true" />}
+            title="Validation humaine"
+            text="Les commandes partenaires restent preparees avec validation humaine."
+          />
+        </div>
+      </section>
+
+      <section className="container-page border-b border-line py-10">
+        <StorefrontReadinessPanel
+          publicProductCount={publicProducts.length}
+          partnerCandidateCount={partnerCandidateCount}
+          categoryCount={partnerCategoryCount}
+        />
+        <PartnerMobileShowcasePanel
+          className="mt-10"
+          publicProductCount={partnerProducts.length}
+          partnerCandidateCount={partnerCandidateCount}
+          categoryCount={partnerCategoryCount}
+        />
+        <PartnerValidationPromisePanel
+          className="mt-10"
+          candidateCount={partnerCandidateCount}
+          publicProductCount={partnerProducts.length}
+        />
+        <CustomerJourneyPanel className="mt-10" />
+        <PartnerArticlePreviewPanel className="mt-10" />
+        <PartnerLaunchBoard
+          className="mt-10"
+          candidateCount={partnerCandidateCount}
+          publicProductCount={publicProducts.length}
+        />
+      </section>
+
+      <section className="container-page py-10">
+        <div className="mb-6 flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
+          <div>
+            <p className="text-sm font-black uppercase text-teal">Rayons</p>
+            <h2 className="mt-2 text-2xl font-black">
+              Promotions et nouveautés en avant
+            </h2>
+          </div>
+          <Link
+            href="/categories/produits-partenaires"
+            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line px-4 text-sm font-black hover:bg-[#f1eadf]"
+          >
+            Toutes les sous-catégories
+            <ArrowUpRight size={16} aria-hidden="true" />
+          </Link>
+        </div>
+        <CategoryGrid items={partnerCategories} compact eagerImageCount={0} />
+      </section>
+
+      <section className="container-page pb-12">
+        <div className="mb-7 flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+          <div>
+            <p className="flex items-center gap-2 text-sm font-black uppercase text-teal">
+              <BadgePercent size={16} aria-hidden="true" />
+              Sélection du moment
+            </p>
+            <h2 className="mt-2 text-2xl font-black">
+              {highlightedProducts.length > 0
+                ? "Articles validés"
+                : "Fiches validées avant publication"}
+            </h2>
+          </div>
+          <span className="inline-flex w-fit items-center gap-2 rounded-md bg-[#eff6ff] px-3 py-2 text-sm font-black text-[#1d4ed8]">
+            {highlightedProducts.length > 0 ? (
+              <Sparkles size={16} aria-hidden="true" />
+            ) : (
+              <ShieldCheck size={16} aria-hidden="true" />
+            )}
+            {highlightedProducts.length > 0 ? "Nouveautés" : "Validation active"}
+          </span>
+        </div>
+
+        {highlightedProducts.length > 0 ? (
+          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+            {highlightedProducts.map((product) => (
+              <ProductCard
+                key={product.id}
+                product={product}
+                stats={statsMap.get(product.id)}
+                reviewSummary={reviewSummaryMap.get(product.id)}
+              />
+            ))}
+          </div>
+        ) : (
+          <section className="grid gap-6 rounded-lg border border-line bg-[#faf7f0] p-5 shadow-sm sm:p-8">
+            <div className="mx-auto max-w-3xl text-center">
+              <p className="inline-flex items-center gap-2 rounded-md bg-[#eef8f6] px-3 py-2 text-sm font-black text-teal">
+                <ShieldCheck size={16} aria-hidden="true" />
+                Sélection contrôlée
+              </p>
+              <h2 className="mt-4 text-2xl font-black">
+                Les produits partenaires arrivent, les fiches suivent leur validation.
+              </h2>
+              <p className="mx-auto mt-3 max-w-2xl text-sm font-semibold leading-6 text-muted">
+                Les produits partenaires sont préparés en coulisses. Une fiche
+                apparaît ici uniquement si l&apos;image exacte, le stock, le
+                délai, les droits image, le prix et les conditions de vente
+                sont suffisamment vérifiés.
+              </p>
+            </div>
+
+            <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+              {launchLinks.map((item) => {
+                const Icon = item.icon;
+
+                return (
+                  <Link
+                    key={item.href}
+                    href={item.href}
+                    className="focus-ring group flex min-h-40 flex-col justify-between rounded-lg border border-line bg-white p-4 text-left shadow-sm transition hover:-translate-y-0.5 hover:border-[#d5c8b7] hover:shadow-md"
+                  >
+                    <span className="flex h-10 w-10 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
+                      <Icon size={19} aria-hidden="true" />
+                    </span>
+                    <span>
+                      <span className="mt-4 flex items-center justify-between gap-3 text-base font-black group-hover:text-teal">
+                        {item.label}
+                        <ArrowRight size={16} aria-hidden="true" />
+                      </span>
+                      <span className="mt-2 block text-sm leading-6 text-muted">
+                        {item.text}
+                      </span>
+                    </span>
+                  </Link>
+                );
+              })}
+            </div>
+
+            <div className="grid gap-3 md:grid-cols-3">
+              <Link
+                href="/paiement"
+                className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-[#2b2b2b]"
+              >
+                <BadgePercent size={17} aria-hidden="true" />
+                Paiement Maxi Trouvaille
+              </Link>
+              <Link
+                href="/suivi-colis"
+                className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+              >
+                <Truck size={17} aria-hidden="true" />
+                Suivi colis
+              </Link>
+              <Link
+                href="/contact"
+                className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+              >
+                <Headphones size={17} aria-hidden="true" />
+                Service client
+              </Link>
+            </div>
+          </section>
+        )}
+      </section>
+    </>
+  );
+}
+
+function TrustItem({
+  icon,
+  title,
+  text,
+}: {
+  icon: ReactNode;
+  title: string;
+  text: string;
+}) {
+  return (
+    <article className="rounded-lg border border-line bg-paper p-5 shadow-sm">
+      <div className="flex items-center gap-3 text-teal">
+        {icon}
+        <h2 className="text-base font-black">{title}</h2>
+      </div>
+      <p className="mt-3 text-sm leading-6 text-muted">{text}</p>
+    </article>
+  );
+}

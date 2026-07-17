@@ -1,0 +1,2513 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-11T22:30:07.540Z",
+  "mode": "read_only_publication_action_board",
+  "quickProductsPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\data\\quick-products.json",
+  "partnerProductCount": 45,
+  "draftPartnerCount": 45,
+  "readyReviewCount": 0,
+  "topLimit": 12,
+  "byLane": {
+    "lane_1_plus_rapide_a_valider": 3,
+    "lane_2_preuves_prix_livraison_droits": 25,
+    "lane_3_vendeur_a_recontroler": 5,
+    "lane_4_risque_ou_fiche_a_retravailler": 12
+  },
+  "byCategory": {
+    "dropshipping-accessoires": 9,
+    "dropshipping-high-tech": 4,
+    "dropshipping-animaux": 5,
+    "dropshipping-cuisine": 6,
+    "dropshipping-maison": 7,
+    "dropshipping-mode": 3,
+    "dropshipping-auto-moto": 5,
+    "dropshipping-beaute": 3,
+    "dropshipping-enfant": 3
+  },
+  "blockers": {
+    "fiche_contient_elements_a_confirmer": 43,
+    "delai_non_prouve": 45,
+    "validation_fournisseur_hold": 6,
+    "validation_interne_hold": 45,
+    "vendeur_non_valide": 27,
+    "preuve_livraison_hold": 25,
+    "preuve_prix_hold": 24,
+    "droits_images_hold": 23,
+    "image_principale_absente_ou_generique": 12,
+    "galerie_absente_ou_generique": 12,
+    "images_non_verifiees": 12,
+    "source_images_absente": 12,
+    "stock_indisponible": 12,
+    "marge_incalculable": 12,
+    "lien_fournisseur_absent": 12
+  },
+  "riskFlags": {
+    "controle_confort_animal": 5,
+    "controle_matiere_contact": 9,
+    "controle_usage_auto": 6,
+    "controle_hygiene_beaute": 3,
+    "controle_electrique_ou_batterie": 9,
+    "controle_securite_enfant": 3
+  },
+  "topQueue": [
+    {
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "slug": "pochette-organisateur-cables-double-couche-voyage",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_1_plus_rapide_a_valider",
+      "priorityScore": 95,
+      "marginPercent": 40,
+      "supplierStock": 55,
+      "supplierPriceCents": 1100,
+      "salePriceCents": 1840,
+      "supplierUrl": "https://www.aliexpress.com/item/4000168524713.html",
+      "supplierSku": "AE-4000168524713-CABLE-ORGANIZER",
+      "imageStatus": "verified_source_images",
+      "imageCount": 4,
+      "imageSourceUrl": "https://alitools.io/en/showcase/tuuth-travel-digital-cable-storage-bag-mobile-power-organizer-bag-electronics-accessories-bag-case-for-earphones-4000168524713",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "validation_fournisseur_hold",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Lever le HOLD fournisseur avec une preuve de vendeur fiable.",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260527_sacs_rangement_vide_001",
+      "slug": "sacs-rangement-sous-vide-voyage-grand-volume",
+      "name": "Sacs rangement sous vide grand volume voyage",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_1_plus_rapide_a_valider",
+      "priorityScore": 95,
+      "marginPercent": 40,
+      "supplierStock": 60,
+      "supplierPriceCents": 530,
+      "salePriceCents": 890,
+      "supplierUrl": "https://www.aliexpress.com/wholesale?SearchText=travel+vacuum+storage+bags+choice",
+      "supplierSku": "AE-CHOICE-VACUUM-BAGS-005",
+      "imageStatus": "verified_source_images",
+      "imageCount": 4,
+      "imageSourceUrl": "https://www.sistastore.com/products/170869",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "validation_fournisseur_hold",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Lever le HOLD fournisseur avec une preuve de vendeur fiable.",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "slug": "support-pc-portable-pliant-aluminium-ajustable",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "status": "draft",
+      "categoryId": "dropshipping-high-tech",
+      "lane": "lane_1_plus_rapide_a_valider",
+      "priorityScore": 92,
+      "marginPercent": 40,
+      "supplierStock": 35,
+      "supplierPriceCents": 1180,
+      "salePriceCents": 1970,
+      "supplierUrl": "https://www.aliexpress.com/item/4001153714549.html",
+      "supplierSku": "AE-4001153714549-LAPTOP-STAND",
+      "imageStatus": "verified_source_images",
+      "imageCount": 4,
+      "imageSourceUrl": "https://alitools.io/en/showcase/portable-laptop-stand-aluminium-foldable-macbook-pro-support-adjustable-notebook-holder-tablet-base-for-pc-computer-bracket-4001153714549",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "validation_fournisseur_hold",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Lever le HOLD fournisseur avec une preuve de vendeur fiable.",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260527_brosse_poils_animaux_001",
+      "slug": "brosse-anti-poils-animaux-reutilisable",
+      "name": "Brosse anti-poils animaux 4-en-1 réutilisable",
+      "status": "draft",
+      "categoryId": "dropshipping-animaux",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 79,
+      "marginPercent": 40,
+      "supplierStock": 45,
+      "supplierPriceCents": 792,
+      "salePriceCents": 1320,
+      "supplierUrl": "https://www.aliexpress.com/item/1005011984700750.html",
+      "supplierSku": "AE-ITEM-1005011984700750",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005011984700750.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_confort_animal"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_spray_huile_cuisine_001",
+      "slug": "spray-huile-cuisine-reutilisable-best-seller",
+      "name": "Spray huile cuisine réutilisable best-seller",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 77,
+      "marginPercent": 40,
+      "supplierStock": 80,
+      "supplierPriceCents": 120,
+      "salePriceCents": 200,
+      "supplierUrl": "https://www.aliexpress.com/item/1005008253500940.html",
+      "supplierSku": "AE-1005008253500940-OIL-SPRAYER",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005008253500940.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_matiere_contact"
+      ],
+      "blockers": [
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_paracorde_camping_001",
+      "slug": "corde-paracorde-camping-randonnee-5-15-30m",
+      "name": "Corde paracorde camping randonnée 5/15/30 m",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 74,
+      "marginPercent": 40,
+      "supplierStock": 90,
+      "supplierPriceCents": 120,
+      "salePriceCents": 200,
+      "supplierUrl": "https://www.aliexpress.com/item/1005007038471633.html",
+      "supplierSku": "AE-1005007038471633-PARACORD",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005007038471633.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_nano_tape_sdb_cuisine_001",
+      "slug": "nano-tape-double-face-salle-de-bain-cuisine",
+      "name": "Nano tape double-face salle de bain cuisine",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 74,
+      "marginPercent": 41,
+      "supplierStock": 100,
+      "supplierPriceCents": 100,
+      "salePriceCents": 170,
+      "supplierUrl": "https://www.aliexpress.com/item/1005005244419690.html",
+      "supplierSku": "AE-1005005244419690-NANO-TAPE",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005005244419690.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_ruban_double_face_monster_001",
+      "slug": "ruban-double-face-puissant-maison-promo",
+      "name": "Ruban double-face puissant maison promo",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 74,
+      "marginPercent": 41,
+      "supplierStock": 100,
+      "supplierPriceCents": 160,
+      "salePriceCents": 270,
+      "supplierUrl": "https://www.aliexpress.com/item/1005006926453576.html",
+      "supplierSku": "AE-1005006926453576-MONSTER-TAPE",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005006926453576.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_sac_banane_sport_etanche_001",
+      "slug": "sac-banane-sport-etanche-randonnee",
+      "name": "Sac banane sport étanche randonnée",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 74,
+      "marginPercent": 41,
+      "supplierStock": 80,
+      "supplierPriceCents": 160,
+      "salePriceCents": 270,
+      "supplierUrl": "https://www.aliexpress.com/item/1005007341990710.html",
+      "supplierSku": "AE-1005007341990710-SPORT-WAIST-BAG",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005007341990710.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_trousse_maquillage_voyage_001",
+      "slug": "trousse-maquillage-voyage-transparente-best-seller",
+      "name": "Trousse maquillage voyage transparente best-seller",
+      "status": "draft",
+      "categoryId": "dropshipping-mode",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 74,
+      "marginPercent": 40,
+      "supplierStock": 90,
+      "supplierPriceCents": 180,
+      "salePriceCents": 300,
+      "supplierUrl": "https://www.aliexpress.com/item/1005006801982174.html",
+      "supplierSku": "AE-1005006801982174-MAKEUP-TRAVEL-POUCH",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005006801982174.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_sac_voyage_pliable_cabine_001",
+      "slug": "sac-voyage-pliable-cabine-leger",
+      "name": "Sac voyage pliable cabine léger",
+      "status": "draft",
+      "categoryId": "dropshipping-mode",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 71,
+      "marginPercent": 41,
+      "supplierStock": 70,
+      "supplierPriceCents": 220,
+      "salePriceCents": 370,
+      "supplierUrl": "https://www.aliexpress.com/item/1005007547820639.html",
+      "supplierSku": "AE-1005007547820639-FOLDABLE-TRAVEL-BAG",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005007547820639.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_support_mural_balai_001",
+      "slug": "support-mural-balai-serpillere-4-crochets",
+      "name": "Support mural balai et serpillère 4 crochets",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 71,
+      "marginPercent": 41,
+      "supplierStock": 60,
+      "supplierPriceCents": 230,
+      "salePriceCents": 390,
+      "supplierUrl": "https://www.aliexpress.com/item/1005006904650510.html",
+      "supplierSku": "AE-1005006904650510-MOP-HOLDER",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005006904650510.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    }
+  ],
+  "products": [
+    {
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "slug": "pochette-organisateur-cables-double-couche-voyage",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_1_plus_rapide_a_valider",
+      "priorityScore": 95,
+      "marginPercent": 40,
+      "supplierStock": 55,
+      "supplierPriceCents": 1100,
+      "salePriceCents": 1840,
+      "supplierUrl": "https://www.aliexpress.com/item/4000168524713.html",
+      "supplierSku": "AE-4000168524713-CABLE-ORGANIZER",
+      "imageStatus": "verified_source_images",
+      "imageCount": 4,
+      "imageSourceUrl": "https://alitools.io/en/showcase/tuuth-travel-digital-cable-storage-bag-mobile-power-organizer-bag-electronics-accessories-bag-case-for-earphones-4000168524713",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "validation_fournisseur_hold",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Lever le HOLD fournisseur avec une preuve de vendeur fiable.",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260527_sacs_rangement_vide_001",
+      "slug": "sacs-rangement-sous-vide-voyage-grand-volume",
+      "name": "Sacs rangement sous vide grand volume voyage",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_1_plus_rapide_a_valider",
+      "priorityScore": 95,
+      "marginPercent": 40,
+      "supplierStock": 60,
+      "supplierPriceCents": 530,
+      "salePriceCents": 890,
+      "supplierUrl": "https://www.aliexpress.com/wholesale?SearchText=travel+vacuum+storage+bags+choice",
+      "supplierSku": "AE-CHOICE-VACUUM-BAGS-005",
+      "imageStatus": "verified_source_images",
+      "imageCount": 4,
+      "imageSourceUrl": "https://www.sistastore.com/products/170869",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "validation_fournisseur_hold",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Lever le HOLD fournisseur avec une preuve de vendeur fiable.",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "slug": "support-pc-portable-pliant-aluminium-ajustable",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "status": "draft",
+      "categoryId": "dropshipping-high-tech",
+      "lane": "lane_1_plus_rapide_a_valider",
+      "priorityScore": 92,
+      "marginPercent": 40,
+      "supplierStock": 35,
+      "supplierPriceCents": 1180,
+      "salePriceCents": 1970,
+      "supplierUrl": "https://www.aliexpress.com/item/4001153714549.html",
+      "supplierSku": "AE-4001153714549-LAPTOP-STAND",
+      "imageStatus": "verified_source_images",
+      "imageCount": 4,
+      "imageSourceUrl": "https://alitools.io/en/showcase/portable-laptop-stand-aluminium-foldable-macbook-pro-support-adjustable-notebook-holder-tablet-base-for-pc-computer-bracket-4001153714549",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "validation_fournisseur_hold",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Lever le HOLD fournisseur avec une preuve de vendeur fiable.",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260527_brosse_poils_animaux_001",
+      "slug": "brosse-anti-poils-animaux-reutilisable",
+      "name": "Brosse anti-poils animaux 4-en-1 réutilisable",
+      "status": "draft",
+      "categoryId": "dropshipping-animaux",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 79,
+      "marginPercent": 40,
+      "supplierStock": 45,
+      "supplierPriceCents": 792,
+      "salePriceCents": 1320,
+      "supplierUrl": "https://www.aliexpress.com/item/1005011984700750.html",
+      "supplierSku": "AE-ITEM-1005011984700750",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005011984700750.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_confort_animal"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_spray_huile_cuisine_001",
+      "slug": "spray-huile-cuisine-reutilisable-best-seller",
+      "name": "Spray huile cuisine réutilisable best-seller",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 77,
+      "marginPercent": 40,
+      "supplierStock": 80,
+      "supplierPriceCents": 120,
+      "salePriceCents": 200,
+      "supplierUrl": "https://www.aliexpress.com/item/1005008253500940.html",
+      "supplierSku": "AE-1005008253500940-OIL-SPRAYER",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005008253500940.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_matiere_contact"
+      ],
+      "blockers": [
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_paracorde_camping_001",
+      "slug": "corde-paracorde-camping-randonnee-5-15-30m",
+      "name": "Corde paracorde camping randonnée 5/15/30 m",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 74,
+      "marginPercent": 40,
+      "supplierStock": 90,
+      "supplierPriceCents": 120,
+      "salePriceCents": 200,
+      "supplierUrl": "https://www.aliexpress.com/item/1005007038471633.html",
+      "supplierSku": "AE-1005007038471633-PARACORD",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005007038471633.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_nano_tape_sdb_cuisine_001",
+      "slug": "nano-tape-double-face-salle-de-bain-cuisine",
+      "name": "Nano tape double-face salle de bain cuisine",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 74,
+      "marginPercent": 41,
+      "supplierStock": 100,
+      "supplierPriceCents": 100,
+      "salePriceCents": 170,
+      "supplierUrl": "https://www.aliexpress.com/item/1005005244419690.html",
+      "supplierSku": "AE-1005005244419690-NANO-TAPE",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005005244419690.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_ruban_double_face_monster_001",
+      "slug": "ruban-double-face-puissant-maison-promo",
+      "name": "Ruban double-face puissant maison promo",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 74,
+      "marginPercent": 41,
+      "supplierStock": 100,
+      "supplierPriceCents": 160,
+      "salePriceCents": 270,
+      "supplierUrl": "https://www.aliexpress.com/item/1005006926453576.html",
+      "supplierSku": "AE-1005006926453576-MONSTER-TAPE",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005006926453576.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_sac_banane_sport_etanche_001",
+      "slug": "sac-banane-sport-etanche-randonnee",
+      "name": "Sac banane sport étanche randonnée",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 74,
+      "marginPercent": 41,
+      "supplierStock": 80,
+      "supplierPriceCents": 160,
+      "salePriceCents": 270,
+      "supplierUrl": "https://www.aliexpress.com/item/1005007341990710.html",
+      "supplierSku": "AE-1005007341990710-SPORT-WAIST-BAG",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005007341990710.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_trousse_maquillage_voyage_001",
+      "slug": "trousse-maquillage-voyage-transparente-best-seller",
+      "name": "Trousse maquillage voyage transparente best-seller",
+      "status": "draft",
+      "categoryId": "dropshipping-mode",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 74,
+      "marginPercent": 40,
+      "supplierStock": 90,
+      "supplierPriceCents": 180,
+      "salePriceCents": 300,
+      "supplierUrl": "https://www.aliexpress.com/item/1005006801982174.html",
+      "supplierSku": "AE-1005006801982174-MAKEUP-TRAVEL-POUCH",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005006801982174.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_sac_voyage_pliable_cabine_001",
+      "slug": "sac-voyage-pliable-cabine-leger",
+      "name": "Sac voyage pliable cabine léger",
+      "status": "draft",
+      "categoryId": "dropshipping-mode",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 71,
+      "marginPercent": 41,
+      "supplierStock": 70,
+      "supplierPriceCents": 220,
+      "salePriceCents": 370,
+      "supplierUrl": "https://www.aliexpress.com/item/1005007547820639.html",
+      "supplierSku": "AE-1005007547820639-FOLDABLE-TRAVEL-BAG",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005007547820639.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_support_mural_balai_001",
+      "slug": "support-mural-balai-serpillere-4-crochets",
+      "name": "Support mural balai et serpillère 4 crochets",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 71,
+      "marginPercent": 41,
+      "supplierStock": 60,
+      "supplierPriceCents": 230,
+      "salePriceCents": 390,
+      "supplierUrl": "https://www.aliexpress.com/item/1005006904650510.html",
+      "supplierSku": "AE-1005006904650510-MOP-HOLDER",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005006904650510.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260527_support_tel_voiture_001",
+      "slug": "support-telephone-voiture-360-partenaire",
+      "name": "Support téléphone voiture flexible à ventouse 360°",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 71,
+      "marginPercent": 40,
+      "supplierStock": 40,
+      "supplierPriceCents": 970,
+      "salePriceCents": 1620,
+      "supplierUrl": "https://www.aliexpress.com/item/4001209749759.html",
+      "supplierSku": "AE-ITEM-4001209749759",
+      "imageStatus": "verified_source_images",
+      "imageCount": 5,
+      "imageSourceUrl": "https://www.aliexpress.com/item/4001209749759.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_usage_auto"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_brosse_massage_cuir_chevelu_001",
+      "slug": "brosse-massage-cuir-chevelu-silicone-best-seller",
+      "name": "Brosse massage cuir chevelu silicone best-seller",
+      "status": "draft",
+      "categoryId": "dropshipping-beaute",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 69,
+      "marginPercent": 41,
+      "supplierStock": 60,
+      "supplierPriceCents": 160,
+      "salePriceCents": 270,
+      "supplierUrl": "https://www.aliexpress.com/item/1005006904624387.html",
+      "supplierSku": "AE-1005006904624387-SCALP-MASSAGER",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005006904624387.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_hygiene_beaute",
+        "controle_matiere_contact"
+      ],
+      "blockers": [
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_cable_usb_c_240w_001",
+      "slug": "cable-usb-c-240w-renforce-best-seller",
+      "name": "Câble USB-C 240W renforcé best-seller",
+      "status": "draft",
+      "categoryId": "dropshipping-high-tech",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 69,
+      "marginPercent": 40,
+      "supplierStock": 80,
+      "supplierPriceCents": 270,
+      "salePriceCents": 450,
+      "supplierUrl": "https://www.aliexpress.com/item/1005007123829293.html",
+      "supplierSku": "AE-1005007123829293-USB-C-240W",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005007123829293.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_electrique_ou_batterie"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_lampe_velo_usb_001",
+      "slug": "lampe-velo-usb-rechargeable-affichage-batterie",
+      "name": "Lampe vélo USB rechargeable affichage batterie",
+      "status": "draft",
+      "categoryId": "dropshipping-high-tech",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 69,
+      "marginPercent": 41,
+      "supplierStock": 80,
+      "supplierPriceCents": 135,
+      "salePriceCents": 230,
+      "supplierUrl": "https://www.aliexpress.com/item/1005007344943912.html",
+      "supplierSku": "AE-1005007344943912-BIKE-LIGHT",
+      "imageStatus": "verified_source_images",
+      "imageCount": 5,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005007344943912.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_electrique_ou_batterie"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_organisateur_cables_1_5m_001",
+      "slug": "organisateur-cables-1-5m-bureau-best-seller",
+      "name": "Organisateur câbles 1/5 m bureau best-seller",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 69,
+      "marginPercent": 40,
+      "supplierStock": 100,
+      "supplierPriceCents": 180,
+      "salePriceCents": 300,
+      "supplierUrl": "https://www.aliexpress.com/item/1005006994762009.html",
+      "supplierSku": "AE-1005006994762009-CABLE-ORGANIZER",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005006994762009.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_electrique_ou_batterie"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_serviette_microfibre_auto_001",
+      "slug": "serviette-microfibre-auto-detailing-promo",
+      "name": "Serviette microfibre auto detailing promo",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 69,
+      "marginPercent": 41,
+      "supplierStock": 100,
+      "supplierPriceCents": 160,
+      "salePriceCents": 270,
+      "supplierUrl": "https://www.aliexpress.com/item/1005006982838233.html",
+      "supplierSku": "AE-1005006982838233-CAR-MICROFIBER",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005006982838233.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_usage_auto"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_support_tel_magnetique_auto_001",
+      "slug": "support-telephone-magnetique-voiture-promo",
+      "name": "Support téléphone magnétique voiture promo",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 69,
+      "marginPercent": 41,
+      "supplierStock": 80,
+      "supplierPriceCents": 170,
+      "salePriceCents": 290,
+      "supplierUrl": "https://www.aliexpress.com/item/1005004558050711.html",
+      "supplierSku": "AE-1005004558050711-MAGNETIC-CAR-MOUNT",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005004558050711.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_usage_auto"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_sac_lavage_chaussures_001",
+      "slug": "sac-lavage-chaussures-machine-best-seller",
+      "name": "Sac lavage chaussures machine best-seller",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 68,
+      "marginPercent": 40,
+      "supplierStock": 45,
+      "supplierPriceCents": 420,
+      "salePriceCents": 700,
+      "supplierUrl": "https://www.aliexpress.com/item/1005008710894079.html",
+      "supplierSku": "AE-1005008710894079-SHOE-WASH-BAG",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005008710894079.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_avion_mousse_lanceur_001",
+      "slug": "avion-mousse-lanceur-enfant-jeu-exterieur",
+      "name": "Avion mousse avec lanceur jeu extérieur",
+      "status": "draft",
+      "categoryId": "dropshipping-enfant",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 66,
+      "marginPercent": 40,
+      "supplierStock": 50,
+      "supplierPriceCents": 310,
+      "salePriceCents": 520,
+      "supplierUrl": "https://www.aliexpress.com/item/1005006967418713.html",
+      "supplierSku": "AE-1005006967418713-FOAM-GLIDER",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005006967418713.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_securite_enfant"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_papier_air_fryer_001",
+      "slug": "papier-cuisson-air-fryer-promo-lot",
+      "name": "Papier cuisson air fryer lot promo",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 66,
+      "marginPercent": 41,
+      "supplierStock": 70,
+      "supplierPriceCents": 260,
+      "salePriceCents": 440,
+      "supplierUrl": "https://www.aliexpress.com/item/1005006861034382.html",
+      "supplierSku": "AE-1005006861034382-AIR-FRYER-LINERS",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005006861034382.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_matiere_contact"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_set_coupe_ongles_001",
+      "slug": "set-coupe-ongles-manucure-portable-promo",
+      "name": "Set coupe-ongles manucure portable promo",
+      "status": "draft",
+      "categoryId": "dropshipping-beaute",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 66,
+      "marginPercent": 40,
+      "supplierStock": 65,
+      "supplierPriceCents": 420,
+      "salePriceCents": 700,
+      "supplierUrl": "https://www.aliexpress.com/item/1005005639737205.html",
+      "supplierSku": "AE-1005005639737205-NAIL-CLIPPER-SET",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005005639737205.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_hygiene_beaute"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_support_eponge_evier_001",
+      "slug": "support-eponge-evier-inox-auto-adhesif",
+      "name": "Support éponge évier inox auto-adhésif",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 66,
+      "marginPercent": 40,
+      "supplierStock": 70,
+      "supplierPriceCents": 180,
+      "salePriceCents": 300,
+      "supplierUrl": "https://www.aliexpress.com/item/1005001819304501.html",
+      "supplierSku": "AE-1005001819304501-SINK-SPONGE-HOLDER",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005001819304501.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_matiere_contact"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_peigne_autonettoyant_chat_001",
+      "slug": "peigne-poils-chat-autonettoyant-pet-hold",
+      "name": "Peigne poils chat autonettoyant",
+      "status": "draft",
+      "categoryId": "dropshipping-animaux",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 63,
+      "marginPercent": 42,
+      "supplierStock": 45,
+      "supplierPriceCents": 110,
+      "salePriceCents": 190,
+      "supplierUrl": "https://www.aliexpress.com/item/1005007639873197.html",
+      "supplierSku": "AE-1005007639873197-PET-COMB",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005007639873197.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_confort_animal"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_machine_bulles_auto_001",
+      "slug": "machine-bulles-automatique-enfant-exterieur",
+      "name": "Machine à bulles automatique enfant extérieur",
+      "status": "draft",
+      "categoryId": "dropshipping-enfant",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 61,
+      "marginPercent": 40,
+      "supplierStock": 50,
+      "supplierPriceCents": 330,
+      "salePriceCents": 550,
+      "supplierUrl": "https://www.aliexpress.com/item/1005008830738206.html",
+      "supplierSku": "AE-1005008830738206-BUBBLE-MACHINE",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005008830738206.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_securite_enfant",
+        "controle_electrique_ou_batterie"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_tondeuse_t9_barber_001",
+      "slug": "tondeuse-t9-barbe-cheveux-promo",
+      "name": "Tondeuse T9 barbe cheveux promo",
+      "status": "draft",
+      "categoryId": "dropshipping-beaute",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 61,
+      "marginPercent": 41,
+      "supplierStock": 75,
+      "supplierPriceCents": 170,
+      "salePriceCents": 290,
+      "supplierUrl": "https://www.aliexpress.com/item/1005006678251153.html",
+      "supplierSku": "AE-1005006678251153-T9-TRIMMER",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005006678251153.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_electrique_ou_batterie",
+        "controle_hygiene_beaute"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260605_gamelle_macaron_anti_choc_001",
+      "slug": "gamelle-macaron-chat-chien-anti-choc",
+      "name": "Gamelle macaron chat chien anti-choc",
+      "status": "draft",
+      "categoryId": "dropshipping-animaux",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 58,
+      "marginPercent": 40,
+      "supplierStock": 40,
+      "supplierPriceCents": 250,
+      "salePriceCents": 420,
+      "supplierUrl": "https://www.aliexpress.com/item/1005010239448272.html",
+      "supplierSku": "AE-1005010239448272-PET-BOWL",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005010239448272.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_confort_animal",
+        "controle_matiere_contact"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication.",
+        "Ajouter une preuve de livraison France/Europe.",
+        "Recontroler prix fournisseur, frais et marge.",
+        "Valider le droit d'usage des images ou remplacer les visuels."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260527_gourde_pliable_001",
+      "slug": "gourde-pliable-silicone-voyage-mousqueton",
+      "name": "Gourde pliable silicone voyage avec mousqueton",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_3_vendeur_a_recontroler",
+      "priorityScore": 90,
+      "marginPercent": 40,
+      "supplierStock": 70,
+      "supplierPriceCents": 370,
+      "salePriceCents": 620,
+      "supplierUrl": "https://www.aliexpress.com/item/1005009184984524.html",
+      "supplierSku": "AE-ITEM-1005009184984524",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005009184984524.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_matiere_contact"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260527_lampes_detection_001",
+      "slug": "lampe-led-detection-mouvement-usb-rechargeable",
+      "name": "Lampe LED à détection de mouvement USB rechargeable",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_3_vendeur_a_recontroler",
+      "priorityScore": 90,
+      "marginPercent": 40,
+      "supplierStock": 50,
+      "supplierPriceCents": 540,
+      "salePriceCents": 900,
+      "supplierUrl": "https://www.aliexpress.com/item/1005008517453827.html",
+      "supplierSku": "AE-1005008517453827-MOTION-LIGHT",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005008517453827.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_electrique_ou_batterie"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "validation_fournisseur_hold",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Lever le HOLD fournisseur avec une preuve de vendeur fiable.",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260527_tapis_evier_silicone_001",
+      "slug": "tapis-silicone-anti-eclaboussures-robinet-evier",
+      "name": "Tapis silicone anti-éclaboussures robinet évier",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "lane": "lane_3_vendeur_a_recontroler",
+      "priorityScore": 90,
+      "marginPercent": 40,
+      "supplierStock": 60,
+      "supplierPriceCents": 500,
+      "salePriceCents": 840,
+      "supplierUrl": "https://www.aliexpress.com/item/1005011663468333.html",
+      "supplierSku": "AE-CHOICE-SINK-MAT-009",
+      "imageStatus": "verified_source_images",
+      "imageCount": 4,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005011663468333.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_matiere_contact"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "validation_fournisseur_hold",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Lever le HOLD fournisseur avec une preuve de vendeur fiable.",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "slug": "filet-rangement-coffre-voiture-sangles-fixes",
+      "name": "Filet rangement coffre voiture à sangles fixes",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "lane": "lane_3_vendeur_a_recontroler",
+      "priorityScore": 87,
+      "marginPercent": 40,
+      "supplierStock": 45,
+      "supplierPriceCents": 400,
+      "salePriceCents": 670,
+      "supplierUrl": "https://www.aliexpress.com/item/1005006160871310.html",
+      "supplierSku": "AE-ITEM-1005006160871310",
+      "imageStatus": "verified_source_images",
+      "imageCount": 6,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005006160871310.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_usage_auto"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Remplacer le libelle fournisseur par le vendeur exact et valider sa fiabilite.",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "ali_partner_20260527_mini_humidificateur_usb_001",
+      "slug": "mini-humidificateur-usb-rechargeable-268ml",
+      "name": "Mini humidificateur USB rechargeable 268 ml",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_3_vendeur_a_recontroler",
+      "priorityScore": 85,
+      "marginPercent": 40,
+      "supplierStock": 50,
+      "supplierPriceCents": 360,
+      "salePriceCents": 600,
+      "supplierUrl": "https://www.aliexpress.com/wholesale?SearchText=mini+USB+humidifier+choice",
+      "supplierSku": "AE-CHOICE-HUMIDIFIER-006",
+      "imageStatus": "verified_source_images",
+      "imageCount": 4,
+      "imageSourceUrl": "https://www.aliexpress.com/item/1005007578805705.html",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_electrique_ou_batterie",
+        "controle_usage_auto"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "validation_fournisseur_hold",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Lever le HOLD fournisseur avec une preuve de vendeur fiable.",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "integration_articles_20260612_attaches-cables-velcro-lot",
+      "slug": "attaches-cables-velcro-lot-partenaire-hold",
+      "name": "Attaches cables velcro lot",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_4_risque_ou_fiche_a_retravailler",
+      "priorityScore": 20,
+      "marginPercent": null,
+      "supplierStock": 0,
+      "supplierPriceCents": 0,
+      "salePriceCents": 890,
+      "supplierUrl": "",
+      "supplierSku": "",
+      "imageStatus": "hold_integration_candidate_no_exact_image",
+      "imageCount": 1,
+      "imageSourceUrl": "",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "image_principale_absente_ou_generique",
+        "galerie_absente_ou_generique",
+        "images_non_verifiees",
+        "source_images_absente",
+        "stock_indisponible",
+        "marge_incalculable",
+        "delai_non_prouve",
+        "lien_fournisseur_absent",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Remplacer l'image principale par la photo exacte.",
+        "Ajouter une galerie exacte ou laisser une seule image exacte.",
+        "Corriger les images pour la variante exacte.",
+        "Renseigner la source exacte des images.",
+        "Verifier stock fournisseur ou garder hors publication.",
+        "Renseigner prix fournisseur et prix boutique.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Traiter le blocage: lien_fournisseur_absent",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "integration_articles_20260612_boite-rangement-cables-bureau",
+      "slug": "boite-rangement-cables-bureau-partenaire-hold",
+      "name": "Boite rangement cables bureau",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_4_risque_ou_fiche_a_retravailler",
+      "priorityScore": 20,
+      "marginPercent": null,
+      "supplierStock": 0,
+      "supplierPriceCents": 0,
+      "salePriceCents": 1290,
+      "supplierUrl": "",
+      "supplierSku": "",
+      "imageStatus": "hold_integration_candidate_no_exact_image",
+      "imageCount": 1,
+      "imageSourceUrl": "",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "image_principale_absente_ou_generique",
+        "galerie_absente_ou_generique",
+        "images_non_verifiees",
+        "source_images_absente",
+        "stock_indisponible",
+        "marge_incalculable",
+        "delai_non_prouve",
+        "lien_fournisseur_absent",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Remplacer l'image principale par la photo exacte.",
+        "Ajouter une galerie exacte ou laisser une seule image exacte.",
+        "Corriger les images pour la variante exacte.",
+        "Renseigner la source exacte des images.",
+        "Verifier stock fournisseur ou garder hors publication.",
+        "Renseigner prix fournisseur et prix boutique.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Traiter le blocage: lien_fournisseur_absent",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "integration_articles_20260612_brosse-nettoyage-joints-cuisine",
+      "slug": "brosse-nettoyage-joints-cuisine-partenaire-hold",
+      "name": "Brosse nettoyage joints cuisine",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "lane": "lane_4_risque_ou_fiche_a_retravailler",
+      "priorityScore": 20,
+      "marginPercent": null,
+      "supplierStock": 0,
+      "supplierPriceCents": 0,
+      "salePriceCents": 990,
+      "supplierUrl": "",
+      "supplierSku": "",
+      "imageStatus": "hold_integration_candidate_no_exact_image",
+      "imageCount": 1,
+      "imageSourceUrl": "",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "image_principale_absente_ou_generique",
+        "galerie_absente_ou_generique",
+        "images_non_verifiees",
+        "source_images_absente",
+        "stock_indisponible",
+        "marge_incalculable",
+        "delai_non_prouve",
+        "lien_fournisseur_absent",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Remplacer l'image principale par la photo exacte.",
+        "Ajouter une galerie exacte ou laisser une seule image exacte.",
+        "Corriger les images pour la variante exacte.",
+        "Renseigner la source exacte des images.",
+        "Verifier stock fournisseur ou garder hors publication.",
+        "Renseigner prix fournisseur et prix boutique.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Traiter le blocage: lien_fournisseur_absent",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "slug": "organisateur-tiroir-cuisine-extensible-partenaire-hold",
+      "name": "Organisateur tiroir cuisine extensible",
+      "status": "draft",
+      "categoryId": "dropshipping-cuisine",
+      "lane": "lane_4_risque_ou_fiche_a_retravailler",
+      "priorityScore": 20,
+      "marginPercent": null,
+      "supplierStock": 0,
+      "supplierPriceCents": 0,
+      "salePriceCents": 1990,
+      "supplierUrl": "",
+      "supplierSku": "",
+      "imageStatus": "hold_integration_candidate_no_exact_image",
+      "imageCount": 1,
+      "imageSourceUrl": "",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "image_principale_absente_ou_generique",
+        "galerie_absente_ou_generique",
+        "images_non_verifiees",
+        "source_images_absente",
+        "stock_indisponible",
+        "marge_incalculable",
+        "delai_non_prouve",
+        "lien_fournisseur_absent",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Remplacer l'image principale par la photo exacte.",
+        "Ajouter une galerie exacte ou laisser une seule image exacte.",
+        "Corriger les images pour la variante exacte.",
+        "Renseigner la source exacte des images.",
+        "Verifier stock fournisseur ou garder hors publication.",
+        "Renseigner prix fournisseur et prix boutique.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Traiter le blocage: lien_fournisseur_absent",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "integration_articles_20260612_sac-rangement-chaussures-voyage",
+      "slug": "sac-rangement-chaussures-voyage-partenaire-hold",
+      "name": "Sac rangement chaussures voyage",
+      "status": "draft",
+      "categoryId": "dropshipping-mode",
+      "lane": "lane_4_risque_ou_fiche_a_retravailler",
+      "priorityScore": 20,
+      "marginPercent": null,
+      "supplierStock": 0,
+      "supplierPriceCents": 0,
+      "salePriceCents": 1390,
+      "supplierUrl": "",
+      "supplierSku": "",
+      "imageStatus": "hold_integration_candidate_no_exact_image",
+      "imageCount": 1,
+      "imageSourceUrl": "",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "image_principale_absente_ou_generique",
+        "galerie_absente_ou_generique",
+        "images_non_verifiees",
+        "source_images_absente",
+        "stock_indisponible",
+        "marge_incalculable",
+        "delai_non_prouve",
+        "lien_fournisseur_absent",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Remplacer l'image principale par la photo exacte.",
+        "Ajouter une galerie exacte ou laisser une seule image exacte.",
+        "Corriger les images pour la variante exacte.",
+        "Renseigner la source exacte des images.",
+        "Verifier stock fournisseur ou garder hors publication.",
+        "Renseigner prix fournisseur et prix boutique.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Traiter le blocage: lien_fournisseur_absent",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "integration_articles_20260612_sacs-compression-voyage-lot",
+      "slug": "sacs-compression-voyage-lot-partenaire-hold",
+      "name": "Sacs compression voyage lot",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_4_risque_ou_fiche_a_retravailler",
+      "priorityScore": 20,
+      "marginPercent": null,
+      "supplierStock": 0,
+      "supplierPriceCents": 0,
+      "salePriceCents": 1590,
+      "supplierUrl": "",
+      "supplierSku": "",
+      "imageStatus": "hold_integration_candidate_no_exact_image",
+      "imageCount": 1,
+      "imageSourceUrl": "",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "image_principale_absente_ou_generique",
+        "galerie_absente_ou_generique",
+        "images_non_verifiees",
+        "source_images_absente",
+        "stock_indisponible",
+        "marge_incalculable",
+        "delai_non_prouve",
+        "lien_fournisseur_absent",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Remplacer l'image principale par la photo exacte.",
+        "Ajouter une galerie exacte ou laisser une seule image exacte.",
+        "Corriger les images pour la variante exacte.",
+        "Renseigner la source exacte des images.",
+        "Verifier stock fournisseur ou garder hors publication.",
+        "Renseigner prix fournisseur et prix boutique.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Traiter le blocage: lien_fournisseur_absent",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "integration_articles_20260612_lampe-led-placard-rechargeable",
+      "slug": "lampe-led-placard-rechargeable-partenaire-hold",
+      "name": "Lampe LED placard rechargeable",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_4_risque_ou_fiche_a_retravailler",
+      "priorityScore": 15,
+      "marginPercent": null,
+      "supplierStock": 0,
+      "supplierPriceCents": 0,
+      "salePriceCents": 1690,
+      "supplierUrl": "",
+      "supplierSku": "",
+      "imageStatus": "hold_integration_candidate_no_exact_image",
+      "imageCount": 1,
+      "imageSourceUrl": "",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_electrique_ou_batterie"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "image_principale_absente_ou_generique",
+        "galerie_absente_ou_generique",
+        "images_non_verifiees",
+        "source_images_absente",
+        "stock_indisponible",
+        "marge_incalculable",
+        "delai_non_prouve",
+        "lien_fournisseur_absent",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Remplacer l'image principale par la photo exacte.",
+        "Ajouter une galerie exacte ou laisser une seule image exacte.",
+        "Corriger les images pour la variante exacte.",
+        "Renseigner la source exacte des images.",
+        "Verifier stock fournisseur ou garder hors publication.",
+        "Renseigner prix fournisseur et prix boutique.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Traiter le blocage: lien_fournisseur_absent",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "integration_articles_20260612_mini-humidificateur-usb-bureau",
+      "slug": "mini-humidificateur-usb-bureau-partenaire-hold",
+      "name": "Mini humidificateur USB bureau",
+      "status": "draft",
+      "categoryId": "dropshipping-high-tech",
+      "lane": "lane_4_risque_ou_fiche_a_retravailler",
+      "priorityScore": 15,
+      "marginPercent": null,
+      "supplierStock": 0,
+      "supplierPriceCents": 0,
+      "salePriceCents": 1890,
+      "supplierUrl": "",
+      "supplierSku": "",
+      "imageStatus": "hold_integration_candidate_no_exact_image",
+      "imageCount": 1,
+      "imageSourceUrl": "",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_electrique_ou_batterie"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "image_principale_absente_ou_generique",
+        "galerie_absente_ou_generique",
+        "images_non_verifiees",
+        "source_images_absente",
+        "stock_indisponible",
+        "marge_incalculable",
+        "delai_non_prouve",
+        "lien_fournisseur_absent",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Remplacer l'image principale par la photo exacte.",
+        "Ajouter une galerie exacte ou laisser une seule image exacte.",
+        "Corriger les images pour la variante exacte.",
+        "Renseigner la source exacte des images.",
+        "Verifier stock fournisseur ou garder hors publication.",
+        "Renseigner prix fournisseur et prix boutique.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Traiter le blocage: lien_fournisseur_absent",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "integration_articles_20260612_rouleau-adhesif-poils-animaux-lavable",
+      "slug": "rouleau-adhesif-poils-animaux-lavable-partenaire-hold",
+      "name": "Rouleau adhesif poils animaux lavable",
+      "status": "draft",
+      "categoryId": "dropshipping-animaux",
+      "lane": "lane_4_risque_ou_fiche_a_retravailler",
+      "priorityScore": 15,
+      "marginPercent": null,
+      "supplierStock": 0,
+      "supplierPriceCents": 0,
+      "salePriceCents": 1190,
+      "supplierUrl": "",
+      "supplierSku": "",
+      "imageStatus": "hold_integration_candidate_no_exact_image",
+      "imageCount": 1,
+      "imageSourceUrl": "",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_confort_animal"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "image_principale_absente_ou_generique",
+        "galerie_absente_ou_generique",
+        "images_non_verifiees",
+        "source_images_absente",
+        "stock_indisponible",
+        "marge_incalculable",
+        "delai_non_prouve",
+        "lien_fournisseur_absent",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Remplacer l'image principale par la photo exacte.",
+        "Ajouter une galerie exacte ou laisser une seule image exacte.",
+        "Corriger les images pour la variante exacte.",
+        "Renseigner la source exacte des images.",
+        "Verifier stock fournisseur ou garder hors publication.",
+        "Renseigner prix fournisseur et prix boutique.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Traiter le blocage: lien_fournisseur_absent",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "integration_articles_20260612_support-telephone-voiture-ventouse",
+      "slug": "support-telephone-voiture-ventouse-partenaire-hold",
+      "name": "Support telephone voiture ventouse",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "lane": "lane_4_risque_ou_fiche_a_retravailler",
+      "priorityScore": 15,
+      "marginPercent": null,
+      "supplierStock": 0,
+      "supplierPriceCents": 0,
+      "salePriceCents": 1490,
+      "supplierUrl": "",
+      "supplierSku": "",
+      "imageStatus": "hold_integration_candidate_no_exact_image",
+      "imageCount": 1,
+      "imageSourceUrl": "",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_usage_auto"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "image_principale_absente_ou_generique",
+        "galerie_absente_ou_generique",
+        "images_non_verifiees",
+        "source_images_absente",
+        "stock_indisponible",
+        "marge_incalculable",
+        "delai_non_prouve",
+        "lien_fournisseur_absent",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Remplacer l'image principale par la photo exacte.",
+        "Ajouter une galerie exacte ou laisser une seule image exacte.",
+        "Corriger les images pour la variante exacte.",
+        "Renseigner la source exacte des images.",
+        "Verifier stock fournisseur ou garder hors publication.",
+        "Renseigner prix fournisseur et prix boutique.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Traiter le blocage: lien_fournisseur_absent",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "integration_articles_20260612_gourde-chien-voyage-anti-fuite",
+      "slug": "gourde-chien-voyage-anti-fuite-partenaire-hold",
+      "name": "Gourde chien voyage anti fuite",
+      "status": "draft",
+      "categoryId": "dropshipping-animaux",
+      "lane": "lane_4_risque_ou_fiche_a_retravailler",
+      "priorityScore": 10,
+      "marginPercent": null,
+      "supplierStock": 0,
+      "supplierPriceCents": 0,
+      "salePriceCents": 1690,
+      "supplierUrl": "",
+      "supplierSku": "",
+      "imageStatus": "hold_integration_candidate_no_exact_image",
+      "imageCount": 1,
+      "imageSourceUrl": "",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_confort_animal",
+        "controle_matiere_contact"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "image_principale_absente_ou_generique",
+        "galerie_absente_ou_generique",
+        "images_non_verifiees",
+        "source_images_absente",
+        "stock_indisponible",
+        "marge_incalculable",
+        "delai_non_prouve",
+        "lien_fournisseur_absent",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Remplacer l'image principale par la photo exacte.",
+        "Ajouter une galerie exacte ou laisser une seule image exacte.",
+        "Corriger les images pour la variante exacte.",
+        "Renseigner la source exacte des images.",
+        "Verifier stock fournisseur ou garder hors publication.",
+        "Renseigner prix fournisseur et prix boutique.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Traiter le blocage: lien_fournisseur_absent",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    },
+    {
+      "id": "integration_articles_20260612_protege-coins-silicone-enfant",
+      "slug": "protege-coins-silicone-enfant-partenaire-hold",
+      "name": "Protege coins silicone enfant",
+      "status": "draft",
+      "categoryId": "dropshipping-enfant",
+      "lane": "lane_4_risque_ou_fiche_a_retravailler",
+      "priorityScore": 10,
+      "marginPercent": null,
+      "supplierStock": 0,
+      "supplierPriceCents": 0,
+      "salePriceCents": 1090,
+      "supplierUrl": "",
+      "supplierSku": "",
+      "imageStatus": "hold_integration_candidate_no_exact_image",
+      "imageCount": 1,
+      "imageSourceUrl": "",
+      "delivery": {
+        "ok": false,
+        "reason": "delai_non_prouve"
+      },
+      "riskFlags": [
+        "controle_securite_enfant",
+        "controle_matiere_contact"
+      ],
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "image_principale_absente_ou_generique",
+        "galerie_absente_ou_generique",
+        "images_non_verifiees",
+        "source_images_absente",
+        "stock_indisponible",
+        "marge_incalculable",
+        "delai_non_prouve",
+        "lien_fournisseur_absent",
+        "validation_interne_hold"
+      ],
+      "nextActions": [
+        "Retirer les mentions a verifier seulement apres preuve exacte.",
+        "Remplacer l'image principale par la photo exacte.",
+        "Ajouter une galerie exacte ou laisser une seule image exacte.",
+        "Corriger les images pour la variante exacte.",
+        "Renseigner la source exacte des images.",
+        "Verifier stock fournisseur ou garder hors publication.",
+        "Renseigner prix fournisseur et prix boutique.",
+        "Verifier et noter un delai France/Europe reel, idealement 3 a 7 jours.",
+        "Traiter le blocage: lien_fournisseur_absent",
+        "Faire la revue humaine finale avant publication."
+      ],
+      "publicationDecision": "hold_until_all_actions_done"
+    }
+  ],
+  "safety": {
+    "noWriteToCatalog": true,
+    "noPublication": true,
+    "noSupplierOrder": true,
+    "noPayment": true
+  }
+}

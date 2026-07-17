@@ -1,0 +1,85 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-09T23:47:11.508Z",
+  "mode": "read_only_surprise_hold_audit",
+  "totalProducts": 67,
+  "surpriseProductCount": 4,
+  "failureCount": 0,
+  "failures": [],
+  "guardFailures": [],
+  "sourceGuards": {
+    "hasComingSoonFunction": true,
+    "hasPurchasableFunction": true,
+    "purchasableChecksComingSoon": true,
+    "hasSurpriseCategories": true,
+    "hasSurpriseKeywords": true
+  },
+  "surpriseProducts": [
+    {
+      "id": "prod_palette_mystere_destockage_001",
+      "slug": "palette-mystere-destockage",
+      "name": "Palette mystère déstockage",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "palettes-destockage",
+      "status": "published",
+      "commerceStatus": "coming-soon",
+      "stock": 3,
+      "price": 89900,
+      "isTestProduct": true,
+      "comingSoon": true,
+      "purchasableByCatalogRule": false,
+      "problems": []
+    },
+    {
+      "id": "prod_colis_surprise_10kg_001",
+      "slug": "colis-surprise-10-kg",
+      "name": "Colis surprise 10 kg",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "colis-au-poids",
+      "status": "published",
+      "commerceStatus": "coming-soon",
+      "stock": 12,
+      "price": 5900,
+      "isTestProduct": true,
+      "comingSoon": true,
+      "purchasableByCatalogRule": false,
+      "problems": []
+    },
+    {
+      "id": "prod_colis_mystere_premium_001",
+      "slug": "colis-mystere-premium",
+      "name": "Colis mystère premium",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "colis-mysteres",
+      "status": "published",
+      "commerceStatus": "coming-soon",
+      "stock": 8,
+      "price": 9900,
+      "isTestProduct": true,
+      "comingSoon": true,
+      "purchasableByCatalogRule": false,
+      "problems": []
+    },
+    {
+      "id": "prod_lot_special_marche_001",
+      "slug": "lot-special-marche",
+      "name": "Lot spécial marché",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "lots-bonnes-affaires",
+      "status": "published",
+      "commerceStatus": "coming-soon",
+      "stock": 5,
+      "price": 24900,
+      "isTestProduct": true,
+      "comingSoon": true,
+      "purchasableByCatalogRule": false,
+      "problems": []
+    }
+  ],
+  "safety": {
+    "noWriteToCatalog": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true
+  }
+}

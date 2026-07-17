@@ -1,0 +1,158 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-13T04:43:50.574Z",
+  "mode": "read_only_admin_page_guard_audit",
+  "pageCount": 14,
+  "failureCount": 0,
+  "pages": [
+    {
+      "path": "src/app/admin/ajout-images/page.tsx",
+      "pageOk": true,
+      "importsAdminMode": true,
+      "forcesDynamic": true,
+      "hasAdminGuard": true,
+      "guardBeforeSensitiveWork": true,
+      "guardIndex": 54,
+      "firstSensitiveIndex": 145
+    },
+    {
+      "path": "src/app/admin/ajout-rapide/page.tsx",
+      "pageOk": true,
+      "importsAdminMode": true,
+      "forcesDynamic": true,
+      "hasAdminGuard": true,
+      "guardBeforeSensitiveWork": true,
+      "guardIndex": 50,
+      "firstSensitiveIndex": 389
+    },
+    {
+      "path": "src/app/admin/avis/page.tsx",
+      "pageOk": true,
+      "importsAdminMode": true,
+      "forcesDynamic": true,
+      "hasAdminGuard": true,
+      "guardBeforeSensitiveWork": true,
+      "guardIndex": 53,
+      "firstSensitiveIndex": 642
+    },
+    {
+      "path": "src/app/admin/dropshipping/page.tsx",
+      "pageOk": true,
+      "importsAdminMode": true,
+      "forcesDynamic": true,
+      "hasAdminGuard": true,
+      "guardBeforeSensitiveWork": true,
+      "guardIndex": 151,
+      "firstSensitiveIndex": 736
+    },
+    {
+      "path": "src/app/admin/images-categories/page.tsx",
+      "pageOk": true,
+      "importsAdminMode": true,
+      "forcesDynamic": true,
+      "hasAdminGuard": true,
+      "guardBeforeSensitiveWork": true,
+      "guardIndex": 60,
+      "firstSensitiveIndex": 1672
+    },
+    {
+      "path": "src/app/admin/messages/page.tsx",
+      "pageOk": true,
+      "importsAdminMode": true,
+      "forcesDynamic": true,
+      "hasAdminGuard": true,
+      "guardBeforeSensitiveWork": true,
+      "guardIndex": 54,
+      "firstSensitiveIndex": 144
+    },
+    {
+      "path": "src/app/admin/photos-produits/checklist/page.tsx",
+      "pageOk": true,
+      "importsAdminMode": true,
+      "forcesDynamic": true,
+      "hasAdminGuard": true,
+      "guardBeforeSensitiveWork": true,
+      "guardIndex": 62,
+      "firstSensitiveIndex": 2224
+    },
+    {
+      "path": "src/app/admin/photos-produits/page.tsx",
+      "pageOk": true,
+      "importsAdminMode": true,
+      "forcesDynamic": true,
+      "hasAdminGuard": true,
+      "guardBeforeSensitiveWork": true,
+      "guardIndex": 59,
+      "firstSensitiveIndex": 1874
+    },
+    {
+      "path": "src/app/admin/pilotage/page.tsx",
+      "pageOk": true,
+      "importsAdminMode": true,
+      "forcesDynamic": true,
+      "hasAdminGuard": true,
+      "guardBeforeSensitiveWork": true,
+      "guardIndex": 54,
+      "firstSensitiveIndex": 7753
+    },
+    {
+      "path": "src/app/admin/preuves-partenaires/page.tsx",
+      "pageOk": true,
+      "importsAdminMode": true,
+      "forcesDynamic": true,
+      "hasAdminGuard": true,
+      "guardBeforeSensitiveWork": true,
+      "guardIndex": 107,
+      "firstSensitiveIndex": 15000
+    },
+    {
+      "path": "src/app/admin/preuves-sourcing/page.tsx",
+      "pageOk": true,
+      "importsAdminMode": true,
+      "forcesDynamic": true,
+      "hasAdminGuard": true,
+      "guardBeforeSensitiveWork": true,
+      "guardIndex": 60,
+      "firstSensitiveIndex": 5066
+    },
+    {
+      "path": "src/app/admin/produits/[slug]/modifier/page.tsx",
+      "pageOk": true,
+      "importsAdminMode": true,
+      "forcesDynamic": true,
+      "hasAdminGuard": true,
+      "guardBeforeSensitiveWork": true,
+      "guardIndex": 160,
+      "firstSensitiveIndex": 760
+    },
+    {
+      "path": "src/app/admin/selection-produits/page.tsx",
+      "pageOk": true,
+      "importsAdminMode": true,
+      "forcesDynamic": true,
+      "hasAdminGuard": true,
+      "guardBeforeSensitiveWork": true,
+      "guardIndex": 62,
+      "firstSensitiveIndex": 1779
+    },
+    {
+      "path": "src/app/admin/visuels-exacts/page.tsx",
+      "pageOk": true,
+      "importsAdminMode": true,
+      "forcesDynamic": true,
+      "hasAdminGuard": true,
+      "guardBeforeSensitiveWork": true,
+      "guardIndex": 58,
+      "firstSensitiveIndex": 2766
+    }
+  ],
+  "failures": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true
+  }
+}

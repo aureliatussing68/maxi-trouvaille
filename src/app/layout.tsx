@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from "next";
 import { CartProvider } from "@/components/CartProvider";
 import { Footer } from "@/components/Footer";
 import { Header } from "@/components/Header";
+import { MobileDemoNav } from "@/components/MobileDemoNav";
 import { ServiceWorkerRegister } from "@/components/ServiceWorkerRegister";
 import "./globals.css";
 
@@ -10,11 +11,11 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 export const metadata: Metadata = {
   applicationName: "Maxi Trouvaille",
   title: {
-    default: "Maxi Trouvaille - Boutique de bonnes affaires",
+    default: "Maxi Trouvaille - Boutique en ligne à petits prix",
     template: "%s | Maxi Trouvaille",
   },
   description:
-    "Boutique en ligne de trouvailles, lots, colis perdus, objets neufs ou quasi neufs et bonnes affaires.",
+    "Les trouvailles malignes du moment à petits prix : maison, cuisine, high-tech, auto, animaux. Paiement sécurisé, livraison suivie, service client réactif.",
   metadataBase: new URL(siteUrl),
   manifest: "/manifest.webmanifest",
   formatDetection: {
@@ -47,12 +48,28 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "Maxi Trouvaille",
+    title: "Maxi Trouvaille - Boutique en ligne à petits prix",
     description:
-      "Boutique de bonnes affaires, colis perdus, lots et futures annonces vendeurs.",
+      "Maison, cuisine, high-tech, auto, animaux : les trouvailles malignes du moment. Paiement sécurisé et livraison suivie.",
+    url: siteUrl,
     siteName: "Maxi Trouvaille",
     locale: "fr_FR",
     type: "website",
+    images: [
+      {
+        url: "/uploads/category-images/produits-partenaires.webp",
+        width: 1200,
+        height: 630,
+        alt: "Maxi Trouvaille - produits partenaires",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Maxi Trouvaille - Boutique en ligne à petits prix",
+    description:
+      "Maison, cuisine, high-tech, auto, animaux : les trouvailles malignes du moment. Paiement sécurisé et livraison suivie.",
+    images: ["/uploads/category-images/produits-partenaires.webp"],
   },
   other: {
     "apple-mobile-web-app-capable": "yes",
@@ -72,13 +89,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="fr" className="h-full">
-      <body className="flex min-h-full flex-col antialiased">
+    <html lang="fr" className="h-full" data-scroll-behavior="smooth">
+      <body className="flex min-h-full flex-col pb-20 antialiased md:pb-0">
         <ServiceWorkerRegister />
         <CartProvider>
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
+          <MobileDemoNav />
         </CartProvider>
       </body>
     </html>

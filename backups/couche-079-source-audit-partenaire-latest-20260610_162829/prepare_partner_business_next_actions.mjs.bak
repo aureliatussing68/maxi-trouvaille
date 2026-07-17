@@ -1,0 +1,273 @@
+import fs from "node:fs";
+import path from "node:path";
+
+const root = process.cwd();
+const businessDir = path.join(root, "business-maxi-trouvailles");
+const packsRoot = path.join(
+  businessDir,
+  "file-validation-fournisseurs",
+  "packs-validation-tous-partenaires",
+);
+const outputRoot = path.join(businessDir, "tableaux-action");
+
+function readJson(filePath) {
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
+function datePartsParis(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Paris",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(date);
+  const byType = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return {
+    dateKey: `${byType.year}${byType.month}${byType.day}`,
+    localLabel: `${byType.year}-${byType.month}-${byType.day} ${byType.hour}:${byType.minute} Europe/Paris`,
+  };
+}
+
+function collectFiles(dir, predicate, out = []) {
+  if (!fs.existsSync(dir)) {
+    return out;
+  }
+
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      collectFiles(fullPath, predicate, out);
+    } else if (predicate(entry.name, fullPath)) {
+      out.push(fullPath);
+    }
+  }
+
+  return out;
+}
+
+function latestFile(prefix) {
+  const matches = collectFiles(
+    packsRoot,
+    (name) => name.startsWith(prefix) && name.endsWith(".json"),
+  )
+    .map((fullPath) => ({ fullPath, mtimeMs: fs.statSync(fullPath).mtimeMs }))
+    .sort((a, b) => b.mtimeMs - a.mtimeMs);
+
+  if (matches.length === 0) {
+    throw new Error(`No ${prefix}*.json found under ${packsRoot}`);
+  }
+
+  return matches[0].fullPath;
+}
+
+function csvEscape(value) {
+  const text = Array.isArray(value) ? value.join(" | ") : String(value ?? "");
+  return `"${text.replace(/"/g, '""')}"`;
+}
+
+function csv(items) {
+  const headers = ["priority", "lane", "name", "status", "nextAction", "sourceFile"];
+  return `${headers.join(",")}\n${items
+    .map((item) => headers.map((header) => csvEscape(item[header])).join(","))
+    .join("\n")}\n`;
+}
+
+function commandBlock() {
+  return [
+    "npm run catalog:all-partner-validation-queue",
+    "npm run catalog:all-partner-validation-packets",
+    "npm run catalog:audit-all-partner-validation-evidence",
+    "npm run catalog:partner-evidence-workplan",
+    "npm run catalog:fast-evidence-forms",
+    "npm run catalog:audit-fast-evidence-forms",
+    "npm run catalog:audit-all-partner-gates",
+    "npm run catalog:audit-checkout-eligibility",
+    "npm run catalog:test-checkout-guards",
+  ];
+}
+
+function staticDecisionActions(workplan) {
+  return workplan.tasks
+    .filter((task) => task.workLane === "A_DECISION_STATIQUE")
+    .sort((a, b) => a.priority - b.priority)
+    .map((task) => ({
+      priority: task.priority,
+      lane: "decision_statique",
+      id: task.id,
+      name: task.name,
+      status: task.status,
+      nextAction: "Decider garder, remplacer, retirer ou plus tard avant toute preuve fournisseur.",
+      requiredProofs: task.fieldsToFill,
+      sourceFile: workplan.outputDir,
+      guardrail: "Aucune publication tant que la decision et les preuves ne sont pas remplies.",
+    }));
+}
+
+function fastFormActions(fastAudit, formsPath) {
+  return fastAudit.products
+    .sort((a, b) => a.priority - b.priority)
+    .map((product) => ({
+      priority: product.priority,
+      lane: "formulaire_rapide",
+      id: product.id,
+      name: product.name,
+      status: product.status,
+      nextAction: "Remplir le formulaire rapide avec vendeur, variante, prix, stock, delai, tracking et preuves image.",
+      requiredProofs: product.blockers,
+      sourceFile: formsPath,
+      guardrail: "Rester HOLD; ready_review_hold signifie seulement revue humaine, pas publication.",
+    }));
+}
+
+function recheckActions(workplan) {
+  return workplan.tasks
+    .filter((task) => task.workLane === "C_RECONTROLE_COMPLET")
+    .sort((a, b) => a.priority - b.priority)
+    .map((task) => ({
+      priority: task.priority,
+      lane: "recontrole_complet",
+      id: task.id,
+      name: task.name,
+      status: task.status,
+      nextAction: "Recontroler prix, livraison, droits images et risques avant de creer un formulaire de revue.",
+      requiredProofs: task.fieldsToFill,
+      sourceFile: workplan.outputDir,
+      guardrail: "Ne pas passer en publication tant que le recontrole complet n'est pas converti en preuves.",
+    }));
+}
+
+function markdown(summary) {
+  const rows = summary.nextActions.map(
+    (item) =>
+      `| ${item.priority} | ${item.lane} | ${item.name} | ${item.status} | ${item.nextAction} |`,
+  );
+
+  return `${[
+    "# Maxi Trouvailles - Quoi Faire Maintenant",
+    "",
+    `Date locale: ${summary.generatedAtLocal}`,
+    "",
+    "## Synthese",
+    "",
+    `- Actions totales: ${summary.actionCount}`,
+    `- Decisions statiques: ${summary.counts.staticDecisions}`,
+    `- Formulaires rapides: ${summary.counts.fastForms}`,
+    `- Recontroles complets: ${summary.counts.fullRechecks}`,
+    `- Produits partenaires publies: ${summary.safety.publishedPartnerCount}`,
+    `- Produits partenaires HOLD: ${summary.safety.draftHoldCount}`,
+    "",
+    "## A faire maintenant",
+    "",
+    "| Priorite | File | Produit | Statut | Action |",
+    "|---:|---|---|---|---|",
+    ...rows,
+    "",
+    "## Commandes a relancer apres remplissage",
+    "",
+    "```powershell",
+    ...summary.commandsAfterFill,
+    "```",
+    "",
+    "## Garde-fous",
+    "",
+    "- Ne pas publier automatiquement.",
+    "- Ne pas payer.",
+    "- Ne pas commander fournisseur.",
+    "- Garder AliExpress et les liens fournisseur hors affichage client.",
+    "- `ready_review_hold` veut dire revue humaine possible, pas mise en vente.",
+    "",
+    "## Sources",
+    "",
+    `- Workplan: ${summary.sources.workplanPath}`,
+    `- Audit formulaires rapides: ${summary.sources.fastAuditPath}`,
+    `- Audit gates partenaires: ${summary.sources.partnerGateAuditPath}`,
+    "",
+  ].join("\n")}\n`;
+}
+
+const workplanPath = latestFile("PLAN_TRAVAIL_PREUVES_TOUS_PARTENAIRES_");
+const fastAuditPath = latestFile("AUDIT_FORMULAIRES_PREUVES_RAPIDES_");
+const partnerGateAuditPath = path.join(
+  businessDir,
+  "file-validation-fournisseurs",
+  "AUDIT_ALL_PARTNER_GATES_20260609.json",
+);
+
+const workplan = readJson(workplanPath);
+const fastAudit = readJson(fastAuditPath);
+const partnerGateAudit = fs.existsSync(partnerGateAuditPath)
+  ? readJson(partnerGateAuditPath)
+  : { publishedPartnerCount: null, draftHoldCount: null };
+
+if (!Array.isArray(workplan.tasks)) {
+  throw new Error("Workplan must contain tasks.");
+}
+
+if (!Array.isArray(fastAudit.products)) {
+  throw new Error("Fast evidence audit must contain products.");
+}
+
+const staticActions = staticDecisionActions(workplan);
+const fastActions = fastFormActions(fastAudit, fastAudit.inputPath);
+const recheckActionsList = recheckActions(workplan);
+const nextActions = [...staticActions, ...fastActions, ...recheckActionsList].sort(
+  (a, b) => a.priority - b.priority,
+);
+const { dateKey, localLabel } = datePartsParis();
+const outputDir = path.join(outputRoot, `quoi-faire-maintenant-${dateKey}`);
+fs.mkdirSync(outputDir, { recursive: true });
+
+const summary = {
+  ok: true,
+  generatedAt: new Date().toISOString(),
+  generatedAtLocal: localLabel,
+  mode: "read_only_partner_business_next_actions",
+  actionCount: nextActions.length,
+  counts: {
+    staticDecisions: staticActions.length,
+    fastForms: fastActions.length,
+    fullRechecks: recheckActionsList.length,
+  },
+  nextActions,
+  commandsAfterFill: commandBlock(),
+  sources: {
+    workplanPath,
+    fastAuditPath,
+    partnerGateAuditPath,
+  },
+  safety: {
+    readOnly: true,
+    noCatalogWrite: true,
+    noPublication: true,
+    noPayment: true,
+    noSupplierOrder: true,
+    publishedPartnerCount: partnerGateAudit.publishedPartnerCount ?? null,
+    draftHoldCount: partnerGateAudit.draftHoldCount ?? null,
+  },
+};
+
+const jsonPath = path.join(outputDir, `QUOI_FAIRE_MAINTENANT_PARTENAIRES_${dateKey}.json`);
+const mdPath = path.join(outputDir, `QUOI_FAIRE_MAINTENANT_PARTENAIRES_${dateKey}.md`);
+const csvPath = path.join(outputDir, `QUOI_FAIRE_MAINTENANT_PARTENAIRES_${dateKey}.csv`);
+
+fs.writeFileSync(jsonPath, `${JSON.stringify(summary, null, 2)}\n`, "utf8");
+fs.writeFileSync(mdPath, markdown(summary), "utf8");
+fs.writeFileSync(csvPath, csv(nextActions), "utf8");
+
+console.log(
+  JSON.stringify(
+    {
+      ok: summary.ok,
+      mode: summary.mode,
+      actionCount: summary.actionCount,
+      counts: summary.counts,
+      files: { jsonPath, mdPath, csvPath },
+      safety: summary.safety,
+    },
+    null,
+    2,
+  ),
+);

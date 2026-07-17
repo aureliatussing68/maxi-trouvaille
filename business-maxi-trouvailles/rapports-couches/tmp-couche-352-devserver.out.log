@@ -1,0 +1,21 @@
+
+> maxi-trouvaille@0.1.0 dev
+> next dev --webpack --port 3276
+
+▲ Next.js 16.2.6 (webpack)
+- Local:         http://localhost:3276
+- Network:       http://192.168.1.121:3276
+- Environments: .env.local
+✓ Ready in 388ms
+
+○ Compiling / ...
+ GET / 200 in 6.4s (next.js: 3.6s, application-code: 2.9s)
+ GET / 200 in 327ms (next.js: 2ms, application-code: 325ms)
+ GET /offline 200 in 1331ms (next.js: 1059ms, application-code: 272ms)
+ GET / 200 in 129ms (next.js: 10ms, application-code: 118ms)
+ GET / 200 in 226ms (next.js: 3ms, application-code: 224ms)
+ GET /nouveautes 200 in 426ms (next.js: 321ms, application-code: 105ms)
+ GET /promotions 200 in 353ms (next.js: 234ms, application-code: 119ms)
+ GET /promotions 200 in 588ms (next.js: 1970µs, application-code: 586ms)
+ GET /promotions 200 in 64ms (next.js: 1943µs, application-code: 62ms)
+[?25h

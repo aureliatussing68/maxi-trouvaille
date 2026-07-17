@@ -1,0 +1,403 @@
+import fs from "node:fs";
+import path from "node:path";
+
+const root = process.cwd();
+const businessDir = path.join(root, "business-maxi-trouvailles");
+const actionRoot = path.join(businessDir, "tableaux-action");
+const supplierRoot = path.join(businessDir, "file-validation-fournisseurs");
+const photoDropRoot = path.join(businessDir, "depots-photos");
+
+function datePartsParis(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Paris",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(date);
+  const byType = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+  return {
+    dateKey: `${byType.year}${byType.month}${byType.day}`,
+    localLabel: `${byType.year}-${byType.month}-${byType.day} ${byType.hour}:${byType.minute} Europe/Paris`,
+  };
+}
+
+function collectFiles(dir, predicate, out = []) {
+  if (!fs.existsSync(dir)) return out;
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const fullPath = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      collectFiles(fullPath, predicate, out);
+    } else if (predicate(entry.name, fullPath)) {
+      out.push(fullPath);
+    }
+  }
+  return out;
+}
+
+function latestFileUnder(dir, prefix) {
+  const matches = collectFiles(dir, (name) => name.startsWith(prefix) && name.endsWith(".json"))
+    .map((fullPath) => ({ fullPath, mtimeMs: fs.statSync(fullPath).mtimeMs }))
+    .sort((a, b) => b.mtimeMs - a.mtimeMs);
+  const todayKey = datePartsParis().dateKey;
+  return matches.find((match) => match.fullPath.includes(todayKey))?.fullPath ?? matches[0]?.fullPath ?? null;
+}
+
+function readJsonIfExists(filePath) {
+  if (!filePath || !fs.existsSync(filePath)) return null;
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
+function relativePath(filePath) {
+  return filePath ? path.relative(root, filePath) : "";
+}
+
+function csvEscape(value) {
+  const normalized = Array.isArray(value) ? value.join(" | ") : String(value ?? "");
+  return `"${normalized.replace(/"/g, '""')}"`;
+}
+
+function mdCell(value) {
+  return String(value ?? "").replace(/\|/g, ";");
+}
+
+function top(items, limit) {
+  return items.slice(0, limit);
+}
+
+function businessActions(source) {
+  return top(source?.nextActions ?? [], 12).map((item) => ({
+    lane: "produits_partenaires",
+    urgency: item.priority,
+    id: item.id,
+    label: item.name,
+    status: item.status,
+    nextAction: item.nextAction,
+    blockers: item.requiredProofs ?? [],
+    sourceFile: item.sourceFile,
+    allowedAction: "remplir preuves, verifier fournisseur, completer decision HOLD",
+    forbiddenActions: [
+      "publier",
+      "commander fournisseur",
+      "payer",
+      "envoyer message client",
+    ],
+  }));
+}
+
+function categoryImageActions(source) {
+  return top(source?.items ?? [], 12).map((item) => ({
+    lane: "images_categories",
+    urgency: item.rank,
+    id: item.categoryId,
+    label: item.categoryName,
+    status: item.intakeStatus,
+    nextAction: item.nextAction,
+    blockers: item.blockers ?? [],
+    sourceFile: item.stagingRelativePath,
+    allowedAction: `deposer WebP exact: ${item.expectedFileName}`,
+    forbiddenActions: [
+      "copier dans public/uploads/category-images",
+      "modifier src/lib/catalog.ts",
+      "publier",
+    ],
+  }));
+}
+
+function productPhotoActions(source) {
+  const tasks = (source?.products ?? []).flatMap((product) =>
+    (product.imageTasks ?? []).map((task) => ({
+      lane: "photos_produits",
+      urgency: product.rank * 10 + task.order,
+      id: `${product.productId}#${task.order}`,
+      label: `${product.productName} - ${task.role}`,
+      status: task.stagingStatus === "missing" ? "HOLD_PHOTO_MISSING" : task.stagingStatus,
+      nextAction: task.requiredShot,
+      blockers: task.keepHoldUntil ?? [],
+      sourceFile: task.stagingRelativePath,
+      allowedAction: `deposer photo WebP exacte: ${task.expectedFileName}`,
+      forbiddenActions: [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur",
+      ],
+    })),
+  );
+  return top(tasks, 12);
+}
+
+function guardrailActions({ checkout, partnerGates, surprise, publicSurface }) {
+  return [
+    {
+      lane: "garde_fous",
+      urgency: 899,
+      id: "public_dropshipping_surface",
+      label: "Surface publique dropshipping",
+      status: publicSurface?.ok ? "OK_NO_PUBLIC_SUPPLIER_LEAK" : "PUBLIC_SURFACE_FAILURE",
+      nextAction: publicSurface?.ok
+        ? "maintenir zero fuite client: AliExpress, prix fournisseur, liens fournisseur et images non prouvees restent bloques"
+        : "corriger immediatement les fuites publiques avant toute autre couche catalogue",
+      blockers: publicSurface?.failures ?? ["audit surface publique manquant"],
+      sourceFile: relativePath(latestFileUnder(actionRoot, "AUDIT_SURFACE_PUBLIQUE_DROPSHIPPING_")),
+      allowedAction: "audit lecture seule et correction wording client si besoin",
+      forbiddenActions: [
+        "afficher AliExpress",
+        "afficher lien fournisseur",
+        "afficher prix fournisseur",
+        "publier fiche sans image exacte",
+      ],
+    },
+    {
+      lane: "garde_fous",
+      urgency: 900,
+      id: "checkout",
+      label: "Checkout et Stripe",
+      status: checkout?.ok ? "OK_GUARDS_ACTIVE" : "CHECKOUT_GUARD_FAILURE",
+      nextAction: checkout?.ok
+        ? "maintenir les gardes actifs; ne pas toucher au paiement sans validation Mouss"
+        : "corriger les echecs checkout avant toute autre couche sensible",
+      blockers: checkout?.guardFailures ?? checkout?.currentFailures ?? [],
+      sourceFile: relativePath(latestFileUnder(supplierRoot, "AUDIT_CHECKOUT_ELIGIBILITY_")),
+      allowedAction: "audit lecture seule et correction de garde-fous si besoin",
+      forbiddenActions: ["creer session Stripe reelle", "deployer", "modifier cles API"],
+    },
+    {
+      lane: "garde_fous",
+      urgency: 901,
+      id: "partner_publication_gates",
+      label: "Publication produits partenaires",
+      status: partnerGates?.ok ? "OK_ALL_PARTNERS_HOLD" : "PARTNER_GATE_FAILURE",
+      nextAction: partnerGates?.ok
+        ? `${partnerGates.draftHoldCount ?? 0} produits partenaires restent en HOLD, ne rien publier`
+        : "corriger les gates partenaires avant tout travail catalogue",
+      blockers: partnerGates?.failures ?? [],
+      sourceFile: relativePath(latestFileUnder(supplierRoot, "AUDIT_ALL_PARTNER_GATES_")),
+      allowedAction: "audit et enrichissement preuves en brouillon",
+      forbiddenActions: ["publier", "lever HOLD automatiquement", "commander fournisseur"],
+    },
+    {
+      lane: "garde_fous",
+      urgency: 902,
+      id: "surprise_hold",
+      label: "Colis surprises et palettes",
+      status: surprise?.ok ? "OK_NON_VENDABLES" : "SURPRISE_HOLD_FAILURE",
+      nextAction: surprise?.ok
+        ? "conserver badge A venir et achat bloque"
+        : "corriger immediatement les produits surprise vendables",
+      blockers: surprise?.failures ?? surprise?.guardFailures ?? [],
+      sourceFile: relativePath(latestFileUnder(supplierRoot, "AUDIT_SURPRISES_NON_VENDABLES_")),
+      allowedAction: "audit hold et correction badge/boutons si besoin",
+      forbiddenActions: ["vendre colis surprise", "activer paiement", "publier palettes"],
+    },
+  ];
+}
+
+function laneSummary(actions) {
+  const byLane = new Map();
+  for (const action of actions) {
+    const current = byLane.get(action.lane) ?? {
+      lane: action.lane,
+      actionCount: 0,
+      blockedCount: 0,
+      readyCount: 0,
+      firstAction: "",
+    };
+    current.actionCount += 1;
+    if (!action.status.startsWith("OK_") && (action.status.includes("HOLD") || action.status.includes("FAILURE"))) {
+      current.blockedCount += 1;
+    }
+    if (action.status.includes("READY")) current.readyCount += 1;
+    if (!current.firstAction) current.firstAction = action.nextAction;
+    byLane.set(action.lane, current);
+  }
+  return [...byLane.values()];
+}
+
+function markdown(summary) {
+  const laneRows = summary.lanes.map(
+    (lane) =>
+      `| ${mdCell(lane.lane)} | ${lane.actionCount} | ${lane.blockedCount} | ${lane.readyCount} | ${mdCell(lane.firstAction)} |`,
+  );
+  const actionRows = summary.actions.map(
+    (action) =>
+      `| ${action.rank} | ${mdCell(action.lane)} | ${mdCell(action.label)} | ${mdCell(action.status)} | ${mdCell(action.nextAction)} | ${mdCell(action.allowedAction)} |`,
+  );
+
+  return `${[
+    "# Maxi Trouvailles - Tableau execution du jour",
+    "",
+    `Date locale: ${summary.generatedAtLocal}`,
+    "",
+    "## Synthese",
+    "",
+    `- Actions consolidees: ${summary.actionCount}`,
+    `- Produits partenaires en HOLD: ${summary.metrics.partnerDraftHoldCount}`,
+    `- Images categories attendues: ${summary.metrics.categoryImagesExpected}`,
+    `- Images categories manquantes: ${summary.metrics.categoryImagesMissing}`,
+    `- Photos produits sprint attendues: ${summary.metrics.productPhotosExpected}`,
+    `- Photos produits sprint manquantes: ${summary.metrics.productPhotosMissing}`,
+    `- Produits achetables publics: ${summary.metrics.expectedPurchasableCount}`,
+    `- Produits achetables legacy avant focus dropshipping: ${summary.metrics.legacyPurchasableCount}`,
+    `- Fuites surface publique dropshipping: ${summary.metrics.publicSurfaceFailureCount}`,
+    `- Warnings surface publique dropshipping: ${summary.metrics.publicSurfaceWarningCount}`,
+    `- Produits visibles surface dropshipping: ${summary.metrics.publicSurfaceVisibleDropshippingCount}`,
+    "- Publication: aucune",
+    "- Paiement/Stripe reel: aucun",
+    "- Commande fournisseur: aucune",
+    "",
+    "## Lots de travail",
+    "",
+    "| Lot | Actions | Bloquees | Pretes revue | Premiere action |",
+    "|---|---:|---:|---:|---|",
+    ...laneRows,
+    "",
+    "## Actions prioritaires",
+    "",
+    "| Rang | Lot | Element | Statut | Prochaine action | Autorise maintenant |",
+    "|---:|---|---|---|---|---|",
+    ...actionRows,
+    "",
+    "## Interdits",
+    "",
+    "- aucune publication production;",
+    "- aucune commande fournisseur;",
+    "- aucun paiement ou test Stripe reel;",
+    "- aucune copie image publique sans validation Mouss;",
+    "- aucun message client automatique.",
+    "",
+    "## Sources",
+    "",
+    ...Object.entries(summary.sources).map(([key, value]) => `- ${key}: ${value || "absent"}`),
+    "",
+  ].join("\n")}\n`;
+}
+
+function csv(summary) {
+  const headers = [
+    "rank",
+    "lane",
+    "id",
+    "label",
+    "status",
+    "nextAction",
+    "allowedAction",
+    "forbiddenActions",
+    "blockers",
+    "sourceFile",
+  ];
+  return `${headers.join(",")}\n${summary.actions
+    .map((item) => headers.map((header) => csvEscape(item[header])).join(","))
+    .join("\n")}\n`;
+}
+
+const businessPath = latestFileUnder(actionRoot, "QUOI_FAIRE_MAINTENANT_PARTENAIRES_");
+const categoryIntakePath = latestFileUnder(actionRoot, "SUIVI_DEPOTS_IMAGES_CATEGORIES_");
+const photoDropPath = latestFileUnder(photoDropRoot, "MANIFEST_DEPOT_PHOTOS_SPRINT_");
+const checkoutPath = latestFileUnder(supplierRoot, "AUDIT_CHECKOUT_ELIGIBILITY_");
+const partnerGatesPath = latestFileUnder(supplierRoot, "AUDIT_ALL_PARTNER_GATES_");
+const surprisePath = latestFileUnder(supplierRoot, "AUDIT_SURPRISES_NON_VENDABLES_");
+const publicSurfacePath = latestFileUnder(actionRoot, "AUDIT_SURFACE_PUBLIQUE_DROPSHIPPING_");
+
+const business = readJsonIfExists(businessPath);
+const categoryIntake = readJsonIfExists(categoryIntakePath);
+const photoDrop = readJsonIfExists(photoDropPath);
+const checkout = readJsonIfExists(checkoutPath);
+const partnerGates = readJsonIfExists(partnerGatesPath);
+const surprise = readJsonIfExists(surprisePath);
+const publicSurface = readJsonIfExists(publicSurfacePath);
+
+const actions = [
+  ...businessActions(business),
+  ...categoryImageActions(categoryIntake),
+  ...productPhotoActions(photoDrop),
+  ...guardrailActions({ checkout, partnerGates, surprise, publicSurface }),
+]
+  .sort((a, b) => a.urgency - b.urgency || a.lane.localeCompare(b.lane))
+  .map((action, index) => ({
+    rank: index + 1,
+    ...action,
+  }));
+
+const { dateKey, localLabel } = datePartsParis();
+const outputDir = path.join(actionRoot, `execution-du-jour-${dateKey}`);
+fs.mkdirSync(outputDir, { recursive: true });
+
+const summary = {
+  ok: true,
+  generatedAt: new Date().toISOString(),
+  generatedAtLocal: localLabel,
+  mode: "read_only_daily_execution_board",
+  actionCount: actions.length,
+  lanes: laneSummary(actions),
+  metrics: {
+    partnerActionCount: business?.actionCount ?? 0,
+    partnerDraftHoldCount: partnerGates?.draftHoldCount ?? 0,
+    partnerPublishedCount: partnerGates?.publishedPartnerCount ?? 0,
+    categoryImagesExpected: categoryIntake?.expectedImageCount ?? 0,
+    categoryImagesMissing: categoryIntake?.missingCount ?? 0,
+    categoryImagesReadyHumanReview: categoryIntake?.humanReviewReadyCount ?? 0,
+    productPhotosExpected: photoDrop?.expectedImageCount ?? 0,
+    productPhotosMissing: (photoDrop?.expectedImageCount ?? 0) - (photoDrop?.presentValidWebpCount ?? 0),
+    expectedPurchasableCount: checkout?.expectedPurchasableCount ?? 0,
+    legacyPurchasableCount: checkout?.legacyPurchasableCount ?? 0,
+    publicSurfaceVisibleDropshippingCount: publicSurface?.visibleDropshippingCount ?? 0,
+    publicSurfacePurchasableDropshippingCount: publicSurface?.purchasableDropshippingCount ?? 0,
+    publicSurfaceFailureCount: publicSurface?.failureCount ?? 0,
+    publicSurfaceWarningCount: publicSurface?.warningCount ?? 0,
+    checkoutFailureCount: checkout?.failureCount ?? 0,
+    surpriseFailureCount: surprise?.failureCount ?? 0,
+  },
+  actions,
+  outputDir,
+  outputDirRelative: relativePath(outputDir),
+  sources: {
+    businessPath: relativePath(businessPath),
+    categoryIntakePath: relativePath(categoryIntakePath),
+    photoDropPath: relativePath(photoDropPath),
+    checkoutPath: relativePath(checkoutPath),
+    partnerGatesPath: relativePath(partnerGatesPath),
+    surprisePath: relativePath(surprisePath),
+    publicSurfacePath: relativePath(publicSurfacePath),
+  },
+  safety: {
+    readOnly: true,
+    noPublicUploadsWrite: true,
+    noImageGeneration: true,
+    noImageDownload: true,
+    noCatalogWrite: true,
+    noPublication: true,
+    noPayment: true,
+    noSupplierOrder: true,
+    noMessageSent: true,
+    manualValidationRequired: true,
+  },
+};
+
+const jsonPath = path.join(outputDir, `EXECUTION_DU_JOUR_MAXI_${dateKey}.json`);
+const mdPath = path.join(outputDir, `EXECUTION_DU_JOUR_MAXI_${dateKey}.md`);
+const csvPath = path.join(outputDir, `EXECUTION_DU_JOUR_MAXI_${dateKey}.csv`);
+
+fs.writeFileSync(jsonPath, `${JSON.stringify(summary, null, 2)}\n`, "utf8");
+fs.writeFileSync(mdPath, markdown(summary), "utf8");
+fs.writeFileSync(csvPath, csv(summary), "utf8");
+
+console.log(
+  JSON.stringify(
+    {
+      ok: summary.ok,
+      mode: summary.mode,
+      actionCount: summary.actionCount,
+      metrics: summary.metrics,
+      files: {
+        jsonPath,
+        mdPath,
+        csvPath,
+      },
+      safety: summary.safety,
+    },
+    null,
+    2,
+  ),
+);

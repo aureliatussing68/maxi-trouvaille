@@ -1,0 +1,185 @@
+{
+  "generatedAt": "2026-06-12T08:18:39.469Z",
+  "mode": "read_only_audit_integration_next_proofs_workpack",
+  "status": "HOLD_NEXT_PROOFS_TO_FILL",
+  "proofCount": 5,
+  "readyProofCount": 0,
+  "holdProofCount": 5,
+  "structuralFailureCount": 0,
+  "businessBlockerCount": 35,
+  "warningCount": 0,
+  "sources": {
+    "workpackPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\prochaines-preuves-sourcing-integration-articles\\20260612\\PROCHAINES_PREUVES_SOURCING_INTEGRATION_20260612.json",
+    "fillableCsvPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\prochaines-preuves-sourcing-integration-articles\\20260612\\A_REMPLIR_PREUVES_SOURCING_INTEGRATION_20260612.csv"
+  },
+  "structuralFailures": [],
+  "warnings": [],
+  "proofs": [
+    {
+      "rank": 1,
+      "productId": "integration_articles_20260612_housse-protection-canape-animal",
+      "productName": "Housse protection canape animal",
+      "categoryId": "dropshipping-maison",
+      "proofZone": "Fournisseur / SKU",
+      "fieldKey": "exactProductUrl",
+      "fieldLabel": "URL produit exacte",
+      "rowPresent": true,
+      "status": "HOLD_TO_FILL",
+      "blockerCount": 7,
+      "blockers": [
+        "manual_value_missing_or_placeholder",
+        "evidence_note_missing_or_placeholder",
+        "capture_or_file_path_missing_or_placeholder",
+        "same_article_not_confirmed",
+        "mouss_validation_missing",
+        "final_decision_not_ready_review",
+        "exact_product_url_must_be_https"
+      ],
+      "manualStates": {
+        "manualValue": "missing_or_placeholder",
+        "evidenceNote": "missing_or_placeholder",
+        "captureOrFilePath": "missing_or_placeholder",
+        "checkedSameArticle": "missing",
+        "moussValidation": "missing",
+        "finalDecision": "hold_or_missing",
+        "valueFingerprint": ""
+      },
+      "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_housse-protection-canape-animal"
+    },
+    {
+      "rank": 2,
+      "productId": "integration_articles_20260612_housse-protection-canape-animal",
+      "productName": "Housse protection canape animal",
+      "categoryId": "dropshipping-maison",
+      "proofZone": "Fournisseur / SKU",
+      "fieldKey": "partnerName",
+      "fieldLabel": "Nom vendeur ou partenaire",
+      "rowPresent": true,
+      "status": "HOLD_TO_FILL",
+      "blockerCount": 7,
+      "blockers": [
+        "manual_value_missing_or_placeholder",
+        "evidence_note_missing_or_placeholder",
+        "capture_or_file_path_missing_or_placeholder",
+        "same_article_not_confirmed",
+        "mouss_validation_missing",
+        "final_decision_not_ready_review",
+        "partner_name_too_short"
+      ],
+      "manualStates": {
+        "manualValue": "missing_or_placeholder",
+        "evidenceNote": "missing_or_placeholder",
+        "captureOrFilePath": "missing_or_placeholder",
+        "checkedSameArticle": "missing",
+        "moussValidation": "missing",
+        "finalDecision": "hold_or_missing",
+        "valueFingerprint": ""
+      },
+      "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_housse-protection-canape-animal"
+    },
+    {
+      "rank": 3,
+      "productId": "integration_articles_20260612_housse-protection-canape-animal",
+      "productName": "Housse protection canape animal",
+      "categoryId": "dropshipping-maison",
+      "proofZone": "Fournisseur / SKU",
+      "fieldKey": "supplierSku",
+      "fieldLabel": "SKU/reference fournisseur",
+      "rowPresent": true,
+      "status": "HOLD_TO_FILL",
+      "blockerCount": 7,
+      "blockers": [
+        "manual_value_missing_or_placeholder",
+        "evidence_note_missing_or_placeholder",
+        "capture_or_file_path_missing_or_placeholder",
+        "same_article_not_confirmed",
+        "mouss_validation_missing",
+        "final_decision_not_ready_review",
+        "supplier_sku_not_stable"
+      ],
+      "manualStates": {
+        "manualValue": "missing_or_placeholder",
+        "evidenceNote": "missing_or_placeholder",
+        "captureOrFilePath": "missing_or_placeholder",
+        "checkedSameArticle": "missing",
+        "moussValidation": "missing",
+        "finalDecision": "hold_or_missing",
+        "valueFingerprint": ""
+      },
+      "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_housse-protection-canape-animal"
+    },
+    {
+      "rank": 4,
+      "productId": "integration_articles_20260612_housse-protection-canape-animal",
+      "productName": "Housse protection canape animal",
+      "categoryId": "dropshipping-maison",
+      "proofZone": "Fournisseur / SKU",
+      "fieldKey": "exactVariant",
+      "fieldLabel": "Variante exacte vendue",
+      "rowPresent": true,
+      "status": "HOLD_TO_FILL",
+      "blockerCount": 7,
+      "blockers": [
+        "manual_value_missing_or_placeholder",
+        "evidence_note_missing_or_placeholder",
+        "capture_or_file_path_missing_or_placeholder",
+        "same_article_not_confirmed",
+        "mouss_validation_missing",
+        "final_decision_not_ready_review",
+        "exact_variant_too_vague"
+      ],
+      "manualStates": {
+        "manualValue": "missing_or_placeholder",
+        "evidenceNote": "missing_or_placeholder",
+        "captureOrFilePath": "missing_or_placeholder",
+        "checkedSameArticle": "missing",
+        "moussValidation": "missing",
+        "finalDecision": "hold_or_missing",
+        "valueFingerprint": ""
+      },
+      "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_housse-protection-canape-animal"
+    },
+    {
+      "rank": 5,
+      "productId": "integration_articles_20260612_housse-protection-canape-animal",
+      "productName": "Housse protection canape animal",
+      "categoryId": "dropshipping-maison",
+      "proofZone": "Prix / stock / marge",
+      "fieldKey": "supplierPriceCents",
+      "fieldLabel": "Prix fournisseur reel en centimes",
+      "rowPresent": true,
+      "status": "HOLD_TO_FILL",
+      "blockerCount": 7,
+      "blockers": [
+        "manual_value_missing_or_placeholder",
+        "evidence_note_missing_or_placeholder",
+        "capture_or_file_path_missing_or_placeholder",
+        "same_article_not_confirmed",
+        "mouss_validation_missing",
+        "final_decision_not_ready_review",
+        "supplier_price_cents_invalid"
+      ],
+      "manualStates": {
+        "manualValue": "missing_or_placeholder",
+        "evidenceNote": "missing_or_placeholder",
+        "captureOrFilePath": "missing_or_placeholder",
+        "checkedSameArticle": "missing",
+        "moussValidation": "missing",
+        "finalDecision": "hold_or_missing",
+        "valueFingerprint": ""
+      },
+      "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal&zone=Prix+%2F+stock+%2F+marge#top-verification-integration_articles_20260612_housse-protection-canape-animal"
+    }
+  ],
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noExternalContact": true,
+    "noImageDownload": true,
+    "valuesRedactedInAudit": true,
+    "manualValidationRequired": true
+  }
+}

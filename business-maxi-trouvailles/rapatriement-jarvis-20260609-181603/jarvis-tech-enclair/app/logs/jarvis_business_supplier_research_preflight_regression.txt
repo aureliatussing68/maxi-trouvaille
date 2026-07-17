@@ -1,0 +1,30 @@
+Regression preflight recherche fournisseur - 2026-05-25 04:25:08
+
+Global: OK
+Message preflight: Preflight fournisseur bloque: 3 point(s), aucune recherche web/API lancee.
+
+Assertions:
+- json_written: OK
+- txt_written: OK
+- preflight_ok: OK
+- route_supplier_research_preflight: OK
+- execute_supplier_research_preflight: OK
+- executor_payload_ok: OK
+- auto_research_denied: OK
+- research_state_known: OK
+- inputs_known: OK
+- key_counts_known: OK
+- supplier_plan_count_known: OK
+- next_manual_steps: OK
+- no_web_or_api_started: OK
+- no_scraping_or_sourcing: OK
+- no_business_job_started: OK
+- no_import_order_payment_publication: OK
+- no_delete: OK
+- read_only_preflight: OK
+- no_secret_values: OK
+- no_content_exposed: OK
+- txt_mentions_preflight: OK
+- no_secret_like_value_in_reports: OK
+
+Regression lecture seule: le preflight fournisseur ne lance ni web, ni API, ni sourcing.

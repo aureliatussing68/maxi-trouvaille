@@ -1,0 +1,534 @@
+# Automation couche par couche - Maxi Trouvailles
+
+Objectif: rendre Maxi Trouvailles exploitable, propre et rentable sur une periode d'environ un mois, sans casser l'existant et sans action sensible automatique.
+
+Automation activee uniquement quand Mouss dit GO.
+
+Cadence prevue: toutes les 5 minutes, en couches testables.
+
+## Regles absolues
+
+- Ne jamais commander chez un fournisseur automatiquement.
+- Ne jamais payer, debiter, connecter un compte, publier en production ou deployer sans validation explicite.
+- Ne jamais supprimer definitivement sans sauvegarde et validation.
+- Ne jamais afficher AliExpress au client.
+- Ne jamais copier de secret/API/token dans un rapport.
+- Garder en `draft` ou `HOLD` toute fiche dont le fournisseur, le prix, le stock, le delai, la variante ou l'image exacte ne sont pas prouves.
+- Les colis surprises, palettes, mystery box et colis perdus restent non vendables avec badge `A venir`.
+
+## Priorite du mois
+
+1. Stabiliser le site et les pages utiles: accueil, boutique, categories, fiches produit, panier, paiement, FAQ, livraison, suivi colis, contact.
+2. Remplir progressivement les categories avec des produits phares a potentiel.
+3. Corriger les images produit pour qu'elles correspondent exactement a l'article vendu.
+4. Garder un pipeline dropshipping semi-automatique: validation humaine avant fournisseur, paiement, publication ou commande.
+5. Ameliorer SEO, confiance, mobile, performance et admin.
+6. Preparer les automations futures: prix, stock, suivi colis, alertes fournisseur.
+
+## Branches de chantier 5 minutes
+
+L'automatisation principale tourne toutes les 5 minutes et pilote quatre branches de travail. Une seule heartbeat peut etre attachee a ce fil, donc ces branches sont orchestrees dans le meme chef de chantier pour eviter les conflits de fichiers.
+
+Mode attendu: grosses couches coordonnees quand elles sont sures, sauvegardees, testees et reversibles. Une couche peut couvrir plusieurs branches si les fichiers ne se marchent pas dessus et si les validations restent lisibles. Si plusieurs axes touchent les memes fichiers, les regrouper dans une seule couche coherente plutot que lancer des changements concurrents.
+
+1. Branche Images exactes
+   - Priorite: retirer du public toute fiche dont l'image n'est pas prouvee exacte.
+   - Livrables: audits images client, HOLD automatique local, checklists photo, admin de revue.
+   - Commandes cles: `npm run catalog:hold-public-unverified-images`, `npm run catalog:test-public-image-contract`, `npm run catalog:public-image-action-board`, `npm run catalog:audit-public-image-action-board`, `npm run catalog:public-image-proof-pack`, `npm run catalog:audit-public-image-proof-pack`, `npm run catalog:audit-public-image-deposit-files`, `npm run catalog:public-image-deposit-session`, `npm run catalog:audit-public-image-deposit-session`, `npm run catalog:public-image-copy-gate`, `npm run catalog:audit-public-image-copy-gate`, `npm run catalog:public-image-operator-pack`, `npm run catalog:audit-public-image-operator-pack`, `npm run catalog:public-image-mouss-review-board`, `npm run catalog:audit-public-image-mouss-review-board`, `npm run catalog:public-image-text-proof-form`, `npm run catalog:audit-public-image-text-proof-form`, `npm run catalog:audit-public-image-pipeline-coherence`, `npm run catalog:audit-generated-artifact-leaks`, `npm run catalog:audit-images`, `npm run catalog:audit-sprint-image-gates`.
+
+2. Branche Catalogue rentable
+   - Priorite: remplir les categories avec des produits a potentiel en brouillon/HOLD tant que les preuves fournisseur manquent.
+   - Livrables: files produits, marges, preuves rapides, lots de validation.
+   - Commandes cles: `npm run catalog:prepare-draft-backlog`, `npm run catalog:fast-proof-now-export`, `npm run catalog:audit-fast-proof-now-export`, `npm run catalog:single-product-cockpit`, `npm run catalog:product-cockpits-batch`, `npm run catalog:product-field-kit`.
+
+3. Branche Confiance, mobile, checkout
+   - Priorite: garder un site clair, rapide et rassurant, sans paiement possible sur fiche douteuse.
+   - Livrables: tests checkout, pages confiance, SEO, verifications mobile/PC.
+   - Commandes cles: `npm run catalog:audit-public-dropshipping-surface`, `npm run catalog:audit-public-catalog-source-guards`, `npm run catalog:audit-checkout-eligibility`, `npm run catalog:audit-stripe-webhook-stock-guards`, `npm run catalog:test-stripe-webhook-stock-idempotence`, `npm run catalog:audit-dropshipping-order-admin-safety`, `npm run catalog:order-operations-board`, `npm run catalog:test-dropshipping-order-operations-fixtures`, `npm run catalog:audit-pilotage-order-operations`, `npm run catalog:dropshipping-focus-hold`, `npm run catalog:test-checkout-guards`, `npm run build`.
+
+4. Branche Integration articles
+   - Priorite: creer de la matiere premiere catalogue en brouillon/HOLD, categorie par categorie, avec produits dropshipping prometteurs.
+   - Role: ajouter/preparer des fiches, pendant que les autres branches corrigent, auditent, prouvent les images et verrouillent la vente.
+   - Criteres: livraison rapide France/Europe a verifier, suivi disponible, prix fournisseur, prix cible, marge estimee, stock, delai, fournisseur candidat, SKU si connu, image exacte a prouver, checklist validation Mouss.
+   - Garde-fou: jamais de publication, jamais d'image approximative comme preuve, jamais de commande fournisseur; toute fiche incompletement prouvee reste `draft`/`HOLD`.
+   - Commandes cles: `npm run catalog:prepare-draft-backlog`, `npm run catalog:integrate-article-candidates`, `npm run catalog:apply-article-candidates`, `npm run catalog:audit-integration-articles`, `npm run catalog:integration-sourcing-packets`, `npm run catalog:audit-integration-sourcing-packets`, `npm run catalog:integration-execution-board`, `npm run catalog:integration-sourcing-session`, `npm run catalog:audit-integration-sourcing-session`, `npm run catalog:integration-sourcing-priority-board`, `npm run catalog:audit-integration-sourcing-priority-board`, `npm run catalog:integration-top3-sourcing-sprint`, `npm run catalog:integration-next-proofs-workpack`, `npm run catalog:audit-integration-next-proofs-workpack`, `npm run catalog:audit-generated-artifact-leaks`, `npm run catalog:import-evidence-drafts`, `npm run catalog:partner-action-board`, `npm run catalog:partner-validation-packets`, `npm run catalog:all-partner-validation-queue`, `npm run catalog:fast-go-shortlist`.
+
+## Volume catalogue
+
+Objectif indicatif: 20 a 30 annonces propres par jour quand les preuves suivent.
+
+La qualite passe avant le volume. Une fiche incomplete vaut mieux en brouillon qu'une mauvaise fiche publiee.
+
+Les gros lots produits doivent passer par:
+
+```powershell
+npm run catalog:prepare-draft-backlog
+npm run catalog:integrate-article-candidates
+npm run catalog:apply-article-candidates
+npm run catalog:audit-integration-articles
+npm run catalog:integration-sourcing-packets
+npm run catalog:audit-integration-sourcing-packets
+npm run catalog:integration-execution-board
+npm run catalog:integration-sourcing-session
+npm run catalog:audit-integration-sourcing-session
+npm run catalog:integration-sourcing-priority-board
+npm run catalog:audit-integration-sourcing-priority-board
+npm run catalog:integration-top3-sourcing-sprint
+npm run catalog:integration-next-proofs-workpack
+npm run catalog:audit-integration-next-proofs-workpack
+npm run catalog:audit-generated-artifact-leaks
+npm run catalog:import-evidence-drafts
+npm run catalog:partner-action-board
+npm run catalog:partner-validation-packets
+npm run catalog:apply-validation-packets
+npm run catalog:all-partner-validation-queue
+npm run catalog:all-partner-validation-packets
+npm run catalog:audit-all-partner-validation-evidence
+npm run catalog:partner-evidence-workplan
+npm run catalog:fast-evidence-forms
+npm run catalog:audit-fast-evidence-forms
+npm run catalog:fast-proof-now-export
+npm run catalog:audit-fast-proof-now-export
+npm run catalog:single-product-cockpit
+npm run catalog:product-cockpits-batch
+npm run catalog:product-field-kit
+npm run catalog:audit-product-field-kit
+npm run catalog:hold-public-unverified-images
+npm run catalog:test-public-image-contract
+npm run catalog:public-image-action-board
+npm run catalog:audit-public-image-action-board
+npm run catalog:public-image-proof-pack
+npm run catalog:audit-public-image-proof-pack
+npm run catalog:audit-public-image-deposit-files
+npm run catalog:public-image-deposit-session
+npm run catalog:audit-public-image-deposit-session
+npm run catalog:public-image-copy-gate
+npm run catalog:audit-public-image-copy-gate
+npm run catalog:public-image-operator-pack
+npm run catalog:audit-public-image-operator-pack
+npm run catalog:public-image-mouss-review-board
+npm run catalog:audit-public-image-mouss-review-board
+npm run catalog:public-image-text-proof-form
+npm run catalog:audit-public-image-text-proof-form
+npm run catalog:audit-public-image-pipeline-coherence
+npm run catalog:audit-generated-artifact-leaks
+npm run catalog:fast-go-shortlist
+npm run catalog:sprint-image-proof-board
+npm run catalog:sprint-image-local-plan
+npm run catalog:audit-sprint-image-gates
+npm run catalog:sprint-image-replacement-manifest
+npm run catalog:audit-sprint-image-replacement-decisions
+npm run catalog:sprint-image-action-board
+npm run catalog:sprint-image-field-checklist
+npm run catalog:audit-sprint-image-local-files
+npm run catalog:audit-sprint-image-human-review
+npm run catalog:photo-sprint-du-jour
+npm run catalog:photo-drop-kit
+npm run catalog:visual-production-board
+npm run catalog:audit-visual-production-board
+npm run catalog:visual-deposit-session
+npm run catalog:business-next-actions
+npm run catalog:audit-public-dropshipping-surface
+npm run catalog:audit-public-catalog-source-guards
+npm run catalog:audit-public-visual-ambiguity
+npm run catalog:test-public-image-contract
+npm run catalog:public-image-action-board
+npm run catalog:audit-public-image-action-board
+npm run catalog:public-image-proof-pack
+npm run catalog:audit-public-image-proof-pack
+npm run catalog:audit-public-image-deposit-files
+npm run catalog:public-image-deposit-session
+npm run catalog:audit-public-image-deposit-session
+npm run catalog:public-image-copy-gate
+npm run catalog:audit-public-image-copy-gate
+npm run catalog:public-image-operator-pack
+npm run catalog:audit-public-image-operator-pack
+npm run catalog:public-image-mouss-review-board
+npm run catalog:audit-public-image-mouss-review-board
+npm run catalog:public-image-text-proof-form
+npm run catalog:audit-public-image-text-proof-form
+npm run catalog:audit-public-image-pipeline-coherence
+npm run catalog:audit-generated-artifact-leaks
+npm run catalog:audit-seo-hold-visibility
+npm run catalog:audit-admin-publication-gate
+npm run catalog:audit-admin-publication-ui-guard
+npm run catalog:audit-admin-api-guards
+npm run catalog:audit-admin-page-guards
+npm run catalog:audit-stripe-webhook-stock-guards
+npm run catalog:test-stripe-webhook-stock-idempotence
+npm run catalog:audit-dropshipping-order-admin-safety
+npm run catalog:order-operations-board
+npm run catalog:test-dropshipping-order-operations-fixtures
+npm run catalog:audit-pilotage-order-operations
+npm run catalog:audit-surprise-hold
+npm run catalog:audit-checkout-eligibility
+npm run catalog:dropshipping-focus-hold
+npm run catalog:apply-dropshipping-focus-hold
+npm run catalog:test-checkout-guards
+npm run catalog:audit-all-partner-gates
+npm run catalog:audit-category-images
+npm run catalog:category-image-uniqueness-sprint
+npm run catalog:category-image-drop-kit
+npm run catalog:category-image-promotion-plan
+npm run catalog:category-image-roadmap
+npm run catalog:category-image-next-batch-kit
+npm run catalog:category-image-intake-status
+npm run catalog:daily-execution-board
+npm run catalog:audit-daily-execution-board
+```
+
+La premiere commande prepare une file de brouillons directs, detecte les doublons probables et bloque l'ecriture dans `data/quick-products.json` tant que les preuves exactes ne sont pas remplies.
+
+La commande `catalog:integrate-article-candidates` prepare un lot d'articles dropshipping prometteurs pour la branche integration articles, en lecture seule par defaut. La commande `catalog:apply-article-candidates` les ajoute dans `data/quick-products.json` uniquement en `draft`/HOLD, avec image de categorie temporaire non prouvee, fournisseur/SKU/prix reel/stock/delai/droits manquants et validation Mouss obligatoire. Elle cree une sauvegarde automatique et ne publie jamais.
+
+La commande `catalog:audit-integration-articles` controle ces fiches d'integration en lecture seule: statut `draft`, stock a 0, images locales de categorie uniquement, aucune image distante, fournisseur/SKU/prix reel/stock fournisseur/marge validee absents tant que les preuves manquent, statuts image/source en HOLD, puis produit un tableau JSON/Markdown/CSV de sourcing manuel priorise.
+
+La commande `catalog:integration-sourcing-packets` transforme le top 10 de cet audit en packets terrain: un Markdown par produit, un CSV central a remplir, un dossier de depot WebP exact par fiche et les criteres de rejet. Elle reste en lecture seule cote catalogue, ne cherche pas automatiquement de fournisseur, ne telecharge rien et ne publie jamais.
+
+La commande `catalog:audit-integration-sourcing-packets` relit les packets, le CSV central rempli et les dossiers WebP exacts. Elle garde le statut `HOLD_MISSING_EVIDENCE` tant que fournisseur, SKU, prix reel, stock, delai France/Europe, suivi, droits images, validation Mouss ou WebP valides manquent; si tout est complet, elle ouvre seulement un statut `READY_FOR_HUMAN_REVIEW_HOLD`, sans publication automatique.
+
+La commande `catalog:integration-execution-board` fusionne les candidats integration, l'audit HOLD, les packets sourcing et l'audit intake dans un tableau execution JSON/Markdown/CSV. Elle donne les lanes, categories, zones de preuves, dossiers WebP, top actions et statut global, sans lien fournisseur externe ni ecriture catalogue.
+
+La commande `catalog:integration-sourcing-session` transforme les packets prioritaires en session terrain: formulaires Markdown/JSON par produit, CSV des champs de preuve a remplir, CSV des images WebP exactes attendues, seuil de cout fournisseur max cible, liens admin internes par zone et checklist de rejet. Elle reste en lecture seule cote catalogue, ne cherche pas automatiquement de fournisseur, ne telecharge aucune image, ne contacte personne et garde tout en `HOLD_SOURCING_SESSION`.
+
+La commande `catalog:audit-integration-sourcing-session` controle cette session terrain avant remplissage: alignement avec les derniers packets, audit intake et board execution, compteurs produits/preuves/images, CSV admin, formulaires Markdown/JSON, liens admin internes, dossiers WebP exacts et absence de fuite marketplace/secret. Elle reste en lecture seule et ne debloque rien: statut OK seulement si la session HOLD est synchronisee.
+
+La commande `catalog:integration-sourcing-priority-board` transforme la session sourcing active en tableau de pilotage compact pour les 10 packets: cout fournisseur max cible, zones de preuves prioritaires, prochains champs a remplir, dossiers WebP exacts et action immediate par produit. Elle n'exporte pas de valeur fournisseur externe, ne modifie pas le catalogue, ne telecharge rien et garde tout en HOLD.
+
+La commande `catalog:audit-integration-sourcing-priority-board` controle ce tableau de pilotage avant usage terrain: alignement avec la session sourcing et son audit, compteurs produits/preuves/WebP, liens admin internes, dossiers de depot WebP autorises, garde-fous HOLD et absence d'URL marketplace ou valeur sensible dans les sorties JSON/Markdown/CSV.
+
+La commande `catalog:integration-top3-sourcing-sprint` extrait les 3 premiers produits du board pilotage sourcing garde OK, avec preuves prioritaires, WebP attendus, dossier de depot et action sprint. Elle sert a concentrer le remplissage manuel sans ecriture catalogue, sans telechargement image, sans publication et sans exposer de valeur fournisseur externe.
+
+La commande `catalog:integration-next-proofs-workpack` extrait les 5 prochains champs HOLD de la session sourcing terrain et genere un pack local JSON/Markdown/CSV a remplir manuellement: une fiche par preuve, un CSV terrain remplissable, les formats attendus, les motifs de rejet et les liens admin internes. Elle ne modifie pas le catalogue, ne cherche pas de fournisseur, ne telecharge rien et garde tout en HOLD.
+
+La commande `catalog:audit-integration-next-proofs-workpack` relit ce pack et le CSV `A_REMPLIR_PREUVES_SOURCING_INTEGRATION_*`. Elle refuse les valeurs vides, placeholders, captures non locales, absence de confirmation meme article, absence de validation Mouss, decision finale non prete, URLs de recherche, marketplaces interdites, prix fournisseur invalide ou superieur au cout cible. Les valeurs fournisseur ne sont pas recopiees dans les rapports: seuls les etats, blocages et empreintes courtes sont exportes. Elle reste en lecture seule, ne publie rien et garde le statut en HOLD tant que tout n'est pas pret pour revue humaine.
+
+La commande `catalog:audit-generated-artifact-leaks` scanne les artefacts generes du jour pour chercher les vraies fuites: URLs externes reelles, marketplaces interdites et valeurs de cles sensibles. Elle couvre aussi l'audit execution du jour, l'audit SEO HOLD, les audits gardes admin API/pages, les artefacts paiement/stock/operations commandes dropshipping et les artefacts visuels exacts du sprint images/categories/photos. Ces artefacts visuels ne doivent exporter que des marqueurs rediges pour les sources distantes; les compteurs de risque restent visibles, pas les URLs ni les domaines fournisseur. Elle exclut ses propres sorties pour eviter les boucles d'echantillons d'alertes precedentes. Elle ignore volontairement les noms de champs vides a remplir comme `exactProductUrl` ou les compteurs `supplierUrlMissingHold`, afin de ne pas bloquer les templates de preuve. Elle reste en lecture seule et produit un rapport JSON/Markdown/CSV.
+
+La commande `catalog:import-evidence-drafts` controle le template de preuves en dry-run. Elle n'ecrit rien par defaut. Le mode `--apply` est autorise uniquement quand toutes les preuves sont remplies; il cree alors une sauvegarde automatique et ajoute les produits en `draft`/HOLD, jamais en publication.
+
+La troisieme commande produit le tableau d'action des brouillons partenaires deja integres: file prioritaire, bloquants, preuves manquantes, prochaine action par produit.
+
+La quatrieme commande genere des packs de validation fournisseur pour les produits prioritaires du tableau d'action. Chaque pack liste les URLs, images, prix, blocages et champs de preuve a remplir avant de lever un HOLD.
+
+La cinquieme commande controle les packs remplis en dry-run. Elle n'ecrit rien par defaut. Le mode `--apply` est autorise uniquement si toutes les preuves sont remplies; il cree une sauvegarde et met a jour les fiches existantes en `draft`/HOLD, jamais en publication.
+
+La commande `catalog:all-partner-validation-queue` produit une file de validation toutes sources, incluant les produits partenaires statiques dans `src/lib/catalog.ts` et les brouillons de `data/quick-products.json`.
+
+La commande `catalog:all-partner-validation-packets` transforme le top de cette file globale en packs de validation fournisseur detailles, avec un formulaire de preuves par produit. Elle n'ecrit pas dans le catalogue.
+
+La commande `catalog:audit-all-partner-validation-evidence` controle les preuves remplies dans ces packs globaux et produit un statut `HOLD_MISSING_EVIDENCE`, `ready_review_hold` ou `business_action_ready_hold`. Elle reste en lecture seule et ne publie jamais.
+
+La commande `catalog:partner-evidence-workplan` transforme cet audit en plan de travail priorise: decisions statiques, validations rapides et recontroles complets, avec guides courts par produit. Elle reste en lecture seule.
+
+La commande `catalog:fast-evidence-forms` genere des formulaires courts pour les validations rapides du workplan, pre-remplis avec les donnees deja connues mais sans inventer les preuves manquantes.
+
+La commande `catalog:audit-fast-evidence-forms` controle les formulaires rapides remplis en dry-run strict. Elle refuse les preuves incompletes et garde publication, paiement et commande fournisseur bloques.
+
+La commande `catalog:fast-proof-now-export` extrait les preuves rapides a remplir tout de suite dans un format local JSON/Markdown/CSV, sans modifier le catalogue.
+
+La commande `catalog:audit-fast-proof-now-export` relit cet export et controle les champs remplis avant revue humaine. Elle garde tout en HOLD si une preuve manque, si une valeur ressemble a un placeholder, si la validation Mouss manque ou si la decision finale n'est pas `READY_REVIEW`.
+
+La commande `catalog:single-product-cockpit` prend le meilleur candidat du sprint preuve/image et genere un cockpit de validation produit: recap business, champs de preuve a remplir, images WebP exactes attendues, bloquants et commandes a relancer. Elle reste en lecture seule, ne telecharge aucune image, ne modifie pas le catalogue et garde publication, paiement et commande fournisseur bloques.
+
+La commande `catalog:product-cockpits-batch` genere les cockpits des meilleurs candidats du sprint en parallele local: un dossier par produit, un template de preuves par fiche et un recap batch. Elle reste en lecture seule, sans image publique, sans publication, sans paiement ni commande fournisseur.
+
+La commande `catalog:product-field-kit` transforme les cockpits actifs en kit terrain: feuille Markdown, CSV preuves, CSV images et JSON global a remplir. Elle sert a remplir les preuves fournisseur et les depots WebP exacts sans toucher au catalogue.
+
+La commande `catalog:audit-product-field-kit` controle le JSON global du kit terrain rempli, les preuves obligatoires, la decision `READY_REVIEW`, la validation Mouss et les fichiers WebP exacts deposes. Elle reste en lecture seule, garde publication/paiement/commande fournisseur bloques et produit un statut HOLD ou revue humaine HOLD.
+
+La page admin `Preuves partenaires` permet de rechercher les fiches HOLD par nom, slug, categorie, statut ou zone de preuve (`Images / droits`, `Fournisseur / SKU`, `Prix / stock / marge`, `Livraison / suivi`, `Validation Mouss`), puis d'exporter le resultat filtre en CSV terrain sans modifier le catalogue. Les filtres rapides affichent aussi un compteur par zone en respectant la recherche et le statut actifs. Elle affiche maintenant un `Sprint zone active` qui transforme le filtre de preuve courant en 3 fiches prioritaires, avec action specialisee par zone, compteur de preuves zone, checklist session manuelle par fiche, export CSV dedie au sprint avec `action_zone`, `checklist_session`, colonnes de suivi `session_*` et `lien_sprint`, puis lien `Traiter cette preuve` conservant `status=hold`, `q` et `zone` jusqu'a l'ancre du top verification. Elle affiche aussi un `Lot terrain du jour` avec les 3 premieres fiches HOLD a verrouiller, chacune avec etat visuel priorise (`Image a prouver`, `Marge a verrouiller` ou `Delai a prouver`), prochaine action terrain, compteur `Preuves a remplir`, zones de preuves manquantes, signaux image/marge/livraison, checklist compacte, lien `Fiche terrain` filtre en `status=hold` et export CSV dedie au lot du jour. Ce CSV conserve `priorite_visuelle`, `etat_visuel`, `action_terrain`, `preuves_a_remplir` et `zones_preuves` pour traiter le lot dans le bon ordre hors interface. Le `Top produits a verifier maintenant` permet ensuite d'attaquer en premier les fiches avec signaux image, marge, livraison et potentiel categorie, avec un export CSV court dedie au top prioritaire, une mini fiche terrain par produit et un mode impression limite au top verification.
+
+La page admin `Pilotage` affiche un recap `HOLD du jour`: nombre de fiches partenaires a prouver, top verification pret, CSV court pret, impression prete, progression zones preuves, zone prioritaire du jour, sprint preuves terrain et prochain produit a verifier. Elle affiche aussi un bloc `Depot photo exact` relie au dernier manifeste `MANIFEST_DEPOT_PHOTOS_SPRINT_*`: produits photo, WebP attendus, WebP valides, fichiers invalides/en trop, chemin du depot local, noms WebP attendus, liens `Photos produits`/`Checklist photo` et export `maxi-depot-photo-exact.csv` avec `fichier_attendu` et `chemin_depot`. Ce bloc lit aussi le dernier `ORDRE_TRAVAIL_PHOTOS_MANQUANTES_*`, affiche l'ordre court des photos exactes a produire, le statut `HOLD PHOTOS MANQUANTES`, le chemin local et l'export `maxi-ordre-travail-photos-manquantes.csv` pour bosser sans chercher dans les dossiers. Ce bloc affiche une `Alerte post-depot` stricte: `Depot incomplet` si des WebP exacts manquent, `Depot a corriger` si le depot contient des fichiers invalides/en trop, ou `Depot complet - revue humaine requise` seulement quand tous les WebP sont presents. Meme en depot complet, l'etat reste limite a une revue humaine: relancer `npm run catalog:audit-photo-checklist` puis `npm run catalog:audit-sprint-image-human-review` avant toute copie publique. La page affiche aussi un bloc `Production visuels exacts` relie au dernier `VISUELS_EXACTS_A_PRODUIRE_*`: total des visuels a produire, P0 photos produits, P1/P2 categories, statut HOLD, export `maxi-production-visuels-exacts.csv` et cartes de priorites. Elle affiche aussi un bloc `Depot images categories` relie au dernier `SUIVI_DEPOTS_IMAGES_CATEGORIES_*`: lots P1/P2, WebP attendus, WebP valides, WebP manquants, fichiers invalides, alerte `HOLD_IMAGES_CATEGORIES_MANQUANTES`, chemins de depot, cartes categories et export `maxi-suivi-depots-images-categories.csv`. Aucune copie publique dans `public/uploads/category-images` n'est faite depuis ces blocs: ils servent seulement a piloter le depot et la revue humaine. La progression zones preuves repartit les blocages terrain entre `Images`, `Fournisseur`, `Marge`, `Livraison` et `Validation`, avec compteur, part du volume et lien direct vers `Preuves partenaires` filtre en `status=hold&zone=...#top-verification`. La zone prioritaire est calculee depuis les blocages partenaires du tableau d'execution et ouvre `Preuves partenaires` avec `status=hold&zone=...#top-verification` pour attaquer directement `Images / droits`, `Fournisseur / SKU`, `Prix / stock / marge`, `Livraison / suivi` ou `Validation Mouss`. Le bloc `Sprint preuves terrain` remonte 3 fiches a traiter maintenant, leurs zones de checklist session et un lien `Ouvrir sprint` filtre par `status=hold`, `q`, `zone` et ancre top verification. Le bouton `Fiche terrain` ouvre la page preuves avec `status=hold`, un filtre `q` sur le produit cible et une ancre de carte top verification. Le bouton `Exporter recap CSV` telecharge un recap court `maxi-pilotage-hold-du-jour.csv` avec `type_ligne`, `priorite`, `libelle`, `valeur`, `details`, `statut` et `lien_admin`, couvrant resume, zones, sprint et prochain produit via liens admin internes uniquement. Elle reste une vue de pilotage, sans publication, paiement ni commande fournisseur.
+
+La commande `catalog:hold-public-unverified-images` controle les produits visibles cote client et repere les fiches publiees avec image generee, placeholder, image Unsplash generique ou titre a verifier. La commande `catalog:apply-public-unverified-image-hold` repasse ces fiches en brouillon/HOLD local avec sauvegarde automatique, sans supprimer de produit.
+
+Le contrat image publique exige maintenant une photo produit locale exacte: les fiches dropshipping vendables sont bloquees si l'image est distante, issue d'un CDN fournisseur, d'Unsplash, d'une image categorie, d'un dossier genere, d'un placeholder, hors depot produit exact ou non WebP. Les rayons peuvent garder leurs images categorie, mais une fiche produit client doit pointer vers `public/uploads/partner-products` ou `public/uploads/quick-products` avec preuve et validation humaine.
+
+La commande `catalog:test-public-image-contract` verifie ce contrat avec des produits fictifs en memoire: image partenaire WebP locale OK, image quick-product WebP locale OK, mais image distante, CDN fournisseur, image categorie, image generee, placeholder, non-WebP ou galerie mixte restent bloques en HOLD. Elle exporte uniquement des libelles rediges, sans URL distante ni fournisseur.
+
+La commande `catalog:public-image-action-board` transforme les bloqueurs image de la surface publique dropshipping en board terrain redige: WebP cible dans `public/uploads/partner-products`, chemin de preuve, CSV de priorisation et fiches terrain pour les premiers produits a traiter. Elle reste en lecture seule: aucun telechargement image, aucune ecriture catalogue, aucune publication, aucun paiement et aucune commande fournisseur. La commande `catalog:audit-public-image-action-board` verifie ensuite les chemins WebP cibles, les garde-fous et l'absence de fuite URL/fournisseur dans les artefacts generes.
+
+La commande `catalog:public-image-proof-pack` prepare les dossiers manuels et checklists des 12 premieres priorites du board images publiques: dossier `business-maxi-trouvailles/preuves-images-publiques/<slug>`, sous-dossier `depot-manuel`, marqueur du WebP attendu, CSV et manifeste. Elle ne cree aucun fichier image, ne copie rien dans `public/uploads`, preserve les checklists deja remplies et garde toutes les fiches en HOLD. La commande `catalog:audit-public-image-proof-pack` controle ensuite que les dossiers/checklists existent, que les cibles restent dans `public/uploads/partner-products` et qu'aucune URL brute sensible n'est sortie.
+
+La commande `catalog:audit-public-image-deposit-files` controle les fichiers réellement deposes dans les sous-dossiers `depot-manuel`: nom WebP attendu, signature WebP valide, taille minimale, absence d'image en trop, checklist cochee et preuves texte obligatoires remplies. L'absence de WebP attendu reste un etat HOLD normal, pas un echec technique. Une fiche ne passe en `READY_COPY_AFTER_MOUSS` que si le WebP attendu est valide, que la checklist est cochee, que les champs source image exacte, droits image, meme article, variante, validation Mouss et decision de copie sont complets, puis la copie publique reste interdite sans validation humaine.
+
+La commande `catalog:public-image-deposit-session` transforme l'audit de depot WebP en session terrain: ordre des dossiers a ouvrir, WebP attendu, checklist associee, cible publique future et actions apres depot. La commande `catalog:audit-public-image-deposit-session` verifie que cette session ne reference que les dossiers de preuve autorises et les chemins publics `partner-products`. La session aide a travailler vite, mais ne copie rien, ne cree pas d'image et ne donne jamais un GO publication sans validation Mouss.
+
+La commande `catalog:public-image-copy-gate` cree un manifeste dry-run depuis l'audit de depot: une ligne reste `HOLD` tant que le WebP exact, la checklist et la validation Mouss ne sont pas reunis. Meme quand une ligne devient candidate, elle reste `PENDING_MOUSS_VALIDATION`: la commande ne copie rien dans `public/uploads`, ne modifie pas le catalogue et ne publie rien. La commande `catalog:audit-public-image-copy-gate` verifie les flags dry-run, les chemins source sous `preuves-images-publiques`, les cibles `partner-products` et l'absence de marqueurs externes sensibles.
+
+La commande `catalog:public-image-operator-pack` transforme la session depot et le gate copie en pack operateur local JSON/Markdown/CSV: ordre des produits, nom WebP exact attendu, dossier depot, checklist, cible publique future et statut gate. Elle sert a deposer les bonnes images sans confondre les articles, mais ne telecharge rien, ne cree aucune image et ne copie rien. La commande `catalog:audit-public-image-operator-pack` verifie que le pack reste aligne avec les preuves locales, les cibles `partner-products`, les statuts HOLD/revue Mouss et les garde-fous lecture seule.
+
+La commande `catalog:public-image-mouss-review-board` transforme les 12 checklists images publiques en tableau court pour Mouss: produit, WebP attendu, dossier depot, checklist, champs texte encore a remplir et action suivante. Elle n'exporte pas les valeurs source/fournisseur elles-memes, uniquement les statuts et champs manquants. La commande `catalog:audit-public-image-mouss-review-board` controle l'alignement avec le pack preuves, les chemins autorises, les garde-fous lecture seule et l'absence de valeur sensible dans les artefacts.
+
+La commande `catalog:public-image-text-proof-form` transforme le board Mouss en formulaire terrain JSON/Markdown/CSV: une ligne par champ texte manquant, avec format attendu, motif de rejet, checklist cible et placeholder a remplir dans la checklist locale. Elle n'exporte aucune valeur source/fournisseur et ne modifie pas les checklists. La commande `catalog:audit-public-image-text-proof-form` controle les placeholders, chemins autorises, compteurs de lignes et absence de marqueur externe avant d'utiliser le formulaire.
+
+La commande `catalog:audit-public-image-pipeline-coherence` relit pack preuves, audit depot, pack operateur, board Mouss, formulaire preuves texte et gate copie pour confirmer que la meme file images publiques reste alignee de bout en bout. Elle reste en lecture seule, verifie les 12 fiches, les 72 lignes de formulaire, les cibles WebP `partner-products`, `copyApplied=false`, l'absence de valeurs source/fournisseur exportees, et ne fait aucune publication, paiement ou commande.
+
+La commande `catalog:audit-quick-product-hold` verifie que l'ajout rapide admin cree des fiches en brouillon/HOLD par defaut, que le nettoyage des fiches rapides sans statut ne retombe pas en `published`, et qu'aucune fiche rapide locale n'est deja publiee sans validation. Elle reste en lecture seule.
+
+La commande `catalog:fast-go-shortlist` classe les formulaires rapides par potentiel, marge, stock, risque et effort de preuve. Elle sort les 3 meilleurs candidats a traiter en sprint de preuves, sans modifier le catalogue.
+
+La commande `catalog:sprint-image-proof-board` controle les images des produits en sprint: exactitude visuelle, URLs fournisseur/CDN, besoin de rapatriement local et droits images. Elle reste en lecture seule.
+
+La commande `catalog:sprint-image-local-plan` prepare les chemins locaux WebP, l'ordre galerie, les alt SEO et le manifeste de migration image pour les produits en sprint. Elle ne telecharge rien et ne modifie pas le catalogue.
+
+La commande `catalog:audit-sprint-image-gates` bloque la revue humaine si les produits en sprint pointent encore vers un domaine image fournisseur ou si les WebP locaux cibles sont absents. Elle reste en lecture seule.
+
+La commande `catalog:sprint-image-replacement-manifest` prepare les decisions autorisees pour remplacer les images fournisseur: photo propre, permission fournisseur, image licencee exacte, remplacement produit ou maintien HOLD. Elle interdit les images generees pour la galerie produit exacte.
+
+La commande `catalog:audit-sprint-image-replacement-decisions` controle le manifeste rempli et refuse les modes invalides, les images generees en galerie produit et tout passage en revue sans fichier local, droits images, variante exacte et validation Mouss.
+
+La commande `catalog:sprint-image-action-board` transforme les blocages images du sprint en priorites business courtes: photo propre, demande de droits, remplacement produit ou maintien HOLD.
+
+La commande `catalog:sprint-image-field-checklist` genere une checklist terrain a imprimer/remplir pour photographier ou verifier les produits du sprint sans jamais debloquer une image approximative.
+
+La commande `catalog:audit-sprint-image-local-files` verifie que les WebP locaux cibles existent, restent dans `public/uploads/partner-products`, ont une signature WebP valide et gardent les fiches en HOLD tant que les fichiers manquent.
+
+La commande `catalog:audit-sprint-image-human-review` combine les audits fichiers locaux et decisions images. Elle ouvre uniquement une revue humaine HOLD si les WebP sont valides, les droits/variantes sont prouves et Mouss a valide; elle ne publie jamais.
+
+La commande `catalog:photo-sprint-du-jour` extrait les produits `PHOTO_OR_RIGHTS_FIRST` du sprint et liste les WebP prioritaires a produire, tout en excluant les produits HOLD/remplacement. Elle reste en lecture seule.
+
+La commande `catalog:photo-drop-kit` prepare les dossiers de depot, les README et un `ORDRE_TRAVAIL_PHOTOS_MANQUANTES_*` Markdown/CSV/JSON pour les WebP exacts du sprint photo du jour. Cet ordre de travail liste uniquement les photos absentes ou invalides, avec nom exact, role image, dossier depot et action terrain. Elle ne copie rien dans `public/uploads`, ne genere aucune image et garde les fiches en HOLD.
+
+La commande `catalog:visual-production-board` consolide les photos produits exactes et les images categories dropshipping dans un ordre de travail unique `VISUELS_EXACTS_A_PRODUIRE_*` en JSON/Markdown/CSV. Elle priorise les photos produits en P0, les categories P1/P2 ensuite, et garde copie publique, catalogue, publication, paiement et commande fournisseur bloques.
+
+La commande `catalog:audit-visual-production-board` controle que ce tableau unique reste aligne sur `ORDRE_TRAVAIL_PHOTOS_MANQUANTES_*` et `SUIVI_DEPOTS_IMAGES_CATEGORIES_*`: priorites continues, compteurs exacts, fichiers WebP attendus presents dans les sources, statut HOLD, garde-fous lecture seule et absence de libelles fournisseur interdits dans le board.
+
+La commande `catalog:visual-deposit-session` transforme le tableau unique et son audit en session terrain JSON/Markdown/CSV: groupes par produit/categorie, ordre P0/P1/P2, chemins exacts, checklist par fichier et commandes apres depot. Elle garde le statut en HOLD si l'audit du board n'est pas OK et ne copie rien dans `public/uploads`.
+
+La page admin `Pilotage` remonte aussi le dernier `AUDIT_VISUELS_EXACTS_A_PRODUIRE_*`: statut de coherence, nombre d'echecs, compteurs photos produits/categories, chemin du rapport et export `maxi-audit-visuels-exacts.csv`. Si l'audit manque ou detecte un echec, le bloc reste en HOLD et demande de relancer `catalog:audit-visual-production-board` avant de travailler les depots. Elle remonte maintenant la derniere session `SESSION_DEPOT_VISUELS_EXACTS_*`: groupes P0/P1/P2, fichiers attendus, dossiers exacts, statut HOLD et export `maxi-session-depot-visuels-exacts.csv`.
+
+La page admin `Pilotage` remonte aussi le dernier `AUDIT_SESSION_SOURCING_INTEGRATION_*` dans le bloc `Session sourcing terrain`: statut `OK_SESSION_SOURCING_HOLD_SYNC` ou HOLD a corriger, echecs/alertes, compteurs CSV preuves/images, formulaires JSON/Markdown, chemin du rapport et export `maxi-audit-session-sourcing-integration.csv`. Elle affiche maintenant un mini tableau `Prochaines preuves a remplir` calcule depuis les champs HOLD de la session, avec 5 champs terrain prioritaires, format attendu, motif de rejet, lien admin direct et export `maxi-prochaines-preuves-sourcing-integration.csv`. Elle remonte aussi le dernier `AUDIT_PROCHAINES_PREUVES_SOURCING_INTEGRATION_*`: statut `HOLD_NEXT_PROOFS_TO_FILL`, compteurs preuves controlees/revue/HOLD/blocages/structure, top blocages metier, et export redige `maxi-audit-prochaines-preuves-sourcing-integration.csv` sans recopier les valeurs fournisseur brutes. Ce bloc reste un controle et guide de coherence: il ne remplit aucune preuve, ne contacte aucun fournisseur et ne debloque aucune publication.
+
+La page admin `Preuves sourcing` ouvre un atelier lecture seule dedie aux prochaines preuves sourcing: ordre de traitement, etats d'audit rediges, formats attendus, motifs de rejet, depot image exacte, exports CSV rediges/template et lien retour `Pilotage`. Elle affiche aussi un `Plan d action immediat` deduit des blocages d'audit, avec export `maxi-plan-action-preuves-sourcing.csv` et prochaine action par carte preuve. Elle ne rend pas les valeurs fournisseur brutes, ne modifie pas le catalogue et garde le statut HOLD jusqu'aux audits OK et validation humaine Mouss.
+
+La page admin `Visuels exacts` ouvre un atelier dedie a la derniere session `SESSION_DEPOT_VISUELS_EXACTS_*`: compteurs WebP, groupes de depot, fichiers attendus, cadrage requis, chemins staging, controles apres depot, export `maxi-atelier-visuels-exacts.csv` et liens vers `Photos produits`, `Images categories` et `Pilotage`. Elle reste en lecture seule, ne copie rien dans `public/uploads` et conserve le statut HOLD jusqu'a preuve image exacte et validation humaine.
+
+La commande `catalog:business-next-actions` rassemble les decisions statiques, formulaires rapides, recontroles complets, bloquants et commandes a relancer dans une vue business unique "quoi faire maintenant".
+
+La commande `catalog:audit-public-dropshipping-surface` controle la surface client dropshipping: aucun AliExpress, aucun lien fournisseur, aucun prix fournisseur, aucune source fournisseur, aucune image non prouvee sur les produits visibles. Le mot `fournisseur` dans une source publique est maintenant un echec bloquant: cote client, on parle uniquement de produit partenaire, partenaire logistique, paiement Maxi Trouvaille, suivi colis et service client Maxi Trouvaille. Elle reste en lecture seule et bloque le pilotage si une fuite client apparait.
+
+La commande `catalog:audit-public-visual-ambiguity` controle que les composants publics ne reintroduisent pas de photos stock/Unsplash, de CDN fournisseur ou de visuels pouvant etre confondus avec un produit exact. Elle verifie aussi que le hero reste en contexte validation/logistique, que `ProductCard` conserve son rendu HOLD neutre sans image ni lien produit pour les fiches non publiques, et que la page detail produit masque la galerie d'une fiche HOLD meme en `adminPreview`.
+
+Le filtre public `isPublicProduct` applique aussi une readiness dropshipping stricte avant d'afficher une fiche publiee: lien fournisseur exact interne, SKU, prix fournisseur, prix de vente, marge, stock, delai sans mention a verifier, image exacte verifiee, droits image prets, prix source pret, delai source pret et validation humaine sans signal HOLD. `isProductPurchasable` depend de ce meme filtre; une fiche marquee `published` mais non prete reste invisible et non achetable. L'audit `catalog:audit-public-dropshipping-surface` verifie aussi que ce verrou reste present.
+
+La commande `catalog:audit-seo-hold-visibility` controle que les produits brouillons/HOLD ne partent pas dans le SEO: sitemap base sur produits publics, route produit en lookup public, `adminPreview` en noindex et `generateStaticParams` limite aux produits publiables. Elle applique maintenant le meme verrou readiness dropshipping que `isPublicProduct`, accepte aussi le helper serveur plus strict `isServerPublicProduct` quand il ajoute le controle de fichiers image WebP exacts, compte les slugs publies mais blindes hors route publique, liste les blockers readiness dans le CSV et verifie que le lookup public par slug repasse toujours par le filtre public. Elle reste en lecture seule.
+
+La commande `catalog:audit-admin-publication-gate` controle que la route admin refuse la publication d'un produit dropshipping si les preuves fournisseur, SKU, prix, marge, stock, delai, droits image, statut source, gate validation et images exactes ne sont pas completes. La route admin reutilise le meme helper `getDropshippingPublicBlockers` que la surface publique pour eviter deux niveaux de validation differents. Elle reste en lecture seule et ne publie rien.
+
+La commande `catalog:audit-admin-publication-ui-guard` controle que le formulaire admin rend cette garde visible: checklist preuves, bouton publication bloque si le statut `published` est choisi avec preuves manquantes, affichage des blocages serveur, raccourcis vers preuves/pilotage/photos et recherche dans l'atelier preuves partenaires. Elle reste en lecture seule.
+
+La commande `catalog:audit-admin-api-guards` controle toutes les routes `src/app/api/admin/**/route.ts`: chaque methode HTTP doit verifier `ADMIN_MODE=true` et retourner le helper masque `adminApiUnavailable()` avant toute lecture de payload, appel OpenAI, lecture/ecriture catalogue, mutation commande, avis ou dropshipping. Elle reste en lecture seule et produit un rapport JSON/Markdown.
+
+La commande `catalog:audit-admin-page-guards` controle toutes les pages `src/app/admin/**/page.tsx`: chaque page doit verifier `ADMIN_MODE=true` avant rendu de formulaire admin, lecture de brouillons, commandes, messages, avis ou fichiers de pilotage. Elle reste en lecture seule et produit un rapport JSON/Markdown.
+
+La commande `catalog:audit-stripe-webhook-stock-guards` controle le chemin serveur paiement/stock: webhook Stripe signe avec body brut, traitement limite a `checkout.session.completed`, appel serveur `markDropshippingOrderPaid`, decrement local idempotent avec `stockDecrementedAt`/statuts `done` ou `skipped`, skip des anciennes commandes deja payees sans trace stock, echec retryable en `failed`, et absence de decrement stock depuis la page succes client. Elle reste en lecture seule, ne contacte pas Stripe, ne paie rien, ne commande aucun fournisseur et produit un rapport JSON/Markdown.
+
+La commande `catalog:test-stripe-webhook-stock-idempotence` demarre un serveur Next local temporaire avec des secrets Stripe factices, injecte une commande et un produit fixture dans les fichiers data, envoie deux webhooks signes localement, verifie que le stock baisse une seule fois, puis restaure exactement `data/quick-products.json` et `data/dropshipping-orders.json`. Elle ne contacte pas Stripe, ne cree aucun paiement, ne commande aucun fournisseur, ne publie rien et produit un rapport JSON/Markdown.
+
+La commande `catalog:audit-dropshipping-order-admin-safety` controle que le panneau admin commandes dropshipping garde les actions fournisseur fermees tant que la commande n'est pas `paid` et que le stock webhook n'est pas `done`. Elle verifie maintenant que l'admin et le board operations utilisent le helper partage `src/lib/dropshipping-operations.ts`, puis controle le resume d'alertes stock, les messages d'ouverture/blocage, les boutons et champs `disabled`, sans paiement, sans commande fournisseur, sans publication ni appel externe.
+
+La commande `catalog:order-operations-board` genere une file operationnelle lecture seule des commandes dropshipping: attente paiement, exceptions stock, preparation fournisseur possible, attente suivi et suivi client a preparer. Elle exporte JSON/Markdown/CSV sans URL fournisseur, sans adresse client, sans paiement, sans commande fournisseur et avec auto-tests internes de readiness.
+
+La commande `catalog:test-dropshipping-order-operations-fixtures` teste en local toutes les files operations sur commandes fictives uniquement: paiement en attente, exceptions stock failed/skipped/pending, preparation partenaire, attente suivi, suivi client et commande livree. Elle verifie aussi les preuves produit manquantes et la redaction des exports afin qu'aucun lien fournisseur, email, telephone ou adresse client ne sorte des tableaux.
+
+La commande `catalog:audit-pilotage-order-operations` controle que la page admin `Pilotage` remonte bien ce board operations commandes: collecteur JSON, lecture dans le `Promise.all` protege par `ADMIN_MODE`, bloc `Commandes dropshipping`, export CSV interne, lien `Admin > Dropshipping`, absence de fuite URL fournisseur/adresse client et utilisation du helper partage `src/lib/dropshipping-operations.ts`. Elle reste en lecture seule, sans paiement, sans publication, sans commande fournisseur et sans appel externe.
+
+La commande `catalog:audit-surprise-hold` verifie que colis surprises, palettes, box mystere et colis perdus restent non vendables avec le statut a venir.
+
+La commande `catalog:audit-checkout-eligibility` verifie que le panier, la page paiement et l'API Stripe bloquent les brouillons, produits test, categories cachees, produits a venir, ruptures, doublons et fiches dropshipping dont la readiness complete manque avant toute session Stripe. Elle reconnait que `isProductPurchasable` delegue a `isPublicProduct` et controle que ce chemin conserve `getDropshippingPublicBlockers`. Elle bloque aussi toute regression ou le panier public rechargerait `/api/admin/products`, controle que l'API admin produits exige `ADMIN_MODE=true` avant GET/POST, que la page succes paiement ne decremente jamais le stock via une route admin client, et que les routes admin `photo-analysis`/`decrement` exigent le mode admin avant consommation OpenAI ou mutation de stock.
+
+La commande `catalog:dropshipping-focus-hold` liste les produits personnels, tests ou legacy encore publies qui doivent rester en suspens pendant le focus dropshipping. La commande `catalog:apply-dropshipping-focus-hold` passe uniquement les fiches rapides concernees en `draft` avec sauvegarde automatique, sans suppression, publication, paiement ni commande fournisseur.
+
+La commande `catalog:test-checkout-guards` verifie des cas concrets en lecture seule: panier vide, doublon, produit test force, produit a venir force, brouillon partenaire force, quantite superieure au stock, source non interne, livraison et absence de fuite fournisseur.
+
+La commande `catalog:audit-all-partner-gates` controle tous les produits partenaires, y compris ceux declares directement dans `src/lib/catalog.ts`, pour eviter qu'une fiche dropshipping statique soit publiee sans fournisseur exact, SKU, images validees et gate de validation.
+
+La commande `catalog:audit-category-images` controle les images de toutes les categories: presence WebP locale, signature, dimensions, poids, images partagees et brief de production. Elle ne genere aucune image et ne modifie pas le catalogue.
+
+La commande `catalog:category-image-uniqueness-sprint` transforme l'audit categories en sprint de production: elle priorise les visuels partages a differencier en premier et propose des nouveaux noms WebP, sans remplacer les images publiques.
+
+La commande `catalog:category-image-drop-kit` prepare les dossiers de depot et les README pour les WebP categories prioritaires. Elle controle les signatures WebP deposees mais ne copie rien dans `public/uploads/category-images`.
+
+La commande `catalog:category-image-promotion-plan` relit le depot images categories, controle les WebP presents et prepare un plan futur de copie publique/revue humaine. Elle ne copie rien, ne modifie pas le catalogue et garde tout en HOLD tant que Mouss n'a pas valide.
+
+La commande `catalog:category-image-roadmap` produit une roadmap globale de toutes les categories: images OK, visuels partages a differencier, categories cachees/a venir et briefs de production. Elle reste en lecture seule et ne copie aucune image publique.
+
+La commande `catalog:category-image-next-batch-kit` prepare les dossiers de depot pour les visuels categories `P2` de la roadmap, notamment les prochaines variantes dropshipping a differencier. Elle controle seulement les fichiers deposes et ne copie rien dans `public/uploads/category-images`.
+
+La commande `catalog:category-image-intake-status` consolide les depots categories `P1` et `P2` dans un tableau unique: WebP attendus, presents, manquants, invalides et prets pour revue humaine. Elle reste en lecture seule et ne modifie ni catalogue ni fichiers publics.
+
+La commande `catalog:daily-execution-board` rassemble les actions du jour: cockpit produit prioritaire, preuves produits partenaires, depots images categories, photos produits sprint, board Mouss images publiques, formulaire preuves texte images, coherence pipeline images publiques, sprint top 3 sourcing integration, pilotage sourcing integration, sources catalogue publiques, surface visuelle publique et garde-fous checkout/publication/admin/surprises. Elle remonte aussi les compteurs WebP manquants, preuves texte a remplir, lignes de formulaire, coherence 12 fiches/72 lignes, sprint top 3 integration, audit du board pilotage sourcing integration, scan anti-fuite, surveillance des imports publics, audit visuel anti-image stock/CDN, gardes admin API/pages, webhook stock Stripe, securite admin commandes, board operations commandes et pilotage protege, tout en restant en lecture seule.
+
+La commande `catalog:audit-daily-execution-board` controle ce tableau avant de s'y fier: mode lecture seule, garde-fous sensibles, absence d'URL externe ou marqueur marketplace, actions images qui rappellent l'interdiction de copie publique/publication/commande, coherence pipeline images publiques OK, sprint top 3 sourcing integration en HOLD, board pilotage sourcing integration garde OK, sources catalogue publiques filtrees OK, surface visuelle publique OK, SEO produits HOLD OK, gardes admin API/pages OK, webhook stock Stripe OK, operations commandes redigees OK, pilotage operations protege OK, compteurs surface publique/checkout/surprises et copie image publique non appliquee.
+
+## Checklist produit
+
+Chaque produit doit avoir:
+
+- categorie correcte;
+- titre clair;
+- description utile et vendeur;
+- caracteristiques principales;
+- prix fournisseur;
+- prix de vente;
+- marge estimee;
+- lien fournisseur reel;
+- SKU ou identifiant fournisseur si disponible;
+- stock fournisseur;
+- delai livraison estime;
+- photo principale exacte;
+- images secondaires exactes ou volontairement absentes;
+- statut `draft` si une preuve manque;
+- note de validation indiquant ce qui reste a verifier.
+
+## Photos produit
+
+Une image est acceptable seulement si:
+
+- elle represente exactement le produit vendu;
+- elle correspond a la bonne variante;
+- elle ne montre pas un lot si la fiche vend une piece seule;
+- elle ne montre pas une marque/logo interdit ou trompeur;
+- elle n'est pas pixelisee;
+- elle peut etre utilisee proprement dans la fiche.
+
+Si l'image est generique ou douteuse:
+
+- ne pas publier;
+- marquer la fiche en HOLD;
+- ajouter l'action requise dans la checklist fournisseur.
+
+## Travail par couche
+
+A chaque reveil:
+
+1. Lire ce fichier, le dernier rapport et `RAPATRIEMENT_JARVIS_LATEST.md`.
+2. Verifier l'etat git sans revenir en arriere.
+3. Choisir une couche utile, idealement lourde et concrete si elle reste sauvegardee, testable et reversible.
+4. Faire une sauvegarde ou utiliser une sauvegarde existante avant modification importante.
+5. Integrer localement ce qui est sur.
+6. Lancer les tests pertinents.
+7. Corriger les erreurs raisonnables detectees.
+8. Ecrire un rapport court.
+
+## Tests selon couche
+
+Catalogue:
+
+```powershell
+npm run catalog:prepare-draft-backlog
+npm run catalog:import-evidence-drafts
+npm run catalog:partner-action-board
+npm run catalog:partner-validation-packets
+npm run catalog:apply-validation-packets
+npm run catalog:all-partner-validation-queue
+npm run catalog:all-partner-validation-packets
+npm run catalog:audit-all-partner-validation-evidence
+npm run catalog:partner-evidence-workplan
+npm run catalog:fast-evidence-forms
+npm run catalog:audit-fast-evidence-forms
+npm run catalog:fast-proof-now-export
+npm run catalog:audit-fast-proof-now-export
+npm run catalog:single-product-cockpit
+npm run catalog:product-cockpits-batch
+npm run catalog:product-field-kit
+npm run catalog:fast-go-shortlist
+npm run catalog:sprint-image-proof-board
+npm run catalog:sprint-image-local-plan
+npm run catalog:audit-sprint-image-gates
+npm run catalog:sprint-image-replacement-manifest
+npm run catalog:audit-sprint-image-replacement-decisions
+npm run catalog:sprint-image-action-board
+npm run catalog:sprint-image-field-checklist
+npm run catalog:audit-sprint-image-local-files
+npm run catalog:audit-sprint-image-human-review
+npm run catalog:photo-sprint-du-jour
+npm run catalog:photo-drop-kit
+npm run catalog:business-next-actions
+npm run catalog:audit-public-dropshipping-surface
+npm run catalog:audit-public-visual-ambiguity
+npm run catalog:public-image-action-board
+npm run catalog:audit-public-image-action-board
+npm run catalog:public-image-proof-pack
+npm run catalog:audit-public-image-proof-pack
+npm run catalog:audit-public-image-deposit-files
+npm run catalog:public-image-deposit-session
+npm run catalog:audit-public-image-deposit-session
+npm run catalog:public-image-copy-gate
+npm run catalog:audit-public-image-copy-gate
+npm run catalog:public-image-operator-pack
+npm run catalog:audit-public-image-operator-pack
+npm run catalog:public-image-mouss-review-board
+npm run catalog:audit-public-image-mouss-review-board
+npm run catalog:public-image-text-proof-form
+npm run catalog:audit-public-image-text-proof-form
+npm run catalog:audit-public-image-pipeline-coherence
+npm run catalog:audit-generated-artifact-leaks
+npm run catalog:audit-surprise-hold
+npm run catalog:audit-checkout-eligibility
+npm run catalog:audit-stripe-webhook-stock-guards
+npm run catalog:test-stripe-webhook-stock-idempotence
+npm run catalog:audit-dropshipping-order-admin-safety
+npm run catalog:order-operations-board
+npm run catalog:test-dropshipping-order-operations-fixtures
+npm run catalog:audit-pilotage-order-operations
+npm run catalog:dropshipping-focus-hold
+npm run catalog:test-checkout-guards
+npm run catalog:audit-all-partner-gates
+npm run catalog:audit-partners
+npm run catalog:partner-summary
+npm run catalog:audit-images
+npm run catalog:audit-category-images
+npm run catalog:category-image-uniqueness-sprint
+npm run catalog:category-image-drop-kit
+npm run catalog:category-image-promotion-plan
+npm run catalog:category-image-roadmap
+npm run catalog:category-image-next-batch-kit
+npm run catalog:category-image-intake-status
+npm run catalog:daily-execution-board
+npm run catalog:audit-daily-execution-board
+npm run catalog:audit-partner-gates
+```
+
+Code:
+
+```powershell
+npm run typecheck
+npm run lint
+```
+
+Apres gros paquet UI/catalogue:
+
+```powershell
+npm run build
+```
+
+## Rapport attendu
+
+Chaque couche doit produire un rapport court avec:
+
+- numero/date de couche;
+- objectif;
+- fichiers touches;
+- produits ajoutes ou corriges;
+- preuves fournisseur ou preuves manquantes;
+- statut des fiches: `draft`, `HOLD`, `ready_review`, `published` seulement si deja valide;
+- tests executes;
+- erreurs corrigees;
+- prochain pas.
+
+Nom conseille:
+
+`business-maxi-trouvailles/rapports-couches/RAPPORT_MAXI_COUCHE_YYYYMMDD_HHMM.md`
+
+## Premier travail au GO
+
+Reprendre par:
+
+- selection produits: `business-maxi-trouvailles/produits-a-valider/selection_couche_006_20260527.md`;
+- workflow images: `business-maxi-trouvailles/docs/WORKFLOW_AUDIT_IMAGES_PARTENAIRES_20260605.md`;
+- paquet rapatrie: `business-maxi-trouvailles/RAPATRIEMENT_JARVIS_LATEST.md`.
+
+Premier objectif recommande: choisir 5 produits phares maximum, verifier fournisseur/images, puis importer ou corriger uniquement en brouillon propre.

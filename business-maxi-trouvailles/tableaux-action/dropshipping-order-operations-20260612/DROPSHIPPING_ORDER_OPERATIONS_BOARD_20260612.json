@@ -1,0 +1,96 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-12T07:54:39.188Z",
+  "generatedAtLocal": "2026-06-12 09:54 Europe/Paris",
+  "mode": "read_only_dropshipping_order_operations_board",
+  "counts": {
+    "totalOrders": 0,
+    "paidOrders": 0,
+    "stockDoneOrders": 0,
+    "stockExceptions": 0,
+    "readySupplierPrep": 0,
+    "waitPayment": 0,
+    "waitTracking": 0,
+    "readyFollowUp": 0
+  },
+  "itemCount": 0,
+  "items": [],
+  "selfTests": [
+    {
+      "name": "payment_wait_blocks_supplier",
+      "ok": true,
+      "expectedLane": "WAIT_PAYMENT",
+      "actualLane": "WAIT_PAYMENT",
+      "expectedAllowed": false,
+      "actualAllowed": false
+    },
+    {
+      "name": "paid_done_ready_for_supplier",
+      "ok": true,
+      "expectedLane": "READY_SUPPLIER_PREP",
+      "actualLane": "READY_SUPPLIER_PREP",
+      "expectedAllowed": true,
+      "actualAllowed": true
+    },
+    {
+      "name": "paid_failed_stock_exception",
+      "ok": true,
+      "expectedLane": "STOCK_EXCEPTION",
+      "actualLane": "STOCK_EXCEPTION",
+      "expectedAllowed": false,
+      "actualAllowed": false
+    },
+    {
+      "name": "paid_skipped_stock_exception",
+      "ok": true,
+      "expectedLane": "STOCK_EXCEPTION",
+      "actualLane": "STOCK_EXCEPTION",
+      "expectedAllowed": false,
+      "actualAllowed": false
+    },
+    {
+      "name": "paid_pending_stock_exception",
+      "ok": true,
+      "expectedLane": "STOCK_EXCEPTION",
+      "actualLane": "STOCK_EXCEPTION",
+      "expectedAllowed": false,
+      "actualAllowed": false
+    },
+    {
+      "name": "supplier_order_waits_tracking",
+      "ok": true,
+      "expectedLane": "WAIT_TRACKING",
+      "actualLane": "WAIT_TRACKING",
+      "expectedAllowed": true,
+      "actualAllowed": true
+    },
+    {
+      "name": "shipped_waits_follow_up",
+      "ok": true,
+      "expectedLane": "READY_FOLLOW_UP",
+      "actualLane": "READY_FOLLOW_UP",
+      "expectedAllowed": true,
+      "actualAllowed": true
+    },
+    {
+      "name": "delivered_is_done",
+      "ok": true,
+      "expectedLane": "DONE",
+      "actualLane": "DONE",
+      "expectedAllowed": true,
+      "actualAllowed": true
+    }
+  ],
+  "selfTestFailures": [],
+  "source": "data/dropshipping-orders.json",
+  "sharedOperationsSource": "src/lib/dropshipping-operations.ts",
+  "safety": {
+    "readOnly": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noPublication": true,
+    "noExternalApiCall": true,
+    "noSupplierUrlsExported": true,
+    "noCustomerAddressExported": true
+  }
+}

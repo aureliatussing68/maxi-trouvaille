@@ -1,0 +1,13 @@
+Regression latence business - 2026-05-24 01:12:00
+Global: OK
+
+- json_written: OK
+- txt_written: OK
+- all_probes_ok: OK
+- stats_present: OK
+- latency_ok: OK
+- median_under_target: OK
+- max_under_target: OK
+- read_only: OK
+- offline_safe: OK
+- no_publication: OK

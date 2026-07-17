@@ -1,0 +1,53 @@
+{
+  "name": "maxi-trouvaille",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --webpack",
+    "dev:turbo": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "catalog:audit-images": "node scripts/automation/audit_partner_catalog_images.mjs",
+    "catalog:audit-partner-gates": "node scripts/automation/audit_partner_publication_gates.mjs",
+    "catalog:audit-partners": "node scripts/automation/audit_partner_catalog_resume.mjs",
+    "catalog:audit-surprise-hold": "node scripts/automation/audit_surprise_products_hold.mjs",
+    "catalog:partner-summary": "node scripts/automation/summarize_partner_catalog.mjs",
+    "catalog:score-partner-drafts": "node scripts/automation/score_partner_drafts.mjs",
+    "catalog:publish-ready-partners": "node scripts/automation/score_partner_drafts.mjs --apply",
+    "catalog:apply-target-margin": "node scripts/automation/apply_partner_margin_target.mjs --apply",
+    "catalog:enrich-seo": "node scripts/automation/enrich_quick_product_seo.mjs --apply",
+    "catalog:verification-queue": "node scripts/automation/summarize_partner_verification_queue.mjs",
+    "catalog:proof-checklist": "node scripts/automation/prepare_partner_source_checklist.mjs",
+    "catalog:prepare-draft-backlog": "node scripts/automation/prepare_partner_draft_backlog.mjs",
+    "catalog:import-evidence-drafts": "node scripts/automation/import_partner_drafts_from_evidence.mjs",
+    "catalog:partner-action-board": "node scripts/automation/prepare_partner_publication_action_board.mjs",
+    "catalog:partner-validation-packets": "node scripts/automation/prepare_partner_validation_packets.mjs",
+    "catalog:apply-validation-packets": "node scripts/automation/apply_partner_validation_packets.mjs",
+    "business:status": "node business-maxi-trouvailles/scripts/business_pipeline.mjs status",
+    "business:search": "node business-maxi-trouvailles/scripts/business_pipeline.mjs search-products --count 10",
+    "business:product": "node business-maxi-trouvailles/scripts/business_pipeline.mjs prepare-product",
+    "business:ads": "node business-maxi-trouvailles/scripts/business_pipeline.mjs prepare-ads",
+    "business:demo": "node business-maxi-trouvailles/scripts/business_pipeline.mjs demo"
+  },
+  "dependencies": {
+    "lucide-react": "^1.14.0",
+    "next": "^16.2.6",
+    "postgres": "^3.4.9",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "stripe": "^22.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^16.2.6",
+    "playwright": "^1.60.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

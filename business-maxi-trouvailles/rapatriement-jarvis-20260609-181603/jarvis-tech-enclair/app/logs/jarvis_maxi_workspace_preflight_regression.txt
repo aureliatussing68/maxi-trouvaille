@@ -1,0 +1,14 @@
+Regression preflight workspace Maxi
+Global: OK
+
+Checks:
+- json_written: OK
+- txt_written: OK
+- project_path_exists: OK
+- navigation_present: OK
+- layout_present: OK
+- business_gate_present: OK
+- read_only: OK
+- no_browser_opened: OK
+- no_window_move: OK
+- no_publish: OK

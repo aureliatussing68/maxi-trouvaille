@@ -1,0 +1,34 @@
+Guide manuel deblocage fournisseur/import - 2026-06-09 18:00:36
+
+Global: OK
+Statut: MANUAL_UNLOCK_GUIDE_BLOCKED
+Message court: Guide deblocage fournisseur: bloque, 55/55 preuve(s) manquante(s), aucune action lancee.
+Deblocage manuel pret: non
+Liaison revue import prete: non
+Completion fournisseur prete: non
+Preuves fournisseur - champs remplis: 0
+Preuves fournisseur - champs requis: 55
+Preuves fournisseur - champs manquants: 55
+File validation - total: 6
+File validation - prets: 0
+File validation - bloques: 6
+Import brouillon autorise: non
+Deblocage autorise maintenant: non
+Confirmation vocale generique deverrouille: non
+
+Blocages:
+- preuves_fournisseur_incompletes
+- decision_mouss_non_validee
+- import_brouillon_non_pret
+- completion_fournisseur_non_prete
+- aucun_produit_pret_en_file_validation
+- garde_import_brouillon_bloque
+
+Etapes manuelles:
+- Completer manuellement les 55 champs de preuves fournisseur manquants.
+- Obtenir une validation Mouss specifique pour la recherche fournisseur et la suite import.
+- Relire la file validation et attendre au moins un item pret, sans exposer les details produit.
+- Relancer le garde completion fournisseur puis la liaison import fournisseur.
+- Ne lancer aucune revue import, import, commande, paiement, publication ou suppression sans validation dediee.
+
+Securite: guide lecture seule, aucun detail produit ou chemin expose, aucune recherche web/API, aucune revue import lancee, aucun import, achat, paiement, publication ou suppression.

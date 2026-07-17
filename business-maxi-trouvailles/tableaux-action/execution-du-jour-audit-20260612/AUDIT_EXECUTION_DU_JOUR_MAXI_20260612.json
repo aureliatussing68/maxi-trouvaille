@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-12T12:39:43.418Z",
+  "generatedAtLocal": "2026-06-12 14:39 Europe/Paris",
+  "mode": "read_only_daily_execution_board_audit",
+  "boardDir": "business-maxi-trouvailles/tableaux-action/execution-du-jour-20260612",
+  "boardJson": "business-maxi-trouvailles/tableaux-action/execution-du-jour-20260612/EXECUTION_DU_JOUR_MAXI_20260612.json",
+  "boardMode": "read_only_daily_execution_board",
+  "actionCount": 98,
+  "laneCount": 10,
+  "scannedFileCount": 3,
+  "failureCount": 0,
+  "failures": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noImageDownload": true,
+    "noImageFileCreated": true,
+    "noPublicImageWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true
+  }
+}

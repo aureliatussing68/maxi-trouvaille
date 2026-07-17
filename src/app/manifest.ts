@@ -5,14 +5,78 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Maxi Trouvaille",
     short_name: "Maxi",
     description:
-      "Boutique de bonnes affaires, colis perdus, lots, objets neufs ou quasi neufs et futures annonces vendeurs.",
+      "Boutique Maxi Trouvaille : produits partenaires verifies, paiement Maxi Trouvaille, suivi colis et service client.",
+    id: "/",
     start_url: "/",
     scope: "/",
+    lang: "fr-FR",
     display: "standalone",
     background_color: "#fbfaf7",
     theme_color: "#171717",
     orientation: "portrait-primary",
-    categories: ["shopping", "lifestyle"],
+    categories: ["shopping", "lifestyle", "business"],
+    shortcuts: [
+      {
+        name: "Boutique",
+        short_name: "Boutique",
+        description: "Ouvrir la boutique produits partenaires Maxi Trouvaille.",
+        url: "/boutique",
+        icons: [
+          {
+            src: "/icons/icon-192.png",
+            sizes: "192x192",
+          },
+        ],
+      },
+      {
+        name: "Produits partenaires",
+        short_name: "Partenaires",
+        description: "Ouvrir les rayons produits partenaires Maxi Trouvaille.",
+        url: "/produits-partenaires",
+        icons: [
+          {
+            src: "/icons/icon-192.png",
+            sizes: "192x192",
+          },
+        ],
+      },
+      {
+        name: "Nouveautes",
+        short_name: "Nouveautes",
+        description: "Voir les nouveautes produits partenaires en validation.",
+        url: "/nouveautes",
+        icons: [
+          {
+            src: "/icons/icon-192.png",
+            sizes: "192x192",
+          },
+        ],
+      },
+      {
+        name: "Promotions",
+        short_name: "Promos",
+        description: "Voir les promotions produits partenaires en validation.",
+        url: "/promotions",
+        icons: [
+          {
+            src: "/icons/icon-192.png",
+            sizes: "192x192",
+          },
+        ],
+      },
+      {
+        name: "Suivi colis",
+        short_name: "Suivi",
+        description: "Acceder au suivi colis Maxi Trouvaille.",
+        url: "/suivi-colis",
+        icons: [
+          {
+            src: "/icons/icon-192.png",
+            sizes: "192x192",
+          },
+        ],
+      },
+    ],
     icons: [
       {
         src: "/icons/icon-192.png",

@@ -1,0 +1,361 @@
+import fs from "node:fs";
+import path from "node:path";
+
+const root = process.cwd();
+const dateKey = new Date().toISOString().slice(0, 10).replace(/-/g, "");
+const outputDir = path.join(
+  root,
+  "business-maxi-trouvailles",
+  "tableaux-action",
+  `surface-demo-publique-${dateKey}`,
+);
+
+const publicFiles = [
+  "src/app/layout.tsx",
+  "src/app/manifest.ts",
+  "src/app/page.tsx",
+  "src/app/boutique/page.tsx",
+  "src/app/catalogue/page.tsx",
+  "src/app/categories/page.tsx",
+  "src/app/categories/[slug]/page.tsx",
+  "src/app/cgv/page.tsx",
+  "src/app/confidentialite/page.tsx",
+  "src/app/contact/page.tsx",
+  "src/app/conditions-dropshipping/page.tsx",
+  "src/app/conditions-generales-vente/page.tsx",
+  "src/app/conditions-produits-partenaires/page.tsx",
+  "src/app/dropshipping/page.tsx",
+  "src/app/aide/page.tsx",
+  "src/app/produit/[slug]/page.tsx",
+  "src/app/produits/page.tsx",
+  "src/app/produits-partenaires/page.tsx",
+  "src/app/partenaires/page.tsx",
+  "src/app/livraison/page.tsx",
+  "src/app/livraison-colis/page.tsx",
+  "src/app/mentions/page.tsx",
+  "src/app/mentions-legales/page.tsx",
+  "src/app/nouveautes/page.tsx",
+  "src/app/paiement/page.tsx",
+  "src/app/politique-confidentialite/page.tsx",
+  "src/app/promotions/page.tsx",
+  "src/app/retours/page.tsx",
+  "src/app/retours-remboursements/page.tsx",
+  "src/app/shop/page.tsx",
+  "src/app/suivi/page.tsx",
+  "src/app/suivi-colis/page.tsx",
+  "src/app/faq/page.tsx",
+  "src/app/vendre/page.tsx",
+  "src/app/deposer-annonce/page.tsx",
+  "src/components/CategoryGrid.tsx",
+  "src/components/CartView.tsx",
+  "src/components/CheckoutView.tsx",
+  "src/components/CustomerJourneyPanel.tsx",
+  "src/components/Footer.tsx",
+  "src/components/Header.tsx",
+  "src/components/HeroCarousel.tsx",
+  "src/components/LegalTrustPanel.tsx",
+  "src/components/MobileDemoNav.tsx",
+  "src/components/PartnerCampaignLanding.tsx",
+  "src/components/PartnerArticlePreviewPanel.tsx",
+  "src/components/PartnerDemoPathPanel.tsx",
+  "src/components/PartnerLaunchBoard.tsx",
+  "src/components/PartnerMobileShowcasePanel.tsx",
+  "src/components/PartnerProgramGatePanel.tsx",
+  "src/components/ProductCard.tsx",
+  "src/components/ServiceReadinessPanel.tsx",
+  "src/components/ShopProductExplorer.tsx",
+  "src/components/StorefrontReadinessPanel.tsx",
+  "src/components/TrustBar.tsx",
+];
+
+const hardForbidden = [
+  {
+    id: "supplier_word_public_copy",
+    pattern: /fournisseur/i,
+    reason: "Le client ne doit pas voir le vocabulaire fournisseur.",
+  },
+  {
+    id: "aliexpress_public_copy",
+    pattern: /AliExpress/i,
+    reason: "AliExpress ne doit jamais apparaitre cote client.",
+  },
+  {
+    id: "supplier_english_public_copy",
+    pattern: /\b(supplier|seller)\b/i,
+    reason: "Le client ne doit pas voir le vocabulaire supplier/seller.",
+  },
+  {
+    id: "marketplace_public_copy",
+    pattern: /marketplace/i,
+    reason: "La demo publique doit parler de produits partenaires, pas de marketplace.",
+  },
+  {
+    id: "public_api_wording",
+    pattern: /API Mondial|sans API/i,
+    reason: "Les details API ne doivent pas apparaitre dans la surface client.",
+  },
+  {
+    id: "real_message_action_public_copy",
+    pattern: /mailto:/i,
+    reason: "La demo publique ne doit pas declencher d'envoi de message reel.",
+  },
+  {
+    id: "stripe_brand_public_copy",
+    pattern: /Stripe/i,
+    reason: "La surface demo doit parler de paiement Maxi Trouvaille ou de paiement securise.",
+  },
+  {
+    id: "legacy_dropshipping_route_public_link",
+    pattern: /\/categories\/dropshipping/i,
+    reason: "Les liens publics de demo doivent pointer vers les URLs partenaires.",
+  },
+];
+
+const copyOnlyForbidden = [
+  {
+    id: "hold_jargon_public_copy",
+    pattern: /\bHOLD\b/i,
+    reason: "Le jargon HOLD doit rester interne; cote client, parler de validation ou controle.",
+  },
+  {
+    id: "dropshipping_public_copy",
+    pattern: /\bdropshipping\b/i,
+    reason: "La demo publique doit parler de produits partenaires.",
+  },
+  {
+    id: "fragile_or_doubtful_copy",
+    pattern: /fiche fragile|fiches fragiles|fiche douteuse|fiches douteuses/i,
+    reason: "La facade demo doit paraitre assumee, sans vocabulaire anxiogène.",
+  },
+];
+
+const broadCopyForbidden = copyOnlyForbidden.filter((rule) =>
+  ["hold_jargon_public_copy", "fragile_or_doubtful_copy"].includes(rule.id),
+);
+
+function parisDateLabel(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Paris",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(date);
+  const byType = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+
+  return `${byType.year}-${byType.month}-${byType.day} ${byType.hour}:${byType.minute} Europe/Paris`;
+}
+
+function isObviousCodeOnlyLine(line) {
+  const trimmed = line.trim();
+
+  if (/^(import|export|const|let|var|function|type|interface)\b/.test(trimmed)) {
+    return true;
+  }
+
+  if (/\b(href|src|image|id|categoryId|parentId|slug|key|case|className)\s*[:=]/.test(trimmed)) {
+    return true;
+  }
+
+  return false;
+}
+
+function isLikelyRenderedCopy(line) {
+  const trimmed = line.trim();
+
+  if (isObviousCodeOnlyLine(line)) {
+    return false;
+  }
+
+  if (/\b(title|description|label|text|alt|eyebrow|status|focus|question|answer|name|short_name|applicationName)\s*:/.test(trimmed)) {
+    return true;
+  }
+
+  if (trimmed.includes(">") || trimmed.includes("</")) {
+    return true;
+  }
+
+  return /^["'`][^"'`]+["'`],?$/.test(trimmed);
+}
+
+function lineNumber(source, index) {
+  return source.slice(0, index).split(/\r?\n/).length;
+}
+
+function findSourceLine(source, pattern) {
+  const match = source.match(pattern);
+  return match?.index == null ? 1 : lineNumber(source, match.index);
+}
+
+function auditFile(relativePath) {
+  const absolutePath = path.join(root, relativePath);
+  if (!fs.existsSync(absolutePath)) {
+    return [
+      {
+        file: relativePath,
+        line: 1,
+        rule: "public_demo_file_missing",
+        detail: "Fichier public introuvable.",
+        text: "",
+      },
+    ];
+  }
+
+  const source = fs.readFileSync(absolutePath, "utf8");
+  const normalizedSource = source.replace(/\s+/g, " ");
+  const findings = [];
+  const lines = source.split(/\r?\n/);
+
+  lines.forEach((line, index) => {
+    const lineNumberValue = index + 1;
+    for (const rule of hardForbidden) {
+      if (rule.pattern.test(line)) {
+        findings.push({
+          file: relativePath,
+          line: lineNumberValue,
+          rule: rule.id,
+          detail: rule.reason,
+          text: line.trim(),
+        });
+      }
+    }
+
+    if (!isObviousCodeOnlyLine(line)) {
+      for (const rule of broadCopyForbidden) {
+        if (rule.pattern.test(line)) {
+          findings.push({
+            file: relativePath,
+            line: lineNumberValue,
+            rule: rule.id,
+            detail: rule.reason,
+            text: line.trim(),
+          });
+        }
+      }
+    }
+
+    if (!isLikelyRenderedCopy(line)) {
+      return;
+    }
+
+    for (const rule of copyOnlyForbidden) {
+      if (broadCopyForbidden.includes(rule)) {
+        continue;
+      }
+
+      if (rule.pattern.test(line)) {
+        findings.push({
+          file: relativePath,
+          line: lineNumberValue,
+          rule: rule.id,
+          detail: rule.reason,
+          text: line.trim(),
+        });
+      }
+    }
+  });
+
+  const requiredSignals = [
+    [/produits partenaires|partenaires/i, "missing_partner_wording", "La surface demo doit rester centree produits partenaires."],
+    [/paiement Maxi Trouvaille|paiement securise|paiement sécurisé/i, "missing_payment_trust_wording", "La surface demo doit rappeler le paiement Maxi Trouvaille ou securise."],
+  ];
+
+  if (["src/app/page.tsx", "src/app/boutique/page.tsx", "src/app/produits-partenaires/page.tsx"].includes(relativePath)) {
+    requiredSignals.forEach(([pattern, rule, detail]) => {
+      if (!pattern.test(normalizedSource)) {
+        findings.push({
+          file: relativePath,
+          line: findSourceLine(source, /export default|PageHeader|<section/),
+          rule,
+          detail,
+          text: "",
+        });
+      }
+    });
+  }
+
+  return findings;
+}
+
+function csvEscape(value) {
+  const text = String(value ?? "");
+  return `"${text.replace(/"/g, '""')}"`;
+}
+
+function toCsv(findings) {
+  const headers = ["file", "line", "rule", "detail", "text"];
+  const rows = findings.map((finding) =>
+    headers.map((header) => csvEscape(finding[header])).join(","),
+  );
+
+  return `${headers.join(",")}\n${rows.join("\n")}${rows.length ? "\n" : ""}`;
+}
+
+function toMarkdown(summary) {
+  const rows = summary.findings.length
+    ? summary.findings.map(
+        (finding) =>
+          `| ${finding.rule} | ${finding.file} | ${finding.line} | ${finding.detail} | \`${finding.text.replaceAll("|", "\\|")}\` |`,
+      )
+    : ["| OK | - | - | Aucun texte client a corriger | - |"];
+
+  return `${[
+    "# Audit copie demo publique",
+    "",
+    `Date locale: ${summary.generatedAtLocal}`,
+    `Statut: ${summary.ok ? "OK" : "ECHEC"}`,
+    "",
+    "## Synthese",
+    "",
+    `- Fichiers publics surveilles: ${summary.checkedFileCount}`,
+    `- Alertes: ${summary.findingCount}`,
+    "",
+    "| Regle | Fichier | Ligne | Detail | Extrait |",
+    "|---|---|---:|---|---|",
+    ...rows,
+    "",
+    "## Garde-fous",
+    "",
+    "- Lecture seule: aucune publication, aucun paiement, aucune commande partenaire.",
+    "- Les identifiants techniques et URLs legacy ne sont pas bloques si le texte client reste propre.",
+    "- Les termes client attendus restent: produits partenaires, paiement Maxi Trouvaille, suivi colis, partenaire logistique.",
+    "",
+  ].join("\n")}\n`;
+}
+
+const findings = publicFiles.flatMap(auditFile);
+const generatedAtLocal = parisDateLabel();
+const summary = {
+  generatedAtLocal,
+  ok: findings.length === 0,
+  checkedFileCount: publicFiles.length,
+  findingCount: findings.length,
+  findings,
+  safety: {
+    readOnlyAudit: true,
+    noCatalogWrite: true,
+    noPublication: true,
+    noPayment: true,
+    noSupplierOrder: true,
+    noMessageSent: true,
+  },
+};
+
+fs.mkdirSync(outputDir, { recursive: true });
+fs.writeFileSync(
+  path.join(outputDir, "audit-public-demo-copy.json"),
+  `${JSON.stringify(summary, null, 2)}\n`,
+);
+fs.writeFileSync(path.join(outputDir, "audit-public-demo-copy.csv"), toCsv(findings));
+fs.writeFileSync(
+  path.join(outputDir, "RAPPORT_AUDIT_PUBLIC_DEMO_COPY.md"),
+  toMarkdown(summary),
+);
+
+console.log(JSON.stringify(summary, null, 2));
+
+if (!summary.ok) {
+  process.exitCode = 1;
+}

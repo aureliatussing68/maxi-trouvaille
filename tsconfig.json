@@ -30,5 +30,12 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules",
+    "backups/**",
+    "business-maxi-trouvailles/sauvegardes/**",
+    "business-maxi-trouvailles/rapatriement-jarvis-*/current-couches-snapshot/**",
+    ".sandbox_home/**",
+    ".sandboxhome/**"
+  ]
 }

@@ -1,0 +1,156 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-10T04:40:16.085Z",
+  "checkedAtLocal": "2026-06-10 06:40 Europe/Paris",
+  "mode": "read_only_fast_partner_evidence_audit",
+  "inputPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260610\\formulaires-preuves-rapides-20260610\\A_REMPLIR_TEMPLATE_PREUVES_RAPIDES_20260610.json",
+  "productCount": 5,
+  "readyReviewCount": 0,
+  "holdCount": 5,
+  "byStatus": {
+    "HOLD_MISSING_EVIDENCE": 5
+  },
+  "byBlocker": {
+    "date_verification_absente": 5,
+    "nom_vendeur_fournisseur_absent": 5,
+    "variante_exacte_absente": 5,
+    "delai_client_absent": 5,
+    "tracking_non_confirme": 5,
+    "preuve_delai_france_europe_absente": 5,
+    "preuve_prix_absente": 5,
+    "preuve_livraison_absente": 5,
+    "preuve_image_exacte_absente": 5,
+    "preuve_droits_images_absente": 5,
+    "decision_finale_pas_ready_review": 5,
+    "revue_mouss_absente": 5
+  },
+  "products": [
+    {
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "priority": 5,
+      "status": "HOLD_MISSING_EVIDENCE",
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "publicationAllowed": false,
+      "supplierOrderAllowed": false,
+      "paymentAllowed": false
+    },
+    {
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "priority": 6,
+      "status": "HOLD_MISSING_EVIDENCE",
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "publicationAllowed": false,
+      "supplierOrderAllowed": false,
+      "paymentAllowed": false
+    },
+    {
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "name": "Filet rangement coffre voiture à sangles fixes",
+      "priority": 7,
+      "status": "HOLD_MISSING_EVIDENCE",
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "publicationAllowed": false,
+      "supplierOrderAllowed": false,
+      "paymentAllowed": false
+    },
+    {
+      "id": "ali_partner_20260527_gourde_pliable_001",
+      "name": "Gourde pliable silicone voyage avec mousqueton",
+      "priority": 8,
+      "status": "HOLD_MISSING_EVIDENCE",
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "publicationAllowed": false,
+      "supplierOrderAllowed": false,
+      "paymentAllowed": false
+    },
+    {
+      "id": "ali_partner_20260527_lampes_detection_001",
+      "name": "Lampe LED à détection de mouvement USB rechargeable",
+      "priority": 9,
+      "status": "HOLD_MISSING_EVIDENCE",
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "publicationAllowed": false,
+      "supplierOrderAllowed": false,
+      "paymentAllowed": false
+    }
+  ],
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true
+  }
+}

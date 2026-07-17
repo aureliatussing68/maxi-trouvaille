@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-05-24 09:02:05",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "mode_present": true,
+    "short_message_present": true,
+    "txt_mentions_short_message": true,
+    "route_business_operating_mode": true,
+    "execute_business_operating_mode": true,
+    "executor_uses_short_message": true,
+    "draft_search_allowed": true,
+    "publication_blocked": true,
+    "order_blocked": true,
+    "payment_blocked": true,
+    "delete_blocked": true,
+    "read_only_check": true,
+    "draft_only": true,
+    "no_purchase": true,
+    "no_payment": true,
+    "no_publication": true,
+    "no_delete": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true,
+    "no_secret_like_value_in_text": true
+  },
+  "operating_mode": "demo_draft_only",
+  "short_message": "Mode business Maxi: demo_draft_only, 2 API a completer, brouillon uniquement, actions sensibles bloquees.",
+  "executor_message": "Mode business Maxi: demo_draft_only, 2 API a completer, brouillon uniquement, actions sensibles bloquees.",
+  "missing_count": 2,
+  "note": "Regression lecture seule du mode operationnel business. Aucune action sensible n'est declenchee."
+}

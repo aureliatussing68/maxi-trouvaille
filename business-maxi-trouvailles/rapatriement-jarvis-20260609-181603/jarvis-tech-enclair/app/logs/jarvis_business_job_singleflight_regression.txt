@@ -1,0 +1,7 @@
+Regression anti-doublon business - 2026-05-22 20:42:56
+Global: OK
+
+- state_file_written: OK
+- recent_detected: OK
+- expired_not_detected: OK
+- age_present: OK

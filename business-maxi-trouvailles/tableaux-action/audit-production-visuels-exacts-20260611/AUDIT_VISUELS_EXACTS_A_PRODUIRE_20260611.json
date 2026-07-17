@@ -1,0 +1,31 @@
+{
+  "ok": true,
+  "mode": "read_only_visual_production_board_audit",
+  "generatedAt": "2026-06-11T16:02:28.885Z",
+  "generatedAtLocal": "2026-06-11 18:02 Europe/Paris",
+  "status": "OK_VISUAL_PRODUCTION_BOARD_GUARDED",
+  "failureCount": 0,
+  "failures": [],
+  "metrics": {
+    "itemCount": 17,
+    "productPhotoCount": 8,
+    "categoryImageCount": 9,
+    "sourceProductTaskCount": 8,
+    "sourceCategoryItemCount": 9
+  },
+  "safety": {
+    "readOnly": true,
+    "noPublicUploadsWrite": true,
+    "noImageGeneration": true,
+    "noImageDownload": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true
+  },
+  "sources": {
+    "visualBoardPath": "business-maxi-trouvailles\\tableaux-action\\production-visuels-exacts-20260611\\VISUELS_EXACTS_A_PRODUIRE_20260611.json",
+    "photoWorkOrderPath": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\ORDRE_TRAVAIL_PHOTOS_MANQUANTES_20260611.json",
+    "categoryIntakePath": "business-maxi-trouvailles\\tableaux-action\\suivi-depots-images-categories-20260611\\SUIVI_DEPOTS_IMAGES_CATEGORIES_20260611.json"
+  }
+}

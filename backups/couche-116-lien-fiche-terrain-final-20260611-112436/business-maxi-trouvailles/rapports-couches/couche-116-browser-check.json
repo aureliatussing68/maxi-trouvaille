@@ -1,0 +1,24 @@
+{
+  "ok": true,
+  "errors": [],
+  "results": [
+    {
+      "name": "desktop",
+      "href": "/admin/preuves-partenaires?status=hold&q=prod_partner_cable_organizer_001#top-verification-prod_partner_cable_organizer_001",
+      "currentUrl": "http://127.0.0.1:3037/admin/preuves-partenaires?status=hold&q=prod_partner_cable_organizer_001#top-verification-prod_partner_cable_organizer_001",
+      "anchorId": "top-verification-prod_partner_cable_organizer_001"
+    },
+    {
+      "name": "mobile",
+      "href": "/admin/preuves-partenaires?status=hold&q=prod_partner_cable_organizer_001#top-verification-prod_partner_cable_organizer_001",
+      "currentUrl": "http://127.0.0.1:3037/admin/preuves-partenaires?status=hold&q=prod_partner_cable_organizer_001#top-verification-prod_partner_cable_organizer_001",
+      "anchorId": "top-verification-prod_partner_cable_organizer_001"
+    }
+  ],
+  "screenshots": [
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-116-pilotage-desktop.png",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-116-fiche-terrain-desktop.png",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-116-pilotage-mobile.png",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-116-fiche-terrain-mobile.png"
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-12T07:39:09.468Z",
+  "generatedAtLocal": "2026-06-12 09:39 Europe/Paris",
+  "mode": "read_only_admin_product_publication_gate_audit",
+  "status": "OK_ADMIN_PUBLICATION_GATE_ACTIVE",
+  "sourceCheckCount": 6,
+  "sourceFailureCount": 0,
+  "riskProductCount": 0,
+  "sourceChecks": [
+    {
+      "id": "guard_function_present",
+      "ok": true,
+      "failure": "La fonction getPartnerPublicationBlockers doit exister dans la route admin produit.",
+      "status": "OK"
+    },
+    {
+      "id": "guard_reuses_public_readiness_helper",
+      "ok": true,
+      "failure": "La route admin doit reutiliser le verrou public readiness dropshipping.",
+      "status": "OK"
+    },
+    {
+      "id": "guard_blocks_before_write",
+      "ok": true,
+      "failure": "Le blocage publication doit arriver apres construction produit et avant ecriture JSON.",
+      "status": "OK"
+    },
+    {
+      "id": "guard_returns_400",
+      "ok": true,
+      "failure": "La route doit refuser la publication incomplete avec un HTTP 400.",
+      "status": "OK"
+    },
+    {
+      "id": "image_gate_checked",
+      "ok": true,
+      "failure": "La publication doit verifier les images exactes.",
+      "status": "OK"
+    },
+    {
+      "id": "supplier_gate_checked",
+      "ok": true,
+      "failure": "La publication doit verifier fournisseur, SKU, prix, stock et gate de validation.",
+      "status": "OK"
+    }
+  ],
+  "sourceFailures": [],
+  "riskProducts": [],
+  "sources": {
+    "routePath": "src\\app\\api\\admin\\products\\[slug]\\route.ts",
+    "quickProductsPath": "data\\quick-products.json"
+  },
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true
+  },
+  "files": {
+    "json": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_ADMIN_PUBLICATION_GATE_20260612.json",
+    "md": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_ADMIN_PUBLICATION_GATE_20260612.md"
+  }
+}

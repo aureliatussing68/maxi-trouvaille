@@ -1,0 +1,27 @@
+Selection produits business Maxi - 2026-06-09 18:00:59
+
+Message court: Selection business: 5 produit(s) conseille(s), 0 source(s) reelle(s), validation obligatoire.
+Candidats analyses: 10
+Selection: 5
+Sources reelles: 0
+Sources demo: 10
+
+Produits conseilles:
+1. Organisateur de cables de voyage compact | score 132 | dropshipping-accessoires | 3,90 € -> 12,90 €
+   Raisons: bon potentiel visuel, marge correcte, risque faible, categorie Maxi claire
+   A verifier: lien fournisseur reel a verifier
+2. Sac de rangement compressible pour valise | score 132 | dropshipping-accessoires | 4,80 € -> 13,90 €
+   Raisons: bon potentiel visuel, marge correcte, risque faible, categorie Maxi claire
+   A verifier: lien fournisseur reel a verifier
+3. Veilleuse detecteur de mouvement pour placard | score 132 | dropshipping-high-tech | 5,20 € -> 14,90 €
+   Raisons: bon potentiel visuel, marge correcte, risque faible, categorie Maxi claire
+   A verifier: lien fournisseur reel a verifier
+4. Lampe LED rechargeable magnetique pour bureau | score 128 | dropshipping-maison | 7,90 € -> 17,90 €
+   Raisons: bon potentiel visuel, marge correcte, risque faible, categorie Maxi claire
+   A verifier: lien fournisseur reel a verifier
+5. Mini aspirateur sans fil pour voiture | score 128 | dropshipping-auto-moto | 12,90 € -> 29,90 €
+   Raisons: bon potentiel visuel, marge correcte, risque faible, categorie Maxi claire
+   A verifier: lien fournisseur reel a verifier
+
+Message: Selection business prete. Les produits restent en demo tant qu'un lien fournisseur reel n'est pas valide.
+Securite: selection uniquement, aucun import, aucune commande, aucune publication.

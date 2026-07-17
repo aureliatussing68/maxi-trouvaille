@@ -1,0 +1,28 @@
+Regression mapping categories business - 2026-05-24 09:41:58
+Global: OK
+Message court: Mapping categories: 10 produit(s), 1 fallback(s), proposition uniquement.
+Message executeur: Mapping categories: 10 produit(s), 1 fallback(s), proposition uniquement.
+Candidats: 10
+Fallbacks: 1
+
+- json_written: OK
+- txt_written: OK
+- candidates_mapped: OK
+- candidate_count_matches_rows: OK
+- target_categories_present: OK
+- available_categories_present: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- route_business_category_map: OK
+- execute_business_category_map: OK
+- executor_uses_short_message: OK
+- read_only: OK
+- no_import: OK
+- no_order: OK
+- no_payment: OK
+- no_publication: OK
+- manual_validation_required: OK
+- no_values_exposed: OK
+- no_secret_like_value_in_text: OK
+
+Securite: lecture seule, proposition de categories uniquement, aucun secret, aucun import/commande/paiement/publication.

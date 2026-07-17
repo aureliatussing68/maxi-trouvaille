@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-12T11:59:30.134Z",
+  "generatedAtLocal": "2026-06-12 13:59 Europe/Paris",
+  "mode": "read_only_audit_integration_next_wave_active_batch_mouss_review_board",
+  "status": "OK_NEXT_WAVE_ACTIVE_BATCH_MOUSS_REVIEW_BOARD_GUARDED",
+  "activeBatchId": "lot-01",
+  "productCount": 4,
+  "readyForMoussReviewCount": 0,
+  "blockedProductCount": 4,
+  "proofTodoCount": 20,
+  "webpMissingCount": 12,
+  "blockedContractCount": 12,
+  "businessBlockerCount": 32,
+  "csvRowCount": 4,
+  "failureCount": 0,
+  "sensitiveFindingCount": 0,
+  "scannedFileCount": 3,
+  "issues": [],
+  "sources": {
+    "boardPath": "business-maxi-trouvailles/tableaux-action/revue-mouss-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/MOUSS_REVIEW_BOARD_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "proofIntakeAuditPath": "business-maxi-trouvailles/tableaux-action/audit-preuves-internes-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/AUDIT_PROOF_INTAKE_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "webpContractsAuditPath": "business-maxi-trouvailles/tableaux-action/audit-contrats-validation-webp-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/AUDIT_WEBP_VALIDATION_CONTRACTS_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "csvPath": "business-maxi-trouvailles/tableaux-action/revue-mouss-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/revue-mouss-lot-actif-produits-20260612.csv"
+  },
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublicImageWrite": true,
+    "noImageDownload": true,
+    "noImageGeneration": true,
+    "noSupplierValueExport": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true
+  }
+}

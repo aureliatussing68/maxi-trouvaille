@@ -1,0 +1,25 @@
+Sas validation humaine business Maxi - 2026-06-09 18:00:59
+
+Global: OK
+Statut: BLOCKED_FOR_MANUAL_REVIEW
+Message court: Sas validation business bloque: 1 point(s), aucune execution auto.
+Deverrouillage automatique autorise: non
+Confirmation vocale generique deverrouille business: non
+Prochaine etape manuelle possible: non
+Handoff runtime manuel: MANUAL_RUNTIME_REPRISE_READY_DRY_RUN - requis=True - raison=runtime_absent - dry_run=True - confirmation=True - instances=0 - script=main2.py
+Handoff runtime securite: display_only=True, snapshot_only=True, handoff_only=True, no_start=True, no_kill=True, no_container=True, no_window=True, no_browser=True, no_ai=True, no_secret=True, chemins_masques=True
+
+Composants:
+- business_handoff_gate: OK (READY_FOR_HUMAN_REVIEW)
+- business_execution_guard: OK (BLOCKED_FOR_MANUAL_VALIDATION)
+- business_confirmation_barrier: OK (BUSINESS_CONFIRMATION_BARRIER_OK)
+- business_validation_decision_status: OK (PENDING_MOUSS_DECISION)
+- business_import_gate: A VERIFIER (BLOCKED_FOR_MANUAL_REVIEW)
+
+Prochaines etapes manuelles:
+- Mouss doit valider explicitement le fichier decision produit.
+- Completer les exigences import brouillon: 2 point(s).
+- Demander une action business specifique apres validation humaine, pas une confirmation vocale generique.
+- Garder commande, paiement, publication et suppression en validation manuelle separee.
+
+Securite: lecture seule, aggregation de gardes, aucun job, aucun sourcing, aucun import, aucune commande, aucun paiement, aucune publication.

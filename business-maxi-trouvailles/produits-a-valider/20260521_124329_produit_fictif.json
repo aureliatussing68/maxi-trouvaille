@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-05-21T12:43:29.796Z",
+  "mode": "test_fictif_no_publication",
+  "warning": "Produit fictif cree pour verifier le pipeline. Ne pas publier.",
+  "candidates": [
+    {
+      "id": "candidate_1779367409796_1",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "name": "Produit fictif - organisateur malin de bureau",
+      "category": "maison",
+      "supplierPrice": "5,90 €",
+      "supplierPriceCents": 590,
+      "salePrice": "14,90 €",
+      "salePriceCents": 1490,
+      "crossedPrice": "20,90 €",
+      "crossedPriceCents": 2090,
+      "estimatedMargin": "9,00 €",
+      "marginRate": 0.6,
+      "deliveryEstimate": "Europe 5 a 9 jours apres verification fournisseur",
+      "supplier": "Fournisseur demo non reel",
+      "sourceUrl": "manual://demo/produit-fictif",
+      "rating": 4.6,
+      "visualScore": 8,
+      "riskLevel": "faible",
+      "riskFlags": [],
+      "allowedForDraft": true,
+      "adIdea": "Bureau en bazar puis avant/apres rangement rapide.",
+      "score": 100,
+      "validationRequired": true,
+      "notes": [
+        "Verifier le lien fournisseur reel avant publication.",
+        "Verifier conformite, delai livraison et retours.",
+        "Ne pas publier sans validation humaine."
+      ]
+    }
+  ]
+}

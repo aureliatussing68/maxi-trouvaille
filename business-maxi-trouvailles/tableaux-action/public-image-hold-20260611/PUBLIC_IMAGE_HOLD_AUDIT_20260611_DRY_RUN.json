@@ -1,0 +1,188 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-11T04:53:59.164Z",
+  "mode": "public_customer_image_hold_audit",
+  "applyMode": false,
+  "status": "OK_PUBLIC_IMAGES_HELD_RISKS_REMOVED",
+  "publishedQuickProductCount": 8,
+  "toHoldCount": 0,
+  "appliedHoldCount": 0,
+  "alreadyHeldCount": 16,
+  "toHold": [],
+  "alreadyHeld": [
+    {
+      "id": "quick_1777967227448_iypy8l",
+      "slug": "double-prise-murale-avec-4-ports-usb-mosbs4s8",
+      "name": "Double prise murale avec 4 ports USB",
+      "status": "draft",
+      "image": "/uploads/generated-products/double-prise-usb.webp",
+      "reasons": [
+        "image_generee_non_preuve_exacte"
+      ]
+    },
+    {
+      "id": "quick_1777967227442_dxng53",
+      "slug": "pave-tactile-macbook-piece-detachee-a-verifier-mosbs4s2",
+      "name": "Pavé tactile MacBook - pièce à vérifier",
+      "status": "draft",
+      "image": "/uploads/generated-products/pave-tactile-macbook.webp",
+      "reasons": [
+        "image_generee_non_preuve_exacte",
+        "fiche_a_verifier_visible_client"
+      ]
+    },
+    {
+      "id": "quick_1777967227436_jmkl9v",
+      "slug": "ventilateur-tour-de-cou-rechargeable-usb-mosbs4rw",
+      "name": "Ventilateur tour de cou rechargeable USB",
+      "status": "draft",
+      "image": "/uploads/generated-products/ventilateur-tour-de-cou.webp",
+      "reasons": [
+        "image_generee_non_preuve_exacte"
+      ]
+    },
+    {
+      "id": "quick_1777967227430_q1m0xu",
+      "slug": "compteur-energie-wifi-ketotek-63a-mosbs4rq",
+      "name": "Compteur d’énergie WiFi KETOTEK 63A",
+      "status": "draft",
+      "image": "/uploads/generated-products/compteur-energie-wifi.webp",
+      "reasons": [
+        "image_generee_non_preuve_exacte"
+      ]
+    },
+    {
+      "id": "quick_1777967227424_hcgr0h",
+      "slug": "filtre-de-douche-chrome-universel-mosbs4rk",
+      "name": "Filtre de douche chromé universel",
+      "status": "draft",
+      "image": "/uploads/generated-products/filtre-douche-chrome.webp",
+      "reasons": [
+        "image_generee_non_preuve_exacte"
+      ]
+    },
+    {
+      "id": "quick_1777967227418_rtcb72",
+      "slug": "cassette-velo-sunrace-a-verifier-mosbs4re",
+      "name": "Cassette vélo SunRace - compatibilité à vérifier",
+      "status": "draft",
+      "image": "/uploads/generated-products/cassette-velo.webp",
+      "reasons": [
+        "image_generee_non_preuve_exacte",
+        "fiche_a_verifier_visible_client"
+      ]
+    },
+    {
+      "id": "quick_1777967227411_o8dn1w",
+      "slug": "systeme-d-alerte-sos-wifi-avec-2-boutons-mosbs4r7",
+      "name": "Système d’alerte SOS WiFi avec 2 boutons",
+      "status": "draft",
+      "image": "/uploads/generated-products/systeme-alerte-sos-wifi.webp",
+      "reasons": [
+        "image_generee_non_preuve_exacte"
+      ]
+    },
+    {
+      "id": "quick_1777967227405_xiog25",
+      "slug": "kit-habillage-console-centrale-effet-carbone-mosbs4r1",
+      "name": "Kit habillage console centrale effet carbone",
+      "status": "draft",
+      "image": "/uploads/generated-products/habillage-console-carbone.webp",
+      "reasons": [
+        "image_generee_non_preuve_exacte"
+      ]
+    },
+    {
+      "id": "quick_1777967227399_3ngsxx",
+      "slug": "regulateur-d-alternateur-are4011-12v-mosbs4qv",
+      "name": "Régulateur d’alternateur ARE4011 12V",
+      "status": "draft",
+      "image": "/uploads/generated-products/regulateur-alternateur.webp",
+      "reasons": [
+        "image_generee_non_preuve_exacte"
+      ]
+    },
+    {
+      "id": "quick_1777967227392_x08el0",
+      "slug": "compteur-gps-85-mm-0-125-km-h-mosbs4qo",
+      "name": "Compteur GPS 85 mm 0-125 km/h",
+      "status": "draft",
+      "image": "/uploads/generated-products/compteur-gps-85mm.webp",
+      "reasons": [
+        "image_generee_non_preuve_exacte"
+      ]
+    },
+    {
+      "id": "quick_1777967227385_6kinul",
+      "slug": "carburateur-type-pwk-avec-durite-et-gicleurs-mosbs4qh",
+      "name": "Carburateur type PWK avec durite et gicleurs",
+      "status": "draft",
+      "image": "/uploads/generated-products/carburateur-pwk-kit.webp",
+      "reasons": [
+        "image_generee_non_preuve_exacte"
+      ]
+    },
+    {
+      "id": "quick_1777967227378_a4y2s1",
+      "slug": "poche-de-froid-epaule-revix-reusable-mosbs4qa",
+      "name": "Poche de froid épaule Revix réutilisable",
+      "status": "draft",
+      "image": "/uploads/generated-products/poche-froid-epaule.webp",
+      "reasons": [
+        "image_generee_non_preuve_exacte"
+      ]
+    },
+    {
+      "id": "quick_1777967227371_z392tm",
+      "slug": "accoudoir-central-voiture-avec-rangements-usb-mosbs4q3",
+      "name": "Accoudoir central voiture avec rangements USB",
+      "status": "draft",
+      "image": "/uploads/generated-products/accoudoir-central-usb.webp",
+      "reasons": [
+        "image_generee_non_preuve_exacte"
+      ]
+    },
+    {
+      "id": "quick_1777967227326_2d240r",
+      "slug": "paire-de-supports-reglables-pour-coffre-voiture-mosbs4ou",
+      "name": "Supports réglables pour coffre voiture - paire",
+      "status": "draft",
+      "image": "/uploads/generated-products/supports-coffre-reglables.webp",
+      "reasons": [
+        "image_generee_non_preuve_exacte"
+      ]
+    },
+    {
+      "id": "quick_1777965447791_zo5ykz",
+      "slug": "carburateur-chinaroller-4t-50ccm-euro4-alpha-motors-firenze-50-euro-4-no-mosapzlb",
+      "name": "Carburateur scooter 4T 50cc Euro 4 - à vérifier",
+      "status": "draft",
+      "image": "https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&w=900&q=80",
+      "reasons": [
+        "image_unsplash_generique",
+        "fiche_a_verifier_visible_client"
+      ]
+    },
+    {
+      "id": "quick_1777646055749_ij6xpa",
+      "slug": "mannequin-tete-vitrine-test-mon0kb45",
+      "name": "Buste mannequin vitrine - à vérifier",
+      "status": "draft",
+      "image": "/uploads/generated-products/mannequin-vitrine-placeholder.webp",
+      "reasons": [
+        "image_generee_non_preuve_exacte",
+        "image_placeholder",
+        "fiche_a_verifier_visible_client"
+      ]
+    }
+  ],
+  "backupPath": null,
+  "outputDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\public-image-hold-20260611",
+  "safety": {
+    "noSupplierOrder": true,
+    "noPayment": true,
+    "noPublication": true,
+    "noDeletion": true,
+    "onlyDraftHoldLocalProducts": false
+  }
+}

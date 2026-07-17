@@ -1,0 +1,55 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { ArrowRight, ShieldCheck, Store } from "lucide-react";
+import { CustomerJourneyPanel } from "@/components/CustomerJourneyPanel";
+import { PageHeader } from "@/components/PageHeader";
+import { ServiceReadinessPanel } from "@/components/ServiceReadinessPanel";
+import { getStorefrontControlMetrics } from "@/lib/storefront-control-metrics";
+
+export const metadata: Metadata = {
+  title: "Produits partenaires",
+  description:
+    "Produits partenaires Maxi Trouvaille avec paiement sécurisé, suivi colis et validation avant vente.",
+};
+
+export default async function LegacyPartnerProductsPage() {
+  const metrics = await getStorefrontControlMetrics();
+
+  return (
+    <>
+      <PageHeader
+        eyebrow="Produits partenaires"
+        title="Produits partenaires Maxi Trouvaille"
+        description="Cette ancienne adresse reste propre et renvoie vers la vitrine partenaires, avec paiement Maxi Trouvaille, suivi colis et service client centralisé."
+      />
+      <div className="container-page grid gap-8 py-10">
+        <ServiceReadinessPanel metrics={metrics} />
+        <CustomerJourneyPanel />
+
+        <section className="grid gap-5 rounded-lg border border-line bg-[#faf7f0] p-5 shadow-sm md:grid-cols-[1fr_auto] md:items-center">
+          <div>
+            <p className="inline-flex items-center gap-2 rounded-md bg-[#eef8f6] px-3 py-2 text-sm font-black uppercase text-teal">
+              <ShieldCheck size={16} aria-hidden="true" />
+              Vitrine contrôlée
+            </p>
+            <h2 className="mt-4 max-w-3xl text-2xl font-black leading-tight sm:text-3xl">
+              Les produits visibles restent limités aux fiches prêtes.
+            </h2>
+            <p className="mt-3 max-w-3xl text-sm font-semibold leading-6 text-muted">
+              Les rayons partenaires sont consultables. Une fiche devient
+              achetable seulement quand les preuves essentielles sont réunies.
+            </p>
+          </div>
+          <Link
+            href="/produits-partenaires"
+            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-5 text-sm font-black text-white hover:bg-[#2b2b2b]"
+          >
+            <Store size={17} aria-hidden="true" />
+            Voir la vitrine
+            <ArrowRight size={16} aria-hidden="true" />
+          </Link>
+        </section>
+      </div>
+    </>
+  );
+}

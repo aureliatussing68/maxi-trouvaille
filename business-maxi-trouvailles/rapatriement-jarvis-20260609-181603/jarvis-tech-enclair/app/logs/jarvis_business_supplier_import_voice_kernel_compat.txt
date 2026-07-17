@@ -1,0 +1,27 @@
+Compatibilite vocale fournisseur/import - 2026-06-09 15:43:18
+
+Global: OK
+Statut: SUPPLIER_IMPORT_VOICE_KERNEL_COMPAT_READY
+Message court: Compatibilite vocale fournisseur/import OK: phrase courte, noyau vocal pret, logs propres, aucun audio lance.
+Compatibilite noyau vocal: oui
+Phrase prete: oui
+Noyau reponse vocale pret: oui
+Temps readiness vocale: 60 ms
+Logs runtime compatibles: oui
+Lecture contenu logs: non
+Tailles stdout/stderr actives: 0 / 0 octets
+Mouss peut valider maintenant: non
+Import autorise: non
+
+Phrase controlee:
+Mouss, fournisseur import est bloque: 4 points a traiter, 55 sur 55 preuves manquent, file validation 0 sur 6. Je ne valide rien et je ne lance aucune action.
+
+Checks:
+- Phrase fournisseur/import prete: OK
+- Phrase compatible noyau vocal: OK
+- Noyau reponse vocale pret: OK
+- Aucun enregistrement vocal lance: OK
+- Logs runtime verifies par metadonnees: OK
+- Aucune action sensible lancee: OK
+
+Securite: verification noyau vocal/logs en lecture seule, aucun detail produit ou chemin expose, aucun contenu de log lu, aucun audio lance, aucune recherche web/API, aucun import, achat, paiement, publication ou suppression.

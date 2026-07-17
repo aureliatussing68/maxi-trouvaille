@@ -1,0 +1,35 @@
+Checkpoint reprise fournisseur/import - 2026-06-09 15:43:19
+
+Global: OK
+Statut: SUPPLIER_IMPORT_RESUME_CHECKPOINT_READY
+Message court: Checkpoint reprise fournisseur/import pret: 4 etapes manuelles, validation et import bloques, aucune action Jarvis.
+Checkpoint pret: oui
+Actions manuelles: 4/4
+Actions executables par Jarvis: 0
+Preuves manquantes: 55/55
+File validation prete: 0/6
+Validation autorisee: non
+Import autorise: non
+Mode jeu/fenetres non intrusif: oui
+
+Phrase reprise:
+Reprise fournisseur/import: 4 actions manuelles, 55 sur 55 preuves manquent, file validation 0 sur 6; Jarvis garde validation et import bloques.
+
+Etapes reprise:
+- P1 Reprise courte: READY - Lire le resume court sans audio automatique ni details produit.
+- P2 Preuves fournisseur: A_COMPLETER - 55/55 champ(s) preuve fournisseur restent a completer manuellement.
+- P3 File validation: A_RELIRE - 0/6 item(s) pret(s); relire sans exposer les lignes produit.
+- P4 Sas business: BLOQUE - Repasser les gardes business apres validation humaine specifique.
+
+Checks:
+- File actions manuelle prete: OK
+- Resume vocal court pret: OK
+- Jeu/fenetres non intrusifs: OK
+- Etapes reprise bornees: OK
+- Phrase reprise courte: OK
+- Validation/import bloques: OK
+- Aucune action sensible: OK
+- Aucun contenu produit/fenetre expose: OK
+- Aucune interference fenetre/navigateur: OK
+
+Securite: checkpoint lecture seule, aucune recherche web/API, aucun import, achat, paiement, publication ou suppression, aucune fenetre bougee, aucun focus change, aucun navigateur ouvert, aucun detail produit, chemin ou fenetre expose.

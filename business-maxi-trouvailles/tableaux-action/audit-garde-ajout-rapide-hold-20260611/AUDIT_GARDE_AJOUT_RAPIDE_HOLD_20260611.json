@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "status": "OK_QUICK_PRODUCT_HOLD_GUARD_ACTIVE",
+  "generatedAtLocal": "12/06/2026 01:26:00",
+  "source": {
+    "path": "src\\lib\\quick-products.ts",
+    "createDraftLine": 679,
+    "holdNoteLine": 667
+  },
+  "metrics": {
+    "quickProductCount": 81,
+    "publishedQuickProductCount": 0,
+    "missingStatusCount": 0,
+    "statusCounts": {
+      "draft": 81
+    }
+  },
+  "failures": [],
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true
+  }
+}

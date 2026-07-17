@@ -1,0 +1,40 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-13T12:12:11.408Z",
+  "generatedAtLocal": "2026-06-13 14:12 Europe/Paris",
+  "mode": "read_only_audit_integration_next_wave_active_batch_webp_deposit_intake",
+  "status": "OK_NEXT_WAVE_ACTIVE_BATCH_WEBP_DEPOSIT_INTAKE_GUARDED",
+  "activeBatchId": "lot-01",
+  "productCount": 4,
+  "imageTaskCount": 12,
+  "expectedWebpFileCount": 12,
+  "validExistingWebpFileCount": 0,
+  "existingWebpFileCount": 0,
+  "missingWebpFileCount": 12,
+  "invalidWebpFileCount": 0,
+  "readmeFileCount": 4,
+  "csvRowCount": 12,
+  "failureCount": 0,
+  "sensitiveFindingCount": 0,
+  "scannedFileCount": 7,
+  "issues": [],
+  "sources": {
+    "webpDepositPath": "business-maxi-trouvailles/tableaux-action/depots-webp-lot-actif-prochaine-vague-sourcing-integration-articles/20260613/WEBP_DEPOSIT_INTAKE_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "microPacksPath": "business-maxi-trouvailles/tableaux-action/micro-packs-lot-actif-prochaine-vague-sourcing-integration-articles/20260613/MICRO_PACKS_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "microPacksAuditPath": "business-maxi-trouvailles/tableaux-action/audit-micro-packs-lot-actif-prochaine-vague-sourcing-integration-articles/20260613/AUDIT_MICRO_PACKS_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "proofIntakeAuditPath": "business-maxi-trouvailles/tableaux-action/audit-preuves-internes-lot-actif-prochaine-vague-sourcing-integration-articles/20260613/AUDIT_PROOF_INTAKE_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "csvPath": "business-maxi-trouvailles/tableaux-action/depots-webp-lot-actif-prochaine-vague-sourcing-integration-articles/20260613/depots-webp-lot-actif-items-20260613.csv"
+  },
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noSupplierValueExport": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noExternalContact": true,
+    "noImageDownload": true,
+    "noImageFileCreated": true,
+    "noPublicImageWrite": true
+  }
+}

@@ -1,37 +1,76 @@
 import type { Metadata } from "next";
-import { RotateCcw, ShieldCheck } from "lucide-react";
+import { ClipboardCheck, Headphones, RotateCcw, ShieldCheck } from "lucide-react";
+import { CustomerJourneyPanel } from "@/components/CustomerJourneyPanel";
+import { CustomerSupportQuickLinks } from "@/components/CustomerSupportQuickLinks";
 import { PageHeader } from "@/components/PageHeader";
+import { ServiceReadinessPanel } from "@/components/ServiceReadinessPanel";
+import { getStorefrontControlMetrics } from "@/lib/storefront-control-metrics";
 
 export const metadata: Metadata = {
   title: "Retours et remboursements",
 };
 
-export default function ReturnsPage() {
+export default async function ReturnsPage() {
+  const metrics = await getStorefrontControlMetrics();
+
   return (
     <>
       <PageHeader
         eyebrow="Retours"
         title="Retours et remboursements"
-        description="Politique provisoire a finaliser selon les produits, les obligations legales et les conditions de vente."
+        description="Un cadre simple pour traiter les demandes client avec suivi Maxi Trouvaille."
       />
-      <section className="container-page grid gap-5 py-10 md:grid-cols-2">
-        <article className="rounded-lg border border-line bg-paper p-6 shadow-sm">
-          <RotateCcw className="mb-4 text-teal" size={28} aria-hidden="true" />
-          <h2 className="text-xl font-black">Delai de retractation</h2>
-          <p className="mt-3 text-sm leading-6 text-muted">
-            Un delai legal de 14 jours est a prevoir pour les consommateurs,
-            sous reserve des exceptions applicables et de l&apos;etat du produit.
-          </p>
-        </article>
-        <article className="rounded-lg border border-line bg-paper p-6 shadow-sm">
-          <ShieldCheck className="mb-4 text-teal" size={28} aria-hidden="true" />
-          <h2 className="text-xl font-black">Controle produit</h2>
-          <p className="mt-3 text-sm leading-6 text-muted">
-            Les retours devront etre controles avant remboursement, surtout pour
-            les lots, objets ouverts ou produits quasi neufs.
-          </p>
-        </article>
-      </section>
+      <div className="container-page grid gap-8 py-10">
+        <ServiceReadinessPanel metrics={metrics} />
+        <CustomerJourneyPanel />
+        <CustomerSupportQuickLinks />
+        <section className="grid gap-5 md:grid-cols-2">
+          <article className="rounded-lg border border-line bg-[#faf7f0] p-6 shadow-sm md:col-span-2">
+            <ShieldCheck className="mb-4 text-teal" size={28} aria-hidden="true" />
+            <p className="text-sm font-black uppercase text-teal">
+              Cadre client clair
+            </p>
+            <h2 className="mt-2 text-2xl font-black">
+              Les demandes restent suivies par Maxi Trouvaille.
+            </h2>
+            <p className="mt-3 max-w-3xl text-sm leading-6 text-muted">
+              Pour les produits partenaires comme pour les autres commandes, le
+              client garde Maxi Trouvaille comme repère pour expliquer la demande,
+              vérifier le produit concerné et suivre la réponse.
+            </p>
+          </article>
+          <article className="rounded-lg border border-line bg-paper p-6 shadow-sm">
+            <RotateCcw className="mb-4 text-teal" size={28} aria-hidden="true" />
+            <h2 className="text-xl font-black">Delai de retractation</h2>
+            <p className="mt-3 text-sm leading-6 text-muted">
+              Les consommateurs disposent en principe d&apos;un delai legal de 14
+              jours a compter de la reception, sous reserve des exceptions
+              applicables et de l&apos;etat du produit retourne.
+            </p>
+          </article>
+          <article className="rounded-lg border border-line bg-paper p-6 shadow-sm">
+            <ClipboardCheck
+              className="mb-4 text-teal"
+              size={28}
+              aria-hidden="true"
+            />
+            <h2 className="text-xl font-black">Controle produit</h2>
+            <p className="mt-3 text-sm leading-6 text-muted">
+              Chaque retour est examine avant remboursement afin de confirmer le
+              produit concerne, son etat et le suivi de la demande.
+            </p>
+          </article>
+          <article className="rounded-lg border border-line bg-paper p-6 shadow-sm md:col-span-2">
+            <Headphones className="mb-4 text-teal" size={28} aria-hidden="true" />
+            <h2 className="text-xl font-black">Demande accompagnée</h2>
+            <p className="mt-3 text-sm leading-6 text-muted">
+              Le service client peut demander les informations utiles: numéro de
+              commande, produit concerné, motif et photos si nécessaire. Le suivi
+              reste centralisé pour garder une réponse lisible.
+            </p>
+          </article>
+        </section>
+      </div>
     </>
   );
 }

@@ -1,0 +1,48 @@
+{
+  "checked_at": "2026-06-09 17:57:29",
+  "ok": false,
+  "checks": {
+    "project_path_exists": true,
+    "dev_url_configured": true,
+    "admin_url_configured": true,
+    "navigation_ok": false,
+    "layout_ready": true,
+    "business_gate_ready": true
+  },
+  "project": {
+    "label": "Maxi Trouvailles",
+    "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille",
+    "dev_url": "http://127.0.0.1:3010",
+    "admin_url": "http://127.0.0.1:3010/admin/dropshipping"
+  },
+  "navigation": {
+    "ok": false,
+    "ok_count": 0,
+    "total": 13,
+    "base_url": "http://127.0.0.1:3010"
+  },
+  "layout": {
+    "ok": true,
+    "screens_count": 2,
+    "roles": [
+      "site",
+      "admin",
+      "code",
+      "logs",
+      "jarvis"
+    ]
+  },
+  "business_gate": {
+    "ok": true,
+    "real_sourcing_ready": false,
+    "expected_source_mode": "demo_or_incomplete"
+  },
+  "safety": {
+    "read_only": true,
+    "no_browser_opened": true,
+    "no_window_move": true,
+    "no_product_write": true,
+    "no_publish": true,
+    "no_order": true
+  }
+}

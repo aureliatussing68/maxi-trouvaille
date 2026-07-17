@@ -1,0 +1,32 @@
+Plan archivage produits a valider - 2026-06-09 15:43:21
+
+Dossier source: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider
+Dossier archive propose: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\archives-a-valider
+Groupes doublons: 1
+Dossiers a archiver apres validation: 5
+Message court: Plan archivage: 5 dossier(s), 1 groupe(s), validation manuelle avant deplacement.
+
+Plan:
+- Organisateur de cables de voyage compact
+  Garder: organisateur-de-cables-de-voyage-compact_20260523_130345
+  Archiver apres validation: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_124353
+  Vers: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\archives-a-valider\organisateur-de-cables-de-voyage-compact\organisateur-de-cables-de-voyage-compact_20260523_124353
+- Organisateur de cables de voyage compact
+  Garder: organisateur-de-cables-de-voyage-compact_20260523_130345
+  Archiver apres validation: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_122413
+  Vers: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\archives-a-valider\organisateur-de-cables-de-voyage-compact\organisateur-de-cables-de-voyage-compact_20260523_122413
+- Organisateur de cables de voyage compact
+  Garder: organisateur-de-cables-de-voyage-compact_20260523_130345
+  Archiver apres validation: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_121528
+  Vers: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\archives-a-valider\organisateur-de-cables-de-voyage-compact\organisateur-de-cables-de-voyage-compact_20260523_121528
+- Organisateur de cables de voyage compact
+  Garder: organisateur-de-cables-de-voyage-compact_20260523_130345
+  Archiver apres validation: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_084346
+  Vers: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\archives-a-valider\organisateur-de-cables-de-voyage-compact\organisateur-de-cables-de-voyage-compact_20260523_084346
+- Organisateur de cables de voyage compact
+  Garder: organisateur-de-cables-de-voyage-compact_20260523_130345
+  Archiver apres validation: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_084322
+  Vers: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\archives-a-valider\organisateur-de-cables-de-voyage-compact\organisateur-de-cables-de-voyage-compact_20260523_084322
+
+Message: Plan d'archivage pret. Aucun fichier n'a ete deplace.
+Securite: plan seulement, aucun fichier supprime/deplace, aucune publication.

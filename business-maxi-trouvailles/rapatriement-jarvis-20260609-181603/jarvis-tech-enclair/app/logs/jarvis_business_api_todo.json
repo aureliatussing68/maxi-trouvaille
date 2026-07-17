@@ -1,0 +1,60 @@
+{
+  "checked_at": "2026-06-09 18:00:59",
+  "ok": true,
+  "real_sourcing_ready": false,
+  "source_mode": "demo",
+  "short_message": "API business: 2 variable(s) a completer, aucune valeur de cle affichee.",
+  "key_statuses": [
+    {
+      "variable": "ALIEXPRESS_APP_KEY",
+      "status": "PARTIEL"
+    },
+    {
+      "variable": "ALIEXPRESS_APP_SECRET",
+      "status": "OK"
+    },
+    {
+      "variable": "ALIEXPRESS_TRACKING_ID",
+      "status": "MANQUANT"
+    }
+  ],
+  "missing_or_partial": [
+    {
+      "variable": "ALIEXPRESS_APP_KEY",
+      "status": "PARTIEL"
+    },
+    {
+      "variable": "ALIEXPRESS_TRACKING_ID",
+      "status": "MANQUANT"
+    }
+  ],
+  "required_next": [
+    {
+      "variable": "ALIEXPRESS_APP_KEY",
+      "where": "Jarvis .env puis OpenWebUI/connecteur si utilise",
+      "why": "authentifier la Dropshipping/Affiliate API"
+    },
+    {
+      "variable": "ALIEXPRESS_APP_SECRET",
+      "where": "Jarvis .env puis OpenWebUI/connecteur si utilise",
+      "why": "signer les appels API"
+    },
+    {
+      "variable": "ALIEXPRESS_TRACKING_ID",
+      "where": "Jarvis .env / Maxi .env.local",
+      "why": "preparer l'affiliation et le suivi des liens"
+    }
+  ],
+  "manual_steps": [
+    "Verifier que ALIEXPRESS_APP_KEY n'est pas tronquee ni placeholder.",
+    "Ajouter ALIEXPRESS_TRACKING_ID quand disponible.",
+    "Relancer Jarvis statut sourcing produits.",
+    "Ne lancer aucun achat ni publication automatique."
+  ],
+  "safety": {
+    "no_values_exposed": true,
+    "read_only": true,
+    "no_purchase": true,
+    "no_publication": true
+  }
+}

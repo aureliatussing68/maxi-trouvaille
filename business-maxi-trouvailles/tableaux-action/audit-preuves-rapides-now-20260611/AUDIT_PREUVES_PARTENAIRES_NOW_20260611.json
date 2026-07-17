@@ -1,0 +1,727 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-11T06:02:33.172Z",
+  "generatedAtLocal": "11/06/2026 08:02",
+  "mode": "read_only_fast_partner_proof_now_audit",
+  "status": "HOLD_FAST_PROOFS_MISSING",
+  "productCount": 5,
+  "readyReviewCount": 0,
+  "holdCount": 5,
+  "missingOrInvalidFieldCount": 60,
+  "csvOverrideCount": 10,
+  "products": [
+    {
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "slug": "pochette-organisateur-cables-double-couche-voyage",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "priority": 5,
+      "categoryId": "dropshipping-accessoires",
+      "status": "HOLD_FAST_PROOFS_MISSING",
+      "fieldCount": 12,
+      "okFieldCount": 0,
+      "missingOrInvalidFieldCount": 12,
+      "blockers": [
+        "checkedAt:missing_or_placeholder",
+        "supplierSellerName:missing_or_placeholder",
+        "exactVariantChosen:missing_or_placeholder",
+        "deliveryFranceEuropeProof:missing_or_placeholder",
+        "deliveryEstimateForCustomer:missing_or_placeholder",
+        "trackingAvailable:missing_or_placeholder",
+        "trackingAvailable:tracking_answer_not_clear_yes_no",
+        "pricingProof:missing_or_placeholder",
+        "shippingProof:missing_or_placeholder",
+        "imageProof:missing_or_placeholder",
+        "imageRightsProof:missing_or_placeholder",
+        "finalDecision:final_decision_not_ready_review",
+        "reviewedByMouss:missing_human_review_mouss"
+      ],
+      "fields": [
+        {
+          "key": "checkedAt",
+          "label": "Date de verification",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "supplierSellerName",
+          "label": "Nom vendeur fournisseur",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "exactVariantChosen",
+          "label": "Variante exacte",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "deliveryFranceEuropeProof",
+          "label": "Preuve delai France/Europe",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "deliveryEstimateForCustomer",
+          "label": "Delai client Maxi",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "trackingAvailable",
+          "label": "Suivi disponible",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder",
+            "tracking_answer_not_clear_yes_no"
+          ]
+        },
+        {
+          "key": "pricingProof",
+          "label": "Preuve prix",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "shippingProof",
+          "label": "Preuve livraison",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "imageProof",
+          "label": "Preuve image exacte",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "imageRightsProof",
+          "label": "Droits image",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "finalDecision",
+          "label": "Decision finale",
+          "value": "HOLD",
+          "ok": false,
+          "issues": [
+            "final_decision_not_ready_review"
+          ]
+        },
+        {
+          "key": "reviewedByMouss",
+          "label": "Revue Mouss",
+          "value": "non",
+          "ok": false,
+          "issues": [
+            "missing_human_review_mouss"
+          ]
+        }
+      ],
+      "publicationAllowed": false,
+      "supplierOrderAllowed": false,
+      "paymentAllowed": false
+    },
+    {
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "slug": "support-pc-portable-pliant-aluminium-ajustable",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "priority": 6,
+      "categoryId": "dropshipping-high-tech",
+      "status": "HOLD_FAST_PROOFS_MISSING",
+      "fieldCount": 12,
+      "okFieldCount": 0,
+      "missingOrInvalidFieldCount": 12,
+      "blockers": [
+        "checkedAt:missing_or_placeholder",
+        "supplierSellerName:missing_or_placeholder",
+        "exactVariantChosen:missing_or_placeholder",
+        "deliveryFranceEuropeProof:missing_or_placeholder",
+        "deliveryEstimateForCustomer:missing_or_placeholder",
+        "trackingAvailable:missing_or_placeholder",
+        "trackingAvailable:tracking_answer_not_clear_yes_no",
+        "pricingProof:missing_or_placeholder",
+        "shippingProof:missing_or_placeholder",
+        "imageProof:missing_or_placeholder",
+        "imageRightsProof:missing_or_placeholder",
+        "finalDecision:final_decision_not_ready_review",
+        "reviewedByMouss:missing_human_review_mouss"
+      ],
+      "fields": [
+        {
+          "key": "checkedAt",
+          "label": "Date de verification",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "supplierSellerName",
+          "label": "Nom vendeur fournisseur",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "exactVariantChosen",
+          "label": "Variante exacte",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "deliveryFranceEuropeProof",
+          "label": "Preuve delai France/Europe",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "deliveryEstimateForCustomer",
+          "label": "Delai client Maxi",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "trackingAvailable",
+          "label": "Suivi disponible",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder",
+            "tracking_answer_not_clear_yes_no"
+          ]
+        },
+        {
+          "key": "pricingProof",
+          "label": "Preuve prix",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "shippingProof",
+          "label": "Preuve livraison",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "imageProof",
+          "label": "Preuve image exacte",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "imageRightsProof",
+          "label": "Droits image",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "finalDecision",
+          "label": "Decision finale",
+          "value": "HOLD",
+          "ok": false,
+          "issues": [
+            "final_decision_not_ready_review"
+          ]
+        },
+        {
+          "key": "reviewedByMouss",
+          "label": "Revue Mouss",
+          "value": "non",
+          "ok": false,
+          "issues": [
+            "missing_human_review_mouss"
+          ]
+        }
+      ],
+      "publicationAllowed": false,
+      "supplierOrderAllowed": false,
+      "paymentAllowed": false
+    },
+    {
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "slug": "filet-rangement-coffre-voiture-sangles-fixes",
+      "name": "Filet rangement coffre voiture à sangles fixes",
+      "priority": 7,
+      "categoryId": "dropshipping-auto-moto",
+      "status": "HOLD_FAST_PROOFS_MISSING",
+      "fieldCount": 12,
+      "okFieldCount": 0,
+      "missingOrInvalidFieldCount": 12,
+      "blockers": [
+        "checkedAt:missing_or_placeholder",
+        "supplierSellerName:missing_or_placeholder",
+        "exactVariantChosen:missing_or_placeholder",
+        "deliveryFranceEuropeProof:missing_or_placeholder",
+        "deliveryEstimateForCustomer:missing_or_placeholder",
+        "trackingAvailable:missing_or_placeholder",
+        "trackingAvailable:tracking_answer_not_clear_yes_no",
+        "pricingProof:missing_or_placeholder",
+        "shippingProof:missing_or_placeholder",
+        "imageProof:missing_or_placeholder",
+        "imageRightsProof:missing_or_placeholder",
+        "finalDecision:final_decision_not_ready_review",
+        "reviewedByMouss:missing_human_review_mouss"
+      ],
+      "fields": [
+        {
+          "key": "checkedAt",
+          "label": "Date de verification",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "supplierSellerName",
+          "label": "Nom vendeur fournisseur",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "exactVariantChosen",
+          "label": "Variante exacte",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "deliveryFranceEuropeProof",
+          "label": "Preuve delai France/Europe",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "deliveryEstimateForCustomer",
+          "label": "Delai client Maxi",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "trackingAvailable",
+          "label": "Suivi disponible",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder",
+            "tracking_answer_not_clear_yes_no"
+          ]
+        },
+        {
+          "key": "pricingProof",
+          "label": "Preuve prix",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "shippingProof",
+          "label": "Preuve livraison",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "imageProof",
+          "label": "Preuve image exacte",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "imageRightsProof",
+          "label": "Droits image",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "finalDecision",
+          "label": "Decision finale",
+          "value": "HOLD",
+          "ok": false,
+          "issues": [
+            "final_decision_not_ready_review"
+          ]
+        },
+        {
+          "key": "reviewedByMouss",
+          "label": "Revue Mouss",
+          "value": "non",
+          "ok": false,
+          "issues": [
+            "missing_human_review_mouss"
+          ]
+        }
+      ],
+      "publicationAllowed": false,
+      "supplierOrderAllowed": false,
+      "paymentAllowed": false
+    },
+    {
+      "id": "ali_partner_20260527_gourde_pliable_001",
+      "slug": "gourde-pliable-silicone-voyage-mousqueton",
+      "name": "Gourde pliable silicone voyage avec mousqueton",
+      "priority": 8,
+      "categoryId": "dropshipping-accessoires",
+      "status": "HOLD_FAST_PROOFS_MISSING",
+      "fieldCount": 12,
+      "okFieldCount": 0,
+      "missingOrInvalidFieldCount": 12,
+      "blockers": [
+        "checkedAt:missing_or_placeholder",
+        "supplierSellerName:missing_or_placeholder",
+        "exactVariantChosen:missing_or_placeholder",
+        "deliveryFranceEuropeProof:missing_or_placeholder",
+        "deliveryEstimateForCustomer:missing_or_placeholder",
+        "trackingAvailable:missing_or_placeholder",
+        "trackingAvailable:tracking_answer_not_clear_yes_no",
+        "pricingProof:missing_or_placeholder",
+        "shippingProof:missing_or_placeholder",
+        "imageProof:missing_or_placeholder",
+        "imageRightsProof:missing_or_placeholder",
+        "finalDecision:final_decision_not_ready_review",
+        "reviewedByMouss:missing_human_review_mouss"
+      ],
+      "fields": [
+        {
+          "key": "checkedAt",
+          "label": "Date de verification",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "supplierSellerName",
+          "label": "Nom vendeur fournisseur",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "exactVariantChosen",
+          "label": "Variante exacte",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "deliveryFranceEuropeProof",
+          "label": "Preuve delai France/Europe",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "deliveryEstimateForCustomer",
+          "label": "Delai client Maxi",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "trackingAvailable",
+          "label": "Suivi disponible",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder",
+            "tracking_answer_not_clear_yes_no"
+          ]
+        },
+        {
+          "key": "pricingProof",
+          "label": "Preuve prix",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "shippingProof",
+          "label": "Preuve livraison",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "imageProof",
+          "label": "Preuve image exacte",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "imageRightsProof",
+          "label": "Droits image",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "finalDecision",
+          "label": "Decision finale",
+          "value": "HOLD",
+          "ok": false,
+          "issues": [
+            "final_decision_not_ready_review"
+          ]
+        },
+        {
+          "key": "reviewedByMouss",
+          "label": "Revue Mouss",
+          "value": "non",
+          "ok": false,
+          "issues": [
+            "missing_human_review_mouss"
+          ]
+        }
+      ],
+      "publicationAllowed": false,
+      "supplierOrderAllowed": false,
+      "paymentAllowed": false
+    },
+    {
+      "id": "ali_partner_20260527_lampes_detection_001",
+      "slug": "lampe-led-detection-mouvement-usb-rechargeable",
+      "name": "Lampe LED à détection de mouvement USB rechargeable",
+      "priority": 9,
+      "categoryId": "dropshipping-maison",
+      "status": "HOLD_FAST_PROOFS_MISSING",
+      "fieldCount": 12,
+      "okFieldCount": 0,
+      "missingOrInvalidFieldCount": 12,
+      "blockers": [
+        "checkedAt:missing_or_placeholder",
+        "supplierSellerName:missing_or_placeholder",
+        "exactVariantChosen:missing_or_placeholder",
+        "deliveryFranceEuropeProof:missing_or_placeholder",
+        "deliveryEstimateForCustomer:missing_or_placeholder",
+        "trackingAvailable:missing_or_placeholder",
+        "trackingAvailable:tracking_answer_not_clear_yes_no",
+        "pricingProof:missing_or_placeholder",
+        "shippingProof:missing_or_placeholder",
+        "imageProof:missing_or_placeholder",
+        "imageRightsProof:missing_or_placeholder",
+        "finalDecision:final_decision_not_ready_review",
+        "reviewedByMouss:missing_human_review_mouss"
+      ],
+      "fields": [
+        {
+          "key": "checkedAt",
+          "label": "Date de verification",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "supplierSellerName",
+          "label": "Nom vendeur fournisseur",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "exactVariantChosen",
+          "label": "Variante exacte",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "deliveryFranceEuropeProof",
+          "label": "Preuve delai France/Europe",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "deliveryEstimateForCustomer",
+          "label": "Delai client Maxi",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "trackingAvailable",
+          "label": "Suivi disponible",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder",
+            "tracking_answer_not_clear_yes_no"
+          ]
+        },
+        {
+          "key": "pricingProof",
+          "label": "Preuve prix",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "shippingProof",
+          "label": "Preuve livraison",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "imageProof",
+          "label": "Preuve image exacte",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "imageRightsProof",
+          "label": "Droits image",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "key": "finalDecision",
+          "label": "Decision finale",
+          "value": "HOLD",
+          "ok": false,
+          "issues": [
+            "final_decision_not_ready_review"
+          ]
+        },
+        {
+          "key": "reviewedByMouss",
+          "label": "Revue Mouss",
+          "value": "non",
+          "ok": false,
+          "issues": [
+            "missing_human_review_mouss"
+          ]
+        }
+      ],
+      "publicationAllowed": false,
+      "supplierOrderAllowed": false,
+      "paymentAllowed": false
+    }
+  ],
+  "sources": {
+    "exportJsonPath": "business-maxi-trouvailles\\tableaux-action\\preuves-rapides-a-remplir-20260611\\A_REMPLIR_PREUVES_PARTENAIRES_NOW_20260611.json",
+    "exportCsvPath": "business-maxi-trouvailles\\tableaux-action\\preuves-rapides-a-remplir-20260611\\A_REMPLIR_PREUVES_PARTENAIRES_NOW_20260611.csv"
+  },
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true,
+    "manualValidationRequired": true
+  }
+}

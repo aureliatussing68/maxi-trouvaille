@@ -1,0 +1,63 @@
+{
+  "ok": true,
+  "url": "http://127.0.0.1:3045/admin/pilotage",
+  "checks": [
+    {
+      "name": "text:hold du jour",
+      "ok": true
+    },
+    {
+      "name": "text:zone prioritaire du jour",
+      "ok": true
+    },
+    {
+      "name": "text:zone prioritaire",
+      "ok": true
+    },
+    {
+      "name": "text:ouvrir zone",
+      "ok": true
+    },
+    {
+      "name": "text:prochain produit a verifier",
+      "ok": true
+    },
+    {
+      "name": "priority-zone-href",
+      "ok": true
+    },
+    {
+      "name": "navigated-proof-url-zone",
+      "ok": true
+    },
+    {
+      "name": "proof-page-zone-label",
+      "ok": true
+    },
+    {
+      "name": "console-errors",
+      "ok": true,
+      "details": []
+    },
+    {
+      "name": "mobile-zone-text",
+      "ok": true
+    },
+    {
+      "name": "mobile-horizontal-overflow",
+      "ok": true,
+      "details": 0
+    }
+  ],
+  "screenshots": {
+    "desktop": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-124-zone-prioritaire-pilotage-desktop.png",
+    "mobile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-124-zone-prioritaire-pilotage-mobile.png"
+  },
+  "desktopTextSample": "Maxi Trouvaille PRODUITS PARTENAIRES Accueil Dropshipping Nouveautés Promos Boutique Suivi Contact Panier 0 ADMIN Pilotage Maxi - chantier du jour Priorites, blocages et garde-fous pour avancer sans publication automatique. 2026-06-11 13:15 EUROPE/PARIS Tableau aligne sur les audits locaux business-maxi-trouvailles\\tableaux-action\\execution-du-jour-20260611\\EXECUTION_DU_JOUR_MAXI_20260611.json Commandes Preuves Images Photos Selection Actions 42 TABLEAU DU JOUR Partenaires HOLD 37 0 PUBLIE Images categories 9/9 WEBP MANQUANTS Photos produits 8/8 PREUVES VISUELLES Checkout 0 ECHEC GARDE HOLD DU JOUR Verification dropshipping prioritaire Recap actionnable pour traiter les fiches partenaires sans publier, sans paiement et sans commande fournisseur. Top verification CSV / print FICHES HOLD 37 PARTENAIRES A PROUVER TOP VERIFICATION 6 FICHES A ATTAQUER CSV COURT Pret EXPORT TERRAIN TOP IMPRESSION Prete MINI FICHES TERRAIN ZONE PRIORITAIRE Images 12 BLOCAGES TERRAIN ZONE PRIORITAIRE DU JOUR Images / droits Photos exactes, droits image et fichiers WebP a verrouiller. 12 ELEMENTS HOLD CONCERNES Ouvrir zone PROCHAIN PRODUIT A VERIFIER Organisateur de câbles et accessoires tech Decider garder",
+  "priorityHref": "/admin/preuves-partenaires?status=hold&zone=image#top-verification",
+  "proofUrl": "http://127.0.0.1:3045/admin/preuves-partenaires?status=hold&zone=image#top-verification",
+  "proofTextSample": "Maxi Trouvaille PRODUITS PARTENAIRES Accueil Dropshipping Nouveautés Promos Boutique Suivi Contact Panier 0 ADMIN Atelier preuves partenaires Fiches de verification fournisseur et blocages avant toute revue humaine. Aucun passage en vente depuis cette page. 2026-06-11 06:50 EUROPE/PARIS 15 actions partenaires a traiter business-maxi-trouvailles\\tableaux-action\\quoi-faire-maintenant-20260611\\QUOI_FAIRE_MAINTENANT_PARTENAIRES_20260611.json Pilotage Commandes Images Photos Actions 15 Fiches rapides 5 En HOLD 5 Pretes revue 0 Publication 0 RECHERCHE PREUVES Retrouver une fiche HOLD 58/58 elements affiches avec le filtre actif - Images / droits Reinitialiser Nom, slug, categorie ou preuve Statut Tous les statuts HOLD Prets revue Avec blocages Type preuve Toutes preuves Images / droits Fournisseur / SKU Prix / stock / marge Livraison / suivi Validation Mouss Filtrer FILTRES RAPIDES PREUVES Conserve la recherche et le statut actif pour traiter les HOLD par blocage. ZONE: IMAGES TOUT 58 IMAGES 58 FOURNISSEUR 58 MARGE 49 LIVRAISON 58 VALIDATION 58 58 lignes CSV pretes pour le tri terrain. Exporter CSV LOT TERRAIN DU JOUR 3 fiches HOLD a verrouiller 3 produits prioritaires issus du top verif",
+  "consoleErrors": [],
+  "mobileTextSample": "Maxi Trouvaille 0 ADMIN Pilotage Maxi - chantier du jour Priorites, blocages et garde-fous pour avancer sans publication automatique. 2026-06-11 13:15 EUROPE/PARIS Tableau aligne sur les audits locaux business-maxi-trouvailles\\tableaux-action\\execution-du-jour-20260611\\EXECUTION_DU_JOUR_MAXI_20260611.json Commandes Preuves Images Photos Selection Actions 42 TABLEAU DU JOUR Partenaires HOLD 37 0 PUBLIE Images categories 9/9 WEBP MANQUANTS Photos produits 8/8 PREUVES VISUELLES Checkout 0 ECHEC GARDE HOLD DU JOUR Verification dropshipping prioritaire Recap actionnable pour traiter les fiches partenaires sans publier, sans paiement et sans commande fournisseur. Top verification CSV / print FICHES HOLD 37 PARTENAIRES A PROUVER TOP VERIFICATION 6 FICHES A ATTAQUER CSV COURT Pret EXPORT TERRAIN TOP IMPRESSION Prete MINI FICHES TERRAIN ZONE PRIORITAIRE Images 12 BLOCAGES TERRAIN ZONE PRIORITAIRE DU JOUR Images / droits Photos exactes, droits image et fichiers WebP a verrouiller. 12 ELEMENTS HOLD CONCERNES Ouvrir zone PROCHAIN PRODUIT A VERIFIER Organisateur de câbles et accessoires tech Decider garder, remplacer, retirer ou plus tard avant toute preuve fournisseur. HOLD MISSING EVIDENCE Fi",
+  "mobileHorizontalOverflowPx": 0
+}

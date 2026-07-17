@@ -1,0 +1,93 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-11T12:02:38.252Z",
+  "targetUrl": "http://127.0.0.1:3049/admin/pilotage",
+  "checks": [
+    {
+      "label": "desktop",
+      "viewport": {
+        "width": 1366,
+        "height": 900
+      },
+      "url": "http://127.0.0.1:3049/admin/pilotage",
+      "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-128-pilotage-sprint-preuves-desktop.png",
+      "visible": {
+        "sprint": true,
+        "checklist": true
+      },
+      "openLinkCount": 3,
+      "hrefChecks": [
+        {
+          "href": "/admin/preuves-partenaires?status=hold&q=prod_partner_cable_organizer_001&zone=image#top-verification-prod_partner_cable_organizer_001",
+          "hasStatus": true,
+          "hasQuery": true,
+          "hasZone": true,
+          "hasAnchor": true
+        },
+        {
+          "href": "/admin/preuves-partenaires?status=hold&q=prod_partner_thermal_printer_001&zone=image#top-verification-prod_partner_thermal_printer_001",
+          "hasStatus": true,
+          "hasQuery": true,
+          "hasZone": true,
+          "hasAnchor": true
+        },
+        {
+          "href": "/admin/preuves-partenaires?status=hold&q=prod_partner_galaxy_projector_001&zone=image#top-verification-prod_partner_galaxy_projector_001",
+          "hasStatus": true,
+          "hasQuery": true,
+          "hasZone": true,
+          "hasAnchor": true
+        }
+      ],
+      "zoneTags": 27,
+      "overflow": {
+        "horizontalOverflow": 0,
+        "offenders": []
+      },
+      "consoleErrors": []
+    },
+    {
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:3049/admin/pilotage",
+      "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-128-pilotage-sprint-preuves-mobile.png",
+      "visible": {
+        "sprint": true,
+        "checklist": true
+      },
+      "openLinkCount": 3,
+      "hrefChecks": [
+        {
+          "href": "/admin/preuves-partenaires?status=hold&q=prod_partner_cable_organizer_001&zone=image#top-verification-prod_partner_cable_organizer_001",
+          "hasStatus": true,
+          "hasQuery": true,
+          "hasZone": true,
+          "hasAnchor": true
+        },
+        {
+          "href": "/admin/preuves-partenaires?status=hold&q=prod_partner_thermal_printer_001&zone=image#top-verification-prod_partner_thermal_printer_001",
+          "hasStatus": true,
+          "hasQuery": true,
+          "hasZone": true,
+          "hasAnchor": true
+        },
+        {
+          "href": "/admin/preuves-partenaires?status=hold&q=prod_partner_galaxy_projector_001&zone=image#top-verification-prod_partner_galaxy_projector_001",
+          "hasStatus": true,
+          "hasQuery": true,
+          "hasZone": true,
+          "hasAnchor": true
+        }
+      ],
+      "zoneTags": 27,
+      "overflow": {
+        "horizontalOverflow": 0,
+        "offenders": []
+      },
+      "consoleErrors": []
+    }
+  ]
+}

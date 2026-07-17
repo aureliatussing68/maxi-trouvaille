@@ -1,0 +1,229 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-13T12:12:12.162Z",
+  "generatedAtLocal": "2026-06-13 14:12 Europe/Paris",
+  "mode": "read_only_mouss_review_board_integration_next_wave_active_batch",
+  "status": "HOLD_NEXT_WAVE_ACTIVE_BATCH_MOUSS_REVIEW_BOARD_READY",
+  "activeBatchId": "lot-01",
+  "productCount": 4,
+  "readyForMoussReviewCount": 0,
+  "blockedProductCount": 4,
+  "proofTodoCount": 20,
+  "proofFileCount": 20,
+  "webpMissingCount": 12,
+  "webpValidCount": 0,
+  "webpInvalidCount": 0,
+  "contractFileCount": 12,
+  "blockedContractCount": 12,
+  "businessBlockerCount": 32,
+  "structuralFailureCount": 0,
+  "structuralFailures": [],
+  "topMoussActions": [
+    {
+      "productId": "integration_articles_20260612_etagere-douche-angle-adhesive",
+      "productName": "Etagere douche angle adhesive",
+      "action": "5 preuves internes a remplir, 3 WebP exacts a deposer, 3 contrats WebP bloques"
+    },
+    {
+      "productId": "integration_articles_20260612_boite-a-the-compartiments-bambou",
+      "productName": "Boite a the compartiments bambou",
+      "action": "5 preuves internes a remplir, 3 WebP exacts a deposer, 3 contrats WebP bloques"
+    },
+    {
+      "productId": "integration_articles_20260612_organisateur-coffre-voiture-pliable",
+      "productName": "Organisateur coffre voiture pliable",
+      "action": "5 preuves internes a remplir, 3 WebP exacts a deposer, 3 contrats WebP bloques"
+    },
+    {
+      "productId": "integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "productName": "Organisateur tiroir cuisine extensible",
+      "action": "5 preuves internes a remplir, 3 WebP exacts a deposer, 3 contrats WebP bloques"
+    }
+  ],
+  "products": [
+    {
+      "rank": 1,
+      "batchId": "lot-01",
+      "productId": "integration_articles_20260612_etagere-douche-angle-adhesive",
+      "productName": "Etagere douche angle adhesive",
+      "categoryId": "dropshipping-maison",
+      "reviewDecision": "BLOCKED_MOUSS_REVIEW_HOLD",
+      "readyForMouss": false,
+      "proofTodoCount": 5,
+      "proofFileCount": 5,
+      "webpMissingCount": 3,
+      "webpValidCount": 0,
+      "webpInvalidCount": 0,
+      "blockedContractCount": 3,
+      "businessBlockerCount": 8,
+      "missingProofLabels": [
+        "Reference produit exacte",
+        "Nom vendeur ou partenaire",
+        "SKU/reference fournisseur",
+        "Variante exacte vendue",
+        "Prix fournisseur reel en centimes"
+      ],
+      "missingImageLabels": [
+        "main: etagere-douche-angle-adhesive-partenaire-hold-main.webp",
+        "detail-1: etagere-douche-angle-adhesive-partenaire-hold-detail-1.webp",
+        "variant: etagere-douche-angle-adhesive-partenaire-hold-variant.webp"
+      ],
+      "proofFiles": [
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/etagere-douche-angle-adhesive-partenaire-hold/exact_product_reference.md",
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/etagere-douche-angle-adhesive-partenaire-hold/partner_name.md",
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/etagere-douche-angle-adhesive-partenaire-hold/supplier_sku.md",
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/etagere-douche-angle-adhesive-partenaire-hold/exact_variant.md",
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/etagere-douche-angle-adhesive-partenaire-hold/real_supplier_price_cents.md"
+      ],
+      "contractFiles": [
+        "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/etagere-douche-angle-adhesive-partenaire-hold/etagere-douche-angle-adhesive-partenaire-hold-main.validation-contract.json",
+        "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/etagere-douche-angle-adhesive-partenaire-hold/etagere-douche-angle-adhesive-partenaire-hold-detail-1.validation-contract.json",
+        "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/etagere-douche-angle-adhesive-partenaire-hold/etagere-douche-angle-adhesive-partenaire-hold-variant.validation-contract.json"
+      ],
+      "nextMoussAction": "5 preuves internes a remplir, 3 WebP exacts a deposer, 3 contrats WebP bloques"
+    },
+    {
+      "rank": 2,
+      "batchId": "lot-01",
+      "productId": "integration_articles_20260612_boite-a-the-compartiments-bambou",
+      "productName": "Boite a the compartiments bambou",
+      "categoryId": "dropshipping-cuisine",
+      "reviewDecision": "BLOCKED_MOUSS_REVIEW_HOLD",
+      "readyForMouss": false,
+      "proofTodoCount": 5,
+      "proofFileCount": 5,
+      "webpMissingCount": 3,
+      "webpValidCount": 0,
+      "webpInvalidCount": 0,
+      "blockedContractCount": 3,
+      "businessBlockerCount": 8,
+      "missingProofLabels": [
+        "Reference produit exacte",
+        "Nom vendeur ou partenaire",
+        "SKU/reference fournisseur",
+        "Variante exacte vendue",
+        "Prix fournisseur reel en centimes"
+      ],
+      "missingImageLabels": [
+        "main: boite-a-the-compartiments-bambou-partenaire-hold-main.webp",
+        "detail-1: boite-a-the-compartiments-bambou-partenaire-hold-detail-1.webp",
+        "variant: boite-a-the-compartiments-bambou-partenaire-hold-variant.webp"
+      ],
+      "proofFiles": [
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/boite-a-the-compartiments-bambou-partenaire-hold/exact_product_reference.md",
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/boite-a-the-compartiments-bambou-partenaire-hold/partner_name.md",
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/boite-a-the-compartiments-bambou-partenaire-hold/supplier_sku.md",
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/boite-a-the-compartiments-bambou-partenaire-hold/exact_variant.md",
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/boite-a-the-compartiments-bambou-partenaire-hold/real_supplier_price_cents.md"
+      ],
+      "contractFiles": [
+        "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/boite-a-the-compartiments-bambou-partenaire-hold/boite-a-the-compartiments-bambou-partenaire-hold-main.validation-contract.json",
+        "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/boite-a-the-compartiments-bambou-partenaire-hold/boite-a-the-compartiments-bambou-partenaire-hold-detail-1.validation-contract.json",
+        "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/boite-a-the-compartiments-bambou-partenaire-hold/boite-a-the-compartiments-bambou-partenaire-hold-variant.validation-contract.json"
+      ],
+      "nextMoussAction": "5 preuves internes a remplir, 3 WebP exacts a deposer, 3 contrats WebP bloques"
+    },
+    {
+      "rank": 3,
+      "batchId": "lot-01",
+      "productId": "integration_articles_20260612_organisateur-coffre-voiture-pliable",
+      "productName": "Organisateur coffre voiture pliable",
+      "categoryId": "dropshipping-auto-moto",
+      "reviewDecision": "BLOCKED_MOUSS_REVIEW_HOLD",
+      "readyForMouss": false,
+      "proofTodoCount": 5,
+      "proofFileCount": 5,
+      "webpMissingCount": 3,
+      "webpValidCount": 0,
+      "webpInvalidCount": 0,
+      "blockedContractCount": 3,
+      "businessBlockerCount": 8,
+      "missingProofLabels": [
+        "Reference produit exacte",
+        "Nom vendeur ou partenaire",
+        "SKU/reference fournisseur",
+        "Variante exacte vendue",
+        "Prix fournisseur reel en centimes"
+      ],
+      "missingImageLabels": [
+        "main: organisateur-coffre-voiture-pliable-partenaire-hold-main.webp",
+        "detail-1: organisateur-coffre-voiture-pliable-partenaire-hold-detail-1.webp",
+        "variant: organisateur-coffre-voiture-pliable-partenaire-hold-variant.webp"
+      ],
+      "proofFiles": [
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/organisateur-coffre-voiture-pliable-partenaire-hold/exact_product_reference.md",
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/organisateur-coffre-voiture-pliable-partenaire-hold/partner_name.md",
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/organisateur-coffre-voiture-pliable-partenaire-hold/supplier_sku.md",
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/organisateur-coffre-voiture-pliable-partenaire-hold/exact_variant.md",
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/organisateur-coffre-voiture-pliable-partenaire-hold/real_supplier_price_cents.md"
+      ],
+      "contractFiles": [
+        "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/organisateur-coffre-voiture-pliable-partenaire-hold/organisateur-coffre-voiture-pliable-partenaire-hold-main.validation-contract.json",
+        "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/organisateur-coffre-voiture-pliable-partenaire-hold/organisateur-coffre-voiture-pliable-partenaire-hold-detail-1.validation-contract.json",
+        "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/organisateur-coffre-voiture-pliable-partenaire-hold/organisateur-coffre-voiture-pliable-partenaire-hold-variant.validation-contract.json"
+      ],
+      "nextMoussAction": "5 preuves internes a remplir, 3 WebP exacts a deposer, 3 contrats WebP bloques"
+    },
+    {
+      "rank": 4,
+      "batchId": "lot-01",
+      "productId": "integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "productName": "Organisateur tiroir cuisine extensible",
+      "categoryId": "dropshipping-cuisine",
+      "reviewDecision": "BLOCKED_MOUSS_REVIEW_HOLD",
+      "readyForMouss": false,
+      "proofTodoCount": 5,
+      "proofFileCount": 5,
+      "webpMissingCount": 3,
+      "webpValidCount": 0,
+      "webpInvalidCount": 0,
+      "blockedContractCount": 3,
+      "businessBlockerCount": 8,
+      "missingProofLabels": [
+        "Reference produit exacte",
+        "Nom vendeur ou partenaire",
+        "SKU/reference fournisseur",
+        "Variante exacte vendue",
+        "Prix fournisseur reel en centimes"
+      ],
+      "missingImageLabels": [
+        "main: organisateur-tiroir-cuisine-extensible-partenaire-hold-main.webp",
+        "detail-1: organisateur-tiroir-cuisine-extensible-partenaire-hold-detail-1.webp",
+        "variant: organisateur-tiroir-cuisine-extensible-partenaire-hold-variant.webp"
+      ],
+      "proofFiles": [
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/organisateur-tiroir-cuisine-extensible-partenaire-hold/exact_product_reference.md",
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/organisateur-tiroir-cuisine-extensible-partenaire-hold/partner_name.md",
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/organisateur-tiroir-cuisine-extensible-partenaire-hold/supplier_sku.md",
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/organisateur-tiroir-cuisine-extensible-partenaire-hold/exact_variant.md",
+        "business-maxi-trouvailles/preuves-internes/integration-articles/20260613/organisateur-tiroir-cuisine-extensible-partenaire-hold/real_supplier_price_cents.md"
+      ],
+      "contractFiles": [
+        "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/organisateur-tiroir-cuisine-extensible-partenaire-hold/organisateur-tiroir-cuisine-extensible-partenaire-hold-main.validation-contract.json",
+        "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/organisateur-tiroir-cuisine-extensible-partenaire-hold/organisateur-tiroir-cuisine-extensible-partenaire-hold-detail-1.validation-contract.json",
+        "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/organisateur-tiroir-cuisine-extensible-partenaire-hold/organisateur-tiroir-cuisine-extensible-partenaire-hold-variant.validation-contract.json"
+      ],
+      "nextMoussAction": "5 preuves internes a remplir, 3 WebP exacts a deposer, 3 contrats WebP bloques"
+    }
+  ],
+  "sources": {
+    "proofIntakePath": "business-maxi-trouvailles/tableaux-action/preuves-internes-lot-actif-prochaine-vague-sourcing-integration-articles/20260613/PROOF_INTAKE_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "proofIntakeAuditPath": "business-maxi-trouvailles/tableaux-action/audit-preuves-internes-lot-actif-prochaine-vague-sourcing-integration-articles/20260613/AUDIT_PROOF_INTAKE_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "webpContractsPath": "business-maxi-trouvailles/tableaux-action/contrats-validation-webp-lot-actif-prochaine-vague-sourcing-integration-articles/20260613/WEBP_VALIDATION_CONTRACTS_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "webpContractsAuditPath": "business-maxi-trouvailles/tableaux-action/audit-contrats-validation-webp-lot-actif-prochaine-vague-sourcing-integration-articles/20260613/AUDIT_WEBP_VALIDATION_CONTRACTS_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "businessGatePath": "business-maxi-trouvailles/tableaux-action/audit-lot-actif-business-gate-prochaine-vague-sourcing-integration-articles/20260613/AUDIT_ACTIVE_BATCH_BUSINESS_GATE_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json"
+  },
+  "safety": {
+    "readOnlyBoard": true,
+    "noCatalogWrite": true,
+    "noPublicImageWrite": true,
+    "noImageDownload": true,
+    "noImageGeneration": true,
+    "noSupplierValueExport": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true,
+    "manualValidationRequired": true
+  }
+}

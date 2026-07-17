@@ -1,0 +1,470 @@
+{
+  "generatedAt": "2026-06-09T21:47:00.150Z",
+  "instructions": "Remplir seulement avec des preuves reelles. Ne jamais inventer un fournisseur, un SKU, un prix, un stock, un delai ou un droit image.",
+  "products": [
+    {
+      "id": "prod_partner_cable_organizer_001",
+      "name": "Organisateur de câbles et accessoires tech",
+      "rank": 1,
+      "lane": "lane_0_static_partner_decision",
+      "evidenceGaps": [
+        "decision_garder_remplacer_ou_retirer",
+        "lien_fournisseur_exact",
+        "sku_fournisseur",
+        "images_exactes_et_droits"
+      ],
+      "fill": {
+        "checkedAt": "",
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 400,
+        "supplierStock": 30,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      }
+    },
+    {
+      "id": "prod_partner_thermal_printer_001",
+      "name": "Mini imprimante thermique Bluetooth",
+      "rank": 2,
+      "lane": "lane_0_static_partner_decision",
+      "evidenceGaps": [
+        "decision_garder_remplacer_ou_retirer",
+        "lien_fournisseur_exact",
+        "sku_fournisseur",
+        "images_exactes_et_droits"
+      ],
+      "fill": {
+        "checkedAt": "",
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 1800,
+        "supplierStock": 20,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      }
+    },
+    {
+      "id": "prod_partner_galaxy_projector_001",
+      "name": "Projecteur galaxie LED pour ambiance",
+      "rank": 3,
+      "lane": "lane_0_static_partner_decision",
+      "evidenceGaps": [
+        "decision_garder_remplacer_ou_retirer",
+        "lien_fournisseur_exact",
+        "sku_fournisseur",
+        "images_exactes_et_droits"
+      ],
+      "fill": {
+        "checkedAt": "",
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 1100,
+        "supplierStock": 20,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      }
+    },
+    {
+      "id": "prod_partner_car_vacuum_001",
+      "name": "Mini aspirateur voiture sans fil",
+      "rank": 4,
+      "lane": "lane_0_static_partner_decision",
+      "evidenceGaps": [
+        "decision_garder_remplacer_ou_retirer",
+        "lien_fournisseur_exact",
+        "sku_fournisseur",
+        "images_exactes_et_droits"
+      ],
+      "fill": {
+        "checkedAt": "",
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 2200,
+        "supplierStock": 15,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      }
+    },
+    {
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "rank": 5,
+      "lane": "lane_1_fast_supplier_validation",
+      "evidenceGaps": [
+        "preuve_delai_france_europe"
+      ],
+      "fill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/4000168524713.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-4000168524713-CABLE-ORGANIZER",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 1100,
+        "supplierStock": 55,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      }
+    },
+    {
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "rank": 6,
+      "lane": "lane_1_fast_supplier_validation",
+      "evidenceGaps": [
+        "preuve_delai_france_europe"
+      ],
+      "fill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/4001153714549.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-4001153714549-LAPTOP-STAND",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 1180,
+        "supplierStock": 35,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      }
+    },
+    {
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "name": "Filet rangement coffre voiture à sangles fixes",
+      "rank": 7,
+      "lane": "lane_1_fast_supplier_validation",
+      "evidenceGaps": [
+        "preuve_delai_france_europe"
+      ],
+      "fill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/1005006160871310.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-ITEM-1005006160871310",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 400,
+        "supplierStock": 45,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      }
+    },
+    {
+      "id": "ali_partner_20260527_gourde_pliable_001",
+      "name": "Gourde pliable silicone voyage avec mousqueton",
+      "rank": 8,
+      "lane": "lane_1_fast_supplier_validation",
+      "evidenceGaps": [
+        "preuve_delai_france_europe"
+      ],
+      "fill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/1005009184984524.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-ITEM-1005009184984524",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 370,
+        "supplierStock": 70,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      }
+    },
+    {
+      "id": "ali_partner_20260527_lampes_detection_001",
+      "name": "Lampe LED à détection de mouvement USB rechargeable",
+      "rank": 9,
+      "lane": "lane_1_fast_supplier_validation",
+      "evidenceGaps": [
+        "preuve_delai_france_europe"
+      ],
+      "fill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/1005008517453827.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-1005008517453827-MOTION-LIGHT",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 540,
+        "supplierStock": 50,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      }
+    },
+    {
+      "id": "ali_partner_20260527_support_tel_voiture_001",
+      "name": "Support téléphone voiture flexible à ventouse 360°",
+      "rank": 10,
+      "lane": "lane_1_fast_supplier_validation",
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "fill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/4001209749759.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-ITEM-4001209749759",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 970,
+        "supplierStock": 40,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      }
+    },
+    {
+      "id": "ali_partner_20260605_paracorde_camping_001",
+      "name": "Corde paracorde camping randonnée 5/15/30 m",
+      "rank": 11,
+      "lane": "lane_1_fast_supplier_validation",
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "droits_images",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "fill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/1005007038471633.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-1005007038471633-PARACORD",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 120,
+        "supplierStock": 90,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      }
+    },
+    {
+      "id": "ali_partner_20260605_nano_tape_sdb_cuisine_001",
+      "name": "Nano tape double-face salle de bain cuisine",
+      "rank": 12,
+      "lane": "lane_1_fast_supplier_validation",
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "droits_images",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "fill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/1005005244419690.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-1005005244419690-NANO-TAPE",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 100,
+        "supplierStock": 100,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      }
+    },
+    {
+      "id": "ali_partner_20260605_organisateur_cables_1_5m_001",
+      "name": "Organisateur câbles 1/5 m bureau best-seller",
+      "rank": 13,
+      "lane": "lane_1_fast_supplier_validation",
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "droits_images",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "fill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/1005006994762009.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-1005006994762009-CABLE-ORGANIZER",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 180,
+        "supplierStock": 100,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      }
+    },
+    {
+      "id": "ali_partner_20260605_ruban_double_face_monster_001",
+      "name": "Ruban double-face puissant maison promo",
+      "rank": 14,
+      "lane": "lane_1_fast_supplier_validation",
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "droits_images",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "fill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/1005006926453576.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-1005006926453576-MONSTER-TAPE",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 160,
+        "supplierStock": 100,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      }
+    },
+    {
+      "id": "ali_partner_20260605_sac_banane_sport_etanche_001",
+      "name": "Sac banane sport étanche randonnée",
+      "rank": 15,
+      "lane": "lane_1_fast_supplier_validation",
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "droits_images",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "fill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/1005007341990710.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-1005007341990710-SPORT-WAIST-BAG",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 160,
+        "supplierStock": 80,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      }
+    }
+  ]
+}

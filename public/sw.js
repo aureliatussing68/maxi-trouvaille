@@ -1,4 +1,4 @@
-const CACHE_NAME = "maxi-trouvaille-pwa-v1";
+const CACHE_NAME = "maxi-trouvaille-pwa-v2";
 const APP_SHELL = [
   "/",
   "/offline",
@@ -7,12 +7,21 @@ const APP_SHELL = [
   "/icons/icon-maskable-512.png",
   "/icons/apple-touch-icon.png",
 ];
+const DEMO_ROUTES = [
+  "/boutique",
+  "/produits-partenaires",
+  "/nouveautes",
+  "/promotions",
+  "/suivi-colis",
+  "/contact",
+];
+const PRECACHE_URLS = [...APP_SHELL, ...DEMO_ROUTES];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches
       .open(CACHE_NAME)
-      .then((cache) => cache.addAll(APP_SHELL))
+      .then((cache) => cache.addAll(PRECACHE_URLS))
       .then(() => self.skipWaiting()),
   );
 });

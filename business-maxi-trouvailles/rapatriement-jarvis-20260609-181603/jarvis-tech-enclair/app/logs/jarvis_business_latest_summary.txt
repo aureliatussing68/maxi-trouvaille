@@ -1,0 +1,25 @@
+Resume derniers resultats business - 2026-06-09 17:57:31
+
+Message court: Resultats business: 10 candidat(s), fiche Produit fictif - organisateur malin de bureau, 3 pub(s) brouillon, validation obligatoire.
+Candidats: 10
+Mode sourcing: demo_local_no_scraping
+
+Top candidats:
+1. Lampe LED rechargeable magnetique pour bureau | maison | achat 7,90 € -> vente 17,90 € | risque faible
+2. Organisateur de cables de voyage compact | accessoires | achat 3,90 € -> vente 12,90 € | risque faible
+3. Mini aspirateur sans fil pour voiture | auto-moto | achat 12,90 € -> vente 29,90 € | risque faible
+4. Support telephone voiture rotation 360 | telephonie | achat 4,20 € -> vente 13,90 € | risque faible
+5. Brosse anti-poils reutilisable pour animaux | animaux | achat 5,60 € -> vente 14,90 € | risque faible
+
+Fiche brouillon:
+- Produit: Produit fictif - organisateur malin de bureau
+- Statut: brouillon_validation_humaine / not_published
+- Prix: achat 5,90 € -> promo 14,90 €
+- Validation: obligatoire
+
+Pubs brouillon:
+- Produit: Produit fictif - organisateur malin de bureau
+- Plateformes: tiktok, instagram, snapchat
+- Statut: ads_brouillon_validation_humaine
+
+Securite: lecture seule, publication/import/commande bloques sans validation.

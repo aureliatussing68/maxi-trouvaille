@@ -1,0 +1,58 @@
+{
+  "checked_at": "2026-06-09 18:00:59",
+  "ok": true,
+  "elapsed_ms": 15,
+  "operating_mode": "demo_draft_only",
+  "short_message": "Mode business Maxi: demo_draft_only, 2 API a completer, brouillon uniquement, actions sensibles bloquees.",
+  "latest_source_mode": "demo",
+  "candidate_count": 10,
+  "real_sourcing_ready": false,
+  "latest_candidates_are_real": false,
+  "business_dashboard_ok": true,
+  "pipeline": "OK",
+  "admin_mode": "OK",
+  "missing_or_partial": [
+    {
+      "variable": "ALIEXPRESS_APP_KEY",
+      "status": "PARTIEL"
+    },
+    {
+      "variable": "ALIEXPRESS_TRACKING_ID",
+      "status": "MANQUANT"
+    }
+  ],
+  "capabilities": {
+    "can_open_maxi": true,
+    "can_open_admin": true,
+    "can_open_aliexpress": true,
+    "can_search_products_draft": true,
+    "can_prepare_product_sheet_draft": true,
+    "can_prepare_ads_draft": true,
+    "can_import_draft_after_validation": true,
+    "can_publish": false,
+    "can_order_aliexpress": false,
+    "can_payment": false,
+    "can_delete": false
+  },
+  "validation_required": [
+    "import_draft",
+    "publish_product",
+    "publish_tiktok",
+    "order_aliexpress",
+    "payment",
+    "delete_file",
+    "production_write"
+  ],
+  "operator_message": "Mode demo/brouillon actif: Jarvis peut preparer, mais pas sourcer en reel automatiquement.",
+  "next_safe_action": "Continuer en demo/brouillon ou completer les variables AliExpress manquantes.",
+  "safety": {
+    "read_only_check": true,
+    "draft_only": true,
+    "no_purchase": true,
+    "no_payment": true,
+    "no_publication": true,
+    "no_delete": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  }
+}

@@ -1,10 +1,16 @@
 import { NextResponse } from "next/server";
 import { decrementQuickProductStock } from "@/lib/catalog-server";
+import { isAdminModeEnabled } from "@/lib/admin";
+import { adminApiUnavailable } from "@/lib/admin-api";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 export async function POST(request: Request) {
+  if (!isAdminModeEnabled()) {
+    return adminApiUnavailable();
+  }
+
   const payload = (await request.json()) as {
     items?: Array<{ productId?: unknown; quantity?: unknown }>;
   };

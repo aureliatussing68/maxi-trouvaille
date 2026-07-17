@@ -1,0 +1,216 @@
+{
+  "generatedAt": "2026-06-10T00:17:15.054Z",
+  "generatedAtLocal": "2026-06-10 02:17 Europe/Paris",
+  "instructions": "Remplir uniquement avec des decisions et preuves reelles. Ne pas publier, payer ou commander depuis ce fichier.",
+  "decisionOptions": [
+    {
+      "value": "keep_validate",
+      "label": "Garder et verifier",
+      "meaning": "Le produit reste interessant, mais il faut prouver le fournisseur exact, la variante, les images, le prix, le stock et le delai.",
+      "result": "HOLD jusqu'a preuves completes et validation humaine."
+    },
+    {
+      "value": "replace",
+      "label": "Remplacer",
+      "meaning": "On garde l'idee commerciale, mais on cherche un meilleur produit ou un fournisseur plus fiable.",
+      "result": "HOLD, aucune suppression ni publication automatique."
+    },
+    {
+      "value": "remove",
+      "label": "Retirer",
+      "meaning": "Le produit ne merite pas d'effort business ou comporte trop de risque pour la boutique.",
+      "result": "HOLD, retrait a appliquer seulement apres validation explicite."
+    },
+    {
+      "value": "later",
+      "label": "Plus tard",
+      "meaning": "On reporte la decision pour concentrer le travail sur des produits plus faciles a prouver.",
+      "result": "HOLD sans action catalogue."
+    }
+  ],
+  "products": [
+    {
+      "productId": "prod_partner_cable_organizer_001",
+      "productName": "Organisateur de câbles et accessoires tech",
+      "checkedAt": "",
+      "decision": "",
+      "decisionOptions": [
+        "keep_validate",
+        "replace",
+        "remove",
+        "later"
+      ],
+      "reason": "",
+      "ifKeepValidate": {
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 400,
+        "supplierStock": 30,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": ""
+      },
+      "ifReplace": {
+        "replacementProductIdea": "",
+        "targetCategory": "dropshipping-accessoires",
+        "reasonReplacementCouldSell": "",
+        "quickSupplierSearchNotes": ""
+      },
+      "ifRemove": {
+        "removeReason": "",
+        "keepHistoricalNote": true
+      },
+      "ifLater": {
+        "revisitAfter": "",
+        "blockingReason": ""
+      },
+      "finalDecision": "HOLD",
+      "reviewedByMouss": false
+    },
+    {
+      "productId": "prod_partner_thermal_printer_001",
+      "productName": "Mini imprimante thermique Bluetooth",
+      "checkedAt": "",
+      "decision": "",
+      "decisionOptions": [
+        "keep_validate",
+        "replace",
+        "remove",
+        "later"
+      ],
+      "reason": "",
+      "ifKeepValidate": {
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 1800,
+        "supplierStock": 20,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": ""
+      },
+      "ifReplace": {
+        "replacementProductIdea": "",
+        "targetCategory": "dropshipping-high-tech",
+        "reasonReplacementCouldSell": "",
+        "quickSupplierSearchNotes": ""
+      },
+      "ifRemove": {
+        "removeReason": "",
+        "keepHistoricalNote": true
+      },
+      "ifLater": {
+        "revisitAfter": "",
+        "blockingReason": ""
+      },
+      "finalDecision": "HOLD",
+      "reviewedByMouss": false
+    },
+    {
+      "productId": "prod_partner_galaxy_projector_001",
+      "productName": "Projecteur galaxie LED pour ambiance",
+      "checkedAt": "",
+      "decision": "",
+      "decisionOptions": [
+        "keep_validate",
+        "replace",
+        "remove",
+        "later"
+      ],
+      "reason": "",
+      "ifKeepValidate": {
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 1100,
+        "supplierStock": 20,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": ""
+      },
+      "ifReplace": {
+        "replacementProductIdea": "",
+        "targetCategory": "dropshipping-maison",
+        "reasonReplacementCouldSell": "",
+        "quickSupplierSearchNotes": ""
+      },
+      "ifRemove": {
+        "removeReason": "",
+        "keepHistoricalNote": true
+      },
+      "ifLater": {
+        "revisitAfter": "",
+        "blockingReason": ""
+      },
+      "finalDecision": "HOLD",
+      "reviewedByMouss": false
+    },
+    {
+      "productId": "prod_partner_car_vacuum_001",
+      "productName": "Mini aspirateur voiture sans fil",
+      "checkedAt": "",
+      "decision": "",
+      "decisionOptions": [
+        "keep_validate",
+        "replace",
+        "remove",
+        "later"
+      ],
+      "reason": "",
+      "ifKeepValidate": {
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 2200,
+        "supplierStock": 15,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": ""
+      },
+      "ifReplace": {
+        "replacementProductIdea": "",
+        "targetCategory": "dropshipping-auto-moto",
+        "reasonReplacementCouldSell": "",
+        "quickSupplierSearchNotes": ""
+      },
+      "ifRemove": {
+        "removeReason": "",
+        "keepHistoricalNote": true
+      },
+      "ifLater": {
+        "revisitAfter": "",
+        "blockingReason": ""
+      },
+      "finalDecision": "HOLD",
+      "reviewedByMouss": false
+    }
+  ],
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true
+  }
+}

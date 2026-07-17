@@ -1,0 +1,350 @@
+import type { Metadata } from "next";
+import Image from "next/image";
+import Link from "next/link";
+import {
+  Boxes,
+  CheckCircle2,
+  MessageCircle,
+  Pencil,
+  ShieldCheck,
+  Store,
+  Truck,
+} from "lucide-react";
+import { notFound } from "next/navigation";
+import { AddToCartButton } from "@/components/AddToCartButton";
+import { ProductEngagement } from "@/components/ProductEngagement";
+import { ProductMessageForm } from "@/components/ProductMessageForm";
+import { ReviewSummaryBadge } from "@/components/ReviewStars";
+import { isAdminModeEnabled } from "@/lib/admin";
+import {
+  getCategoryById,
+  getProductImageAlt,
+  getProductBadges,
+  getProductSeoDescription,
+  getProductSeoTitle,
+  getPublicDeliveryEstimate,
+  isComingSoonProduct,
+  isDropshippingProduct,
+  isPublicProduct,
+  isProductPurchasable,
+  products,
+  type ProductBadgeTone,
+} from "@/lib/catalog";
+import {
+  getCatalogProductBySlug,
+  getPublicCatalogProductBySlug,
+} from "@/lib/catalog-server";
+import { formatPrice } from "@/lib/format";
+import {
+  getApprovedReviewsForProduct,
+  getApprovedReviewSummary,
+} from "@/lib/product-reviews";
+import { getProductStats } from "@/lib/product-stats";
+
+export const dynamicParams = false;
+
+type ProductPageProps = {
+  params: Promise<{ slug: string }>;
+  searchParams?: Promise<{
+    adminMessage?: string | string[];
+    adminPreview?: string | string[];
+  }>;
+};
+
+export function generateStaticParams() {
+  return products
+    .filter(isPublicProduct)
+    .map((product) => ({ slug: product.slug }));
+}
+
+export async function generateMetadata({
+  params,
+  searchParams,
+}: ProductPageProps): Promise<Metadata> {
+  const { slug } = await params;
+  const query = searchParams ? await searchParams : {};
+  const adminMode = isAdminModeEnabled() && query.adminPreview === "1";
+  const product = adminMode
+    ? await getCatalogProductBySlug(slug)
+    : await getPublicCatalogProductBySlug(slug);
+
+  if (!product) {
+    notFound();
+  }
+
+  return {
+    title: getProductSeoTitle(product),
+    description: getProductSeoDescription(product),
+    robots: adminMode
+      ? {
+          index: false,
+          follow: false,
+          googleBot: {
+            index: false,
+            follow: false,
+          },
+        }
+      : undefined,
+  };
+}
+
+export default async function ProductPage({
+  params,
+  searchParams,
+}: ProductPageProps) {
+  const { slug } = await params;
+  const query = searchParams ? await searchParams : {};
+  const adminMode = isAdminModeEnabled() && query.adminPreview === "1";
+  const product = adminMode
+    ? await getCatalogProductBySlug(slug)
+    : await getPublicCatalogProductBySlug(slug);
+
+  if (!product) {
+    notFound();
+  }
+
+  const category = getCategoryById(product.categoryId);
+  const galleryImages = product.images?.length ? product.images : [product.image];
+  const showUpdatedMessage = query.adminMessage === "updated";
+  const badges = getProductBadges(product);
+  const isComingSoon = isComingSoonProduct(product);
+  const isDropshipping = isDropshippingProduct(product);
+  const canPurchase = isProductPurchasable(product);
+  const deliveryEstimate = getPublicDeliveryEstimate(product);
+  const stats = await getProductStats(product.id);
+  const reviewSummary = await getApprovedReviewSummary(product.id);
+  const reviews = await getApprovedReviewsForProduct(product.id);
+
+  return (
+    <>
+    <section className="container-page grid gap-8 py-10 lg:grid-cols-[1fr_440px]">
+      <div className="grid h-fit gap-3">
+        <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-line bg-[#ede7db] shadow-sm">
+          <Image
+            src={product.image}
+            alt={getProductImageAlt(product)}
+            fill
+            sizes="(min-width: 1024px) 640px, 100vw"
+            className="object-cover"
+            priority
+          />
+        </div>
+        {galleryImages.length > 1 ? (
+          <div className="grid grid-cols-5 gap-3">
+            {galleryImages.slice(1).map((image, index) => (
+              <div
+                key={image}
+                className="relative aspect-square overflow-hidden rounded-md border border-line bg-[#ede7db]"
+              >
+                <Image
+                  src={image}
+                  alt={getProductImageAlt(product, `photo ${index + 2}`)}
+                  fill
+                  sizes="120px"
+                  className="object-cover"
+                />
+              </div>
+            ))}
+          </div>
+        ) : null}
+      </div>
+
+      <div className="h-fit rounded-lg border border-line bg-paper p-6 shadow-sm">
+        {showUpdatedMessage ? (
+          <div className="mb-5 rounded-md border border-teal/20 bg-[#eef8f6] p-3 text-sm font-black text-teal">
+            Produit modifié avec succès
+          </div>
+        ) : null}
+        <Link
+          href={category ? `/categories/${category.slug}` : "/categories"}
+          className="text-sm font-black uppercase text-teal hover:text-foreground"
+        >
+          {category?.name ?? "Categorie"}
+        </Link>
+        <div className="mt-3 flex flex-wrap gap-2">
+          {badges.map((badge) => (
+            <span
+              key={`${product.id}-${badge.label}`}
+              className={`rounded-md px-2.5 py-1 text-xs font-black ${getBadgeClassName(
+                badge.tone,
+              )}`}
+            >
+              {badge.label}
+            </span>
+          ))}
+        </div>
+        <h1 className="mt-3 text-3xl font-black leading-[1.08]">{product.name}</h1>
+        <div className="mt-3">
+          <ReviewSummaryBadge summary={reviewSummary} />
+        </div>
+        {adminMode ? (
+          <Link
+            href={`/admin/produits/${product.slug}/modifier`}
+            className="focus-ring mt-4 inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-line px-3 text-sm font-black hover:bg-[#f1eadf]"
+          >
+            <Pencil size={15} aria-hidden="true" />
+            Modifier
+          </Link>
+        ) : null}
+        <p className="mt-4 text-sm leading-6 text-muted">{product.description}</p>
+
+        <ProductEngagement productId={product.id} initialStats={stats} />
+
+        {isComingSoon ? (
+          <div className="mt-5 rounded-lg border border-[#fed7aa] bg-[#fff7ed] p-4 text-sm font-black leading-6 text-[#9a3412]">
+            Bientôt disponible sur Maxi Trouvailles
+          </div>
+        ) : (
+          <div className="mt-5 flex flex-wrap items-end gap-3">
+            <div className="text-4xl font-black">{formatPrice(product.price)}</div>
+            {product.compareAtPrice ? (
+              <div className="pb-1 text-base font-semibold text-muted line-through">
+                {formatPrice(product.compareAtPrice)}
+              </div>
+            ) : null}
+          </div>
+        )}
+
+        <div className="mt-6 grid gap-3 text-sm">
+          <div className="flex items-center gap-2 text-muted">
+            <Store size={18} aria-hidden="true" />
+            {isDropshipping
+              ? "Produit expédié par partenaire logistique"
+              : product.source === "internal"
+                ? "Vendu par Maxi Trouvaille"
+                : "Annonce vendeur externe"}
+          </div>
+          <div className="flex items-center gap-2 text-muted">
+            <ShieldCheck size={18} aria-hidden="true" />
+            {product.condition}
+          </div>
+          <div className="flex items-center gap-2 text-muted">
+            <Truck size={18} aria-hidden="true" />
+            {deliveryEstimate}
+          </div>
+          <div className={product.stock > 0 ? "flex items-center gap-2 text-muted" : "flex items-center gap-2 font-black text-rose"}>
+            <Boxes size={18} aria-hidden="true" />
+            {isComingSoon
+              ? "Achat ouvert prochainement"
+              : product.stock > 0
+              ? `Quantite disponible : ${product.stock}`
+              : "Rupture de stock"}
+          </div>
+        </div>
+
+        {isComingSoon ? null : (
+          <AddToCartButton
+            productId={product.id}
+            className="mt-7 w-full"
+            label="Ajouter au panier"
+            disabled={!canPurchase}
+          />
+        )}
+        <Link
+          href="#message-produit"
+          className="focus-ring mt-3 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-md border border-line px-5 py-3 text-sm font-black hover:bg-[#f1eadf]"
+        >
+          <MessageCircle size={18} aria-hidden="true" />
+          Envoyer un message
+        </Link>
+
+        {isDropshipping && !isComingSoon ? (
+          <div className="mt-5 grid gap-2 rounded-lg border border-line bg-[#fbfaf7] p-4 text-sm">
+            <div className="flex items-center gap-2 font-black text-teal">
+              <ShieldCheck size={18} aria-hidden="true" />
+              Paiement sécurisé sur Maxi Trouvaille
+            </div>
+            <div className="flex items-center gap-2 text-muted">
+              <Truck size={18} aria-hidden="true" />
+              Livraison estimée : {deliveryEstimate}
+            </div>
+            <div className="flex items-center gap-2 text-muted">
+              <Store size={18} aria-hidden="true" />
+              Service client Maxi Trouvaille et suivi colis
+            </div>
+          </div>
+        ) : null}
+
+        <div className="mt-7 border-t border-line pt-6">
+          <h2 className="text-lg font-black">Points cles</h2>
+          <ul className="mt-4 grid gap-3 text-sm leading-6 text-muted">
+            {product.features.map((feature) => (
+              <li key={feature} className="flex gap-2">
+                <CheckCircle2 className="mt-0.5 shrink-0 text-teal" size={18} />
+                <span>{feature}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </section>
+    <ProductMessageForm
+      product={{
+        id: product.id,
+        slug: product.slug,
+        name: product.name,
+        price: product.price,
+      }}
+    />
+    <section className="container-page pb-12">
+      <div className="rounded-lg border border-line bg-paper p-6 shadow-sm">
+        <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
+          <div>
+            <p className="text-sm font-black uppercase text-teal">Avis clients</p>
+            <h2 className="mt-2 text-2xl font-black">Commentaires verifies</h2>
+          </div>
+          <ReviewSummaryBadge summary={reviewSummary} />
+        </div>
+
+        {reviews.length > 0 ? (
+          <div className="mt-6 grid gap-4">
+            {reviews.map((review) => (
+              <article key={review.id} className="rounded-md border border-line p-4">
+                <ReviewSummaryBadge
+                  summary={{ averageRating: review.rating, totalReviews: 1 }}
+                  compact
+                />
+                <p className="mt-3 text-sm leading-6 text-muted">
+                  {review.comment}
+                </p>
+                {review.adminReply ? (
+                  <div className="mt-3 rounded-md bg-[#eef8f6] p-3 text-sm leading-6 text-[#115e59]">
+                    <strong>Réponse Maxi Trouvaille : </strong>
+                    {review.adminReply}
+                  </div>
+                ) : null}
+                <div className="mt-3 text-xs font-bold text-muted">
+                  {review.customerName} -{" "}
+                  {new Date(review.createdAt).toLocaleDateString("fr-FR")}
+                </div>
+              </article>
+            ))}
+          </div>
+        ) : (
+          <p className="mt-5 rounded-md bg-[#f6f1e8] p-4 text-sm font-bold text-muted">
+            Aucun avis valide pour ce produit pour le moment.
+          </p>
+        )}
+      </div>
+    </section>
+    </>
+  );
+}
+
+function getBadgeClassName(tone: ProductBadgeTone) {
+  switch (tone) {
+    case "coming-soon":
+      return "badge-pulse-soft bg-[#fff7ed] text-[#9a3412] ring-1 ring-[#fed7aa]";
+    case "dropshipping":
+      return "bg-[#eef8f6] text-teal ring-1 ring-[#bfe7df]";
+    case "new":
+      return "bg-[#eff6ff] text-[#1d4ed8] ring-1 ring-[#bfdbfe]";
+    case "promotion":
+      return "bg-[#fff1f2] text-rose ring-1 ring-[#fecdd3]";
+    case "stock":
+      return "bg-[#f6f1e8] text-muted ring-1 ring-line";
+    case "default":
+    default:
+      return "bg-brand text-foreground";
+  }
+}

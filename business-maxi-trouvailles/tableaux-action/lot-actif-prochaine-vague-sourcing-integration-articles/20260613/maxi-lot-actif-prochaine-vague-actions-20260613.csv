@@ -1,0 +1,33 @@
+order;lane;product_id;product_name;label;status;next_action
+1;preuves;integration_articles_20260612_etagere-douche-angle-adhesive;Etagere douche angle adhesive;Reference produit exacte;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+2;preuves;integration_articles_20260612_etagere-douche-angle-adhesive;Etagere douche angle adhesive;Nom vendeur ou partenaire;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+3;preuves;integration_articles_20260612_etagere-douche-angle-adhesive;Etagere douche angle adhesive;SKU/reference fournisseur;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+4;preuves;integration_articles_20260612_etagere-douche-angle-adhesive;Etagere douche angle adhesive;Variante exacte vendue;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+5;preuves;integration_articles_20260612_etagere-douche-angle-adhesive;Etagere douche angle adhesive;Prix fournisseur reel en centimes;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+6;preuves;integration_articles_20260612_boite-a-the-compartiments-bambou;Boite a the compartiments bambou;Reference produit exacte;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+7;preuves;integration_articles_20260612_boite-a-the-compartiments-bambou;Boite a the compartiments bambou;Nom vendeur ou partenaire;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+8;preuves;integration_articles_20260612_boite-a-the-compartiments-bambou;Boite a the compartiments bambou;SKU/reference fournisseur;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+9;preuves;integration_articles_20260612_boite-a-the-compartiments-bambou;Boite a the compartiments bambou;Variante exacte vendue;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+10;preuves;integration_articles_20260612_boite-a-the-compartiments-bambou;Boite a the compartiments bambou;Prix fournisseur reel en centimes;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+11;preuves;integration_articles_20260612_organisateur-coffre-voiture-pliable;Organisateur coffre voiture pliable;Reference produit exacte;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+12;preuves;integration_articles_20260612_organisateur-coffre-voiture-pliable;Organisateur coffre voiture pliable;Nom vendeur ou partenaire;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+13;preuves;integration_articles_20260612_organisateur-coffre-voiture-pliable;Organisateur coffre voiture pliable;SKU/reference fournisseur;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+14;preuves;integration_articles_20260612_organisateur-coffre-voiture-pliable;Organisateur coffre voiture pliable;Variante exacte vendue;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+15;preuves;integration_articles_20260612_organisateur-coffre-voiture-pliable;Organisateur coffre voiture pliable;Prix fournisseur reel en centimes;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+16;preuves;integration_articles_20260612_organisateur-tiroir-cuisine-extensible;Organisateur tiroir cuisine extensible;Reference produit exacte;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+17;preuves;integration_articles_20260612_organisateur-tiroir-cuisine-extensible;Organisateur tiroir cuisine extensible;Nom vendeur ou partenaire;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+18;preuves;integration_articles_20260612_organisateur-tiroir-cuisine-extensible;Organisateur tiroir cuisine extensible;SKU/reference fournisseur;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+19;preuves;integration_articles_20260612_organisateur-tiroir-cuisine-extensible;Organisateur tiroir cuisine extensible;Variante exacte vendue;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+20;preuves;integration_articles_20260612_organisateur-tiroir-cuisine-extensible;Organisateur tiroir cuisine extensible;Prix fournisseur reel en centimes;TO_FILL_HOLD;remplir cette preuve interne et garder HOLD
+21;images;integration_articles_20260612_etagere-douche-angle-adhesive;Etagere douche angle adhesive;etagere-douche-angle-adhesive-partenaire-hold-main.webp;TO_DEPOSIT_HOLD;deposer un WebP exact local puis garder HOLD
+22;images;integration_articles_20260612_etagere-douche-angle-adhesive;Etagere douche angle adhesive;etagere-douche-angle-adhesive-partenaire-hold-detail-1.webp;TO_DEPOSIT_HOLD;deposer un WebP exact local puis garder HOLD
+23;images;integration_articles_20260612_etagere-douche-angle-adhesive;Etagere douche angle adhesive;etagere-douche-angle-adhesive-partenaire-hold-variant.webp;TO_DEPOSIT_HOLD;deposer un WebP exact local puis garder HOLD
+24;images;integration_articles_20260612_boite-a-the-compartiments-bambou;Boite a the compartiments bambou;boite-a-the-compartiments-bambou-partenaire-hold-main.webp;TO_DEPOSIT_HOLD;deposer un WebP exact local puis garder HOLD
+25;images;integration_articles_20260612_boite-a-the-compartiments-bambou;Boite a the compartiments bambou;boite-a-the-compartiments-bambou-partenaire-hold-detail-1.webp;TO_DEPOSIT_HOLD;deposer un WebP exact local puis garder HOLD
+26;images;integration_articles_20260612_boite-a-the-compartiments-bambou;Boite a the compartiments bambou;boite-a-the-compartiments-bambou-partenaire-hold-variant.webp;TO_DEPOSIT_HOLD;deposer un WebP exact local puis garder HOLD
+27;images;integration_articles_20260612_organisateur-coffre-voiture-pliable;Organisateur coffre voiture pliable;organisateur-coffre-voiture-pliable-partenaire-hold-main.webp;TO_DEPOSIT_HOLD;deposer un WebP exact local puis garder HOLD
+28;images;integration_articles_20260612_organisateur-coffre-voiture-pliable;Organisateur coffre voiture pliable;organisateur-coffre-voiture-pliable-partenaire-hold-detail-1.webp;TO_DEPOSIT_HOLD;deposer un WebP exact local puis garder HOLD
+29;images;integration_articles_20260612_organisateur-coffre-voiture-pliable;Organisateur coffre voiture pliable;organisateur-coffre-voiture-pliable-partenaire-hold-variant.webp;TO_DEPOSIT_HOLD;deposer un WebP exact local puis garder HOLD
+30;images;integration_articles_20260612_organisateur-tiroir-cuisine-extensible;Organisateur tiroir cuisine extensible;organisateur-tiroir-cuisine-extensible-partenaire-hold-main.webp;TO_DEPOSIT_HOLD;deposer un WebP exact local puis garder HOLD
+31;images;integration_articles_20260612_organisateur-tiroir-cuisine-extensible;Organisateur tiroir cuisine extensible;organisateur-tiroir-cuisine-extensible-partenaire-hold-detail-1.webp;TO_DEPOSIT_HOLD;deposer un WebP exact local puis garder HOLD
+32;images;integration_articles_20260612_organisateur-tiroir-cuisine-extensible;Organisateur tiroir cuisine extensible;organisateur-tiroir-cuisine-extensible-partenaire-hold-variant.webp;TO_DEPOSIT_HOLD;deposer un WebP exact local puis garder HOLD

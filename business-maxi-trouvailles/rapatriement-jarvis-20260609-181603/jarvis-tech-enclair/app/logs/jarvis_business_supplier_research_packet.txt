@@ -1,0 +1,29 @@
+Paquet recherche fournisseur manuel - 2026-06-09 18:00:59
+
+Global: OK
+Statut: PACKET_READY_MANUAL_ONLY
+Message court: Paquet recherche fournisseur: 5 slot(s), 5 lien(s) reel(s) a trouver, aucune recherche lancee.
+Mode manuel uniquement: oui
+Recherche automatique autorisee: non
+Preflight: BLOCKED_FOR_MANUAL_REVIEW
+Blocages preflight: 3
+Slots: 5
+Requetes preparees: 5
+Liens reels a trouver: 5
+Controles a effectuer: 35
+
+Slots manuels:
+- supplier_slot_01: requete=prete, lien_reel=a_trouver, controles=7, validation_mouss=oui
+- supplier_slot_02: requete=prete, lien_reel=a_trouver, controles=7, validation_mouss=oui
+- supplier_slot_03: requete=prete, lien_reel=a_trouver, controles=7, validation_mouss=oui
+- supplier_slot_04: requete=prete, lien_reel=a_trouver, controles=7, validation_mouss=oui
+- supplier_slot_05: requete=prete, lien_reel=a_trouver, controles=7, validation_mouss=oui
+
+Instructions manuelles:
+- Relire le preflight fournisseur avant toute action externe.
+- Chercher les liens fournisseurs reels manuellement, hors automatisation Jarvis.
+- Renseigner preuves prix, delai, vendeur, conformite et retour dans un brouillon de validation.
+- Demander validation Mouss avant import, commande, paiement ou publication.
+
+Message: Paquet manuel pret. Utiliser les details fournisseur seulement apres validation Mouss; aucune recherche web/API n'a ete lancee par Jarvis.
+Securite: paquet uniquement, aucune recherche web/API, aucun scraping, aucun import, aucune commande, aucun paiement, aucune publication.

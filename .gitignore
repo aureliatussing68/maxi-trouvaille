@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/.venv
 /.pnp
 .pnp.*
 .yarn/*
@@ -31,10 +32,13 @@ yarn-error.log*
 .pnpm-debug.log*
 dev-server*.log
 tmp-next-start*.log
+tmp-codex*.log
+/tmp/
 
 # local-only counters fallback
 /data/product-stats.json
 /data/product-reviews.json
+/data/product-messages.json
 
 # env files (can opt-in for committing if needed)
 .env*
@@ -49,3 +53,7 @@ tmp-next-start*.log
 next-env.d.ts
 
 .vercel
+
+.sandboxhome/
+.sandbox_home/
+.venv/

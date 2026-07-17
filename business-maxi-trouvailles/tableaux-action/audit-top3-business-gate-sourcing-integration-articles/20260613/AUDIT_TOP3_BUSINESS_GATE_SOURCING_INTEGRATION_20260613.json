@@ -1,0 +1,114 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-13T12:12:07.673Z",
+  "generatedAtLocal": "2026-06-13 14:12 Europe/Paris",
+  "mode": "read_only_integration_top3_business_gate",
+  "status": "HOLD_TOP3_BUSINESS_GATE_BLOCKED",
+  "productCount": 3,
+  "proofCount": 15,
+  "readyProofCount": 0,
+  "missingProofCount": 15,
+  "imageTaskCount": 9,
+  "readyImageCount": 0,
+  "missingImageCount": 9,
+  "invalidImageCount": 0,
+  "businessBlockerCount": 24,
+  "failureCount": 0,
+  "sensitiveFindingCount": 0,
+  "issues": [],
+  "productSummaries": [
+    {
+      "top3Rank": 1,
+      "productId": "integration_articles_20260612_housse-protection-canape-animal",
+      "productName": "Housse protection canape animal",
+      "categoryId": "dropshipping-maison",
+      "proofCount": 5,
+      "readyProofCount": 0,
+      "missingProofCount": 5,
+      "imageTaskCount": 3,
+      "readyImageCount": 0,
+      "missingImageCount": 3,
+      "invalidImageCount": 0,
+      "missingProofLabels": [
+        "URL produit exacte",
+        "Nom vendeur ou partenaire",
+        "SKU/reference fournisseur",
+        "Variante exacte vendue",
+        "Prix fournisseur reel en centimes"
+      ],
+      "missingImageLabels": [
+        "main: housse-protection-canape-animal-partenaire-hold-main.webp",
+        "detail: housse-protection-canape-animal-partenaire-hold-detail-1.webp",
+        "variant: housse-protection-canape-animal-partenaire-hold-variant.webp"
+      ]
+    },
+    {
+      "top3Rank": 2,
+      "productId": "integration_articles_20260612_cable-organizer-boite-multiprise",
+      "productName": "Cache multiprise boite rangement cables",
+      "categoryId": "dropshipping-accessoires",
+      "proofCount": 5,
+      "readyProofCount": 0,
+      "missingProofCount": 5,
+      "imageTaskCount": 3,
+      "readyImageCount": 0,
+      "missingImageCount": 3,
+      "invalidImageCount": 0,
+      "missingProofLabels": [
+        "URL produit exacte",
+        "Nom vendeur ou partenaire",
+        "SKU/reference fournisseur",
+        "Variante exacte vendue",
+        "Prix fournisseur reel en centimes"
+      ],
+      "missingImageLabels": [
+        "main: cache-multiprise-boite-rangement-cables-partenaire-hold-main.webp",
+        "detail: cache-multiprise-boite-rangement-cables-partenaire-hold-detail-1.webp",
+        "variant: cache-multiprise-boite-rangement-cables-partenaire-hold-variant.webp"
+      ]
+    },
+    {
+      "top3Rank": 3,
+      "productId": "integration_articles_20260612_trousse-toilette-suspendue-voyage",
+      "productName": "Trousse toilette suspendue voyage",
+      "categoryId": "dropshipping-accessoires",
+      "proofCount": 5,
+      "readyProofCount": 0,
+      "missingProofCount": 5,
+      "imageTaskCount": 3,
+      "readyImageCount": 0,
+      "missingImageCount": 3,
+      "invalidImageCount": 0,
+      "missingProofLabels": [
+        "URL produit exacte",
+        "Nom vendeur ou partenaire",
+        "SKU/reference fournisseur",
+        "Variante exacte vendue",
+        "Prix fournisseur reel en centimes"
+      ],
+      "missingImageLabels": [
+        "main: trousse-toilette-suspendue-voyage-partenaire-hold-main.webp",
+        "detail: trousse-toilette-suspendue-voyage-partenaire-hold-detail-1.webp",
+        "variant: trousse-toilette-suspendue-voyage-partenaire-hold-variant.webp"
+      ]
+    }
+  ],
+  "sources": {
+    "proofsPath": "business-maxi-trouvailles/tableaux-action/top3-preuves-paralleles-sourcing-integration-articles/20260613/TOP3_PREUVES_PARALLELES_SOURCING_INTEGRATION_20260613.json",
+    "proofsAuditPath": "business-maxi-trouvailles/tableaux-action/audit-top3-preuves-paralleles-sourcing-integration-articles/20260613/AUDIT_TOP3_PREUVES_PARALLELES_SOURCING_INTEGRATION_20260613.json",
+    "depotAuditPath": "business-maxi-trouvailles/tableaux-action/audit-top3-webp-depot-files-sourcing-integration-articles/20260612/AUDIT_TOP3_WEBP_DEPOT_FILES_SOURCING_INTEGRATION_20260612.json",
+    "sessionAuditPath": "business-maxi-trouvailles/tableaux-action/audit-session-depot-top3-webp-sourcing-integration-articles/20260613/AUDIT_SESSION_DEPOT_TOP3_WEBP_SOURCING_INTEGRATION_20260613.json"
+  },
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noSupplierValueExport": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noImageDownload": true,
+    "noImageFileCreated": true,
+    "noPublicImageWrite": true,
+    "manualValidationRequired": true
+  }
+}

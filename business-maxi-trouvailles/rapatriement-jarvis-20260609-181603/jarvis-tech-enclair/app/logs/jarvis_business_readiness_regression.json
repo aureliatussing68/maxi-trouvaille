@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-05-24 08:45:34",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "fresh_run_not_cached": true,
+    "second_run_cached": true,
+    "cached_fast": true,
+    "short_message_present": true,
+    "txt_mentions_short_message": true,
+    "route_business_readiness": true,
+    "execute_business_readiness": true,
+    "executor_uses_short_message": true,
+    "project_check_present": true,
+    "business_dirs_check_present": true,
+    "aliexpress_statuses_present": true,
+    "aliexpress_statuses_only": true,
+    "no_auto_publish": true,
+    "no_auto_order": true,
+    "no_auto_payment": true,
+    "no_production_write": true,
+    "manual_validation_required": true,
+    "no_secret_like_value_in_text": true
+  },
+  "business_overall": "OK",
+  "fresh_elapsed_ms": 315,
+  "cached_elapsed_ms": 0,
+  "short_message": "Business Maxi pret: mode brouillon, publication/paiement/commande bloques.",
+  "executor_message": "Business Maxi pret: mode brouillon, publication/paiement/commande bloques.",
+  "note": "Regression lecture seule. Aucune cle, publication, commande ou paiement n'est declenche."
+}

@@ -1,0 +1,72 @@
+{
+  "checkedAt": "2026-06-19T01:58:38.175Z",
+  "ok": true,
+  "mode": "read_only_transactional_noindex_audit",
+  "transactionalRoutes": [
+    {
+      "route": "/panier",
+      "path": "src/app/panier/page.tsx",
+      "requireFollowFalse": false
+    },
+    {
+      "route": "/paiement",
+      "path": "src/app/paiement/page.tsx",
+      "requireFollowFalse": false
+    },
+    {
+      "route": "/paiement/annule",
+      "path": "src/app/paiement/annule/page.tsx",
+      "requireFollowFalse": true
+    },
+    {
+      "route": "/paiement/succes",
+      "path": "src/app/paiement/succes/page.tsx",
+      "requireFollowFalse": true
+    },
+    {
+      "route": "/avis/laisser",
+      "path": "src/app/avis/laisser/page.tsx",
+      "requireFollowFalse": true
+    },
+    {
+      "route": "/offline",
+      "path": "src/app/offline/page.tsx",
+      "requireFollowFalse": true
+    }
+  ],
+  "expectedPublicRoutes": [
+    {
+      "route": "/produits-partenaires",
+      "path": "src/app/produits-partenaires/page.tsx"
+    },
+    {
+      "route": "/nouveautes",
+      "path": "src/app/nouveautes/page.tsx"
+    },
+    {
+      "route": "/promotions",
+      "path": "src/app/promotions/page.tsx"
+    },
+    {
+      "route": "/boutique",
+      "path": "src/app/boutique/page.tsx"
+    }
+  ],
+  "checkedRouteCount": 10,
+  "findingCount": 0,
+  "findings": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true,
+    "noExternalRequest": true
+  },
+  "files": {
+    "json": "business-maxi-trouvailles/tableaux-action/audit-noindex-transactionnel-20260619/AUDIT_NOINDEX_TRANSACTIONNEL_20260619.json",
+    "md": "business-maxi-trouvailles/tableaux-action/audit-noindex-transactionnel-20260619/AUDIT_NOINDEX_TRANSACTIONNEL_20260619.md",
+    "csv": "business-maxi-trouvailles/tableaux-action/audit-noindex-transactionnel-20260619/maxi-audit-noindex-transactionnel-20260619.csv"
+  }
+}

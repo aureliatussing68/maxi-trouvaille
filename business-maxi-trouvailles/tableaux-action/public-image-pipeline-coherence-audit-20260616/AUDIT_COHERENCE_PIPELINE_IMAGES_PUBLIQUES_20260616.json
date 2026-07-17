@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-15T22:11:53.089Z",
+  "generatedAtLocal": "2026-06-16 00:11 Europe/Paris",
+  "mode": "read_only_public_image_pipeline_coherence_audit",
+  "sources": {
+    "proofPack": "business-maxi-trouvailles/tableaux-action/public-image-proof-pack-20260612/PACK_PREUVES_IMAGES_PUBLIQUES_20260612.json",
+    "depositAudit": "business-maxi-trouvailles/tableaux-action/public-image-deposit-files-audit-20260612/AUDIT_DEPOT_WEBP_IMAGES_PUBLIQUES_20260612.json",
+    "operatorPack": "business-maxi-trouvailles/tableaux-action/public-image-operator-pack-20260612/PACK_OPERATEUR_DEPOT_IMAGES_PUBLIQUES_20260612.json",
+    "moussBoard": "business-maxi-trouvailles/tableaux-action/public-image-mouss-review-board-20260612/BOARD_MOUSS_IMAGES_PUBLIQUES_20260612.json",
+    "textProofForm": "business-maxi-trouvailles/tableaux-action/public-image-text-proof-form-20260612/FORMULAIRE_PREUVES_TEXTE_IMAGES_PUBLIQUES_20260612.json",
+    "copyGate": "business-maxi-trouvailles/tableaux-action/public-image-copy-gate-20260612/GATE_COPIE_IMAGES_PUBLIQUES_20260612.json"
+  },
+  "itemCount": 12,
+  "formRowCount": 72,
+  "scannedFileCount": 18,
+  "failureCount": 0,
+  "failures": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noImageDownload": true,
+    "noImageFileCreated": true,
+    "noPublicImageWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true
+  }
+}

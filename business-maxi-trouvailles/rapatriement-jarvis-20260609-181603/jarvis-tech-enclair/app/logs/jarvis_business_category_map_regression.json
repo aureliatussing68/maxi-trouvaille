@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-05-24 09:41:58",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "candidates_mapped": true,
+    "candidate_count_matches_rows": true,
+    "target_categories_present": true,
+    "available_categories_present": true,
+    "short_message_present": true,
+    "txt_mentions_short_message": true,
+    "route_business_category_map": true,
+    "execute_business_category_map": true,
+    "executor_uses_short_message": true,
+    "read_only": true,
+    "no_import": true,
+    "no_order": true,
+    "no_payment": true,
+    "no_publication": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true,
+    "no_secret_like_value_in_text": true
+  },
+  "short_message": "Mapping categories: 10 produit(s), 1 fallback(s), proposition uniquement.",
+  "executor_message": "Mapping categories: 10 produit(s), 1 fallback(s), proposition uniquement.",
+  "candidate_count": 10,
+  "fallback_count": 1,
+  "note": "Regression lecture seule du mapping categories business. Proposition uniquement, aucun import."
+}

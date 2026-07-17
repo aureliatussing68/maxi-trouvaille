@@ -1,0 +1,7 @@
+Decision: BLOCKED_FOR_MANUAL_REVIEW
+Import brouillon autorise: NON
+Sourcing reel pret: NON
+
+Blocages:
+- lien fournisseur reel manquant
+- sourcing reel AliExpress non pret

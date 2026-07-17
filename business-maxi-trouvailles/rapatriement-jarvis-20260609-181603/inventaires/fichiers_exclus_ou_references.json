@@ -1,0 +1,26 @@
+[
+  {
+    "Path": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\backups\\maxi-trouvaille_full_before_jarvis_20260521_095712.zip",
+    "Reason": "Archive complete ~1 Go: referencee seulement pour ne pas gonfler le projet."
+  },
+  {
+    "Path": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\backups\\*.env.bak",
+    "Reason": "Sauvegardes .env: risque de secrets/API."
+  },
+  {
+    "Path": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\scripts\\stripe code\\code confiden.txt",
+    "Reason": "Fichier confidentiel Stripe: non copie."
+  },
+  {
+    "Path": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\compte TikTok\\infos_compte_tiktok.txt",
+    "Reason": "Fichier potentiellement identifiants/compte: non copie."
+  },
+  {
+    "Path": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\assets\\Tri_Photos_Telephone",
+    "Reason": "Photos/videos personnelles et lourdes: reference uniquement."
+  },
+  {
+    "Path": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\archives\\bureau_avant_tri_2026-05-05",
+    "Reason": "Archive bureau large et non specifique Maxi: reference uniquement."
+  }
+]

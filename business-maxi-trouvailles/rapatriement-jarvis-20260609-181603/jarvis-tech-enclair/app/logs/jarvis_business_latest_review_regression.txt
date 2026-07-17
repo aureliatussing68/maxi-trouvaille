@@ -1,0 +1,34 @@
+Regression dernier produit a valider - 2026-05-24 21:32:43
+Global: OK
+Message court: Dernier produit: Organisateur de cables de voyage compact. Import bloque pour relecture manuelle, 2 blocage(s), affichage seulement.
+Produit: Organisateur de cables de voyage compact
+Decision import: BLOCKED_FOR_MANUAL_REVIEW
+Message executor: Dernier produit: Organisateur de cables de voyage compact. Import bloque pour relecture manuelle, 2 blocage(s), affichage seulement.
+HTML: C:\Users\sinek\Desktop\Jarvis-TechEnClair\app\logs\jarvis_business_latest_review.html
+
+- json_written: OK
+- txt_written: OK
+- html_written: OK
+- latest_product_present: OK
+- review_dir_present: OK
+- review_file_present: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- html_mentions_short_message: OK
+- short_message_is_human: OK
+- route_business_latest_review: OK
+- execute_business_latest_review: OK
+- executor_uses_short_message: OK
+- not_opened_in_regression: OK
+- display_only: OK
+- read_only: OK
+- site_not_modified: OK
+- import_not_started: OK
+- order_not_started: OK
+- payment_not_started: OK
+- publication_not_started: OK
+- manual_validation_required: OK
+- no_values_exposed: OK
+- no_secret_like_value_in_reports: OK
+
+Securite: affichage seulement, aucun secret, aucun import/commande/paiement/publication.

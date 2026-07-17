@@ -1,0 +1,67 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-19T02:19:38.294Z",
+  "generatedAtLocal": "2026-06-19 04:19 Europe/Paris",
+  "mode": "read_only_mobile_manifest_shortcut_audit",
+  "manifestPath": "src/app/manifest.ts",
+  "requiredRootShortName": "Maxi",
+  "maxRootShortNameLength": 12,
+  "requiredRootId": "/",
+  "requiredRootLang": "fr-FR",
+  "rootShortName": "Maxi",
+  "requiredShortcuts": [
+    {
+      "name": "Boutique",
+      "url": "/boutique"
+    },
+    {
+      "name": "Produits partenaires",
+      "url": "/produits-partenaires"
+    },
+    {
+      "name": "Nouveautes",
+      "url": "/nouveautes"
+    },
+    {
+      "name": "Promotions",
+      "url": "/promotions"
+    },
+    {
+      "name": "Suivi colis",
+      "url": "/suivi-colis"
+    }
+  ],
+  "requiredShortcutCount": 5,
+  "shortcutNames": [
+    "Maxi Trouvaille",
+    "Boutique",
+    "Produits partenaires",
+    "Nouveautes",
+    "Promotions",
+    "Suivi colis"
+  ],
+  "shortcutUrls": [
+    "/boutique",
+    "/produits-partenaires",
+    "/nouveautes",
+    "/promotions",
+    "/suivi-colis"
+  ],
+  "shortcutUrlCount": 5,
+  "shortcutIcon192Count": 6,
+  "findingCount": 0,
+  "findings": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noExternalRequest": true
+  },
+  "files": {
+    "json": "business-maxi-trouvailles/tableaux-action/audit-manifest-mobile-20260619/AUDIT_MANIFEST_MOBILE_20260619.json",
+    "md": "business-maxi-trouvailles/tableaux-action/audit-manifest-mobile-20260619/AUDIT_MANIFEST_MOBILE_20260619.md",
+    "csv": "business-maxi-trouvailles/tableaux-action/audit-manifest-mobile-20260619/maxi-audit-manifest-mobile-20260619.csv"
+  }
+}

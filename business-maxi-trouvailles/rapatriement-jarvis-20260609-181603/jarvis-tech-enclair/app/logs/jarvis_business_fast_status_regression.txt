@@ -1,0 +1,49 @@
+Regression statut business rapide - 2026-06-08 16:27:06
+
+Global: OK
+Temps module: 3 ms
+Message court: Business Maxi: 10 candidat(s), sourcing demo, 2 API a completer, prochaine etape sure prete, brouillon uniquement.
+Message executeur: Business Maxi: 10 candidat(s), sourcing demo, 2 API a completer, prochaine etape sure prete, brouillon uniquement.
+
+Assertions:
+- json_written: OK
+- txt_written: OK
+- elapsed_under_1500ms: OK
+- project_payload_present: OK
+- candidate_count_present: OK
+- api_statuses_present: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- route_business_fast_status: OK
+- execute_business_fast_status: OK
+- executor_uses_short_message: OK
+- safe_next_status_present: OK
+- safe_next_checks_ok: OK
+- safe_next_manual_only: OK
+- supplier_resume_snapshot_safe: OK
+- runtime_manual_handoff_present: OK
+- runtime_handoff_safety: OK
+- runtime_recovery_not_started: OK
+- read_only: OK
+- no_network_probe: OK
+- no_sourcing_started: OK
+- no_import: OK
+- no_order: OK
+- no_payment: OK
+- no_publication: OK
+- no_delete: OK
+- manual_validation_required: OK
+- no_ai_call: OK
+- no_secret_values: OK
+- uses_dashboard_snapshot: OK
+- uses_safe_next_status: OK
+- uses_supplier_resume_snapshot: OK
+- uses_runtime_handoff_snapshot: OK
+- safe_commands_include_artifact_guard: OK
+- safe_commands_include_health_check: OK
+- txt_mentions_safe_next: OK
+- txt_mentions_runtime_handoff: OK
+- txt_mentions_runtime_handoff_no_ai_secret: OK
+- no_secret_like_value_in_text: OK
+
+Securite: lecture seule, aucun secret, aucun lancement sourcing/publication.

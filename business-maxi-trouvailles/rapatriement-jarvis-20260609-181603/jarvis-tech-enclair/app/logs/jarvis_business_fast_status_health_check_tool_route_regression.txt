@@ -1,0 +1,31 @@
+Regression route health cible business rapide
+
+Global: OK
+Commande: Jarvis health business rapide
+Route: maxi.business_fast_status_health_check
+Execution: OK
+Handoff runtime: MANUAL_RUNTIME_REPRISE_READY_DRY_RUN - no_ai=oui - no_secret=oui
+
+Assertions:
+- route_case_present: OK
+- route_tool_id: OK
+- execution_handled: OK
+- execution_ok: OK
+- execution_action: OK
+- payload_ok: OK
+- payload_status_ok: OK
+- health_status_ok: OK
+- health_guard_present: OK
+- health_check_command_present: OK
+- health_safe_next_cache_trace: OK
+- health_runtime_handoff_present: OK
+- targeted_regression_only: OK
+- post_change_health_full_not_started: OK
+- read_only: OK
+- no_runtime_start: OK
+- no_process_action: OK
+- no_business_action: OK
+- inventory_contains_tool: OK
+- no_secret_like_value_in_event: OK
+
+Securite: route/execution ciblees, aucune regression globale post_change_health.

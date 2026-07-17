@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-05-24 10:10:30",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "export_dir_present": true,
+    "ads_present": true,
+    "all_files_written": true,
+    "readme_written": true,
+    "short_message_present": true,
+    "txt_mentions_short_message": true,
+    "readme_mentions_short_message": true,
+    "route_business_ads_script_export": true,
+    "execute_business_ads_script_export": true,
+    "executor_uses_short_message": true,
+    "local_files_only": true,
+    "site_not_modified": true,
+    "video_export_not_started": true,
+    "publication_not_started": true,
+    "payment_not_started": true,
+    "order_not_started": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true,
+    "no_secret_like_value_in_reports": true
+  },
+  "short_message": "Pack scripts pubs pret: 3 brouillon(s) locaux pour Organisateur de cables de voyage compact, aucune video ni publication.",
+  "executor_message": "Pack scripts pubs pret: 3 brouillon(s) locaux pour Organisateur de cables de voyage compact, aucune video ni publication.",
+  "export_dir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260524_101030",
+  "ad_count": 3,
+  "note": "Regression export local des scripts pubs brouillon."
+}

@@ -1,0 +1,410 @@
+{
+  "schema_version": 1,
+  "cadence_minutes": 5,
+  "control_plane": {
+    "name": "jarvis_parallel_chantiers",
+    "mode": "central_dispatcher",
+    "default_action": "prepare_next_layer_packet",
+    "auto_launch_background_processes": false,
+    "auto_send_or_publish": false,
+    "auto_order_or_pay": false,
+    "secret_values_allowed_in_outputs": false
+  },
+  "integration_policy": {
+    "safe_tracks_can_prepare_patch": true,
+    "sensitive_tracks_prepare_draft_only": true,
+    "requires_green_tests": true,
+    "requires_rollback_note": true,
+    "requires_secret_scan": true,
+    "human_validation_required_for_sensitive_actions": true
+  },
+  "tracks": [
+    {
+      "id": "avatar_3d_mimouss",
+      "label": "Avatar 3D Mimouss",
+      "priority": 8,
+      "status": "parked_preview",
+      "cadence_minutes": 5,
+      "work_mode": "parked_preview_feature_flag",
+      "integration_target": "frontend avatar preview module",
+      "auto_integrate": false,
+      "sensitive": false,
+      "manual_gate": true,
+      "current_checkpoint": 841,
+      "next_focus": "Keep the existing avatar 3D preview stored behind feature flag; do not spend priority cycles on visual polish until Jarvis is operational.",
+      "existing_modules": [
+        "frontend/src/mimouss_avatar_3d_procedural.ts",
+        "frontend/src/mimouss_avatar_3d_preview.ts",
+        "frontend/src/mimouss_avatar_3d_preview_page.ts"
+      ],
+      "regressions": [
+        "jarvis_mimouss_avatar_3d_gesture_cue_preset_gate_regression.py",
+        "jarvis_recent_artifact_secret_scan_regression.py"
+      ],
+      "guardrails": [
+        "preview_only",
+        "feature_flag_or_manual_gate",
+        "no_replacement_of_active_ui",
+        "no_video_path_exposure"
+      ],
+      "required_env": []
+    },
+    {
+      "id": "voice_reactivity",
+      "label": "Micro voix reactivite",
+      "priority": 1,
+      "status": "active",
+      "cadence_minutes": 5,
+      "work_mode": "readiness_and_latency_layers",
+      "integration_target": "voice control center and runtime logs",
+      "auto_integrate": true,
+      "sensitive": false,
+      "manual_gate": false,
+      "current_checkpoint": 0,
+      "next_focus": "Shorten diagnosis loops and keep Bluetooth silence expected when the mic is manually cut.",
+      "existing_modules": [
+        "jarvis_voice_control_center.py",
+        "voice_pipeline.py",
+        "audio_device_manager.py",
+        "jarvis_multimodal_toolkit_status.py"
+      ],
+      "regressions": [
+        "jarvis_voice_control_center_regression.py",
+        "jarvis_voice_silence_watchdog_regression.py",
+        "jarvis_multimodal_toolkit_status_regression.py",
+        "jarvis_recent_artifact_secret_scan_regression.py"
+      ],
+      "guardrails": [
+        "no_forced_micro_toggle",
+        "no_unrequested_audio_capture",
+        "silence_can_be_expected",
+        "logs_must_be_redacted"
+      ],
+      "required_env": []
+    },
+    {
+      "id": "ai_orchestration",
+      "label": "Orchestration IA",
+      "priority": 2,
+      "status": "active",
+      "cadence_minutes": 5,
+      "work_mode": "provider_inventory_and_router_layers",
+      "integration_target": "brain link and AI control center",
+      "auto_integrate": true,
+      "sensitive": false,
+      "manual_gate": false,
+      "current_checkpoint": 938,
+      "next_focus": "Keep OpenWebUI as central dispatcher and propagate the IA/tool routing snapshot across HUD packet, frontend bridge/UI, toolbox, startup and return briefs before any live model call.",
+      "existing_modules": [
+        "jarvis_ai_control_center.py",
+        "jarvis_ai_routing_advice.py",
+        "jarvis_ai_tools_integration_status.py",
+        "jarvis_ai_providers_fast_status.py",
+        "jarvis_central_brain_toolbox.py",
+        "jarvis_runtime_hud_ready_packet.py",
+        "jarvis_runtime_hud_frontend_bridge.py",
+        "frontend/index.html",
+        "frontend/src/main.ts",
+        "frontend/src/style.css",
+        "jarvis_startup_ready_brief.py",
+        "jarvis_return_brief.py",
+        "jarvis_brain_link.py",
+        "jarvis_codex_interface_panel.py",
+        "openwebui_bridge.py"
+      ],
+      "regressions": [
+        "jarvis_ai_control_center_regression.py",
+        "jarvis_ai_routing_advice_regression.py",
+        "jarvis_ai_tools_integration_status_regression.py",
+        "jarvis_central_brain_toolbox_regression.py",
+        "jarvis_runtime_hud_ready_packet_regression.py",
+        "jarvis_runtime_hud_frontend_bridge_regression.py",
+        "jarvis_runtime_hud_frontend_ui_contract_regression.py",
+        "jarvis_startup_ready_brief_regression.py",
+        "jarvis_return_brief_regression.py",
+        "jarvis_ai_providers_fast_status_regression.py",
+        "jarvis_brain_link_regression.py",
+        "jarvis_codex_interface_panel_regression.py",
+        "jarvis_recent_artifact_secret_scan_regression.py"
+      ],
+      "guardrails": [
+        "no_secret_values",
+        "no_paid_api_call_without_manual_validation",
+        "openwebui_local_only",
+        "provider_activation_must_be_explicit",
+        "routing_snapshot_no_credit",
+        "codex_handoff_controlled"
+      ],
+      "required_env": [
+        "OPENWEBUI_URL",
+        "OPENWEBUI_API_KEY",
+        "OPENWEBUI_MODEL",
+        "OPENWEBUI_TIMEOUT",
+        "OPENWEBUI_HEALTH_TIMEOUT",
+        "OPENWEBUI_ENABLED",
+        "OPENWEBUI_CHAT_COMPLETIONS_PATH",
+        "OPENWEBUI_MODEL_ATTEMPTS",
+        "OPENWEBUI_MODEL_COOLDOWN_SECONDS",
+        "JARVIS_DIRECT_AI_FALLBACK",
+        "OPENAI_API_KEY",
+        "OPENAI_URL",
+        "OPENAI_MODEL",
+        "ANTHROPIC_API_KEY",
+        "ANTHROPIC_URL",
+        "GEMINI_API_KEY",
+        "GEMINI_URL",
+        "GEMINI_MODEL",
+        "GROQ_API_KEY",
+        "GROQ_URL",
+        "XAI_API_KEY",
+        "XAI_URL",
+        "MISTRAL_API_KEY",
+        "MISTRAL_URL",
+        "MISTRAL_MODEL",
+        "MISTRAL_ENABLED",
+        "MISTRAL_TIMEOUT",
+        "OLLAMA_URL",
+        "OPENCLAW_ENABLED",
+        "OPENCLAW_BASE_URL",
+        "OPENCLAW_API_KEY",
+        "OPENCLAW_MODE",
+        "OPENCLAW_REQUIRE_CONFIRMATION",
+        "OPENCLAW_TIMEOUT"
+      ]
+    },
+    {
+      "id": "maxi_controlled_commerce",
+      "label": "Maxi Trouvailles et AliExpress controle",
+      "priority": 4,
+      "status": "active",
+      "cadence_minutes": 5,
+      "work_mode": "draft_only_business_layers",
+      "integration_target": "business gates and Maxi workspace",
+      "auto_integrate": false,
+      "sensitive": true,
+      "manual_gate": true,
+      "current_checkpoint": 0,
+      "next_focus": "Improve product display, search drafts, and selection packets without buying or publishing.",
+      "existing_modules": [
+        "jarvis_business_safe_next_step.py",
+        "jarvis_business_search_gate.py",
+        "maxi_browser_controller.py"
+      ],
+      "regressions": [
+        "jarvis_business_safe_next_step_regression.py",
+        "jarvis_business_execution_guard_regression.py",
+        "jarvis_business_search_gate_regression.py",
+        "jarvis_recent_artifact_secret_scan_regression.py"
+      ],
+      "guardrails": [
+        "no_payment",
+        "no_order",
+        "no_publication",
+        "no_account_change",
+        "human_validation_required"
+      ],
+      "required_env": [
+        "ALIEXPRESS_APP_KEY",
+        "ALIEXPRESS_APP_SECRET",
+        "ALIEXPRESS_TRACKING_ID"
+      ]
+    },
+    {
+      "id": "vision_camera_gesture",
+      "label": "Vision camera gestes",
+      "priority": 7,
+      "status": "active",
+      "cadence_minutes": 5,
+      "work_mode": "manual_preview_only",
+      "integration_target": "vision module and gesture control",
+      "auto_integrate": false,
+      "sensitive": true,
+      "manual_gate": true,
+      "current_checkpoint": 0,
+      "next_focus": "Prepare webcam and gesture preview packets before any camera activation.",
+      "existing_modules": [
+        "vision_module.py",
+        "gesture_control.py",
+        "jarvis_multimodal_toolkit_status.py"
+      ],
+      "regressions": [
+        "jarvis_gesture_guard_regression.py",
+        "jarvis_gesture_status_route_regression.py",
+        "jarvis_multimodal_toolkit_status_regression.py",
+        "jarvis_recent_artifact_secret_scan_regression.py"
+      ],
+      "guardrails": [
+        "no_camera_start_without_manual_validation",
+        "preview_local_only",
+        "no_recording",
+        "no_upload"
+      ],
+      "required_env": []
+    },
+    {
+      "id": "pc_runtime_openwebui",
+      "label": "Controle PC runtime OpenWebUI",
+      "priority": 3,
+      "status": "active",
+      "cadence_minutes": 5,
+      "work_mode": "local_runtime_health_layers",
+      "integration_target": "window control and local OpenWebUI guard",
+      "auto_integrate": true,
+      "sensitive": false,
+      "manual_gate": false,
+      "current_checkpoint": 0,
+      "next_focus": "Keep local runtime and window commands non intrusive, especially before gaming pauses; keep parallel automation prompts in standby with names/counts only.",
+      "existing_modules": [
+      "jarvis_window_control_center.py",
+      "jarvis_openwebui_local_guard.py",
+      "jarvis_runtime_watchdog.py",
+      "config/jarvis_heartbeat_non_intrusive_policy.json",
+      "jarvis_heartbeat_non_intrusive_status.py",
+      "jarvis_operational_local_status.py",
+      "jarvis_parallel_automation_prompts_status.py"
+      ],
+      "regressions": [
+        "jarvis_window_control_center_regression.py",
+        "jarvis_openwebui_local_guard_regression.py",
+        "jarvis_runtime_watchdog_regression.py",
+      "jarvis_recent_artifact_secret_scan_regression.py",
+      "jarvis_secret_scan_policy_draft_regression.py",
+      "jarvis_heartbeat_non_intrusive_policy_regression.py",
+      "jarvis_heartbeat_non_intrusive_status_regression.py",
+      "jarvis_operational_local_status_regression.py",
+      "jarvis_parallel_automation_prompts_status_regression.py"
+      ],
+      "guardrails": [
+        "local_only",
+        "no_focus_change_during_pause",
+        "manual_confirmation_for_sensitive_window_actions",
+        "no_docker_or_port_change_without_reason",
+        "heartbeat_pause_when_mouss_uses_pc"
+      ],
+      "required_env": [
+        "OPENWEBUI_API_KEY",
+        "OPENWEBUI_MODEL"
+      ]
+    },
+    {
+      "id": "marketing_automation_mail",
+      "label": "Marketing automatisation reseaux mails",
+      "priority": 5,
+      "status": "active",
+      "cadence_minutes": 5,
+      "work_mode": "draft_only_growth_layers",
+      "integration_target": "business drafts, mail drafts, social drafts, ad drafts, content calendar",
+      "auto_integrate": false,
+      "sensitive": true,
+      "manual_gate": true,
+      "current_checkpoint": 0,
+      "next_focus": "Prepare revenue workstreams: mail drafts, TikTok and social drafts, ad drafts, product briefs, and follow-up queues.",
+      "existing_modules": [
+        "google_services.py",
+        "jarvis_business_ads_preview.py",
+        "jarvis_business_ads_script_export.py",
+        "jarvis_business_validation_queue.py"
+      ],
+      "regressions": [
+        "jarvis_business_ads_preview_regression.py",
+        "jarvis_business_ads_script_export_regression.py",
+        "jarvis_business_validation_queue_regression.py",
+        "jarvis_recent_artifact_secret_scan_regression.py"
+      ],
+      "guardrails": [
+        "draft_only",
+        "no_email_send_without_manual_validation",
+        "no_publication",
+        "no_paid_ads_launch",
+        "no_account_change",
+        "human_validation_required"
+      ],
+      "required_env": [
+        "GOOGLE_OAUTH_CLIENT_FILE",
+        "GOOGLE_DRIVE_SCOPES",
+        "TIKTOK_CLIENT_KEY",
+        "TIKTOK_CLIENT_SECRET",
+        "META_APP_ID",
+        "META_APP_SECRET",
+        "META_ACCESS_TOKEN",
+        "FACEBOOK_PAGE_ID",
+        "INSTAGRAM_BUSINESS_ACCOUNT_ID",
+        "LINKEDIN_CLIENT_ID",
+        "LINKEDIN_CLIENT_SECRET",
+        "SNAPCHAT_CLIENT_ID",
+        "SNAPCHAT_CLIENT_SECRET",
+        "PINTEREST_APP_ID",
+        "PINTEREST_APP_SECRET",
+        "SERPAPI_API_KEY",
+        "YOUTUBE_API_KEY",
+        "GOOGLE_ADS_DEVELOPER_TOKEN"
+      ]
+    },
+    {
+      "id": "social_desktop_apps",
+      "label": "Apps sociales bureau",
+      "priority": 6,
+      "status": "active",
+      "cadence_minutes": 5,
+      "work_mode": "inventory_shortcuts_manual_install",
+      "integration_target": "desktop app inventory and manual login checklist",
+      "auto_integrate": false,
+      "sensitive": true,
+      "manual_gate": true,
+      "current_checkpoint": 0,
+      "next_focus": "Inventory TikTok, CapCut, Instagram, Facebook, YouTube, LinkedIn, Pinterest, Snapchat and prepare desktop shortcuts when apps already exist.",
+      "existing_modules": [
+        "desktop_control.py",
+        "project_workspace.py",
+        "jarvis_window_control_center.py"
+      ],
+      "regressions": [
+        "jarvis_desktop_fast_status_regression.py",
+        "jarvis_window_control_center_regression.py",
+        "jarvis_recent_artifact_secret_scan_regression.py"
+      ],
+      "guardrails": [
+        "no_unattended_install",
+        "no_account_login_without_mouss",
+        "no_store_purchase",
+        "shortcuts_only_when_existing_app_found",
+        "human_validation_required"
+      ],
+      "required_env": []
+    },
+    {
+      "id": "spotify_media_assist",
+      "label": "Spotify media assist",
+      "priority": 9,
+      "status": "active",
+      "cadence_minutes": 5,
+      "work_mode": "local_media_control_layers",
+      "integration_target": "spotify controller and voice commands",
+      "auto_integrate": false,
+      "sensitive": true,
+      "manual_gate": true,
+      "current_checkpoint": 0,
+      "next_focus": "Prepare Spotify commands and playlist helpers without starting playback automatically.",
+      "existing_modules": [
+        "spotify_controller.py",
+        "voice_shortcuts.py",
+        "jarvis_tools_registry.py"
+      ],
+      "regressions": [
+        "jarvis_command_regression.py",
+        "jarvis_recent_artifact_secret_scan_regression.py"
+      ],
+      "guardrails": [
+        "no_auto_playback_without_user_request",
+        "no_account_change",
+        "no_paid_subscription_action",
+        "local_control_only"
+      ],
+      "required_env": [
+        "SPOTIFY_CLIENT_ID",
+        "SPOTIFY_CLIENT_SECRET",
+        "SPOTIFY_REDIRECT_URI"
+      ]
+    }
+  ]
+}

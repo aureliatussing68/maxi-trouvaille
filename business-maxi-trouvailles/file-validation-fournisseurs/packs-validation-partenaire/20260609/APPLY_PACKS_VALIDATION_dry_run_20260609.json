@@ -1,0 +1,172 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-09T19:56:29.333Z",
+  "mode": "dry_run",
+  "inputPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-partenaire\\20260609\\PACKS_VALIDATION_PARTENAIRES.json",
+  "quickProductsPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\data\\quick-products.json",
+  "packetCount": 5,
+  "readyCount": 0,
+  "blockedCount": 5,
+  "updatedCount": 0,
+  "blockers": {
+    "date_verification_absente": 5,
+    "nom_fournisseur_exact_absent": 5,
+    "variante_choisie_absente": 5,
+    "prix_fournisseur_invalide": 5,
+    "stock_fournisseur_invalide": 5,
+    "delai_absent": 5,
+    "tracking_non_renseigne": 5,
+    "preuve_fiabilite_fournisseur_absente": 5,
+    "preuve_livraison_absente": 5,
+    "preuve_prix_absente": 5,
+    "preuve_droits_images_absente": 5,
+    "preuve_variante_images_absente": 5,
+    "nettoyage_texte_non_confirme": 5,
+    "revue_mouss_absente": 5
+  },
+  "ready": [],
+  "blocked": [
+    {
+      "packetId": "ali_partner_20260527_pochette_cables_voyage_001",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "slug": "pochette-organisateur-cables-double-couche-voyage",
+      "readyForDraftUpdate": false,
+      "blockers": [
+        "date_verification_absente",
+        "nom_fournisseur_exact_absent",
+        "variante_choisie_absente",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "tracking_non_renseigne",
+        "preuve_fiabilite_fournisseur_absente",
+        "preuve_livraison_absente",
+        "preuve_prix_absente",
+        "preuve_droits_images_absente",
+        "preuve_variante_images_absente",
+        "nettoyage_texte_non_confirme",
+        "revue_mouss_absente"
+      ],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      }
+    },
+    {
+      "packetId": "ali_partner_20260527_sacs_rangement_vide_001",
+      "name": "Sacs rangement sous vide grand volume voyage",
+      "slug": "sacs-rangement-sous-vide-voyage-grand-volume",
+      "readyForDraftUpdate": false,
+      "blockers": [
+        "date_verification_absente",
+        "nom_fournisseur_exact_absent",
+        "variante_choisie_absente",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "tracking_non_renseigne",
+        "preuve_fiabilite_fournisseur_absente",
+        "preuve_livraison_absente",
+        "preuve_prix_absente",
+        "preuve_droits_images_absente",
+        "preuve_variante_images_absente",
+        "nettoyage_texte_non_confirme",
+        "revue_mouss_absente"
+      ],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      }
+    },
+    {
+      "packetId": "ali_partner_20260527_support_pc_pliant_001",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "slug": "support-pc-portable-pliant-aluminium-ajustable",
+      "readyForDraftUpdate": false,
+      "blockers": [
+        "date_verification_absente",
+        "nom_fournisseur_exact_absent",
+        "variante_choisie_absente",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "tracking_non_renseigne",
+        "preuve_fiabilite_fournisseur_absente",
+        "preuve_livraison_absente",
+        "preuve_prix_absente",
+        "preuve_droits_images_absente",
+        "preuve_variante_images_absente",
+        "nettoyage_texte_non_confirme",
+        "revue_mouss_absente"
+      ],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      }
+    },
+    {
+      "packetId": "ali_partner_20260527_brosse_poils_animaux_001",
+      "name": "Brosse anti-poils animaux 4-en-1 réutilisable",
+      "slug": "brosse-anti-poils-animaux-reutilisable",
+      "readyForDraftUpdate": false,
+      "blockers": [
+        "date_verification_absente",
+        "nom_fournisseur_exact_absent",
+        "variante_choisie_absente",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "tracking_non_renseigne",
+        "preuve_fiabilite_fournisseur_absente",
+        "preuve_livraison_absente",
+        "preuve_prix_absente",
+        "preuve_droits_images_absente",
+        "preuve_variante_images_absente",
+        "nettoyage_texte_non_confirme",
+        "revue_mouss_absente"
+      ],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      }
+    },
+    {
+      "packetId": "ali_partner_20260605_spray_huile_cuisine_001",
+      "name": "Spray huile cuisine réutilisable best-seller",
+      "slug": "spray-huile-cuisine-reutilisable-best-seller",
+      "readyForDraftUpdate": false,
+      "blockers": [
+        "date_verification_absente",
+        "nom_fournisseur_exact_absent",
+        "variante_choisie_absente",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "tracking_non_renseigne",
+        "preuve_fiabilite_fournisseur_absente",
+        "preuve_livraison_absente",
+        "preuve_prix_absente",
+        "preuve_droits_images_absente",
+        "preuve_variante_images_absente",
+        "nettoyage_texte_non_confirme",
+        "revue_mouss_absente"
+      ],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      }
+    }
+  ],
+  "apply": {
+    "applied": false,
+    "backupPath": null,
+    "updatedCount": 0
+  },
+  "safety": {
+    "draftsOnly": true,
+    "noPublication": true,
+    "noSupplierOrder": true,
+    "noPayment": true,
+    "backupBeforeWrite": true
+  }
+}

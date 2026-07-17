@@ -1,0 +1,24 @@
+{
+  "rank": 5,
+  "top3Rank": 2,
+  "productId": "integration_articles_20260612_cable-organizer-boite-multiprise",
+  "productSlug": "cache-multiprise-boite-rangement-cables-partenaire-hold",
+  "productName": "Cache multiprise boite rangement cables",
+  "categoryId": "dropshipping-accessoires",
+  "role": "detail",
+  "order": 2,
+  "expectedFileName": "cache-multiprise-boite-rangement-cables-partenaire-hold-detail-1.webp",
+  "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260612/cache-multiprise-boite-rangement-cables-partenaire-hold",
+  "expectedTargetPathRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260612/cache-multiprise-boite-rangement-cables-partenaire-hold/cache-multiprise-boite-rangement-cables-partenaire-hold-detail-1.webp",
+  "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_cable-organizer-boite-multiprise#top-verification-integration_articles_20260612_cable-organizer-boite-multiprise",
+  "status": "MISSING_HOLD",
+  "manualInput": {
+    "sourceLocalFile": "",
+    "rightsNote": "",
+    "exactSameArticle": "",
+    "exactVariantConfirmed": "",
+    "moussValidation": "",
+    "finalDecision": "HOLD_TO_FILL"
+  },
+  "nextAction": "Deposer un WebP exact local uniquement apres preuve meme article, droits image et validation Mouss."
+}

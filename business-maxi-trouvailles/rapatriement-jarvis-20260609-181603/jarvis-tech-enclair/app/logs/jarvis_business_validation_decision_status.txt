@@ -1,0 +1,16 @@
+Statut decision produit - 2026-06-09 18:00:59
+
+Produit: Organisateur de cables de voyage compact
+Message court: Decision Mouss en attente pour Organisateur de cables de voyage compact, aucune action sensible.
+Decision: PENDING_MOUSS_DECISION
+Decision Mouss: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_130345\DECISION_MOUSS_A_REMPLIR.md
+Autorise prochaine etape: NON
+
+Choix coches:
+- aucun
+
+Notes Mouss:
+- aucune
+
+Message: Decision Mouss non validee pour action suivante. Aucune action sensible.
+Securite: lecture seule, aucun import, achat, paiement, publication ou suppression.

@@ -1,0 +1,349 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-12T08:09:33.545Z",
+  "generatedAtLocal": "2026-06-12 10:09 Europe/Paris",
+  "mode": "read_only_sprint_image_replacement_decision_audit",
+  "productCount": 3,
+  "imageCount": 14,
+  "readyReviewProductCount": 0,
+  "readyImageCount": 0,
+  "holdProductCount": 3,
+  "holdImageCount": 14,
+  "hardFailureCount": 0,
+  "blockerCount": 59,
+  "products": [
+    {
+      "productId": "ali_partner_20260527_pochette_cables_voyage_001",
+      "productName": "Pochette organisateur câbles double couche voyage",
+      "finalDecision": "HOLD",
+      "chosenGlobalMode": "",
+      "status": "HOLD_DECISIONS_NOT_READY",
+      "imageCount": 4,
+      "readyImageCount": 0,
+      "holdImageCount": 4,
+      "failureCount": 0,
+      "blockerCount": 17,
+      "failures": [],
+      "blockers": [
+        "decision_produit_reste_hold"
+      ],
+      "images": [
+        {
+          "productId": "ali_partner_20260527_pochette_cables_voyage_001",
+          "productName": "Pochette organisateur câbles double couche voyage",
+          "imageIndex": 1,
+          "role": "main",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/pochette-organisateur-cables-double-couche-voyage/01-pochette-organisateur-cables-double-couche-voyage-main.webp",
+          "selectedMode": "",
+          "finalDecision": "HOLD",
+          "reviewedByMouss": false,
+          "localFileExists": false,
+          "status": "HOLD_DECISION_NOT_READY",
+          "failures": [],
+          "blockers": [
+            "decision_image_humaine_absente",
+            "fichier_local_absent",
+            "preuve_droits_images_absente",
+            "variante_exacte_non_confirmee"
+          ]
+        },
+        {
+          "productId": "ali_partner_20260527_pochette_cables_voyage_001",
+          "productName": "Pochette organisateur câbles double couche voyage",
+          "imageIndex": 2,
+          "role": "detail",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/pochette-organisateur-cables-double-couche-voyage/02-pochette-organisateur-cables-double-couche-voyage-detail.webp",
+          "selectedMode": "",
+          "finalDecision": "HOLD",
+          "reviewedByMouss": false,
+          "localFileExists": false,
+          "status": "HOLD_DECISION_NOT_READY",
+          "failures": [],
+          "blockers": [
+            "decision_image_humaine_absente",
+            "fichier_local_absent",
+            "preuve_droits_images_absente",
+            "variante_exacte_non_confirmee"
+          ]
+        },
+        {
+          "productId": "ali_partner_20260527_pochette_cables_voyage_001",
+          "productName": "Pochette organisateur câbles double couche voyage",
+          "imageIndex": 3,
+          "role": "usage",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/pochette-organisateur-cables-double-couche-voyage/03-pochette-organisateur-cables-double-couche-voyage-usage.webp",
+          "selectedMode": "",
+          "finalDecision": "HOLD",
+          "reviewedByMouss": false,
+          "localFileExists": false,
+          "status": "HOLD_DECISION_NOT_READY",
+          "failures": [],
+          "blockers": [
+            "decision_image_humaine_absente",
+            "fichier_local_absent",
+            "preuve_droits_images_absente",
+            "variante_exacte_non_confirmee"
+          ]
+        },
+        {
+          "productId": "ali_partner_20260527_pochette_cables_voyage_001",
+          "productName": "Pochette organisateur câbles double couche voyage",
+          "imageIndex": 4,
+          "role": "dimensions",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/pochette-organisateur-cables-double-couche-voyage/04-pochette-organisateur-cables-double-couche-voyage-dimensions.webp",
+          "selectedMode": "",
+          "finalDecision": "HOLD",
+          "reviewedByMouss": false,
+          "localFileExists": false,
+          "status": "HOLD_DECISION_NOT_READY",
+          "failures": [],
+          "blockers": [
+            "decision_image_humaine_absente",
+            "fichier_local_absent",
+            "preuve_droits_images_absente",
+            "variante_exacte_non_confirmee"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "ali_partner_20260527_support_pc_pliant_001",
+      "productName": "Support PC portable pliant aluminium ajustable",
+      "finalDecision": "HOLD",
+      "chosenGlobalMode": "",
+      "status": "HOLD_DECISIONS_NOT_READY",
+      "imageCount": 4,
+      "readyImageCount": 0,
+      "holdImageCount": 4,
+      "failureCount": 0,
+      "blockerCount": 17,
+      "failures": [],
+      "blockers": [
+        "decision_produit_reste_hold"
+      ],
+      "images": [
+        {
+          "productId": "ali_partner_20260527_support_pc_pliant_001",
+          "productName": "Support PC portable pliant aluminium ajustable",
+          "imageIndex": 1,
+          "role": "main",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/support-pc-portable-pliant-aluminium-ajustable/01-support-pc-portable-pliant-aluminium-ajustable-main.webp",
+          "selectedMode": "",
+          "finalDecision": "HOLD",
+          "reviewedByMouss": false,
+          "localFileExists": false,
+          "status": "HOLD_DECISION_NOT_READY",
+          "failures": [],
+          "blockers": [
+            "decision_image_humaine_absente",
+            "fichier_local_absent",
+            "preuve_droits_images_absente",
+            "variante_exacte_non_confirmee"
+          ]
+        },
+        {
+          "productId": "ali_partner_20260527_support_pc_pliant_001",
+          "productName": "Support PC portable pliant aluminium ajustable",
+          "imageIndex": 2,
+          "role": "detail",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/support-pc-portable-pliant-aluminium-ajustable/02-support-pc-portable-pliant-aluminium-ajustable-detail.webp",
+          "selectedMode": "",
+          "finalDecision": "HOLD",
+          "reviewedByMouss": false,
+          "localFileExists": false,
+          "status": "HOLD_DECISION_NOT_READY",
+          "failures": [],
+          "blockers": [
+            "decision_image_humaine_absente",
+            "fichier_local_absent",
+            "preuve_droits_images_absente",
+            "variante_exacte_non_confirmee"
+          ]
+        },
+        {
+          "productId": "ali_partner_20260527_support_pc_pliant_001",
+          "productName": "Support PC portable pliant aluminium ajustable",
+          "imageIndex": 3,
+          "role": "usage",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/support-pc-portable-pliant-aluminium-ajustable/03-support-pc-portable-pliant-aluminium-ajustable-usage.webp",
+          "selectedMode": "",
+          "finalDecision": "HOLD",
+          "reviewedByMouss": false,
+          "localFileExists": false,
+          "status": "HOLD_DECISION_NOT_READY",
+          "failures": [],
+          "blockers": [
+            "decision_image_humaine_absente",
+            "fichier_local_absent",
+            "preuve_droits_images_absente",
+            "variante_exacte_non_confirmee"
+          ]
+        },
+        {
+          "productId": "ali_partner_20260527_support_pc_pliant_001",
+          "productName": "Support PC portable pliant aluminium ajustable",
+          "imageIndex": 4,
+          "role": "dimensions",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/support-pc-portable-pliant-aluminium-ajustable/04-support-pc-portable-pliant-aluminium-ajustable-dimensions.webp",
+          "selectedMode": "",
+          "finalDecision": "HOLD",
+          "reviewedByMouss": false,
+          "localFileExists": false,
+          "status": "HOLD_DECISION_NOT_READY",
+          "failures": [],
+          "blockers": [
+            "decision_image_humaine_absente",
+            "fichier_local_absent",
+            "preuve_droits_images_absente",
+            "variante_exacte_non_confirmee"
+          ]
+        }
+      ]
+    },
+    {
+      "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+      "productName": "Filet rangement coffre voiture à sangles fixes",
+      "finalDecision": "HOLD",
+      "chosenGlobalMode": "",
+      "status": "HOLD_DECISIONS_NOT_READY",
+      "imageCount": 6,
+      "readyImageCount": 0,
+      "holdImageCount": 6,
+      "failureCount": 0,
+      "blockerCount": 25,
+      "failures": [],
+      "blockers": [
+        "decision_produit_reste_hold"
+      ],
+      "images": [
+        {
+          "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+          "productName": "Filet rangement coffre voiture à sangles fixes",
+          "imageIndex": 1,
+          "role": "main",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/filet-rangement-coffre-voiture-a-sangles-fixes/01-filet-rangement-coffre-voiture-a-sangles-fixes-main.webp",
+          "selectedMode": "",
+          "finalDecision": "HOLD",
+          "reviewedByMouss": false,
+          "localFileExists": false,
+          "status": "HOLD_DECISION_NOT_READY",
+          "failures": [],
+          "blockers": [
+            "decision_image_humaine_absente",
+            "fichier_local_absent",
+            "preuve_droits_images_absente",
+            "variante_exacte_non_confirmee"
+          ]
+        },
+        {
+          "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+          "productName": "Filet rangement coffre voiture à sangles fixes",
+          "imageIndex": 2,
+          "role": "detail",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/filet-rangement-coffre-voiture-a-sangles-fixes/02-filet-rangement-coffre-voiture-a-sangles-fixes-detail.webp",
+          "selectedMode": "",
+          "finalDecision": "HOLD",
+          "reviewedByMouss": false,
+          "localFileExists": false,
+          "status": "HOLD_DECISION_NOT_READY",
+          "failures": [],
+          "blockers": [
+            "decision_image_humaine_absente",
+            "fichier_local_absent",
+            "preuve_droits_images_absente",
+            "variante_exacte_non_confirmee"
+          ]
+        },
+        {
+          "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+          "productName": "Filet rangement coffre voiture à sangles fixes",
+          "imageIndex": 3,
+          "role": "usage",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/filet-rangement-coffre-voiture-a-sangles-fixes/03-filet-rangement-coffre-voiture-a-sangles-fixes-usage.webp",
+          "selectedMode": "",
+          "finalDecision": "HOLD",
+          "reviewedByMouss": false,
+          "localFileExists": false,
+          "status": "HOLD_DECISION_NOT_READY",
+          "failures": [],
+          "blockers": [
+            "decision_image_humaine_absente",
+            "fichier_local_absent",
+            "preuve_droits_images_absente",
+            "variante_exacte_non_confirmee"
+          ]
+        },
+        {
+          "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+          "productName": "Filet rangement coffre voiture à sangles fixes",
+          "imageIndex": 4,
+          "role": "dimensions",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/filet-rangement-coffre-voiture-a-sangles-fixes/04-filet-rangement-coffre-voiture-a-sangles-fixes-dimensions.webp",
+          "selectedMode": "",
+          "finalDecision": "HOLD",
+          "reviewedByMouss": false,
+          "localFileExists": false,
+          "status": "HOLD_DECISION_NOT_READY",
+          "failures": [],
+          "blockers": [
+            "decision_image_humaine_absente",
+            "fichier_local_absent",
+            "preuve_droits_images_absente",
+            "variante_exacte_non_confirmee"
+          ]
+        },
+        {
+          "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+          "productName": "Filet rangement coffre voiture à sangles fixes",
+          "imageIndex": 5,
+          "role": "detail-5",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/filet-rangement-coffre-voiture-a-sangles-fixes/05-filet-rangement-coffre-voiture-a-sangles-fixes-detail-5.webp",
+          "selectedMode": "",
+          "finalDecision": "HOLD",
+          "reviewedByMouss": false,
+          "localFileExists": false,
+          "status": "HOLD_DECISION_NOT_READY",
+          "failures": [],
+          "blockers": [
+            "decision_image_humaine_absente",
+            "fichier_local_absent",
+            "preuve_droits_images_absente",
+            "variante_exacte_non_confirmee"
+          ]
+        },
+        {
+          "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+          "productName": "Filet rangement coffre voiture à sangles fixes",
+          "imageIndex": 6,
+          "role": "detail-6",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/filet-rangement-coffre-voiture-a-sangles-fixes/06-filet-rangement-coffre-voiture-a-sangles-fixes-detail-6.webp",
+          "selectedMode": "",
+          "finalDecision": "HOLD",
+          "reviewedByMouss": false,
+          "localFileExists": false,
+          "status": "HOLD_DECISION_NOT_READY",
+          "failures": [],
+          "blockers": [
+            "decision_image_humaine_absente",
+            "fichier_local_absent",
+            "preuve_droits_images_absente",
+            "variante_exacte_non_confirmee"
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": {
+    "manifestPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\manifest-remplacement-images-sprint-20260612\\MANIFEST_REMPLACEMENT_IMAGES_SPRINT_20260612.json",
+    "fillTemplatePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\manifest-remplacement-images-sprint-20260612\\A_REMPLIR_DECISIONS_REMPLACEMENT_IMAGES_20260612.json"
+  },
+  "safety": {
+    "readOnly": true,
+    "noImageDownload": true,
+    "noImageGeneration": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true
+  }
+}

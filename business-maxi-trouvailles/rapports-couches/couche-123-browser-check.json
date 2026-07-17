@@ -1,0 +1,52 @@
+{
+  "ok": true,
+  "urls": {
+    "image": "http://127.0.0.1:3044/admin/preuves-partenaires?status=hold&zone=image",
+    "deliveryMobile": "http://127.0.0.1:3044/admin/preuves-partenaires?status=hold&zone=delivery"
+  },
+  "counterBadges": [
+    {
+      "aria": "58 elements",
+      "text": "58"
+    },
+    {
+      "aria": "58 elements",
+      "text": "58"
+    },
+    {
+      "aria": "58 elements",
+      "text": "58"
+    },
+    {
+      "aria": "49 elements",
+      "text": "49"
+    },
+    {
+      "aria": "58 elements",
+      "text": "58"
+    },
+    {
+      "aria": "58 elements",
+      "text": "58"
+    }
+  ],
+  "countersAreNumeric": true,
+  "totalCounter": 58,
+  "imageCounter": 58,
+  "imageZoneVisible": true,
+  "imageSelectValue": "image",
+  "marginHref": "/admin/preuves-partenaires?status=hold&zone=margin",
+  "deliveryHref": "/admin/preuves-partenaires?status=hold&zone=delivery",
+  "marginSelectValue": "margin",
+  "marginBadges": 6,
+  "marginUrlOk": true,
+  "mobileBadges": 6,
+  "mobileSelectValue": "delivery",
+  "imageOverflow": false,
+  "mobileOverflow": false,
+  "consoleErrors": [],
+  "screenshots": {
+    "desktop": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-123-compteurs-zones-preuves-desktop.png",
+    "mobile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-123-compteurs-zones-preuves-mobile.png"
+  }
+}

@@ -1,0 +1,6 @@
+shortlistRank,inEvidenceSprint,score,priority,id,name,categoryId,marginPercent,marginCents,supplierStock,blockerCount,riskFlags,recommendedAction
+"1","true","87","5","ali_partner_20260527_pochette_cables_voyage_001","Pochette organisateur câbles double couche voyage","dropshipping-accessoires","40.2","","","12","","remplir preuves exactes maintenant, puis audit rapide"
+"2","true","87","6","ali_partner_20260527_support_pc_pliant_001","Support PC portable pliant aluminium ajustable","dropshipping-high-tech","40.1","","","12","","remplir preuves exactes maintenant, puis audit rapide"
+"3","true","70","7","ali_partner_20260527_filet_coffre_voiture_001","Filet rangement coffre voiture à sangles fixes","dropshipping-auto-moto","40.3","","","12","controle_usage_auto","remplir preuves exactes maintenant, puis audit rapide"
+"4","false","59","8","ali_partner_20260527_gourde_pliable_001","Gourde pliable silicone voyage avec mousqueton","dropshipping-accessoires","40.3","","","12","controle_contact_alimentaire","garder en attente jusqu'a preuve ou remplacement"
+"5","false","56","9","ali_partner_20260527_lampes_detection_001","Lampe LED à détection de mouvement USB rechargeable","dropshipping-maison","40","","","12","controle_electrique_ou_batterie","garder en attente jusqu'a preuve ou remplacement"

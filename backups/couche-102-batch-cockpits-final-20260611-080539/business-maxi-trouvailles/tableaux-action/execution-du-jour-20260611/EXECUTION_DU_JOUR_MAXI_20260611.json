@@ -1,0 +1,1062 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-11T06:04:22.700Z",
+  "generatedAtLocal": "2026-06-11 08:04 Europe/Paris",
+  "mode": "read_only_daily_execution_board",
+  "actionCount": 36,
+  "lanes": [
+    {
+      "lane": "cockpit_produit",
+      "actionCount": 3,
+      "blockedCount": 3,
+      "readyCount": 0,
+      "firstAction": "remplir 12 preuves et deposer 4 WebP exacts avant revue Mouss"
+    },
+    {
+      "lane": "images_categories",
+      "actionCount": 9,
+      "blockedCount": 9,
+      "readyCount": 0,
+      "firstAction": "deposer ou corriger le WebP exact dans le dossier depot"
+    },
+    {
+      "lane": "produits_partenaires",
+      "actionCount": 12,
+      "blockedCount": 12,
+      "readyCount": 0,
+      "firstAction": "Decider garder, remplacer, retirer ou plus tard avant toute preuve fournisseur."
+    },
+    {
+      "lane": "photos_produits",
+      "actionCount": 8,
+      "blockedCount": 8,
+      "readyCount": 0,
+      "firstAction": "photo produit entier, pochette seule, angle 3/4, fermeture visible"
+    },
+    {
+      "lane": "garde_fous",
+      "actionCount": 4,
+      "blockedCount": 0,
+      "readyCount": 0,
+      "firstAction": "maintenir zero fuite client: AliExpress, prix fournisseur, liens fournisseur et images non prouvees restent bloques"
+    }
+  ],
+  "metrics": {
+    "partnerActionCount": 15,
+    "partnerDraftHoldCount": 37,
+    "partnerPublishedCount": 0,
+    "categoryImagesExpected": 9,
+    "categoryImagesMissing": 9,
+    "categoryImagesReadyHumanReview": 0,
+    "productPhotosExpected": 8,
+    "productPhotosMissing": 8,
+    "cockpitCount": 3,
+    "cockpitEvidenceFieldMissingCount": 36,
+    "cockpitImageTaskCount": 14,
+    "cockpitBlockerCount": 99,
+    "expectedPurchasableCount": 0,
+    "legacyPurchasableCount": 0,
+    "publicSurfaceVisibleDropshippingCount": 0,
+    "publicSurfacePurchasableDropshippingCount": 0,
+    "publicSurfaceFailureCount": 0,
+    "publicSurfaceWarningCount": 0,
+    "checkoutFailureCount": 0,
+    "surpriseFailureCount": 0
+  },
+  "actions": [
+    {
+      "rank": 1,
+      "lane": "cockpit_produit",
+      "urgency": -100,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "label": "Pochette organisateur câbles double couche voyage",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "remplir 12 preuves et deposer 4 WebP exacts avant revue Mouss",
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente",
+        "checkedAt:missing_or_placeholder",
+        "supplierSellerName:missing_or_placeholder",
+        "exactVariantChosen:missing_or_placeholder",
+        "deliveryFranceEuropeProof:missing_or_placeholder",
+        "deliveryEstimateForCustomer:missing_or_placeholder",
+        "trackingAvailable:missing_or_placeholder",
+        "trackingAvailable:tracking_answer_not_clear_yes_no",
+        "pricingProof:missing_or_placeholder",
+        "shippingProof:missing_or_placeholder",
+        "imageProof:missing_or_placeholder",
+        "imageRightsProof:missing_or_placeholder",
+        "finalDecision:final_decision_not_ready_review",
+        "reviewedByMouss:missing_human_review_mouss",
+        "fichier_local_manquant",
+        "catalogue_pointe_encore_vers_domaine_fournisseur",
+        "fichiers_webp_locaux_manquants",
+        "fichiers_webp_locaux_non_prets",
+        "catalogue_pas_encore_aligne_sur_images_locales",
+        "image_principale_pas_locale_cible",
+        "decision_droits_images_absente",
+        "image_not_public_ready"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\01-pochette-organisateur-cables-double-couche-voyage",
+      "allowedAction": "remplir le template preuves et deposer les WebP exacts dans le dossier de depot",
+      "forbiddenActions": [
+        "publier",
+        "copier dans public/uploads",
+        "commander fournisseur",
+        "payer"
+      ]
+    },
+    {
+      "rank": 2,
+      "lane": "cockpit_produit",
+      "urgency": -99,
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "label": "Support PC portable pliant aluminium ajustable",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "remplir 12 preuves et deposer 4 WebP exacts avant revue Mouss",
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente",
+        "checkedAt:missing_or_placeholder",
+        "supplierSellerName:missing_or_placeholder",
+        "exactVariantChosen:missing_or_placeholder",
+        "deliveryFranceEuropeProof:missing_or_placeholder",
+        "deliveryEstimateForCustomer:missing_or_placeholder",
+        "trackingAvailable:missing_or_placeholder",
+        "trackingAvailable:tracking_answer_not_clear_yes_no",
+        "pricingProof:missing_or_placeholder",
+        "shippingProof:missing_or_placeholder",
+        "imageProof:missing_or_placeholder",
+        "imageRightsProof:missing_or_placeholder",
+        "finalDecision:final_decision_not_ready_review",
+        "reviewedByMouss:missing_human_review_mouss",
+        "fichier_local_manquant",
+        "catalogue_pointe_encore_vers_domaine_fournisseur",
+        "fichiers_webp_locaux_manquants",
+        "fichiers_webp_locaux_non_prets",
+        "catalogue_pas_encore_aligne_sur_images_locales",
+        "image_principale_pas_locale_cible",
+        "decision_droits_images_absente",
+        "image_not_public_ready"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\02-support-pc-portable-pliant-aluminium-ajustable",
+      "allowedAction": "remplir le template preuves et deposer les WebP exacts dans le dossier de depot",
+      "forbiddenActions": [
+        "publier",
+        "copier dans public/uploads",
+        "commander fournisseur",
+        "payer"
+      ]
+    },
+    {
+      "rank": 3,
+      "lane": "cockpit_produit",
+      "urgency": -98,
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "label": "Filet rangement coffre voiture à sangles fixes",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "remplir 12 preuves et deposer 6 WebP exacts avant revue Mouss",
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente",
+        "checkedAt:missing_or_placeholder",
+        "supplierSellerName:missing_or_placeholder",
+        "exactVariantChosen:missing_or_placeholder",
+        "deliveryFranceEuropeProof:missing_or_placeholder",
+        "deliveryEstimateForCustomer:missing_or_placeholder",
+        "trackingAvailable:missing_or_placeholder",
+        "trackingAvailable:tracking_answer_not_clear_yes_no",
+        "pricingProof:missing_or_placeholder",
+        "shippingProof:missing_or_placeholder",
+        "imageProof:missing_or_placeholder",
+        "imageRightsProof:missing_or_placeholder",
+        "finalDecision:final_decision_not_ready_review",
+        "reviewedByMouss:missing_human_review_mouss",
+        "fichier_local_manquant",
+        "catalogue_pointe_encore_vers_domaine_fournisseur",
+        "fichiers_webp_locaux_manquants",
+        "fichiers_webp_locaux_non_prets",
+        "catalogue_pas_encore_aligne_sur_images_locales",
+        "image_principale_pas_locale_cible",
+        "decision_droits_images_absente",
+        "image_not_public_ready"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\03-filet-rangement-coffre-voiture-sangles-fixes",
+      "allowedAction": "remplir le template preuves et deposer les WebP exacts dans le dossier de depot",
+      "forbiddenActions": [
+        "publier",
+        "copier dans public/uploads",
+        "commander fournisseur",
+        "payer"
+      ]
+    },
+    {
+      "rank": 4,
+      "lane": "images_categories",
+      "urgency": 1,
+      "id": "dropshipping-high-tech",
+      "label": "High-tech",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-20260611\\categories\\01-high-tech-dropshipping-high-tech\\dropshipping-high-tech.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-high-tech.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 5,
+      "lane": "produits_partenaires",
+      "urgency": 1,
+      "id": "prod_partner_cable_organizer_001",
+      "label": "Organisateur de câbles et accessoires tech",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Decider garder, remplacer, retirer ou plus tard avant toute preuve fournisseur.",
+      "blockers": [
+        "decision",
+        "exactSupplierProductUrl si garder",
+        "supplierSku si garder",
+        "checkedAt",
+        "supplierSellerName",
+        "exactVariantChosen",
+        "deliveryFranceEuropeProof",
+        "deliveryEstimateForCustomer",
+        "trackingAvailable",
+        "pricingProof",
+        "shippingProof",
+        "imageProof",
+        "imageRightsProof",
+        "finalDecision",
+        "reviewedByMouss",
+        "complianceNotes si remplacer/retirer/plus tard"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 6,
+      "lane": "images_categories",
+      "urgency": 2,
+      "id": "dropshipping-accessoires",
+      "label": "Accessoires",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-20260611\\categories\\02-accessoires-dropshipping-accessoires\\dropshipping-accessoires.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-accessoires.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 7,
+      "lane": "produits_partenaires",
+      "urgency": 2,
+      "id": "prod_partner_thermal_printer_001",
+      "label": "Mini imprimante thermique Bluetooth",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Decider garder, remplacer, retirer ou plus tard avant toute preuve fournisseur.",
+      "blockers": [
+        "decision",
+        "exactSupplierProductUrl si garder",
+        "supplierSku si garder",
+        "checkedAt",
+        "supplierSellerName",
+        "exactVariantChosen",
+        "deliveryFranceEuropeProof",
+        "deliveryEstimateForCustomer",
+        "trackingAvailable",
+        "pricingProof",
+        "shippingProof",
+        "imageProof",
+        "imageRightsProof",
+        "finalDecision",
+        "reviewedByMouss",
+        "complianceNotes si remplacer/retirer/plus tard"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 8,
+      "lane": "images_categories",
+      "urgency": 3,
+      "id": "dropshipping-auto-moto",
+      "label": "Auto / Moto",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-20260611\\categories\\03-auto-moto-dropshipping-auto-moto\\dropshipping-auto-moto.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-auto-moto.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 9,
+      "lane": "produits_partenaires",
+      "urgency": 3,
+      "id": "prod_partner_galaxy_projector_001",
+      "label": "Projecteur galaxie LED pour ambiance",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Decider garder, remplacer, retirer ou plus tard avant toute preuve fournisseur.",
+      "blockers": [
+        "decision",
+        "exactSupplierProductUrl si garder",
+        "supplierSku si garder",
+        "checkedAt",
+        "supplierSellerName",
+        "exactVariantChosen",
+        "deliveryFranceEuropeProof",
+        "deliveryEstimateForCustomer",
+        "trackingAvailable",
+        "pricingProof",
+        "shippingProof",
+        "imageProof",
+        "imageRightsProof",
+        "finalDecision",
+        "reviewedByMouss",
+        "complianceNotes si remplacer/retirer/plus tard"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 10,
+      "lane": "images_categories",
+      "urgency": 4,
+      "id": "dropshipping-maison",
+      "label": "Maison",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-20260611\\categories\\04-maison-dropshipping-maison\\dropshipping-maison.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-maison.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 11,
+      "lane": "produits_partenaires",
+      "urgency": 4,
+      "id": "prod_partner_car_vacuum_001",
+      "label": "Mini aspirateur voiture sans fil",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Decider garder, remplacer, retirer ou plus tard avant toute preuve fournisseur.",
+      "blockers": [
+        "decision",
+        "exactSupplierProductUrl si garder",
+        "supplierSku si garder",
+        "checkedAt",
+        "supplierSellerName",
+        "exactVariantChosen",
+        "deliveryFranceEuropeProof",
+        "deliveryEstimateForCustomer",
+        "trackingAvailable",
+        "pricingProof",
+        "shippingProof",
+        "imageProof",
+        "imageRightsProof",
+        "finalDecision",
+        "reviewedByMouss",
+        "complianceNotes si remplacer/retirer/plus tard"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 12,
+      "lane": "images_categories",
+      "urgency": 5,
+      "id": "dropshipping-cuisine",
+      "label": "Cuisine",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-20260611\\categories\\05-cuisine-dropshipping-cuisine\\dropshipping-cuisine.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-cuisine.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 13,
+      "lane": "produits_partenaires",
+      "urgency": 5,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "label": "Pochette organisateur câbles double couche voyage",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Remplir le formulaire rapide avec vendeur, variante, prix, stock, delai, tracking et preuves image.",
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611\\formulaires-preuves-rapides-20260611\\A_REMPLIR_TEMPLATE_PREUVES_RAPIDES_20260611.json",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 14,
+      "lane": "images_categories",
+      "urgency": 6,
+      "id": "dropshipping-beaute",
+      "label": "Beauté",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-next-batch-20260611\\categories\\01-beaute-dropshipping-beaute\\dropshipping-beaute.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-beaute.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 15,
+      "lane": "produits_partenaires",
+      "urgency": 6,
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "label": "Support PC portable pliant aluminium ajustable",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Remplir le formulaire rapide avec vendeur, variante, prix, stock, delai, tracking et preuves image.",
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611\\formulaires-preuves-rapides-20260611\\A_REMPLIR_TEMPLATE_PREUVES_RAPIDES_20260611.json",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 16,
+      "lane": "images_categories",
+      "urgency": 7,
+      "id": "dropshipping-animaux",
+      "label": "Animaux",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-next-batch-20260611\\categories\\02-animaux-dropshipping-animaux\\dropshipping-animaux.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-animaux.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 17,
+      "lane": "produits_partenaires",
+      "urgency": 7,
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "label": "Filet rangement coffre voiture à sangles fixes",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Remplir le formulaire rapide avec vendeur, variante, prix, stock, delai, tracking et preuves image.",
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611\\formulaires-preuves-rapides-20260611\\A_REMPLIR_TEMPLATE_PREUVES_RAPIDES_20260611.json",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 18,
+      "lane": "images_categories",
+      "urgency": 8,
+      "id": "dropshipping-mode",
+      "label": "Mode",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-next-batch-20260611\\categories\\03-mode-dropshipping-mode\\dropshipping-mode.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-mode.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 19,
+      "lane": "produits_partenaires",
+      "urgency": 8,
+      "id": "ali_partner_20260527_gourde_pliable_001",
+      "label": "Gourde pliable silicone voyage avec mousqueton",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Remplir le formulaire rapide avec vendeur, variante, prix, stock, delai, tracking et preuves image.",
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611\\formulaires-preuves-rapides-20260611\\A_REMPLIR_TEMPLATE_PREUVES_RAPIDES_20260611.json",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 20,
+      "lane": "images_categories",
+      "urgency": 9,
+      "id": "dropshipping-enfant",
+      "label": "Enfant",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-next-batch-20260611\\categories\\04-enfant-dropshipping-enfant\\dropshipping-enfant.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-enfant.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 21,
+      "lane": "produits_partenaires",
+      "urgency": 9,
+      "id": "ali_partner_20260527_lampes_detection_001",
+      "label": "Lampe LED à détection de mouvement USB rechargeable",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Remplir le formulaire rapide avec vendeur, variante, prix, stock, delai, tracking et preuves image.",
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611\\formulaires-preuves-rapides-20260611\\A_REMPLIR_TEMPLATE_PREUVES_RAPIDES_20260611.json",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 22,
+      "lane": "produits_partenaires",
+      "urgency": 10,
+      "id": "ali_partner_20260527_support_tel_voiture_001",
+      "label": "Support téléphone voiture flexible à ventouse 360°",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Recontroler prix, livraison, droits images et risques avant de creer un formulaire de revue.",
+      "blockers": [
+        "checkedAt",
+        "supplierSellerName",
+        "exactVariantChosen",
+        "deliveryFranceEuropeProof",
+        "deliveryEstimateForCustomer",
+        "trackingAvailable",
+        "supplierPriceCents",
+        "pays expedition / transporteur",
+        "pricingProof",
+        "shippingProof",
+        "imageProof",
+        "imageRightsProof",
+        "finalDecision",
+        "reviewedByMouss"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 23,
+      "lane": "photos_produits",
+      "urgency": 11,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001#1",
+      "label": "Pochette organisateur câbles double couche voyage - main",
+      "status": "HOLD_PHOTO_MISSING",
+      "nextAction": "photo produit entier, pochette seule, angle 3/4, fermeture visible",
+      "blockers": [
+        "fichier local present",
+        "droits images remplis",
+        "correspondance visuelle prouvee",
+        "validation Mouss"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\01-pochette-organisateur-cables-double-couche-voyage\\01-pochette-organisateur-cables-double-couche-voyage-main.webp",
+      "allowedAction": "deposer photo WebP exacte: 01-pochette-organisateur-cables-double-couche-voyage-main.webp",
+      "forbiddenActions": [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 24,
+      "lane": "produits_partenaires",
+      "urgency": 11,
+      "id": "ali_partner_20260605_paracorde_camping_001",
+      "label": "Corde paracorde camping randonnée 5/15/30 m",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Recontroler prix, livraison, droits images et risques avant de creer un formulaire de revue.",
+      "blockers": [
+        "checkedAt",
+        "supplierSellerName",
+        "exactVariantChosen",
+        "deliveryFranceEuropeProof",
+        "deliveryEstimateForCustomer",
+        "trackingAvailable",
+        "supplierPriceCents",
+        "pays expedition / transporteur",
+        "pricingProof",
+        "shippingProof",
+        "imageProof",
+        "imageRightsProof",
+        "finalDecision",
+        "reviewedByMouss"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 25,
+      "lane": "photos_produits",
+      "urgency": 12,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001#2",
+      "label": "Pochette organisateur câbles double couche voyage - detail",
+      "status": "HOLD_PHOTO_MISSING",
+      "nextAction": "detail interieur/compartiments et fermeture, sans objet non inclus trompeur",
+      "blockers": [
+        "fichier local present",
+        "droits images remplis",
+        "correspondance visuelle prouvee",
+        "validation Mouss"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\01-pochette-organisateur-cables-double-couche-voyage\\02-pochette-organisateur-cables-double-couche-voyage-detail.webp",
+      "allowedAction": "deposer photo WebP exacte: 02-pochette-organisateur-cables-double-couche-voyage-detail.webp",
+      "forbiddenActions": [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 26,
+      "lane": "produits_partenaires",
+      "urgency": 12,
+      "id": "ali_partner_20260605_nano_tape_sdb_cuisine_001",
+      "label": "Nano tape double-face salle de bain cuisine",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Recontroler prix, livraison, droits images et risques avant de creer un formulaire de revue.",
+      "blockers": [
+        "checkedAt",
+        "supplierSellerName",
+        "exactVariantChosen",
+        "deliveryFranceEuropeProof",
+        "deliveryEstimateForCustomer",
+        "trackingAvailable",
+        "supplierPriceCents",
+        "pays expedition / transporteur",
+        "pricingProof",
+        "shippingProof",
+        "imageProof",
+        "imageRightsProof",
+        "finalDecision",
+        "reviewedByMouss"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 27,
+      "lane": "photos_produits",
+      "urgency": 13,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001#3",
+      "label": "Pochette organisateur câbles double couche voyage - usage",
+      "status": "HOLD_PHOTO_MISSING",
+      "nextAction": "mise en situation avec cables pour montrer l'usage, en precisant que les accessoires ne sont pas inclus si besoin",
+      "blockers": [
+        "fichier local present",
+        "droits images remplis",
+        "correspondance visuelle prouvee",
+        "validation Mouss"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\01-pochette-organisateur-cables-double-couche-voyage\\03-pochette-organisateur-cables-double-couche-voyage-usage.webp",
+      "allowedAction": "deposer photo WebP exacte: 03-pochette-organisateur-cables-double-couche-voyage-usage.webp",
+      "forbiddenActions": [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 28,
+      "lane": "photos_produits",
+      "urgency": 14,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001#4",
+      "label": "Pochette organisateur câbles double couche voyage - dimensions",
+      "status": "HOLD_PHOTO_MISSING",
+      "nextAction": "photo avec repere dimensions lisible ou preuve dimensions separee",
+      "blockers": [
+        "fichier local present",
+        "droits images remplis",
+        "correspondance visuelle prouvee",
+        "validation Mouss"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\01-pochette-organisateur-cables-double-couche-voyage\\04-pochette-organisateur-cables-double-couche-voyage-dimensions.webp",
+      "allowedAction": "deposer photo WebP exacte: 04-pochette-organisateur-cables-double-couche-voyage-dimensions.webp",
+      "forbiddenActions": [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 29,
+      "lane": "photos_produits",
+      "urgency": 21,
+      "id": "ali_partner_20260527_support_pc_pliant_001#1",
+      "label": "Support PC portable pliant aluminium ajustable - main",
+      "status": "HOLD_PHOTO_MISSING",
+      "nextAction": "support seul, deploye, angle 3/4, matiere et forme visibles",
+      "blockers": [
+        "fichier local present",
+        "droits images remplis",
+        "correspondance visuelle prouvee",
+        "validation Mouss"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\01-support-pc-portable-pliant-aluminium-ajustable-main.webp",
+      "allowedAction": "deposer photo WebP exacte: 01-support-pc-portable-pliant-aluminium-ajustable-main.webp",
+      "forbiddenActions": [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 30,
+      "lane": "photos_produits",
+      "urgency": 22,
+      "id": "ali_partner_20260527_support_pc_pliant_001#2",
+      "label": "Support PC portable pliant aluminium ajustable - detail",
+      "status": "HOLD_PHOTO_MISSING",
+      "nextAction": "detail charniere, reglages, patins ou pliage",
+      "blockers": [
+        "fichier local present",
+        "droits images remplis",
+        "correspondance visuelle prouvee",
+        "validation Mouss"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\02-support-pc-portable-pliant-aluminium-ajustable-detail.webp",
+      "allowedAction": "deposer photo WebP exacte: 02-support-pc-portable-pliant-aluminium-ajustable-detail.webp",
+      "forbiddenActions": [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 31,
+      "lane": "photos_produits",
+      "urgency": 23,
+      "id": "ali_partner_20260527_support_pc_pliant_001#3",
+      "label": "Support PC portable pliant aluminium ajustable - usage",
+      "status": "HOLD_PHOTO_MISSING",
+      "nextAction": "usage avec ordinateur en contexte uniquement; ne pas laisser penser que l'ordinateur est inclus",
+      "blockers": [
+        "fichier local present",
+        "droits images remplis",
+        "correspondance visuelle prouvee",
+        "validation Mouss"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\03-support-pc-portable-pliant-aluminium-ajustable-usage.webp",
+      "allowedAction": "deposer photo WebP exacte: 03-support-pc-portable-pliant-aluminium-ajustable-usage.webp",
+      "forbiddenActions": [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 32,
+      "lane": "photos_produits",
+      "urgency": 24,
+      "id": "ali_partner_20260527_support_pc_pliant_001#4",
+      "label": "Support PC portable pliant aluminium ajustable - dimensions",
+      "status": "HOLD_PHOTO_MISSING",
+      "nextAction": "dimensions, hauteur/reglage ou encombrement plie/deplie",
+      "blockers": [
+        "fichier local present",
+        "droits images remplis",
+        "correspondance visuelle prouvee",
+        "validation Mouss"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\04-support-pc-portable-pliant-aluminium-ajustable-dimensions.webp",
+      "allowedAction": "deposer photo WebP exacte: 04-support-pc-portable-pliant-aluminium-ajustable-dimensions.webp",
+      "forbiddenActions": [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 33,
+      "lane": "garde_fous",
+      "urgency": 899,
+      "id": "public_dropshipping_surface",
+      "label": "Surface publique dropshipping",
+      "status": "OK_NO_PUBLIC_SUPPLIER_LEAK",
+      "nextAction": "maintenir zero fuite client: AliExpress, prix fournisseur, liens fournisseur et images non prouvees restent bloques",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles\\tableaux-action\\surface-publique-dropshipping-20260611\\AUDIT_SURFACE_PUBLIQUE_DROPSHIPPING_20260611.json",
+      "allowedAction": "audit lecture seule et correction wording client si besoin",
+      "forbiddenActions": [
+        "afficher AliExpress",
+        "afficher lien fournisseur",
+        "afficher prix fournisseur",
+        "publier fiche sans image exacte"
+      ]
+    },
+    {
+      "rank": 34,
+      "lane": "garde_fous",
+      "urgency": 900,
+      "id": "checkout",
+      "label": "Checkout et Stripe",
+      "status": "OK_GUARDS_ACTIVE",
+      "nextAction": "maintenir les gardes actifs; ne pas toucher au paiement sans validation Mouss",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_CHECKOUT_ELIGIBILITY_20260611.json",
+      "allowedAction": "audit lecture seule et correction de garde-fous si besoin",
+      "forbiddenActions": [
+        "creer session Stripe reelle",
+        "deployer",
+        "modifier cles API"
+      ]
+    },
+    {
+      "rank": 35,
+      "lane": "garde_fous",
+      "urgency": 901,
+      "id": "partner_publication_gates",
+      "label": "Publication produits partenaires",
+      "status": "OK_ALL_PARTNERS_HOLD",
+      "nextAction": "37 produits partenaires restent en HOLD, ne rien publier",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_ALL_PARTNER_GATES_20260611.json",
+      "allowedAction": "audit et enrichissement preuves en brouillon",
+      "forbiddenActions": [
+        "publier",
+        "lever HOLD automatiquement",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 36,
+      "lane": "garde_fous",
+      "urgency": 902,
+      "id": "surprise_hold",
+      "label": "Colis surprises et palettes",
+      "status": "OK_NON_VENDABLES",
+      "nextAction": "conserver badge A venir et achat bloque",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_SURPRISES_NON_VENDABLES_20260611.json",
+      "allowedAction": "audit hold et correction badge/boutons si besoin",
+      "forbiddenActions": [
+        "vendre colis surprise",
+        "activer paiement",
+        "publier palettes"
+      ]
+    }
+  ],
+  "outputDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\execution-du-jour-20260611",
+  "outputDirRelative": "business-maxi-trouvailles\\tableaux-action\\execution-du-jour-20260611",
+  "sources": {
+    "businessPath": "business-maxi-trouvailles\\tableaux-action\\quoi-faire-maintenant-20260611\\QUOI_FAIRE_MAINTENANT_PARTENAIRES_20260611.json",
+    "categoryIntakePath": "business-maxi-trouvailles\\tableaux-action\\suivi-depots-images-categories-20260611\\SUIVI_DEPOTS_IMAGES_CATEGORIES_20260611.json",
+    "photoDropPath": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\MANIFEST_DEPOT_PHOTOS_SPRINT_20260611.json",
+    "cockpitPaths": [
+      "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\03-filet-rangement-coffre-voiture-sangles-fixes\\COCKPIT_VALIDATION_PRODUIT_20260611.json",
+      "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\02-support-pc-portable-pliant-aluminium-ajustable\\COCKPIT_VALIDATION_PRODUIT_20260611.json",
+      "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\01-pochette-organisateur-cables-double-couche-voyage\\COCKPIT_VALIDATION_PRODUIT_20260611.json"
+    ],
+    "checkoutPath": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_CHECKOUT_ELIGIBILITY_20260611.json",
+    "partnerGatesPath": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_ALL_PARTNER_GATES_20260611.json",
+    "surprisePath": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_SURPRISES_NON_VENDABLES_20260611.json",
+    "publicSurfacePath": "business-maxi-trouvailles\\tableaux-action\\surface-publique-dropshipping-20260611\\AUDIT_SURFACE_PUBLIQUE_DROPSHIPPING_20260611.json"
+  },
+  "safety": {
+    "readOnly": true,
+    "noPublicUploadsWrite": true,
+    "noImageGeneration": true,
+    "noImageDownload": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true,
+    "manualValidationRequired": true
+  }
+}

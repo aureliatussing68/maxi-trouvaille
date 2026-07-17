@@ -1,0 +1,144 @@
+RAPPORT MAXI TROUVAILLE - 05/05/2026
+
+CE QUI A ETE FAIT
+- Bureau range avec structure simple : MAXI_TROUVAILLE, TIKTOK, OUTILS, TEMP.
+- Dossiers Maxi Trouvaille crees : site, videos, assets, scripts, archives.
+- Dossiers et fichiers TikTok regroupes dans Bureau/TIKTOK.
+- Raccourcis crees sur le Bureau : site local, site en ligne, dossier TIKTOK, dossier MAXI_TROUVAILLE.
+- Projet site accessible depuis MAXI_TROUVAILLE/site/maxi-trouvaille via jonction dossier.
+- Fichiers douteux et anciens rapports/logs sauvegardes dans MAXI_TROUVAILLE/archives.
+- Site redploye sur Vercel : https://maxitrouvaille.fr
+- Variables Stripe Production configurees sur Vercel.
+- Stripe Checkout teste : creation d'URL checkout.stripe.com OK.
+- Pages testees en ligne : accueil, boutique, fiche produit, panier, paiement.
+- Messagerie produit testee en ligne : API OK.
+- Catalogue optimise : titres plus clairs, descriptions plus vendeuses, categories corrigees.
+- Doublons visibles fusionnes dans le catalogue actif, sauvegarde faite avant modification.
+- Images produits verifiees : aucune image manquante.
+- Placeholder propre cree pour le buste mannequin afin d'eviter une image invalide.
+- Video TikTok verticale creee : Bureau/TIKTOK/video_ready.mp4
+- Textes prets a poster crees : Bureau/TIKTOK/textes.txt
+- Serveur local relance : http://localhost:3000
+
+CE QUI FONCTIONNE
+- Site public : https://maxitrouvaille.fr
+- Boutique : OK
+- Fiches produits : OK
+- Panier : OK
+- Paiement Stripe test : OK, redirection vers checkout.stripe.com
+- Messagerie : OK en test API
+- Images produits : OK
+- Video TikTok : 15 secondes, format 1080x1920, audio inclus
+
+CE QUI RESTE A FAIRE
+- Finaliser Stripe cote dashboard avec les informations personnelles/bancaires du proprietaire.
+- Ajouter le site web dans Stripe : https://maxitrouvaille.fr
+- Pour rendre les messages clients vraiment durables en production, connecter une base Postgres plus tard via DATABASE_URL ou PRODUCT_MESSAGES_DATABASE_URL.
+- Publier la video TikTok et coller les textes depuis Bureau/TIKTOK/textes.txt.
+- Revoir les mentions legales/CGV si besoin avant grosse diffusion publique.
+
+ERREURS OU LIMITES
+- Le dossier original Bureau/maxi-trouvaille est reste en place car il est verrouille par l'environnement de travail actif. Il a ete masque pour garder le Bureau propre. Une jonction propre existe dans MAXI_TROUVAILLE/site/maxi-trouvaille.
+- CapCut/Hedra/ElevenLabs n'ont pas ete pilotes automatiquement. La video prete a poster a ete creee localement avec Python/MoviePy/FFmpeg.
+- La messagerie fonctionne, mais sans base de donnees elle utilise un stockage serveur temporaire sur Vercel. Pour la vraie production longue duree, brancher Postgres.
+- Rien n'a ete supprime definitivement : les elements incertains ont ete deplaces vers archives.
+
+SUGGESTIONS
+- Prochaine etape business : publier la video TikTok, puis mettre le lien maxitrouvaille.fr dans la bio et dans les annonces LeBonCoin.
+- Ajouter 10 a 20 vrais produits de plus avec photos reelles quand possible.
+- Ajouter une base Postgres pour messages/avis/stats avant gros volume.
+- Creer 3 videos TikTok par jour avec le meme format : trouvaille, prix casse, lien du site.
+
+LIENS
+- Site en ligne : https://maxitrouvaille.fr
+- Site local : http://localhost:3000
+- Video : Bureau/TIKTOK/video_ready.mp4
+- Textes : Bureau/TIKTOK/textes.txt
+- Archives : Bureau/MAXI_TROUVAILLE/archives
+
+
+PUBLICATION TIKTOK - VIDEO PALETTE
+==================================
+Date : 05/05/2026
+Compte : https://www.tiktok.com/@maxitrouvailles
+Video locale : C:\Users\sinek\Desktop\TIKTOK\video_palette_maxi_trouvailles.mp4
+Script voix : C:\Users\sinek\Desktop\TIKTOK\script_palette_voix.txt
+Apercu : C:\Users\sinek\Desktop\TIKTOK\video_palette_preview.jpg
+Statut TikTok verifie : publie, visibilite Tout le monde.
+Legende publiee : Palette de bonnes affaires Maxi Trouvailles. Pas de colis surprise : destockage, retours clients et fins de serie a prix casses. Dispo sur https://maxitrouvaille.fr #destockage #bonnesaffaires #maxitrouvailles #prixcasses
+
+PUBLICATION TIKTOK - SELECTION PETITS PRIX
+==========================================
+Date : 06/05/2026 02:27
+Compte : https://www.tiktok.com/@maxitrouvailles
+Video locale : C:\Users\sinek\Desktop\TIKTOK\video_selection_maxi_trouvailles.mp4
+Script voix : C:\Users\sinek\Desktop\TIKTOK\script_selection_voix.txt
+Apercu : C:\Users\sinek\Desktop\TIKTOK\video_selection_preview.jpg
+Statut TikTok verifie : publie, visibilite Tout le monde.
+Legende publiee : Selection petits prix Maxi Trouvailles : ventilateur USB, prise avec ports USB, filtre de douche et accessoire auto. Destockage, retours clients et fins de serie sur https://maxitrouvaille.fr #maxitrouvailles #destockage #bonnesaffaires #prixcasses
+
+06/05/2026 02:40 - Maxi Trouvailles : workflow video horaire actif. Derniere publication factory : C:\Users\sinek\Desktop\TIKTOK\maxi_20260506-023432_petits_prix.mp4 / statut published / visibilite Tout le monde. Spotify stoppe sur demande.
+
+DROPSHIPPING / PRODUITS PARTENAIRES
+===================================
+Date : 06/05/2026
+Statut : module integre dans Maxi Trouvailles.
+Page : /dropshipping
+Menu : lien Partenaires ajoute.
+Accueil : bloc Produits partenaires ajoute.
+Produits pilotes : ventilateur tour de cou, prise USB murale, filtre de douche, accoudoir auto.
+Mode : test fournisseur externe, pas de paiement Maxi Trouvailles active tant que fournisseur/SAV/conformite non valides.
+Verification : build OK, typecheck OK, lint OK.
+
+CORRECTION DROPSHIPPING - PRODUITS EXTERNES
+===========================================
+Date : 06/05/2026
+Correction demandee : ne pas reutiliser les produits deja en stock.
+Fait : remplacement par 4 produits tendance a sourcer chez fournisseur externe.
+Produits pilotes : mini imprimante thermique Bluetooth, organisateur de cables voyage, projecteur galaxie LED, mini aspirateur voiture sans fil.
+Visuels : generes localement dans public/uploads/partner-products pour eviter d'utiliser sans droit les photos AliExpress/Temu.
+Page : /dropshipping
+Mode : test fournisseur externe, pas de paiement Maxi Trouvailles active tant que fournisseur/SAV/conformite non valides.
+Verification : build OK, typecheck OK, lint OK, page locale 200.
+
+DROPSHIPPING - ACHAT CHEZ MAXI TROUVAILLES
+==========================================
+Date : 06/05/2026
+Correction demandee : les clients doivent payer chez Maxi Trouvailles avec une marge integree.
+Fait : les 4 produits partenaires sont maintenant ajoutes au catalogue principal avec prix fixes.
+Prix publics :
+- Mini imprimante thermique Bluetooth : 29,90 EUR
+- Organisateur de cables et accessoires tech : 12,90 EUR
+- Projecteur galaxie LED pour ambiance : 24,90 EUR
+- Mini aspirateur voiture sans fil : 39,90 EUR
+Page : /dropshipping avec bouton Acheter chez Maxi Trouvaille.
+Categorie : /categories/produits-partenaires
+Paiement : panier + Stripe OK en test technique, session checkout creee correctement.
+Limite : la commande fournisseur reste manuelle apres paiement tant qu'aucune API fournisseur fiable n'est branchee.
+Verification : typecheck OK, lint OK, build OK, /dropshipping 200, /categories/produits-partenaires 200.
+
+VIDEOS TIKTOK - PRODUITS PARTENAIRES
+====================================
+Date : 06/05/2026
+Fait : 4 pubs TikTok verticales generees avec voix off pour les produits partenaires.
+Dossier : C:\Users\sinek\Desktop\TIKTOK\partner_ads
+Videos :
+- maxi_partner_01_mini_imprimante_20260506-090144.mp4
+- maxi_partner_02_organisateur_cables_20260506-090207.mp4
+- maxi_partner_03_projecteur_galaxie_20260506-090230.mp4
+- maxi_partner_04_aspirateur_voiture_20260506-090252.mp4
+Manifest : C:\Users\sinek\Desktop\TIKTOK\partner_ads\partner_ads_batch_manifest.json
+Verification : 1080x1920, 17 a 18 secondes, audio present.
+Statut : pretes a publier. Non publiees en bloc pour eviter de lancer 4 pubs fournisseur non encore validees d'un coup.
+
+DEPLOIEMENT PRODUITS PARTENAIRES
+================================
+Date : 06/05/2026
+Fait : deploiement production lance et termine sur Vercel.
+URL production : https://maxitrouvaille.fr
+Alias Vercel : https://maxitrouvaille.fr
+Verification en ligne :
+- https://maxitrouvaille.fr/dropshipping : 200
+- https://maxitrouvaille.fr/categories/produits-partenaires : 200
+- https://maxitrouvaille.fr/produit/mini-imprimante-thermique-bluetooth : 200
+- API checkout production : session Stripe creee correctement avec produit partenaire test.

@@ -1,0 +1,2727 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-12T12:39:38.386Z",
+  "generatedAtLocal": "2026-06-12 14:39 Europe/Paris",
+  "mode": "read_only_daily_execution_board",
+  "actionCount": 98,
+  "lanes": [
+    {
+      "lane": "images_publiques_exactes",
+      "actionCount": 17,
+      "blockedCount": 8,
+      "readyCount": 1,
+      "firstAction": "Deposer mini-humidificateur-usb-bureau-partenaire-hold.webp dans depot-manuel, remplir la checklist, puis relancer les audits."
+    },
+    {
+      "lane": "audit_kit_terrain",
+      "actionCount": 3,
+      "blockedCount": 3,
+      "readyCount": 0,
+      "firstAction": "remplir toutes les preuves, deposer les WebP exacts, puis relancer cet audit"
+    },
+    {
+      "lane": "preuves_sourcing_integration",
+      "actionCount": 20,
+      "blockedCount": 9,
+      "readyCount": 0,
+      "firstAction": "Verifier la fiche produit exacte et garder HOLD si un seul doute existe."
+    },
+    {
+      "lane": "images_exactes",
+      "actionCount": 5,
+      "blockedCount": 1,
+      "readyCount": 0,
+      "firstAction": "9 WebP exacts attendus, 3 produits, audit OK_TOP3_WEBP_WORKPACK_GUARDED"
+    },
+    {
+      "lane": "garde_fous",
+      "actionCount": 20,
+      "blockedCount": 2,
+      "readyCount": 0,
+      "firstAction": "0/15 preuves, 0/9 WebP, 24 blocages"
+    },
+    {
+      "lane": "validation_mouss",
+      "actionCount": 3,
+      "blockedCount": 0,
+      "readyCount": 0,
+      "firstAction": "lot-01: 0 prets revue, 4 bloques, 32 blocages"
+    },
+    {
+      "lane": "images_categories",
+      "actionCount": 9,
+      "blockedCount": 9,
+      "readyCount": 0,
+      "firstAction": "deposer ou corriger le WebP exact dans le dossier depot"
+    },
+    {
+      "lane": "produits_partenaires",
+      "actionCount": 12,
+      "blockedCount": 12,
+      "readyCount": 0,
+      "firstAction": "Decider garder, remplacer, retirer ou plus tard avant toute preuve fournisseur."
+    },
+    {
+      "lane": "photos_produits",
+      "actionCount": 8,
+      "blockedCount": 8,
+      "readyCount": 0,
+      "firstAction": "photo produit entier, pochette seule, angle 3/4, fermeture visible"
+    },
+    {
+      "lane": "operations_commandes",
+      "actionCount": 1,
+      "blockedCount": 0,
+      "readyCount": 1,
+      "firstAction": "0 stock a reprendre, 0 pretes validation humaine, 0 suivis attendus"
+    }
+  ],
+  "metrics": {
+    "partnerActionCount": 15,
+    "partnerDraftHoldCount": 73,
+    "partnerPublishedCount": 0,
+    "categoryImagesExpected": 9,
+    "categoryImagesMissing": 9,
+    "categoryImagesReadyHumanReview": 0,
+    "productPhotosExpected": 8,
+    "productPhotosMissing": 8,
+    "cockpitCount": 0,
+    "cockpitEvidenceFieldMissingCount": 0,
+    "cockpitImageTaskCount": 0,
+    "cockpitBlockerCount": 0,
+    "fieldKitEvidenceRowCount": 36,
+    "fieldKitImageRowCount": 14,
+    "fieldKitAuditStatus": "HOLD_FIELD_KIT_INCOMPLETE",
+    "fieldKitAuditReadyReviewCount": 0,
+    "fieldKitAuditHoldCount": 3,
+    "fieldKitAuditBlockerCount": 73,
+    "fieldKitAuditEvidenceMissingOrInvalidCount": 36,
+    "fieldKitAuditMissingImageFileCount": 14,
+    "fieldKitAuditInvalidImageFileCount": 0,
+    "publicImageOperatorItemCount": 12,
+    "publicImageTodoDepositCount": 12,
+    "publicImageReadyCopyCandidateCount": 0,
+    "publicImageMoussReviewItemCount": 12,
+    "publicImageMoussWebpMissingCount": 12,
+    "publicImageMoussEvidenceTodoCount": 12,
+    "publicImageMoussReadyReviewCount": 0,
+    "publicImageMoussSensitiveValuesExported": false,
+    "publicImageTextProofFormItemCount": 12,
+    "publicImageTextProofFormRowCount": 72,
+    "publicImageTextProofFormWebpMissingCount": 12,
+    "publicImageTextProofFormEvidenceTodoCount": 12,
+    "publicImageTextProofFormSensitiveValuesExported": false,
+    "publicImageCopyGateStatus": "dry_run_public_image_copy_gate",
+    "publicImageCopyGateReadyCandidateCount": 0,
+    "publicImageBlockedCount": 12,
+    "publicImageCopyApplied": false,
+    "publicImagePipelineCoherenceStatus": "OK_PUBLIC_IMAGE_PIPELINE_COHERENT",
+    "publicImagePipelineCoherenceItemCount": 12,
+    "publicImagePipelineCoherenceFormRowCount": 72,
+    "publicImagePipelineCoherenceFailureCount": 0,
+    "publicImagePipelineCoherenceScannedFileCount": 18,
+    "generatedArtifactLeakFindingCount": 0,
+    "generatedArtifactLeakScannedFileCount": 636,
+    "generatedArtifactLeakScannedDirectoryCount": 103,
+    "publicCatalogSourceGuardStatus": "OK_PUBLIC_CATALOG_SOURCE_GUARDS",
+    "publicCatalogSourceGuardFindingCount": 0,
+    "publicCatalogSourceGuardClientFileCount": 14,
+    "publicCatalogSourceGuardRouteFileCount": 10,
+    "publicCatalogSourceGuardWatchedFileCount": 24,
+    "publicVisualAmbiguityStatus": "OK_PUBLIC_VISUAL_SURFACE_SAFE",
+    "publicVisualAmbiguityFailureCount": 0,
+    "publicVisualAmbiguityStockFindingCount": 0,
+    "publicVisualAmbiguityCheckedSourceCount": 10,
+    "publicVisualAmbiguityHeroGuardOk": true,
+    "publicVisualAmbiguityProductCardAirbagOk": true,
+    "publicVisualAmbiguityProductDetailImageGuardOk": true,
+    "integrationTop3SourcingStatus": "HOLD_TOP3_SOURCING_READY",
+    "integrationTop3SourcingProductCount": 3,
+    "integrationTop3SourcingMissingFieldCount": 33,
+    "integrationTop3SourcingExpectedImageCount": 9,
+    "integrationTop3SourcingAuditStatus": "OK_TOP3_SOURCING_GUARDED",
+    "integrationTop3SourcingAuditFailureCount": 0,
+    "integrationTop3SourcingAuditSensitiveFindingCount": 0,
+    "integrationTop3SourcingAuditScannedFileCount": 3,
+    "integrationTop3ParallelProofsStatus": "HOLD_TOP3_PARALLEL_PROOFS_WORKPACK_READY",
+    "integrationTop3ParallelProofsProductCount": 3,
+    "integrationTop3ParallelProofsProofCount": 15,
+    "integrationTop3ParallelProofsAuditStatus": "OK_TOP3_PARALLEL_PROOFS_GUARDED",
+    "integrationTop3ParallelProofsAuditFailureCount": 0,
+    "integrationTop3ParallelProofsAuditSensitiveFindingCount": 0,
+    "integrationTop3WebpStatus": "HOLD_TOP3_WEBP_WORKPACK_READY",
+    "integrationTop3WebpProductCount": 3,
+    "integrationTop3WebpImageTaskCount": 9,
+    "integrationTop3WebpAuditStatus": "OK_TOP3_WEBP_WORKPACK_GUARDED",
+    "integrationTop3WebpAuditFailureCount": 0,
+    "integrationTop3WebpAuditSensitiveFindingCount": 0,
+    "integrationTop3WebpDepotAuditStatus": "HOLD_TOP3_WEBP_FILES_MISSING",
+    "integrationTop3WebpDepotImageTaskCount": 9,
+    "integrationTop3WebpDepotReadyImageCount": 0,
+    "integrationTop3WebpDepotMissingCount": 9,
+    "integrationTop3WebpDepotInvalidCount": 0,
+    "integrationTop3WebpDepotFailureCount": 0,
+    "integrationTop3WebpDepotSensitiveFindingCount": 0,
+    "integrationTop3WebpDepotSessionStatus": "HOLD_TOP3_WEBP_DEPOT_SESSION_READY",
+    "integrationTop3WebpDepotSessionProductCount": 3,
+    "integrationTop3WebpDepotSessionGroupCount": 3,
+    "integrationTop3WebpDepotSessionImageTaskCount": 9,
+    "integrationTop3WebpDepotSessionInstructionFileCount": 3,
+    "integrationTop3WebpDepotSessionAuditStatus": "OK_TOP3_WEBP_DEPOT_SESSION_GUARDED",
+    "integrationTop3WebpDepotSessionAuditFailureCount": 0,
+    "integrationTop3WebpDepotSessionAuditSensitiveFindingCount": 0,
+    "integrationTop3BusinessGateStatus": "HOLD_TOP3_BUSINESS_GATE_BLOCKED",
+    "integrationTop3BusinessGateProofCount": 15,
+    "integrationTop3BusinessGateReadyProofCount": 0,
+    "integrationTop3BusinessGateMissingProofCount": 15,
+    "integrationTop3BusinessGateImageTaskCount": 9,
+    "integrationTop3BusinessGateReadyImageCount": 0,
+    "integrationTop3BusinessGateMissingImageCount": 9,
+    "integrationTop3BusinessGateInvalidImageCount": 0,
+    "integrationTop3BusinessGateBusinessBlockerCount": 24,
+    "integrationTop3BusinessGateFailureCount": 0,
+    "integrationTop3BusinessGateSensitiveFindingCount": 0,
+    "integrationTop3UnblockPlanStatus": "HOLD_TOP3_UNBLOCK_PLAN_READY",
+    "integrationTop3UnblockPlanStepCount": 24,
+    "integrationTop3UnblockPlanProofStepCount": 15,
+    "integrationTop3UnblockPlanImageStepCount": 9,
+    "integrationTop3UnblockPlanRemainingStepCount": 24,
+    "integrationTop3UnblockPlanAuditStatus": "OK_TOP3_UNBLOCK_PLAN_GUARDED",
+    "integrationTop3UnblockPlanAuditFailureCount": 0,
+    "integrationTop3UnblockPlanAuditSensitiveFindingCount": 0,
+    "integrationNextWaveSourcingPlanStatus": "HOLD_NEXT_WAVE_SOURCING_READY",
+    "integrationNextWaveSourcingPlanProductCount": 12,
+    "integrationNextWaveSourcingPlanProofTaskCount": 60,
+    "integrationNextWaveSourcingPlanImageTaskCount": 36,
+    "integrationNextWaveSourcingPlanTotalTaskCount": 96,
+    "integrationNextWaveSourcingPlanAuditStatus": "OK_NEXT_WAVE_SOURCING_GUARDED",
+    "integrationNextWaveSourcingPlanAuditFailureCount": 0,
+    "integrationNextWaveSourcingPlanAuditSensitiveFindingCount": 0,
+    "integrationNextWaveSessionStatus": "HOLD_NEXT_WAVE_SESSION_READY",
+    "integrationNextWaveSessionBatchCount": 3,
+    "integrationNextWaveSessionProductCount": 12,
+    "integrationNextWaveSessionProofTaskCount": 60,
+    "integrationNextWaveSessionImageTaskCount": 36,
+    "integrationNextWaveSessionDepositInstructionCount": 12,
+    "integrationNextWaveSessionAuditStatus": "OK_NEXT_WAVE_SESSION_GUARDED",
+    "integrationNextWaveSessionAuditFailureCount": 0,
+    "integrationNextWaveSessionAuditSensitiveFindingCount": 0,
+    "integrationNextWaveActiveBatchStatus": "HOLD_NEXT_WAVE_ACTIVE_BATCH_READY",
+    "integrationNextWaveActiveBatchId": "lot-01",
+    "integrationNextWaveActiveBatchProductCount": 4,
+    "integrationNextWaveActiveBatchProofTaskCount": 20,
+    "integrationNextWaveActiveBatchImageTaskCount": 12,
+    "integrationNextWaveActiveBatchActionCount": 32,
+    "integrationNextWaveActiveBatchAuditStatus": "OK_NEXT_WAVE_ACTIVE_BATCH_GUARDED",
+    "integrationNextWaveActiveBatchAuditFailureCount": 0,
+    "integrationNextWaveActiveBatchAuditSensitiveFindingCount": 0,
+    "integrationNextWaveActiveBatchBusinessGateStatus": "HOLD_NEXT_WAVE_ACTIVE_BATCH_BUSINESS_GATE_BLOCKED",
+    "integrationNextWaveActiveBatchBusinessGateProofCount": 20,
+    "integrationNextWaveActiveBatchBusinessGateReadyProofCount": 0,
+    "integrationNextWaveActiveBatchBusinessGateMissingProofCount": 20,
+    "integrationNextWaveActiveBatchBusinessGateImageTaskCount": 12,
+    "integrationNextWaveActiveBatchBusinessGateReadyImageCount": 0,
+    "integrationNextWaveActiveBatchBusinessGateMissingImageCount": 12,
+    "integrationNextWaveActiveBatchBusinessGateInvalidImageCount": 0,
+    "integrationNextWaveActiveBatchBusinessGateBusinessBlockerCount": 32,
+    "integrationNextWaveActiveBatchBusinessGateFailureCount": 0,
+    "integrationNextWaveActiveBatchBusinessGateSensitiveFindingCount": 0,
+    "integrationNextWaveActiveBatchMicroPacksStatus": "HOLD_NEXT_WAVE_ACTIVE_BATCH_MICRO_PACKS_READY",
+    "integrationNextWaveActiveBatchMicroPacksProductCount": 4,
+    "integrationNextWaveActiveBatchMicroPacksProofTaskCount": 20,
+    "integrationNextWaveActiveBatchMicroPacksImageTaskCount": 12,
+    "integrationNextWaveActiveBatchMicroPacksActionCount": 32,
+    "integrationNextWaveActiveBatchMicroPacksAuditStatus": "OK_NEXT_WAVE_ACTIVE_BATCH_MICRO_PACKS_GUARDED",
+    "integrationNextWaveActiveBatchMicroPacksAuditFailureCount": 0,
+    "integrationNextWaveActiveBatchMicroPacksAuditSensitiveFindingCount": 0,
+    "integrationNextWaveActiveBatchMicroPacksAuditScannedFileCount": 11,
+    "integrationNextWaveActiveBatchProofIntakeStatus": "HOLD_NEXT_WAVE_ACTIVE_BATCH_PROOF_INTAKE_READY",
+    "integrationNextWaveActiveBatchProofIntakeProductCount": 4,
+    "integrationNextWaveActiveBatchProofIntakeProofTaskCount": 20,
+    "integrationNextWaveActiveBatchProofIntakeProofFileCount": 20,
+    "integrationNextWaveActiveBatchProofIntakeCreatedProofFileCount": 0,
+    "integrationNextWaveActiveBatchProofIntakeExistingProofFileCount": 20,
+    "integrationNextWaveActiveBatchProofIntakeReadmeFileCount": 4,
+    "integrationNextWaveActiveBatchProofIntakeHoldProofCount": 20,
+    "integrationNextWaveActiveBatchProofIntakeAuditStatus": "OK_NEXT_WAVE_ACTIVE_BATCH_PROOF_INTAKE_GUARDED",
+    "integrationNextWaveActiveBatchProofIntakeAuditFailureCount": 0,
+    "integrationNextWaveActiveBatchProofIntakeAuditSensitiveFindingCount": 0,
+    "integrationNextWaveActiveBatchProofIntakeAuditScannedFileCount": 27,
+    "integrationNextWaveActiveBatchWebpDepositIntakeStatus": "HOLD_NEXT_WAVE_ACTIVE_BATCH_WEBP_DEPOSIT_INTAKE_READY",
+    "integrationNextWaveActiveBatchWebpDepositIntakeProductCount": 4,
+    "integrationNextWaveActiveBatchWebpDepositIntakeImageTaskCount": 12,
+    "integrationNextWaveActiveBatchWebpDepositIntakeExpectedWebpFileCount": 12,
+    "integrationNextWaveActiveBatchWebpDepositIntakeExistingWebpFileCount": 0,
+    "integrationNextWaveActiveBatchWebpDepositIntakeValidExistingWebpFileCount": 0,
+    "integrationNextWaveActiveBatchWebpDepositIntakeMissingWebpFileCount": 12,
+    "integrationNextWaveActiveBatchWebpDepositIntakeInvalidWebpFileCount": 0,
+    "integrationNextWaveActiveBatchWebpDepositIntakeReadmeFileCount": 4,
+    "integrationNextWaveActiveBatchWebpDepositIntakeAuditStatus": "OK_NEXT_WAVE_ACTIVE_BATCH_WEBP_DEPOSIT_INTAKE_GUARDED",
+    "integrationNextWaveActiveBatchWebpDepositIntakeAuditFailureCount": 0,
+    "integrationNextWaveActiveBatchWebpDepositIntakeAuditSensitiveFindingCount": 0,
+    "integrationNextWaveActiveBatchWebpDepositIntakeAuditScannedFileCount": 7,
+    "integrationNextWaveActiveBatchWebpValidationContractsStatus": "HOLD_NEXT_WAVE_ACTIVE_BATCH_WEBP_VALIDATION_CONTRACTS_READY",
+    "integrationNextWaveActiveBatchWebpValidationContractsProductCount": 4,
+    "integrationNextWaveActiveBatchWebpValidationContractsImageTaskCount": 12,
+    "integrationNextWaveActiveBatchWebpValidationContractsContractFileCount": 12,
+    "integrationNextWaveActiveBatchWebpValidationContractsBlockedContractCount": 12,
+    "integrationNextWaveActiveBatchWebpValidationContractsValidWebpFileCount": 0,
+    "integrationNextWaveActiveBatchWebpValidationContractsMissingWebpFileCount": 12,
+    "integrationNextWaveActiveBatchWebpValidationContractsInvalidWebpFileCount": 0,
+    "integrationNextWaveActiveBatchWebpValidationContractsAuditStatus": "OK_NEXT_WAVE_ACTIVE_BATCH_WEBP_VALIDATION_CONTRACTS_GUARDED",
+    "integrationNextWaveActiveBatchWebpValidationContractsAuditFailureCount": 0,
+    "integrationNextWaveActiveBatchWebpValidationContractsAuditSensitiveFindingCount": 0,
+    "integrationNextWaveActiveBatchWebpValidationContractsAuditScannedFileCount": 15,
+    "integrationNextWaveActiveBatchMoussReviewBoardStatus": "HOLD_NEXT_WAVE_ACTIVE_BATCH_MOUSS_REVIEW_BOARD_READY",
+    "integrationNextWaveActiveBatchMoussReviewBoardProductCount": 4,
+    "integrationNextWaveActiveBatchMoussReviewBoardReadyForMoussReviewCount": 0,
+    "integrationNextWaveActiveBatchMoussReviewBoardBlockedProductCount": 4,
+    "integrationNextWaveActiveBatchMoussReviewBoardProofTodoCount": 20,
+    "integrationNextWaveActiveBatchMoussReviewBoardWebpMissingCount": 12,
+    "integrationNextWaveActiveBatchMoussReviewBoardBlockedContractCount": 12,
+    "integrationNextWaveActiveBatchMoussReviewBoardBusinessBlockerCount": 32,
+    "integrationNextWaveActiveBatchMoussReviewBoardAuditStatus": "OK_NEXT_WAVE_ACTIVE_BATCH_MOUSS_REVIEW_BOARD_GUARDED",
+    "integrationNextWaveActiveBatchMoussReviewBoardAuditFailureCount": 0,
+    "integrationNextWaveActiveBatchMoussReviewBoardAuditSensitiveFindingCount": 0,
+    "integrationNextWaveActiveBatchMoussReviewBoardAuditScannedFileCount": 3,
+    "integrationNextWaveActiveBatchFieldEntryPackStatus": "HOLD_NEXT_WAVE_ACTIVE_BATCH_FIELD_ENTRY_PACK_READY",
+    "integrationNextWaveActiveBatchFieldEntryPackProductCount": 4,
+    "integrationNextWaveActiveBatchFieldEntryPackEntryCount": 32,
+    "integrationNextWaveActiveBatchFieldEntryPackProofEntryCount": 20,
+    "integrationNextWaveActiveBatchFieldEntryPackWebpEntryCount": 12,
+    "integrationNextWaveActiveBatchFieldEntryPackBlockedEntryCount": 32,
+    "integrationNextWaveActiveBatchFieldEntryPackReadyEntryCount": 0,
+    "integrationNextWaveActiveBatchFieldEntryPackProductSheetCount": 4,
+    "integrationNextWaveActiveBatchFieldEntryPackAuditStatus": "OK_NEXT_WAVE_ACTIVE_BATCH_FIELD_ENTRY_PACK_GUARDED",
+    "integrationNextWaveActiveBatchFieldEntryPackAuditFailureCount": 0,
+    "integrationNextWaveActiveBatchFieldEntryPackAuditSensitiveFindingCount": 0,
+    "integrationNextWaveActiveBatchFieldEntryPackAuditScannedFileCount": 7,
+    "integrationNextWaveActiveBatchFieldCompletionGateStatus": "HOLD_NEXT_WAVE_ACTIVE_BATCH_FIELD_COMPLETION_BLOCKED",
+    "integrationNextWaveActiveBatchFieldCompletionGateAuditStatus": "OK_NEXT_WAVE_ACTIVE_BATCH_FIELD_COMPLETION_GATE_GUARDED",
+    "integrationNextWaveActiveBatchFieldCompletionGateProductCount": 4,
+    "integrationNextWaveActiveBatchFieldCompletionGateProductReadyCount": 0,
+    "integrationNextWaveActiveBatchFieldCompletionGateEntryCount": 32,
+    "integrationNextWaveActiveBatchFieldCompletionGateReadyEntryCount": 0,
+    "integrationNextWaveActiveBatchFieldCompletionGateBlockedEntryCount": 32,
+    "integrationNextWaveActiveBatchFieldCompletionGateProofReadyCount": 0,
+    "integrationNextWaveActiveBatchFieldCompletionGateProofEntryCount": 20,
+    "integrationNextWaveActiveBatchFieldCompletionGateWebpReadyCount": 0,
+    "integrationNextWaveActiveBatchFieldCompletionGateWebpEntryCount": 12,
+    "integrationNextWaveActiveBatchFieldCompletionGateMissingWebpFileCount": 12,
+    "integrationNextWaveActiveBatchFieldCompletionGateFailureCount": 0,
+    "integrationNextWaveActiveBatchFieldCompletionGateSensitiveFindingCount": 0,
+    "integrationNextWaveActiveBatchFieldCompletionGateSensitiveValuesExported": false,
+    "integrationNextWavePendingBatchesRunwayStatus": "HOLD_NEXT_WAVE_PENDING_BATCHES_RUNWAY_READY",
+    "integrationNextWavePendingBatchesRunwayPendingBatchCount": 2,
+    "integrationNextWavePendingBatchesRunwayPendingProductCount": 8,
+    "integrationNextWavePendingBatchesRunwayProofTaskCount": 40,
+    "integrationNextWavePendingBatchesRunwayImageTaskCount": 24,
+    "integrationNextWavePendingBatchesRunwayTotalTaskCount": 64,
+    "integrationNextWavePendingBatchesRunwayActiveBatchBlockedHold": true,
+    "integrationNextWavePendingBatchesRunwayAuditStatus": "OK_NEXT_WAVE_PENDING_BATCHES_RUNWAY_GUARDED",
+    "integrationNextWavePendingBatchesRunwayAuditFailureCount": 0,
+    "integrationNextWavePendingBatchesRunwayAuditSensitiveFindingCount": 0,
+    "integrationNextWavePendingBatchesRunwayAuditScannedFileCount": 4,
+    "integrationNextWavePendingBatchesFieldEntryPackStatus": "HOLD_NEXT_WAVE_PENDING_BATCHES_FIELD_ENTRY_PACK_READY",
+    "integrationNextWavePendingBatchesFieldEntryPackAuditStatus": "OK_NEXT_WAVE_PENDING_BATCHES_FIELD_ENTRY_PACK_GUARDED",
+    "integrationNextWavePendingBatchesFieldEntryPackPendingBatchCount": 2,
+    "integrationNextWavePendingBatchesFieldEntryPackProductCount": 8,
+    "integrationNextWavePendingBatchesFieldEntryPackEntryCount": 64,
+    "integrationNextWavePendingBatchesFieldEntryPackProofEntryCount": 40,
+    "integrationNextWavePendingBatchesFieldEntryPackWebpEntryCount": 24,
+    "integrationNextWavePendingBatchesFieldEntryPackBlockedEntryCount": 64,
+    "integrationNextWavePendingBatchesFieldEntryPackReadyEntryCount": 0,
+    "integrationNextWavePendingBatchesFieldEntryPackProductSheetCount": 8,
+    "integrationNextWavePendingBatchesFieldEntryPackAuditFailureCount": 0,
+    "integrationNextWavePendingBatchesFieldEntryPackAuditSensitiveFindingCount": 0,
+    "integrationNextWavePendingBatchesFieldEntryPackAuditScannedFileCount": 11,
+    "integrationNextProofCount": 5,
+    "integrationSourcingPriorityBoardAuditStatus": "OK_PRIORITY_BOARD_GUARDED",
+    "integrationSourcingPriorityBoardProductCount": 10,
+    "integrationSourcingPriorityBoardMissingFieldCount": 110,
+    "integrationSourcingPriorityBoardExpectedImageCount": 30,
+    "integrationSourcingPriorityBoardValidImageCount": 0,
+    "integrationSourcingPriorityBoardFailureCount": 0,
+    "integrationSourcingPriorityBoardSensitiveFindingCount": 0,
+    "integrationNextProofAuditStatus": "HOLD_NEXT_PROOFS_TO_FILL",
+    "integrationNextProofReadyCount": 0,
+    "integrationNextProofHoldCount": 5,
+    "integrationNextProofBusinessBlockerCount": 35,
+    "seoHoldVisibilityStatus": "OK_HOLD_PRODUCTS_NOT_INDEXABLE",
+    "seoHoldVisibilityFailureCount": 0,
+    "seoHoldVisibilityPublicProductCount": 0,
+    "seoHoldVisibilityNonPublicProductCount": 121,
+    "adminPublicationGateStatus": "OK_ADMIN_PUBLICATION_GATE_ACTIVE",
+    "adminPublicationGateSourceFailureCount": 0,
+    "adminPublicationGateRiskProductCount": 0,
+    "adminPublicationUiGuardStatus": "OK_ADMIN_PUBLICATION_UI_GUARD_ACTIVE",
+    "adminPublicationUiGuardFailureCount": 0,
+    "adminApiGuardStatus": "OK_ADMIN_API_GUARDS_ACTIVE",
+    "adminApiGuardRouteCount": 10,
+    "adminApiGuardMethodCount": 14,
+    "adminApiGuardFailureCount": 0,
+    "adminPageGuardStatus": "OK_ADMIN_PAGE_GUARDS_ACTIVE",
+    "adminPageGuardPageCount": 14,
+    "adminPageGuardFailureCount": 0,
+    "stripeWebhookStockGuardStatus": "OK_STRIPE_WEBHOOK_STOCK_GUARDS_ACTIVE",
+    "stripeWebhookStockGuardCheckCount": 17,
+    "stripeWebhookStockGuardFailureCount": 0,
+    "dropshippingOrderAdminSafetyStatus": "OK_ORDER_ADMIN_SUPPLIER_ACTIONS_GUARDED",
+    "dropshippingOrderAdminSafetyCheckCount": 11,
+    "dropshippingOrderAdminSafetyFailureCount": 0,
+    "dropshippingOrderAdminSafetyDisabledGuardedControlCount": 6,
+    "orderOperationsBoardStatus": "OK_ORDER_OPERATIONS_BOARD_READY",
+    "orderOperationsTotalOrders": 0,
+    "orderOperationsPaidOrders": 0,
+    "orderOperationsStockDoneOrders": 0,
+    "orderOperationsStockExceptions": 0,
+    "orderOperationsReadySupplierPrep": 0,
+    "orderOperationsWaitPayment": 0,
+    "orderOperationsWaitTracking": 0,
+    "orderOperationsReadyFollowUp": 0,
+    "orderOperationsSelfTestFailureCount": 0,
+    "orderOperationsNoSupplierUrlsExported": true,
+    "orderOperationsNoCustomerAddressExported": true,
+    "orderOperationsFixturesStatus": "OK_ORDER_OPERATIONS_FIXTURES_PASS",
+    "orderOperationsFixturesScenarioFailureCount": 0,
+    "orderOperationsFixturesProofGapOk": true,
+    "orderOperationsFixturesSensitiveExportOk": true,
+    "pilotageOrderOperationsStatus": "OK_PILOTAGE_ORDER_OPERATIONS_GUARDED",
+    "pilotageOrderOperationsFailureCount": 0,
+    "pilotageOrderOperationsPageCheckCount": 13,
+    "pilotageOrderOperationsLatestBoardHasNoSupplierUrlLeak": true,
+    "pilotageOrderOperationsLatestBoardUsesSharedOperations": true,
+    "expectedPurchasableCount": 0,
+    "legacyPurchasableCount": 0,
+    "publicSurfaceVisibleDropshippingCount": 0,
+    "publicSurfacePurchasableDropshippingCount": 0,
+    "publicSurfaceFailureCount": 0,
+    "publicSurfaceWarningCount": 0,
+    "checkoutFailureCount": 0,
+    "surpriseFailureCount": 0
+  },
+  "actions": [
+    {
+      "rank": 1,
+      "lane": "images_publiques_exactes",
+      "urgency": -94,
+      "id": "mini-humidificateur-usb-bureau-partenaire-hold",
+      "label": "Mini humidificateur USB bureau",
+      "status": "A_DEPOSER_WEBP",
+      "nextAction": "Deposer mini-humidificateur-usb-bureau-partenaire-hold.webp dans depot-manuel, remplir la checklist, puis relancer les audits.",
+      "blockers": [
+        "expected_webp_missing"
+      ],
+      "sourceFile": "business-maxi-trouvailles/preuves-images-publiques/mini-humidificateur-usb-bureau-partenaire-hold/depot-manuel",
+      "allowedAction": "deposer WebP exact: mini-humidificateur-usb-bureau-partenaire-hold.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 2,
+      "lane": "images_publiques_exactes",
+      "urgency": -93,
+      "id": "mini-pompe-air-usb-voyage-partenaire-hold",
+      "label": "Mini pompe air USB voyage",
+      "status": "A_DEPOSER_WEBP",
+      "nextAction": "Deposer mini-pompe-air-usb-voyage-partenaire-hold.webp dans depot-manuel, remplir la checklist, puis relancer les audits.",
+      "blockers": [
+        "expected_webp_missing"
+      ],
+      "sourceFile": "business-maxi-trouvailles/preuves-images-publiques/mini-pompe-air-usb-voyage-partenaire-hold/depot-manuel",
+      "allowedAction": "deposer WebP exact: mini-pompe-air-usb-voyage-partenaire-hold.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 3,
+      "lane": "images_publiques_exactes",
+      "urgency": -92,
+      "id": "cable-usb-c-240w-renforce-best-seller",
+      "label": "Câble USB-C 240W renforcé best-seller",
+      "status": "A_DEPOSER_WEBP",
+      "nextAction": "Deposer cable-usb-c-240w-renforce-best-seller.webp dans depot-manuel, remplir la checklist, puis relancer les audits.",
+      "blockers": [
+        "expected_webp_missing"
+      ],
+      "sourceFile": "business-maxi-trouvailles/preuves-images-publiques/cable-usb-c-240w-renforce-best-seller/depot-manuel",
+      "allowedAction": "deposer WebP exact: cable-usb-c-240w-renforce-best-seller.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 4,
+      "lane": "images_publiques_exactes",
+      "urgency": -91,
+      "id": "lampe-velo-usb-rechargeable-affichage-batterie",
+      "label": "Lampe vélo USB rechargeable affichage batterie",
+      "status": "A_DEPOSER_WEBP",
+      "nextAction": "Deposer lampe-velo-usb-rechargeable-affichage-batterie.webp dans depot-manuel, remplir la checklist, puis relancer les audits.",
+      "blockers": [
+        "expected_webp_missing"
+      ],
+      "sourceFile": "business-maxi-trouvailles/preuves-images-publiques/lampe-velo-usb-rechargeable-affichage-batterie/depot-manuel",
+      "allowedAction": "deposer WebP exact: lampe-velo-usb-rechargeable-affichage-batterie.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 5,
+      "lane": "images_publiques_exactes",
+      "urgency": -90,
+      "id": "support-pc-portable-pliant-aluminium-ajustable",
+      "label": "Support PC portable pliant aluminium ajustable",
+      "status": "A_DEPOSER_WEBP",
+      "nextAction": "Deposer support-pc-portable-pliant-aluminium-ajustable.webp dans depot-manuel, remplir la checklist, puis relancer les audits.",
+      "blockers": [
+        "expected_webp_missing"
+      ],
+      "sourceFile": "business-maxi-trouvailles/preuves-images-publiques/support-pc-portable-pliant-aluminium-ajustable/depot-manuel",
+      "allowedAction": "deposer WebP exact: support-pc-portable-pliant-aluminium-ajustable.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 6,
+      "lane": "images_publiques_exactes",
+      "urgency": -89,
+      "id": "attaches-cables-velcro-lot-partenaire-hold",
+      "label": "Attaches cables velcro lot",
+      "status": "A_DEPOSER_WEBP",
+      "nextAction": "Deposer attaches-cables-velcro-lot-partenaire-hold.webp dans depot-manuel, remplir la checklist, puis relancer les audits.",
+      "blockers": [
+        "expected_webp_missing"
+      ],
+      "sourceFile": "business-maxi-trouvailles/preuves-images-publiques/attaches-cables-velcro-lot-partenaire-hold/depot-manuel",
+      "allowedAction": "deposer WebP exact: attaches-cables-velcro-lot-partenaire-hold.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 7,
+      "lane": "images_publiques_exactes",
+      "urgency": -88,
+      "id": "bandeau-skincare-microfibre-partenaire-hold",
+      "label": "Bandeau skincare microfibre",
+      "status": "A_DEPOSER_WEBP",
+      "nextAction": "Deposer bandeau-skincare-microfibre-partenaire-hold.webp dans depot-manuel, remplir la checklist, puis relancer les audits.",
+      "blockers": [
+        "expected_webp_missing"
+      ],
+      "sourceFile": "business-maxi-trouvailles/preuves-images-publiques/bandeau-skincare-microfibre-partenaire-hold/depot-manuel",
+      "allowedAction": "deposer WebP exact: bandeau-skincare-microfibre-partenaire-hold.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 8,
+      "lane": "images_publiques_exactes",
+      "urgency": -87,
+      "id": "boite-rangement-cables-bureau-partenaire-hold",
+      "label": "Boite rangement cables bureau",
+      "status": "A_DEPOSER_WEBP",
+      "nextAction": "Deposer boite-rangement-cables-bureau-partenaire-hold.webp dans depot-manuel, remplir la checklist, puis relancer les audits.",
+      "blockers": [
+        "expected_webp_missing"
+      ],
+      "sourceFile": "business-maxi-trouvailles/preuves-images-publiques/boite-rangement-cables-bureau-partenaire-hold/depot-manuel",
+      "allowedAction": "deposer WebP exact: boite-rangement-cables-bureau-partenaire-hold.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 9,
+      "lane": "images_publiques_exactes",
+      "urgency": -85,
+      "id": "mini-humidificateur-usb-bureau-partenaire-hold#mouss-review",
+      "label": "Mini humidificateur USB bureau - revue Mouss image",
+      "status": "HOLD_A_COMPLETER",
+      "nextAction": "Deposer le WebP exact mini-humidificateur-usb-bureau-partenaire-hold.webp, puis relancer les audits image.",
+      "blockers": [
+        "champs texte: Source image exacte, Droits image, Meme article exact confirme, Variante exacte confirmee, Validation Mouss, Decision copie publique",
+        "expected_webp_missing"
+      ],
+      "sourceFile": "business-maxi-trouvailles/preuves-images-publiques/mini-humidificateur-usb-bureau-partenaire-hold/PREUVE_IMAGE_mini-humidificateur-usb-bureau-partenaire-hold.md",
+      "allowedAction": "remplir champs texte, deposer WebP exact, puis relancer les audits",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 10,
+      "lane": "images_publiques_exactes",
+      "urgency": -84,
+      "id": "mini-pompe-air-usb-voyage-partenaire-hold#mouss-review",
+      "label": "Mini pompe air USB voyage - revue Mouss image",
+      "status": "HOLD_A_COMPLETER",
+      "nextAction": "Deposer le WebP exact mini-pompe-air-usb-voyage-partenaire-hold.webp, puis relancer les audits image.",
+      "blockers": [
+        "champs texte: Source image exacte, Droits image, Meme article exact confirme, Variante exacte confirmee, Validation Mouss, Decision copie publique",
+        "expected_webp_missing"
+      ],
+      "sourceFile": "business-maxi-trouvailles/preuves-images-publiques/mini-pompe-air-usb-voyage-partenaire-hold/PREUVE_IMAGE_mini-pompe-air-usb-voyage-partenaire-hold.md",
+      "allowedAction": "remplir champs texte, deposer WebP exact, puis relancer les audits",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 11,
+      "lane": "images_publiques_exactes",
+      "urgency": -83,
+      "id": "cable-usb-c-240w-renforce-best-seller#mouss-review",
+      "label": "Câble USB-C 240W renforcé best-seller - revue Mouss image",
+      "status": "HOLD_A_COMPLETER",
+      "nextAction": "Deposer le WebP exact cable-usb-c-240w-renforce-best-seller.webp, puis relancer les audits image.",
+      "blockers": [
+        "champs texte: Source image exacte, Droits image, Meme article exact confirme, Variante exacte confirmee, Validation Mouss, Decision copie publique",
+        "expected_webp_missing"
+      ],
+      "sourceFile": "business-maxi-trouvailles/preuves-images-publiques/cable-usb-c-240w-renforce-best-seller/PREUVE_IMAGE_cable-usb-c-240w-renforce-best-seller.md",
+      "allowedAction": "remplir champs texte, deposer WebP exact, puis relancer les audits",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 12,
+      "lane": "images_publiques_exactes",
+      "urgency": -82,
+      "id": "lampe-velo-usb-rechargeable-affichage-batterie#mouss-review",
+      "label": "Lampe vélo USB rechargeable affichage batterie - revue Mouss image",
+      "status": "HOLD_A_COMPLETER",
+      "nextAction": "Deposer le WebP exact lampe-velo-usb-rechargeable-affichage-batterie.webp, puis relancer les audits image.",
+      "blockers": [
+        "champs texte: Source image exacte, Droits image, Meme article exact confirme, Variante exacte confirmee, Validation Mouss, Decision copie publique",
+        "expected_webp_missing"
+      ],
+      "sourceFile": "business-maxi-trouvailles/preuves-images-publiques/lampe-velo-usb-rechargeable-affichage-batterie/PREUVE_IMAGE_lampe-velo-usb-rechargeable-affichage-batterie.md",
+      "allowedAction": "remplir champs texte, deposer WebP exact, puis relancer les audits",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 13,
+      "lane": "images_publiques_exactes",
+      "urgency": -82,
+      "id": "public_image_text_proof_form",
+      "label": "Formulaire preuves texte images",
+      "status": "OK_TEXT_PROOF_FORM_READY_HOLD",
+      "nextAction": "72 lignes a remplir dans les checklists locales, puis relancer les audits image",
+      "blockers": [
+        "12 fiches avec preuves texte a remplir"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/public-image-mouss-review-board-20260612/BOARD_MOUSS_IMAGES_PUBLIQUES_20260612.json",
+      "allowedAction": "remplir uniquement les checklists locales et garder HOLD",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 14,
+      "lane": "audit_kit_terrain",
+      "urgency": -80,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "label": "Pochette organisateur câbles double couche voyage",
+      "status": "HOLD_FIELD_KIT_INCOMPLETE",
+      "nextAction": "remplir toutes les preuves, deposer les WebP exacts, puis relancer cet audit",
+      "blockers": [
+        "checkedAt:missing_or_placeholder",
+        "supplierSellerName:missing_or_placeholder",
+        "exactVariantChosen:missing_or_placeholder",
+        "deliveryFranceEuropeProof:missing_or_placeholder",
+        "deliveryEstimateForCustomer:missing_or_placeholder",
+        "trackingAvailable:missing_or_placeholder",
+        "trackingAvailable:tracking_answer_not_clear_yes_no",
+        "pricingProof:missing_or_placeholder",
+        "shippingProof:missing_or_placeholder",
+        "imageProof:missing_or_placeholder",
+        "imageRightsProof:missing_or_placeholder",
+        "finalDecision:missing_or_placeholder",
+        "finalDecision:final_decision_not_ready_review",
+        "reviewedByMouss:missing_or_placeholder",
+        "reviewedByMouss:missing_human_review_mouss",
+        "main:missing_image_proof",
+        "main:missing_webp_file",
+        "detail:missing_image_proof",
+        "detail:missing_webp_file",
+        "usage:missing_image_proof",
+        "usage:missing_webp_file",
+        "dimensions:missing_image_proof",
+        "dimensions:missing_webp_file"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\tableaux-action\\audit-kit-terrain-validation-produits-20260611\\AUDIT_KIT_TERRAIN_VALIDATION_PRODUITS_20260611.json",
+      "allowedAction": "remplir le JSON kit terrain, deposer les WebP exacts, puis relancer l'audit",
+      "forbiddenActions": [
+        "publier",
+        "copier en public sans validation Mouss",
+        "commander fournisseur",
+        "payer"
+      ]
+    },
+    {
+      "rank": 15,
+      "lane": "images_publiques_exactes",
+      "urgency": -79.9,
+      "id": "mini-humidificateur-usb-bureau-partenaire-hold#source_image_exacte",
+      "label": "Mini humidificateur USB bureau - Source image exacte",
+      "status": "HOLD_TEXT_PROOF_TO_FILL",
+      "nextAction": "Remplir le champ \"Source image exacte\" dans la checklist, garder HOLD, puis relancer les audits image.",
+      "blockers": [
+        "format attendu: origine interne redigee ou reference fournisseur gardee hors artefact client",
+        "refuser si: image similaire, recherche generique, URL client, marketplace visible"
+      ],
+      "sourceFile": "business-maxi-trouvailles/preuves-images-publiques/mini-humidificateur-usb-bureau-partenaire-hold/PREUVE_IMAGE_mini-humidificateur-usb-bureau-partenaire-hold.md",
+      "allowedAction": "remplir la checklist locale, conserver HOLD, puis relancer audit",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 16,
+      "lane": "images_publiques_exactes",
+      "urgency": -79.8,
+      "id": "mini-humidificateur-usb-bureau-partenaire-hold#droits_image",
+      "label": "Mini humidificateur USB bureau - Droits image",
+      "status": "HOLD_TEXT_PROOF_TO_FILL",
+      "nextAction": "Remplir le champ \"Droits image\" dans la checklist, garder HOLD, puis relancer les audits image.",
+      "blockers": [
+        "format attendu: permission fournisseur, photo propre Maxi Trouvaille ou licence utilisable",
+        "refuser si: droits inconnus, logo plateforme, watermark, image non autorisee"
+      ],
+      "sourceFile": "business-maxi-trouvailles/preuves-images-publiques/mini-humidificateur-usb-bureau-partenaire-hold/PREUVE_IMAGE_mini-humidificateur-usb-bureau-partenaire-hold.md",
+      "allowedAction": "remplir la checklist locale, conserver HOLD, puis relancer audit",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 17,
+      "lane": "images_publiques_exactes",
+      "urgency": -79.7,
+      "id": "mini-humidificateur-usb-bureau-partenaire-hold#meme_article_exact_confirme",
+      "label": "Mini humidificateur USB bureau - Meme article exact confirme",
+      "status": "HOLD_TEXT_PROOF_TO_FILL",
+      "nextAction": "Remplir le champ \"Meme article exact confirme\" dans la checklist, garder HOLD, puis relancer les audits image.",
+      "blockers": [
+        "format attendu: oui avec comparaison nom, forme, fonction, accessoires et lot vendu",
+        "refuser si: produit proche, kit different, accessoire en plus, marque trompeuse"
+      ],
+      "sourceFile": "business-maxi-trouvailles/preuves-images-publiques/mini-humidificateur-usb-bureau-partenaire-hold/PREUVE_IMAGE_mini-humidificateur-usb-bureau-partenaire-hold.md",
+      "allowedAction": "remplir la checklist locale, conserver HOLD, puis relancer audit",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 18,
+      "lane": "images_publiques_exactes",
+      "urgency": -79.6,
+      "id": "mini-humidificateur-usb-bureau-partenaire-hold#variante_exacte_confirmee",
+      "label": "Mini humidificateur USB bureau - Variante exacte confirmee",
+      "status": "HOLD_TEXT_PROOF_TO_FILL",
+      "nextAction": "Remplir le champ \"Variante exacte confirmee\" dans la checklist, garder HOLD, puis relancer les audits image.",
+      "blockers": [
+        "format attendu: couleur, taille, capacite, connectique et quantite identiques a la fiche",
+        "refuser si: variante non prouvee, couleur differente, pack affiche mais unite vendue"
+      ],
+      "sourceFile": "business-maxi-trouvailles/preuves-images-publiques/mini-humidificateur-usb-bureau-partenaire-hold/PREUVE_IMAGE_mini-humidificateur-usb-bureau-partenaire-hold.md",
+      "allowedAction": "remplir la checklist locale, conserver HOLD, puis relancer audit",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 19,
+      "lane": "audit_kit_terrain",
+      "urgency": -79,
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "label": "Support PC portable pliant aluminium ajustable",
+      "status": "HOLD_FIELD_KIT_INCOMPLETE",
+      "nextAction": "remplir toutes les preuves, deposer les WebP exacts, puis relancer cet audit",
+      "blockers": [
+        "checkedAt:missing_or_placeholder",
+        "supplierSellerName:missing_or_placeholder",
+        "exactVariantChosen:missing_or_placeholder",
+        "deliveryFranceEuropeProof:missing_or_placeholder",
+        "deliveryEstimateForCustomer:missing_or_placeholder",
+        "trackingAvailable:missing_or_placeholder",
+        "trackingAvailable:tracking_answer_not_clear_yes_no",
+        "pricingProof:missing_or_placeholder",
+        "shippingProof:missing_or_placeholder",
+        "imageProof:missing_or_placeholder",
+        "imageRightsProof:missing_or_placeholder",
+        "finalDecision:missing_or_placeholder",
+        "finalDecision:final_decision_not_ready_review",
+        "reviewedByMouss:missing_or_placeholder",
+        "reviewedByMouss:missing_human_review_mouss",
+        "main:missing_image_proof",
+        "main:missing_webp_file",
+        "detail:missing_image_proof",
+        "detail:missing_webp_file",
+        "usage:missing_image_proof",
+        "usage:missing_webp_file",
+        "dimensions:missing_image_proof",
+        "dimensions:missing_webp_file"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\tableaux-action\\audit-kit-terrain-validation-produits-20260611\\AUDIT_KIT_TERRAIN_VALIDATION_PRODUITS_20260611.json",
+      "allowedAction": "remplir le JSON kit terrain, deposer les WebP exacts, puis relancer l'audit",
+      "forbiddenActions": [
+        "publier",
+        "copier en public sans validation Mouss",
+        "commander fournisseur",
+        "payer"
+      ]
+    },
+    {
+      "rank": 20,
+      "lane": "audit_kit_terrain",
+      "urgency": -78,
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "label": "Filet rangement coffre voiture à sangles fixes",
+      "status": "HOLD_FIELD_KIT_INCOMPLETE",
+      "nextAction": "remplir toutes les preuves, deposer les WebP exacts, puis relancer cet audit",
+      "blockers": [
+        "checkedAt:missing_or_placeholder",
+        "supplierSellerName:missing_or_placeholder",
+        "exactVariantChosen:missing_or_placeholder",
+        "deliveryFranceEuropeProof:missing_or_placeholder",
+        "deliveryEstimateForCustomer:missing_or_placeholder",
+        "trackingAvailable:missing_or_placeholder",
+        "trackingAvailable:tracking_answer_not_clear_yes_no",
+        "pricingProof:missing_or_placeholder",
+        "shippingProof:missing_or_placeholder",
+        "imageProof:missing_or_placeholder",
+        "imageRightsProof:missing_or_placeholder",
+        "finalDecision:missing_or_placeholder",
+        "finalDecision:final_decision_not_ready_review",
+        "reviewedByMouss:missing_or_placeholder",
+        "reviewedByMouss:missing_human_review_mouss",
+        "main:missing_image_proof",
+        "main:missing_webp_file",
+        "detail:missing_image_proof",
+        "detail:missing_webp_file",
+        "usage:missing_image_proof",
+        "usage:missing_webp_file",
+        "dimensions:missing_image_proof",
+        "dimensions:missing_webp_file",
+        "detail-5:missing_image_proof",
+        "detail-5:missing_webp_file",
+        "detail-6:missing_image_proof",
+        "detail-6:missing_webp_file"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\tableaux-action\\audit-kit-terrain-validation-produits-20260611\\AUDIT_KIT_TERRAIN_VALIDATION_PRODUITS_20260611.json",
+      "allowedAction": "remplir le JSON kit terrain, deposer les WebP exacts, puis relancer l'audit",
+      "forbiddenActions": [
+        "publier",
+        "copier en public sans validation Mouss",
+        "commander fournisseur",
+        "payer"
+      ]
+    },
+    {
+      "rank": 21,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -73,
+      "id": "integration_articles_20260612_housse-protection-canape-animal#top3-sourcing",
+      "label": "Housse protection canape animal - sprint sourcing",
+      "status": "HOLD_TOP3_SOURCING_NO_PUBLICATION",
+      "nextAction": "Verifier la fiche produit exacte et garder HOLD si un seul doute existe.",
+      "blockers": [
+        "11 preuves a remplir",
+        "3 WebP exacts attendus",
+        "Fournisseur / SKU",
+        "Prix / stock / marge",
+        "Livraison / suivi"
+      ],
+      "sourceFile": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260612/housse-protection-canape-animal-partenaire-hold",
+      "allowedAction": "remplir les preuves manuelles et deposer les WebP exacts en conservant HOLD",
+      "forbiddenActions": [
+        "lever HOLD automatiquement",
+        "publier",
+        "copier image publique",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 22,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -72,
+      "id": "integration_articles_20260612_cable-organizer-boite-multiprise#top3-sourcing",
+      "label": "Cache multiprise boite rangement cables - sprint sourcing",
+      "status": "HOLD_TOP3_SOURCING_NO_PUBLICATION",
+      "nextAction": "Verifier la fiche produit exacte et garder HOLD si un seul doute existe.",
+      "blockers": [
+        "11 preuves a remplir",
+        "3 WebP exacts attendus",
+        "Fournisseur / SKU",
+        "Prix / stock / marge",
+        "Livraison / suivi"
+      ],
+      "sourceFile": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260612/cache-multiprise-boite-rangement-cables-partenaire-hold",
+      "allowedAction": "remplir les preuves manuelles et deposer les WebP exacts en conservant HOLD",
+      "forbiddenActions": [
+        "lever HOLD automatiquement",
+        "publier",
+        "copier image publique",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 23,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -72,
+      "id": "audit_top3_sourcing_integration",
+      "label": "Audit sprint top 3 sourcing integration",
+      "status": "OK_TOP3_SOURCING_GUARDED",
+      "nextAction": "3 produits, 9 WebP attendus, 0 echec, 0 fuite",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/top3-sourcing-integration-articles/20260612/TOP3_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "utiliser le sprint top 3 uniquement si l'audit reste OK et HOLD",
+      "forbiddenActions": [
+        "lever HOLD automatiquement",
+        "publier",
+        "copier image publique",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 24,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -71,
+      "id": "integration_articles_20260612_trousse-toilette-suspendue-voyage#top3-sourcing",
+      "label": "Trousse toilette suspendue voyage - sprint sourcing",
+      "status": "HOLD_TOP3_SOURCING_NO_PUBLICATION",
+      "nextAction": "Verifier la fiche produit exacte et garder HOLD si un seul doute existe.",
+      "blockers": [
+        "11 preuves a remplir",
+        "3 WebP exacts attendus",
+        "Fournisseur / SKU",
+        "Prix / stock / marge",
+        "Livraison / suivi"
+      ],
+      "sourceFile": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260612/trousse-toilette-suspendue-voyage-partenaire-hold",
+      "allowedAction": "remplir les preuves manuelles et deposer les WebP exacts en conservant HOLD",
+      "forbiddenActions": [
+        "lever HOLD automatiquement",
+        "publier",
+        "copier image publique",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 25,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -71,
+      "id": "top3_parallel_proofs_workpack",
+      "label": "Pack parallele top 3 preuves critiques",
+      "status": "OK_TOP3_PARALLEL_PROOFS_GUARDED",
+      "nextAction": "15 preuves critiques, 3 produits, audit OK_TOP3_PARALLEL_PROOFS_GUARDED",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/top3-preuves-paralleles-sourcing-integration-articles/20260612/TOP3_PREUVES_PARALLELES_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "remplir manuellement le CSV parallele puis relancer les audits",
+      "forbiddenActions": [
+        "lever HOLD automatiquement",
+        "publier",
+        "copier image publique",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 26,
+      "lane": "images_exactes",
+      "urgency": -70,
+      "id": "top3_webp_workpack",
+      "label": "Pack WebP exacts top 3 sourcing",
+      "status": "OK_TOP3_WEBP_WORKPACK_GUARDED",
+      "nextAction": "9 WebP exacts attendus, 3 produits, audit OK_TOP3_WEBP_WORKPACK_GUARDED",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/top3-webp-sourcing-integration-articles/20260612/TOP3_WEBP_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "deposer seulement des WebP exacts locaux apres preuve droits/image et validation Mouss",
+      "forbiddenActions": [
+        "telecharger automatiquement",
+        "copier image publique",
+        "lever HOLD automatiquement",
+        "publier",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 27,
+      "lane": "images_exactes",
+      "urgency": -69,
+      "id": "top3_webp_depot_files_audit",
+      "label": "Audit depots WebP top 3",
+      "status": "HOLD_TOP3_WEBP_FILES_MISSING",
+      "nextAction": "0/9 WebP valides, 9 manquants, 0 invalides",
+      "blockers": [
+        "Housse protection canape animal / main: expected_webp_missing",
+        "Housse protection canape animal / detail: expected_webp_missing",
+        "Housse protection canape animal / variant: expected_webp_missing",
+        "Cache multiprise boite rangement cables / main: expected_webp_missing",
+        "Cache multiprise boite rangement cables / detail: expected_webp_missing",
+        "Cache multiprise boite rangement cables / variant: expected_webp_missing",
+        "Trousse toilette suspendue voyage / main: expected_webp_missing",
+        "Trousse toilette suspendue voyage / detail: expected_webp_missing",
+        "Trousse toilette suspendue voyage / variant: expected_webp_missing"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/top3-webp-sourcing-integration-articles/20260612/TOP3_WEBP_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "deposer ou corriger uniquement les WebP exacts locaux puis relancer l'audit",
+      "forbiddenActions": [
+        "telecharger automatiquement",
+        "copier image publique",
+        "lever HOLD automatiquement",
+        "publier",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 28,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -69,
+      "id": "integration_articles_20260612_housse-protection-canape-animal#exactProductUrl",
+      "label": "Housse protection canape animal - URL produit exacte",
+      "status": "TO_FILL_HOLD",
+      "nextAction": "Remplir manuellement la preuve, verifier que cela concerne le meme article exact, puis relancer les audits.",
+      "blockers": [
+        "format attendu: URL https de la fiche article exacte",
+        "refuser si: URL de recherche, marketplace interdite, produit similaire ou variante floue"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260612\\housse-protection-canape-animal-partenaire-hold",
+      "allowedAction": "remplir preuve manuelle, capture ou fichier, puis garder HOLD avant revue Mouss",
+      "forbiddenActions": [
+        "publier",
+        "inventer prix ou stock",
+        "utiliser produit similaire",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 29,
+      "lane": "images_exactes",
+      "urgency": -68,
+      "id": "top3_webp_depot_session",
+      "label": "Session depot WebP top 3",
+      "status": "OK_TOP3_WEBP_DEPOT_SESSION_GUARDED",
+      "nextAction": "3 dossiers prets, 9 WebP attendus, audit OK_TOP3_WEBP_DEPOT_SESSION_GUARDED",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/session-depot-top3-webp-sourcing-integration-articles/20260612/SESSION_DEPOT_TOP3_WEBP_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "ouvrir les dossiers prepares, deposer les WebP exacts, puis relancer les audits",
+      "forbiddenActions": [
+        "telecharger automatiquement",
+        "copier image publique",
+        "lever HOLD automatiquement",
+        "publier",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 30,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -68,
+      "id": "integration_articles_20260612_housse-protection-canape-animal#partnerName",
+      "label": "Housse protection canape animal - Nom vendeur ou partenaire",
+      "status": "TO_FILL_HOLD",
+      "nextAction": "Remplir manuellement la preuve, verifier que cela concerne le meme article exact, puis relancer les audits.",
+      "blockers": [
+        "format attendu: Nom stable du vendeur, boutique ou partenaire",
+        "refuser si: Vendeur inconnu, nom generique ou preuve absente"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260612\\housse-protection-canape-animal-partenaire-hold",
+      "allowedAction": "remplir preuve manuelle, capture ou fichier, puis garder HOLD avant revue Mouss",
+      "forbiddenActions": [
+        "publier",
+        "inventer prix ou stock",
+        "utiliser produit similaire",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 31,
+      "lane": "garde_fous",
+      "urgency": -67,
+      "id": "top3_business_gate",
+      "label": "Gate business top 3",
+      "status": "HOLD_TOP3_BUSINESS_GATE_BLOCKED",
+      "nextAction": "0/15 preuves, 0/9 WebP, 24 blocages",
+      "blockers": [
+        "Housse protection canape animal: 5 preuves, 3 images, 0 invalides",
+        "Cache multiprise boite rangement cables: 5 preuves, 3 images, 0 invalides",
+        "Trousse toilette suspendue voyage: 5 preuves, 3 images, 0 invalides"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/top3-preuves-paralleles-sourcing-integration-articles/20260612/TOP3_PREUVES_PARALLELES_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "remplir les preuves critiques, deposer les WebP exacts, puis relancer le gate",
+      "forbiddenActions": [
+        "publier",
+        "mettre en vente",
+        "commander fournisseur",
+        "exposer fournisseur client",
+        "copier image publique sans validation"
+      ]
+    },
+    {
+      "rank": 32,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -67,
+      "id": "integration_articles_20260612_housse-protection-canape-animal#supplierSku",
+      "label": "Housse protection canape animal - SKU/reference fournisseur",
+      "status": "TO_FILL_HOLD",
+      "nextAction": "Remplir manuellement la preuve, verifier que cela concerne le meme article exact, puis relancer les audits.",
+      "blockers": [
+        "format attendu: SKU, item id ou reference fournisseur stable",
+        "refuser si: Reference absente ou non reutilisable pour une commande manuelle"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260612\\housse-protection-canape-animal-partenaire-hold",
+      "allowedAction": "remplir preuve manuelle, capture ou fichier, puis garder HOLD avant revue Mouss",
+      "forbiddenActions": [
+        "publier",
+        "inventer prix ou stock",
+        "utiliser produit similaire",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 33,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -66,
+      "id": "top3_unblock_plan",
+      "label": "Plan deblocage top 3",
+      "status": "OK_TOP3_UNBLOCK_PLAN_GUARDED",
+      "nextAction": "24/24 actions restantes, 15 preuves, 9 WebP, audit OK_TOP3_UNBLOCK_PLAN_GUARDED",
+      "blockers": [
+        "Housse protection canape animal: URL produit exacte",
+        "Housse protection canape animal: Nom vendeur ou partenaire",
+        "Housse protection canape animal: SKU/reference fournisseur",
+        "Housse protection canape animal: Variante exacte vendue",
+        "Housse protection canape animal: Prix fournisseur reel en centimes",
+        "Housse protection canape animal: WebP main - housse-protection-canape-animal-partenaire-hold-main.webp"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/plan-deblocage-top3-sourcing-integration-articles/20260612/PLAN_DEBLOCAGE_TOP3_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "utiliser le plan en lecture seule pour traiter preuves et WebP exacts dans l'ordre",
+      "forbiddenActions": [
+        "publier",
+        "mettre en vente",
+        "commander fournisseur",
+        "exposer fournisseur client",
+        "copier image publique sans validation"
+      ]
+    },
+    {
+      "rank": 34,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -66,
+      "id": "integration_articles_20260612_housse-protection-canape-animal#exactVariant",
+      "label": "Housse protection canape animal - Variante exacte vendue",
+      "status": "TO_FILL_HOLD",
+      "nextAction": "Remplir manuellement la preuve, verifier que cela concerne le meme article exact, puis relancer les audits.",
+      "blockers": [
+        "format attendu: Couleur, taille, dimensions, lot et accessoires inclus",
+        "refuser si: Variante non identique aux images ou a la description Maxi"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260612\\housse-protection-canape-animal-partenaire-hold",
+      "allowedAction": "remplir preuve manuelle, capture ou fichier, puis garder HOLD avant revue Mouss",
+      "forbiddenActions": [
+        "publier",
+        "inventer prix ou stock",
+        "utiliser produit similaire",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 35,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -65,
+      "id": "next_wave_sourcing_integration",
+      "label": "Prochaine vague sourcing integration",
+      "status": "OK_NEXT_WAVE_SOURCING_GUARDED",
+      "nextAction": "12 produits HOLD, 60 preuves, 36 WebP, audit OK_NEXT_WAVE_SOURCING_GUARDED",
+      "blockers": [
+        "Etagere douche angle adhesive: preuves et WebP exacts a remplir",
+        "Boite a the compartiments bambou: preuves et WebP exacts a remplir",
+        "Organisateur coffre voiture pliable: preuves et WebP exacts a remplir",
+        "Organisateur tiroir cuisine extensible: preuves et WebP exacts a remplir",
+        "Sacs compression voyage lot: preuves et WebP exacts a remplir",
+        "Sac repas isotherme pliable: preuves et WebP exacts a remplir"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/prochaine-vague-sourcing-integration-articles/20260612/NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "utiliser la vague en lecture seule pour remplir preuves internes et depots WebP exacts",
+      "forbiddenActions": [
+        "publier",
+        "mettre en vente",
+        "commander fournisseur",
+        "exposer fournisseur client",
+        "copier image publique sans validation"
+      ]
+    },
+    {
+      "rank": 36,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -65,
+      "id": "integration_articles_20260612_housse-protection-canape-animal#supplierPriceCents",
+      "label": "Housse protection canape animal - Prix fournisseur reel en centimes",
+      "status": "TO_FILL_HOLD",
+      "nextAction": "Remplir manuellement la preuve, verifier que cela concerne le meme article exact, puis relancer les audits.",
+      "blockers": [
+        "format attendu: Nombre entier en centimes, hors invention",
+        "refuser si: Prix absent, prix estime ou marge cible non tenable"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260612\\housse-protection-canape-animal-partenaire-hold",
+      "allowedAction": "remplir preuve manuelle, capture ou fichier, puis garder HOLD avant revue Mouss",
+      "forbiddenActions": [
+        "publier",
+        "inventer prix ou stock",
+        "utiliser produit similaire",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 37,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -65,
+      "id": "audit_pilotage_sourcing_integration",
+      "label": "Audit pilotage sourcing integration",
+      "status": "OK_PRIORITY_BOARD_GUARDED",
+      "nextAction": "10 produits, 110 preuves, 30 WebP attendus, 0 echec",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/pilotage-sourcing-integration-articles/20260612/PILOTAGE_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "utiliser le board en lecture seule pour prioriser preuves et depots WebP exacts",
+      "forbiddenActions": [
+        "lever HOLD automatiquement",
+        "publier",
+        "copier image publique",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 38,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -64,
+      "id": "next_wave_sourcing_session",
+      "label": "Session terrain prochaine vague",
+      "status": "OK_NEXT_WAVE_SESSION_GUARDED",
+      "nextAction": "3 lots, 12 produits, 60 preuves, 36 WebP, lot actif lot-01",
+      "blockers": [
+        "lot-01: 4 produits, 20 preuves, 12 WebP",
+        "lot-02: 4 produits, 20 preuves, 12 WebP",
+        "lot-03: 4 produits, 20 preuves, 12 WebP"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/session-prochaine-vague-sourcing-integration-articles/20260612/SESSION_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "traiter les lots en lecture seule, remplir preuves internes et depots WebP exacts",
+      "forbiddenActions": [
+        "publier",
+        "mettre en vente",
+        "commander fournisseur",
+        "exposer fournisseur client",
+        "copier image publique sans validation"
+      ]
+    },
+    {
+      "rank": 39,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -64,
+      "id": "audit_next_proofs_integration",
+      "label": "Audit prochaines preuves sourcing integration",
+      "status": "HOLD_NEXT_PROOFS_TO_FILL",
+      "nextAction": "5 preuves HOLD, 0 pretes revue, 35 blocages metier",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles\\tableaux-action\\prochaines-preuves-sourcing-integration-articles\\20260612\\PROCHAINES_PREUVES_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "remplir uniquement les preuves manuelles puis relancer l'audit",
+      "forbiddenActions": [
+        "publier",
+        "lever HOLD automatiquement",
+        "copier image publique",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 40,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -63,
+      "id": "next_wave_active_batch",
+      "label": "Lot actif prochaine vague",
+      "status": "OK_NEXT_WAVE_ACTIVE_BATCH_GUARDED",
+      "nextAction": "lot-01: 4 produits, 20 preuves, 12 WebP, 32 actions terrain",
+      "blockers": [
+        "Etagere douche angle adhesive: 5 preuves et 3 WebP a traiter",
+        "Boite a the compartiments bambou: 5 preuves et 3 WebP a traiter",
+        "Organisateur coffre voiture pliable: 5 preuves et 3 WebP a traiter",
+        "Organisateur tiroir cuisine extensible: 5 preuves et 3 WebP a traiter"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/lot-actif-prochaine-vague-sourcing-integration-articles/20260612/ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "traiter uniquement ce lot en lecture seule, preuves internes puis WebP exacts locaux",
+      "forbiddenActions": [
+        "publier",
+        "mettre en vente",
+        "commander fournisseur",
+        "exposer fournisseur client",
+        "copier image publique sans validation"
+      ]
+    },
+    {
+      "rank": 41,
+      "lane": "garde_fous",
+      "urgency": -62,
+      "id": "next_wave_active_batch_business_gate",
+      "label": "Gate business lot actif",
+      "status": "HOLD_NEXT_WAVE_ACTIVE_BATCH_BUSINESS_GATE_BLOCKED",
+      "nextAction": "lot-01: 0/20 preuves, 0/12 WebP, 32 blocages",
+      "blockers": [
+        "Etagere douche angle adhesive: 5 preuves, 3 images, 0 invalides",
+        "Boite a the compartiments bambou: 5 preuves, 3 images, 0 invalides",
+        "Organisateur coffre voiture pliable: 5 preuves, 3 images, 0 invalides",
+        "Organisateur tiroir cuisine extensible: 5 preuves, 3 images, 0 invalides"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/lot-actif-prochaine-vague-sourcing-integration-articles/20260612/ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "remplir les preuves internes, deposer les WebP exacts, puis relancer le gate",
+      "forbiddenActions": [
+        "publier",
+        "mettre en vente",
+        "commander fournisseur",
+        "exposer fournisseur client",
+        "copier image publique sans validation"
+      ]
+    },
+    {
+      "rank": 42,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -61,
+      "id": "next_wave_active_batch_micro_packs",
+      "label": "Micro-packs lot actif",
+      "status": "OK_NEXT_WAVE_ACTIVE_BATCH_MICRO_PACKS_GUARDED",
+      "nextAction": "lot-01: 4 fiches, 20 preuves, 12 WebP, 32 actions",
+      "blockers": [
+        "Etagere douche angle adhesive: 5 preuves, 3 WebP, fiche business-maxi-trouvailles/tableaux-action/micro-packs-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/fiches-produits/01-etagere-douche-angle-adhesive-partenaire-hold.md",
+        "Boite a the compartiments bambou: 5 preuves, 3 WebP, fiche business-maxi-trouvailles/tableaux-action/micro-packs-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/fiches-produits/02-boite-a-the-compartiments-bambou-partenaire-hold.md",
+        "Organisateur coffre voiture pliable: 5 preuves, 3 WebP, fiche business-maxi-trouvailles/tableaux-action/micro-packs-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/fiches-produits/03-organisateur-coffre-voiture-pliable-partenaire-hold.md",
+        "Organisateur tiroir cuisine extensible: 5 preuves, 3 WebP, fiche business-maxi-trouvailles/tableaux-action/micro-packs-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/fiches-produits/04-organisateur-tiroir-cuisine-extensible-partenaire-hold.md"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/micro-packs-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/MICRO_PACKS_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "ouvrir une fiche produit micro-pack, remplir les preuves internes et deposer les WebP exacts locaux",
+      "forbiddenActions": [
+        "publier",
+        "mettre en vente",
+        "commander fournisseur",
+        "exposer fournisseur client",
+        "copier image publique sans validation"
+      ]
+    },
+    {
+      "rank": 43,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -60,
+      "id": "next_wave_active_batch_proof_intake",
+      "label": "Preuves internes lot actif",
+      "status": "OK_NEXT_WAVE_ACTIVE_BATCH_PROOF_INTAKE_GUARDED",
+      "nextAction": "lot-01: 20/20 fichiers preuves, 20 HOLD, audit OK_NEXT_WAVE_ACTIVE_BATCH_PROOF_INTAKE_GUARDED",
+      "blockers": [
+        "Etagere douche angle adhesive: 5 fichiers preuves, dossier business-maxi-trouvailles/preuves-internes/integration-articles/20260612/etagere-douche-angle-adhesive-partenaire-hold/README_PREUVES_LOT_ACTIF_HOLD_20260612.md",
+        "Boite a the compartiments bambou: 5 fichiers preuves, dossier business-maxi-trouvailles/preuves-internes/integration-articles/20260612/boite-a-the-compartiments-bambou-partenaire-hold/README_PREUVES_LOT_ACTIF_HOLD_20260612.md",
+        "Organisateur coffre voiture pliable: 5 fichiers preuves, dossier business-maxi-trouvailles/preuves-internes/integration-articles/20260612/organisateur-coffre-voiture-pliable-partenaire-hold/README_PREUVES_LOT_ACTIF_HOLD_20260612.md",
+        "Organisateur tiroir cuisine extensible: 5 fichiers preuves, dossier business-maxi-trouvailles/preuves-internes/integration-articles/20260612/organisateur-tiroir-cuisine-extensible-partenaire-hold/README_PREUVES_LOT_ACTIF_HOLD_20260612.md"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/preuves-internes-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/PROOF_INTAKE_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "ouvrir les fichiers preuve internes, remplir les placeholders Mouss et relancer les audits",
+      "forbiddenActions": [
+        "publier",
+        "mettre en vente",
+        "commander fournisseur",
+        "exposer fournisseur client",
+        "copier image publique sans validation"
+      ]
+    },
+    {
+      "rank": 44,
+      "lane": "images_exactes",
+      "urgency": -59,
+      "id": "next_wave_active_batch_webp_deposit_intake",
+      "label": "Depots WebP lot actif",
+      "status": "OK_NEXT_WAVE_ACTIVE_BATCH_WEBP_DEPOSIT_INTAKE_GUARDED",
+      "nextAction": "lot-01: 0/12 WebP valides, 12 manquants, audit OK_NEXT_WAVE_ACTIVE_BATCH_WEBP_DEPOSIT_INTAKE_GUARDED",
+      "blockers": [
+        "Etagere douche angle adhesive: 3 WebP manquants, dossier business-maxi-trouvailles/depots-images-exactes/integration-articles/20260612/etagere-douche-angle-adhesive-partenaire-hold",
+        "Boite a the compartiments bambou: 3 WebP manquants, dossier business-maxi-trouvailles/depots-images-exactes/integration-articles/20260612/boite-a-the-compartiments-bambou-partenaire-hold",
+        "Organisateur coffre voiture pliable: 3 WebP manquants, dossier business-maxi-trouvailles/depots-images-exactes/integration-articles/20260612/organisateur-coffre-voiture-pliable-partenaire-hold",
+        "Organisateur tiroir cuisine extensible: 3 WebP manquants, dossier business-maxi-trouvailles/depots-images-exactes/integration-articles/20260612/organisateur-tiroir-cuisine-extensible-partenaire-hold"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/depots-webp-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/WEBP_DEPOSIT_INTAKE_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "deposer uniquement les vrais WebP exacts locaux, puis relancer les audits",
+      "forbiddenActions": [
+        "telecharger automatiquement",
+        "copier image publique",
+        "utiliser image approximative",
+        "publier",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 45,
+      "lane": "images_exactes",
+      "urgency": -58,
+      "id": "next_wave_active_batch_webp_validation_contracts",
+      "label": "Contrats validation WebP lot actif",
+      "status": "OK_NEXT_WAVE_ACTIVE_BATCH_WEBP_VALIDATION_CONTRACTS_GUARDED",
+      "nextAction": "lot-01: 12/12 contrats HOLD, 12 WebP manquants, audit OK_NEXT_WAVE_ACTIVE_BATCH_WEBP_VALIDATION_CONTRACTS_GUARDED",
+      "blockers": [
+        "Etagere douche angle adhesive: 3 contrats HOLD, 3 WebP manquants",
+        "Boite a the compartiments bambou: 3 contrats HOLD, 3 WebP manquants",
+        "Organisateur coffre voiture pliable: 3 contrats HOLD, 3 WebP manquants",
+        "Organisateur tiroir cuisine extensible: 3 contrats HOLD, 3 WebP manquants"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/contrats-validation-webp-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/WEBP_VALIDATION_CONTRACTS_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "remplir les contrats uniquement avec preuves exactes internes, deposer les vrais WebP et relancer les audits",
+      "forbiddenActions": [
+        "approuver sans Mouss",
+        "copier image publique",
+        "utiliser image approximative",
+        "publier",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 46,
+      "lane": "validation_mouss",
+      "urgency": -57,
+      "id": "next_wave_active_batch_mouss_review_board",
+      "label": "Revue Mouss lot actif",
+      "status": "OK_NEXT_WAVE_ACTIVE_BATCH_MOUSS_REVIEW_BOARD_GUARDED",
+      "nextAction": "lot-01: 0 prets revue, 4 bloques, 32 blocages",
+      "blockers": [
+        "Etagere douche angle adhesive: 5 preuves, 3 WebP, decision BLOCKED_MOUSS_REVIEW_HOLD",
+        "Boite a the compartiments bambou: 5 preuves, 3 WebP, decision BLOCKED_MOUSS_REVIEW_HOLD",
+        "Organisateur coffre voiture pliable: 5 preuves, 3 WebP, decision BLOCKED_MOUSS_REVIEW_HOLD",
+        "Organisateur tiroir cuisine extensible: 5 preuves, 3 WebP, decision BLOCKED_MOUSS_REVIEW_HOLD"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/revue-mouss-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/MOUSS_REVIEW_BOARD_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "utiliser le board pour prioriser la saisie Mouss et garder les blocages HOLD",
+      "forbiddenActions": [
+        "publier",
+        "mettre en vente",
+        "copier image publique",
+        "commander fournisseur",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 47,
+      "lane": "validation_mouss",
+      "urgency": -56,
+      "id": "next_wave_active_batch_field_entry_pack",
+      "label": "Pack saisie terrain lot actif",
+      "status": "OK_NEXT_WAVE_ACTIVE_BATCH_FIELD_ENTRY_PACK_GUARDED",
+      "nextAction": "lot-01: 32 entrees, 20 preuves, 12 WebP, 4 fiches",
+      "blockers": [
+        "Etagere douche angle adhesive: 5 preuves HOLD, 3 WebP HOLD, fiche business-maxi-trouvailles/tableaux-action/pack-saisie-terrain-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/SAISIE_TERRAIN_01_etagere-douche-angle-adhesive.md",
+        "Boite a the compartiments bambou: 5 preuves HOLD, 3 WebP HOLD, fiche business-maxi-trouvailles/tableaux-action/pack-saisie-terrain-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/SAISIE_TERRAIN_02_boite-a-the-compartiments-bambou.md",
+        "Organisateur coffre voiture pliable: 5 preuves HOLD, 3 WebP HOLD, fiche business-maxi-trouvailles/tableaux-action/pack-saisie-terrain-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/SAISIE_TERRAIN_03_organisateur-coffre-voiture-pliable.md",
+        "Organisateur tiroir cuisine extensible: 5 preuves HOLD, 3 WebP HOLD, fiche business-maxi-trouvailles/tableaux-action/pack-saisie-terrain-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/SAISIE_TERRAIN_04_organisateur-tiroir-cuisine-extensible.md"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/pack-saisie-terrain-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/FIELD_ENTRY_PACK_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "remplir les lignes HOLD du pack avec preuves locales et WebP exacts",
+      "forbiddenActions": [
+        "publier",
+        "mettre en vente",
+        "copier image publique",
+        "commander fournisseur",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 48,
+      "lane": "validation_mouss",
+      "urgency": -55,
+      "id": "next_wave_active_batch_field_completion_gate",
+      "label": "Gate saisie terrain lot actif",
+      "status": "OK_NEXT_WAVE_ACTIVE_BATCH_FIELD_COMPLETION_GATE_GUARDED",
+      "nextAction": "lot-01: 0/32 entrees pretes, 32 bloquees",
+      "blockers": [
+        "Etagere douche angle adhesive: 0/5 preuves, 0/3 WebP, BLOCKED_FIELD_COMPLETION_HOLD",
+        "Boite a the compartiments bambou: 0/5 preuves, 0/3 WebP, BLOCKED_FIELD_COMPLETION_HOLD",
+        "Organisateur coffre voiture pliable: 0/5 preuves, 0/3 WebP, BLOCKED_FIELD_COMPLETION_HOLD",
+        "Organisateur tiroir cuisine extensible: 0/5 preuves, 0/3 WebP, BLOCKED_FIELD_COMPLETION_HOLD"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/pack-saisie-terrain-lot-actif-prochaine-vague-sourcing-integration-articles/20260612/FIELD_ENTRY_PACK_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "relire le gate, completer preuves et WebP locaux, garder HOLD",
+      "forbiddenActions": [
+        "publier",
+        "mettre en vente",
+        "copier image publique",
+        "commander fournisseur",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 49,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -54,
+      "id": "next_wave_pending_batches_runway",
+      "label": "Runway lots suivants",
+      "status": "OK_NEXT_WAVE_PENDING_BATCHES_RUNWAY_GUARDED",
+      "nextAction": "2 lots, 8 produits, 40 preuves, 24 WebP en attente",
+      "blockers": [
+        "lot actif lot-01 garde HOLD",
+        "64 taches futures sans publication"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/runway-lots-suivants-prochaine-vague-sourcing-integration-articles/20260612/PENDING_BATCHES_RUNWAY_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "preparer les lots suivants en HOLD sans remplacer le lot actif",
+      "forbiddenActions": [
+        "publier",
+        "mettre en vente",
+        "copier image publique",
+        "commander fournisseur",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 50,
+      "lane": "preuves_sourcing_integration",
+      "urgency": -53,
+      "id": "next_wave_pending_batches_field_entry_pack",
+      "label": "Pack saisie terrain lots suivants",
+      "status": "OK_NEXT_WAVE_PENDING_BATCHES_FIELD_ENTRY_PACK_GUARDED",
+      "nextAction": "2 lots, 8 produits, 64 entrees, 40 preuves, 24 WebP, 8 fiches",
+      "blockers": [
+        "64 entrees restent HOLD",
+        "lot-01 garde HOLD"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/pack-saisie-terrain-lots-suivants-prochaine-vague-sourcing-integration-articles/20260612/PENDING_BATCHES_FIELD_ENTRY_PACK_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+      "allowedAction": "preparer la saisie terrain des lots suivants en HOLD",
+      "forbiddenActions": [
+        "publier",
+        "mettre en vente",
+        "copier image publique",
+        "commander fournisseur",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 51,
+      "lane": "images_categories",
+      "urgency": 1,
+      "id": "dropshipping-high-tech",
+      "label": "High-tech",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-20260612\\categories\\01-high-tech-dropshipping-high-tech\\dropshipping-high-tech.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-high-tech.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 52,
+      "lane": "produits_partenaires",
+      "urgency": 1,
+      "id": "prod_partner_cable_organizer_001",
+      "label": "Organisateur de câbles et accessoires tech",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Decider garder, remplacer, retirer ou plus tard avant toute preuve fournisseur.",
+      "blockers": [
+        "decision",
+        "exactSupplierProductUrl si garder",
+        "supplierSku si garder",
+        "checkedAt",
+        "supplierSellerName",
+        "exactVariantChosen",
+        "deliveryFranceEuropeProof",
+        "deliveryEstimateForCustomer",
+        "trackingAvailable",
+        "pricingProof",
+        "shippingProof",
+        "imageProof",
+        "imageRightsProof",
+        "finalDecision",
+        "reviewedByMouss",
+        "complianceNotes si remplacer/retirer/plus tard"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 53,
+      "lane": "images_categories",
+      "urgency": 2,
+      "id": "dropshipping-accessoires",
+      "label": "Accessoires",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-20260612\\categories\\02-accessoires-dropshipping-accessoires\\dropshipping-accessoires.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-accessoires.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 54,
+      "lane": "produits_partenaires",
+      "urgency": 2,
+      "id": "prod_partner_thermal_printer_001",
+      "label": "Mini imprimante thermique Bluetooth",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Decider garder, remplacer, retirer ou plus tard avant toute preuve fournisseur.",
+      "blockers": [
+        "decision",
+        "exactSupplierProductUrl si garder",
+        "supplierSku si garder",
+        "checkedAt",
+        "supplierSellerName",
+        "exactVariantChosen",
+        "deliveryFranceEuropeProof",
+        "deliveryEstimateForCustomer",
+        "trackingAvailable",
+        "pricingProof",
+        "shippingProof",
+        "imageProof",
+        "imageRightsProof",
+        "finalDecision",
+        "reviewedByMouss",
+        "complianceNotes si remplacer/retirer/plus tard"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 55,
+      "lane": "images_categories",
+      "urgency": 3,
+      "id": "dropshipping-auto-moto",
+      "label": "Auto / Moto",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-20260612\\categories\\03-auto-moto-dropshipping-auto-moto\\dropshipping-auto-moto.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-auto-moto.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 56,
+      "lane": "produits_partenaires",
+      "urgency": 3,
+      "id": "prod_partner_galaxy_projector_001",
+      "label": "Projecteur galaxie LED pour ambiance",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Decider garder, remplacer, retirer ou plus tard avant toute preuve fournisseur.",
+      "blockers": [
+        "decision",
+        "exactSupplierProductUrl si garder",
+        "supplierSku si garder",
+        "checkedAt",
+        "supplierSellerName",
+        "exactVariantChosen",
+        "deliveryFranceEuropeProof",
+        "deliveryEstimateForCustomer",
+        "trackingAvailable",
+        "pricingProof",
+        "shippingProof",
+        "imageProof",
+        "imageRightsProof",
+        "finalDecision",
+        "reviewedByMouss",
+        "complianceNotes si remplacer/retirer/plus tard"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 57,
+      "lane": "images_categories",
+      "urgency": 4,
+      "id": "dropshipping-maison",
+      "label": "Maison",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-20260612\\categories\\04-maison-dropshipping-maison\\dropshipping-maison.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-maison.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 58,
+      "lane": "produits_partenaires",
+      "urgency": 4,
+      "id": "prod_partner_car_vacuum_001",
+      "label": "Mini aspirateur voiture sans fil",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Decider garder, remplacer, retirer ou plus tard avant toute preuve fournisseur.",
+      "blockers": [
+        "decision",
+        "exactSupplierProductUrl si garder",
+        "supplierSku si garder",
+        "checkedAt",
+        "supplierSellerName",
+        "exactVariantChosen",
+        "deliveryFranceEuropeProof",
+        "deliveryEstimateForCustomer",
+        "trackingAvailable",
+        "pricingProof",
+        "shippingProof",
+        "imageProof",
+        "imageRightsProof",
+        "finalDecision",
+        "reviewedByMouss",
+        "complianceNotes si remplacer/retirer/plus tard"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 59,
+      "lane": "images_categories",
+      "urgency": 5,
+      "id": "dropshipping-cuisine",
+      "label": "Cuisine",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-20260612\\categories\\05-cuisine-dropshipping-cuisine\\dropshipping-cuisine.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-cuisine.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 60,
+      "lane": "produits_partenaires",
+      "urgency": 5,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "label": "Pochette organisateur câbles double couche voyage",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Remplir le formulaire rapide avec vendeur, variante, prix, stock, delai, tracking et preuves image.",
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611\\formulaires-preuves-rapides-20260611\\A_REMPLIR_TEMPLATE_PREUVES_RAPIDES_20260611.json",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 61,
+      "lane": "images_categories",
+      "urgency": 6,
+      "id": "dropshipping-beaute",
+      "label": "Beauté",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-next-batch-20260612\\categories\\01-beaute-dropshipping-beaute\\dropshipping-beaute.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-beaute.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 62,
+      "lane": "produits_partenaires",
+      "urgency": 6,
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "label": "Support PC portable pliant aluminium ajustable",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Remplir le formulaire rapide avec vendeur, variante, prix, stock, delai, tracking et preuves image.",
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611\\formulaires-preuves-rapides-20260611\\A_REMPLIR_TEMPLATE_PREUVES_RAPIDES_20260611.json",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 63,
+      "lane": "images_categories",
+      "urgency": 7,
+      "id": "dropshipping-animaux",
+      "label": "Animaux",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-next-batch-20260612\\categories\\02-animaux-dropshipping-animaux\\dropshipping-animaux.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-animaux.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 64,
+      "lane": "produits_partenaires",
+      "urgency": 7,
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "label": "Filet rangement coffre voiture à sangles fixes",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Remplir le formulaire rapide avec vendeur, variante, prix, stock, delai, tracking et preuves image.",
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611\\formulaires-preuves-rapides-20260611\\A_REMPLIR_TEMPLATE_PREUVES_RAPIDES_20260611.json",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 65,
+      "lane": "images_categories",
+      "urgency": 8,
+      "id": "dropshipping-mode",
+      "label": "Mode",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-next-batch-20260612\\categories\\03-mode-dropshipping-mode\\dropshipping-mode.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-mode.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 66,
+      "lane": "produits_partenaires",
+      "urgency": 8,
+      "id": "ali_partner_20260527_gourde_pliable_001",
+      "label": "Gourde pliable silicone voyage avec mousqueton",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Remplir le formulaire rapide avec vendeur, variante, prix, stock, delai, tracking et preuves image.",
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611\\formulaires-preuves-rapides-20260611\\A_REMPLIR_TEMPLATE_PREUVES_RAPIDES_20260611.json",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 67,
+      "lane": "images_categories",
+      "urgency": 9,
+      "id": "dropshipping-enfant",
+      "label": "Enfant",
+      "status": "HOLD_INTAKE_BLOCKED",
+      "nextAction": "deposer ou corriger le WebP exact dans le dossier depot",
+      "blockers": [
+        "MISSING_WEBP_IN_DROP_FOLDER"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-images-categories\\depot-images-categories-next-batch-20260612\\categories\\04-enfant-dropshipping-enfant\\dropshipping-enfant.webp",
+      "allowedAction": "deposer WebP exact: dropshipping-enfant.webp",
+      "forbiddenActions": [
+        "copier dans public/uploads/category-images",
+        "modifier src/lib/catalog.ts",
+        "publier"
+      ]
+    },
+    {
+      "rank": 68,
+      "lane": "produits_partenaires",
+      "urgency": 9,
+      "id": "ali_partner_20260527_lampes_detection_001",
+      "label": "Lampe LED à détection de mouvement USB rechargeable",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Remplir le formulaire rapide avec vendeur, variante, prix, stock, delai, tracking et preuves image.",
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611\\formulaires-preuves-rapides-20260611\\A_REMPLIR_TEMPLATE_PREUVES_RAPIDES_20260611.json",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 69,
+      "lane": "produits_partenaires",
+      "urgency": 10,
+      "id": "ali_partner_20260527_support_tel_voiture_001",
+      "label": "Support téléphone voiture flexible à ventouse 360°",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Recontroler prix, livraison, droits images et risques avant de creer un formulaire de revue.",
+      "blockers": [
+        "checkedAt",
+        "supplierSellerName",
+        "exactVariantChosen",
+        "deliveryFranceEuropeProof",
+        "deliveryEstimateForCustomer",
+        "trackingAvailable",
+        "supplierPriceCents",
+        "pays expedition / transporteur",
+        "pricingProof",
+        "shippingProof",
+        "imageProof",
+        "imageRightsProof",
+        "finalDecision",
+        "reviewedByMouss"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 70,
+      "lane": "photos_produits",
+      "urgency": 11,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001#1",
+      "label": "Pochette organisateur câbles double couche voyage - main",
+      "status": "HOLD_PHOTO_MISSING",
+      "nextAction": "photo produit entier, pochette seule, angle 3/4, fermeture visible",
+      "blockers": [
+        "fichier local present",
+        "droits images remplis",
+        "correspondance visuelle prouvee",
+        "validation Mouss"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260612\\produits\\01-pochette-organisateur-cables-double-couche-voyage\\01-pochette-organisateur-cables-double-couche-voyage-main.webp",
+      "allowedAction": "deposer photo WebP exacte: 01-pochette-organisateur-cables-double-couche-voyage-main.webp",
+      "forbiddenActions": [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 71,
+      "lane": "produits_partenaires",
+      "urgency": 11,
+      "id": "ali_partner_20260605_paracorde_camping_001",
+      "label": "Corde paracorde camping randonnée 5/15/30 m",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Recontroler prix, livraison, droits images et risques avant de creer un formulaire de revue.",
+      "blockers": [
+        "checkedAt",
+        "supplierSellerName",
+        "exactVariantChosen",
+        "deliveryFranceEuropeProof",
+        "deliveryEstimateForCustomer",
+        "trackingAvailable",
+        "supplierPriceCents",
+        "pays expedition / transporteur",
+        "pricingProof",
+        "shippingProof",
+        "imageProof",
+        "imageRightsProof",
+        "finalDecision",
+        "reviewedByMouss"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 72,
+      "lane": "photos_produits",
+      "urgency": 12,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001#2",
+      "label": "Pochette organisateur câbles double couche voyage - detail",
+      "status": "HOLD_PHOTO_MISSING",
+      "nextAction": "detail interieur/compartiments et fermeture, sans objet non inclus trompeur",
+      "blockers": [
+        "fichier local present",
+        "droits images remplis",
+        "correspondance visuelle prouvee",
+        "validation Mouss"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260612\\produits\\01-pochette-organisateur-cables-double-couche-voyage\\02-pochette-organisateur-cables-double-couche-voyage-detail.webp",
+      "allowedAction": "deposer photo WebP exacte: 02-pochette-organisateur-cables-double-couche-voyage-detail.webp",
+      "forbiddenActions": [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 73,
+      "lane": "produits_partenaires",
+      "urgency": 12,
+      "id": "ali_partner_20260605_nano_tape_sdb_cuisine_001",
+      "label": "Nano tape double-face salle de bain cuisine",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "nextAction": "Recontroler prix, livraison, droits images et risques avant de creer un formulaire de revue.",
+      "blockers": [
+        "checkedAt",
+        "supplierSellerName",
+        "exactVariantChosen",
+        "deliveryFranceEuropeProof",
+        "deliveryEstimateForCustomer",
+        "trackingAvailable",
+        "supplierPriceCents",
+        "pays expedition / transporteur",
+        "pricingProof",
+        "shippingProof",
+        "imageProof",
+        "imageRightsProof",
+        "finalDecision",
+        "reviewedByMouss"
+      ],
+      "sourceFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611",
+      "allowedAction": "remplir preuves, verifier fournisseur, completer decision HOLD",
+      "forbiddenActions": [
+        "publier",
+        "commander fournisseur",
+        "payer",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 74,
+      "lane": "photos_produits",
+      "urgency": 13,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001#3",
+      "label": "Pochette organisateur câbles double couche voyage - usage",
+      "status": "HOLD_PHOTO_MISSING",
+      "nextAction": "mise en situation avec cables pour montrer l'usage, en precisant que les accessoires ne sont pas inclus si besoin",
+      "blockers": [
+        "fichier local present",
+        "droits images remplis",
+        "correspondance visuelle prouvee",
+        "validation Mouss"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260612\\produits\\01-pochette-organisateur-cables-double-couche-voyage\\03-pochette-organisateur-cables-double-couche-voyage-usage.webp",
+      "allowedAction": "deposer photo WebP exacte: 03-pochette-organisateur-cables-double-couche-voyage-usage.webp",
+      "forbiddenActions": [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 75,
+      "lane": "photos_produits",
+      "urgency": 14,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001#4",
+      "label": "Pochette organisateur câbles double couche voyage - dimensions",
+      "status": "HOLD_PHOTO_MISSING",
+      "nextAction": "photo avec repere dimensions lisible ou preuve dimensions separee",
+      "blockers": [
+        "fichier local present",
+        "droits images remplis",
+        "correspondance visuelle prouvee",
+        "validation Mouss"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260612\\produits\\01-pochette-organisateur-cables-double-couche-voyage\\04-pochette-organisateur-cables-double-couche-voyage-dimensions.webp",
+      "allowedAction": "deposer photo WebP exacte: 04-pochette-organisateur-cables-double-couche-voyage-dimensions.webp",
+      "forbiddenActions": [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 76,
+      "lane": "photos_produits",
+      "urgency": 21,
+      "id": "ali_partner_20260527_support_pc_pliant_001#1",
+      "label": "Support PC portable pliant aluminium ajustable - main",
+      "status": "HOLD_PHOTO_MISSING",
+      "nextAction": "support seul, deploye, angle 3/4, matiere et forme visibles",
+      "blockers": [
+        "fichier local present",
+        "droits images remplis",
+        "correspondance visuelle prouvee",
+        "validation Mouss"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260612\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\01-support-pc-portable-pliant-aluminium-ajustable-main.webp",
+      "allowedAction": "deposer photo WebP exacte: 01-support-pc-portable-pliant-aluminium-ajustable-main.webp",
+      "forbiddenActions": [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 77,
+      "lane": "photos_produits",
+      "urgency": 22,
+      "id": "ali_partner_20260527_support_pc_pliant_001#2",
+      "label": "Support PC portable pliant aluminium ajustable - detail",
+      "status": "HOLD_PHOTO_MISSING",
+      "nextAction": "detail charniere, reglages, patins ou pliage",
+      "blockers": [
+        "fichier local present",
+        "droits images remplis",
+        "correspondance visuelle prouvee",
+        "validation Mouss"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260612\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\02-support-pc-portable-pliant-aluminium-ajustable-detail.webp",
+      "allowedAction": "deposer photo WebP exacte: 02-support-pc-portable-pliant-aluminium-ajustable-detail.webp",
+      "forbiddenActions": [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 78,
+      "lane": "photos_produits",
+      "urgency": 23,
+      "id": "ali_partner_20260527_support_pc_pliant_001#3",
+      "label": "Support PC portable pliant aluminium ajustable - usage",
+      "status": "HOLD_PHOTO_MISSING",
+      "nextAction": "usage avec ordinateur en contexte uniquement; ne pas laisser penser que l'ordinateur est inclus",
+      "blockers": [
+        "fichier local present",
+        "droits images remplis",
+        "correspondance visuelle prouvee",
+        "validation Mouss"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260612\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\03-support-pc-portable-pliant-aluminium-ajustable-usage.webp",
+      "allowedAction": "deposer photo WebP exacte: 03-support-pc-portable-pliant-aluminium-ajustable-usage.webp",
+      "forbiddenActions": [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 79,
+      "lane": "photos_produits",
+      "urgency": 24,
+      "id": "ali_partner_20260527_support_pc_pliant_001#4",
+      "label": "Support PC portable pliant aluminium ajustable - dimensions",
+      "status": "HOLD_PHOTO_MISSING",
+      "nextAction": "dimensions, hauteur/reglage ou encombrement plie/deplie",
+      "blockers": [
+        "fichier local present",
+        "droits images remplis",
+        "correspondance visuelle prouvee",
+        "validation Mouss"
+      ],
+      "sourceFile": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260612\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\04-support-pc-portable-pliant-aluminium-ajustable-dimensions.webp",
+      "allowedAction": "deposer photo WebP exacte: 04-support-pc-portable-pliant-aluminium-ajustable-dimensions.webp",
+      "forbiddenActions": [
+        "utiliser image fournisseur non autorisee",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 80,
+      "lane": "operations_commandes",
+      "urgency": 620,
+      "id": "dropshipping_order_operations_board",
+      "label": "Operations commandes dropshipping",
+      "status": "OK_ORDER_OPERATIONS_BOARD_READY",
+      "nextAction": "0 stock a reprendre, 0 pretes validation humaine, 0 suivis attendus",
+      "blockers": [],
+      "sourceFile": "data/dropshipping-orders.json",
+      "allowedAction": "tri interne lecture seule et validation humaine avant toute suite",
+      "forbiddenActions": [
+        "commander fournisseur",
+        "payer",
+        "exporter adresse client",
+        "afficher URL fournisseur"
+      ]
+    },
+    {
+      "rank": 81,
+      "lane": "garde_fous",
+      "urgency": 894,
+      "id": "public_image_pipeline_coherence",
+      "label": "Coherence pipeline images publiques",
+      "status": "OK_PUBLIC_IMAGE_PIPELINE_COHERENT",
+      "nextAction": "0 echec coherence, 12 fiches, 72 lignes formulaire",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/public-image-proof-pack-20260612/PACK_PREUVES_IMAGES_PUBLIQUES_20260612.json",
+      "allowedAction": "relancer l'audit coherence lecture seule et corriger uniquement les artefacts HOLD",
+      "forbiddenActions": [
+        "copier dans public/uploads",
+        "utiliser image approximative",
+        "publier fiche",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 82,
+      "lane": "garde_fous",
+      "urgency": 895,
+      "id": "public_image_copy_gate",
+      "label": "Gate copie images publiques",
+      "status": "OK_PUBLIC_IMAGE_COPY_DRY_RUN",
+      "nextAction": "0 candidat copie, 12 bloques, validation humaine obligatoire",
+      "blockers": [
+        "mini-humidificateur-usb-bureau-partenaire-hold: expected_webp_missing",
+        "mini-pompe-air-usb-voyage-partenaire-hold: expected_webp_missing",
+        "cable-usb-c-240w-renforce-best-seller: expected_webp_missing",
+        "lampe-velo-usb-rechargeable-affichage-batterie: expected_webp_missing",
+        "support-pc-portable-pliant-aluminium-ajustable: expected_webp_missing",
+        "attaches-cables-velcro-lot-partenaire-hold: expected_webp_missing",
+        "bandeau-skincare-microfibre-partenaire-hold: expected_webp_missing",
+        "boite-rangement-cables-bureau-partenaire-hold: expected_webp_missing",
+        "brosse-chaussures-nettoyage-3-en-1-partenaire-hold: expected_webp_missing",
+        "brosse-nettoyage-joints-cuisine-partenaire-hold: expected_webp_missing",
+        "diffuseur-voiture-clip-ventilation-partenaire-hold: expected_webp_missing",
+        "etagere-douche-angle-adhesive-partenaire-hold: expected_webp_missing"
+      ],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/public-image-deposit-files-audit-20260612/AUDIT_DEPOT_WEBP_IMAGES_PUBLIQUES_20260612.json",
+      "allowedAction": "dry-run, depot WebP exact et checklist; copie seulement apres validation Mouss",
+      "forbiddenActions": [
+        "copier dans public/uploads sans validation",
+        "publier fiche",
+        "utiliser image approximative",
+        "telecharger image externe"
+      ]
+    },
+    {
+      "rank": 83,
+      "lane": "garde_fous",
+      "urgency": 896,
+      "id": "generated_artifact_leak_audit",
+      "label": "Audit artefacts generes",
+      "status": "OK_ARTIFACTS_NO_LEAK",
+      "nextAction": "0 fuite detectee sur 636 fichiers generes",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/integration-articles/20260612",
+      "allowedAction": "corriger ou regenerer les artefacts internes avant partage",
+      "forbiddenActions": [
+        "publier artefact non audite",
+        "inclure lien fournisseur brut",
+        "inclure prix fournisseur visible client"
+      ]
+    },
+    {
+      "rank": 84,
+      "lane": "garde_fous",
+      "urgency": 897,
+      "id": "admin_publication_gate",
+      "label": "Publication admin produits",
+      "status": "OK_ADMIN_PUBLICATION_GATE_ACTIVE",
+      "nextAction": "le serveur refuse les publications dropshipping sans preuves completes",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_ADMIN_PUBLICATION_GATE_20260612.json",
+      "allowedAction": "audit lecture seule et correction du garde serveur si besoin",
+      "forbiddenActions": [
+        "publier produit HOLD",
+        "bypasser preuves fournisseur",
+        "bypasser images exactes"
+      ]
+    },
+    {
+      "rank": 85,
+      "lane": "garde_fous",
+      "urgency": 897.5,
+      "id": "admin_publication_ui_guard",
+      "label": "UI publication admin",
+      "status": "OK_ADMIN_PUBLICATION_UI_GUARD_ACTIVE",
+      "nextAction": "le formulaire admin affiche les blocages et desactive la publication incomplete",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_ADMIN_PUBLICATION_UI_GUARD_20260611.json",
+      "allowedAction": "audit lecture seule et correction du formulaire admin si besoin",
+      "forbiddenActions": [
+        "publier produit HOLD",
+        "masquer les blocages serveur",
+        "laisser une publication incomplete sans alerte admin"
+      ]
+    },
+    {
+      "rank": 86,
+      "lane": "garde_fous",
+      "urgency": 897.55,
+      "id": "admin_api_guards",
+      "label": "Routes API admin",
+      "status": "OK_ADMIN_API_GUARDS_ACTIVE",
+      "nextAction": "10 routes admin et 14 methodes masquees par ADMIN_MODE",
+      "blockers": [],
+      "sourceFile": "",
+      "allowedAction": "audit lecture seule et correction du garde ADMIN_MODE si besoin",
+      "forbiddenActions": [
+        "lire payload admin sans ADMIN_MODE",
+        "appeler OpenAI sans ADMIN_MODE",
+        "muter catalogue ou commande sans ADMIN_MODE"
+      ]
+    },
+    {
+      "rank": 87,
+      "lane": "garde_fous",
+      "urgency": 897.56,
+      "id": "admin_page_guards",
+      "label": "Pages admin",
+      "status": "OK_ADMIN_PAGE_GUARDS_ACTIVE",
+      "nextAction": "14 pages admin protegees par ADMIN_MODE avant lecture/rendu sensible",
+      "blockers": [],
+      "sourceFile": "",
+      "allowedAction": "audit lecture seule et correction des gardes de page admin si besoin",
+      "forbiddenActions": [
+        "rendre formulaire admin sans ADMIN_MODE",
+        "lire fichiers pilotage sans ADMIN_MODE",
+        "exposer commandes ou messages sans ADMIN_MODE"
+      ]
+    },
+    {
+      "rank": 88,
+      "lane": "garde_fous",
+      "urgency": 897.57,
+      "id": "stripe_webhook_stock_guards",
+      "label": "Webhook Stripe stock",
+      "status": "OK_STRIPE_WEBHOOK_STOCK_GUARDS_ACTIVE",
+      "nextAction": "17 controles actifs; aucune action paiement reelle, aucun stock hors webhook signe",
+      "blockers": [],
+      "sourceFile": "",
+      "allowedAction": "audit lecture seule et correction de garde-fous; aucune action paiement ni fournisseur",
+      "forbiddenActions": [
+        "creer paiement reel",
+        "declencher commande fournisseur",
+        "modifier cle ou valeur sensible",
+        "deployer"
+      ]
+    },
+    {
+      "rank": 89,
+      "lane": "garde_fous",
+      "urgency": 897.58,
+      "id": "dropshipping_order_admin_safety",
+      "label": "Admin commandes dropshipping",
+      "status": "OK_ORDER_ADMIN_SUPPLIER_ACTIONS_GUARDED",
+      "nextAction": "11 controles admin actifs; aucune suite fournisseur sans paiement confirme et stock valide",
+      "blockers": [],
+      "sourceFile": "",
+      "allowedAction": "audit lecture seule et correction des blocages admin; aucune action fournisseur",
+      "forbiddenActions": [
+        "commander fournisseur",
+        "envoyer message client",
+        "forcer suivi colis",
+        "bypasser stock webhook"
+      ]
+    },
+    {
+      "rank": 90,
+      "lane": "garde_fous",
+      "urgency": 897.59,
+      "id": "dropshipping_order_operations_fixtures",
+      "label": "Fixtures operations commandes",
+      "status": "OK_ORDER_OPERATIONS_FIXTURES_PASS",
+      "nextAction": "0 echec scenario; preuves manquantes et exports sensibles restent controles",
+      "blockers": [],
+      "sourceFile": "src/lib/dropshipping-operations.ts",
+      "allowedAction": "relancer les tests fixtures lecture seule sans commandes reelles",
+      "forbiddenActions": [
+        "lire commandes reelles depuis les fixtures",
+        "commander fournisseur",
+        "publier",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 91,
+      "lane": "garde_fous",
+      "urgency": 897.6,
+      "id": "public_visual_ambiguity",
+      "label": "Surface visuelle publique",
+      "status": "OK_PUBLIC_VISUAL_SURFACE_SAFE",
+      "nextAction": "0 ambiguite visuelle, 0 image stock ou CDN interdite",
+      "blockers": [],
+      "sourceFile": "src/components/ProductCard.tsx",
+      "allowedAction": "corriger uniquement les garde-fous visuels publics et relancer l'audit",
+      "forbiddenActions": [
+        "utiliser image approximative",
+        "afficher image fournisseur non prouvee",
+        "publier fiche",
+        "copier dans public/uploads"
+      ]
+    },
+    {
+      "rank": 92,
+      "lane": "garde_fous",
+      "urgency": 897.61,
+      "id": "pilotage_order_operations",
+      "label": "Pilotage operations commandes",
+      "status": "OK_PILOTAGE_ORDER_OPERATIONS_GUARDED",
+      "nextAction": "13 controles page OK; board operations charge derriere ADMIN_MODE",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles/tableaux-action/dropshipping-order-operations-20260612/DROPSHIPPING_ORDER_OPERATIONS_BOARD_20260612.json",
+      "allowedAction": "audit lecture seule et correction du panneau admin protege",
+      "forbiddenActions": [
+        "exposer commandes hors ADMIN_MODE",
+        "exporter adresse client",
+        "afficher URL fournisseur",
+        "envoyer message client"
+      ]
+    },
+    {
+      "rank": 93,
+      "lane": "garde_fous",
+      "urgency": 897.7,
+      "id": "public_catalog_source_guards",
+      "label": "Sources catalogue publiques",
+      "status": "OK_PUBLIC_CATALOG_SOURCE_GUARDS",
+      "nextAction": "0 contournement source sur 24 fichiers surveilles",
+      "blockers": [],
+      "sourceFile": "src/lib/catalog-server.ts",
+      "allowedAction": "corriger uniquement les imports publics pour repasser par les filtres publics",
+      "forbiddenActions": [
+        "importer products dans une surface publique",
+        "exposer lien fournisseur",
+        "exposer prix fournisseur visible client",
+        "publier fiche sans image exacte"
+      ]
+    },
+    {
+      "rank": 94,
+      "lane": "garde_fous",
+      "urgency": 898,
+      "id": "seo_hold_visibility",
+      "label": "SEO produits HOLD",
+      "status": "OK_HOLD_PRODUCTS_NOT_INDEXABLE",
+      "nextAction": "121 produits non publics restent hors sitemap/pre-generation",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles\\tableaux-action\\audit-seo-hold-visibility-20260612\\AUDIT_SEO_HOLD_VISIBILITY_20260612.json",
+      "allowedAction": "audit lecture seule et correction noindex/sitemap si besoin",
+      "forbiddenActions": [
+        "indexer brouillons",
+        "referencer fiches HOLD",
+        "laisser adminPreview indexable"
+      ]
+    },
+    {
+      "rank": 95,
+      "lane": "garde_fous",
+      "urgency": 899,
+      "id": "public_dropshipping_surface",
+      "label": "Surface publique dropshipping",
+      "status": "OK_NO_PUBLIC_SUPPLIER_LEAK",
+      "nextAction": "maintenir zero fuite client: marketplace fournisseur, prix fournisseur, liens fournisseur et images non prouvees restent bloques",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles\\tableaux-action\\surface-publique-dropshipping-20260612\\AUDIT_SURFACE_PUBLIQUE_DROPSHIPPING_20260612.json",
+      "allowedAction": "audit lecture seule et correction wording client si besoin",
+      "forbiddenActions": [
+        "afficher marketplace fournisseur",
+        "afficher lien fournisseur",
+        "afficher prix fournisseur",
+        "publier fiche sans image exacte"
+      ]
+    },
+    {
+      "rank": 96,
+      "lane": "garde_fous",
+      "urgency": 900,
+      "id": "checkout",
+      "label": "Checkout et Stripe",
+      "status": "OK_GUARDS_ACTIVE",
+      "nextAction": "maintenir les gardes actifs; ne pas toucher au paiement sans validation Mouss",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_CHECKOUT_ELIGIBILITY_20260612.json",
+      "allowedAction": "audit lecture seule et correction de garde-fous si besoin",
+      "forbiddenActions": [
+        "creer session Stripe reelle",
+        "deployer",
+        "modifier cles API"
+      ]
+    },
+    {
+      "rank": 97,
+      "lane": "garde_fous",
+      "urgency": 901,
+      "id": "partner_publication_gates",
+      "label": "Publication produits partenaires",
+      "status": "OK_ALL_PARTNERS_HOLD",
+      "nextAction": "73 produits partenaires restent en HOLD, ne rien publier",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_ALL_PARTNER_GATES_20260612.json",
+      "allowedAction": "audit et enrichissement preuves en brouillon",
+      "forbiddenActions": [
+        "publier",
+        "lever HOLD automatiquement",
+        "commander fournisseur"
+      ]
+    },
+    {
+      "rank": 98,
+      "lane": "garde_fous",
+      "urgency": 902,
+      "id": "surprise_hold",
+      "label": "Colis surprises et palettes",
+      "status": "OK_NON_VENDABLES",
+      "nextAction": "conserver badge A venir et achat bloque",
+      "blockers": [],
+      "sourceFile": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_SURPRISES_NON_VENDABLES_20260611.json",
+      "allowedAction": "audit hold et correction badge/boutons si besoin",
+      "forbiddenActions": [
+        "vendre colis surprise",
+        "activer paiement",
+        "publier palettes"
+      ]
+    }
+  ],
+  "outputDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\execution-du-jour-20260612",
+  "outputDirRelative": "business-maxi-trouvailles\\tableaux-action\\execution-du-jour-20260612",
+  "sources": {
+    "businessPath": "business-maxi-trouvailles\\tableaux-action\\quoi-faire-maintenant-20260612\\QUOI_FAIRE_MAINTENANT_PARTENAIRES_20260612.json",
+    "categoryIntakePath": "business-maxi-trouvailles\\tableaux-action\\suivi-depots-images-categories-20260612\\SUIVI_DEPOTS_IMAGES_CATEGORIES_20260612.json",
+    "photoDropPath": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260612\\MANIFEST_DEPOT_PHOTOS_SPRINT_20260612.json",
+    "cockpitPaths": [],
+    "fieldKitPath": "business-maxi-trouvailles\\tableaux-action\\kit-terrain-validation-produits-20260611\\KIT_TERRAIN_VALIDATION_PRODUITS_20260611.json",
+    "fieldKitAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-kit-terrain-validation-produits-20260611\\AUDIT_KIT_TERRAIN_VALIDATION_PRODUITS_20260611.json",
+    "seoHoldVisibilityPath": "business-maxi-trouvailles\\tableaux-action\\audit-seo-hold-visibility-20260612\\AUDIT_SEO_HOLD_VISIBILITY_20260612.json",
+    "adminPublicationGatePath": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_ADMIN_PUBLICATION_GATE_20260612.json",
+    "adminPublicationUiGuardPath": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_ADMIN_PUBLICATION_UI_GUARD_20260611.json",
+    "adminApiGuardsPath": "business-maxi-trouvailles\\tableaux-action\\admin-api-guards-20260612\\AUDIT_ADMIN_API_GUARDS_20260612.json",
+    "adminPageGuardsPath": "business-maxi-trouvailles\\tableaux-action\\admin-page-guards-20260612\\AUDIT_ADMIN_PAGE_GUARDS_20260612.json",
+    "stripeWebhookStockGuardsPath": "business-maxi-trouvailles\\tableaux-action\\stripe-webhook-stock-20260612\\AUDIT_STRIPE_WEBHOOK_STOCK_GUARDS_20260612.json",
+    "dropshippingOrderAdminSafetyPath": "business-maxi-trouvailles\\tableaux-action\\dropshipping-order-admin-safety-20260612\\AUDIT_DROPSHIPPING_ORDER_ADMIN_SAFETY_20260612.json",
+    "orderOperationsBoardPath": "business-maxi-trouvailles\\tableaux-action\\dropshipping-order-operations-20260612\\DROPSHIPPING_ORDER_OPERATIONS_BOARD_20260612.json",
+    "orderOperationsFixturesPath": "business-maxi-trouvailles\\tableaux-action\\dropshipping-order-operations-fixtures-20260612\\TEST_DROPSHIPPING_ORDER_OPERATIONS_FIXTURES_20260612.json",
+    "pilotageOrderOperationsPath": "business-maxi-trouvailles\\tableaux-action\\pilotage-order-operations-20260612\\AUDIT_PILOTAGE_ORDER_OPERATIONS_20260612.json",
+    "checkoutPath": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_CHECKOUT_ELIGIBILITY_20260612.json",
+    "partnerGatesPath": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_ALL_PARTNER_GATES_20260612.json",
+    "surprisePath": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_SURPRISES_NON_VENDABLES_20260611.json",
+    "publicSurfacePath": "business-maxi-trouvailles\\tableaux-action\\surface-publique-dropshipping-20260612\\AUDIT_SURFACE_PUBLIQUE_DROPSHIPPING_20260612.json",
+    "publicImageOperatorPath": "business-maxi-trouvailles\\tableaux-action\\public-image-operator-pack-20260612\\PACK_OPERATEUR_DEPOT_IMAGES_PUBLIQUES_20260612.json",
+    "publicImageMoussReviewPath": "business-maxi-trouvailles\\tableaux-action\\public-image-mouss-review-board-20260612\\BOARD_MOUSS_IMAGES_PUBLIQUES_20260612.json",
+    "publicImageTextProofFormPath": "business-maxi-trouvailles\\tableaux-action\\public-image-text-proof-form-20260612\\FORMULAIRE_PREUVES_TEXTE_IMAGES_PUBLIQUES_20260612.json",
+    "publicImageCopyGatePath": "business-maxi-trouvailles\\tableaux-action\\public-image-copy-gate-20260612\\GATE_COPIE_IMAGES_PUBLIQUES_20260612.json",
+    "publicImagePipelineCoherencePath": "business-maxi-trouvailles\\tableaux-action\\public-image-pipeline-coherence-audit-20260612\\AUDIT_COHERENCE_PIPELINE_IMAGES_PUBLIQUES_20260612.json",
+    "artifactLeakAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-artefacts-generes-sensibles-20260612\\AUDIT_ARTEFACTS_GENERES_SENSIBLES_20260612.json",
+    "publicCatalogSourceGuardsPath": "business-maxi-trouvailles\\tableaux-action\\public-catalog-source-guards-20260612\\audit-public-catalog-source-guards.json",
+    "publicVisualAmbiguityPath": "business-maxi-trouvailles\\tableaux-action\\surface-visuelle-publique-20260612\\AUDIT_SURFACE_VISUELLE_PUBLIQUE_20260612.json",
+    "integrationSourcingPriorityBoardAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-pilotage-sourcing-integration-articles\\20260612\\AUDIT_PILOTAGE_SOURCING_INTEGRATION_20260612.json",
+    "integrationTop3SourcingPath": "business-maxi-trouvailles\\tableaux-action\\top3-sourcing-integration-articles\\20260612\\TOP3_SOURCING_INTEGRATION_20260612.json",
+    "integrationTop3SourcingAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-top3-sourcing-integration-articles\\20260612\\AUDIT_TOP3_SOURCING_INTEGRATION_20260612.json",
+    "integrationTop3ParallelProofsPath": "business-maxi-trouvailles\\tableaux-action\\top3-preuves-paralleles-sourcing-integration-articles\\20260612\\TOP3_PREUVES_PARALLELES_SOURCING_INTEGRATION_20260612.json",
+    "integrationTop3ParallelProofsAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-top3-preuves-paralleles-sourcing-integration-articles\\20260612\\AUDIT_TOP3_PREUVES_PARALLELES_SOURCING_INTEGRATION_20260612.json",
+    "integrationTop3WebpPath": "business-maxi-trouvailles\\tableaux-action\\top3-webp-sourcing-integration-articles\\20260612\\TOP3_WEBP_SOURCING_INTEGRATION_20260612.json",
+    "integrationTop3WebpAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-top3-webp-sourcing-integration-articles\\20260612\\AUDIT_TOP3_WEBP_SOURCING_INTEGRATION_20260612.json",
+    "integrationTop3WebpDepotFilesAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-top3-webp-depot-files-sourcing-integration-articles\\20260612\\AUDIT_TOP3_WEBP_DEPOT_FILES_SOURCING_INTEGRATION_20260612.json",
+    "integrationTop3WebpDepotSessionPath": "business-maxi-trouvailles\\tableaux-action\\session-depot-top3-webp-sourcing-integration-articles\\20260612\\SESSION_DEPOT_TOP3_WEBP_SOURCING_INTEGRATION_20260612.json",
+    "integrationTop3WebpDepotSessionAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-session-depot-top3-webp-sourcing-integration-articles\\20260612\\AUDIT_SESSION_DEPOT_TOP3_WEBP_SOURCING_INTEGRATION_20260612.json",
+    "integrationTop3BusinessGatePath": "business-maxi-trouvailles\\tableaux-action\\audit-top3-business-gate-sourcing-integration-articles\\20260612\\AUDIT_TOP3_BUSINESS_GATE_SOURCING_INTEGRATION_20260612.json",
+    "integrationTop3UnblockPlanPath": "business-maxi-trouvailles\\tableaux-action\\plan-deblocage-top3-sourcing-integration-articles\\20260612\\PLAN_DEBLOCAGE_TOP3_SOURCING_INTEGRATION_20260612.json",
+    "integrationTop3UnblockPlanAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-plan-deblocage-top3-sourcing-integration-articles\\20260612\\AUDIT_PLAN_DEBLOCAGE_TOP3_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveSourcingPlanPath": "business-maxi-trouvailles\\tableaux-action\\prochaine-vague-sourcing-integration-articles\\20260612\\NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveSourcingPlanAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-prochaine-vague-sourcing-integration-articles\\20260612\\AUDIT_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveSessionPath": "business-maxi-trouvailles\\tableaux-action\\session-prochaine-vague-sourcing-integration-articles\\20260612\\SESSION_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveSessionAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-session-prochaine-vague-sourcing-integration-articles\\20260612\\AUDIT_SESSION_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveActiveBatchPath": "business-maxi-trouvailles\\tableaux-action\\lot-actif-prochaine-vague-sourcing-integration-articles\\20260612\\ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveActiveBatchAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-lot-actif-prochaine-vague-sourcing-integration-articles\\20260612\\AUDIT_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveActiveBatchBusinessGatePath": "business-maxi-trouvailles\\tableaux-action\\audit-lot-actif-business-gate-prochaine-vague-sourcing-integration-articles\\20260612\\AUDIT_ACTIVE_BATCH_BUSINESS_GATE_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveActiveBatchMicroPacksPath": "business-maxi-trouvailles\\tableaux-action\\micro-packs-lot-actif-prochaine-vague-sourcing-integration-articles\\20260612\\MICRO_PACKS_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveActiveBatchMicroPacksAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-micro-packs-lot-actif-prochaine-vague-sourcing-integration-articles\\20260612\\AUDIT_MICRO_PACKS_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveActiveBatchProofIntakePath": "business-maxi-trouvailles\\tableaux-action\\preuves-internes-lot-actif-prochaine-vague-sourcing-integration-articles\\20260612\\PROOF_INTAKE_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveActiveBatchProofIntakeAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-preuves-internes-lot-actif-prochaine-vague-sourcing-integration-articles\\20260612\\AUDIT_PROOF_INTAKE_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveActiveBatchWebpDepositIntakePath": "business-maxi-trouvailles\\tableaux-action\\depots-webp-lot-actif-prochaine-vague-sourcing-integration-articles\\20260612\\WEBP_DEPOSIT_INTAKE_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveActiveBatchWebpDepositIntakeAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-depots-webp-lot-actif-prochaine-vague-sourcing-integration-articles\\20260612\\AUDIT_WEBP_DEPOSIT_INTAKE_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveActiveBatchWebpValidationContractsPath": "business-maxi-trouvailles\\tableaux-action\\contrats-validation-webp-lot-actif-prochaine-vague-sourcing-integration-articles\\20260612\\WEBP_VALIDATION_CONTRACTS_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveActiveBatchWebpValidationContractsAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-contrats-validation-webp-lot-actif-prochaine-vague-sourcing-integration-articles\\20260612\\AUDIT_WEBP_VALIDATION_CONTRACTS_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveActiveBatchMoussReviewBoardPath": "business-maxi-trouvailles\\tableaux-action\\revue-mouss-lot-actif-prochaine-vague-sourcing-integration-articles\\20260612\\MOUSS_REVIEW_BOARD_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveActiveBatchMoussReviewBoardAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-revue-mouss-lot-actif-prochaine-vague-sourcing-integration-articles\\20260612\\AUDIT_MOUSS_REVIEW_BOARD_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveActiveBatchFieldEntryPackPath": "business-maxi-trouvailles\\tableaux-action\\pack-saisie-terrain-lot-actif-prochaine-vague-sourcing-integration-articles\\20260612\\FIELD_ENTRY_PACK_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveActiveBatchFieldEntryPackAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-pack-saisie-terrain-lot-actif-prochaine-vague-sourcing-integration-articles\\20260612\\AUDIT_FIELD_ENTRY_PACK_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWaveActiveBatchFieldCompletionGatePath": "business-maxi-trouvailles\\tableaux-action\\audit-saisie-terrain-lot-actif-prochaine-vague-sourcing-integration-articles\\20260612\\FIELD_COMPLETION_GATE_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWavePendingBatchesRunwayPath": "business-maxi-trouvailles\\tableaux-action\\runway-lots-suivants-prochaine-vague-sourcing-integration-articles\\20260612\\PENDING_BATCHES_RUNWAY_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWavePendingBatchesRunwayAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-runway-lots-suivants-prochaine-vague-sourcing-integration-articles\\20260612\\AUDIT_PENDING_BATCHES_RUNWAY_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWavePendingBatchesFieldEntryPackPath": "business-maxi-trouvailles\\tableaux-action\\pack-saisie-terrain-lots-suivants-prochaine-vague-sourcing-integration-articles\\20260612\\PENDING_BATCHES_FIELD_ENTRY_PACK_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextWavePendingBatchesFieldEntryPackAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-pack-saisie-terrain-lots-suivants-prochaine-vague-sourcing-integration-articles\\20260612\\AUDIT_PENDING_BATCHES_FIELD_ENTRY_PACK_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextProofsPath": "business-maxi-trouvailles\\tableaux-action\\prochaines-preuves-sourcing-integration-articles\\20260612\\PROCHAINES_PREUVES_SOURCING_INTEGRATION_20260612.json",
+    "integrationNextProofsAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-prochaines-preuves-sourcing-integration-articles\\20260612\\AUDIT_PROCHAINES_PREUVES_SOURCING_INTEGRATION_20260612.json"
+  },
+  "safety": {
+    "readOnly": true,
+    "noPublicUploadsWrite": true,
+    "noImageGeneration": true,
+    "noImageDownload": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true,
+    "manualValidationRequired": true
+  }
+}

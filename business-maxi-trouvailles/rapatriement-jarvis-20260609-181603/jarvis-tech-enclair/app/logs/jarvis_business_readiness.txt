@@ -1,0 +1,30 @@
+Diagnostic business Maxi Trouvailles - 2026-06-09 17:57:31
+
+Global: OK
+Message court: Business Maxi pret: mode brouillon, publication/paiement/commande bloques.
+Projet: C:\Users\sinek\Desktop\maxi-trouvaille
+Temps: 811 ms
+Cache: non (age 0 s)
+
+Checks:
+- Dossier projet: OK - C:\Users\sinek\Desktop\maxi-trouvaille
+- package.json: OK - C:\Users\sinek\Desktop\maxi-trouvaille\package.json
+- Dossiers business: OK - 0 dossier(s) manquant(s)
+- Site public: OK - HTTP 200
+- Site local: OFFLINE - port local ferme, probe HTTP ignore
+- Admin local: OFFLINE - port local ferme, probe HTTP ignore
+- AliExpress: OK - HTTP 200
+- Cles AliExpress: A_CONFIGURER - statuts masques, aucune cle affichee
+
+Dossiers manquants: aucun
+
+Cles AliExpress:
+- ALIEXPRESS_APP_KEY: PARTIEL
+- ALIEXPRESS_APP_SECRET: OK
+- ALIEXPRESS_TRACKING_ID: MANQUANT
+
+Securite:
+- Publication: manuelle
+- Commande AliExpress: manuelle
+- Paiement: manuel
+- Production: pas de modification automatique

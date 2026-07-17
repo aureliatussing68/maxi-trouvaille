@@ -1,0 +1,130 @@
+{
+  "checked_at": "2026-06-09 15:43:21",
+  "ok": true,
+  "queue_dir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider",
+  "total_review_packs": 6,
+  "unique_products": 1,
+  "duplicate_groups": [
+    {
+      "product_key": "organisateur-de-cables-de-voyage-compact",
+      "product_title": "Organisateur de cables de voyage compact",
+      "count": 6,
+      "keep_latest": {
+        "folder_name": "organisateur-de-cables-de-voyage-compact_20260523_130345",
+        "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345",
+        "updated_at": "2026-05-23 14:03:34",
+        "product_title": "Organisateur de cables de voyage compact",
+        "category_id": "dropshipping-accessoires",
+        "import_decision": "BLOCKED_FOR_MANUAL_REVIEW",
+        "blocker_count": 2,
+        "blockers": [
+          "lien fournisseur reel manquant",
+          "sourcing reel AliExpress non pret"
+        ],
+        "review_file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\A_VALIDER_PAR_MOUSS.md",
+        "manifest_present": true,
+        "manual_validation_required": true
+      },
+      "older_review_packs": [
+        {
+          "folder_name": "organisateur-de-cables-de-voyage-compact_20260523_124353",
+          "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_124353",
+          "updated_at": "2026-05-23 12:43:53",
+          "product_title": "Organisateur de cables de voyage compact",
+          "category_id": "dropshipping-accessoires",
+          "import_decision": "BLOCKED_FOR_MANUAL_REVIEW",
+          "blocker_count": 2,
+          "blockers": [
+            "lien fournisseur reel manquant",
+            "sourcing reel AliExpress non pret"
+          ],
+          "review_file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_124353\\A_VALIDER_PAR_MOUSS.md",
+          "manifest_present": true,
+          "manual_validation_required": true
+        },
+        {
+          "folder_name": "organisateur-de-cables-de-voyage-compact_20260523_122413",
+          "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_122413",
+          "updated_at": "2026-05-23 12:24:13",
+          "product_title": "Organisateur de cables de voyage compact",
+          "category_id": "dropshipping-accessoires",
+          "import_decision": "BLOCKED_FOR_MANUAL_REVIEW",
+          "blocker_count": 2,
+          "blockers": [
+            "lien fournisseur reel manquant",
+            "sourcing reel AliExpress non pret"
+          ],
+          "review_file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_122413\\A_VALIDER_PAR_MOUSS.md",
+          "manifest_present": true,
+          "manual_validation_required": true
+        },
+        {
+          "folder_name": "organisateur-de-cables-de-voyage-compact_20260523_121528",
+          "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_121528",
+          "updated_at": "2026-05-23 12:15:28",
+          "product_title": "Organisateur de cables de voyage compact",
+          "category_id": "dropshipping-accessoires",
+          "import_decision": "BLOCKED_FOR_MANUAL_REVIEW",
+          "blocker_count": 2,
+          "blockers": [
+            "lien fournisseur reel manquant",
+            "sourcing reel AliExpress non pret"
+          ],
+          "review_file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_121528\\A_VALIDER_PAR_MOUSS.md",
+          "manifest_present": true,
+          "manual_validation_required": true
+        },
+        {
+          "folder_name": "organisateur-de-cables-de-voyage-compact_20260523_084346",
+          "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084346",
+          "updated_at": "2026-05-23 08:43:46",
+          "product_title": "Organisateur de cables de voyage compact",
+          "category_id": "dropshipping-accessoires",
+          "import_decision": "BLOCKED_FOR_MANUAL_REVIEW",
+          "blocker_count": 2,
+          "blockers": [
+            "lien fournisseur reel manquant",
+            "sourcing reel AliExpress non pret"
+          ],
+          "review_file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084346\\A_VALIDER_PAR_MOUSS.md",
+          "manifest_present": true,
+          "manual_validation_required": true
+        },
+        {
+          "folder_name": "organisateur-de-cables-de-voyage-compact_20260523_084322",
+          "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084322",
+          "updated_at": "2026-05-23 08:43:22",
+          "product_title": "Organisateur de cables de voyage compact",
+          "category_id": "dropshipping-accessoires",
+          "import_decision": "BLOCKED_FOR_MANUAL_REVIEW",
+          "blocker_count": 2,
+          "blockers": [
+            "lien fournisseur reel manquant",
+            "sourcing reel AliExpress non pret"
+          ],
+          "review_file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084322\\A_VALIDER_PAR_MOUSS.md",
+          "manifest_present": true,
+          "manual_validation_required": true
+        }
+      ],
+      "suggested_action": "garder le plus recent, archiver les anciens seulement apres validation manuelle"
+    }
+  ],
+  "duplicate_group_count": 1,
+  "older_pack_count": 5,
+  "operator_message": "Doublons detectes: plan d'archivage manuel pret.",
+  "safety": {
+    "read_only": true,
+    "plan_only": true,
+    "files_deleted": false,
+    "files_moved": false,
+    "site_modified": false,
+    "import_started": false,
+    "order_started": false,
+    "payment_started": false,
+    "publication_started": false,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  },
+  "short_message": "Doublons validation: 1 groupe(s), 5 ancien(s), plan manuel seulement."
+}

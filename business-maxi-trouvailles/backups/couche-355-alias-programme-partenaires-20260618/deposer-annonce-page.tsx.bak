@@ -1,0 +1,63 @@
+import type { Metadata } from "next";
+import { ClipboardList } from "lucide-react";
+import { CustomerJourneyPanel } from "@/components/CustomerJourneyPanel";
+import { PageHeader } from "@/components/PageHeader";
+import { PartnerProgramGatePanel } from "@/components/PartnerProgramGatePanel";
+import { ServiceReadinessPanel } from "@/components/ServiceReadinessPanel";
+import { getStorefrontControlMetrics } from "@/lib/storefront-control-metrics";
+
+export const metadata: Metadata = {
+  title: "Programme partenaires",
+  description:
+    "Ancien accès annonce remplacé par le programme partenaires Maxi Trouvaille en préparation.",
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
+
+export default async function CreateListingPage() {
+  const metrics = await getStorefrontControlMetrics();
+
+  return (
+    <>
+      <PageHeader
+        eyebrow="Programme partenaires"
+        title="Programme partenaires en préparation"
+        description="Le dépôt d'annonce n'est pas ouvert. Maxi Trouvaille concentre la boutique sur les produits partenaires validés."
+      />
+      <div className="container-page grid gap-8 py-10">
+        <ServiceReadinessPanel metrics={metrics} />
+        <PartnerProgramGatePanel />
+        <CustomerJourneyPanel />
+
+        <section className="rounded-lg border border-line bg-paper p-6 shadow-sm">
+          <ClipboardList className="mb-4 text-teal" size={30} aria-hidden="true" />
+          <h2 className="text-2xl font-black">Ancien dépôt remplacé</h2>
+          <p className="mt-3 max-w-3xl text-sm leading-6 text-muted">
+            Cette page garde l&apos;ancienne adresse mais ne lance aucun formulaire.
+            Le futur parcours utilisera un compte professionnel, un statut de
+            validation, des photos exactes, un prix, une categorie et une revue
+            admin avant publication.
+          </p>
+          <div className="mt-6 grid gap-4 md:grid-cols-2">
+            <div className="rounded-lg border border-dashed border-line p-4">
+              <h3 className="font-black">Champs prevus</h3>
+              <p className="mt-2 text-sm leading-6 text-muted">
+                Titre, description, prix, etat, categorie, photos, stock,
+                livraison et informations partenaire.
+              </p>
+            </div>
+            <div className="rounded-lg border border-dashed border-line p-4">
+              <h3 className="font-black">Workflow prevu</h3>
+              <p className="mt-2 text-sm leading-6 text-muted">
+                Sélection, attente de validation, approbation ou refus par un
+                administrateur.
+              </p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </>
+  );
+}

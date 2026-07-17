@@ -1,0 +1,24 @@
+Pre-business controle fenetres Jarvis - 2026-06-09 18:00:59
+
+Global: OK
+Statut: PRET_CONFIRMATION_HUMAINE
+Message court: Pre-business fenetres OK: 2 ecran(s), business garde en attente de validation humaine.
+File actuelle: controle_pc_fenetres
+File suivante apres validation humaine: business_maxi
+Ecrans: 2
+Readiness: ready_after_confirmation
+Cockpit: OK
+Sections cockpit: 6
+Points a verifier: 0
+Statut conseiller: ready_no_pending
+Pause/gaming non-interference: GAMING_PAUSE_NON_INTERFERENCE_READY - manuel=True - confirmation=True
+Pause/gaming actions bloquees: no_window=True, no_focus=True, no_browser=True, no_runtime=True, no_kill=True, no_container=True, no_live=True, no_codex=True
+Pause/gaming passif: no_config=True, no_download=True, no_install=True, no_micro=True, no_audio=True, no_camera=True, no_screen=True, no_paid_api=True
+Pause/gaming sensibles: no_payment=True, no_order=True, no_publication=True, no_email_send=True, no_account_login=True
+Handoff runtime manuel: MANUAL_RUNTIME_REPRISE_READY_DRY_RUN - requis=True - raison=runtime_absent - dry_run=True - confirmation=True - instances=0 - script=main2.py
+Handoff runtime securite: display_only=True, snapshot_only=True, handoff_only=True, no_start=True, no_kill=True, no_container=True, no_window=True, no_browser=True, no_ai=True, no_secret=True, chemins_masques=True
+Confirmation active: non
+Confirmation fenetre: non
+Business demarre: non
+
+Securite: lecture seule, dry-run, conseil seulement, pause/gaming sans fenetre/runtime/browser/kill/conteneur, aucune fenetre bougee, aucun focus, aucune confirmation ecrite, aucun import, aucune commande, aucun paiement, aucune publication.

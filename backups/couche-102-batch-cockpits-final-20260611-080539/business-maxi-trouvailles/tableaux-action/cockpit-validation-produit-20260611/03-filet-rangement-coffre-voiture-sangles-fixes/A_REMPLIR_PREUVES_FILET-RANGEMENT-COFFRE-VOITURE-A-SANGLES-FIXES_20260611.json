@@ -1,0 +1,73 @@
+{
+  "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+  "productName": "Filet rangement coffre voiture à sangles fixes",
+  "supplierForInternalValidation": {
+    "url": "https://www.aliexpress.com/item/1005006160871310.html",
+    "sku": "AE-ITEM-1005006160871310",
+    "supplierPrice": "4.00 EUR",
+    "salePrice": "6.70 EUR",
+    "stock": 45,
+    "currentDeliveryEstimate": "7 à 15 jours ouvrés estimés"
+  },
+  "status": "HOLD",
+  "finalDecision": "HOLD",
+  "reviewedByMouss": false,
+  "evidenceFields": {
+    "checkedAt": "",
+    "supplierSellerName": "",
+    "exactVariantChosen": "",
+    "deliveryFranceEuropeProof": "",
+    "deliveryEstimateForCustomer": "",
+    "trackingAvailable": "",
+    "pricingProof": "",
+    "shippingProof": "",
+    "imageProof": "",
+    "imageRightsProof": "",
+    "finalDecision": "HOLD",
+    "reviewedByMouss": "non"
+  },
+  "imageFilesToDeposit": [
+    {
+      "role": "main",
+      "expectedFileName": "",
+      "stagingRelativePath": "",
+      "proof": ""
+    },
+    {
+      "role": "detail",
+      "expectedFileName": "",
+      "stagingRelativePath": "",
+      "proof": ""
+    },
+    {
+      "role": "usage",
+      "expectedFileName": "",
+      "stagingRelativePath": "",
+      "proof": ""
+    },
+    {
+      "role": "dimensions",
+      "expectedFileName": "",
+      "stagingRelativePath": "",
+      "proof": ""
+    },
+    {
+      "role": "detail-5",
+      "expectedFileName": "",
+      "stagingRelativePath": "",
+      "proof": ""
+    },
+    {
+      "role": "detail-6",
+      "expectedFileName": "",
+      "stagingRelativePath": "",
+      "proof": ""
+    }
+  ],
+  "notes": [
+    "Remplir uniquement avec preuves visibles.",
+    "Ne pas publier automatiquement.",
+    "Ne pas commander chez le partenaire.",
+    "Ne pas payer."
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-06-09 18:00:59",
+  "ok": true,
+  "project_path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille",
+  "business_search_allowed": true,
+  "business_search_is_draft_only": true,
+  "aliexpress_api_ready": false,
+  "aliexpress_tracking_ready": false,
+  "real_sourcing_ready": false,
+  "expected_source_mode": "demo_or_incomplete",
+  "short_message": "Recherche produits: brouillon uniquement, source demo_or_incomplete, AliExpress a configurer.",
+  "key_statuses": [
+    {
+      "variable": "ALIEXPRESS_APP_KEY",
+      "status": "PARTIEL"
+    },
+    {
+      "variable": "ALIEXPRESS_APP_SECRET",
+      "status": "OK"
+    },
+    {
+      "variable": "ALIEXPRESS_TRACKING_ID",
+      "status": "MANQUANT"
+    }
+  ],
+  "missing_or_partial": [
+    {
+      "variable": "ALIEXPRESS_APP_KEY",
+      "status": "PARTIEL"
+    },
+    {
+      "variable": "ALIEXPRESS_TRACKING_ID",
+      "status": "MANQUANT"
+    }
+  ],
+  "operator_message": "Recherche produits autorisee en brouillon, mais le sourcing peut rester en mode demo tant que les variables AliExpress ne sont pas completes.",
+  "safety": {
+    "read_only_check": true,
+    "starts_payment": false,
+    "starts_order": false,
+    "starts_publication": false,
+    "draft_only": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  }
+}

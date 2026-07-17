@@ -1,0 +1,1650 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-11T04:34:46.171Z",
+  "generatedAtLocal": "2026-06-11 06:34 Europe/Paris",
+  "mode": "read_only_category_image_audit",
+  "categoryCount": 45,
+  "visibleCategoryCount": 38,
+  "hiddenCategoryCount": 7,
+  "uniqueImageCount": 31,
+  "validWebpFileCount": 31,
+  "failureCount": 0,
+  "warningCount": 26,
+  "sharedImageGroupCount": 12,
+  "categories": [
+    {
+      "id": "colis-surprise-palettes",
+      "slug": "colis-surprise-palettes",
+      "name": "Colis surprise & palettes",
+      "description": "Palettes, colis mystères, colis au poids et lots surprise issus de déstockage.",
+      "parentId": "",
+      "visible": false,
+      "hiddenNavigation": true,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/colis-surprise-palettes.webp",
+      "imageFileName": "colis-surprise-palettes.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\colis-surprise-palettes.webp",
+      "localPathRelative": "public\\uploads\\category-images\\colis-surprise-palettes.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 72078,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Cartons ouverts, colis mysteres et objets qui debordent, ambiance destockage surprise.",
+      "sharedWithCategoryIds": [
+        "colis-mysteres",
+        "colis-au-poids",
+        "colis-surprise"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "dropshipping",
+      "slug": "produits-partenaires",
+      "name": "Produits partenaires",
+      "description": "Produits neufs sourcés auprès de fournisseurs partenaires, avec nouveautés et promotions.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/dropshipping.webp",
+      "imageFileName": "dropshipping.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\dropshipping.webp",
+      "localPathRelative": "public\\uploads\\category-images\\dropshipping.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 59002,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Selection produits partenaires variee, ecommerce moderne, sans marketplace ni logo.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "dropshipping-nouveautes",
+      "slug": "nouveautes-partenaires",
+      "name": "Nouveautés",
+      "description": "Les derniers produits partenaires préparés pour Maxi Trouvaille.",
+      "parentId": "dropshipping",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/dropshipping-nouveautes.webp",
+      "imageFileName": "dropshipping-nouveautes.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\dropshipping-nouveautes.webp",
+      "localPathRelative": "public\\uploads\\category-images\\dropshipping-nouveautes.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 75292,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Produits nouveaux et tendance, mise en avant nouveautes, style ecommerce propre.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "dropshipping-promotions",
+      "slug": "promotions-partenaires",
+      "name": "Promotions",
+      "description": "Sélections partenaires avec prix barrés et offres mises en avant.",
+      "parentId": "dropshipping",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/dropshipping-promotions.webp",
+      "imageFileName": "dropshipping-promotions.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\dropshipping-promotions.webp",
+      "localPathRelative": "public\\uploads\\category-images\\dropshipping-promotions.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 63386,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Promotions visuelles propres, etiquettes prix sans marque, ambiance bonnes affaires.",
+      "sharedWithCategoryIds": [
+        "lots-bonnes-affaires"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "dropshipping-maison",
+      "slug": "maison-partenaires",
+      "name": "Maison",
+      "description": "Objets utiles pour la maison, le rangement et le confort.",
+      "parentId": "dropshipping",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/maison.webp",
+      "imageFileName": "maison.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\maison.webp",
+      "localPathRelative": "public\\uploads\\category-images\\maison.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 109766,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Pieces maison, rangement et confort interieur, ambiance claire et utile.",
+      "sharedWithCategoryIds": [
+        "maison"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "dropshipping-cuisine",
+      "slug": "cuisine-partenaires",
+      "name": "Cuisine",
+      "description": "Ustensiles, accessoires pratiques et petites idees cuisine.",
+      "parentId": "dropshipping",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/cuisine.webp",
+      "imageFileName": "cuisine.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\cuisine.webp",
+      "localPathRelative": "public\\uploads\\category-images\\cuisine.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 59538,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Robot cuisine, ustensiles, vaisselle, mugs et cuisine moderne reconnaissable.",
+      "sharedWithCategoryIds": [
+        "cuisine"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "dropshipping-beaute",
+      "slug": "beaute-partenaires",
+      "name": "Beauté",
+      "description": "Soins, accessoires beaute et bien-etre expedies par partenaire.",
+      "parentId": "dropshipping",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/beaute-sante.webp",
+      "imageFileName": "beaute-sante.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\beaute-sante.webp",
+      "localPathRelative": "public\\uploads\\category-images\\beaute-sante.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 48964,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Soins, maquillage, parfum, bien-etre et accessoires beaute, rendu lumineux.",
+      "sharedWithCategoryIds": [
+        "beaute-sante"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "dropshipping-high-tech",
+      "slug": "high-tech-partenaires",
+      "name": "High-tech",
+      "description": "Accessoires connectes, charge, audio et gadgets utiles.",
+      "parentId": "dropshipping",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/high-tech.webp",
+      "imageFileName": "high-tech.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\high-tech.webp",
+      "localPathRelative": "public\\uploads\\category-images\\high-tech.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 38954,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Ecrans, ordinateurs, objets connectes et technologie moderne, sans logo visible.",
+      "sharedWithCategoryIds": [
+        "high-tech"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "dropshipping-accessoires",
+      "slug": "accessoires-partenaires",
+      "name": "Accessoires",
+      "description": "Petits produits pratiques, rangement, voyage et accessoires du quotidien.",
+      "parentId": "dropshipping",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/accessoires.webp",
+      "imageFileName": "accessoires.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\accessoires.webp",
+      "localPathRelative": "public\\uploads\\category-images\\accessoires.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 104740,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Sacs, montres, bijoux et accessoires mode varies, rendu boutique premium leger.",
+      "sharedWithCategoryIds": [
+        "accessoires"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "dropshipping-auto-moto",
+      "slug": "auto-moto-partenaires",
+      "name": "Auto / Moto",
+      "description": "Accessoires auto, nettoyage, confort et equipement vehicule.",
+      "parentId": "dropshipping",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/auto-moto.webp",
+      "imageFileName": "auto-moto.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\auto-moto.webp",
+      "localPathRelative": "public\\uploads\\category-images\\auto-moto.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 102094,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Voiture et moto cote a cote, accessoires auto modernes, lumiere propre.",
+      "sharedWithCategoryIds": [
+        "auto-moto"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "dropshipping-animaux",
+      "slug": "animaux-partenaires",
+      "name": "Animaux",
+      "description": "Accessoires partenaires pour chiens, chats et animaux du quotidien.",
+      "parentId": "dropshipping",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/animaux.webp",
+      "imageFileName": "animaux.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\animaux.webp",
+      "localPathRelative": "public\\uploads\\category-images\\animaux.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 85906,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Chien, chat et accessoires animalerie propres, ambiance chaleureuse sans marque visible.",
+      "sharedWithCategoryIds": [
+        "animaux"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "dropshipping-enfant",
+      "slug": "enfant-partenaires",
+      "name": "Enfant",
+      "description": "Idees utiles, cadeaux et accessoires pour enfants.",
+      "parentId": "dropshipping",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/jouets.webp",
+      "imageFileName": "jouets.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\jouets.webp",
+      "localPathRelative": "public\\uploads\\category-images\\jouets.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 90428,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Jouets enfants, univers colore, figurines et jeux, rendu joyeux mais propre.",
+      "sharedWithCategoryIds": [
+        "jouets"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "dropshipping-mode",
+      "slug": "mode-partenaires",
+      "name": "Mode",
+      "description": "Accessoires mode et petits essentiels textiles.",
+      "parentId": "dropshipping",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/vetements.webp",
+      "imageFileName": "vetements.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\vetements.webp",
+      "localPathRelative": "public\\uploads\\category-images\\vetements.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 120852,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Portants vetements, mode homme/femme, ambiance boutique textile.",
+      "sharedWithCategoryIds": [
+        "vetements"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "palettes-destockage",
+      "slug": "palettes-destockage",
+      "name": "Palettes",
+      "description": "Palettes déstockage, palettes mystères, palettes visibles et arrivages réguliers.",
+      "parentId": "colis-surprise-palettes",
+      "visible": false,
+      "hiddenNavigation": true,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/espace-revendeur.webp",
+      "imageFileName": "espace-revendeur.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\espace-revendeur.webp",
+      "localPathRelative": "public\\uploads\\category-images\\espace-revendeur.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 109724,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Palettes, cartons en gros, stock professionnel, ambiance entrepot ou revente.",
+      "sharedWithCategoryIds": [
+        "espace-revendeur"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "colis-mysteres",
+      "slug": "colis-mysteres",
+      "name": "Colis mystères",
+      "description": "Colis perdus, colis surprise, cartons mystères et contenu aléatoire issu de déstockage.",
+      "parentId": "colis-surprise-palettes",
+      "visible": false,
+      "hiddenNavigation": true,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/colis-surprise-palettes.webp",
+      "imageFileName": "colis-surprise-palettes.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\colis-surprise-palettes.webp",
+      "localPathRelative": "public\\uploads\\category-images\\colis-surprise-palettes.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 72078,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Cartons ouverts, colis mysteres et objets qui debordent, ambiance destockage surprise.",
+      "sharedWithCategoryIds": [
+        "colis-surprise-palettes",
+        "colis-au-poids",
+        "colis-surprise"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "colis-au-poids",
+      "slug": "colis-au-poids",
+      "name": "Colis au poids",
+      "description": "Colis vendus au poids, 5 kg, 10 kg ou plus, pour découvrir plusieurs produits à prix réduit.",
+      "parentId": "colis-surprise-palettes",
+      "visible": false,
+      "hiddenNavigation": true,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/colis-surprise-palettes.webp",
+      "imageFileName": "colis-surprise-palettes.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\colis-surprise-palettes.webp",
+      "localPathRelative": "public\\uploads\\category-images\\colis-surprise-palettes.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 72078,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Cartons ouverts, colis mysteres et objets qui debordent, ambiance destockage surprise.",
+      "sharedWithCategoryIds": [
+        "colis-surprise-palettes",
+        "colis-mysteres",
+        "colis-surprise"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "lots-bonnes-affaires",
+      "slug": "lots-bonnes-affaires",
+      "name": "Lots & bonnes affaires",
+      "description": "Lots aléatoires, lots de déstockage, arrivages surprise et bonnes affaires visibles.",
+      "parentId": "colis-surprise-palettes",
+      "visible": false,
+      "hiddenNavigation": true,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/dropshipping-promotions.webp",
+      "imageFileName": "dropshipping-promotions.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\dropshipping-promotions.webp",
+      "localPathRelative": "public\\uploads\\category-images\\dropshipping-promotions.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 63386,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Promotions visuelles propres, etiquettes prix sans marque, ambiance bonnes affaires.",
+      "sharedWithCategoryIds": [
+        "dropshipping-promotions"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "espace-revendeur",
+      "slug": "espace-revendeur",
+      "name": "Espace revendeur",
+      "description": "Lots en quantité, prix dégressifs et offres professionnelles pour marchés et revente.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/espace-revendeur.webp",
+      "imageFileName": "espace-revendeur.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\espace-revendeur.webp",
+      "localPathRelative": "public\\uploads\\category-images\\espace-revendeur.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 109724,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Palettes, cartons en gros, stock professionnel, ambiance entrepot ou revente.",
+      "sharedWithCategoryIds": [
+        "palettes-destockage"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "sport-loisirs",
+      "slug": "sport-loisirs",
+      "name": "Sport & loisirs",
+      "description": "Sport, plein air, camping, fitness et loisirs actifs.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": true,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/sport-loisirs.webp",
+      "imageFileName": "sport-loisirs.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\sport-loisirs.webp",
+      "localPathRelative": "public\\uploads\\category-images\\sport-loisirs.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 108466,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Tennis, velo, ballon, fitness, camping et activite exterieure.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "auto-moto",
+      "slug": "auto-moto",
+      "name": "Auto / moto",
+      "description": "Pieces, accessoires et equipement pour voiture et moto.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": true,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/auto-moto.webp",
+      "imageFileName": "auto-moto.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\auto-moto.webp",
+      "localPathRelative": "public\\uploads\\category-images\\auto-moto.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 102094,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Voiture et moto cote a cote, accessoires auto modernes, lumiere propre.",
+      "sharedWithCategoryIds": [
+        "dropshipping-auto-moto"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "animaux",
+      "slug": "animaux",
+      "name": "Animaux",
+      "description": "Accessoires pour chiens, chats, aquarium et animaux.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": true,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/animaux.webp",
+      "imageFileName": "animaux.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\animaux.webp",
+      "localPathRelative": "public\\uploads\\category-images\\animaux.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 85906,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Chien, chat et accessoires animalerie propres, ambiance chaleureuse sans marque visible.",
+      "sharedWithCategoryIds": [
+        "dropshipping-animaux"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "livre-media",
+      "slug": "livre-media",
+      "name": "Livre / média",
+      "description": "Livres, BD, mangas, DVD, CD, vinyles et supports media.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/livre-media.webp",
+      "imageFileName": "livre-media.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\livre-media.webp",
+      "localPathRelative": "public\\uploads\\category-images\\livre-media.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 91600,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Livres, mangas, BD, DVD, CD, vinyles ou etagere media clairement reconnaissable.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "jeux-video",
+      "slug": "jeux-video",
+      "name": "Jeux vidéo",
+      "description": "Consoles, manettes, jeux et accessoires gaming.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": true,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/jeux-video.webp",
+      "imageFileName": "jeux-video.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\jeux-video.webp",
+      "localPathRelative": "public\\uploads\\category-images\\jeux-video.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 40246,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Console, manette gaming, setup gaming et accessoires gamer, sans marque lisible.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "puericulture",
+      "slug": "puericulture",
+      "name": "Puériculture",
+      "description": "Bebe, poussettes, sieges auto, biberons et accessoires.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/puericulture.webp",
+      "imageFileName": "puericulture.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\puericulture.webp",
+      "localPathRelative": "public\\uploads\\category-images\\puericulture.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 85190,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Bebe, poussette, jouets bebe, siege auto et biberons, ambiance douce et rassurante.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "cuisine",
+      "slug": "cuisine",
+      "name": "Cuisine",
+      "description": "Ustensiles, vaisselle, robots, mugs et equipement cuisine.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/cuisine.webp",
+      "imageFileName": "cuisine.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\cuisine.webp",
+      "localPathRelative": "public\\uploads\\category-images\\cuisine.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 59538,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Robot cuisine, ustensiles, vaisselle, mugs et cuisine moderne reconnaissable.",
+      "sharedWithCategoryIds": [
+        "dropshipping-cuisine"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "outillage",
+      "slug": "outillage",
+      "name": "Outillage",
+      "description": "Outils, perceuses, batteries, scies et materiel pro.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": true,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/outillage.webp",
+      "imageFileName": "outillage.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\outillage.webp",
+      "localPathRelative": "public\\uploads\\category-images\\outillage.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 83368,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Perceuse, outils, caisse a outils et bricolage, visuel solide et net.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "jardin",
+      "slug": "jardin",
+      "name": "Jardin",
+      "description": "Plantes, pots, arrosage, tondeuses et exterieur.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": true,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/jardin.webp",
+      "imageFileName": "jardin.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\jardin.webp",
+      "localPathRelative": "public\\uploads\\category-images\\jardin.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 155254,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Plantes, tondeuse, arrosoir, pots et jardin exterieur lumineux.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "beaute-sante",
+      "slug": "beaute-sante",
+      "name": "Beauté / santé",
+      "description": "Soins, maquillage, parfum, cheveux et accessoires bien-etre.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/beaute-sante.webp",
+      "imageFileName": "beaute-sante.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\beaute-sante.webp",
+      "localPathRelative": "public\\uploads\\category-images\\beaute-sante.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 48964,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Soins, maquillage, parfum, bien-etre et accessoires beaute, rendu lumineux.",
+      "sharedWithCategoryIds": [
+        "dropshipping-beaute"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "informatique",
+      "slug": "informatique",
+      "name": "Informatique",
+      "description": "PC, ecrans, claviers, souris, stockage et composants.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": true,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/informatique.webp",
+      "imageFileName": "informatique.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\informatique.webp",
+      "localPathRelative": "public\\uploads\\category-images\\informatique.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 60602,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "PC, clavier, setup bureau et composants informatique propres.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "telephonie",
+      "slug": "telephonie",
+      "name": "Téléphonie",
+      "description": "Telephones, smartphones, coques, chargeurs et ecouteurs.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": true,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/telephonie.webp",
+      "imageFileName": "telephonie.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\telephonie.webp",
+      "localPathRelative": "public\\uploads\\category-images\\telephonie.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 65644,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Smartphones, accessoires telephone et ecouteurs, rendu moderne sans logo.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "agencement-magasin",
+      "slug": "agencement-magasin",
+      "name": "Agencement magasin",
+      "description": "Portants, vitrines, rayons, gondoles et equipement de vente.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/agencement-magasin.webp",
+      "imageFileName": "agencement-magasin.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\agencement-magasin.webp",
+      "localPathRelative": "public\\uploads\\category-images\\agencement-magasin.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 91318,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Boutique moderne, rayons propres, organisation magasin et circulation claire.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "mannequins-bustes",
+      "slug": "mannequins-bustes",
+      "name": "Mannequins & bustes",
+      "description": "Mannequins, bustes, têtes et supports de présentation.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/mannequins-bustes.webp",
+      "imageFileName": "mannequins-bustes.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\mannequins-bustes.webp",
+      "localPathRelative": "public\\uploads\\category-images\\mannequins-bustes.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 53220,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Mannequins vitrine et bustes presentation vetements, rendu magasin professionnel.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "presentoirs",
+      "slug": "presentoirs",
+      "name": "Présentoirs",
+      "description": "Présentoirs comptoir, supports et accessoires de mise en avant.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/presentoirs.webp",
+      "imageFileName": "presentoirs.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\presentoirs.webp",
+      "localPathRelative": "public\\uploads\\category-images\\presentoirs.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 78024,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Rayonnages et presentoirs magasin, mise en avant produits claire.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "mobilier-professionnel",
+      "slug": "mobilier-professionnel",
+      "name": "Mobilier professionnel",
+      "description": "Meubles, rangement et equipement pour activites pro.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/mobilier-professionnel.webp",
+      "imageFileName": "mobilier-professionnel.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\mobilier-professionnel.webp",
+      "localPathRelative": "public\\uploads\\category-images\\mobilier-professionnel.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 51848,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Bureau pro, etageres, mobilier commerce ou entrepot, propre et fonctionnel.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "colis-surprise",
+      "slug": "colis-surprise",
+      "name": "Colis surprise",
+      "description": "Lots mystere, retours et trouvailles a decouvrir.",
+      "parentId": "colis-surprise-palettes",
+      "visible": false,
+      "hiddenNavigation": true,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/colis-surprise-palettes.webp",
+      "imageFileName": "colis-surprise-palettes.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\colis-surprise-palettes.webp",
+      "localPathRelative": "public\\uploads\\category-images\\colis-surprise-palettes.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 72078,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Cartons ouverts, colis mysteres et objets qui debordent, ambiance destockage surprise.",
+      "sharedWithCategoryIds": [
+        "colis-surprise-palettes",
+        "colis-mysteres",
+        "colis-au-poids"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "vetements",
+      "slug": "vetements",
+      "name": "Vêtements",
+      "description": "Pieces neuves ou quasi neuves selon les arrivages.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/vetements.webp",
+      "imageFileName": "vetements.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\vetements.webp",
+      "localPathRelative": "public\\uploads\\category-images\\vetements.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 120852,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Portants vetements, mode homme/femme, ambiance boutique textile.",
+      "sharedWithCategoryIds": [
+        "dropshipping-mode"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "maison",
+      "slug": "maison",
+      "name": "Maison",
+      "description": "Objets utiles pour le quotidien et l'equipement.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": true,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/maison.webp",
+      "imageFileName": "maison.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\maison.webp",
+      "localPathRelative": "public\\uploads\\category-images\\maison.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 109766,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Pieces maison, rangement et confort interieur, ambiance claire et utile.",
+      "sharedWithCategoryIds": [
+        "dropshipping-maison"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "deco",
+      "slug": "deco",
+      "name": "Déco",
+      "description": "Petites touches, rangements et ambiance.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": true,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/deco.webp",
+      "imageFileName": "deco.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\deco.webp",
+      "localPathRelative": "public\\uploads\\category-images\\deco.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 86254,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Salon moderne, decoration interieure, ambiance maison design et claire.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "high-tech",
+      "slug": "high-tech",
+      "name": "High-tech",
+      "description": "Accessoires connectes, audio, charge et gadgets utiles.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": true,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/high-tech.webp",
+      "imageFileName": "high-tech.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\high-tech.webp",
+      "localPathRelative": "public\\uploads\\category-images\\high-tech.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 38954,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Ecrans, ordinateurs, objets connectes et technologie moderne, sans logo visible.",
+      "sharedWithCategoryIds": [
+        "dropshipping-high-tech"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "accessoires",
+      "slug": "accessoires",
+      "name": "Accessoires",
+      "description": "Objets pratiques, mode et indispensables du sac.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/accessoires.webp",
+      "imageFileName": "accessoires.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\accessoires.webp",
+      "localPathRelative": "public\\uploads\\category-images\\accessoires.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 104740,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Sacs, montres, bijoux et accessoires mode varies, rendu boutique premium leger.",
+      "sharedWithCategoryIds": [
+        "dropshipping-accessoires"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "jouets",
+      "slug": "jouets",
+      "name": "Jouets",
+      "description": "Idees pour enfants, jeux et petits cadeaux.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": true,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/jouets.webp",
+      "imageFileName": "jouets.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\jouets.webp",
+      "localPathRelative": "public\\uploads\\category-images\\jouets.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 90428,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Jouets enfants, univers colore, figurines et jeux, rendu joyeux mais propre.",
+      "sharedWithCategoryIds": [
+        "dropshipping-enfant"
+      ],
+      "warnings": [
+        "shared_image_asset"
+      ],
+      "failures": [],
+      "warningCount": 1,
+      "failureCount": 0,
+      "priority": "P3_REVOIR_UNICITE_VISUELLE"
+    },
+    {
+      "id": "bricolage",
+      "slug": "bricolage",
+      "name": "Bricolage",
+      "description": "Outils, pieces et equipement malin.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/bricolage.webp",
+      "imageFileName": "bricolage.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\bricolage.webp",
+      "localPathRelative": "public\\uploads\\category-images\\bricolage.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 82578,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Outils en action, etabli bricolage, travaux maison propres et rassurants.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "electricite",
+      "slug": "electricite",
+      "name": "Électricité",
+      "description": "Interrupteurs, prises, petits lots et accessoires.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": true,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/electricite.webp",
+      "imageFileName": "electricite.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\electricite.webp",
+      "localPathRelative": "public\\uploads\\category-images\\electricite.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 81830,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Cables, prises, ampoules LED et materiel electrique, propre et identifiable.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "gadgets",
+      "slug": "gadgets",
+      "name": "Gadgets",
+      "description": "Trouvailles amusantes, pratiques ou inattendues.",
+      "parentId": "",
+      "visible": true,
+      "hiddenNavigation": false,
+      "isMainCategory": true,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/gadgets.webp",
+      "imageFileName": "gadgets.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\gadgets.webp",
+      "localPathRelative": "public\\uploads\\category-images\\gadgets.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 57210,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Gadgets high-tech, objets insolites et accessoires modernes, rendu premium leger.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    },
+    {
+      "id": "produits-partenaires",
+      "slug": "produits-partenaires",
+      "name": "Produits partenaires",
+      "description": "Produits neufs sourcés chez des fournisseurs partenaires, vendus par Maxi Trouvaille.",
+      "parentId": "",
+      "visible": false,
+      "hiddenNavigation": true,
+      "isMainCategory": false,
+      "hasDedicatedMapping": true,
+      "imageUrl": "/uploads/category-images/produits-partenaires.webp",
+      "imageFileName": "produits-partenaires.webp",
+      "localPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\produits-partenaires.webp",
+      "localPathRelative": "public\\uploads\\category-images\\produits-partenaires.webp",
+      "file": {
+        "exists": true,
+        "isWebp": true,
+        "status": "present_valid_webp_signature",
+        "bytes": 51290,
+        "width": 960,
+        "height": 640
+      },
+      "creativeBrief": "Collaboration, selection produits premium partenaires, pas de logo marketplace.",
+      "sharedWithCategoryIds": [],
+      "warnings": [],
+      "failures": [],
+      "warningCount": 0,
+      "failureCount": 0,
+      "priority": "OK"
+    }
+  ],
+  "sharedImageGroups": [
+    {
+      "imageUrl": "/uploads/category-images/colis-surprise-palettes.webp",
+      "imageFileName": "colis-surprise-palettes.webp",
+      "categoryIds": [
+        "colis-surprise-palettes",
+        "colis-mysteres",
+        "colis-au-poids",
+        "colis-surprise"
+      ],
+      "categoryNames": [
+        "Colis surprise & palettes",
+        "Colis mystères",
+        "Colis au poids",
+        "Colis surprise"
+      ]
+    },
+    {
+      "imageUrl": "/uploads/category-images/accessoires.webp",
+      "imageFileName": "accessoires.webp",
+      "categoryIds": [
+        "dropshipping-accessoires",
+        "accessoires"
+      ],
+      "categoryNames": [
+        "Accessoires",
+        "Accessoires"
+      ]
+    },
+    {
+      "imageUrl": "/uploads/category-images/animaux.webp",
+      "imageFileName": "animaux.webp",
+      "categoryIds": [
+        "dropshipping-animaux",
+        "animaux"
+      ],
+      "categoryNames": [
+        "Animaux",
+        "Animaux"
+      ]
+    },
+    {
+      "imageUrl": "/uploads/category-images/auto-moto.webp",
+      "imageFileName": "auto-moto.webp",
+      "categoryIds": [
+        "dropshipping-auto-moto",
+        "auto-moto"
+      ],
+      "categoryNames": [
+        "Auto / Moto",
+        "Auto / moto"
+      ]
+    },
+    {
+      "imageUrl": "/uploads/category-images/beaute-sante.webp",
+      "imageFileName": "beaute-sante.webp",
+      "categoryIds": [
+        "dropshipping-beaute",
+        "beaute-sante"
+      ],
+      "categoryNames": [
+        "Beauté",
+        "Beauté / santé"
+      ]
+    },
+    {
+      "imageUrl": "/uploads/category-images/cuisine.webp",
+      "imageFileName": "cuisine.webp",
+      "categoryIds": [
+        "dropshipping-cuisine",
+        "cuisine"
+      ],
+      "categoryNames": [
+        "Cuisine",
+        "Cuisine"
+      ]
+    },
+    {
+      "imageUrl": "/uploads/category-images/dropshipping-promotions.webp",
+      "imageFileName": "dropshipping-promotions.webp",
+      "categoryIds": [
+        "dropshipping-promotions",
+        "lots-bonnes-affaires"
+      ],
+      "categoryNames": [
+        "Promotions",
+        "Lots & bonnes affaires"
+      ]
+    },
+    {
+      "imageUrl": "/uploads/category-images/espace-revendeur.webp",
+      "imageFileName": "espace-revendeur.webp",
+      "categoryIds": [
+        "palettes-destockage",
+        "espace-revendeur"
+      ],
+      "categoryNames": [
+        "Palettes",
+        "Espace revendeur"
+      ]
+    },
+    {
+      "imageUrl": "/uploads/category-images/high-tech.webp",
+      "imageFileName": "high-tech.webp",
+      "categoryIds": [
+        "dropshipping-high-tech",
+        "high-tech"
+      ],
+      "categoryNames": [
+        "High-tech",
+        "High-tech"
+      ]
+    },
+    {
+      "imageUrl": "/uploads/category-images/jouets.webp",
+      "imageFileName": "jouets.webp",
+      "categoryIds": [
+        "dropshipping-enfant",
+        "jouets"
+      ],
+      "categoryNames": [
+        "Enfant",
+        "Jouets"
+      ]
+    },
+    {
+      "imageUrl": "/uploads/category-images/maison.webp",
+      "imageFileName": "maison.webp",
+      "categoryIds": [
+        "dropshipping-maison",
+        "maison"
+      ],
+      "categoryNames": [
+        "Maison",
+        "Maison"
+      ]
+    },
+    {
+      "imageUrl": "/uploads/category-images/vetements.webp",
+      "imageFileName": "vetements.webp",
+      "categoryIds": [
+        "dropshipping-mode",
+        "vetements"
+      ],
+      "categoryNames": [
+        "Mode",
+        "Vêtements"
+      ]
+    }
+  ],
+  "sources": {
+    "catalogPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\src\\lib\\catalog.ts",
+    "categoryImageFolder": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images"
+  },
+  "recommendations": {
+    "imageFormat": "webp",
+    "targetRatio": "16/10",
+    "minWidth": 900,
+    "minHeight": 560,
+    "maxRecommendedBytes": 260000,
+    "noMarketplaceLogo": true,
+    "noBrandLogoUnlessOwned": true
+  },
+  "safety": {
+    "readOnly": true,
+    "noImageGeneration": true,
+    "noImageDownload": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true
+  }
+}

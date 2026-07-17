@@ -1,0 +1,24 @@
+{
+  "rank": 9,
+  "top3Rank": 3,
+  "productId": "integration_articles_20260612_trousse-toilette-suspendue-voyage",
+  "productSlug": "trousse-toilette-suspendue-voyage-partenaire-hold",
+  "productName": "Trousse toilette suspendue voyage",
+  "categoryId": "dropshipping-accessoires",
+  "role": "variant",
+  "order": 3,
+  "expectedFileName": "trousse-toilette-suspendue-voyage-partenaire-hold-variant.webp",
+  "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260612/trousse-toilette-suspendue-voyage-partenaire-hold",
+  "expectedTargetPathRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260612/trousse-toilette-suspendue-voyage-partenaire-hold/trousse-toilette-suspendue-voyage-partenaire-hold-variant.webp",
+  "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_trousse-toilette-suspendue-voyage#top-verification-integration_articles_20260612_trousse-toilette-suspendue-voyage",
+  "status": "MISSING_HOLD",
+  "manualInput": {
+    "sourceLocalFile": "",
+    "rightsNote": "",
+    "exactSameArticle": "",
+    "exactVariantConfirmed": "",
+    "moussValidation": "",
+    "finalDecision": "HOLD_TO_FILL"
+  },
+  "nextAction": "Deposer un WebP exact local uniquement apres preuve meme article, droits image et validation Mouss."
+}

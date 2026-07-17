@@ -1,0 +1,4 @@
+top3_rank;product_id;product_name;proof_count;ready_proof_count;missing_proof_count;image_task_count;ready_image_count;missing_image_count;invalid_image_count;business_blockers
+1;integration_articles_20260612_housse-protection-canape-animal;Housse protection canape animal;5;0;5;3;0;3;0;8
+2;integration_articles_20260612_cable-organizer-boite-multiprise;Cache multiprise boite rangement cables;5;0;5;3;0;3;0;8
+3;integration_articles_20260612_trousse-toilette-suspendue-voyage;Trousse toilette suspendue voyage;5;0;5;3;0;3;0;8

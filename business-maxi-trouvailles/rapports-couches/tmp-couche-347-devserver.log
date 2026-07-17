@@ -1,0 +1,18 @@
+
+> maxi-trouvaille@0.1.0 dev
+> next dev --webpack -p 3271
+
+▲ Next.js 16.2.6 (webpack)
+- Local:         http://localhost:3271
+- Network:       http://192.168.1.121:3271
+- Environments: .env.local
+✓ Ready in 355ms
+
+○ Compiling /admin/decision-hold ...
+ GET /admin/decision-hold 200 in 6.1s (next.js: 3.3s, application-code: 2.8s)
+ GET /admin/decision-hold 200 in 353ms (next.js: 7ms, application-code: 345ms)
+ GET /admin/decision-hold 200 in 327ms (next.js: 3ms, application-code: 324ms)
+ GET /admin/decision-hold 200 in 332ms (next.js: 2ms, application-code: 330ms)
+ GET /admin/decision-hold 200 in 335ms (next.js: 2ms, application-code: 333ms)
+ GET /admin/decision-hold 200 in 299ms (next.js: 3ms, application-code: 297ms)
+[?25h

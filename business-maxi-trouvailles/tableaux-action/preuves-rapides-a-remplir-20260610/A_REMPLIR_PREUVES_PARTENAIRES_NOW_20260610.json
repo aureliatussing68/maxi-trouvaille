@@ -1,0 +1,611 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-10T16:52:40.223Z",
+  "generatedAtLocal": "10/06/2026 18:52",
+  "mode": "read_only_fast_partner_proof_now_export",
+  "status": "HOLD_FAST_PROOFS_TO_FILL",
+  "productCount": 5,
+  "missingFieldCount": 60,
+  "readyReviewCount": 0,
+  "products": [
+    {
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "slug": "pochette-organisateur-cables-double-couche-voyage",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "priority": 5,
+      "categoryId": "dropshipping-accessoires",
+      "workLane": "B_VALIDATION_RAPIDE",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "missingFieldCount": 12,
+      "missingFields": [
+        {
+          "key": "checkedAt",
+          "label": "Date de verification",
+          "instruction": "Renseigner la date exacte de controle fournisseur.",
+          "currentValue": ""
+        },
+        {
+          "key": "supplierSellerName",
+          "label": "Nom vendeur fournisseur",
+          "instruction": "Copier le nom du vendeur affiche sur la page fournisseur.",
+          "currentValue": ""
+        },
+        {
+          "key": "exactVariantChosen",
+          "label": "Variante exacte",
+          "instruction": "Preciser couleur, format, lot, taille ou option vendue.",
+          "currentValue": ""
+        },
+        {
+          "key": "deliveryFranceEuropeProof",
+          "label": "Preuve delai France/Europe",
+          "instruction": "Noter la preuve visible du delai France/Europe.",
+          "currentValue": ""
+        },
+        {
+          "key": "deliveryEstimateForCustomer",
+          "label": "Delai client Maxi",
+          "instruction": "Renseigner un delai client propre et prudent.",
+          "currentValue": ""
+        },
+        {
+          "key": "trackingAvailable",
+          "label": "Suivi disponible",
+          "instruction": "Confirmer oui/non selon l'option fournisseur visible.",
+          "currentValue": ""
+        },
+        {
+          "key": "pricingProof",
+          "label": "Preuve prix",
+          "instruction": "Noter prix produit, frais livraison et devise vus.",
+          "currentValue": ""
+        },
+        {
+          "key": "shippingProof",
+          "label": "Preuve livraison",
+          "instruction": "Noter transporteur, frais et zone de livraison.",
+          "currentValue": ""
+        },
+        {
+          "key": "imageProof",
+          "label": "Preuve image exacte",
+          "instruction": "Confirmer que l'image represente exactement la variante vendue.",
+          "currentValue": ""
+        },
+        {
+          "key": "imageRightsProof",
+          "label": "Droits image",
+          "instruction": "Photo propre, autorisation fournisseur ou maintenir HOLD.",
+          "currentValue": ""
+        },
+        {
+          "key": "finalDecision",
+          "label": "Decision finale",
+          "instruction": "Laisser HOLD tant que tout n'est pas pret pour revue humaine.",
+          "currentValue": "HOLD"
+        },
+        {
+          "key": "reviewedByMouss",
+          "label": "Revue Mouss",
+          "instruction": "Cocher uniquement apres validation humaine explicite.",
+          "currentValue": "non"
+        }
+      ],
+      "supplier": {
+        "url": "https://www.aliexpress.com/item/4000168524713.html",
+        "sku": "AE-4000168524713-CABLE-ORGANIZER",
+        "supplierPrice": "11.00 EUR",
+        "salePrice": "18.40 EUR",
+        "stock": 55,
+        "currentDeliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "questions": [
+        "Le lien fournisseur ouvre-t-il exactement le produit vendu: https://www.aliexpress.com/item/4000168524713.html ?",
+        "Quelle variante exacte sera vendue sur Maxi Trouvailles ?",
+        "Le prix fournisseur, le stock et les frais visibles sont-ils encore identiques ou meilleurs ?",
+        "Le delai France/Europe est-il clairement indique avec suivi colis ?",
+        "Les images montrent-elles exactement la variante vendue, sans logo ou marque visible interdite ?",
+        "Les droits/usage image sont-ils acceptables ou faut-il remplacer les images ?",
+        "Mouss valide-t-il seulement une revue humaine, sans publication automatique ?"
+      ],
+      "guardrail": "Rester HOLD: aucune publication, aucun paiement, aucune commande fournisseur avant validation Mouss."
+    },
+    {
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "slug": "support-pc-portable-pliant-aluminium-ajustable",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "priority": 6,
+      "categoryId": "dropshipping-high-tech",
+      "workLane": "B_VALIDATION_RAPIDE",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "missingFieldCount": 12,
+      "missingFields": [
+        {
+          "key": "checkedAt",
+          "label": "Date de verification",
+          "instruction": "Renseigner la date exacte de controle fournisseur.",
+          "currentValue": ""
+        },
+        {
+          "key": "supplierSellerName",
+          "label": "Nom vendeur fournisseur",
+          "instruction": "Copier le nom du vendeur affiche sur la page fournisseur.",
+          "currentValue": ""
+        },
+        {
+          "key": "exactVariantChosen",
+          "label": "Variante exacte",
+          "instruction": "Preciser couleur, format, lot, taille ou option vendue.",
+          "currentValue": ""
+        },
+        {
+          "key": "deliveryFranceEuropeProof",
+          "label": "Preuve delai France/Europe",
+          "instruction": "Noter la preuve visible du delai France/Europe.",
+          "currentValue": ""
+        },
+        {
+          "key": "deliveryEstimateForCustomer",
+          "label": "Delai client Maxi",
+          "instruction": "Renseigner un delai client propre et prudent.",
+          "currentValue": ""
+        },
+        {
+          "key": "trackingAvailable",
+          "label": "Suivi disponible",
+          "instruction": "Confirmer oui/non selon l'option fournisseur visible.",
+          "currentValue": ""
+        },
+        {
+          "key": "pricingProof",
+          "label": "Preuve prix",
+          "instruction": "Noter prix produit, frais livraison et devise vus.",
+          "currentValue": ""
+        },
+        {
+          "key": "shippingProof",
+          "label": "Preuve livraison",
+          "instruction": "Noter transporteur, frais et zone de livraison.",
+          "currentValue": ""
+        },
+        {
+          "key": "imageProof",
+          "label": "Preuve image exacte",
+          "instruction": "Confirmer que l'image represente exactement la variante vendue.",
+          "currentValue": ""
+        },
+        {
+          "key": "imageRightsProof",
+          "label": "Droits image",
+          "instruction": "Photo propre, autorisation fournisseur ou maintenir HOLD.",
+          "currentValue": ""
+        },
+        {
+          "key": "finalDecision",
+          "label": "Decision finale",
+          "instruction": "Laisser HOLD tant que tout n'est pas pret pour revue humaine.",
+          "currentValue": "HOLD"
+        },
+        {
+          "key": "reviewedByMouss",
+          "label": "Revue Mouss",
+          "instruction": "Cocher uniquement apres validation humaine explicite.",
+          "currentValue": "non"
+        }
+      ],
+      "supplier": {
+        "url": "https://www.aliexpress.com/item/4001153714549.html",
+        "sku": "AE-4001153714549-LAPTOP-STAND",
+        "supplierPrice": "11.80 EUR",
+        "salePrice": "19.70 EUR",
+        "stock": 35,
+        "currentDeliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "questions": [
+        "Le lien fournisseur ouvre-t-il exactement le produit vendu: https://www.aliexpress.com/item/4001153714549.html ?",
+        "Quelle variante exacte sera vendue sur Maxi Trouvailles ?",
+        "Le prix fournisseur, le stock et les frais visibles sont-ils encore identiques ou meilleurs ?",
+        "Le delai France/Europe est-il clairement indique avec suivi colis ?",
+        "Les images montrent-elles exactement la variante vendue, sans logo ou marque visible interdite ?",
+        "Les droits/usage image sont-ils acceptables ou faut-il remplacer les images ?",
+        "Mouss valide-t-il seulement une revue humaine, sans publication automatique ?"
+      ],
+      "guardrail": "Rester HOLD: aucune publication, aucun paiement, aucune commande fournisseur avant validation Mouss."
+    },
+    {
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "slug": "filet-rangement-coffre-voiture-sangles-fixes",
+      "name": "Filet rangement coffre voiture à sangles fixes",
+      "priority": 7,
+      "categoryId": "dropshipping-auto-moto",
+      "workLane": "B_VALIDATION_RAPIDE",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "missingFieldCount": 12,
+      "missingFields": [
+        {
+          "key": "checkedAt",
+          "label": "Date de verification",
+          "instruction": "Renseigner la date exacte de controle fournisseur.",
+          "currentValue": ""
+        },
+        {
+          "key": "supplierSellerName",
+          "label": "Nom vendeur fournisseur",
+          "instruction": "Copier le nom du vendeur affiche sur la page fournisseur.",
+          "currentValue": ""
+        },
+        {
+          "key": "exactVariantChosen",
+          "label": "Variante exacte",
+          "instruction": "Preciser couleur, format, lot, taille ou option vendue.",
+          "currentValue": ""
+        },
+        {
+          "key": "deliveryFranceEuropeProof",
+          "label": "Preuve delai France/Europe",
+          "instruction": "Noter la preuve visible du delai France/Europe.",
+          "currentValue": ""
+        },
+        {
+          "key": "deliveryEstimateForCustomer",
+          "label": "Delai client Maxi",
+          "instruction": "Renseigner un delai client propre et prudent.",
+          "currentValue": ""
+        },
+        {
+          "key": "trackingAvailable",
+          "label": "Suivi disponible",
+          "instruction": "Confirmer oui/non selon l'option fournisseur visible.",
+          "currentValue": ""
+        },
+        {
+          "key": "pricingProof",
+          "label": "Preuve prix",
+          "instruction": "Noter prix produit, frais livraison et devise vus.",
+          "currentValue": ""
+        },
+        {
+          "key": "shippingProof",
+          "label": "Preuve livraison",
+          "instruction": "Noter transporteur, frais et zone de livraison.",
+          "currentValue": ""
+        },
+        {
+          "key": "imageProof",
+          "label": "Preuve image exacte",
+          "instruction": "Confirmer que l'image represente exactement la variante vendue.",
+          "currentValue": ""
+        },
+        {
+          "key": "imageRightsProof",
+          "label": "Droits image",
+          "instruction": "Photo propre, autorisation fournisseur ou maintenir HOLD.",
+          "currentValue": ""
+        },
+        {
+          "key": "finalDecision",
+          "label": "Decision finale",
+          "instruction": "Laisser HOLD tant que tout n'est pas pret pour revue humaine.",
+          "currentValue": "HOLD"
+        },
+        {
+          "key": "reviewedByMouss",
+          "label": "Revue Mouss",
+          "instruction": "Cocher uniquement apres validation humaine explicite.",
+          "currentValue": "non"
+        }
+      ],
+      "supplier": {
+        "url": "https://www.aliexpress.com/item/1005006160871310.html",
+        "sku": "AE-ITEM-1005006160871310",
+        "supplierPrice": "4.00 EUR",
+        "salePrice": "6.70 EUR",
+        "stock": 45,
+        "currentDeliveryEstimate": "7 à 15 jours ouvrés estimés"
+      },
+      "questions": [
+        "Le lien fournisseur ouvre-t-il exactement le produit vendu: https://www.aliexpress.com/item/1005006160871310.html ?",
+        "Quelle variante exacte sera vendue sur Maxi Trouvailles ?",
+        "Le prix fournisseur, le stock et les frais visibles sont-ils encore identiques ou meilleurs ?",
+        "Le delai France/Europe est-il clairement indique avec suivi colis ?",
+        "Les images montrent-elles exactement la variante vendue, sans logo ou marque visible interdite ?",
+        "Les droits/usage image sont-ils acceptables ou faut-il remplacer les images ?",
+        "Mouss valide-t-il seulement une revue humaine, sans publication automatique ?"
+      ],
+      "guardrail": "Rester HOLD: aucune publication, aucun paiement, aucune commande fournisseur avant validation Mouss."
+    },
+    {
+      "id": "ali_partner_20260527_gourde_pliable_001",
+      "slug": "gourde-pliable-silicone-voyage-mousqueton",
+      "name": "Gourde pliable silicone voyage avec mousqueton",
+      "priority": 8,
+      "categoryId": "dropshipping-accessoires",
+      "workLane": "B_VALIDATION_RAPIDE",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "missingFieldCount": 12,
+      "missingFields": [
+        {
+          "key": "checkedAt",
+          "label": "Date de verification",
+          "instruction": "Renseigner la date exacte de controle fournisseur.",
+          "currentValue": ""
+        },
+        {
+          "key": "supplierSellerName",
+          "label": "Nom vendeur fournisseur",
+          "instruction": "Copier le nom du vendeur affiche sur la page fournisseur.",
+          "currentValue": ""
+        },
+        {
+          "key": "exactVariantChosen",
+          "label": "Variante exacte",
+          "instruction": "Preciser couleur, format, lot, taille ou option vendue.",
+          "currentValue": ""
+        },
+        {
+          "key": "deliveryFranceEuropeProof",
+          "label": "Preuve delai France/Europe",
+          "instruction": "Noter la preuve visible du delai France/Europe.",
+          "currentValue": ""
+        },
+        {
+          "key": "deliveryEstimateForCustomer",
+          "label": "Delai client Maxi",
+          "instruction": "Renseigner un delai client propre et prudent.",
+          "currentValue": ""
+        },
+        {
+          "key": "trackingAvailable",
+          "label": "Suivi disponible",
+          "instruction": "Confirmer oui/non selon l'option fournisseur visible.",
+          "currentValue": ""
+        },
+        {
+          "key": "pricingProof",
+          "label": "Preuve prix",
+          "instruction": "Noter prix produit, frais livraison et devise vus.",
+          "currentValue": ""
+        },
+        {
+          "key": "shippingProof",
+          "label": "Preuve livraison",
+          "instruction": "Noter transporteur, frais et zone de livraison.",
+          "currentValue": ""
+        },
+        {
+          "key": "imageProof",
+          "label": "Preuve image exacte",
+          "instruction": "Confirmer que l'image represente exactement la variante vendue.",
+          "currentValue": ""
+        },
+        {
+          "key": "imageRightsProof",
+          "label": "Droits image",
+          "instruction": "Photo propre, autorisation fournisseur ou maintenir HOLD.",
+          "currentValue": ""
+        },
+        {
+          "key": "finalDecision",
+          "label": "Decision finale",
+          "instruction": "Laisser HOLD tant que tout n'est pas pret pour revue humaine.",
+          "currentValue": "HOLD"
+        },
+        {
+          "key": "reviewedByMouss",
+          "label": "Revue Mouss",
+          "instruction": "Cocher uniquement apres validation humaine explicite.",
+          "currentValue": "non"
+        }
+      ],
+      "supplier": {
+        "url": "https://www.aliexpress.com/item/1005009184984524.html",
+        "sku": "AE-ITEM-1005009184984524",
+        "supplierPrice": "3.70 EUR",
+        "salePrice": "6.20 EUR",
+        "stock": 70,
+        "currentDeliveryEstimate": "7 à 15 jours ouvrés estimés"
+      },
+      "questions": [
+        "Le lien fournisseur ouvre-t-il exactement le produit vendu: https://www.aliexpress.com/item/1005009184984524.html ?",
+        "Quelle variante exacte sera vendue sur Maxi Trouvailles ?",
+        "Le prix fournisseur, le stock et les frais visibles sont-ils encore identiques ou meilleurs ?",
+        "Le delai France/Europe est-il clairement indique avec suivi colis ?",
+        "Les images montrent-elles exactement la variante vendue, sans logo ou marque visible interdite ?",
+        "Les droits/usage image sont-ils acceptables ou faut-il remplacer les images ?",
+        "Mouss valide-t-il seulement une revue humaine, sans publication automatique ?"
+      ],
+      "guardrail": "Rester HOLD: aucune publication, aucun paiement, aucune commande fournisseur avant validation Mouss."
+    },
+    {
+      "id": "ali_partner_20260527_lampes_detection_001",
+      "slug": "lampe-led-detection-mouvement-usb-rechargeable",
+      "name": "Lampe LED à détection de mouvement USB rechargeable",
+      "priority": 9,
+      "categoryId": "dropshipping-maison",
+      "workLane": "B_VALIDATION_RAPIDE",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "missingFieldCount": 12,
+      "missingFields": [
+        {
+          "key": "checkedAt",
+          "label": "Date de verification",
+          "instruction": "Renseigner la date exacte de controle fournisseur.",
+          "currentValue": ""
+        },
+        {
+          "key": "supplierSellerName",
+          "label": "Nom vendeur fournisseur",
+          "instruction": "Copier le nom du vendeur affiche sur la page fournisseur.",
+          "currentValue": ""
+        },
+        {
+          "key": "exactVariantChosen",
+          "label": "Variante exacte",
+          "instruction": "Preciser couleur, format, lot, taille ou option vendue.",
+          "currentValue": ""
+        },
+        {
+          "key": "deliveryFranceEuropeProof",
+          "label": "Preuve delai France/Europe",
+          "instruction": "Noter la preuve visible du delai France/Europe.",
+          "currentValue": ""
+        },
+        {
+          "key": "deliveryEstimateForCustomer",
+          "label": "Delai client Maxi",
+          "instruction": "Renseigner un delai client propre et prudent.",
+          "currentValue": ""
+        },
+        {
+          "key": "trackingAvailable",
+          "label": "Suivi disponible",
+          "instruction": "Confirmer oui/non selon l'option fournisseur visible.",
+          "currentValue": ""
+        },
+        {
+          "key": "pricingProof",
+          "label": "Preuve prix",
+          "instruction": "Noter prix produit, frais livraison et devise vus.",
+          "currentValue": ""
+        },
+        {
+          "key": "shippingProof",
+          "label": "Preuve livraison",
+          "instruction": "Noter transporteur, frais et zone de livraison.",
+          "currentValue": ""
+        },
+        {
+          "key": "imageProof",
+          "label": "Preuve image exacte",
+          "instruction": "Confirmer que l'image represente exactement la variante vendue.",
+          "currentValue": ""
+        },
+        {
+          "key": "imageRightsProof",
+          "label": "Droits image",
+          "instruction": "Photo propre, autorisation fournisseur ou maintenir HOLD.",
+          "currentValue": ""
+        },
+        {
+          "key": "finalDecision",
+          "label": "Decision finale",
+          "instruction": "Laisser HOLD tant que tout n'est pas pret pour revue humaine.",
+          "currentValue": "HOLD"
+        },
+        {
+          "key": "reviewedByMouss",
+          "label": "Revue Mouss",
+          "instruction": "Cocher uniquement apres validation humaine explicite.",
+          "currentValue": "non"
+        }
+      ],
+      "supplier": {
+        "url": "https://www.aliexpress.com/item/1005008517453827.html",
+        "sku": "AE-1005008517453827-MOTION-LIGHT",
+        "supplierPrice": "5.40 EUR",
+        "salePrice": "9.00 EUR",
+        "stock": 50,
+        "currentDeliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "questions": [
+        "Le lien fournisseur ouvre-t-il exactement le produit vendu: https://www.aliexpress.com/item/1005008517453827.html ?",
+        "Quelle variante exacte sera vendue sur Maxi Trouvailles ?",
+        "Le prix fournisseur, le stock et les frais visibles sont-ils encore identiques ou meilleurs ?",
+        "Le delai France/Europe est-il clairement indique avec suivi colis ?",
+        "Les images montrent-elles exactement la variante vendue, sans logo ou marque visible interdite ?",
+        "Les droits/usage image sont-ils acceptables ou faut-il remplacer les images ?",
+        "Mouss valide-t-il seulement une revue humaine, sans publication automatique ?"
+      ],
+      "guardrail": "Rester HOLD: aucune publication, aucun paiement, aucune commande fournisseur avant validation Mouss."
+    }
+  ],
+  "sources": {
+    "formsPath": "business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260610\\formulaires-preuves-rapides-20260610\\FORMULAIRES_PREUVES_RAPIDES_20260610.json",
+    "auditPath": "business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260610\\formulaires-preuves-rapides-20260610\\AUDIT_FORMULAIRES_PREUVES_RAPIDES_20260610.json"
+  },
+  "outputDirRelative": "business-maxi-trouvailles\\tableaux-action\\preuves-rapides-a-remplir-20260610",
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true,
+    "manualValidationRequired": true
+  }
+}

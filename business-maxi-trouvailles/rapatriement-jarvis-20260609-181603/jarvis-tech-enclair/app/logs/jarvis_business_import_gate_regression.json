@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-06-03 18:22:29",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "product_present": true,
+    "decision_present": true,
+    "missing_requirements_present": true,
+    "short_message_present": true,
+    "txt_mentions_short_message": true,
+    "route_business_import_gate": true,
+    "execute_business_import_gate": true,
+    "executor_uses_short_message": true,
+    "gate_only": true,
+    "read_only": true,
+    "no_site_modification": true,
+    "no_import_started": true,
+    "no_order_started": true,
+    "no_payment_started": true,
+    "no_publication_started": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true,
+    "no_secret_like_value_in_reports": true
+  },
+  "short_message": "Import brouillon bloque pour relecture manuelle: Organisateur de cables de voyage compact, 2 exigence(s) a verifier, aucune modification.",
+  "executor_message": "Import brouillon bloque pour relecture manuelle: Organisateur de cables de voyage compact, 2 exigence(s) a verifier, aucune modification.",
+  "decision": "BLOCKED_FOR_MANUAL_REVIEW",
+  "import_draft_allowed": false,
+  "note": "Regression lecture seule du garde import brouillon."
+}

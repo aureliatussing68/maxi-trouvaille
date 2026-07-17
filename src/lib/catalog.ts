@@ -6,6 +6,8 @@ export type Category = {
   name: string;
   description: string;
   accent: string;
+  image: string;
+  parentId?: string;
 };
 
 export type Product = {
@@ -31,34 +33,345 @@ export type Product = {
     | "mondial relay uniquement"
     | "colissimo uniquement"
     | "sur devis";
+  commerceStatus?: "available" | "coming-soon";
+  dropshipping?: DropshippingProductMeta;
+  seo?: ProductSeoMeta;
+  imageAlt?: string;
+  imageValidation?: ProductImageValidationMeta;
+  sourceVerification?: ProductSourceVerificationMeta;
+  internalSourcing?: ProductInternalSourcingMeta;
   source: ProductSource;
   sellerListing?: SellerListingMeta;
 };
 
+export type ProductImageValidationMeta = {
+  status?: string;
+  checkedAt?: string;
+  sourceUrl?: string;
+  imageCount?: number;
+  reason?: string;
+  nextAction?: string;
+};
+
+export type ProductSourceVerificationMeta = {
+  status?: string;
+  checkedAt?: string;
+  productUrl?: string;
+  evidenceUrl?: string;
+  sourcePriceRange?: string;
+  sourceSignal?: string;
+  imageCount?: number;
+  deliveryStatus?: string;
+  priceStatus?: string;
+  rightsStatus?: string;
+};
+
+export type ProductInternalSourcingMeta = {
+  validationStatus?: string;
+  evidenceUrl?: string;
+  evidenceNote?: string;
+  findNicheDetailUrl?: string;
+  pricingRule?: string;
+  pricingUpdatedAt?: string;
+};
+
+export type ProductSeoMeta = {
+  title?: string;
+  description?: string;
+  h1?: string;
+  h2?: string;
+  keywords?: string[];
+  imageAlt?: string;
+};
+
+export type DropshippingProductMeta = {
+  enabled: boolean;
+  supplierName?: string;
+  supplierUrl?: string;
+  supplierSku?: string;
+  supplierPriceCents?: number;
+  salePriceCents?: number;
+  marginCents?: number;
+  supplierStock?: number;
+  deliveryEstimate?: string;
+  isPromotion?: boolean;
+  isNew?: boolean;
+  logisticsPartnerLabel?: string;
+  syncStatus?: "manual" | "ready" | "error";
+  lastSyncAt?: string;
+  validationGate?: {
+    source: string;
+    checkedAt: string;
+    checks: string[];
+    candidateId?: string;
+    candidateCategory?: string;
+    sourceGeneratedAt?: string;
+    note?: string;
+  };
+};
+
+export type ProductBadgeTone =
+  | "coming-soon"
+  | "dropshipping"
+  | "new"
+  | "promotion"
+  | "stock"
+  | "default";
+
+export type ProductBadge = {
+  label: string;
+  tone: ProductBadgeTone;
+};
+
 export const mainCategoryIds = [
+  "sport-loisirs",
+  "auto-moto",
+  "jeux-video",
+  "outillage",
+  "informatique",
+  "jardin",
+  "telephonie",
+  "maison",
+  "high-tech",
+  "electricite",
+  "deco",
+  "jouets",
+  "gadgets",
+  "animaux",
+] as const;
+
+export const dropshippingFocusCategoryIds = [
+  "dropshipping",
+  "dropshipping-nouveautes",
+  "dropshipping-promotions",
+  "dropshipping-maison",
+  "dropshipping-cuisine",
+  "dropshipping-beaute",
+  "dropshipping-high-tech",
+  "dropshipping-accessoires",
+  "dropshipping-auto-moto",
+  "dropshipping-animaux",
+  "dropshipping-enfant",
+  "dropshipping-mode",
+] as const;
+
+const publicStoreMode = "dropshipping" as const;
+const dropshippingFocusCategoryIdSet = new Set<string>(dropshippingFocusCategoryIds);
+
+const hiddenNavigationCategoryIds = [
+  "colis-surprise-palettes",
   "palettes-destockage",
   "colis-mysteres",
   "colis-au-poids",
   "lots-bonnes-affaires",
-  "espace-revendeur",
+  "colis-surprise",
+  "produits-partenaires",
 ] as const;
 
-export const categories: Category[] = [
+const hiddenPublicCategoryIds = new Set<string>(hiddenNavigationCategoryIds);
+const exactProductImagePrefixes = [
+  "/uploads/partner-products/",
+  "/uploads/quick-products/",
+] as const;
+const nonExactProductImagePrefixes = [
+  "/uploads/category-images/",
+  "/uploads/generated-products/",
+] as const;
+
+const partnerCategoryMirrors: Record<string, string[]> = {
+  accessoires: ["dropshipping-accessoires", "dropshipping-mode"],
+  "auto-moto": ["dropshipping-auto-moto"],
+  animaux: ["dropshipping-animaux"],
+  "beaute-sante": ["dropshipping-beaute"],
+  bricolage: ["dropshipping-high-tech", "dropshipping-accessoires"],
+  cuisine: ["dropshipping-cuisine"],
+  deco: ["dropshipping-maison", "dropshipping-accessoires"],
+  electricite: ["dropshipping-high-tech"],
+  gadgets: ["dropshipping-accessoires", "dropshipping-high-tech"],
+  "high-tech": ["dropshipping-high-tech"],
+  informatique: ["dropshipping-high-tech", "dropshipping-accessoires"],
+  jardin: ["dropshipping-maison", "dropshipping-accessoires"],
+  "jeux-video": ["dropshipping-high-tech", "dropshipping-accessoires"],
+  jouets: ["dropshipping-enfant", "dropshipping-accessoires"],
+  maison: ["dropshipping-maison", "dropshipping-cuisine", "dropshipping-accessoires"],
+  puericulture: ["dropshipping-enfant"],
+  "sport-loisirs": ["dropshipping-accessoires", "dropshipping-high-tech"],
+  telephonie: ["dropshipping-high-tech", "dropshipping-accessoires"],
+  vetements: ["dropshipping-mode", "dropshipping-accessoires"],
+};
+
+const categoryImageBase = "/uploads/category-images";
+
+const categoryImageById: Record<string, string> = {
+  "colis-surprise-palettes": `${categoryImageBase}/colis-surprise-palettes.webp`,
+  dropshipping: `${categoryImageBase}/produits-partenaires.webp`,
+  "dropshipping-nouveautes": `${categoryImageBase}/nouveautes-partenaires.webp`,
+  "dropshipping-promotions": `${categoryImageBase}/promotions-partenaires.webp`,
+  "dropshipping-maison": `${categoryImageBase}/maison.webp`,
+  "dropshipping-cuisine": `${categoryImageBase}/cuisine.webp`,
+  "dropshipping-beaute": `${categoryImageBase}/beaute-sante.webp`,
+  "dropshipping-high-tech": `${categoryImageBase}/high-tech.webp`,
+  "dropshipping-accessoires": `${categoryImageBase}/accessoires.webp`,
+  "dropshipping-auto-moto": `${categoryImageBase}/auto-moto.webp`,
+  "dropshipping-animaux": `${categoryImageBase}/animaux.webp`,
+  "dropshipping-enfant": `${categoryImageBase}/jouets.webp`,
+  "dropshipping-mode": `${categoryImageBase}/vetements.webp`,
+  "palettes-destockage": `${categoryImageBase}/espace-revendeur.webp`,
+  "colis-mysteres": `${categoryImageBase}/colis-surprise-palettes.webp`,
+  "colis-au-poids": `${categoryImageBase}/colis-surprise-palettes.webp`,
+  "lots-bonnes-affaires": `${categoryImageBase}/promotions-partenaires.webp`,
+  "espace-revendeur": `${categoryImageBase}/espace-revendeur.webp`,
+  "sport-loisirs": `${categoryImageBase}/sport-loisirs.webp`,
+  "auto-moto": `${categoryImageBase}/auto-moto.webp`,
+  animaux: `${categoryImageBase}/animaux.webp`,
+  "livre-media": `${categoryImageBase}/livre-media.webp`,
+  "jeux-video": `${categoryImageBase}/jeux-video.webp`,
+  puericulture: `${categoryImageBase}/puericulture.webp`,
+  cuisine: `${categoryImageBase}/cuisine.webp`,
+  outillage: `${categoryImageBase}/outillage.webp`,
+  jardin: `${categoryImageBase}/jardin.webp`,
+  "beaute-sante": `${categoryImageBase}/beaute-sante.webp`,
+  informatique: `${categoryImageBase}/informatique.webp`,
+  telephonie: `${categoryImageBase}/telephonie.webp`,
+  "agencement-magasin": `${categoryImageBase}/agencement-magasin.webp`,
+  "mannequins-bustes": `${categoryImageBase}/mannequins-bustes.webp`,
+  presentoirs: `${categoryImageBase}/presentoirs.webp`,
+  "mobilier-professionnel": `${categoryImageBase}/mobilier-professionnel.webp`,
+  "colis-surprise": `${categoryImageBase}/colis-surprise-palettes.webp`,
+  vetements: `${categoryImageBase}/vetements.webp`,
+  maison: `${categoryImageBase}/maison.webp`,
+  deco: `${categoryImageBase}/deco.webp`,
+  "high-tech": `${categoryImageBase}/high-tech.webp`,
+  accessoires: `${categoryImageBase}/accessoires.webp`,
+  jouets: `${categoryImageBase}/jouets.webp`,
+  bricolage: `${categoryImageBase}/bricolage.webp`,
+  electricite: `${categoryImageBase}/electricite.webp`,
+  gadgets: `${categoryImageBase}/gadgets.webp`,
+  "produits-partenaires": `${categoryImageBase}/produits-partenaires.webp`,
+};
+
+const rawCategories: Array<Omit<Category, "image">> = [
+  {
+    id: "colis-surprise-palettes",
+    slug: "colis-surprise-palettes",
+    name: "Colis surprise & palettes",
+    description:
+      "Palettes, colis mystères, colis au poids et lots surprise issus de déstockage.",
+    accent: "#ffbf38",
+  },
+  {
+    id: "dropshipping",
+    slug: "produits-partenaires",
+    name: "Produits partenaires",
+    description:
+      "Produits neufs selectionnes par Maxi Trouvaille, expedies par partenaires logistiques, avec nouveautes et promotions.",
+    accent: "#0f766e",
+  },
+  {
+    id: "dropshipping-nouveautes",
+    slug: "nouveautes-partenaires",
+    name: "Nouveautés",
+    description: "Les derniers produits partenaires préparés pour Maxi Trouvaille.",
+    accent: "#2563eb",
+    parentId: "dropshipping",
+  },
+  {
+    id: "dropshipping-promotions",
+    slug: "promotions-partenaires",
+    name: "Promotions",
+    description: "Sélections partenaires avec prix barrés et offres mises en avant.",
+    accent: "#be123c",
+    parentId: "dropshipping",
+  },
+  {
+    id: "dropshipping-maison",
+    slug: "maison-partenaires",
+    name: "Maison",
+    description: "Objets utiles pour la maison, le rangement et le confort.",
+    accent: "#0f766e",
+    parentId: "dropshipping",
+  },
+  {
+    id: "dropshipping-cuisine",
+    slug: "cuisine-partenaires",
+    name: "Cuisine",
+    description: "Ustensiles, accessoires pratiques et petites idees cuisine.",
+    accent: "#ea580c",
+    parentId: "dropshipping",
+  },
+  {
+    id: "dropshipping-beaute",
+    slug: "beaute-partenaires",
+    name: "Beauté",
+    description: "Soins, accessoires beaute et bien-etre expedies par partenaire.",
+    accent: "#e11d48",
+    parentId: "dropshipping",
+  },
+  {
+    id: "dropshipping-high-tech",
+    slug: "high-tech-partenaires",
+    name: "High-tech",
+    description: "Accessoires connectes, charge, audio et gadgets utiles.",
+    accent: "#2563eb",
+    parentId: "dropshipping",
+  },
+  {
+    id: "dropshipping-accessoires",
+    slug: "accessoires-partenaires",
+    name: "Accessoires",
+    description: "Petits produits pratiques, rangement, voyage et accessoires du quotidien.",
+    accent: "#db2777",
+    parentId: "dropshipping",
+  },
+  {
+    id: "dropshipping-auto-moto",
+    slug: "auto-moto-partenaires",
+    name: "Auto / Moto",
+    description: "Accessoires auto, nettoyage, confort et equipement vehicule.",
+    accent: "#dc2626",
+    parentId: "dropshipping",
+  },
+  {
+    id: "dropshipping-animaux",
+    slug: "animaux-partenaires",
+    name: "Animaux",
+    description: "Accessoires partenaires pour chiens, chats et animaux du quotidien.",
+    accent: "#ca8a04",
+    parentId: "dropshipping",
+  },
+  {
+    id: "dropshipping-enfant",
+    slug: "enfant-partenaires",
+    name: "Enfant",
+    description: "Idees utiles, cadeaux et accessoires pour enfants.",
+    accent: "#16a34a",
+    parentId: "dropshipping",
+  },
+  {
+    id: "dropshipping-mode",
+    slug: "mode-partenaires",
+    name: "Mode",
+    description: "Accessoires mode et petits essentiels textiles.",
+    accent: "#7c3aed",
+    parentId: "dropshipping",
+  },
   {
     id: "palettes-destockage",
     slug: "palettes-destockage",
-    name: "Palettes déstockage",
+    name: "Palettes",
     description:
-      "Palettes mystères, palettes visibles, arrivages réguliers, idéal pour revendeurs et marchés.",
+      "Palettes déstockage, palettes mystères, palettes visibles et arrivages réguliers.",
     accent: "#b45309",
+    parentId: "colis-surprise-palettes",
   },
   {
     id: "colis-mysteres",
     slug: "colis-mysteres",
     name: "Colis mystères",
     description:
-      "Colis surprise, cartons mystères, contenu aléatoire issu de déstockage.",
+      "Colis perdus, colis surprise, cartons mystères et contenu aléatoire issu de déstockage.",
     accent: "#be123c",
+    parentId: "colis-surprise-palettes",
   },
   {
     id: "colis-au-poids",
@@ -67,21 +380,23 @@ export const categories: Category[] = [
     description:
       "Colis vendus au poids, 5 kg, 10 kg ou plus, pour découvrir plusieurs produits à prix réduit.",
     accent: "#0f766e",
+    parentId: "colis-surprise-palettes",
   },
   {
     id: "lots-bonnes-affaires",
     slug: "lots-bonnes-affaires",
     name: "Lots & bonnes affaires",
     description:
-      "Produits visibles à prix cassés : vêtements, chaussures, accessoires et trouvailles utiles.",
+      "Lots aléatoires, lots de déstockage, arrivages surprise et bonnes affaires visibles.",
     accent: "#2563eb",
+    parentId: "colis-surprise-palettes",
   },
   {
     id: "espace-revendeur",
     slug: "espace-revendeur",
     name: "Espace revendeur",
     description:
-      "Lots en quantité, palettes et prix dégressifs pour professionnels, marchés et revente.",
+      "Lots en quantité, prix dégressifs et offres professionnelles pour marchés et revente.",
     accent: "#7c3aed",
   },
   {
@@ -202,6 +517,7 @@ export const categories: Category[] = [
     name: "Colis surprise",
     description: "Lots mystere, retours et trouvailles a decouvrir.",
     accent: "#ffbf38",
+    parentId: "colis-surprise-palettes",
   },
   {
     id: "vetements",
@@ -266,7 +582,22 @@ export const categories: Category[] = [
     description: "Trouvailles amusantes, pratiques ou inattendues.",
     accent: "#0891b2",
   },
+  {
+    id: "produits-partenaires",
+    slug: "produits-partenaires",
+    name: "Produits partenaires",
+    description:
+      "Produits neufs selectionnes par Maxi Trouvaille et expedies par partenaires logistiques.",
+    accent: "#0f766e",
+  },
 ];
+
+export const categories: Category[] = rawCategories.map((category) => ({
+  ...category,
+  image:
+    categoryImageById[category.id] ??
+    `${categoryImageBase}/colis-surprise-palettes.webp`,
+}));
 
 export const products: Product[] = [
   {
@@ -296,6 +627,7 @@ export const products: Product[] = [
     ],
     livraisonDisponible: "sur devis",
     isTestProduct: true,
+    commerceStatus: "coming-soon",
     source: "internal",
     status: "published",
   },
@@ -325,6 +657,7 @@ export const products: Product[] = [
     ],
     livraisonDisponible: "toutes",
     isTestProduct: true,
+    commerceStatus: "coming-soon",
     source: "internal",
     status: "published",
   },
@@ -356,6 +689,7 @@ export const products: Product[] = [
     ],
     livraisonDisponible: "toutes",
     isTestProduct: true,
+    commerceStatus: "coming-soon",
     source: "internal",
     status: "published",
   },
@@ -385,6 +719,7 @@ export const products: Product[] = [
     ],
     livraisonDisponible: "sur devis",
     isTestProduct: true,
+    commerceStatus: "coming-soon",
     source: "internal",
     status: "published",
   },
@@ -416,7 +751,203 @@ export const products: Product[] = [
     livraisonDisponible: "sur devis",
     isTestProduct: true,
     source: "internal",
-    status: "published",
+    status: "draft",
+  },
+  {
+    id: "prod_partner_thermal_printer_001",
+    slug: "mini-imprimante-thermique-bluetooth",
+    name: "Mini imprimante thermique Bluetooth",
+    categoryId: "dropshipping-high-tech",
+    price: 2990,
+    compareAtPrice: 3990,
+    condition: "Neuf - selection partenaire",
+    stock: 20,
+    badge: "Neuf partenaire",
+    image: "/uploads/partner-products/mini-imprimante-thermique.webp",
+    images: ["/uploads/partner-products/mini-imprimante-thermique.webp"],
+    shortDescription:
+      "Petite imprimante sans encre pour notes, étiquettes, listes et organisation.",
+    description:
+      "Mini imprimante thermique Bluetooth pensée pour imprimer rapidement notes, étiquettes, listes et petits contenus du quotidien. Produit neuf vendu par Maxi Trouvaille avec paiement sécurisé sur le site.",
+    features: [
+      "Prix Maxi Trouvaille fixe : 29,90 €",
+      "Produit neuf prepare avec expedition par partenaire logistique",
+      "Application, papier inclus et delai client confirmes avant mise en vente",
+    ],
+    livraisonDisponible: "colissimo uniquement",
+    dropshipping: {
+      enabled: true,
+      supplierName: "Fournisseur partenaire",
+      supplierUrl:
+        "https://www.aliexpress.com/wholesale?SearchText=mini+thermal+printer+bluetooth",
+      supplierPriceCents: 1800,
+      salePriceCents: 2990,
+      marginCents: 1190,
+      supplierStock: 20,
+      deliveryEstimate: "8 a 15 jours ouvres",
+      isPromotion: true,
+      isNew: true,
+      logisticsPartnerLabel: "partenaire logistique",
+      syncStatus: "manual",
+      validationGate: {
+        source: "Catalogue statique Maxi Trouvaille",
+        checkedAt: "2026-06-09",
+        checks: [
+          "Produit partenaire statique repere par audit toutes sources",
+          "Publication bloquee tant que fournisseur exact, SKU, images, prix et delai ne sont pas prouves",
+        ],
+        note: "HOLD jusqu'a validation fournisseur exact, SKU, droits images, prix reel et delai France/Europe.",
+      },
+    },
+    source: "internal",
+    status: "draft",
+  },
+  {
+    id: "prod_partner_cable_organizer_001",
+    slug: "organisateur-cables-voyage-tech",
+    name: "Organisateur de câbles et accessoires tech",
+    categoryId: "dropshipping-accessoires",
+    price: 1290,
+    compareAtPrice: 1990,
+    condition: "Neuf - selection partenaire",
+    stock: 30,
+    badge: "Petit prix",
+    image: "/uploads/partner-products/organisateur-cables-voyage.webp",
+    images: ["/uploads/partner-products/organisateur-cables-voyage.webp"],
+    shortDescription:
+      "Pochette pratique pour ranger chargeurs, câbles, écouteurs et petits accessoires.",
+    description:
+      "Organisateur compact pour garder câbles, chargeurs, cartes mémoire, écouteurs et accessoires tech au même endroit. Produit neuf vendu par Maxi Trouvaille à prix simple.",
+    features: [
+      "Prix Maxi Trouvaille fixe : 12,90 €",
+      "Produit léger, utile et facile à ajouter au panier",
+      "Taille exacte, finition et delai client confirmes avant mise en vente",
+    ],
+    livraisonDisponible: "colissimo uniquement",
+    dropshipping: {
+      enabled: true,
+      supplierName: "Fournisseur partenaire",
+      supplierUrl:
+        "https://www.aliexpress.com/wholesale?SearchText=cable+organizer+bag+travel+electronics",
+      supplierPriceCents: 400,
+      salePriceCents: 1290,
+      marginCents: 890,
+      supplierStock: 30,
+      deliveryEstimate: "8 a 15 jours ouvres",
+      isPromotion: true,
+      isNew: false,
+      logisticsPartnerLabel: "partenaire logistique",
+      syncStatus: "manual",
+      validationGate: {
+        source: "Catalogue statique Maxi Trouvaille",
+        checkedAt: "2026-06-09",
+        checks: [
+          "Produit partenaire statique repere par audit toutes sources",
+          "Publication bloquee tant que fournisseur exact, SKU, images, prix et delai ne sont pas prouves",
+        ],
+        note: "HOLD jusqu'a validation fournisseur exact, SKU, droits images, prix reel et delai France/Europe.",
+      },
+    },
+    source: "internal",
+    status: "draft",
+  },
+  {
+    id: "prod_partner_galaxy_projector_001",
+    slug: "projecteur-galaxie-led-ambiance",
+    name: "Projecteur galaxie LED pour ambiance",
+    categoryId: "dropshipping-maison",
+    price: 2490,
+    compareAtPrice: 3490,
+    condition: "Neuf - selection partenaire",
+    stock: 20,
+    badge: "Ambiance",
+    image: "/uploads/partner-products/projecteur-galaxie-led.webp",
+    images: ["/uploads/partner-products/projecteur-galaxie-led.webp"],
+    shortDescription:
+      "Lampe d'ambiance qui projette un effet galaxie ou ciel étoilé dans une pièce.",
+    description:
+      "Projecteur LED décoratif pour créer une ambiance galaxie dans une chambre, un salon ou un coin détente. Produit neuf vendu directement par Maxi Trouvaille.",
+    features: [
+      "Prix Maxi Trouvaille fixe : 24,90 €",
+      "Produit visuel, idéal cadeau et contenu vidéo",
+      "Alimentation, telecommande et delai client confirmes avant mise en vente",
+    ],
+    livraisonDisponible: "colissimo uniquement",
+    dropshipping: {
+      enabled: true,
+      supplierName: "Fournisseur partenaire",
+      supplierUrl:
+        "https://www.aliexpress.com/wholesale?SearchText=galaxy+projector+led+star+light",
+      supplierPriceCents: 1100,
+      salePriceCents: 2490,
+      marginCents: 1390,
+      supplierStock: 20,
+      deliveryEstimate: "8 a 15 jours ouvres",
+      isPromotion: false,
+      isNew: true,
+      logisticsPartnerLabel: "partenaire logistique",
+      syncStatus: "manual",
+      validationGate: {
+        source: "Catalogue statique Maxi Trouvaille",
+        checkedAt: "2026-06-09",
+        checks: [
+          "Produit partenaire statique repere par audit toutes sources",
+          "Publication bloquee tant que fournisseur exact, SKU, images, prix et delai ne sont pas prouves",
+        ],
+        note: "HOLD jusqu'a validation fournisseur exact, SKU, droits images, prix reel et delai France/Europe.",
+      },
+    },
+    source: "internal",
+    status: "draft",
+  },
+  {
+    id: "prod_partner_car_vacuum_001",
+    slug: "mini-aspirateur-voiture-sans-fil",
+    name: "Mini aspirateur voiture sans fil",
+    categoryId: "dropshipping-auto-moto",
+    price: 3990,
+    compareAtPrice: 4990,
+    condition: "Neuf - selection partenaire",
+    stock: 15,
+    badge: "Auto",
+    image: "/uploads/partner-products/aspirateur-voiture-sans-fil.webp",
+    images: ["/uploads/partner-products/aspirateur-voiture-sans-fil.webp"],
+    shortDescription:
+      "Aspirateur rechargeable compact pour nettoyer rapidement voiture, miettes et poussières.",
+    description:
+      "Mini aspirateur sans fil pratique pour l'entretien rapide de la voiture, des sièges, tapis et petits espaces. Produit neuf vendu par Maxi Trouvaille avec prix fixe.",
+    features: [
+      "Prix Maxi Trouvaille fixe : 39,90 €",
+      "Format démonstration avant/après facile",
+      "Puissance, embouts fournis et delai client confirmes avant mise en vente",
+    ],
+    livraisonDisponible: "colissimo uniquement",
+    dropshipping: {
+      enabled: true,
+      supplierName: "Fournisseur partenaire",
+      supplierUrl:
+        "https://www.aliexpress.com/wholesale?SearchText=cordless+car+vacuum+cleaner",
+      supplierPriceCents: 2200,
+      salePriceCents: 3990,
+      marginCents: 1790,
+      supplierStock: 15,
+      deliveryEstimate: "8 a 15 jours ouvres",
+      isPromotion: true,
+      isNew: false,
+      logisticsPartnerLabel: "partenaire logistique",
+      syncStatus: "manual",
+      validationGate: {
+        source: "Catalogue statique Maxi Trouvaille",
+        checkedAt: "2026-06-09",
+        checks: [
+          "Produit partenaire statique repere par audit toutes sources",
+          "Publication bloquee tant que fournisseur exact, SKU, images, prix et delai ne sont pas prouves",
+        ],
+        note: "HOLD jusqu'a validation fournisseur exact, SKU, droits images, prix reel et delai France/Europe.",
+      },
+    },
+    source: "internal",
+    status: "draft",
   },
   {
     id: "prod_test_pack_decouverte_001",
@@ -446,8 +977,363 @@ export const products: Product[] = [
     livraisonDisponible: "toutes",
     isTestProduct: true,
     source: "internal",
+    status: "draft",
   },
 ];
+
+const surpriseComingSoonCategoryIds = new Set([
+  "colis-surprise-palettes",
+  "palettes-destockage",
+  "colis-mysteres",
+  "colis-au-poids",
+  "colis-surprise",
+  "lots-bonnes-affaires",
+]);
+
+const surpriseComingSoonKeywords = [
+  "palette surprise",
+  "palettes surprise",
+  "palette mystere",
+  "palettes mystere",
+  "colis surprise",
+  "colis mystere",
+  "box mystere",
+  "mystery box",
+  "colis perdu",
+  "colis perdus",
+];
+
+function normalizeCatalogText(value: string) {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+function hasHoldOrManualCheckSignal(value: unknown) {
+  const normalized = normalizeCatalogText(String(value ?? ""));
+
+  return [
+    "hold",
+    "a verifier",
+    "verifier avant",
+    "a confirmer",
+    "confirmer avant",
+    "obligatoire",
+    "manquant",
+    "missing",
+    "avant publication",
+    "avant vente",
+  ].some((signal) => normalized.includes(signal));
+}
+
+function hasPositiveCents(value: unknown) {
+  return typeof value === "number" && Number.isFinite(value) && value > 0;
+}
+
+function hasExactSupplierUrl(value: unknown) {
+  const normalized = normalizeCatalogText(String(value ?? ""));
+
+  if (!normalized) {
+    return false;
+  }
+
+  return !(
+    normalized.includes("wholesale?") ||
+    normalized.includes("searchtext=") ||
+    normalized.includes("/w/wholesale-")
+  );
+}
+
+function hasReadyStatus(value: unknown) {
+  const normalized = normalizeCatalogText(String(value ?? ""));
+  const statusParts = normalized.split(/[^a-z0-9]+/).filter(Boolean);
+
+  if (
+    !normalized ||
+    hasHoldOrManualCheckSignal(normalized) ||
+    ["not", "non", "pas", "pending", "ko", "incomplete", "blocked", "refused", "invalid"].some(
+      (status) => statusParts.includes(status),
+    )
+  ) {
+    return false;
+  }
+
+  return ["ok", "ready", "verified", "validated", "valide"].some((status) =>
+    statusParts.includes(status),
+  );
+}
+
+function getProductImageCandidates(product: Product) {
+  return Array.from(
+    new Set(
+      [product.image, ...(Array.isArray(product.images) ? product.images : [])]
+        .map((image) => String(image ?? "").trim())
+        .filter(Boolean),
+    ),
+  );
+}
+
+export function getPublicImageBlockers(product: Product) {
+  const blockers: string[] = [];
+  const images = getProductImageCandidates(product);
+
+  if (images.length === 0) {
+    blockers.push("image_missing");
+  }
+
+  for (const image of images) {
+    const normalized = image.toLowerCase();
+
+    if (/^https?:\/\//i.test(image)) {
+      blockers.push("image_remote_not_local");
+    }
+
+    if (/alicdn|aliexpress-media|ae-pic|aliexpress|temu/i.test(image)) {
+      blockers.push("supplier_cdn_image");
+    }
+
+    if (/images\.unsplash\.com|unsplash/i.test(image)) {
+      blockers.push("stock_visual_image");
+    }
+
+    if (nonExactProductImagePrefixes.some((prefix) => normalized.startsWith(prefix))) {
+      blockers.push("image_not_exact_product_photo");
+    }
+
+    if (/placeholder|a-verifier|hold/i.test(image)) {
+      blockers.push("placeholder_or_hold_image");
+    }
+
+    if (!exactProductImagePrefixes.some((prefix) => normalized.startsWith(prefix))) {
+      blockers.push("image_not_in_exact_product_depot");
+    }
+
+    if (!/\.webp(?:\?.*)?$/i.test(image)) {
+      blockers.push("image_not_webp");
+    }
+  }
+
+  return Array.from(new Set(blockers));
+}
+
+export function isComingSoonProduct(product: Product) {
+  if (product.commerceStatus === "coming-soon") {
+    return true;
+  }
+
+  if (surpriseComingSoonCategoryIds.has(product.categoryId)) {
+    return true;
+  }
+
+  const searchable = normalizeCatalogText(
+    `${product.name} ${product.shortDescription} ${product.description}`,
+  );
+
+  return surpriseComingSoonKeywords.some((keyword) =>
+    searchable.includes(normalizeCatalogText(keyword)),
+  );
+}
+
+export function isDropshippingProduct(product: Product) {
+  return Boolean(product.dropshipping?.enabled);
+}
+
+export function getDropshippingPublicBlockers(product: Product) {
+  const blockers: string[] = [];
+  const dropshipping = product.dropshipping;
+
+  if (!dropshipping?.enabled) {
+    blockers.push("dropshipping_disabled");
+    return blockers;
+  }
+
+  if (!hasExactSupplierUrl(dropshipping.supplierUrl)) {
+    blockers.push("supplier_url_exact_missing");
+  }
+
+  if (!dropshipping.supplierSku) {
+    blockers.push("supplier_sku_missing");
+  }
+
+  if (!hasPositiveCents(dropshipping.supplierPriceCents)) {
+    blockers.push("supplier_price_missing");
+  }
+
+  if (!hasPositiveCents(dropshipping.salePriceCents)) {
+    blockers.push("sale_price_missing");
+  }
+
+  if (!hasPositiveCents(dropshipping.marginCents)) {
+    blockers.push("margin_missing");
+  }
+
+  if (!(typeof dropshipping.supplierStock === "number" && dropshipping.supplierStock > 0)) {
+    blockers.push("supplier_stock_missing");
+  }
+
+  if (
+    !dropshipping.deliveryEstimate ||
+    hasHoldOrManualCheckSignal(dropshipping.deliveryEstimate)
+  ) {
+    blockers.push("delivery_estimate_not_ready");
+  }
+
+  if (product.imageValidation?.status !== "verified_source_images") {
+    blockers.push("exact_images_not_verified");
+  }
+
+  blockers.push(...getPublicImageBlockers(product));
+
+  if (!product.sourceVerification?.rightsStatus || !hasReadyStatus(product.sourceVerification.rightsStatus)) {
+    blockers.push("image_rights_not_ready");
+  }
+
+  if (!product.sourceVerification?.priceStatus || !hasReadyStatus(product.sourceVerification.priceStatus)) {
+    blockers.push("source_price_not_ready");
+  }
+
+  if (
+    !product.sourceVerification?.deliveryStatus ||
+    !hasReadyStatus(product.sourceVerification.deliveryStatus)
+  ) {
+    blockers.push("source_delivery_not_ready");
+  }
+
+  const validationGateChecks = Array.isArray(dropshipping.validationGate?.checks)
+    ? dropshipping.validationGate.checks
+    : [];
+
+  if (!dropshipping.validationGate || (!dropshipping.validationGate.note && validationGateChecks.length === 0)) {
+    blockers.push("validation_gate_missing");
+  }
+
+  if (
+    hasHoldOrManualCheckSignal(dropshipping.validationGate?.note) ||
+    hasHoldOrManualCheckSignal(validationGateChecks.join(" "))
+  ) {
+    blockers.push("validation_gate_not_ready");
+  }
+
+  if (hasHoldOrManualCheckSignal(product.internalSourcing?.validationStatus)) {
+    blockers.push("internal_sourcing_hold");
+  }
+
+  if (isComingSoonProduct(product)) {
+    blockers.push("coming_soon");
+  }
+
+  return Array.from(new Set(blockers));
+}
+
+export function isDropshippingProductReadyForPublic(product: Product) {
+  return getDropshippingPublicBlockers(product).length === 0;
+}
+
+export function isDropshippingCategory(category: Category) {
+  return (
+    dropshippingFocusCategoryIdSet.has(category.id) ||
+    category.id === "dropshipping" ||
+    category.parentId === "dropshipping"
+  );
+}
+
+export function isPublicCategory(category: Category) {
+  if (publicStoreMode === "dropshipping") {
+    return isDropshippingCategory(category);
+  }
+
+  return !hiddenPublicCategoryIds.has(category.id);
+}
+
+export function isPublicProduct(product: Product) {
+  const category = getCategoryById(product.categoryId);
+  const basePublic =
+    (product.status ?? "published") === "published" &&
+    !product.isTestProduct &&
+    (!category || isPublicCategory(category));
+
+  if (!basePublic) {
+    return false;
+  }
+
+  if (publicStoreMode === "dropshipping") {
+    return isDropshippingProductReadyForPublic(product);
+  }
+
+  return true;
+}
+
+export function isPromotionProduct(product: Product) {
+  return Boolean(product.dropshipping?.isPromotion || product.compareAtPrice);
+}
+
+export function isNewProduct(product: Product) {
+  return Boolean(product.dropshipping?.isNew);
+}
+
+export function isProductPurchasable(product: Product) {
+  return (
+    isPublicProduct(product) &&
+    product.stock > 0 &&
+    !isComingSoonProduct(product)
+  );
+}
+
+export function getPublicDeliveryEstimate(product: Product) {
+  if (isComingSoonProduct(product)) {
+    return "Bientot disponible sur Maxi Trouvaille";
+  }
+
+  if (product.dropshipping?.deliveryEstimate) {
+    return product.dropshipping.deliveryEstimate;
+  }
+
+  return "Livraison estimee au panier";
+}
+
+export function getProductSeoTitle(product: Product) {
+  return product.seo?.title || product.name;
+}
+
+export function getProductSeoDescription(product: Product) {
+  return product.seo?.description || product.shortDescription;
+}
+
+export function getProductImageAlt(product: Product, fallbackSuffix?: string) {
+  const baseAlt = product.imageAlt || product.seo?.imageAlt || product.name;
+  return fallbackSuffix ? `${baseAlt} ${fallbackSuffix}` : baseAlt;
+}
+
+export function getProductBadges(product: Product): ProductBadge[] {
+  if (isComingSoonProduct(product)) {
+    return [{ label: "À venir", tone: "coming-soon" }];
+  }
+
+  const badges: ProductBadge[] = [];
+
+  if (isDropshippingProduct(product)) {
+    badges.push({ label: "Partenaire", tone: "dropshipping" });
+  }
+
+  if (isNewProduct(product)) {
+    badges.push({ label: "Nouveauté", tone: "new" });
+  }
+
+  if (isPromotionProduct(product)) {
+    badges.push({ label: "Promotion", tone: "promotion" });
+  }
+
+  if (product.stock <= 0) {
+    badges.push({ label: "Rupture de stock", tone: "stock" });
+  }
+
+  if (badges.length === 0 && product.badge) {
+    badges.push({ label: product.badge, tone: "default" });
+  }
+
+  return badges;
+}
 
 export function getCategoryById(id: string) {
   return categories.find((category) => category.id === id);
@@ -455,6 +1341,37 @@ export function getCategoryById(id: string) {
 
 export function getCategoryBySlug(slug: string) {
   return categories.find((category) => category.slug === slug);
+}
+
+function isHiddenNavigationCategory(category: Category) {
+  return !isPublicCategory(category);
+}
+
+export function getTopLevelCategories() {
+  return categories.filter(
+    (category) => !category.parentId && !isHiddenNavigationCategory(category),
+  );
+}
+
+export function getSubcategoriesByParentId(parentId: string) {
+  return categories.filter(
+    (category) =>
+      category.parentId === parentId && !isHiddenNavigationCategory(category),
+  );
+}
+
+export function getCategoryFamilyIds(categoryId: string): string[] {
+  const childIds = categories
+    .filter((category) => category.parentId === categoryId)
+    .flatMap((category) => getCategoryFamilyIds(category.id));
+
+  return [categoryId, ...childIds];
+}
+
+export function getCategoryProductFamilyIds(categoryId: string): string[] {
+  return Array.from(
+    new Set([...getCategoryFamilyIds(categoryId), ...(partnerCategoryMirrors[categoryId] ?? [])]),
+  );
 }
 
 export function getProductBySlug(slug: string) {
@@ -466,9 +1383,12 @@ export function getProductById(id: string) {
 }
 
 export function getProductsByCategory(categoryId: string) {
-  return products.filter((product) => product.categoryId === categoryId);
+  const categoryIds = new Set(getCategoryProductFamilyIds(categoryId));
+  return products.filter((product) => categoryIds.has(product.categoryId));
 }
 
 export function getFeaturedProducts() {
-  return products.slice(0, 3);
+  return products
+    .filter((product) => isPublicProduct(product) && !isComingSoonProduct(product))
+    .slice(0, 3);
 }

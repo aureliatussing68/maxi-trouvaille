@@ -4,6 +4,8 @@ import Link from "next/link";
 import {
   Boxes,
   CheckCircle2,
+  LockKeyhole,
+  MessageCircle,
   Pencil,
   ShieldCheck,
   Store,
@@ -12,13 +14,27 @@ import {
 import { notFound } from "next/navigation";
 import { AddToCartButton } from "@/components/AddToCartButton";
 import { ProductEngagement } from "@/components/ProductEngagement";
+import { ProductMessageForm } from "@/components/ProductMessageForm";
 import { ReviewSummaryBadge } from "@/components/ReviewStars";
 import { isAdminModeEnabled } from "@/lib/admin";
 import {
   getCategoryById,
-  products,
+  getProductImageAlt,
+  getProductBadges,
+  getProductSeoDescription,
+  getProductSeoTitle,
+  getPublicDeliveryEstimate,
+  isComingSoonProduct,
+  isDropshippingProduct,
+  isPublicProduct,
+  isProductPurchasable,
+  type ProductBadgeTone,
 } from "@/lib/catalog";
-import { getCatalogProductBySlug } from "@/lib/catalog-server";
+import {
+  getCatalogProductBySlug,
+  getPublicCatalogProductBySlug,
+  getPublicProducts,
+} from "@/lib/catalog-server";
 import { formatPrice } from "@/lib/format";
 import {
   getApprovedReviewsForProduct,
@@ -26,26 +42,49 @@ import {
 } from "@/lib/product-reviews";
 import { getProductStats } from "@/lib/product-stats";
 
-export const dynamic = "force-dynamic";
+export const dynamicParams = false;
 
 type ProductPageProps = {
   params: Promise<{ slug: string }>;
-  searchParams?: Promise<{ adminMessage?: string | string[] }>;
+  searchParams?: Promise<{
+    adminMessage?: string | string[];
+    adminPreview?: string | string[];
+  }>;
 };
 
-export function generateStaticParams() {
-  return products.map((product) => ({ slug: product.slug }));
+export async function generateStaticParams() {
+  const publicProducts = await getPublicProducts();
+  return publicProducts.map((product) => ({ slug: product.slug }));
 }
 
 export async function generateMetadata({
   params,
+  searchParams,
 }: ProductPageProps): Promise<Metadata> {
   const { slug } = await params;
-  const product = await getCatalogProductBySlug(slug);
+  const query = searchParams ? await searchParams : {};
+  const adminMode = isAdminModeEnabled() && query.adminPreview === "1";
+  const product = adminMode
+    ? await getCatalogProductBySlug(slug)
+    : await getPublicCatalogProductBySlug(slug);
+
+  if (!product) {
+    notFound();
+  }
 
   return {
-    title: product ? product.name : "Produit",
-    description: product?.shortDescription,
+    title: getProductSeoTitle(product),
+    description: getProductSeoDescription(product),
+    robots: adminMode
+      ? {
+          index: false,
+          follow: false,
+          googleBot: {
+            index: false,
+            follow: false,
+          },
+        }
+      : undefined,
   };
 }
 
@@ -55,16 +94,28 @@ export default async function ProductPage({
 }: ProductPageProps) {
   const { slug } = await params;
   const query = searchParams ? await searchParams : {};
-  const product = await getCatalogProductBySlug(slug);
+  const adminMode = isAdminModeEnabled() && query.adminPreview === "1";
+  const product = adminMode
+    ? await getCatalogProductBySlug(slug)
+    : await getPublicCatalogProductBySlug(slug);
 
   if (!product) {
     notFound();
   }
 
   const category = getCategoryById(product.categoryId);
-  const galleryImages = product.images?.length ? product.images : [product.image];
-  const adminMode = isAdminModeEnabled();
+  const canShowProductImages = isPublicProduct(product);
+  const galleryImages = canShowProductImages
+    ? product.images?.length
+      ? product.images
+      : [product.image]
+    : [];
   const showUpdatedMessage = query.adminMessage === "updated";
+  const badges = getProductBadges(product);
+  const isComingSoon = isComingSoonProduct(product);
+  const isDropshipping = isDropshippingProduct(product);
+  const canPurchase = isProductPurchasable(product);
+  const deliveryEstimate = getPublicDeliveryEstimate(product);
   const stats = await getProductStats(product.id);
   const reviewSummary = await getApprovedReviewSummary(product.id);
   const reviews = await getApprovedReviewsForProduct(product.id);
@@ -74,16 +125,31 @@ export default async function ProductPage({
     <section className="container-page grid gap-8 py-10 lg:grid-cols-[1fr_440px]">
       <div className="grid h-fit gap-3">
         <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-line bg-[#ede7db] shadow-sm">
-          <Image
-            src={product.image}
-            alt={product.name}
-            fill
-            sizes="(min-width: 1024px) 640px, 100vw"
-            className="object-cover"
-            priority
-          />
+          {canShowProductImages ? (
+            <Image
+              src={product.image}
+              alt={getProductImageAlt(product)}
+              fill
+              sizes="(min-width: 1024px) 640px, 100vw"
+              className="object-cover"
+              priority
+            />
+          ) : (
+            <div className="flex h-full min-h-[260px] flex-col items-center justify-center gap-3 p-6 text-center">
+              <span className="inline-flex h-14 w-14 items-center justify-center rounded-md border border-[#fed7aa] bg-[#fff7ed] text-[#9a3412]">
+                <LockKeyhole size={26} aria-hidden="true" />
+              </span>
+              <div>
+                <p className="text-lg font-black">Photos en préparation</p>
+                <p className="mt-2 max-w-md text-sm font-bold leading-6 text-muted">
+                  Les photos de ce produit arrivent très bientôt. Ce produit
+                  sera disponible à la vente une fois sa fiche complète.
+                </p>
+              </div>
+            </div>
+          )}
         </div>
-        {galleryImages.length > 1 ? (
+        {canShowProductImages && galleryImages.length > 1 ? (
           <div className="grid grid-cols-5 gap-3">
             {galleryImages.slice(1).map((image, index) => (
               <div
@@ -92,7 +158,7 @@ export default async function ProductPage({
               >
                 <Image
                   src={image}
-                  alt={`${product.name} photo ${index + 2}`}
+                  alt={getProductImageAlt(product, `photo ${index + 2}`)}
                   fill
                   sizes="120px"
                   className="object-cover"
@@ -109,12 +175,30 @@ export default async function ProductPage({
             Produit modifié avec succès
           </div>
         ) : null}
+        {!canShowProductImages ? (
+          <div className="mb-5 rounded-md border border-[#fed7aa] bg-[#fff7ed] p-3 text-sm font-black leading-6 text-[#9a3412]">
+            Prévisualisation contrôlée: image, achat et publication restent
+            bloqués jusqu aux preuves complètes.
+          </div>
+        ) : null}
         <Link
           href={category ? `/categories/${category.slug}` : "/categories"}
           className="text-sm font-black uppercase text-teal hover:text-foreground"
         >
           {category?.name ?? "Categorie"}
         </Link>
+        <div className="mt-3 flex flex-wrap gap-2">
+          {badges.map((badge) => (
+            <span
+              key={`${product.id}-${badge.label}`}
+              className={`rounded-md px-2.5 py-1 text-xs font-black ${getBadgeClassName(
+                badge.tone,
+              )}`}
+            >
+              {badge.label}
+            </span>
+          ))}
+        </div>
         <h1 className="mt-3 text-3xl font-black leading-[1.08]">{product.name}</h1>
         <div className="mt-3">
           <ReviewSummaryBadge summary={reviewSummary} />
@@ -132,21 +216,29 @@ export default async function ProductPage({
 
         <ProductEngagement productId={product.id} initialStats={stats} />
 
-        <div className="mt-5 flex flex-wrap items-end gap-3">
-          <div className="text-4xl font-black">{formatPrice(product.price)}</div>
-          {product.compareAtPrice ? (
-            <div className="pb-1 text-base font-semibold text-muted line-through">
-              {formatPrice(product.compareAtPrice)}
-            </div>
-          ) : null}
-        </div>
+        {isComingSoon ? (
+          <div className="mt-5 rounded-lg border border-[#fed7aa] bg-[#fff7ed] p-4 text-sm font-black leading-6 text-[#9a3412]">
+            Bientôt disponible sur Maxi Trouvailles
+          </div>
+        ) : (
+          <div className="mt-5 flex flex-wrap items-end gap-3">
+            <div className="text-4xl font-black">{formatPrice(product.price)}</div>
+            {product.compareAtPrice ? (
+              <div className="pb-1 text-base font-semibold text-muted line-through">
+                {formatPrice(product.compareAtPrice)}
+              </div>
+            ) : null}
+          </div>
+        )}
 
         <div className="mt-6 grid gap-3 text-sm">
           <div className="flex items-center gap-2 text-muted">
             <Store size={18} aria-hidden="true" />
-            {product.source === "internal"
-              ? "Vendu par Maxi Trouvaille"
-              : "Annonce vendeur externe"}
+            {isDropshipping
+              ? "Produit expédié par partenaire logistique"
+              : product.source === "internal"
+                ? "Vendu par Maxi Trouvaille"
+                : "Annonce vendeur externe"}
           </div>
           <div className="flex items-center gap-2 text-muted">
             <ShieldCheck size={18} aria-hidden="true" />
@@ -154,22 +246,50 @@ export default async function ProductPage({
           </div>
           <div className="flex items-center gap-2 text-muted">
             <Truck size={18} aria-hidden="true" />
-            Livraison test estimee au panier
+            {deliveryEstimate}
           </div>
           <div className={product.stock > 0 ? "flex items-center gap-2 text-muted" : "flex items-center gap-2 font-black text-rose"}>
             <Boxes size={18} aria-hidden="true" />
-            {product.stock > 0
+            {isComingSoon
+              ? "Achat ouvert prochainement"
+              : product.stock > 0
               ? `Quantite disponible : ${product.stock}`
               : "Rupture de stock"}
           </div>
         </div>
 
-        <AddToCartButton
-          productId={product.id}
-          className="mt-7 w-full"
-          label="Ajouter au panier"
-          disabled={product.stock <= 0}
-        />
+        {isComingSoon ? null : (
+          <AddToCartButton
+            productId={product.id}
+            className="mt-7 w-full"
+            label="Ajouter au panier"
+            disabled={!canPurchase}
+          />
+        )}
+        <Link
+          href="#message-produit"
+          className="focus-ring mt-3 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-md border border-line px-5 py-3 text-sm font-black hover:bg-[#f1eadf]"
+        >
+          <MessageCircle size={18} aria-hidden="true" />
+          Envoyer un message
+        </Link>
+
+        {isDropshipping && !isComingSoon ? (
+          <div className="mt-5 grid gap-2 rounded-lg border border-line bg-[#fbfaf7] p-4 text-sm">
+            <div className="flex items-center gap-2 font-black text-teal">
+              <ShieldCheck size={18} aria-hidden="true" />
+              Paiement sécurisé sur Maxi Trouvaille
+            </div>
+            <div className="flex items-center gap-2 text-muted">
+              <Truck size={18} aria-hidden="true" />
+              Livraison estimée : {deliveryEstimate}
+            </div>
+            <div className="flex items-center gap-2 text-muted">
+              <Store size={18} aria-hidden="true" />
+              Service client Maxi Trouvaille et suivi colis
+            </div>
+          </div>
+        ) : null}
 
         <div className="mt-7 border-t border-line pt-6">
           <h2 className="text-lg font-black">Points cles</h2>
@@ -184,6 +304,14 @@ export default async function ProductPage({
         </div>
       </div>
     </section>
+    <ProductMessageForm
+      product={{
+        id: product.id,
+        slug: product.slug,
+        name: product.name,
+        price: product.price,
+      }}
+    />
     <section className="container-page pb-12">
       <div className="rounded-lg border border-line bg-paper p-6 shadow-sm">
         <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
@@ -227,4 +355,22 @@ export default async function ProductPage({
     </section>
     </>
   );
+}
+
+function getBadgeClassName(tone: ProductBadgeTone) {
+  switch (tone) {
+    case "coming-soon":
+      return "badge-pulse-soft bg-[#fff7ed] text-[#9a3412] ring-1 ring-[#fed7aa]";
+    case "dropshipping":
+      return "bg-[#eef8f6] text-teal ring-1 ring-[#bfe7df]";
+    case "new":
+      return "bg-[#eff6ff] text-[#1d4ed8] ring-1 ring-[#bfdbfe]";
+    case "promotion":
+      return "bg-[#fff1f2] text-rose ring-1 ring-[#fecdd3]";
+    case "stock":
+      return "bg-[#f6f1e8] text-muted ring-1 ring-line";
+    case "default":
+    default:
+      return "bg-brand text-foreground";
+  }
 }

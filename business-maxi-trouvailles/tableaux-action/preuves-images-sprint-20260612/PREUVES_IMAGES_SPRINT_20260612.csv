@@ -1,0 +1,4 @@
+shortlistRank,id,name,statusImageProof,imageCount,remoteImageCount,supplierCdnImageCount,localImageCount,localMissingCount,blockers
+"1","ali_partner_20260527_pochette_cables_voyage_001","Pochette organisateur câbles double couche voyage","HOLD_IMAGE_PROOF","4","4","4","0","0","images_distantes_a_securiser | url_image_fournisseur_visible_si_publication | variante_image_a_confirmer | droits_images_a_decider"
+"2","ali_partner_20260527_support_pc_pliant_001","Support PC portable pliant aluminium ajustable","HOLD_IMAGE_PROOF","4","4","4","0","0","images_distantes_a_securiser | url_image_fournisseur_visible_si_publication | variante_image_a_confirmer | droits_images_a_decider"
+"3","ali_partner_20260527_filet_coffre_voiture_001","Filet rangement coffre voiture à sangles fixes","HOLD_IMAGE_PROOF","6","6","6","0","0","images_distantes_a_securiser | url_image_fournisseur_visible_si_publication | variante_image_a_confirmer | droits_images_a_decider"

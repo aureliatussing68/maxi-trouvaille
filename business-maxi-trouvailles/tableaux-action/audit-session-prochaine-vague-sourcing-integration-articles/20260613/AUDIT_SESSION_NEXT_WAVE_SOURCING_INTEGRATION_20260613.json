@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-13T12:12:09.161Z",
+  "generatedAtLocal": "2026-06-13 14:12 Europe/Paris",
+  "mode": "read_only_audit_integration_next_wave_session",
+  "status": "OK_NEXT_WAVE_SESSION_GUARDED",
+  "batchCount": 3,
+  "productCount": 12,
+  "proofTaskCount": 60,
+  "imageTaskCount": 36,
+  "depositInstructionCount": 12,
+  "failureCount": 0,
+  "sensitiveFindingCount": 0,
+  "scannedFileCount": 32,
+  "issues": [],
+  "sources": {
+    "sessionPath": "business-maxi-trouvailles/tableaux-action/session-prochaine-vague-sourcing-integration-articles/20260613/SESSION_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "planPath": "business-maxi-trouvailles/tableaux-action/prochaine-vague-sourcing-integration-articles/20260613/NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "planAuditPath": "business-maxi-trouvailles/tableaux-action/audit-prochaine-vague-sourcing-integration-articles/20260613/AUDIT_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "batchCsvPath": "business-maxi-trouvailles/tableaux-action/session-prochaine-vague-sourcing-integration-articles/20260613/maxi-session-prochaine-vague-sourcing-lots-20260613.csv",
+    "proofCsvPath": "business-maxi-trouvailles/tableaux-action/session-prochaine-vague-sourcing-integration-articles/20260613/maxi-session-prochaine-vague-sourcing-preuves-20260613.csv",
+    "imageCsvPath": "business-maxi-trouvailles/tableaux-action/session-prochaine-vague-sourcing-integration-articles/20260613/maxi-session-prochaine-vague-sourcing-images-20260613.csv"
+  },
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noExternalContact": true,
+    "noImageDownload": true,
+    "noPublicImageWrite": true
+  }
+}

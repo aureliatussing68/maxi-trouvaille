@@ -1,0 +1,29 @@
+Garde passage business Maxi - 2026-06-09 18:00:59
+
+Global: OK
+Statut: READY_FOR_HUMAN_REVIEW
+Message court: Passage business en attente: fenetres OK, mode demo_draft_only, validation humaine obligatoire.
+File precedente: controle_pc_fenetres
+File actuelle: business_maxi_handoff
+File suivante apres validation humaine: business_maxi_draft_only
+Fenetres pre-business: OK
+Ecrans: 2
+Handoff runtime manuel: MANUAL_RUNTIME_REPRISE_READY_DRY_RUN - requis=True - raison=runtime_absent - dry_run=True - confirmation=True - instances=0 - script=main2.py
+Handoff runtime securite: display_only=True, snapshot_only=True, handoff_only=True, no_start=True, no_kill=True, no_container=True, no_window=True, no_browser=True, no_ai=True, no_secret=True, chemins_masques=True
+Business rapide: OK
+Mode business: demo_draft_only
+Candidats: 10
+API a completer: 2
+Sourcing reel pret: NON
+Actions brouillon disponibles apres validation: 4
+
+Blocage sans validation:
+- import_draft
+- publish_product
+- publish_tiktok
+- order_aliexpress
+- payment
+- delete_file
+- production_write
+
+Securite: lecture seule, garde uniquement, aucun job business, aucun sourcing, aucun import, aucune commande, aucun paiement, aucune publication.

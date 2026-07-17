@@ -1,0 +1,18 @@
+
+> maxi-trouvaille@0.1.0 dev
+> next dev --webpack --port 3278
+
+▲ Next.js 16.2.6 (webpack)
+- Local:         http://localhost:3278
+- Network:       http://192.168.1.121:3278
+- Environments: .env.local
+✓ Ready in 345ms
+
+ GET /sitemap.xml 200 in 800ms (next.js: 766ms, application-code: 35ms)
+ GET /robots.txt 200 in 136ms (next.js: 128ms, application-code: 8ms)
+ GET /sitemap.xml 200 in 15ms (next.js: 6ms, application-code: 9ms)
+ GET /robots.txt 200 in 6ms (next.js: 2ms, application-code: 4ms)
+ GET /sitemap.xml 200 in 9ms (next.js: 2ms, application-code: 7ms)
+ GET /sitemap.xml 200 in 8ms (next.js: 1523µs, application-code: 6ms)
+ GET /robots.txt 200 in 4ms (next.js: 1404µs, application-code: 2ms)
+[?25h

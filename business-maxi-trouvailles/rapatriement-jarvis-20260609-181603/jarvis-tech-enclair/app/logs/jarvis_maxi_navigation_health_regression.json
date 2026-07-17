@@ -1,0 +1,16 @@
+{
+  "checked_at": "2026-05-24 20:09:51",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "routes_present": true,
+    "all_routes_ok": true,
+    "read_only": true,
+    "no_browser_opened": true,
+    "no_product_write": true
+  },
+  "ok_count": 13,
+  "total": 13,
+  "note": "Regression HTTP locale lecture seule des routes navigation Maxi."
+}

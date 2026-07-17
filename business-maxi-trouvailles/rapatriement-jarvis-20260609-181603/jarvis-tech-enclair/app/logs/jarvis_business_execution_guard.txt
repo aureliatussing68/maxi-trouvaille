@@ -1,0 +1,17 @@
+Garde execution business Maxi - 2026-06-09 18:00:59
+
+Global: OK
+Statut: BLOCKED_FOR_MANUAL_VALIDATION
+Message court: Action business bloquee: Recherche produits brouillon, validation humaine requise, aucun job lance.
+Execution reconnue: oui
+Action: Recherche produits brouillon
+Script prevu: business:search
+Execution autorisee maintenant: non
+Validation humaine requise: oui
+Handoff business: READY_FOR_HUMAN_REVIEW
+Handoff runtime manuel: MANUAL_RUNTIME_REPRISE_READY_DRY_RUN - requis=True - raison=runtime_absent - dry_run=True - confirmation=True - instances=0 - script=main2.py
+Handoff runtime securite: display_only=True, snapshot_only=True, handoff_only=True, no_start=True, no_kill=True, no_container=True, no_window=True, no_browser=True, no_ai=True, no_secret=True, chemins_masques=True
+File actuelle: business_maxi_execution_guard
+File suivante apres validation humaine: business_maxi_draft_execution
+
+Securite: garde uniquement, aucun subprocess, aucun job business, aucun sourcing, aucun import, aucune commande, aucun paiement, aucune publication.

@@ -1,0 +1,27 @@
+Regression selection business - 2026-05-24 22:16:41
+Global: OK
+Message court: Selection business: 5 produit(s) conseille(s), 0 source(s) reelle(s), validation obligatoire.
+Message executeur: Selection business: 5 produit(s) conseille(s), 0 source(s) reelle(s), validation obligatoire.
+Selection: 5/10
+
+- json_written: OK
+- txt_written: OK
+- selection_present: OK
+- scores_sorted: OK
+- category_present: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- route_business_selection_brief: OK
+- execute_business_selection_brief: OK
+- executor_uses_short_message: OK
+- each_selection_requires_validation: OK
+- manual_validation_required: OK
+- read_only: OK
+- no_import: OK
+- no_order: OK
+- no_payment: OK
+- no_publication: OK
+- no_values_exposed: OK
+- no_secret_like_value_in_text: OK
+
+Securite: lecture seule, conseil uniquement, aucun secret, aucun import/commande/paiement/publication.

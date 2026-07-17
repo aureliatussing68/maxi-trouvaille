@@ -1,0 +1,62 @@
+{
+  "checked_at": "2026-06-05 16:08:02",
+  "ok": true,
+  "project": "maxi_trouvailles",
+  "project_path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille",
+  "requested_text": "Jarvis previsualise recherche produits",
+  "preview_only": true,
+  "job_started": false,
+  "action": {
+    "id": "search_products_draft",
+    "label": "Recherche produits gagnants brouillon",
+    "npm_script": "business:search",
+    "safe_to_start_after_explicit_command": true,
+    "requires_manual_validation": false
+  },
+  "operating_mode": "demo_draft_only",
+  "real_sourcing_ready": false,
+  "short_message": "Apercu business pret: Recherche produits gagnants brouillon, aucun job lance, validation avant action sensible.",
+  "missing_or_partial": [
+    {
+      "variable": "ALIEXPRESS_APP_KEY",
+      "status": "PARTIEL"
+    },
+    {
+      "variable": "ALIEXPRESS_TRACKING_ID",
+      "status": "MANQUANT"
+    }
+  ],
+  "mode_message": "Recherche possible en brouillon, mais le vrai sourcing AliExpress n'est pas pret.",
+  "steps": [
+    "Verifier le mode business et les variables manquantes.",
+    "Executer uniquement le job brouillon demande.",
+    "Ecrire les resultats dans business-maxi-trouvailles et les logs Jarvis.",
+    "Afficher un resume court a Mouss.",
+    "Attendre validation avant import, publication, achat ou paiement."
+  ],
+  "expected_outputs": {
+    "latest_candidates": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\latest_candidates.json",
+    "latest_product_sheet": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\fiches-produits\\latest_product_sheet.json",
+    "latest_ads_manifest": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\latest_ads_manifest.json",
+    "business_logs": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\logs",
+    "jarvis_logs": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs"
+  },
+  "blocked_actions": [
+    "publish_product",
+    "publish_tiktok",
+    "order_aliexpress",
+    "payment",
+    "delete_file",
+    "production_write_without_validation"
+  ],
+  "safety": {
+    "read_only": true,
+    "preview_only": true,
+    "job_started": false,
+    "no_order": true,
+    "no_payment": true,
+    "no_publication": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  }
+}

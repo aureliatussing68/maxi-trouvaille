@@ -1,0 +1,11 @@
+
+> maxi-trouvaille@0.1.0 dev
+> next dev --webpack --port 3277
+
+▲ Next.js 16.2.6 (webpack)
+- Local:         http://localhost:3277
+- Network:       http://192.168.1.121:3277
+- Environments: .env.local
+✓ Ready in 428ms
+
+[?25h

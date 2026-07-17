@@ -1,0 +1,92 @@
+import type { Metadata } from "next";
+import { BadgeEuro, ShieldCheck, Store, UserRoundCheck } from "lucide-react";
+import { CustomerJourneyPanel } from "@/components/CustomerJourneyPanel";
+import { PageHeader } from "@/components/PageHeader";
+import { PartnerProgramGatePanel } from "@/components/PartnerProgramGatePanel";
+import { ServiceReadinessPanel } from "@/components/ServiceReadinessPanel";
+import { getStorefrontControlMetrics } from "@/lib/storefront-control-metrics";
+
+const partnerProgramSteps = [
+  "Candidature partenaire",
+  "Controle des fiches",
+  "Validation admin",
+  "Activation boutique",
+];
+
+export const metadata: Metadata = {
+  title: "Programme partenaires Maxi Trouvaille",
+  description:
+    "Programme partenaires Maxi Trouvaille en préparation, boutique prioritaire et publication encadrée.",
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
+
+export default async function SellPage() {
+  const metrics = await getStorefrontControlMetrics();
+
+  return (
+    <>
+      <PageHeader
+        eyebrow="Programme partenaires"
+        title="Programme partenaires Maxi Trouvaille"
+        description="Le futur espace professionnel reste fermé pendant que la boutique produits partenaires devient propre et exploitable."
+      />
+      <div className="container-page grid gap-8 py-10">
+        <ServiceReadinessPanel metrics={metrics} />
+        <PartnerProgramGatePanel />
+        <CustomerJourneyPanel />
+
+        <section className="grid gap-6 lg:grid-cols-[1fr_360px]">
+          <div className="grid gap-5">
+            <article className="rounded-lg border border-line bg-paper p-6 shadow-sm">
+              <Store className="mb-4 text-teal" size={28} aria-hidden="true" />
+              <h2 className="text-xl font-black">Espace partenaires prevu</h2>
+              <p className="mt-3 text-sm leading-6 text-muted">
+                Les partenaires pourront plus tard proposer des fiches dans un
+                parcours encadre, avec suivi et controles avant mise en ligne.
+              </p>
+            </article>
+            <article className="rounded-lg border border-line bg-paper p-6 shadow-sm">
+              <ShieldCheck
+                className="mb-4 text-teal"
+                size={28}
+                aria-hidden="true"
+              />
+              <h2 className="text-xl font-black">Validation avant publication</h2>
+              <p className="mt-3 text-sm leading-6 text-muted">
+                Chaque fiche restera en validation jusqu&apos;a verification des
+                informations, des visuels et des conditions de livraison.
+              </p>
+            </article>
+            <article className="rounded-lg border border-line bg-paper p-6 shadow-sm">
+              <BadgeEuro className="mb-4 text-teal" size={28} aria-hidden="true" />
+              <h2 className="text-xl font-black">Modele commercial en cadrage</h2>
+              <p className="mt-3 text-sm leading-6 text-muted">
+                Les commissions, conditions et documents partenaires seront
+                confirmes avant toute activation publique du programme.
+              </p>
+            </article>
+          </div>
+
+          <aside className="h-fit rounded-lg border border-line bg-paper p-6 shadow-sm">
+            <UserRoundCheck className="mb-4 text-teal" size={28} aria-hidden="true" />
+            <h2 className="text-xl font-black">Parcours prevu</h2>
+            <div className="mt-4 grid gap-3 text-sm">
+              {partnerProgramSteps.map((label) => (
+                <div key={label} className="rounded-md bg-[#f6f1e8] px-3 py-2">
+                  <span className="font-bold">{label}</span>
+                </div>
+              ))}
+            </div>
+            <p className="mt-5 text-sm leading-6 text-muted">
+              Ce parcours reste en attente. La priorité actuelle est de rendre
+              les produits partenaires visibles seulement quand ils sont prêts.
+            </p>
+          </aside>
+        </section>
+      </div>
+    </>
+  );
+}

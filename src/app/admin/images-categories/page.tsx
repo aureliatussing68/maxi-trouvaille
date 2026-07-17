@@ -1,0 +1,362 @@
+import { promises as fs, type Dirent } from "fs";
+import path from "path";
+import type { Metadata } from "next";
+import Link from "next/link";
+import {
+  ArrowRight,
+  CheckCircle2,
+  FolderOpen,
+  Image as ImageIcon,
+  LockKeyhole,
+  ShieldCheck,
+} from "lucide-react";
+import { PageHeader } from "@/components/PageHeader";
+import { isAdminModeEnabled } from "@/lib/admin";
+
+export const dynamic = "force-dynamic";
+
+export const metadata: Metadata = {
+  title: "Admin images categories",
+};
+
+type CategoryImageItem = {
+  rank: number;
+  batchLabel: string;
+  categoryId: string;
+  categoryName: string;
+  expectedFileName: string;
+  currentImageUrl: string;
+  proposedPublicUrl: string;
+  dropFolderRelative: string;
+  stagingRelativePath: string;
+  stagingStatus: string;
+  stagingFilePresent: boolean;
+  stagingWebpValid: boolean;
+  stagingBytes: number;
+  stagingWidth: number | null;
+  stagingHeight: number | null;
+  intakeStatus: string;
+  humanReviewReady: boolean;
+  blockers?: string[];
+  warnings?: string[];
+  nextAction: string;
+  visualDirection: string;
+  safetyStatus: string;
+};
+
+type CategoryImageBatch = {
+  label: string;
+  manifestRelativePath: string;
+  itemCount: number;
+  presentValidWebpCount: number;
+  missingCount: number;
+  invalidFileCount: number;
+};
+
+type CategoryImageStatus = {
+  ok: boolean;
+  generatedAtLocal: string;
+  batchCount: number;
+  expectedImageCount: number;
+  presentValidWebpCount: number;
+  missingCount: number;
+  invalidFileCount: number;
+  humanReviewReadyCount: number;
+  outputDirRelative: string;
+  batches: CategoryImageBatch[];
+  items: CategoryImageItem[];
+};
+
+type ReadResult = {
+  status: CategoryImageStatus;
+  statusPath: string;
+};
+
+const statusRoot = path.join(
+  process.cwd(),
+  "business-maxi-trouvailles",
+  "tableaux-action",
+);
+
+async function collectStatusFiles(dir: string, out: string[] = []) {
+  let entries: Dirent[];
+
+  try {
+    entries = await fs.readdir(dir, { withFileTypes: true });
+  } catch {
+    return out;
+  }
+
+  for (const entry of entries) {
+    const fullPath = path.join(dir, entry.name);
+
+    if (entry.isDirectory()) {
+      await collectStatusFiles(fullPath, out);
+    } else if (
+      entry.isFile() &&
+      entry.name.startsWith("SUIVI_DEPOTS_IMAGES_CATEGORIES_") &&
+      entry.name.endsWith(".json")
+    ) {
+      out.push(fullPath);
+    }
+  }
+
+  return out;
+}
+
+async function readLatestStatus(): Promise<ReadResult | null> {
+  const files = await collectStatusFiles(statusRoot);
+  const dated = await Promise.all(
+    files.map(async (filePath) => ({
+      filePath,
+      mtimeMs: (await fs.stat(filePath)).mtimeMs,
+    })),
+  );
+  const latest = dated.sort((a, b) => b.mtimeMs - a.mtimeMs)[0];
+
+  if (!latest) {
+    return null;
+  }
+
+  return {
+    status: JSON.parse(await fs.readFile(latest.filePath, "utf8")) as CategoryImageStatus,
+    statusPath: path.relative(process.cwd(), latest.filePath),
+  };
+}
+
+function statusClasses(status: string) {
+  if (status.startsWith("OK_") || status.includes("READY")) {
+    return "border-teal/25 bg-[#ecfdf5] text-teal";
+  }
+
+  if (status.includes("INVALID") || status.includes("FAIL")) {
+    return "border-rose/25 bg-[#fff1f2] text-rose";
+  }
+
+  return "border-[#f6d38b] bg-[#fff8e6] text-[#8a5a00]";
+}
+
+function lockedAdminState() {
+  return (
+    <>
+      <PageHeader
+        eyebrow="Admin"
+        title="Images categories verrouillees"
+        description="Activez ADMIN_MODE=true dans l'environnement local pour ouvrir cet atelier."
+      />
+      <section className="container-page py-10">
+        <div className="rounded-lg border border-line bg-paper p-6 text-sm font-bold text-muted shadow-sm">
+          Le mode admin est desactive.
+        </div>
+      </section>
+    </>
+  );
+}
+
+export default async function AdminCategoryImagesPage() {
+  if (!isAdminModeEnabled()) {
+    return lockedAdminState();
+  }
+
+  const result = await readLatestStatus();
+
+  if (!result) {
+    return (
+      <>
+        <PageHeader
+          eyebrow="Admin"
+          title="Images categories"
+          description="Aucun suivi de depot image categorie disponible."
+        />
+        <section className="container-page py-10">
+          <div className="rounded-lg border border-line bg-paper p-6 text-sm font-bold text-muted shadow-sm">
+            Lancez `npm run catalog:category-image-intake-status`.
+          </div>
+        </section>
+      </>
+    );
+  }
+
+  const { status, statusPath } = result;
+
+  return (
+    <>
+      <PageHeader
+        eyebrow="Admin"
+        title="Atelier images categories"
+        description="Suivi des WebP a deposer avant revue humaine. Rien n'est copie dans le site public depuis cette page."
+      />
+
+      <section className="container-page grid gap-8 py-10">
+        <div className="flex min-w-0 flex-col justify-between gap-4 rounded-lg border border-line bg-paper p-5 shadow-sm lg:flex-row lg:items-center">
+          <div className="min-w-0">
+            <p className="text-sm font-black uppercase text-teal">
+              {status.generatedAtLocal}
+            </p>
+            <h2 className="mt-2 text-2xl font-black">
+              {status.missingCount} images manquantes sur {status.expectedImageCount}
+            </h2>
+            <p className="mt-2 max-w-3xl break-all text-sm leading-6 text-muted">
+              {statusPath}
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            <Link
+              href="/admin/pilotage"
+              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-[#2b2b2b]"
+            >
+              Pilotage
+              <ArrowRight size={16} aria-hidden="true" />
+            </Link>
+            <Link
+              href="/admin/photos-produits"
+              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line px-4 text-sm font-black hover:bg-[#f1eadf]"
+            >
+              Photos produits
+              <ArrowRight size={16} aria-hidden="true" />
+            </Link>
+            <Link
+              href="/admin/preuves-partenaires"
+              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line px-4 text-sm font-black hover:bg-[#f1eadf]"
+            >
+              Preuves
+              <ArrowRight size={16} aria-hidden="true" />
+            </Link>
+          </div>
+        </div>
+
+        <section className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+          <article className="rounded-lg border border-line bg-paper p-4 shadow-sm">
+            <div className="flex items-center justify-between gap-3">
+              <span className="text-sm font-black text-muted">Attendues</span>
+              <ImageIcon size={20} className="text-teal" aria-hidden="true" />
+            </div>
+            <p className="mt-4 text-3xl font-black">{status.expectedImageCount}</p>
+          </article>
+          <article className="rounded-lg border border-line bg-paper p-4 shadow-sm">
+            <div className="flex items-center justify-between gap-3">
+              <span className="text-sm font-black text-muted">Valides staging</span>
+              <CheckCircle2 size={20} className="text-teal" aria-hidden="true" />
+            </div>
+            <p className="mt-4 text-3xl font-black">{status.presentValidWebpCount}</p>
+          </article>
+          <article className="rounded-lg border border-line bg-paper p-4 shadow-sm">
+            <div className="flex items-center justify-between gap-3">
+              <span className="text-sm font-black text-muted">Pretes revue</span>
+              <ShieldCheck size={20} className="text-teal" aria-hidden="true" />
+            </div>
+            <p className="mt-4 text-3xl font-black">{status.humanReviewReadyCount}</p>
+          </article>
+          <article className="rounded-lg border border-line bg-paper p-4 shadow-sm">
+            <div className="flex items-center justify-between gap-3">
+              <span className="text-sm font-black text-muted">Invalides</span>
+              <LockKeyhole size={20} className="text-rose" aria-hidden="true" />
+            </div>
+            <p className="mt-4 text-3xl font-black">{status.invalidFileCount}</p>
+          </article>
+        </section>
+
+        <section className="grid gap-4 lg:grid-cols-2">
+          {status.batches.map((batch) => (
+            <article
+              key={batch.manifestRelativePath}
+              className="rounded-lg border border-line bg-paper p-5 shadow-sm"
+            >
+              <p className="text-sm font-black uppercase text-teal">{batch.label}</p>
+              <div className="mt-4 grid grid-cols-3 gap-2 text-center">
+                <div className="rounded-md bg-[#f6f1e8] p-2">
+                  <p className="text-lg font-black">{batch.itemCount}</p>
+                  <p className="text-[11px] font-bold uppercase text-muted">items</p>
+                </div>
+                <div className="rounded-md bg-[#fff8e6] p-2">
+                  <p className="text-lg font-black">{batch.missingCount}</p>
+                  <p className="text-[11px] font-bold uppercase text-muted">manquants</p>
+                </div>
+                <div className="rounded-md bg-[#ecfdf5] p-2">
+                  <p className="text-lg font-black">{batch.presentValidWebpCount}</p>
+                  <p className="text-[11px] font-bold uppercase text-muted">valides</p>
+                </div>
+              </div>
+              <p className="mt-4 break-all text-xs leading-5 text-muted">
+                {batch.manifestRelativePath}
+              </p>
+            </article>
+          ))}
+        </section>
+
+        <section className="rounded-lg border border-line bg-[#171717] p-5 text-white shadow-sm">
+          <p className="text-sm font-black uppercase text-brand">Verrous images</p>
+          <ul className="mt-4 grid gap-2 text-sm font-bold text-white/78 md:grid-cols-2">
+            <li>Aucune copie dans `public/uploads/category-images` depuis cette page</li>
+            <li>Aucune publication automatique</li>
+            <li>Aucune generation ou telechargement externe</li>
+            <li>Revue Mouss obligatoire avant application publique</li>
+          </ul>
+        </section>
+
+        <section className="grid gap-4">
+          {status.items.map((item) => (
+            <article
+              key={`${item.rank}-${item.categoryId}`}
+              className="min-w-0 rounded-lg border border-line bg-paper p-5 shadow-sm"
+            >
+              <div className="flex flex-col gap-3 lg:flex-row lg:items-start lg:justify-between">
+                <div className="min-w-0">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="rounded-md bg-[#f6f1e8] px-2 py-1 text-xs font-black">
+                      #{item.rank}
+                    </span>
+                    <span
+                      className={`rounded-md border px-2 py-1 text-[11px] font-black uppercase ${statusClasses(
+                        item.intakeStatus,
+                      )}`}
+                    >
+                      {item.intakeStatus.replace(/_/g, " ")}
+                    </span>
+                    <span className="text-xs font-black uppercase text-muted">
+                      {item.batchLabel}
+                    </span>
+                  </div>
+                  <h3 className="mt-2 text-xl font-black">{item.categoryName}</h3>
+                  <p className="mt-2 text-sm leading-6 text-muted">
+                    {item.visualDirection}
+                  </p>
+                </div>
+                <span className="inline-flex min-h-10 shrink-0 items-center justify-center gap-2 rounded-md border border-line px-3 text-sm font-black">
+                  <FolderOpen size={16} aria-hidden="true" />
+                  {item.expectedFileName}
+                </span>
+              </div>
+
+              <dl className="mt-5 grid gap-3 border-t border-line pt-4 text-sm md:grid-cols-2">
+                <div>
+                  <dt className="font-black uppercase text-muted">Depot attendu</dt>
+                  <dd className="mt-1 break-all text-foreground">{item.stagingRelativePath}</dd>
+                </div>
+                <div>
+                  <dt className="font-black uppercase text-muted">URL publique proposee</dt>
+                  <dd className="mt-1 break-all text-foreground">{item.proposedPublicUrl}</dd>
+                </div>
+                <div>
+                  <dt className="font-black uppercase text-muted">Image actuelle</dt>
+                  <dd className="mt-1 break-all text-foreground">{item.currentImageUrl}</dd>
+                </div>
+                <div>
+                  <dt className="font-black uppercase text-muted">Statut fichier</dt>
+                  <dd className="mt-1 text-foreground">
+                    {item.stagingFilePresent ? "present" : "absent"} -{" "}
+                    {item.stagingWebpValid ? "WebP valide" : "WebP non valide"}
+                  </dd>
+                </div>
+              </dl>
+
+              <div className="mt-4 rounded-md bg-[#fff8e6] p-3 text-sm leading-6 text-[#8a5a00]">
+                <span className="font-black">Action:</span> {item.nextAction}
+              </div>
+            </article>
+          ))}
+        </section>
+      </section>
+    </>
+  );
+}

@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "generatedAtLocal": "2026-06-11T14:50:00.079Z",
+  "checks": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "url": "http://127.0.0.1:3056/admin/pilotage",
+      "visibility": {
+        "Production visuels exacts": true,
+        "Ordre unique photos produits + categories": true,
+        "17 visuels a produire maintenant": true,
+        "Exporter visuels exacts CSV": true,
+        "VISUELS_EXACTS_A_PRODUIRE_20260611.json": true,
+        "P0 produits": true,
+        "P1/P2 categories": true,
+        "01-pochette-organisateur-cables-double-couche-voyage-main.webp": true,
+        "dropshipping-maison.webp": true
+      },
+      "exportPresent": true,
+      "csvChecks": {
+        "hasPriorityColumn": true,
+        "hasUrgencyColumn": true,
+        "hasDropFolderColumn": true,
+        "hasProductRows": true,
+        "hasCategoryRows": true,
+        "hasHoldMarker": true,
+        "rowCount": 18,
+        "forbiddenHits": []
+      },
+      "layout": {
+        "bodyOverflowX": "clip",
+        "overflowing": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-138-pilotage-visuels-exacts-desktop.png",
+      "ok": true
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:3056/admin/pilotage",
+      "visibility": {
+        "Production visuels exacts": true,
+        "Ordre unique photos produits + categories": true,
+        "17 visuels a produire maintenant": true,
+        "Exporter visuels exacts CSV": true,
+        "VISUELS_EXACTS_A_PRODUIRE_20260611.json": true,
+        "P0 produits": true,
+        "P1/P2 categories": true,
+        "01-pochette-organisateur-cables-double-couche-voyage-main.webp": true,
+        "dropshipping-maison.webp": true
+      },
+      "exportPresent": true,
+      "csvChecks": {
+        "hasPriorityColumn": true,
+        "hasUrgencyColumn": true,
+        "hasDropFolderColumn": true,
+        "hasProductRows": true,
+        "hasCategoryRows": true,
+        "hasHoldMarker": true,
+        "rowCount": 18,
+        "forbiddenHits": []
+      },
+      "layout": {
+        "bodyOverflowX": "clip",
+        "overflowing": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-138-pilotage-visuels-exacts-mobile.png",
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+Liaison completion fournisseur vers revue import - 2026-06-09 18:00:36
+
+Global: OK
+Statut: BLOCKED_BEFORE_MANUAL_IMPORT_REVIEW
+Message court: Liaison import fournisseur bloquee: 0/6 pret(s), aucune revue import lancee.
+Liaison revue import prete: non
+Completion fournisseur prete: non
+File validation - total: 6
+File validation - prets: 0
+File validation - bloques: 6
+Import brouillon autorise: non
+Revue import manuelle autorisee maintenant: non
+Confirmation vocale generique deverrouille revue import: non
+
+Blocages:
+- completion_fournisseur_non_prete
+- aucun_produit_pret_en_file_validation
+- garde_import_brouillon_bloque
+
+Prochaines etapes manuelles:
+- Completer le garde completion fournisseur avant toute revue import.
+- Relire la file produits a valider et attendre au moins un item pret.
+- Verifier le garde import brouillon avant de preparer un handoff manuel.
+- Demander une validation Mouss specifique avant import, commande, paiement, publication ou suppression.
+
+Securite: liaison lecture seule, aucun detail produit expose, aucune recherche web/API, aucune revue import lancee, aucun import, achat, paiement, publication ou suppression.

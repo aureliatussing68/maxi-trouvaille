@@ -1,0 +1,124 @@
+{
+  "checked_at": "2026-06-09 17:57:31",
+  "ok": true,
+  "server_reachable": false,
+  "base_url": "http://127.0.0.1:3010",
+  "base_status": {
+    "ok": false,
+    "reachable": false,
+    "status": "OFFLINE",
+    "detail": "port local ferme, probe HTTP ignore",
+    "code": 0,
+    "elapsed_ms": 0
+  },
+  "project_path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille",
+  "admin_mode": "OK",
+  "route_count": 32,
+  "admin_route_count": 7,
+  "admin_routes": [
+    {
+      "route": "/admin/ajout-images",
+      "file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\src\\app\\admin\\ajout-images\\page.tsx",
+      "dynamic": false,
+      "admin": true
+    },
+    {
+      "route": "/admin/ajout-rapide",
+      "file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\src\\app\\admin\\ajout-rapide\\page.tsx",
+      "dynamic": false,
+      "admin": true
+    },
+    {
+      "route": "/admin/avis",
+      "file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\src\\app\\admin\\avis\\page.tsx",
+      "dynamic": false,
+      "admin": true
+    },
+    {
+      "route": "/admin/dropshipping",
+      "file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\src\\app\\admin\\dropshipping\\page.tsx",
+      "dynamic": false,
+      "admin": true
+    },
+    {
+      "route": "/admin/messages",
+      "file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\src\\app\\admin\\messages\\page.tsx",
+      "dynamic": false,
+      "admin": true
+    },
+    {
+      "route": "/admin/produits/:slug/modifier",
+      "file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\src\\app\\admin\\produits\\[slug]\\modifier\\page.tsx",
+      "dynamic": true,
+      "admin": true
+    },
+    {
+      "route": "/admin/selection-produits",
+      "file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\src\\app\\admin\\selection-produits\\page.tsx",
+      "dynamic": false,
+      "admin": true
+    }
+  ],
+  "admin_probes": [
+    {
+      "url": "http://127.0.0.1:3010/admin/dropshipping",
+      "ok": false,
+      "reachable": false,
+      "status": "KO",
+      "detail": "base_unreachable:port local ferme, probe HTTP ignore",
+      "code": 0,
+      "elapsed_ms": 0
+    },
+    {
+      "url": "http://127.0.0.1:3010/admin/ajout-rapide",
+      "ok": false,
+      "reachable": false,
+      "status": "KO",
+      "detail": "base_unreachable:port local ferme, probe HTTP ignore",
+      "code": 0,
+      "elapsed_ms": 0
+    },
+    {
+      "url": "http://127.0.0.1:3010/admin/ajout-images",
+      "ok": false,
+      "reachable": false,
+      "status": "KO",
+      "detail": "base_unreachable:port local ferme, probe HTTP ignore",
+      "code": 0,
+      "elapsed_ms": 0
+    },
+    {
+      "url": "http://127.0.0.1:3010/admin/messages",
+      "ok": false,
+      "reachable": false,
+      "status": "KO",
+      "detail": "base_unreachable:port local ferme, probe HTTP ignore",
+      "code": 0,
+      "elapsed_ms": 0
+    },
+    {
+      "url": "http://127.0.0.1:3010/admin/avis",
+      "ok": false,
+      "reachable": false,
+      "status": "KO",
+      "detail": "base_unreachable:port local ferme, probe HTTP ignore",
+      "code": 0,
+      "elapsed_ms": 0
+    },
+    {
+      "url": "http://127.0.0.1:3010/admin",
+      "ok": false,
+      "reachable": false,
+      "status": "KO",
+      "detail": "base_unreachable:port local ferme, probe HTTP ignore",
+      "code": 0,
+      "elapsed_ms": 0
+    }
+  ],
+  "recommended_admin_url": "http://127.0.0.1:3010/admin/dropshipping",
+  "notes": [
+    "/admin peut etre absent dans Next.js sans page dediee.",
+    "Jarvis doit ouvrir une route admin concrete, par exemple dropshipping ou ajout rapide.",
+    "Diagnostic lecture seule: aucune modification du site Maxi."
+  ]
+}

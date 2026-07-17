@@ -1,0 +1,32 @@
+Regression tableau file produits a valider - 2026-05-24 20:47:10
+Global: OK
+Message court: Tableau validation: 6 produit(s), 0 pret(s), 6 a relire, affichage seulement.
+Produits lus: 6
+Bloques: 6
+Prets: 0
+Message executor: Tableau validation: 6 produit(s), 0 pret(s), 6 a relire, affichage seulement.
+
+- json_written: OK
+- txt_written: OK
+- html_written: OK
+- rows_list_present: OK
+- at_least_one_review_pack: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- html_mentions_short_message: OK
+- route_business_validation_queue_board: OK
+- execute_business_validation_queue_board: OK
+- executor_uses_short_message: OK
+- not_opened_in_regression: OK
+- display_only: OK
+- read_only: OK
+- site_not_modified: OK
+- import_not_started: OK
+- order_not_started: OK
+- payment_not_started: OK
+- publication_not_started: OK
+- manual_validation_required: OK
+- no_values_exposed: OK
+- no_secret_like_value_in_reports: OK
+
+Securite: affichage seulement, aucun secret, aucun import/commande/paiement/publication.

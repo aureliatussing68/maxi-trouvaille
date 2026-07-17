@@ -3,23 +3,23 @@ import { BadgeEuro, PackageCheck, ShieldCheck, Truck } from "lucide-react";
 const items = [
   {
     icon: PackageCheck,
-    title: "Arrivages varies",
-    text: "Lots, bonnes affaires et trouvailles selon les stocks.",
+    title: "Produits vérifiés",
+    text: "Chaque fiche est relue et validée avant sa mise en ligne.",
   },
   {
     icon: ShieldCheck,
-    title: "Achat encadre",
-    text: "Paiement test d'abord, activation reelle sur validation.",
+    title: "Achat sécurisé",
+    text: "Paiement par carte via Stripe, données protégées.",
   },
   {
     icon: Truck,
-    title: "Livraison preparee",
-    text: "Structure prete pour les envois suivis.",
+    title: "Livraison suivie",
+    text: "Numéro de suivi et réception estimée 7 à 14 jours ouvrés.",
   },
   {
     icon: BadgeEuro,
     title: "Prix clairs",
-    text: "Prix centralises dans le catalogue produit.",
+    text: "Prix tout compris, frais de livraison affichés avant paiement.",
   },
 ];
 

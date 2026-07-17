@@ -1,0 +1,11 @@
+{
+  "checked_at": "2026-05-22 20:42:56",
+  "ok": true,
+  "assertions": {
+    "state_file_written": true,
+    "recent_detected": true,
+    "expired_not_detected": true,
+    "age_present": true
+  },
+  "note": "Regression locale du verrou anti-doublon business, sans lancer npm."
+}

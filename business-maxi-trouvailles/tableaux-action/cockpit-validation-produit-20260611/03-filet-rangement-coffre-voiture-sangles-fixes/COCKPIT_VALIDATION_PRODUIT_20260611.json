@@ -1,0 +1,323 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-11T06:02:14.616Z",
+  "generatedAtLocal": "2026-06-11 08:02 Europe/Paris",
+  "mode": "read_only_single_product_validation_cockpit",
+  "status": "HOLD_MISSING_EVIDENCE",
+  "product": {
+    "id": "ali_partner_20260527_filet_coffre_voiture_001",
+    "slug": "filet-rangement-coffre-voiture-sangles-fixes",
+    "name": "Filet rangement coffre voiture à sangles fixes",
+    "categoryId": "dropshipping-auto-moto",
+    "priority": 7,
+    "status": "HOLD_MISSING_EVIDENCE",
+    "score": 70
+  },
+  "margin": {
+    "supplierCents": 400,
+    "saleCents": 670,
+    "marginCents": 270,
+    "marginRate": 0.40298507462686567,
+    "marginPercent": 40.3
+  },
+  "supplierForInternalValidation": {
+    "url": "https://www.aliexpress.com/item/1005006160871310.html",
+    "sku": "AE-ITEM-1005006160871310",
+    "supplierPrice": "4.00 EUR",
+    "salePrice": "6.70 EUR",
+    "stock": 45,
+    "currentDeliveryEstimate": "7 à 15 jours ouvrés estimés"
+  },
+  "customerSafeDraft": {
+    "title": "Filet rangement coffre voiture à sangles fixes",
+    "shortDescription": "Accessoire pratique en validation interne. Mise en vente uniquement apres controle des images, du stock, du delai et du partenaire logistique.",
+    "deliveryCopy": "Livraison estimee affichee seulement apres validation France/Europe.",
+    "trustCopy": "Paiement securise sur Maxi Trouvaille, service client Maxi Trouvaille, suivi colis."
+  },
+  "evidenceFields": [
+    {
+      "key": "checkedAt",
+      "label": "Date de verification",
+      "instruction": "Renseigner la date exacte de controle fournisseur.",
+      "value": "",
+      "currentValue": "",
+      "ok": false,
+      "issues": []
+    },
+    {
+      "key": "supplierSellerName",
+      "label": "Nom vendeur fournisseur",
+      "instruction": "Copier le nom du vendeur affiche sur la page fournisseur.",
+      "value": "",
+      "currentValue": "",
+      "ok": false,
+      "issues": []
+    },
+    {
+      "key": "exactVariantChosen",
+      "label": "Variante exacte",
+      "instruction": "Preciser couleur, format, lot, taille ou option vendue.",
+      "value": "",
+      "currentValue": "",
+      "ok": false,
+      "issues": []
+    },
+    {
+      "key": "deliveryFranceEuropeProof",
+      "label": "Preuve delai France/Europe",
+      "instruction": "Noter la preuve visible du delai France/Europe.",
+      "value": "",
+      "currentValue": "",
+      "ok": false,
+      "issues": []
+    },
+    {
+      "key": "deliveryEstimateForCustomer",
+      "label": "Delai client Maxi",
+      "instruction": "Renseigner un delai client propre et prudent.",
+      "value": "",
+      "currentValue": "",
+      "ok": false,
+      "issues": []
+    },
+    {
+      "key": "trackingAvailable",
+      "label": "Suivi disponible",
+      "instruction": "Confirmer oui/non selon l'option fournisseur visible.",
+      "value": "",
+      "currentValue": "",
+      "ok": false,
+      "issues": []
+    },
+    {
+      "key": "pricingProof",
+      "label": "Preuve prix",
+      "instruction": "Noter prix produit, frais livraison et devise vus.",
+      "value": "",
+      "currentValue": "",
+      "ok": false,
+      "issues": []
+    },
+    {
+      "key": "shippingProof",
+      "label": "Preuve livraison",
+      "instruction": "Noter transporteur, frais et zone de livraison.",
+      "value": "",
+      "currentValue": "",
+      "ok": false,
+      "issues": []
+    },
+    {
+      "key": "imageProof",
+      "label": "Preuve image exacte",
+      "instruction": "Confirmer que l'image represente exactement la variante vendue.",
+      "value": "",
+      "currentValue": "",
+      "ok": false,
+      "issues": []
+    },
+    {
+      "key": "imageRightsProof",
+      "label": "Droits image",
+      "instruction": "Photo propre, autorisation fournisseur ou maintenir HOLD.",
+      "value": "",
+      "currentValue": "",
+      "ok": false,
+      "issues": []
+    },
+    {
+      "key": "finalDecision",
+      "label": "Decision finale",
+      "instruction": "Laisser HOLD tant que tout n'est pas pret pour revue humaine.",
+      "value": "HOLD",
+      "currentValue": "HOLD",
+      "ok": false,
+      "issues": []
+    },
+    {
+      "key": "reviewedByMouss",
+      "label": "Revue Mouss",
+      "instruction": "Cocher uniquement apres validation humaine explicite.",
+      "value": "non",
+      "currentValue": "non",
+      "ok": false,
+      "issues": []
+    }
+  ],
+  "evidenceFieldCount": 12,
+  "evidenceFieldMissingCount": 12,
+  "imageTasks": [
+    {
+      "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+      "productName": "Filet rangement coffre voiture à sangles fixes",
+      "imageIndex": 1,
+      "role": "main",
+      "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260611/filet-rangement-coffre-voiture-a-sangles-fixes/01-filet-rangement-coffre-voiture-a-sangles-fixes-main.webp",
+      "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260611\\filet-rangement-coffre-voiture-a-sangles-fixes\\01-filet-rangement-coffre-voiture-a-sangles-fixes-main.webp",
+      "exists": false,
+      "sizeBytes": 0,
+      "webpSignatureOk": false,
+      "status": "HOLD_LOCAL_FILE_MISSING",
+      "failures": [],
+      "blockers": [
+        "fichier_local_manquant"
+      ]
+    },
+    {
+      "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+      "productName": "Filet rangement coffre voiture à sangles fixes",
+      "imageIndex": 2,
+      "role": "detail",
+      "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260611/filet-rangement-coffre-voiture-a-sangles-fixes/02-filet-rangement-coffre-voiture-a-sangles-fixes-detail.webp",
+      "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260611\\filet-rangement-coffre-voiture-a-sangles-fixes\\02-filet-rangement-coffre-voiture-a-sangles-fixes-detail.webp",
+      "exists": false,
+      "sizeBytes": 0,
+      "webpSignatureOk": false,
+      "status": "HOLD_LOCAL_FILE_MISSING",
+      "failures": [],
+      "blockers": [
+        "fichier_local_manquant"
+      ]
+    },
+    {
+      "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+      "productName": "Filet rangement coffre voiture à sangles fixes",
+      "imageIndex": 3,
+      "role": "usage",
+      "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260611/filet-rangement-coffre-voiture-a-sangles-fixes/03-filet-rangement-coffre-voiture-a-sangles-fixes-usage.webp",
+      "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260611\\filet-rangement-coffre-voiture-a-sangles-fixes\\03-filet-rangement-coffre-voiture-a-sangles-fixes-usage.webp",
+      "exists": false,
+      "sizeBytes": 0,
+      "webpSignatureOk": false,
+      "status": "HOLD_LOCAL_FILE_MISSING",
+      "failures": [],
+      "blockers": [
+        "fichier_local_manquant"
+      ]
+    },
+    {
+      "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+      "productName": "Filet rangement coffre voiture à sangles fixes",
+      "imageIndex": 4,
+      "role": "dimensions",
+      "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260611/filet-rangement-coffre-voiture-a-sangles-fixes/04-filet-rangement-coffre-voiture-a-sangles-fixes-dimensions.webp",
+      "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260611\\filet-rangement-coffre-voiture-a-sangles-fixes\\04-filet-rangement-coffre-voiture-a-sangles-fixes-dimensions.webp",
+      "exists": false,
+      "sizeBytes": 0,
+      "webpSignatureOk": false,
+      "status": "HOLD_LOCAL_FILE_MISSING",
+      "failures": [],
+      "blockers": [
+        "fichier_local_manquant"
+      ]
+    },
+    {
+      "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+      "productName": "Filet rangement coffre voiture à sangles fixes",
+      "imageIndex": 5,
+      "role": "detail-5",
+      "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260611/filet-rangement-coffre-voiture-a-sangles-fixes/05-filet-rangement-coffre-voiture-a-sangles-fixes-detail-5.webp",
+      "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260611\\filet-rangement-coffre-voiture-a-sangles-fixes\\05-filet-rangement-coffre-voiture-a-sangles-fixes-detail-5.webp",
+      "exists": false,
+      "sizeBytes": 0,
+      "webpSignatureOk": false,
+      "status": "HOLD_LOCAL_FILE_MISSING",
+      "failures": [],
+      "blockers": [
+        "fichier_local_manquant"
+      ]
+    },
+    {
+      "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+      "productName": "Filet rangement coffre voiture à sangles fixes",
+      "imageIndex": 6,
+      "role": "detail-6",
+      "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260611/filet-rangement-coffre-voiture-a-sangles-fixes/06-filet-rangement-coffre-voiture-a-sangles-fixes-detail-6.webp",
+      "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260611\\filet-rangement-coffre-voiture-a-sangles-fixes\\06-filet-rangement-coffre-voiture-a-sangles-fixes-detail-6.webp",
+      "exists": false,
+      "sizeBytes": 0,
+      "webpSignatureOk": false,
+      "status": "HOLD_LOCAL_FILE_MISSING",
+      "failures": [],
+      "blockers": [
+        "fichier_local_manquant"
+      ]
+    }
+  ],
+  "imageTaskCount": 6,
+  "blockers": [
+    "date_verification_absente",
+    "nom_vendeur_fournisseur_absent",
+    "variante_exacte_absente",
+    "delai_client_absent",
+    "tracking_non_confirme",
+    "preuve_delai_france_europe_absente",
+    "preuve_prix_absente",
+    "preuve_livraison_absente",
+    "preuve_image_exacte_absente",
+    "preuve_droits_images_absente",
+    "decision_finale_pas_ready_review",
+    "revue_mouss_absente",
+    "checkedAt:missing_or_placeholder",
+    "supplierSellerName:missing_or_placeholder",
+    "exactVariantChosen:missing_or_placeholder",
+    "deliveryFranceEuropeProof:missing_or_placeholder",
+    "deliveryEstimateForCustomer:missing_or_placeholder",
+    "trackingAvailable:missing_or_placeholder",
+    "trackingAvailable:tracking_answer_not_clear_yes_no",
+    "pricingProof:missing_or_placeholder",
+    "shippingProof:missing_or_placeholder",
+    "imageProof:missing_or_placeholder",
+    "imageRightsProof:missing_or_placeholder",
+    "finalDecision:final_decision_not_ready_review",
+    "reviewedByMouss:missing_human_review_mouss",
+    "fichier_local_manquant",
+    "catalogue_pointe_encore_vers_domaine_fournisseur",
+    "fichiers_webp_locaux_manquants",
+    "fichiers_webp_locaux_non_prets",
+    "catalogue_pas_encore_aligne_sur_images_locales",
+    "image_principale_pas_locale_cible",
+    "decision_droits_images_absente",
+    "image_not_public_ready"
+  ],
+  "gates": {
+    "readyReviewAllowed": false,
+    "publicationAllowed": false,
+    "paymentAllowed": false,
+    "supplierOrderAllowed": false,
+    "imageGateReviewAllowed": false
+  },
+  "commandsToRunAfterFill": [
+    "npm run catalog:audit-fast-proof-now-export",
+    "npm run catalog:audit-sprint-image-local-files",
+    "npm run catalog:audit-sprint-image-gates",
+    "npm run catalog:audit-sprint-image-human-review",
+    "npm run catalog:audit-public-dropshipping-surface",
+    "npm run catalog:audit-all-partner-gates",
+    "npm run catalog:audit-checkout-eligibility",
+    "npm run catalog:test-checkout-guards"
+  ],
+  "outputDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\03-filet-rangement-coffre-voiture-sangles-fixes",
+  "outputDirRelative": "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\03-filet-rangement-coffre-voiture-sangles-fixes",
+  "sources": {
+    "shortlistPath": "business-maxi-trouvailles\\tableaux-action\\shortlist-go-humain-20260611\\SHORTLIST_GO_HUMAIN_PARTENAIRES_20260611.json",
+    "proofExportPath": "business-maxi-trouvailles\\tableaux-action\\preuves-rapides-a-remplir-20260611\\A_REMPLIR_PREUVES_PARTENAIRES_NOW_20260611.json",
+    "proofAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-preuves-rapides-now-20260611\\AUDIT_PREUVES_PARTENAIRES_NOW_20260611.json",
+    "photoDropPath": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\MANIFEST_DEPOT_PHOTOS_SPRINT_20260611.json",
+    "localFileAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-fichiers-locaux-images-sprint-20260611\\AUDIT_FICHIERS_LOCAUX_IMAGES_SPRINT_20260611.json",
+    "imageGateAuditPath": "business-maxi-trouvailles\\tableaux-action\\audit-gates-images-sprint-20260611\\AUDIT_GATES_IMAGES_SPRINT_20260611.json",
+    "publicSurfacePath": "business-maxi-trouvailles\\tableaux-action\\surface-publique-dropshipping-20260611\\AUDIT_SURFACE_PUBLIQUE_DROPSHIPPING_20260611.json"
+  },
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublicUploadsWrite": true,
+    "noImageDownload": true,
+    "noImageGeneration": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true,
+    "manualValidationRequired": true
+  }
+}

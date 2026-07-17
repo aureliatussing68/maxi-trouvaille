@@ -1,0 +1,210 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-13T12:11:45.335Z",
+  "generatedAtLocal": "2026-06-13 14:11 Europe/Paris",
+  "mode": "read_only_integration_top3_sourcing_sprint",
+  "status": "HOLD_TOP3_SOURCING_READY",
+  "sourceAuditStatus": "OK_PRIORITY_BOARD_GUARDED",
+  "productCount": 3,
+  "totalMissingFieldCount": 33,
+  "expectedImageCount": 9,
+  "rows": [
+    {
+      "sprintRank": 1,
+      "productId": "integration_articles_20260612_housse-protection-canape-animal",
+      "slug": "housse-protection-canape-animal-partenaire-hold",
+      "name": "Housse protection canape animal",
+      "categoryId": "dropshipping-maison",
+      "priorityScore": 114,
+      "targetSalePrice": "24.90 EUR",
+      "targetMargin": "13.70 EUR (55%)",
+      "supplierMaxCost": "11.20 EUR",
+      "missingFieldCount": 11,
+      "missingZones": [
+        "Fournisseur / SKU",
+        "Prix / stock / marge",
+        "Livraison / suivi",
+        "Images / droits",
+        "Validation Mouss"
+      ],
+      "firstProofs": [
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "exactProductUrl",
+          "label": "URL produit exacte",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_housse-protection-canape-animal",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "partnerName",
+          "label": "Nom vendeur ou partenaire",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_housse-protection-canape-animal",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "supplierSku",
+          "label": "SKU/reference fournisseur",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_housse-protection-canape-animal",
+          "status": "TO_FILL_HOLD"
+        }
+      ],
+      "expectedImageFiles": [
+        "housse-protection-canape-animal-partenaire-hold-main.webp",
+        "housse-protection-canape-animal-partenaire-hold-detail-1.webp",
+        "housse-protection-canape-animal-partenaire-hold-variant.webp"
+      ],
+      "imageProgress": "0/3",
+      "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/housse-protection-canape-animal-partenaire-hold",
+      "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal#top-verification-integration_articles_20260612_housse-protection-canape-animal",
+      "sprintAction": "Verifier la fiche produit exacte et garder HOLD si un seul doute existe.",
+      "keepHoldUntil": [
+        "image exacte prouvee",
+        "fournisseur exact prouve",
+        "SKU ou variante prouvee",
+        "prix fournisseur et marge verifies",
+        "stock et delai France/Europe verifies",
+        "droits image verifies",
+        "validation humaine Mouss"
+      ],
+      "safetyStatus": "HOLD_TOP3_SOURCING_NO_PUBLICATION"
+    },
+    {
+      "sprintRank": 2,
+      "productId": "integration_articles_20260612_cable-organizer-boite-multiprise",
+      "slug": "cache-multiprise-boite-rangement-cables-partenaire-hold",
+      "name": "Cache multiprise boite rangement cables",
+      "categoryId": "dropshipping-accessoires",
+      "priorityScore": 111,
+      "targetSalePrice": "18.90 EUR",
+      "targetMargin": "11.30 EUR (60%)",
+      "supplierMaxCost": "7.60 EUR",
+      "missingFieldCount": 11,
+      "missingZones": [
+        "Fournisseur / SKU",
+        "Prix / stock / marge",
+        "Livraison / suivi",
+        "Images / droits",
+        "Validation Mouss"
+      ],
+      "firstProofs": [
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "exactProductUrl",
+          "label": "URL produit exacte",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_cable-organizer-boite-multiprise&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_cable-organizer-boite-multiprise",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "partnerName",
+          "label": "Nom vendeur ou partenaire",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_cable-organizer-boite-multiprise&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_cable-organizer-boite-multiprise",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "supplierSku",
+          "label": "SKU/reference fournisseur",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_cable-organizer-boite-multiprise&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_cable-organizer-boite-multiprise",
+          "status": "TO_FILL_HOLD"
+        }
+      ],
+      "expectedImageFiles": [
+        "cache-multiprise-boite-rangement-cables-partenaire-hold-main.webp",
+        "cache-multiprise-boite-rangement-cables-partenaire-hold-detail-1.webp",
+        "cache-multiprise-boite-rangement-cables-partenaire-hold-variant.webp"
+      ],
+      "imageProgress": "0/3",
+      "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/cache-multiprise-boite-rangement-cables-partenaire-hold",
+      "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_cable-organizer-boite-multiprise#top-verification-integration_articles_20260612_cable-organizer-boite-multiprise",
+      "sprintAction": "Verifier la fiche produit exacte et garder HOLD si un seul doute existe.",
+      "keepHoldUntil": [
+        "image exacte prouvee",
+        "fournisseur exact prouve",
+        "SKU ou variante prouvee",
+        "prix fournisseur et marge verifies",
+        "stock et delai France/Europe verifies",
+        "droits image verifies",
+        "validation humaine Mouss"
+      ],
+      "safetyStatus": "HOLD_TOP3_SOURCING_NO_PUBLICATION"
+    },
+    {
+      "sprintRank": 3,
+      "productId": "integration_articles_20260612_trousse-toilette-suspendue-voyage",
+      "slug": "trousse-toilette-suspendue-voyage-partenaire-hold",
+      "name": "Trousse toilette suspendue voyage",
+      "categoryId": "dropshipping-accessoires",
+      "priorityScore": 111,
+      "targetSalePrice": "17.90 EUR",
+      "targetMargin": "11.70 EUR (65%)",
+      "supplierMaxCost": "6.20 EUR",
+      "missingFieldCount": 11,
+      "missingZones": [
+        "Fournisseur / SKU",
+        "Prix / stock / marge",
+        "Livraison / suivi",
+        "Images / droits",
+        "Validation Mouss"
+      ],
+      "firstProofs": [
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "exactProductUrl",
+          "label": "URL produit exacte",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_trousse-toilette-suspendue-voyage&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_trousse-toilette-suspendue-voyage",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "partnerName",
+          "label": "Nom vendeur ou partenaire",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_trousse-toilette-suspendue-voyage&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_trousse-toilette-suspendue-voyage",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "supplierSku",
+          "label": "SKU/reference fournisseur",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_trousse-toilette-suspendue-voyage&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_trousse-toilette-suspendue-voyage",
+          "status": "TO_FILL_HOLD"
+        }
+      ],
+      "expectedImageFiles": [
+        "trousse-toilette-suspendue-voyage-partenaire-hold-main.webp",
+        "trousse-toilette-suspendue-voyage-partenaire-hold-detail-1.webp",
+        "trousse-toilette-suspendue-voyage-partenaire-hold-variant.webp"
+      ],
+      "imageProgress": "0/3",
+      "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/trousse-toilette-suspendue-voyage-partenaire-hold",
+      "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_trousse-toilette-suspendue-voyage#top-verification-integration_articles_20260612_trousse-toilette-suspendue-voyage",
+      "sprintAction": "Verifier la fiche produit exacte et garder HOLD si un seul doute existe.",
+      "keepHoldUntil": [
+        "image exacte prouvee",
+        "fournisseur exact prouve",
+        "SKU ou variante prouvee",
+        "prix fournisseur et marge verifies",
+        "stock et delai France/Europe verifies",
+        "droits image verifies",
+        "validation humaine Mouss"
+      ],
+      "safetyStatus": "HOLD_TOP3_SOURCING_NO_PUBLICATION"
+    }
+  ],
+  "sources": {
+    "boardPath": "business-maxi-trouvailles/tableaux-action/pilotage-sourcing-integration-articles/20260613/PILOTAGE_SOURCING_INTEGRATION_20260613.json",
+    "boardAuditPath": "business-maxi-trouvailles/tableaux-action/audit-pilotage-sourcing-integration-articles/20260613/AUDIT_PILOTAGE_SOURCING_INTEGRATION_20260613.json"
+  },
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noExternalContact": true,
+    "noImageDownload": true,
+    "manualValidationRequired": true
+  }
+}

@@ -1,0 +1,820 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-11T04:48:29.717Z",
+  "mode": "dry_run",
+  "inputPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\brouillons-directs\\evidence_template_brouillons_directs_20260609.json",
+  "backlogPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\brouillons-directs\\backlog_brouillons_directs_20260609.json",
+  "quickProductsPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\data\\quick-products.json",
+  "entryCount": 30,
+  "readyCount": 0,
+  "blockedCount": 30,
+  "importedCount": 0,
+  "blockers": {
+    "readyForQuickProductsDraft_false": 30,
+    "url_produit_exacte_invalide": 30,
+    "variante_exacte_absente": 30,
+    "images_exactes_absentes": 30,
+    "nom_fournisseur_absent": 30,
+    "sku_fournisseur_absent": 30,
+    "prix_fournisseur_invalide": 30,
+    "stock_fournisseur_invalide": 30,
+    "delai_absent": 30,
+    "preuve_livraison_absente": 30,
+    "preuve_droits_images_absente": 30
+  },
+  "ready": [],
+  "blocked": [
+    {
+      "id": "maxi_c006_jeux-video-gaming_06",
+      "name": "Support Manette Bureau Gaming",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "support-manette-bureau-gaming-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_telephonie_03",
+      "name": "Cable USB C Nylon Charge Rapide",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "cable-usb-c-nylon-charge-rapide-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_high-tech_05",
+      "name": "Lampe Ecran Moniteur LED USB",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "lampe-ecran-moniteur-led-usb-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_03",
+      "name": "Lampe Travail LED Rechargeable",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "lampe-travail-led-rechargeable-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_telephonie_05",
+      "name": "Anneau Support Telephone Magsafe",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "anneau-support-telephone-magsafe-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_07",
+      "name": "Boite Rangement VIS Compartiments",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "boite-rangement-vis-compartiments-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_01",
+      "name": "KIT Tournevis Precision 24 Pieces",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "kit-tournevis-precision-24-pieces-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_10",
+      "name": "Multimetre Numerique Compact",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "multimetre-numerique-compact-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_02",
+      "name": "Organisateur Embouts Perceuse",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "organisateur-embouts-perceuse-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_08",
+      "name": "Pince Denuder Automatique Cable",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "pince-denuder-automatique-cable-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_telephonie_06",
+      "name": "Pochette Etanche Telephone Sport",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "pochette-etanche-telephone-sport-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_05",
+      "name": "Serre Cable Reutilisable Velcro",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "serre-cable-reutilisable-velcro-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_sport-loisirs_04",
+      "name": "Serviette Microfibre Sport Voyage",
+      "targetCategoryId": "dropshipping-accessoires",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "serviette-microfibre-sport-voyage-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_jeux-video-gaming_01",
+      "name": "Support Casque Gaming RGB",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "support-casque-gaming-rgb-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_high-tech_04",
+      "name": "HUB USB C Multiport Compact",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "hub-usb-c-multiport-compact-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_jeux-video-gaming_09",
+      "name": "LED Strip Setup Gaming Bureau",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "led-strip-setup-gaming-bureau-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_high-tech_06",
+      "name": "Station Charge Multiple Bureau",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "station-charge-multiple-bureau-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_auto-moto_05",
+      "name": "KIT Nettoyage Interieur Voiture Detailing",
+      "targetCategoryId": "dropshipping-auto-moto",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "kit-nettoyage-interieur-voiture-detailing-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_auto-moto_07",
+      "name": "Cable Charge Rapide Voiture USB C",
+      "targetCategoryId": "dropshipping-auto-moto",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "cable-charge-rapide-voiture-usb-c-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_telephonie_02",
+      "name": "Coque Antichoc Universelle Smartphone",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "coque-antichoc-universelle-smartphone-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_high-tech_08",
+      "name": "Ecouteurs Gaming Faible Latence",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "ecouteurs-gaming-faible-latence-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_sport-loisirs_02",
+      "name": "Elastiques Resistance Fitness KIT",
+      "targetCategoryId": "dropshipping-accessoires",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "elastiques-resistance-fitness-kit-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_auto-moto_06",
+      "name": "Lampe Secours LED Voiture Rechargeable",
+      "targetCategoryId": "dropshipping-auto-moto",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "lampe-secours-led-voiture-rechargeable-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_06",
+      "name": "Mini Niveau Laser Bricolage",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "mini-niveau-laser-bricolage-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_telephonie_07",
+      "name": "Mini Trepied Telephone Vlog",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "mini-trepied-telephone-vlog-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_sport-loisirs_10",
+      "name": "Mini Trousse Premiers Secours Sport",
+      "targetCategoryId": "dropshipping-accessoires",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "mini-trousse-premiers-secours-sport-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_telephonie_08",
+      "name": "Objectif Macro Telephone Clip",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "objectif-macro-telephone-clip-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_sport-loisirs_05",
+      "name": "Pompe Velo Portable Mini",
+      "targetCategoryId": "dropshipping-accessoires",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "pompe-velo-portable-mini-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_jeux-video-gaming_10",
+      "name": "Range Cables Setup Gaming",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "range-cables-setup-gaming-hold",
+      "imageCount": 0
+    },
+    {
+      "id": "maxi_c006_jeux-video-gaming_03",
+      "name": "Refroidisseur Telephone Gaming",
+      "targetCategoryId": "dropshipping-high-tech",
+      "readyForDraftImport": false,
+      "blockers": [
+        "readyForQuickProductsDraft_false",
+        "url_produit_exacte_invalide",
+        "variante_exacte_absente",
+        "images_exactes_absentes",
+        "nom_fournisseur_absent",
+        "sku_fournisseur_absent",
+        "prix_fournisseur_invalide",
+        "stock_fournisseur_invalide",
+        "delai_absent",
+        "preuve_livraison_absente",
+        "preuve_droits_images_absente"
+      ],
+      "duplicateMatches": [],
+      "delivery": {
+        "ok": false,
+        "reason": "delai_absent"
+      },
+      "slug": "refroidisseur-telephone-gaming-hold",
+      "imageCount": 0
+    }
+  ],
+  "apply": {
+    "applied": false,
+    "backupPath": null,
+    "importedCount": 0
+  },
+  "safety": {
+    "draftsOnly": true,
+    "noPublication": true,
+    "noSupplierOrder": true,
+    "noPayment": true,
+    "backupBeforeWrite": true
+  }
+}

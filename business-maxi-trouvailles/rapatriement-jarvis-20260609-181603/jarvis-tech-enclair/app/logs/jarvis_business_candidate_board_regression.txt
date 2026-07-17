@@ -1,0 +1,29 @@
+Regression tableau candidats business - 2026-05-24 22:26:51
+Global: OK
+Message court: Tableau produits: 10 candidat(s) affiches, 0 source(s) reelle(s), affichage seulement.
+Message executeur: Tableau produits: 10 candidat(s) affiches, 0 source(s) reelle(s), affichage seulement.
+Candidats affiches: 10
+
+- json_written: OK
+- txt_written: OK
+- html_written: OK
+- candidates_present: OK
+- rows_match_count: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- html_mentions_display_only: OK
+- route_business_candidate_board: OK
+- execute_business_candidate_board: OK
+- executor_uses_short_message: OK
+- display_only: OK
+- read_only: OK
+- no_import: OK
+- no_order: OK
+- no_payment: OK
+- no_publication: OK
+- manual_validation_required: OK
+- no_values_exposed: OK
+- not_opened_in_regression: OK
+- no_secret_like_value_in_reports: OK
+
+Securite: lecture seule, affichage HTML local, aucun secret, aucun import/commande/paiement/publication.

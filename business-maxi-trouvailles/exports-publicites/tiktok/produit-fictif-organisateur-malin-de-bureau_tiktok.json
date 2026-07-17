@@ -1,0 +1,22 @@
+{
+  "platform": "tiktok",
+  "hook": "Stop, regarde cette trouvaille utile.",
+  "screenText": [
+    "Stop, regarde cette trouvaille utile.",
+    "Produit fictif - organisateur malin de bureau",
+    "Prix promo brouillon : 14,90 €",
+    "Stock et livraison a confirmer",
+    "Validation humaine avant publication"
+  ],
+  "voiceOver": "Stop, regarde cette trouvaille utile. Aujourd'hui, Maxi Trouvailles prepare Produit fictif - organisateur malin de bureau. L'idee est simple : un produit pratique, un prix clair, et une fiche propre. Avant publication, on verifie le fournisseur, le delai, le stock et la conformite.",
+  "caption": "Produit fictif - organisateur malin de bureau - brouillon Maxi Trouvailles. Stock, livraison et prix a confirmer avant publication. #maxitrouvailles #bonplan #destockage",
+  "hashtags": [
+    "#maxitrouvailles",
+    "#bonplan",
+    "#destockage",
+    "#shopping",
+    "#trouvaille"
+  ],
+  "visualIdea": "Bureau en bazar puis avant/apres rangement rapide.",
+  "publicationStatus": "not_published"
+}

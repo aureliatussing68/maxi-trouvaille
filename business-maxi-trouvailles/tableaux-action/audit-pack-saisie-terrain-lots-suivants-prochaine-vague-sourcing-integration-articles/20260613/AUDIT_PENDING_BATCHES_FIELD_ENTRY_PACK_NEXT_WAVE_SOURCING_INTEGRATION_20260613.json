@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-13T12:12:14.215Z",
+  "generatedAtLocal": "2026-06-13 14:12 Europe/Paris",
+  "mode": "read_only_audit_integration_next_wave_pending_batches_field_entry_pack",
+  "status": "OK_NEXT_WAVE_PENDING_BATCHES_FIELD_ENTRY_PACK_GUARDED",
+  "activeBatchId": "lot-01",
+  "pendingBatchCount": 2,
+  "productCount": 8,
+  "entryCount": 64,
+  "proofEntryCount": 40,
+  "webpEntryCount": 24,
+  "blockedEntryCount": 64,
+  "readyEntryCount": 0,
+  "productSheetCount": 8,
+  "csvRowCount": 64,
+  "failureCount": 0,
+  "sensitiveFindingCount": 0,
+  "scannedFileCount": 11,
+  "issues": [],
+  "sources": {
+    "packPath": "business-maxi-trouvailles/tableaux-action/pack-saisie-terrain-lots-suivants-prochaine-vague-sourcing-integration-articles/20260613/PENDING_BATCHES_FIELD_ENTRY_PACK_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "runwayAuditPath": "business-maxi-trouvailles/tableaux-action/audit-runway-lots-suivants-prochaine-vague-sourcing-integration-articles/20260613/AUDIT_PENDING_BATCHES_RUNWAY_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "csvPath": "business-maxi-trouvailles/tableaux-action/pack-saisie-terrain-lots-suivants-prochaine-vague-sourcing-integration-articles/20260613/pack-saisie-terrain-lots-suivants-entrees-20260613.csv"
+  },
+  "safety": {
+    "readOnlyAudit": true,
+    "noActiveBatchReplacement": true,
+    "noCatalogWrite": true,
+    "noPublicImageWrite": true,
+    "noImageDownload": true,
+    "noImageGeneration": true,
+    "noSupplierValueExport": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true
+  }
+}

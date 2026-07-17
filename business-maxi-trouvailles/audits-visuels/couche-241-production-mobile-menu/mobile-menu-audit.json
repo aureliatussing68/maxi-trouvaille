@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "homeStatus": 200,
+  "menuLabels": [
+    "Accueil",
+    "Dropshipping",
+    "Nouveautés",
+    "Promos",
+    "Boutique",
+    "Suivi",
+    "Contact"
+  ],
+  "boutiqueH1": "Produits partenaires Maxi Trouvaille",
+  "panierH1": "Votre selection",
+  "consoleErrors": [],
+  "pageErrors": [],
+  "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-production-mobile-menu\\menu-open.png"
+}

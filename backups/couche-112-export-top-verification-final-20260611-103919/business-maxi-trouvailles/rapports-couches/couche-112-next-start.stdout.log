@@ -1,0 +1,8 @@
+
+> maxi-trouvaille@0.1.0 start
+> next start --hostname 127.0.0.1 --port 3033
+
+▲ Next.js 16.2.6
+- Local:         http://127.0.0.1:3033
+- Network:       http://127.0.0.1:3033
+✓ Ready in 124ms

@@ -1,0 +1,28 @@
+Dossier validation business Maxi - 2026-06-09 18:00:59
+
+Message court: Dossier validation pret: Organisateur de cables de voyage compact, 2 blocage(s) a relire, aucune action sensible.
+Mode: demo_draft_only
+Produit: Organisateur de cables de voyage compact
+Categorie: dropshipping-accessoires
+Prix: achat 3,90 € -> vente 12,90 €
+Marge estimee: 9,00 €
+
+Pubs incluses:
+- TikTok 18s: Tu perds encore du temps avec tes cables ?
+- Instagram Reels 20s: Tu perds encore du temps avec tes cables ?
+- Snapchat Story 12s: Tu perds encore du temps avec tes cables ?
+
+Blocages:
+- lien fournisseur reel manquant
+- sourcing reel AliExpress non pret
+
+Checklist validation:
+- Coller ou verifier un lien fournisseur reel.
+- Verifier prix fournisseur, livraison Europe, retours et SAV.
+- Verifier que le produit n'est pas dangereux, medical, contrefait ou interdit.
+- Verifier les images produit avant toute pub.
+- Valider la categorie Maxi et le prix promo.
+- Garder publication TikTok/Instagram/Snapchat en manuel.
+
+Message: Dossier de validation pret. Rien n'a ete importe, publie, achete ou paye.
+Securite: dossier seulement, aucun import, achat, paiement ou publication.

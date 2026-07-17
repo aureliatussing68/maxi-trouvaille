@@ -1,0 +1,37 @@
+Regression plan archivage produits - 2026-05-24 21:15:18
+Global: OK
+Groupes doublons: 1
+Dossiers proposes: 5
+Message court: Plan archivage: 5 dossier(s), 1 groupe(s), validation manuelle avant deplacement.
+Message executor: Plan archivage: 5 dossier(s), 1 groupe(s), validation manuelle avant deplacement.
+HTML: C:\Users\sinek\Desktop\Jarvis-TechEnClair\app\logs\jarvis_business_validation_archive_plan.html
+
+- json_written: OK
+- txt_written: OK
+- md_written: OK
+- html_written: OK
+- archive_root_present: OK
+- moves_list_present: OK
+- read_only: OK
+- plan_only: OK
+- archive_not_executed: OK
+- files_not_deleted: OK
+- files_not_moved: OK
+- site_not_modified: OK
+- import_not_started: OK
+- order_not_started: OK
+- payment_not_started: OK
+- publication_not_started: OK
+- manual_validation_required: OK
+- no_values_exposed: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- html_mentions_short_message: OK
+- md_mentions_safety: OK
+- html_mentions_manual_validation: OK
+- route_business_validation_archive_plan: OK
+- execute_business_validation_archive_plan: OK
+- executor_uses_short_message: OK
+- no_secret_like_value_in_reports: OK
+
+Securite: plan seulement, aucun secret complet, aucun deplacement ou suppression.

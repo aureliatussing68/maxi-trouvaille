@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-05-24 22:16:41",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "selection_present": true,
+    "scores_sorted": true,
+    "category_present": true,
+    "short_message_present": true,
+    "txt_mentions_short_message": true,
+    "route_business_selection_brief": true,
+    "execute_business_selection_brief": true,
+    "executor_uses_short_message": true,
+    "each_selection_requires_validation": true,
+    "manual_validation_required": true,
+    "read_only": true,
+    "no_import": true,
+    "no_order": true,
+    "no_payment": true,
+    "no_publication": true,
+    "no_values_exposed": true,
+    "no_secret_like_value_in_text": true
+  },
+  "short_message": "Selection business: 5 produit(s) conseille(s), 0 source(s) reelle(s), validation obligatoire.",
+  "executor_message": "Selection business: 5 produit(s) conseille(s), 0 source(s) reelle(s), validation obligatoire.",
+  "selected_count": 5,
+  "candidate_count": 10,
+  "note": "Regression lecture seule de la selection business. Conseil uniquement, aucune action sensible."
+}

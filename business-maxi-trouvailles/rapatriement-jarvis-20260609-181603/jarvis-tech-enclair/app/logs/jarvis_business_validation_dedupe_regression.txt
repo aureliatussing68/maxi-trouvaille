@@ -1,0 +1,36 @@
+Regression doublons produits a valider - 2026-05-24 21:06:30
+Global: OK
+Dossiers lus: 6
+Groupes doublons: 1
+Anciens dossiers: 5
+Message court: Doublons validation: 1 groupe(s), 5 ancien(s), plan manuel seulement.
+Message executor: Doublons validation: 1 groupe(s), 5 ancien(s), plan manuel seulement.
+HTML: C:\Users\sinek\Desktop\Jarvis-TechEnClair\app\logs\jarvis_business_validation_dedupe.html
+
+- json_written: OK
+- txt_written: OK
+- html_written: OK
+- review_packs_seen: OK
+- unique_products_present: OK
+- duplicates_list_present: OK
+- read_only: OK
+- plan_only: OK
+- files_not_deleted: OK
+- files_not_moved: OK
+- site_not_modified: OK
+- import_not_started: OK
+- order_not_started: OK
+- payment_not_started: OK
+- publication_not_started: OK
+- manual_validation_required: OK
+- no_values_exposed: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- html_mentions_short_message: OK
+- html_mentions_read_only: OK
+- route_business_validation_dedupe: OK
+- execute_business_validation_dedupe: OK
+- executor_uses_short_message: OK
+- no_secret_like_value_in_reports: OK
+
+Securite: lecture seule, aucun secret complet, aucun deplacement ou suppression.

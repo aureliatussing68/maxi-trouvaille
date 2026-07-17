@@ -1,0 +1,578 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-09T19:42:06.471Z",
+  "mode": "read_only_validation_packets",
+  "actionBoardPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\ACTION_BOARD_PARTENAIRES_20260609.json",
+  "quickProductsPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\data\\quick-products.json",
+  "topLimit": 5,
+  "packetCount": 5,
+  "outputDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-partenaire\\20260609",
+  "packets": [
+    {
+      "rank": 1,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "slug": "pochette-organisateur-cables-double-couche-voyage",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_1_plus_rapide_a_valider",
+      "priorityScore": 95,
+      "status": "draft",
+      "supplier": {
+        "name": "AliExpress - TUUTH Direct Store à confirmer",
+        "url": "https://www.aliexpress.com/item/4000168524713.html",
+        "sku": "AE-4000168524713-CABLE-ORGANIZER",
+        "supplierPriceCents": 1100,
+        "salePriceCents": 1840,
+        "marginCents": 740,
+        "supplierStock": 55,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "images": {
+        "status": "verified_source_images",
+        "sourceUrl": "https://alitools.io/en/showcase/tuuth-travel-digital-cable-storage-bag-mobile-power-organizer-bag-electronics-accessories-bag-case-for-earphones-4000168524713",
+        "main": "https://ae01.alicdn.com/kf/H96187aa9cce24db3abab3d4ee6d43387A.jpg",
+        "gallery": [
+          "https://ae01.alicdn.com/kf/H96187aa9cce24db3abab3d4ee6d43387A.jpg",
+          "https://ae01.alicdn.com/kf/H7e620756cb9241908e87e78b9ea81c0eR.jpg",
+          "https://ae01.alicdn.com/kf/H39d47561d0eb468b981fff8ecf358b35o.jpg",
+          "https://ae01.alicdn.com/kf/H18a4f863437b4a549aaeec68ffeaf68e6.jpg"
+        ],
+        "count": 4,
+        "nextAction": "Valider couleur/variante exacte, prix final et délai Europe avant remise en published."
+      },
+      "evidenceAlreadyStored": {
+        "internalEvidenceUrl": "https://alitools.io/en/showcase/tuuth-travel-digital-cable-storage-bag-mobile-power-organizer-bag-electronics-accessories-bag-case-for-earphones-4000168524713",
+        "internalEvidenceNote": "Annonce TUUTH/AliExpress identifiée pour une pochette de rangement câbles double couche. Images fournisseur inspectées visuellement et cohérentes avec le produit.",
+        "validationStatus": "HOLD - images corrigees; couleur, variante, prix final et delai Europe a verifier avant publication",
+        "deliveryStatus": "",
+        "priceStatus": "",
+        "rightsStatus": ""
+      },
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "validation_fournisseur_hold",
+        "validation_interne_hold"
+      ],
+      "riskFlags": [],
+      "actionFields": [
+        "copyCleanup",
+        "deliveryProof",
+        "supplierReliabilityProof",
+        "moussReview"
+      ],
+      "requiredActions": [
+        {
+          "blocker": "fiche_contient_elements_a_confirmer",
+          "field": "copyCleanup",
+          "instruction": "Retirer les mentions 'a verifier/a confirmer/HOLD' seulement apres verification reelle.",
+          "acceptWhen": "Description finale claire, sans promesse non prouvee."
+        },
+        {
+          "blocker": "delai_non_prouve",
+          "field": "deliveryProof",
+          "instruction": "Verifier le delai reel vers France/Europe sur la page fournisseur et noter la plage exacte.",
+          "acceptWhen": "Delai affiche clair, coherent, avec tracking disponible et maximum conseille 7 jours."
+        },
+        {
+          "blocker": "validation_fournisseur_hold",
+          "field": "supplierReliabilityProof",
+          "instruction": "Verifier le vendeur exact: nom boutique, note, volume, avis recents, anciennete si disponible.",
+          "acceptWhen": "Vendeur coherent, pas de signal evident de risque, preuve notee dans le pack."
+        },
+        {
+          "blocker": "validation_interne_hold",
+          "field": "moussReview",
+          "instruction": "Faire la revue humaine finale avant toute publication.",
+          "acceptWhen": "Validation explicite de Mouss ou decision de garder en brouillon."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "exactSupplierName": "",
+        "exactProductUrl": "https://www.aliexpress.com/item/4000168524713.html",
+        "exactSkuOrVariant": "AE-4000168524713-CABLE-ORGANIZER",
+        "exactVariantChosen": "",
+        "currentSupplierPriceCents": "",
+        "currentSupplierStock": "",
+        "currentDeliveryFranceEurope": "",
+        "trackingAvailable": "",
+        "supplierReliabilityProof": "",
+        "deliveryProof": "",
+        "pricingProof": "",
+        "imageRightsProof": "",
+        "imageVariantProof": "",
+        "copyCleanupDone": false,
+        "complianceNotes": "",
+        "moussReview": "",
+        "decision": "HOLD"
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication et commande interdites sans validation humaine."
+      }
+    },
+    {
+      "rank": 2,
+      "id": "ali_partner_20260527_sacs_rangement_vide_001",
+      "slug": "sacs-rangement-sous-vide-voyage-grand-volume",
+      "name": "Sacs rangement sous vide grand volume voyage",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_1_plus_rapide_a_valider",
+      "priorityScore": 95,
+      "status": "draft",
+      "supplier": {
+        "name": "AliExpress Choice - à confirmer",
+        "url": "https://www.aliexpress.com/wholesale?SearchText=travel+vacuum+storage+bags+choice",
+        "sku": "AE-CHOICE-VACUUM-BAGS-005",
+        "supplierPriceCents": 530,
+        "salePriceCents": 890,
+        "marginCents": 360,
+        "supplierStock": 60,
+        "deliveryEstimate": "7 à 15 jours ouvrés estimés"
+      },
+      "images": {
+        "status": "verified_source_images",
+        "sourceUrl": "https://www.sistastore.com/products/170869",
+        "main": "https://ae-pic-a1.aliexpress-media.com/kf/Se627ac7d79944d94a751ef64d0c9b6e2W.jpg",
+        "gallery": [
+          "https://ae-pic-a1.aliexpress-media.com/kf/Se627ac7d79944d94a751ef64d0c9b6e2W.jpg",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S75a543311d6b42a8b2711b8f186791509.jpg",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S2e4a3c5ccb664b4abfec41701b32c701w.jpg",
+          "https://ae-pic-a1.aliexpress-media.com/kf/S5034143465574441b1a749d52b1b814ax.jpg"
+        ],
+        "count": 4,
+        "nextAction": "Valider fournisseur exact, dimensions, quantite du lot, prix final et delai Europe avant remise en published."
+      },
+      "evidenceAlreadyStored": {
+        "internalEvidenceUrl": "https://www.sistastore.com/products/170869",
+        "internalEvidenceNote": "Prix repere $5.97, note 4.9 et volume de ventes indique par la source.",
+        "validationStatus": "HOLD - fournisseur exact, dimensions, quantite du lot, prix final et delai Europe a valider avant publication",
+        "deliveryStatus": "",
+        "priceStatus": "",
+        "rightsStatus": ""
+      },
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "validation_fournisseur_hold",
+        "validation_interne_hold"
+      ],
+      "riskFlags": [],
+      "actionFields": [
+        "copyCleanup",
+        "deliveryProof",
+        "supplierReliabilityProof",
+        "moussReview"
+      ],
+      "requiredActions": [
+        {
+          "blocker": "fiche_contient_elements_a_confirmer",
+          "field": "copyCleanup",
+          "instruction": "Retirer les mentions 'a verifier/a confirmer/HOLD' seulement apres verification reelle.",
+          "acceptWhen": "Description finale claire, sans promesse non prouvee."
+        },
+        {
+          "blocker": "delai_non_prouve",
+          "field": "deliveryProof",
+          "instruction": "Verifier le delai reel vers France/Europe sur la page fournisseur et noter la plage exacte.",
+          "acceptWhen": "Delai affiche clair, coherent, avec tracking disponible et maximum conseille 7 jours."
+        },
+        {
+          "blocker": "validation_fournisseur_hold",
+          "field": "supplierReliabilityProof",
+          "instruction": "Verifier le vendeur exact: nom boutique, note, volume, avis recents, anciennete si disponible.",
+          "acceptWhen": "Vendeur coherent, pas de signal evident de risque, preuve notee dans le pack."
+        },
+        {
+          "blocker": "validation_interne_hold",
+          "field": "moussReview",
+          "instruction": "Faire la revue humaine finale avant toute publication.",
+          "acceptWhen": "Validation explicite de Mouss ou decision de garder en brouillon."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "exactSupplierName": "",
+        "exactProductUrl": "https://www.aliexpress.com/wholesale?SearchText=travel+vacuum+storage+bags+choice",
+        "exactSkuOrVariant": "AE-CHOICE-VACUUM-BAGS-005",
+        "exactVariantChosen": "",
+        "currentSupplierPriceCents": "",
+        "currentSupplierStock": "",
+        "currentDeliveryFranceEurope": "",
+        "trackingAvailable": "",
+        "supplierReliabilityProof": "",
+        "deliveryProof": "",
+        "pricingProof": "",
+        "imageRightsProof": "",
+        "imageVariantProof": "",
+        "copyCleanupDone": false,
+        "complianceNotes": "",
+        "moussReview": "",
+        "decision": "HOLD"
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication et commande interdites sans validation humaine."
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "slug": "support-pc-portable-pliant-aluminium-ajustable",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "categoryId": "dropshipping-high-tech",
+      "lane": "lane_1_plus_rapide_a_valider",
+      "priorityScore": 92,
+      "status": "draft",
+      "supplier": {
+        "name": "AliExpress - annonce source à confirmer",
+        "url": "https://www.aliexpress.com/item/4001153714549.html",
+        "sku": "AE-4001153714549-LAPTOP-STAND",
+        "supplierPriceCents": 1180,
+        "salePriceCents": 1970,
+        "marginCents": 790,
+        "supplierStock": 35,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "images": {
+        "status": "verified_source_images",
+        "sourceUrl": "https://alitools.io/en/showcase/portable-laptop-stand-aluminium-foldable-macbook-pro-support-adjustable-notebook-holder-tablet-base-for-pc-computer-bracket-4001153714549",
+        "main": "https://ae01.alicdn.com/kf/H5294085d8b5041c5b8fbe948596c8533v.jpg",
+        "gallery": [
+          "https://ae01.alicdn.com/kf/H5294085d8b5041c5b8fbe948596c8533v.jpg",
+          "https://ae01.alicdn.com/kf/H864ee1fe7f264606959adaf92760757bD.jpg",
+          "https://ae01.alicdn.com/kf/Hf5c5424d5e564649a49e4a953f0f2a7ds.jpg",
+          "https://ae01.alicdn.com/kf/H67b2a1a46af54ef2867fa8970a7bf6aa7.jpg"
+        ],
+        "count": 4,
+        "nextAction": "Valider fournisseur exact, prix final et délai Europe avant remise en published."
+      },
+      "evidenceAlreadyStored": {
+        "internalEvidenceUrl": "https://alitools.io/en/showcase/portable-laptop-stand-aluminium-foldable-macbook-pro-support-adjustable-notebook-holder-tablet-base-for-pc-computer-bracket-4001153714549",
+        "internalEvidenceNote": "Annonce support PC portable aluminium pliant identifiée via Alitools/AliExpress. Images fournisseur inspectées visuellement et cohérentes avec le produit.",
+        "validationStatus": "HOLD - images corrigees; fournisseur, prix final et delai Europe a verifier avant publication",
+        "deliveryStatus": "",
+        "priceStatus": "",
+        "rightsStatus": ""
+      },
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "validation_fournisseur_hold",
+        "validation_interne_hold"
+      ],
+      "riskFlags": [],
+      "actionFields": [
+        "copyCleanup",
+        "deliveryProof",
+        "supplierReliabilityProof",
+        "moussReview"
+      ],
+      "requiredActions": [
+        {
+          "blocker": "fiche_contient_elements_a_confirmer",
+          "field": "copyCleanup",
+          "instruction": "Retirer les mentions 'a verifier/a confirmer/HOLD' seulement apres verification reelle.",
+          "acceptWhen": "Description finale claire, sans promesse non prouvee."
+        },
+        {
+          "blocker": "delai_non_prouve",
+          "field": "deliveryProof",
+          "instruction": "Verifier le delai reel vers France/Europe sur la page fournisseur et noter la plage exacte.",
+          "acceptWhen": "Delai affiche clair, coherent, avec tracking disponible et maximum conseille 7 jours."
+        },
+        {
+          "blocker": "validation_fournisseur_hold",
+          "field": "supplierReliabilityProof",
+          "instruction": "Verifier le vendeur exact: nom boutique, note, volume, avis recents, anciennete si disponible.",
+          "acceptWhen": "Vendeur coherent, pas de signal evident de risque, preuve notee dans le pack."
+        },
+        {
+          "blocker": "validation_interne_hold",
+          "field": "moussReview",
+          "instruction": "Faire la revue humaine finale avant toute publication.",
+          "acceptWhen": "Validation explicite de Mouss ou decision de garder en brouillon."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "exactSupplierName": "",
+        "exactProductUrl": "https://www.aliexpress.com/item/4001153714549.html",
+        "exactSkuOrVariant": "AE-4001153714549-LAPTOP-STAND",
+        "exactVariantChosen": "",
+        "currentSupplierPriceCents": "",
+        "currentSupplierStock": "",
+        "currentDeliveryFranceEurope": "",
+        "trackingAvailable": "",
+        "supplierReliabilityProof": "",
+        "deliveryProof": "",
+        "pricingProof": "",
+        "imageRightsProof": "",
+        "imageVariantProof": "",
+        "copyCleanupDone": false,
+        "complianceNotes": "",
+        "moussReview": "",
+        "decision": "HOLD"
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication et commande interdites sans validation humaine."
+      }
+    },
+    {
+      "rank": 4,
+      "id": "ali_partner_20260527_brosse_poils_animaux_001",
+      "slug": "brosse-anti-poils-animaux-reutilisable",
+      "name": "Brosse anti-poils animaux 4-en-1 réutilisable",
+      "categoryId": "dropshipping-animaux",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 79,
+      "status": "draft",
+      "supplier": {
+        "name": "AliExpress - annonce exacte à vérifier",
+        "url": "https://www.aliexpress.com/item/1005011984700750.html",
+        "sku": "AE-ITEM-1005011984700750",
+        "supplierPriceCents": 792,
+        "salePriceCents": 1320,
+        "marginCents": 528,
+        "supplierStock": 45,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "images": {
+        "status": "verified_source_images",
+        "sourceUrl": "https://www.aliexpress.com/item/1005011984700750.html",
+        "main": "https://ae01.alicdn.com/kf/S201e970c6d674d67b0691f607db5e514F.jpg",
+        "gallery": [
+          "https://ae01.alicdn.com/kf/S201e970c6d674d67b0691f607db5e514F.jpg",
+          "https://ae01.alicdn.com/kf/S18858c59117b4de79da13542c82dec5dM.jpg",
+          "https://ae01.alicdn.com/kf/S2faa392c80b949109b213eb97e2200b4o.jpg",
+          "https://ae01.alicdn.com/kf/S57412b4c210e4c508f34631183a9f21f4.jpg",
+          "https://ae01.alicdn.com/kf/S38292230899443a0bf2013016ddfde57f.jpg",
+          "https://ae01.alicdn.com/kf/Sa7886e47a0d4418e8f7ba0d64f3500fcv.jpg"
+        ],
+        "count": 6,
+        "nextAction": "Verifier delai France/Europe, stock, droit d'usage des visuels et conditions fournisseur avant passage en published."
+      },
+      "evidenceAlreadyStored": {
+        "internalEvidenceUrl": "https://vi.pricearchive.org/aliexpress.com/item/1005011984700750",
+        "internalEvidenceNote": "Prix repère PriceArchive relevé autour de 7,92 EUR et page AliExpress exacte utilisée pour les images produit.",
+        "validationStatus": "HOLD - images produit corrigees, delai court et conditions fournisseur a verifier avant publication",
+        "deliveryStatus": "hold",
+        "priceStatus": "",
+        "rightsStatus": ""
+      },
+      "blockers": [
+        "fiche_contient_elements_a_confirmer",
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold"
+      ],
+      "riskFlags": [
+        "controle_confort_animal"
+      ],
+      "actionFields": [
+        "copyCleanup",
+        "deliveryProof",
+        "supplierReliabilityProof",
+        "moussReview"
+      ],
+      "requiredActions": [
+        {
+          "blocker": "fiche_contient_elements_a_confirmer",
+          "field": "copyCleanup",
+          "instruction": "Retirer les mentions 'a verifier/a confirmer/HOLD' seulement apres verification reelle.",
+          "acceptWhen": "Description finale claire, sans promesse non prouvee."
+        },
+        {
+          "blocker": "delai_non_prouve",
+          "field": "deliveryProof",
+          "instruction": "Verifier le delai reel vers France/Europe sur la page fournisseur et noter la plage exacte.",
+          "acceptWhen": "Delai affiche clair, coherent, avec tracking disponible et maximum conseille 7 jours."
+        },
+        {
+          "blocker": "vendeur_non_valide",
+          "field": "supplierReliabilityProof",
+          "instruction": "Remplacer le libelle generique par le vendeur exact et prouver sa fiabilite.",
+          "acceptWhen": "Nom fournisseur exact et preuve de fiabilite renseignes."
+        },
+        {
+          "blocker": "validation_interne_hold",
+          "field": "moussReview",
+          "instruction": "Faire la revue humaine finale avant toute publication.",
+          "acceptWhen": "Validation explicite de Mouss ou decision de garder en brouillon."
+        },
+        {
+          "blocker": "preuve_livraison_hold",
+          "field": "deliveryProof",
+          "instruction": "Ajouter une preuve de livraison France/Europe et suivi colis.",
+          "acceptWhen": "Preuve livraison notee avec date de verification."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "exactSupplierName": "",
+        "exactProductUrl": "https://www.aliexpress.com/item/1005011984700750.html",
+        "exactSkuOrVariant": "AE-ITEM-1005011984700750",
+        "exactVariantChosen": "",
+        "currentSupplierPriceCents": "",
+        "currentSupplierStock": "",
+        "currentDeliveryFranceEurope": "",
+        "trackingAvailable": "",
+        "supplierReliabilityProof": "",
+        "deliveryProof": "",
+        "pricingProof": "",
+        "imageRightsProof": "",
+        "imageVariantProof": "",
+        "copyCleanupDone": false,
+        "complianceNotes": "",
+        "moussReview": "",
+        "decision": "HOLD"
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication et commande interdites sans validation humaine."
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ali_partner_20260605_spray_huile_cuisine_001",
+      "slug": "spray-huile-cuisine-reutilisable-best-seller",
+      "name": "Spray huile cuisine réutilisable best-seller",
+      "categoryId": "dropshipping-cuisine",
+      "lane": "lane_2_preuves_prix_livraison_droits",
+      "priorityScore": 77,
+      "status": "draft",
+      "supplier": {
+        "name": "AliExpress - annonce exacte a verifier",
+        "url": "https://www.aliexpress.com/item/1005008253500940.html",
+        "sku": "AE-1005008253500940-OIL-SPRAYER",
+        "supplierPriceCents": 120,
+        "salePriceCents": 200,
+        "marginCents": 80,
+        "supplierStock": 80,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "images": {
+        "status": "verified_source_images",
+        "sourceUrl": "https://www.aliexpress.com/item/1005008253500940.html",
+        "main": "https://ae01.alicdn.com/kf/Sdfda3822f064426692204d01a24fdb26m.png",
+        "gallery": [
+          "https://ae01.alicdn.com/kf/Sdfda3822f064426692204d01a24fdb26m.png",
+          "https://ae01.alicdn.com/kf/S59ca5bb41c7a473da4229d8e948a629fm.png",
+          "https://ae01.alicdn.com/kf/S5b50a5ddb3824736b17d697d9e0bd653C.png",
+          "https://ae01.alicdn.com/kf/Sbd1749abad6a4dbb8876f599f86135feI.jpg",
+          "https://ae01.alicdn.com/kf/S6becdaf4c851419dbb1a586e6ccbf1359.jpg",
+          "https://ae01.alicdn.com/kf/S7335d0f69efe4f679a4ff286761fbb24L.png"
+        ],
+        "count": 6,
+        "nextAction": "Verifier variante exacte, droit d usage des visuels, prix final, stock et delai France/Europe avant passage en published."
+      },
+      "evidenceAlreadyStored": {
+        "internalEvidenceUrl": "https://findniche.com/aliexpress/best-selling-home-and-garden-products-europe",
+        "internalEvidenceNote": "Classement Europe Home & Garden FindNiche: 260,43K commandes totales et 31,24K commandes sur 7 jours. Prix source affiche: $0.99 - $1.17. Detail public: https://findniche.com/aliexpress-detail/1005008253500940.",
+        "validationStatus": "HOLD - bestseller/promos integre, prix fournisseur reel, delai France/Europe, variante, droits images et conditions fournisseur a verifier avant publication",
+        "deliveryStatus": "hold",
+        "priceStatus": "hold",
+        "rightsStatus": "hold"
+      },
+      "blockers": [
+        "delai_non_prouve",
+        "vendeur_non_valide",
+        "validation_interne_hold",
+        "preuve_livraison_hold",
+        "preuve_prix_hold",
+        "droits_images_hold"
+      ],
+      "riskFlags": [
+        "controle_matiere_contact"
+      ],
+      "actionFields": [
+        "deliveryProof",
+        "supplierReliabilityProof",
+        "moussReview",
+        "pricingProof",
+        "imageRightsProof"
+      ],
+      "requiredActions": [
+        {
+          "blocker": "delai_non_prouve",
+          "field": "deliveryProof",
+          "instruction": "Verifier le delai reel vers France/Europe sur la page fournisseur et noter la plage exacte.",
+          "acceptWhen": "Delai affiche clair, coherent, avec tracking disponible et maximum conseille 7 jours."
+        },
+        {
+          "blocker": "vendeur_non_valide",
+          "field": "supplierReliabilityProof",
+          "instruction": "Remplacer le libelle generique par le vendeur exact et prouver sa fiabilite.",
+          "acceptWhen": "Nom fournisseur exact et preuve de fiabilite renseignes."
+        },
+        {
+          "blocker": "validation_interne_hold",
+          "field": "moussReview",
+          "instruction": "Faire la revue humaine finale avant toute publication.",
+          "acceptWhen": "Validation explicite de Mouss ou decision de garder en brouillon."
+        },
+        {
+          "blocker": "preuve_livraison_hold",
+          "field": "deliveryProof",
+          "instruction": "Ajouter une preuve de livraison France/Europe et suivi colis.",
+          "acceptWhen": "Preuve livraison notee avec date de verification."
+        },
+        {
+          "blocker": "preuve_prix_hold",
+          "field": "pricingProof",
+          "instruction": "Recontroler prix fournisseur, frais eventuels et marge boutique.",
+          "acceptWhen": "Prix fournisseur actuel et marge brute calculee."
+        },
+        {
+          "blocker": "droits_images_hold",
+          "field": "imageRightsProof",
+          "instruction": "Valider l'utilisation propre des images ou prevoir remplacement par visuels propres.",
+          "acceptWhen": "Droits/usage acceptables documentes ou plan de remplacement images."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "exactSupplierName": "",
+        "exactProductUrl": "https://www.aliexpress.com/item/1005008253500940.html",
+        "exactSkuOrVariant": "AE-1005008253500940-OIL-SPRAYER",
+        "exactVariantChosen": "",
+        "currentSupplierPriceCents": "",
+        "currentSupplierStock": "",
+        "currentDeliveryFranceEurope": "",
+        "trackingAvailable": "",
+        "supplierReliabilityProof": "",
+        "deliveryProof": "",
+        "pricingProof": "",
+        "imageRightsProof": "",
+        "imageVariantProof": "",
+        "copyCleanupDone": false,
+        "complianceNotes": "",
+        "moussReview": "",
+        "decision": "HOLD"
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication et commande interdites sans validation humaine."
+      }
+    }
+  ],
+  "safety": {
+    "noWriteToCatalog": true,
+    "noPublication": true,
+    "noSupplierOrder": true,
+    "noPayment": true
+  }
+}

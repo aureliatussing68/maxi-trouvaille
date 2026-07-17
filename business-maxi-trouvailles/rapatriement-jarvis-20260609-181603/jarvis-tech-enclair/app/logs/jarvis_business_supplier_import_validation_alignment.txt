@@ -1,0 +1,25 @@
+Alignement validations fournisseur/import - 2026-06-09 18:00:09
+
+Global: OK
+Statut: SUPPLIER_IMPORT_VALIDATION_ALIGNMENT_BLOCKED
+Message court: Alignement fournisseur/import bloque: 2/6 point(s), aucune action lancee.
+Alignement pret: non
+Checklist fournisseur/import prete: non
+Sas business global actif: oui
+Prochaine etape globale possible: non
+Points OK: 4/6
+Points bloquants: 2
+Preuves manquantes: 55/55
+File validation prete: 0/6
+Import brouillon autorise: non
+Confirmation vocale generique deverrouille: non
+
+Alignement:
+- Checklist fournisseur/import prete: A TRAITER
+- Sas business global actif: OK
+- Prochaine etape globale possible: A TRAITER
+- Confirmation vocale generique bloquee: OK
+- Deverrouillage automatique refuse: OK
+- Aucune action sensible lancee: OK
+
+Securite: alignement lecture seule, aucun detail produit ou chemin expose, aucune recherche web/API, aucune revue import lancee, aucun import, achat, paiement, publication ou suppression.

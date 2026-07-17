@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-05-31 05:09:12",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "queue_dir_present": true,
+    "rows_list_present": true,
+    "at_least_one_review_pack": true,
+    "short_message_present": true,
+    "txt_mentions_short_message": true,
+    "route_business_validation_queue": true,
+    "execute_business_validation_queue": true,
+    "executor_uses_short_message": true,
+    "read_only": true,
+    "site_not_modified": true,
+    "import_not_started": true,
+    "order_not_started": true,
+    "payment_not_started": true,
+    "publication_not_started": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true,
+    "no_secret_like_value_in_report": true
+  },
+  "short_message": "File validation: 6 produit(s), 0 pret(s), 6 a relire, validation manuelle.",
+  "total_seen": 6,
+  "blocked_count": 6,
+  "ready_count": 0,
+  "executor_message": "File validation: 6 produit(s), 0 pret(s), 6 a relire, validation manuelle.",
+  "note": "Regression lecture seule de la file produits a valider."
+}

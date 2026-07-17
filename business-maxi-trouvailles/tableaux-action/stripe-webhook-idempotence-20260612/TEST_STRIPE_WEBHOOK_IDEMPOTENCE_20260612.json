@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-12T03:35:56.725Z",
+  "mode": "local_signed_webhook_idempotence_test",
+  "checkCount": 9,
+  "failureCount": 0,
+  "checks": [
+    {
+      "name": "fixture_written",
+      "ok": true,
+      "detail": "Fixture produit et commande temporaire ajoutees avant le serveur."
+    },
+    {
+      "name": "dev_server_ready",
+      "ok": true,
+      "detail": "Next dev local pret avec secrets webhook factices."
+    },
+    {
+      "name": "first_webhook_accepted",
+      "ok": true,
+      "detail": "Premier webhook signe accepte localement."
+    },
+    {
+      "name": "first_webhook_decrements_stock",
+      "ok": true,
+      "detail": "Stock fixture passe de 7 a 5 apres quantite 2."
+    },
+    {
+      "name": "order_marked_paid_done",
+      "ok": true,
+      "detail": "Commande marquee payee avec stockDecrementStatus done."
+    },
+    {
+      "name": "second_webhook_accepted",
+      "ok": true,
+      "detail": "Second webhook signe accepte comme retry/replay local."
+    },
+    {
+      "name": "second_webhook_is_idempotent",
+      "ok": true,
+      "detail": "Le replay ne redecremente pas le stock deja traite."
+    },
+    {
+      "name": "data_files_restored",
+      "ok": true,
+      "detail": "quick-products.json et dropshipping-orders.json sont revenus a leur contenu initial exact."
+    },
+    {
+      "name": "dev_server_stopped",
+      "ok": true,
+      "detail": "Le serveur Next temporaire a ete stoppe apres le test."
+    }
+  ],
+  "failures": [],
+  "error": null,
+  "dataRestored": true,
+  "devServerStopped": true,
+  "runtime": {
+    "initialStock": 7,
+    "decrementQuantity": 2,
+    "port": 3042,
+    "firstWebhookStatus": 200,
+    "afterFirstStock": 5,
+    "afterFirstOrderStatus": "done",
+    "secondWebhookStatus": 200,
+    "afterSecondStock": 5,
+    "afterSecondOrderStatus": "done"
+  },
+  "filesTemporarilyTouched": [
+    "data/quick-products.json",
+    "data/dropshipping-orders.json"
+  ],
+  "safety": {
+    "localOnly": true,
+    "fakeStripeSecretsOnly": true,
+    "noStripeNetworkCall": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noPublication": true,
+    "dataRestoredAfterTest": true
+  }
+}

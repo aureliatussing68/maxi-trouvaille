@@ -1,0 +1,25 @@
+{
+  "checkedAt": "2026-06-19T01:58:31.927Z",
+  "ok": true,
+  "supportComponentPath": "src/components/CustomerSupportQuickLinks.tsx",
+  "routeFiles": [
+    "src/app/not-found.tsx",
+    "src/app/offline/page.tsx",
+    "src/app/paiement/annule/page.tsx",
+    "src/app/paiement/succes/page.tsx",
+    "src/app/error.tsx"
+  ],
+  "checkedRouteCount": 5,
+  "requiredSupportLinkCount": 6,
+  "findingCount": 0,
+  "findings": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true,
+    "noExternalRequest": true
+  }
+}

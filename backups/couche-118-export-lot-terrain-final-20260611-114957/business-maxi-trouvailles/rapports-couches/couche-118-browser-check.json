@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "errors": [],
+  "results": [
+    {
+      "name": "desktop",
+      "downloadName": "maxi-lot-terrain-du-jour-hold-toutes.csv",
+      "hrefPrefix": "data:text/csv;charset=utf-8,%22o",
+      "csvRows": 3
+    },
+    {
+      "name": "mobile",
+      "downloadName": "maxi-lot-terrain-du-jour-hold-toutes.csv",
+      "hrefPrefix": "data:text/csv;charset=utf-8,%22o",
+      "csvRows": 3
+    }
+  ],
+  "screenshots": [
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-118-export-lot-desktop.png",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-118-export-lot-mobile.png"
+  ]
+}

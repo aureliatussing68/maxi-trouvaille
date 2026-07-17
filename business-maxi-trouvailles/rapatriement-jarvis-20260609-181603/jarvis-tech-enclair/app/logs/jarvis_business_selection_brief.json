@@ -1,0 +1,157 @@
+{
+  "checked_at": "2026-06-09 18:00:59",
+  "ok": true,
+  "short_message": "Selection business: 5 produit(s) conseille(s), 0 source(s) reelle(s), validation obligatoire.",
+  "candidate_count": 10,
+  "selected_count": 5,
+  "mode": "demo_local_no_scraping",
+  "real_source_count": 0,
+  "demo_count": 10,
+  "selections": [
+    {
+      "rank_source": 2,
+      "candidate_id": "candidate_1779461503071_1",
+      "name": "Organisateur de cables de voyage compact",
+      "source_category": "accessoires",
+      "target_category_id": "dropshipping-accessoires",
+      "target_category_name": "Accessoires",
+      "supplier_price": "3,90 €",
+      "sale_price": "12,90 €",
+      "estimated_margin": "9,00 €",
+      "delivery": "Europe 4 a 8 jours apres verification fournisseur",
+      "risk_level": "faible",
+      "source_kind": "demo",
+      "ad_idea": "Sac fouillis contre pochette rangee nette.",
+      "selection_score": 132,
+      "reasons": [
+        "bon potentiel visuel",
+        "marge correcte",
+        "risque faible",
+        "categorie Maxi claire"
+      ],
+      "blockers": [
+        "lien fournisseur reel a verifier"
+      ],
+      "recommended_next_step": "verifier_fournisseur_reel",
+      "manual_validation_required": true
+    },
+    {
+      "rank_source": 7,
+      "candidate_id": "candidate_1779461503071_7",
+      "name": "Sac de rangement compressible pour valise",
+      "source_category": "accessoires",
+      "target_category_id": "dropshipping-accessoires",
+      "target_category_name": "Accessoires",
+      "supplier_price": "4,80 €",
+      "sale_price": "13,90 €",
+      "estimated_margin": "9,10 €",
+      "delivery": "Europe 4 a 8 jours apres verification fournisseur",
+      "risk_level": "faible",
+      "source_kind": "demo",
+      "ad_idea": "Valise qui ne ferme pas puis rangement compresse.",
+      "selection_score": 132,
+      "reasons": [
+        "bon potentiel visuel",
+        "marge correcte",
+        "risque faible",
+        "categorie Maxi claire"
+      ],
+      "blockers": [
+        "lien fournisseur reel a verifier"
+      ],
+      "recommended_next_step": "verifier_fournisseur_reel",
+      "manual_validation_required": true
+    },
+    {
+      "rank_source": 8,
+      "candidate_id": "candidate_1779461503071_8",
+      "name": "Veilleuse detecteur de mouvement pour placard",
+      "source_category": "electricite",
+      "target_category_id": "dropshipping-high-tech",
+      "target_category_name": "High-tech",
+      "supplier_price": "5,20 €",
+      "sale_price": "14,90 €",
+      "estimated_margin": "9,70 €",
+      "delivery": "Europe 5 a 9 jours apres verification fournisseur",
+      "risk_level": "faible",
+      "source_kind": "demo",
+      "ad_idea": "Ouverture placard sombre puis lumiere automatique.",
+      "selection_score": 132,
+      "reasons": [
+        "bon potentiel visuel",
+        "marge correcte",
+        "risque faible",
+        "categorie Maxi claire"
+      ],
+      "blockers": [
+        "lien fournisseur reel a verifier"
+      ],
+      "recommended_next_step": "verifier_fournisseur_reel",
+      "manual_validation_required": true
+    },
+    {
+      "rank_source": 1,
+      "candidate_id": "candidate_1779461503071_0",
+      "name": "Lampe LED rechargeable magnetique pour bureau",
+      "source_category": "maison",
+      "target_category_id": "dropshipping-maison",
+      "target_category_name": "Maison",
+      "supplier_price": "7,90 €",
+      "sale_price": "17,90 €",
+      "estimated_margin": "10,00 €",
+      "delivery": "Europe 5 a 9 jours apres verification fournisseur",
+      "risk_level": "faible",
+      "source_kind": "demo",
+      "ad_idea": "Avant/apres bureau sombre puis eclairage magnetique en 2 secondes.",
+      "selection_score": 128,
+      "reasons": [
+        "bon potentiel visuel",
+        "marge correcte",
+        "risque faible",
+        "categorie Maxi claire"
+      ],
+      "blockers": [
+        "lien fournisseur reel a verifier"
+      ],
+      "recommended_next_step": "verifier_fournisseur_reel",
+      "manual_validation_required": true
+    },
+    {
+      "rank_source": 3,
+      "candidate_id": "candidate_1779461503071_2",
+      "name": "Mini aspirateur sans fil pour voiture",
+      "source_category": "auto-moto",
+      "target_category_id": "dropshipping-auto-moto",
+      "target_category_name": "Auto / Moto",
+      "supplier_price": "12,90 €",
+      "sale_price": "29,90 €",
+      "estimated_margin": "17,00 €",
+      "delivery": "Europe 6 a 10 jours apres verification fournisseur",
+      "risk_level": "faible",
+      "source_kind": "demo",
+      "ad_idea": "Test miettes siege auto en plan serre.",
+      "selection_score": 128,
+      "reasons": [
+        "bon potentiel visuel",
+        "marge correcte",
+        "risque faible",
+        "categorie Maxi claire"
+      ],
+      "blockers": [
+        "lien fournisseur reel a verifier"
+      ],
+      "recommended_next_step": "verifier_fournisseur_reel",
+      "manual_validation_required": true
+    }
+  ],
+  "operator_message": "Selection business prete. Les produits restent en demo tant qu'un lien fournisseur reel n'est pas valide.",
+  "safety": {
+    "read_only": true,
+    "no_import": true,
+    "no_order": true,
+    "no_payment": true,
+    "no_publication": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  }
+}

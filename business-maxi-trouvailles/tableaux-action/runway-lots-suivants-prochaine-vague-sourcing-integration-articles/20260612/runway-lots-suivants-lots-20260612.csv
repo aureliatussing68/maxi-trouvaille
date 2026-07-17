@@ -1,0 +1,3 @@
+batch_id;batch_number;status;product_count;proof_task_count;image_task_count;first_action
+lot-02;2;PENDING_RUNWAY_HOLD;4;20;12;preparer preuves internes et WebP exacts locaux en HOLD
+lot-03;3;PENDING_RUNWAY_HOLD;4;20;12;preparer preuves internes et WebP exacts locaux en HOLD

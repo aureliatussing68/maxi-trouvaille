@@ -1,0 +1,41 @@
+{
+  "createdAt": "2026-05-06T14:41:10",
+  "theme": "moins_20",
+  "video": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\TIKTOK\\maxi_20260506-144031_moins_20.mp4",
+  "voice": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\TIKTOK\\maxi_20260506-144031_moins_20_voice.mp3",
+  "script": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\TIKTOK\\maxi_20260506-144031_moins_20_script.txt",
+  "captionFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\TIKTOK\\maxi_20260506-144031_moins_20_caption.txt",
+  "caption": "Sélection petit budget Maxi Trouvailles : maison, auto, high-tech, accessoires pratiques. https://maxitrouvaille.fr #moinsde20euros #bonplan #destockage",
+  "preview": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\TIKTOK\\maxi_20260506-144031_moins_20_preview.jpg",
+  "products": [
+    {
+      "title": "Filtre robinet inox 13 étapes",
+      "price": "18 €",
+      "tag": "Maison",
+      "image": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\quick-products\\1777965396342-hr1jm1t.webp",
+      "slug": "filtre-a-eau-robinet-acier-inoxydable-13-etapes-purificateur-eau-uv-sans-mosaovw7"
+    },
+    {
+      "title": "Ventilateur tour de cou",
+      "price": "15 €",
+      "tag": "High-tech",
+      "image": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\generated-products\\ventilateur-tour-de-cou.webp",
+      "slug": "ventilateur-tour-de-cou-rechargeable-usb-mosbs4rw"
+    },
+    {
+      "title": "Double prise murale avec 4",
+      "price": "15 €",
+      "tag": "Électricité",
+      "image": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\generated-products\\double-prise-usb.webp",
+      "slug": "double-prise-murale-avec-4-ports-usb-mosbs4s8"
+    },
+    {
+      "title": "Contrôleur LED RGB/RGBW 5",
+      "price": "20 €",
+      "tag": "Électricité",
+      "image": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\quick-products\\1777650923264-ihyovso.webp",
+      "slug": "controleur-led-programmable-5-canaux-rgb-rgbw-12v-24v-20a-mon3gmwy"
+    }
+  ],
+  "publishStatus": "ready"
+}

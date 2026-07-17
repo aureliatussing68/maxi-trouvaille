@@ -1,0 +1,16 @@
+Garde-fou recherche produits - 2026-06-09 18:00:59
+
+Recherche autorisee: OK
+Message court: Recherche produits: brouillon uniquement, source demo_or_incomplete, AliExpress a configurer.
+Mode attendu: demo_or_incomplete
+AliExpress API prete: A_CONFIGURER
+Tracking AliExpress pret: A_CONFIGURER
+Sourcing reel pret: NON
+
+Variables:
+- ALIEXPRESS_APP_KEY: PARTIEL
+- ALIEXPRESS_APP_SECRET: OK
+- ALIEXPRESS_TRACKING_ID: MANQUANT
+
+Message: Recherche produits autorisee en brouillon, mais le sourcing peut rester en mode demo tant que les variables AliExpress ne sont pas completes.
+Securite: brouillon uniquement, aucune commande, aucun paiement, aucune publication.

@@ -1,0 +1,35 @@
+Regression suivi preuves fournisseur - 2026-05-25 05:13:44
+
+Global: OK
+Message suivi: Suivi preuves fournisseur: 0/55 champ(s) remplis, 55 restant(s), aucune action lancee.
+Lignes preuves: 5
+Champs manquants: 55
+
+Assertions:
+- json_written: OK
+- txt_written: OK
+- progress_ok: OK
+- route_supplier_evidence_progress: OK
+- execute_supplier_evidence_progress: OK
+- executor_payload_ok: OK
+- manual_only: OK
+- row_count: OK
+- totals_consistent: OK
+- initial_state_empty: OK
+- no_import_ready: OK
+- manual_validation: OK
+- manual_steps: OK
+- auto_research_denied: OK
+- no_web_or_api_started: OK
+- no_scraping_or_subprocess: OK
+- no_business_job_or_sourcing: OK
+- site_not_modified: OK
+- no_import_order_payment_publication: OK
+- no_delete: OK
+- read_only_progress: OK
+- no_secret_values: OK
+- no_content_exposed: OK
+- txt_mentions_progress: OK
+- no_secret_like_value_in_reports: OK
+
+Regression lecture seule: le suivi des preuves fournisseur ne modifie rien et ne lance aucune recherche.

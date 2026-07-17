@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "maxi-webp-validation-contract-v1",
+  "generatedAt": "2026-06-13T12:12:11.647Z",
+  "generatedAtLocal": "2026-06-13 14:12 Europe/Paris",
+  "status": "WEBP_VALIDATION_CONTRACT_HOLD",
+  "batchId": "lot-01",
+  "productId": "integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+  "productName": "Organisateur tiroir cuisine extensible",
+  "categoryId": "dropshipping-cuisine",
+  "productRank": 4,
+  "imageOrder": 2,
+  "imageRole": "detail-1",
+  "expectedWebpFileName": "organisateur-tiroir-cuisine-extensible-partenaire-hold-detail-1.webp",
+  "targetPath": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/organisateur-tiroir-cuisine-extensible-partenaire-hold/organisateur-tiroir-cuisine-extensible-partenaire-hold-detail-1.webp",
+  "contractPath": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/organisateur-tiroir-cuisine-extensible-partenaire-hold/organisateur-tiroir-cuisine-extensible-partenaire-hold-detail-1.validation-contract.json",
+  "webpFileState": "missing",
+  "requiredProofs": {
+    "exactSupplierProductUrl": "TO_FILL_HOLD",
+    "supplierSellerIdentity": "TO_FILL_HOLD",
+    "skuOrVariantReference": "TO_FILL_HOLD",
+    "supplierPrice": "TO_FILL_HOLD",
+    "stockAndDelayFranceEurope": "TO_FILL_HOLD",
+    "imageRightsEvidence": "TO_FILL_HOLD",
+    "sameArticleConfirmation": "TO_FILL_HOLD",
+    "moussHumanValidation": "TO_FILL_HOLD"
+  },
+  "acceptanceChecks": {
+    "webpFileExistsAndValidHeader": false,
+    "exactProductSameModelConfirmed": false,
+    "exactVariantConfirmed": false,
+    "skuMatchesSupplierProof": false,
+    "supplierPriceRecordedInternally": false,
+    "stockAndDelayRecordedInternally": false,
+    "imageRightsConfirmed": false,
+    "moussValidationApproved": false,
+    "noApproximateImage": true,
+    "noPublicCopy": true,
+    "noMarketplaceClientLeak": true
+  },
+  "decision": {
+    "status": "BLOCKED_HOLD",
+    "reason": "Attente du vrai fichier WebP exact, des preuves fournisseur/image, des droits image et de la validation humaine Mouss.",
+    "mayCopyToPublicUploads": false,
+    "mayPublishProduct": false,
+    "mayOrderSupplier": false
+  },
+  "safety": {
+    "noCatalogWrite": true,
+    "noPublicImageWrite": true,
+    "noImageDownload": true,
+    "noImageGeneration": true,
+    "noSupplierValueExport": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "manualValidationRequired": true
+  }
+}

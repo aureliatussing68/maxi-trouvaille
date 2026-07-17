@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-06-03 18:22:32",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "barrier_ok": true,
+    "all_business_confirmations_manual_only": true,
+    "confirmation_allowed_to_execute_business_false": true,
+    "generic_confirmation_executes_business_false": true,
+    "pending_unchanged": true,
+    "confirmation_manager_manual_helper": true,
+    "route_business_confirmation_barrier": true,
+    "execute_business_confirmation_barrier": true,
+    "executor_payload_ok": true,
+    "generic_confirm_routes_core_only": true,
+    "no_pending_written": true,
+    "no_confirmation_confirmed": true,
+    "no_business_job_started": true,
+    "no_subprocess_started": true,
+    "no_import_order_payment_publication": true,
+    "no_secret_values": true,
+    "no_content_exposed": true,
+    "txt_mentions_barrier": true,
+    "no_secret_like_value_in_reports": true
+  },
+  "barrier_message": "Barriere confirmation business OK: 4/4 confirmation(s) restent manuelles.",
+  "generic_confirmation_route": "core.confirmation_confirm",
+  "note": "Regression lecture seule: une validation vocale generique ne cree aucun chemin d'execution business."
+}

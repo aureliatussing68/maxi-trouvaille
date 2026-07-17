@@ -1,0 +1,36 @@
+Statut business rapide Maxi - 2026-06-09 18:08:59
+
+Global: OK
+Message court: Business Maxi: 10 candidat(s), sourcing demo, 2 API a completer, prochaine etape sure prete, brouillon uniquement.
+Temps: 3 ms
+Projet: OK
+Dossier business: OK
+Snapshots frais: 8/9
+Candidats produits: 10
+Sourcing: demo
+Sourcing reel pret: NON
+API a completer: 2
+Prochaine etape sure: BUSINESS_SAFE_NEXT_STEP_READY - prete=oui
+Checks prochaine etape: 11/11 OK, blocages=0
+Pas manuels: 5 - executables Jarvis: 0
+Checkpoint fournisseur: cached_log - chemin_expose=False
+Handoff runtime manuel: MANUAL_RUNTIME_REPRISE_READY_DRY_RUN - requis=oui - raison=runtime_absent - dry_run=True - confirmation=True - instances=0
+Handoff runtime securite: no_start=True, no_kill=True, no_container=True, no_window=True, no_browser=True, chemins_masques=True, no_ai=True, no_secret=True
+Pipeline: OK
+Dernier job: search-products
+
+Variables AliExpress:
+- ALIEXPRESS_APP_KEY: PARTIEL
+- ALIEXPRESS_APP_SECRET: OK
+- ALIEXPRESS_TRACKING_ID: MANQUANT
+
+Prochaines commandes sures:
+- Jarvis tableau de bord business
+- Jarvis prochaine etape business securisee
+- Jarvis garde artefact business rapide
+- Jarvis health business rapide
+- Jarvis pret recherche produits
+- Jarvis previsualise recherche produits
+- Jarvis dossier validation business
+
+Securite: lecture seule, aucun sourcing lance, aucun import, aucune commande, aucun paiement, aucune publication.

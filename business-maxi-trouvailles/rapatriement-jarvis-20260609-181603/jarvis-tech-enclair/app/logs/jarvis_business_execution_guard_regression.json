@@ -1,0 +1,72 @@
+{
+  "checked_at": "2026-06-08 21:49:19",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "all_cases_blocked": true,
+    "route_business_execution_guard": true,
+    "execute_business_execution_guard": true,
+    "execute_business_search_guarded": true,
+    "executor_uses_guard": true,
+    "executor_keeps_runtime_handoff": true,
+    "runtime_handoff_source_display_only": true,
+    "runtime_handoff_source_snapshot_only": true,
+    "runtime_handoff_source_handoff_only": true,
+    "executor_message_mentions_block": true,
+    "no_business_job_started": true,
+    "no_subprocess_started": true,
+    "no_sourcing": true,
+    "no_import_order_payment_publication": true,
+    "manual_validation_required": true,
+    "no_secret_values": true,
+    "no_content_exposed": true,
+    "uses_business_handoff_snapshot": true,
+    "uses_runtime_handoff_snapshot": true,
+    "runtime_handoff_display_only": true,
+    "runtime_handoff_snapshot_only": true,
+    "runtime_handoff_handoff_only": true,
+    "runtime_handoff_dry_run_only": true,
+    "runtime_handoff_safety_no_process_start": true,
+    "runtime_handoff_safety_no_process_kill": true,
+    "runtime_handoff_safety_no_container_change": true,
+    "runtime_handoff_safety_manual_confirmation": true,
+    "runtime_handoff_safety_no_window_action": true,
+    "runtime_handoff_safety_no_browser_open": true,
+    "runtime_handoff_safety_no_ai_secret": true,
+    "runtime_handoff_safety_paths_hidden": true,
+    "no_runtime_recovery_started": true,
+    "txt_mentions_runtime_handoff": true,
+    "txt_mentions_safety": true,
+    "no_secret_like_value_in_reports": true
+  },
+  "cases": [
+    {
+      "text": "Jarvis trouve dix produits gagnants avec livraison rapide",
+      "expected": "search_products_draft",
+      "actual": "search_products_draft",
+      "ok": true
+    },
+    {
+      "text": "Jarvis prepare la fiche produit",
+      "expected": "product_sheet_draft",
+      "actual": "product_sheet_draft",
+      "ok": true
+    },
+    {
+      "text": "Jarvis prepare les pubs",
+      "expected": "ads_draft",
+      "actual": "ads_draft",
+      "ok": true
+    },
+    {
+      "text": "Jarvis import brouillon",
+      "expected": "import_draft",
+      "actual": "import_draft",
+      "ok": true
+    }
+  ],
+  "guard_message": "Garde execution business OK: aucune action business a bloquer.",
+  "business_message": "Action business bloquee: Recherche produits brouillon, validation humaine requise, aucun job lance.",
+  "note": "Regression lecture seule: les commandes business executables sont bloquees avant subprocess/import."
+}

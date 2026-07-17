@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "urls": {
+    "image": "http://127.0.0.1:3043/admin/preuves-partenaires?status=hold&zone=image",
+    "margin": "http://127.0.0.1:3043/admin/preuves-partenaires?status=hold&zone=margin",
+    "mobileDelivery": "http://127.0.0.1:3043/admin/preuves-partenaires?status=hold&zone=delivery"
+  },
+  "quickFilterVisible": true,
+  "imageZoneVisible": true,
+  "zoneSelectValue": "image",
+  "statusSelectValue": "hold",
+  "marginHref": "/admin/preuves-partenaires?status=hold&zone=margin",
+  "deliveryHref": "/admin/preuves-partenaires?status=hold&zone=delivery",
+  "resetHref": "/admin/preuves-partenaires",
+  "exportName": "maxi-preuves-partenaires-hold-image-toutes.csv",
+  "csvHeaderOk": true,
+  "csvDataRowCount": 58,
+  "lotCardCount": 3,
+  "marginUrlOk": true,
+  "marginSelectValue": "margin",
+  "mobileZoneVisible": true,
+  "mobileSelectValue": "delivery",
+  "overflow": false,
+  "mobileOverflow": false,
+  "consoleErrors": [],
+  "screenshots": {
+    "desktop": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-122-filtres-zones-preuves-desktop.png",
+    "mobile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-122-filtres-zones-preuves-mobile.png"
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-12T08:08:48.194Z",
+  "generatedAtLocal": "2026-06-12 10:08 Europe/Paris",
+  "mode": "read_only_category_image_uniqueness_sprint",
+  "sprintLimit": 5,
+  "candidateCount": 10,
+  "sprintCount": 5,
+  "backlogCount": 2,
+  "sprint": [
+    {
+      "rank": 1,
+      "categoryId": "dropshipping-high-tech",
+      "categorySlug": "high-tech-partenaires",
+      "categoryName": "High-tech",
+      "parentId": "dropshipping",
+      "isDropshippingCategory": true,
+      "currentImageUrl": "/uploads/category-images/high-tech.webp",
+      "currentImageFileName": "high-tech.webp",
+      "sharedWithCategoryIds": [
+        "high-tech"
+      ],
+      "sharedGroupSize": 2,
+      "anchorCategoryId": "high-tech",
+      "anchorCategoryName": "High-tech",
+      "proposedImageFileName": "dropshipping-high-tech.webp",
+      "proposedPublicUrl": "/uploads/category-images/dropshipping-high-tech.webp",
+      "proposedLocalPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\dropshipping-high-tech.webp",
+      "score": 255,
+      "visualDirection": "Version produits partenaires: montrer une selection ecommerce neuve et propre, sans marketplace visible. Differencier de l'image actuelle partagee avec High-tech. Signal visuel prioritaire: technologie moderne, accessoires connectes, ecrans et objets utiles. Style: realiste ou semi-realiste, premium leger, lumineux, mobile friendly.",
+      "productionChecks": [
+        "WebP optimise, ratio 16/10",
+        "largeur minimum 900 px",
+        "aucun logo marketplace, fournisseur ou marque visible",
+        "image reconnaissable en mobile",
+        "titre et description categorie inchanges",
+        "validation Mouss avant remplacement public"
+      ],
+      "safetyStatus": "HOLD_PRODUCTION_IMAGE_REQUIRED"
+    },
+    {
+      "rank": 2,
+      "categoryId": "dropshipping-accessoires",
+      "categorySlug": "accessoires-partenaires",
+      "categoryName": "Accessoires",
+      "parentId": "dropshipping",
+      "isDropshippingCategory": true,
+      "currentImageUrl": "/uploads/category-images/accessoires.webp",
+      "currentImageFileName": "accessoires.webp",
+      "sharedWithCategoryIds": [
+        "accessoires"
+      ],
+      "sharedGroupSize": 2,
+      "anchorCategoryId": "accessoires",
+      "anchorCategoryName": "Accessoires",
+      "proposedImageFileName": "dropshipping-accessoires.webp",
+      "proposedPublicUrl": "/uploads/category-images/dropshipping-accessoires.webp",
+      "proposedLocalPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\dropshipping-accessoires.webp",
+      "score": 251,
+      "visualDirection": "Version produits partenaires: montrer une selection ecommerce neuve et propre, sans marketplace visible. Differencier de l'image actuelle partagee avec Accessoires. Signal visuel prioritaire: petits accessoires utiles, voyage, rangement et mode sans confusion. Style: realiste ou semi-realiste, premium leger, lumineux, mobile friendly.",
+      "productionChecks": [
+        "WebP optimise, ratio 16/10",
+        "largeur minimum 900 px",
+        "aucun logo marketplace, fournisseur ou marque visible",
+        "image reconnaissable en mobile",
+        "titre et description categorie inchanges",
+        "validation Mouss avant remplacement public"
+      ],
+      "safetyStatus": "HOLD_PRODUCTION_IMAGE_REQUIRED"
+    },
+    {
+      "rank": 3,
+      "categoryId": "dropshipping-auto-moto",
+      "categorySlug": "auto-moto-partenaires",
+      "categoryName": "Auto / Moto",
+      "parentId": "dropshipping",
+      "isDropshippingCategory": true,
+      "currentImageUrl": "/uploads/category-images/auto-moto.webp",
+      "currentImageFileName": "auto-moto.webp",
+      "sharedWithCategoryIds": [
+        "auto-moto"
+      ],
+      "sharedGroupSize": 2,
+      "anchorCategoryId": "auto-moto",
+      "anchorCategoryName": "Auto / moto",
+      "proposedImageFileName": "dropshipping-auto-moto.webp",
+      "proposedPublicUrl": "/uploads/category-images/dropshipping-auto-moto.webp",
+      "proposedLocalPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\dropshipping-auto-moto.webp",
+      "score": 247,
+      "visualDirection": "Version produits partenaires: montrer une selection ecommerce neuve et propre, sans marketplace visible. Differencier de l'image actuelle partagee avec Auto / moto. Signal visuel prioritaire: equipement vehicule, nettoyage, confort auto et moto. Style: realiste ou semi-realiste, premium leger, lumineux, mobile friendly.",
+      "productionChecks": [
+        "WebP optimise, ratio 16/10",
+        "largeur minimum 900 px",
+        "aucun logo marketplace, fournisseur ou marque visible",
+        "image reconnaissable en mobile",
+        "titre et description categorie inchanges",
+        "validation Mouss avant remplacement public"
+      ],
+      "safetyStatus": "HOLD_PRODUCTION_IMAGE_REQUIRED"
+    },
+    {
+      "rank": 4,
+      "categoryId": "dropshipping-maison",
+      "categorySlug": "maison-partenaires",
+      "categoryName": "Maison",
+      "parentId": "dropshipping",
+      "isDropshippingCategory": true,
+      "currentImageUrl": "/uploads/category-images/maison.webp",
+      "currentImageFileName": "maison.webp",
+      "sharedWithCategoryIds": [
+        "maison"
+      ],
+      "sharedGroupSize": 2,
+      "anchorCategoryId": "maison",
+      "anchorCategoryName": "Maison",
+      "proposedImageFileName": "dropshipping-maison.webp",
+      "proposedPublicUrl": "/uploads/category-images/dropshipping-maison.webp",
+      "proposedLocalPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\dropshipping-maison.webp",
+      "score": 243,
+      "visualDirection": "Version produits partenaires: montrer une selection ecommerce neuve et propre, sans marketplace visible. Differencier de l'image actuelle partagee avec Maison. Signal visuel prioritaire: rangement, confort interieur et objets pratiques pour la maison. Style: realiste ou semi-realiste, premium leger, lumineux, mobile friendly.",
+      "productionChecks": [
+        "WebP optimise, ratio 16/10",
+        "largeur minimum 900 px",
+        "aucun logo marketplace, fournisseur ou marque visible",
+        "image reconnaissable en mobile",
+        "titre et description categorie inchanges",
+        "validation Mouss avant remplacement public"
+      ],
+      "safetyStatus": "HOLD_PRODUCTION_IMAGE_REQUIRED"
+    },
+    {
+      "rank": 5,
+      "categoryId": "dropshipping-cuisine",
+      "categorySlug": "cuisine-partenaires",
+      "categoryName": "Cuisine",
+      "parentId": "dropshipping",
+      "isDropshippingCategory": true,
+      "currentImageUrl": "/uploads/category-images/cuisine.webp",
+      "currentImageFileName": "cuisine.webp",
+      "sharedWithCategoryIds": [
+        "cuisine"
+      ],
+      "sharedGroupSize": 2,
+      "anchorCategoryId": "cuisine",
+      "anchorCategoryName": "Cuisine",
+      "proposedImageFileName": "dropshipping-cuisine.webp",
+      "proposedPublicUrl": "/uploads/category-images/dropshipping-cuisine.webp",
+      "proposedLocalPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\category-images\\dropshipping-cuisine.webp",
+      "score": 239,
+      "visualDirection": "Version produits partenaires: montrer une selection ecommerce neuve et propre, sans marketplace visible. Differencier de l'image actuelle partagee avec Cuisine. Signal visuel prioritaire: ustensiles, robot, vaisselle et cuisine moderne. Style: realiste ou semi-realiste, premium leger, lumineux, mobile friendly.",
+      "productionChecks": [
+        "WebP optimise, ratio 16/10",
+        "largeur minimum 900 px",
+        "aucun logo marketplace, fournisseur ou marque visible",
+        "image reconnaissable en mobile",
+        "titre et description categorie inchanges",
+        "validation Mouss avant remplacement public"
+      ],
+      "safetyStatus": "HOLD_PRODUCTION_IMAGE_REQUIRED"
+    }
+  ],
+  "backlog": [
+    {
+      "imageFileName": "colis-surprise-palettes.webp",
+      "reason": "hidden_only_group",
+      "categoryIds": [
+        "colis-surprise-palettes",
+        "colis-mysteres",
+        "colis-au-poids",
+        "colis-surprise"
+      ],
+      "categoryNames": [
+        "Colis surprise & palettes",
+        "Colis mystères",
+        "Colis au poids",
+        "Colis surprise"
+      ]
+    },
+    {
+      "imageFileName": "dropshipping-promotions.webp",
+      "reason": "visible_category_already_has_dedicated_filename",
+      "categoryIds": [
+        "dropshipping-promotions",
+        "lots-bonnes-affaires"
+      ],
+      "categoryNames": [
+        "Promotions",
+        "Lots & bonnes affaires"
+      ]
+    }
+  ],
+  "sources": {
+    "auditPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\audit-images-categories-20260612\\AUDIT_IMAGES_CATEGORIES_20260612.json"
+  },
+  "safety": {
+    "readOnly": true,
+    "noImageGeneration": true,
+    "noImageDownload": true,
+    "noImageReplacement": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "manualValidationRequired": true
+  }
+}

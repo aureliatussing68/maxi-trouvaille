@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-06-05 16:08:03",
+  "ok": true,
+  "short_message": "Dossier produit pret: Organisateur de cables de voyage compact, import bloque pour relecture manuelle, 2 blocage(s), validation Mouss obligatoire.",
+  "product_title": "Organisateur de cables de voyage compact",
+  "product_slug": "organisateur-de-cables-de-voyage-compact",
+  "review_dir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345",
+  "written_files": [
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\A_VALIDER_PAR_MOUSS.md",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\garde_import.txt",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\liens_scripts_pubs.txt",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\README.txt",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\manifest.json"
+  ],
+  "import_decision": "BLOCKED_FOR_MANUAL_REVIEW",
+  "blockers": [
+    "lien fournisseur reel manquant",
+    "sourcing reel AliExpress non pret"
+  ],
+  "created_new": false,
+  "reused_existing": true,
+  "operator_message": "Dossier produit a valider existant mis a jour en local. Aucune action sensible.",
+  "safety": {
+    "local_files_only": true,
+    "site_modified": false,
+    "import_started": false,
+    "order_started": false,
+    "payment_started": false,
+    "publication_started": false,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  }
+}

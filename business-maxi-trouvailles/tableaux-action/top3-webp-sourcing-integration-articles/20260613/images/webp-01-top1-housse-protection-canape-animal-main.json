@@ -1,0 +1,24 @@
+{
+  "rank": 1,
+  "top3Rank": 1,
+  "productId": "integration_articles_20260612_housse-protection-canape-animal",
+  "productSlug": "housse-protection-canape-animal-partenaire-hold",
+  "productName": "Housse protection canape animal",
+  "categoryId": "dropshipping-maison",
+  "role": "main",
+  "order": 1,
+  "expectedFileName": "housse-protection-canape-animal-partenaire-hold-main.webp",
+  "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/housse-protection-canape-animal-partenaire-hold",
+  "expectedTargetPathRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/housse-protection-canape-animal-partenaire-hold/housse-protection-canape-animal-partenaire-hold-main.webp",
+  "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal#top-verification-integration_articles_20260612_housse-protection-canape-animal",
+  "status": "MISSING_HOLD",
+  "manualInput": {
+    "sourceLocalFile": "",
+    "rightsNote": "",
+    "exactSameArticle": "",
+    "exactVariantConfirmed": "",
+    "moussValidation": "",
+    "finalDecision": "HOLD_TO_FILL"
+  },
+  "nextAction": "Deposer un WebP exact local uniquement apres preuve meme article, droits image et validation Mouss."
+}

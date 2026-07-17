@@ -1,0 +1,8 @@
+Image attendue pour: Brosse nettoyage joints cuisine
+Nom fichier WebP attendu: brosse-nettoyage-joints-cuisine-partenaire-hold.webp
+Chemin public apres validation humaine: /uploads/partner-products/brosse-nettoyage-joints-cuisine-partenaire-hold.webp
+
+Ne pas remplacer ce marqueur par un faux visuel.
+Deposer ici la photo WebP exacte uniquement apres verification manuelle.
+Aucune copie vers public/uploads/partner-products sans validation Mouss.
+

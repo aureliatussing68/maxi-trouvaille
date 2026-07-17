@@ -1,0 +1,216 @@
+{
+  "ok": true,
+  "checkedCount": 26,
+  "failures": [],
+  "pageErrors": [],
+  "results": [
+    {
+      "route": "/",
+      "status": 200,
+      "ok": true,
+      "title": "Maxi Trouvaille - Boutique dropshipping",
+      "h1": "Maxi Trouvaille",
+      "consoleErrors": []
+    },
+    {
+      "route": "/boutique",
+      "status": 200,
+      "ok": true,
+      "title": "Boutique dropshipping | Maxi Trouvaille",
+      "h1": "Produits partenaires Maxi Trouvaille",
+      "consoleErrors": []
+    },
+    {
+      "route": "/categories",
+      "status": 200,
+      "ok": true,
+      "title": "Catégories dropshipping | Maxi Trouvaille",
+      "h1": "Rayons produits partenaires",
+      "consoleErrors": []
+    },
+    {
+      "route": "/categories/accessoires-partenaires",
+      "status": 200,
+      "ok": true,
+      "title": "Accessoires | Maxi Trouvaille",
+      "h1": "Accessoires",
+      "consoleErrors": []
+    },
+    {
+      "route": "/categories/animaux-partenaires",
+      "status": 200,
+      "ok": true,
+      "title": "Animaux | Maxi Trouvaille",
+      "h1": "Animaux",
+      "consoleErrors": []
+    },
+    {
+      "route": "/categories/auto-moto-partenaires",
+      "status": 200,
+      "ok": true,
+      "title": "Auto / Moto | Maxi Trouvaille",
+      "h1": "Auto / Moto",
+      "consoleErrors": []
+    },
+    {
+      "route": "/categories/beaute-partenaires",
+      "status": 200,
+      "ok": true,
+      "title": "Beauté | Maxi Trouvaille",
+      "h1": "Beauté",
+      "consoleErrors": []
+    },
+    {
+      "route": "/categories/cuisine-partenaires",
+      "status": 200,
+      "ok": true,
+      "title": "Cuisine | Maxi Trouvaille",
+      "h1": "Cuisine",
+      "consoleErrors": []
+    },
+    {
+      "route": "/categories/enfant-partenaires",
+      "status": 200,
+      "ok": true,
+      "title": "Enfant | Maxi Trouvaille",
+      "h1": "Enfant",
+      "consoleErrors": []
+    },
+    {
+      "route": "/categories/high-tech-partenaires",
+      "status": 200,
+      "ok": true,
+      "title": "High-tech | Maxi Trouvaille",
+      "h1": "High-tech",
+      "consoleErrors": []
+    },
+    {
+      "route": "/categories/maison-partenaires",
+      "status": 200,
+      "ok": true,
+      "title": "Maison | Maxi Trouvaille",
+      "h1": "Maison",
+      "consoleErrors": []
+    },
+    {
+      "route": "/categories/mode-partenaires",
+      "status": 200,
+      "ok": true,
+      "title": "Mode | Maxi Trouvaille",
+      "h1": "Mode",
+      "consoleErrors": []
+    },
+    {
+      "route": "/categories/nouveautes-partenaires",
+      "status": 200,
+      "ok": true,
+      "title": "Nouveautés | Maxi Trouvaille",
+      "h1": "Nouveautés",
+      "consoleErrors": []
+    },
+    {
+      "route": "/categories/produits-partenaires",
+      "status": 200,
+      "ok": true,
+      "title": "Produits partenaires | Maxi Trouvaille",
+      "h1": "Produits partenaires",
+      "consoleErrors": []
+    },
+    {
+      "route": "/categories/promotions-partenaires",
+      "status": 200,
+      "ok": true,
+      "title": "Promotions | Maxi Trouvaille",
+      "h1": "Promotions",
+      "consoleErrors": []
+    },
+    {
+      "route": "/conditions-generales-vente",
+      "status": 200,
+      "ok": true,
+      "title": "Conditions generales de vente | Maxi Trouvaille",
+      "h1": "Conditions generales de vente provisoires",
+      "consoleErrors": []
+    },
+    {
+      "route": "/conditions-produits-partenaires",
+      "status": 200,
+      "ok": true,
+      "title": "Conditions produits partenaires | Maxi Trouvaille",
+      "h1": "Conditions produits partenaires",
+      "consoleErrors": []
+    },
+    {
+      "route": "/contact",
+      "status": 200,
+      "ok": true,
+      "title": "Contact | Maxi Trouvaille",
+      "h1": "Une question sur Maxi Trouvaille ?",
+      "consoleErrors": []
+    },
+    {
+      "route": "/faq",
+      "status": 200,
+      "ok": true,
+      "title": "FAQ | Maxi Trouvaille",
+      "h1": "Questions frequentes",
+      "consoleErrors": []
+    },
+    {
+      "route": "/livraison",
+      "status": 200,
+      "ok": true,
+      "title": "Livraison | Maxi Trouvaille",
+      "h1": "Choisissez la livraison avant paiement",
+      "consoleErrors": []
+    },
+    {
+      "route": "/mentions-legales",
+      "status": 200,
+      "ok": true,
+      "title": "Mentions legales | Maxi Trouvaille",
+      "h1": "Mentions legales provisoires",
+      "consoleErrors": []
+    },
+    {
+      "route": "/panier",
+      "status": 200,
+      "ok": true,
+      "title": "Panier | Maxi Trouvaille",
+      "h1": "Votre selection",
+      "consoleErrors": []
+    },
+    {
+      "route": "/politique-confidentialite",
+      "status": 200,
+      "ok": true,
+      "title": "Politique de confidentialite | Maxi Trouvaille",
+      "h1": "Politique de confidentialite provisoire",
+      "consoleErrors": []
+    },
+    {
+      "route": "/produits-partenaires",
+      "status": 200,
+      "ok": true,
+      "title": "Produits partenaires | Maxi Trouvaille",
+      "h1": "Boutique dropshipping Maxi Trouvaille",
+      "consoleErrors": []
+    },
+    {
+      "route": "/retours-remboursements",
+      "status": 200,
+      "ok": true,
+      "title": "Retours et remboursements | Maxi Trouvaille",
+      "h1": "Retours et remboursements",
+      "consoleErrors": []
+    },
+    {
+      "route": "/suivi-colis",
+      "status": 200,
+      "ok": true,
+      "title": "Suivi colis | Maxi Trouvaille",
+      "h1": "Suivi de commande",
+      "consoleErrors": []
+    }
+  ]
+}

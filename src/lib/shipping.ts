@@ -1,6 +1,6 @@
 import type { Product } from "@/lib/catalog";
 
-export const SHIPPING_STORAGE_KEY = "maxi-trouvaille-shipping-v1";
+export const SHIPPING_STORAGE_KEY = "maxi-trouvaille-shipping-v2";
 
 export const shippingMethodIds = [
   "pickup",
@@ -47,25 +47,12 @@ export type ShippingMethod = {
 
 export const shippingMethods: ShippingMethod[] = [
   {
-    id: "pickup",
-    label: "Remise en main propre",
-    shortLabel: "Remise en main propre",
-    price: 0,
-    description: "Retrait gratuit a convenir avec Maxi Trouvaille.",
-  },
-  {
-    id: "mondial-relay",
-    label: "Mondial Relay",
-    shortLabel: "Mondial Relay",
-    price: 490,
-    description: "Point relais a partir de 4,90 €. Choix du point relais a venir.",
-  },
-  {
     id: "colissimo",
-    label: "Colissimo domicile",
-    shortLabel: "Colissimo",
-    price: 790,
-    description: "Livraison a domicile a partir de 7,90 €.",
+    label: "Livraison suivie à domicile",
+    shortLabel: "Livraison suivie",
+    price: 390,
+    description:
+      "Livraison à domicile avec numéro de suivi. Réception estimée 7 à 14 jours ouvrés.",
   },
 ];
 

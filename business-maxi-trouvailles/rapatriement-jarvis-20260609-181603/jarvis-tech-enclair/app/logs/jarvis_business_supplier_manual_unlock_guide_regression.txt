@@ -1,0 +1,43 @@
+Regression guide deblocage fournisseur - 2026-05-25 06:04:47
+
+Global: OK
+Message guide: Guide deblocage fournisseur: bloque, 55/55 preuve(s) manquante(s), aucune action lancee.
+Preuves requises: 55
+Preuves manquantes: 55
+File validation total: 6
+File validation prets: 0
+Blocages: 6
+
+Assertions:
+- json_written: OK
+- txt_written: OK
+- guide_ok: OK
+- route_supplier_manual_unlock_guide: OK
+- execute_supplier_manual_unlock_guide: OK
+- executor_payload_ok: OK
+- current_state_blocked: OK
+- evidence_counts: OK
+- queue_counts: OK
+- import_locked: OK
+- blocked_reasons: OK
+- unlock_denied: OK
+- review_and_import_denied: OK
+- generic_confirmation_denied: OK
+- no_queue_rows_exposed: OK
+- no_product_or_path_content: OK
+- read_only_guide: OK
+- no_pending_confirmation: OK
+- no_web_or_api_started: OK
+- no_scraping_or_subprocess: OK
+- no_business_job_or_sourcing: OK
+- site_not_modified: OK
+- no_import_review: OK
+- no_import_order_payment_publication: OK
+- no_delete: OK
+- no_secret_values: OK
+- no_content_exposed: OK
+- txt_mentions_guide: OK
+- unlock_steps: OK
+- no_secret_like_value_in_reports: OK
+
+Regression guide deblocage fournisseur: lecture seule, manuel, aucun detail produit et aucune action externe.

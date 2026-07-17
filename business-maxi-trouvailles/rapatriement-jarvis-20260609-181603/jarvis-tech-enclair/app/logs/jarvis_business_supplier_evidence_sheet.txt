@@ -1,0 +1,42 @@
+Feuille preuves fournisseur manuelle - 2026-06-09 18:00:56
+
+Global: OK
+Statut: EVIDENCE_SHEET_READY_MANUAL_ONLY
+Message court: Feuille preuves fournisseur: 5 ligne(s), 55 champ(s) a remplir, aucune recherche lancee.
+Mode manuel uniquement: oui
+Handoff fournisseur pret: non
+Decision gate: WAITING_MOUSS_SUPPLIER_DECISION
+Blocages decision: 1
+Lignes preuves: 5
+Champs par ligne: 11
+Champs a remplir: 55
+Liens reels requis: 5
+Pretes pour revue import: 0
+
+Lignes manuelles:
+- supplier_evidence_01: slot=supplier_slot_01, champs=11, lien_reel=a_renseigner, statut=A_REMPLIR_MANUELLEMENT
+- supplier_evidence_02: slot=supplier_slot_02, champs=11, lien_reel=a_renseigner, statut=A_REMPLIR_MANUELLEMENT
+- supplier_evidence_03: slot=supplier_slot_03, champs=11, lien_reel=a_renseigner, statut=A_REMPLIR_MANUELLEMENT
+- supplier_evidence_04: slot=supplier_slot_04, champs=11, lien_reel=a_renseigner, statut=A_REMPLIR_MANUELLEMENT
+- supplier_evidence_05: slot=supplier_slot_05, champs=11, lien_reel=a_renseigner, statut=A_REMPLIR_MANUELLEMENT
+
+Champs requis par ligne:
+- url_fournisseur_reel
+- nom_vendeur
+- prix_produit
+- prix_livraison
+- delai_livraison_europe
+- note_vendeur
+- note_produit
+- nombre_avis
+- preuve_conformite
+- preuve_images_utilisables
+- decision_mouss_avant_import
+
+Instructions manuelles:
+- Remplir chaque champ avec des preuves verifiees manuellement.
+- Ne pas importer de produit tant que la feuille n'est pas complete et relue.
+- Garder toute commande, paiement, publication ou suppression dans une validation separee.
+- Ne jamais coller de cle API, jeton, cookie ou secret dans cette feuille.
+
+Securite: feuille seulement, aucune recherche web/API, aucun scraping, aucun import, aucune commande, aucun paiement, aucune publication.

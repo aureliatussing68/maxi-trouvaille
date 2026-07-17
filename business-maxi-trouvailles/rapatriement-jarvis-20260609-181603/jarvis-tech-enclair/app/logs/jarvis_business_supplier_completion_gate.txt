@@ -1,0 +1,29 @@
+Garde completion fournisseur avant revue import - 2026-06-09 18:00:48
+
+Global: OK
+Statut: BLOCKED_EVIDENCE_INCOMPLETE
+Message court: Garde completion fournisseur: bloque, 55 champ(s) preuve manquant(s), aucune revue import lancee.
+Revue import manuelle prete: non
+Preuves completes: non
+Lignes preuves: 5
+Champs remplis: 0
+Champs requis: 55
+Champs manquants: 55
+Lignes pretes revue import: 0
+Decision fournisseur validee: non
+Import brouillon autorise: non
+Revue import automatique autorisee: non
+Confirmation vocale generique deverrouille revue import: non
+
+Blocages:
+- preuves_fournisseur_incompletes
+- decision_mouss_non_validee
+- import_brouillon_non_pret
+
+Prochaines etapes manuelles:
+- Completer les preuves fournisseur manquantes avant toute revue import.
+- Verifier une decision Mouss specifique, separee des confirmations generiques.
+- Relancer le garde completion fournisseur apres remplissage manuel.
+- Garder import, commande, paiement, publication et suppression sous validation manuelle separee.
+
+Securite: garde completion seulement, aucune recherche web/API, aucun scraping, aucune revue import lancee, aucun import, achat, paiement, publication ou suppression.

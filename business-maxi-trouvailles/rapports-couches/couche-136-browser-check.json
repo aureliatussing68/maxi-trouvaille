@@ -1,0 +1,80 @@
+{
+  "ok": true,
+  "generatedAtLocal": "2026-06-11T14:16:42.759Z",
+  "checks": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "url": "http://127.0.0.1:3055/admin/pilotage",
+      "visibility": {
+        "Depot images categories": true,
+        "Visuels dropshipping a deposer": true,
+        "Exporter suivi categories CSV": true,
+        "Alerte depot categories": true,
+        "Depot categories incomplet": true,
+        "9 WebP categories manquants": true,
+        "P1 sprint unicite": true,
+        "P2 next batch": true,
+        "dropshipping-high-tech.webp": true,
+        "SUIVI_DEPOTS_IMAGES_CATEGORIES_20260611.json": true
+      },
+      "exportPresent": true,
+      "csvChecks": {
+        "hasExpectedFileColumn": true,
+        "hasDropPathColumn": true,
+        "hasCategoryRows": true,
+        "hasHoldMarker": true,
+        "rowCount": 11,
+        "forbiddenHits": []
+      },
+      "layout": {
+        "bodyOverflowX": "clip",
+        "overflowing": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-136-pilotage-images-categories-desktop.png",
+      "ok": true
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:3055/admin/pilotage",
+      "visibility": {
+        "Depot images categories": true,
+        "Visuels dropshipping a deposer": true,
+        "Exporter suivi categories CSV": true,
+        "Alerte depot categories": true,
+        "Depot categories incomplet": true,
+        "9 WebP categories manquants": true,
+        "P1 sprint unicite": true,
+        "P2 next batch": true,
+        "dropshipping-high-tech.webp": true,
+        "SUIVI_DEPOTS_IMAGES_CATEGORIES_20260611.json": true
+      },
+      "exportPresent": true,
+      "csvChecks": {
+        "hasExpectedFileColumn": true,
+        "hasDropPathColumn": true,
+        "hasCategoryRows": true,
+        "hasHoldMarker": true,
+        "rowCount": 11,
+        "forbiddenHits": []
+      },
+      "layout": {
+        "bodyOverflowX": "clip",
+        "overflowing": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-136-pilotage-images-categories-mobile.png",
+      "ok": true
+    }
+  ]
+}

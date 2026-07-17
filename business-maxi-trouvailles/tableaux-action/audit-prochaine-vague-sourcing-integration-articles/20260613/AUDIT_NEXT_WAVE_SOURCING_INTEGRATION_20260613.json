@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-13T12:12:08.629Z",
+  "generatedAtLocal": "2026-06-13 14:12 Europe/Paris",
+  "mode": "read_only_audit_integration_next_wave_sourcing_plan",
+  "status": "OK_NEXT_WAVE_SOURCING_GUARDED",
+  "productCount": 12,
+  "proofTaskCount": 60,
+  "imageTaskCount": 36,
+  "failureCount": 0,
+  "sensitiveFindingCount": 0,
+  "scannedFileCount": 5,
+  "issues": [],
+  "sources": {
+    "planPath": "business-maxi-trouvailles/tableaux-action/prochaine-vague-sourcing-integration-articles/20260613/NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "top3Path": "business-maxi-trouvailles/tableaux-action/top3-sourcing-integration-articles/20260613/TOP3_SOURCING_INTEGRATION_20260613.json",
+    "productCsvPath": "business-maxi-trouvailles/tableaux-action/prochaine-vague-sourcing-integration-articles/20260613/maxi-prochaine-vague-sourcing-integration-produits-20260613.csv",
+    "proofCsvPath": "business-maxi-trouvailles/tableaux-action/prochaine-vague-sourcing-integration-articles/20260613/maxi-prochaine-vague-sourcing-integration-preuves-20260613.csv",
+    "imageCsvPath": "business-maxi-trouvailles/tableaux-action/prochaine-vague-sourcing-integration-articles/20260613/maxi-prochaine-vague-sourcing-integration-images-20260613.csv"
+  },
+  "safety": {
+    "readOnlyInputs": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noImageDownload": true,
+    "noPublicImageWrite": true
+  }
+}

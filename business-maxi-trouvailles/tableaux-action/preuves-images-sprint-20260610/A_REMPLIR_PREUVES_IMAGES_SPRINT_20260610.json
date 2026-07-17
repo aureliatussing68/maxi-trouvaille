@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-06-10T04:40:15.608Z",
+  "generatedAtLocal": "2026-06-10 06:40 Europe/Paris",
+  "instructions": "Remplir uniquement apres verification visuelle reelle. Garder finalDecision a HOLD avant validation explicite.",
+  "products": [
+    {
+      "productId": "ali_partner_20260527_pochette_cables_voyage_001",
+      "productName": "Pochette organisateur câbles double couche voyage",
+      "checkedAt": "",
+      "mainImageExact": "",
+      "variantConfirmed": "",
+      "clientSafeImageDecision": "",
+      "imageRightsDecision": "",
+      "localMirrorOrReplacementNeeded": true,
+      "imageProofNotes": "",
+      "images": [
+        {
+          "index": 1,
+          "currentUrl": "https://ae01.alicdn.com/kf/H96187aa9cce24db3abab3d4ee6d43387A.jpg",
+          "currentSourceType": "remote_url",
+          "currentHostname": "ae01.alicdn.com",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 2,
+          "currentUrl": "https://ae01.alicdn.com/kf/H7e620756cb9241908e87e78b9ea81c0eR.jpg",
+          "currentSourceType": "remote_url",
+          "currentHostname": "ae01.alicdn.com",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 3,
+          "currentUrl": "https://ae01.alicdn.com/kf/H39d47561d0eb468b981fff8ecf358b35o.jpg",
+          "currentSourceType": "remote_url",
+          "currentHostname": "ae01.alicdn.com",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 4,
+          "currentUrl": "https://ae01.alicdn.com/kf/H18a4f863437b4a549aaeec68ffeaf68e6.jpg",
+          "currentSourceType": "remote_url",
+          "currentHostname": "ae01.alicdn.com",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        }
+      ],
+      "finalDecision": "HOLD",
+      "reviewedByMouss": false
+    },
+    {
+      "productId": "ali_partner_20260527_support_pc_pliant_001",
+      "productName": "Support PC portable pliant aluminium ajustable",
+      "checkedAt": "",
+      "mainImageExact": "",
+      "variantConfirmed": "",
+      "clientSafeImageDecision": "",
+      "imageRightsDecision": "",
+      "localMirrorOrReplacementNeeded": true,
+      "imageProofNotes": "",
+      "images": [
+        {
+          "index": 1,
+          "currentUrl": "https://ae01.alicdn.com/kf/H5294085d8b5041c5b8fbe948596c8533v.jpg",
+          "currentSourceType": "remote_url",
+          "currentHostname": "ae01.alicdn.com",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 2,
+          "currentUrl": "https://ae01.alicdn.com/kf/H864ee1fe7f264606959adaf92760757bD.jpg",
+          "currentSourceType": "remote_url",
+          "currentHostname": "ae01.alicdn.com",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 3,
+          "currentUrl": "https://ae01.alicdn.com/kf/Hf5c5424d5e564649a49e4a953f0f2a7ds.jpg",
+          "currentSourceType": "remote_url",
+          "currentHostname": "ae01.alicdn.com",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 4,
+          "currentUrl": "https://ae01.alicdn.com/kf/H67b2a1a46af54ef2867fa8970a7bf6aa7.jpg",
+          "currentSourceType": "remote_url",
+          "currentHostname": "ae01.alicdn.com",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        }
+      ],
+      "finalDecision": "HOLD",
+      "reviewedByMouss": false
+    },
+    {
+      "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+      "productName": "Filet rangement coffre voiture à sangles fixes",
+      "checkedAt": "",
+      "mainImageExact": "",
+      "variantConfirmed": "",
+      "clientSafeImageDecision": "",
+      "imageRightsDecision": "",
+      "localMirrorOrReplacementNeeded": true,
+      "imageProofNotes": "",
+      "images": [
+        {
+          "index": 1,
+          "currentUrl": "https://ae01.alicdn.com/kf/S29472ff5afbf4d1ca78000f1c0b3a369Q.jpg",
+          "currentSourceType": "remote_url",
+          "currentHostname": "ae01.alicdn.com",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 2,
+          "currentUrl": "https://ae01.alicdn.com/kf/S516954e691da4ef9857091becb7343b34.jpg",
+          "currentSourceType": "remote_url",
+          "currentHostname": "ae01.alicdn.com",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 3,
+          "currentUrl": "https://ae01.alicdn.com/kf/S7b56ddb00faa40309193053e9474af2c8.jpg",
+          "currentSourceType": "remote_url",
+          "currentHostname": "ae01.alicdn.com",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 4,
+          "currentUrl": "https://ae01.alicdn.com/kf/S94bd12f8f3b24a3990527e50e828a942g.jpg",
+          "currentSourceType": "remote_url",
+          "currentHostname": "ae01.alicdn.com",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 5,
+          "currentUrl": "https://ae01.alicdn.com/kf/Sd9fe0b226ac948daa1e0f168080c816aT.jpg",
+          "currentSourceType": "remote_url",
+          "currentHostname": "ae01.alicdn.com",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 6,
+          "currentUrl": "https://ae01.alicdn.com/kf/S854264f3c2f948ce8ab9021776cbae5en.jpg",
+          "currentSourceType": "remote_url",
+          "currentHostname": "ae01.alicdn.com",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        }
+      ],
+      "finalDecision": "HOLD",
+      "reviewedByMouss": false
+    }
+  ],
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true
+  }
+}

@@ -1,0 +1,466 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-12T08:08:40.847Z",
+  "generatedAtLocal": "2026-06-12 10:08 Europe/Paris",
+  "mode": "read_only_fast_partner_go_shortlist",
+  "candidateCount": 5,
+  "evidenceSprintCount": 3,
+  "candidates": [
+    {
+      "priority": 5,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "categoryId": "dropshipping-accessoires",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "score": 87,
+      "marginPercent": 40.2,
+      "components": {
+        "potential": 74,
+        "marginScore": 12,
+        "stockScore": 6,
+        "basketScore": 5,
+        "deliveryScore": 2,
+        "riskPenalty": 0,
+        "blockerPenalty": 12,
+        "priorityPenalty": 0
+      },
+      "reasons": {
+        "potential": "accessoire universel, faible SAV, bon usage voyage/bureau",
+        "risk": "risque faible",
+        "delivery": "signal livraison rapide mais encore a verifier"
+      },
+      "riskFlags": [],
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "supplier": {
+        "url": "INTERNAL_SOURCE_REDACTED",
+        "sku": "AE-4000168524713-CABLE-ORGANIZER",
+        "supplierPriceCents": 1100,
+        "salePriceCents": 1840,
+        "marginCents": 740,
+        "marginRate": 0.40217391304347827,
+        "supplierStock": 55,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "shortlistRank": 1,
+      "inEvidenceSprint": true,
+      "recommendedAction": "remplir preuves exactes maintenant, puis audit rapide"
+    },
+    {
+      "priority": 6,
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "categoryId": "dropshipping-high-tech",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "score": 87,
+      "marginPercent": 40.1,
+      "components": {
+        "potential": 76,
+        "marginScore": 12,
+        "stockScore": 4,
+        "basketScore": 5,
+        "deliveryScore": 2,
+        "riskPenalty": 0,
+        "blockerPenalty": 12,
+        "priorityPenalty": 0.5
+      },
+      "reasons": {
+        "potential": "panier moyen correct, usage clair bureau/teletravail, faible complexite produit",
+        "risk": "risque faible",
+        "delivery": "signal livraison rapide mais encore a verifier"
+      },
+      "riskFlags": [],
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "supplier": {
+        "url": "INTERNAL_SOURCE_REDACTED",
+        "sku": "AE-4001153714549-LAPTOP-STAND",
+        "supplierPriceCents": 1180,
+        "salePriceCents": 1970,
+        "marginCents": 790,
+        "marginRate": 0.4010152284263959,
+        "supplierStock": 35,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "shortlistRank": 2,
+      "inEvidenceSprint": true,
+      "recommendedAction": "remplir preuves exactes maintenant, puis audit rapide"
+    },
+    {
+      "priority": 7,
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "name": "Filet rangement coffre voiture à sangles fixes",
+      "categoryId": "dropshipping-auto-moto",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "score": 70,
+      "marginPercent": 40.3,
+      "components": {
+        "potential": 68,
+        "marginScore": 12,
+        "stockScore": 6,
+        "basketScore": 1,
+        "deliveryScore": 4,
+        "riskPenalty": 8,
+        "blockerPenalty": 12,
+        "priorityPenalty": 1
+      },
+      "reasons": {
+        "potential": "prix d'appel simple et besoin auto facile a comprendre",
+        "risk": "controle_usage_auto",
+        "delivery": "delai deja cadre mais a prouver"
+      },
+      "riskFlags": [
+        "controle_usage_auto"
+      ],
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "supplier": {
+        "url": "INTERNAL_SOURCE_REDACTED",
+        "sku": "AE-ITEM-1005006160871310",
+        "supplierPriceCents": 400,
+        "salePriceCents": 670,
+        "marginCents": 270,
+        "marginRate": 0.40298507462686567,
+        "supplierStock": 45,
+        "deliveryEstimate": "7 à 15 jours ouvrés estimés"
+      },
+      "shortlistRank": 3,
+      "inEvidenceSprint": true,
+      "recommendedAction": "remplir preuves exactes maintenant, puis audit rapide"
+    },
+    {
+      "priority": 8,
+      "id": "ali_partner_20260527_gourde_pliable_001",
+      "name": "Gourde pliable silicone voyage avec mousqueton",
+      "categoryId": "dropshipping-accessoires",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "score": 59,
+      "marginPercent": 40.3,
+      "components": {
+        "potential": 62,
+        "marginScore": 12,
+        "stockScore": 8,
+        "basketScore": 1,
+        "deliveryScore": 4,
+        "riskPenalty": 15,
+        "blockerPenalty": 12,
+        "priorityPenalty": 1.5
+      },
+      "reasons": {
+        "potential": "produit pratique mais risque contact alimentaire a clarifier",
+        "risk": "controle_contact_alimentaire",
+        "delivery": "delai deja cadre mais a prouver"
+      },
+      "riskFlags": [
+        "controle_contact_alimentaire"
+      ],
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "supplier": {
+        "url": "INTERNAL_SOURCE_REDACTED",
+        "sku": "AE-ITEM-1005009184984524",
+        "supplierPriceCents": 370,
+        "salePriceCents": 620,
+        "marginCents": 250,
+        "marginRate": 0.4032258064516129,
+        "supplierStock": 70,
+        "deliveryEstimate": "7 à 15 jours ouvrés estimés"
+      },
+      "shortlistRank": 4,
+      "inEvidenceSprint": false,
+      "recommendedAction": "garder en attente jusqu'a preuve ou remplacement"
+    },
+    {
+      "priority": 9,
+      "id": "ali_partner_20260527_lampes_detection_001",
+      "name": "Lampe LED à détection de mouvement USB rechargeable",
+      "categoryId": "dropshipping-maison",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "score": 56,
+      "marginPercent": 40,
+      "components": {
+        "potential": 65,
+        "marginScore": 12,
+        "stockScore": 6,
+        "basketScore": 3,
+        "deliveryScore": 2,
+        "riskPenalty": 18,
+        "blockerPenalty": 12,
+        "priorityPenalty": 2
+      },
+      "reasons": {
+        "potential": "produit maison utile mais verification electrique obligatoire",
+        "risk": "controle_electrique_ou_batterie",
+        "delivery": "signal livraison rapide mais encore a verifier"
+      },
+      "riskFlags": [
+        "controle_electrique_ou_batterie"
+      ],
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "supplier": {
+        "url": "INTERNAL_SOURCE_REDACTED",
+        "sku": "AE-1005008517453827-MOTION-LIGHT",
+        "supplierPriceCents": 540,
+        "salePriceCents": 900,
+        "marginCents": 360,
+        "marginRate": 0.4,
+        "supplierStock": 50,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "shortlistRank": 5,
+      "inEvidenceSprint": false,
+      "recommendedAction": "garder en attente jusqu'a preuve ou remplacement"
+    }
+  ],
+  "evidenceSprint": [
+    {
+      "priority": 5,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "categoryId": "dropshipping-accessoires",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "score": 87,
+      "marginPercent": 40.2,
+      "components": {
+        "potential": 74,
+        "marginScore": 12,
+        "stockScore": 6,
+        "basketScore": 5,
+        "deliveryScore": 2,
+        "riskPenalty": 0,
+        "blockerPenalty": 12,
+        "priorityPenalty": 0
+      },
+      "reasons": {
+        "potential": "accessoire universel, faible SAV, bon usage voyage/bureau",
+        "risk": "risque faible",
+        "delivery": "signal livraison rapide mais encore a verifier"
+      },
+      "riskFlags": [],
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "supplier": {
+        "url": "INTERNAL_SOURCE_REDACTED",
+        "sku": "AE-4000168524713-CABLE-ORGANIZER",
+        "supplierPriceCents": 1100,
+        "salePriceCents": 1840,
+        "marginCents": 740,
+        "marginRate": 0.40217391304347827,
+        "supplierStock": 55,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "shortlistRank": 1,
+      "inEvidenceSprint": true,
+      "recommendedAction": "remplir preuves exactes maintenant, puis audit rapide"
+    },
+    {
+      "priority": 6,
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "categoryId": "dropshipping-high-tech",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "score": 87,
+      "marginPercent": 40.1,
+      "components": {
+        "potential": 76,
+        "marginScore": 12,
+        "stockScore": 4,
+        "basketScore": 5,
+        "deliveryScore": 2,
+        "riskPenalty": 0,
+        "blockerPenalty": 12,
+        "priorityPenalty": 0.5
+      },
+      "reasons": {
+        "potential": "panier moyen correct, usage clair bureau/teletravail, faible complexite produit",
+        "risk": "risque faible",
+        "delivery": "signal livraison rapide mais encore a verifier"
+      },
+      "riskFlags": [],
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "supplier": {
+        "url": "INTERNAL_SOURCE_REDACTED",
+        "sku": "AE-4001153714549-LAPTOP-STAND",
+        "supplierPriceCents": 1180,
+        "salePriceCents": 1970,
+        "marginCents": 790,
+        "marginRate": 0.4010152284263959,
+        "supplierStock": 35,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "shortlistRank": 2,
+      "inEvidenceSprint": true,
+      "recommendedAction": "remplir preuves exactes maintenant, puis audit rapide"
+    },
+    {
+      "priority": 7,
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "name": "Filet rangement coffre voiture à sangles fixes",
+      "categoryId": "dropshipping-auto-moto",
+      "status": "HOLD_MISSING_EVIDENCE",
+      "score": 70,
+      "marginPercent": 40.3,
+      "components": {
+        "potential": 68,
+        "marginScore": 12,
+        "stockScore": 6,
+        "basketScore": 1,
+        "deliveryScore": 4,
+        "riskPenalty": 8,
+        "blockerPenalty": 12,
+        "priorityPenalty": 1
+      },
+      "reasons": {
+        "potential": "prix d'appel simple et besoin auto facile a comprendre",
+        "risk": "controle_usage_auto",
+        "delivery": "delai deja cadre mais a prouver"
+      },
+      "riskFlags": [
+        "controle_usage_auto"
+      ],
+      "blockerCount": 12,
+      "blockers": [
+        "date_verification_absente",
+        "nom_vendeur_fournisseur_absent",
+        "variante_exacte_absente",
+        "delai_client_absent",
+        "tracking_non_confirme",
+        "preuve_delai_france_europe_absente",
+        "preuve_prix_absente",
+        "preuve_livraison_absente",
+        "preuve_image_exacte_absente",
+        "preuve_droits_images_absente",
+        "decision_finale_pas_ready_review",
+        "revue_mouss_absente"
+      ],
+      "supplier": {
+        "url": "INTERNAL_SOURCE_REDACTED",
+        "sku": "AE-ITEM-1005006160871310",
+        "supplierPriceCents": 400,
+        "salePriceCents": 670,
+        "marginCents": 270,
+        "marginRate": 0.40298507462686567,
+        "supplierStock": 45,
+        "deliveryEstimate": "7 à 15 jours ouvrés estimés"
+      },
+      "shortlistRank": 3,
+      "inEvidenceSprint": true,
+      "recommendedAction": "remplir preuves exactes maintenant, puis audit rapide"
+    }
+  ],
+  "commandsAfterManualFill": [
+    "npm run catalog:audit-fast-evidence-forms",
+    "npm run catalog:business-next-actions",
+    "npm run catalog:audit-all-partner-gates",
+    "npm run catalog:audit-checkout-eligibility",
+    "npm run catalog:test-checkout-guards"
+  ],
+  "sources": {
+    "formsPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611\\formulaires-preuves-rapides-20260611\\FORMULAIRES_PREUVES_RAPIDES_20260611.json",
+    "auditPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260609\\plan-travail-preuves-20260611\\formulaires-preuves-rapides-20260611\\AUDIT_FORMULAIRES_PREUVES_RAPIDES_20260611.json"
+  },
+  "files": {
+    "outputDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\shortlist-go-humain-20260612",
+    "cardsDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\shortlist-go-humain-20260612\\fiches-sprint"
+  },
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true
+  }
+}

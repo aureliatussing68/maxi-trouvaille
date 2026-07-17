@@ -1,0 +1,119 @@
+{
+  "checked_at": "2026-06-09 18:00:59",
+  "ok": true,
+  "business_dir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles",
+  "queue_dir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider",
+  "total_seen": 6,
+  "blocked_count": 6,
+  "ready_count": 0,
+  "rows": [
+    {
+      "folder_name": "organisateur-de-cables-de-voyage-compact_20260523_130345",
+      "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345",
+      "updated_at": "2026-05-23 14:03:34",
+      "product_title": "Organisateur de cables de voyage compact",
+      "category_id": "dropshipping-accessoires",
+      "import_decision": "BLOCKED_FOR_MANUAL_REVIEW",
+      "blocker_count": 2,
+      "blockers": [
+        "lien fournisseur reel manquant",
+        "sourcing reel AliExpress non pret"
+      ],
+      "review_file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\A_VALIDER_PAR_MOUSS.md",
+      "manifest_present": true,
+      "manual_validation_required": true
+    },
+    {
+      "folder_name": "organisateur-de-cables-de-voyage-compact_20260523_124353",
+      "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_124353",
+      "updated_at": "2026-05-23 12:43:53",
+      "product_title": "Organisateur de cables de voyage compact",
+      "category_id": "dropshipping-accessoires",
+      "import_decision": "BLOCKED_FOR_MANUAL_REVIEW",
+      "blocker_count": 2,
+      "blockers": [
+        "lien fournisseur reel manquant",
+        "sourcing reel AliExpress non pret"
+      ],
+      "review_file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_124353\\A_VALIDER_PAR_MOUSS.md",
+      "manifest_present": true,
+      "manual_validation_required": true
+    },
+    {
+      "folder_name": "organisateur-de-cables-de-voyage-compact_20260523_122413",
+      "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_122413",
+      "updated_at": "2026-05-23 12:24:13",
+      "product_title": "Organisateur de cables de voyage compact",
+      "category_id": "dropshipping-accessoires",
+      "import_decision": "BLOCKED_FOR_MANUAL_REVIEW",
+      "blocker_count": 2,
+      "blockers": [
+        "lien fournisseur reel manquant",
+        "sourcing reel AliExpress non pret"
+      ],
+      "review_file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_122413\\A_VALIDER_PAR_MOUSS.md",
+      "manifest_present": true,
+      "manual_validation_required": true
+    },
+    {
+      "folder_name": "organisateur-de-cables-de-voyage-compact_20260523_121528",
+      "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_121528",
+      "updated_at": "2026-05-23 12:15:28",
+      "product_title": "Organisateur de cables de voyage compact",
+      "category_id": "dropshipping-accessoires",
+      "import_decision": "BLOCKED_FOR_MANUAL_REVIEW",
+      "blocker_count": 2,
+      "blockers": [
+        "lien fournisseur reel manquant",
+        "sourcing reel AliExpress non pret"
+      ],
+      "review_file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_121528\\A_VALIDER_PAR_MOUSS.md",
+      "manifest_present": true,
+      "manual_validation_required": true
+    },
+    {
+      "folder_name": "organisateur-de-cables-de-voyage-compact_20260523_084346",
+      "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084346",
+      "updated_at": "2026-05-23 08:43:46",
+      "product_title": "Organisateur de cables de voyage compact",
+      "category_id": "dropshipping-accessoires",
+      "import_decision": "BLOCKED_FOR_MANUAL_REVIEW",
+      "blocker_count": 2,
+      "blockers": [
+        "lien fournisseur reel manquant",
+        "sourcing reel AliExpress non pret"
+      ],
+      "review_file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084346\\A_VALIDER_PAR_MOUSS.md",
+      "manifest_present": true,
+      "manual_validation_required": true
+    },
+    {
+      "folder_name": "organisateur-de-cables-de-voyage-compact_20260523_084322",
+      "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084322",
+      "updated_at": "2026-05-23 08:43:22",
+      "product_title": "Organisateur de cables de voyage compact",
+      "category_id": "dropshipping-accessoires",
+      "import_decision": "BLOCKED_FOR_MANUAL_REVIEW",
+      "blocker_count": 2,
+      "blockers": [
+        "lien fournisseur reel manquant",
+        "sourcing reel AliExpress non pret"
+      ],
+      "review_file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084322\\A_VALIDER_PAR_MOUSS.md",
+      "manifest_present": true,
+      "manual_validation_required": true
+    }
+  ],
+  "operator_message": "File produits a valider lue en local. Aucune modification du site.",
+  "safety": {
+    "read_only": true,
+    "site_modified": false,
+    "import_started": false,
+    "order_started": false,
+    "payment_started": false,
+    "publication_started": false,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  },
+  "short_message": "File validation: 6 produit(s), 0 pret(s), 6 a relire, validation manuelle."
+}

@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-06-05 16:08:03",
+  "ok": true,
+  "short_message": "Pack scripts pubs pret: 3 brouillon(s) locaux pour Organisateur de cables de voyage compact, aucune video ni publication.",
+  "product_title": "Organisateur de cables de voyage compact",
+  "product_slug": "organisateur-de-cables-de-voyage-compact",
+  "export_dir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260605_160803",
+  "written_files": [
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260605_160803\\tiktok.md",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260605_160803\\instagram-reels.md",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260605_160803\\snapchat-story.md",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260605_160803\\manifest.json",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260605_160803\\README.txt"
+  ],
+  "ad_count": 3,
+  "operator_message": "Pack scripts pubs brouillon exporte en local. Aucune video ni publication.",
+  "safety": {
+    "local_files_only": true,
+    "site_modified": false,
+    "video_export_started": false,
+    "publication_started": false,
+    "payment_started": false,
+    "order_started": false,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  }
+}

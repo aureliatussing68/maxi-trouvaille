@@ -1,9 +1,19 @@
 import { promises as fs } from "fs";
 import path from "path";
-import { getProductBySlug, getProductsByCategory, products, type Product } from "@/lib/catalog";
+import {
+  getCategoryProductFamilyIds,
+  getProductBySlug,
+  getProductsByCategory,
+  isNewProduct,
+  isPromotionProduct,
+  isPublicProduct,
+  products,
+  type Product,
+} from "@/lib/catalog";
 import { mergeProducts, sanitizeQuickProducts } from "@/lib/quick-products";
 
 const quickProductsPath = path.join(process.cwd(), "data", "quick-products.json");
+const publicRootPath = path.join(process.cwd(), "public");
 
 export async function readQuickProducts(): Promise<Product[]> {
   try {
@@ -27,6 +37,80 @@ export async function getAllProducts() {
   return mergeProducts(await readQuickProducts());
 }
 
+function getProductImageCandidates(product: Product) {
+  return Array.from(
+    new Set(
+      [product.image, ...(Array.isArray(product.images) ? product.images : [])]
+        .map((image) => String(image ?? "").trim())
+        .filter(Boolean),
+    ),
+  );
+}
+
+function publicImagePath(image: string) {
+  const cleanImage = image.split("?")[0];
+  const match = cleanImage.match(
+    /^\/uploads\/(partner-products|quick-products)\/([a-z0-9][a-z0-9._-]*\.webp)$/i,
+  );
+
+  if (!match) {
+    return null;
+  }
+
+  return path.join(publicRootPath, "uploads", match[1], match[2]);
+}
+
+export async function getPublicImageFileBlockers(product: Product) {
+  const blockers: string[] = [];
+  const images = getProductImageCandidates(product);
+
+  if (images.length === 0) {
+    blockers.push("image_file_missing");
+  }
+
+  for (const image of images) {
+    const localPath = publicImagePath(image);
+
+    if (!localPath) {
+      blockers.push("image_not_local_public_upload");
+      continue;
+    }
+
+    try {
+      const stat = await fs.stat(localPath);
+
+      if (!stat.isFile()) {
+        blockers.push("image_file_missing");
+      }
+    } catch {
+      blockers.push("image_file_missing");
+    }
+  }
+
+  return Array.from(new Set(blockers));
+}
+
+export async function isServerPublicProduct(product: Product) {
+  return isPublicProduct(product) && (await getPublicImageFileBlockers(product)).length === 0;
+}
+
+async function filterServerPublicProducts(productList: Product[]) {
+  const checkedProducts = await Promise.all(
+    productList.map(async (product) => ({
+      product,
+      isPublic: await isServerPublicProduct(product),
+    })),
+  );
+
+  return checkedProducts
+    .filter((item) => item.isPublic)
+    .map((item) => item.product);
+}
+
+export async function getPublicProducts() {
+  return filterServerPublicProducts(await getAllProducts());
+}
+
 export async function getCatalogProductById(id: string) {
   const staticProduct = products.find((product) => product.id === id);
   if (staticProduct) {
@@ -47,12 +131,44 @@ export async function getCatalogProductBySlug(slug: string) {
   return quickProducts.find((product) => product.slug === slug);
 }
 
+export async function getPublicCatalogProductBySlug(slug: string) {
+  const product = await getCatalogProductBySlug(slug);
+  return product && (await isServerPublicProduct(product)) ? product : undefined;
+}
+
 export async function getCatalogProductsByCategory(categoryId: string) {
   const quickProducts = await readQuickProducts();
+  const categoryIds = new Set(getCategoryProductFamilyIds(categoryId));
+
   return [
     ...getProductsByCategory(categoryId),
-    ...quickProducts.filter((product) => product.categoryId === categoryId),
+    ...quickProducts.filter((product) => categoryIds.has(product.categoryId)),
   ];
+}
+
+function sortNewestPartnerProductsFirst(productList: Product[]) {
+  return [...productList].sort((a, b) => {
+    const bDate = Date.parse(b.dropshipping?.lastSyncAt ?? "") || 0;
+    const aDate = Date.parse(a.dropshipping?.lastSyncAt ?? "") || 0;
+    return bDate - aDate;
+  });
+}
+
+export async function getPublicCatalogProductsByCategory(categoryId: string) {
+  const publicProducts = await getPublicProducts();
+
+  if (categoryId === "dropshipping-nouveautes") {
+    return sortNewestPartnerProductsFirst(publicProducts.filter(isNewProduct));
+  }
+
+  if (categoryId === "dropshipping-promotions") {
+    return sortNewestPartnerProductsFirst(publicProducts.filter(isPromotionProduct));
+  }
+
+  const categoryIds = new Set(getCategoryProductFamilyIds(categoryId));
+  return sortNewestPartnerProductsFirst(
+    publicProducts.filter((product) => categoryIds.has(product.categoryId)),
+  );
 }
 
 export async function decrementQuickProductStock(

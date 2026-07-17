@@ -1,0 +1,504 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-10T04:40:15.608Z",
+  "generatedAtLocal": "2026-06-10 06:40 Europe/Paris",
+  "mode": "read_only_sprint_image_proof_board",
+  "productCount": 3,
+  "imageCount": 14,
+  "supplierCdnImageCount": 14,
+  "localImageCount": 0,
+  "products": [
+    {
+      "shortlistRank": 1,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "categoryId": "dropshipping-accessoires",
+      "status": "draft",
+      "supplierUrl": "https://www.aliexpress.com/item/4000168524713.html",
+      "sourceImageStatus": "verified_source_images",
+      "sourceImageCheckedAt": "2026-06-05",
+      "sourceImageReason": "Images fournisseur inspectées : elles montrent bien une pochette organisateur câbles/accessoires double couche, et remplacent l’ancienne image générique accessoires.",
+      "sourceImageNextAction": "Valider couleur/variante exacte, prix final et délai Europe avant remise en published.",
+      "imageCount": 4,
+      "remoteImageCount": 4,
+      "supplierCdnImageCount": 4,
+      "localImageCount": 0,
+      "localMissingCount": 0,
+      "clientSafeImageCount": 0,
+      "statusImageProof": "HOLD_IMAGE_PROOF",
+      "blockers": [
+        "images_distantes_a_securiser",
+        "url_image_fournisseur_visible_si_publication",
+        "variante_image_a_confirmer",
+        "droits_images_a_decider"
+      ],
+      "expectedVisualTraits": [
+        "pochette zippee de rangement cables/accessoires",
+        "format double couche visible ou clairement compatible avec le titre",
+        "accessoires tech coherents, pas un sac generique",
+        "variante couleur a confirmer avant publication"
+      ],
+      "images": [
+        {
+          "index": 1,
+          "url": "https://ae01.alicdn.com/kf/H96187aa9cce24db3abab3d4ee6d43387A.jpg",
+          "sourceType": "remote_url",
+          "hostname": "ae01.alicdn.com",
+          "isSupplierCdn": true,
+          "isLocalUpload": false,
+          "localPath": "",
+          "localExists": false,
+          "sizeBytes": null,
+          "clientSafeIfPublished": false
+        },
+        {
+          "index": 2,
+          "url": "https://ae01.alicdn.com/kf/H7e620756cb9241908e87e78b9ea81c0eR.jpg",
+          "sourceType": "remote_url",
+          "hostname": "ae01.alicdn.com",
+          "isSupplierCdn": true,
+          "isLocalUpload": false,
+          "localPath": "",
+          "localExists": false,
+          "sizeBytes": null,
+          "clientSafeIfPublished": false
+        },
+        {
+          "index": 3,
+          "url": "https://ae01.alicdn.com/kf/H39d47561d0eb468b981fff8ecf358b35o.jpg",
+          "sourceType": "remote_url",
+          "hostname": "ae01.alicdn.com",
+          "isSupplierCdn": true,
+          "isLocalUpload": false,
+          "localPath": "",
+          "localExists": false,
+          "sizeBytes": null,
+          "clientSafeIfPublished": false
+        },
+        {
+          "index": 4,
+          "url": "https://ae01.alicdn.com/kf/H18a4f863437b4a549aaeec68ffeaf68e6.jpg",
+          "sourceType": "remote_url",
+          "hostname": "ae01.alicdn.com",
+          "isSupplierCdn": true,
+          "isLocalUpload": false,
+          "localPath": "",
+          "localExists": false,
+          "sizeBytes": null,
+          "clientSafeIfPublished": false
+        }
+      ],
+      "formToFill": {
+        "productId": "ali_partner_20260527_pochette_cables_voyage_001",
+        "productName": "Pochette organisateur câbles double couche voyage",
+        "checkedAt": "",
+        "mainImageExact": "",
+        "variantConfirmed": "",
+        "clientSafeImageDecision": "",
+        "imageRightsDecision": "",
+        "localMirrorOrReplacementNeeded": true,
+        "imageProofNotes": "",
+        "images": [
+          {
+            "index": 1,
+            "currentUrl": "https://ae01.alicdn.com/kf/H96187aa9cce24db3abab3d4ee6d43387A.jpg",
+            "currentSourceType": "remote_url",
+            "currentHostname": "ae01.alicdn.com",
+            "exactMatch": "",
+            "keepForReview": "",
+            "localReplacementPath": "",
+            "issueNotes": ""
+          },
+          {
+            "index": 2,
+            "currentUrl": "https://ae01.alicdn.com/kf/H7e620756cb9241908e87e78b9ea81c0eR.jpg",
+            "currentSourceType": "remote_url",
+            "currentHostname": "ae01.alicdn.com",
+            "exactMatch": "",
+            "keepForReview": "",
+            "localReplacementPath": "",
+            "issueNotes": ""
+          },
+          {
+            "index": 3,
+            "currentUrl": "https://ae01.alicdn.com/kf/H39d47561d0eb468b981fff8ecf358b35o.jpg",
+            "currentSourceType": "remote_url",
+            "currentHostname": "ae01.alicdn.com",
+            "exactMatch": "",
+            "keepForReview": "",
+            "localReplacementPath": "",
+            "issueNotes": ""
+          },
+          {
+            "index": 4,
+            "currentUrl": "https://ae01.alicdn.com/kf/H18a4f863437b4a549aaeec68ffeaf68e6.jpg",
+            "currentSourceType": "remote_url",
+            "currentHostname": "ae01.alicdn.com",
+            "exactMatch": "",
+            "keepForReview": "",
+            "localReplacementPath": "",
+            "issueNotes": ""
+          }
+        ],
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "readOnly": true,
+        "noCatalogWrite": true,
+        "noPublication": true,
+        "noPayment": true,
+        "noSupplierOrder": true,
+        "customerMustNotSeeSupplierImageDomain": true
+      }
+    },
+    {
+      "shortlistRank": 2,
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "categoryId": "dropshipping-high-tech",
+      "status": "draft",
+      "supplierUrl": "https://www.aliexpress.com/item/4001153714549.html",
+      "sourceImageStatus": "verified_source_images",
+      "sourceImageCheckedAt": "2026-06-05",
+      "sourceImageReason": "Images fournisseur inspectées : elles montrent bien un support aluminium pliant pour ordinateur portable/tablette, et remplacent l’ancienne image générique high-tech.",
+      "sourceImageNextAction": "Valider fournisseur exact, prix final et délai Europe avant remise en published.",
+      "imageCount": 4,
+      "remoteImageCount": 4,
+      "supplierCdnImageCount": 4,
+      "localImageCount": 0,
+      "localMissingCount": 0,
+      "clientSafeImageCount": 0,
+      "statusImageProof": "HOLD_IMAGE_PROOF",
+      "blockers": [
+        "images_distantes_a_securiser",
+        "url_image_fournisseur_visible_si_publication",
+        "variante_image_a_confirmer",
+        "droits_images_a_decider"
+      ],
+      "expectedVisualTraits": [
+        "support aluminium pliant pour ordinateur portable ou tablette",
+        "reglage inclinaison/hauteur visible ou explique par la variante",
+        "pas un simple plateau, pas un support telephone seul",
+        "couleur/matiere exactes a confirmer avant publication"
+      ],
+      "images": [
+        {
+          "index": 1,
+          "url": "https://ae01.alicdn.com/kf/H5294085d8b5041c5b8fbe948596c8533v.jpg",
+          "sourceType": "remote_url",
+          "hostname": "ae01.alicdn.com",
+          "isSupplierCdn": true,
+          "isLocalUpload": false,
+          "localPath": "",
+          "localExists": false,
+          "sizeBytes": null,
+          "clientSafeIfPublished": false
+        },
+        {
+          "index": 2,
+          "url": "https://ae01.alicdn.com/kf/H864ee1fe7f264606959adaf92760757bD.jpg",
+          "sourceType": "remote_url",
+          "hostname": "ae01.alicdn.com",
+          "isSupplierCdn": true,
+          "isLocalUpload": false,
+          "localPath": "",
+          "localExists": false,
+          "sizeBytes": null,
+          "clientSafeIfPublished": false
+        },
+        {
+          "index": 3,
+          "url": "https://ae01.alicdn.com/kf/Hf5c5424d5e564649a49e4a953f0f2a7ds.jpg",
+          "sourceType": "remote_url",
+          "hostname": "ae01.alicdn.com",
+          "isSupplierCdn": true,
+          "isLocalUpload": false,
+          "localPath": "",
+          "localExists": false,
+          "sizeBytes": null,
+          "clientSafeIfPublished": false
+        },
+        {
+          "index": 4,
+          "url": "https://ae01.alicdn.com/kf/H67b2a1a46af54ef2867fa8970a7bf6aa7.jpg",
+          "sourceType": "remote_url",
+          "hostname": "ae01.alicdn.com",
+          "isSupplierCdn": true,
+          "isLocalUpload": false,
+          "localPath": "",
+          "localExists": false,
+          "sizeBytes": null,
+          "clientSafeIfPublished": false
+        }
+      ],
+      "formToFill": {
+        "productId": "ali_partner_20260527_support_pc_pliant_001",
+        "productName": "Support PC portable pliant aluminium ajustable",
+        "checkedAt": "",
+        "mainImageExact": "",
+        "variantConfirmed": "",
+        "clientSafeImageDecision": "",
+        "imageRightsDecision": "",
+        "localMirrorOrReplacementNeeded": true,
+        "imageProofNotes": "",
+        "images": [
+          {
+            "index": 1,
+            "currentUrl": "https://ae01.alicdn.com/kf/H5294085d8b5041c5b8fbe948596c8533v.jpg",
+            "currentSourceType": "remote_url",
+            "currentHostname": "ae01.alicdn.com",
+            "exactMatch": "",
+            "keepForReview": "",
+            "localReplacementPath": "",
+            "issueNotes": ""
+          },
+          {
+            "index": 2,
+            "currentUrl": "https://ae01.alicdn.com/kf/H864ee1fe7f264606959adaf92760757bD.jpg",
+            "currentSourceType": "remote_url",
+            "currentHostname": "ae01.alicdn.com",
+            "exactMatch": "",
+            "keepForReview": "",
+            "localReplacementPath": "",
+            "issueNotes": ""
+          },
+          {
+            "index": 3,
+            "currentUrl": "https://ae01.alicdn.com/kf/Hf5c5424d5e564649a49e4a953f0f2a7ds.jpg",
+            "currentSourceType": "remote_url",
+            "currentHostname": "ae01.alicdn.com",
+            "exactMatch": "",
+            "keepForReview": "",
+            "localReplacementPath": "",
+            "issueNotes": ""
+          },
+          {
+            "index": 4,
+            "currentUrl": "https://ae01.alicdn.com/kf/H67b2a1a46af54ef2867fa8970a7bf6aa7.jpg",
+            "currentSourceType": "remote_url",
+            "currentHostname": "ae01.alicdn.com",
+            "exactMatch": "",
+            "keepForReview": "",
+            "localReplacementPath": "",
+            "issueNotes": ""
+          }
+        ],
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "readOnly": true,
+        "noCatalogWrite": true,
+        "noPublication": true,
+        "noPayment": true,
+        "noSupplierOrder": true,
+        "customerMustNotSeeSupplierImageDomain": true
+      }
+    },
+    {
+      "shortlistRank": 3,
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "name": "Filet rangement coffre voiture à sangles fixes",
+      "categoryId": "dropshipping-auto-moto",
+      "status": "draft",
+      "supplierUrl": "https://www.aliexpress.com/item/1005006160871310.html",
+      "sourceImageStatus": "verified_source_images",
+      "sourceImageCheckedAt": "2026-06-05",
+      "sourceImageReason": "Images fournisseur inspectees : elles montrent bien un filet/sangles de rangement pour coffre de voiture, avec mise en situation, detail matiere et dimensions, et remplacent l ancienne image generique auto-moto.",
+      "sourceImageNextAction": "Valider fournisseur exact, variante filet ou sangles, dimensions, mode de fixation, prix final et delai Europe avant remise en published.",
+      "imageCount": 6,
+      "remoteImageCount": 6,
+      "supplierCdnImageCount": 6,
+      "localImageCount": 0,
+      "localMissingCount": 0,
+      "clientSafeImageCount": 0,
+      "statusImageProof": "HOLD_IMAGE_PROOF",
+      "blockers": [
+        "images_distantes_a_securiser",
+        "url_image_fournisseur_visible_si_publication",
+        "variante_image_a_confirmer",
+        "droits_images_a_decider"
+      ],
+      "expectedVisualTraits": [
+        "filet ou sangles de rangement pour coffre voiture",
+        "mode de fixation visible ou documente",
+        "usage coffre/accessoire auto clair, pas filet de siege ou sac different",
+        "dimensions et lot exact a confirmer avant publication"
+      ],
+      "images": [
+        {
+          "index": 1,
+          "url": "https://ae01.alicdn.com/kf/S29472ff5afbf4d1ca78000f1c0b3a369Q.jpg",
+          "sourceType": "remote_url",
+          "hostname": "ae01.alicdn.com",
+          "isSupplierCdn": true,
+          "isLocalUpload": false,
+          "localPath": "",
+          "localExists": false,
+          "sizeBytes": null,
+          "clientSafeIfPublished": false
+        },
+        {
+          "index": 2,
+          "url": "https://ae01.alicdn.com/kf/S516954e691da4ef9857091becb7343b34.jpg",
+          "sourceType": "remote_url",
+          "hostname": "ae01.alicdn.com",
+          "isSupplierCdn": true,
+          "isLocalUpload": false,
+          "localPath": "",
+          "localExists": false,
+          "sizeBytes": null,
+          "clientSafeIfPublished": false
+        },
+        {
+          "index": 3,
+          "url": "https://ae01.alicdn.com/kf/S7b56ddb00faa40309193053e9474af2c8.jpg",
+          "sourceType": "remote_url",
+          "hostname": "ae01.alicdn.com",
+          "isSupplierCdn": true,
+          "isLocalUpload": false,
+          "localPath": "",
+          "localExists": false,
+          "sizeBytes": null,
+          "clientSafeIfPublished": false
+        },
+        {
+          "index": 4,
+          "url": "https://ae01.alicdn.com/kf/S94bd12f8f3b24a3990527e50e828a942g.jpg",
+          "sourceType": "remote_url",
+          "hostname": "ae01.alicdn.com",
+          "isSupplierCdn": true,
+          "isLocalUpload": false,
+          "localPath": "",
+          "localExists": false,
+          "sizeBytes": null,
+          "clientSafeIfPublished": false
+        },
+        {
+          "index": 5,
+          "url": "https://ae01.alicdn.com/kf/Sd9fe0b226ac948daa1e0f168080c816aT.jpg",
+          "sourceType": "remote_url",
+          "hostname": "ae01.alicdn.com",
+          "isSupplierCdn": true,
+          "isLocalUpload": false,
+          "localPath": "",
+          "localExists": false,
+          "sizeBytes": null,
+          "clientSafeIfPublished": false
+        },
+        {
+          "index": 6,
+          "url": "https://ae01.alicdn.com/kf/S854264f3c2f948ce8ab9021776cbae5en.jpg",
+          "sourceType": "remote_url",
+          "hostname": "ae01.alicdn.com",
+          "isSupplierCdn": true,
+          "isLocalUpload": false,
+          "localPath": "",
+          "localExists": false,
+          "sizeBytes": null,
+          "clientSafeIfPublished": false
+        }
+      ],
+      "formToFill": {
+        "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+        "productName": "Filet rangement coffre voiture à sangles fixes",
+        "checkedAt": "",
+        "mainImageExact": "",
+        "variantConfirmed": "",
+        "clientSafeImageDecision": "",
+        "imageRightsDecision": "",
+        "localMirrorOrReplacementNeeded": true,
+        "imageProofNotes": "",
+        "images": [
+          {
+            "index": 1,
+            "currentUrl": "https://ae01.alicdn.com/kf/S29472ff5afbf4d1ca78000f1c0b3a369Q.jpg",
+            "currentSourceType": "remote_url",
+            "currentHostname": "ae01.alicdn.com",
+            "exactMatch": "",
+            "keepForReview": "",
+            "localReplacementPath": "",
+            "issueNotes": ""
+          },
+          {
+            "index": 2,
+            "currentUrl": "https://ae01.alicdn.com/kf/S516954e691da4ef9857091becb7343b34.jpg",
+            "currentSourceType": "remote_url",
+            "currentHostname": "ae01.alicdn.com",
+            "exactMatch": "",
+            "keepForReview": "",
+            "localReplacementPath": "",
+            "issueNotes": ""
+          },
+          {
+            "index": 3,
+            "currentUrl": "https://ae01.alicdn.com/kf/S7b56ddb00faa40309193053e9474af2c8.jpg",
+            "currentSourceType": "remote_url",
+            "currentHostname": "ae01.alicdn.com",
+            "exactMatch": "",
+            "keepForReview": "",
+            "localReplacementPath": "",
+            "issueNotes": ""
+          },
+          {
+            "index": 4,
+            "currentUrl": "https://ae01.alicdn.com/kf/S94bd12f8f3b24a3990527e50e828a942g.jpg",
+            "currentSourceType": "remote_url",
+            "currentHostname": "ae01.alicdn.com",
+            "exactMatch": "",
+            "keepForReview": "",
+            "localReplacementPath": "",
+            "issueNotes": ""
+          },
+          {
+            "index": 5,
+            "currentUrl": "https://ae01.alicdn.com/kf/Sd9fe0b226ac948daa1e0f168080c816aT.jpg",
+            "currentSourceType": "remote_url",
+            "currentHostname": "ae01.alicdn.com",
+            "exactMatch": "",
+            "keepForReview": "",
+            "localReplacementPath": "",
+            "issueNotes": ""
+          },
+          {
+            "index": 6,
+            "currentUrl": "https://ae01.alicdn.com/kf/S854264f3c2f948ce8ab9021776cbae5en.jpg",
+            "currentSourceType": "remote_url",
+            "currentHostname": "ae01.alicdn.com",
+            "exactMatch": "",
+            "keepForReview": "",
+            "localReplacementPath": "",
+            "issueNotes": ""
+          }
+        ],
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "readOnly": true,
+        "noCatalogWrite": true,
+        "noPublication": true,
+        "noPayment": true,
+        "noSupplierOrder": true,
+        "customerMustNotSeeSupplierImageDomain": true
+      }
+    }
+  ],
+  "sources": {
+    "shortlistPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\shortlist-go-humain-20260610\\SHORTLIST_GO_HUMAIN_PARTENAIRES_20260610.json",
+    "quickProductsPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\data\\quick-products.json"
+  },
+  "files": {
+    "outputDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\preuves-images-sprint-20260610",
+    "cardsDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\preuves-images-sprint-20260610\\fiches-images",
+    "templatePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\preuves-images-sprint-20260610\\A_REMPLIR_PREUVES_IMAGES_SPRINT_20260610.json"
+  },
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true
+  }
+}

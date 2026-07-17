@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-11T05:03:58.070Z",
+  "baseUrl": "http://127.0.0.1:3010",
+  "note": "Next dev HMR websocket errors are ignored by filter; no remaining console/page errors captured.",
+  "results": [
+    {
+      "viewport": "desktop",
+      "route": "/",
+      "status": 200,
+      "forbiddenHits": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "viewport": "desktop",
+      "route": "/produits-partenaires",
+      "status": 200,
+      "forbiddenHits": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "viewport": "desktop",
+      "route": "/boutique",
+      "status": 200,
+      "forbiddenHits": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "viewport": "desktop",
+      "route": "/categories/produits-partenaires",
+      "status": 200,
+      "forbiddenHits": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "viewport": "mobile",
+      "route": "/",
+      "status": 200,
+      "forbiddenHits": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "viewport": "mobile",
+      "route": "/produits-partenaires",
+      "status": 200,
+      "forbiddenHits": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "viewport": "mobile",
+      "route": "/boutique",
+      "status": 200,
+      "forbiddenHits": [],
+      "consoleErrorCount": 0
+    },
+    {
+      "viewport": "mobile",
+      "route": "/categories/produits-partenaires",
+      "status": 200,
+      "forbiddenHits": [],
+      "consoleErrorCount": 0
+    }
+  ],
+  "screenshotsDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\surface-publique-dropshipping-20260611\\browser-check"
+}

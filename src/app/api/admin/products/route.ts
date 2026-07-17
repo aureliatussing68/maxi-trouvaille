@@ -1,13 +1,23 @@
 import { NextResponse } from "next/server";
 import { promises as fs } from "fs";
 import path from "path";
-import { createQuickProduct, type QuickProductInput } from "@/lib/quick-products";
+import {
+  createQuickProduct,
+  normalizeProductCondition,
+  type QuickProductInput,
+} from "@/lib/quick-products";
 import { readQuickProducts, writeQuickProducts } from "@/lib/catalog-server";
+import { isAdminModeEnabled } from "@/lib/admin";
+import { adminApiUnavailable } from "@/lib/admin-api";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 export async function GET() {
+  if (!isAdminModeEnabled()) {
+    return adminApiUnavailable();
+  }
+
   return NextResponse.json({ products: await readQuickProducts() });
 }
 
@@ -73,12 +83,15 @@ async function readInput(request: Request): Promise<QuickProductInput> {
     title: String(formData.get("title") ?? ""),
     description: String(formData.get("description") ?? ""),
     price: String(formData.get("price") ?? ""),
-    categoryId: String(formData.get("categoryId") ?? "colis-surprise"),
-    condition:
-      formData.get("condition") === "neuf" || formData.get("condition") === "occasion"
-        ? (formData.get("condition") as QuickProductInput["condition"])
-        : "occasion",
+    categoryId: String(formData.get("categoryId") ?? "dropshipping-nouveautes"),
+    condition: normalizeProductCondition(formData.get("condition")),
     stock: String(formData.get("stock") ?? "1"),
+    keywords: String(formData.get("keywords") ?? ""),
+    marketPriceEstimate: String(formData.get("marketPriceEstimate") ?? ""),
+    priceReviewNote: String(formData.get("priceReviewNote") ?? ""),
+    productType: String(formData.get("productType") ?? ""),
+    usage: String(formData.get("usage") ?? ""),
+    strengths: String(formData.get("strengths") ?? ""),
     livraisonDisponible:
       formData.get("livraisonDisponible") === "remise uniquement" ||
       formData.get("livraisonDisponible") === "mondial relay uniquement" ||
@@ -91,6 +104,10 @@ async function readInput(request: Request): Promise<QuickProductInput> {
 }
 
 export async function POST(request: Request) {
+  if (!isAdminModeEnabled()) {
+    return adminApiUnavailable();
+  }
+
   const input = await readInput(request);
   const product = createQuickProduct(input);
   const products = await readQuickProducts();

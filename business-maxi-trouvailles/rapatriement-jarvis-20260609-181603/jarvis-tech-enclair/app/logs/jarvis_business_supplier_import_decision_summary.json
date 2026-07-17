@@ -1,0 +1,169 @@
+{
+  "checked_at": "2026-06-09 18:00:36",
+  "ok": true,
+  "status": "SUPPLIER_IMPORT_DECISION_SUMMARY_BLOCKED",
+  "short_message": "Resume decisionnel fournisseur/import bloque: 4 point(s) pour Mouss, aucune action lancee.",
+  "decision_summary_ready": false,
+  "mouss_display_safe": true,
+  "mouss_action_required_count": 4,
+  "decision_item_total": 6,
+  "decision_blocking_count": 4,
+  "decision_blocking_item_ids": [
+    "supplier_evidence_complete",
+    "specific_mouss_supplier_decision",
+    "validation_queue_ready_item",
+    "global_manual_next_step"
+  ],
+  "decision_items": [
+    {
+      "id": "current_import_decision",
+      "label": "Decision actuelle import fournisseur",
+      "state": "BLOQUE",
+      "blocking": false,
+      "summary": "Aucun import fournisseur ne doit partir dans l'etat actuel.",
+      "mouss_next_step": "Ne rien valider tant que les blocages ci-dessous ne sont pas leves."
+    },
+    {
+      "id": "supplier_evidence_complete",
+      "label": "Preuves fournisseur",
+      "state": "A_COMPLETER",
+      "blocking": true,
+      "summary": "55/55 champ(s) preuve fournisseur restent a remplir.",
+      "mouss_next_step": "Completer les preuves fournisseur hors automatisation et sans recherche lancee par Jarvis."
+    },
+    {
+      "id": "specific_mouss_supplier_decision",
+      "label": "Validation Mouss specifique",
+      "state": "A_VALIDER",
+      "blocking": true,
+      "summary": "Une validation dediee est requise; un simple oui vocal ne suffit pas.",
+      "mouss_next_step": "Donner une validation explicite separee quand les preuves sont pretes."
+    },
+    {
+      "id": "validation_queue_ready_item",
+      "label": "File validation fournisseur",
+      "state": "A_RELIRE",
+      "blocking": true,
+      "summary": "0/6 item(s) pret(s) dans la file validation.",
+      "mouss_next_step": "Relire la file validation sans exposer de lignes produit dans le rapport."
+    },
+    {
+      "id": "global_manual_next_step",
+      "label": "Sas business global",
+      "state": "BLOQUE",
+      "blocking": true,
+      "summary": "Le sas global bloque encore la prochaine etape business.",
+      "mouss_next_step": "Repasser par le sas global apres completion fournisseur/import."
+    },
+    {
+      "id": "sensitive_actions",
+      "label": "Actions sensibles",
+      "state": "ARRETEES",
+      "blocking": false,
+      "summary": "Recherche, import, commande, paiement, publication et suppression restent arretes.",
+      "mouss_next_step": "Demander une action specifique seulement apres validation manuelle complete."
+    }
+  ],
+  "guardrail_total": 5,
+  "guardrail_ok_count": 5,
+  "guardrails": [
+    {
+      "id": "read_only",
+      "label": "Lecture seule",
+      "ok": true,
+      "summary": "Resume construit depuis les gardes existants."
+    },
+    {
+      "id": "generic_voice_blocked",
+      "label": "Confirmation vocale generique bloquee",
+      "ok": true,
+      "summary": "Les confirmations generiques restent non executables."
+    },
+    {
+      "id": "automatic_unlock_denied",
+      "label": "Deverrouillage automatique refuse",
+      "ok": true,
+      "summary": "Aucun deverrouillage automatique n'est permis."
+    },
+    {
+      "id": "no_sensitive_action_started",
+      "label": "Aucune action sensible lancee",
+      "ok": true,
+      "summary": "Aucune action externe n'a demarre."
+    },
+    {
+      "id": "no_content_exposed",
+      "label": "Aucun detail produit ou chemin expose",
+      "ok": true,
+      "summary": "Le resume reste sur des compteurs et etats."
+    }
+  ],
+  "supplier_import_validation_alignment_ready": false,
+  "supplier_import_checklist_ready": false,
+  "global_manual_lane_ready": true,
+  "global_manual_next_step_possible": false,
+  "supplier_blocking_item_count": 4,
+  "supplier_passed_item_count": 2,
+  "alignment_item_total": 6,
+  "alignment_passed_count": 4,
+  "alignment_blocking_count": 2,
+  "evidence_missing_field_total": 55,
+  "evidence_required_total": 55,
+  "validation_queue_total": 6,
+  "validation_queue_ready_count": 0,
+  "import_draft_allowed": false,
+  "manual_unlock_allowed_now": false,
+  "automatic_unlock_allowed": false,
+  "automatic_import_allowed": false,
+  "manual_import_review_allowed": false,
+  "generic_voice_confirmation_unlocks": false,
+  "generic_voice_confirmation_unlocks_business": false,
+  "generic_voice_confirmation_unlocks_import_review": false,
+  "requires_specific_human_validation": true,
+  "specific_validation_phrase_stored": false,
+  "queue_rows_exposed": false,
+  "product_content_exposed": false,
+  "path_values_exposed": false,
+  "web_search_started": false,
+  "api_call_started": false,
+  "scraping_started": false,
+  "subprocess_started": false,
+  "business_job_started": false,
+  "sourcing_started": false,
+  "site_modified": false,
+  "import_review_started": false,
+  "import_started": false,
+  "order_started": false,
+  "payment_started": false,
+  "publication_started": false,
+  "delete_started": false,
+  "content_exposed": false,
+  "safety": {
+    "read_only": true,
+    "summary_only": true,
+    "gate_only": true,
+    "manual_only": true,
+    "no_queue_row_content": true,
+    "no_pending_confirmation_written": true,
+    "no_confirmation_confirmed": true,
+    "no_web_search_started": true,
+    "no_api_call_started": true,
+    "no_scraping_started": true,
+    "no_subprocess_started": true,
+    "no_business_job_started": true,
+    "no_sourcing_started": true,
+    "no_site_write": true,
+    "no_import_review": true,
+    "no_import": true,
+    "no_order": true,
+    "no_payment": true,
+    "no_publication": true,
+    "no_delete": true,
+    "manual_validation_required": true,
+    "no_secret_values": true,
+    "no_values_exposed": true,
+    "no_product_content_exposed": true,
+    "no_path_values_exposed": true,
+    "content_exposed": false
+  }
+}

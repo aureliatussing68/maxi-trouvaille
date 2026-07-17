@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-06-05 16:08:03",
+  "ok": true,
+  "html_path": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_decision_sheet.html",
+  "opened": false,
+  "product_title": "Organisateur de cables de voyage compact",
+  "import_decision": "BLOCKED_FOR_MANUAL_REVIEW",
+  "review_dir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345",
+  "review_file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\A_VALIDER_PAR_MOUSS.md",
+  "decision_file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\DECISION_MOUSS_A_REMPLIR.md",
+  "created_new": false,
+  "preserved_existing": true,
+  "operator_message": "Feuille decision Mouss prete en local. Aucune action sensible.",
+  "safety": {
+    "local_files_only": true,
+    "manual_decision_only": true,
+    "site_modified": false,
+    "import_started": false,
+    "order_started": false,
+    "payment_started": false,
+    "publication_started": false,
+    "files_deleted": false,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  },
+  "short_message": "Feuille decision prete: Organisateur de cables de voyage compact, fichier existant conserve."
+}

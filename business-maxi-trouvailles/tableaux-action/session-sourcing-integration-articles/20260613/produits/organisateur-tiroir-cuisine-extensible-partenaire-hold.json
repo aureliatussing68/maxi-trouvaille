@@ -1,0 +1,222 @@
+{
+  "priority": 7,
+  "id": "integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+  "slug": "organisateur-tiroir-cuisine-extensible-partenaire-hold",
+  "name": "Organisateur tiroir cuisine extensible",
+  "categoryId": "dropshipping-cuisine",
+  "priorityScore": 110,
+  "lane": "lane_1_packet_a_remplir",
+  "packetStatus": "HOLD_READY_FOR_MANUAL_SOURCING",
+  "intakeStatus": "HOLD_IMAGES_OR_EVIDENCE_MISSING",
+  "evidenceProgress": "1/10",
+  "imageProgress": "0/3",
+  "targetSalePrice": "19.90 EUR",
+  "targetMargin": "11.70 EUR (59%)",
+  "supplierMaxCost": "8.20 EUR",
+  "imageDepositDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260613\\organisateur-tiroir-cuisine-extensible-partenaire-hold",
+  "searchHints": [
+    "organisateur tiroir cuisine extensible fournisseur europe livraison rapide",
+    "organisateur tiroir cuisine extensible grossiste france stock",
+    "organisateur tiroir cuisine extensible fournisseur b2b photos droits"
+  ],
+  "fields": [
+    {
+      "order": 1,
+      "zone": "Fournisseur / SKU",
+      "key": "exactProductUrl",
+      "label": "URL produit exacte",
+      "expectedFormat": "URL https de la fiche article exacte",
+      "rejectIf": "URL de recherche, marketplace interdite, produit similaire ou variante floue",
+      "required": true,
+      "currentValue": "",
+      "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "status": "TO_FILL_HOLD"
+    },
+    {
+      "order": 2,
+      "zone": "Fournisseur / SKU",
+      "key": "partnerName",
+      "label": "Nom vendeur ou partenaire",
+      "expectedFormat": "Nom stable du vendeur, boutique ou partenaire",
+      "rejectIf": "Vendeur inconnu, nom generique ou preuve absente",
+      "required": true,
+      "currentValue": "",
+      "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "status": "TO_FILL_HOLD"
+    },
+    {
+      "order": 3,
+      "zone": "Fournisseur / SKU",
+      "key": "supplierSku",
+      "label": "SKU/reference fournisseur",
+      "expectedFormat": "SKU, item id ou reference fournisseur stable",
+      "rejectIf": "Reference absente ou non reutilisable pour une commande manuelle",
+      "required": true,
+      "currentValue": "",
+      "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "status": "TO_FILL_HOLD"
+    },
+    {
+      "order": 4,
+      "zone": "Fournisseur / SKU",
+      "key": "exactVariant",
+      "label": "Variante exacte vendue",
+      "expectedFormat": "Couleur, taille, dimensions, lot et accessoires inclus",
+      "rejectIf": "Variante non identique aux images ou a la description Maxi",
+      "required": true,
+      "currentValue": "",
+      "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "status": "TO_FILL_HOLD"
+    },
+    {
+      "order": 5,
+      "zone": "Prix / stock / marge",
+      "key": "supplierPriceCents",
+      "label": "Prix fournisseur reel en centimes",
+      "expectedFormat": "Nombre entier en centimes, hors invention",
+      "rejectIf": "Prix absent, prix estime ou marge cible non tenable",
+      "required": true,
+      "currentValue": "",
+      "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Prix+%2F+stock+%2F+marge#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "status": "TO_FILL_HOLD"
+    },
+    {
+      "order": 6,
+      "zone": "Prix / stock / marge",
+      "key": "supplierStock",
+      "label": "Stock fournisseur visible",
+      "expectedFormat": "Nombre entier ou stock visible documente",
+      "rejectIf": "Stock flou, rupture, precommande ou volume non fiable",
+      "required": true,
+      "currentValue": "",
+      "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Prix+%2F+stock+%2F+marge#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "status": "TO_FILL_HOLD"
+    },
+    {
+      "order": 7,
+      "zone": "Livraison / suivi",
+      "key": "deliveryToFrance",
+      "label": "Delai France/Europe",
+      "expectedFormat": "Delai clair vers France/Europe avec transporteur si possible",
+      "rejectIf": "Delai absent, trop vague ou incompatible avec une boutique fiable",
+      "required": true,
+      "currentValue": "",
+      "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Livraison+%2F+suivi#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "status": "TO_FILL_HOLD"
+    },
+    {
+      "order": 8,
+      "zone": "Livraison / suivi",
+      "key": "trackingAvailable",
+      "label": "Suivi colis disponible",
+      "expectedFormat": "true/oui si suivi confirme",
+      "rejectIf": "Aucun suivi fiable",
+      "required": true,
+      "currentValue": "",
+      "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Livraison+%2F+suivi#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "status": "TO_FILL_HOLD"
+    },
+    {
+      "order": 9,
+      "zone": "Livraison / suivi",
+      "key": "deliveryEvidence",
+      "label": "Preuve livraison",
+      "expectedFormat": "Capture, texte fournisseur ou page indiquant le delai",
+      "rejectIf": "Preuve absente ou non reliee au meme article",
+      "required": true,
+      "currentValue": "",
+      "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Livraison+%2F+suivi#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "status": "TO_FILL_HOLD"
+    },
+    {
+      "order": 10,
+      "zone": "Images / droits",
+      "key": "imageRightsEvidence",
+      "label": "Droits images ou permission d usage",
+      "expectedFormat": "Permission, licence, photos propres ou droit d usage documente",
+      "rejectIf": "Photo non autorisee, image approximative ou autre produit",
+      "required": true,
+      "currentValue": "",
+      "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Images+%2F+droits#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "status": "TO_FILL_HOLD"
+    },
+    {
+      "order": 11,
+      "zone": "Validation Mouss",
+      "key": "moussValidation",
+      "label": "Validation humaine Mouss",
+      "expectedFormat": "true/oui seulement apres revue humaine",
+      "rejectIf": "Validation absente",
+      "required": true,
+      "currentValue": false,
+      "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Validation+Mouss#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "status": "TO_FILL_HOLD"
+    }
+  ],
+  "imageTasks": [
+    {
+      "order": 1,
+      "fileName": "organisateur-tiroir-cuisine-extensible-partenaire-hold-main.webp",
+      "role": "main",
+      "depositPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260613\\organisateur-tiroir-cuisine-extensible-partenaire-hold\\organisateur-tiroir-cuisine-extensible-partenaire-hold-main.webp",
+      "expected": "WebP exact du produit et de la variante vendue",
+      "status": "MISSING_HOLD"
+    },
+    {
+      "order": 2,
+      "fileName": "organisateur-tiroir-cuisine-extensible-partenaire-hold-detail-1.webp",
+      "role": "detail",
+      "depositPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260613\\organisateur-tiroir-cuisine-extensible-partenaire-hold\\organisateur-tiroir-cuisine-extensible-partenaire-hold-detail-1.webp",
+      "expected": "WebP exact du produit et de la variante vendue",
+      "status": "MISSING_HOLD"
+    },
+    {
+      "order": 3,
+      "fileName": "organisateur-tiroir-cuisine-extensible-partenaire-hold-variant.webp",
+      "role": "variant",
+      "depositPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260613\\organisateur-tiroir-cuisine-extensible-partenaire-hold\\organisateur-tiroir-cuisine-extensible-partenaire-hold-variant.webp",
+      "expected": "WebP exact du produit et de la variante vendue",
+      "status": "MISSING_HOLD"
+    }
+  ],
+  "categoryFocus": [
+    "Verifier dimensions et matiere.",
+    "Refuser si contact alimentaire ambigu ou non documente."
+  ],
+  "rejectionRules": [
+    "Refuser si l image principale ne correspond pas exactement a l article vendu.",
+    "Refuser si le fournisseur ne donne pas de delai France/Europe clair.",
+    "Refuser si le stock est flou ou non visible.",
+    "Refuser si le prix fournisseur reel rend la marge nette trop faible.",
+    "Refuser si les droits images ne sont pas prouvables.",
+    "Refuser si une mention marketplace ou partenaire externe doit apparaitre au client.",
+    "Refuser si la matiere ou le contact alimentaire reste ambigu."
+  ],
+  "sessionChecklist": [
+    "Verifier que la fiche fournisseur correspond au meme article exact.",
+    "Remplir les champs fournisseur/SKU/variante avant prix et stock.",
+    "Comparer le prix fournisseur au cout max cible avant de continuer.",
+    "Verifier delai France/Europe et suivi colis.",
+    "Documenter les droits images avant tout depot WebP.",
+    "Deposer uniquement des WebP exacts dans le dossier prevu.",
+    "Relancer audit intake avant de demander revue humaine."
+  ],
+  "adminLinks": {
+    "proof": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+    "imageZone": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Images+%2F+droits#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+    "supplierZone": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+    "marginZone": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Prix+%2F+stock+%2F+marge#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+    "deliveryZone": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Livraison+%2F+suivi#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+    "validationZone": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Validation+Mouss#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible"
+  },
+  "nextCommand": "npm run catalog:audit-integration-sourcing-packets",
+  "safety": {
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noExternalContact": true,
+    "noImageDownload": true,
+    "manualValidationRequired": true
+  }
+}

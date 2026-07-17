@@ -1,0 +1,51 @@
+import Link from "next/link";
+import { CircleHelp, Grid2X2, PackageSearch, ShoppingBag } from "lucide-react";
+
+const mobileLinks = [
+  {
+    href: "/boutique",
+    label: "Boutique",
+    icon: ShoppingBag,
+  },
+  {
+    href: "/produits-partenaires",
+    label: "Rayons",
+    icon: Grid2X2,
+  },
+  {
+    href: "/suivi-colis",
+    label: "Suivi",
+    icon: PackageSearch,
+  },
+  {
+    href: "/faq",
+    label: "Aide",
+    icon: CircleHelp,
+  },
+];
+
+export function MobileDemoNav() {
+  return (
+    <nav
+      aria-label="Navigation rapide mobile"
+      className="fixed inset-x-0 bottom-0 z-40 border-t border-line bg-paper/96 px-3 pb-[calc(0.65rem+env(safe-area-inset-bottom))] pt-2 shadow-[0_-8px_30px_rgb(23_23_23_/_0.12)] backdrop-blur md:hidden"
+    >
+      <div className="mx-auto grid max-w-md grid-cols-4 gap-1">
+        {mobileLinks.map((link) => {
+          const Icon = link.icon;
+
+          return (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="focus-ring flex min-h-14 flex-col items-center justify-center gap-1 rounded-md px-1 text-[11px] font-black text-foreground hover:bg-[#f1eadf]"
+            >
+              <Icon size={19} aria-hidden="true" />
+              <span>{link.label}</span>
+            </Link>
+          );
+        })}
+      </div>
+    </nav>
+  );
+}

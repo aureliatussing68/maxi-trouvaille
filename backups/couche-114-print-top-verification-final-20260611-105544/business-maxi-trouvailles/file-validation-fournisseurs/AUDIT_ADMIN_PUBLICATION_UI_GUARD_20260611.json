@@ -1,0 +1,83 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-11T08:53:45.234Z",
+  "generatedAtLocal": "2026-06-11 10:53 Europe/Paris",
+  "mode": "read_only_admin_publication_ui_guard_audit",
+  "status": "OK_ADMIN_PUBLICATION_UI_GUARD_ACTIVE",
+  "checkCount": 9,
+  "failureCount": 0,
+  "checks": [
+    {
+      "id": "client_guard_panel_present",
+      "ok": true,
+      "failure": "Le formulaire admin doit afficher une garde publication dropshipping.",
+      "status": "OK"
+    },
+    {
+      "id": "client_guard_computes_blockers",
+      "ok": true,
+      "failure": "Le formulaire doit calculer les blocages avant publication.",
+      "status": "OK"
+    },
+    {
+      "id": "client_guard_disables_submit",
+      "ok": true,
+      "failure": "Le bouton de sauvegarde doit bloquer une tentative de publication incomplete.",
+      "status": "OK"
+    },
+    {
+      "id": "server_blockers_are_displayed",
+      "ok": true,
+      "failure": "Les blocages HTTP 400 de la route admin doivent etre visibles dans le formulaire.",
+      "status": "OK"
+    },
+    {
+      "id": "required_fields_match_server_guard",
+      "ok": true,
+      "failure": "La checklist UI doit rester alignee avec les preuves serveur obligatoires.",
+      "status": "OK"
+    },
+    {
+      "id": "proof_shortcuts_present",
+      "ok": true,
+      "failure": "La garde UI doit proposer des raccourcis vers preuves, pilotage et photos.",
+      "status": "OK"
+    },
+    {
+      "id": "proof_page_slug_anchor_present",
+      "ok": true,
+      "failure": "La page preuves partenaires doit exposer une ancre par slug produit, y compris hors formulaires rapides.",
+      "status": "OK"
+    },
+    {
+      "id": "proof_page_search_filter_present",
+      "ok": true,
+      "failure": "La page preuves partenaires doit proposer une recherche par URL, filtrer les listes HOLD et exporter le CSV filtre.",
+      "status": "OK"
+    },
+    {
+      "id": "proof_page_top_verification_board_present",
+      "ok": true,
+      "failure": "La page preuves partenaires doit afficher un classement des produits HOLD a verifier en priorite, l'exporter en CSV court et fournir une mini fiche terrain imprimable.",
+      "status": "OK"
+    }
+  ],
+  "failures": [],
+  "sources": {
+    "formPath": "src\\components\\ProductEditForm.tsx",
+    "proofsPagePath": "src\\app\\admin\\preuves-partenaires\\page.tsx",
+    "routePath": "src\\app\\api\\admin\\products\\[slug]\\route.ts"
+  },
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true
+  },
+  "files": {
+    "json": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_ADMIN_PUBLICATION_UI_GUARD_20260611.json",
+    "md": "business-maxi-trouvailles\\file-validation-fournisseurs\\AUDIT_ADMIN_PUBLICATION_UI_GUARD_20260611.md"
+  }
+}

@@ -1,0 +1,43 @@
+DISCUSSION PARALLELE 08 - Apps sociales bureau / inventaire
+
+Role:
+Tu es l'agent parallele 08 pour inventaire des apps sociales et raccourcis bureau. Domaine sensible: inventaire et preparation seulement.
+
+Automatisation obligatoire:
+Cree ou maintiens une automatisation active toutes les 5 minutes, nommee "Jarvis 08 apps sociales inventaire couche par couche". A chaque reveil, seulement inventaire passif, matrices, plans dry-run, rapports.
+
+Mission:
+- Inventorier TikTok, CapCut, Instagram, Facebook, YouTube, LinkedIn, Pinterest, Snapchat si deja presents.
+- Preparer raccourcis/plans sans installer, ouvrir, connecter ni publier.
+- Ne jamais lancer une app sociale visible.
+
+Modules candidats:
+- desktop_control.py
+- project_workspace.py
+- jarvis_window_command_planner.py
+- dossiers docs/social existants
+
+Tests conseilles:
+- jarvis_recent_artifact_secret_scan_regression.py
+- regressions desktop/window si read-only
+
+Garde-fous:
+- inventory_only
+- no_install
+- no_download
+- no_app_open
+- no_browser_open
+- no_account_login
+- no_publication
+
+Retour:
+- Atelier: 08 / social_desktop_apps
+- Etat: HOLD_INVENTORY / GO_DRAFT / STOP
+- Couche:
+- Inventaire ou plan:
+- Fichiers:
+- Tests:
+- Validation Mouss:
+- Prochaine couche:
+- Ecrire `parallel_work/jarvis_parallel_discussions/returns/08_social_desktop_apps_latest.md`.
+

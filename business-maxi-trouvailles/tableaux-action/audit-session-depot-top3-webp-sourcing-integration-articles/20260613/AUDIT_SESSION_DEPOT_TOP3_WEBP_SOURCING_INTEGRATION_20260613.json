@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-13T12:11:47.109Z",
+  "generatedAtLocal": "2026-06-13 14:11 Europe/Paris",
+  "mode": "read_only_integration_top3_webp_depot_session_audit",
+  "status": "OK_TOP3_WEBP_DEPOT_SESSION_GUARDED",
+  "productCount": 3,
+  "groupCount": 3,
+  "imageTaskCount": 9,
+  "instructionFileCount": 3,
+  "scannedFileCount": 6,
+  "failureCount": 0,
+  "sensitiveFindingCount": 0,
+  "issues": [],
+  "sensitiveFindings": [],
+  "sources": {
+    "sessionPath": "business-maxi-trouvailles/tableaux-action/session-depot-top3-webp-sourcing-integration-articles/20260613/SESSION_DEPOT_TOP3_WEBP_SOURCING_INTEGRATION_20260613.json",
+    "workpackPath": "business-maxi-trouvailles/tableaux-action/top3-webp-sourcing-integration-articles/20260613/TOP3_WEBP_SOURCING_INTEGRATION_20260613.json",
+    "depotAuditPath": "business-maxi-trouvailles/tableaux-action/audit-top3-webp-depot-files-sourcing-integration-articles/20260612/AUDIT_TOP3_WEBP_DEPOT_FILES_SOURCING_INTEGRATION_20260612.json",
+    "allowedDepositRootRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles"
+  },
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noImageDownload": true,
+    "noImageFileCreated": true,
+    "noPublicImageWrite": true,
+    "manualValidationRequired": true
+  }
+}

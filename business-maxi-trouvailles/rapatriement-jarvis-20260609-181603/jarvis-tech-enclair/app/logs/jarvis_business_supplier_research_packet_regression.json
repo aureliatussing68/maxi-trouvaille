@@ -1,0 +1,33 @@
+{
+  "checked_at": "2026-05-25 04:39:15",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "packet_ok": true,
+    "route_supplier_research_packet": true,
+    "execute_supplier_research_packet": true,
+    "executor_payload_ok": true,
+    "manual_only": true,
+    "auto_research_denied": true,
+    "slot_count": true,
+    "queries_prepared": true,
+    "manual_validation": true,
+    "checks_present": true,
+    "instructions_present": true,
+    "no_web_or_api_started": true,
+    "no_scraping_or_subprocess": true,
+    "no_business_job_or_sourcing": true,
+    "site_not_modified": true,
+    "no_import_order_payment_publication": true,
+    "no_delete": true,
+    "read_only_packet": true,
+    "no_secret_values": true,
+    "no_content_exposed": true,
+    "txt_mentions_packet": true,
+    "no_secret_like_value_in_reports": true
+  },
+  "packet_message": "Paquet recherche fournisseur: 5 slot(s), 5 lien(s) reel(s) a trouver, aucune recherche lancee.",
+  "slot_count": 5,
+  "note": "Regression lecture seule: le paquet fournisseur prepare la recherche manuelle sans lancer web/API/sourcing."
+}

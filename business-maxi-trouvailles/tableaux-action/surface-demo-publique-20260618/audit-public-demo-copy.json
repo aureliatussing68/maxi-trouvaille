@@ -1,0 +1,15 @@
+{
+  "generatedAtLocal": "2026-06-18 21:57 Europe/Paris",
+  "ok": true,
+  "checkedFileCount": 57,
+  "findingCount": 0,
+  "findings": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true
+  }
+}

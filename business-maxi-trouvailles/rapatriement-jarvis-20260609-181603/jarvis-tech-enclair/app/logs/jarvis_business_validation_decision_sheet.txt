@@ -1,0 +1,13 @@
+Feuille decision produit - 2026-06-05 16:08:03
+
+Produit: Organisateur de cables de voyage compact
+Message court: Feuille decision prete: Organisateur de cables de voyage compact, fichier existant conserve.
+Decision import: BLOCKED_FOR_MANUAL_REVIEW
+Dossier: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_130345
+Decision Mouss: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_130345\DECISION_MOUSS_A_REMPLIR.md
+HTML: C:\Users\sinek\Desktop\Jarvis-TechEnClair\app\logs\jarvis_business_validation_decision_sheet.html
+Nouveau fichier: NON
+Fichier existant preserve: OK
+
+Message: Feuille decision Mouss prete en local. Aucune action sensible.
+Securite: feuille locale seulement, aucune importation, commande, paiement ou publication.

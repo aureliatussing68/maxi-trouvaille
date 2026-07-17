@@ -1,0 +1,43 @@
+Regression dashboard business - 2026-06-08 22:25:39
+Global: OK
+Message court: Dashboard business: 10 candidat(s), sourcing demo, 2 API a completer, prochaine etape sure prete, aucune action sensible.
+Message executeur: Dashboard business: 10 candidat(s), sourcing demo, 2 API a completer, prochaine etape sure prete, aucune action sensible.
+
+- json_written: OK
+- txt_written: OK
+- fresh_run_not_cached: OK
+- second_run_cached: OK
+- cached_fast: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- route_business_dashboard: OK
+- execute_business_dashboard: OK
+- executor_uses_short_message: OK
+- admin_url_present: OK
+- pipeline_status_present: OK
+- candidate_count_present: OK
+- source_mode_present: OK
+- safe_next_status_present: OK
+- safe_next_checks_ok: OK
+- safe_next_manual_only: OK
+- supplier_resume_snapshot_safe: OK
+- runtime_manual_handoff_present: OK
+- runtime_handoff_safety: OK
+- runtime_recovery_not_started: OK
+- read_only: OK
+- no_import: OK
+- no_order: OK
+- no_payment: OK
+- no_publication: OK
+- no_delete: OK
+- manual_validation_required: OK
+- uses_safe_next_status: OK
+- uses_supplier_resume_snapshot: OK
+- uses_runtime_handoff_snapshot: OK
+- txt_mentions_safe_next: OK
+- txt_mentions_runtime_handoff: OK
+- latest_job_target_hidden: OK
+- no_path_values_in_reports: OK
+- no_secret_like_value_in_text: OK
+
+Securite: lecture seule, aucun secret, aucun import/commande/paiement/publication.

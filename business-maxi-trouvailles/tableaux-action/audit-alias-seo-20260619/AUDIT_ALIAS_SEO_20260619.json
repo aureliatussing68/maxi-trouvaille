@@ -1,0 +1,52 @@
+{
+  "checkedAt": "2026-06-19T02:12:51.240Z",
+  "ok": true,
+  "mode": "read_only_legacy_alias_seo_audit",
+  "legacyAliases": [
+    {
+      "id": "legacy_partner_products_alias",
+      "legacyPath": "/dropshipping",
+      "file": "src/app/dropshipping/page.tsx",
+      "target": "/produits-partenaires"
+    },
+    {
+      "id": "legacy_partner_terms_alias",
+      "legacyPath": "/conditions-dropshipping",
+      "file": "src/app/conditions-dropshipping/page.tsx",
+      "target": "/conditions-produits-partenaires"
+    }
+  ],
+  "requiredRobotsDisallow": [
+    "/admin/",
+    "/api/",
+    "/avis/laisser",
+    "/offline",
+    "/panier",
+    "/paiement",
+    "/paiement/annule",
+    "/paiement/succes"
+  ],
+  "requiredSitemapRoutes": [
+    "/boutique",
+    "/produits-partenaires",
+    "/nouveautes",
+    "/promotions",
+    "/conditions-produits-partenaires"
+  ],
+  "findingCount": 0,
+  "findings": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true,
+    "noExternalRequest": true
+  },
+  "files": {
+    "json": "business-maxi-trouvailles/tableaux-action/audit-alias-seo-20260619/AUDIT_ALIAS_SEO_20260619.json",
+    "md": "business-maxi-trouvailles/tableaux-action/audit-alias-seo-20260619/AUDIT_ALIAS_SEO_20260619.md",
+    "csv": "business-maxi-trouvailles/tableaux-action/audit-alias-seo-20260619/maxi-audit-alias-seo-20260619.csv"
+  }
+}

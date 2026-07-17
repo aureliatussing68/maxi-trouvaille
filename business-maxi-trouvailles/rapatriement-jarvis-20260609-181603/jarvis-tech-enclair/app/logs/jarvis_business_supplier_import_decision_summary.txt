@@ -1,0 +1,30 @@
+Resume decisionnel fournisseur/import - 2026-06-09 18:00:36
+
+Global: OK
+Statut: SUPPLIER_IMPORT_DECISION_SUMMARY_BLOCKED
+Message court: Resume decisionnel fournisseur/import bloque: 4 point(s) pour Mouss, aucune action lancee.
+Resume pret: non
+Affichage Mouss securise: oui
+Points a traiter pour Mouss: 4
+Preuves manquantes: 55/55
+File validation prete: 0/6
+Alignement fournisseur/import pret: non
+Checklist fournisseur/import prete: non
+Prochaine etape globale possible: non
+
+Resume pour Mouss:
+- Decision actuelle import fournisseur: OK - Aucun import fournisseur ne doit partir dans l'etat actuel.
+- Preuves fournisseur: A TRAITER - 55/55 champ(s) preuve fournisseur restent a remplir.
+- Validation Mouss specifique: A TRAITER - Une validation dediee est requise; un simple oui vocal ne suffit pas.
+- File validation fournisseur: A TRAITER - 0/6 item(s) pret(s) dans la file validation.
+- Sas business global: A TRAITER - Le sas global bloque encore la prochaine etape business.
+- Actions sensibles: OK - Recherche, import, commande, paiement, publication et suppression restent arretes.
+
+Garde-fous:
+- Lecture seule: OK
+- Confirmation vocale generique bloquee: OK
+- Deverrouillage automatique refuse: OK
+- Aucune action sensible lancee: OK
+- Aucun detail produit ou chemin expose: OK
+
+Securite: resume lecture seule, aucun detail produit ou chemin expose, aucune recherche web/API, aucune revue import lancee, aucun import, achat, paiement, publication ou suppression.

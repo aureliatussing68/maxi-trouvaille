@@ -1,0 +1,47 @@
+DISCUSSION PARALLELE 04 - Assistant PC reactif / commandes naturelles
+
+Role:
+Tu es l'agent parallele 04 pour rendre Jarvis utile au quotidien: reponses courtes, routage local, plans PC dry-run.
+
+Automatisation obligatoire:
+Cree ou maintiens une automatisation active toutes les 5 minutes, nommee "Jarvis 04 assistant PC reactif couche par couche". Chaque cycle: une petite couche de preparation ou regression. Aucune action visible sur le PC.
+
+Mission:
+- Preparer les intents naturels: bureau, dossier, PDF, Codex, OpenWebUI, fermer, focus, deplacer.
+- Classer chaque action: READ_ONLY, SAFE_LOCAL_VISIBLE, CONFIRMATION_REQUIRED, HOLD_MANUAL, BLOCKED.
+- Proposer planners et routes, mais executer en dry-run/confirmation only.
+
+Modules candidats:
+- jarvis_tools_registry.py
+- jarvis_tool_router.py
+- jarvis_tool_executor.py
+- jarvis_window_command_planner.py
+- jarvis_window_control_center.py
+- desktop_control.py
+- project_workspace.py
+
+Tests conseilles:
+- jarvis_tool_router_regression.py
+- jarvis_tool_executor_regression.py
+- jarvis_window_control_center_regression.py
+- jarvis_human_reaction_profile_regression.py
+- jarvis_recent_artifact_secret_scan_regression.py
+
+Garde-fous:
+- no_real_window_action
+- no_start_process
+- no_close_window
+- no_file_delete
+- no_account_login
+- confirmation_required_for_ambiguous_close
+
+Retour:
+- Atelier: 04 / assistant_pc_reactif
+- Etat: GO_PREP / HOLD / STOP
+- Couche:
+- Plans ou patches proposes:
+- Tests:
+- Risques:
+- Prochaine couche:
+- Ecrire `parallel_work/jarvis_parallel_discussions/returns/04_assistant_pc_reactif_latest.md`.
+

@@ -1,0 +1,1735 @@
+{
+  "generatedAt": "2026-05-27T20:55:39.396Z",
+  "mode": "supplier_research_queue_no_order_no_publication",
+  "warning": "File de selection uniquement. Chaque produit doit etre verifie manuellement avant import public ou commande fournisseur.",
+  "candidateCount": 100,
+  "sources": [
+    {
+      "name": "VelocitySpy pet trends",
+      "url": "https://velocityspy.com/trending/pet-supplies/",
+      "note": "Pet grooming, pet hair removers, water bottles and pet utility products are active TikTok-style niches."
+    },
+    {
+      "name": "VelocitySpy niches",
+      "url": "https://velocityspy.com/blog/best-tiktok-niches-dropshipping",
+      "note": "Phone accessories, clever kitchen gadgets and car tech gadgets keep producing short-video winners."
+    },
+    {
+      "name": "Kalodata TikTok Shop 2026",
+      "url": "https://www.kalodata.com/blog/tiktok/the-2026-tiktok-shop-goldmine-20-best-selling-products-the-data-behind-the-viral-trends/",
+      "note": "Visible transformations and desk setup/home-tech products are useful angles."
+    },
+    {
+      "name": "FindNiche AliExpress EU electronics 2026",
+      "url": "https://findniche.com/aliexpress/best-selling-consumer-electronics-products-europe",
+      "note": "Consumer electronics shipped from Europe remain a relevant research lane."
+    },
+    {
+      "name": "AliExpress Choice shipping context",
+      "url": "https://secretali.com/guide/aliexpress-choice-vs-standard-shipping-2026",
+      "note": "Choice/fast-shipping labels should be verified manually per product and destination."
+    }
+  ],
+  "candidates": [
+    {
+      "id": "maxi_c006_auto-moto_01",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "auto-moto",
+      "name": "Mini Aspirateur Voiture Sans FIL Compact",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=mini%20aspirateur%20voiture%20sans%20fil%20compact%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_auto-moto_02",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "auto-moto",
+      "name": "Support Telephone Voiture Rotation 360",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=support%20telephone%20voiture%20rotation%20360%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_auto-moto_03",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "auto-moto",
+      "name": "Organisateur Coffre Voiture Filet Rangement",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=organisateur%20coffre%20voiture%20filet%20rangement%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_auto-moto_04",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "auto-moto",
+      "name": "Compresseur AIR Portable Pneus Voiture",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=compresseur%20air%20portable%20pneus%20voiture%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_auto-moto_05",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "auto-moto",
+      "name": "KIT Nettoyage Interieur Voiture Detailing",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=kit%20nettoyage%20interieur%20voiture%20detailing%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_auto-moto_06",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "auto-moto",
+      "name": "Lampe Secours LED Voiture Rechargeable",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=lampe%20secours%20LED%20voiture%20rechargeable%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_auto-moto_07",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "auto-moto",
+      "name": "Cable Charge Rapide Voiture USB C",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=cable%20charge%20rapide%20voiture%20USB%20C%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_auto-moto_08",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "auto-moto",
+      "name": "Protection Siege Voiture Animaux",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=protection%20siege%20voiture%20animaux%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_auto-moto_09",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "auto-moto",
+      "name": "Camera Recul Voiture Universelle",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=camera%20recul%20voiture%20universelle%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_auto-moto_10",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "auto-moto",
+      "name": "Support Lunettes Pare Soleil Voiture",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=support%20lunettes%20pare%20soleil%20voiture%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_high-tech_01",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "high-tech",
+      "name": "Mini Imprimante Thermique Bluetooth",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=mini%20imprimante%20thermique%20bluetooth%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_high-tech_02",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "high-tech",
+      "name": "Projecteur Galaxie LED Ambiance Chambre",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=projecteur%20galaxie%20LED%20ambiance%20chambre%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_high-tech_03",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "high-tech",
+      "name": "Support Ordinateur Portable Pliant Aluminium",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=support%20ordinateur%20portable%20pliant%20aluminium%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_high-tech_04",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "high-tech",
+      "name": "HUB USB C Multiport Compact",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=hub%20USB%20C%20multiport%20compact%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_high-tech_05",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "high-tech",
+      "name": "Lampe Ecran Moniteur LED USB",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=lampe%20ecran%20moniteur%20LED%20USB%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_high-tech_06",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "high-tech",
+      "name": "Station Charge Multiple Bureau",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=station%20charge%20multiple%20bureau%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_high-tech_07",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "high-tech",
+      "name": "Telecommande Universelle Climatiseur",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=telecommande%20universelle%20climatiseur%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_high-tech_08",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "high-tech",
+      "name": "Ecouteurs Gaming Faible Latence",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=ecouteurs%20gaming%20faible%20latence%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_high-tech_09",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "high-tech",
+      "name": "Mini Clavier Bluetooth Retroeclaire",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=mini%20clavier%20bluetooth%20retroeclaire%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_high-tech_10",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "high-tech",
+      "name": "Ventilateur Tour DE COU Rechargeable",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=ventilateur%20tour%20de%20cou%20rechargeable%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_telephonie_01",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "telephonie",
+      "name": "Support Telephone Bureau Magnetique",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=support%20telephone%20bureau%20magnetique%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_telephonie_02",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "telephonie",
+      "name": "Coque Antichoc Universelle Smartphone",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=coque%20antichoc%20universelle%20smartphone%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_telephonie_03",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "telephonie",
+      "name": "Cable USB C Nylon Charge Rapide",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=cable%20USB%20C%20nylon%20charge%20rapide%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_telephonie_04",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "telephonie",
+      "name": "Chargeur Voiture USB C Double Port",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=chargeur%20voiture%20USB%20C%20double%20port%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_telephonie_05",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "telephonie",
+      "name": "Anneau Support Telephone Magsafe",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=anneau%20support%20telephone%20magsafe%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_telephonie_06",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "telephonie",
+      "name": "Pochette Etanche Telephone Sport",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=pochette%20etanche%20telephone%20sport%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_telephonie_07",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "telephonie",
+      "name": "Mini Trepied Telephone Vlog",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=mini%20trepied%20telephone%20vlog%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_telephonie_08",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "telephonie",
+      "name": "Objectif Macro Telephone Clip",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=objectif%20macro%20telephone%20clip%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_telephonie_09",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "telephonie",
+      "name": "Support Velo Telephone Silicone",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=support%20velo%20telephone%20silicone%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_telephonie_10",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "telephonie",
+      "name": "Station Charge Telephone Montre Ecouteurs",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=station%20charge%20telephone%20montre%20ecouteurs%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_maison-deco_01",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "maison-deco",
+      "name": "Lampe LED Detecteur Mouvement Placard",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=lampe%20LED%20detecteur%20mouvement%20placard%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_maison-deco_02",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "maison-deco",
+      "name": "Organisateur Tiroir Modulable Maison",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=organisateur%20tiroir%20modulable%20maison%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_maison-deco_03",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "maison-deco",
+      "name": "Tapis Silicone Anti Eclaboussures Evier",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=tapis%20silicone%20anti%20eclaboussures%20evier%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_maison-deco_04",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "maison-deco",
+      "name": "Projecteur Coucher Soleil LED Deco",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=projecteur%20coucher%20soleil%20LED%20deco%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_maison-deco_05",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "maison-deco",
+      "name": "Boite Rangement Cables Multiprise",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=boite%20rangement%20cables%20multiprise%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_maison-deco_06",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "maison-deco",
+      "name": "Crochets Adhesifs Cuisine Salle DE Bain",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=crochets%20adhesifs%20cuisine%20salle%20de%20bain%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_maison-deco_07",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "maison-deco",
+      "name": "Mini Humidificateur USB Bureau",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=mini%20humidificateur%20USB%20bureau%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_maison-deco_08",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "maison-deco",
+      "name": "Veilleuse Couloir Detection Mouvement",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=veilleuse%20couloir%20detection%20mouvement%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_maison-deco_09",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "maison-deco",
+      "name": "Range Chaussures Gain Place",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=range%20chaussures%20gain%20place%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_maison-deco_10",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "maison-deco",
+      "name": "Brosse Nettoyage Joints Carrelage",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=brosse%20nettoyage%20joints%20carrelage%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jardin_01",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jardin",
+      "name": "Lampe Solaire Jardin Detecteur Mouvement",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=lampe%20solaire%20jardin%20detecteur%20mouvement%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jardin_02",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jardin",
+      "name": "Pistolet Arrosage Haute Pression Jardin",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=pistolet%20arrosage%20haute%20pression%20jardin%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jardin_03",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jardin",
+      "name": "Capteur Humidite SOL Plante",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=capteur%20humidite%20sol%20plante%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jardin_04",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jardin",
+      "name": "Gants Jardinage Griffes Plantation",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=gants%20jardinage%20griffes%20plantation%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jardin_05",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jardin",
+      "name": "Attaches Plantes Reutilisables Jardin",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=attaches%20plantes%20reutilisables%20jardin%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jardin_06",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jardin",
+      "name": "Mini Serre Semis Balcon",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=mini%20serre%20semis%20balcon%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jardin_07",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jardin",
+      "name": "KIT Goutte A Goutte Plantes Balcon",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=kit%20goutte%20a%20goutte%20plantes%20balcon%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jardin_08",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jardin",
+      "name": "Brosse Nettoyage Terrasse Perceuse",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=brosse%20nettoyage%20terrasse%20perceuse%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jardin_09",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jardin",
+      "name": "SAC Plantation Pommes DE Terre Balcon",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=sac%20plantation%20pommes%20de%20terre%20balcon%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jardin_10",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jardin",
+      "name": "Thermometre Humidite Serre Jardin",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=thermometre%20humidite%20serre%20jardin%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_01",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "outillage-electricite",
+      "name": "KIT Tournevis Precision 24 Pieces",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=kit%20tournevis%20precision%2024%20pieces%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_02",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "outillage-electricite",
+      "name": "Organisateur Embouts Perceuse",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=organisateur%20embouts%20perceuse%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_03",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "outillage-electricite",
+      "name": "Lampe Travail LED Rechargeable",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=lampe%20travail%20LED%20rechargeable%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_04",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "outillage-electricite",
+      "name": "Testeur Tension Sans Contact",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=testeur%20tension%20sans%20contact%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_05",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "outillage-electricite",
+      "name": "Serre Cable Reutilisable Velcro",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=serre%20cable%20reutilisable%20velcro%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_06",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "outillage-electricite",
+      "name": "Mini Niveau Laser Bricolage",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=mini%20niveau%20laser%20bricolage%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_07",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "outillage-electricite",
+      "name": "Boite Rangement VIS Compartiments",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=boite%20rangement%20vis%20compartiments%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_08",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "outillage-electricite",
+      "name": "Pince Denuder Automatique Cable",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=pince%20denuder%20automatique%20cable%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_09",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "outillage-electricite",
+      "name": "Ruban Adhesif Nano Double Face",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=ruban%20adhesif%20nano%20double%20face%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_outillage-electricite_10",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "outillage-electricite",
+      "name": "Multimetre Numerique Compact",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=multimetre%20numerique%20compact%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_animaux_01",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "animaux",
+      "name": "Brosse Anti Poils Animaux Reutilisable",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=brosse%20anti%20poils%20animaux%20reutilisable%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_animaux_02",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "animaux",
+      "name": "Gourde Portable Chien Promenade",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=gourde%20portable%20chien%20promenade%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_animaux_03",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "animaux",
+      "name": "Gant Toilettage Animaux Poils",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=gant%20toilettage%20animaux%20poils%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_animaux_04",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "animaux",
+      "name": "Laisse Retractable Chien LED",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=laisse%20retractable%20chien%20LED%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_animaux_05",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "animaux",
+      "name": "Tapis Gamelle Silicone Animaux",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=tapis%20gamelle%20silicone%20animaux%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_animaux_06",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "animaux",
+      "name": "Coupe Griffes Electrique Chien Chat",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=coupe%20griffes%20electrique%20chien%20chat%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_animaux_07",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "animaux",
+      "name": "Jouet Distributeur Friandises Chien",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=jouet%20distributeur%20friandises%20chien%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_animaux_08",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "animaux",
+      "name": "Fontaine EAU Chat Silencieuse",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=fontaine%20eau%20chat%20silencieuse%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_animaux_09",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "animaux",
+      "name": "Siege Voiture Chien Securite",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=siege%20voiture%20chien%20securite%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_animaux_10",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "animaux",
+      "name": "Rouleau Nettoyage Poils Animaux Lavable",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=rouleau%20nettoyage%20poils%20animaux%20lavable%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_sport-loisirs_01",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "sport-loisirs",
+      "name": "Gourde Pliable Silicone Sport Voyage",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=gourde%20pliable%20silicone%20sport%20voyage%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_sport-loisirs_02",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "sport-loisirs",
+      "name": "Elastiques Resistance Fitness KIT",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=elastiques%20resistance%20fitness%20kit%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_sport-loisirs_03",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "sport-loisirs",
+      "name": "Lampe Frontale Rechargeable Camping",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=lampe%20frontale%20rechargeable%20camping%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_sport-loisirs_04",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "sport-loisirs",
+      "name": "Serviette Microfibre Sport Voyage",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=serviette%20microfibre%20sport%20voyage%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_sport-loisirs_05",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "sport-loisirs",
+      "name": "Pompe Velo Portable Mini",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=pompe%20velo%20portable%20mini%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_sport-loisirs_06",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "sport-loisirs",
+      "name": "Support Telephone Course Brassard",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=support%20telephone%20course%20brassard%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_sport-loisirs_07",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "sport-loisirs",
+      "name": "SAC Etanche Camping Randonnee",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=sac%20etanche%20camping%20randonnee%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_sport-loisirs_08",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "sport-loisirs",
+      "name": "Corde A Sauter Compteur Fitness",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=corde%20a%20sauter%20compteur%20fitness%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_sport-loisirs_09",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "sport-loisirs",
+      "name": "Mousquetons Accessoires Camping",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=mousquetons%20accessoires%20camping%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_sport-loisirs_10",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "sport-loisirs",
+      "name": "Mini Trousse Premiers Secours Sport",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=mini%20trousse%20premiers%20secours%20sport%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jeux-video-gaming_01",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jeux-video-gaming",
+      "name": "Support Casque Gaming RGB",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=support%20casque%20gaming%20RGB%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jeux-video-gaming_02",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jeux-video-gaming",
+      "name": "Tapis Souris Gaming XXL LED",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=tapis%20souris%20gaming%20XXL%20LED%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jeux-video-gaming_03",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jeux-video-gaming",
+      "name": "Refroidisseur Telephone Gaming",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=refroidisseur%20telephone%20gaming%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jeux-video-gaming_04",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jeux-video-gaming",
+      "name": "Grips Joystick Manette Silicone",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=grips%20joystick%20manette%20silicone%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jeux-video-gaming_05",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jeux-video-gaming",
+      "name": "Dock Charge Manette PS5 Compatible",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=dock%20charge%20manette%20PS5%20compatible%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jeux-video-gaming_06",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jeux-video-gaming",
+      "name": "Support Manette Bureau Gaming",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=support%20manette%20bureau%20gaming%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jeux-video-gaming_07",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jeux-video-gaming",
+      "name": "Clavier Mecanique Mini RGB",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=clavier%20mecanique%20mini%20RGB%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jeux-video-gaming_08",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jeux-video-gaming",
+      "name": "Micro Cravate USB C Streaming",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=micro%20cravate%20USB%20C%20streaming%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jeux-video-gaming_09",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jeux-video-gaming",
+      "name": "LED Strip Setup Gaming Bureau",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=led%20strip%20setup%20gaming%20bureau%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_jeux-video-gaming_10",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "jeux-video-gaming",
+      "name": "Range Cables Setup Gaming",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=range%20cables%20setup%20gaming%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_gadgets-jouets_01",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "gadgets-jouets",
+      "name": "Mini Drone Interieur Debutant",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=mini%20drone%20interieur%20debutant%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_gadgets-jouets_02",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "gadgets-jouets",
+      "name": "Stylo 3D Basse Temperature Enfant",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=stylo%203D%20basse%20temperature%20enfant%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_gadgets-jouets_03",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "gadgets-jouets",
+      "name": "Jouet Puzzle Magnetique Construction",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=jouet%20puzzle%20magnetique%20construction%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_gadgets-jouets_04",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "gadgets-jouets",
+      "name": "Veilleuse Astronaute Galaxie",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=veilleuse%20astronaute%20galaxie%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_gadgets-jouets_05",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "gadgets-jouets",
+      "name": "Camera Enfant Rechargeable",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=camera%20enfant%20rechargeable%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_gadgets-jouets_06",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "gadgets-jouets",
+      "name": "Robot Dessin Educatif Enfant",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=robot%20dessin%20educatif%20enfant%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_gadgets-jouets_07",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "gadgets-jouets",
+      "name": "Tapis EAU Dessin Enfant",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=tapis%20eau%20dessin%20enfant%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_gadgets-jouets_08",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "gadgets-jouets",
+      "name": "KIT Experiences Sciences Enfant",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=kit%20experiences%20sciences%20enfant%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_gadgets-jouets_09",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "gadgets-jouets",
+      "name": "Mini Projecteur Dessin Enfant",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=mini%20projecteur%20dessin%20enfant%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    },
+    {
+      "id": "maxi_c006_gadgets-jouets_10",
+      "status": "a_valider",
+      "publicationStatus": "not_published",
+      "category": "gadgets-jouets",
+      "name": "Jouet Lance Balle Automatique Animaux",
+      "supplierSearchUrl": "https://www.aliexpress.com/wholesale?SearchText=jouet%20lance%20balle%20automatique%20animaux%20Choice%20Europe",
+      "supplierTarget": "AliExpress Choice / fournisseur Europe a verifier",
+      "deliveryTarget": "Ideal 4 a 10 jours, maximum conseille 14 jours apres verification",
+      "sellingAngle": "Produit visuel, utile au quotidien, simple a demontrer en video courte.",
+      "checksRequired": [
+        "Verifier fournisseur reel, stock, delai France/Europe et tracking.",
+        "Verifier droits d'utilisation des visuels avant publication publique.",
+        "Verifier conformite produit, notices, securite et retours.",
+        "Ne pas commander automatiquement."
+      ]
+    }
+  ]
+}

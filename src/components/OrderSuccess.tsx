@@ -6,30 +6,16 @@ import { useEffect, useRef, useState } from "react";
 import { useCart } from "@/components/CartProvider";
 
 export function OrderSuccess({ sessionId }: { sessionId?: string }) {
-  const { clearCart, items } = useCart();
+  const { clearCart } = useCart();
   const [reviewUrl, setReviewUrl] = useState<string | null>(null);
   const [reviewMessage, setReviewMessage] = useState(
-    "Le lien d'avis sera disponible apres validation du paiement Stripe.",
+    "Le lien d'avis sera disponible apres confirmation de la commande.",
   );
   const reviewRequestStarted = useRef(false);
 
   useEffect(() => {
-    async function decrementStockAndClearCart() {
-      if (items.length > 0) {
-        await fetch("/api/admin/products/decrement", {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({ items }),
-        });
-      }
-
-      clearCart();
-    }
-
-    decrementStockAndClearCart();
-  }, [clearCart, items]);
+    clearCart();
+  }, [clearCart]);
 
   useEffect(() => {
     if (!sessionId || reviewRequestStarted.current) {
@@ -50,7 +36,7 @@ export function OrderSuccess({ sessionId }: { sessionId?: string }) {
         if (data.reviewUrl) {
           setReviewUrl(data.reviewUrl);
           setReviewMessage(
-            "Votre achat est confirme. Vous pouvez laisser un avis pour les produits achetes.",
+            "Votre commande est confirmee. Vous pouvez laisser un avis pour les produits achetes.",
           );
         } else if (data.error) {
           setReviewMessage(data.error);
@@ -65,10 +51,10 @@ export function OrderSuccess({ sessionId }: { sessionId?: string }) {
     <div className="container-page py-12">
       <div className="rounded-lg border border-line bg-paper p-8 text-center shadow-sm">
         <CheckCircle2 className="mx-auto mb-4 text-teal" size={46} aria-hidden="true" />
-        <h1 className="text-2xl font-black">Paiement test confirme</h1>
+        <h1 className="text-2xl font-black">Paiement confirmé</h1>
         <p className="mx-auto mt-3 max-w-md text-sm leading-6 text-muted">
-          Le panier local a ete vide. Pour une vraie mise en ligne, il faudra
-          brancher les webhooks Stripe et la gestion des commandes.
+          Votre commande est prise en compte. Les informations de suivi seront
+          ajoutees des que la preparation sera confirmee.
         </p>
         <div className="mx-auto mt-5 max-w-md rounded-md bg-[#f6f1e8] p-3 text-sm font-bold text-muted">
           {reviewMessage}

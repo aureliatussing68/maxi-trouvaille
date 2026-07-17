@@ -2,16 +2,20 @@ import Link from "next/link";
 import { PackageCheck } from "lucide-react";
 
 const shopLinks = [
+  { href: "/produits-partenaires", label: "Produits partenaires" },
+  { href: "/nouveautes", label: "Nouveautés" },
+  { href: "/promotions", label: "Promotions" },
   { href: "/boutique", label: "Boutique" },
-  { href: "/categories", label: "Categories" },
-  { href: "/vendre", label: "Vendre sur Maxi Trouvaille" },
+  { href: "/paiement", label: "Paiement" },
   { href: "/livraison", label: "Livraison" },
+  { href: "/suivi-colis", label: "Suivi colis" },
   { href: "/retours-remboursements", label: "Retours" },
 ];
 
 const legalLinks = [
   { href: "/mentions-legales", label: "Mentions legales" },
-  { href: "/conditions-generales-vente", label: "CGV provisoires" },
+  { href: "/conditions-generales-vente", label: "Conditions générales" },
+  { href: "/conditions-produits-partenaires", label: "Conditions produits partenaires" },
   { href: "/politique-confidentialite", label: "Confidentialite" },
 ];
 
@@ -27,8 +31,9 @@ export function Footer() {
             <span className="text-lg font-black">Maxi Trouvaille</span>
           </div>
           <p className="max-w-md text-sm leading-6 text-white/70">
-            Boutique de bonnes affaires, lots, colis perdus et produits neufs ou
-            quasi neufs. Les vrais produits seront ajoutes progressivement.
+            Boutique focalisee sur les produits partenaires: selection propre,
+            paiement Maxi Trouvaille, suivi colis et validation humaine avant
+            publication des fiches.
           </p>
         </div>
 
@@ -62,7 +67,7 @@ export function Footer() {
       </div>
       <div className="border-t border-white/10 py-4">
         <div className="container-page text-xs text-white/55">
-          © {new Date().getFullYear()} Maxi Trouvaille. Site en preparation.
+          © {new Date().getFullYear()} Maxi Trouvaille. Lancement maîtrisé.
         </div>
       </div>
     </footer>

@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-06-03 18:16:48",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "source_mode_present": true,
+    "candidate_count_present": true,
+    "key_statuses_present": true,
+    "key_statuses_only": true,
+    "short_message_present": true,
+    "txt_mentions_short_message": true,
+    "route_business_source_guard": true,
+    "execute_business_source_guard": true,
+    "executor_uses_short_message": true,
+    "read_only": true,
+    "no_scraping_started": true,
+    "no_order": true,
+    "no_publication": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true,
+    "no_secret_like_value_in_text": true
+  },
+  "source_mode": "demo",
+  "real_sourcing_ready": false,
+  "short_message": "Sourcing actuel: demo, produits encore en demo ou incomplets, aucun achat/publication.",
+  "executor_message": "Sourcing actuel: demo, produits encore en demo ou incomplets, aucun achat/publication.",
+  "note": "Regression lecture seule du garde-fou sourcing. Aucun scraping, commande ou publication n'est declenche."
+}

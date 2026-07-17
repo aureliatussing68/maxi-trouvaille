@@ -1,0 +1,59 @@
+import Image from "next/image";
+
+const heroSlides = [
+  {
+    title: "Selection partenaires",
+    image:
+      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1400&q=80",
+    alt: "Entrepôt logistique avec cartons et préparation de commandes",
+  },
+  {
+    title: "Produits utiles verifies",
+    image:
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1400&q=80",
+    alt: "Accessoires high-tech et produits utiles sur un bureau",
+  },
+  {
+    title: "Nouveautés partenaires",
+    image:
+      "https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?auto=format&fit=crop&w=1400&q=80",
+    alt: "Préparation d'une commande e-commerce",
+  },
+  {
+    title: "Livraison et suivi",
+    image:
+      "https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=1400&q=80",
+    alt: "Rayons de boutique ecommerce propres et organises",
+  },
+];
+
+export function HeroCarousel() {
+  return (
+    <div className="absolute inset-0" aria-hidden="true">
+      {heroSlides.map((slide, index) => (
+        <div
+          key={slide.title}
+          className="hero-carousel-slide absolute inset-0"
+          style={{ animationDelay: `${index * 5}s` }}
+        >
+          <Image
+            src={slide.image}
+            alt={slide.alt}
+            fill
+            sizes="100vw"
+            className="object-cover"
+            priority={index === 0}
+          />
+          <div className="absolute inset-0 bg-black/56" />
+          <div className="absolute inset-x-0 bottom-5 px-4 sm:bottom-8">
+            <div className="container-page">
+              <span className="inline-flex rounded-md bg-white/14 px-3 py-2 text-sm font-black text-white backdrop-blur">
+                {slide.title}
+              </span>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}

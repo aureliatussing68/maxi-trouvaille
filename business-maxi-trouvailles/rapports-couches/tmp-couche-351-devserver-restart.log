@@ -1,0 +1,21 @@
+
+> maxi-trouvaille@0.1.0 dev
+> next dev --webpack --webpack -p 3275
+
+▲ Next.js 16.2.6 (webpack)
+- Local:         http://localhost:3275
+- Network:       http://192.168.1.121:3275
+- Environments: .env.local
+✓ Ready in 439ms
+
+○ Compiling /categories/[slug] ...
+ GET /categories/nouveautes-partenaires 200 in 6.2s (next.js: 4.8s, generate-params: 1543ms, application-code: 1345ms)
+ GET /categories/promotions-partenaires 200 in 722ms (next.js: 9ms, generate-params: 5ms, application-code: 713ms)
+ GET /nouveautes 200 in 1905ms (next.js: 1482ms, application-code: 423ms)
+ GET /promotions 200 in 1901ms (next.js: 1475ms, application-code: 426ms)
+ GET /nouveautes 200 in 132ms (next.js: 3ms, application-code: 129ms)
+ GET /nouveautes 200 in 65ms (next.js: 11ms, application-code: 54ms)
+ GET /offline 200 in 2.7s (next.js: 2.2s, application-code: 541ms)
+ GET /promotions 200 in 1584ms (next.js: 1037ms, application-code: 546ms)
+ GET / 200 in 2.7s (next.js: 2.2s, application-code: 563ms)
+[?25h

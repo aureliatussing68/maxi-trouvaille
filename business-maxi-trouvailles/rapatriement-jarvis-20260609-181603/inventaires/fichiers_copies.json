@@ -1,0 +1,2618 @@
+[
+  {
+    "Source": "C:\\Users\\sinek\\.codex\\archived_sessions\\rollout-2026-05-06T04-25-28-019dfb1a-c1d4-76c3-8785-185c2b5bf3d5.jsonl",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\sessions-codex\\rollout-2026-05-06T04-25-28-019dfb1a-c1d4-76c3-8785-185c2b5bf3d5.jsonl",
+    "Bytes": 427799,
+    "LastWriteTime": "2026-05-06T04:31:38.6920184+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\.codex\\archived_sessions\\rollout-2026-05-06T05-55-28-019dfb6d-2778-7be0-a163-ce0f4812117d.jsonl",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\sessions-codex\\rollout-2026-05-06T05-55-28-019dfb6d-2778-7be0-a163-ce0f4812117d.jsonl",
+    "Bytes": 554928,
+    "LastWriteTime": "2026-05-06T06:06:14.1026074+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\.codex\\archived_sessions\\rollout-2026-05-06T07-25-29-019dfbbf-925b-7211-b2e8-50de8dcb60ad.jsonl",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\sessions-codex\\rollout-2026-05-06T07-25-29-019dfbbf-925b-7211-b2e8-50de8dcb60ad.jsonl",
+    "Bytes": 351956,
+    "LastWriteTime": "2026-05-06T07:35:13.748799+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\.codex\\archived_sessions\\rollout-2026-05-06T10-07-35-019dfc53-faa2-76a2-b2f7-69f72b0e5ff8.jsonl",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\sessions-codex\\rollout-2026-05-06T10-07-35-019dfc53-faa2-76a2-b2f7-69f72b0e5ff8.jsonl",
+    "Bytes": 458004,
+    "LastWriteTime": "2026-05-06T10:20:48.3764685+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\.codex\\archived_sessions\\rollout-2026-05-06T11-38-00-019dfca6-c18d-7101-a784-e4901614bb5a.jsonl",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\sessions-codex\\rollout-2026-05-06T11-38-00-019dfca6-c18d-7101-a784-e4901614bb5a.jsonl",
+    "Bytes": 267322,
+    "LastWriteTime": "2026-05-06T11:41:27.5690704+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\.codex\\archived_sessions\\rollout-2026-05-06T13-08-02-019dfcf9-3003-7921-a9b6-6c6fe68eae53.jsonl",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\sessions-codex\\rollout-2026-05-06T13-08-02-019dfcf9-3003-7921-a9b6-6c6fe68eae53.jsonl",
+    "Bytes": 238599,
+    "LastWriteTime": "2026-05-06T13:10:45.0388661+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\.codex\\archived_sessions\\rollout-2026-05-06T14-38-04-019dfd4b-9ecb-7dd1-934f-02b8f948f8cb.jsonl",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\sessions-codex\\rollout-2026-05-06T14-38-04-019dfd4b-9ecb-7dd1-934f-02b8f948f8cb.jsonl",
+    "Bytes": 282420,
+    "LastWriteTime": "2026-05-06T14:42:30.7105203+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\.codex\\archived_sessions\\rollout-2026-05-06T16-08-04-019dfd9e-045b-7442-8e3e-d54b36b3efdc.jsonl",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\sessions-codex\\rollout-2026-05-06T16-08-04-019dfd9e-045b-7442-8e3e-d54b36b3efdc.jsonl",
+    "Bytes": 324912,
+    "LastWriteTime": "2026-05-06T16:12:41.8343896+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\.codex\\archived_sessions\\rollout-2026-05-06T17-38-06-019dfdf0-717c-7451-aa2a-f7c50139cd37.jsonl",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\sessions-codex\\rollout-2026-05-06T17-38-06-019dfdf0-717c-7451-aa2a-f7c50139cd37.jsonl",
+    "Bytes": 341804,
+    "LastWriteTime": "2026-05-06T17:43:22.0013472+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\.codex\\automations\\maxi-trouvailles-couche-par-couche\\automation.toml",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\sessions-codex\\automations\\maxi-trouvailles-couche-par-couche\\automation.toml",
+    "Bytes": 2609,
+    "LastWriteTime": "2026-06-09T07:30:44.3534618+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\.codex\\automations\\maxi-trouvailles-vid-o-tiktok-toutes-les-2h\\automation.toml",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\sessions-codex\\automations\\maxi-trouvailles-vid-o-tiktok-toutes-les-2h\\automation.toml",
+    "Bytes": 1966,
+    "LastWriteTime": "2026-05-06T17:57:43.4543156+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\.codex\\automations\\maxi-trouvailles-vid-o-tiktok-toutes-les-2h\\memory.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\sessions-codex\\automations\\maxi-trouvailles-vid-o-tiktok-toutes-les-2h\\memory.md",
+    "Bytes": 604,
+    "LastWriteTime": "2026-05-06T17:43:05.1441018+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\.codex\\sessions\\2026\\05\\01\\rollout-2026-05-01T15-40-45-019de3c5-338b-72c3-af75-1318b9f3b0a1.jsonl",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\sessions-codex\\rollout-2026-05-01T15-40-45-019de3c5-338b-72c3-af75-1318b9f3b0a1.jsonl",
+    "Bytes": 5821728,
+    "LastWriteTime": "2026-05-02T04:25:18.0704976+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\.codex\\sessions\\2026\\05\\05\\rollout-2026-05-05T08-26-02-019df6d0-a79a-7123-a07f-285e1520b024.jsonl",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\sessions-codex\\rollout-2026-05-05T08-26-02-019df6d0-a79a-7123-a07f-285e1520b024.jsonl",
+    "Bytes": 2155013,
+    "LastWriteTime": "2026-05-05T08:47:36.2760836+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\.codex\\sessions\\2026\\05\\12\\rollout-2026-05-12T14-10-28-019e1c18-82b7-7fb0-8793-c90f2b9cb2e1.jsonl",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\sessions-codex\\rollout-2026-05-12T14-10-28-019e1c18-82b7-7fb0-8793-c90f2b9cb2e1.jsonl",
+    "Bytes": 193248016,
+    "LastWriteTime": "2026-06-09T18:18:17.0923733+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\jarvice\\CODEX_UPGRADE_REPORT.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\jarvice\\CODEX_UPGRADE_REPORT.md",
+    "Bytes": 9794,
+    "LastWriteTime": "2026-06-05T15:03:17.6626633+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\config\\jarvis_parallel_chantiers.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\config\\jarvis_parallel_chantiers.json",
+    "Bytes": 14362,
+    "LastWriteTime": "2026-06-09T10:14:30.9630577+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\docs\\JARVIS_BUSINESS_API_TODO.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\docs\\JARVIS_BUSINESS_API_TODO.md",
+    "Bytes": 743,
+    "LastWriteTime": "2026-06-09T18:00:59.1667495+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\jarvis_parallel_chantiers.py",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\jarvis_parallel_chantiers.py",
+    "Bytes": 35213,
+    "LastWriteTime": "2026-06-09T18:15:11.5117315+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_action_preview_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_action_preview_regression.json",
+    "Bytes": 1906,
+    "LastWriteTime": "2026-05-24T08:57:04.4047695+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_action_preview_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_action_preview_regression.txt",
+    "Bytes": 550,
+    "LastWriteTime": "2026-05-24T08:57:04.4047695+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_action_preview.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_action_preview.json",
+    "Bytes": 2435,
+    "LastWriteTime": "2026-06-05T16:08:02.8622396+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_action_preview.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_action_preview.txt",
+    "Bytes": 1468,
+    "LastWriteTime": "2026-06-05T16:08:02.8632384+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_ads_preview_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_ads_preview_regression.json",
+    "Bytes": 1340,
+    "LastWriteTime": "2026-05-31T05:09:12.6930482+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_ads_preview_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_ads_preview_regression.txt",
+    "Bytes": 1146,
+    "LastWriteTime": "2026-05-31T05:09:12.6940486+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_ads_preview.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_ads_preview.json",
+    "Bytes": 4926,
+    "LastWriteTime": "2026-06-09T18:00:59.1972928+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_ads_preview.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_ads_preview.md",
+    "Bytes": 3063,
+    "LastWriteTime": "2026-06-09T18:00:59.1982929+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_ads_preview.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_ads_preview.txt",
+    "Bytes": 961,
+    "LastWriteTime": "2026-06-09T18:00:59.1982929+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_ads_script_export_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_ads_script_export_regression.json",
+    "Bytes": 1393,
+    "LastWriteTime": "2026-05-24T10:10:30.466305+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_ads_script_export_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_ads_script_export_regression.txt",
+    "Bytes": 1228,
+    "LastWriteTime": "2026-05-24T10:10:30.4673067+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_ads_script_export.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_ads_script_export.json",
+    "Bytes": 1839,
+    "LastWriteTime": "2026-06-05T16:08:03.4093544+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_ads_script_export.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_ads_script_export.txt",
+    "Bytes": 1413,
+    "LastWriteTime": "2026-06-05T16:08:03.4093544+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_api_todo_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_api_todo_regression.json",
+    "Bytes": 969,
+    "LastWriteTime": "2026-05-24T09:07:04.9040511+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_api_todo_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_api_todo_regression.txt",
+    "Bytes": 799,
+    "LastWriteTime": "2026-05-24T09:07:04.9040511+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_api_todo.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_api_todo.json",
+    "Bytes": 1635,
+    "LastWriteTime": "2026-06-09T18:00:59.1657496+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_api_todo.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_api_todo.txt",
+    "Bytes": 711,
+    "LastWriteTime": "2026-06-09T18:00:59.1667495+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_candidate_board_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_candidate_board_regression.json",
+    "Bytes": 1250,
+    "LastWriteTime": "2026-05-24T22:26:51.2648268+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_candidate_board_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_candidate_board_regression.txt",
+    "Bytes": 974,
+    "LastWriteTime": "2026-05-24T22:26:51.2648268+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_candidate_board.html",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_candidate_board.html",
+    "Bytes": 5542,
+    "LastWriteTime": "2026-06-09T18:00:59.2132926+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_candidate_board.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_candidate_board.json",
+    "Bytes": 9956,
+    "LastWriteTime": "2026-06-09T18:00:59.2122928+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_candidate_board.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_candidate_board.txt",
+    "Bytes": 1869,
+    "LastWriteTime": "2026-06-09T18:00:59.2132926+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_category_map_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_category_map_regression.json",
+    "Bytes": 1095,
+    "LastWriteTime": "2026-05-24T09:41:58.776722+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_category_map_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_category_map_regression.txt",
+    "Bytes": 935,
+    "LastWriteTime": "2026-05-24T09:41:58.776722+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_category_map.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_category_map.json",
+    "Bytes": 5848,
+    "LastWriteTime": "2026-06-09T18:00:59.2152935+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_category_map.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_category_map.txt",
+    "Bytes": 1572,
+    "LastWriteTime": "2026-06-09T18:00:59.2152935+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_confirmation_barrier_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_confirmation_barrier_regression.json",
+    "Bytes": 1215,
+    "LastWriteTime": "2026-06-03T18:22:32.3731655+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_confirmation_barrier_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_confirmation_barrier_regression.txt",
+    "Bytes": 1058,
+    "LastWriteTime": "2026-06-03T18:22:32.3731655+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_confirmation_barrier.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_confirmation_barrier.json",
+    "Bytes": 4522,
+    "LastWriteTime": "2026-06-09T18:00:59.140172+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_confirmation_barrier.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_confirmation_barrier.txt",
+    "Bytes": 428,
+    "LastWriteTime": "2026-06-09T18:00:59.140172+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_dashboard_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_dashboard_regression.json",
+    "Bytes": 1845,
+    "LastWriteTime": "2026-06-08T22:25:39.5713797+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_dashboard_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_dashboard_regression.txt",
+    "Bytes": 1460,
+    "LastWriteTime": "2026-06-08T22:25:39.5713797+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_dashboard.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_dashboard.json",
+    "Bytes": 6177,
+    "LastWriteTime": "2026-06-09T18:00:59.1577223+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_dashboard.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_dashboard.txt",
+    "Bytes": 1433,
+    "LastWriteTime": "2026-06-09T18:00:59.1577223+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_execution_guard_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_execution_guard_regression.json",
+    "Bytes": 2676,
+    "LastWriteTime": "2026-06-08T21:49:19.152881+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_execution_guard_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_execution_guard_regression.txt",
+    "Bytes": 1926,
+    "LastWriteTime": "2026-06-08T21:49:19.1538794+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_execution_guard.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_execution_guard.json",
+    "Bytes": 5165,
+    "LastWriteTime": "2026-06-09T18:00:59.138655+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_execution_guard.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_execution_guard.txt",
+    "Bytes": 1079,
+    "LastWriteTime": "2026-06-09T18:00:59.138655+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_fast_status_artifact_guard_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_fast_status_artifact_guard_regression.json",
+    "Bytes": 1531,
+    "LastWriteTime": "2026-06-08T18:40:20.44491+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_fast_status_artifact_guard_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_fast_status_artifact_guard_regression.txt",
+    "Bytes": 1162,
+    "LastWriteTime": "2026-06-08T18:40:20.4459088+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_fast_status_artifact_guard.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_fast_status_artifact_guard.json",
+    "Bytes": 2395,
+    "LastWriteTime": "2026-06-08T18:40:20.4218529+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_fast_status_artifact_guard.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_fast_status_artifact_guard.txt",
+    "Bytes": 876,
+    "LastWriteTime": "2026-06-08T18:40:20.4218529+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_fast_status_health_check_tool_route_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_fast_status_health_check_tool_route_regression.json",
+    "Bytes": 1361,
+    "LastWriteTime": "2026-06-08T18:55:51.9649886+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_fast_status_health_check_tool_route_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_fast_status_health_check_tool_route_regression.txt",
+    "Bytes": 902,
+    "LastWriteTime": "2026-06-08T18:55:51.9649886+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_fast_status_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_fast_status_regression.json",
+    "Bytes": 2173,
+    "LastWriteTime": "2026-06-08T16:27:06.6121956+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_fast_status_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_fast_status_regression.txt",
+    "Bytes": 1611,
+    "LastWriteTime": "2026-06-08T16:27:06.6121956+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_fast_status.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_fast_status.json",
+    "Bytes": 7190,
+    "LastWriteTime": "2026-06-09T18:08:59.3237761+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_fast_status.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_fast_status.txt",
+    "Bytes": 1445,
+    "LastWriteTime": "2026-06-09T18:08:59.324299+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_handoff_gate_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_handoff_gate_regression.json",
+    "Bytes": 3385,
+    "LastWriteTime": "2026-06-08T19:40:20.9530009+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_handoff_gate_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_handoff_gate_regression.txt",
+    "Bytes": 2835,
+    "LastWriteTime": "2026-06-08T19:40:20.9530009+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_handoff_gate.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_handoff_gate.json",
+    "Bytes": 5716,
+    "LastWriteTime": "2026-06-09T18:00:59.1371502+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_handoff_gate.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_handoff_gate.txt",
+    "Bytes": 1232,
+    "LastWriteTime": "2026-06-09T18:00:59.1371502+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_import_gate_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_import_gate_regression.json",
+    "Bytes": 1246,
+    "LastWriteTime": "2026-06-03T18:22:29.8744682+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_import_gate_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_import_gate_regression.txt",
+    "Bytes": 1084,
+    "LastWriteTime": "2026-06-03T18:22:29.8744682+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_import_gate.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_import_gate.json",
+    "Bytes": 1457,
+    "LastWriteTime": "2026-06-09T18:00:59.2082925+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_import_gate.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_import_gate.txt",
+    "Bytes": 749,
+    "LastWriteTime": "2026-06-09T18:00:59.2082925+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_job_monitor_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_job_monitor_regression.json",
+    "Bytes": 1100,
+    "LastWriteTime": "2026-05-24T09:28:11.4368577+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_job_monitor_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_job_monitor_regression.txt",
+    "Bytes": 922,
+    "LastWriteTime": "2026-05-24T09:28:11.4373605+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_job_monitor.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_job_monitor.json",
+    "Bytes": 3690,
+    "LastWriteTime": "2026-06-09T17:57:31.8894506+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_job_monitor.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_job_monitor.txt",
+    "Bytes": 2049,
+    "LastWriteTime": "2026-06-09T17:57:31.8909571+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_job_singleflight_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_job_singleflight_regression.json",
+    "Bytes": 288,
+    "LastWriteTime": "2026-05-22T20:42:56.9675141+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_job_singleflight_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_job_singleflight_regression.txt",
+    "Bytes": 164,
+    "LastWriteTime": "2026-05-22T20:42:56.9675141+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_latency_report_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_latency_report_regression.json",
+    "Bytes": 588,
+    "LastWriteTime": "2026-05-24T01:12:00.3071093+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_latency_report_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_latency_report_regression.txt",
+    "Bytes": 272,
+    "LastWriteTime": "2026-05-24T01:12:00.3071093+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_latency_report.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_latency_report.json",
+    "Bytes": 2741,
+    "LastWriteTime": "2026-06-05T15:58:07.7678608+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_latency_report.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_latency_report.txt",
+    "Bytes": 825,
+    "LastWriteTime": "2026-06-05T15:58:07.7678608+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_latest_review_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_latest_review_regression.json",
+    "Bytes": 1543,
+    "LastWriteTime": "2026-05-24T21:32:43.990823+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_latest_review_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_latest_review_regression.txt",
+    "Bytes": 1333,
+    "LastWriteTime": "2026-05-24T21:32:43.9917237+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_latest_review.html",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_latest_review.html",
+    "Bytes": 5083,
+    "LastWriteTime": "2026-06-09T18:00:59.2262981+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_latest_review.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_latest_review.json",
+    "Bytes": 3841,
+    "LastWriteTime": "2026-06-09T18:00:59.2252978+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_latest_review.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_latest_review.txt",
+    "Bytes": 1077,
+    "LastWriteTime": "2026-06-09T18:00:59.2252978+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_latest_summary_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_latest_summary_regression.json",
+    "Bytes": 1152,
+    "LastWriteTime": "2026-05-24T09:31:57.1445786+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_latest_summary_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_latest_summary_regression.txt",
+    "Bytes": 939,
+    "LastWriteTime": "2026-05-24T09:31:57.1445786+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_latest_summary.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_latest_summary.json",
+    "Bytes": 3926,
+    "LastWriteTime": "2026-06-09T17:57:31.8874508+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_latest_summary.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_latest_summary.txt",
+    "Bytes": 1276,
+    "LastWriteTime": "2026-06-09T17:57:31.8884506+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_manual_validation_gate_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_manual_validation_gate_regression.json",
+    "Bytes": 3001,
+    "LastWriteTime": "2026-06-08T21:56:00.9602225+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_manual_validation_gate_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_manual_validation_gate_regression.txt",
+    "Bytes": 2549,
+    "LastWriteTime": "2026-06-08T21:56:00.9602225+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_manual_validation_gate.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_manual_validation_gate.json",
+    "Bytes": 6551,
+    "LastWriteTime": "2026-06-09T18:00:59.2092927+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_manual_validation_gate.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_manual_validation_gate.txt",
+    "Bytes": 1547,
+    "LastWriteTime": "2026-06-09T18:00:59.2102926+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_operating_mode_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_operating_mode_regression.json",
+    "Bytes": 1237,
+    "LastWriteTime": "2026-05-24T09:02:05.1939363+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_operating_mode_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_operating_mode_regression.txt",
+    "Bytes": 1024,
+    "LastWriteTime": "2026-05-24T09:02:05.1949407+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_operating_mode.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_operating_mode.json",
+    "Bytes": 1724,
+    "LastWriteTime": "2026-06-09T18:00:59.1667495+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_operating_mode.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_operating_mode.txt",
+    "Bytes": 994,
+    "LastWriteTime": "2026-06-09T18:00:59.1677497+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_pipeline_status_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_pipeline_status_regression.json",
+    "Bytes": 1232,
+    "LastWriteTime": "2026-06-03T18:55:51.9665465+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_pipeline_status_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_pipeline_status_regression.txt",
+    "Bytes": 912,
+    "LastWriteTime": "2026-06-03T18:55:51.9665465+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_pipeline_status.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_pipeline_status.json",
+    "Bytes": 1419,
+    "LastWriteTime": "2026-06-09T17:57:31.8854503+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_pipeline_status.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_pipeline_status.txt",
+    "Bytes": 698,
+    "LastWriteTime": "2026-06-09T17:57:31.8854503+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_product_preview_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_product_preview_regression.json",
+    "Bytes": 1324,
+    "LastWriteTime": "2026-05-24T10:00:30.5023815+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_product_preview_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_product_preview_regression.txt",
+    "Bytes": 1093,
+    "LastWriteTime": "2026-05-24T10:00:30.5023815+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_product_preview.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_product_preview.json",
+    "Bytes": 2942,
+    "LastWriteTime": "2026-06-09T18:00:59.1962931+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_product_preview.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_product_preview.md",
+    "Bytes": 1682,
+    "LastWriteTime": "2026-06-09T18:00:59.1972928+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_product_preview.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_product_preview.txt",
+    "Bytes": 1105,
+    "LastWriteTime": "2026-06-09T18:00:59.1962931+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_readiness_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_readiness_regression.json",
+    "Bytes": 1178,
+    "LastWriteTime": "2026-05-24T08:45:34.9763121+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_readiness_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_readiness_regression.txt",
+    "Bytes": 821,
+    "LastWriteTime": "2026-05-24T08:45:34.9763121+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_readiness.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_readiness.json",
+    "Bytes": 4545,
+    "LastWriteTime": "2026-06-09T17:57:31.6708588+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_readiness.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_readiness.txt",
+    "Bytes": 985,
+    "LastWriteTime": "2026-06-09T17:57:31.6708588+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_review_pack_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_review_pack_regression.json",
+    "Bytes": 1976,
+    "LastWriteTime": "2026-05-24T10:30:05.2746714+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_review_pack_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_review_pack_regression.txt",
+    "Bytes": 1728,
+    "LastWriteTime": "2026-05-24T10:30:05.2746714+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_review_pack.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_review_pack.json",
+    "Bytes": 2014,
+    "LastWriteTime": "2026-06-05T16:08:03.4133541+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_review_pack.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_review_pack.txt",
+    "Bytes": 1568,
+    "LastWriteTime": "2026-06-05T16:08:03.4133541+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_safe_next_step_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_safe_next_step_regression.json",
+    "Bytes": 3218,
+    "LastWriteTime": "2026-06-08T22:11:06.7782333+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_safe_next_step_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_safe_next_step_regression.txt",
+    "Bytes": 2726,
+    "LastWriteTime": "2026-06-08T22:11:06.7782333+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_safe_next_step.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_safe_next_step.json",
+    "Bytes": 10862,
+    "LastWriteTime": "2026-06-09T15:43:21.6275669+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_safe_next_step.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_safe_next_step.txt",
+    "Bytes": 2321,
+    "LastWriteTime": "2026-06-09T15:43:21.6275669+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_search_gate_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_search_gate_regression.json",
+    "Bytes": 1173,
+    "LastWriteTime": "2026-06-03T18:16:17.5437627+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_search_gate_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_search_gate_regression.txt",
+    "Bytes": 947,
+    "LastWriteTime": "2026-06-03T18:16:17.5437627+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_search_gate.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_search_gate.json",
+    "Bytes": 1362,
+    "LastWriteTime": "2026-06-09T18:00:59.1607212+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_search_gate.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_search_gate.txt",
+    "Bytes": 672,
+    "LastWriteTime": "2026-06-09T18:00:59.1607212+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_selection_brief_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_selection_brief_regression.json",
+    "Bytes": 1123,
+    "LastWriteTime": "2026-05-24T22:16:41.4943869+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_selection_brief_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_selection_brief_regression.txt",
+    "Bytes": 924,
+    "LastWriteTime": "2026-05-24T22:16:41.4953853+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_selection_brief.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_selection_brief.json",
+    "Bytes": 5508,
+    "LastWriteTime": "2026-06-09T18:00:59.2162975+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_selection_brief.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_selection_brief.txt",
+    "Bytes": 1693,
+    "LastWriteTime": "2026-06-09T18:00:59.217297+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_source_guard_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_source_guard_regression.json",
+    "Bytes": 1106,
+    "LastWriteTime": "2026-06-03T18:16:48.1527771+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_source_guard_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_source_guard_regression.txt",
+    "Bytes": 881,
+    "LastWriteTime": "2026-06-03T18:16:48.1527771+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_source_guard.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_source_guard.json",
+    "Bytes": 1195,
+    "LastWriteTime": "2026-06-09T18:00:59.2072931+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_source_guard.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_source_guard.txt",
+    "Bytes": 560,
+    "LastWriteTime": "2026-06-09T18:00:59.2072931+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_completion_gate_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_completion_gate_regression.json",
+    "Bytes": 1395,
+    "LastWriteTime": "2026-05-25T05:42:08.8691449+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_completion_gate_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_completion_gate_regression.txt",
+    "Bytes": 1164,
+    "LastWriteTime": "2026-05-25T05:42:08.8701456+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_completion_gate.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_completion_gate.json",
+    "Bytes": 2571,
+    "LastWriteTime": "2026-06-09T18:00:48.4679002+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_completion_gate.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_completion_gate.txt",
+    "Bytes": 1207,
+    "LastWriteTime": "2026-06-09T18:00:48.4679002+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_decision_gate_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_decision_gate_regression.json",
+    "Bytes": 1259,
+    "LastWriteTime": "2026-05-25T04:50:06.4576356+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_decision_gate_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_decision_gate_regression.txt",
+    "Bytes": 1058,
+    "LastWriteTime": "2026-05-25T04:50:06.4576356+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_decision_gate.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_decision_gate.json",
+    "Bytes": 2242,
+    "LastWriteTime": "2026-06-09T18:00:56.6520612+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_decision_gate.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_decision_gate.txt",
+    "Bytes": 1056,
+    "LastWriteTime": "2026-06-09T18:00:56.6520612+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_evidence_progress_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_evidence_progress_regression.json",
+    "Bytes": 1224,
+    "LastWriteTime": "2026-05-25T05:13:44.2962341+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_evidence_progress_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_evidence_progress_regression.txt",
+    "Bytes": 1018,
+    "LastWriteTime": "2026-05-25T05:13:44.2962341+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_evidence_progress.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_evidence_progress.json",
+    "Bytes": 3644,
+    "LastWriteTime": "2026-06-09T18:00:56.65406+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_evidence_progress.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_evidence_progress.txt",
+    "Bytes": 1174,
+    "LastWriteTime": "2026-06-09T18:00:56.65406+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_evidence_sheet_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_evidence_sheet_regression.json",
+    "Bytes": 1184,
+    "LastWriteTime": "2026-05-25T05:02:34.7692406+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_evidence_sheet_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_evidence_sheet_regression.txt",
+    "Bytes": 993,
+    "LastWriteTime": "2026-05-25T05:02:34.7692406+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_evidence_sheet.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_evidence_sheet.json",
+    "Bytes": 6531,
+    "LastWriteTime": "2026-06-09T18:00:56.65306+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_evidence_sheet.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_evidence_sheet.txt",
+    "Bytes": 1787,
+    "LastWriteTime": "2026-06-09T18:00:56.65306+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_decision_summary_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_decision_summary_regression.json",
+    "Bytes": 1588,
+    "LastWriteTime": "2026-05-25T07:03:03.7930173+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_decision_summary_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_decision_summary_regression.txt",
+    "Bytes": 1324,
+    "LastWriteTime": "2026-05-25T07:03:03.7930173+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_decision_summary.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_decision_summary.json",
+    "Bytes": 5970,
+    "LastWriteTime": "2026-06-09T18:00:36.6109663+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_decision_summary.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_decision_summary.txt",
+    "Bytes": 1503,
+    "LastWriteTime": "2026-06-09T18:00:36.6109663+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_manual_checklist_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_manual_checklist_regression.json",
+    "Bytes": 1413,
+    "LastWriteTime": "2026-05-25T06:21:35.5296347+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_manual_checklist_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_manual_checklist_regression.txt",
+    "Bytes": 1154,
+    "LastWriteTime": "2026-05-25T06:21:35.5306405+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_manual_checklist.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_manual_checklist.json",
+    "Bytes": 4366,
+    "LastWriteTime": "2026-06-09T18:00:36.6089657+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_manual_checklist.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_manual_checklist.txt",
+    "Bytes": 934,
+    "LastWriteTime": "2026-06-09T18:00:36.6099654+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_mouss_action_queue_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_mouss_action_queue_regression.json",
+    "Bytes": 1401,
+    "LastWriteTime": "2026-05-25T10:28:19.2761766+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_mouss_action_queue_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_mouss_action_queue_regression.txt",
+    "Bytes": 1154,
+    "LastWriteTime": "2026-05-25T10:28:19.2761766+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_mouss_action_queue.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_mouss_action_queue.json",
+    "Bytes": 6066,
+    "LastWriteTime": "2026-06-09T15:43:18.7639552+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_mouss_action_queue.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_mouss_action_queue.txt",
+    "Bytes": 1348,
+    "LastWriteTime": "2026-06-09T15:43:18.7649559+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_mouss_action_voice_brief_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_mouss_action_voice_brief_regression.json",
+    "Bytes": 1502,
+    "LastWriteTime": "2026-05-25T10:28:19.7685244+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_mouss_action_voice_brief_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_mouss_action_voice_brief_regression.txt",
+    "Bytes": 1250,
+    "LastWriteTime": "2026-05-25T10:28:19.7685244+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_mouss_action_voice_brief.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_mouss_action_voice_brief.json",
+    "Bytes": 4582,
+    "LastWriteTime": "2026-06-09T15:43:18.8223473+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_mouss_action_voice_brief.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_mouss_action_voice_brief.txt",
+    "Bytes": 1056,
+    "LastWriteTime": "2026-06-09T15:43:18.8233478+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_resume_checkpoint_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_resume_checkpoint_regression.json",
+    "Bytes": 1392,
+    "LastWriteTime": "2026-05-25T11:01:12.8242232+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_resume_checkpoint_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_resume_checkpoint_regression.txt",
+    "Bytes": 1173,
+    "LastWriteTime": "2026-05-25T11:01:12.8242232+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_resume_checkpoint.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_resume_checkpoint.json",
+    "Bytes": 6240,
+    "LastWriteTime": "2026-06-09T15:43:19.2724024+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_resume_checkpoint.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_resume_checkpoint.txt",
+    "Bytes": 1618,
+    "LastWriteTime": "2026-06-09T15:43:19.2734008+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_review_link_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_review_link_regression.json",
+    "Bytes": 1379,
+    "LastWriteTime": "2026-05-25T05:47:05.3017851+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_review_link_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_review_link_regression.txt",
+    "Bytes": 1140,
+    "LastWriteTime": "2026-05-25T05:47:05.3017851+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_review_link.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_review_link.json",
+    "Bytes": 2769,
+    "LastWriteTime": "2026-06-09T18:00:36.6059677+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_review_link.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_review_link.txt",
+    "Bytes": 1178,
+    "LastWriteTime": "2026-06-09T18:00:36.6059677+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_summary_read_path_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_summary_read_path_regression.json",
+    "Bytes": 1516,
+    "LastWriteTime": "2026-05-25T07:20:58.9593207+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_summary_read_path_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_summary_read_path_regression.txt",
+    "Bytes": 1258,
+    "LastWriteTime": "2026-05-25T07:20:58.9593207+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_summary_read_path.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_summary_read_path.json",
+    "Bytes": 4655,
+    "LastWriteTime": "2026-06-09T15:43:18.6668589+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_summary_read_path.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_summary_read_path.txt",
+    "Bytes": 1162,
+    "LastWriteTime": "2026-06-09T15:43:18.6668589+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_validation_alignment_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_validation_alignment_regression.json",
+    "Bytes": 1552,
+    "LastWriteTime": "2026-05-25T06:39:53.1997709+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_validation_alignment_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_validation_alignment_regression.txt",
+    "Bytes": 1274,
+    "LastWriteTime": "2026-05-25T06:39:53.2007687+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_validation_alignment.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_validation_alignment.json",
+    "Bytes": 4332,
+    "LastWriteTime": "2026-06-09T18:00:09.6656041+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_validation_alignment.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_validation_alignment.txt",
+    "Bytes": 988,
+    "LastWriteTime": "2026-06-09T18:00:09.6666049+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_voice_brief_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_voice_brief_regression.json",
+    "Bytes": 1411,
+    "LastWriteTime": "2026-05-25T07:40:28.2111699+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_voice_brief_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_voice_brief_regression.txt",
+    "Bytes": 1173,
+    "LastWriteTime": "2026-05-25T07:40:28.2111699+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_voice_brief.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_voice_brief.json",
+    "Bytes": 3709,
+    "LastWriteTime": "2026-06-09T15:43:18.6678586+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_voice_brief.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_voice_brief.txt",
+    "Bytes": 911,
+    "LastWriteTime": "2026-06-09T15:43:18.6678586+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_voice_kernel_compat_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_voice_kernel_compat_regression.json",
+    "Bytes": 1606,
+    "LastWriteTime": "2026-05-25T08:06:27.8517616+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_voice_kernel_compat_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_voice_kernel_compat_regression.txt",
+    "Bytes": 1337,
+    "LastWriteTime": "2026-05-25T08:06:27.8517616+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_voice_kernel_compat.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_voice_kernel_compat.json",
+    "Bytes": 4368,
+    "LastWriteTime": "2026-06-09T15:43:18.7629563+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_import_voice_kernel_compat.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_import_voice_kernel_compat.txt",
+    "Bytes": 1181,
+    "LastWriteTime": "2026-06-09T15:43:18.7639552+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_manual_unlock_guide_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_manual_unlock_guide_regression.json",
+    "Bytes": 1532,
+    "LastWriteTime": "2026-05-25T06:04:47.0693774+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_manual_unlock_guide_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_manual_unlock_guide_regression.txt",
+    "Bytes": 1250,
+    "LastWriteTime": "2026-05-25T06:04:47.0693774+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_manual_unlock_guide.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_manual_unlock_guide.json",
+    "Bytes": 3325,
+    "LastWriteTime": "2026-06-09T18:00:36.606965+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_manual_unlock_guide.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_manual_unlock_guide.txt",
+    "Bytes": 1528,
+    "LastWriteTime": "2026-06-09T18:00:36.606965+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_research_packet_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_research_packet_regression.json",
+    "Bytes": 1158,
+    "LastWriteTime": "2026-05-25T04:39:15.0911798+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_research_packet_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_research_packet_regression.txt",
+    "Bytes": 972,
+    "LastWriteTime": "2026-05-25T04:39:15.0911798+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_research_packet.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_research_packet.json",
+    "Bytes": 5360,
+    "LastWriteTime": "2026-06-09T18:00:59.2192971+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_research_packet.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_research_packet.txt",
+    "Bytes": 1544,
+    "LastWriteTime": "2026-06-09T18:00:59.2192971+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_research_preflight_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_research_preflight_regression.json",
+    "Bytes": 1066,
+    "LastWriteTime": "2026-05-25T04:25:08.6943401+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_research_preflight_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_research_preflight_regression.txt",
+    "Bytes": 907,
+    "LastWriteTime": "2026-05-25T04:25:08.6943401+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_research_preflight.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_research_preflight.json",
+    "Bytes": 2220,
+    "LastWriteTime": "2026-06-09T18:00:59.2102926+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_research_preflight.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_research_preflight.txt",
+    "Bytes": 1106,
+    "LastWriteTime": "2026-06-09T18:00:59.2102926+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_verification_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_verification_regression.json",
+    "Bytes": 1153,
+    "LastWriteTime": "2026-05-24T22:08:17.3522817+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_verification_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_verification_regression.txt",
+    "Bytes": 965,
+    "LastWriteTime": "2026-05-24T22:08:17.3528022+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_verification.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_verification.json",
+    "Bytes": 6571,
+    "LastWriteTime": "2026-06-09T18:00:59.2182974+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_verification.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_supplier_verification.txt",
+    "Bytes": 2284,
+    "LastWriteTime": "2026-06-09T18:00:59.2182974+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_archive_plan_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_archive_plan_regression.json",
+    "Bytes": 1505,
+    "LastWriteTime": "2026-05-24T21:15:18.4926483+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_archive_plan_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_archive_plan_regression.txt",
+    "Bytes": 1265,
+    "LastWriteTime": "2026-05-24T21:15:18.4926483+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_archive_plan.html",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_archive_plan.html",
+    "Bytes": 4763,
+    "LastWriteTime": "2026-06-09T15:43:21.7167286+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_archive_plan.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_archive_plan.json",
+    "Bytes": 4508,
+    "LastWriteTime": "2026-06-09T15:43:21.7157282+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_archive_plan.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_archive_plan.md",
+    "Bytes": 3260,
+    "LastWriteTime": "2026-06-09T15:43:21.7157282+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_archive_plan.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_archive_plan.txt",
+    "Bytes": 2952,
+    "LastWriteTime": "2026-06-09T15:43:21.7157282+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_board_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_board_regression.json",
+    "Bytes": 1349,
+    "LastWriteTime": "2026-05-24T11:05:41.3330108+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_board_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_board_regression.txt",
+    "Bytes": 1060,
+    "LastWriteTime": "2026-05-24T11:05:41.3330108+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_board.html",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_board.html",
+    "Bytes": 3445,
+    "LastWriteTime": "2026-06-05T16:08:03.20764+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_board.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_board.json",
+    "Bytes": 2558,
+    "LastWriteTime": "2026-06-05T16:08:03.2061218+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_board.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_board.txt",
+    "Bytes": 786,
+    "LastWriteTime": "2026-06-05T16:08:03.2061218+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_decision_sheet_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_decision_sheet_regression.json",
+    "Bytes": 1701,
+    "LastWriteTime": "2026-05-24T10:50:53.910347+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_decision_sheet_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_decision_sheet_regression.txt",
+    "Bytes": 1488,
+    "LastWriteTime": "2026-05-24T10:50:53.910347+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_decision_sheet.html",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_decision_sheet.html",
+    "Bytes": 2309,
+    "LastWriteTime": "2026-06-05T16:08:03.5660935+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_decision_sheet.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_decision_sheet.json",
+    "Bytes": 1481,
+    "LastWriteTime": "2026-06-05T16:08:03.5650862+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_decision_sheet.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_decision_sheet.txt",
+    "Bytes": 914,
+    "LastWriteTime": "2026-06-05T16:08:03.5655898+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_decision_status_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_decision_status_regression.json",
+    "Bytes": 1609,
+    "LastWriteTime": "2026-05-24T21:23:48.2926124+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_decision_status_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_decision_status_regression.txt",
+    "Bytes": 1360,
+    "LastWriteTime": "2026-05-24T21:23:48.2931371+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_decision_status.html",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_decision_status.html",
+    "Bytes": 2218,
+    "LastWriteTime": "2026-06-09T18:00:59.2272979+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_decision_status.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_decision_status.json",
+    "Bytes": 1204,
+    "LastWriteTime": "2026-06-09T18:00:59.2272979+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_decision_status.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_decision_status.txt",
+    "Bytes": 684,
+    "LastWriteTime": "2026-06-09T18:00:59.2272979+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_dedupe_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_dedupe_regression.json",
+    "Bytes": 1429,
+    "LastWriteTime": "2026-05-24T21:06:30.9024987+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_dedupe_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_dedupe_regression.txt",
+    "Bytes": 1195,
+    "LastWriteTime": "2026-05-24T21:06:30.9035028+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_dedupe.html",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_dedupe.html",
+    "Bytes": 2424,
+    "LastWriteTime": "2026-06-09T15:43:21.7147283+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_dedupe.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_dedupe.json",
+    "Bytes": 6898,
+    "LastWriteTime": "2026-06-09T15:43:21.7147283+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_dedupe.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_dedupe.txt",
+    "Bytes": 963,
+    "LastWriteTime": "2026-06-09T15:43:21.7147283+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_packet_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_packet_regression.json",
+    "Bytes": 1519,
+    "LastWriteTime": "2026-05-24T20:56:43.3487025+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_packet_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_packet_regression.txt",
+    "Bytes": 1289,
+    "LastWriteTime": "2026-05-24T20:56:43.349218+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_packet.html",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_packet.html",
+    "Bytes": 4103,
+    "LastWriteTime": "2026-06-09T18:00:59.2062925+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_packet.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_packet.json",
+    "Bytes": 2948,
+    "LastWriteTime": "2026-06-09T18:00:59.2052927+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_packet.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_packet.md",
+    "Bytes": 1306,
+    "LastWriteTime": "2026-06-09T18:00:59.2052927+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_packet.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_packet.txt",
+    "Bytes": 1190,
+    "LastWriteTime": "2026-06-09T18:00:59.2052927+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_queue_board_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_queue_board_regression.json",
+    "Bytes": 1331,
+    "LastWriteTime": "2026-05-24T20:47:10.3850053+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_queue_board_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_queue_board_regression.txt",
+    "Bytes": 1042,
+    "LastWriteTime": "2026-05-24T20:47:10.3850053+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_queue_board.html",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_queue_board.html",
+    "Bytes": 6582,
+    "LastWriteTime": "2026-06-09T15:43:21.6560798+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_queue_board.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_queue_board.json",
+    "Bytes": 12509,
+    "LastWriteTime": "2026-06-09T15:43:21.6540834+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_queue_board.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_queue_board.txt",
+    "Bytes": 919,
+    "LastWriteTime": "2026-06-09T15:43:21.6540834+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_queue_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_queue_regression.json",
+    "Bytes": 1095,
+    "LastWriteTime": "2026-05-31T05:09:12.665483+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_queue_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_queue_regression.txt",
+    "Bytes": 927,
+    "LastWriteTime": "2026-05-31T05:09:12.666484+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_queue.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_queue.json",
+    "Bytes": 6191,
+    "LastWriteTime": "2026-06-09T18:00:59.2232979+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_queue.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_business_validation_queue.txt",
+    "Bytes": 1985,
+    "LastWriteTime": "2026-06-09T18:00:59.2242971+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_maxi_navigation_health_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_maxi_navigation_health_regression.json",
+    "Bytes": 393,
+    "LastWriteTime": "2026-05-24T20:09:51.0390726+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_maxi_navigation_health_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_maxi_navigation_health_regression.txt",
+    "Bytes": 228,
+    "LastWriteTime": "2026-05-24T20:09:51.0390726+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_maxi_navigation_health.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_maxi_navigation_health.json",
+    "Bytes": 4086,
+    "LastWriteTime": "2026-06-09T17:57:29.8492855+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_maxi_navigation_health.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_maxi_navigation_health.txt",
+    "Bytes": 924,
+    "LastWriteTime": "2026-06-09T17:57:29.8492855+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_maxi_routes_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_maxi_routes_regression.json",
+    "Bytes": 421,
+    "LastWriteTime": "2026-05-24T01:05:35.5015701+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_maxi_routes_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_maxi_routes_regression.txt",
+    "Bytes": 227,
+    "LastWriteTime": "2026-05-24T01:05:35.5020775+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_maxi_routes.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_maxi_routes.json",
+    "Bytes": 3763,
+    "LastWriteTime": "2026-06-09T17:57:31.8844483+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_maxi_routes.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_maxi_routes.txt",
+    "Bytes": 1053,
+    "LastWriteTime": "2026-06-09T17:57:31.8844483+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_maxi_workspace_preflight_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_maxi_workspace_preflight_regression.json",
+    "Bytes": 1530,
+    "LastWriteTime": "2026-05-24T20:21:21.9397565+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_maxi_workspace_preflight_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_maxi_workspace_preflight_regression.txt",
+    "Bytes": 285,
+    "LastWriteTime": "2026-05-24T20:21:21.9397565+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_maxi_workspace_preflight.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_maxi_workspace_preflight.json",
+    "Bytes": 1087,
+    "LastWriteTime": "2026-06-09T17:57:29.8532993+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_maxi_workspace_preflight.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_maxi_workspace_preflight.txt",
+    "Bytes": 570,
+    "LastWriteTime": "2026-06-09T17:57:29.8542988+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_window_pre_business_guard_regression.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_window_pre_business_guard_regression.json",
+    "Bytes": 4833,
+    "LastWriteTime": "2026-06-08T19:24:49.6471573+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_window_pre_business_guard_regression.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_window_pre_business_guard_regression.txt",
+    "Bytes": 4075,
+    "LastWriteTime": "2026-06-08T19:24:49.6471573+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_window_pre_business_guard.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_window_pre_business_guard.json",
+    "Bytes": 9823,
+    "LastWriteTime": "2026-06-09T18:00:59.1000843+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_window_pre_business_guard.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\logs\\jarvis_window_pre_business_guard.txt",
+    "Bytes": 1681,
+    "LastWriteTime": "2026-06-09T18:00:59.1010841+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_chantiers\\ai_orchestration_next_layer.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_chantiers\\ai_orchestration_next_layer.md",
+    "Bytes": 3757,
+    "LastWriteTime": "2026-06-09T18:16:11.2160926+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_chantiers\\avatar_3d_mimouss_next_layer.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_chantiers\\avatar_3d_mimouss_next_layer.md",
+    "Bytes": 1549,
+    "LastWriteTime": "2026-06-09T18:16:11.2180915+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_chantiers\\marketing_automation_mail_next_layer.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_chantiers\\marketing_automation_mail_next_layer.md",
+    "Bytes": 1964,
+    "LastWriteTime": "2026-06-09T18:16:11.2170918+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_chantiers\\maxi_controlled_commerce_next_layer.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_chantiers\\maxi_controlled_commerce_next_layer.md",
+    "Bytes": 1296,
+    "LastWriteTime": "2026-06-09T18:16:11.2170918+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_chantiers\\pc_runtime_openwebui_next_layer.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_chantiers\\pc_runtime_openwebui_next_layer.md",
+    "Bytes": 3144,
+    "LastWriteTime": "2026-06-09T18:16:11.2170918+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_chantiers\\social_desktop_apps_next_layer.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_chantiers\\social_desktop_apps_next_layer.md",
+    "Bytes": 1285,
+    "LastWriteTime": "2026-06-09T18:16:11.2180915+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_chantiers\\spotify_media_assist_next_layer.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_chantiers\\spotify_media_assist_next_layer.md",
+    "Bytes": 1173,
+    "LastWriteTime": "2026-06-09T18:16:11.2180915+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_chantiers\\vision_camera_gesture_next_layer.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_chantiers\\vision_camera_gesture_next_layer.md",
+    "Bytes": 1177,
+    "LastWriteTime": "2026-06-09T18:16:11.2180915+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_chantiers\\voice_reactivity_next_layer.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_chantiers\\voice_reactivity_next_layer.md",
+    "Bytes": 1599,
+    "LastWriteTime": "2026-06-09T18:16:11.2160926+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\00_MODE_EMPLOI_MOUSS.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\00_MODE_EMPLOI_MOUSS.md",
+    "Bytes": 1864,
+    "LastWriteTime": "2026-06-09T07:23:11.9484781+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\01_voice_reactivity_automation_prompt.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\01_voice_reactivity_automation_prompt.txt",
+    "Bytes": 1951,
+    "LastWriteTime": "2026-06-09T07:23:11.9484781+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\02_ai_orchestration_automation_prompt.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\02_ai_orchestration_automation_prompt.txt",
+    "Bytes": 1905,
+    "LastWriteTime": "2026-06-09T07:23:11.9494756+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\03_pc_runtime_openwebui_automation_prompt.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\03_pc_runtime_openwebui_automation_prompt.txt",
+    "Bytes": 1675,
+    "LastWriteTime": "2026-06-09T07:23:11.9494756+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\04_assistant_pc_reactif_automation_prompt.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\04_assistant_pc_reactif_automation_prompt.txt",
+    "Bytes": 1576,
+    "LastWriteTime": "2026-06-09T07:23:11.9494756+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\05_avatar_3d_mimouss_parking_automation_prompt.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\05_avatar_3d_mimouss_parking_automation_prompt.txt",
+    "Bytes": 1376,
+    "LastWriteTime": "2026-06-09T07:23:11.9504745+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\06_maxi_controlled_commerce_draft_automation_prompt.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\06_maxi_controlled_commerce_draft_automation_prompt.txt",
+    "Bytes": 1544,
+    "LastWriteTime": "2026-06-09T07:23:11.9504745+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\07_marketing_mail_social_draft_automation_prompt.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\07_marketing_mail_social_draft_automation_prompt.txt",
+    "Bytes": 1359,
+    "LastWriteTime": "2026-06-09T07:23:11.9514771+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\08_social_desktop_apps_inventory_automation_prompt.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\08_social_desktop_apps_inventory_automation_prompt.txt",
+    "Bytes": 1324,
+    "LastWriteTime": "2026-06-09T07:23:11.9514771+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\09_spotify_media_assist_draft_automation_prompt.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\09_spotify_media_assist_draft_automation_prompt.txt",
+    "Bytes": 1377,
+    "LastWriteTime": "2026-06-09T07:23:11.9514771+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\10_vision_camera_gesture_preview_automation_prompt.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\10_vision_camera_gesture_preview_automation_prompt.txt",
+    "Bytes": 1383,
+    "LastWriteTime": "2026-06-09T07:23:11.9524753+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\99_superviseur_retours_parallel_automation_prompt.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\99_superviseur_retours_parallel_automation_prompt.txt",
+    "Bytes": 1336,
+    "LastWriteTime": "2026-06-09T07:23:11.9524753+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\parallel_automation_manifest.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\parallel_automation_manifest.json",
+    "Bytes": 4618,
+    "LastWriteTime": "2026-06-09T07:28:51.5793372+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\STANDBY_20260609.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\STANDBY_20260609.md",
+    "Bytes": 664,
+    "LastWriteTime": "2026-06-09T07:28:51.5793372+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\STANDBY_NOT_LAUNCHED.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\jarvis-tech-enclair\\app\\parallel_work\\jarvis_parallel_discussions\\automation_5min_20260609\\STANDBY_NOT_LAUNCHED.md",
+    "Bytes": 691,
+    "LastWriteTime": "2026-06-09T11:00:05.7310281+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\archives\\quick-products-before-optimization-2026-05-05.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\ancien-maxi-trouvaille\\archives\\quick-products-before-optimization-2026-05-05.json",
+    "Bytes": 40395,
+    "LastWriteTime": "2026-05-05T10:29:17.5971634+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\assets\\imag\\4bb5aa6cd59445b6b249cb0e79a0f1c04599667e.webp",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\ancien-maxi-trouvaille\\assets\\imag\\4bb5aa6cd59445b6b249cb0e79a0f1c04599667e.webp",
+    "Bytes": 41312,
+    "LastWriteTime": "2026-05-05T10:00:04.7373381+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\assets\\imag\\da68981c02b8239e6b01c77b91b851e430b40e42.webp",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\ancien-maxi-trouvaille\\assets\\imag\\da68981c02b8239e6b01c77b91b851e430b40e42.webp",
+    "Bytes": 32148,
+    "LastWriteTime": "2026-05-05T10:00:06.6283747+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\assets\\imag\\dac0128d7a15cf2e9a297167d4a79516acc1e8fd.webp",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\ancien-maxi-trouvaille\\assets\\imag\\dac0128d7a15cf2e9a297167d4a79516acc1e8fd.webp",
+    "Bytes": 41756,
+    "LastWriteTime": "2026-05-05T10:00:02.6532537+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\backups\\maxi-trouvaille_business_source_before_jarvis_20260521_143731.zip",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\ancien-maxi-trouvaille\\backups\\maxi-trouvaille_business_source_before_jarvis_20260521_143731.zip",
+    "Bytes": 15626372,
+    "LastWriteTime": "2026-05-21T14:37:35.8519943+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\rapport.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\ancien-maxi-trouvaille\\rapport.txt",
+    "Bytes": 8434,
+    "LastWriteTime": "2026-05-06T09:05:51.5623549+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\scripts\\create_tiktok_palette_video.py",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\ancien-maxi-trouvaille\\scripts\\create_tiktok_palette_video.py",
+    "Bytes": 9869,
+    "LastWriteTime": "2026-05-05T20:46:04.9320165+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\scripts\\create_tiktok_selection_video.py",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\ancien-maxi-trouvaille\\scripts\\create_tiktok_selection_video.py",
+    "Bytes": 9655,
+    "LastWriteTime": "2026-05-06T02:24:13.8645943+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\scripts\\create_tiktok_video.py",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\ancien-maxi-trouvaille\\scripts\\create_tiktok_video.py",
+    "Bytes": 5992,
+    "LastWriteTime": "2026-05-05T13:54:59.9605433+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\scripts\\create_tiktok_voice_video.py",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\ancien-maxi-trouvaille\\scripts\\create_tiktok_voice_video.py",
+    "Bytes": 7223,
+    "LastWriteTime": "2026-05-05T19:10:44.7437807+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\scripts\\generate_partner_tiktok_ads.py",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\ancien-maxi-trouvaille\\scripts\\generate_partner_tiktok_ads.py",
+    "Bytes": 10608,
+    "LastWriteTime": "2026-05-06T09:01:35.2463943+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\scripts\\maxi_tiktok_factory.py",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\ancien-maxi-trouvaille\\scripts\\maxi_tiktok_factory.py",
+    "Bytes": 18349,
+    "LastWriteTime": "2026-05-06T02:31:31.6841716+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\MAXI_TROUVAILLE\\scripts\\publish_latest_tiktok.js",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\ancien-maxi-trouvaille\\scripts\\publish_latest_tiktok.js",
+    "Bytes": 5663,
+    "LastWriteTime": "2026-05-06T02:35:46.8238224+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\API_KEYS_REQUIRED.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\API_KEYS_REQUIRED.md",
+    "Bytes": 1613,
+    "LastWriteTime": "2026-05-21T14:40:28.0584839+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\api-config\\api_keys.template.env",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\api-config\\api_keys.template.env",
+    "Bytes": 595,
+    "LastWriteTime": "2026-05-21T14:40:28.0614833+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\COMMANDES_VOCALES.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\COMMANDES_VOCALES.md",
+    "Bytes": 750,
+    "LastWriteTime": "2026-05-21T14:40:28.0594854+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\docs\\AUDIT_EXISTANT_20260521.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\docs\\AUDIT_EXISTANT_20260521.md",
+    "Bytes": 1182,
+    "LastWriteTime": "2026-05-21T14:40:28.0604848+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\docs\\WORKFLOW_AUDIT_IMAGES_PARTENAIRES_20260605.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\docs\\WORKFLOW_AUDIT_IMAGES_PARTENAIRES_20260605.md",
+    "Bytes": 2494,
+    "LastWriteTime": "2026-06-05T08:03:43.1790037+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\.gitkeep",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\.gitkeep",
+    "Bytes": 1,
+    "LastWriteTime": "2026-05-21T14:40:28.0614833+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\20260521_124329_produit_fictif.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\20260521_124329_produit_fictif.json",
+    "Bytes": 1294,
+    "LastWriteTime": "2026-05-21T14:43:29.7973763+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\20260522_134632_candidats_produits.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\20260522_134632_candidats_produits.json",
+    "Bytes": 11338,
+    "LastWriteTime": "2026-05-22T15:46:32.5311768+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\20260522_134714_candidats_produits.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\20260522_134714_candidats_produits.json",
+    "Bytes": 11338,
+    "LastWriteTime": "2026-05-22T15:47:14.4192746+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\20260522_134737_candidats_produits.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\20260522_134737_candidats_produits.json",
+    "Bytes": 11338,
+    "LastWriteTime": "2026-05-22T15:47:37.9052454+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\20260522_145143_candidats_produits.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\20260522_145143_candidats_produits.json",
+    "Bytes": 11338,
+    "LastWriteTime": "2026-05-22T16:51:43.072575+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\latest_candidates.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\latest_candidates.json",
+    "Bytes": 11338,
+    "LastWriteTime": "2026-05-22T16:51:43.072575+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084322\\A_VALIDER_PAR_MOUSS.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084322\\A_VALIDER_PAR_MOUSS.md",
+    "Bytes": 1858,
+    "LastWriteTime": "2026-05-23T08:43:22.3564465+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084322\\garde_import.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084322\\garde_import.txt",
+    "Bytes": 176,
+    "LastWriteTime": "2026-05-23T08:43:22.3564465+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084322\\liens_scripts_pubs.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084322\\liens_scripts_pubs.txt",
+    "Bytes": 820,
+    "LastWriteTime": "2026-05-23T08:43:22.3574472+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084322\\manifest.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084322\\manifest.json",
+    "Bytes": 7248,
+    "LastWriteTime": "2026-05-23T08:43:22.3584458+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084322\\README.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084322\\README.txt",
+    "Bytes": 255,
+    "LastWriteTime": "2026-05-23T08:43:22.3574472+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084346\\A_VALIDER_PAR_MOUSS.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084346\\A_VALIDER_PAR_MOUSS.md",
+    "Bytes": 1858,
+    "LastWriteTime": "2026-05-23T08:43:46.5538116+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084346\\garde_import.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084346\\garde_import.txt",
+    "Bytes": 176,
+    "LastWriteTime": "2026-05-23T08:43:46.5538116+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084346\\liens_scripts_pubs.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084346\\liens_scripts_pubs.txt",
+    "Bytes": 820,
+    "LastWriteTime": "2026-05-23T08:43:46.5538116+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084346\\manifest.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084346\\manifest.json",
+    "Bytes": 7248,
+    "LastWriteTime": "2026-05-23T08:43:46.5548162+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084346\\README.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084346\\README.txt",
+    "Bytes": 255,
+    "LastWriteTime": "2026-05-23T08:43:46.5548162+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_121528\\A_VALIDER_PAR_MOUSS.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_121528\\A_VALIDER_PAR_MOUSS.md",
+    "Bytes": 1858,
+    "LastWriteTime": "2026-05-23T12:15:28.6224127+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_121528\\garde_import.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_121528\\garde_import.txt",
+    "Bytes": 176,
+    "LastWriteTime": "2026-05-23T12:15:28.6234139+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_121528\\liens_scripts_pubs.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_121528\\liens_scripts_pubs.txt",
+    "Bytes": 820,
+    "LastWriteTime": "2026-05-23T12:15:28.6234139+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_121528\\manifest.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_121528\\manifest.json",
+    "Bytes": 7248,
+    "LastWriteTime": "2026-05-23T12:15:28.6244126+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_121528\\README.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_121528\\README.txt",
+    "Bytes": 255,
+    "LastWriteTime": "2026-05-23T12:15:28.6244126+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_122413\\A_VALIDER_PAR_MOUSS.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_122413\\A_VALIDER_PAR_MOUSS.md",
+    "Bytes": 1858,
+    "LastWriteTime": "2026-05-23T12:24:13.0029781+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_122413\\garde_import.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_122413\\garde_import.txt",
+    "Bytes": 176,
+    "LastWriteTime": "2026-05-23T12:24:13.0029781+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_122413\\liens_scripts_pubs.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_122413\\liens_scripts_pubs.txt",
+    "Bytes": 820,
+    "LastWriteTime": "2026-05-23T12:24:13.0029781+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_122413\\manifest.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_122413\\manifest.json",
+    "Bytes": 7248,
+    "LastWriteTime": "2026-05-23T12:24:13.0039834+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_122413\\README.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_122413\\README.txt",
+    "Bytes": 255,
+    "LastWriteTime": "2026-05-23T12:24:13.0039834+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_124353\\A_VALIDER_PAR_MOUSS.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_124353\\A_VALIDER_PAR_MOUSS.md",
+    "Bytes": 1858,
+    "LastWriteTime": "2026-05-23T12:43:53.251924+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_124353\\garde_import.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_124353\\garde_import.txt",
+    "Bytes": 176,
+    "LastWriteTime": "2026-05-23T12:43:53.251924+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_124353\\liens_scripts_pubs.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_124353\\liens_scripts_pubs.txt",
+    "Bytes": 820,
+    "LastWriteTime": "2026-05-23T12:43:53.2529233+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_124353\\manifest.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_124353\\manifest.json",
+    "Bytes": 7248,
+    "LastWriteTime": "2026-05-23T12:43:53.2529233+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_124353\\README.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_124353\\README.txt",
+    "Bytes": 255,
+    "LastWriteTime": "2026-05-23T12:43:53.2529233+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\A_VALIDER_PAR_MOUSS.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\A_VALIDER_PAR_MOUSS.md",
+    "Bytes": 1977,
+    "LastWriteTime": "2026-06-05T16:08:03.4103575+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\DECISION_MOUSS_A_REMPLIR.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\DECISION_MOUSS_A_REMPLIR.md",
+    "Bytes": 919,
+    "LastWriteTime": "2026-05-23T14:03:34.2114789+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\garde_import.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\garde_import.txt",
+    "Bytes": 176,
+    "LastWriteTime": "2026-06-05T16:08:03.4103575+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\liens_scripts_pubs.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\liens_scripts_pubs.txt",
+    "Bytes": 820,
+    "LastWriteTime": "2026-06-05T16:08:03.4113552+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\manifest.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\manifest.json",
+    "Bytes": 7750,
+    "LastWriteTime": "2026-06-05T16:08:03.4123563+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\README.txt",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\README.txt",
+    "Bytes": 420,
+    "LastWriteTime": "2026-06-05T16:08:03.4113552+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\recherche_produits_20260522_131142.html",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\recherche_produits_20260522_131142.html",
+    "Bytes": 2527,
+    "LastWriteTime": "2026-05-22T13:11:42.6719952+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\recherche_produits_20260522_135045.html",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\recherche_produits_20260522_135045.html",
+    "Bytes": 3452,
+    "LastWriteTime": "2026-05-22T13:50:45.4432898+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\recherche_produits_20260522_135900.html",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\recherche_produits_20260522_135900.html",
+    "Bytes": 2670,
+    "LastWriteTime": "2026-05-22T13:59:00.3379487+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\recherche_produits_20260523_175201.html",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\recherche_produits_20260523_175201.html",
+    "Bytes": 2608,
+    "LastWriteTime": "2026-05-23T17:52:01.465176+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\recherche_produits_20260527_115158.html",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\recherche_produits_20260527_115158.html",
+    "Bytes": 2706,
+    "LastWriteTime": "2026-05-27T11:51:58.8206084+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\selection_couche_006_20260527.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\selection_couche_006_20260527.json",
+    "Bytes": 93712,
+    "LastWriteTime": "2026-05-27T22:55:39.397392+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\selection_couche_006_20260527.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\produits-a-valider\\selection_couche_006_20260527.md",
+    "Bytes": 17624,
+    "LastWriteTime": "2026-05-27T22:55:39.3983908+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\README_BUSINESS.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\README_BUSINESS.md",
+    "Bytes": 900,
+    "LastWriteTime": "2026-05-22T13:57:36.0439989+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\RISQUES_ET_SECURITE.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\RISQUES_ET_SECURITE.md",
+    "Bytes": 2012,
+    "LastWriteTime": "2026-05-21T14:40:28.0604848+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\.gitkeep",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\.gitkeep",
+    "Bytes": 1,
+    "LastWriteTime": "2026-05-21T14:40:28.0694825+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\data\\quick-products.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\data\\quick-products.json",
+    "Bytes": 29723,
+    "LastWriteTime": "2026-05-05T13:57:25.5111333+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\package.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\package.json",
+    "Bytes": 1228,
+    "LastWriteTime": "2026-05-27T11:42:25.6256229+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\README.md",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\README.md",
+    "Bytes": 2639,
+    "LastWriteTime": "2026-05-05T10:54:43.5796547+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\api\\admin\\dropshipping\\import\\route.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\api\\admin\\dropshipping\\import\\route.ts",
+    "Bytes": 5369,
+    "LastWriteTime": "2026-05-21T19:09:12.0793945+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\api\\admin\\products\\[slug]\\route.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\api\\admin\\products\\[slug]\\route.ts",
+    "Bytes": 9517,
+    "LastWriteTime": "2026-05-12T14:56:08.8378671+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\api\\admin\\products\\route.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\api\\admin\\products\\route.ts",
+    "Bytes": 3396,
+    "LastWriteTime": "2026-05-05T09:25:58.5310407+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\boutique\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\boutique\\page.tsx",
+    "Bytes": 3101,
+    "LastWriteTime": "2026-05-12T15:05:59.3379512+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\categories\\[slug]\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\categories\\[slug]\\page.tsx",
+    "Bytes": 3819,
+    "LastWriteTime": "2026-05-03T15:41:42.6031771+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\categories\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\categories\\page.tsx",
+    "Bytes": 732,
+    "LastWriteTime": "2026-05-12T14:58:34.0194647+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\conditions-dropshipping\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\conditions-dropshipping\\page.tsx",
+    "Bytes": 2004,
+    "LastWriteTime": "2026-05-12T15:00:44.1385881+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\dropshipping\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\dropshipping\\page.tsx",
+    "Bytes": 5726,
+    "LastWriteTime": "2026-05-12T14:57:32.2749156+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\faq\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\faq\\page.tsx",
+    "Bytes": 2118,
+    "LastWriteTime": "2026-05-12T15:01:01.0411247+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\layout.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\layout.tsx",
+    "Bytes": 2178,
+    "LastWriteTime": "2026-05-03T15:48:06.1508041+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\livraison\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\livraison\\page.tsx",
+    "Bytes": 3139,
+    "LastWriteTime": "2026-05-12T15:01:20.0587267+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\manifest.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\manifest.ts",
+    "Bytes": 1075,
+    "LastWriteTime": "2026-05-01T17:05:10.3470865+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\page.tsx",
+    "Bytes": 4645,
+    "LastWriteTime": "2026-05-12T15:04:37.6180172+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\produit\\[slug]\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\produit\\[slug]\\page.tsx",
+    "Bytes": 11557,
+    "LastWriteTime": "2026-05-12T14:40:47.2612786+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\sitemap.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\app\\sitemap.ts",
+    "Bytes": 1170,
+    "LastWriteTime": "2026-05-12T15:04:02.2336798+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\components\\CategoryGrid.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\components\\CategoryGrid.tsx",
+    "Bytes": 8548,
+    "LastWriteTime": "2026-05-27T11:42:16.397244+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\components\\Footer.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\components\\Footer.tsx",
+    "Bytes": 2800,
+    "LastWriteTime": "2026-05-12T14:57:58.1683873+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\components\\Header.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\components\\Header.tsx",
+    "Bytes": 4002,
+    "LastWriteTime": "2026-05-12T14:57:41.8797781+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\components\\HeroCarousel.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\components\\HeroCarousel.tsx",
+    "Bytes": 1907,
+    "LastWriteTime": "2026-05-02T04:23:31.2937487+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\components\\ProductCard.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\components\\ProductCard.tsx",
+    "Bytes": 6132,
+    "LastWriteTime": "2026-05-12T14:38:59.5941419+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\components\\QuickProductImportForm.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\components\\QuickProductImportForm.tsx",
+    "Bytes": 30548,
+    "LastWriteTime": "2026-05-05T09:30:17.0286378+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\lib\\catalog-server.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\lib\\catalog-server.ts",
+    "Bytes": 2771,
+    "LastWriteTime": "2026-05-03T15:40:36.9068199+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\lib\\catalog.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\lib\\catalog.ts",
+    "Bytes": 32787,
+    "LastWriteTime": "2026-05-12T16:38:35.0098436+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\lib\\legal.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_002_partenaires_aliexpress_20260527_115543\\src\\lib\\legal.ts",
+    "Bytes": 5727,
+    "LastWriteTime": "2026-05-12T15:01:36.8358267+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_003_urls_partenaires_20260527_121926\\src\\app\\boutique\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_003_urls_partenaires_20260527_121926\\src\\app\\boutique\\page.tsx",
+    "Bytes": 2972,
+    "LastWriteTime": "2026-05-27T11:58:57.635601+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_003_urls_partenaires_20260527_121926\\src\\app\\conditions-dropshipping\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_003_urls_partenaires_20260527_121926\\src\\app\\conditions-dropshipping\\page.tsx",
+    "Bytes": 2019,
+    "LastWriteTime": "2026-05-27T12:01:43.9655209+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_003_urls_partenaires_20260527_121926\\src\\app\\dropshipping\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_003_urls_partenaires_20260527_121926\\src\\app\\dropshipping\\page.tsx",
+    "Bytes": 5729,
+    "LastWriteTime": "2026-05-27T11:59:10.0255228+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_003_urls_partenaires_20260527_121926\\src\\app\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_003_urls_partenaires_20260527_121926\\src\\app\\page.tsx",
+    "Bytes": 4663,
+    "LastWriteTime": "2026-05-27T11:58:34.3106393+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_003_urls_partenaires_20260527_121926\\src\\app\\sitemap.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_003_urls_partenaires_20260527_121926\\src\\app\\sitemap.ts",
+    "Bytes": 1150,
+    "LastWriteTime": "2026-05-27T11:59:59.8147504+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_003_urls_partenaires_20260527_121926\\src\\components\\Footer.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_003_urls_partenaires_20260527_121926\\src\\components\\Footer.tsx",
+    "Bytes": 2793,
+    "LastWriteTime": "2026-05-27T11:58:08.9064926+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_003_urls_partenaires_20260527_121926\\src\\components\\Header.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_003_urls_partenaires_20260527_121926\\src\\components\\Header.tsx",
+    "Bytes": 4001,
+    "LastWriteTime": "2026-05-27T11:57:55.4892268+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_003_urls_partenaires_20260527_121926\\src\\lib\\catalog.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_003_urls_partenaires_20260527_121926\\src\\lib\\catalog.ts",
+    "Bytes": 33339,
+    "LastWriteTime": "2026-05-27T11:56:55.4464855+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_004_vitrine_categories_20260527_223742\\src\\app\\boutique\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_004_vitrine_categories_20260527_223742\\src\\app\\boutique\\page.tsx",
+    "Bytes": 2972,
+    "LastWriteTime": "2026-05-27T11:58:57.635601+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_004_vitrine_categories_20260527_223742\\src\\app\\categories\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_004_vitrine_categories_20260527_223742\\src\\app\\categories\\page.tsx",
+    "Bytes": 692,
+    "LastWriteTime": "2026-05-27T11:58:41.6671224+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_004_vitrine_categories_20260527_223742\\src\\app\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_004_vitrine_categories_20260527_223742\\src\\app\\page.tsx",
+    "Bytes": 4679,
+    "LastWriteTime": "2026-05-27T12:23:21.6509794+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_004_vitrine_categories_20260527_223742\\src\\app\\produits-partenaires\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_004_vitrine_categories_20260527_223742\\src\\app\\produits-partenaires\\page.tsx",
+    "Bytes": 5732,
+    "LastWriteTime": "2026-05-27T12:20:44.3584635+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_004_vitrine_categories_20260527_223742\\src\\components\\CategoryGrid.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_004_vitrine_categories_20260527_223742\\src\\components\\CategoryGrid.tsx",
+    "Bytes": 8544,
+    "LastWriteTime": "2026-05-27T11:57:30.0603498+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_004_vitrine_categories_20260527_223742\\src\\lib\\catalog.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_004_vitrine_categories_20260527_223742\\src\\lib\\catalog.ts",
+    "Bytes": 33336,
+    "LastWriteTime": "2026-05-27T12:19:51.6384987+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_005_ponts_catalogue_20260527_224819\\src\\lib\\catalog-server.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_005_ponts_catalogue_20260527_224819\\src\\lib\\catalog-server.ts",
+    "Bytes": 4032,
+    "LastWriteTime": "2026-05-27T12:15:09.7910647+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_005_ponts_catalogue_20260527_224819\\src\\lib\\catalog.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_005_ponts_catalogue_20260527_224819\\src\\lib\\catalog.ts",
+    "Bytes": 33551,
+    "LastWriteTime": "2026-05-27T22:37:54.5935236+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_006_selection_produits_20260527_225438\\business-maxi-trouvailles\\scripts\\business_pipeline.mjs",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_006_selection_produits_20260527_225438\\business-maxi-trouvailles\\scripts\\business_pipeline.mjs",
+    "Bytes": 21449,
+    "LastWriteTime": "2026-05-22T13:57:32.673729+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_007_admin_selection_20260527_225629\\src\\app\\admin\\dropshipping\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_007_admin_selection_20260527_225629\\src\\app\\admin\\dropshipping\\page.tsx",
+    "Bytes": 1836,
+    "LastWriteTime": "2026-05-27T12:02:39.4538925+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\app\\api\\checkout\\route.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\app\\api\\checkout\\route.ts",
+    "Bytes": 8098,
+    "LastWriteTime": "2026-05-27T12:09:38.5651025+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\app\\faq\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\app\\faq\\page.tsx",
+    "Bytes": 2090,
+    "LastWriteTime": "2026-05-27T12:01:10.8802302+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\app\\paiement\\annule\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\app\\paiement\\annule\\page.tsx",
+    "Bytes": 1002,
+    "LastWriteTime": "2026-05-01T15:58:41.2554642+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\app\\paiement\\succes\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\app\\paiement\\succes\\page.tsx",
+    "Bytes": 569,
+    "LastWriteTime": "2026-05-02T03:38:09.0611202+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\app\\panier\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\app\\panier\\page.tsx",
+    "Bytes": 468,
+    "LastWriteTime": "2026-05-01T15:55:15.1278081+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\components\\CartView.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\components\\CartView.tsx",
+    "Bytes": 9897,
+    "LastWriteTime": "2026-05-12T14:41:51.3072278+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\components\\CheckoutView.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\components\\CheckoutView.tsx",
+    "Bytes": 6654,
+    "LastWriteTime": "2026-05-12T15:06:19.2985708+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\components\\OrderSuccess.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\components\\OrderSuccess.tsx",
+    "Bytes": 3307,
+    "LastWriteTime": "2026-05-02T03:38:27.13904+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\components\\TrustBar.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\components\\TrustBar.tsx",
+    "Bytes": 1393,
+    "LastWriteTime": "2026-05-01T15:52:00.0729552+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\lib\\catalog.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\lib\\catalog.ts",
+    "Bytes": 34941,
+    "LastWriteTime": "2026-05-27T22:48:39.2712225+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\lib\\legal.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_008_nettoyage_public_20260527_230922\\src\\lib\\legal.ts",
+    "Bytes": 5361,
+    "LastWriteTime": "2026-05-27T12:02:29.4081424+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_009_accueil_produits_20260527_231431\\src\\app\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_009_accueil_produits_20260527_231431\\src\\app\\page.tsx",
+    "Bytes": 4657,
+    "LastWriteTime": "2026-05-27T22:38:14.9660833+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_010_boutique_filtres_20260527_232118\\page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_010_boutique_filtres_20260527_232118\\page.tsx",
+    "Bytes": 2989,
+    "LastWriteTime": "2026-05-27T22:38:14.9666012+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_011_routes_publiques_20260527_232745\\categories-slug-page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_011_routes_publiques_20260527_232745\\categories-slug-page.tsx",
+    "Bytes": 4746,
+    "LastWriteTime": "2026-05-27T12:24:27.6398088+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_012_flux_validation_partenaires_20260527_233253\\admin-dropshipping-page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_012_flux_validation_partenaires_20260527_233253\\admin-dropshipping-page.tsx",
+    "Bytes": 2222,
+    "LastWriteTime": "2026-05-27T22:57:17.9799391+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_012_flux_validation_partenaires_20260527_233253\\admin-selection-produits-page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_012_flux_validation_partenaires_20260527_233253\\admin-selection-produits-page.tsx",
+    "Bytes": 7745,
+    "LastWriteTime": "2026-05-27T22:57:17.9799391+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_012_flux_validation_partenaires_20260527_233253\\DropshippingAdminPanel.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_012_flux_validation_partenaires_20260527_233253\\DropshippingAdminPanel.tsx",
+    "Bytes": 22228,
+    "LastWriteTime": "2026-05-27T12:02:49.8075445+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_013_validation_import_20260528_093747\\admin-dropshipping-import-route.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_013_validation_import_20260528_093747\\admin-dropshipping-import-route.ts",
+    "Bytes": 5363,
+    "LastWriteTime": "2026-05-27T12:03:31.9183496+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_013_validation_import_20260528_093747\\admin-dropshipping-page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_013_validation_import_20260528_093747\\admin-dropshipping-page.tsx",
+    "Bytes": 3179,
+    "LastWriteTime": "2026-05-27T23:33:20.9629291+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_013_validation_import_20260528_093747\\admin-selection-produits-page.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_013_validation_import_20260528_093747\\admin-selection-produits-page.tsx",
+    "Bytes": 9402,
+    "LastWriteTime": "2026-05-27T23:34:11.9281672+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_013_validation_import_20260528_093747\\catalog.ts",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_013_validation_import_20260528_093747\\catalog.ts",
+    "Bytes": 34971,
+    "LastWriteTime": "2026-05-27T23:10:01.98786+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\couche_013_validation_import_20260528_093747\\DropshippingAdminPanel.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\couche_013_validation_import_20260528_093747\\DropshippingAdminPanel.tsx",
+    "Bytes": 22963,
+    "LastWriteTime": "2026-05-27T23:33:47.9208429+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\frontend_categories_images_20260527_114127\\CategoryGrid.tsx",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\frontend_categories_images_20260527_114127\\CategoryGrid.tsx",
+    "Bytes": 4775,
+    "LastWriteTime": "2026-05-12T16:42:39.1815407+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes\\frontend_categories_images_20260527_114127\\package.json",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\sauvegardes\\frontend_categories_images_20260527_114127\\package.json",
+    "Bytes": 1181,
+    "LastWriteTime": "2026-05-27T11:33:58.9097072+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\scripts\\automation\\apply_partner_margin_target.mjs",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\scripts\\automation\\apply_partner_margin_target.mjs",
+    "Bytes": 5539,
+    "LastWriteTime": "2026-06-05T20:43:46.8892995+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\scripts\\automation\\audit_partner_catalog_images.mjs",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\scripts\\automation\\audit_partner_catalog_images.mjs",
+    "Bytes": 2158,
+    "LastWriteTime": "2026-06-05T07:10:42.6833681+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\scripts\\automation\\audit_partner_catalog_resume.mjs",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\scripts\\automation\\audit_partner_catalog_resume.mjs",
+    "Bytes": 956,
+    "LastWriteTime": "2026-06-05T07:58:27.4708107+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\scripts\\automation\\audit_partner_publication_gates.mjs",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\scripts\\automation\\audit_partner_publication_gates.mjs",
+    "Bytes": 3018,
+    "LastWriteTime": "2026-06-05T07:57:01.9971312+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\scripts\\automation\\enrich_quick_product_seo.mjs",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\scripts\\automation\\enrich_quick_product_seo.mjs",
+    "Bytes": 4160,
+    "LastWriteTime": "2026-06-05T20:46:23.8711418+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\scripts\\automation\\generate_maxi_partner_candidates.mjs",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\scripts\\automation\\generate_maxi_partner_candidates.mjs",
+    "Bytes": 9582,
+    "LastWriteTime": "2026-05-27T22:55:31.9587303+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\scripts\\automation\\import_aliexpress_partner_products.mjs",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\scripts\\automation\\import_aliexpress_partner_products.mjs",
+    "Bytes": 20523,
+    "LastWriteTime": "2026-06-05T03:37:31.8780303+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\scripts\\automation\\maxi_tiktok_factory_sandbox.py",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\scripts\\automation\\maxi_tiktok_factory_sandbox.py",
+    "Bytes": 20115,
+    "LastWriteTime": "2026-05-06T06:03:55.8140592+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\scripts\\automation\\prepare_partner_source_checklist.mjs",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\scripts\\automation\\prepare_partner_source_checklist.mjs",
+    "Bytes": 11172,
+    "LastWriteTime": "2026-06-09T07:33:44.9911842+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\scripts\\automation\\publish_latest_tiktok_sandbox.js",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\scripts\\automation\\publish_latest_tiktok_sandbox.js",
+    "Bytes": 6630,
+    "LastWriteTime": "2026-05-06T05:59:29.0093372+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\scripts\\automation\\score_partner_drafts.mjs",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\scripts\\automation\\score_partner_drafts.mjs",
+    "Bytes": 11436,
+    "LastWriteTime": "2026-06-06T01:10:05.5279594+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\scripts\\automation\\summarize_partner_catalog.mjs",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\scripts\\automation\\summarize_partner_catalog.mjs",
+    "Bytes": 2157,
+    "LastWriteTime": "2026-06-05T08:02:13.157462+02:00"
+  },
+  {
+    "Source": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\scripts\\automation\\summarize_partner_verification_queue.mjs",
+    "Destination": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapatriement-jarvis-20260609-181603\\current-couches-snapshot\\scripts\\automation\\summarize_partner_verification_queue.mjs",
+    "Bytes": 11373,
+    "LastWriteTime": "2026-06-06T01:10:42.1045669+02:00"
+  }
+]

@@ -1,0 +1,29 @@
+Preflight workspace Maxi - 2026-06-09 17:57:29
+
+Global: A VERIFIER
+
+Checks:
+- project_path_exists: OK
+- dev_url_configured: OK
+- admin_url_configured: OK
+- navigation_ok: KO
+- layout_ready: OK
+- business_gate_ready: OK
+
+Navigation:
+- routes: 0/13
+- base_url: http://127.0.0.1:3010
+
+Layout:
+- ecrans: 2
+- roles: site, admin, code, logs, jarvis
+
+Business gate:
+- sourcing reel pret: False
+- mode source attendu: demo_or_incomplete
+
+Securite:
+- Lecture seule: oui
+- Navigateur ouvert: non
+- Deplacement fenetre: non
+- Publication/commande: non

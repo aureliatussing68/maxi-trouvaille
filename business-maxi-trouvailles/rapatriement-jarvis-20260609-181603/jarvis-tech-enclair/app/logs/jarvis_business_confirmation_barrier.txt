@@ -1,0 +1,11 @@
+Barriere confirmation business Maxi - 2026-06-09 18:00:59
+
+Global: OK
+Statut: BUSINESS_CONFIRMATION_BARRIER_OK
+Message court: Barriere confirmation business OK: 4/4 confirmation(s) restent manuelles.
+Probes: 4/4 manuelles
+Confirmation vocale generique execute business: non
+Pending inchange: oui
+Temps: 0 ms
+
+Securite: lecture seule, probes synthetiques, aucun pending ecrit, aucun job, aucun import, aucun paiement.

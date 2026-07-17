@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-06-05 16:08:03",
+  "ok": true,
+  "short_message": "Tableau validation pret: Organisateur de cables de voyage compact, 2 blocage(s), affichage seulement.",
+  "html_path": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_board.html",
+  "opened": false,
+  "packet_path": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_validation_packet.md",
+  "operating_mode": "demo_draft_only",
+  "product": {
+    "title": "Organisateur de cables de voyage compact",
+    "slug": "organisateur-de-cables-de-voyage-compact",
+    "category_id": "dropshipping-accessoires",
+    "status": "brouillon_preview",
+    "publication_status": "not_published",
+    "supplier_price": "3,90 €",
+    "sale_price": "12,90 €",
+    "estimated_margin": "9,00 €",
+    "supplier_search_query": "Organisateur de cables de voyage compact accessoires livraison Europe"
+  },
+  "ads": [
+    {
+      "platform": "tiktok",
+      "label": "TikTok",
+      "duration_seconds": 18,
+      "hook": "Tu perds encore du temps avec tes cables ?",
+      "publication_status": "not_published"
+    },
+    {
+      "platform": "instagram_reels",
+      "label": "Instagram Reels",
+      "duration_seconds": 20,
+      "hook": "Tu perds encore du temps avec tes cables ?",
+      "publication_status": "not_published"
+    },
+    {
+      "platform": "snapchat_story",
+      "label": "Snapchat Story",
+      "duration_seconds": 12,
+      "hook": "Tu perds encore du temps avec tes cables ?",
+      "publication_status": "not_published"
+    }
+  ],
+  "blockers": [
+    "lien fournisseur reel manquant",
+    "sourcing reel AliExpress non pret"
+  ],
+  "validation_checklist": [
+    "Coller ou verifier un lien fournisseur reel.",
+    "Verifier prix fournisseur, livraison Europe, retours et SAV.",
+    "Verifier que le produit n'est pas dangereux, medical, contrefait ou interdit.",
+    "Verifier les images produit avant toute pub.",
+    "Valider la categorie Maxi et le prix promo.",
+    "Garder publication TikTok/Instagram/Snapchat en manuel."
+  ],
+  "decision_options": [
+    "valider_fournisseur_et_preparer_fiche_brouillon",
+    "demander_un_autre_produit",
+    "corriger_categorie_ou_prix",
+    "rejeter_le_produit"
+  ],
+  "safety": {
+    "read_only": true,
+    "display_only": true,
+    "no_import": true,
+    "no_order": true,
+    "no_payment": true,
+    "no_publication": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  }
+}

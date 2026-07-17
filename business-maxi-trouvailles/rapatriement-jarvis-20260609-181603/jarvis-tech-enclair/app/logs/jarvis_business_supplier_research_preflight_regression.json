@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-05-25 04:25:08",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "preflight_ok": true,
+    "route_supplier_research_preflight": true,
+    "execute_supplier_research_preflight": true,
+    "executor_payload_ok": true,
+    "auto_research_denied": true,
+    "research_state_known": true,
+    "inputs_known": true,
+    "key_counts_known": true,
+    "supplier_plan_count_known": true,
+    "next_manual_steps": true,
+    "no_web_or_api_started": true,
+    "no_scraping_or_sourcing": true,
+    "no_business_job_started": true,
+    "no_import_order_payment_publication": true,
+    "no_delete": true,
+    "read_only_preflight": true,
+    "no_secret_values": true,
+    "no_content_exposed": true,
+    "txt_mentions_preflight": true,
+    "no_secret_like_value_in_reports": true
+  },
+  "preflight_message": "Preflight fournisseur bloque: 3 point(s), aucune recherche web/API lancee.",
+  "note": "Regression lecture seule: le preflight fournisseur ne lance ni web, ni API, ni sourcing."
+}

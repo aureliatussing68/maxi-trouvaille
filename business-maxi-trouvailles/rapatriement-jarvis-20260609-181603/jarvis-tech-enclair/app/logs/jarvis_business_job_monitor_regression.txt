@@ -1,0 +1,28 @@
+Regression moniteur business - 2026-05-24 09:28:11
+Global: OK
+Message court: Jobs business: derniere action search-products, 0 job(s) recent(s), lecture seule.
+Message executeur: Jobs business: derniere action search-products, 0 job(s) recent(s), lecture seule.
+Jobs recents: 0
+
+- json_written: OK
+- txt_written: OK
+- pipeline_log_seen: OK
+- latest_action_present: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- route_business_job_monitor: OK
+- execute_business_job_monitor: OK
+- executor_uses_short_message: OK
+- recent_business_jobs_list: OK
+- singleflight_state_tracked: OK
+- read_only: OK
+- no_process_kill: OK
+- no_import: OK
+- no_publish: OK
+- no_order: OK
+- no_payment: OK
+- no_job_started: OK
+- manual_validation_required: OK
+- no_secret_like_value_in_text: OK
+
+Securite: lecture seule, aucun secret, aucun job lance/stoppe, aucun import/commande/paiement/publication.

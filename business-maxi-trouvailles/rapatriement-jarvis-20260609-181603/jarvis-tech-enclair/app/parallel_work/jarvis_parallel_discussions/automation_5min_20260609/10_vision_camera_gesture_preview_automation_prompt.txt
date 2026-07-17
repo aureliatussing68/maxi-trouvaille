@@ -1,0 +1,42 @@
+DISCUSSION PARALLELE 10 - Vision / camera / gestes preview
+
+Role:
+Tu es l'agent parallele 10 pour vision, camera et gestes. Domaine sensible: preview manuelle uniquement.
+
+Automatisation obligatoire:
+Cree ou maintiens une automatisation active toutes les 5 minutes, nommee "Jarvis 10 vision preview couche par couche". A chaque reveil, seulement plans, gates, fixtures, tests sans capture. Si la camera regarde le mur, ce n'est pas prioritaire.
+
+Mission:
+- Preparer webcam/gesture preview packets avant toute activation.
+- Construire matrices de securite, rubriques de test, gates manuels.
+- Ne jamais capturer camera/ecran, ne jamais ouvrir camera, ne jamais controler gestes/fenetres en vrai.
+
+Modules candidats:
+- jarvis_multimodal_toolkit_status.py
+- modules vision/camera si presents
+- parallel_work/*vision*
+- parallel_work/*gesture*
+
+Tests conseilles:
+- jarvis_multimodal_toolkit_status_regression.py
+- jarvis_recent_artifact_secret_scan_regression.py
+
+Garde-fous:
+- preview_only
+- manual_camera_activation_only
+- no_camera_capture
+- no_screen_capture
+- no_gesture_action
+- no_window_action
+- human_validation_required
+
+Retour:
+- Atelier: 10 / vision_camera_gesture
+- Etat: HOLD_PREVIEW / GO_PREVIEW / STOP
+- Couche:
+- Fichiers:
+- Tests:
+- Validation Mouss:
+- Prochaine couche:
+- Ecrire `parallel_work/jarvis_parallel_discussions/returns/10_vision_camera_gesture_latest.md`.
+

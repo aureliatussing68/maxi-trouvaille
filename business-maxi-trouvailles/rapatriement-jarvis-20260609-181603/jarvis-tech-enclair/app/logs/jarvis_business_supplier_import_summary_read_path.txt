@@ -1,0 +1,32 @@
+Chemin lecture Mouss fournisseur/import - 2026-06-09 15:43:18
+
+Global: OK
+Statut: SUPPLIER_IMPORT_SUMMARY_READ_PATH_READY
+Message court: Chemin lecture Mouss pret: resume fournisseur/import lisible, validation et import restent bloques.
+Chemin lecture pret: oui
+Mouss peut lire maintenant: oui
+Mouss peut valider maintenant: non
+Validation business autorisee: non
+Import autorise: non
+Etapes lecture OK: 6/6
+Points Mouss a traiter: 4
+Preuves manquantes: 55/55
+File validation prete: 0/6
+
+Lecture Mouss:
+- Etat fournisseur/import: bloque.
+- Points a traiter pour Mouss: 4.
+- Preuves fournisseur manquantes: 55/55.
+- File validation prete: 0/6.
+- Validation specifique requise avant toute suite.
+- Aucune action sensible lancee.
+
+Etapes de lecture:
+- Resume decisionnel disponible: OK
+- Statut d'abord: OK
+- Compteurs securises uniquement: OK
+- Blocages sans details produit: OK
+- Validation et import bloques: OK
+- Actions sensibles arretees: OK
+
+Securite: chemin lecture seule, aucun detail produit ou chemin expose, aucune recherche web/API, aucune revue import lancee, aucun import, achat, paiement, publication ou suppression.

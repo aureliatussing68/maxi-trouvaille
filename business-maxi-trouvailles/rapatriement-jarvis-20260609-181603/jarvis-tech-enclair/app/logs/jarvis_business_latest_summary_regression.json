@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-05-24 09:31:57",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "summary_has_candidates": true,
+    "summary_has_product_sheet": true,
+    "summary_has_ads": true,
+    "short_message_present": true,
+    "txt_mentions_short_message": true,
+    "route_business_latest_summary": true,
+    "execute_business_latest_summary": true,
+    "executor_uses_short_message": true,
+    "read_only": true,
+    "no_import": true,
+    "no_order": true,
+    "no_publication": true,
+    "manual_validation_required": true,
+    "publication_statuses_not_published": true,
+    "no_secret_like_value_in_text": true
+  },
+  "short_message": "Resultats business: 10 candidat(s), fiche Produit fictif - organisateur malin de bureau, 3 pub(s) brouillon, validation obligatoire.",
+  "executor_message": "Resultats business: 10 candidat(s), fiche Produit fictif - organisateur malin de bureau, 3 pub(s) brouillon, validation obligatoire.",
+  "candidate_count": 10,
+  "note": "Regression lecture seule des derniers resultats business. Aucun import, commande ou publication n'est declenche."
+}

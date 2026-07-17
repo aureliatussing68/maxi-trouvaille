@@ -1,0 +1,20 @@
+Garde import brouillon business - 2026-06-09 18:00:59
+
+Message court: Import brouillon bloque pour relecture manuelle: Organisateur de cables de voyage compact, 2 exigence(s) a verifier, aucune modification.
+Produit: Organisateur de cables de voyage compact
+Categorie: dropshipping-accessoires
+Decision: BLOCKED_FOR_MANUAL_REVIEW
+Import brouillon autorise: NON
+Sourcing reel pret: NON
+Mode acces: draft_only
+
+Exigences manquantes:
+- real_sourcing_ready
+- validation_packet_clear
+
+Blocages:
+- lien fournisseur reel manquant
+- sourcing reel AliExpress non pret
+
+Message: Import brouillon bloque: il manque encore les validations fournisseur/sourcing.
+Securite: aucune modification site, aucun import, achat, paiement ou publication.

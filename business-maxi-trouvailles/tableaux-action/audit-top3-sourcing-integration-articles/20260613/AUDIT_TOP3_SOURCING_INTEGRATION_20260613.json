@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-13T12:11:45.580Z",
+  "generatedAtLocal": "2026-06-13 14:11 Europe/Paris",
+  "mode": "read_only_integration_top3_sourcing_sprint_audit",
+  "status": "OK_TOP3_SOURCING_GUARDED",
+  "productCount": 3,
+  "totalMissingFieldCount": 33,
+  "expectedImageCount": 9,
+  "scannedFileCount": 3,
+  "failureCount": 0,
+  "sensitiveFindingCount": 0,
+  "issues": [],
+  "sensitiveFindings": [],
+  "sources": {
+    "top3Path": "business-maxi-trouvailles/tableaux-action/top3-sourcing-integration-articles/20260613/TOP3_SOURCING_INTEGRATION_20260613.json",
+    "boardPath": "business-maxi-trouvailles/tableaux-action/pilotage-sourcing-integration-articles/20260613/PILOTAGE_SOURCING_INTEGRATION_20260613.json",
+    "boardAuditPath": "business-maxi-trouvailles/tableaux-action/audit-pilotage-sourcing-integration-articles/20260613/AUDIT_PILOTAGE_SOURCING_INTEGRATION_20260613.json"
+  },
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noImageDownload": true,
+    "manualValidationRequired": true
+  }
+}

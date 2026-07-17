@@ -1,0 +1,14 @@
+
+> maxi-trouvaille@0.1.0 dev
+> next dev --webpack -p 3273
+
+▲ Next.js 16.2.6 (webpack)
+- Local:         http://localhost:3273
+- Network:       http://192.168.1.121:3273
+- Environments: .env.local
+✓ Ready in 358ms
+
+○ Compiling /categories ...
+ GET /categories 200 in 6.2s (next.js: 3.5s, application-code: 2.8s)
+ GET /categories 200 in 231ms (next.js: 3ms, application-code: 228ms)
+[?25h

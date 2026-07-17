@@ -1,0 +1,348 @@
+import fs from "node:fs";
+import path from "node:path";
+
+const root = process.cwd();
+const actionRoot = path.join(root, "business-maxi-trouvailles", "tableaux-action");
+const proofRoot = path.join(root, "business-maxi-trouvailles", "preuves-images-publiques");
+const defaultLimit = 12;
+
+function parseLimit() {
+  const arg = process.argv.find((value) => value.startsWith("--limit="));
+  const parsed = Number.parseInt(arg?.split("=")[1] ?? "", 10);
+
+  if (Number.isFinite(parsed) && parsed > 0) {
+    return parsed;
+  }
+
+  return defaultLimit;
+}
+
+function datePartsParis(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Paris",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(date);
+  const byType = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+
+  return {
+    dateKey: `${byType.year}${byType.month}${byType.day}`,
+    localLabel: `${byType.year}-${byType.month}-${byType.day} ${byType.hour}:${byType.minute} Europe/Paris`,
+  };
+}
+
+function latestDirectoryUnder(dirPath, prefix) {
+  if (!dirPath || !fs.existsSync(dirPath)) {
+    return null;
+  }
+
+  return fs
+    .readdirSync(dirPath, { withFileTypes: true })
+    .filter(
+      (entry) =>
+        entry.isDirectory() &&
+        entry.name.startsWith(prefix) &&
+        !entry.name.startsWith("public-image-action-board-audit-") &&
+        !entry.name.startsWith("public-image-proof-pack-audit-"),
+    )
+    .map((entry) => path.join(dirPath, entry.name))
+    .sort((a, b) => fs.statSync(b).mtimeMs - fs.statSync(a).mtimeMs)[0] ?? null;
+}
+
+function latestFileUnder(dirPath, prefix) {
+  if (!dirPath || !fs.existsSync(dirPath)) {
+    return null;
+  }
+
+  return fs
+    .readdirSync(dirPath)
+    .filter((name) => name.startsWith(prefix) && name.endsWith(".json"))
+    .map((name) => path.join(dirPath, name))
+    .sort((a, b) => fs.statSync(b).mtimeMs - fs.statSync(a).mtimeMs)[0] ?? null;
+}
+
+function readJson(filePath) {
+  return JSON.parse(fs.readFileSync(filePath, "utf8"));
+}
+
+function rel(filePath) {
+  return path.relative(root, filePath).replace(/\\/g, "/");
+}
+
+function slugSafe(value) {
+  const slug = String(value ?? "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "")
+    .slice(0, 80);
+
+  return slug || "produit-hold";
+}
+
+function proofFolderFor(item) {
+  return path.join(proofRoot, slugSafe(item.slug || item.id || item.name));
+}
+
+function fileNameFromTarget(item) {
+  return path.basename(String(item.targetPublicPath ?? `${slugSafe(item.slug)}.webp`));
+}
+
+function csvEscape(value) {
+  const text = Array.isArray(value) ? value.join(" | ") : String(value ?? "");
+  return `"${text.replace(/"/g, '""')}"`;
+}
+
+function writeIfMissing(filePath, content) {
+  if (fs.existsSync(filePath)) {
+    return "existing";
+  }
+
+  fs.writeFileSync(filePath, content, "utf8");
+  return "created";
+}
+
+function checklist(item, paths) {
+  return `${[
+    `# Preuve image exacte - ${item.name}`,
+    "",
+    "Statut: HOLD - validation humaine requise",
+    "",
+    `Produit: ${item.name}`,
+    `Slug: ${item.slug}`,
+    `Categorie: ${item.categoryId}`,
+    `Lane image: ${item.lane}`,
+    `Blocages image: ${item.imageBlockers.join(", ")}`,
+    `Image actuelle: ${item.currentImage}`,
+    "",
+    "## Cible WebP",
+    "",
+    `- Chemin public apres validation: \`${item.targetPublicPath}\``,
+    `- Chemin local apres validation: \`${item.targetLocalPath}\``,
+    `- Dossier de travail manuel: \`${rel(paths.dropFolder)}\``,
+    `- Nom attendu: \`${paths.expectedFileName}\``,
+    "",
+    "## Checklist photo",
+    "",
+    "- [ ] Le visuel represente le meme article exact que la fiche.",
+    "- [ ] La variante vendue est identique: couleur, taille, lot et accessoires inclus.",
+    "- [ ] Le fichier final est un WebP local lisible.",
+    "- [ ] Les droits image sont prouves ou la photo est une production propre Maxi Trouvaille.",
+    "- [ ] Aucun watermark, logo plateforme ou marqueur partenaire non autorise n'est visible.",
+    "- [ ] Stock, delai, prix de vente et marge restent en HOLD tant que la preuve source n'est pas relue.",
+    "- [ ] Validation humaine Mouss faite avant copie dans le dossier public.",
+    "",
+    checklistEvidenceSection().trimEnd(),
+    "",
+    "## Apres depot manuel",
+    "",
+    "```powershell",
+    "npm run catalog:audit-public-image-proof-pack",
+    "npm run catalog:public-image-action-board",
+    "npm run catalog:audit-public-image-action-board",
+    "npm run catalog:audit-public-dropshipping-surface",
+    "npm run catalog:audit-checkout-eligibility",
+    "```",
+    "",
+  ].join("\n")}\n`;
+}
+
+function marker(item, paths) {
+  return `${[
+    `Image attendue pour: ${item.name}`,
+    `Nom fichier WebP attendu: ${paths.expectedFileName}`,
+    `Chemin public apres validation humaine: ${item.targetPublicPath}`,
+    "",
+    "Ne pas remplacer ce marqueur par un faux visuel.",
+    "Deposer ici la photo WebP exacte uniquement apres verification manuelle.",
+    "Aucune copie vers public/uploads/partner-products sans validation Mouss.",
+    "",
+  ].join("\n")}\n`;
+}
+
+function checklistEvidenceSection() {
+  return `${[
+    "## Preuves texte obligatoires avant copie publique",
+    "",
+    "- Source image exacte: A REMPLIR",
+    "- Droits image: A REMPLIR",
+    "- Meme article exact confirme: A REMPLIR",
+    "- Variante exacte confirmee: A REMPLIR",
+    "- Validation Mouss: A REMPLIR",
+    "- Decision copie publique: HOLD",
+    "",
+  ].join("\n")}\n`;
+}
+
+function ensureChecklistEvidenceSection(filePath) {
+  const source = fs.readFileSync(filePath, "utf8");
+  if (source.includes("## Preuves texte obligatoires avant copie publique")) {
+    return "existing";
+  }
+
+  fs.writeFileSync(filePath, `${source.trimEnd()}\n\n${checklistEvidenceSection()}`, "utf8");
+  return "appended";
+}
+
+function markdown(summary) {
+  const rows = summary.items.map(
+    (item) =>
+      `| ${item.priority} | ${item.name} | ${item.lane} | ${item.expectedFileName} | ${item.checklistPath} |`,
+  );
+
+  return `${[
+    "# Maxi Trouvailles - Pack preuves images publiques",
+    "",
+    `Date locale: ${summary.generatedAtLocal}`,
+    `Source board: ${summary.sourceBoard}`,
+    `Produits prepares: ${summary.itemCount}/${summary.totalBoardItems}`,
+    "",
+    "| Priorite | Produit | Lane | WebP attendu | Checklist |",
+    "|---:|---|---|---|---|",
+    ...rows,
+    "",
+    "## Garde-fous",
+    "",
+    "- Aucun produit modifie.",
+    "- Aucun fichier image cree.",
+    "- Aucune copie dans `public/uploads/partner-products`.",
+    "- Aucun telechargement image.",
+    "- Aucune publication.",
+    "- Aucun paiement.",
+    "- Aucune commande partenaire.",
+    "",
+  ].join("\n")}\n`;
+}
+
+function toCsv(items) {
+  const headers = [
+    "priority",
+    "name",
+    "slug",
+    "lane",
+    "expectedFileName",
+    "targetPublicPath",
+    "targetLocalPath",
+    "proofFolder",
+    "dropFolder",
+    "checklistPath",
+    "markerPath",
+    "checklistStatus",
+    "checklistEvidenceSectionStatus",
+  ];
+
+  return `${headers.join(",")}\n${items
+    .map((item) => headers.map((header) => csvEscape(item[header])).join(","))
+    .join("\n")}\n`;
+}
+
+const limit = parseLimit();
+const boardDir = latestDirectoryUnder(actionRoot, "public-image-action-board-");
+const boardJsonPath = latestFileUnder(boardDir, "PUBLIC_IMAGE_ACTION_BOARD_");
+
+if (!boardJsonPath) {
+  throw new Error("Aucun board images publiques exactes trouve.");
+}
+
+const board = readJson(boardJsonPath);
+const sourceItems = Array.isArray(board.items) ? board.items : [];
+const selectedItems = sourceItems.slice(0, limit);
+const { dateKey, localLabel } = datePartsParis();
+const outputDir = path.join(actionRoot, `public-image-proof-pack-${dateKey}`);
+
+fs.mkdirSync(outputDir, { recursive: true });
+fs.mkdirSync(proofRoot, { recursive: true });
+
+const items = selectedItems.map((item) => {
+  const proofFolder = proofFolderFor(item);
+  const dropFolder = path.join(proofFolder, "depot-manuel");
+  const expectedFileName = fileNameFromTarget(item);
+  const checklistPath = path.join(proofFolder, `PREUVE_IMAGE_${slugSafe(item.slug)}.md`);
+  const markerPath = path.join(dropFolder, `A_DEPOSER_${expectedFileName}.txt`);
+
+  fs.mkdirSync(dropFolder, { recursive: true });
+
+  const paths = { proofFolder, dropFolder, expectedFileName, checklistPath, markerPath };
+  const checklistStatus = writeIfMissing(checklistPath, checklist(item, paths));
+  const checklistEvidenceSectionStatus = ensureChecklistEvidenceSection(checklistPath);
+  const markerStatus = writeIfMissing(markerPath, marker(item, paths));
+
+  return {
+    priority: item.priority,
+    name: item.name,
+    slug: item.slug,
+    lane: item.lane,
+    categoryId: item.categoryId,
+    imageBlockers: item.imageBlockers,
+    currentImage: item.currentImage,
+    expectedFileName,
+    targetPublicPath: item.targetPublicPath,
+    targetLocalPath: item.targetLocalPath,
+    proofFolder: rel(proofFolder),
+    dropFolder: rel(dropFolder),
+    checklistPath: rel(checklistPath),
+    markerPath: rel(markerPath),
+    checklistStatus,
+    checklistEvidenceSectionStatus,
+    markerStatus,
+  };
+});
+
+const summary = {
+  ok: true,
+  generatedAt: new Date().toISOString(),
+  generatedAtLocal: localLabel,
+  mode: "manual_public_image_proof_pack",
+  sourceBoard: rel(boardJsonPath),
+  sourceAudit: board.sourceAudit,
+  limit,
+  itemCount: items.length,
+  totalBoardItems: sourceItems.length,
+  proofRoot: rel(proofRoot),
+  createdChecklists: items.filter((item) => item.checklistStatus === "created").length,
+  existingChecklists: items.filter((item) => item.checklistStatus === "existing").length,
+  appendedChecklistEvidenceSections: items.filter(
+    (item) => item.checklistEvidenceSectionStatus === "appended",
+  ).length,
+  items,
+  safety: {
+    readOnlyBoard: true,
+    noCatalogWrite: true,
+    noImageDownload: true,
+    noImageFileCreated: true,
+    noPublicImageWrite: true,
+    noPublication: true,
+    noPayment: true,
+    noSupplierOrder: true,
+    preservesExistingChecklists: true,
+  },
+};
+
+const jsonPath = path.join(outputDir, `PACK_PREUVES_IMAGES_PUBLIQUES_${dateKey}.json`);
+const mdPath = path.join(outputDir, `PACK_PREUVES_IMAGES_PUBLIQUES_${dateKey}.md`);
+const csvPath = path.join(outputDir, `maxi-pack-preuves-images-publiques-${dateKey}.csv`);
+
+fs.writeFileSync(jsonPath, `${JSON.stringify(summary, null, 2)}\n`, "utf8");
+fs.writeFileSync(mdPath, markdown(summary), "utf8");
+fs.writeFileSync(csvPath, toCsv(items), "utf8");
+
+console.log(
+  JSON.stringify(
+    {
+      ok: summary.ok,
+      mode: summary.mode,
+      itemCount: summary.itemCount,
+      createdChecklists: summary.createdChecklists,
+      existingChecklists: summary.existingChecklists,
+      files: { jsonPath, mdPath, csvPath, proofRoot },
+      safety: summary.safety,
+    },
+    null,
+    2,
+  ),
+);

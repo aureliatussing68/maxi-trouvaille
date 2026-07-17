@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "generatedAtLocal": "2026-06-11T14:02:35.561Z",
+  "checks": [
+    {
+      "name": "desktop",
+      "viewport": {
+        "width": 1440,
+        "height": 1100
+      },
+      "url": "http://127.0.0.1:3054/admin/pilotage",
+      "visibility": {
+        "Depot photo exact": true,
+        "Alerte post-depot": true,
+        "Ordre de travail photos": true,
+        "8 photos a produire maintenant": true,
+        "HOLD PHOTOS MANQUANTES": true,
+        "Exporter ordre photos CSV": true,
+        "ORDRE_TRAVAIL_PHOTOS_MANQUANTES_20260611.json": true
+      },
+      "exportPresent": true,
+      "csvChecks": {
+        "hasExpectedFileColumn": true,
+        "hasDropPathColumn": true,
+        "hasImageOrderColumn": true,
+        "hasWorkOrderMarker": true,
+        "rowCount": 10,
+        "forbiddenHits": []
+      },
+      "layout": {
+        "innerWidth": 1440,
+        "scrollWidth": 1440,
+        "bodyScrollWidth": 1440,
+        "horizontalOverflow": 0,
+        "bodyOverflowX": "clip",
+        "overflowing": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-135-pilotage-ordre-photos-desktop.png",
+      "ok": true
+    },
+    {
+      "name": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:3054/admin/pilotage",
+      "visibility": {
+        "Depot photo exact": true,
+        "Alerte post-depot": true,
+        "Ordre de travail photos": true,
+        "8 photos a produire maintenant": true,
+        "HOLD PHOTOS MANQUANTES": true,
+        "Exporter ordre photos CSV": true,
+        "ORDRE_TRAVAIL_PHOTOS_MANQUANTES_20260611.json": true
+      },
+      "exportPresent": true,
+      "csvChecks": {
+        "hasExpectedFileColumn": true,
+        "hasDropPathColumn": true,
+        "hasImageOrderColumn": true,
+        "hasWorkOrderMarker": true,
+        "rowCount": 10,
+        "forbiddenHits": []
+      },
+      "layout": {
+        "innerWidth": 390,
+        "scrollWidth": 396,
+        "bodyScrollWidth": 396,
+        "horizontalOverflow": 6,
+        "bodyOverflowX": "clip",
+        "overflowing": []
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-135-pilotage-ordre-photos-mobile.png",
+      "ok": true
+    }
+  ]
+}

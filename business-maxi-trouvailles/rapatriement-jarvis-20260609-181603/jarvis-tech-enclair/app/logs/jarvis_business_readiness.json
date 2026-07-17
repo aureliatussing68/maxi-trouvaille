@@ -1,0 +1,146 @@
+{
+  "checked_at": "2026-06-09 17:57:31",
+  "ok": true,
+  "overall": "OK",
+  "short_message": "Business Maxi pret: mode brouillon, publication/paiement/commande bloques.",
+  "elapsed_ms": 811,
+  "cache_used": false,
+  "cache_age_seconds": 0,
+  "cache_seconds": 300,
+  "source_checked_at_epoch": 1781020651.66986,
+  "project": {
+    "id": "maxi_trouvailles",
+    "label": "Maxi Trouvailles",
+    "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille",
+    "public_url": "https://maxitrouvaille.fr",
+    "dev_url": "http://127.0.0.1:3010",
+    "admin_url": "http://127.0.0.1:3010/admin/dropshipping"
+  },
+  "checks": {
+    "project_path": {
+      "ok": true,
+      "status": "OK",
+      "detail": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille"
+    },
+    "package_json": {
+      "ok": true,
+      "status": "OK",
+      "detail": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\package.json"
+    },
+    "business_dirs": {
+      "ok": true,
+      "status": "OK",
+      "detail": "0 dossier(s) manquant(s)"
+    },
+    "public_url": {
+      "ok": true,
+      "status": "OK",
+      "detail": "HTTP 200"
+    },
+    "local_dev_url": {
+      "ok": false,
+      "status": "OFFLINE",
+      "detail": "port local ferme, probe HTTP ignore"
+    },
+    "admin_url": {
+      "ok": false,
+      "status": "OFFLINE",
+      "detail": "port local ferme, probe HTTP ignore"
+    },
+    "aliexpress_url": {
+      "ok": true,
+      "status": "OK",
+      "detail": "HTTP 200"
+    },
+    "aliexpress_keys": {
+      "ok": false,
+      "status": "A_CONFIGURER",
+      "detail": "statuts masques, aucune cle affichee"
+    }
+  },
+  "business_dirs": {
+    "ok": true,
+    "business_dir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles",
+    "business_dir_exists": true,
+    "missing": [],
+    "dirs": {
+      "produits-a-valider": {
+        "exists": true,
+        "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider"
+      },
+      "produits-valides": {
+        "exists": true,
+        "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-valides"
+      },
+      "fiches-produits": {
+        "exists": true,
+        "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\fiches-produits"
+      },
+      "exports-publicites": {
+        "exists": true,
+        "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites"
+      },
+      "images-produits": {
+        "exists": true,
+        "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\images-produits"
+      },
+      "videos-produits": {
+        "exists": true,
+        "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\videos-produits"
+      },
+      "logs": {
+        "exists": true,
+        "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\logs"
+      },
+      "sauvegardes": {
+        "exists": true,
+        "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\sauvegardes"
+      },
+      "api-config": {
+        "exists": true,
+        "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\api-config"
+      },
+      "docs": {
+        "exists": true,
+        "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\docs"
+      },
+      "scripts": {
+        "exists": true,
+        "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\scripts"
+      }
+    }
+  },
+  "aliexpress": {
+    "url": "https://www.aliexpress.com",
+    "key_statuses": [
+      {
+        "variable": "ALIEXPRESS_APP_KEY",
+        "status": "PARTIEL"
+      },
+      {
+        "variable": "ALIEXPRESS_APP_SECRET",
+        "status": "OK"
+      },
+      {
+        "variable": "ALIEXPRESS_TRACKING_ID",
+        "status": "MANQUANT"
+      }
+    ],
+    "mode": "lecture_test_uniquement"
+  },
+  "safety": {
+    "auto_publish": false,
+    "auto_tiktok_publish": false,
+    "auto_aliexpress_order": false,
+    "auto_payment": false,
+    "production_write": false,
+    "mode": "draft_only",
+    "manual_validation_required": true
+  },
+  "next_safe_steps": [
+    "creer les dossiers manquants si besoin",
+    "tester une recherche AliExpress en lecture seule",
+    "generer un produit fictif brouillon",
+    "ne publier qu'apres validation manuelle"
+  ]
+}

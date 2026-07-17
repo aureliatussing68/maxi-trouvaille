@@ -1,0 +1,32 @@
+Mapping categories business Maxi - 2026-06-09 18:00:59
+
+Message court: Mapping categories: 10 produit(s), 1 fallback(s), proposition uniquement.
+Candidats: 10
+Fallbacks: 1
+
+Categories cibles disponibles:
+- dropshipping-nouveautes: Nouveautés
+- dropshipping-promotions: Promotions
+- dropshipping-maison: Maison
+- dropshipping-cuisine: Cuisine
+- dropshipping-beaute: Beauté
+- dropshipping-high-tech: High-tech
+- dropshipping-accessoires: Accessoires
+- dropshipping-auto-moto: Auto / Moto
+- dropshipping-animaux: Animaux
+- dropshipping-enfant: Enfant
+- dropshipping-mode: Mode
+
+Mapping candidats:
+1. Lampe LED rechargeable magnetique pour bureau | maison -> dropshipping-maison (high)
+2. Organisateur de cables de voyage compact | accessoires -> dropshipping-accessoires (high)
+3. Mini aspirateur sans fil pour voiture | auto-moto -> dropshipping-auto-moto (high)
+4. Support telephone voiture rotation 360 | telephonie -> dropshipping-high-tech (high)
+5. Brosse anti-poils reutilisable pour animaux | animaux -> dropshipping-animaux (high)
+6. Mini humidificateur USB decoratif | maison -> dropshipping-maison (high)
+7. Sac de rangement compressible pour valise | accessoires -> dropshipping-accessoires (high)
+8. Veilleuse detecteur de mouvement pour placard | electricite -> dropshipping-high-tech (high)
+9. Kit embouts tournevis precision 24 pieces | outillage -> dropshipping-nouveautes (fallback)
+10. Filtre douche economiseur avec jet reglable | maison -> dropshipping-maison (high)
+
+Securite: lecture seule, aucun import ni publication.

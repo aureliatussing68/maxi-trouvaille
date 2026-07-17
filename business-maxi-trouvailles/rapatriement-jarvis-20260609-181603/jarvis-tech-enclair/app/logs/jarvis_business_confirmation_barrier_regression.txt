@@ -1,0 +1,30 @@
+Regression barriere confirmation business - 2026-06-03 18:22:32
+
+Global: OK
+Message barriere: Barriere confirmation business OK: 4/4 confirmation(s) restent manuelles.
+Route confirmation generique: core.confirmation_confirm
+
+Assertions:
+- json_written: OK
+- txt_written: OK
+- barrier_ok: OK
+- all_business_confirmations_manual_only: OK
+- confirmation_allowed_to_execute_business_false: OK
+- generic_confirmation_executes_business_false: OK
+- pending_unchanged: OK
+- confirmation_manager_manual_helper: OK
+- route_business_confirmation_barrier: OK
+- execute_business_confirmation_barrier: OK
+- executor_payload_ok: OK
+- generic_confirm_routes_core_only: OK
+- no_pending_written: OK
+- no_confirmation_confirmed: OK
+- no_business_job_started: OK
+- no_subprocess_started: OK
+- no_import_order_payment_publication: OK
+- no_secret_values: OK
+- no_content_exposed: OK
+- txt_mentions_barrier: OK
+- no_secret_like_value_in_reports: OK
+
+Regression lecture seule: une validation vocale generique ne cree aucun chemin d'execution business.

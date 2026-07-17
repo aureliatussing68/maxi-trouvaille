@@ -1,0 +1,21 @@
+Diagnostic navigation Maxi - 2026-06-09 17:57:29
+
+Global: A VERIFIER
+Routes OK: 0/13
+Base URL: http://127.0.0.1:3010
+Base joignable: non
+
+Routes:
+- accueil: KO - base_unreachable:URLError - 1204 ms
+- boutique: KO - base_unreachable:URLError - 0 ms
+- categories: KO - base_unreachable:URLError - 0 ms
+- panier: KO - base_unreachable:URLError - 0 ms
+- admin_dropshipping: KO - base_unreachable:URLError - 0 ms
+- admin_ajout_rapide: KO - base_unreachable:URLError - 0 ms
+- admin_ajout_images: KO - base_unreachable:URLError - 0 ms
+- admin_messages: KO - base_unreachable:URLError - 0 ms
+- dropshipping_nouveautes: KO - base_unreachable:URLError - 0 ms
+- dropshipping_promotions: KO - base_unreachable:URLError - 0 ms
+- dropshipping_high_tech: KO - base_unreachable:URLError - 0 ms
+- dropshipping_maison: KO - base_unreachable:URLError - 0 ms
+- dropshipping_accessoires: KO - base_unreachable:URLError - 0 ms

@@ -1,8 +1,9 @@
 # Maxi Trouvaille
 
-Boutique e-commerce Next.js pour vendre des colis perdus, lots, bonnes affaires
-et produits multi-categories. Le site est prepare pour demarrer en boutique
-classique, puis evoluer plus tard vers une marketplace avec vendeurs externes.
+Boutique e-commerce Next.js pour vendre des bonnes affaires, produits utiles
+et produits partenaires multi-categories. Le site est prepare pour demarrer
+en boutique classique, puis evoluer plus tard vers une marketplace avec
+vendeurs externes.
 
 ## Stack choisie
 
@@ -10,6 +11,7 @@ classique, puis evoluer plus tard vers une marketplace avec vendeurs externes.
 - Tailwind CSS
 - Panier local persistant avec React Context
 - Stripe Checkout cote serveur, en mode test uniquement
+- Messages produits stockes en JSON local ou Postgres en production
 - Catalogue modifiable dans `src/lib/catalog.ts`
 - Preparation marketplace dans `src/lib/marketplace.ts`
 - PWA installable depuis le navigateur avec manifest, icones et service worker
@@ -65,6 +67,11 @@ Le fichier `.env.production.example` liste les variables a creer chez
 l'hebergeur. Le domaine cible est `https://maxitrouvaille.fr`.
 
 La procedure domaine/DNS est documentee dans `docs/deploiement-domaine.md`.
+
+Pour garder les messages clients, vues/favoris et avis apres deploiement,
+ajouter une base Postgres et renseigner `DATABASE_URL` ou les variables
+dediees `PRODUCT_STATS_DATABASE_URL`, `PRODUCT_REVIEWS_DATABASE_URL` et
+`PRODUCT_MESSAGES_DATABASE_URL`.
 
 ## Tester la PWA
 

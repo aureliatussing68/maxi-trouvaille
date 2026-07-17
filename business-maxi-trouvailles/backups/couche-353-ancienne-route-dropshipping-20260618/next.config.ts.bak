@@ -1,0 +1,68 @@
+import type { NextConfig } from "next";
+
+const publicRouteAliases = [
+  { source: "/aide", destination: "/faq", permanent: true },
+  { source: "/catalogue", destination: "/boutique", permanent: true },
+  {
+    source: "/cgv",
+    destination: "/conditions-generales-vente",
+    permanent: true,
+  },
+  {
+    source: "/confidentialite",
+    destination: "/politique-confidentialite",
+    permanent: true,
+  },
+  { source: "/livraison-colis", destination: "/livraison", permanent: true },
+  { source: "/mentions", destination: "/mentions-legales", permanent: true },
+  {
+    source: "/partenaires",
+    destination: "/produits-partenaires",
+    permanent: true,
+  },
+  { source: "/produits", destination: "/boutique", permanent: true },
+  {
+    source: "/retours",
+    destination: "/retours-remboursements",
+    permanent: true,
+  },
+  { source: "/shop", destination: "/boutique", permanent: true },
+  { source: "/suivi", destination: "/suivi-colis", permanent: true },
+];
+
+const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      ...publicRouteAliases,
+      {
+        source: "/:path*",
+        has: [
+          {
+            type: "host",
+            value: "www.maxitrouvaille.fr",
+          },
+        ],
+        destination: "https://maxitrouvaille.fr/:path*",
+        permanent: true,
+      },
+    ];
+  },
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+      },
+      {
+        protocol: "https",
+        hostname: "ae01.alicdn.com",
+      },
+      {
+        protocol: "https",
+        hostname: "ae-pic-a1.aliexpress-media.com",
+      },
+    ],
+  },
+};
+
+export default nextConfig;

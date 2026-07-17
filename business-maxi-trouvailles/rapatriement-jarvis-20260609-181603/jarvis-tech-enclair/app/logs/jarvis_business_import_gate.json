@@ -1,0 +1,41 @@
+{
+  "checked_at": "2026-06-09 18:00:59",
+  "ok": true,
+  "short_message": "Import brouillon bloque pour relecture manuelle: Organisateur de cables de voyage compact, 2 exigence(s) a verifier, aucune modification.",
+  "product": {
+    "title": "Organisateur de cables de voyage compact",
+    "slug": "organisateur-de-cables-de-voyage-compact",
+    "category_id": "dropshipping-accessoires",
+    "status": "brouillon_preview",
+    "publication_status": "not_published",
+    "supplier_price": "3,90 €",
+    "sale_price": "12,90 €",
+    "estimated_margin": "9,00 €",
+    "supplier_search_query": "Organisateur de cables de voyage compact accessoires livraison Europe"
+  },
+  "import_draft_allowed": false,
+  "decision": "BLOCKED_FOR_MANUAL_REVIEW",
+  "missing_requirements": [
+    "real_sourcing_ready",
+    "validation_packet_clear"
+  ],
+  "blockers": [
+    "lien fournisseur reel manquant",
+    "sourcing reel AliExpress non pret"
+  ],
+  "operator_message": "Import brouillon bloque: il manque encore les validations fournisseur/sourcing.",
+  "source_mode": "demo",
+  "real_sourcing_ready": false,
+  "access_mode": "draft_only",
+  "safety": {
+    "read_only": true,
+    "gate_only": true,
+    "import_started": false,
+    "site_modified": false,
+    "order_started": false,
+    "payment_started": false,
+    "publication_started": false,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  }
+}

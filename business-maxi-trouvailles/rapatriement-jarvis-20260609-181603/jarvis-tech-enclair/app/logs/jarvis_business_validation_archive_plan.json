@@ -1,0 +1,71 @@
+{
+  "checked_at": "2026-06-09 15:43:21",
+  "ok": true,
+  "queue_dir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider",
+  "archive_root": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\archives-a-valider",
+  "duplicate_group_count": 1,
+  "planned_archive_count": 5,
+  "moves": [
+    {
+      "product_key": "organisateur-de-cables-de-voyage-compact",
+      "product_title": "Organisateur de cables de voyage compact",
+      "keep_folder": "organisateur-de-cables-de-voyage-compact_20260523_130345",
+      "source_folder": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_124353",
+      "target_folder": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\archives-a-valider\\organisateur-de-cables-de-voyage-compact\\organisateur-de-cables-de-voyage-compact_20260523_124353",
+      "reason": "ancien doublon du meme produit",
+      "requires_manual_validation": true
+    },
+    {
+      "product_key": "organisateur-de-cables-de-voyage-compact",
+      "product_title": "Organisateur de cables de voyage compact",
+      "keep_folder": "organisateur-de-cables-de-voyage-compact_20260523_130345",
+      "source_folder": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_122413",
+      "target_folder": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\archives-a-valider\\organisateur-de-cables-de-voyage-compact\\organisateur-de-cables-de-voyage-compact_20260523_122413",
+      "reason": "ancien doublon du meme produit",
+      "requires_manual_validation": true
+    },
+    {
+      "product_key": "organisateur-de-cables-de-voyage-compact",
+      "product_title": "Organisateur de cables de voyage compact",
+      "keep_folder": "organisateur-de-cables-de-voyage-compact_20260523_130345",
+      "source_folder": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_121528",
+      "target_folder": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\archives-a-valider\\organisateur-de-cables-de-voyage-compact\\organisateur-de-cables-de-voyage-compact_20260523_121528",
+      "reason": "ancien doublon du meme produit",
+      "requires_manual_validation": true
+    },
+    {
+      "product_key": "organisateur-de-cables-de-voyage-compact",
+      "product_title": "Organisateur de cables de voyage compact",
+      "keep_folder": "organisateur-de-cables-de-voyage-compact_20260523_130345",
+      "source_folder": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084346",
+      "target_folder": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\archives-a-valider\\organisateur-de-cables-de-voyage-compact\\organisateur-de-cables-de-voyage-compact_20260523_084346",
+      "reason": "ancien doublon du meme produit",
+      "requires_manual_validation": true
+    },
+    {
+      "product_key": "organisateur-de-cables-de-voyage-compact",
+      "product_title": "Organisateur de cables de voyage compact",
+      "keep_folder": "organisateur-de-cables-de-voyage-compact_20260523_130345",
+      "source_folder": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_084322",
+      "target_folder": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\archives-a-valider\\organisateur-de-cables-de-voyage-compact\\organisateur-de-cables-de-voyage-compact_20260523_084322",
+      "reason": "ancien doublon du meme produit",
+      "requires_manual_validation": true
+    }
+  ],
+  "operator_message": "Plan d'archivage pret. Aucun fichier n'a ete deplace.",
+  "safety": {
+    "read_only": true,
+    "plan_only": true,
+    "files_deleted": false,
+    "files_moved": false,
+    "archive_executed": false,
+    "site_modified": false,
+    "import_started": false,
+    "order_started": false,
+    "payment_started": false,
+    "publication_started": false,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  },
+  "short_message": "Plan archivage: 5 dossier(s), 1 groupe(s), validation manuelle avant deplacement."
+}

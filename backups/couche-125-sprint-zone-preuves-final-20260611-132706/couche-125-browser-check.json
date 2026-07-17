@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "url": "http://127.0.0.1:3046/admin/preuves-partenaires?status=hold&zone=image",
+  "checks": [
+    {
+      "name": "desktop-text:sprint zone active",
+      "ok": true
+    },
+    {
+      "name": "desktop-text:images / droits",
+      "ok": true
+    },
+    {
+      "name": "desktop-text:traiter cette preuve",
+      "ok": true
+    },
+    {
+      "name": "desktop-text:zone: images",
+      "ok": true
+    },
+    {
+      "name": "desktop-text:filtres rapides preuves",
+      "ok": true
+    },
+    {
+      "name": "sprint-link-preserves-zone",
+      "ok": true
+    },
+    {
+      "name": "target-url-keeps-filter",
+      "ok": true
+    },
+    {
+      "name": "console-errors",
+      "ok": true,
+      "details": []
+    },
+    {
+      "name": "mobile-sprint-visible",
+      "ok": true
+    },
+    {
+      "name": "mobile-horizontal-overflow",
+      "ok": true,
+      "details": 0
+    }
+  ],
+  "screenshots": {
+    "desktop": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-125-sprint-zone-preuves-desktop.png",
+    "mobile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-125-sprint-zone-preuves-mobile.png"
+  },
+  "desktopTextSample": "Maxi Trouvaille PRODUITS PARTENAIRES Accueil Dropshipping Nouveautés Promos Boutique Suivi Contact Panier 0 ADMIN Atelier preuves partenaires Fiches de verification fournisseur et blocages avant toute revue humaine. Aucun passage en vente depuis cette page. 2026-06-11 06:50 EUROPE/PARIS 15 actions partenaires a traiter business-maxi-trouvailles\\tableaux-action\\quoi-faire-maintenant-20260611\\QUOI_FAIRE_MAINTENANT_PARTENAIRES_20260611.json Pilotage Commandes Images Photos Actions 15 Fiches rapides 5 En HOLD 5 Pretes revue 0 Publication 0 RECHERCHE PREUVES Retrouver une fiche HOLD 58/58 elements affiches avec le filtre actif - Images / droits Reinitialiser Nom, slug, categorie ou preuve Statut Tous les statuts HOLD Prets revue Avec blocages Type preuve Toutes preuves Images / droits Fournisseur / SKU Prix / stock / marge Livraison / suivi Validation Mouss Filtrer FILTRES RAPIDES PREUVES Conserve la recherche et le statut actif pour traiter les HOLD par blocage. ZONE: IMAGES TOUT 58 IMAGES 58 FOURNISSEUR 58 MARGE 49 LIVRAISON 58 VALIDATION 58 SPRINT ZONE ACTIVE Images / droits Priorite aux photos exactes, droits image, WebP local et galerie sans approximation. 58 PREUVES ZONE PRIORITE ",
+  "firstSprintHref": "/admin/preuves-partenaires?status=hold&q=pochette-organisateur-cables-double-couche-voyage&zone=image#top-verification-pochette-organisateur-cables-double-couche-voyage",
+  "targetUrl": "http://127.0.0.1:3046/admin/preuves-partenaires?status=hold&q=pochette-organisateur-cables-double-couche-voyage&zone=image#top-verification-pochette-organisateur-cables-double-couche-voyage",
+  "consoleErrors": [],
+  "mobileHorizontalOverflowPx": 0
+}

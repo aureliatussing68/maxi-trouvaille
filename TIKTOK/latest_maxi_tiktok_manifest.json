@@ -1,0 +1,41 @@
+{
+  "createdAt": "2026-05-06T16:11:12",
+  "theme": "auto_maison",
+  "video": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\TIKTOK\\maxi_20260506-161045_auto_maison.mp4",
+  "voice": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\TIKTOK\\maxi_20260506-161045_auto_maison_voice.mp3",
+  "script": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\TIKTOK\\maxi_20260506-161045_auto_maison_script.txt",
+  "captionFile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\TIKTOK\\maxi_20260506-161045_auto_maison_caption.txt",
+  "caption": "Auto, maison, accessoires pratiques : les arrivages Maxi Trouvailles bougent vite. https://maxitrouvaille.fr #auto #maison #destockage #prixcasses",
+  "preview": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\TIKTOK\\maxi_20260506-161045_auto_maison_preview.jpg",
+  "products": [
+    {
+      "title": "Compteur GPS 85 mm 0-125 km/h",
+      "price": "49 €",
+      "tag": "Auto",
+      "image": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\generated-products\\compteur-gps-85mm.webp",
+      "slug": "compteur-gps-85-mm-0-125-km-h-mosbs4qo"
+    },
+    {
+      "title": "Compteur d’énergie WiFi KETOTEK",
+      "price": "19 €",
+      "tag": "Électricité",
+      "image": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\generated-products\\compteur-energie-wifi.webp",
+      "slug": "compteur-energie-wifi-ketotek-63a-mosbs4rq"
+    },
+    {
+      "title": "Accoudoir central voiture avec",
+      "price": "19 €",
+      "tag": "Auto",
+      "image": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\generated-products\\accoudoir-central-usb.webp",
+      "slug": "accoudoir-central-voiture-avec-rangements-usb-mosbs4q3"
+    },
+    {
+      "title": "Interrupteur de phares chrome",
+      "price": "12 €",
+      "tag": "Auto",
+      "image": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\quick-products\\1777647232144-wfegupk.webp",
+      "slug": "interrupteur-d-eclairage-bouton-de-lampe-antibrouillard-pour-interrupteu-mon19itu"
+    }
+  ],
+  "publishStatus": "ready"
+}

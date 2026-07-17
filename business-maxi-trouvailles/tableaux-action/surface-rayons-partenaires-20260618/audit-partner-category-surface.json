@@ -1,0 +1,17 @@
+{
+  "checkedAt": "2026-06-18T19:39:03.677Z",
+  "ok": true,
+  "supportComponentPath": "src/components/CustomerSupportQuickLinks.tsx",
+  "checkedRouteCount": 2,
+  "requiredSupportLinkCount": 6,
+  "findingCount": 0,
+  "findings": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true
+  }
+}

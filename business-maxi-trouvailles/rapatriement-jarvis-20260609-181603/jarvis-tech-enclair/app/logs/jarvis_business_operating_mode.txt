@@ -1,0 +1,26 @@
+Mode operationnel business Maxi - 2026-06-09 18:00:59
+
+Mode: demo_draft_only
+Message court: Mode business Maxi: demo_draft_only, 2 API a completer, brouillon uniquement, actions sensibles bloquees.
+Source derniers candidats: demo
+Candidats disponibles: 10
+Sourcing reel pret pour recherche: NON
+Derniers candidats reels: NON
+
+Capacites:
+- Ouvrir Maxi/admin/AliExpress: OK
+- Recherche produits brouillon: OK
+- Fiche produit brouillon: OK
+- Publicites brouillon: OK
+- Import brouillon apres validation: OK
+- Publication: BLOQUE
+- Commande AliExpress: BLOQUE
+- Paiement: BLOQUE
+
+Variables a completer:
+- ALIEXPRESS_APP_KEY: PARTIEL
+- ALIEXPRESS_TRACKING_ID: MANQUANT
+
+Message: Mode demo/brouillon actif: Jarvis peut preparer, mais pas sourcer en reel automatiquement.
+Prochaine action sure: Continuer en demo/brouillon ou completer les variables AliExpress manquantes.
+Securite: brouillon uniquement, validation manuelle pour import/publication/achat/paiement/suppression.

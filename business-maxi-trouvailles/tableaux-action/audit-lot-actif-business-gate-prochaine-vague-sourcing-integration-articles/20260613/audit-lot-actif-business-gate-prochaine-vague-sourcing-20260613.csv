@@ -1,0 +1,5 @@
+batch_id;rank;product_id;product_name;proof_count;ready_proof_count;missing_proof_count;image_task_count;ready_image_count;missing_image_count;invalid_image_count;business_blockers
+lot-01;1;integration_articles_20260612_etagere-douche-angle-adhesive;Etagere douche angle adhesive;5;0;5;3;0;3;0;8
+lot-01;2;integration_articles_20260612_boite-a-the-compartiments-bambou;Boite a the compartiments bambou;5;0;5;3;0;3;0;8
+lot-01;3;integration_articles_20260612_organisateur-coffre-voiture-pliable;Organisateur coffre voiture pliable;5;0;5;3;0;3;0;8
+lot-01;4;integration_articles_20260612_organisateur-tiroir-cuisine-extensible;Organisateur tiroir cuisine extensible;5;0;5;3;0;3;0;8

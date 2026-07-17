@@ -1,0 +1,410 @@
+{
+  "generatedAt": "2026-06-11T22:30:07.517Z",
+  "instructions": "Remplir uniquement avec des preuves reelles. Ne jamais utiliser de faux identifiants ou de valeurs inventees.",
+  "products": [
+    {
+      "id": "prod_partner_cable_organizer_001",
+      "name": "Organisateur de câbles et accessoires tech",
+      "origin": "src/lib/catalog.ts",
+      "lane": "lane_0_static_partner_decision",
+      "currentSupplierUrl": "https://www.aliexpress.com/wholesale?SearchText=cable+organizer+bag+travel+electronics",
+      "evidenceGaps": [
+        "decision_garder_remplacer_ou_retirer",
+        "lien_fournisseur_exact",
+        "sku_fournisseur",
+        "images_exactes_et_droits"
+      ],
+      "fill": {
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "supplierPriceCents": null,
+        "supplierStock": null,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "variantToSell": "",
+        "imagesMatchExactVariant": false,
+        "imageRightsProof": "",
+        "finalSalePriceCents": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "prod_partner_thermal_printer_001",
+      "name": "Mini imprimante thermique Bluetooth",
+      "origin": "src/lib/catalog.ts",
+      "lane": "lane_0_static_partner_decision",
+      "currentSupplierUrl": "https://www.aliexpress.com/wholesale?SearchText=mini+thermal+printer+bluetooth",
+      "evidenceGaps": [
+        "decision_garder_remplacer_ou_retirer",
+        "lien_fournisseur_exact",
+        "sku_fournisseur",
+        "images_exactes_et_droits"
+      ],
+      "fill": {
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "supplierPriceCents": null,
+        "supplierStock": null,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "variantToSell": "",
+        "imagesMatchExactVariant": false,
+        "imageRightsProof": "",
+        "finalSalePriceCents": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "prod_partner_galaxy_projector_001",
+      "name": "Projecteur galaxie LED pour ambiance",
+      "origin": "src/lib/catalog.ts",
+      "lane": "lane_0_static_partner_decision",
+      "currentSupplierUrl": "https://www.aliexpress.com/wholesale?SearchText=galaxy+projector+led+star+light",
+      "evidenceGaps": [
+        "decision_garder_remplacer_ou_retirer",
+        "lien_fournisseur_exact",
+        "sku_fournisseur",
+        "images_exactes_et_droits"
+      ],
+      "fill": {
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "supplierPriceCents": null,
+        "supplierStock": null,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "variantToSell": "",
+        "imagesMatchExactVariant": false,
+        "imageRightsProof": "",
+        "finalSalePriceCents": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "prod_partner_car_vacuum_001",
+      "name": "Mini aspirateur voiture sans fil",
+      "origin": "src/lib/catalog.ts",
+      "lane": "lane_0_static_partner_decision",
+      "currentSupplierUrl": "https://www.aliexpress.com/wholesale?SearchText=cordless+car+vacuum+cleaner",
+      "evidenceGaps": [
+        "decision_garder_remplacer_ou_retirer",
+        "lien_fournisseur_exact",
+        "sku_fournisseur",
+        "images_exactes_et_droits"
+      ],
+      "fill": {
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "supplierPriceCents": null,
+        "supplierStock": null,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "variantToSell": "",
+        "imagesMatchExactVariant": false,
+        "imageRightsProof": "",
+        "finalSalePriceCents": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "origin": "data/quick-products.json",
+      "lane": "lane_1_fast_supplier_validation",
+      "currentSupplierUrl": "https://www.aliexpress.com/item/4000168524713.html",
+      "evidenceGaps": [
+        "preuve_delai_france_europe"
+      ],
+      "fill": {
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "supplierPriceCents": null,
+        "supplierStock": null,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "variantToSell": "",
+        "imagesMatchExactVariant": false,
+        "imageRightsProof": "",
+        "finalSalePriceCents": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "origin": "data/quick-products.json",
+      "lane": "lane_1_fast_supplier_validation",
+      "currentSupplierUrl": "https://www.aliexpress.com/item/4001153714549.html",
+      "evidenceGaps": [
+        "preuve_delai_france_europe"
+      ],
+      "fill": {
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "supplierPriceCents": null,
+        "supplierStock": null,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "variantToSell": "",
+        "imagesMatchExactVariant": false,
+        "imageRightsProof": "",
+        "finalSalePriceCents": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "name": "Filet rangement coffre voiture à sangles fixes",
+      "origin": "data/quick-products.json",
+      "lane": "lane_1_fast_supplier_validation",
+      "currentSupplierUrl": "https://www.aliexpress.com/item/1005006160871310.html",
+      "evidenceGaps": [
+        "preuve_delai_france_europe"
+      ],
+      "fill": {
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "supplierPriceCents": null,
+        "supplierStock": null,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "variantToSell": "",
+        "imagesMatchExactVariant": false,
+        "imageRightsProof": "",
+        "finalSalePriceCents": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ali_partner_20260527_gourde_pliable_001",
+      "name": "Gourde pliable silicone voyage avec mousqueton",
+      "origin": "data/quick-products.json",
+      "lane": "lane_1_fast_supplier_validation",
+      "currentSupplierUrl": "https://www.aliexpress.com/item/1005009184984524.html",
+      "evidenceGaps": [
+        "preuve_delai_france_europe"
+      ],
+      "fill": {
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "supplierPriceCents": null,
+        "supplierStock": null,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "variantToSell": "",
+        "imagesMatchExactVariant": false,
+        "imageRightsProof": "",
+        "finalSalePriceCents": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ali_partner_20260527_lampes_detection_001",
+      "name": "Lampe LED à détection de mouvement USB rechargeable",
+      "origin": "data/quick-products.json",
+      "lane": "lane_1_fast_supplier_validation",
+      "currentSupplierUrl": "https://www.aliexpress.com/item/1005008517453827.html",
+      "evidenceGaps": [
+        "preuve_delai_france_europe"
+      ],
+      "fill": {
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "supplierPriceCents": null,
+        "supplierStock": null,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "variantToSell": "",
+        "imagesMatchExactVariant": false,
+        "imageRightsProof": "",
+        "finalSalePriceCents": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ali_partner_20260527_support_tel_voiture_001",
+      "name": "Support téléphone voiture flexible à ventouse 360°",
+      "origin": "data/quick-products.json",
+      "lane": "lane_1_fast_supplier_validation",
+      "currentSupplierUrl": "https://www.aliexpress.com/item/4001209749759.html",
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "fill": {
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "supplierPriceCents": null,
+        "supplierStock": null,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "variantToSell": "",
+        "imagesMatchExactVariant": false,
+        "imageRightsProof": "",
+        "finalSalePriceCents": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ali_partner_20260605_paracorde_camping_001",
+      "name": "Corde paracorde camping randonnée 5/15/30 m",
+      "origin": "data/quick-products.json",
+      "lane": "lane_1_fast_supplier_validation",
+      "currentSupplierUrl": "https://www.aliexpress.com/item/1005007038471633.html",
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "droits_images",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "fill": {
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "supplierPriceCents": null,
+        "supplierStock": null,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "variantToSell": "",
+        "imagesMatchExactVariant": false,
+        "imageRightsProof": "",
+        "finalSalePriceCents": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ali_partner_20260605_nano_tape_sdb_cuisine_001",
+      "name": "Nano tape double-face salle de bain cuisine",
+      "origin": "data/quick-products.json",
+      "lane": "lane_1_fast_supplier_validation",
+      "currentSupplierUrl": "https://www.aliexpress.com/item/1005005244419690.html",
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "droits_images",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "fill": {
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "supplierPriceCents": null,
+        "supplierStock": null,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "variantToSell": "",
+        "imagesMatchExactVariant": false,
+        "imageRightsProof": "",
+        "finalSalePriceCents": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ali_partner_20260605_organisateur_cables_1_5m_001",
+      "name": "Organisateur câbles 1/5 m bureau best-seller",
+      "origin": "data/quick-products.json",
+      "lane": "lane_1_fast_supplier_validation",
+      "currentSupplierUrl": "https://www.aliexpress.com/item/1005006994762009.html",
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "droits_images",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "fill": {
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "supplierPriceCents": null,
+        "supplierStock": null,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "variantToSell": "",
+        "imagesMatchExactVariant": false,
+        "imageRightsProof": "",
+        "finalSalePriceCents": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ali_partner_20260605_ruban_double_face_monster_001",
+      "name": "Ruban double-face puissant maison promo",
+      "origin": "data/quick-products.json",
+      "lane": "lane_1_fast_supplier_validation",
+      "currentSupplierUrl": "https://www.aliexpress.com/item/1005006926453576.html",
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "droits_images",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "fill": {
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "supplierPriceCents": null,
+        "supplierStock": null,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "variantToSell": "",
+        "imagesMatchExactVariant": false,
+        "imageRightsProof": "",
+        "finalSalePriceCents": null,
+        "notes": ""
+      }
+    },
+    {
+      "id": "ali_partner_20260605_sac_banane_sport_etanche_001",
+      "name": "Sac banane sport étanche randonnée",
+      "origin": "data/quick-products.json",
+      "lane": "lane_1_fast_supplier_validation",
+      "currentSupplierUrl": "https://www.aliexpress.com/item/1005007341990710.html",
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "droits_images",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "fill": {
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "supplierPriceCents": null,
+        "supplierStock": null,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "variantToSell": "",
+        "imagesMatchExactVariant": false,
+        "imageRightsProof": "",
+        "finalSalePriceCents": null,
+        "notes": ""
+      }
+    }
+  ]
+}

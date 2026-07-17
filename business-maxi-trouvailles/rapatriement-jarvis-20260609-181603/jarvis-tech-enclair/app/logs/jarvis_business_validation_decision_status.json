@@ -1,0 +1,26 @@
+{
+  "checked_at": "2026-06-09 18:00:59",
+  "ok": true,
+  "product_title": "Organisateur de cables de voyage compact",
+  "review_dir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345",
+  "decision_file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\DECISION_MOUSS_A_REMPLIR.md",
+  "decision_file_exists": true,
+  "decision_code": "PENDING_MOUSS_DECISION",
+  "checked_options": [],
+  "notes": [],
+  "approved_for_next_step": false,
+  "operator_message": "Decision Mouss non validee pour action suivante. Aucune action sensible.",
+  "safety": {
+    "read_only": true,
+    "decision_file_modified": false,
+    "site_modified": false,
+    "import_started": false,
+    "order_started": false,
+    "payment_started": false,
+    "publication_started": false,
+    "files_deleted": false,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  },
+  "short_message": "Decision Mouss en attente pour Organisateur de cables de voyage compact, aucune action sensible."
+}

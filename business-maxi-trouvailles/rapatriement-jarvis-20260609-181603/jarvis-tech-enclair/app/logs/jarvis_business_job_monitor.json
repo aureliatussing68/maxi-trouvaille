@@ -1,0 +1,70 @@
+{
+  "checked_at": "2026-06-09 17:57:31",
+  "ok": true,
+  "short_message": "Jobs business: derniere action search-products, 0 job(s) recent(s), lecture seule.",
+  "project_path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille",
+  "latest_action": {
+    "action": "search-products",
+    "target": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\20260522_145143_candidats_produits.json"
+  },
+  "recent_files_15min": [],
+  "recent_business_jobs": [],
+  "recent_business_job_count": 0,
+  "files": {
+    "latest_candidates": {
+      "exists": true,
+      "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\latest_candidates.json",
+      "size": 11338,
+      "updated_at": "2026-05-22 16:51:43",
+      "age_seconds": 1559149
+    },
+    "latest_product_sheet": {
+      "exists": true,
+      "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\fiches-produits\\latest_product_sheet.json",
+      "size": 2640,
+      "updated_at": "2026-05-21 14:43:29",
+      "age_seconds": 1653242
+    },
+    "latest_ads_manifest": {
+      "exists": true,
+      "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\latest_ads_manifest.json",
+      "size": 3627,
+      "updated_at": "2026-05-22 13:58:50",
+      "age_seconds": 1569521
+    },
+    "pipeline_log": {
+      "exists": true,
+      "path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\logs\\business_pipeline.log",
+      "size": 1363,
+      "updated_at": "2026-05-22 16:51:43",
+      "age_seconds": 1559149
+    },
+    "singleflight_state": {
+      "exists": true,
+      "path": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\business_job_singleflight.json",
+      "size": 2,
+      "updated_at": "2026-05-22 20:42:56",
+      "age_seconds": 1545275
+    }
+  },
+  "log_tail": [
+    "[2026-05-21T12:43:29.801Z] prepare-product C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\fiches-produits\\produit-fictif-organisateur-malin-de-bureau.json",
+    "[2026-05-21T12:43:29.807Z] prepare-ads C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\produit-fictif-organisateur-malin-de-bureau_ads_manifest.json",
+    "[2026-05-21T12:43:29.808Z] demo C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\20260521_124329_produit_fictif.json",
+    "[2026-05-22T11:58:50.528Z] prepare-ads C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\produit-fictif-organisateur-malin-de-bureau_ads_manifest.json",
+    "[2026-05-22T13:46:32.533Z] search-products C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\20260522_134632_candidats_produits.json",
+    "[2026-05-22T13:47:14.421Z] search-products C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\20260522_134714_candidats_produits.json",
+    "[2026-05-22T13:47:37.906Z] search-products C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\20260522_134737_candidats_produits.json",
+    "[2026-05-22T14:51:43.073Z] search-products C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\20260522_145143_candidats_produits.json"
+  ],
+  "safety": {
+    "read_only": true,
+    "no_process_kill": true,
+    "no_import": true,
+    "no_publish": true,
+    "no_order": true,
+    "no_payment": true,
+    "no_job_started": true,
+    "manual_validation_required": true
+  }
+}

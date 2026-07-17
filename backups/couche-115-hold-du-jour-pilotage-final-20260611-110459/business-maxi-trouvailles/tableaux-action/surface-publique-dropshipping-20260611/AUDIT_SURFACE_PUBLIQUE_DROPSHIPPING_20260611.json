@@ -1,0 +1,1824 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-11T09:01:48.308Z",
+  "mode": "read_only_public_dropshipping_surface_audit",
+  "productCount": 67,
+  "visibleDropshippingCount": 0,
+  "purchasableDropshippingCount": 0,
+  "failureCount": 0,
+  "warningCount": 0,
+  "draftBlockedCount": 37,
+  "failures": [],
+  "warnings": [],
+  "draftBlockedProducts": [
+    {
+      "id": "prod_partner_thermal_printer_001",
+      "slug": "mini-imprimante-thermique-bluetooth",
+      "name": "Mini imprimante thermique Bluetooth",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "dropshipping-high-tech",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/partner-products/mini-imprimante-thermique.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "supplier_sku_missing",
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "prod_partner_cable_organizer_001",
+      "slug": "organisateur-cables-voyage-tech",
+      "name": "Organisateur de câbles et accessoires tech",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "dropshipping-accessoires",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/partner-products/organisateur-cables-voyage.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "supplier_sku_missing",
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "prod_partner_galaxy_projector_001",
+      "slug": "projecteur-galaxie-led-ambiance",
+      "name": "Projecteur galaxie LED pour ambiance",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "dropshipping-maison",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/partner-products/projecteur-galaxie-led.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "supplier_sku_missing",
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "prod_partner_car_vacuum_001",
+      "slug": "mini-aspirateur-voiture-sans-fil",
+      "name": "Mini aspirateur voiture sans fil",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "dropshipping-auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/partner-products/aspirateur-voiture-sans-fil.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "supplier_sku_missing",
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_peigne_autonettoyant_chat_001",
+      "slug": "peigne-poils-chat-autonettoyant-pet-hold",
+      "name": "Peigne poils chat autonettoyant",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-animaux",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sd94f29eb44cd4298afd17541c25d14c4v.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_gamelle_macaron_anti_choc_001",
+      "slug": "gamelle-macaron-chat-chien-anti-choc",
+      "name": "Gamelle macaron chat chien anti-choc",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-animaux",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sfc36754f07d047118f898d761d076a9eu.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_sac_banane_sport_etanche_001",
+      "slug": "sac-banane-sport-etanche-randonnee",
+      "name": "Sac banane sport étanche randonnée",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-accessoires",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S7b3301f42369441aa90ac715691c0b6aK.png",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_paracorde_camping_001",
+      "slug": "corde-paracorde-camping-randonnee-5-15-30m",
+      "name": "Corde paracorde camping randonnée 5/15/30 m",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-accessoires",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S5e51f1dc63a04b92b244200a2a8fc2b9R.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_lampe_velo_usb_001",
+      "slug": "lampe-velo-usb-rechargeable-affichage-batterie",
+      "name": "Lampe vélo USB rechargeable affichage batterie",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-high-tech",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sed57d2e19a45461388142ae895a5666cI.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_ruban_double_face_monster_001",
+      "slug": "ruban-double-face-puissant-maison-promo",
+      "name": "Ruban double-face puissant maison promo",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-maison",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S491cdf67381c4f73bd2f876cb8561380D.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_nano_tape_sdb_cuisine_001",
+      "slug": "nano-tape-double-face-salle-de-bain-cuisine",
+      "name": "Nano tape double-face salle de bain cuisine",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-maison",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sd43f6609222445219d07234b40a75569O.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_support_eponge_evier_001",
+      "slug": "support-eponge-evier-inox-auto-adhesif",
+      "name": "Support éponge évier inox auto-adhésif",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-cuisine",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S21f7cf610fca4429bbfe5da6a7e7c58dz.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_set_coupe_ongles_001",
+      "slug": "set-coupe-ongles-manucure-portable-promo",
+      "name": "Set coupe-ongles manucure portable promo",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-beaute",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S8880412219cf458ba88464faa2b8b83cQ.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_tondeuse_t9_barber_001",
+      "slug": "tondeuse-t9-barbe-cheveux-promo",
+      "name": "Tondeuse T9 barbe cheveux promo",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-beaute",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sbda2fa267a194b018e60df33a8ba4a65r.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_support_tel_magnetique_auto_001",
+      "slug": "support-telephone-magnetique-voiture-promo",
+      "name": "Support téléphone magnétique voiture promo",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sc051ac43d2d24f5c9fa32b400c4f2fdfd.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_brosse_massage_cuir_chevelu_001",
+      "slug": "brosse-massage-cuir-chevelu-silicone-best-seller",
+      "name": "Brosse massage cuir chevelu silicone best-seller",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-beaute",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Se19f00b9a861478783b26cdddfcd6c37d.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_spray_huile_cuisine_001",
+      "slug": "spray-huile-cuisine-reutilisable-best-seller",
+      "name": "Spray huile cuisine réutilisable best-seller",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-cuisine",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sdfda3822f064426692204d01a24fdb26m.png",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_papier_air_fryer_001",
+      "slug": "papier-cuisson-air-fryer-promo-lot",
+      "name": "Papier cuisson air fryer lot promo",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-cuisine",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S6a0cfa2f69e04ab4ab00aaa645eb13d6Q.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_support_mural_balai_001",
+      "slug": "support-mural-balai-serpillere-4-crochets",
+      "name": "Support mural balai et serpillère 4 crochets",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-maison",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S01fa6cb05a5240f6ae7cf08f2292880bf.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_sac_lavage_chaussures_001",
+      "slug": "sac-lavage-chaussures-machine-best-seller",
+      "name": "Sac lavage chaussures machine best-seller",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-maison",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S59152822e94045e799d354f95f410bdbX.jpeg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_trousse_maquillage_voyage_001",
+      "slug": "trousse-maquillage-voyage-transparente-best-seller",
+      "name": "Trousse maquillage voyage transparente best-seller",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-mode",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S4f081271d3864a80ac1e9b32f2390f64R.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_sac_voyage_pliable_cabine_001",
+      "slug": "sac-voyage-pliable-cabine-leger",
+      "name": "Sac voyage pliable cabine léger",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-mode",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sebdbbdb1b7324aadb996aeb05abe47cai.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_machine_bulles_auto_001",
+      "slug": "machine-bulles-automatique-enfant-exterieur",
+      "name": "Machine à bulles automatique enfant extérieur",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-enfant",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S1a241d55e1b84342a1baf602ad0b12d2C.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_avion_mousse_lanceur_001",
+      "slug": "avion-mousse-lanceur-enfant-jeu-exterieur",
+      "name": "Avion mousse avec lanceur jeu extérieur",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-enfant",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sc4d7b429a4de43f288b1b7a76a0d5b11S.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_serviette_microfibre_auto_001",
+      "slug": "serviette-microfibre-auto-detailing-promo",
+      "name": "Serviette microfibre auto detailing promo",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sbc5b539c67fa4011a055f88a8643f61fr.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_cable_usb_c_240w_001",
+      "slug": "cable-usb-c-240w-renforce-best-seller",
+      "name": "Câble USB-C 240W renforcé best-seller",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-high-tech",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sbc761f8f5515425ba803c8cf73cb5409s.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_organisateur_cables_1_5m_001",
+      "slug": "organisateur-cables-1-5m-bureau-best-seller",
+      "name": "Organisateur câbles 1/5 m bureau best-seller",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-accessoires",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S5d8df4c0f5a349999d53ad317579ea7eN.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_support_tel_voiture_001",
+      "slug": "support-telephone-voiture-360-partenaire",
+      "name": "Support téléphone voiture flexible à ventouse 360°",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Hbe022fc99a104faab4d7eb9959894b98H.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_lampes_detection_001",
+      "slug": "lampe-led-detection-mouvement-usb-rechargeable",
+      "name": "Lampe LED à détection de mouvement USB rechargeable",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-maison",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S70005fa7d6b644b89bbfde6de30efbb9z.png",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_brosse_poils_animaux_001",
+      "slug": "brosse-anti-poils-animaux-reutilisable",
+      "name": "Brosse anti-poils animaux 4-en-1 réutilisable",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-animaux",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S201e970c6d674d67b0691f607db5e514F.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "slug": "support-pc-portable-pliant-aluminium-ajustable",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-high-tech",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/H5294085d8b5041c5b8fbe948596c8533v.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_sacs_rangement_vide_001",
+      "slug": "sacs-rangement-sous-vide-voyage-grand-volume",
+      "name": "Sacs rangement sous vide grand volume voyage",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-accessoires",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se627ac7d79944d94a751ef64d0c9b6e2W.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_mini_humidificateur_usb_001",
+      "slug": "mini-humidificateur-usb-rechargeable-268ml",
+      "name": "Mini humidificateur USB rechargeable 268 ml",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-maison",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/See8d50a081984a2cbbebdbdc910f3d11h.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "slug": "pochette-organisateur-cables-double-couche-voyage",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-accessoires",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/H96187aa9cce24db3abab3d4ee6d43387A.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_gourde_pliable_001",
+      "slug": "gourde-pliable-silicone-voyage-mousqueton",
+      "name": "Gourde pliable silicone voyage avec mousqueton",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-accessoires",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sd9284106a5f24005b760a7529f36da1d2.jpeg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_tapis_evier_silicone_001",
+      "slug": "tapis-silicone-anti-eclaboussures-robinet-evier",
+      "name": "Tapis silicone anti-éclaboussures robinet évier",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-cuisine",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S13b789d7fad54395b67c31e5e0c97a97P.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "slug": "filet-rangement-coffre-voiture-sangles-fixes",
+      "name": "Filet rangement coffre voiture à sangles fixes",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S29472ff5afbf4d1ca78000f1c0b3a369Q.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    }
+  ],
+  "byStatus": {
+    "published": 4,
+    "draft": 63
+  },
+  "byCategory": {
+    "palettes-destockage": 1,
+    "colis-au-poids": 1,
+    "colis-mysteres": 1,
+    "lots-bonnes-affaires": 1,
+    "espace-revendeur": 1,
+    "dropshipping-high-tech": 4,
+    "dropshipping-accessoires": 7,
+    "dropshipping-maison": 7,
+    "dropshipping-auto-moto": 5,
+    "high-tech": 2,
+    "dropshipping-animaux": 3,
+    "dropshipping-cuisine": 4,
+    "dropshipping-beaute": 3,
+    "dropshipping-mode": 2,
+    "dropshipping-enfant": 2,
+    "electricite": 5,
+    "informatique": 1,
+    "maison": 2,
+    "sport-loisirs": 2,
+    "beaute-sante": 2,
+    "auto-moto": 8,
+    "animaux": 1,
+    "mannequins-bustes": 2
+  },
+  "productAudits": [
+    {
+      "id": "prod_palette_mystere_destockage_001",
+      "slug": "palette-mystere-destockage",
+      "name": "Palette mystère déstockage",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "palettes-destockage",
+      "status": "published",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=900&q=80",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "prod_colis_surprise_10kg_001",
+      "slug": "colis-surprise-10-kg",
+      "name": "Colis surprise 10 kg",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "colis-au-poids",
+      "status": "published",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&w=900&q=80",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "prod_colis_mystere_premium_001",
+      "slug": "colis-mystere-premium",
+      "name": "Colis mystère premium",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "colis-mysteres",
+      "status": "published",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://images.unsplash.com/photo-1512909006721-3d6018887383?auto=format&fit=crop&w=900&q=80",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "prod_lot_special_marche_001",
+      "slug": "lot-special-marche",
+      "name": "Lot spécial marché",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "lots-bonnes-affaires",
+      "status": "published",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=900&q=80",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "prod_pack_revendeur_001",
+      "slug": "pack-revendeur",
+      "name": "Pack revendeur",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "espace-revendeur",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=80",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "prod_partner_thermal_printer_001",
+      "slug": "mini-imprimante-thermique-bluetooth",
+      "name": "Mini imprimante thermique Bluetooth",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "dropshipping-high-tech",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/partner-products/mini-imprimante-thermique.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "supplier_sku_missing",
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "prod_partner_cable_organizer_001",
+      "slug": "organisateur-cables-voyage-tech",
+      "name": "Organisateur de câbles et accessoires tech",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "dropshipping-accessoires",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/partner-products/organisateur-cables-voyage.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "supplier_sku_missing",
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "prod_partner_galaxy_projector_001",
+      "slug": "projecteur-galaxie-led-ambiance",
+      "name": "Projecteur galaxie LED pour ambiance",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "dropshipping-maison",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/partner-products/projecteur-galaxie-led.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "supplier_sku_missing",
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "prod_partner_car_vacuum_001",
+      "slug": "mini-aspirateur-voiture-sans-fil",
+      "name": "Mini aspirateur voiture sans fil",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "dropshipping-auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/partner-products/aspirateur-voiture-sans-fil.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "supplier_sku_missing",
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "prod_test_pack_decouverte_001",
+      "slug": "pack-decouverte-test",
+      "name": "Pack decouverte test",
+      "origin": "src/lib/catalog.ts",
+      "categoryId": "high-tech",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=900&q=80",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "ali_partner_20260605_peigne_autonettoyant_chat_001",
+      "slug": "peigne-poils-chat-autonettoyant-pet-hold",
+      "name": "Peigne poils chat autonettoyant",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-animaux",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sd94f29eb44cd4298afd17541c25d14c4v.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_gamelle_macaron_anti_choc_001",
+      "slug": "gamelle-macaron-chat-chien-anti-choc",
+      "name": "Gamelle macaron chat chien anti-choc",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-animaux",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sfc36754f07d047118f898d761d076a9eu.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_sac_banane_sport_etanche_001",
+      "slug": "sac-banane-sport-etanche-randonnee",
+      "name": "Sac banane sport étanche randonnée",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-accessoires",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S7b3301f42369441aa90ac715691c0b6aK.png",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_paracorde_camping_001",
+      "slug": "corde-paracorde-camping-randonnee-5-15-30m",
+      "name": "Corde paracorde camping randonnée 5/15/30 m",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-accessoires",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S5e51f1dc63a04b92b244200a2a8fc2b9R.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_lampe_velo_usb_001",
+      "slug": "lampe-velo-usb-rechargeable-affichage-batterie",
+      "name": "Lampe vélo USB rechargeable affichage batterie",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-high-tech",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sed57d2e19a45461388142ae895a5666cI.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_ruban_double_face_monster_001",
+      "slug": "ruban-double-face-puissant-maison-promo",
+      "name": "Ruban double-face puissant maison promo",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-maison",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S491cdf67381c4f73bd2f876cb8561380D.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_nano_tape_sdb_cuisine_001",
+      "slug": "nano-tape-double-face-salle-de-bain-cuisine",
+      "name": "Nano tape double-face salle de bain cuisine",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-maison",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sd43f6609222445219d07234b40a75569O.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_support_eponge_evier_001",
+      "slug": "support-eponge-evier-inox-auto-adhesif",
+      "name": "Support éponge évier inox auto-adhésif",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-cuisine",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S21f7cf610fca4429bbfe5da6a7e7c58dz.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_set_coupe_ongles_001",
+      "slug": "set-coupe-ongles-manucure-portable-promo",
+      "name": "Set coupe-ongles manucure portable promo",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-beaute",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S8880412219cf458ba88464faa2b8b83cQ.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_tondeuse_t9_barber_001",
+      "slug": "tondeuse-t9-barbe-cheveux-promo",
+      "name": "Tondeuse T9 barbe cheveux promo",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-beaute",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sbda2fa267a194b018e60df33a8ba4a65r.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_support_tel_magnetique_auto_001",
+      "slug": "support-telephone-magnetique-voiture-promo",
+      "name": "Support téléphone magnétique voiture promo",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sc051ac43d2d24f5c9fa32b400c4f2fdfd.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_brosse_massage_cuir_chevelu_001",
+      "slug": "brosse-massage-cuir-chevelu-silicone-best-seller",
+      "name": "Brosse massage cuir chevelu silicone best-seller",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-beaute",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Se19f00b9a861478783b26cdddfcd6c37d.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_spray_huile_cuisine_001",
+      "slug": "spray-huile-cuisine-reutilisable-best-seller",
+      "name": "Spray huile cuisine réutilisable best-seller",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-cuisine",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sdfda3822f064426692204d01a24fdb26m.png",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_papier_air_fryer_001",
+      "slug": "papier-cuisson-air-fryer-promo-lot",
+      "name": "Papier cuisson air fryer lot promo",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-cuisine",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S6a0cfa2f69e04ab4ab00aaa645eb13d6Q.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_support_mural_balai_001",
+      "slug": "support-mural-balai-serpillere-4-crochets",
+      "name": "Support mural balai et serpillère 4 crochets",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-maison",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S01fa6cb05a5240f6ae7cf08f2292880bf.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_sac_lavage_chaussures_001",
+      "slug": "sac-lavage-chaussures-machine-best-seller",
+      "name": "Sac lavage chaussures machine best-seller",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-maison",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S59152822e94045e799d354f95f410bdbX.jpeg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_trousse_maquillage_voyage_001",
+      "slug": "trousse-maquillage-voyage-transparente-best-seller",
+      "name": "Trousse maquillage voyage transparente best-seller",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-mode",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S4f081271d3864a80ac1e9b32f2390f64R.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_sac_voyage_pliable_cabine_001",
+      "slug": "sac-voyage-pliable-cabine-leger",
+      "name": "Sac voyage pliable cabine léger",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-mode",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sebdbbdb1b7324aadb996aeb05abe47cai.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_machine_bulles_auto_001",
+      "slug": "machine-bulles-automatique-enfant-exterieur",
+      "name": "Machine à bulles automatique enfant extérieur",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-enfant",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S1a241d55e1b84342a1baf602ad0b12d2C.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_avion_mousse_lanceur_001",
+      "slug": "avion-mousse-lanceur-enfant-jeu-exterieur",
+      "name": "Avion mousse avec lanceur jeu extérieur",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-enfant",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sc4d7b429a4de43f288b1b7a76a0d5b11S.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_serviette_microfibre_auto_001",
+      "slug": "serviette-microfibre-auto-detailing-promo",
+      "name": "Serviette microfibre auto detailing promo",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sbc5b539c67fa4011a055f88a8643f61fr.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_cable_usb_c_240w_001",
+      "slug": "cable-usb-c-240w-renforce-best-seller",
+      "name": "Câble USB-C 240W renforcé best-seller",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-high-tech",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sbc761f8f5515425ba803c8cf73cb5409s.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260605_organisateur_cables_1_5m_001",
+      "slug": "organisateur-cables-1-5m-bureau-best-seller",
+      "name": "Organisateur câbles 1/5 m bureau best-seller",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-accessoires",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S5d8df4c0f5a349999d53ad317579ea7eN.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready",
+        "validation_gate_hold"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_support_tel_voiture_001",
+      "slug": "support-telephone-voiture-360-partenaire",
+      "name": "Support téléphone voiture flexible à ventouse 360°",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Hbe022fc99a104faab4d7eb9959894b98H.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_lampes_detection_001",
+      "slug": "lampe-led-detection-mouvement-usb-rechargeable",
+      "name": "Lampe LED à détection de mouvement USB rechargeable",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-maison",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S70005fa7d6b644b89bbfde6de30efbb9z.png",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_brosse_poils_animaux_001",
+      "slug": "brosse-anti-poils-animaux-reutilisable",
+      "name": "Brosse anti-poils animaux 4-en-1 réutilisable",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-animaux",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S201e970c6d674d67b0691f607db5e514F.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "slug": "support-pc-portable-pliant-aluminium-ajustable",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-high-tech",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/H5294085d8b5041c5b8fbe948596c8533v.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_sacs_rangement_vide_001",
+      "slug": "sacs-rangement-sous-vide-voyage-grand-volume",
+      "name": "Sacs rangement sous vide grand volume voyage",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-accessoires",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae-pic-a1.aliexpress-media.com/kf/Se627ac7d79944d94a751ef64d0c9b6e2W.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_mini_humidificateur_usb_001",
+      "slug": "mini-humidificateur-usb-rechargeable-268ml",
+      "name": "Mini humidificateur USB rechargeable 268 ml",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-maison",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/See8d50a081984a2cbbebdbdc910f3d11h.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "slug": "pochette-organisateur-cables-double-couche-voyage",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-accessoires",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/H96187aa9cce24db3abab3d4ee6d43387A.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_gourde_pliable_001",
+      "slug": "gourde-pliable-silicone-voyage-mousqueton",
+      "name": "Gourde pliable silicone voyage avec mousqueton",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-accessoires",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/Sd9284106a5f24005b760a7529f36da1d2.jpeg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_tapis_evier_silicone_001",
+      "slug": "tapis-silicone-anti-eclaboussures-robinet-evier",
+      "name": "Tapis silicone anti-éclaboussures robinet évier",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-cuisine",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S13b789d7fad54395b67c31e5e0c97a97P.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "slug": "filet-rangement-coffre-voiture-sangles-fixes",
+      "name": "Filet rangement coffre voiture à sangles fixes",
+      "origin": "data/quick-products.json",
+      "categoryId": "dropshipping-auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://ae01.alicdn.com/kf/S29472ff5afbf4d1ca78000f1c0b3a369Q.jpg",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": [
+        "image_not_public_ready"
+      ]
+    },
+    {
+      "id": "quick_1777967227448_iypy8l",
+      "slug": "double-prise-murale-avec-4-ports-usb-mosbs4s8",
+      "name": "Double prise murale avec 4 ports USB",
+      "origin": "data/quick-products.json",
+      "categoryId": "electricite",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/generated-products/double-prise-usb.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777967227442_dxng53",
+      "slug": "pave-tactile-macbook-piece-detachee-a-verifier-mosbs4s2",
+      "name": "Pavé tactile MacBook - pièce à vérifier",
+      "origin": "data/quick-products.json",
+      "categoryId": "informatique",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/generated-products/pave-tactile-macbook.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777967227436_jmkl9v",
+      "slug": "ventilateur-tour-de-cou-rechargeable-usb-mosbs4rw",
+      "name": "Ventilateur tour de cou rechargeable USB",
+      "origin": "data/quick-products.json",
+      "categoryId": "high-tech",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/generated-products/ventilateur-tour-de-cou.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777967227430_q1m0xu",
+      "slug": "compteur-energie-wifi-ketotek-63a-mosbs4rq",
+      "name": "Compteur d’énergie WiFi KETOTEK 63A",
+      "origin": "data/quick-products.json",
+      "categoryId": "electricite",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/generated-products/compteur-energie-wifi.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777967227424_hcgr0h",
+      "slug": "filtre-de-douche-chrome-universel-mosbs4rk",
+      "name": "Filtre de douche chromé universel",
+      "origin": "data/quick-products.json",
+      "categoryId": "maison",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/generated-products/filtre-douche-chrome.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777967227418_rtcb72",
+      "slug": "cassette-velo-sunrace-a-verifier-mosbs4re",
+      "name": "Cassette vélo SunRace - compatibilité à vérifier",
+      "origin": "data/quick-products.json",
+      "categoryId": "sport-loisirs",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/generated-products/cassette-velo.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777967227411_o8dn1w",
+      "slug": "systeme-d-alerte-sos-wifi-avec-2-boutons-mosbs4r7",
+      "name": "Système d’alerte SOS WiFi avec 2 boutons",
+      "origin": "data/quick-products.json",
+      "categoryId": "beaute-sante",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/generated-products/systeme-alerte-sos-wifi.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777967227405_xiog25",
+      "slug": "kit-habillage-console-centrale-effet-carbone-mosbs4r1",
+      "name": "Kit habillage console centrale effet carbone",
+      "origin": "data/quick-products.json",
+      "categoryId": "auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/generated-products/habillage-console-carbone.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777967227399_3ngsxx",
+      "slug": "regulateur-d-alternateur-are4011-12v-mosbs4qv",
+      "name": "Régulateur d’alternateur ARE4011 12V",
+      "origin": "data/quick-products.json",
+      "categoryId": "auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/generated-products/regulateur-alternateur.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777967227392_x08el0",
+      "slug": "compteur-gps-85-mm-0-125-km-h-mosbs4qo",
+      "name": "Compteur GPS 85 mm 0-125 km/h",
+      "origin": "data/quick-products.json",
+      "categoryId": "auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/generated-products/compteur-gps-85mm.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777967227385_6kinul",
+      "slug": "carburateur-type-pwk-avec-durite-et-gicleurs-mosbs4qh",
+      "name": "Carburateur type PWK avec durite et gicleurs",
+      "origin": "data/quick-products.json",
+      "categoryId": "auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/generated-products/carburateur-pwk-kit.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777967227378_a4y2s1",
+      "slug": "poche-de-froid-epaule-revix-reusable-mosbs4qa",
+      "name": "Poche de froid épaule Revix réutilisable",
+      "origin": "data/quick-products.json",
+      "categoryId": "beaute-sante",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/generated-products/poche-froid-epaule.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777967227371_z392tm",
+      "slug": "accoudoir-central-voiture-avec-rangements-usb-mosbs4q3",
+      "name": "Accoudoir central voiture avec rangements USB",
+      "origin": "data/quick-products.json",
+      "categoryId": "auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/generated-products/accoudoir-central-usb.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777967227326_2d240r",
+      "slug": "paire-de-supports-reglables-pour-coffre-voiture-mosbs4ou",
+      "name": "Supports réglables pour coffre voiture - paire",
+      "origin": "data/quick-products.json",
+      "categoryId": "auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/generated-products/supports-coffre-reglables.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777965447791_zo5ykz",
+      "slug": "carburateur-chinaroller-4t-50ccm-euro4-alpha-motors-firenze-50-euro-4-no-mosapzlb",
+      "name": "Carburateur scooter 4T 50cc Euro 4 - à vérifier",
+      "origin": "data/quick-products.json",
+      "categoryId": "auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&w=900&q=80",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777965396343_eklfed",
+      "slug": "filtre-a-eau-robinet-acier-inoxydable-13-etapes-purificateur-eau-uv-sans-mosaovw7",
+      "name": "Filtre robinet inox 13 étapes avec LED",
+      "origin": "data/quick-products.json",
+      "categoryId": "maison",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/quick-products/1777965396342-hr1jm1t.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777965323270_9u3e6r",
+      "slug": "plafonnier-led-3-spots-orientables-blanc-gu10-mosanbie",
+      "name": "Plafonnier LED 3 spots orientables blanc GU10",
+      "origin": "data/quick-products.json",
+      "categoryId": "electricite",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/quick-products/1777965323267-sj5aeyb.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777650980194_b0oph0",
+      "slug": "applique-murale-led-doree-eclairage-tricolore-mon3huua",
+      "name": "Applique murale LED dorée tricolore",
+      "origin": "data/quick-products.json",
+      "categoryId": "electricite",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/quick-products/1777650980192-ii300nj.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777650923266_xcbd4c",
+      "slug": "controleur-led-programmable-5-canaux-rgb-rgbw-12v-24v-20a-mon3gmwy",
+      "name": "Contrôleur LED RGB/RGBW 5 canaux 12V/24V",
+      "origin": "data/quick-products.json",
+      "categoryId": "electricite",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/quick-products/1777650923264-ihyovso.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777647232146_g2hfba",
+      "slug": "interrupteur-d-eclairage-bouton-de-lampe-antibrouillard-pour-interrupteu-mon19itu",
+      "name": "Interrupteur de phares chrome compatible Golf MK5/MK6",
+      "origin": "data/quick-products.json",
+      "categoryId": "auto-moto",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/quick-products/1777647232144-wfegupk.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777647164353_5u1mta",
+      "slug": "tapis-educateurs-pour-chiot-lot-entame-env-80-90-restants-mon182ip",
+      "name": "Tapis éducateurs pour chiot - lot entamé",
+      "origin": "data/quick-products.json",
+      "categoryId": "animaux",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/quick-products/1777647164351-430hgui.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777647119072_rr89iy",
+      "slug": "raquette-tennis-babolat-roland-garros-pulse-housse-mon173kw",
+      "name": "Raquettes tennis Babolat Roland Garros Pulse avec housse",
+      "origin": "data/quick-products.json",
+      "categoryId": "sport-loisirs",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/quick-products/1777647119070-d0z5fg5.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777646338631_hpsokc",
+      "slug": "tete-de-mannequin-aimantee-mon0qddz",
+      "name": "Lot de têtes de mannequin aimantées",
+      "origin": "data/quick-products.json",
+      "categoryId": "mannequins-bustes",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/quick-products/1777646338629-1qr8159.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    },
+    {
+      "id": "quick_1777646055749_ij6xpa",
+      "slug": "mannequin-tete-vitrine-test-mon0kb45",
+      "name": "Buste mannequin vitrine - à vérifier",
+      "origin": "data/quick-products.json",
+      "categoryId": "mannequins-bustes",
+      "status": "draft",
+      "visible": false,
+      "purchasable": false,
+      "image": "/uploads/generated-products/mannequin-vitrine-placeholder.webp",
+      "hardTextLeaks": [],
+      "softTextWarnings": [],
+      "hardImageRisks": [],
+      "publicationBlockers": []
+    }
+  ],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true
+  }
+}

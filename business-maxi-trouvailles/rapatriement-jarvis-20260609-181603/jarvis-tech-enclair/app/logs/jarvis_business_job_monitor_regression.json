@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-05-24 09:28:11",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "pipeline_log_seen": true,
+    "latest_action_present": true,
+    "short_message_present": true,
+    "txt_mentions_short_message": true,
+    "route_business_job_monitor": true,
+    "execute_business_job_monitor": true,
+    "executor_uses_short_message": true,
+    "recent_business_jobs_list": true,
+    "singleflight_state_tracked": true,
+    "read_only": true,
+    "no_process_kill": true,
+    "no_import": true,
+    "no_publish": true,
+    "no_order": true,
+    "no_payment": true,
+    "no_job_started": true,
+    "manual_validation_required": true,
+    "no_secret_like_value_in_text": true
+  },
+  "short_message": "Jobs business: derniere action search-products, 0 job(s) recent(s), lecture seule.",
+  "executor_message": "Jobs business: derniere action search-products, 0 job(s) recent(s), lecture seule.",
+  "recent_business_job_count": 0,
+  "note": "Regression lecture seule du moniteur jobs business. Aucun job n'est lance ni stoppe."
+}

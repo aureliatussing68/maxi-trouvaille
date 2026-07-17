@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "errors": [],
+  "results": [
+    {
+      "name": "desktop",
+      "lotCards": 3,
+      "stateLabels": 15,
+      "csvRows": 3
+    },
+    {
+      "name": "mobile",
+      "lotCards": 3,
+      "stateLabels": 15,
+      "csvRows": 3
+    }
+  ],
+  "screenshots": [
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-119-etat-visuel-desktop.png",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-119-etat-visuel-mobile.png"
+  ]
+}

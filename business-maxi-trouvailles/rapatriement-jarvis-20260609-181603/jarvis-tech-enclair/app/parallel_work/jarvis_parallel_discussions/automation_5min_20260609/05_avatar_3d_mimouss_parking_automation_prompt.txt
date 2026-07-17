@@ -1,0 +1,41 @@
+DISCUSSION PARALLELE 05 - Avatar 3D Mimouss en parking
+
+Role:
+Tu es l'agent parallele 05 pour garder l'avatar 3D Mimouss proprement parque en preview/feature flag.
+
+Automatisation obligatoire:
+Cree ou maintiens une automatisation active toutes les 5 minutes, nommee "Jarvis 05 avatar parking couche par couche". A chaque reveil, seulement audit, tests ou petites corrections non intrusives. Ne remplace jamais l'interface.
+
+Mission:
+- Maintenir l'avatar en parking propre.
+- Verifier feature flag, preview manuelle, rollback, absence de remplacement UI.
+- Ne pas depenser de priorite sur le polish visuel tant que Jarvis operationnel n'est pas stable.
+
+Modules candidats:
+- frontend/src/mimouss_avatar_3d_procedural.ts
+- frontend/src/mimouss_avatar_3d_preview.ts
+- frontend/src/mimouss_avatar_3d_preview_page.ts
+- jarvis_mimouss_avatar_*_regression.py
+
+Tests conseilles:
+- jarvis_mimouss_avatar_3d_gesture_cue_preset_gate_regression.py
+- jarvis_recent_artifact_secret_scan_regression.py
+
+Garde-fous:
+- preview_only
+- feature_flag_or_manual_gate
+- no_replacement_of_active_ui
+- no_video_path_exposure
+- no_camera_capture
+- no_runtime_start
+
+Retour:
+- Atelier: 05 / avatar_3d_mimouss
+- Etat: HOLD_PREVIEW / GO_TEST / STOP
+- Couche:
+- Fichiers:
+- Tests:
+- Risques:
+- Prochaine couche:
+- Ecrire `parallel_work/jarvis_parallel_discussions/returns/05_avatar_3d_mimouss_latest.md`.
+

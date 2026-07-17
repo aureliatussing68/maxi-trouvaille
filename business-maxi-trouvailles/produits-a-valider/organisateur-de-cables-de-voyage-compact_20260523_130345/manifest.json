@@ -1,0 +1,159 @@
+{
+  "updated_at": "2026-06-24 02:43:38",
+  "created_new": false,
+  "reused_existing": true,
+  "product_title": "Organisateur de cables de voyage compact",
+  "product_slug": "organisateur-de-cables-de-voyage-compact",
+  "review_dir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345",
+  "validation_packet": {
+    "checked_at": "2026-06-24 02:43:38",
+    "ok": true,
+    "short_message": "Dossier validation pret: Organisateur de cables de voyage compact, 2 blocage(s) a relire, aucune action sensible.",
+    "preview_only": true,
+    "operating_mode": "demo_draft_only",
+    "product": {
+      "title": "Organisateur de cables de voyage compact",
+      "slug": "organisateur-de-cables-de-voyage-compact",
+      "category_id": "dropshipping-accessoires",
+      "status": "brouillon_preview",
+      "publication_status": "not_published",
+      "supplier_price": "3,90 €",
+      "sale_price": "12,90 €",
+      "estimated_margin": "9,00 €",
+      "supplier_search_query": "Organisateur de cables de voyage compact accessoires livraison Europe"
+    },
+    "ads": [
+      {
+        "platform": "tiktok",
+        "label": "TikTok",
+        "duration_seconds": 18,
+        "hook": "Tu perds encore du temps avec tes cables ?",
+        "publication_status": "not_published"
+      },
+      {
+        "platform": "instagram_reels",
+        "label": "Instagram Reels",
+        "duration_seconds": 20,
+        "hook": "Tu perds encore du temps avec tes cables ?",
+        "publication_status": "not_published"
+      },
+      {
+        "platform": "snapchat_story",
+        "label": "Snapchat Story",
+        "duration_seconds": 12,
+        "hook": "Tu perds encore du temps avec tes cables ?",
+        "publication_status": "not_published"
+      }
+    ],
+    "blockers": [
+      "lien fournisseur reel manquant",
+      "sourcing reel AliExpress non pret"
+    ],
+    "validation_checklist": [
+      "Coller ou verifier un lien fournisseur reel.",
+      "Verifier prix fournisseur, livraison Europe, retours et SAV.",
+      "Verifier que le produit n'est pas dangereux, medical, contrefait ou interdit.",
+      "Verifier les images produit avant toute pub.",
+      "Valider la categorie Maxi et le prix promo.",
+      "Garder publication TikTok/Instagram/Snapchat en manuel."
+    ],
+    "decision_options": [
+      "valider_fournisseur_et_preparer_fiche_brouillon",
+      "demander_un_autre_produit",
+      "corriger_categorie_ou_prix",
+      "rejeter_le_produit"
+    ],
+    "operator_message": "Dossier de validation pret. Rien n'a ete importe, publie, achete ou paye.",
+    "source_reports": {
+      "operating_mode": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_operating_mode.txt",
+      "product_preview": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_product_preview.md",
+      "ads_preview": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_ads_preview.md",
+      "supplier_plan": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_supplier_verification.txt"
+    },
+    "safety": {
+      "read_only": true,
+      "preview_only": true,
+      "no_import": true,
+      "no_order": true,
+      "no_payment": true,
+      "no_publication": true,
+      "manual_validation_required": true,
+      "no_values_exposed": true
+    }
+  },
+  "import_gate": {
+    "checked_at": "2026-06-24 02:43:38",
+    "ok": true,
+    "short_message": "Import brouillon bloque pour relecture manuelle: Organisateur de cables de voyage compact, 2 exigence(s) a verifier, aucune modification.",
+    "product": {
+      "title": "Organisateur de cables de voyage compact",
+      "slug": "organisateur-de-cables-de-voyage-compact",
+      "category_id": "dropshipping-accessoires",
+      "status": "brouillon_preview",
+      "publication_status": "not_published",
+      "supplier_price": "3,90 €",
+      "sale_price": "12,90 €",
+      "estimated_margin": "9,00 €",
+      "supplier_search_query": "Organisateur de cables de voyage compact accessoires livraison Europe"
+    },
+    "import_draft_allowed": false,
+    "decision": "BLOCKED_FOR_MANUAL_REVIEW",
+    "missing_requirements": [
+      "real_sourcing_ready",
+      "validation_packet_clear"
+    ],
+    "blockers": [
+      "lien fournisseur reel manquant",
+      "sourcing reel AliExpress non pret"
+    ],
+    "operator_message": "Import brouillon bloque: il manque encore les validations fournisseur/sourcing.",
+    "source_mode": "demo",
+    "real_sourcing_ready": false,
+    "access_mode": "draft_only",
+    "safety": {
+      "read_only": true,
+      "gate_only": true,
+      "import_started": false,
+      "site_modified": false,
+      "order_started": false,
+      "payment_started": false,
+      "publication_started": false,
+      "manual_validation_required": true,
+      "no_values_exposed": true
+    }
+  },
+  "ads_export": {
+    "checked_at": "2026-06-24 02:43:38",
+    "ok": true,
+    "short_message": "Pack scripts pubs pret: 3 brouillon(s) locaux pour Organisateur de cables de voyage compact, aucune video ni publication.",
+    "product_title": "Organisateur de cables de voyage compact",
+    "product_slug": "organisateur-de-cables-de-voyage-compact",
+    "export_dir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260624_024338",
+    "written_files": [
+      "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260624_024338\\tiktok.md",
+      "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260624_024338\\instagram-reels.md",
+      "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260624_024338\\snapchat-story.md",
+      "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260624_024338\\manifest.json",
+      "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260624_024338\\README.txt"
+    ],
+    "ad_count": 3,
+    "operator_message": "Pack scripts pubs brouillon exporte en local. Aucune video ni publication.",
+    "safety": {
+      "local_files_only": true,
+      "site_modified": false,
+      "video_export_started": false,
+      "publication_started": false,
+      "payment_started": false,
+      "order_started": false,
+      "manual_validation_required": true,
+      "no_values_exposed": true
+    }
+  },
+  "written_files": [
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\A_VALIDER_PAR_MOUSS.md",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\garde_import.txt",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\liens_scripts_pubs.txt",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\README.txt"
+  ],
+  "manual_validation_required": true
+}

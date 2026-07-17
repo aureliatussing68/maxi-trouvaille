@@ -1,0 +1,33 @@
+Regression paquet recherche fournisseur - 2026-05-25 04:39:15
+
+Global: OK
+Message paquet: Paquet recherche fournisseur: 5 slot(s), 5 lien(s) reel(s) a trouver, aucune recherche lancee.
+Slots: 5
+
+Assertions:
+- json_written: OK
+- txt_written: OK
+- packet_ok: OK
+- route_supplier_research_packet: OK
+- execute_supplier_research_packet: OK
+- executor_payload_ok: OK
+- manual_only: OK
+- auto_research_denied: OK
+- slot_count: OK
+- queries_prepared: OK
+- manual_validation: OK
+- checks_present: OK
+- instructions_present: OK
+- no_web_or_api_started: OK
+- no_scraping_or_subprocess: OK
+- no_business_job_or_sourcing: OK
+- site_not_modified: OK
+- no_import_order_payment_publication: OK
+- no_delete: OK
+- read_only_packet: OK
+- no_secret_values: OK
+- no_content_exposed: OK
+- txt_mentions_packet: OK
+- no_secret_like_value_in_reports: OK
+
+Regression lecture seule: le paquet fournisseur prepare la recherche manuelle sans lancer web/API/sourcing.

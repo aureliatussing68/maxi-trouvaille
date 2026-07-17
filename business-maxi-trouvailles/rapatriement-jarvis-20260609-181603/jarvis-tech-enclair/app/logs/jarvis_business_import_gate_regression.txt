@@ -1,0 +1,29 @@
+Regression garde import brouillon - 2026-06-03 18:22:29
+Global: OK
+Message court: Import brouillon bloque pour relecture manuelle: Organisateur de cables de voyage compact, 2 exigence(s) a verifier, aucune modification.
+Message executeur: Import brouillon bloque pour relecture manuelle: Organisateur de cables de voyage compact, 2 exigence(s) a verifier, aucune modification.
+Decision: BLOCKED_FOR_MANUAL_REVIEW
+Import autorise: NON
+
+- json_written: OK
+- txt_written: OK
+- product_present: OK
+- decision_present: OK
+- missing_requirements_present: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- route_business_import_gate: OK
+- execute_business_import_gate: OK
+- executor_uses_short_message: OK
+- gate_only: OK
+- read_only: OK
+- no_site_modification: OK
+- no_import_started: OK
+- no_order_started: OK
+- no_payment_started: OK
+- no_publication_started: OK
+- manual_validation_required: OK
+- no_values_exposed: OK
+- no_secret_like_value_in_reports: OK
+
+Securite: garde uniquement, aucun secret, aucun import/commande/paiement/publication.

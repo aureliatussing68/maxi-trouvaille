@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-11T03:34:26.431Z",
+  "mode": "public_customer_image_hold_audit",
+  "applyMode": false,
+  "status": "OK_PUBLIC_IMAGES",
+  "publishedQuickProductCount": 8,
+  "toHoldCount": 0,
+  "appliedHoldCount": 0,
+  "toHold": [],
+  "backupPath": null,
+  "outputDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\public-image-hold-20260611",
+  "safety": {
+    "noSupplierOrder": true,
+    "noPayment": true,
+    "noPublication": true,
+    "noDeletion": true,
+    "onlyDraftHoldLocalProducts": false
+  }
+}

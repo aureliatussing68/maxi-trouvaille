@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-06-09 07:27:00",
+  "deployment_status": "STANDBY_NOT_LAUNCHED_BY_MOUSS",
+  "standby_since": "2026-06-09 07:30:00",
+  "standby_reason": "Mouss part travailler et lancera les discussions paralleles plus tard si besoin.",
+  "cadence_minutes": 5,
+  "purpose": "Prompts for parallel Jarvis/Mimouss helper discussions with per-thread automation every five minutes.",
+  "central_integration_policy": {
+    "main_thread_only_integrates": true,
+    "parallel_agents_write_returns_only": true,
+    "no_blind_activation": true,
+    "go_non_sensitive_requires_backup_tests_secret_scan": true,
+    "sensitive_tracks_remain_hold_manual": true
+  },
+  "global_guardrails": {
+    "no_secret_values": true,
+    "no_payment": true,
+    "no_order": true,
+    "no_publication": true,
+    "no_real_email_send": true,
+    "no_account_login": true,
+    "no_delete": true,
+    "no_camera_capture": true,
+    "no_audio_capture": true,
+    "no_runtime_start": true,
+    "no_window_action_without_manual_validation": true,
+    "no_paid_api_without_manual_validation": true
+  },
+  "agents": [
+    {
+      "number": "01",
+      "track_id": "voice_reactivity",
+      "prompt_file": "01_voice_reactivity_automation_prompt.txt",
+      "return_file": "parallel_work/jarvis_parallel_discussions/returns/01_voice_reactivity_latest.md",
+      "initial_state": "GO",
+      "sensitive": false
+    },
+    {
+      "number": "02",
+      "track_id": "ai_orchestration",
+      "prompt_file": "02_ai_orchestration_automation_prompt.txt",
+      "return_file": "parallel_work/jarvis_parallel_discussions/returns/02_ai_orchestration_latest.md",
+      "initial_state": "GO",
+      "sensitive": false
+    },
+    {
+      "number": "03",
+      "track_id": "pc_runtime_openwebui",
+      "prompt_file": "03_pc_runtime_openwebui_automation_prompt.txt",
+      "return_file": "parallel_work/jarvis_parallel_discussions/returns/03_pc_runtime_openwebui_latest.md",
+      "initial_state": "GO",
+      "sensitive": false
+    },
+    {
+      "number": "04",
+      "track_id": "assistant_pc_reactif",
+      "prompt_file": "04_assistant_pc_reactif_automation_prompt.txt",
+      "return_file": "parallel_work/jarvis_parallel_discussions/returns/04_assistant_pc_reactif_latest.md",
+      "initial_state": "GO_PREP",
+      "sensitive": false
+    },
+    {
+      "number": "05",
+      "track_id": "avatar_3d_mimouss",
+      "prompt_file": "05_avatar_3d_mimouss_parking_automation_prompt.txt",
+      "return_file": "parallel_work/jarvis_parallel_discussions/returns/05_avatar_3d_mimouss_latest.md",
+      "initial_state": "HOLD_PREVIEW",
+      "sensitive": false
+    },
+    {
+      "number": "06",
+      "track_id": "maxi_controlled_commerce",
+      "prompt_file": "06_maxi_controlled_commerce_draft_automation_prompt.txt",
+      "return_file": "parallel_work/jarvis_parallel_discussions/returns/06_maxi_controlled_commerce_latest.md",
+      "initial_state": "HOLD_DRAFT",
+      "sensitive": true
+    },
+    {
+      "number": "07",
+      "track_id": "marketing_automation_mail",
+      "prompt_file": "07_marketing_mail_social_draft_automation_prompt.txt",
+      "return_file": "parallel_work/jarvis_parallel_discussions/returns/07_marketing_automation_mail_latest.md",
+      "initial_state": "HOLD_DRAFT",
+      "sensitive": true
+    },
+    {
+      "number": "08",
+      "track_id": "social_desktop_apps",
+      "prompt_file": "08_social_desktop_apps_inventory_automation_prompt.txt",
+      "return_file": "parallel_work/jarvis_parallel_discussions/returns/08_social_desktop_apps_latest.md",
+      "initial_state": "HOLD_INVENTORY",
+      "sensitive": true
+    },
+    {
+      "number": "09",
+      "track_id": "spotify_media_assist",
+      "prompt_file": "09_spotify_media_assist_draft_automation_prompt.txt",
+      "return_file": "parallel_work/jarvis_parallel_discussions/returns/09_spotify_media_assist_latest.md",
+      "initial_state": "HOLD_DRAFT",
+      "sensitive": true
+    },
+    {
+      "number": "10",
+      "track_id": "vision_camera_gesture",
+      "prompt_file": "10_vision_camera_gesture_preview_automation_prompt.txt",
+      "return_file": "parallel_work/jarvis_parallel_discussions/returns/10_vision_camera_gesture_latest.md",
+      "initial_state": "HOLD_PREVIEW",
+      "sensitive": true
+    },
+    {
+      "number": "99",
+      "track_id": "parallel_returns_supervisor",
+      "prompt_file": "99_superviseur_retours_parallel_automation_prompt.txt",
+      "return_file": "parallel_work/jarvis_parallel_discussions/returns/99_superviseur_latest.md",
+      "initial_state": "GO_REVIEW",
+      "sensitive": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+Regression resume business - 2026-05-24 09:31:57
+Global: OK
+Message court: Resultats business: 10 candidat(s), fiche Produit fictif - organisateur malin de bureau, 3 pub(s) brouillon, validation obligatoire.
+Message executeur: Resultats business: 10 candidat(s), fiche Produit fictif - organisateur malin de bureau, 3 pub(s) brouillon, validation obligatoire.
+Candidats: 10
+
+- json_written: OK
+- txt_written: OK
+- summary_has_candidates: OK
+- summary_has_product_sheet: OK
+- summary_has_ads: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- route_business_latest_summary: OK
+- execute_business_latest_summary: OK
+- executor_uses_short_message: OK
+- read_only: OK
+- no_import: OK
+- no_order: OK
+- no_publication: OK
+- manual_validation_required: OK
+- publication_statuses_not_published: OK
+- no_secret_like_value_in_text: OK
+
+Securite: lecture seule, aucun secret, aucun import/commande/publication.

@@ -1,0 +1,35 @@
+{
+  "rank": 3,
+  "top3Rank": 1,
+  "productId": "integration_articles_20260612_housse-protection-canape-animal",
+  "productSlug": "housse-protection-canape-animal-partenaire-hold",
+  "productName": "Housse protection canape animal",
+  "categoryId": "dropshipping-maison",
+  "priorityScore": 114,
+  "supplierMaxCost": "11.20 EUR",
+  "targetSalePrice": "24.90 EUR",
+  "targetMargin": "13.70 EUR (55%)",
+  "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260612/housse-protection-canape-animal-partenaire-hold",
+  "expectedImageFiles": [
+    "housse-protection-canape-animal-partenaire-hold-main.webp",
+    "housse-protection-canape-animal-partenaire-hold-detail-1.webp",
+    "housse-protection-canape-animal-partenaire-hold-variant.webp"
+  ],
+  "proofZone": "Fournisseur / SKU",
+  "fieldOrder": 3,
+  "fieldKey": "supplierSku",
+  "fieldLabel": "SKU/reference fournisseur",
+  "expectedFormat": "SKU, item id ou reference fournisseur stable",
+  "rejectIf": "Reference absente ou non reutilisable pour une commande manuelle",
+  "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_housse-protection-canape-animal",
+  "status": "TO_FILL_HOLD",
+  "manualInput": {
+    "value": "",
+    "evidenceNote": "",
+    "captureOrFilePath": "",
+    "checkedSameArticle": "",
+    "moussValidation": "",
+    "finalDecision": "HOLD_TO_FILL"
+  },
+  "nextAction": "Remplir cette preuve critique pour le meme article exact, garder HOLD, puis relancer les audits."
+}

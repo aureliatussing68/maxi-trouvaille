@@ -1,0 +1,73 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-18T19:53:31.035Z",
+  "generatedAtLocal": "2026-06-18 21:53 Europe/Paris",
+  "mode": "read_only_mobile_demo_nav_audit",
+  "requiredLinks": [
+    {
+      "href": "/boutique",
+      "label": "Boutique"
+    },
+    {
+      "href": "/produits-partenaires",
+      "label": "Partenaires"
+    },
+    {
+      "href": "/nouveautes",
+      "label": "Nouveau"
+    },
+    {
+      "href": "/promotions",
+      "label": "Promos"
+    },
+    {
+      "href": "/suivi-colis",
+      "label": "Suivi"
+    }
+  ],
+  "requiredLinkCount": 5,
+  "links": [
+    {
+      "href": "/boutique",
+      "label": "Boutique",
+      "line": 14
+    },
+    {
+      "href": "/produits-partenaires",
+      "label": "Partenaires",
+      "line": 19
+    },
+    {
+      "href": "/nouveautes",
+      "label": "Nouveau",
+      "line": 25
+    },
+    {
+      "href": "/promotions",
+      "label": "Promos",
+      "line": 31
+    },
+    {
+      "href": "/suivi-colis",
+      "label": "Suivi",
+      "line": 37
+    }
+  ],
+  "linkCount": 5,
+  "findingCount": 0,
+  "findings": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true,
+    "noExternalRequest": true
+  },
+  "files": {
+    "json": "business-maxi-trouvailles/tableaux-action/audit-mobile-demo-nav-20260618/AUDIT_MOBILE_DEMO_NAV_20260618.json",
+    "md": "business-maxi-trouvailles/tableaux-action/audit-mobile-demo-nav-20260618/AUDIT_MOBILE_DEMO_NAV_20260618.md",
+    "csv": "business-maxi-trouvailles/tableaux-action/audit-mobile-demo-nav-20260618/maxi-audit-mobile-demo-nav-20260618.csv"
+  }
+}

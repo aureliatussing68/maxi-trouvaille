@@ -1,0 +1,76 @@
+Regression prochaine etape business securisee - 2026-06-08 22:11:06
+
+Global: OK
+Message: Prochaine etape business securisee: 5 pas manuels, validation/import bloques, aucune execution Jarvis.
+Caracteres phrase: 138
+Checks OK: 11
+
+Assertions:
+- json_written: OK
+- txt_written: OK
+- module_ok: OK
+- route_safe_next_step: OK
+- execute_safe_next_step: OK
+- executor_payload_ok: OK
+- checks_ok: OK
+- next_line_shape: OK
+- next_steps_manual_only: OK
+- component_statuses: OK
+- supplier_resume_snapshot_safe: OK
+- runtime_handoff_present: OK
+- runtime_handoff_matches_business_handoff: OK
+- runtime_handoff_status_present: OK
+- runtime_handoff_dry_run: OK
+- runtime_handoff_manual_confirmation: OK
+- runtime_handoff_no_process_start: OK
+- runtime_handoff_no_process_kill: OK
+- runtime_handoff_no_container_change: OK
+- runtime_handoff_no_window_action: OK
+- runtime_handoff_no_browser_open: OK
+- runtime_handoff_no_ai_secret: OK
+- runtime_handoff_paths_hidden: OK
+- runtime_handoff_no_process_started: OK
+- runtime_handoff_no_process_killed: OK
+- runtime_handoff_no_container_changed: OK
+- runtime_recovery_not_started: OK
+- runtime_handoff_source_display_only: OK
+- runtime_handoff_source_snapshot_only: OK
+- runtime_handoff_source_handoff_only: OK
+- mouss_manual_only: OK
+- validation_and_import_blocked: OK
+- unlock_denied: OK
+- specific_validation_required: OK
+- counts_visible_only: OK
+- no_product_path_window_content: OK
+- no_web_api_or_scraping: OK
+- no_business_sensitive_action: OK
+- no_window_or_audio_interference: OK
+- read_only_safety: OK
+- sensitive_safety: OK
+- window_audio_safety: OK
+- no_secret_or_content: OK
+- uses_manual_gate_snapshot: OK
+- uses_business_handoff_snapshot: OK
+- uses_supplier_resume_snapshot: OK
+- uses_runtime_handoff_snapshot: OK
+- runtime_handoff_display_only: OK
+- runtime_handoff_snapshot_only: OK
+- runtime_handoff_handoff_only: OK
+- runtime_handoff_dry_run_only: OK
+- runtime_handoff_safety_no_process_start: OK
+- runtime_handoff_safety_no_process_kill: OK
+- runtime_handoff_safety_no_container_change: OK
+- runtime_handoff_safety_manual_confirmation: OK
+- runtime_handoff_safety_no_window_action: OK
+- runtime_handoff_safety_no_browser_open: OK
+- runtime_handoff_source_no_browser_open: OK
+- runtime_handoff_safety_no_ai_secret: OK
+- runtime_handoff_safety_paths_hidden: OK
+- runtime_handoff_safety_matches_business_handoff: OK
+- no_runtime_recovery_started: OK
+- txt_mentions_runtime_handoff: OK
+- txt_mentions_safe_next: OK
+- no_rows_or_paths_in_reports: OK
+- no_secret_like_value_in_reports: OK
+
+Regression prochaine etape business securisee: aggregation lecture seule, pas manuels, aucun business sensible.

@@ -1,0 +1,35 @@
+Plan verification fournisseurs Maxi - 2026-06-09 18:00:59
+
+Message court: Plan fournisseurs: 5 produit(s), 0 source(s) reelle(s), aucune recherche lancee.
+Produits selectionnes: 5
+Sources reelles: 0
+Sources demo: 10
+
+Plans par produit:
+1. Organisateur de cables de voyage compact | dropshipping-accessoires | chercher: Organisateur de cables de voyage compact accessoires livraison Europe
+   Lien fournisseur reel requis: oui
+   Point vigilance: Verifier robustesse, dimensions et utilite visuelle pour pub courte.
+2. Sac de rangement compressible pour valise | dropshipping-accessoires | chercher: Sac de rangement compressible pour valise accessoires livraison Europe
+   Lien fournisseur reel requis: oui
+   Point vigilance: Verifier robustesse, dimensions et utilite visuelle pour pub courte.
+3. Veilleuse detecteur de mouvement pour placard | dropshipping-high-tech | chercher: Veilleuse detecteur de mouvement pour placard electricite livraison Europe
+   Lien fournisseur reel requis: oui
+   Point vigilance: Verifier normes, batterie, charge, CE et risques electriques.
+4. Lampe LED rechargeable magnetique pour bureau | dropshipping-maison | chercher: Lampe LED rechargeable magnetique pour bureau maison livraison Europe
+   Lien fournisseur reel requis: oui
+   Point vigilance: Verifier dimensions, matiere et photos avant/apres honnetes.
+5. Mini aspirateur sans fil pour voiture | dropshipping-auto-moto | chercher: Mini aspirateur sans fil pour voiture auto-moto livraison Europe
+   Lien fournisseur reel requis: oui
+   Point vigilance: Verifier securite conduite, compatibilite vehicule et responsabilite.
+
+Checklist commune:
+- Trouver un vrai lien fournisseur AliExpress ou partenaire Europe.
+- Verifier livraison Europe rapide et delai annonce clairement.
+- Verifier note produit et vendeur avant import.
+- Verifier que le produit n'est pas dangereux, medical, contrefait ou reglemente.
+- Verifier images utilisables et qualite suffisante.
+- Verifier marge apres frais, retours et publicite.
+- Garder le produit en brouillon tant que Mouss n'a pas valide.
+
+Message: Plan fournisseur pret. Aucune recherche web, achat, commande ou publication n'a ete lancee.
+Securite: plan uniquement, aucune commande, aucun paiement, aucune publication.

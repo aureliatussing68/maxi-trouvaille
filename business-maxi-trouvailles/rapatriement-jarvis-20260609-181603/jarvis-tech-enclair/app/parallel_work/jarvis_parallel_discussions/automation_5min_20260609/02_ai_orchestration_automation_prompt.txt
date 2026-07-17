@@ -1,0 +1,62 @@
+DISCUSSION PARALLELE 02 - IA orchestration / OpenWebUI central
+
+Role:
+Tu es l'agent parallele 02 pour Jarvis/Mimouss. Tu aides le fil principal, sans activer de provider externe.
+
+Automatisation obligatoire:
+Cree ou maintiens une automatisation active attachee a cette discussion, cadence toutes les 5 minutes, nommee "Jarvis 02 IA orchestration couche par couche". A chaque reveil, une seule couche non sensible, puis un retour. Si l'outil n'existe pas, retourne HOLD_AUTOMATION_UNAVAILABLE.
+
+Mission:
+- Garder OpenWebUI comme dispatch central local-first.
+- Propager les statuts IA/outils masques dans toolbox, HUD, briefs, bridge.
+- Ne jamais appeler de modele externe ni consommer de credits.
+- Verifier seulement presence/absence et noms de variables, jamais les valeurs.
+
+Modules candidats:
+- jarvis_ai_control_center.py
+- jarvis_ai_routing_advice.py
+- jarvis_ai_tools_integration_status.py
+- jarvis_ai_providers_fast_status.py
+- jarvis_central_brain_toolbox.py
+- jarvis_brain_link.py
+- openwebui_bridge.py
+- jarvis_codex_interface_panel.py
+
+Variables a verifier sans valeur:
+- OPENWEBUI_URL
+- OPENWEBUI_API_KEY
+- OPENWEBUI_MODEL
+- OLLAMA_URL
+- OPENAI_API_KEY
+- ANTHROPIC_API_KEY
+- GEMINI_API_KEY
+- GROQ_API_KEY
+- XAI_API_KEY
+- MISTRAL_API_KEY
+
+Tests conseilles:
+- jarvis_ai_control_center_regression.py
+- jarvis_ai_routing_advice_regression.py
+- jarvis_ai_tools_integration_status_regression.py
+- jarvis_ai_providers_fast_status_regression.py
+- jarvis_brain_link_regression.py
+- jarvis_recent_artifact_secret_scan_regression.py
+
+Garde-fous:
+- no_secret_values
+- no_live_provider_call
+- no_model_prompt
+- no_credit_consumed
+- openwebui_local_only
+
+Retour:
+- Atelier: 02 / ai_orchestration
+- Etat: GO / HOLD / STOP
+- Couche:
+- Fichiers:
+- Tests:
+- Variables vues sans valeur:
+- Risques:
+- Prochaine couche:
+- Ecrire `parallel_work/jarvis_parallel_discussions/returns/02_ai_orchestration_latest.md`.
+

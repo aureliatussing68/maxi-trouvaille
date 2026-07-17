@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-13T12:11:46.616Z",
+  "generatedAtLocal": "2026-06-13 14:11 Europe/Paris",
+  "mode": "read_only_integration_top3_webp_workpack_audit",
+  "status": "OK_TOP3_WEBP_WORKPACK_GUARDED",
+  "productCount": 3,
+  "imageTaskCount": 9,
+  "scannedFileCount": 22,
+  "failureCount": 0,
+  "sensitiveFindingCount": 0,
+  "issues": [],
+  "sensitiveFindings": [],
+  "sources": {
+    "workpackPath": "business-maxi-trouvailles/tableaux-action/top3-webp-sourcing-integration-articles/20260613/TOP3_WEBP_SOURCING_INTEGRATION_20260613.json",
+    "fillableCsvPath": "business-maxi-trouvailles/tableaux-action/top3-webp-sourcing-integration-articles/20260613/A_REMPLIR_TOP3_WEBP_SOURCING_20260613.csv",
+    "top3Path": "business-maxi-trouvailles/tableaux-action/top3-sourcing-integration-articles/20260613/TOP3_SOURCING_INTEGRATION_20260613.json",
+    "top3AuditPath": "business-maxi-trouvailles/tableaux-action/audit-top3-sourcing-integration-articles/20260613/AUDIT_TOP3_SOURCING_INTEGRATION_20260613.json"
+  },
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noImageDownload": true,
+    "noPublicImageWrite": true,
+    "manualValidationRequired": true
+  }
+}

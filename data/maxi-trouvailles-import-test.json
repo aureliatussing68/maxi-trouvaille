@@ -1,0 +1,111 @@
+{
+  "createdAt": "2026-05-05",
+  "purpose": "Test manuel d'import produits vers Maxi Trouvailles",
+  "requestedLimit": 5,
+  "receivedCount": 3,
+  "readyCount": 0,
+  "notes": [
+    "Aucune mention de la plateforme d'origine n'est conservee dans les fiches produit.",
+    "Les images vues dans la conversation ne sont pas encore des fichiers locaux du projet.",
+    "Les prix et liens manquants devront etre completes avant import reel."
+  ],
+  "products": [
+    {
+      "status": "needs_review",
+      "title": "Table en bois clair avec pieds tournes blancs",
+      "price": null,
+      "currency": "EUR",
+      "categoryId": "maison",
+      "condition": "Occasion",
+      "stock": 1,
+      "livraisonDisponible": "sur devis",
+      "shortDescription": "Table rectangulaire en bois clair avec pieds tournes blancs, en bon etat general.",
+      "description": "Table rectangulaire en bois clair avec plateau aux angles arrondis et pieds tournes blancs. Bon etat general, adaptee pour une cuisine, une salle a manger, un atelier ou une piece de vie. Objet volumineux : retrait ou livraison a organiser sur devis.",
+      "features": [
+        "Plateau en bois clair",
+        "Pieds blancs tournes",
+        "Bon etat general",
+        "Objet volumineux a organiser en retrait ou sur devis"
+      ],
+      "photos": [
+        {
+          "localPath": null,
+          "description": "Vue complete de la table avec plateau en bois clair et pieds blancs"
+        },
+        {
+          "localPath": null,
+          "description": "Detail du plateau et d'un pied tourne blanc"
+        },
+        {
+          "localPath": null,
+          "description": "Vue du plateau en bois clair"
+        }
+      ],
+      "listingUrl": null,
+      "missingFields": [
+        "price",
+        "localPhotoFiles",
+        "listingUrl"
+      ]
+    },
+    {
+      "status": "incomplete",
+      "title": "Carburateur Chinaroller 4T 50ccm Euro 4",
+      "price": null,
+      "currency": "EUR",
+      "categoryId": "auto-moto",
+      "condition": "A verifier",
+      "stock": 1,
+      "livraisonDisponible": "toutes",
+      "shortDescription": "Carburateur compatible Chinaroller 4T 50ccm Euro 4 et modeles equivalents.",
+      "description": "Carburateur pour scooter 4 temps 50ccm Euro 4, compatible avec plusieurs modeles Alpha Motors, Firenze, Nova Motors et Burnout. Compatibilite exacte, etat, prix et photos a verifier avant publication.",
+      "features": [
+        "Pour scooter 4T 50ccm Euro 4",
+        "Compatibilite a verifier avant vente",
+        "Produit auto/moto",
+        "Fiche a completer avant import"
+      ],
+      "photos": [],
+      "listingUrl": null,
+      "missingFields": [
+        "price",
+        "photos",
+        "listingUrl",
+        "fullDescription",
+        "condition"
+      ]
+    },
+    {
+      "status": "needs_review",
+      "title": "Prise telecommandee sans fil DEWENWILS 16A - 2 telecommandes",
+      "price": null,
+      "currency": "EUR",
+      "categoryId": "electricite",
+      "condition": "A verifier",
+      "stock": 1,
+      "livraisonDisponible": "toutes",
+      "shortDescription": "Prise telecommandee sans fil DEWENWILS 16A avec deux commandes murales.",
+      "description": "Kit prise telecommandee sans fil DEWENWILS 16A avec deux telecommandes murales ON/OFF, prise, boite et notice visibles. Produit pratique pour piloter une lampe, un appareil ou une alimentation a distance. Etat exact et fonctionnement a verifier avant publication.",
+      "features": [
+        "Marque DEWENWILS",
+        "Prise sans fil 16A",
+        "Deux telecommandes murales ON/OFF",
+        "Boite et notice visibles",
+        "Fonctionnement a verifier avant vente"
+      ],
+      "photos": [
+        {
+          "localPath": null,
+          "description": "Vue du kit avec prise, deux telecommandes, boite et notice"
+        }
+      ],
+      "listingUrl": null,
+      "missingFields": [
+        "price",
+        "localPhotoFiles",
+        "listingUrl",
+        "condition"
+      ]
+    }
+  ]
+}

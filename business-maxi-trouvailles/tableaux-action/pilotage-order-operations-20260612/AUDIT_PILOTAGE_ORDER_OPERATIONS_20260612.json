@@ -1,0 +1,89 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-12T07:54:39.227Z",
+  "mode": "read_only_pilotage_order_operations_panel_audit",
+  "pageChecks": [
+    {
+      "label": "type DropshippingOrderOperationsBoard",
+      "ok": true
+    },
+    {
+      "label": "collectDropshippingOrderOperationsFiles",
+      "ok": true
+    },
+    {
+      "label": "readLatestDropshippingOrderOperations",
+      "ok": true
+    },
+    {
+      "label": "buildDropshippingOrderOperationsCsv",
+      "ok": true
+    },
+    {
+      "label": "dropshippingOrderOperationsExportHref",
+      "ok": true
+    },
+    {
+      "label": "Commandes dropshipping",
+      "ok": true
+    },
+    {
+      "label": "Stock et operations fournisseur",
+      "ok": true
+    },
+    {
+      "label": "Commandes stock a reprendre",
+      "ok": true
+    },
+    {
+      "label": "Garde-fou stock webhook",
+      "ok": true
+    },
+    {
+      "label": "npm run catalog:order-operations-board",
+      "ok": true
+    },
+    {
+      "label": "/admin/dropshipping",
+      "ok": true
+    },
+    {
+      "label": "admin guard before promise work",
+      "ok": true
+    },
+    {
+      "label": "operations board loaded in Promise.all",
+      "ok": true
+    }
+  ],
+  "board": {
+    "present": true,
+    "path": "business-maxi-trouvailles/tableaux-action/dropshipping-order-operations-20260612/DROPSHIPPING_ORDER_OPERATIONS_BOARD_20260612.json",
+    "itemCount": 0,
+    "stockExceptions": 0,
+    "sharedOperationsSource": "src/lib/dropshipping-operations.ts",
+    "safety": {
+      "readOnly": true,
+      "noPayment": true,
+      "noSupplierOrder": true,
+      "noPublication": true,
+      "noExternalApiCall": true,
+      "noSupplierUrlsExported": true,
+      "noCustomerAddressExported": true
+    }
+  },
+  "leakSignals": [],
+  "failureCount": 0,
+  "failures": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noExternalApiCall": true,
+    "pageBehindAdminMode": true,
+    "latestBoardHasNoSupplierUrlLeak": true,
+    "latestBoardUsesSharedOperations": true
+  }
+}

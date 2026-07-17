@@ -1,0 +1,27 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-18T20:01:03.035Z",
+  "generatedAtLocal": "2026-06-18 22:01 Europe/Paris",
+  "mode": "read_only_generated_artifact_leak_audit",
+  "scannedDirectories": [
+    "business-maxi-trouvailles/tableaux-action/public-catalog-source-guards-20260618",
+    "business-maxi-trouvailles/tableaux-action/surface-visuelle-publique-20260618",
+    "business-maxi-trouvailles/tableaux-action/audit-seo-hold-visibility-20260618",
+    "business-maxi-trouvailles/tableaux-action/admin-api-guards-20260618",
+    "business-maxi-trouvailles/tableaux-action/admin-page-guards-20260618",
+    "business-maxi-trouvailles/tableaux-action/surface-publique-dropshipping-20260618",
+    "business-maxi-trouvailles/tableaux-action/audit-artefacts-generes-sensibles-20260618"
+  ],
+  "scannedDirectoryCount": 7,
+  "scannedFileCount": 14,
+  "findingCount": 0,
+  "findings": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noExternalRequest": true
+  }
+}

@@ -1,0 +1,115 @@
+Regression pre-business controle fenetres - 2026-06-08 19:24:49
+
+Global: OK
+Statut: PRET_CONFIRMATION_HUMAINE
+Message court: Pre-business fenetres OK: 2 ecran(s), business garde en attente de validation humaine.
+File actuelle: controle_pc_fenetres
+File suivante apres validation: business_maxi
+Ecrans: 2
+
+Checks:
+- json_written: OK
+- txt_written: OK
+- guard_ok: OK
+- status_ready: OK
+- current_lane_pc_windows: OK
+- next_lane_business: OK
+- screens_detected: OK
+- readiness_present: OK
+- control_center_sections: OK
+- advisor_status_present: OK
+- gaming_pause_present: OK
+- gaming_pause_manual_confirmation: OK
+- gaming_pause_no_action_now: OK
+- gaming_pause_source_safe: OK
+- runtime_handoff_present: OK
+- runtime_handoff_status_present: OK
+- runtime_handoff_dry_run: OK
+- runtime_handoff_manual_confirmation: OK
+- runtime_handoff_no_process_start: OK
+- runtime_handoff_no_process_kill: OK
+- runtime_handoff_no_container_change: OK
+- runtime_handoff_no_window_action: OK
+- runtime_handoff_no_browser_open: OK
+- runtime_handoff_no_ai_secret: OK
+- runtime_handoff_paths_hidden: OK
+- runtime_handoff_no_process_started: OK
+- runtime_handoff_no_process_killed: OK
+- runtime_handoff_no_container_changed: OK
+- runtime_recovery_not_started: OK
+- runtime_handoff_source_display_only: OK
+- runtime_handoff_source_snapshot_only: OK
+- runtime_handoff_source_handoff_only: OK
+- manual_review_before_business: OK
+- business_not_started: OK
+- import_not_started: OK
+- order_not_started: OK
+- payment_not_started: OK
+- publication_not_started: OK
+- latest_window_request_hidden: OK
+- pending_content_hidden: OK
+- next_action_content_hidden: OK
+- read_only: OK
+- dry_run_only: OK
+- advice_only: OK
+- no_window_move: OK
+- no_focus_change: OK
+- no_pending_confirmation_written: OK
+- no_confirmation_change: OK
+- no_sensitive_action: OK
+- no_business_action: OK
+- no_import: OK
+- no_order: OK
+- no_payment: OK
+- no_publication: OK
+- manual_confirmation_sensitive: OK
+- no_secret_values: OK
+- no_content_exposed: OK
+- uses_gaming_pause_guard: OK
+- gaming_pause_display_only: OK
+- gaming_pause_advice_only: OK
+- gaming_pause_safety_manual_confirmation: OK
+- gaming_pause_safety_no_window_move: OK
+- gaming_pause_safety_no_focus_change: OK
+- gaming_pause_safety_no_browser_open: OK
+- gaming_pause_safety_no_runtime_start: OK
+- gaming_pause_safety_no_process_kill: OK
+- gaming_pause_safety_no_container_change: OK
+- gaming_pause_safety_no_mouse_keyboard_input: OK
+- gaming_pause_safety_no_app_launch: OK
+- gaming_pause_safety_no_openwebui_live_call: OK
+- gaming_pause_safety_no_codex_live_prompt: OK
+- gaming_pause_safety_no_config_write: OK
+- gaming_pause_safety_no_download: OK
+- gaming_pause_safety_no_install: OK
+- gaming_pause_safety_no_micro_toggle: OK
+- gaming_pause_safety_no_audio_capture: OK
+- gaming_pause_safety_no_camera_capture: OK
+- gaming_pause_safety_no_screen_capture: OK
+- gaming_pause_safety_no_paid_api_call: OK
+- gaming_pause_safety_no_payment: OK
+- gaming_pause_safety_no_order: OK
+- gaming_pause_safety_no_publication: OK
+- gaming_pause_safety_no_email_send: OK
+- gaming_pause_safety_no_account_login: OK
+- gaming_pause_source_display_only: OK
+- uses_runtime_handoff_snapshot: OK
+- runtime_handoff_display_only: OK
+- runtime_handoff_snapshot_only: OK
+- runtime_handoff_handoff_only: OK
+- runtime_handoff_dry_run_only: OK
+- runtime_handoff_safety_no_process_start: OK
+- runtime_handoff_safety_no_process_kill: OK
+- runtime_handoff_safety_no_container_change: OK
+- runtime_handoff_safety_manual_confirmation: OK
+- runtime_handoff_safety_no_window_action: OK
+- runtime_handoff_safety_no_browser_open: OK
+- runtime_handoff_safety_no_ai_secret: OK
+- runtime_handoff_safety_paths_hidden: OK
+- no_runtime_recovery_started: OK
+- txt_mentions_gaming_pause: OK
+- txt_mentions_runtime_handoff: OK
+- txt_mentions_safety: OK
+- no_secret_like_value_in_reports: OK
+
+Garde pre-business en lecture seule, avec pause/gaming relayee sans mouvement fenetre ni action business.

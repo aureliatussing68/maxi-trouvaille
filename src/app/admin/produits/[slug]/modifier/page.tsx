@@ -67,7 +67,7 @@ export default async function EditProductPage({ params }: EditProductPageProps) 
           interface admin plus complete plus tard.
         </p>
         <Link
-          href={`/produit/${product.slug}`}
+          href={`/produit/${product.slug}?adminPreview=1`}
           className="focus-ring mt-6 inline-flex min-h-11 items-center rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-teal"
         >
           Revenir a la fiche produit

@@ -1,0 +1,29 @@
+Tableau de bord business Maxi - 2026-06-09 18:00:59
+
+Global: OK
+Temps: 0 ms
+Cache: oui (age 207 s)
+Message court: Dashboard business: 10 candidat(s), sourcing demo, 2 API a completer, prochaine etape sure prete, aucune action sensible.
+
+Business readiness: OK
+Admin local: OK - http://127.0.0.1:3010/admin/dropshipping
+Pipeline: OK
+Candidats produits: 10
+Sourcing: demo
+Sourcing reel pret: NON
+API a completer: 2
+Prochaine etape sure: BUSINESS_SAFE_NEXT_STEP_READY - prete=oui
+Snapshot safe-next: source=cached_log, age=8050s, stale=non, fallback_cache=non
+Checks prochaine etape: 11/11 OK, blocages=0
+Pas manuels: 5 - executables Jarvis: 0
+Checkpoint fournisseur: cached_log - age=0s - chemin_expose=False
+Handoff runtime manuel: MANUAL_RUNTIME_REPRISE_READY_DRY_RUN - requis=oui - raison=runtime_absent - dry_run=True - confirmation=True - instances=0
+Handoff runtime securite: no_start=True, no_kill=True, no_container=True, no_window=True, no_browser=True, no_ai=True, no_secret=True, chemins_masques=True
+Phrase prochain pas: Prochain pas business: completer 55 sur 55 preuves, sourcing demo, sas BLOCKED_FOR_MANUAL_REVIEW; Jarvis ne lance ni validation ni import.
+Dernier job: search-products (cible masquee=oui)
+
+API manquantes/partielles:
+- ALIEXPRESS_APP_KEY: PARTIEL
+- ALIEXPRESS_TRACKING_ID: MANQUANT
+
+Securite: lecture seule, pas d'import, pas de commande, pas de paiement, pas de publication.

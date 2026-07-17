@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-12T06:48:36.099Z",
+  "generatedAtLocal": "2026-06-12 08:48 Europe/Paris",
+  "mode": "manual_public_image_text_proof_form_audit",
+  "formDir": "business-maxi-trouvailles/tableaux-action/public-image-text-proof-form-20260612",
+  "formJson": "business-maxi-trouvailles/tableaux-action/public-image-text-proof-form-20260612/FORMULAIRE_PREUVES_TEXTE_IMAGES_PUBLIQUES_20260612.json",
+  "sourceBoard": "business-maxi-trouvailles/tableaux-action/public-image-mouss-review-board-20260612/BOARD_MOUSS_IMAGES_PUBLIQUES_20260612.json",
+  "itemCount": 12,
+  "rowCount": 72,
+  "scannedFileCount": 3,
+  "failureCount": 0,
+  "failures": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noImageDownload": true,
+    "noImageFileCreated": true,
+    "noPublicImageWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true
+  }
+}

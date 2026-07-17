@@ -1,0 +1,26 @@
+Diagnostic routes Maxi - 2026-06-09 17:57:31
+
+Global: OK
+Projet: C:\Users\sinek\Desktop\maxi-trouvaille
+ADMIN_MODE: OK
+Serveur local joignable: non
+Routes detectees: 32
+Routes admin: 7
+Admin conseille: http://127.0.0.1:3010/admin/dropshipping
+
+Probes admin:
+- http://127.0.0.1:3010/admin/dropshipping: KO - base_unreachable:port local ferme, probe HTTP ignore
+- http://127.0.0.1:3010/admin/ajout-rapide: KO - base_unreachable:port local ferme, probe HTTP ignore
+- http://127.0.0.1:3010/admin/ajout-images: KO - base_unreachable:port local ferme, probe HTTP ignore
+- http://127.0.0.1:3010/admin/messages: KO - base_unreachable:port local ferme, probe HTTP ignore
+- http://127.0.0.1:3010/admin/avis: KO - base_unreachable:port local ferme, probe HTTP ignore
+- http://127.0.0.1:3010/admin: KO - base_unreachable:port local ferme, probe HTTP ignore
+
+Routes admin detectees:
+- /admin/ajout-images
+- /admin/ajout-rapide
+- /admin/avis
+- /admin/dropshipping
+- /admin/messages
+- /admin/produits/:slug/modifier
+- /admin/selection-produits

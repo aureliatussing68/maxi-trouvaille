@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-13T12:11:46.120Z",
+  "generatedAtLocal": "2026-06-13 14:11 Europe/Paris",
+  "mode": "read_only_integration_top3_parallel_proofs_workpack_audit",
+  "status": "OK_TOP3_PARALLEL_PROOFS_GUARDED",
+  "productCount": 3,
+  "proofCount": 15,
+  "scannedFileCount": 34,
+  "failureCount": 0,
+  "sensitiveFindingCount": 0,
+  "issues": [],
+  "sensitiveFindings": [],
+  "sources": {
+    "workpackPath": "business-maxi-trouvailles/tableaux-action/top3-preuves-paralleles-sourcing-integration-articles/20260613/TOP3_PREUVES_PARALLELES_SOURCING_INTEGRATION_20260613.json",
+    "fillableCsvPath": "business-maxi-trouvailles/tableaux-action/top3-preuves-paralleles-sourcing-integration-articles/20260613/A_REMPLIR_TOP3_PREUVES_PARALLELES_SOURCING_20260613.csv",
+    "top3Path": "business-maxi-trouvailles/tableaux-action/top3-sourcing-integration-articles/20260613/TOP3_SOURCING_INTEGRATION_20260613.json",
+    "top3AuditPath": "business-maxi-trouvailles/tableaux-action/audit-top3-sourcing-integration-articles/20260613/AUDIT_TOP3_SOURCING_INTEGRATION_20260613.json",
+    "sessionPath": "business-maxi-trouvailles/tableaux-action/session-sourcing-integration-articles/20260613/SESSION_SOURCING_INTEGRATION_20260613.json"
+  },
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noImageDownload": true,
+    "manualValidationRequired": true
+  }
+}

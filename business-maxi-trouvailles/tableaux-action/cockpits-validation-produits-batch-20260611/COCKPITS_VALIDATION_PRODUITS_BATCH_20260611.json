@@ -1,0 +1,76 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-11T06:02:14.625Z",
+  "generatedAtLocal": "2026-06-11 08:02 Europe/Paris",
+  "mode": "read_only_product_validation_cockpit_batch",
+  "limit": 3,
+  "productCount": 3,
+  "totalEvidenceMissing": 36,
+  "totalImageTasks": 14,
+  "products": [
+    {
+      "rank": 1,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "score": 87,
+      "status": "HOLD_MISSING_EVIDENCE",
+      "evidenceFieldMissingCount": 12,
+      "imageTaskCount": 4,
+      "blockerCount": 33,
+      "outputDirRelative": "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\01-pochette-organisateur-cables-double-couche-voyage",
+      "files": {
+        "jsonPath": "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\01-pochette-organisateur-cables-double-couche-voyage\\COCKPIT_VALIDATION_PRODUIT_20260611.json",
+        "mdPath": "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\01-pochette-organisateur-cables-double-couche-voyage\\COCKPIT_VALIDATION_PRODUIT_20260611.md",
+        "fillPath": "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\01-pochette-organisateur-cables-double-couche-voyage\\A_REMPLIR_PREUVES_POCHETTE-ORGANISATEUR-CABLES-DOUBLE-COUCHE-VOYAGE_20260611.json"
+      }
+    },
+    {
+      "rank": 2,
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "score": 87,
+      "status": "HOLD_MISSING_EVIDENCE",
+      "evidenceFieldMissingCount": 12,
+      "imageTaskCount": 4,
+      "blockerCount": 33,
+      "outputDirRelative": "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\02-support-pc-portable-pliant-aluminium-ajustable",
+      "files": {
+        "jsonPath": "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\02-support-pc-portable-pliant-aluminium-ajustable\\COCKPIT_VALIDATION_PRODUIT_20260611.json",
+        "mdPath": "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\02-support-pc-portable-pliant-aluminium-ajustable\\COCKPIT_VALIDATION_PRODUIT_20260611.md",
+        "fillPath": "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\02-support-pc-portable-pliant-aluminium-ajustable\\A_REMPLIR_PREUVES_SUPPORT-PC-PORTABLE-PLIANT-ALUMINIUM-AJUSTABLE_20260611.json"
+      }
+    },
+    {
+      "rank": 3,
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "name": "Filet rangement coffre voiture à sangles fixes",
+      "score": 70,
+      "status": "HOLD_MISSING_EVIDENCE",
+      "evidenceFieldMissingCount": 12,
+      "imageTaskCount": 6,
+      "blockerCount": 33,
+      "outputDirRelative": "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\03-filet-rangement-coffre-voiture-sangles-fixes",
+      "files": {
+        "jsonPath": "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\03-filet-rangement-coffre-voiture-sangles-fixes\\COCKPIT_VALIDATION_PRODUIT_20260611.json",
+        "mdPath": "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\03-filet-rangement-coffre-voiture-sangles-fixes\\COCKPIT_VALIDATION_PRODUIT_20260611.md",
+        "fillPath": "business-maxi-trouvailles\\tableaux-action\\cockpit-validation-produit-20260611\\03-filet-rangement-coffre-voiture-sangles-fixes\\A_REMPLIR_PREUVES_FILET-RANGEMENT-COFFRE-VOITURE-A-SANGLES-FIXES_20260611.json"
+      }
+    }
+  ],
+  "outputDirRelative": "business-maxi-trouvailles\\tableaux-action\\cockpits-validation-produits-batch-20260611",
+  "sources": {
+    "shortlistPath": "business-maxi-trouvailles\\tableaux-action\\shortlist-go-humain-20260611\\SHORTLIST_GO_HUMAIN_PARTENAIRES_20260611.json"
+  },
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublicUploadsWrite": true,
+    "noImageDownload": true,
+    "noImageGeneration": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true,
+    "manualValidationRequired": true
+  }
+}

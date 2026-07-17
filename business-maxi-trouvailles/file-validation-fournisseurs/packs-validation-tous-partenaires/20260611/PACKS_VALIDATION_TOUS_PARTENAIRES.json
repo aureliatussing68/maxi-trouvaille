@@ -1,0 +1,1119 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-11T04:48:40.250Z",
+  "mode": "read_only_all_partner_validation_packets",
+  "queuePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\QUEUE_VALIDATION_TOUS_PARTENAIRES_20260611.json",
+  "outputDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\file-validation-fournisseurs\\packs-validation-tous-partenaires\\20260611",
+  "topLimit": 15,
+  "packetCount": 15,
+  "packets": [
+    {
+      "rank": 1,
+      "id": "prod_partner_cable_organizer_001",
+      "slug": "organisateur-cables-voyage-tech",
+      "name": "Organisateur de câbles et accessoires tech",
+      "origin": "src/lib/catalog.ts",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_0_static_partner_decision",
+      "priorityScore": 106,
+      "publicationStatus": "HOLD",
+      "supplier": {
+        "url": "https://www.aliexpress.com/wholesale?SearchText=cable+organizer+bag+travel+electronics",
+        "urlExactEnough": false,
+        "sku": "",
+        "supplierPriceCents": 400,
+        "salePriceCents": 1290,
+        "supplierStock": 30,
+        "deliveryEstimate": "8 a 15 jours ouvres"
+      },
+      "evidenceGaps": [
+        "decision_garder_remplacer_ou_retirer",
+        "lien_fournisseur_exact",
+        "sku_fournisseur",
+        "images_exactes_et_droits"
+      ],
+      "riskFlags": [],
+      "actions": [
+        {
+          "gap": "decision_garder_remplacer_ou_retirer",
+          "field": "businessDecision",
+          "instruction": "Decider si cette fiche statique doit etre prouvee, remplacee par un meilleur produit, ou retiree du catalogue partenaire.",
+          "acceptWhen": "Decision claire: keep_validate, replace, remove ou later."
+        },
+        {
+          "gap": "lien_fournisseur_exact",
+          "field": "exactSupplierProductUrl",
+          "instruction": "Remplacer toute URL de recherche par une URL article fournisseur exacte correspondant a la variante vendue.",
+          "acceptWhen": "URL article exacte, pas une page de recherche ou wholesale."
+        },
+        {
+          "gap": "sku_fournisseur",
+          "field": "supplierSku",
+          "instruction": "Renseigner le SKU, item ID ou identifiant fournisseur exact.",
+          "acceptWhen": "Identifiant fournisseur stable et reutilisable dans une commande manuelle."
+        },
+        {
+          "gap": "images_exactes_et_droits",
+          "field": "imageProof",
+          "instruction": "Verifier que les images representent exactement la variante vendue et que leur usage est acceptable.",
+          "acceptWhen": "Images exactes, sans logo interdit, et preuve/decision d'usage documentee."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 400,
+        "supplierStock": 30,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication, paiement et commande fournisseur interdits sans validation humaine explicite."
+      }
+    },
+    {
+      "rank": 2,
+      "id": "prod_partner_thermal_printer_001",
+      "slug": "mini-imprimante-thermique-bluetooth",
+      "name": "Mini imprimante thermique Bluetooth",
+      "origin": "src/lib/catalog.ts",
+      "status": "draft",
+      "categoryId": "dropshipping-high-tech",
+      "lane": "lane_0_static_partner_decision",
+      "priorityScore": 102,
+      "publicationStatus": "HOLD",
+      "supplier": {
+        "url": "https://www.aliexpress.com/wholesale?SearchText=mini+thermal+printer+bluetooth",
+        "urlExactEnough": false,
+        "sku": "",
+        "supplierPriceCents": 1800,
+        "salePriceCents": 2990,
+        "supplierStock": 20,
+        "deliveryEstimate": "8 a 15 jours ouvres"
+      },
+      "evidenceGaps": [
+        "decision_garder_remplacer_ou_retirer",
+        "lien_fournisseur_exact",
+        "sku_fournisseur",
+        "images_exactes_et_droits"
+      ],
+      "riskFlags": [],
+      "actions": [
+        {
+          "gap": "decision_garder_remplacer_ou_retirer",
+          "field": "businessDecision",
+          "instruction": "Decider si cette fiche statique doit etre prouvee, remplacee par un meilleur produit, ou retiree du catalogue partenaire.",
+          "acceptWhen": "Decision claire: keep_validate, replace, remove ou later."
+        },
+        {
+          "gap": "lien_fournisseur_exact",
+          "field": "exactSupplierProductUrl",
+          "instruction": "Remplacer toute URL de recherche par une URL article fournisseur exacte correspondant a la variante vendue.",
+          "acceptWhen": "URL article exacte, pas une page de recherche ou wholesale."
+        },
+        {
+          "gap": "sku_fournisseur",
+          "field": "supplierSku",
+          "instruction": "Renseigner le SKU, item ID ou identifiant fournisseur exact.",
+          "acceptWhen": "Identifiant fournisseur stable et reutilisable dans une commande manuelle."
+        },
+        {
+          "gap": "images_exactes_et_droits",
+          "field": "imageProof",
+          "instruction": "Verifier que les images representent exactement la variante vendue et que leur usage est acceptable.",
+          "acceptWhen": "Images exactes, sans logo interdit, et preuve/decision d'usage documentee."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 1800,
+        "supplierStock": 20,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication, paiement et commande fournisseur interdits sans validation humaine explicite."
+      }
+    },
+    {
+      "rank": 3,
+      "id": "prod_partner_galaxy_projector_001",
+      "slug": "projecteur-galaxie-led-ambiance",
+      "name": "Projecteur galaxie LED pour ambiance",
+      "origin": "src/lib/catalog.ts",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_0_static_partner_decision",
+      "priorityScore": 99,
+      "publicationStatus": "HOLD",
+      "supplier": {
+        "url": "https://www.aliexpress.com/wholesale?SearchText=galaxy+projector+led+star+light",
+        "urlExactEnough": false,
+        "sku": "",
+        "supplierPriceCents": 1100,
+        "salePriceCents": 2490,
+        "supplierStock": 20,
+        "deliveryEstimate": "8 a 15 jours ouvres"
+      },
+      "evidenceGaps": [
+        "decision_garder_remplacer_ou_retirer",
+        "lien_fournisseur_exact",
+        "sku_fournisseur",
+        "images_exactes_et_droits"
+      ],
+      "riskFlags": [
+        "controle_electrique_ou_batterie"
+      ],
+      "actions": [
+        {
+          "gap": "decision_garder_remplacer_ou_retirer",
+          "field": "businessDecision",
+          "instruction": "Decider si cette fiche statique doit etre prouvee, remplacee par un meilleur produit, ou retiree du catalogue partenaire.",
+          "acceptWhen": "Decision claire: keep_validate, replace, remove ou later."
+        },
+        {
+          "gap": "lien_fournisseur_exact",
+          "field": "exactSupplierProductUrl",
+          "instruction": "Remplacer toute URL de recherche par une URL article fournisseur exacte correspondant a la variante vendue.",
+          "acceptWhen": "URL article exacte, pas une page de recherche ou wholesale."
+        },
+        {
+          "gap": "sku_fournisseur",
+          "field": "supplierSku",
+          "instruction": "Renseigner le SKU, item ID ou identifiant fournisseur exact.",
+          "acceptWhen": "Identifiant fournisseur stable et reutilisable dans une commande manuelle."
+        },
+        {
+          "gap": "images_exactes_et_droits",
+          "field": "imageProof",
+          "instruction": "Verifier que les images representent exactement la variante vendue et que leur usage est acceptable.",
+          "acceptWhen": "Images exactes, sans logo interdit, et preuve/decision d'usage documentee."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 1100,
+        "supplierStock": 20,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication, paiement et commande fournisseur interdits sans validation humaine explicite."
+      }
+    },
+    {
+      "rank": 4,
+      "id": "prod_partner_car_vacuum_001",
+      "slug": "mini-aspirateur-voiture-sans-fil",
+      "name": "Mini aspirateur voiture sans fil",
+      "origin": "src/lib/catalog.ts",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "lane": "lane_0_static_partner_decision",
+      "priorityScore": 96,
+      "publicationStatus": "HOLD",
+      "supplier": {
+        "url": "https://www.aliexpress.com/wholesale?SearchText=cordless+car+vacuum+cleaner",
+        "urlExactEnough": false,
+        "sku": "",
+        "supplierPriceCents": 2200,
+        "salePriceCents": 3990,
+        "supplierStock": 15,
+        "deliveryEstimate": "8 a 15 jours ouvres"
+      },
+      "evidenceGaps": [
+        "decision_garder_remplacer_ou_retirer",
+        "lien_fournisseur_exact",
+        "sku_fournisseur",
+        "images_exactes_et_droits"
+      ],
+      "riskFlags": [
+        "controle_electrique_ou_batterie",
+        "controle_usage_auto"
+      ],
+      "actions": [
+        {
+          "gap": "decision_garder_remplacer_ou_retirer",
+          "field": "businessDecision",
+          "instruction": "Decider si cette fiche statique doit etre prouvee, remplacee par un meilleur produit, ou retiree du catalogue partenaire.",
+          "acceptWhen": "Decision claire: keep_validate, replace, remove ou later."
+        },
+        {
+          "gap": "lien_fournisseur_exact",
+          "field": "exactSupplierProductUrl",
+          "instruction": "Remplacer toute URL de recherche par une URL article fournisseur exacte correspondant a la variante vendue.",
+          "acceptWhen": "URL article exacte, pas une page de recherche ou wholesale."
+        },
+        {
+          "gap": "sku_fournisseur",
+          "field": "supplierSku",
+          "instruction": "Renseigner le SKU, item ID ou identifiant fournisseur exact.",
+          "acceptWhen": "Identifiant fournisseur stable et reutilisable dans une commande manuelle."
+        },
+        {
+          "gap": "images_exactes_et_droits",
+          "field": "imageProof",
+          "instruction": "Verifier que les images representent exactement la variante vendue et que leur usage est acceptable.",
+          "acceptWhen": "Images exactes, sans logo interdit, et preuve/decision d'usage documentee."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "decision": "",
+        "exactSupplierProductUrl": "",
+        "supplierSellerName": "",
+        "supplierSku": "",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 2200,
+        "supplierStock": 15,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication, paiement et commande fournisseur interdits sans validation humaine explicite."
+      }
+    },
+    {
+      "rank": 5,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "slug": "pochette-organisateur-cables-double-couche-voyage",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "origin": "data/quick-products.json",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_1_fast_supplier_validation",
+      "priorityScore": 118,
+      "publicationStatus": "HOLD",
+      "supplier": {
+        "url": "https://www.aliexpress.com/item/4000168524713.html",
+        "urlExactEnough": true,
+        "sku": "AE-4000168524713-CABLE-ORGANIZER",
+        "supplierPriceCents": 1100,
+        "salePriceCents": 1840,
+        "supplierStock": 55,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "evidenceGaps": [
+        "preuve_delai_france_europe"
+      ],
+      "riskFlags": [],
+      "actions": [
+        {
+          "gap": "preuve_delai_france_europe",
+          "field": "deliveryProof",
+          "instruction": "Verifier le delai reel France/Europe avec suivi disponible et noter la plage exacte.",
+          "acceptWhen": "Delai clair, coherent, idealement court, avec date de verification."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/4000168524713.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-4000168524713-CABLE-ORGANIZER",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 1100,
+        "supplierStock": 55,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication, paiement et commande fournisseur interdits sans validation humaine explicite."
+      }
+    },
+    {
+      "rank": 6,
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "slug": "support-pc-portable-pliant-aluminium-ajustable",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "origin": "data/quick-products.json",
+      "status": "draft",
+      "categoryId": "dropshipping-high-tech",
+      "lane": "lane_1_fast_supplier_validation",
+      "priorityScore": 118,
+      "publicationStatus": "HOLD",
+      "supplier": {
+        "url": "https://www.aliexpress.com/item/4001153714549.html",
+        "urlExactEnough": true,
+        "sku": "AE-4001153714549-LAPTOP-STAND",
+        "supplierPriceCents": 1180,
+        "salePriceCents": 1970,
+        "supplierStock": 35,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "evidenceGaps": [
+        "preuve_delai_france_europe"
+      ],
+      "riskFlags": [],
+      "actions": [
+        {
+          "gap": "preuve_delai_france_europe",
+          "field": "deliveryProof",
+          "instruction": "Verifier le delai reel France/Europe avec suivi disponible et noter la plage exacte.",
+          "acceptWhen": "Delai clair, coherent, idealement court, avec date de verification."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/4001153714549.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-4001153714549-LAPTOP-STAND",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 1180,
+        "supplierStock": 35,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication, paiement et commande fournisseur interdits sans validation humaine explicite."
+      }
+    },
+    {
+      "rank": 7,
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "slug": "filet-rangement-coffre-voiture-sangles-fixes",
+      "name": "Filet rangement coffre voiture à sangles fixes",
+      "origin": "data/quick-products.json",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "lane": "lane_1_fast_supplier_validation",
+      "priorityScore": 115,
+      "publicationStatus": "HOLD",
+      "supplier": {
+        "url": "https://www.aliexpress.com/item/1005006160871310.html",
+        "urlExactEnough": true,
+        "sku": "AE-ITEM-1005006160871310",
+        "supplierPriceCents": 400,
+        "salePriceCents": 670,
+        "supplierStock": 45,
+        "deliveryEstimate": "7 à 15 jours ouvrés estimés"
+      },
+      "evidenceGaps": [
+        "preuve_delai_france_europe"
+      ],
+      "riskFlags": [
+        "controle_usage_auto"
+      ],
+      "actions": [
+        {
+          "gap": "preuve_delai_france_europe",
+          "field": "deliveryProof",
+          "instruction": "Verifier le delai reel France/Europe avec suivi disponible et noter la plage exacte.",
+          "acceptWhen": "Delai clair, coherent, idealement court, avec date de verification."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/1005006160871310.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-ITEM-1005006160871310",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 400,
+        "supplierStock": 45,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication, paiement et commande fournisseur interdits sans validation humaine explicite."
+      }
+    },
+    {
+      "rank": 8,
+      "id": "ali_partner_20260527_gourde_pliable_001",
+      "slug": "gourde-pliable-silicone-voyage-mousqueton",
+      "name": "Gourde pliable silicone voyage avec mousqueton",
+      "origin": "data/quick-products.json",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_1_fast_supplier_validation",
+      "priorityScore": 115,
+      "publicationStatus": "HOLD",
+      "supplier": {
+        "url": "https://www.aliexpress.com/item/1005009184984524.html",
+        "urlExactEnough": true,
+        "sku": "AE-ITEM-1005009184984524",
+        "supplierPriceCents": 370,
+        "salePriceCents": 620,
+        "supplierStock": 70,
+        "deliveryEstimate": "7 à 15 jours ouvrés estimés"
+      },
+      "evidenceGaps": [
+        "preuve_delai_france_europe"
+      ],
+      "riskFlags": [
+        "controle_matiere_contact"
+      ],
+      "actions": [
+        {
+          "gap": "preuve_delai_france_europe",
+          "field": "deliveryProof",
+          "instruction": "Verifier le delai reel France/Europe avec suivi disponible et noter la plage exacte.",
+          "acceptWhen": "Delai clair, coherent, idealement court, avec date de verification."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/1005009184984524.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-ITEM-1005009184984524",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 370,
+        "supplierStock": 70,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication, paiement et commande fournisseur interdits sans validation humaine explicite."
+      }
+    },
+    {
+      "rank": 9,
+      "id": "ali_partner_20260527_lampes_detection_001",
+      "slug": "lampe-led-detection-mouvement-usb-rechargeable",
+      "name": "Lampe LED à détection de mouvement USB rechargeable",
+      "origin": "data/quick-products.json",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_1_fast_supplier_validation",
+      "priorityScore": 115,
+      "publicationStatus": "HOLD",
+      "supplier": {
+        "url": "https://www.aliexpress.com/item/1005008517453827.html",
+        "urlExactEnough": true,
+        "sku": "AE-1005008517453827-MOTION-LIGHT",
+        "supplierPriceCents": 540,
+        "salePriceCents": 900,
+        "supplierStock": 50,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "evidenceGaps": [
+        "preuve_delai_france_europe"
+      ],
+      "riskFlags": [
+        "controle_electrique_ou_batterie"
+      ],
+      "actions": [
+        {
+          "gap": "preuve_delai_france_europe",
+          "field": "deliveryProof",
+          "instruction": "Verifier le delai reel France/Europe avec suivi disponible et noter la plage exacte.",
+          "acceptWhen": "Delai clair, coherent, idealement court, avec date de verification."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/1005008517453827.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-1005008517453827-MOTION-LIGHT",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 540,
+        "supplierStock": 50,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication, paiement et commande fournisseur interdits sans validation humaine explicite."
+      }
+    },
+    {
+      "rank": 10,
+      "id": "ali_partner_20260527_support_tel_voiture_001",
+      "slug": "support-telephone-voiture-360-partenaire",
+      "name": "Support téléphone voiture flexible à ventouse 360°",
+      "origin": "data/quick-products.json",
+      "status": "draft",
+      "categoryId": "dropshipping-auto-moto",
+      "lane": "lane_1_fast_supplier_validation",
+      "priorityScore": 101,
+      "publicationStatus": "HOLD",
+      "supplier": {
+        "url": "https://www.aliexpress.com/item/4001209749759.html",
+        "urlExactEnough": true,
+        "sku": "AE-ITEM-4001209749759",
+        "supplierPriceCents": 970,
+        "salePriceCents": 1620,
+        "supplierStock": 40,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "riskFlags": [
+        "controle_usage_auto"
+      ],
+      "actions": [
+        {
+          "gap": "preuve_delai_france_europe",
+          "field": "deliveryProof",
+          "instruction": "Verifier le delai reel France/Europe avec suivi disponible et noter la plage exacte.",
+          "acceptWhen": "Delai clair, coherent, idealement court, avec date de verification."
+        },
+        {
+          "gap": "preuve_prix",
+          "field": "pricingProof",
+          "instruction": "Recontroler prix fournisseur, frais et marge brute avant publication.",
+          "acceptWhen": "Prix fournisseur actuel, frais connus et marge boutique recalculee."
+        },
+        {
+          "gap": "preuve_livraison",
+          "field": "shippingProof",
+          "instruction": "Verifier pays d'expedition, transporteur et suivi colis.",
+          "acceptWhen": "Livraison France/Europe documentee, pas seulement estimee."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/4001209749759.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-ITEM-4001209749759",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 970,
+        "supplierStock": 40,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication, paiement et commande fournisseur interdits sans validation humaine explicite."
+      }
+    },
+    {
+      "rank": 11,
+      "id": "ali_partner_20260605_paracorde_camping_001",
+      "slug": "corde-paracorde-camping-randonnee-5-15-30m",
+      "name": "Corde paracorde camping randonnée 5/15/30 m",
+      "origin": "data/quick-products.json",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_1_fast_supplier_validation",
+      "priorityScore": 100,
+      "publicationStatus": "HOLD",
+      "supplier": {
+        "url": "https://www.aliexpress.com/item/1005007038471633.html",
+        "urlExactEnough": true,
+        "sku": "AE-1005007038471633-PARACORD",
+        "supplierPriceCents": 120,
+        "salePriceCents": 200,
+        "supplierStock": 90,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "droits_images",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "riskFlags": [],
+      "actions": [
+        {
+          "gap": "preuve_delai_france_europe",
+          "field": "deliveryProof",
+          "instruction": "Verifier le delai reel France/Europe avec suivi disponible et noter la plage exacte.",
+          "acceptWhen": "Delai clair, coherent, idealement court, avec date de verification."
+        },
+        {
+          "gap": "droits_images",
+          "field": "imageRightsProof",
+          "instruction": "Valider droits/usage des images ou planifier remplacement par visuels propres.",
+          "acceptWhen": "Decision documentee: usage OK ou remplacement images avant publication."
+        },
+        {
+          "gap": "preuve_prix",
+          "field": "pricingProof",
+          "instruction": "Recontroler prix fournisseur, frais et marge brute avant publication.",
+          "acceptWhen": "Prix fournisseur actuel, frais connus et marge boutique recalculee."
+        },
+        {
+          "gap": "preuve_livraison",
+          "field": "shippingProof",
+          "instruction": "Verifier pays d'expedition, transporteur et suivi colis.",
+          "acceptWhen": "Livraison France/Europe documentee, pas seulement estimee."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/1005007038471633.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-1005007038471633-PARACORD",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 120,
+        "supplierStock": 90,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication, paiement et commande fournisseur interdits sans validation humaine explicite."
+      }
+    },
+    {
+      "rank": 12,
+      "id": "ali_partner_20260605_nano_tape_sdb_cuisine_001",
+      "slug": "nano-tape-double-face-salle-de-bain-cuisine",
+      "name": "Nano tape double-face salle de bain cuisine",
+      "origin": "data/quick-products.json",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_1_fast_supplier_validation",
+      "priorityScore": 100,
+      "publicationStatus": "HOLD",
+      "supplier": {
+        "url": "https://www.aliexpress.com/item/1005005244419690.html",
+        "urlExactEnough": true,
+        "sku": "AE-1005005244419690-NANO-TAPE",
+        "supplierPriceCents": 100,
+        "salePriceCents": 170,
+        "supplierStock": 100,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "droits_images",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "riskFlags": [],
+      "actions": [
+        {
+          "gap": "preuve_delai_france_europe",
+          "field": "deliveryProof",
+          "instruction": "Verifier le delai reel France/Europe avec suivi disponible et noter la plage exacte.",
+          "acceptWhen": "Delai clair, coherent, idealement court, avec date de verification."
+        },
+        {
+          "gap": "droits_images",
+          "field": "imageRightsProof",
+          "instruction": "Valider droits/usage des images ou planifier remplacement par visuels propres.",
+          "acceptWhen": "Decision documentee: usage OK ou remplacement images avant publication."
+        },
+        {
+          "gap": "preuve_prix",
+          "field": "pricingProof",
+          "instruction": "Recontroler prix fournisseur, frais et marge brute avant publication.",
+          "acceptWhen": "Prix fournisseur actuel, frais connus et marge boutique recalculee."
+        },
+        {
+          "gap": "preuve_livraison",
+          "field": "shippingProof",
+          "instruction": "Verifier pays d'expedition, transporteur et suivi colis.",
+          "acceptWhen": "Livraison France/Europe documentee, pas seulement estimee."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/1005005244419690.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-1005005244419690-NANO-TAPE",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 100,
+        "supplierStock": 100,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication, paiement et commande fournisseur interdits sans validation humaine explicite."
+      }
+    },
+    {
+      "rank": 13,
+      "id": "ali_partner_20260605_organisateur_cables_1_5m_001",
+      "slug": "organisateur-cables-1-5m-bureau-best-seller",
+      "name": "Organisateur câbles 1/5 m bureau best-seller",
+      "origin": "data/quick-products.json",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_1_fast_supplier_validation",
+      "priorityScore": 100,
+      "publicationStatus": "HOLD",
+      "supplier": {
+        "url": "https://www.aliexpress.com/item/1005006994762009.html",
+        "urlExactEnough": true,
+        "sku": "AE-1005006994762009-CABLE-ORGANIZER",
+        "supplierPriceCents": 180,
+        "salePriceCents": 300,
+        "supplierStock": 100,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "droits_images",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "riskFlags": [],
+      "actions": [
+        {
+          "gap": "preuve_delai_france_europe",
+          "field": "deliveryProof",
+          "instruction": "Verifier le delai reel France/Europe avec suivi disponible et noter la plage exacte.",
+          "acceptWhen": "Delai clair, coherent, idealement court, avec date de verification."
+        },
+        {
+          "gap": "droits_images",
+          "field": "imageRightsProof",
+          "instruction": "Valider droits/usage des images ou planifier remplacement par visuels propres.",
+          "acceptWhen": "Decision documentee: usage OK ou remplacement images avant publication."
+        },
+        {
+          "gap": "preuve_prix",
+          "field": "pricingProof",
+          "instruction": "Recontroler prix fournisseur, frais et marge brute avant publication.",
+          "acceptWhen": "Prix fournisseur actuel, frais connus et marge boutique recalculee."
+        },
+        {
+          "gap": "preuve_livraison",
+          "field": "shippingProof",
+          "instruction": "Verifier pays d'expedition, transporteur et suivi colis.",
+          "acceptWhen": "Livraison France/Europe documentee, pas seulement estimee."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/1005006994762009.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-1005006994762009-CABLE-ORGANIZER",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 180,
+        "supplierStock": 100,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication, paiement et commande fournisseur interdits sans validation humaine explicite."
+      }
+    },
+    {
+      "rank": 14,
+      "id": "ali_partner_20260605_ruban_double_face_monster_001",
+      "slug": "ruban-double-face-puissant-maison-promo",
+      "name": "Ruban double-face puissant maison promo",
+      "origin": "data/quick-products.json",
+      "status": "draft",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_1_fast_supplier_validation",
+      "priorityScore": 100,
+      "publicationStatus": "HOLD",
+      "supplier": {
+        "url": "https://www.aliexpress.com/item/1005006926453576.html",
+        "urlExactEnough": true,
+        "sku": "AE-1005006926453576-MONSTER-TAPE",
+        "supplierPriceCents": 160,
+        "salePriceCents": 270,
+        "supplierStock": 100,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "droits_images",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "riskFlags": [],
+      "actions": [
+        {
+          "gap": "preuve_delai_france_europe",
+          "field": "deliveryProof",
+          "instruction": "Verifier le delai reel France/Europe avec suivi disponible et noter la plage exacte.",
+          "acceptWhen": "Delai clair, coherent, idealement court, avec date de verification."
+        },
+        {
+          "gap": "droits_images",
+          "field": "imageRightsProof",
+          "instruction": "Valider droits/usage des images ou planifier remplacement par visuels propres.",
+          "acceptWhen": "Decision documentee: usage OK ou remplacement images avant publication."
+        },
+        {
+          "gap": "preuve_prix",
+          "field": "pricingProof",
+          "instruction": "Recontroler prix fournisseur, frais et marge brute avant publication.",
+          "acceptWhen": "Prix fournisseur actuel, frais connus et marge boutique recalculee."
+        },
+        {
+          "gap": "preuve_livraison",
+          "field": "shippingProof",
+          "instruction": "Verifier pays d'expedition, transporteur et suivi colis.",
+          "acceptWhen": "Livraison France/Europe documentee, pas seulement estimee."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/1005006926453576.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-1005006926453576-MONSTER-TAPE",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 160,
+        "supplierStock": 100,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication, paiement et commande fournisseur interdits sans validation humaine explicite."
+      }
+    },
+    {
+      "rank": 15,
+      "id": "ali_partner_20260605_sac_banane_sport_etanche_001",
+      "slug": "sac-banane-sport-etanche-randonnee",
+      "name": "Sac banane sport étanche randonnée",
+      "origin": "data/quick-products.json",
+      "status": "draft",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_1_fast_supplier_validation",
+      "priorityScore": 100,
+      "publicationStatus": "HOLD",
+      "supplier": {
+        "url": "https://www.aliexpress.com/item/1005007341990710.html",
+        "urlExactEnough": true,
+        "sku": "AE-1005007341990710-SPORT-WAIST-BAG",
+        "supplierPriceCents": 160,
+        "salePriceCents": 270,
+        "supplierStock": 80,
+        "deliveryEstimate": "Délai court Europe à vérifier avant publication"
+      },
+      "evidenceGaps": [
+        "preuve_delai_france_europe",
+        "droits_images",
+        "preuve_prix",
+        "preuve_livraison"
+      ],
+      "riskFlags": [],
+      "actions": [
+        {
+          "gap": "preuve_delai_france_europe",
+          "field": "deliveryProof",
+          "instruction": "Verifier le delai reel France/Europe avec suivi disponible et noter la plage exacte.",
+          "acceptWhen": "Delai clair, coherent, idealement court, avec date de verification."
+        },
+        {
+          "gap": "droits_images",
+          "field": "imageRightsProof",
+          "instruction": "Valider droits/usage des images ou planifier remplacement par visuels propres.",
+          "acceptWhen": "Decision documentee: usage OK ou remplacement images avant publication."
+        },
+        {
+          "gap": "preuve_prix",
+          "field": "pricingProof",
+          "instruction": "Recontroler prix fournisseur, frais et marge brute avant publication.",
+          "acceptWhen": "Prix fournisseur actuel, frais connus et marge boutique recalculee."
+        },
+        {
+          "gap": "preuve_livraison",
+          "field": "shippingProof",
+          "instruction": "Verifier pays d'expedition, transporteur et suivi colis.",
+          "acceptWhen": "Livraison France/Europe documentee, pas seulement estimee."
+        }
+      ],
+      "formToFill": {
+        "checkedAt": "",
+        "decision": "continue_validation",
+        "exactSupplierProductUrl": "https://www.aliexpress.com/item/1005007341990710.html",
+        "supplierSellerName": "",
+        "supplierSku": "AE-1005007341990710-SPORT-WAIST-BAG",
+        "exactVariantChosen": "",
+        "supplierPriceCents": 160,
+        "supplierStock": 80,
+        "deliveryFranceEuropeProof": "",
+        "deliveryEstimateForCustomer": "",
+        "trackingAvailable": "",
+        "pricingProof": "",
+        "shippingProof": "",
+        "imageProof": "",
+        "imageRightsProof": "",
+        "complianceNotes": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "publishAllowed": false,
+        "supplierOrderAllowed": false,
+        "paymentAllowed": false,
+        "reason": "Pack de validation uniquement. Publication, paiement et commande fournisseur interdits sans validation humaine explicite."
+      }
+    }
+  ],
+  "safety": {
+    "readOnlyPackets": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true
+  }
+}

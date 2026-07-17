@@ -1,0 +1,17 @@
+Tableau file produits a valider - 2026-06-09 15:43:21
+
+Produits lus: 6
+Prets import manuel: 0
+Bloques/revue: 6
+Message court: Tableau validation: 6 produit(s), 0 pret(s), 6 a relire, affichage seulement.
+HTML: C:\Users\sinek\Desktop\Jarvis-TechEnClair\app\logs\jarvis_business_validation_queue_board.html
+
+Produits:
+1. Organisateur de cables de voyage compact | BLOCKED_FOR_MANUAL_REVIEW | blocages 2
+2. Organisateur de cables de voyage compact | BLOCKED_FOR_MANUAL_REVIEW | blocages 2
+3. Organisateur de cables de voyage compact | BLOCKED_FOR_MANUAL_REVIEW | blocages 2
+4. Organisateur de cables de voyage compact | BLOCKED_FOR_MANUAL_REVIEW | blocages 2
+5. Organisateur de cables de voyage compact | BLOCKED_FOR_MANUAL_REVIEW | blocages 2
+6. Organisateur de cables de voyage compact | BLOCKED_FOR_MANUAL_REVIEW | blocages 2
+
+Securite: affichage seulement, aucun import, achat, paiement ou publication.

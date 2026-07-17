@@ -1,0 +1,186 @@
+{
+  "checked_at": "2026-06-09 18:00:59",
+  "ok": true,
+  "short_message": "Mapping categories: 10 produit(s), 1 fallback(s), proposition uniquement.",
+  "project_path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille",
+  "candidates_path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\latest_candidates.json",
+  "available_dropshipping_categories": [
+    {
+      "id": "dropshipping-nouveautes",
+      "name": "Nouveautés"
+    },
+    {
+      "id": "dropshipping-promotions",
+      "name": "Promotions"
+    },
+    {
+      "id": "dropshipping-maison",
+      "name": "Maison"
+    },
+    {
+      "id": "dropshipping-cuisine",
+      "name": "Cuisine"
+    },
+    {
+      "id": "dropshipping-beaute",
+      "name": "Beauté"
+    },
+    {
+      "id": "dropshipping-high-tech",
+      "name": "High-tech"
+    },
+    {
+      "id": "dropshipping-accessoires",
+      "name": "Accessoires"
+    },
+    {
+      "id": "dropshipping-auto-moto",
+      "name": "Auto / Moto"
+    },
+    {
+      "id": "dropshipping-animaux",
+      "name": "Animaux"
+    },
+    {
+      "id": "dropshipping-enfant",
+      "name": "Enfant"
+    },
+    {
+      "id": "dropshipping-mode",
+      "name": "Mode"
+    }
+  ],
+  "candidate_count": 10,
+  "fallback_count": 1,
+  "rows": [
+    {
+      "rank": 1,
+      "candidate_id": "candidate_1779461503071_0",
+      "name": "Lampe LED rechargeable magnetique pour bureau",
+      "source_category": "maison",
+      "target_category_id": "dropshipping-maison",
+      "target_category_name": "Maison",
+      "confidence": "high",
+      "reason": "Categorie source maison",
+      "allowed_for_draft": true,
+      "validation_required": true
+    },
+    {
+      "rank": 2,
+      "candidate_id": "candidate_1779461503071_1",
+      "name": "Organisateur de cables de voyage compact",
+      "source_category": "accessoires",
+      "target_category_id": "dropshipping-accessoires",
+      "target_category_name": "Accessoires",
+      "confidence": "high",
+      "reason": "Categorie source accessoires",
+      "allowed_for_draft": true,
+      "validation_required": true
+    },
+    {
+      "rank": 3,
+      "candidate_id": "candidate_1779461503071_2",
+      "name": "Mini aspirateur sans fil pour voiture",
+      "source_category": "auto-moto",
+      "target_category_id": "dropshipping-auto-moto",
+      "target_category_name": "Auto / Moto",
+      "confidence": "high",
+      "reason": "Categorie source auto/moto",
+      "allowed_for_draft": true,
+      "validation_required": true
+    },
+    {
+      "rank": 4,
+      "candidate_id": "candidate_1779461503071_3",
+      "name": "Support telephone voiture rotation 360",
+      "source_category": "telephonie",
+      "target_category_id": "dropshipping-high-tech",
+      "target_category_name": "High-tech",
+      "confidence": "high",
+      "reason": "Categorie source telephonie",
+      "allowed_for_draft": true,
+      "validation_required": true
+    },
+    {
+      "rank": 5,
+      "candidate_id": "candidate_1779461503071_4",
+      "name": "Brosse anti-poils reutilisable pour animaux",
+      "source_category": "animaux",
+      "target_category_id": "dropshipping-animaux",
+      "target_category_name": "Animaux",
+      "confidence": "high",
+      "reason": "Categorie source animaux",
+      "allowed_for_draft": true,
+      "validation_required": true
+    },
+    {
+      "rank": 6,
+      "candidate_id": "candidate_1779461503071_5",
+      "name": "Mini humidificateur USB decoratif",
+      "source_category": "maison",
+      "target_category_id": "dropshipping-maison",
+      "target_category_name": "Maison",
+      "confidence": "high",
+      "reason": "Categorie source maison",
+      "allowed_for_draft": true,
+      "validation_required": true
+    },
+    {
+      "rank": 7,
+      "candidate_id": "candidate_1779461503071_7",
+      "name": "Sac de rangement compressible pour valise",
+      "source_category": "accessoires",
+      "target_category_id": "dropshipping-accessoires",
+      "target_category_name": "Accessoires",
+      "confidence": "high",
+      "reason": "Categorie source accessoires",
+      "allowed_for_draft": true,
+      "validation_required": true
+    },
+    {
+      "rank": 8,
+      "candidate_id": "candidate_1779461503071_8",
+      "name": "Veilleuse detecteur de mouvement pour placard",
+      "source_category": "electricite",
+      "target_category_id": "dropshipping-high-tech",
+      "target_category_name": "High-tech",
+      "confidence": "high",
+      "reason": "Categorie source electricite",
+      "allowed_for_draft": true,
+      "validation_required": true
+    },
+    {
+      "rank": 9,
+      "candidate_id": "candidate_1779461503071_6",
+      "name": "Kit embouts tournevis precision 24 pieces",
+      "source_category": "outillage",
+      "target_category_id": "dropshipping-nouveautes",
+      "target_category_name": "Nouveautés",
+      "confidence": "fallback",
+      "reason": "Aucune categorie dropshipping specialisee detectee.",
+      "allowed_for_draft": true,
+      "validation_required": true
+    },
+    {
+      "rank": 10,
+      "candidate_id": "candidate_1779461503071_9",
+      "name": "Filtre douche economiseur avec jet reglable",
+      "source_category": "maison",
+      "target_category_id": "dropshipping-maison",
+      "target_category_name": "Maison",
+      "confidence": "high",
+      "reason": "Categorie source maison",
+      "allowed_for_draft": true,
+      "validation_required": true
+    }
+  ],
+  "safety": {
+    "read_only": true,
+    "no_import": true,
+    "no_publication": true,
+    "no_order": true,
+    "no_payment": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  }
+}

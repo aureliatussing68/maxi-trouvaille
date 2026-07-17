@@ -1,0 +1,955 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-13T12:11:44.831Z",
+  "generatedAtLocal": "2026-06-13 14:11 Europe/Paris",
+  "mode": "read_only_integration_sourcing_priority_board",
+  "status": "HOLD_PRIORITY_BOARD_READY",
+  "productCount": 10,
+  "totalMissingFieldCount": 110,
+  "expectedImageCount": 30,
+  "validImageCount": 0,
+  "byCategory": {
+    "dropshipping-maison": 3,
+    "dropshipping-accessoires": 4,
+    "dropshipping-cuisine": 2,
+    "dropshipping-auto-moto": 1
+  },
+  "byLane": {
+    "lane_1_packet_a_remplir": 10
+  },
+  "proofLanes": {
+    "byZone": {
+      "Fournisseur / SKU": 30
+    },
+    "firstProofs": [
+      {
+        "rank": 1,
+        "productId": "integration_articles_20260612_housse-protection-canape-animal",
+        "productName": "Housse protection canape animal",
+        "categoryId": "dropshipping-maison",
+        "supplierMaxCost": "11.20 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "exactProductUrl",
+        "fieldLabel": "URL produit exacte",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_housse-protection-canape-animal",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 1,
+        "productId": "integration_articles_20260612_housse-protection-canape-animal",
+        "productName": "Housse protection canape animal",
+        "categoryId": "dropshipping-maison",
+        "supplierMaxCost": "11.20 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "partnerName",
+        "fieldLabel": "Nom vendeur ou partenaire",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_housse-protection-canape-animal",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 1,
+        "productId": "integration_articles_20260612_housse-protection-canape-animal",
+        "productName": "Housse protection canape animal",
+        "categoryId": "dropshipping-maison",
+        "supplierMaxCost": "11.20 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "supplierSku",
+        "fieldLabel": "SKU/reference fournisseur",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_housse-protection-canape-animal",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 2,
+        "productId": "integration_articles_20260612_cable-organizer-boite-multiprise",
+        "productName": "Cache multiprise boite rangement cables",
+        "categoryId": "dropshipping-accessoires",
+        "supplierMaxCost": "7.60 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "exactProductUrl",
+        "fieldLabel": "URL produit exacte",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_cable-organizer-boite-multiprise&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_cable-organizer-boite-multiprise",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 2,
+        "productId": "integration_articles_20260612_cable-organizer-boite-multiprise",
+        "productName": "Cache multiprise boite rangement cables",
+        "categoryId": "dropshipping-accessoires",
+        "supplierMaxCost": "7.60 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "partnerName",
+        "fieldLabel": "Nom vendeur ou partenaire",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_cable-organizer-boite-multiprise&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_cable-organizer-boite-multiprise",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 2,
+        "productId": "integration_articles_20260612_cable-organizer-boite-multiprise",
+        "productName": "Cache multiprise boite rangement cables",
+        "categoryId": "dropshipping-accessoires",
+        "supplierMaxCost": "7.60 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "supplierSku",
+        "fieldLabel": "SKU/reference fournisseur",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_cable-organizer-boite-multiprise&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_cable-organizer-boite-multiprise",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 3,
+        "productId": "integration_articles_20260612_trousse-toilette-suspendue-voyage",
+        "productName": "Trousse toilette suspendue voyage",
+        "categoryId": "dropshipping-accessoires",
+        "supplierMaxCost": "6.20 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "exactProductUrl",
+        "fieldLabel": "URL produit exacte",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_trousse-toilette-suspendue-voyage&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_trousse-toilette-suspendue-voyage",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 3,
+        "productId": "integration_articles_20260612_trousse-toilette-suspendue-voyage",
+        "productName": "Trousse toilette suspendue voyage",
+        "categoryId": "dropshipping-accessoires",
+        "supplierMaxCost": "6.20 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "partnerName",
+        "fieldLabel": "Nom vendeur ou partenaire",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_trousse-toilette-suspendue-voyage&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_trousse-toilette-suspendue-voyage",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 3,
+        "productId": "integration_articles_20260612_trousse-toilette-suspendue-voyage",
+        "productName": "Trousse toilette suspendue voyage",
+        "categoryId": "dropshipping-accessoires",
+        "supplierMaxCost": "6.20 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "supplierSku",
+        "fieldLabel": "SKU/reference fournisseur",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_trousse-toilette-suspendue-voyage&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_trousse-toilette-suspendue-voyage",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 4,
+        "productId": "integration_articles_20260612_etagere-douche-angle-adhesive",
+        "productName": "Etagere douche angle adhesive",
+        "categoryId": "dropshipping-maison",
+        "supplierMaxCost": "7.60 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "exactProductUrl",
+        "fieldLabel": "URL produit exacte",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_etagere-douche-angle-adhesive&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_etagere-douche-angle-adhesive",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 4,
+        "productId": "integration_articles_20260612_etagere-douche-angle-adhesive",
+        "productName": "Etagere douche angle adhesive",
+        "categoryId": "dropshipping-maison",
+        "supplierMaxCost": "7.60 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "partnerName",
+        "fieldLabel": "Nom vendeur ou partenaire",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_etagere-douche-angle-adhesive&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_etagere-douche-angle-adhesive",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 4,
+        "productId": "integration_articles_20260612_etagere-douche-angle-adhesive",
+        "productName": "Etagere douche angle adhesive",
+        "categoryId": "dropshipping-maison",
+        "supplierMaxCost": "7.60 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "supplierSku",
+        "fieldLabel": "SKU/reference fournisseur",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_etagere-douche-angle-adhesive&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_etagere-douche-angle-adhesive",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 5,
+        "productId": "integration_articles_20260612_boite-a-the-compartiments-bambou",
+        "productName": "Boite a the compartiments bambou",
+        "categoryId": "dropshipping-cuisine",
+        "supplierMaxCost": "7.20 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "exactProductUrl",
+        "fieldLabel": "URL produit exacte",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_boite-a-the-compartiments-bambou&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_boite-a-the-compartiments-bambou",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 5,
+        "productId": "integration_articles_20260612_boite-a-the-compartiments-bambou",
+        "productName": "Boite a the compartiments bambou",
+        "categoryId": "dropshipping-cuisine",
+        "supplierMaxCost": "7.20 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "partnerName",
+        "fieldLabel": "Nom vendeur ou partenaire",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_boite-a-the-compartiments-bambou&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_boite-a-the-compartiments-bambou",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 5,
+        "productId": "integration_articles_20260612_boite-a-the-compartiments-bambou",
+        "productName": "Boite a the compartiments bambou",
+        "categoryId": "dropshipping-cuisine",
+        "supplierMaxCost": "7.20 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "supplierSku",
+        "fieldLabel": "SKU/reference fournisseur",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_boite-a-the-compartiments-bambou&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_boite-a-the-compartiments-bambou",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 6,
+        "productId": "integration_articles_20260612_organisateur-coffre-voiture-pliable",
+        "productName": "Organisateur coffre voiture pliable",
+        "categoryId": "dropshipping-auto-moto",
+        "supplierMaxCost": "11.20 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "exactProductUrl",
+        "fieldLabel": "URL produit exacte",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-coffre-voiture-pliable&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_organisateur-coffre-voiture-pliable",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 6,
+        "productId": "integration_articles_20260612_organisateur-coffre-voiture-pliable",
+        "productName": "Organisateur coffre voiture pliable",
+        "categoryId": "dropshipping-auto-moto",
+        "supplierMaxCost": "11.20 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "partnerName",
+        "fieldLabel": "Nom vendeur ou partenaire",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-coffre-voiture-pliable&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_organisateur-coffre-voiture-pliable",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 6,
+        "productId": "integration_articles_20260612_organisateur-coffre-voiture-pliable",
+        "productName": "Organisateur coffre voiture pliable",
+        "categoryId": "dropshipping-auto-moto",
+        "supplierMaxCost": "11.20 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "supplierSku",
+        "fieldLabel": "SKU/reference fournisseur",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-coffre-voiture-pliable&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_organisateur-coffre-voiture-pliable",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 7,
+        "productId": "integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+        "productName": "Organisateur tiroir cuisine extensible",
+        "categoryId": "dropshipping-cuisine",
+        "supplierMaxCost": "8.20 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "exactProductUrl",
+        "fieldLabel": "URL produit exacte",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+        "status": "TO_FILL_HOLD"
+      },
+      {
+        "rank": 7,
+        "productId": "integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+        "productName": "Organisateur tiroir cuisine extensible",
+        "categoryId": "dropshipping-cuisine",
+        "supplierMaxCost": "8.20 EUR",
+        "zone": "Fournisseur / SKU",
+        "fieldKey": "partnerName",
+        "fieldLabel": "Nom vendeur ou partenaire",
+        "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+        "status": "TO_FILL_HOLD"
+      }
+    ]
+  },
+  "rows": [
+    {
+      "rank": 1,
+      "productId": "integration_articles_20260612_housse-protection-canape-animal",
+      "slug": "housse-protection-canape-animal-partenaire-hold",
+      "name": "Housse protection canape animal",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_1_packet_a_remplir",
+      "priorityScore": 114,
+      "targetSalePrice": "24.90 EUR",
+      "targetMargin": "13.70 EUR (55%)",
+      "supplierMaxCost": "11.20 EUR",
+      "packetStatus": "HOLD_READY_FOR_MANUAL_SOURCING",
+      "intakeStatus": "HOLD_IMAGES_OR_EVIDENCE_MISSING",
+      "sessionStatus": "HOLD_SESSION_READY_TO_FILL",
+      "evidenceProgress": "1/10",
+      "imageProgress": "0/3",
+      "missingFieldCount": 11,
+      "imageTaskCount": 3,
+      "blockerCount": 13,
+      "missingZones": [
+        "Fournisseur / SKU",
+        "Prix / stock / marge",
+        "Livraison / suivi",
+        "Images / droits",
+        "Validation Mouss"
+      ],
+      "nextProofs": [
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "exactProductUrl",
+          "label": "URL produit exacte",
+          "expectedFormat": "URL https de la fiche article exacte",
+          "rejectIf": "URL de recherche, marketplace interdite, produit similaire ou variante floue",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_housse-protection-canape-animal",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "partnerName",
+          "label": "Nom vendeur ou partenaire",
+          "expectedFormat": "Nom stable du vendeur, boutique ou partenaire",
+          "rejectIf": "Vendeur inconnu, nom generique ou preuve absente",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_housse-protection-canape-animal",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "supplierSku",
+          "label": "SKU/reference fournisseur",
+          "expectedFormat": "SKU, item id ou reference fournisseur stable",
+          "rejectIf": "Reference absente ou non reutilisable pour une commande manuelle",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_housse-protection-canape-animal",
+          "status": "TO_FILL_HOLD"
+        }
+      ],
+      "imageDepositDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260613\\housse-protection-canape-animal-partenaire-hold",
+      "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/housse-protection-canape-animal-partenaire-hold",
+      "expectedImageFiles": [
+        "housse-protection-canape-animal-partenaire-hold-main.webp",
+        "housse-protection-canape-animal-partenaire-hold-detail-1.webp",
+        "housse-protection-canape-animal-partenaire-hold-variant.webp"
+      ],
+      "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_housse-protection-canape-animal#top-verification-integration_articles_20260612_housse-protection-canape-animal",
+      "immediateAction": "Trouver une fiche produit exacte France/Europe ou garder HOLD.",
+      "executionNextAction": "Remplir le CSV sourcing, chercher fournisseur France/Europe exact et deposer les WebP exacts attendus.",
+      "safetyStatus": "HOLD_SOURCING_NO_PUBLICATION"
+    },
+    {
+      "rank": 2,
+      "productId": "integration_articles_20260612_cable-organizer-boite-multiprise",
+      "slug": "cache-multiprise-boite-rangement-cables-partenaire-hold",
+      "name": "Cache multiprise boite rangement cables",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_1_packet_a_remplir",
+      "priorityScore": 111,
+      "targetSalePrice": "18.90 EUR",
+      "targetMargin": "11.30 EUR (60%)",
+      "supplierMaxCost": "7.60 EUR",
+      "packetStatus": "HOLD_READY_FOR_MANUAL_SOURCING",
+      "intakeStatus": "HOLD_IMAGES_OR_EVIDENCE_MISSING",
+      "sessionStatus": "HOLD_SESSION_READY_TO_FILL",
+      "evidenceProgress": "1/10",
+      "imageProgress": "0/3",
+      "missingFieldCount": 11,
+      "imageTaskCount": 3,
+      "blockerCount": 13,
+      "missingZones": [
+        "Fournisseur / SKU",
+        "Prix / stock / marge",
+        "Livraison / suivi",
+        "Images / droits",
+        "Validation Mouss"
+      ],
+      "nextProofs": [
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "exactProductUrl",
+          "label": "URL produit exacte",
+          "expectedFormat": "URL https de la fiche article exacte",
+          "rejectIf": "URL de recherche, marketplace interdite, produit similaire ou variante floue",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_cable-organizer-boite-multiprise&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_cable-organizer-boite-multiprise",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "partnerName",
+          "label": "Nom vendeur ou partenaire",
+          "expectedFormat": "Nom stable du vendeur, boutique ou partenaire",
+          "rejectIf": "Vendeur inconnu, nom generique ou preuve absente",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_cable-organizer-boite-multiprise&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_cable-organizer-boite-multiprise",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "supplierSku",
+          "label": "SKU/reference fournisseur",
+          "expectedFormat": "SKU, item id ou reference fournisseur stable",
+          "rejectIf": "Reference absente ou non reutilisable pour une commande manuelle",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_cable-organizer-boite-multiprise&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_cable-organizer-boite-multiprise",
+          "status": "TO_FILL_HOLD"
+        }
+      ],
+      "imageDepositDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260613\\cache-multiprise-boite-rangement-cables-partenaire-hold",
+      "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/cache-multiprise-boite-rangement-cables-partenaire-hold",
+      "expectedImageFiles": [
+        "cache-multiprise-boite-rangement-cables-partenaire-hold-main.webp",
+        "cache-multiprise-boite-rangement-cables-partenaire-hold-detail-1.webp",
+        "cache-multiprise-boite-rangement-cables-partenaire-hold-variant.webp"
+      ],
+      "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_cable-organizer-boite-multiprise#top-verification-integration_articles_20260612_cable-organizer-boite-multiprise",
+      "immediateAction": "Trouver une fiche produit exacte France/Europe ou garder HOLD.",
+      "executionNextAction": "Remplir le CSV sourcing, chercher fournisseur France/Europe exact et deposer les WebP exacts attendus.",
+      "safetyStatus": "HOLD_SOURCING_NO_PUBLICATION"
+    },
+    {
+      "rank": 3,
+      "productId": "integration_articles_20260612_trousse-toilette-suspendue-voyage",
+      "slug": "trousse-toilette-suspendue-voyage-partenaire-hold",
+      "name": "Trousse toilette suspendue voyage",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_1_packet_a_remplir",
+      "priorityScore": 111,
+      "targetSalePrice": "17.90 EUR",
+      "targetMargin": "11.70 EUR (65%)",
+      "supplierMaxCost": "6.20 EUR",
+      "packetStatus": "HOLD_READY_FOR_MANUAL_SOURCING",
+      "intakeStatus": "HOLD_IMAGES_OR_EVIDENCE_MISSING",
+      "sessionStatus": "HOLD_SESSION_READY_TO_FILL",
+      "evidenceProgress": "1/10",
+      "imageProgress": "0/3",
+      "missingFieldCount": 11,
+      "imageTaskCount": 3,
+      "blockerCount": 13,
+      "missingZones": [
+        "Fournisseur / SKU",
+        "Prix / stock / marge",
+        "Livraison / suivi",
+        "Images / droits",
+        "Validation Mouss"
+      ],
+      "nextProofs": [
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "exactProductUrl",
+          "label": "URL produit exacte",
+          "expectedFormat": "URL https de la fiche article exacte",
+          "rejectIf": "URL de recherche, marketplace interdite, produit similaire ou variante floue",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_trousse-toilette-suspendue-voyage&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_trousse-toilette-suspendue-voyage",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "partnerName",
+          "label": "Nom vendeur ou partenaire",
+          "expectedFormat": "Nom stable du vendeur, boutique ou partenaire",
+          "rejectIf": "Vendeur inconnu, nom generique ou preuve absente",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_trousse-toilette-suspendue-voyage&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_trousse-toilette-suspendue-voyage",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "supplierSku",
+          "label": "SKU/reference fournisseur",
+          "expectedFormat": "SKU, item id ou reference fournisseur stable",
+          "rejectIf": "Reference absente ou non reutilisable pour une commande manuelle",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_trousse-toilette-suspendue-voyage&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_trousse-toilette-suspendue-voyage",
+          "status": "TO_FILL_HOLD"
+        }
+      ],
+      "imageDepositDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260613\\trousse-toilette-suspendue-voyage-partenaire-hold",
+      "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/trousse-toilette-suspendue-voyage-partenaire-hold",
+      "expectedImageFiles": [
+        "trousse-toilette-suspendue-voyage-partenaire-hold-main.webp",
+        "trousse-toilette-suspendue-voyage-partenaire-hold-detail-1.webp",
+        "trousse-toilette-suspendue-voyage-partenaire-hold-variant.webp"
+      ],
+      "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_trousse-toilette-suspendue-voyage#top-verification-integration_articles_20260612_trousse-toilette-suspendue-voyage",
+      "immediateAction": "Trouver une fiche produit exacte France/Europe ou garder HOLD.",
+      "executionNextAction": "Remplir le CSV sourcing, chercher fournisseur France/Europe exact et deposer les WebP exacts attendus.",
+      "safetyStatus": "HOLD_SOURCING_NO_PUBLICATION"
+    },
+    {
+      "rank": 4,
+      "productId": "integration_articles_20260612_etagere-douche-angle-adhesive",
+      "slug": "etagere-douche-angle-adhesive-partenaire-hold",
+      "name": "Etagere douche angle adhesive",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_1_packet_a_remplir",
+      "priorityScore": 112,
+      "targetSalePrice": "19.90 EUR",
+      "targetMargin": "12.30 EUR (62%)",
+      "supplierMaxCost": "7.60 EUR",
+      "packetStatus": "HOLD_READY_FOR_MANUAL_SOURCING",
+      "intakeStatus": "HOLD_IMAGES_OR_EVIDENCE_MISSING",
+      "sessionStatus": "HOLD_SESSION_READY_TO_FILL",
+      "evidenceProgress": "1/10",
+      "imageProgress": "0/3",
+      "missingFieldCount": 11,
+      "imageTaskCount": 3,
+      "blockerCount": 13,
+      "missingZones": [
+        "Fournisseur / SKU",
+        "Prix / stock / marge",
+        "Livraison / suivi",
+        "Images / droits",
+        "Validation Mouss"
+      ],
+      "nextProofs": [
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "exactProductUrl",
+          "label": "URL produit exacte",
+          "expectedFormat": "URL https de la fiche article exacte",
+          "rejectIf": "URL de recherche, marketplace interdite, produit similaire ou variante floue",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_etagere-douche-angle-adhesive&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_etagere-douche-angle-adhesive",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "partnerName",
+          "label": "Nom vendeur ou partenaire",
+          "expectedFormat": "Nom stable du vendeur, boutique ou partenaire",
+          "rejectIf": "Vendeur inconnu, nom generique ou preuve absente",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_etagere-douche-angle-adhesive&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_etagere-douche-angle-adhesive",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "supplierSku",
+          "label": "SKU/reference fournisseur",
+          "expectedFormat": "SKU, item id ou reference fournisseur stable",
+          "rejectIf": "Reference absente ou non reutilisable pour une commande manuelle",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_etagere-douche-angle-adhesive&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_etagere-douche-angle-adhesive",
+          "status": "TO_FILL_HOLD"
+        }
+      ],
+      "imageDepositDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260613\\etagere-douche-angle-adhesive-partenaire-hold",
+      "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/etagere-douche-angle-adhesive-partenaire-hold",
+      "expectedImageFiles": [
+        "etagere-douche-angle-adhesive-partenaire-hold-main.webp",
+        "etagere-douche-angle-adhesive-partenaire-hold-detail-1.webp",
+        "etagere-douche-angle-adhesive-partenaire-hold-variant.webp"
+      ],
+      "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_etagere-douche-angle-adhesive#top-verification-integration_articles_20260612_etagere-douche-angle-adhesive",
+      "immediateAction": "Trouver une fiche produit exacte France/Europe ou garder HOLD.",
+      "executionNextAction": "Remplir le CSV sourcing, chercher fournisseur France/Europe exact et deposer les WebP exacts attendus.",
+      "safetyStatus": "HOLD_SOURCING_NO_PUBLICATION"
+    },
+    {
+      "rank": 5,
+      "productId": "integration_articles_20260612_boite-a-the-compartiments-bambou",
+      "slug": "boite-a-the-compartiments-bambou-partenaire-hold",
+      "name": "Boite a the compartiments bambou",
+      "categoryId": "dropshipping-cuisine",
+      "lane": "lane_1_packet_a_remplir",
+      "priorityScore": 110,
+      "targetSalePrice": "18.90 EUR",
+      "targetMargin": "11.70 EUR (62%)",
+      "supplierMaxCost": "7.20 EUR",
+      "packetStatus": "HOLD_READY_FOR_MANUAL_SOURCING",
+      "intakeStatus": "HOLD_IMAGES_OR_EVIDENCE_MISSING",
+      "sessionStatus": "HOLD_SESSION_READY_TO_FILL",
+      "evidenceProgress": "1/10",
+      "imageProgress": "0/3",
+      "missingFieldCount": 11,
+      "imageTaskCount": 3,
+      "blockerCount": 13,
+      "missingZones": [
+        "Fournisseur / SKU",
+        "Prix / stock / marge",
+        "Livraison / suivi",
+        "Images / droits",
+        "Validation Mouss"
+      ],
+      "nextProofs": [
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "exactProductUrl",
+          "label": "URL produit exacte",
+          "expectedFormat": "URL https de la fiche article exacte",
+          "rejectIf": "URL de recherche, marketplace interdite, produit similaire ou variante floue",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_boite-a-the-compartiments-bambou&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_boite-a-the-compartiments-bambou",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "partnerName",
+          "label": "Nom vendeur ou partenaire",
+          "expectedFormat": "Nom stable du vendeur, boutique ou partenaire",
+          "rejectIf": "Vendeur inconnu, nom generique ou preuve absente",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_boite-a-the-compartiments-bambou&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_boite-a-the-compartiments-bambou",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "supplierSku",
+          "label": "SKU/reference fournisseur",
+          "expectedFormat": "SKU, item id ou reference fournisseur stable",
+          "rejectIf": "Reference absente ou non reutilisable pour une commande manuelle",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_boite-a-the-compartiments-bambou&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_boite-a-the-compartiments-bambou",
+          "status": "TO_FILL_HOLD"
+        }
+      ],
+      "imageDepositDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260613\\boite-a-the-compartiments-bambou-partenaire-hold",
+      "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/boite-a-the-compartiments-bambou-partenaire-hold",
+      "expectedImageFiles": [
+        "boite-a-the-compartiments-bambou-partenaire-hold-main.webp",
+        "boite-a-the-compartiments-bambou-partenaire-hold-detail-1.webp",
+        "boite-a-the-compartiments-bambou-partenaire-hold-variant.webp"
+      ],
+      "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_boite-a-the-compartiments-bambou#top-verification-integration_articles_20260612_boite-a-the-compartiments-bambou",
+      "immediateAction": "Trouver une fiche produit exacte France/Europe ou garder HOLD.",
+      "executionNextAction": "Remplir le CSV sourcing, chercher fournisseur France/Europe exact et deposer les WebP exacts attendus.",
+      "safetyStatus": "HOLD_SOURCING_NO_PUBLICATION"
+    },
+    {
+      "rank": 6,
+      "productId": "integration_articles_20260612_organisateur-coffre-voiture-pliable",
+      "slug": "organisateur-coffre-voiture-pliable-partenaire-hold",
+      "name": "Organisateur coffre voiture pliable",
+      "categoryId": "dropshipping-auto-moto",
+      "lane": "lane_1_packet_a_remplir",
+      "priorityScore": 107,
+      "targetSalePrice": "24.90 EUR",
+      "targetMargin": "13.70 EUR (55%)",
+      "supplierMaxCost": "11.20 EUR",
+      "packetStatus": "HOLD_READY_FOR_MANUAL_SOURCING",
+      "intakeStatus": "HOLD_IMAGES_OR_EVIDENCE_MISSING",
+      "sessionStatus": "HOLD_SESSION_READY_TO_FILL",
+      "evidenceProgress": "1/10",
+      "imageProgress": "0/3",
+      "missingFieldCount": 11,
+      "imageTaskCount": 3,
+      "blockerCount": 13,
+      "missingZones": [
+        "Fournisseur / SKU",
+        "Prix / stock / marge",
+        "Livraison / suivi",
+        "Images / droits",
+        "Validation Mouss"
+      ],
+      "nextProofs": [
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "exactProductUrl",
+          "label": "URL produit exacte",
+          "expectedFormat": "URL https de la fiche article exacte",
+          "rejectIf": "URL de recherche, marketplace interdite, produit similaire ou variante floue",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-coffre-voiture-pliable&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_organisateur-coffre-voiture-pliable",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "partnerName",
+          "label": "Nom vendeur ou partenaire",
+          "expectedFormat": "Nom stable du vendeur, boutique ou partenaire",
+          "rejectIf": "Vendeur inconnu, nom generique ou preuve absente",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-coffre-voiture-pliable&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_organisateur-coffre-voiture-pliable",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "supplierSku",
+          "label": "SKU/reference fournisseur",
+          "expectedFormat": "SKU, item id ou reference fournisseur stable",
+          "rejectIf": "Reference absente ou non reutilisable pour une commande manuelle",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-coffre-voiture-pliable&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_organisateur-coffre-voiture-pliable",
+          "status": "TO_FILL_HOLD"
+        }
+      ],
+      "imageDepositDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260613\\organisateur-coffre-voiture-pliable-partenaire-hold",
+      "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/organisateur-coffre-voiture-pliable-partenaire-hold",
+      "expectedImageFiles": [
+        "organisateur-coffre-voiture-pliable-partenaire-hold-main.webp",
+        "organisateur-coffre-voiture-pliable-partenaire-hold-detail-1.webp",
+        "organisateur-coffre-voiture-pliable-partenaire-hold-variant.webp"
+      ],
+      "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-coffre-voiture-pliable#top-verification-integration_articles_20260612_organisateur-coffre-voiture-pliable",
+      "immediateAction": "Trouver une fiche produit exacte France/Europe ou garder HOLD.",
+      "executionNextAction": "Remplir le CSV sourcing, chercher fournisseur France/Europe exact et deposer les WebP exacts attendus.",
+      "safetyStatus": "HOLD_SOURCING_NO_PUBLICATION"
+    },
+    {
+      "rank": 7,
+      "productId": "integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "slug": "organisateur-tiroir-cuisine-extensible-partenaire-hold",
+      "name": "Organisateur tiroir cuisine extensible",
+      "categoryId": "dropshipping-cuisine",
+      "lane": "lane_1_packet_a_remplir",
+      "priorityScore": 110,
+      "targetSalePrice": "19.90 EUR",
+      "targetMargin": "11.70 EUR (59%)",
+      "supplierMaxCost": "8.20 EUR",
+      "packetStatus": "HOLD_READY_FOR_MANUAL_SOURCING",
+      "intakeStatus": "HOLD_IMAGES_OR_EVIDENCE_MISSING",
+      "sessionStatus": "HOLD_SESSION_READY_TO_FILL",
+      "evidenceProgress": "1/10",
+      "imageProgress": "0/3",
+      "missingFieldCount": 11,
+      "imageTaskCount": 3,
+      "blockerCount": 13,
+      "missingZones": [
+        "Fournisseur / SKU",
+        "Prix / stock / marge",
+        "Livraison / suivi",
+        "Images / droits",
+        "Validation Mouss"
+      ],
+      "nextProofs": [
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "exactProductUrl",
+          "label": "URL produit exacte",
+          "expectedFormat": "URL https de la fiche article exacte",
+          "rejectIf": "URL de recherche, marketplace interdite, produit similaire ou variante floue",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "partnerName",
+          "label": "Nom vendeur ou partenaire",
+          "expectedFormat": "Nom stable du vendeur, boutique ou partenaire",
+          "rejectIf": "Vendeur inconnu, nom generique ou preuve absente",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "supplierSku",
+          "label": "SKU/reference fournisseur",
+          "expectedFormat": "SKU, item id ou reference fournisseur stable",
+          "rejectIf": "Reference absente ou non reutilisable pour une commande manuelle",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+          "status": "TO_FILL_HOLD"
+        }
+      ],
+      "imageDepositDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260613\\organisateur-tiroir-cuisine-extensible-partenaire-hold",
+      "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/organisateur-tiroir-cuisine-extensible-partenaire-hold",
+      "expectedImageFiles": [
+        "organisateur-tiroir-cuisine-extensible-partenaire-hold-main.webp",
+        "organisateur-tiroir-cuisine-extensible-partenaire-hold-detail-1.webp",
+        "organisateur-tiroir-cuisine-extensible-partenaire-hold-variant.webp"
+      ],
+      "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_organisateur-tiroir-cuisine-extensible#top-verification-integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "immediateAction": "Trouver une fiche produit exacte France/Europe ou garder HOLD.",
+      "executionNextAction": "Remplir le CSV sourcing, chercher fournisseur France/Europe exact et deposer les WebP exacts attendus.",
+      "safetyStatus": "HOLD_SOURCING_NO_PUBLICATION"
+    },
+    {
+      "rank": 8,
+      "productId": "integration_articles_20260612_sacs-compression-voyage-lot",
+      "slug": "sacs-compression-voyage-lot-partenaire-hold",
+      "name": "Sacs compression voyage lot",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_1_packet_a_remplir",
+      "priorityScore": 109,
+      "targetSalePrice": "15.90 EUR",
+      "targetMargin": "10.50 EUR (66%)",
+      "supplierMaxCost": "5.40 EUR",
+      "packetStatus": "HOLD_READY_FOR_MANUAL_SOURCING",
+      "intakeStatus": "HOLD_IMAGES_OR_EVIDENCE_MISSING",
+      "sessionStatus": "HOLD_SESSION_READY_TO_FILL",
+      "evidenceProgress": "1/10",
+      "imageProgress": "0/3",
+      "missingFieldCount": 11,
+      "imageTaskCount": 3,
+      "blockerCount": 13,
+      "missingZones": [
+        "Fournisseur / SKU",
+        "Prix / stock / marge",
+        "Livraison / suivi",
+        "Images / droits",
+        "Validation Mouss"
+      ],
+      "nextProofs": [
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "exactProductUrl",
+          "label": "URL produit exacte",
+          "expectedFormat": "URL https de la fiche article exacte",
+          "rejectIf": "URL de recherche, marketplace interdite, produit similaire ou variante floue",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_sacs-compression-voyage-lot&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_sacs-compression-voyage-lot",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "partnerName",
+          "label": "Nom vendeur ou partenaire",
+          "expectedFormat": "Nom stable du vendeur, boutique ou partenaire",
+          "rejectIf": "Vendeur inconnu, nom generique ou preuve absente",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_sacs-compression-voyage-lot&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_sacs-compression-voyage-lot",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "supplierSku",
+          "label": "SKU/reference fournisseur",
+          "expectedFormat": "SKU, item id ou reference fournisseur stable",
+          "rejectIf": "Reference absente ou non reutilisable pour une commande manuelle",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_sacs-compression-voyage-lot&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_sacs-compression-voyage-lot",
+          "status": "TO_FILL_HOLD"
+        }
+      ],
+      "imageDepositDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260613\\sacs-compression-voyage-lot-partenaire-hold",
+      "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/sacs-compression-voyage-lot-partenaire-hold",
+      "expectedImageFiles": [
+        "sacs-compression-voyage-lot-partenaire-hold-main.webp",
+        "sacs-compression-voyage-lot-partenaire-hold-detail-1.webp",
+        "sacs-compression-voyage-lot-partenaire-hold-variant.webp"
+      ],
+      "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_sacs-compression-voyage-lot#top-verification-integration_articles_20260612_sacs-compression-voyage-lot",
+      "immediateAction": "Trouver une fiche produit exacte France/Europe ou garder HOLD.",
+      "executionNextAction": "Remplir le CSV sourcing, chercher fournisseur France/Europe exact et deposer les WebP exacts attendus.",
+      "safetyStatus": "HOLD_SOURCING_NO_PUBLICATION"
+    },
+    {
+      "rank": 9,
+      "productId": "integration_articles_20260612_sac-repas-isotherme-pliable",
+      "slug": "sac-repas-isotherme-pliable-partenaire-hold",
+      "name": "Sac repas isotherme pliable",
+      "categoryId": "dropshipping-accessoires",
+      "lane": "lane_1_packet_a_remplir",
+      "priorityScore": 108,
+      "targetSalePrice": "14.90 EUR",
+      "targetMargin": "10.10 EUR (68%)",
+      "supplierMaxCost": "4.80 EUR",
+      "packetStatus": "HOLD_READY_FOR_MANUAL_SOURCING",
+      "intakeStatus": "HOLD_IMAGES_OR_EVIDENCE_MISSING",
+      "sessionStatus": "HOLD_SESSION_READY_TO_FILL",
+      "evidenceProgress": "1/10",
+      "imageProgress": "0/3",
+      "missingFieldCount": 11,
+      "imageTaskCount": 3,
+      "blockerCount": 13,
+      "missingZones": [
+        "Fournisseur / SKU",
+        "Prix / stock / marge",
+        "Livraison / suivi",
+        "Images / droits",
+        "Validation Mouss"
+      ],
+      "nextProofs": [
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "exactProductUrl",
+          "label": "URL produit exacte",
+          "expectedFormat": "URL https de la fiche article exacte",
+          "rejectIf": "URL de recherche, marketplace interdite, produit similaire ou variante floue",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_sac-repas-isotherme-pliable&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_sac-repas-isotherme-pliable",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "partnerName",
+          "label": "Nom vendeur ou partenaire",
+          "expectedFormat": "Nom stable du vendeur, boutique ou partenaire",
+          "rejectIf": "Vendeur inconnu, nom generique ou preuve absente",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_sac-repas-isotherme-pliable&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_sac-repas-isotherme-pliable",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "supplierSku",
+          "label": "SKU/reference fournisseur",
+          "expectedFormat": "SKU, item id ou reference fournisseur stable",
+          "rejectIf": "Reference absente ou non reutilisable pour une commande manuelle",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_sac-repas-isotherme-pliable&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_sac-repas-isotherme-pliable",
+          "status": "TO_FILL_HOLD"
+        }
+      ],
+      "imageDepositDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260613\\sac-repas-isotherme-pliable-partenaire-hold",
+      "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/sac-repas-isotherme-pliable-partenaire-hold",
+      "expectedImageFiles": [
+        "sac-repas-isotherme-pliable-partenaire-hold-main.webp",
+        "sac-repas-isotherme-pliable-partenaire-hold-detail-1.webp",
+        "sac-repas-isotherme-pliable-partenaire-hold-variant.webp"
+      ],
+      "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_sac-repas-isotherme-pliable#top-verification-integration_articles_20260612_sac-repas-isotherme-pliable",
+      "immediateAction": "Trouver une fiche produit exacte France/Europe ou garder HOLD.",
+      "executionNextAction": "Remplir le CSV sourcing, chercher fournisseur France/Europe exact et deposer les WebP exacts attendus.",
+      "safetyStatus": "HOLD_SOURCING_NO_PUBLICATION"
+    },
+    {
+      "rank": 10,
+      "productId": "integration_articles_20260612_boite-rangement-medicaments-vide",
+      "slug": "boite-rangement-medicaments-vide-partenaire-hold",
+      "name": "Boite rangement medicaments vide",
+      "categoryId": "dropshipping-maison",
+      "lane": "lane_1_packet_a_remplir",
+      "priorityScore": 109,
+      "targetSalePrice": "16.90 EUR",
+      "targetMargin": "10.80 EUR (64%)",
+      "supplierMaxCost": "6.10 EUR",
+      "packetStatus": "HOLD_READY_FOR_MANUAL_SOURCING",
+      "intakeStatus": "HOLD_IMAGES_OR_EVIDENCE_MISSING",
+      "sessionStatus": "HOLD_SESSION_READY_TO_FILL",
+      "evidenceProgress": "1/10",
+      "imageProgress": "0/3",
+      "missingFieldCount": 11,
+      "imageTaskCount": 3,
+      "blockerCount": 13,
+      "missingZones": [
+        "Fournisseur / SKU",
+        "Prix / stock / marge",
+        "Livraison / suivi",
+        "Images / droits",
+        "Validation Mouss"
+      ],
+      "nextProofs": [
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "exactProductUrl",
+          "label": "URL produit exacte",
+          "expectedFormat": "URL https de la fiche article exacte",
+          "rejectIf": "URL de recherche, marketplace interdite, produit similaire ou variante floue",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_boite-rangement-medicaments-vide&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_boite-rangement-medicaments-vide",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "partnerName",
+          "label": "Nom vendeur ou partenaire",
+          "expectedFormat": "Nom stable du vendeur, boutique ou partenaire",
+          "rejectIf": "Vendeur inconnu, nom generique ou preuve absente",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_boite-rangement-medicaments-vide&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_boite-rangement-medicaments-vide",
+          "status": "TO_FILL_HOLD"
+        },
+        {
+          "zone": "Fournisseur / SKU",
+          "key": "supplierSku",
+          "label": "SKU/reference fournisseur",
+          "expectedFormat": "SKU, item id ou reference fournisseur stable",
+          "rejectIf": "Reference absente ou non reutilisable pour une commande manuelle",
+          "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_boite-rangement-medicaments-vide&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_boite-rangement-medicaments-vide",
+          "status": "TO_FILL_HOLD"
+        }
+      ],
+      "imageDepositDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-images-exactes\\integration-articles\\20260613\\boite-rangement-medicaments-vide-partenaire-hold",
+      "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/boite-rangement-medicaments-vide-partenaire-hold",
+      "expectedImageFiles": [
+        "boite-rangement-medicaments-vide-partenaire-hold-main.webp",
+        "boite-rangement-medicaments-vide-partenaire-hold-detail-1.webp",
+        "boite-rangement-medicaments-vide-partenaire-hold-variant.webp"
+      ],
+      "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_boite-rangement-medicaments-vide#top-verification-integration_articles_20260612_boite-rangement-medicaments-vide",
+      "immediateAction": "Trouver une fiche produit exacte France/Europe ou garder HOLD.",
+      "executionNextAction": "Remplir le CSV sourcing, chercher fournisseur France/Europe exact et deposer les WebP exacts attendus.",
+      "safetyStatus": "HOLD_SOURCING_NO_PUBLICATION"
+    }
+  ],
+  "sources": {
+    "sessionPath": "business-maxi-trouvailles/tableaux-action/session-sourcing-integration-articles/20260613/SESSION_SOURCING_INTEGRATION_20260613.json",
+    "sessionAuditPath": "business-maxi-trouvailles/tableaux-action/audit-session-sourcing-integration-articles/20260613/AUDIT_SESSION_SOURCING_INTEGRATION_20260613.json",
+    "executionPath": "business-maxi-trouvailles/tableaux-action/execution-integration-articles/20260613/EXECUTION_INTEGRATION_ARTICLES_20260613.json",
+    "intakePath": "business-maxi-trouvailles/tableaux-action/audit-sourcing-integration-articles/20260613/AUDIT_SOURCING_INTEGRATION_20260613.json"
+  },
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noExternalContact": true,
+    "noImageDownload": true,
+    "manualValidationRequired": true
+  }
+}

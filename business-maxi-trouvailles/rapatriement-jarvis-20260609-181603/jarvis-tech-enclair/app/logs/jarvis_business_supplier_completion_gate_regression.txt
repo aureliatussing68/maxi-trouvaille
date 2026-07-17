@@ -1,0 +1,38 @@
+Regression garde completion fournisseur - 2026-05-25 05:42:08
+
+Global: OK
+Message garde: Garde completion fournisseur: bloque, 55 champ(s) preuve manquant(s), aucune revue import lancee.
+Lignes preuves: 5
+Champs manquants: 55
+Blocages: 3
+
+Assertions:
+- json_written: OK
+- txt_written: OK
+- completion_gate_ok: OK
+- route_supplier_completion_gate: OK
+- execute_supplier_completion_gate: OK
+- executor_payload_ok: OK
+- current_state_blocked: OK
+- known_progress_totals: OK
+- blocked_reasons: OK
+- decision_and_import_locked: OK
+- generic_confirmation_denied: OK
+- auto_import_review_denied: OK
+- manual_only: OK
+- read_only_gate: OK
+- no_pending_confirmation: OK
+- no_web_or_api_started: OK
+- no_scraping_or_subprocess: OK
+- no_business_job_or_sourcing: OK
+- site_not_modified: OK
+- no_import_order_payment_publication: OK
+- no_delete: OK
+- no_secret_values: OK
+- no_content_exposed: OK
+- no_product_payload_exposed: OK
+- txt_mentions_completion_gate: OK
+- manual_steps: OK
+- no_secret_like_value_in_reports: OK
+
+Regression garde completion: la revue import reste bloquee tant que les preuves fournisseur ne sont pas completes.

@@ -1,0 +1,22 @@
+Rapport latence business Jarvis - 2026-06-05 15:58:07
+
+Global: OK
+Maxi local: OFFLINE_SKIP_SAFE
+Mesures: 9
+Moyenne: 3 ms
+Mediane: 2 ms
+Max: 12 ms
+Objectif latence: OK (mediane <= 100 ms, max <= 1200 ms)
+
+Commandes:
+- business_readiness: OK en 2 ms (maxi.business_readiness)
+- maxi_routes: OK en 0 ms (maxi.routes_health / skipped_maxi_offline)
+- pipeline_status: OK en 1 ms (maxi.pipeline_status)
+- latest_summary: OK en 2 ms (maxi.business_latest_summary)
+- job_monitor: OK en 2 ms (maxi.business_job_monitor)
+- source_guard: OK en 2 ms (maxi.business_source_guard)
+- api_todo: OK en 3 ms (maxi.business_api_todo)
+- business_fast_status: OK en 12 ms (maxi.business_fast_status)
+- business_dashboard: OK en 0 ms (maxi.business_dashboard / skipped_maxi_offline)
+
+Securite: probes lecture seule uniquement.

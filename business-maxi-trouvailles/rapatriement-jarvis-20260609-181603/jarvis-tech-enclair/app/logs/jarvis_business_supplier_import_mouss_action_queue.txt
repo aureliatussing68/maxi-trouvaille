@@ -1,0 +1,28 @@
+File actions Mouss fournisseur/import - 2026-06-09 15:43:18
+
+Global: OK
+Statut: SUPPLIER_IMPORT_MOUSS_ACTION_QUEUE_READY
+Message court: File actions Mouss fournisseur/import prete: 4 actions manuelles, aucune execution Jarvis.
+File actions prete: oui
+Actions humaines: 4/4
+Actions executables par Jarvis: 0
+Mouss peut valider maintenant: non
+Import autorise: non
+Preuves manquantes: 55/55
+File validation prete: 0/6
+
+Actions Mouss:
+- P1 Completer les preuves fournisseur: Completer les preuves manuellement, hors automatisation Jarvis.
+- P2 Relire la file validation fournisseur: Relire la file sans demander a Jarvis d'exposer les lignes produit.
+- P3 Donner une validation fournisseur specifique: Donner une validation manuelle explicite et separee seulement apres completion.
+- P4 Repasser le sas business global: Relancer le controle de sas apres validation humaine complete.
+
+Checks:
+- Resume decisionnel disponible: OK
+- Phrase vocale compatible: OK
+- File actions Mouss complete: OK
+- Aucune action executable par Jarvis: OK
+- Aucun detail produit ou chemin expose: OK
+- Actions sensibles arretees: OK
+
+Securite: file manuelle en lecture seule, aucun detail produit ou chemin expose, aucun contenu de log lu, aucun audio lance, aucune recherche web/API, aucun import, achat, paiement, publication ou suppression.

@@ -1,0 +1,37 @@
+"use client";
+
+import { AlertTriangle, RotateCcw } from "lucide-react";
+import { useEffect } from "react";
+
+export default function AppError({
+  error,
+  reset,
+}: {
+  error: Error & { digest?: string };
+  reset: () => void;
+}) {
+  useEffect(() => {
+    console.error("Maxi Trouvaille app error", error);
+  }, [error]);
+
+  return (
+    <section className="container-page py-12">
+      <div className="rounded-lg border border-[#fecdd3] bg-paper p-8 text-center shadow-sm">
+        <AlertTriangle className="mx-auto mb-4 text-rose" size={42} aria-hidden="true" />
+        <h1 className="text-2xl font-black">Une erreur est survenue</h1>
+        <p className="mx-auto mt-3 max-w-md text-sm leading-6 text-muted">
+          La page n&apos;a pas pu etre chargee correctement. L&apos;erreur est journalisee
+          dans la console pour diagnostic.
+        </p>
+        <button
+          type="button"
+          onClick={reset}
+          className="focus-ring mt-6 inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-5 py-2.5 text-sm font-black text-white hover:bg-[#2b2b2b]"
+        >
+          <RotateCcw size={18} aria-hidden="true" />
+          Réessayer
+        </button>
+      </div>
+    </section>
+  );
+}

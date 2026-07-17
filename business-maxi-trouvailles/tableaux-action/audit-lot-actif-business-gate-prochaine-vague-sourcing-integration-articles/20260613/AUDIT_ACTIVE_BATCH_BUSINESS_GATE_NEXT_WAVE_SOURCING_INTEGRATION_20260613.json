@@ -1,0 +1,148 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-13T12:12:09.896Z",
+  "generatedAtLocal": "2026-06-13 14:12 Europe/Paris",
+  "mode": "read_only_integration_next_wave_active_batch_business_gate",
+  "status": "HOLD_NEXT_WAVE_ACTIVE_BATCH_BUSINESS_GATE_BLOCKED",
+  "activeBatchId": "lot-01",
+  "productCount": 4,
+  "proofCount": 20,
+  "readyProofCount": 0,
+  "missingProofCount": 20,
+  "imageTaskCount": 12,
+  "readyImageCount": 0,
+  "missingImageCount": 12,
+  "invalidImageCount": 0,
+  "businessBlockerCount": 32,
+  "failureCount": 0,
+  "sensitiveFindingCount": 0,
+  "issues": [],
+  "productSummaries": [
+    {
+      "rank": 1,
+      "batchId": "lot-01",
+      "productId": "integration_articles_20260612_etagere-douche-angle-adhesive",
+      "productName": "Etagere douche angle adhesive",
+      "categoryId": "dropshipping-maison",
+      "proofCount": 5,
+      "readyProofCount": 0,
+      "missingProofCount": 5,
+      "imageTaskCount": 3,
+      "readyImageCount": 0,
+      "missingImageCount": 3,
+      "invalidImageCount": 0,
+      "missingProofLabels": [
+        "Reference produit exacte",
+        "Nom vendeur ou partenaire",
+        "SKU/reference fournisseur",
+        "Variante exacte vendue",
+        "Prix fournisseur reel en centimes"
+      ],
+      "missingImageLabels": [
+        "main: etagere-douche-angle-adhesive-partenaire-hold-main.webp",
+        "detail-1: etagere-douche-angle-adhesive-partenaire-hold-detail-1.webp",
+        "variant: etagere-douche-angle-adhesive-partenaire-hold-variant.webp"
+      ],
+      "invalidImageLabels": []
+    },
+    {
+      "rank": 2,
+      "batchId": "lot-01",
+      "productId": "integration_articles_20260612_boite-a-the-compartiments-bambou",
+      "productName": "Boite a the compartiments bambou",
+      "categoryId": "dropshipping-cuisine",
+      "proofCount": 5,
+      "readyProofCount": 0,
+      "missingProofCount": 5,
+      "imageTaskCount": 3,
+      "readyImageCount": 0,
+      "missingImageCount": 3,
+      "invalidImageCount": 0,
+      "missingProofLabels": [
+        "Reference produit exacte",
+        "Nom vendeur ou partenaire",
+        "SKU/reference fournisseur",
+        "Variante exacte vendue",
+        "Prix fournisseur reel en centimes"
+      ],
+      "missingImageLabels": [
+        "main: boite-a-the-compartiments-bambou-partenaire-hold-main.webp",
+        "detail-1: boite-a-the-compartiments-bambou-partenaire-hold-detail-1.webp",
+        "variant: boite-a-the-compartiments-bambou-partenaire-hold-variant.webp"
+      ],
+      "invalidImageLabels": []
+    },
+    {
+      "rank": 3,
+      "batchId": "lot-01",
+      "productId": "integration_articles_20260612_organisateur-coffre-voiture-pliable",
+      "productName": "Organisateur coffre voiture pliable",
+      "categoryId": "dropshipping-auto-moto",
+      "proofCount": 5,
+      "readyProofCount": 0,
+      "missingProofCount": 5,
+      "imageTaskCount": 3,
+      "readyImageCount": 0,
+      "missingImageCount": 3,
+      "invalidImageCount": 0,
+      "missingProofLabels": [
+        "Reference produit exacte",
+        "Nom vendeur ou partenaire",
+        "SKU/reference fournisseur",
+        "Variante exacte vendue",
+        "Prix fournisseur reel en centimes"
+      ],
+      "missingImageLabels": [
+        "main: organisateur-coffre-voiture-pliable-partenaire-hold-main.webp",
+        "detail-1: organisateur-coffre-voiture-pliable-partenaire-hold-detail-1.webp",
+        "variant: organisateur-coffre-voiture-pliable-partenaire-hold-variant.webp"
+      ],
+      "invalidImageLabels": []
+    },
+    {
+      "rank": 4,
+      "batchId": "lot-01",
+      "productId": "integration_articles_20260612_organisateur-tiroir-cuisine-extensible",
+      "productName": "Organisateur tiroir cuisine extensible",
+      "categoryId": "dropshipping-cuisine",
+      "proofCount": 5,
+      "readyProofCount": 0,
+      "missingProofCount": 5,
+      "imageTaskCount": 3,
+      "readyImageCount": 0,
+      "missingImageCount": 3,
+      "invalidImageCount": 0,
+      "missingProofLabels": [
+        "Reference produit exacte",
+        "Nom vendeur ou partenaire",
+        "SKU/reference fournisseur",
+        "Variante exacte vendue",
+        "Prix fournisseur reel en centimes"
+      ],
+      "missingImageLabels": [
+        "main: organisateur-tiroir-cuisine-extensible-partenaire-hold-main.webp",
+        "detail-1: organisateur-tiroir-cuisine-extensible-partenaire-hold-detail-1.webp",
+        "variant: organisateur-tiroir-cuisine-extensible-partenaire-hold-variant.webp"
+      ],
+      "invalidImageLabels": []
+    }
+  ],
+  "sources": {
+    "activeBatchPath": "business-maxi-trouvailles/tableaux-action/lot-actif-prochaine-vague-sourcing-integration-articles/20260613/ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "activeBatchAuditPath": "business-maxi-trouvailles/tableaux-action/audit-lot-actif-prochaine-vague-sourcing-integration-articles/20260613/AUDIT_ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "proofCsvPath": "business-maxi-trouvailles/tableaux-action/lot-actif-prochaine-vague-sourcing-integration-articles/20260613/maxi-lot-actif-prochaine-vague-preuves-20260613.csv",
+    "imageCsvPath": "business-maxi-trouvailles/tableaux-action/lot-actif-prochaine-vague-sourcing-integration-articles/20260613/maxi-lot-actif-prochaine-vague-images-20260613.csv"
+  },
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noSupplierValueExport": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noImageDownload": true,
+    "noImageFileCreated": true,
+    "noPublicImageWrite": true,
+    "manualValidationRequired": true
+  }
+}

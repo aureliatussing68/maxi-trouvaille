@@ -1,0 +1,35 @@
+{
+  "rank": 14,
+  "top3Rank": 3,
+  "productId": "integration_articles_20260612_trousse-toilette-suspendue-voyage",
+  "productSlug": "trousse-toilette-suspendue-voyage-partenaire-hold",
+  "productName": "Trousse toilette suspendue voyage",
+  "categoryId": "dropshipping-accessoires",
+  "priorityScore": 111,
+  "supplierMaxCost": "6.20 EUR",
+  "targetSalePrice": "17.90 EUR",
+  "targetMargin": "11.70 EUR (65%)",
+  "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260612/trousse-toilette-suspendue-voyage-partenaire-hold",
+  "expectedImageFiles": [
+    "trousse-toilette-suspendue-voyage-partenaire-hold-main.webp",
+    "trousse-toilette-suspendue-voyage-partenaire-hold-detail-1.webp",
+    "trousse-toilette-suspendue-voyage-partenaire-hold-variant.webp"
+  ],
+  "proofZone": "Fournisseur / SKU",
+  "fieldOrder": 4,
+  "fieldKey": "exactVariant",
+  "fieldLabel": "Variante exacte vendue",
+  "expectedFormat": "Couleur, taille, dimensions, lot et accessoires inclus",
+  "rejectIf": "Variante non identique aux images ou a la description Maxi",
+  "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_trousse-toilette-suspendue-voyage&zone=Fournisseur+%2F+SKU#top-verification-integration_articles_20260612_trousse-toilette-suspendue-voyage",
+  "status": "TO_FILL_HOLD",
+  "manualInput": {
+    "value": "",
+    "evidenceNote": "",
+    "captureOrFilePath": "",
+    "checkedSameArticle": "",
+    "moussValidation": "",
+    "finalDecision": "HOLD_TO_FILL"
+  },
+  "nextAction": "Remplir cette preuve critique pour le meme article exact, garder HOLD, puis relancer les audits."
+}

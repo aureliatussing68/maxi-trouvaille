@@ -1,0 +1,4 @@
+batch_id;batch_number;product_count;proof_task_count;image_task_count;status;first_action
+lot-01;1;4;20;12;TO_PROCESS_HOLD;"remplir les preuves internes, puis deposer les WebP exacts locaux"
+lot-02;2;4;20;12;TO_PROCESS_HOLD;"remplir les preuves internes, puis deposer les WebP exacts locaux"
+lot-03;3;4;20;12;TO_PROCESS_HOLD;"remplir les preuves internes, puis deposer les WebP exacts locaux"

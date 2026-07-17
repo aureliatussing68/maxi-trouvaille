@@ -1,0 +1,94 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { ArrowRight, Headphones, ShieldCheck, Truck } from "lucide-react";
+import { PageHeader } from "@/components/PageHeader";
+
+const sections = [
+  {
+    title: "Commande et paiement",
+    text: "Le client commande et paie sur Maxi Trouvaille via un prestataire de paiement sécurisé. Les coordonnées bancaires ne sont pas stockées par Maxi Trouvaille.",
+  },
+  {
+    title: "Expédition par partenaire logistique",
+    text: "Certains produits neufs peuvent etre expedies directement par un partenaire logistique. Le client garde Maxi Trouvaille comme interlocuteur principal.",
+  },
+  {
+    title: "Délais de livraison",
+    text: "Les delais affiches sont des estimations. Ils peuvent varier selon le partenaire logistique, le transporteur, la periode et les controles avant expedition.",
+  },
+  {
+    title: "Suivi colis",
+    text: "Le numero de suivi est ajoute des que le partenaire confirme l'expedition. Maxi Trouvaille peut ensuite transmettre les informations au client.",
+  },
+  {
+    title: "Validation humaine",
+    text: "Chaque commande partenaire est preparee avec une verification humaine pour garder une experience client claire et maitrisee.",
+  },
+];
+
+export const metadata: Metadata = {
+  title: "Conditions produits partenaires",
+  description:
+    "Conditions de vente et de livraison pour les produits partenaires Maxi Trouvaille.",
+};
+
+export default function PartnerTermsPage() {
+  return (
+    <>
+      <PageHeader
+        eyebrow="Conditions"
+        title="Conditions produits partenaires"
+        description="Cadre client pour les produits expedies par partenaire logistique."
+      />
+      <section className="container-page grid gap-4 py-10">
+        <div className="grid gap-4 rounded-lg border border-line bg-[#faf7f0] p-5 shadow-sm md:grid-cols-[1fr_auto] md:items-center">
+          <div>
+            <p className="flex items-center gap-2 text-sm font-black uppercase text-teal">
+              <ShieldCheck size={16} aria-hidden="true" />
+              Cadre client
+            </p>
+            <h2 className="mt-2 text-2xl font-black">
+              Maxi Trouvaille reste l&apos;interlocuteur principal.
+            </h2>
+            <p className="mt-2 max-w-3xl text-sm leading-6 text-muted">
+              Le client paie sur Maxi Trouvaille, suit son colis depuis Maxi
+              Trouvaille et contacte Maxi Trouvaille en cas de question.
+            </p>
+          </div>
+          <div className="flex flex-col gap-3 sm:flex-row md:justify-end">
+            <Link
+              href="/suivi-colis"
+              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-[#2b2b2b]"
+            >
+              Suivi colis
+              <Truck size={17} aria-hidden="true" />
+            </Link>
+            <Link
+              href="/contact"
+              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+            >
+              Service client
+              <Headphones size={17} aria-hidden="true" />
+            </Link>
+          </div>
+        </div>
+        {sections.map((section) => (
+          <article
+            key={section.title}
+            className="rounded-lg border border-line bg-paper p-5 shadow-sm"
+          >
+            <h2 className="text-lg font-black">{section.title}</h2>
+            <p className="mt-3 text-sm leading-6 text-muted">{section.text}</p>
+          </article>
+        ))}
+        <Link
+          href="/produits-partenaires"
+          className="focus-ring inline-flex min-h-11 w-fit items-center justify-center gap-2 rounded-md bg-foreground px-5 text-sm font-black text-white hover:bg-[#2b2b2b]"
+        >
+          Voir les produits partenaires
+          <ArrowRight size={17} aria-hidden="true" />
+        </Link>
+      </section>
+    </>
+  );
+}

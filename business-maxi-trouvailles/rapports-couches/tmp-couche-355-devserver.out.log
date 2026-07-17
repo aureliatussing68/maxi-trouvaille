@@ -1,0 +1,12 @@
+
+> maxi-trouvaille@0.1.0 dev
+> next dev --webpack --port 3279
+
+▲ Next.js 16.2.6 (webpack)
+- Local:         http://localhost:3279
+- Network:       http://192.168.1.121:3279
+- Environments: .env.local
+✓ Ready in 438ms
+
+ GET /sitemap.xml 200 in 718ms (next.js: 684ms, application-code: 34ms)
+[?25h

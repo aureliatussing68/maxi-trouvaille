@@ -1,0 +1,19 @@
+Doublons produits a valider - 2026-06-09 15:43:21
+
+Dossiers lus: 6
+Produits uniques: 1
+Groupes doublons: 1
+Anciens dossiers a revoir: 5
+Message court: Doublons validation: 1 groupe(s), 5 ancien(s), plan manuel seulement.
+
+Doublons:
+- Organisateur de cables de voyage compact: 6 dossiers
+  Garder: organisateur-de-cables-de-voyage-compact_20260523_130345
+  Ancien a archiver manuellement: organisateur-de-cables-de-voyage-compact_20260523_124353
+  Ancien a archiver manuellement: organisateur-de-cables-de-voyage-compact_20260523_122413
+  Ancien a archiver manuellement: organisateur-de-cables-de-voyage-compact_20260523_121528
+  Ancien a archiver manuellement: organisateur-de-cables-de-voyage-compact_20260523_084346
+  Ancien a archiver manuellement: organisateur-de-cables-de-voyage-compact_20260523_084322
+
+Message: Doublons detectes: plan d'archivage manuel pret.
+Securite: plan seulement, aucun fichier supprime/deplace, aucune publication.

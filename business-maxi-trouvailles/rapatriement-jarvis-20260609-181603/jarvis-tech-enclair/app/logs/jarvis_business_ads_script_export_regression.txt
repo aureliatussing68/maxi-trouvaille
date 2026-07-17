@@ -1,0 +1,30 @@
+Regression export scripts pubs - 2026-05-24 10:10:30
+Global: OK
+Message court: Pack scripts pubs pret: 3 brouillon(s) locaux pour Organisateur de cables de voyage compact, aucune video ni publication.
+Message executeur: Pack scripts pubs pret: 3 brouillon(s) locaux pour Organisateur de cables de voyage compact, aucune video ni publication.
+Dossier: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\exports-publicites\scripts\organisateur-de-cables-de-voyage-compact_20260524_101030
+Pubs: 3
+
+- json_written: OK
+- txt_written: OK
+- export_dir_present: OK
+- ads_present: OK
+- all_files_written: OK
+- readme_written: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- readme_mentions_short_message: OK
+- route_business_ads_script_export: OK
+- execute_business_ads_script_export: OK
+- executor_uses_short_message: OK
+- local_files_only: OK
+- site_not_modified: OK
+- video_export_not_started: OK
+- publication_not_started: OK
+- payment_not_started: OK
+- order_not_started: OK
+- manual_validation_required: OK
+- no_values_exposed: OK
+- no_secret_like_value_in_reports: OK
+
+Securite: fichiers locaux seulement, aucun secret, aucune video, aucun paiement, aucune publication.

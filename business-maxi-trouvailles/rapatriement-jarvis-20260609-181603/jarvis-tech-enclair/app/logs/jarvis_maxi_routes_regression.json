@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-05-24 01:05:35",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "admin_routes_detected": true,
+    "admin_probe_ok_or_offline_safe": true,
+    "recommended_admin_url_present": true,
+    "offline_probe_fast": true
+  },
+  "recommended_admin_url": "http://127.0.0.1:3010/admin/dropshipping",
+  "note": "Regression lecture seule sur routes Maxi."
+}

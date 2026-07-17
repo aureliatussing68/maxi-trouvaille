@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-12T12:26:06.038Z",
+  "generatedAtLocal": "2026-06-12 14:26 Europe/Paris",
+  "mode": "read_only_integration_next_wave_pending_batches_runway_audit",
+  "status": "OK_NEXT_WAVE_PENDING_BATCHES_RUNWAY_GUARDED",
+  "pendingBatchCount": 2,
+  "pendingProductCount": 8,
+  "proofTaskCount": 40,
+  "imageTaskCount": 24,
+  "totalTaskCount": 64,
+  "activeBatchBlockedHold": true,
+  "scannedFileCount": 4,
+  "sensitiveFindingCount": 0,
+  "failureCount": 0,
+  "issues": [],
+  "sources": {
+    "runwayPath": "business-maxi-trouvailles/tableaux-action/runway-lots-suivants-prochaine-vague-sourcing-integration-articles/20260612/PENDING_BATCHES_RUNWAY_NEXT_WAVE_SOURCING_INTEGRATION_20260612.json"
+  },
+  "safety": {
+    "readOnlyAudit": true,
+    "noActiveBatchReplacement": true,
+    "noCatalogWrite": true,
+    "noPublicImageWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true
+  }
+}

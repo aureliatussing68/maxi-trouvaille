@@ -1,0 +1,23 @@
+Phrase vocale fournisseur/import - 2026-06-09 15:43:18
+
+Global: OK
+Statut: SUPPLIER_IMPORT_VOICE_BRIEF_READY
+Message court: Phrase vocale fournisseur/import prete: courte, sans details produit, validation et import bloques.
+Phrase prete: oui
+Caracteres: 158/240
+Phrases: 2
+Mouss peut lire maintenant: oui
+Mouss peut valider maintenant: non
+Import autorise: non
+
+A dire:
+Mouss, fournisseur import est bloque: 4 points a traiter, 55 sur 55 preuves manquent, file validation 0 sur 6. Je ne valide rien et je ne lance aucune action.
+
+Checks:
+- Chemin lecture Mouss pret: OK
+- Phrase vocale courte: OK
+- Compteurs securises uniquement: OK
+- Validation et import bloques: OK
+- Aucune sortie audio lancee: OK
+
+Securite: phrase courte en lecture seule, aucun detail produit ou chemin expose, aucun audio lance, aucune recherche web/API, aucun import, achat, paiement, publication ou suppression.

@@ -1,0 +1,29 @@
+Regression pipeline business Maxi - 2026-06-03 18:55:51
+Global: OK
+Message court: Pipeline business OK: artefacts prets, lecture seule, aucune action sensible.
+Message executeur: Pipeline business OK: artefacts prets, lecture seule, aucune action sensible.
+
+- json_written: OK
+- txt_written: OK
+- npm_status_ok: OK
+- fresh_run_not_cached: OK
+- watched_state_present: OK
+- second_run_cached: OK
+- cached_fast: OK
+- stable_cache_reused: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- route_business_pipeline_status: OK
+- execute_business_pipeline_status: OK
+- executor_uses_short_message: OK
+- dirs_present: OK
+- artifacts_present: OK
+- read_only: OK
+- no_import: OK
+- no_publish: OK
+- no_payment: OK
+- no_order: OK
+- manual_validation_required: OK
+- no_secret_like_value_in_text: OK
+
+Securite: lecture seule, aucun secret, aucun import/commande/paiement/publication.

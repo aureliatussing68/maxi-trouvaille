@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-13T12:12:09.657Z",
+  "generatedAtLocal": "2026-06-13 14:12 Europe/Paris",
+  "mode": "read_only_audit_integration_next_wave_active_batch",
+  "status": "OK_NEXT_WAVE_ACTIVE_BATCH_GUARDED",
+  "activeBatchId": "lot-01",
+  "productCount": 4,
+  "proofTaskCount": 20,
+  "imageTaskCount": 12,
+  "actionCount": 32,
+  "failureCount": 0,
+  "sensitiveFindingCount": 0,
+  "scannedFileCount": 6,
+  "issues": [],
+  "sources": {
+    "batchPath": "business-maxi-trouvailles/tableaux-action/lot-actif-prochaine-vague-sourcing-integration-articles/20260613/ACTIVE_BATCH_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "sessionPath": "business-maxi-trouvailles/tableaux-action/session-prochaine-vague-sourcing-integration-articles/20260613/SESSION_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "sessionAuditPath": "business-maxi-trouvailles/tableaux-action/audit-session-prochaine-vague-sourcing-integration-articles/20260613/AUDIT_SESSION_NEXT_WAVE_SOURCING_INTEGRATION_20260613.json",
+    "productCsvPath": "business-maxi-trouvailles/tableaux-action/lot-actif-prochaine-vague-sourcing-integration-articles/20260613/maxi-lot-actif-prochaine-vague-produits-20260613.csv",
+    "proofCsvPath": "business-maxi-trouvailles/tableaux-action/lot-actif-prochaine-vague-sourcing-integration-articles/20260613/maxi-lot-actif-prochaine-vague-preuves-20260613.csv",
+    "imageCsvPath": "business-maxi-trouvailles/tableaux-action/lot-actif-prochaine-vague-sourcing-integration-articles/20260613/maxi-lot-actif-prochaine-vague-images-20260613.csv",
+    "actionCsvPath": "business-maxi-trouvailles/tableaux-action/lot-actif-prochaine-vague-sourcing-integration-articles/20260613/maxi-lot-actif-prochaine-vague-actions-20260613.csv"
+  },
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noExternalContact": true,
+    "noImageDownload": true,
+    "noPublicImageWrite": true
+  }
+}

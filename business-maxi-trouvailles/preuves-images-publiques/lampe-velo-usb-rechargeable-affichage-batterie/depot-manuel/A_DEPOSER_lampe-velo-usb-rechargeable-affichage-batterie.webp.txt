@@ -1,0 +1,8 @@
+Image attendue pour: Lampe vélo USB rechargeable affichage batterie
+Nom fichier WebP attendu: lampe-velo-usb-rechargeable-affichage-batterie.webp
+Chemin public apres validation humaine: /uploads/partner-products/lampe-velo-usb-rechargeable-affichage-batterie.webp
+
+Ne pas remplacer ce marqueur par un faux visuel.
+Deposer ici la photo WebP exacte uniquement apres verification manuelle.
+Aucune copie vers public/uploads/partner-products sans validation Mouss.
+

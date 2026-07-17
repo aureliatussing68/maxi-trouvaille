@@ -1,0 +1,141 @@
+import Link from "next/link";
+import {
+  ArrowRight,
+  CreditCard,
+  Headphones,
+  PackageCheck,
+  ShieldCheck,
+  Store,
+  Truck,
+} from "lucide-react";
+import type { StorefrontControlMetrics } from "@/lib/storefront-control-metrics";
+
+type ServiceReadinessPanelProps = {
+  metrics: StorefrontControlMetrics;
+  className?: string;
+};
+
+function pluralLabel(count: number, singular: string, plural: string) {
+  return `${count} ${count > 1 ? plural : singular}`;
+}
+
+export function ServiceReadinessPanel({
+  metrics,
+  className,
+}: ServiceReadinessPanelProps) {
+  const visibleProductValue =
+    metrics.publicProductCount > 0
+      ? pluralLabel(metrics.publicProductCount, "article validé", "articles validés")
+      : "0 article sans preuve";
+
+  const cards = [
+    {
+      icon: ShieldCheck,
+      value: visibleProductValue,
+      title: "Vente protégée",
+      text: "Le paiement reste fermé pour les fiches qui n'ont pas encore toutes leurs preuves.",
+    },
+    {
+      icon: PackageCheck,
+      value: pluralLabel(
+        metrics.partnerCandidateCount,
+        "fiche en contrôle",
+        "fiches en contrôle",
+      ),
+      title: "Catalogue partenaires",
+      text: "Photo, prix, stock, délai et droits image sont contrôlés avant affichage produit.",
+    },
+    {
+      icon: Store,
+      value: pluralLabel(metrics.partnerCategoryCount, "rayon", "rayons"),
+      title: "Rayons consultables",
+      text: "Les univers restent lisibles sur téléphone sans pousser une fiche non validée.",
+    },
+    {
+      icon: Headphones,
+      value: "Suivi centralisé",
+      title: "Service client",
+      text: "Paiement, livraison, suivi et retour restent gérés côté Maxi Trouvaille.",
+    },
+  ];
+
+  const links = [
+    {
+      href: "/boutique",
+      label: "Boutique",
+      icon: Store,
+    },
+    {
+      href: "/paiement",
+      label: "Paiement",
+      icon: CreditCard,
+    },
+    {
+      href: "/suivi-colis",
+      label: "Suivi colis",
+      icon: Truck,
+    },
+  ];
+
+  return (
+    <section className={["grid gap-5", className].filter(Boolean).join(" ")}>
+      <div className="grid gap-5 rounded-lg border border-line bg-[#faf7f0] p-5 shadow-sm lg:grid-cols-[1.08fr_0.92fr] lg:items-center">
+        <div>
+          <p className="inline-flex items-center gap-2 rounded-md bg-[#eef8f6] px-3 py-2 text-sm font-black uppercase text-teal">
+            <ShieldCheck size={16} aria-hidden="true" />
+            Support sous contrôle
+          </p>
+          <h2 className="mt-4 text-2xl font-black leading-tight sm:text-3xl">
+            Le client voit un parcours propre, même pendant la validation.
+          </h2>
+          <p className="mt-3 max-w-2xl text-sm font-semibold leading-6 text-muted">
+            Maxi Trouvaille garde le paiement, le suivi colis, la livraison et
+            le service client au même endroit. Les articles deviennent vendables
+            seulement quand les preuves essentielles sont prêtes.
+          </p>
+          <div className="mt-4 grid gap-2 sm:grid-cols-3">
+            {links.map((link) => {
+              const Icon = link.icon;
+
+              return (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-black hover:bg-[#f1eadf]"
+                >
+                  <Icon size={16} aria-hidden="true" />
+                  {link.label}
+                  <ArrowRight size={15} aria-hidden="true" />
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+
+        <div className="grid gap-3 sm:grid-cols-2">
+          {cards.map((card) => {
+            const Icon = card.icon;
+
+            return (
+              <article
+                key={card.title}
+                className="rounded-md border border-line bg-white p-4"
+              >
+                <div className="flex items-start justify-between gap-3">
+                  <div className="min-w-0">
+                    <p className="text-sm font-black text-teal">{card.value}</p>
+                    <h3 className="mt-1 text-base font-black">{card.title}</h3>
+                  </div>
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
+                    <Icon size={19} aria-hidden="true" />
+                  </span>
+                </div>
+                <p className="mt-3 text-sm leading-6 text-muted">{card.text}</p>
+              </article>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+}

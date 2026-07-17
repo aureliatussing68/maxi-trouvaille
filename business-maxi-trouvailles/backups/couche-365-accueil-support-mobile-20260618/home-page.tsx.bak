@@ -1,0 +1,411 @@
+import Link from "next/link";
+import {
+  ArrowRight,
+  Boxes,
+  CreditCard,
+  Headphones,
+  PackageCheck,
+  ShieldCheck,
+  Store,
+  Truck,
+} from "lucide-react";
+import { CategoryGrid } from "@/components/CategoryGrid";
+import { HeroCarousel } from "@/components/HeroCarousel";
+import { MobilePresentationPathPanel } from "@/components/MobilePresentationPathPanel";
+import { PartnerArticlePreviewPanel } from "@/components/PartnerArticlePreviewPanel";
+import { PartnerLaunchBoard } from "@/components/PartnerLaunchBoard";
+import { ProductCard } from "@/components/ProductCard";
+import { StorefrontReadinessPanel } from "@/components/StorefrontReadinessPanel";
+import {
+  categories,
+  isDropshippingCategory,
+  isDropshippingProduct,
+  isProductPurchasable,
+} from "@/lib/catalog";
+import { getAllProducts, getPublicProducts } from "@/lib/catalog-server";
+import { getApprovedReviewSummaryMap } from "@/lib/product-reviews";
+import { getProductStatsMap } from "@/lib/product-stats";
+
+const quickSignals = [
+  {
+    icon: Boxes,
+    title: "Produits partenaires",
+    text: "Produits partenaires préparés avant publication.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Validation humaine",
+    text: "Chaque publication passe par une validation humaine.",
+  },
+  {
+    icon: Truck,
+    title: "Suivi colis",
+    text: "Livraison estimée et service client Maxi Trouvaille.",
+  },
+];
+
+const customerSignals = [
+  {
+    icon: PackageCheck,
+    title: "Rayons lisibles",
+    text: "Les univers partenaires sont clairs et faciles à montrer sur téléphone.",
+    href: "/categories",
+    cta: "Explorer les rayons",
+  },
+  {
+    icon: CreditCard,
+    title: "Paiement Maxi Trouvaille",
+    text: "Le paiement reste sur Maxi Trouvaille et s'ouvre uniquement pour les produits validés.",
+    href: "/paiement",
+    cta: "Voir le paiement",
+  },
+  {
+    icon: Truck,
+    title: "Suivi colis",
+    text: "Le client retrouve son suivi depuis Maxi Trouvaille, avec un interlocuteur unique.",
+    href: "/suivi-colis",
+    cta: "Suivre un colis",
+  },
+  {
+    icon: Headphones,
+    title: "Service client",
+    text: "Les questions livraison, paiement et commande passent par Maxi Trouvaille.",
+    href: "/contact",
+    cta: "Contacter",
+  },
+];
+
+export default async function Home() {
+  const [publicProducts, catalogProducts] = await Promise.all([
+    getPublicProducts(),
+    getAllProducts(),
+  ]);
+  const products = publicProducts
+    .filter(isProductPurchasable)
+    .slice(0, 6);
+  const partnerCandidateCount = catalogProducts.filter(isDropshippingProduct).length;
+  const partnerCategoryCount = categories.filter(isDropshippingCategory).length;
+  const productIds = products.map((product) => product.id);
+  const [statsMap, reviewSummaryMap] = await Promise.all([
+    getProductStatsMap(productIds),
+    getApprovedReviewSummaryMap(productIds),
+  ]);
+
+  return (
+    <>
+      <section className="relative min-h-[78svh] overflow-hidden bg-[#171717] text-white sm:min-h-[calc(86svh-4rem)]">
+        <HeroCarousel />
+        <div className="container-page relative flex min-h-[78svh] items-center py-12 sm:min-h-[calc(86svh-4rem)] sm:py-14">
+          <div className="max-w-2xl">
+            <h1 className="text-balance text-5xl font-black leading-[0.98] sm:text-7xl">
+              Maxi Trouvaille
+            </h1>
+            <p className="mt-5 max-w-xl text-xl font-black leading-8 text-white/92 sm:text-2xl">
+              Boutique en lancement maîtrisé : rayons partenaires, paiement
+              Maxi Trouvaille, suivi colis et fiches publiées seulement après
+              validation complète.
+            </p>
+            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+              <Link
+                href="/boutique"
+                className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-brand px-5 py-3 text-sm font-black text-foreground hover:bg-[#ffd166]"
+              >
+                Voir la boutique
+                <ArrowRight size={18} aria-hidden="true" />
+              </Link>
+              <Link
+                href="/produits-partenaires"
+                className="focus-ring inline-flex min-h-12 items-center justify-center rounded-md border border-white/45 px-5 py-3 text-sm font-black text-white hover:bg-white/10"
+              >
+                Rayons partenaires
+              </Link>
+              <Link
+                href="/suivi-colis"
+                className="focus-ring inline-flex min-h-12 items-center justify-center rounded-md border border-white/45 px-5 py-3 text-sm font-black text-white hover:bg-white/10"
+              >
+                Suivi colis
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="bg-paper">
+        <div className="container-page grid gap-3 py-5 md:grid-cols-3">
+          {quickSignals.map((item) => {
+            const Icon = item.icon;
+
+            return (
+              <div
+                key={item.title}
+                className="flex gap-3 rounded-lg border border-line p-4"
+              >
+                <span className="mt-0.5 flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
+                  <Icon size={20} aria-hidden="true" />
+                </span>
+                <div>
+                  <h2 className="text-sm font-black">{item.title}</h2>
+                  <p className="mt-1 text-sm leading-5 text-muted">
+                    {item.text}
+                  </p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+
+      <section className="container-page py-8">
+        <HomePartnerStatusPanel
+          categoryCount={partnerCategoryCount}
+          candidateCount={partnerCandidateCount}
+          publicProductCount={publicProducts.length}
+        />
+        <MobilePresentationPathPanel
+          className="mt-8"
+          categoryCount={partnerCategoryCount}
+          candidateCount={partnerCandidateCount}
+          publicProductCount={publicProducts.length}
+        />
+      </section>
+
+      <section className="container-page py-10">
+        <StorefrontReadinessPanel
+          publicProductCount={publicProducts.length}
+          partnerCandidateCount={partnerCandidateCount}
+          categoryCount={partnerCategoryCount}
+        />
+        <PartnerLaunchBoard
+          className="mt-10"
+          candidateCount={partnerCandidateCount}
+          publicProductCount={publicProducts.length}
+        />
+        <PartnerArticlePreviewPanel className="mt-10" />
+      </section>
+
+      <section className="border-y border-line bg-[#faf7f0]">
+        <div className="container-page py-10">
+          <div className="mb-6 max-w-3xl">
+            <p className="text-sm font-black uppercase text-teal">
+              Expérience client
+            </p>
+            <h2 className="mt-2 text-2xl font-black">
+              Ce que voit le client pendant le lancement
+            </h2>
+            <p className="mt-2 text-sm leading-6 text-muted">
+              La boutique reste simple à expliquer sur téléphone : des rayons,
+              un paiement Maxi Trouvaille, un suivi colis et un service client
+              identifié.
+            </p>
+          </div>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+            {customerSignals.map((item) => {
+              const Icon = item.icon;
+
+              return (
+                <Link
+                  key={item.title}
+                  href={item.href}
+                  className="focus-ring group flex min-h-52 flex-col justify-between rounded-lg border border-line bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:border-[#d5c8b7] hover:shadow-md"
+                >
+                  <span>
+                    <span className="flex h-10 w-10 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
+                      <Icon size={19} aria-hidden="true" />
+                    </span>
+                    <span className="mt-4 block text-base font-black group-hover:text-teal">
+                      {item.title}
+                    </span>
+                    <span className="mt-2 block text-sm leading-6 text-muted">
+                      {item.text}
+                    </span>
+                  </span>
+                  <span className="mt-4 inline-flex items-center gap-2 text-sm font-black text-teal">
+                    {item.cta}
+                    <ArrowRight size={15} aria-hidden="true" />
+                  </span>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      <section className="container-page py-10">
+        <div className="mb-6">
+          <p className="text-sm font-black uppercase text-teal">Rayons principaux</p>
+          <h2 className="mt-2 text-2xl font-black">Rayons partenaires prioritaires</h2>
+        </div>
+        <CategoryGrid compact featuredOnly />
+      </section>
+
+      {products.length > 0 ? (
+        <section className="container-page border-t border-line py-10">
+          <div className="mb-7 flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
+            <div>
+              <p className="text-sm font-black uppercase text-teal">
+                Sélection du moment
+              </p>
+              <h2 className="mt-2 text-2xl font-black">
+                Produits à découvrir maintenant
+              </h2>
+            </div>
+            <Link
+              href="/boutique"
+              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line px-4 text-sm font-black hover:bg-[#f1eadf]"
+            >
+              Voir toute la boutique
+              <ArrowRight size={17} aria-hidden="true" />
+            </Link>
+          </div>
+          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+            {products.map((product) => (
+              <ProductCard
+                key={product.id}
+                product={product}
+                stats={statsMap.get(product.id)}
+                reviewSummary={reviewSummaryMap.get(product.id)}
+              />
+            ))}
+          </div>
+        </section>
+      ) : null}
+
+      <section className="border-t border-line bg-paper">
+        <div className="container-page flex flex-col justify-between gap-4 py-8 md:flex-row md:items-center">
+          <div>
+            <p className="text-sm font-black uppercase text-teal">
+              Sélection du moment
+            </p>
+            <h2 className="mt-2 text-2xl font-black">
+              Produits partenaires en validation
+            </h2>
+            <p className="mt-2 max-w-2xl text-sm leading-6 text-muted">
+              Les fiches partenaires sont publiées uniquement après validation
+              des images, du prix, du stock, du delai et du partenaire
+              logistique. Le site garde une sélection maîtrisée pour protéger
+              l&apos;expérience client.
+            </p>
+          </div>
+          <Link
+            href="/produits-partenaires"
+            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-[#2b2b2b]"
+          >
+            Voir la sélection
+            <ArrowRight size={17} aria-hidden="true" />
+          </Link>
+        </div>
+      </section>
+    </>
+  );
+}
+
+function HomePartnerStatusPanel({
+  categoryCount,
+  candidateCount,
+  publicProductCount,
+}: {
+  categoryCount: number;
+  candidateCount: number;
+  publicProductCount: number;
+}) {
+  const visibleProductText =
+    publicProductCount > 0
+      ? `${publicProductCount} article${publicProductCount > 1 ? "s" : ""} validé${
+          publicProductCount > 1 ? "s" : ""
+        }`
+      : "Validation active";
+  const stats = [
+    {
+      icon: Store,
+      label: "Rayons partenaires",
+      value: `${categoryCount} rayons`,
+    },
+    {
+      icon: PackageCheck,
+      label: "Fiches préparées",
+      value: `${candidateCount} contrôles`,
+    },
+    {
+      icon: ShieldCheck,
+      label: "Vente protégée",
+      value: visibleProductText,
+    },
+  ];
+  const links = [
+    {
+      icon: Store,
+      href: "/produits-partenaires",
+      label: "Vitrine partenaires",
+    },
+    {
+      icon: CreditCard,
+      href: "/paiement",
+      label: "Paiement",
+    },
+    {
+      icon: Truck,
+      href: "/suivi-colis",
+      label: "Suivi colis",
+    },
+  ];
+
+  return (
+    <div className="grid gap-5 border-y border-line bg-paper py-5 lg:grid-cols-[1.15fr_0.85fr] lg:items-center">
+      <div>
+        <p className="inline-flex items-center gap-2 rounded-md bg-[#eef8f6] px-3 py-2 text-sm font-black uppercase text-teal">
+          <ShieldCheck size={16} aria-hidden="true" />
+          Vitrine partenaires contrôlée
+        </p>
+        <h2 className="mt-4 text-2xl font-black leading-tight sm:text-3xl">
+          Le site est présentable sans afficher de fiche non validée.
+        </h2>
+        <p className="mt-3 max-w-2xl text-sm font-semibold leading-6 text-muted">
+          Les visiteurs voient les rayons, le paiement Maxi Trouvaille, le suivi
+          colis et le service client. Les articles restent en validation tant que
+          les preuves essentielles ne sont pas complètes.
+        </p>
+
+        <div className="mt-4 grid gap-2 sm:grid-cols-3">
+          {links.map((link) => {
+            const Icon = link.icon;
+
+            return (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-black hover:bg-[#f1eadf]"
+              >
+                <Icon size={16} aria-hidden="true" />
+                {link.label}
+                <ArrowRight size={15} aria-hidden="true" />
+              </Link>
+            );
+          })}
+        </div>
+      </div>
+
+      <div className="grid gap-3">
+        {stats.map((stat) => {
+          const Icon = stat.icon;
+
+          return (
+            <article
+              key={stat.label}
+              className="rounded-md border border-line bg-[#fbfaf7] p-4"
+            >
+              <div className="flex items-start justify-between gap-3">
+                <div className="min-w-0">
+                  <p className="text-sm font-black text-teal">{stat.value}</p>
+                  <h3 className="mt-1 text-base font-black">{stat.label}</h3>
+                </div>
+                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
+                  <Icon size={19} aria-hidden="true" />
+                </span>
+              </div>
+            </article>
+          );
+        })}
+      </div>
+    </div>
+  );
+}

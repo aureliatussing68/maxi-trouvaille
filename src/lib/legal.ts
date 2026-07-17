@@ -13,25 +13,25 @@ export type LegalDocumentKey = "mentions" | "cgv" | "privacy";
 
 export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
   mentions: {
-    title: "Mentions legales provisoires",
-    updatedAt: "1 mai 2026",
+    title: "Mentions legales",
+    updatedAt: "18 juin 2026",
     sections: [
       {
         title: "Editeur du site",
         paragraphs: [
-          "Maxi Trouvaille est un projet de boutique en ligne en cours de creation. Les informations definitives de l'entreprise, notamment la forme juridique, le capital social, l'adresse du siege, le numero SIRET et le responsable de publication, devront etre ajoutees avant la mise en ligne publique.",
+          "Maxi Trouvaille exploite une boutique en ligne centree sur des produits partenaires, des nouveautes et des promotions selectionnees. Les informations administratives de l'editeur sont tenues a jour dans l'espace legal de la boutique.",
         ],
       },
       {
         title: "Contact",
         paragraphs: [
-          "Adresse e-mail provisoire : contact@maxitrouvaille.fr. Cette adresse devra etre remplacee ou confirmee avant le lancement commercial.",
+          "Le service client Maxi Trouvaille peut etre contacte depuis la page Contact pour toute question liee a une commande, un produit, une livraison ou un retour.",
         ],
       },
       {
         title: "Hebergement",
         paragraphs: [
-          "L'hebergeur definitif sera precise avant publication. En phase de developpement, le site fonctionne en local.",
+          "Le site est heberge par un prestataire technique. Les informations d'hebergement peuvent etre communiquees sur demande via le service client.",
         ],
       },
       {
@@ -43,31 +43,39 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
     ],
   },
   cgv: {
-    title: "Conditions generales de vente provisoires",
-    updatedAt: "1 mai 2026",
+    title: "Conditions generales de vente",
+    updatedAt: "18 juin 2026",
     sections: [
       {
         title: "Objet",
         paragraphs: [
-          "Les presentes conditions encadrent les ventes de produits proposes par Maxi Trouvaille : lots, colis perdus, objets neufs ou quasi neufs, bonnes affaires et, le cas echeant, produits en dropshipping identifies comme tels.",
+          "Les presentes conditions encadrent les ventes de produits proposes par Maxi Trouvaille : produits partenaires, nouveautes, promotions et bonnes affaires identifiees comme telles.",
         ],
       },
       {
         title: "Produits",
         paragraphs: [
           "Les caracteristiques essentielles, l'etat, le prix et les disponibilites seront indiques sur chaque fiche produit. Les stocks pourront etre limites selon les arrivages.",
+          "Un produit partenaire n'est rendu achetable que lorsque les informations essentielles sont suffisamment controlees pour le client.",
         ],
       },
       {
         title: "Prix et paiement",
         paragraphs: [
-          "Les prix seront affiches en euros toutes taxes applicables comprises selon le regime fiscal de l'entreprise. Le paiement reel n'est pas encore active. Le site est prepare pour Stripe en mode test uniquement.",
+          "Les prix sont affiches en euros toutes taxes applicables comprises selon le regime fiscal de l'entreprise. Le paiement en ligne s'appuie sur un prestataire securise afin de proteger la transaction.",
         ],
       },
       {
         title: "Livraison",
         paragraphs: [
-          "Les modes, delais et frais de livraison definitifs seront precises avant ouverture. Les delais pourront varier selon le transporteur, le stock et le type de produit.",
+          "Les modes, delais et frais de livraison sont affiches avant validation de la commande. Les delais peuvent varier selon le transporteur, le stock, le partenaire logistique et le type de produit.",
+        ],
+      },
+      {
+        title: "Produits partenaires",
+        paragraphs: [
+          "Certains produits neufs peuvent etre expedies directement par un partenaire logistique. Le client paie Maxi Trouvaille, conserve le service client Maxi Trouvaille et recoit un suivi colis lorsque l'expedition est confirmee.",
+          "Les commandes partenaires sont preparees avec validation humaine afin de garder un controle clair sur le produit, le paiement, la livraison et le service client.",
         ],
       },
       {
@@ -79,37 +87,44 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
       {
         title: "Service client",
         paragraphs: [
-          "Toute demande pourra etre envoyee a l'adresse de contact indiquee sur le site. Les modalites definitives seront completees avant la mise en ligne.",
+          "Toute demande peut etre envoyee depuis la page Contact. Maxi Trouvaille reste l'interlocuteur principal pour le suivi de commande, la livraison, le retour et le remboursement.",
         ],
       },
     ],
   },
   privacy: {
-    title: "Politique de confidentialite provisoire",
-    updatedAt: "1 mai 2026",
+    title: "Politique de confidentialite",
+    updatedAt: "18 juin 2026",
     sections: [
       {
         title: "Donnees collectees",
         paragraphs: [
-          "En phase locale, aucune donnee client reelle ne doit etre collectee. Apres lancement, Maxi Trouvaille pourra traiter les donnees necessaires aux commandes, au paiement, a la livraison et au support client.",
+          "Maxi Trouvaille traite les donnees necessaires aux commandes, au paiement, a la livraison, au suivi colis, aux retours et au support client.",
         ],
       },
       {
         title: "Paiement",
         paragraphs: [
-          "Les donnees bancaires seront traitees par Stripe via une page de paiement securisee. Maxi Trouvaille ne doit pas stocker de numeros de carte bancaire dans son code ou sa base de donnees.",
+          "Les donnees bancaires sont traitees par un prestataire de paiement securise. Maxi Trouvaille ne stocke pas de numeros de carte bancaire dans son code ou sa base de donnees.",
+        ],
+      },
+      {
+        title: "Livraison et suivi",
+        paragraphs: [
+          "Les informations necessaires a la preparation, a la livraison et au suivi colis peuvent etre utilisees pour traiter la commande et informer le client.",
+          "Lorsque la livraison implique un partenaire logistique, seules les donnees utiles au traitement de la commande sont partagees selon le parcours client applicable.",
         ],
       },
       {
         title: "Cookies",
         paragraphs: [
-          "Le panier local utilise le stockage du navigateur pour conserver les articles ajoutes. Une politique cookies complete devra etre ajoutee si des outils de mesure d'audience, publicite ou suivi sont installes.",
+          "Le panier utilise le stockage du navigateur pour conserver les articles ajoutes. Les outils de mesure ou de publicite, s'ils sont actives, font l'objet d'une information adaptee.",
         ],
       },
       {
         title: "Droits des utilisateurs",
         paragraphs: [
-          "Les utilisateurs pourront demander l'acces, la rectification ou la suppression de leurs donnees personnelles selon la reglementation applicable. Les coordonnees definitives du responsable de traitement devront etre ajoutees.",
+          "Les utilisateurs peuvent demander l'acces, la rectification ou la suppression de leurs donnees personnelles selon la reglementation applicable.",
         ],
       },
       {

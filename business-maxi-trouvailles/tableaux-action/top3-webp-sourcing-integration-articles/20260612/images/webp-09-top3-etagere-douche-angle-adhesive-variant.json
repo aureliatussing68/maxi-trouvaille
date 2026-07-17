@@ -1,0 +1,24 @@
+{
+  "rank": 9,
+  "top3Rank": 3,
+  "productId": "integration_articles_20260612_etagere-douche-angle-adhesive",
+  "productSlug": "etagere-douche-angle-adhesive-partenaire-hold",
+  "productName": "Etagere douche angle adhesive",
+  "categoryId": "dropshipping-maison",
+  "role": "variant",
+  "order": 3,
+  "expectedFileName": "etagere-douche-angle-adhesive-partenaire-hold-variant.webp",
+  "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260612/etagere-douche-angle-adhesive-partenaire-hold",
+  "expectedTargetPathRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260612/etagere-douche-angle-adhesive-partenaire-hold/etagere-douche-angle-adhesive-partenaire-hold-variant.webp",
+  "adminProofHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_etagere-douche-angle-adhesive#top-verification-integration_articles_20260612_etagere-douche-angle-adhesive",
+  "status": "MISSING_HOLD",
+  "manualInput": {
+    "sourceLocalFile": "",
+    "rightsNote": "",
+    "exactSameArticle": "",
+    "exactVariantConfirmed": "",
+    "moussValidation": "",
+    "finalDecision": "HOLD_TO_FILL"
+  },
+  "nextAction": "Deposer un WebP exact local uniquement apres preuve meme article, droits image et validation Mouss."
+}

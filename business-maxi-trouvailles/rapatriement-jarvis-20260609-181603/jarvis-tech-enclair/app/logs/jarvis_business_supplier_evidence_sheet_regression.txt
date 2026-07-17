@@ -1,0 +1,34 @@
+Regression feuille preuves fournisseur - 2026-05-25 05:02:34
+
+Global: OK
+Message feuille: Feuille preuves fournisseur: 5 ligne(s), 55 champ(s) a remplir, aucune recherche lancee.
+Lignes preuves: 5
+
+Assertions:
+- json_written: OK
+- txt_written: OK
+- sheet_ok: OK
+- route_supplier_evidence_sheet: OK
+- execute_supplier_evidence_sheet: OK
+- executor_payload_ok: OK
+- sheet_ready: OK
+- row_count: OK
+- required_fields: OK
+- manual_validation: OK
+- initially_empty: OK
+- decision_state_known: OK
+- manual_instructions: OK
+- auto_research_denied: OK
+- no_web_or_api_started: OK
+- no_scraping_or_subprocess: OK
+- no_business_job_or_sourcing: OK
+- site_not_modified: OK
+- no_import_order_payment_publication: OK
+- no_delete: OK
+- read_only_sheet: OK
+- no_secret_values: OK
+- no_content_exposed: OK
+- txt_mentions_sheet: OK
+- no_secret_like_value_in_reports: OK
+
+Regression lecture seule: la feuille de preuves fournisseur reste manuelle et ne lance aucune recherche.

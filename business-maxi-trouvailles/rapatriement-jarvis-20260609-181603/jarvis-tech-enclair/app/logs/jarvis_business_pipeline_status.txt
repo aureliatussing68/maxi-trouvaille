@@ -1,0 +1,34 @@
+Statut pipeline business Maxi - 2026-06-09 17:57:31
+
+Global: OK
+Projet: C:\Users\sinek\Desktop\maxi-trouvaille
+Temps: 0 ms
+Cache: oui / stable_unchanged (age 14903 s)
+Message court: Pipeline business OK: artefacts prets, lecture seule, aucune action sensible.
+
+Dossiers:
+- candidates: OK
+- validated: OK
+- sheets: OK
+- exports: OK
+- tiktok: OK
+- instagram: OK
+- snapchat: OK
+- exportImages: OK
+- exportVideos: OK
+- exportScripts: OK
+- productImages: OK
+- productVideos: OK
+- logs: OK
+
+Artefacts:
+- apiTemplate: OK
+- latestCandidates: OK
+- latestProductSheet: OK
+- latestAdsManifest: OK
+
+Securite:
+- Lecture seule
+- Aucun import
+- Aucune publication
+- Aucun paiement

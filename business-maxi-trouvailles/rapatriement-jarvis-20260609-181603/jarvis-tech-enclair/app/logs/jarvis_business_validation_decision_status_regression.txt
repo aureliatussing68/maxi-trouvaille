@@ -1,0 +1,37 @@
+Regression statut decision produit - 2026-05-24 21:23:48
+Global: OK
+Produit: Organisateur de cables de voyage compact
+Decision: PENDING_MOUSS_DECISION
+Autorise prochaine etape: NON
+Message court: Decision Mouss en attente pour Organisateur de cables de voyage compact, aucune action sensible.
+Message executor: Decision Mouss en attente pour Organisateur de cables de voyage compact, aucune action sensible.
+HTML: C:\Users\sinek\Desktop\Jarvis-TechEnClair\app\logs\jarvis_business_validation_decision_status.html
+
+- json_written: OK
+- txt_written: OK
+- html_written: OK
+- product_present: OK
+- decision_code_present: OK
+- decision_file_present: OK
+- checked_options_list: OK
+- notes_list: OK
+- read_only: OK
+- decision_file_not_modified: OK
+- site_not_modified: OK
+- import_not_started: OK
+- order_not_started: OK
+- payment_not_started: OK
+- publication_not_started: OK
+- files_not_deleted: OK
+- no_values_exposed: OK
+- manual_validation_required: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- html_mentions_short_message: OK
+- decision_file_read_only_source: OK
+- route_business_validation_decision_status: OK
+- execute_business_validation_decision_status: OK
+- executor_uses_short_message: OK
+- no_secret_like_value_in_reports: OK
+
+Securite: lecture seule, aucun secret complet, aucune action sensible.

@@ -1,0 +1,16 @@
+Export scripts pubs business - 2026-06-05 16:08:03
+
+Message court: Pack scripts pubs pret: 3 brouillon(s) locaux pour Organisateur de cables de voyage compact, aucune video ni publication.
+Produit: Organisateur de cables de voyage compact
+Pubs: 3
+Dossier: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\exports-publicites\scripts\organisateur-de-cables-de-voyage-compact_20260605_160803
+
+Fichiers:
+- C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\exports-publicites\scripts\organisateur-de-cables-de-voyage-compact_20260605_160803\tiktok.md
+- C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\exports-publicites\scripts\organisateur-de-cables-de-voyage-compact_20260605_160803\instagram-reels.md
+- C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\exports-publicites\scripts\organisateur-de-cables-de-voyage-compact_20260605_160803\snapchat-story.md
+- C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\exports-publicites\scripts\organisateur-de-cables-de-voyage-compact_20260605_160803\manifest.json
+- C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\exports-publicites\scripts\organisateur-de-cables-de-voyage-compact_20260605_160803\README.txt
+
+Message: Pack scripts pubs brouillon exporte en local. Aucune video ni publication.
+Securite: fichiers locaux seulement, aucune video, aucune publication.

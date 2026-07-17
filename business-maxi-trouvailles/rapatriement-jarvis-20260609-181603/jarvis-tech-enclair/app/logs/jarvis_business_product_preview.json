@@ -1,0 +1,66 @@
+{
+  "checked_at": "2026-06-09 18:00:59",
+  "ok": true,
+  "short_message": "Apercu fiche pret: Organisateur de cables de voyage compact, brouillon uniquement, aucun import/publication.",
+  "preview_only": true,
+  "candidate_id": "candidate_1779461503071_1",
+  "selection_score": 132,
+  "draft": {
+    "title": "Organisateur de cables de voyage compact",
+    "slug": "organisateur-de-cables-de-voyage-compact",
+    "status": "brouillon_preview",
+    "publication_status": "not_published",
+    "category_id": "dropshipping-accessoires",
+    "category_name": "Accessoires",
+    "short_description": "Organisateur de cables de voyage compact : un produit pratique a verifier avant mise en ligne sur Maxi Trouvailles.",
+    "long_description": "Organisateur de cables de voyage compact est prepare comme brouillon e-commerce. La fiche peut servir de base apres verification du fournisseur, des delais, des images et de la marge.",
+    "benefits": [
+      "Solution pratique dans la categorie accessoires.",
+      "Format adapte a une demonstration courte en video.",
+      "Prix pense pour une offre promo lisible.",
+      "Idee pub: Sac fouillis contre pochette rangee nette."
+    ],
+    "pricing": {
+      "supplier_price": "3,90 €",
+      "sale_price": "12,90 €",
+      "estimated_margin": "9,00 €",
+      "pricing_status": "a_verifier_fournisseur"
+    },
+    "delivery_text": "Delai livraison Europe a confirmer sur le fournisseur reel avant publication.",
+    "return_sav_text": "Retours et SAV selon politique Maxi Trouvailles, a confirmer avant publication.",
+    "seo": {
+      "meta_title": "Organisateur de cables de voyage compact | Maxi Trouvailles",
+      "meta_description": "Decouvrez Organisateur de cables de voyage compact, selectionne en brouillon. Fournisseur et livraison a verifier avant publication.",
+      "tags": [
+        "dropshipping",
+        "maxi trouvailles",
+        "brouillon",
+        "accessoires",
+        "fournisseur a verifier"
+      ]
+    },
+    "supplier_verification": {
+      "source_kind": "demo",
+      "real_supplier_required": true,
+      "search_query": "Organisateur de cables de voyage compact accessoires livraison Europe"
+    },
+    "compliance_notes": [
+      "Lien fournisseur reel manquant: fiche utilisable uniquement comme brouillon.",
+      "Ne pas publier avant validation humaine.",
+      "Verifier le fournisseur, la livraison Europe, les retours et le SAV.",
+      "Ne pas utiliser de promesse medicale, garantie exageree ou marque non autorisee.",
+      "Verifier robustesse, dimensions et utilite visuelle pour pub courte."
+    ],
+    "manual_validation_required": true
+  },
+  "safety": {
+    "read_only": true,
+    "preview_only": true,
+    "no_import": true,
+    "no_order": true,
+    "no_payment": true,
+    "no_publication": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  }
+}

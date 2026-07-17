@@ -1,0 +1,806 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-12T08:09:28.929Z",
+  "generatedAtLocal": "2026-06-12 10:09 Europe/Paris",
+  "mode": "read_only_sprint_image_replacement_manifest",
+  "productCount": 3,
+  "imageCount": 14,
+  "supplierDomainImageCount": 14,
+  "replacementDecisionCount": 14,
+  "products": [
+    {
+      "shortlistRank": 1,
+      "id": "ali_partner_20260527_pochette_cables_voyage_001",
+      "name": "Pochette organisateur câbles double couche voyage",
+      "categoryId": "dropshipping-accessoires",
+      "currentReviewGateStatus": "BLOCK_REVIEW_IMAGE_GATE",
+      "replacementStatus": "HOLD_REPLACEMENT_DECISION_REQUIRED",
+      "defaultDecision": "keep_hold",
+      "recommendedPath": "Priorite: photo propre ou permission fournisseur documentee. Image generee interdite pour galerie produit exacte.",
+      "imageCount": 4,
+      "supplierDomainImageCount": 4,
+      "missingLocalTargetCount": 4,
+      "options": [
+        {
+          "value": "own_photo",
+          "label": "Photo propre Maxi Trouvailles",
+          "allowedForProductGallery": true,
+          "proofRequired": "photo prise du produit exact ou echantillon exact, variante confirmee",
+          "notes": "Option la plus propre si un exemplaire physique est disponible."
+        },
+        {
+          "value": "supplier_permission_local_mirror",
+          "label": "Rapatriement fournisseur avec droits",
+          "allowedForProductGallery": true,
+          "proofRequired": "permission/licence image explicite, variante exacte, fichier local WebP",
+          "notes": "Autorise seulement si les droits images sont prouves et documentes."
+        },
+        {
+          "value": "licensed_exact_stock",
+          "label": "Image licencee du produit exact",
+          "allowedForProductGallery": true,
+          "proofRequired": "licence valide et preuve que l'image montre exactement le produit/variante",
+          "notes": "Rare; refuser si l'image est seulement similaire."
+        },
+        {
+          "value": "generated_lifestyle_only",
+          "label": "Visuel genere non catalogue",
+          "allowedForProductGallery": false,
+          "proofRequired": "utilisable uniquement pour bannieres ou contenu marketing non fiche produit",
+          "notes": "Interdit pour la galerie produit: risque de montrer un article approximatif."
+        },
+        {
+          "value": "replace_product",
+          "label": "Remplacer le produit",
+          "allowedForProductGallery": false,
+          "proofRequired": "nouveau produit/fournisseur avec images exactes et droits plus simples",
+          "notes": "Option utile si les droits fournisseur ne sont pas validables."
+        },
+        {
+          "value": "keep_hold",
+          "label": "Garder HOLD",
+          "allowedForProductGallery": false,
+          "proofRequired": "aucune publication tant que les preuves restent manquantes",
+          "notes": "Choix par defaut tant que rien n'est prouve."
+        }
+      ],
+      "images": [
+        {
+          "index": 1,
+          "role": "main",
+          "currentSupplierUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSupplierHost": "REMOTE_IMAGE_HOST_REDACTED",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/pochette-organisateur-cables-double-couche-voyage/01-pochette-organisateur-cables-double-couche-voyage-main.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260612\\pochette-organisateur-cables-double-couche-voyage\\01-pochette-organisateur-cables-double-couche-voyage-main.webp",
+          "alt": "Pochette organisateur câbles double couche voyage - main Maxi Trouvailles",
+          "currentGate": "missing_local_file_hold",
+          "recommendedDefault": "keep_hold",
+          "allowedModes": [
+            "own_photo",
+            "supplier_permission_local_mirror",
+            "licensed_exact_stock",
+            "keep_hold"
+          ],
+          "forbiddenModesForGallery": [
+            "generated_lifestyle_only"
+          ],
+          "replacementBrief": [
+            "fond clair, propre, sans logo tiers ajoute",
+            "produit entier visible, cadrage e-commerce",
+            "pas d'accessoire trompeur si non inclus",
+            "photo ou image strictement conforme a la variante vendue",
+            "pochette zippée organisateur câbles, vue produit principale"
+          ],
+          "formToFill": {
+            "selectedMode": "",
+            "checkedAt": "",
+            "exactVariantConfirmed": "",
+            "sourceOrPhotoOwner": "",
+            "rightsProof": "",
+            "localFileCreated": "",
+            "visualMatchProof": "",
+            "notes": "",
+            "finalDecision": "HOLD",
+            "reviewedByMouss": false
+          }
+        },
+        {
+          "index": 2,
+          "role": "detail",
+          "currentSupplierUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSupplierHost": "REMOTE_IMAGE_HOST_REDACTED",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/pochette-organisateur-cables-double-couche-voyage/02-pochette-organisateur-cables-double-couche-voyage-detail.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260612\\pochette-organisateur-cables-double-couche-voyage\\02-pochette-organisateur-cables-double-couche-voyage-detail.webp",
+          "alt": "Pochette organisateur câbles double couche voyage - detail Maxi Trouvailles",
+          "currentGate": "missing_local_file_hold",
+          "recommendedDefault": "keep_hold",
+          "allowedModes": [
+            "own_photo",
+            "supplier_permission_local_mirror",
+            "licensed_exact_stock",
+            "keep_hold"
+          ],
+          "forbiddenModesForGallery": [
+            "generated_lifestyle_only"
+          ],
+          "replacementBrief": [
+            "fond clair, propre, sans logo tiers ajoute",
+            "produit entier visible, cadrage e-commerce",
+            "pas d'accessoire trompeur si non inclus",
+            "photo ou image strictement conforme a la variante vendue",
+            "detail compartiments, fermeture, rangement cables ou dimensions reelles"
+          ],
+          "formToFill": {
+            "selectedMode": "",
+            "checkedAt": "",
+            "exactVariantConfirmed": "",
+            "sourceOrPhotoOwner": "",
+            "rightsProof": "",
+            "localFileCreated": "",
+            "visualMatchProof": "",
+            "notes": "",
+            "finalDecision": "HOLD",
+            "reviewedByMouss": false
+          }
+        },
+        {
+          "index": 3,
+          "role": "usage",
+          "currentSupplierUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSupplierHost": "REMOTE_IMAGE_HOST_REDACTED",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/pochette-organisateur-cables-double-couche-voyage/03-pochette-organisateur-cables-double-couche-voyage-usage.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260612\\pochette-organisateur-cables-double-couche-voyage\\03-pochette-organisateur-cables-double-couche-voyage-usage.webp",
+          "alt": "Pochette organisateur câbles double couche voyage - usage Maxi Trouvailles",
+          "currentGate": "missing_local_file_hold",
+          "recommendedDefault": "keep_hold",
+          "allowedModes": [
+            "own_photo",
+            "supplier_permission_local_mirror",
+            "licensed_exact_stock",
+            "keep_hold"
+          ],
+          "forbiddenModesForGallery": [
+            "generated_lifestyle_only"
+          ],
+          "replacementBrief": [
+            "fond clair, propre, sans logo tiers ajoute",
+            "produit entier visible, cadrage e-commerce",
+            "pas d'accessoire trompeur si non inclus",
+            "photo ou image strictement conforme a la variante vendue",
+            "detail compartiments, fermeture, rangement cables ou dimensions reelles"
+          ],
+          "formToFill": {
+            "selectedMode": "",
+            "checkedAt": "",
+            "exactVariantConfirmed": "",
+            "sourceOrPhotoOwner": "",
+            "rightsProof": "",
+            "localFileCreated": "",
+            "visualMatchProof": "",
+            "notes": "",
+            "finalDecision": "HOLD",
+            "reviewedByMouss": false
+          }
+        },
+        {
+          "index": 4,
+          "role": "dimensions",
+          "currentSupplierUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSupplierHost": "REMOTE_IMAGE_HOST_REDACTED",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/pochette-organisateur-cables-double-couche-voyage/04-pochette-organisateur-cables-double-couche-voyage-dimensions.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260612\\pochette-organisateur-cables-double-couche-voyage\\04-pochette-organisateur-cables-double-couche-voyage-dimensions.webp",
+          "alt": "Pochette organisateur câbles double couche voyage - dimensions Maxi Trouvailles",
+          "currentGate": "missing_local_file_hold",
+          "recommendedDefault": "keep_hold",
+          "allowedModes": [
+            "own_photo",
+            "supplier_permission_local_mirror",
+            "licensed_exact_stock",
+            "keep_hold"
+          ],
+          "forbiddenModesForGallery": [
+            "generated_lifestyle_only"
+          ],
+          "replacementBrief": [
+            "fond clair, propre, sans logo tiers ajoute",
+            "produit entier visible, cadrage e-commerce",
+            "pas d'accessoire trompeur si non inclus",
+            "photo ou image strictement conforme a la variante vendue",
+            "detail compartiments, fermeture, rangement cables ou dimensions reelles"
+          ],
+          "formToFill": {
+            "selectedMode": "",
+            "checkedAt": "",
+            "exactVariantConfirmed": "",
+            "sourceOrPhotoOwner": "",
+            "rightsProof": "",
+            "localFileCreated": "",
+            "visualMatchProof": "",
+            "notes": "",
+            "finalDecision": "HOLD",
+            "reviewedByMouss": false
+          }
+        }
+      ],
+      "productLevelFormToFill": {
+        "productId": "ali_partner_20260527_pochette_cables_voyage_001",
+        "productName": "Pochette organisateur câbles double couche voyage",
+        "chosenGlobalMode": "",
+        "variantExacte": "",
+        "droitsImagesDecision": "",
+        "remplacementProduitSiNonValidable": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "noImageGenerationForProductGallery": true,
+        "noDownload": true,
+        "noCatalogWrite": true,
+        "noPublication": true,
+        "noPayment": true,
+        "noSupplierOrder": true
+      }
+    },
+    {
+      "shortlistRank": 2,
+      "id": "ali_partner_20260527_support_pc_pliant_001",
+      "name": "Support PC portable pliant aluminium ajustable",
+      "categoryId": "dropshipping-high-tech",
+      "currentReviewGateStatus": "BLOCK_REVIEW_IMAGE_GATE",
+      "replacementStatus": "HOLD_REPLACEMENT_DECISION_REQUIRED",
+      "defaultDecision": "keep_hold",
+      "recommendedPath": "Priorite: photo propre ou permission fournisseur documentee. Image generee interdite pour galerie produit exacte.",
+      "imageCount": 4,
+      "supplierDomainImageCount": 4,
+      "missingLocalTargetCount": 4,
+      "options": [
+        {
+          "value": "own_photo",
+          "label": "Photo propre Maxi Trouvailles",
+          "allowedForProductGallery": true,
+          "proofRequired": "photo prise du produit exact ou echantillon exact, variante confirmee",
+          "notes": "Option la plus propre si un exemplaire physique est disponible."
+        },
+        {
+          "value": "supplier_permission_local_mirror",
+          "label": "Rapatriement fournisseur avec droits",
+          "allowedForProductGallery": true,
+          "proofRequired": "permission/licence image explicite, variante exacte, fichier local WebP",
+          "notes": "Autorise seulement si les droits images sont prouves et documentes."
+        },
+        {
+          "value": "licensed_exact_stock",
+          "label": "Image licencee du produit exact",
+          "allowedForProductGallery": true,
+          "proofRequired": "licence valide et preuve que l'image montre exactement le produit/variante",
+          "notes": "Rare; refuser si l'image est seulement similaire."
+        },
+        {
+          "value": "generated_lifestyle_only",
+          "label": "Visuel genere non catalogue",
+          "allowedForProductGallery": false,
+          "proofRequired": "utilisable uniquement pour bannieres ou contenu marketing non fiche produit",
+          "notes": "Interdit pour la galerie produit: risque de montrer un article approximatif."
+        },
+        {
+          "value": "replace_product",
+          "label": "Remplacer le produit",
+          "allowedForProductGallery": false,
+          "proofRequired": "nouveau produit/fournisseur avec images exactes et droits plus simples",
+          "notes": "Option utile si les droits fournisseur ne sont pas validables."
+        },
+        {
+          "value": "keep_hold",
+          "label": "Garder HOLD",
+          "allowedForProductGallery": false,
+          "proofRequired": "aucune publication tant que les preuves restent manquantes",
+          "notes": "Choix par defaut tant que rien n'est prouve."
+        }
+      ],
+      "images": [
+        {
+          "index": 1,
+          "role": "main",
+          "currentSupplierUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSupplierHost": "REMOTE_IMAGE_HOST_REDACTED",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/support-pc-portable-pliant-aluminium-ajustable/01-support-pc-portable-pliant-aluminium-ajustable-main.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260612\\support-pc-portable-pliant-aluminium-ajustable\\01-support-pc-portable-pliant-aluminium-ajustable-main.webp",
+          "alt": "Support PC portable pliant aluminium ajustable - main Maxi Trouvailles",
+          "currentGate": "missing_local_file_hold",
+          "recommendedDefault": "keep_hold",
+          "allowedModes": [
+            "own_photo",
+            "supplier_permission_local_mirror",
+            "licensed_exact_stock",
+            "keep_hold"
+          ],
+          "forbiddenModesForGallery": [
+            "generated_lifestyle_only"
+          ],
+          "replacementBrief": [
+            "fond clair, propre, sans logo tiers ajoute",
+            "produit entier visible, cadrage e-commerce",
+            "pas d'accessoire trompeur si non inclus",
+            "photo ou image strictement conforme a la variante vendue",
+            "support ordinateur portable aluminium pliant seul, angle 3/4"
+          ],
+          "formToFill": {
+            "selectedMode": "",
+            "checkedAt": "",
+            "exactVariantConfirmed": "",
+            "sourceOrPhotoOwner": "",
+            "rightsProof": "",
+            "localFileCreated": "",
+            "visualMatchProof": "",
+            "notes": "",
+            "finalDecision": "HOLD",
+            "reviewedByMouss": false
+          }
+        },
+        {
+          "index": 2,
+          "role": "detail",
+          "currentSupplierUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSupplierHost": "REMOTE_IMAGE_HOST_REDACTED",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/support-pc-portable-pliant-aluminium-ajustable/02-support-pc-portable-pliant-aluminium-ajustable-detail.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260612\\support-pc-portable-pliant-aluminium-ajustable\\02-support-pc-portable-pliant-aluminium-ajustable-detail.webp",
+          "alt": "Support PC portable pliant aluminium ajustable - detail Maxi Trouvailles",
+          "currentGate": "missing_local_file_hold",
+          "recommendedDefault": "keep_hold",
+          "allowedModes": [
+            "own_photo",
+            "supplier_permission_local_mirror",
+            "licensed_exact_stock",
+            "keep_hold"
+          ],
+          "forbiddenModesForGallery": [
+            "generated_lifestyle_only"
+          ],
+          "replacementBrief": [
+            "fond clair, propre, sans logo tiers ajoute",
+            "produit entier visible, cadrage e-commerce",
+            "pas d'accessoire trompeur si non inclus",
+            "photo ou image strictement conforme a la variante vendue",
+            "detail pliage, reglages, patins, dimensions ou usage avec ordinateur"
+          ],
+          "formToFill": {
+            "selectedMode": "",
+            "checkedAt": "",
+            "exactVariantConfirmed": "",
+            "sourceOrPhotoOwner": "",
+            "rightsProof": "",
+            "localFileCreated": "",
+            "visualMatchProof": "",
+            "notes": "",
+            "finalDecision": "HOLD",
+            "reviewedByMouss": false
+          }
+        },
+        {
+          "index": 3,
+          "role": "usage",
+          "currentSupplierUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSupplierHost": "REMOTE_IMAGE_HOST_REDACTED",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/support-pc-portable-pliant-aluminium-ajustable/03-support-pc-portable-pliant-aluminium-ajustable-usage.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260612\\support-pc-portable-pliant-aluminium-ajustable\\03-support-pc-portable-pliant-aluminium-ajustable-usage.webp",
+          "alt": "Support PC portable pliant aluminium ajustable - usage Maxi Trouvailles",
+          "currentGate": "missing_local_file_hold",
+          "recommendedDefault": "keep_hold",
+          "allowedModes": [
+            "own_photo",
+            "supplier_permission_local_mirror",
+            "licensed_exact_stock",
+            "keep_hold"
+          ],
+          "forbiddenModesForGallery": [
+            "generated_lifestyle_only"
+          ],
+          "replacementBrief": [
+            "fond clair, propre, sans logo tiers ajoute",
+            "produit entier visible, cadrage e-commerce",
+            "pas d'accessoire trompeur si non inclus",
+            "photo ou image strictement conforme a la variante vendue",
+            "detail pliage, reglages, patins, dimensions ou usage avec ordinateur"
+          ],
+          "formToFill": {
+            "selectedMode": "",
+            "checkedAt": "",
+            "exactVariantConfirmed": "",
+            "sourceOrPhotoOwner": "",
+            "rightsProof": "",
+            "localFileCreated": "",
+            "visualMatchProof": "",
+            "notes": "",
+            "finalDecision": "HOLD",
+            "reviewedByMouss": false
+          }
+        },
+        {
+          "index": 4,
+          "role": "dimensions",
+          "currentSupplierUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSupplierHost": "REMOTE_IMAGE_HOST_REDACTED",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/support-pc-portable-pliant-aluminium-ajustable/04-support-pc-portable-pliant-aluminium-ajustable-dimensions.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260612\\support-pc-portable-pliant-aluminium-ajustable\\04-support-pc-portable-pliant-aluminium-ajustable-dimensions.webp",
+          "alt": "Support PC portable pliant aluminium ajustable - dimensions Maxi Trouvailles",
+          "currentGate": "missing_local_file_hold",
+          "recommendedDefault": "keep_hold",
+          "allowedModes": [
+            "own_photo",
+            "supplier_permission_local_mirror",
+            "licensed_exact_stock",
+            "keep_hold"
+          ],
+          "forbiddenModesForGallery": [
+            "generated_lifestyle_only"
+          ],
+          "replacementBrief": [
+            "fond clair, propre, sans logo tiers ajoute",
+            "produit entier visible, cadrage e-commerce",
+            "pas d'accessoire trompeur si non inclus",
+            "photo ou image strictement conforme a la variante vendue",
+            "detail pliage, reglages, patins, dimensions ou usage avec ordinateur"
+          ],
+          "formToFill": {
+            "selectedMode": "",
+            "checkedAt": "",
+            "exactVariantConfirmed": "",
+            "sourceOrPhotoOwner": "",
+            "rightsProof": "",
+            "localFileCreated": "",
+            "visualMatchProof": "",
+            "notes": "",
+            "finalDecision": "HOLD",
+            "reviewedByMouss": false
+          }
+        }
+      ],
+      "productLevelFormToFill": {
+        "productId": "ali_partner_20260527_support_pc_pliant_001",
+        "productName": "Support PC portable pliant aluminium ajustable",
+        "chosenGlobalMode": "",
+        "variantExacte": "",
+        "droitsImagesDecision": "",
+        "remplacementProduitSiNonValidable": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "noImageGenerationForProductGallery": true,
+        "noDownload": true,
+        "noCatalogWrite": true,
+        "noPublication": true,
+        "noPayment": true,
+        "noSupplierOrder": true
+      }
+    },
+    {
+      "shortlistRank": 3,
+      "id": "ali_partner_20260527_filet_coffre_voiture_001",
+      "name": "Filet rangement coffre voiture à sangles fixes",
+      "categoryId": "dropshipping-auto-moto",
+      "currentReviewGateStatus": "BLOCK_REVIEW_IMAGE_GATE",
+      "replacementStatus": "HOLD_REPLACEMENT_DECISION_REQUIRED",
+      "defaultDecision": "keep_hold",
+      "recommendedPath": "Priorite: photo propre ou permission fournisseur documentee. Image generee interdite pour galerie produit exacte.",
+      "imageCount": 6,
+      "supplierDomainImageCount": 6,
+      "missingLocalTargetCount": 6,
+      "options": [
+        {
+          "value": "own_photo",
+          "label": "Photo propre Maxi Trouvailles",
+          "allowedForProductGallery": true,
+          "proofRequired": "photo prise du produit exact ou echantillon exact, variante confirmee",
+          "notes": "Option la plus propre si un exemplaire physique est disponible."
+        },
+        {
+          "value": "supplier_permission_local_mirror",
+          "label": "Rapatriement fournisseur avec droits",
+          "allowedForProductGallery": true,
+          "proofRequired": "permission/licence image explicite, variante exacte, fichier local WebP",
+          "notes": "Autorise seulement si les droits images sont prouves et documentes."
+        },
+        {
+          "value": "licensed_exact_stock",
+          "label": "Image licencee du produit exact",
+          "allowedForProductGallery": true,
+          "proofRequired": "licence valide et preuve que l'image montre exactement le produit/variante",
+          "notes": "Rare; refuser si l'image est seulement similaire."
+        },
+        {
+          "value": "generated_lifestyle_only",
+          "label": "Visuel genere non catalogue",
+          "allowedForProductGallery": false,
+          "proofRequired": "utilisable uniquement pour bannieres ou contenu marketing non fiche produit",
+          "notes": "Interdit pour la galerie produit: risque de montrer un article approximatif."
+        },
+        {
+          "value": "replace_product",
+          "label": "Remplacer le produit",
+          "allowedForProductGallery": false,
+          "proofRequired": "nouveau produit/fournisseur avec images exactes et droits plus simples",
+          "notes": "Option serieuse si les dimensions/fixations auto ne sont pas prouvables."
+        },
+        {
+          "value": "keep_hold",
+          "label": "Garder HOLD",
+          "allowedForProductGallery": false,
+          "proofRequired": "aucune publication tant que les preuves restent manquantes",
+          "notes": "Choix par defaut tant que rien n'est prouve."
+        }
+      ],
+      "images": [
+        {
+          "index": 1,
+          "role": "main",
+          "currentSupplierUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSupplierHost": "REMOTE_IMAGE_HOST_REDACTED",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/filet-rangement-coffre-voiture-a-sangles-fixes/01-filet-rangement-coffre-voiture-a-sangles-fixes-main.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260612\\filet-rangement-coffre-voiture-a-sangles-fixes\\01-filet-rangement-coffre-voiture-a-sangles-fixes-main.webp",
+          "alt": "Filet rangement coffre voiture à sangles fixes - main Maxi Trouvailles",
+          "currentGate": "missing_local_file_hold",
+          "recommendedDefault": "keep_hold",
+          "allowedModes": [
+            "own_photo",
+            "supplier_permission_local_mirror",
+            "licensed_exact_stock",
+            "keep_hold"
+          ],
+          "forbiddenModesForGallery": [
+            "generated_lifestyle_only"
+          ],
+          "replacementBrief": [
+            "fond clair, propre, sans logo tiers ajoute",
+            "produit entier visible, cadrage e-commerce",
+            "pas d'accessoire trompeur si non inclus",
+            "photo ou image strictement conforme a la variante vendue",
+            "filet ou sangles de coffre voiture exacts, produit seul"
+          ],
+          "formToFill": {
+            "selectedMode": "",
+            "checkedAt": "",
+            "exactVariantConfirmed": "",
+            "sourceOrPhotoOwner": "",
+            "rightsProof": "",
+            "localFileCreated": "",
+            "visualMatchProof": "",
+            "notes": "",
+            "finalDecision": "HOLD",
+            "reviewedByMouss": false
+          }
+        },
+        {
+          "index": 2,
+          "role": "detail",
+          "currentSupplierUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSupplierHost": "REMOTE_IMAGE_HOST_REDACTED",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/filet-rangement-coffre-voiture-a-sangles-fixes/02-filet-rangement-coffre-voiture-a-sangles-fixes-detail.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260612\\filet-rangement-coffre-voiture-a-sangles-fixes\\02-filet-rangement-coffre-voiture-a-sangles-fixes-detail.webp",
+          "alt": "Filet rangement coffre voiture à sangles fixes - detail Maxi Trouvailles",
+          "currentGate": "missing_local_file_hold",
+          "recommendedDefault": "keep_hold",
+          "allowedModes": [
+            "own_photo",
+            "supplier_permission_local_mirror",
+            "licensed_exact_stock",
+            "keep_hold"
+          ],
+          "forbiddenModesForGallery": [
+            "generated_lifestyle_only"
+          ],
+          "replacementBrief": [
+            "fond clair, propre, sans logo tiers ajoute",
+            "produit entier visible, cadrage e-commerce",
+            "pas d'accessoire trompeur si non inclus",
+            "photo ou image strictement conforme a la variante vendue",
+            "detail fixation, dimensions, mise en place coffre, sans promettre compatibilite universelle"
+          ],
+          "formToFill": {
+            "selectedMode": "",
+            "checkedAt": "",
+            "exactVariantConfirmed": "",
+            "sourceOrPhotoOwner": "",
+            "rightsProof": "",
+            "localFileCreated": "",
+            "visualMatchProof": "",
+            "notes": "",
+            "finalDecision": "HOLD",
+            "reviewedByMouss": false
+          }
+        },
+        {
+          "index": 3,
+          "role": "usage",
+          "currentSupplierUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSupplierHost": "REMOTE_IMAGE_HOST_REDACTED",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/filet-rangement-coffre-voiture-a-sangles-fixes/03-filet-rangement-coffre-voiture-a-sangles-fixes-usage.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260612\\filet-rangement-coffre-voiture-a-sangles-fixes\\03-filet-rangement-coffre-voiture-a-sangles-fixes-usage.webp",
+          "alt": "Filet rangement coffre voiture à sangles fixes - usage Maxi Trouvailles",
+          "currentGate": "missing_local_file_hold",
+          "recommendedDefault": "keep_hold",
+          "allowedModes": [
+            "own_photo",
+            "supplier_permission_local_mirror",
+            "licensed_exact_stock",
+            "keep_hold"
+          ],
+          "forbiddenModesForGallery": [
+            "generated_lifestyle_only"
+          ],
+          "replacementBrief": [
+            "fond clair, propre, sans logo tiers ajoute",
+            "produit entier visible, cadrage e-commerce",
+            "pas d'accessoire trompeur si non inclus",
+            "photo ou image strictement conforme a la variante vendue",
+            "detail fixation, dimensions, mise en place coffre, sans promettre compatibilite universelle"
+          ],
+          "formToFill": {
+            "selectedMode": "",
+            "checkedAt": "",
+            "exactVariantConfirmed": "",
+            "sourceOrPhotoOwner": "",
+            "rightsProof": "",
+            "localFileCreated": "",
+            "visualMatchProof": "",
+            "notes": "",
+            "finalDecision": "HOLD",
+            "reviewedByMouss": false
+          }
+        },
+        {
+          "index": 4,
+          "role": "dimensions",
+          "currentSupplierUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSupplierHost": "REMOTE_IMAGE_HOST_REDACTED",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/filet-rangement-coffre-voiture-a-sangles-fixes/04-filet-rangement-coffre-voiture-a-sangles-fixes-dimensions.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260612\\filet-rangement-coffre-voiture-a-sangles-fixes\\04-filet-rangement-coffre-voiture-a-sangles-fixes-dimensions.webp",
+          "alt": "Filet rangement coffre voiture à sangles fixes - dimensions Maxi Trouvailles",
+          "currentGate": "missing_local_file_hold",
+          "recommendedDefault": "keep_hold",
+          "allowedModes": [
+            "own_photo",
+            "supplier_permission_local_mirror",
+            "licensed_exact_stock",
+            "keep_hold"
+          ],
+          "forbiddenModesForGallery": [
+            "generated_lifestyle_only"
+          ],
+          "replacementBrief": [
+            "fond clair, propre, sans logo tiers ajoute",
+            "produit entier visible, cadrage e-commerce",
+            "pas d'accessoire trompeur si non inclus",
+            "photo ou image strictement conforme a la variante vendue",
+            "detail fixation, dimensions, mise en place coffre, sans promettre compatibilite universelle"
+          ],
+          "formToFill": {
+            "selectedMode": "",
+            "checkedAt": "",
+            "exactVariantConfirmed": "",
+            "sourceOrPhotoOwner": "",
+            "rightsProof": "",
+            "localFileCreated": "",
+            "visualMatchProof": "",
+            "notes": "",
+            "finalDecision": "HOLD",
+            "reviewedByMouss": false
+          }
+        },
+        {
+          "index": 5,
+          "role": "detail-5",
+          "currentSupplierUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSupplierHost": "REMOTE_IMAGE_HOST_REDACTED",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/filet-rangement-coffre-voiture-a-sangles-fixes/05-filet-rangement-coffre-voiture-a-sangles-fixes-detail-5.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260612\\filet-rangement-coffre-voiture-a-sangles-fixes\\05-filet-rangement-coffre-voiture-a-sangles-fixes-detail-5.webp",
+          "alt": "Filet rangement coffre voiture à sangles fixes - detail-5 Maxi Trouvailles",
+          "currentGate": "missing_local_file_hold",
+          "recommendedDefault": "keep_hold",
+          "allowedModes": [
+            "own_photo",
+            "supplier_permission_local_mirror",
+            "licensed_exact_stock",
+            "keep_hold"
+          ],
+          "forbiddenModesForGallery": [
+            "generated_lifestyle_only"
+          ],
+          "replacementBrief": [
+            "fond clair, propre, sans logo tiers ajoute",
+            "produit entier visible, cadrage e-commerce",
+            "pas d'accessoire trompeur si non inclus",
+            "photo ou image strictement conforme a la variante vendue",
+            "detail fixation, dimensions, mise en place coffre, sans promettre compatibilite universelle"
+          ],
+          "formToFill": {
+            "selectedMode": "",
+            "checkedAt": "",
+            "exactVariantConfirmed": "",
+            "sourceOrPhotoOwner": "",
+            "rightsProof": "",
+            "localFileCreated": "",
+            "visualMatchProof": "",
+            "notes": "",
+            "finalDecision": "HOLD",
+            "reviewedByMouss": false
+          }
+        },
+        {
+          "index": 6,
+          "role": "detail-6",
+          "currentSupplierUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSupplierHost": "REMOTE_IMAGE_HOST_REDACTED",
+          "targetPublicUrl": "/uploads/partner-products/sprint-go-humain-20260612/filet-rangement-coffre-voiture-a-sangles-fixes/06-filet-rangement-coffre-voiture-a-sangles-fixes-detail-6.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260612\\filet-rangement-coffre-voiture-a-sangles-fixes\\06-filet-rangement-coffre-voiture-a-sangles-fixes-detail-6.webp",
+          "alt": "Filet rangement coffre voiture à sangles fixes - detail-6 Maxi Trouvailles",
+          "currentGate": "missing_local_file_hold",
+          "recommendedDefault": "keep_hold",
+          "allowedModes": [
+            "own_photo",
+            "supplier_permission_local_mirror",
+            "licensed_exact_stock",
+            "keep_hold"
+          ],
+          "forbiddenModesForGallery": [
+            "generated_lifestyle_only"
+          ],
+          "replacementBrief": [
+            "fond clair, propre, sans logo tiers ajoute",
+            "produit entier visible, cadrage e-commerce",
+            "pas d'accessoire trompeur si non inclus",
+            "photo ou image strictement conforme a la variante vendue",
+            "detail fixation, dimensions, mise en place coffre, sans promettre compatibilite universelle"
+          ],
+          "formToFill": {
+            "selectedMode": "",
+            "checkedAt": "",
+            "exactVariantConfirmed": "",
+            "sourceOrPhotoOwner": "",
+            "rightsProof": "",
+            "localFileCreated": "",
+            "visualMatchProof": "",
+            "notes": "",
+            "finalDecision": "HOLD",
+            "reviewedByMouss": false
+          }
+        }
+      ],
+      "productLevelFormToFill": {
+        "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+        "productName": "Filet rangement coffre voiture à sangles fixes",
+        "chosenGlobalMode": "",
+        "variantExacte": "",
+        "droitsImagesDecision": "",
+        "remplacementProduitSiNonValidable": "",
+        "finalDecision": "HOLD",
+        "reviewedByMouss": false
+      },
+      "safety": {
+        "noImageGenerationForProductGallery": true,
+        "noDownload": true,
+        "noCatalogWrite": true,
+        "noPublication": true,
+        "noPayment": true,
+        "noSupplierOrder": true
+      }
+    }
+  ],
+  "sources": {
+    "auditPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\audit-gates-images-sprint-20260612\\AUDIT_GATES_IMAGES_SPRINT_20260612.json",
+    "localPlanPath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\plan-local-images-sprint-20260612\\PLAN_LOCAL_IMAGES_SPRINT_20260612.json"
+  },
+  "files": {
+    "outputDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\manifest-remplacement-images-sprint-20260612",
+    "cardsDir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\manifest-remplacement-images-sprint-20260612\\fiches-remplacement",
+    "fillTemplatePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\tableaux-action\\manifest-remplacement-images-sprint-20260612\\A_REMPLIR_DECISIONS_REMPLACEMENT_IMAGES_20260612.json"
+  },
+  "safety": {
+    "noImageGenerationForProductGallery": true,
+    "noDownload": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true
+  }
+}

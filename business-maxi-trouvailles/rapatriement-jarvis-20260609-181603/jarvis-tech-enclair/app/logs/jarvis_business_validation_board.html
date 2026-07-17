@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jarvis - Validation Business Maxi</title>
+  <style>
+    body { margin: 0; font-family: Segoe UI, Arial, sans-serif; background: #0b1014; color: #e9f1f4; }
+    main { max-width: 1160px; margin: 0 auto; padding: 24px; }
+    h1 { margin: 0 0 8px; font-size: 28px; }
+    h2 { font-size: 18px; margin-top: 22px; color: #9fdad3; }
+    .meta { color: #9fb3bd; margin-bottom: 18px; }
+    .grid { display: grid; grid-template-columns: repeat(4, minmax(130px, 1fr)); gap: 10px; }
+    .box { border: 1px solid #264653; background: #101820; border-radius: 6px; padding: 12px; }
+    .box b { display: block; color: #6ee7d8; font-size: 18px; margin-bottom: 4px; }
+    ul { margin-top: 8px; }
+    li { margin: 6px 0; }
+    table { width: 100%; border-collapse: collapse; background: #101820; border: 1px solid #264653; }
+    th, td { text-align: left; padding: 10px; border-bottom: 1px solid #22313a; vertical-align: top; }
+    th { color: #9fdad3; font-size: 12px; text-transform: uppercase; }
+    .danger li { color: #ffd2c7; }
+    .safe { color: #9fb3bd; margin-top: 20px; }
+    @media (max-width: 760px) {
+      main { padding: 14px; }
+      .grid { grid-template-columns: repeat(2, minmax(120px, 1fr)); }
+      table { font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Dossier validation business Maxi</h1>
+    <div class="meta">Tableau validation pret: Organisateur de cables de voyage compact, 2 blocage(s), affichage seulement.</div>
+    <div class="meta">2026-06-05 16:08:03 - mode demo_draft_only</div>
+    <section class="grid">
+      <div class="box"><b>Organisateur de cables de voyage compact</b>Produit</div>
+      <div class="box"><b>dropshipping-accessoires</b>Categorie</div>
+      <div class="box"><b>3,90 €</b>Achat</div>
+      <div class="box"><b>12,90 €</b>Vente</div>
+    </section>
+    <h2>Blocages avant validation</h2>
+    <ul class="danger"><li>lien fournisseur reel manquant</li><li>sourcing reel AliExpress non pret</li></ul>
+    <h2>Pubs incluses</h2>
+    <table>
+      <thead><tr><th>Plateforme</th><th>Duree</th><th>Hook</th><th>Statut</th></tr></thead>
+      <tbody><tr><td>TikTok</td><td>18s</td><td>Tu perds encore du temps avec tes cables ?</td><td>not_published</td></tr><tr><td>Instagram Reels</td><td>20s</td><td>Tu perds encore du temps avec tes cables ?</td><td>not_published</td></tr><tr><td>Snapchat Story</td><td>12s</td><td>Tu perds encore du temps avec tes cables ?</td><td>not_published</td></tr></tbody>
+    </table>
+    <h2>Checklist Mouss</h2>
+    <ul><li>Coller ou verifier un lien fournisseur reel.</li><li>Verifier prix fournisseur, livraison Europe, retours et SAV.</li><li>Verifier que le produit n&#x27;est pas dangereux, medical, contrefait ou interdit.</li><li>Verifier les images produit avant toute pub.</li><li>Valider la categorie Maxi et le prix promo.</li><li>Garder publication TikTok/Instagram/Snapchat en manuel.</li></ul>
+    <h2>Decisions possibles</h2>
+    <ul><li>valider_fournisseur_et_preparer_fiche_brouillon</li><li>demander_un_autre_produit</li><li>corriger_categorie_ou_prix</li><li>rejeter_le_produit</li></ul>
+    <p class="safe">Affichage seulement: aucun import, aucune commande AliExpress, aucun paiement, aucune publication.</p>
+  </main>
+</body>
+</html>

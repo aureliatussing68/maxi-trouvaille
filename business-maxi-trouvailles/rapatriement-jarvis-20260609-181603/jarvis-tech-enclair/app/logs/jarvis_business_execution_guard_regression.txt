@@ -1,0 +1,52 @@
+Regression garde execution business - 2026-06-08 21:49:19
+
+Global: OK
+Message garde: Garde execution business OK: aucune action business a bloquer.
+Message commande business: Action business bloquee: Recherche produits brouillon, validation humaine requise, aucun job lance.
+
+Cas:
+- search_products_draft -> search_products_draft: OK
+- product_sheet_draft -> product_sheet_draft: OK
+- ads_draft -> ads_draft: OK
+- import_draft -> import_draft: OK
+
+Assertions:
+- json_written: OK
+- txt_written: OK
+- all_cases_blocked: OK
+- route_business_execution_guard: OK
+- execute_business_execution_guard: OK
+- execute_business_search_guarded: OK
+- executor_uses_guard: OK
+- executor_keeps_runtime_handoff: OK
+- runtime_handoff_source_display_only: OK
+- runtime_handoff_source_snapshot_only: OK
+- runtime_handoff_source_handoff_only: OK
+- executor_message_mentions_block: OK
+- no_business_job_started: OK
+- no_subprocess_started: OK
+- no_sourcing: OK
+- no_import_order_payment_publication: OK
+- manual_validation_required: OK
+- no_secret_values: OK
+- no_content_exposed: OK
+- uses_business_handoff_snapshot: OK
+- uses_runtime_handoff_snapshot: OK
+- runtime_handoff_display_only: OK
+- runtime_handoff_snapshot_only: OK
+- runtime_handoff_handoff_only: OK
+- runtime_handoff_dry_run_only: OK
+- runtime_handoff_safety_no_process_start: OK
+- runtime_handoff_safety_no_process_kill: OK
+- runtime_handoff_safety_no_container_change: OK
+- runtime_handoff_safety_manual_confirmation: OK
+- runtime_handoff_safety_no_window_action: OK
+- runtime_handoff_safety_no_browser_open: OK
+- runtime_handoff_safety_no_ai_secret: OK
+- runtime_handoff_safety_paths_hidden: OK
+- no_runtime_recovery_started: OK
+- txt_mentions_runtime_handoff: OK
+- txt_mentions_safety: OK
+- no_secret_like_value_in_reports: OK
+
+Regression lecture seule: les commandes business executables sont bloquees avant subprocess/import.

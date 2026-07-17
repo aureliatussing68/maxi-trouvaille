@@ -1,0 +1,73 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-11T11:38:39.809Z",
+  "targetUrl": "http://127.0.0.1:3047/admin/preuves-partenaires?status=hold&zone=image",
+  "checks": [
+    {
+      "label": "desktop",
+      "viewport": {
+        "width": 1366,
+        "height": 900
+      },
+      "url": "http://127.0.0.1:3047/admin/preuves-partenaires?status=hold&zone=image",
+      "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-126-export-sprint-zone-preuves-desktop.png",
+      "visible": {
+        "sprint": true,
+        "export": true,
+        "traiter": true,
+        "zone": true
+      },
+      "downloadName": "maxi-sprint-zone-hold-image-toutes.csv",
+      "csvChecks": {
+        "dataUrl": true,
+        "filename": true,
+        "actionColumn": true,
+        "sprintLinkColumn": true,
+        "zoneValue": true,
+        "sprintAnchorLink": true
+      },
+      "csvPreview": [
+        "\"ordre_zone\",\"zone_preuve\",\"score\",\"produit\",\"slug\",\"categorie\",\"statut\",\"action_zone\",\"preuves_a_remplir\",\"zones_preuves\",\"image\",\"marge\",\"livraison\",\"blocages\",\"lien_sprint\"",
+        "\"1\",\"image\",\"217\",\"Pochette organisateur câbles double couche voyage\",\"pochette-organisateur-cables-double-couche-voyage\",\"dropshipping-accessoires\",\"HOLD_MISSING_EVIDENCE\",\"Prouver l'image exacte et les droits de pochette-organisateur-cables-double-couche-voyage, puis garder la fiche en HOLD.\",\"2\",\"Fournisseur/SKU | Livraison/suivi\",\"Image exacte prioritaire\",\"Marge a verrouiller\",\"Delai a prouver\",\"Date de verification | Renseigner la date exacte de controle fournisseur. | Nom vendeur fournisseur | Copier le nom du vendeur affiche sur la page fournisseur. | Variante exacte | Preciser couleur, format, lot, taille ou option vendue. | Preuve delai France/Europe | Noter la preuve visible du delai France/Europe.\",\"/admin/preuves-partenaires?status=hold&q=pochette-organisateur-cables-double-couche-voyage&zone=image#top-verification-pochette-organisateur-cables-double-couche-voyage\""
+      ],
+      "overflow": {
+        "horizontalOverflow": 0,
+        "offenders": []
+      },
+      "consoleErrors": []
+    },
+    {
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:3047/admin/preuves-partenaires?status=hold&zone=image",
+      "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-126-export-sprint-zone-preuves-mobile.png",
+      "visible": {
+        "sprint": true,
+        "export": true,
+        "traiter": true,
+        "zone": true
+      },
+      "downloadName": "maxi-sprint-zone-hold-image-toutes.csv",
+      "csvChecks": {
+        "dataUrl": true,
+        "filename": true,
+        "actionColumn": true,
+        "sprintLinkColumn": true,
+        "zoneValue": true,
+        "sprintAnchorLink": true
+      },
+      "csvPreview": [
+        "\"ordre_zone\",\"zone_preuve\",\"score\",\"produit\",\"slug\",\"categorie\",\"statut\",\"action_zone\",\"preuves_a_remplir\",\"zones_preuves\",\"image\",\"marge\",\"livraison\",\"blocages\",\"lien_sprint\"",
+        "\"1\",\"image\",\"217\",\"Pochette organisateur câbles double couche voyage\",\"pochette-organisateur-cables-double-couche-voyage\",\"dropshipping-accessoires\",\"HOLD_MISSING_EVIDENCE\",\"Prouver l'image exacte et les droits de pochette-organisateur-cables-double-couche-voyage, puis garder la fiche en HOLD.\",\"2\",\"Fournisseur/SKU | Livraison/suivi\",\"Image exacte prioritaire\",\"Marge a verrouiller\",\"Delai a prouver\",\"Date de verification | Renseigner la date exacte de controle fournisseur. | Nom vendeur fournisseur | Copier le nom du vendeur affiche sur la page fournisseur. | Variante exacte | Preciser couleur, format, lot, taille ou option vendue. | Preuve delai France/Europe | Noter la preuve visible du delai France/Europe.\",\"/admin/preuves-partenaires?status=hold&q=pochette-organisateur-cables-double-couche-voyage&zone=image#top-verification-pochette-organisateur-cables-double-couche-voyage\""
+      ],
+      "overflow": {
+        "horizontalOverflow": 0,
+        "offenders": []
+      },
+      "consoleErrors": []
+    }
+  ]
+}

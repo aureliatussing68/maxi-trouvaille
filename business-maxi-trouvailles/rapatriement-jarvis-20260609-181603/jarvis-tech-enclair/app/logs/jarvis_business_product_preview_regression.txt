@@ -1,0 +1,32 @@
+Regression apercu fiche produit - 2026-05-24 10:00:30
+Global: OK
+Message court: Apercu fiche pret: Organisateur de cables de voyage compact, brouillon uniquement, aucun import/publication.
+Message executeur: Apercu fiche pret: Organisateur de cables de voyage compact, brouillon uniquement, aucun import/publication.
+Produit: Organisateur de cables de voyage compact
+
+- json_written: OK
+- txt_written: OK
+- md_written: OK
+- title_present: OK
+- category_present: OK
+- pricing_present: OK
+- seo_present: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- md_mentions_short_message: OK
+- route_business_product_preview: OK
+- execute_business_product_preview: OK
+- executor_uses_short_message: OK
+- draft_manual_validation: OK
+- not_published: OK
+- preview_only: OK
+- read_only: OK
+- no_import: OK
+- no_order: OK
+- no_payment: OK
+- no_publication: OK
+- manual_validation_required: OK
+- no_values_exposed: OK
+- no_secret_like_value_in_reports: OK
+
+Securite: lecture seule, brouillon uniquement, aucun secret, aucun import/commande/paiement/publication.

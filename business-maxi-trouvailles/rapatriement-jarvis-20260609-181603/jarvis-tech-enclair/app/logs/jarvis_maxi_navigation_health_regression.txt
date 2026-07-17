@@ -1,0 +1,11 @@
+Regression navigation Maxi - 2026-05-24 20:09:51
+Global: OK
+Routes OK: 13/13
+
+- json_written: OK
+- txt_written: OK
+- routes_present: OK
+- all_routes_ok: OK
+- read_only: OK
+- no_browser_opened: OK
+- no_product_write: OK

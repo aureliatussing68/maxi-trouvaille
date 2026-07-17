@@ -1,0 +1,929 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-19T02:24:36.254Z",
+  "generatedAtLocal": "2026-06-19 04:24 Europe/Paris",
+  "mode": "read_only_public_mobile_journey_audit",
+  "files": [
+    "src/app/page.tsx",
+    "src/app/boutique/page.tsx",
+    "src/app/produits-partenaires/page.tsx",
+    "src/app/panier/page.tsx",
+    "src/app/paiement/page.tsx",
+    "src/app/suivi-colis/page.tsx",
+    "src/app/contact/page.tsx",
+    "src/components/CartView.tsx",
+    "src/components/CheckoutView.tsx",
+    "src/components/CustomerJourneyPanel.tsx",
+    "src/components/CustomerSupportQuickLinks.tsx",
+    "src/components/MobileDemoNav.tsx",
+    "src/components/TrackingLookupForm.tsx"
+  ],
+  "fileCount": 13,
+  "requiredSignalsByFile": [
+    {
+      "file": "src/app/page.tsx",
+      "signals": [
+        "Maxi Trouvaille",
+        "/boutique",
+        "/produits-partenaires",
+        "/suivi-colis",
+        "Paiement Maxi Trouvaille",
+        "MobilePresentationPathPanel",
+        "CustomerSupportQuickLinks"
+      ]
+    },
+    {
+      "file": "src/app/boutique/page.tsx",
+      "signals": [
+        "Boutique partenaires",
+        "MobilePresentationPathPanel",
+        "PartnerDemoPathPanel",
+        "PartnerMobileShowcasePanel",
+        "StorefrontReadinessPanel",
+        "ShopProductExplorer"
+      ]
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "signals": [
+        "Boutique partenaires Maxi Trouvaille",
+        "Paiement sécurisé",
+        "suivi colis",
+        "partenaire logistique",
+        "CustomerJourneyPanel",
+        "CustomerSupportQuickLinks",
+        "/paiement",
+        "/suivi-colis",
+        "/contact"
+      ]
+    },
+    {
+      "file": "src/app/panier/page.tsx",
+      "signals": [
+        "Panier sous garde",
+        "Aucun article non prouvé",
+        "Achat verrouillé",
+        "CustomerJourneyPanel",
+        "CustomerSupportQuickLinks",
+        "CartView"
+      ]
+    },
+    {
+      "file": "src/app/paiement/page.tsx",
+      "signals": [
+        "Paiement Maxi Trouvaille",
+        "0 produit achetable sans preuve",
+        "index: false",
+        "CustomerJourneyPanel",
+        "CustomerSupportQuickLinks",
+        "CheckoutView"
+      ]
+    },
+    {
+      "file": "src/app/suivi-colis/page.tsx",
+      "signals": [
+        "Suivi colis",
+        "ServiceReadinessPanel",
+        "CustomerJourneyPanel",
+        "CustomerSupportQuickLinks",
+        "TrackingLookupForm"
+      ]
+    },
+    {
+      "file": "src/app/contact/page.tsx",
+      "signals": [
+        "Service client",
+        "Maxi Trouvaille reste le point de contact",
+        "ServiceReadinessPanel",
+        "CustomerJourneyPanel",
+        "CustomerSupportQuickLinks",
+        "/suivi-colis",
+        "/paiement",
+        "/produits-partenaires"
+      ]
+    },
+    {
+      "file": "src/components/CartView.tsx",
+      "signals": [
+        "Panier prêt, paiement contrôlé",
+        "paiement Maxi Trouvaille",
+        "/produits-partenaires",
+        "/suivi-colis",
+        "/api/checkout",
+        "isClientProductPurchasable"
+      ]
+    },
+    {
+      "file": "src/components/CheckoutView.tsx",
+      "signals": [
+        "Paiement Maxi Trouvaille prêt",
+        "Le paiement s&apos;ouvre seulement",
+        "/produits-partenaires",
+        "/suivi-colis",
+        "/api/checkout",
+        "isClientProductPurchasable"
+      ]
+    },
+    {
+      "file": "src/components/CustomerJourneyPanel.tsx",
+      "signals": [
+        "Parcours client",
+        "Paiement Maxi Trouvaille",
+        "Suivi colis",
+        "/boutique",
+        "/contact"
+      ]
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "signals": [
+        "Support client Maxi Trouvaille",
+        "/suivi-colis",
+        "/paiement",
+        "/livraison",
+        "/retours-remboursements",
+        "/faq",
+        "/contact"
+      ]
+    },
+    {
+      "file": "src/components/MobileDemoNav.tsx",
+      "signals": [
+        "/boutique",
+        "/produits-partenaires",
+        "/nouveautes",
+        "/promotions",
+        "/suivi-colis",
+        "Navigation rapide mobile"
+      ]
+    },
+    {
+      "file": "src/components/TrackingLookupForm.tsx",
+      "signals": [
+        "Suivre un colis",
+        "Entrez le numéro transmis par Maxi Trouvaille",
+        "service client Maxi Trouvaille"
+      ]
+    }
+  ],
+  "requiredFlowLinks": [
+    {
+      "from": "src/app/page.tsx",
+      "href": "/boutique",
+      "label": "Accueil vers boutique"
+    },
+    {
+      "from": "src/app/page.tsx",
+      "href": "/produits-partenaires",
+      "label": "Accueil vers produits partenaires"
+    },
+    {
+      "from": "src/app/produits-partenaires/page.tsx",
+      "href": "/paiement",
+      "label": "Partenaires vers paiement garde"
+    },
+    {
+      "from": "src/app/produits-partenaires/page.tsx",
+      "href": "/suivi-colis",
+      "label": "Partenaires vers suivi colis"
+    },
+    {
+      "from": "src/app/produits-partenaires/page.tsx",
+      "href": "/contact",
+      "label": "Partenaires vers service client"
+    },
+    {
+      "from": "src/components/CartView.tsx",
+      "href": "/produits-partenaires",
+      "label": "Panier vide vers rayons partenaires"
+    },
+    {
+      "from": "src/components/CheckoutView.tsx",
+      "href": "/produits-partenaires",
+      "label": "Paiement vide vers rayons partenaires"
+    },
+    {
+      "from": "src/components/CustomerSupportQuickLinks.tsx",
+      "href": "/contact",
+      "label": "Support vers contact"
+    }
+  ],
+  "forbiddenHrefPrefixes": [
+    "/admin",
+    "/api",
+    "/dropshipping",
+    "/conditions-dropshipping",
+    "/deposer-annonce",
+    "/vendre"
+  ],
+  "forbiddenSensitiveSignals": [
+    "AliExpress",
+    "Temu",
+    "supplier",
+    "seller",
+    "marketplace",
+    "source fournisseur",
+    "prix fournisseur",
+    "lien fournisseur",
+    "Stripe",
+    "mailto:"
+  ],
+  "detectedSignals": [
+    {
+      "file": "src/app/page.tsx",
+      "signal": "Maxi Trouvaille",
+      "line": 44
+    },
+    {
+      "file": "src/app/page.tsx",
+      "signal": "/boutique",
+      "line": 111
+    },
+    {
+      "file": "src/app/page.tsx",
+      "signal": "/produits-partenaires",
+      "line": 118
+    },
+    {
+      "file": "src/app/page.tsx",
+      "signal": "/suivi-colis",
+      "line": 67
+    },
+    {
+      "file": "src/app/page.tsx",
+      "signal": "Paiement Maxi Trouvaille",
+      "line": 58
+    },
+    {
+      "file": "src/app/page.tsx",
+      "signal": "MobilePresentationPathPanel",
+      "line": 15
+    },
+    {
+      "file": "src/app/page.tsx",
+      "signal": "CustomerSupportQuickLinks",
+      "line": 13
+    },
+    {
+      "file": "src/app/boutique/page.tsx",
+      "signal": "Boutique partenaires",
+      "line": 57
+    },
+    {
+      "file": "src/app/boutique/page.tsx",
+      "signal": "MobilePresentationPathPanel",
+      "line": 5
+    },
+    {
+      "file": "src/app/boutique/page.tsx",
+      "signal": "PartnerDemoPathPanel",
+      "line": 10
+    },
+    {
+      "file": "src/app/boutique/page.tsx",
+      "signal": "PartnerMobileShowcasePanel",
+      "line": 13
+    },
+    {
+      "file": "src/app/boutique/page.tsx",
+      "signal": "StorefrontReadinessPanel",
+      "line": 15
+    },
+    {
+      "file": "src/app/boutique/page.tsx",
+      "signal": "ShopProductExplorer",
+      "line": 14
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "signal": "Boutique partenaires Maxi Trouvaille",
+      "line": 114
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "signal": "Paiement sécurisé",
+      "line": 136
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "signal": "suivi colis",
+      "line": 50
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "signal": "partenaire logistique",
+      "line": 115
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "signal": "CustomerJourneyPanel",
+      "line": 18
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "signal": "CustomerSupportQuickLinks",
+      "line": 19
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "signal": "/paiement",
+      "line": 285
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "signal": "/suivi-colis",
+      "line": 292
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "signal": "/contact",
+      "line": 299
+    },
+    {
+      "file": "src/app/panier/page.tsx",
+      "signal": "Panier sous garde",
+      "line": 58
+    },
+    {
+      "file": "src/app/panier/page.tsx",
+      "signal": "Aucun article non prouvé",
+      "line": 60
+    },
+    {
+      "file": "src/app/panier/page.tsx",
+      "signal": "Achat verrouillé",
+      "line": 72
+    },
+    {
+      "file": "src/app/panier/page.tsx",
+      "signal": "CustomerJourneyPanel",
+      "line": 4
+    },
+    {
+      "file": "src/app/panier/page.tsx",
+      "signal": "CustomerSupportQuickLinks",
+      "line": 5
+    },
+    {
+      "file": "src/app/panier/page.tsx",
+      "signal": "CartView",
+      "line": 3
+    },
+    {
+      "file": "src/app/paiement/page.tsx",
+      "signal": "Paiement Maxi Trouvaille",
+      "line": 13
+    },
+    {
+      "file": "src/app/paiement/page.tsx",
+      "signal": "0 produit achetable sans preuve",
+      "line": 58
+    },
+    {
+      "file": "src/app/paiement/page.tsx",
+      "signal": "index: false",
+      "line": 15
+    },
+    {
+      "file": "src/app/paiement/page.tsx",
+      "signal": "CustomerJourneyPanel",
+      "line": 4
+    },
+    {
+      "file": "src/app/paiement/page.tsx",
+      "signal": "CustomerSupportQuickLinks",
+      "line": 5
+    },
+    {
+      "file": "src/app/paiement/page.tsx",
+      "signal": "CheckoutView",
+      "line": 3
+    },
+    {
+      "file": "src/app/suivi-colis/page.tsx",
+      "signal": "Suivi colis",
+      "line": 34
+    },
+    {
+      "file": "src/app/suivi-colis/page.tsx",
+      "signal": "ServiceReadinessPanel",
+      "line": 6
+    },
+    {
+      "file": "src/app/suivi-colis/page.tsx",
+      "signal": "CustomerJourneyPanel",
+      "line": 3
+    },
+    {
+      "file": "src/app/suivi-colis/page.tsx",
+      "signal": "CustomerSupportQuickLinks",
+      "line": 4
+    },
+    {
+      "file": "src/app/suivi-colis/page.tsx",
+      "signal": "TrackingLookupForm",
+      "line": 7
+    },
+    {
+      "file": "src/app/contact/page.tsx",
+      "signal": "Service client",
+      "line": 20
+    },
+    {
+      "file": "src/app/contact/page.tsx",
+      "signal": "Maxi Trouvaille reste le point de contact",
+      "line": 64
+    },
+    {
+      "file": "src/app/contact/page.tsx",
+      "signal": "ServiceReadinessPanel",
+      "line": 16
+    },
+    {
+      "file": "src/app/contact/page.tsx",
+      "signal": "CustomerJourneyPanel",
+      "line": 14
+    },
+    {
+      "file": "src/app/contact/page.tsx",
+      "signal": "CustomerSupportQuickLinks",
+      "line": 15
+    },
+    {
+      "file": "src/app/contact/page.tsx",
+      "signal": "/suivi-colis",
+      "line": 38
+    },
+    {
+      "file": "src/app/contact/page.tsx",
+      "signal": "/paiement",
+      "line": 45
+    },
+    {
+      "file": "src/app/contact/page.tsx",
+      "signal": "/produits-partenaires",
+      "line": 52
+    },
+    {
+      "file": "src/components/CartView.tsx",
+      "signal": "Panier prêt, paiement contrôlé",
+      "line": 128
+    },
+    {
+      "file": "src/components/CartView.tsx",
+      "signal": "paiement Maxi Trouvaille",
+      "line": 132
+    },
+    {
+      "file": "src/components/CartView.tsx",
+      "signal": "/produits-partenaires",
+      "line": 136
+    },
+    {
+      "file": "src/components/CartView.tsx",
+      "signal": "/suivi-colis",
+      "line": 143
+    },
+    {
+      "file": "src/components/CartView.tsx",
+      "signal": "/api/checkout",
+      "line": 97
+    },
+    {
+      "file": "src/components/CartView.tsx",
+      "signal": "isClientProductPurchasable",
+      "line": 24
+    },
+    {
+      "file": "src/components/CheckoutView.tsx",
+      "signal": "Paiement Maxi Trouvaille prêt",
+      "line": 118
+    },
+    {
+      "file": "src/components/CheckoutView.tsx",
+      "signal": "Le paiement s&apos;ouvre seulement",
+      "line": 120
+    },
+    {
+      "file": "src/components/CheckoutView.tsx",
+      "signal": "/produits-partenaires",
+      "line": 126
+    },
+    {
+      "file": "src/components/CheckoutView.tsx",
+      "signal": "/suivi-colis",
+      "line": 133
+    },
+    {
+      "file": "src/components/CheckoutView.tsx",
+      "signal": "/api/checkout",
+      "line": 88
+    },
+    {
+      "file": "src/components/CheckoutView.tsx",
+      "signal": "isClientProductPurchasable",
+      "line": 17
+    },
+    {
+      "file": "src/components/CustomerJourneyPanel.tsx",
+      "signal": "Parcours client",
+      "line": 49
+    },
+    {
+      "file": "src/components/CustomerJourneyPanel.tsx",
+      "signal": "Paiement Maxi Trouvaille",
+      "line": 27
+    },
+    {
+      "file": "src/components/CustomerJourneyPanel.tsx",
+      "signal": "Suivi colis",
+      "line": 37
+    },
+    {
+      "file": "src/components/CustomerJourneyPanel.tsx",
+      "signal": "/boutique",
+      "line": 61
+    },
+    {
+      "file": "src/components/CustomerJourneyPanel.tsx",
+      "signal": "/contact",
+      "line": 68
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "signal": "Support client Maxi Trouvaille",
+      "line": 73
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "signal": "/suivi-colis",
+      "line": 22
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "signal": "/paiement",
+      "line": 29
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "signal": "/livraison",
+      "line": 36
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "signal": "/retours-remboursements",
+      "line": 43
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "signal": "/faq",
+      "line": 50
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "signal": "/contact",
+      "line": 57
+    },
+    {
+      "file": "src/components/MobileDemoNav.tsx",
+      "signal": "/boutique",
+      "line": 16
+    },
+    {
+      "file": "src/components/MobileDemoNav.tsx",
+      "signal": "/produits-partenaires",
+      "line": 22
+    },
+    {
+      "file": "src/components/MobileDemoNav.tsx",
+      "signal": "/nouveautes",
+      "line": 28
+    },
+    {
+      "file": "src/components/MobileDemoNav.tsx",
+      "signal": "/promotions",
+      "line": 34
+    },
+    {
+      "file": "src/components/MobileDemoNav.tsx",
+      "signal": "/suivi-colis",
+      "line": 40
+    },
+    {
+      "file": "src/components/MobileDemoNav.tsx",
+      "signal": "Navigation rapide mobile",
+      "line": 63
+    },
+    {
+      "file": "src/components/TrackingLookupForm.tsx",
+      "signal": "Suivre un colis",
+      "line": 30
+    },
+    {
+      "file": "src/components/TrackingLookupForm.tsx",
+      "signal": "Entrez le numéro transmis par Maxi Trouvaille",
+      "line": 9
+    },
+    {
+      "file": "src/components/TrackingLookupForm.tsx",
+      "signal": "service client Maxi Trouvaille",
+      "line": 19
+    }
+  ],
+  "detectedSignalCount": 80,
+  "detectedFlowLinks": [
+    {
+      "file": "src/app/page.tsx",
+      "href": "/boutique",
+      "label": "Accueil vers boutique",
+      "line": 111
+    },
+    {
+      "file": "src/app/page.tsx",
+      "href": "/produits-partenaires",
+      "label": "Accueil vers produits partenaires",
+      "line": 118
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "href": "/paiement",
+      "label": "Partenaires vers paiement garde",
+      "line": 285
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "href": "/suivi-colis",
+      "label": "Partenaires vers suivi colis",
+      "line": 292
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "href": "/contact",
+      "label": "Partenaires vers service client",
+      "line": 299
+    },
+    {
+      "file": "src/components/CartView.tsx",
+      "href": "/produits-partenaires",
+      "label": "Panier vide vers rayons partenaires",
+      "line": 136
+    },
+    {
+      "file": "src/components/CheckoutView.tsx",
+      "href": "/produits-partenaires",
+      "label": "Paiement vide vers rayons partenaires",
+      "line": 126
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "href": "/contact",
+      "label": "Support vers contact",
+      "line": 57
+    }
+  ],
+  "detectedFlowLinkCount": 8,
+  "hrefs": [
+    {
+      "file": "src/app/page.tsx",
+      "value": "/categories",
+      "line": 53
+    },
+    {
+      "file": "src/app/page.tsx",
+      "value": "/paiement",
+      "line": 60
+    },
+    {
+      "file": "src/app/page.tsx",
+      "value": "/suivi-colis",
+      "line": 67
+    },
+    {
+      "file": "src/app/page.tsx",
+      "value": "/contact",
+      "line": 74
+    },
+    {
+      "file": "src/app/page.tsx",
+      "value": "/boutique",
+      "line": 111
+    },
+    {
+      "file": "src/app/page.tsx",
+      "value": "/produits-partenaires",
+      "line": 118
+    },
+    {
+      "file": "src/app/page.tsx",
+      "value": "/suivi-colis",
+      "line": 124
+    },
+    {
+      "file": "src/app/page.tsx",
+      "value": "/boutique",
+      "line": 255
+    },
+    {
+      "file": "src/app/page.tsx",
+      "value": "/produits-partenaires",
+      "line": 292
+    },
+    {
+      "file": "src/app/page.tsx",
+      "value": "/produits-partenaires",
+      "line": 339
+    },
+    {
+      "file": "src/app/page.tsx",
+      "value": "/paiement",
+      "line": 344
+    },
+    {
+      "file": "src/app/page.tsx",
+      "value": "/suivi-colis",
+      "line": 349
+    },
+    {
+      "file": "src/app/boutique/page.tsx",
+      "value": "/categories",
+      "line": 79
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "value": "/nouveautes",
+      "line": 85
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "value": "/promotions",
+      "line": 91
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "value": "/categories/maison-partenaires",
+      "line": 97
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "value": "/categories/high-tech-partenaires",
+      "line": 103
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "value": "/categories/produits-partenaires",
+      "line": 194
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "value": "/paiement",
+      "line": 285
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "value": "/suivi-colis",
+      "line": 292
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "value": "/contact",
+      "line": 299
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "value": "/categories/produits-partenaires",
+      "line": 347
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "value": "/paiement",
+      "line": 352
+    },
+    {
+      "file": "src/app/produits-partenaires/page.tsx",
+      "value": "/suivi-colis",
+      "line": 357
+    },
+    {
+      "file": "src/app/contact/page.tsx",
+      "value": "/suivi-colis",
+      "line": 38
+    },
+    {
+      "file": "src/app/contact/page.tsx",
+      "value": "/paiement",
+      "line": 45
+    },
+    {
+      "file": "src/app/contact/page.tsx",
+      "value": "/produits-partenaires",
+      "line": 52
+    },
+    {
+      "file": "src/components/CartView.tsx",
+      "value": "/produits-partenaires",
+      "line": 136
+    },
+    {
+      "file": "src/components/CartView.tsx",
+      "value": "/suivi-colis",
+      "line": 143
+    },
+    {
+      "file": "src/components/CartView.tsx",
+      "value": "/boutique",
+      "line": 303
+    },
+    {
+      "file": "src/components/CheckoutView.tsx",
+      "value": "/produits-partenaires",
+      "line": 126
+    },
+    {
+      "file": "src/components/CheckoutView.tsx",
+      "value": "/suivi-colis",
+      "line": 133
+    },
+    {
+      "file": "src/components/CustomerJourneyPanel.tsx",
+      "value": "/boutique",
+      "line": 61
+    },
+    {
+      "file": "src/components/CustomerJourneyPanel.tsx",
+      "value": "/contact",
+      "line": 68
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "value": "/suivi-colis",
+      "line": 22
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "value": "/paiement",
+      "line": 29
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "value": "/livraison",
+      "line": 36
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "value": "/retours-remboursements",
+      "line": 43
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "value": "/faq",
+      "line": 50
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "value": "/contact",
+      "line": 57
+    },
+    {
+      "file": "src/components/MobileDemoNav.tsx",
+      "value": "/boutique",
+      "line": 16
+    },
+    {
+      "file": "src/components/MobileDemoNav.tsx",
+      "value": "/produits-partenaires",
+      "line": 22
+    },
+    {
+      "file": "src/components/MobileDemoNav.tsx",
+      "value": "/nouveautes",
+      "line": 28
+    },
+    {
+      "file": "src/components/MobileDemoNav.tsx",
+      "value": "/promotions",
+      "line": 34
+    },
+    {
+      "file": "src/components/MobileDemoNav.tsx",
+      "value": "/suivi-colis",
+      "line": 40
+    }
+  ],
+  "hrefCount": 45,
+  "findingCount": 0,
+  "findings": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true,
+    "noExternalRequest": true
+  },
+  "outputFiles": {
+    "json": "business-maxi-trouvailles/tableaux-action/audit-public-mobile-journey-20260619/AUDIT_PUBLIC_MOBILE_JOURNEY_20260619.json",
+    "md": "business-maxi-trouvailles/tableaux-action/audit-public-mobile-journey-20260619/AUDIT_PUBLIC_MOBILE_JOURNEY_20260619.md",
+    "csv": "business-maxi-trouvailles/tableaux-action/audit-public-mobile-journey-20260619/maxi-audit-public-mobile-journey-20260619.csv"
+  }
+}

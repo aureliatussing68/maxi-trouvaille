@@ -1,0 +1,37 @@
+{
+  "checked_at": "2026-06-09 18:00:59",
+  "ok": true,
+  "project_path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille",
+  "latest_candidates_path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\latest_candidates.json",
+  "latest_candidates_mode": "demo_local_no_scraping",
+  "source_mode": "demo",
+  "candidate_count": 10,
+  "demo_source_count": 10,
+  "real_source_count": 0,
+  "key_statuses": [
+    {
+      "variable": "ALIEXPRESS_APP_KEY",
+      "status": "PARTIEL"
+    },
+    {
+      "variable": "ALIEXPRESS_APP_SECRET",
+      "status": "OK"
+    },
+    {
+      "variable": "ALIEXPRESS_TRACKING_ID",
+      "status": "MANQUANT"
+    }
+  ],
+  "aliexpress_api_ready": false,
+  "real_sourcing_ready": false,
+  "short_message": "Sourcing actuel: demo, produits encore en demo ou incomplets, aucun achat/publication.",
+  "operator_message": "Les derniers produits sont encore en mode demo ou sourcing incomplet.",
+  "safety": {
+    "read_only": true,
+    "scraping_started": false,
+    "order_started": false,
+    "publication_started": false,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-12T04:33:36.806Z",
+  "generatedAtLocal": "2026-06-12 06:33 Europe/Paris",
+  "mode": "read_only_public_image_action_board_audit",
+  "boardDir": "business-maxi-trouvailles/tableaux-action/public-image-action-board-20260612",
+  "boardJson": "business-maxi-trouvailles/tableaux-action/public-image-action-board-20260612/PUBLIC_IMAGE_ACTION_BOARD_20260612.json",
+  "failures": [],
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noImageDownload": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noExternalApiCall": true
+  }
+}

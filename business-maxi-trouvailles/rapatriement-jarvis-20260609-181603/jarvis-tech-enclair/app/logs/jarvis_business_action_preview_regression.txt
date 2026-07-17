@@ -1,0 +1,15 @@
+Regression apercu action business - 2026-05-24 08:57:04
+Global: OK
+Message executeur: Apercu business pret: Recherche produits gagnants brouillon, aucun job lance, validation avant action sensible.
+
+- json_written: OK
+- txt_written: OK
+- all_actions_detected: OK
+- no_job_started: OK
+- txt_mentions_short_message: OK
+- route_business_action_preview: OK
+- execute_business_action_preview: OK
+- executor_uses_short_message: OK
+- no_secret_like_value_in_text: OK
+
+Securite: lecture seule, preview uniquement, aucun secret, aucun job lance.

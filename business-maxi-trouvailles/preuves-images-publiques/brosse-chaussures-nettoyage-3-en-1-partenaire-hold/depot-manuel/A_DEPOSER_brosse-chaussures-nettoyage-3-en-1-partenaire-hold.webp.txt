@@ -1,0 +1,8 @@
+Image attendue pour: Brosse chaussures nettoyage 3 en 1
+Nom fichier WebP attendu: brosse-chaussures-nettoyage-3-en-1-partenaire-hold.webp
+Chemin public apres validation humaine: /uploads/partner-products/brosse-chaussures-nettoyage-3-en-1-partenaire-hold.webp
+
+Ne pas remplacer ce marqueur par un faux visuel.
+Deposer ici la photo WebP exacte uniquement apres verification manuelle.
+Aucune copie vers public/uploads/partner-products sans validation Mouss.
+

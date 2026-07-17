@@ -1,0 +1,58 @@
+{
+  "id": "draft_1779367409799_produit-fictif-organisateur-malin-de-bureau",
+  "sourceCandidateId": "candidate_1779367409796_1",
+  "status": "brouillon_validation_humaine",
+  "publicationStatus": "not_published",
+  "title": "Produit fictif - organisateur malin de bureau",
+  "slug": "produit-fictif-organisateur-malin-de-bureau",
+  "category": "maison",
+  "shortDescription": "Produit fictif - organisateur malin de bureau selectionne pour une offre Maxi Trouvailles a verifier avant publication.",
+  "longDescription": "Produit fictif - organisateur malin de bureau est une idee produit preparee pour Maxi Trouvailles.\n\nCette fiche est un brouillon : le fournisseur, la conformite, le stock, le delai de livraison et les visuels doivent etre valides avant toute mise en ligne.\n\nLe positionnement conseille est simple : produit pratique, demonstration rapide, prix promo clair et promesse honnete.",
+  "benefits": [
+    "Produit facile a comprendre en video courte.",
+    "Prix psychologique adapte a une offre promo.",
+    "Format utile au quotidien."
+  ],
+  "features": [
+    "Categorie conseillee : maison",
+    "Prix fournisseur estime : 5,90 €",
+    "Livraison : Europe 5 a 9 jours apres verification fournisseur",
+    "Source : Fournisseur demo non reel"
+  ],
+  "supplier": {
+    "name": "Fournisseur demo non reel",
+    "url": "manual://demo/produit-fictif",
+    "price": "5,90 €",
+    "deliveryEstimate": "Europe 5 a 9 jours apres verification fournisseur",
+    "rating": 4.6
+  },
+  "pricing": {
+    "supplierPrice": "5,90 €",
+    "promoPrice": "14,90 €",
+    "crossedPrice": "20,90 €",
+    "estimatedMargin": "9,00 €",
+    "marginRate": 0.6,
+    "note": "Prix indicatifs a valider avec le cout reel fournisseur, livraison, retours et taxes."
+  },
+  "seo": {
+    "tags": [
+      "maison",
+      "bon plan",
+      "maxi trouvailles",
+      "livraison europe",
+      "produit pratique"
+    ],
+    "metaTitle": "Produit fictif - organisateur malin de bureau | Maxi Trouvailles",
+    "metaDescription": "Decouvrez Produit fictif - organisateur malin de bureau chez Maxi Trouvailles. Fiche en brouillon, livraison et stock a confirmer avant publication."
+  },
+  "legal": {
+    "deliveryText": "Delai indicatif a confirmer avant publication. Ne pas promettre un delai non garanti.",
+    "returnsText": "Retour/SAV a traiter selon les conditions Maxi Trouvailles et la legislation applicable.",
+    "safetyCheck": [
+      "Aucun risque bloqueur detecte dans le brouillon."
+    ]
+  },
+  "adIdea": "Bureau en bazar puis avant/apres rangement rapide.",
+  "createdAt": "2026-05-21T12:43:29.799Z",
+  "validationRequired": true
+}

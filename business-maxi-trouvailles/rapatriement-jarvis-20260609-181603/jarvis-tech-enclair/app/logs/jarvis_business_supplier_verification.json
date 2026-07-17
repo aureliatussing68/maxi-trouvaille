@@ -1,0 +1,136 @@
+{
+  "checked_at": "2026-06-09 18:00:59",
+  "ok": true,
+  "short_message": "Plan fournisseurs: 5 produit(s), 0 source(s) reelle(s), aucune recherche lancee.",
+  "selected_count": 5,
+  "real_source_count": 0,
+  "demo_count": 10,
+  "rows": [
+    {
+      "candidate_id": "candidate_1779461503071_1",
+      "name": "Organisateur de cables de voyage compact",
+      "target_category_id": "dropshipping-accessoires",
+      "supplier_price": "3,90 €",
+      "sale_price": "12,90 €",
+      "source_kind": "demo",
+      "search_query": "Organisateur de cables de voyage compact accessoires livraison Europe",
+      "must_find_real_supplier_url": true,
+      "risk_hint": "Verifier robustesse, dimensions et utilite visuelle pour pub courte.",
+      "checks": [
+        "Trouver un vrai lien fournisseur AliExpress ou partenaire Europe.",
+        "Verifier livraison Europe rapide et delai annonce clairement.",
+        "Verifier note produit et vendeur avant import.",
+        "Verifier que le produit n'est pas dangereux, medical, contrefait ou reglemente.",
+        "Verifier images utilisables et qualite suffisante.",
+        "Verifier marge apres frais, retours et publicite.",
+        "Garder le produit en brouillon tant que Mouss n'a pas valide."
+      ],
+      "next_status_if_ok": "pret_fiche_brouillon",
+      "next_status_if_ko": "rejeter_ou_remplacer",
+      "manual_validation_required": true
+    },
+    {
+      "candidate_id": "candidate_1779461503071_7",
+      "name": "Sac de rangement compressible pour valise",
+      "target_category_id": "dropshipping-accessoires",
+      "supplier_price": "4,80 €",
+      "sale_price": "13,90 €",
+      "source_kind": "demo",
+      "search_query": "Sac de rangement compressible pour valise accessoires livraison Europe",
+      "must_find_real_supplier_url": true,
+      "risk_hint": "Verifier robustesse, dimensions et utilite visuelle pour pub courte.",
+      "checks": [
+        "Trouver un vrai lien fournisseur AliExpress ou partenaire Europe.",
+        "Verifier livraison Europe rapide et delai annonce clairement.",
+        "Verifier note produit et vendeur avant import.",
+        "Verifier que le produit n'est pas dangereux, medical, contrefait ou reglemente.",
+        "Verifier images utilisables et qualite suffisante.",
+        "Verifier marge apres frais, retours et publicite.",
+        "Garder le produit en brouillon tant que Mouss n'a pas valide."
+      ],
+      "next_status_if_ok": "pret_fiche_brouillon",
+      "next_status_if_ko": "rejeter_ou_remplacer",
+      "manual_validation_required": true
+    },
+    {
+      "candidate_id": "candidate_1779461503071_8",
+      "name": "Veilleuse detecteur de mouvement pour placard",
+      "target_category_id": "dropshipping-high-tech",
+      "supplier_price": "5,20 €",
+      "sale_price": "14,90 €",
+      "source_kind": "demo",
+      "search_query": "Veilleuse detecteur de mouvement pour placard electricite livraison Europe",
+      "must_find_real_supplier_url": true,
+      "risk_hint": "Verifier normes, batterie, charge, CE et risques electriques.",
+      "checks": [
+        "Trouver un vrai lien fournisseur AliExpress ou partenaire Europe.",
+        "Verifier livraison Europe rapide et delai annonce clairement.",
+        "Verifier note produit et vendeur avant import.",
+        "Verifier que le produit n'est pas dangereux, medical, contrefait ou reglemente.",
+        "Verifier images utilisables et qualite suffisante.",
+        "Verifier marge apres frais, retours et publicite.",
+        "Garder le produit en brouillon tant que Mouss n'a pas valide."
+      ],
+      "next_status_if_ok": "pret_fiche_brouillon",
+      "next_status_if_ko": "rejeter_ou_remplacer",
+      "manual_validation_required": true
+    },
+    {
+      "candidate_id": "candidate_1779461503071_0",
+      "name": "Lampe LED rechargeable magnetique pour bureau",
+      "target_category_id": "dropshipping-maison",
+      "supplier_price": "7,90 €",
+      "sale_price": "17,90 €",
+      "source_kind": "demo",
+      "search_query": "Lampe LED rechargeable magnetique pour bureau maison livraison Europe",
+      "must_find_real_supplier_url": true,
+      "risk_hint": "Verifier dimensions, matiere et photos avant/apres honnetes.",
+      "checks": [
+        "Trouver un vrai lien fournisseur AliExpress ou partenaire Europe.",
+        "Verifier livraison Europe rapide et delai annonce clairement.",
+        "Verifier note produit et vendeur avant import.",
+        "Verifier que le produit n'est pas dangereux, medical, contrefait ou reglemente.",
+        "Verifier images utilisables et qualite suffisante.",
+        "Verifier marge apres frais, retours et publicite.",
+        "Garder le produit en brouillon tant que Mouss n'a pas valide."
+      ],
+      "next_status_if_ok": "pret_fiche_brouillon",
+      "next_status_if_ko": "rejeter_ou_remplacer",
+      "manual_validation_required": true
+    },
+    {
+      "candidate_id": "candidate_1779461503071_2",
+      "name": "Mini aspirateur sans fil pour voiture",
+      "target_category_id": "dropshipping-auto-moto",
+      "supplier_price": "12,90 €",
+      "sale_price": "29,90 €",
+      "source_kind": "demo",
+      "search_query": "Mini aspirateur sans fil pour voiture auto-moto livraison Europe",
+      "must_find_real_supplier_url": true,
+      "risk_hint": "Verifier securite conduite, compatibilite vehicule et responsabilite.",
+      "checks": [
+        "Trouver un vrai lien fournisseur AliExpress ou partenaire Europe.",
+        "Verifier livraison Europe rapide et delai annonce clairement.",
+        "Verifier note produit et vendeur avant import.",
+        "Verifier que le produit n'est pas dangereux, medical, contrefait ou reglemente.",
+        "Verifier images utilisables et qualite suffisante.",
+        "Verifier marge apres frais, retours et publicite.",
+        "Garder le produit en brouillon tant que Mouss n'a pas valide."
+      ],
+      "next_status_if_ok": "pret_fiche_brouillon",
+      "next_status_if_ko": "rejeter_ou_remplacer",
+      "manual_validation_required": true
+    }
+  ],
+  "operator_message": "Plan fournisseur pret. Aucune recherche web, achat, commande ou publication n'a ete lancee.",
+  "safety": {
+    "read_only": true,
+    "no_web_search_started": true,
+    "no_import": true,
+    "no_order": true,
+    "no_payment": true,
+    "no_publication": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  }
+}

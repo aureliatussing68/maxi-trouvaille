@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "url": "http://localhost:3051/admin/pilotage",
+  "checks": {
+    "exportVisible": true,
+    "downloadName": "maxi-pilotage-hold-du-jour.csv",
+    "hrefIsDataCsv": true,
+    "csvHasTypeLigne": true,
+    "csvHasLienAdmin": true,
+    "csvHasZone": true,
+    "csvHasSprint": true,
+    "csvHasInternalProofLinks": true,
+    "csvNoAliExpress": true,
+    "csvNoSupplierUrlField": true,
+    "progressionVisible": true,
+    "sprintVisible": true,
+    "desktopOverflowPx": 0,
+    "mobileExportVisible": true,
+    "mobileOverflowPx": 0
+  },
+  "consoleErrors": [],
+  "screenshots": {
+    "desktop": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-130-pilotage-export-recap-desktop.png",
+    "mobile": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-130-pilotage-export-recap-mobile.png"
+  }
+}

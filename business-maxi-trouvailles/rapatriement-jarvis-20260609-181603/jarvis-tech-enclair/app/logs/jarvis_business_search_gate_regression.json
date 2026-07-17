@@ -1,0 +1,30 @@
+{
+  "checked_at": "2026-06-03 18:16:17",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "gate_ok": true,
+    "draft_allowed": true,
+    "draft_only": true,
+    "key_statuses_present": true,
+    "key_statuses_only": true,
+    "short_message_present": true,
+    "txt_mentions_short_message": true,
+    "route_business_search_gate": true,
+    "execute_business_search_gate": true,
+    "executor_uses_short_message": true,
+    "read_only_check": true,
+    "no_auto_payment": true,
+    "no_auto_order": true,
+    "no_auto_publication": true,
+    "draft_only_safety": true,
+    "no_values_exposed": true,
+    "manual_validation_required": true,
+    "no_secret_like_value_in_text": true
+  },
+  "expected_source_mode": "demo_or_incomplete",
+  "short_message": "Recherche produits: brouillon uniquement, source demo_or_incomplete, AliExpress a configurer.",
+  "executor_message": "Recherche produits: brouillon uniquement, source demo_or_incomplete, AliExpress a configurer.",
+  "note": "Regression lecture seule du garde-fou recherche produits. Aucun sourcing, import, paiement ou publication n'est declenche."
+}

@@ -1,0 +1,29 @@
+Apercu action business Maxi - 2026-06-05 16:08:02
+
+Action: Recherche produits gagnants brouillon
+Mode operationnel: demo_draft_only
+Message court: Apercu business pret: Recherche produits gagnants brouillon, aucun job lance, validation avant action sensible.
+Preview seulement: OK
+Job lance: NON
+Sourcing reel pret: NON
+Message: Recherche possible en brouillon, mais le vrai sourcing AliExpress n'est pas pret.
+
+Etapes prevues:
+- Verifier le mode business et les variables manquantes.
+- Executer uniquement le job brouillon demande.
+- Ecrire les resultats dans business-maxi-trouvailles et les logs Jarvis.
+- Afficher un resume court a Mouss.
+- Attendre validation avant import, publication, achat ou paiement.
+
+Sorties attendues:
+- latest_candidates: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\latest_candidates.json
+- latest_product_sheet: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\fiches-produits\latest_product_sheet.json
+- latest_ads_manifest: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\exports-publicites\latest_ads_manifest.json
+- business_logs: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\logs
+- jarvis_logs: C:\Users\sinek\Desktop\Jarvis-TechEnClair\app\logs
+
+Variables a completer:
+- ALIEXPRESS_APP_KEY: PARTIEL
+- ALIEXPRESS_TRACKING_ID: MANQUANT
+
+Securite: aucun job lance, aucune publication, aucun achat, aucun paiement.

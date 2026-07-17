@@ -1,0 +1,217 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-12T06:18:32.885Z",
+  "generatedAtLocal": "2026-06-12 08:18 Europe/Paris",
+  "mode": "fixture_only_public_image_contract",
+  "source": "src/lib/catalog.ts",
+  "scenarioCount": 10,
+  "failureCount": 0,
+  "scenarios": [
+    {
+      "name": "partner_webp_exact_is_public_ready",
+      "imageKind": "partner-webp",
+      "ok": true,
+      "expectedImageBlockers": [],
+      "actualImageBlockers": [],
+      "expectedPublicBlockers": [],
+      "actualPublicBlockers": [],
+      "expectedPublic": true,
+      "actualPublic": true
+    },
+    {
+      "name": "quick_product_webp_exact_is_public_ready",
+      "imageKind": "quick-webp",
+      "ok": true,
+      "expectedImageBlockers": [],
+      "actualImageBlockers": [],
+      "expectedPublicBlockers": [],
+      "actualPublicBlockers": [],
+      "expectedPublic": true,
+      "actualPublic": true
+    },
+    {
+      "name": "remote_image_blocks_public",
+      "imageKind": "remote-redacted",
+      "ok": true,
+      "expectedImageBlockers": [
+        "image_remote_not_local",
+        "image_not_in_exact_product_depot",
+        "image_not_webp"
+      ],
+      "actualImageBlockers": [
+        "image_remote_not_local",
+        "image_not_in_exact_product_depot",
+        "image_not_webp"
+      ],
+      "expectedPublicBlockers": [
+        "image_remote_not_local"
+      ],
+      "actualPublicBlockers": [
+        "image_remote_not_local",
+        "image_not_in_exact_product_depot",
+        "image_not_webp"
+      ],
+      "expectedPublic": false,
+      "actualPublic": false
+    },
+    {
+      "name": "supplier_cdn_image_blocks_public",
+      "imageKind": "supplier-cdn-redacted",
+      "ok": true,
+      "expectedImageBlockers": [
+        "image_remote_not_local",
+        "supplier_cdn_image",
+        "image_not_in_exact_product_depot"
+      ],
+      "actualImageBlockers": [
+        "image_remote_not_local",
+        "supplier_cdn_image",
+        "image_not_in_exact_product_depot"
+      ],
+      "expectedPublicBlockers": [
+        "supplier_cdn_image"
+      ],
+      "actualPublicBlockers": [
+        "image_remote_not_local",
+        "supplier_cdn_image",
+        "image_not_in_exact_product_depot"
+      ],
+      "expectedPublic": false,
+      "actualPublic": false
+    },
+    {
+      "name": "category_image_blocks_product_public",
+      "imageKind": "category-webp",
+      "ok": true,
+      "expectedImageBlockers": [
+        "image_not_exact_product_photo",
+        "image_not_in_exact_product_depot"
+      ],
+      "actualImageBlockers": [
+        "image_not_exact_product_photo",
+        "image_not_in_exact_product_depot"
+      ],
+      "expectedPublicBlockers": [
+        "image_not_exact_product_photo"
+      ],
+      "actualPublicBlockers": [
+        "image_not_exact_product_photo",
+        "image_not_in_exact_product_depot"
+      ],
+      "expectedPublic": false,
+      "actualPublic": false
+    },
+    {
+      "name": "generated_product_image_blocks_public",
+      "imageKind": "generated-webp",
+      "ok": true,
+      "expectedImageBlockers": [
+        "image_not_exact_product_photo",
+        "image_not_in_exact_product_depot"
+      ],
+      "actualImageBlockers": [
+        "image_not_exact_product_photo",
+        "image_not_in_exact_product_depot"
+      ],
+      "expectedPublicBlockers": [
+        "image_not_exact_product_photo"
+      ],
+      "actualPublicBlockers": [
+        "image_not_exact_product_photo",
+        "image_not_in_exact_product_depot"
+      ],
+      "expectedPublic": false,
+      "actualPublic": false
+    },
+    {
+      "name": "placeholder_image_blocks_public",
+      "imageKind": "placeholder-webp",
+      "ok": true,
+      "expectedImageBlockers": [
+        "placeholder_or_hold_image"
+      ],
+      "actualImageBlockers": [
+        "placeholder_or_hold_image"
+      ],
+      "expectedPublicBlockers": [
+        "placeholder_or_hold_image"
+      ],
+      "actualPublicBlockers": [
+        "placeholder_or_hold_image"
+      ],
+      "expectedPublic": false,
+      "actualPublic": false
+    },
+    {
+      "name": "non_webp_product_image_blocks_public",
+      "imageKind": "partner-jpg",
+      "ok": true,
+      "expectedImageBlockers": [
+        "image_not_webp"
+      ],
+      "actualImageBlockers": [
+        "image_not_webp"
+      ],
+      "expectedPublicBlockers": [
+        "image_not_webp"
+      ],
+      "actualPublicBlockers": [
+        "image_not_webp"
+      ],
+      "expectedPublic": false,
+      "actualPublic": false
+    },
+    {
+      "name": "gallery_category_image_blocks_public_even_if_main_is_exact",
+      "imageKind": "gallery-mixed",
+      "ok": true,
+      "expectedImageBlockers": [
+        "image_not_exact_product_photo",
+        "image_not_in_exact_product_depot"
+      ],
+      "actualImageBlockers": [
+        "image_not_exact_product_photo",
+        "image_not_in_exact_product_depot"
+      ],
+      "expectedPublicBlockers": [
+        "image_not_exact_product_photo"
+      ],
+      "actualPublicBlockers": [
+        "image_not_exact_product_photo",
+        "image_not_in_exact_product_depot"
+      ],
+      "expectedPublic": false,
+      "actualPublic": false
+    },
+    {
+      "name": "image_validation_hold_blocks_public_even_with_local_webp",
+      "imageKind": "validation-hold",
+      "ok": true,
+      "expectedImageBlockers": [],
+      "actualImageBlockers": [],
+      "expectedPublicBlockers": [
+        "exact_images_not_verified"
+      ],
+      "actualPublicBlockers": [
+        "exact_images_not_verified"
+      ],
+      "expectedPublic": false,
+      "actualPublic": false
+    }
+  ],
+  "sensitiveExportCheck": {
+    "ok": true,
+    "failureCount": 0,
+    "failureLabels": []
+  },
+  "safety": {
+    "fixtureOnly": true,
+    "noRealProductsRead": true,
+    "noCatalogWrite": true,
+    "noImageDownload": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noPublication": true,
+    "noExternalApiCall": true
+  }
+}

@@ -1,0 +1,326 @@
+import fs from "node:fs";
+import path from "node:path";
+
+const root = process.cwd();
+const manifestPath = path.join(root, "src", "app", "manifest.ts");
+
+const requiredShortcuts = [
+  {
+    name: "Boutique",
+    url: "/boutique",
+  },
+  {
+    name: "Produits partenaires",
+    url: "/produits-partenaires",
+  },
+  {
+    name: "Nouveautes",
+    url: "/nouveautes",
+  },
+  {
+    name: "Promotions",
+    url: "/promotions",
+  },
+  {
+    name: "Suivi colis",
+    url: "/suivi-colis",
+  },
+];
+
+const forbiddenPublicCopy = [
+  "AliExpress",
+  "Temu",
+  "supplier",
+  "seller",
+  "marketplace",
+  "fournisseur",
+  "dropshipping",
+  "HOLD",
+  "Stripe",
+];
+
+const forbiddenShortcutUrls = [
+  "/admin",
+  "/api",
+  "/panier",
+  "/paiement",
+  "/dropshipping",
+  "/conditions-dropshipping",
+  "/vendre",
+  "/deposer-annonce",
+];
+
+function datePartsParis(date = new Date()) {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Europe/Paris",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(date);
+  const byType = Object.fromEntries(parts.map((part) => [part.type, part.value]));
+
+  return {
+    dateKey: `${byType.year}${byType.month}${byType.day}`,
+    localLabel: `${byType.year}-${byType.month}-${byType.day} ${byType.hour}:${byType.minute} Europe/Paris`,
+  };
+}
+
+function relativePath(filePath) {
+  return path.relative(root, filePath).replace(/\\/g, "/");
+}
+
+function lineOf(source, index) {
+  return source.slice(0, index).split(/\r?\n/).length;
+}
+
+function addFinding(findings, line, rule, detail) {
+  findings.push({
+    file: relativePath(manifestPath),
+    line,
+    rule,
+    detail,
+  });
+}
+
+function parsePropertyValues(source, propertyName) {
+  const pattern = new RegExp(`(?:^|[^\\w])${propertyName}\\s*:\\s*["']([^"']+)["']`, "g");
+  const values = [];
+
+  for (const match of source.matchAll(pattern)) {
+    values.push({
+      value: match[1],
+      line: lineOf(source, match.index ?? 0),
+    });
+  }
+
+  return values;
+}
+
+function hasStringLiteral(source, propertyName, expectedValue) {
+  const values = parsePropertyValues(source, propertyName);
+  return values.some((entry) => entry.value === expectedValue);
+}
+
+function auditManifest(source, findings) {
+  if (!hasStringLiteral(source, "name", "Maxi Trouvaille")) {
+    addFinding(findings, 1, "manifest_name_missing", "Le nom PWA Maxi Trouvaille doit rester present.");
+  }
+
+  if (!hasStringLiteral(source, "display", "standalone")) {
+    addFinding(findings, 1, "manifest_display_not_standalone", "Le mode PWA doit rester standalone.");
+  }
+
+  if (!hasStringLiteral(source, "orientation", "portrait-primary")) {
+    addFinding(findings, 1, "manifest_orientation_missing", "Le manifest mobile doit rester en portrait-primary.");
+  }
+
+  const urls = parsePropertyValues(source, "url");
+  const names = parsePropertyValues(source, "name");
+  const shortcutUrls = urls.map((entry) => entry.value);
+  const shortcutNames = names.map((entry) => entry.value);
+
+  for (const shortcut of requiredShortcuts) {
+    if (!shortcutNames.includes(shortcut.name)) {
+      addFinding(
+        findings,
+        1,
+        "manifest_shortcut_name_missing",
+        `Le raccourci ${shortcut.name} doit rester dans le manifest.`,
+      );
+    }
+
+    if (!shortcutUrls.includes(shortcut.url)) {
+      addFinding(
+        findings,
+        1,
+        "manifest_shortcut_url_missing",
+        `Le raccourci ${shortcut.url} doit rester dans le manifest.`,
+      );
+    }
+  }
+
+  for (const shortcutUrl of shortcutUrls) {
+    for (const forbiddenUrl of forbiddenShortcutUrls) {
+      if (shortcutUrl === forbiddenUrl || shortcutUrl.startsWith(`${forbiddenUrl}/`)) {
+        addFinding(
+          findings,
+          urls.find((entry) => entry.value === shortcutUrl)?.line ?? 1,
+          "manifest_shortcut_forbidden_url",
+          `${shortcutUrl} ne doit pas etre un raccourci PWA public.`,
+        );
+      }
+    }
+  }
+
+  const lowerSource = source.toLowerCase();
+  for (const forbiddenCopy of forbiddenPublicCopy) {
+    const index = lowerSource.indexOf(forbiddenCopy.toLowerCase());
+    if (index !== -1) {
+      addFinding(
+        findings,
+        lineOf(source, index),
+        "manifest_sensitive_public_copy",
+        `${forbiddenCopy} ne doit pas apparaitre dans le manifest public.`,
+      );
+    }
+  }
+
+  const iconCount = [...source.matchAll(/src:\s*["']\/icons\/icon-192\.png["']/g)].length;
+  if (iconCount < requiredShortcuts.length) {
+    addFinding(
+      findings,
+      1,
+      "manifest_shortcut_icon_missing",
+      "Chaque raccourci mobile doit garder une icone 192x192.",
+    );
+  }
+
+  return {
+    shortcutUrls,
+    shortcutNames,
+    iconCount,
+  };
+}
+
+function csvEscape(value) {
+  const text = String(value ?? "");
+  return `"${text.replace(/"/g, '""')}"`;
+}
+
+function toCsv(findings) {
+  const headers = ["file", "line", "rule", "detail"];
+  const rows = findings.map((finding) => headers.map((header) => csvEscape(finding[header])).join(","));
+
+  return `${headers.join(",")}\n${rows.join("\n")}${rows.length ? "\n" : ""}`;
+}
+
+function markdown(summary) {
+  const shortcutRows = summary.requiredShortcuts.map((shortcut) => {
+    const present = summary.shortcutUrls.includes(shortcut.url) && summary.shortcutNames.includes(shortcut.name);
+    return `| ${shortcut.name} | ${shortcut.url} | ${present ? "OK" : "MANQUANT"} |`;
+  });
+  const findingRows =
+    summary.findings.length === 0
+      ? ["| OK | - | - | Aucun ecart detecte |"]
+      : summary.findings.map(
+          (finding) => `| ${finding.rule} | ${finding.file} | ${finding.line} | ${finding.detail} |`,
+        );
+
+  return `${[
+    "# Audit manifest mobile",
+    "",
+    `Date locale: ${summary.generatedAtLocal}`,
+    "",
+    "## Synthese",
+    "",
+    `- Statut: ${summary.ok ? "OK" : "ECHEC"}`,
+    `- Raccourcis requis: ${summary.requiredShortcutCount}`,
+    `- URLs detectees: ${summary.shortcutUrlCount}`,
+    `- Alertes: ${summary.findingCount}`,
+    "",
+    "## Raccourcis requis",
+    "",
+    "| Nom | URL | Statut |",
+    "|---|---|---|",
+    ...shortcutRows,
+    "",
+    "## Alertes",
+    "",
+    "| Regle | Fichier | Ligne | Detail |",
+    "|---|---|---:|---|",
+    ...findingRows,
+    "",
+    "## Garde-fous",
+    "",
+    "- Lecture seule sur le catalogue.",
+    "- Aucun raccourci PWA vers panier, paiement, admin, API ou anciennes routes.",
+    "- Aucune publication, aucun paiement, aucune commande fournisseur.",
+    "",
+  ].join("\n")}\n`;
+}
+
+const { dateKey, localLabel } = datePartsParis();
+const findings = [];
+
+if (!fs.existsSync(manifestPath)) {
+  addFinding(findings, 1, "manifest_file_missing", "src/app/manifest.ts est introuvable.");
+}
+
+const source = fs.existsSync(manifestPath) ? fs.readFileSync(manifestPath, "utf8") : "";
+const audit = source
+  ? auditManifest(source, findings)
+  : {
+      shortcutUrls: [],
+      shortcutNames: [],
+      iconCount: 0,
+    };
+
+const outputDir = path.join(
+  root,
+  "business-maxi-trouvailles",
+  "tableaux-action",
+  `audit-manifest-mobile-${dateKey}`,
+);
+
+const summary = {
+  ok: findings.length === 0,
+  generatedAt: new Date().toISOString(),
+  generatedAtLocal: localLabel,
+  mode: "read_only_mobile_manifest_shortcut_audit",
+  manifestPath: relativePath(manifestPath),
+  requiredShortcuts,
+  requiredShortcutCount: requiredShortcuts.length,
+  shortcutNames: audit.shortcutNames,
+  shortcutUrls: audit.shortcutUrls,
+  shortcutUrlCount: audit.shortcutUrls.length,
+  shortcutIcon192Count: audit.iconCount,
+  findingCount: findings.length,
+  findings,
+  safety: {
+    readOnlyAudit: true,
+    noCatalogWrite: true,
+    noPublication: true,
+    noPayment: true,
+    noSupplierOrder: true,
+    noExternalRequest: true,
+  },
+};
+
+fs.mkdirSync(outputDir, { recursive: true });
+
+const jsonPath = path.join(outputDir, `AUDIT_MANIFEST_MOBILE_${dateKey}.json`);
+const mdPath = path.join(outputDir, `AUDIT_MANIFEST_MOBILE_${dateKey}.md`);
+const csvPath = path.join(outputDir, `maxi-audit-manifest-mobile-${dateKey}.csv`);
+
+summary.files = {
+  json: relativePath(jsonPath),
+  md: relativePath(mdPath),
+  csv: relativePath(csvPath),
+};
+
+fs.writeFileSync(jsonPath, `${JSON.stringify(summary, null, 2)}\n`, "utf8");
+fs.writeFileSync(mdPath, markdown(summary), "utf8");
+fs.writeFileSync(csvPath, toCsv(findings), "utf8");
+
+console.log(
+  JSON.stringify(
+    {
+      ok: summary.ok,
+      mode: summary.mode,
+      requiredShortcutCount: summary.requiredShortcutCount,
+      shortcutUrlCount: summary.shortcutUrlCount,
+      findingCount: summary.findingCount,
+      files: summary.files,
+      safety: summary.safety,
+    },
+    null,
+    2,
+  ),
+);
+
+if (!summary.ok) {
+  process.exitCode = 1;
+}

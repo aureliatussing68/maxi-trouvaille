@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-12T06:44:56.311Z",
+  "generatedAtLocal": "2026-06-12 08:44 Europe/Paris",
+  "mode": "manual_public_image_mouss_review_board_audit",
+  "boardDir": "business-maxi-trouvailles/tableaux-action/public-image-mouss-review-board-20260612",
+  "boardJson": "business-maxi-trouvailles/tableaux-action/public-image-mouss-review-board-20260612/BOARD_MOUSS_IMAGES_PUBLIQUES_20260612.json",
+  "itemCount": 12,
+  "scannedFileCount": 3,
+  "failureCount": 0,
+  "failures": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noImageDownload": true,
+    "noImageFileCreated": true,
+    "noPublicImageWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true
+  }
+}

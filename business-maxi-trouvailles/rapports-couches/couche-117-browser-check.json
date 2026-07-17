@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "errors": [],
+  "results": [
+    {
+      "name": "desktop",
+      "lotCards": 3,
+      "firstHref": "/admin/preuves-partenaires?status=hold&q=pochette-organisateur-cables-double-couche-voyage#top-verification-pochette-organisateur-cables-double-couche-voyage",
+      "currentUrl": "http://127.0.0.1:3038/admin/preuves-partenaires?status=hold&q=pochette-organisateur-cables-double-couche-voyage#top-verification-pochette-organisateur-cables-double-couche-voyage"
+    },
+    {
+      "name": "mobile",
+      "lotCards": 3,
+      "firstHref": "/admin/preuves-partenaires?status=hold&q=pochette-organisateur-cables-double-couche-voyage#top-verification-pochette-organisateur-cables-double-couche-voyage",
+      "currentUrl": "http://127.0.0.1:3038/admin/preuves-partenaires?status=hold&q=pochette-organisateur-cables-double-couche-voyage#top-verification-pochette-organisateur-cables-double-couche-voyage"
+    }
+  ],
+  "screenshots": [
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-117-lot-terrain-desktop.png",
+    "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-117-lot-terrain-mobile.png"
+  ]
+}

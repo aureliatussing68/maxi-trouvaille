@@ -1,0 +1,38 @@
+Regression garde artefact fast status - 2026-06-08 18:40:20
+
+Global: OK
+Statut: ARTIFACT_STABLE
+Contention detectee: non
+Artefact stable: oui
+Python inline actifs: 0
+Fallback cache safe-next: oui
+Cache strict runtime: non
+Message: Fast status artefact stable: safe_next et handoff runtime presents, aucune action sensible.
+
+Assertions:
+- json_written: OK
+- txt_written: OK
+- route_artifact_guard: OK
+- execute_artifact_guard: OK
+- executor_payload_ok: OK
+- executor_message_matches: OK
+- module_current_enriched: OK
+- artifact_after_write_enriched: OK
+- stable_or_detected: OK
+- status_known: OK
+- contention_coherent: OK
+- runtime_not_started: OK
+- no_process_action: OK
+- safe_next_status_present: OK
+- safe_next_cache_trace_present: OK
+- safe_next_cache_fallback_relayed: OK
+- runtime_handoff_status_present: OK
+- runtime_handoff_no_browser_open: OK
+- runtime_handoff_no_ai_secret: OK
+- processes_masked: OK
+- diagnostic_safety: OK
+- business_safety: OK
+- txt_mentions_guard: OK
+- no_secret_like_value_in_reports: OK
+
+Regression garde artefact fast status: observation uniquement, aucune action process/runtime/business.

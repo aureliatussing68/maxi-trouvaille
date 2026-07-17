@@ -1,0 +1,36 @@
+File produits a valider - 2026-06-09 18:00:59
+
+Dossier: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider
+Produits lus: 6
+Prets import manuel: 0
+Bloques/revue: 6
+Message court: File validation: 6 produit(s), 0 pret(s), 6 a relire, validation manuelle.
+
+Produits:
+1. Organisateur de cables de voyage compact
+   Decision: BLOCKED_FOR_MANUAL_REVIEW
+   Blocages: 2
+   Dossier: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_130345
+2. Organisateur de cables de voyage compact
+   Decision: BLOCKED_FOR_MANUAL_REVIEW
+   Blocages: 2
+   Dossier: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_124353
+3. Organisateur de cables de voyage compact
+   Decision: BLOCKED_FOR_MANUAL_REVIEW
+   Blocages: 2
+   Dossier: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_122413
+4. Organisateur de cables de voyage compact
+   Decision: BLOCKED_FOR_MANUAL_REVIEW
+   Blocages: 2
+   Dossier: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_121528
+5. Organisateur de cables de voyage compact
+   Decision: BLOCKED_FOR_MANUAL_REVIEW
+   Blocages: 2
+   Dossier: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_084346
+6. Organisateur de cables de voyage compact
+   Decision: BLOCKED_FOR_MANUAL_REVIEW
+   Blocages: 2
+   Dossier: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_084322
+
+Message: File produits a valider lue en local. Aucune modification du site.
+Securite: lecture seule, aucun import, achat, paiement ou publication.

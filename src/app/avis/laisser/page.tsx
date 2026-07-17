@@ -1,4 +1,5 @@
 import Link from "next/link";
+import type { Metadata } from "next";
 import { ProductReviewForm } from "@/components/ProductReviewForm";
 import type { Product } from "@/lib/catalog";
 import { getCatalogProductById } from "@/lib/catalog-server";
@@ -13,8 +14,12 @@ type LeaveReviewPageProps = {
   searchParams?: Promise<{ token?: string | string[] }>;
 };
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Laisser un avis",
+  robots: {
+    index: false,
+    follow: false,
+  },
 };
 
 export default async function LeaveReviewPage({
@@ -31,14 +36,14 @@ export default async function LeaveReviewPage({
           <p className="text-sm font-black uppercase text-rose">Lien invalide</p>
           <h1 className="mt-3 text-3xl font-black">Avis indisponible</h1>
           <p className="mt-4 text-sm leading-6 text-muted">
-            Ce lien d&apos;avis est invalide, expire ou la base de donnees avis
-            n&apos;est pas encore configuree.
+            Ce lien d&apos;avis est invalide ou expire. Le service client Maxi
+            Trouvaille peut aider a retrouver la commande concernée.
           </p>
           <Link
-            href="/boutique"
+            href="/contact"
             className="focus-ring mt-6 inline-flex min-h-11 items-center rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-teal"
           >
-            Retour boutique
+            Contacter le service client
           </Link>
         </div>
       </section>

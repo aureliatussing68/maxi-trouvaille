@@ -1,0 +1,35 @@
+Regression feuille decision produit - 2026-05-24 10:50:53
+Global: OK
+Produit: Organisateur de cables de voyage compact
+Decision: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_130345\DECISION_MOUSS_A_REMPLIR.md
+Message court: Feuille decision prete: Organisateur de cables de voyage compact, fichier existant conserve.
+Message executor: Feuille decision prete: Organisateur de cables de voyage compact, fichier existant conserve.
+HTML: C:\Users\sinek\Desktop\Jarvis-TechEnClair\app\logs\jarvis_business_validation_decision_sheet.html
+
+- json_written: OK
+- txt_written: OK
+- html_written: OK
+- decision_file_present: OK
+- same_decision_file: OK
+- existing_decision_preserved: OK
+- not_opened_in_regression: OK
+- local_files_only: OK
+- manual_decision_only: OK
+- site_not_modified: OK
+- import_not_started: OK
+- order_not_started: OK
+- payment_not_started: OK
+- publication_not_started: OK
+- files_not_deleted: OK
+- no_values_exposed: OK
+- manual_validation_required: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- html_mentions_short_message: OK
+- decision_file_contains_interdictions: OK
+- route_business_validation_decision_sheet: OK
+- execute_business_validation_decision_sheet: OK
+- executor_uses_short_message: OK
+- no_secret_like_value_in_reports: OK
+
+Securite: local seulement, decision manuelle, aucun secret complet, aucune action sensible.

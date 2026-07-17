@@ -1,0 +1,120 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "ok": true,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "metrics": {
+      "title": "Maxi Trouvaille - Boutique dropshipping",
+      "h1": "Maxi Trouvaille",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "bodyHeight": 8186,
+      "nextContentHintVisible": true,
+      "headings": [
+        "Maxi Trouvaille",
+        "Dropshipping encadré",
+        "Validation humaine",
+        "Suivi colis",
+        "Une vitrine propre, sans fiche produit fragile.",
+        "Rayons dropshipping prioritaires",
+        "Produits partenaires en validation",
+        "Boutique"
+      ]
+    },
+    "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-mobile-20h-final\\home-viewport.png"
+  },
+  {
+    "route": "/boutique",
+    "status": 200,
+    "ok": true,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "metrics": {
+      "title": "Boutique dropshipping | Maxi Trouvaille",
+      "h1": "Produits partenaires Maxi Trouvaille",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "bodyHeight": 7876,
+      "nextContentHintVisible": true,
+      "headings": [
+        "Produits partenaires Maxi Trouvaille",
+        "Nouveautés, promotions et catégories prioritaires",
+        "Une vitrine propre, sans fiche produit fragile.",
+        "Boutique",
+        "Aide"
+      ]
+    },
+    "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-mobile-20h-final\\boutique-viewport.png"
+  },
+  {
+    "route": "/produits-partenaires",
+    "status": 200,
+    "ok": true,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "metrics": {
+      "title": "Produits partenaires | Maxi Trouvaille",
+      "h1": "Boutique dropshipping Maxi Trouvaille",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "bodyHeight": 7920,
+      "nextContentHintVisible": true,
+      "headings": [
+        "Boutique dropshipping Maxi Trouvaille",
+        "Paiement sécurisé",
+        "Livraison estimée",
+        "Validation humaine",
+        "Une vitrine propre, sans fiche produit fragile.",
+        "Promotions et nouveautés en avant",
+        "Fiches contrôlées avant vente",
+        "Sélection dropshipping en validation"
+      ]
+    },
+    "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-mobile-20h-final\\produits-partenaires-viewport.png"
+  },
+  {
+    "route": "/categories",
+    "status": 200,
+    "ok": true,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "metrics": {
+      "title": "Catégories dropshipping | Maxi Trouvaille",
+      "h1": "Rayons produits partenaires",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "bodyHeight": 1554,
+      "nextContentHintVisible": true,
+      "headings": [
+        "Rayons produits partenaires",
+        "Boutique",
+        "Aide"
+      ]
+    },
+    "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-mobile-20h-final\\categories-viewport.png"
+  },
+  {
+    "route": "/suivi-colis",
+    "status": 200,
+    "ok": true,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "metrics": {
+      "title": "Suivi colis | Maxi Trouvaille",
+      "h1": "Suivi de commande",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "bodyHeight": 1354,
+      "nextContentHintVisible": true,
+      "headings": [
+        "Suivi de commande",
+        "Suivre un colis",
+        "Boutique",
+        "Aide"
+      ]
+    },
+    "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-mobile-20h-final\\suivi-colis-viewport.png"
+  }
+]

@@ -1,0 +1,36 @@
+import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Hors ligne",
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
+
+export default function OfflinePage() {
+  return (
+    <section className="container-page py-16">
+      <div className="max-w-2xl">
+        <p className="text-sm font-bold uppercase tracking-[0.18em] text-teal">
+          Mode hors ligne
+        </p>
+        <h1 className="mt-3 text-3xl font-black text-foreground md:text-5xl">
+          Maxi Trouvaille reste pret a redemarrer.
+        </h1>
+        <p className="mt-5 text-lg leading-8 text-muted">
+          La connexion semble indisponible. Les pages deja consultees peuvent
+          rester accessibles. Le panier, le paiement et le suivi colis reprennent
+          des que le reseau revient.
+        </p>
+        <Link
+          href="/"
+          className="mt-8 inline-flex min-h-12 items-center justify-center rounded-full bg-foreground px-6 text-sm font-bold text-white transition hover:bg-teal"
+        >
+          Revenir a l&apos;accueil
+        </Link>
+      </div>
+    </section>
+  );
+}

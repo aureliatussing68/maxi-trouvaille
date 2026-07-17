@@ -1,0 +1,141 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-11T12:19:07.709Z",
+  "targetUrl": "http://127.0.0.1:3050/admin/pilotage",
+  "checks": [
+    {
+      "label": "desktop",
+      "viewport": {
+        "width": 1366,
+        "height": 900
+      },
+      "url": "http://127.0.0.1:3050/admin/pilotage",
+      "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-129-pilotage-progression-zones-desktop.png",
+      "visible": {
+        "progress": true,
+        "repartition": true,
+        "total": true,
+        "zones": {
+          "Images": true,
+          "Fournisseur": true,
+          "Marge": true,
+          "Livraison": true,
+          "Validation": true
+        }
+      },
+      "progressLinkCount": 6,
+      "hrefChecks": [
+        {
+          "href": "/admin/preuves-partenaires?status=hold&zone=image#top-verification",
+          "hasStatus": true,
+          "hasZone": true,
+          "hasAnchor": true
+        },
+        {
+          "href": "/admin/preuves-partenaires?status=hold&zone=supplier#top-verification",
+          "hasStatus": true,
+          "hasZone": true,
+          "hasAnchor": true
+        },
+        {
+          "href": "/admin/preuves-partenaires?status=hold&zone=margin#top-verification",
+          "hasStatus": true,
+          "hasZone": true,
+          "hasAnchor": true
+        },
+        {
+          "href": "/admin/preuves-partenaires?status=hold&zone=delivery#top-verification",
+          "hasStatus": true,
+          "hasZone": true,
+          "hasAnchor": true
+        },
+        {
+          "href": "/admin/preuves-partenaires?status=hold&zone=validation#top-verification",
+          "hasStatus": true,
+          "hasZone": true,
+          "hasAnchor": true
+        },
+        {
+          "href": "/admin/preuves-partenaires?status=hold&zone=image#top-verification",
+          "hasStatus": true,
+          "hasZone": true,
+          "hasAnchor": true
+        }
+      ],
+      "percentCount": 5,
+      "progressBars": 5,
+      "overflow": {
+        "horizontalOverflow": 0,
+        "offenders": []
+      },
+      "consoleErrors": []
+    },
+    {
+      "label": "mobile",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "url": "http://127.0.0.1:3050/admin/pilotage",
+      "screenshot": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\rapports-couches\\couche-129-pilotage-progression-zones-mobile.png",
+      "visible": {
+        "progress": true,
+        "repartition": true,
+        "total": true,
+        "zones": {
+          "Images": true,
+          "Fournisseur": true,
+          "Marge": true,
+          "Livraison": true,
+          "Validation": true
+        }
+      },
+      "progressLinkCount": 6,
+      "hrefChecks": [
+        {
+          "href": "/admin/preuves-partenaires?status=hold&zone=image#top-verification",
+          "hasStatus": true,
+          "hasZone": true,
+          "hasAnchor": true
+        },
+        {
+          "href": "/admin/preuves-partenaires?status=hold&zone=supplier#top-verification",
+          "hasStatus": true,
+          "hasZone": true,
+          "hasAnchor": true
+        },
+        {
+          "href": "/admin/preuves-partenaires?status=hold&zone=margin#top-verification",
+          "hasStatus": true,
+          "hasZone": true,
+          "hasAnchor": true
+        },
+        {
+          "href": "/admin/preuves-partenaires?status=hold&zone=delivery#top-verification",
+          "hasStatus": true,
+          "hasZone": true,
+          "hasAnchor": true
+        },
+        {
+          "href": "/admin/preuves-partenaires?status=hold&zone=validation#top-verification",
+          "hasStatus": true,
+          "hasZone": true,
+          "hasAnchor": true
+        },
+        {
+          "href": "/admin/preuves-partenaires?status=hold&zone=image#top-verification",
+          "hasStatus": true,
+          "hasZone": true,
+          "hasAnchor": true
+        }
+      ],
+      "percentCount": 5,
+      "progressBars": 5,
+      "overflow": {
+        "horizontalOverflow": 0,
+        "offenders": []
+      },
+      "consoleErrors": []
+    }
+  ]
+}

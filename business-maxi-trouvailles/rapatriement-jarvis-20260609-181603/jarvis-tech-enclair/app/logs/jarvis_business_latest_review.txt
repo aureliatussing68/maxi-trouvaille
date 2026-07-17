@@ -1,0 +1,20 @@
+Dernier produit a valider - 2026-06-09 18:00:59
+
+Produit: Organisateur de cables de voyage compact
+Message court: Dernier produit: Organisateur de cables de voyage compact. Import bloque pour relecture manuelle, 2 blocage(s), affichage seulement.
+Categorie: dropshipping-accessoires
+Decision import: BLOCKED_FOR_MANUAL_REVIEW
+Prix fournisseur: 3,90 €
+Prix vente: 12,90 €
+Marge estimee: 9,00 €
+Scripts pubs: 3
+Dossier: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_130345
+Fiche: C:\Users\sinek\Desktop\maxi-trouvaille\business-maxi-trouvailles\produits-a-valider\organisateur-de-cables-de-voyage-compact_20260523_130345\A_VALIDER_PAR_MOUSS.md
+HTML: C:\Users\sinek\Desktop\Jarvis-TechEnClair\app\logs\jarvis_business_latest_review.html
+
+Blocages:
+- lien fournisseur reel manquant
+- sourcing reel AliExpress non pret
+
+Message: Dernier produit a valider pret a afficher. Aucune modification.
+Securite: affichage seulement, aucun import, achat, paiement ou publication.

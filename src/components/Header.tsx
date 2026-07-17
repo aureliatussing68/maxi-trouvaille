@@ -8,11 +8,19 @@ import { useCart } from "@/components/CartProvider";
 
 const navLinks = [
   { href: "/", label: "Accueil" },
+  { href: "/produits-partenaires", label: "Rayons" },
+  { href: "/nouveautes", label: "Nouveautés" },
+  { href: "/promotions", label: "Promos" },
   { href: "/boutique", label: "Boutique" },
-  { href: "/categories", label: "Categories" },
-  { href: "/vendre", label: "Vendre" },
-  { href: "/faq", label: "FAQ" },
+  { href: "/paiement", label: "Paiement" },
+  { href: "/suivi-colis", label: "Suivi" },
   { href: "/contact", label: "Contact" },
+];
+
+const mobileSupportLinks = [
+  { href: "/livraison", label: "Livraison" },
+  { href: "/retours-remboursements", label: "Retours" },
+  { href: "/faq", label: "FAQ" },
 ];
 
 export function Header() {
@@ -36,7 +44,7 @@ export function Header() {
               Maxi Trouvaille
             </span>
             <span className="hidden text-xs font-semibold uppercase text-muted sm:block">
-              Bonnes affaires
+              Produits partenaires
             </span>
           </span>
         </Link>
@@ -97,6 +105,17 @@ export function Header() {
                 key={link.href}
                 href={link.href}
                 className="focus-ring rounded-md px-3 py-3 text-sm font-bold text-foreground hover:bg-[#f1eadf]"
+                onClick={() => setIsOpen(false)}
+              >
+                {link.label}
+              </Link>
+            ))}
+            <div className="my-1 border-t border-line" aria-hidden="true" />
+            {mobileSupportLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="focus-ring rounded-md px-3 py-3 text-sm font-bold text-muted hover:bg-[#f1eadf] hover:text-foreground"
                 onClick={() => setIsOpen(false)}
               >
                 {link.label}

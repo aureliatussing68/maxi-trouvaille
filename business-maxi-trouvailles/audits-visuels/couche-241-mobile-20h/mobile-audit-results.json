@@ -1,0 +1,154 @@
+[
+  {
+    "route": "/",
+    "status": 200,
+    "ok": true,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "metrics": {
+      "title": "Maxi Trouvaille - Boutique dropshipping",
+      "h1": "Maxi Trouvaille",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "bodyHeight": 8210,
+      "firstSectionBottom": 723.3125,
+      "nextContentHintVisible": true,
+      "links": [
+        "Maxi TrouvailleProduits partenaires",
+        "Accueil",
+        "Dropshipping",
+        "Nouveautés",
+        "Promos",
+        "Boutique",
+        "Suivi",
+        "Contact"
+      ],
+      "headings": [
+        "Maxi Trouvaille",
+        "Dropshipping encadré",
+        "Validation humaine",
+        "Suivi colis",
+        "Une vitrine mobile propre, sans fiche produit fragile.",
+        "Rayons dropshipping prioritaires",
+        "Produits partenaires en validation",
+        "Boutique"
+      ]
+    },
+    "screenshots": {
+      "viewport": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-mobile-20h\\home-viewport.png",
+      "full": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-mobile-20h\\home-full.png"
+    }
+  },
+  {
+    "route": "/boutique",
+    "status": 200,
+    "ok": true,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "metrics": {
+      "title": "Boutique dropshipping | Maxi Trouvaille",
+      "h1": "Produits partenaires Maxi Trouvaille",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "bodyHeight": 7900,
+      "firstSectionBottom": 342.78125,
+      "nextContentHintVisible": true,
+      "links": [
+        "Maxi TrouvailleProduits partenaires",
+        "Accueil",
+        "Dropshipping",
+        "Nouveautés",
+        "Promos",
+        "Boutique",
+        "Suivi",
+        "Contact"
+      ],
+      "headings": [
+        "Produits partenaires Maxi Trouvaille",
+        "Nouveautés, promotions et catégories prioritaires",
+        "Une vitrine mobile propre, sans fiche produit fragile.",
+        "Boutique",
+        "Aide"
+      ]
+    },
+    "screenshots": {
+      "viewport": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-mobile-20h\\boutique-viewport.png",
+      "full": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-mobile-20h\\boutique-full.png"
+    }
+  },
+  {
+    "route": "/produits-partenaires",
+    "status": 200,
+    "ok": true,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "metrics": {
+      "title": "Produits partenaires | Maxi Trouvaille",
+      "h1": "Boutique dropshipping Maxi Trouvaille",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "bodyHeight": 7912,
+      "firstSectionBottom": 403.171875,
+      "nextContentHintVisible": true,
+      "links": [
+        "Maxi TrouvailleProduits partenaires",
+        "Accueil",
+        "Dropshipping",
+        "Nouveautés",
+        "Promos",
+        "Boutique",
+        "Suivi",
+        "Contact"
+      ],
+      "headings": [
+        "Boutique dropshipping Maxi Trouvaille",
+        "Paiement sécurisé",
+        "Livraison estimée",
+        "Validation humaine",
+        "Une vitrine mobile propre, sans fiche produit fragile.",
+        "Promotions et nouveautés en avant",
+        "Produits prêts à vendre",
+        "Sélection dropshipping en validation"
+      ]
+    },
+    "screenshots": {
+      "viewport": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-mobile-20h\\produits-partenaires-viewport.png",
+      "full": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-mobile-20h\\produits-partenaires-full.png"
+    }
+  },
+  {
+    "route": "/categories",
+    "status": 200,
+    "ok": true,
+    "consoleErrors": [],
+    "pageErrors": [],
+    "metrics": {
+      "title": "Catégories dropshipping | Maxi Trouvaille",
+      "h1": "Rayons produits partenaires",
+      "innerWidth": 390,
+      "scrollWidth": 390,
+      "bodyHeight": 1554,
+      "firstSectionBottom": 342.78125,
+      "nextContentHintVisible": true,
+      "links": [
+        "Maxi TrouvailleProduits partenaires",
+        "Accueil",
+        "Dropshipping",
+        "Nouveautés",
+        "Promos",
+        "Boutique",
+        "Suivi",
+        "Contact"
+      ],
+      "headings": [
+        "Rayons produits partenaires",
+        "Boutique",
+        "Aide"
+      ]
+    },
+    "screenshots": {
+      "viewport": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-mobile-20h\\categories-viewport.png",
+      "full": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\audits-visuels\\couche-241-mobile-20h\\categories-full.png"
+    }
+  }
+]

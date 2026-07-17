@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "status": "OK",
+  "command": "Jarvis health business rapide",
+  "tool_id": "maxi.business_fast_status_health_check",
+  "route_tool_id": "maxi.business_fast_status_health_check",
+  "execution_ok": true,
+  "checks": {
+    "route_case_present": true,
+    "route_tool_id": true,
+    "execution_handled": true,
+    "execution_ok": true,
+    "execution_action": true,
+    "payload_ok": true,
+    "payload_status_ok": true,
+    "health_status_ok": true,
+    "health_guard_present": true,
+    "health_check_command_present": true,
+    "health_safe_next_cache_trace": true,
+    "health_runtime_handoff_present": true,
+    "targeted_regression_only": true,
+    "post_change_health_full_not_started": true,
+    "read_only": true,
+    "no_runtime_start": true,
+    "no_process_action": true,
+    "no_business_action": true,
+    "inventory_contains_tool": true,
+    "no_secret_like_value_in_event": true
+  },
+  "message": "Health business rapide cible OK: 7 commande(s) sure(s), garde presente=oui.",
+  "safety": {
+    "read_only": true,
+    "route_and_execute_only": true,
+    "post_change_health_full_regression_not_started": true,
+    "no_runtime_start": true,
+    "no_process_action": true,
+    "no_business_action": true,
+    "no_ai_call": true,
+    "no_secret_values": true,
+    "content_exposed": false
+  }
+}

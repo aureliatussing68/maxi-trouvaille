@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "name": "desktop-boutique",
+      "url": "http://localhost:3010/boutique",
+      "status": 200,
+      "consoleErrorCount": 0,
+      "hasAliExpress": false,
+      "hasSupplierLeak": false,
+      "hasEmptyBody": false,
+      "screenshot": "business-maxi-trouvailles\\captures\\couche-101-focus-dropshipping-hold\\desktop-boutique.png",
+      "errors": []
+    },
+    {
+      "name": "mobile-boutique",
+      "url": "http://localhost:3010/boutique",
+      "status": 200,
+      "consoleErrorCount": 0,
+      "hasAliExpress": false,
+      "hasSupplierLeak": false,
+      "hasEmptyBody": false,
+      "screenshot": "business-maxi-trouvailles\\captures\\couche-101-focus-dropshipping-hold\\mobile-boutique.png",
+      "errors": []
+    },
+    {
+      "name": "desktop-panier",
+      "url": "http://localhost:3010/panier",
+      "status": 200,
+      "consoleErrorCount": 0,
+      "hasAliExpress": false,
+      "hasSupplierLeak": false,
+      "hasEmptyBody": false,
+      "screenshot": "business-maxi-trouvailles\\captures\\couche-101-focus-dropshipping-hold\\desktop-panier.png",
+      "errors": []
+    }
+  ]
+}

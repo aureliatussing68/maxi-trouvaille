@@ -1,0 +1,20 @@
+{
+  "ok": true,
+  "checkedAt": "2026-06-13T12:24:28.403Z",
+  "mode": "read_only_public_visual_ambiguity_audit",
+  "checkedSourceCount": 10,
+  "failureCount": 0,
+  "stockVisualFindingCount": 0,
+  "heroGuardOk": true,
+  "productCardAirbagOk": true,
+  "productDetailImageGuardOk": true,
+  "failures": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noImageGeneration": true
+  }
+}

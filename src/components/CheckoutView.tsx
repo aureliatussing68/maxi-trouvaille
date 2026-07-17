@@ -1,15 +1,60 @@
 "use client";
 
 import Link from "next/link";
-import { CreditCard, Loader2, ShieldCheck } from "lucide-react";
-import { useState } from "react";
-import { useCart } from "@/components/CartProvider";
+import {
+  CreditCard,
+  Loader2,
+  ShieldCheck,
+  ShoppingBag,
+  Truck,
+} from "lucide-react";
+import { useMemo, useState } from "react";
+import { type CartLine, useCart } from "@/components/CartProvider";
 import { ShippingSelector } from "@/components/ShippingSelector";
 import { useShippingSelection } from "@/components/useShippingSelection";
-import { formatPrice } from "@/lib/format";
+import { clampQuantity, formatPrice } from "@/lib/format";
+import {
+  isClientProductPurchasable,
+  type Product,
+} from "@/lib/catalog-client";
 
-export function CheckoutView() {
-  const { detailedItems, items, subtotal } = useCart();
+type DetailedCartLine = CartLine & {
+  product: Product;
+  lineTotal: number;
+};
+
+function buildDetailedCartItems(
+  items: CartLine[],
+  products: Product[],
+): DetailedCartLine[] {
+  const productMap = new Map(products.map((product) => [product.id, product]));
+
+  return items
+    .map((item) => {
+      const product = productMap.get(item.productId);
+      if (!product || !isClientProductPurchasable(product)) {
+        return null;
+      }
+
+      const quantity = clampQuantity(item.quantity, product.stock);
+
+      return {
+        productId: item.productId,
+        quantity,
+        product,
+        lineTotal: product.price * quantity,
+      };
+    })
+    .filter((line): line is DetailedCartLine => Boolean(line));
+}
+
+export function CheckoutView({ products }: { products: Product[] }) {
+  const { items } = useCart();
+  const detailedItems = useMemo(
+    () => buildDetailedCartItems(items, products),
+    [items, products],
+  );
+  const subtotal = detailedItems.reduce((total, item) => total + item.lineTotal, 0);
   const shippingProducts = detailedItems.map((item) => item.product);
   const {
     selection,
@@ -21,8 +66,16 @@ export function CheckoutView() {
   } = useShippingSelection(shippingProducts);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const blockedItems = detailedItems.filter(
+    (item) => !isClientProductPurchasable(item.product),
+  );
 
   async function startCheckout() {
+    if (blockedItems.length > 0) {
+      setError("Retirez les produits non disponibles avant de passer au paiement.");
+      return;
+    }
+
     if (!validation.ok) {
       setError(validation.error);
       return;
@@ -42,7 +95,7 @@ export function CheckoutView() {
 
       const data = (await response.json()) as { url?: string; error?: string };
       if (!response.ok || !data.url) {
-        throw new Error(data.error ?? "Impossible de demarrer le paiement test.");
+        throw new Error(data.error ?? "Impossible de demarrer le paiement securise.");
       }
 
       window.location.assign(data.url);
@@ -50,7 +103,7 @@ export function CheckoutView() {
       setError(
         checkoutError instanceof Error
           ? checkoutError.message
-          : "Impossible de demarrer le paiement test.",
+          : "Impossible de demarrer le paiement securise.",
       );
     } finally {
       setIsLoading(false);
@@ -62,16 +115,28 @@ export function CheckoutView() {
       <div className="container-page py-12">
         <div className="rounded-lg border border-line bg-paper p-8 text-center shadow-sm">
           <CreditCard className="mx-auto mb-4 text-teal" size={42} aria-hidden="true" />
-          <h1 className="text-2xl font-black">Aucun article a payer</h1>
-          <p className="mx-auto mt-3 max-w-md text-sm leading-6 text-muted">
-            Ajoutez une trouvaille au panier pour tester le tunnel de paiement.
+          <h1 className="text-2xl font-black">Paiement Maxi Trouvaille prêt</h1>
+          <p className="mx-auto mt-3 max-w-xl text-sm leading-6 text-muted">
+            Le paiement s&apos;ouvre seulement quand un article validé est dans le
+            panier. Les rayons restent consultables pendant que les fiches
+            partenaires passent les contrôles image, stock, délai et préparation.
           </p>
-          <Link
-            href="/boutique"
-            className="focus-ring mt-6 inline-flex min-h-11 items-center rounded-md bg-foreground px-5 py-2.5 text-sm font-black text-white hover:bg-[#2b2b2b]"
-          >
-            Retour boutique
-          </Link>
+          <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
+            <Link
+              href="/produits-partenaires"
+              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-5 py-2.5 text-sm font-black text-white hover:bg-[#2b2b2b]"
+            >
+              <ShoppingBag size={17} aria-hidden="true" />
+              Voir les rayons
+            </Link>
+            <Link
+              href="/suivi-colis"
+              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-5 py-2.5 text-sm font-black hover:bg-[#f1eadf]"
+            >
+              <Truck size={17} aria-hidden="true" />
+              Suivi colis
+            </Link>
+          </div>
         </div>
       </div>
     );
@@ -84,17 +149,16 @@ export function CheckoutView() {
           <div className="flex items-start gap-3 rounded-lg bg-[#eef8f6] p-4 text-sm leading-6 text-[#115e59]">
             <ShieldCheck className="mt-0.5 shrink-0" size={20} aria-hidden="true" />
             <p>
-              Le paiement est prepare pour Stripe Checkout en mode test. Une cle
-              secrete commencant par <strong>sk_test_</strong> est obligatoire
-              pour ouvrir la page Stripe.
+              Le paiement Maxi Trouvaille passe par un prestataire sécurisé.
+              Maxi Trouvaille ne stocke pas vos donnees bancaires.
             </p>
           </div>
 
-          <h1 className="mt-6 text-2xl font-black">Paiement test</h1>
+          <h1 className="mt-6 text-2xl font-black">Paiement sécurisé</h1>
           <p className="mt-3 max-w-2xl text-sm leading-6 text-muted">
-            Maxi Trouvaille utilise un tunnel heberge par Stripe pour eviter de
-            manipuler les donnees bancaires dans le site. Les paiements reels
-            restent bloques dans le code tant qu&apos;une cle de test n&apos;est pas fournie.
+            Maxi Trouvaille utilise un tunnel heberge sécurisé pour eviter de
+            manipuler les donnees bancaires dans le site. La commande reste
+            contrôlée avant préparation.
           </p>
         </div>
 
@@ -111,14 +175,21 @@ export function CheckoutView() {
           </div>
         ) : null}
 
+        {blockedItems.length > 0 ? (
+          <div className="mt-5 rounded-lg border border-[#fed7aa] bg-[#fff7ed] p-4 text-sm font-semibold leading-6 text-[#9a3412]">
+            Un produit du panier est marqué À venir. Le paiement s&apos;ouvrira
+            quand la fiche sera validée.
+          </div>
+        ) : null}
+
         <button
           type="button"
           onClick={startCheckout}
-          disabled={isLoading || !validation.ok}
+          disabled={isLoading || !validation.ok || blockedItems.length > 0}
           className="focus-ring mt-6 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-md bg-foreground px-5 py-3 text-sm font-black text-white transition hover:bg-[#2b2b2b] disabled:cursor-not-allowed disabled:opacity-65 sm:w-auto"
         >
           {isLoading ? <Loader2 className="animate-spin" size={18} /> : <CreditCard size={18} />}
-          Ouvrir Stripe Checkout test
+          Continuer vers le paiement sécurisé
         </button>
       </section>
 

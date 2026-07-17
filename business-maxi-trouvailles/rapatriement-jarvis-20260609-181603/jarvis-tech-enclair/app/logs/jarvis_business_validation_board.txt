@@ -1,0 +1,19 @@
+Tableau validation business Maxi - 2026-06-05 16:08:03
+
+Message court: Tableau validation pret: Organisateur de cables de voyage compact, 2 blocage(s), affichage seulement.
+Mode: demo_draft_only
+Produit: Organisateur de cables de voyage compact
+Categorie: dropshipping-accessoires
+Prix: achat 3,90 € -> vente 12,90 €
+HTML: C:\Users\sinek\Desktop\Jarvis-TechEnClair\app\logs\jarvis_business_validation_board.html
+
+Blocages:
+- lien fournisseur reel manquant
+- sourcing reel AliExpress non pret
+
+Pubs:
+- TikTok 18s: Tu perds encore du temps avec tes cables ?
+- Instagram Reels 20s: Tu perds encore du temps avec tes cables ?
+- Snapchat Story 12s: Tu perds encore du temps avec tes cables ?
+
+Securite: affichage seulement, aucun import, achat, paiement ou publication.

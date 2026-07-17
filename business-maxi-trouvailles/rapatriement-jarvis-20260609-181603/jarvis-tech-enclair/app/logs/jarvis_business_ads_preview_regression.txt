@@ -1,0 +1,32 @@
+Regression apercu pubs - 2026-05-31 05:09:12
+Global: OK
+Message court: Apercu pubs pret: 3 scripts pour Organisateur de cables de voyage compact, brouillon uniquement, aucune publication.
+Message executeur: Apercu pubs pret: 3 scripts pour Organisateur de cables de voyage compact, brouillon uniquement, aucune publication.
+Produit: Organisateur de cables de voyage compact
+
+- json_written: OK
+- txt_written: OK
+- md_written: OK
+- three_ads_present: OK
+- platforms_present: OK
+- voiceover_present: OK
+- screen_texts_present: OK
+- all_ads_not_published: OK
+- all_ads_manual_validation: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- md_mentions_short_message: OK
+- route_business_ads_preview: OK
+- execute_business_ads_preview: OK
+- executor_uses_short_message: OK
+- preview_only: OK
+- no_video_export: OK
+- no_tiktok_publish: OK
+- no_instagram_publish: OK
+- no_snapchat_publish: OK
+- no_payment: OK
+- manual_validation_required: OK
+- no_values_exposed: OK
+- no_secret_like_value_in_reports: OK
+
+Securite: lecture seule, brouillon uniquement, aucun secret, aucun export video/paiement/publication.

@@ -1,0 +1,22 @@
+Tableau candidats business Maxi - 2026-06-09 18:00:59
+
+Message court: Tableau produits: 10 candidat(s) affiches, 0 source(s) reelle(s), affichage seulement.
+Mode: demo_local_no_scraping
+Candidats affiches: 10/10
+Sources demo: 10
+Sources reelles: 0
+HTML: C:\Users\sinek\Desktop\Jarvis-TechEnClair\app\logs\jarvis_business_candidate_board.html
+
+Produits:
+1. Lampe LED rechargeable magnetique pour bureau | maison | achat 7,90 € -> vente 17,90 € | marge 10,00 € | risque faible | source demo
+2. Organisateur de cables de voyage compact | accessoires | achat 3,90 € -> vente 12,90 € | marge 9,00 € | risque faible | source demo
+3. Mini aspirateur sans fil pour voiture | auto-moto | achat 12,90 € -> vente 29,90 € | marge 17,00 € | risque faible | source demo
+4. Support telephone voiture rotation 360 | telephonie | achat 4,20 € -> vente 13,90 € | marge 9,70 € | risque faible | source demo
+5. Brosse anti-poils reutilisable pour animaux | animaux | achat 5,60 € -> vente 14,90 € | marge 9,30 € | risque faible | source demo
+6. Mini humidificateur USB decoratif | maison | achat 6,90 € -> vente 15,90 € | marge 9,00 € | risque faible | source demo
+7. Sac de rangement compressible pour valise | accessoires | achat 4,80 € -> vente 13,90 € | marge 9,10 € | risque faible | source demo
+8. Veilleuse detecteur de mouvement pour placard | electricite | achat 5,20 € -> vente 14,90 € | marge 9,70 € | risque faible | source demo
+9. Kit embouts tournevis precision 24 pieces | outillage | achat 6,50 € -> vente 15,90 € | marge 9,40 € | risque faible | source demo
+10. Filtre douche economiseur avec jet reglable | maison | achat 8,90 € -> vente 20,90 € | marge 12,00 € | risque faible | source demo
+
+Securite: affichage seulement, aucun import, aucune commande, aucun paiement, aucune publication.

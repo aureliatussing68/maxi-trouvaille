@@ -3,9 +3,20 @@ import path from "path";
 import { revalidatePath } from "next/cache";
 import { NextResponse } from "next/server";
 import { isAdminModeEnabled } from "@/lib/admin";
-import { categories, getCategoryById, type Product } from "@/lib/catalog";
+import { adminApiUnavailable } from "@/lib/admin-api";
+import {
+  categories,
+  getCategoryById,
+  getDropshippingPublicBlockers,
+  type Product,
+} from "@/lib/catalog";
 import { readQuickProducts, writeQuickProducts } from "@/lib/catalog-server";
-import { defaultProductImage, parsePriceToCents } from "@/lib/quick-products";
+import {
+  defaultProductImage,
+  getProductConditionLabel,
+  normalizeProductCondition,
+  parsePriceToCents,
+} from "@/lib/quick-products";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -28,6 +39,10 @@ const deliveryOptions = [
   "colissimo uniquement",
   "sur devis",
 ] as const;
+
+function getBoolean(value: FormDataEntryValue | null) {
+  return value === "true" || value === "on" || value === "1";
+}
 
 function getExtension(file: File) {
   const fromName = path.extname(file.name).toLowerCase();
@@ -137,6 +152,43 @@ function getBadge(status: Product["status"], stock: number) {
   return stock > 0 ? "Ajout rapide" : "Rupture";
 }
 
+function isPartnerProductCandidate(product: Product) {
+  return Boolean(
+    product.dropshipping?.enabled ||
+      product.categoryId === "dropshipping" ||
+      product.categoryId.startsWith("dropshipping-"),
+  );
+}
+
+const publicationBlockerLabels: Record<string, string> = {
+  coming_soon: "produit marque a venir",
+  delivery_estimate_not_ready: "delai livraison a verifier",
+  dropshipping_disabled: "mode dropshipping inactif",
+  exact_images_not_verified: "images exactes non verifiees",
+  image_rights_not_ready: "droits image non valides",
+  internal_sourcing_hold: "signal HOLD encore present",
+  margin_missing: "marge manquante",
+  sale_price_missing: "prix de vente manquant",
+  source_delivery_not_ready: "delai source non valide",
+  source_price_not_ready: "prix source non valide",
+  supplier_price_missing: "prix fournisseur manquant",
+  supplier_sku_missing: "SKU fournisseur manquant",
+  supplier_stock_missing: "stock fournisseur manquant",
+  supplier_url_exact_missing: "lien fournisseur exact manquant",
+  validation_gate_missing: "gate validation fournisseur manquante",
+  validation_gate_not_ready: "gate validation fournisseur a revoir",
+};
+
+function getPartnerPublicationBlockers(product: Product) {
+  if (product.status !== "published" || !isPartnerProductCandidate(product)) {
+    return [];
+  }
+
+  return getDropshippingPublicBlockers(product).map(
+    (blocker) => publicationBlockerLabels[blocker] ?? blocker,
+  );
+}
+
 async function buildImageList(product: Product, formData: FormData) {
   const order = parsePhotoOrder(formData.get("photoOrder"));
   const existingImages = new Set(
@@ -170,7 +222,7 @@ async function buildImageList(product: Product, formData: FormData) {
 
 export async function GET(_request: Request, context: RouteContext) {
   if (!isAdminModeEnabled()) {
-    return NextResponse.json({ error: "Mode admin desactive." }, { status: 403 });
+    return adminApiUnavailable();
   }
 
   const { slug } = await context.params;
@@ -185,7 +237,7 @@ export async function GET(_request: Request, context: RouteContext) {
 
 export async function PATCH(request: Request, context: RouteContext) {
   if (!isAdminModeEnabled()) {
-    return NextResponse.json({ error: "Mode admin desactive." }, { status: 403 });
+    return adminApiUnavailable();
   }
 
   const { slug } = await context.params;
@@ -207,8 +259,9 @@ export async function PATCH(request: Request, context: RouteContext) {
   )
     ? String(formData.get("categoryId"))
     : currentProduct.categoryId;
-  const condition =
-    formData.get("condition") === "neuf" ? "Neuf" : "Occasion";
+  const condition = getProductConditionLabel(
+    normalizeProductCondition(formData.get("condition")),
+  );
   const stock = Math.max(
     0,
     Math.trunc(Number(formData.get("stock") ?? currentProduct.stock)) || 0,
@@ -217,8 +270,24 @@ export async function PATCH(request: Request, context: RouteContext) {
   const livraisonDisponible = getDeliveryAvailability(
     formData.get("livraisonDisponible"),
   );
+  const dropshippingEnabled = getBoolean(formData.get("dropshippingEnabled"));
+  const supplierPriceCents = parsePriceToCents(
+    String(formData.get("supplierPrice") ?? ""),
+  );
+  const supplierStock = Math.max(
+    0,
+    Math.trunc(Number(formData.get("supplierStock") ?? 0)) || 0,
+  );
+  const deliveryEstimate = String(formData.get("deliveryEstimate") ?? "").trim();
+  const supplierUrl = String(formData.get("supplierUrl") ?? "").trim();
+  const supplierSku = String(formData.get("supplierSku") ?? "").trim();
+  const isPromotion = getBoolean(formData.get("isPromotion"));
+  const isNew = getBoolean(formData.get("isNew"));
   const images = await buildImageList(currentProduct, formData);
   const category = getCategoryById(categoryId);
+  const price = parsePriceToCents(
+    String(formData.get("price") ?? currentProduct.price / 100),
+  );
 
   // Future marketplace: a seller will only edit listings matching their sellerId,
   // while an admin role will keep the right to edit every listing.
@@ -227,7 +296,7 @@ export async function PATCH(request: Request, context: RouteContext) {
     name: title || currentProduct.name,
     description: description || "Produit ajoute rapidement.",
     shortDescription: (description || currentProduct.description).slice(0, 150),
-    price: parsePriceToCents(String(formData.get("price") ?? currentProduct.price / 100)),
+    price,
     categoryId,
     condition,
     stock,
@@ -236,6 +305,26 @@ export async function PATCH(request: Request, context: RouteContext) {
     images,
     status,
     livraisonDisponible,
+    dropshipping: dropshippingEnabled
+      ? {
+          enabled: true,
+          supplierName:
+            currentProduct.dropshipping?.supplierName ?? "Fournisseur partenaire",
+          supplierUrl,
+          supplierSku,
+          supplierPriceCents,
+          salePriceCents: price,
+          marginCents: Math.max(0, price - supplierPriceCents),
+          supplierStock,
+          deliveryEstimate: deliveryEstimate || "8 a 15 jours ouvres",
+          isPromotion,
+          isNew,
+          logisticsPartnerLabel: "partenaire logistique",
+          syncStatus: "manual",
+          lastSyncAt: currentProduct.dropshipping?.lastSyncAt,
+          validationGate: currentProduct.dropshipping?.validationGate,
+        }
+      : undefined,
     features: [
       "Produit modifiable depuis l'admin Maxi Trouvaille",
       `Etat : ${condition}`,
@@ -243,8 +332,28 @@ export async function PATCH(request: Request, context: RouteContext) {
       `Categorie : ${category?.name ?? "Categorie a verifier"}`,
       `Statut : ${status === "published" ? "publie" : status}`,
       `Livraison : ${livraisonDisponible}`,
+      ...(dropshippingEnabled
+        ? [
+            "Mode produit partenaire : oui",
+            `Prix fournisseur : ${(supplierPriceCents / 100).toFixed(2)} €`,
+            `Marge estimee : ${(Math.max(0, price - supplierPriceCents) / 100).toFixed(2)} €`,
+            `Delai fournisseur : ${deliveryEstimate || "8 a 15 jours ouvres"}`,
+          ]
+        : []),
     ],
   };
+
+  const publicationBlockers = getPartnerPublicationBlockers(updatedProduct);
+  if (publicationBlockers.length > 0) {
+    return NextResponse.json(
+      {
+        error:
+          "Publication bloquee: preuves dropshipping incompletes. Gardez le produit en brouillon/HOLD.",
+        blockers: publicationBlockers,
+      },
+      { status: 400 },
+    );
+  }
 
   const updatedProducts = [...quickProducts];
   updatedProducts[productIndex] = updatedProduct;

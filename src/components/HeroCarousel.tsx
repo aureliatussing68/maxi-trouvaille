@@ -2,28 +2,24 @@ import Image from "next/image";
 
 const heroSlides = [
   {
-    title: "Arrivages hebdomadaires",
-    image:
-      "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1400&q=80",
-    alt: "Entrepôt logistique avec cartons et préparation de commandes",
+    title: "Catalogue en validation",
+    image: "/uploads/category-images/produits-partenaires.webp",
+    alt: "Rayon produits partenaires Maxi Trouvaille en validation",
   },
   {
-    title: "Palettes dès 899 €",
-    image:
-      "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=1400&q=80",
-    alt: "Palettes et rayonnages dans un entrepôt",
+    title: "Preuves produit",
+    image: "/uploads/category-images/selection-partenaires.webp",
+    alt: "Selection produits partenaires controlee avant affichage public",
   },
   {
-    title: "Colis mystères premium",
-    image:
-      "https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&w=1400&q=80",
-    alt: "Cartons mystères et colis prêts à être expédiés",
+    title: "Nouveautes partenaires",
+    image: "/uploads/category-images/nouveautes-partenaires.webp",
+    alt: "Nouveautes partenaires gardees en verification qualite",
   },
   {
-    title: "Lots pour particuliers et revendeurs",
-    image:
-      "https://images.unsplash.com/photo-1528698827591-e19ccd7bc23d?auto=format&fit=crop&w=1400&q=80",
-    alt: "Boutique avec produits en lots et bonnes affaires",
+    title: "Livraison suivie",
+    image: "/uploads/category-images/promotions-partenaires.webp",
+    alt: "Promotions partenaires avec expedition par partenaire logistique",
   },
 ];
 

@@ -9,7 +9,7 @@ export default function Loading() {
           Maxi Trouvaille
         </p>
         <p className="mt-2 text-base font-semibold text-foreground">
-          Chargement des bonnes affaires...
+          Chargement des produits partenaires...
         </p>
         <div className="mt-6 h-2 w-full overflow-hidden rounded-full bg-line">
           <div className="h-full w-1/2 animate-[loadingBar_1.2s_ease-in-out_infinite] rounded-full bg-brand" />

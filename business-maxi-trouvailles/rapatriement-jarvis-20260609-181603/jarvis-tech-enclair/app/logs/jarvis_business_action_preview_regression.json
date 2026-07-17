@@ -1,0 +1,47 @@
+{
+  "checked_at": "2026-05-24 08:57:04",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "all_actions_detected": true,
+    "no_job_started": true,
+    "txt_mentions_short_message": true,
+    "route_business_action_preview": true,
+    "execute_business_action_preview": true,
+    "executor_uses_short_message": true,
+    "no_secret_like_value_in_text": true
+  },
+  "checks": [
+    {
+      "text": "previsualise recherche produits",
+      "expected_action": "search_products_draft",
+      "actual_action": "search_products_draft",
+      "short_message": "Apercu business pret: Recherche produits gagnants brouillon, aucun job lance, validation avant action sensible.",
+      "ok": true
+    },
+    {
+      "text": "previsualise fiche produit",
+      "expected_action": "product_sheet_draft",
+      "actual_action": "product_sheet_draft",
+      "short_message": "Apercu business pret: Preparation fiche produit brouillon, aucun job lance, validation avant action sensible.",
+      "ok": true
+    },
+    {
+      "text": "previsualise les pubs",
+      "expected_action": "ads_draft",
+      "actual_action": "ads_draft",
+      "short_message": "Apercu business pret: Preparation publicites brouillon, aucun job lance, validation avant action sensible.",
+      "ok": true
+    },
+    {
+      "text": "previsualise import brouillon",
+      "expected_action": "import_draft",
+      "actual_action": "import_draft",
+      "short_message": "Apercu business pret: Import brouillon Maxi, aucun job lance, validation avant action sensible.",
+      "ok": true
+    }
+  ],
+  "executor_message": "Apercu business pret: Recherche produits gagnants brouillon, aucun job lance, validation avant action sensible.",
+  "note": "Regression lecture seule de l'apercu actions business. Aucun job, paiement, commande ou publication n'est declenche."
+}

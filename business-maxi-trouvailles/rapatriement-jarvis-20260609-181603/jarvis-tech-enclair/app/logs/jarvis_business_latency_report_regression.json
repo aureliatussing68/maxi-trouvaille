@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-05-24 01:12:00",
+  "ok": true,
+  "assertions": {
+    "json_written": true,
+    "txt_written": true,
+    "all_probes_ok": true,
+    "stats_present": true,
+    "latency_ok": true,
+    "median_under_target": true,
+    "max_under_target": true,
+    "read_only": true,
+    "offline_safe": true,
+    "no_publication": true
+  },
+  "stats": {
+    "count": 9,
+    "avg_ms": 4,
+    "median_ms": 2,
+    "max_ms": 29
+  },
+  "targets": {
+    "median_ms_max": 100,
+    "max_ms_max": 1200
+  },
+  "note": "Regression latence business en lecture seule."
+}

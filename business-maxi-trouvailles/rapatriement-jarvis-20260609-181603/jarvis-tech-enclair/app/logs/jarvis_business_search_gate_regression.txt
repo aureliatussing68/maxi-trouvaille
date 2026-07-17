@@ -1,0 +1,28 @@
+Regression garde-fou recherche produits - 2026-06-03 18:16:17
+Global: OK
+Mode attendu: demo_or_incomplete
+Message court: Recherche produits: brouillon uniquement, source demo_or_incomplete, AliExpress a configurer.
+Message executeur: Recherche produits: brouillon uniquement, source demo_or_incomplete, AliExpress a configurer.
+
+- json_written: OK
+- txt_written: OK
+- gate_ok: OK
+- draft_allowed: OK
+- draft_only: OK
+- key_statuses_present: OK
+- key_statuses_only: OK
+- short_message_present: OK
+- txt_mentions_short_message: OK
+- route_business_search_gate: OK
+- execute_business_search_gate: OK
+- executor_uses_short_message: OK
+- read_only_check: OK
+- no_auto_payment: OK
+- no_auto_order: OK
+- no_auto_publication: OK
+- draft_only_safety: OK
+- no_values_exposed: OK
+- manual_validation_required: OK
+- no_secret_like_value_in_text: OK
+
+Securite: lecture seule, brouillon uniquement, aucun secret, aucun sourcing lance.

@@ -1,0 +1,131 @@
+{
+  "checked_at": "2026-06-09 18:00:59",
+  "ok": true,
+  "short_message": "Apercu pubs pret: 3 scripts pour Organisateur de cables de voyage compact, brouillon uniquement, aucune publication.",
+  "preview_only": true,
+  "product_title": "Organisateur de cables de voyage compact",
+  "product_slug": "organisateur-de-cables-de-voyage-compact",
+  "ad_count": 3,
+  "ads": [
+    {
+      "platform": "tiktok",
+      "label": "TikTok",
+      "format": "9:16",
+      "duration_seconds": 18,
+      "publication_status": "not_published",
+      "hook": "Tu perds encore du temps avec tes cables ?",
+      "voiceover": [
+        "Tu perds encore du temps avec tes cables ?",
+        "Regarde: Organisateur de cables de voyage compact aide a garder les affaires propres et faciles a retrouver.",
+        "On verifie le fournisseur et la livraison avant toute mise en ligne.",
+        "Dis-moi si tu veux que je prepare la version brouillon finale."
+      ],
+      "screen_texts": [
+        "Avant: sac en bazar",
+        "Apres: tout est range",
+        "Solution pratique dans la categorie access",
+        "A valider bientot sur Maxi Trouvailles"
+      ],
+      "visual_plan": [
+        "Plan 1: montrer le probleme en gros plan.",
+        "Plan 2: montrer le produit en action.",
+        "Plan 3: montrer le resultat propre.",
+        "Plan 4: terminer avec prix promo a verifier."
+      ],
+      "caption": "Organisateur de cables de voyage compact - brouillon pub a valider avant publication.",
+      "hashtags": [
+        "#maxitrouvailles",
+        "#bonplan",
+        "#organisation",
+        "#astuce",
+        "#shopping",
+        "#accessoires"
+      ],
+      "requires_manual_validation": true
+    },
+    {
+      "platform": "instagram_reels",
+      "label": "Instagram Reels",
+      "format": "9:16",
+      "duration_seconds": 20,
+      "publication_status": "not_published",
+      "hook": "Tu perds encore du temps avec tes cables ?",
+      "voiceover": [
+        "Tu perds encore du temps avec tes cables ?",
+        "Regarde: Organisateur de cables de voyage compact aide a garder les affaires propres et faciles a retrouver.",
+        "On verifie le fournisseur et la livraison avant toute mise en ligne.",
+        "Dis-moi si tu veux que je prepare la version brouillon finale."
+      ],
+      "screen_texts": [
+        "Avant: sac en bazar",
+        "Apres: tout est range",
+        "Solution pratique dans la categorie access",
+        "A valider bientot sur Maxi Trouvailles"
+      ],
+      "visual_plan": [
+        "Plan 1: montrer le probleme en gros plan.",
+        "Plan 2: montrer le produit en action.",
+        "Plan 3: montrer le resultat propre.",
+        "Plan 4: terminer avec prix promo a verifier."
+      ],
+      "caption": "Organisateur de cables de voyage compact - brouillon pub a valider avant publication.",
+      "hashtags": [
+        "#maxitrouvailles",
+        "#bonplan",
+        "#organisation",
+        "#astuce",
+        "#shopping",
+        "#accessoires"
+      ],
+      "requires_manual_validation": true
+    },
+    {
+      "platform": "snapchat_story",
+      "label": "Snapchat Story",
+      "format": "9:16",
+      "duration_seconds": 12,
+      "publication_status": "not_published",
+      "hook": "Tu perds encore du temps avec tes cables ?",
+      "voiceover": [
+        "Tu perds encore du temps avec tes cables ?",
+        "Regarde: Organisateur de cables de voyage compact aide a garder les affaires propres et faciles a retrouver.",
+        "On verifie le fournisseur et la livraison avant toute mise en ligne.",
+        "Dis-moi si tu veux que je prepare la version brouillon finale."
+      ],
+      "screen_texts": [
+        "Avant: sac en bazar",
+        "Apres: tout est range",
+        "Solution pratique dans la categorie access",
+        "A valider bientot sur Maxi Trouvailles"
+      ],
+      "visual_plan": [
+        "Plan 1: montrer le probleme en gros plan.",
+        "Plan 2: montrer le produit en action.",
+        "Plan 3: montrer le resultat propre.",
+        "Plan 4: terminer avec prix promo a verifier."
+      ],
+      "caption": "Organisateur de cables de voyage compact - brouillon pub a valider avant publication.",
+      "hashtags": [
+        "#maxitrouvailles",
+        "#bonplan",
+        "#organisation",
+        "#astuce",
+        "#shopping",
+        "#accessoires"
+      ],
+      "requires_manual_validation": true
+    }
+  ],
+  "operator_message": "Apercu publicites pret. Aucun export video et aucune publication n'ont ete lances.",
+  "safety": {
+    "read_only": true,
+    "preview_only": true,
+    "no_video_export": true,
+    "no_tiktok_publish": true,
+    "no_instagram_publish": true,
+    "no_snapchat_publish": true,
+    "no_payment": true,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  }
+}

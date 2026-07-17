@@ -1,0 +1,25 @@
+Preflight recherche fournisseur business - 2026-06-09 18:00:59
+
+Global: OK
+Statut: BLOCKED_FOR_MANUAL_REVIEW
+Message court: Preflight fournisseur bloque: 3 point(s), aucune recherche web/API lancee.
+Recherche fournisseur humaine prete: non
+Recherche fournisseur automatique autorisee: non
+Mode source: demo
+Candidats: 10
+Sources reelles: 0
+Cles OK/PARTIEL/MANQUANT: 1/1/1
+Plan fournisseur: 5 ligne(s), 5 lien(s) reel(s) a trouver
+
+Blocages:
+- validation_humaine_business_incomplete
+- api_fournisseur_incomplete
+- sourcing_reel_non_pret
+
+Prochaines etapes manuelles:
+- Valider explicitement la decision Mouss avant toute recherche fournisseur.
+- Completer les variables API fournisseur manquantes ou partielles sans afficher leurs valeurs.
+- Relire le plan fournisseur et rechercher les liens reels manuellement ou via une action dediee validee.
+- Garder import, commande, paiement, publication et suppression dans des validations separees.
+
+Securite: preflight seulement, aucune recherche web/API, aucun scraping, aucun import, aucune commande, aucun paiement, aucune publication.

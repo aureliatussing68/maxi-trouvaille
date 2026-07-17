@@ -1,0 +1,793 @@
+{
+  "ok": true,
+  "generatedAt": "2026-06-11T06:25:48.994Z",
+  "generatedAtLocal": "2026-06-11 08:25 Europe/Paris",
+  "mode": "read_only_product_validation_field_kit_audit",
+  "status": "HOLD_FIELD_KIT_INCOMPLETE",
+  "productCount": 3,
+  "readyReviewCount": 0,
+  "holdCount": 3,
+  "evidenceMissingOrInvalidCount": 36,
+  "imageMissingOrInvalidCount": 14,
+  "missingImageFileCount": 14,
+  "invalidImageFileCount": 0,
+  "blockerCount": 73,
+  "warningCount": 0,
+  "products": [
+    {
+      "productId": "ali_partner_20260527_pochette_cables_voyage_001",
+      "productName": "Pochette organisateur câbles double couche voyage",
+      "declaredStatus": "HOLD",
+      "status": "HOLD_FIELD_KIT_INCOMPLETE",
+      "evidenceFieldCount": 12,
+      "evidenceOkCount": 0,
+      "evidenceMissingOrInvalidCount": 12,
+      "imageCount": 4,
+      "imageReadyCount": 0,
+      "missingImageFileCount": 4,
+      "invalidImageFileCount": 0,
+      "blockerCount": 23,
+      "warningCount": 0,
+      "blockers": [
+        "checkedAt:missing_or_placeholder",
+        "supplierSellerName:missing_or_placeholder",
+        "exactVariantChosen:missing_or_placeholder",
+        "deliveryFranceEuropeProof:missing_or_placeholder",
+        "deliveryEstimateForCustomer:missing_or_placeholder",
+        "trackingAvailable:missing_or_placeholder",
+        "trackingAvailable:tracking_answer_not_clear_yes_no",
+        "pricingProof:missing_or_placeholder",
+        "shippingProof:missing_or_placeholder",
+        "imageProof:missing_or_placeholder",
+        "imageRightsProof:missing_or_placeholder",
+        "finalDecision:missing_or_placeholder",
+        "finalDecision:final_decision_not_ready_review",
+        "reviewedByMouss:missing_or_placeholder",
+        "reviewedByMouss:missing_human_review_mouss",
+        "main:missing_image_proof",
+        "main:missing_webp_file",
+        "detail:missing_image_proof",
+        "detail:missing_webp_file",
+        "usage:missing_image_proof",
+        "usage:missing_webp_file",
+        "dimensions:missing_image_proof",
+        "dimensions:missing_webp_file"
+      ],
+      "warnings": [],
+      "nextAction": "remplir toutes les preuves, deposer les WebP exacts, puis relancer cet audit",
+      "publicationAllowed": false,
+      "paymentAllowed": false,
+      "supplierOrderAllowed": false,
+      "catalogWriteAllowed": false,
+      "evidenceFields": [
+        {
+          "fieldKey": "checkedAt",
+          "label": "Date de verification",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "supplierSellerName",
+          "label": "Nom vendeur fournisseur",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "exactVariantChosen",
+          "label": "Variante exacte",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "deliveryFranceEuropeProof",
+          "label": "Preuve delai France/Europe",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "deliveryEstimateForCustomer",
+          "label": "Delai client Maxi",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "trackingAvailable",
+          "label": "Suivi disponible",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder",
+            "tracking_answer_not_clear_yes_no"
+          ]
+        },
+        {
+          "fieldKey": "pricingProof",
+          "label": "Preuve prix",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "shippingProof",
+          "label": "Preuve livraison",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "imageProof",
+          "label": "Preuve image exacte",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "imageRightsProof",
+          "label": "Droits image",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "finalDecision",
+          "label": "Decision finale",
+          "value": "HOLD",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder",
+            "final_decision_not_ready_review"
+          ]
+        },
+        {
+          "fieldKey": "reviewedByMouss",
+          "label": "Validation Mouss",
+          "value": "non",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder",
+            "missing_human_review_mouss"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "productId": "ali_partner_20260527_pochette_cables_voyage_001",
+          "productName": "Pochette organisateur câbles double couche voyage",
+          "role": "main",
+          "expectedFileName": "01-pochette-organisateur-cables-double-couche-voyage-main.webp",
+          "proof": "",
+          "targetPath": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\01-pochette-organisateur-cables-double-couche-voyage\\01-pochette-organisateur-cables-double-couche-voyage-main.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\01-pochette-organisateur-cables-double-couche-voyage\\01-pochette-organisateur-cables-double-couche-voyage-main.webp",
+          "exists": false,
+          "sizeBytes": 0,
+          "webpSignatureOk": false,
+          "status": "HOLD_IMAGE_INCOMPLETE",
+          "ok": false,
+          "issues": [
+            "missing_image_proof",
+            "missing_webp_file"
+          ],
+          "warnings": []
+        },
+        {
+          "productId": "ali_partner_20260527_pochette_cables_voyage_001",
+          "productName": "Pochette organisateur câbles double couche voyage",
+          "role": "detail",
+          "expectedFileName": "02-pochette-organisateur-cables-double-couche-voyage-detail.webp",
+          "proof": "",
+          "targetPath": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\01-pochette-organisateur-cables-double-couche-voyage\\02-pochette-organisateur-cables-double-couche-voyage-detail.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\01-pochette-organisateur-cables-double-couche-voyage\\02-pochette-organisateur-cables-double-couche-voyage-detail.webp",
+          "exists": false,
+          "sizeBytes": 0,
+          "webpSignatureOk": false,
+          "status": "HOLD_IMAGE_INCOMPLETE",
+          "ok": false,
+          "issues": [
+            "missing_image_proof",
+            "missing_webp_file"
+          ],
+          "warnings": []
+        },
+        {
+          "productId": "ali_partner_20260527_pochette_cables_voyage_001",
+          "productName": "Pochette organisateur câbles double couche voyage",
+          "role": "usage",
+          "expectedFileName": "03-pochette-organisateur-cables-double-couche-voyage-usage.webp",
+          "proof": "",
+          "targetPath": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\01-pochette-organisateur-cables-double-couche-voyage\\03-pochette-organisateur-cables-double-couche-voyage-usage.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\01-pochette-organisateur-cables-double-couche-voyage\\03-pochette-organisateur-cables-double-couche-voyage-usage.webp",
+          "exists": false,
+          "sizeBytes": 0,
+          "webpSignatureOk": false,
+          "status": "HOLD_IMAGE_INCOMPLETE",
+          "ok": false,
+          "issues": [
+            "missing_image_proof",
+            "missing_webp_file"
+          ],
+          "warnings": []
+        },
+        {
+          "productId": "ali_partner_20260527_pochette_cables_voyage_001",
+          "productName": "Pochette organisateur câbles double couche voyage",
+          "role": "dimensions",
+          "expectedFileName": "04-pochette-organisateur-cables-double-couche-voyage-dimensions.webp",
+          "proof": "",
+          "targetPath": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\01-pochette-organisateur-cables-double-couche-voyage\\04-pochette-organisateur-cables-double-couche-voyage-dimensions.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\01-pochette-organisateur-cables-double-couche-voyage\\04-pochette-organisateur-cables-double-couche-voyage-dimensions.webp",
+          "exists": false,
+          "sizeBytes": 0,
+          "webpSignatureOk": false,
+          "status": "HOLD_IMAGE_INCOMPLETE",
+          "ok": false,
+          "issues": [
+            "missing_image_proof",
+            "missing_webp_file"
+          ],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "productId": "ali_partner_20260527_support_pc_pliant_001",
+      "productName": "Support PC portable pliant aluminium ajustable",
+      "declaredStatus": "HOLD",
+      "status": "HOLD_FIELD_KIT_INCOMPLETE",
+      "evidenceFieldCount": 12,
+      "evidenceOkCount": 0,
+      "evidenceMissingOrInvalidCount": 12,
+      "imageCount": 4,
+      "imageReadyCount": 0,
+      "missingImageFileCount": 4,
+      "invalidImageFileCount": 0,
+      "blockerCount": 23,
+      "warningCount": 0,
+      "blockers": [
+        "checkedAt:missing_or_placeholder",
+        "supplierSellerName:missing_or_placeholder",
+        "exactVariantChosen:missing_or_placeholder",
+        "deliveryFranceEuropeProof:missing_or_placeholder",
+        "deliveryEstimateForCustomer:missing_or_placeholder",
+        "trackingAvailable:missing_or_placeholder",
+        "trackingAvailable:tracking_answer_not_clear_yes_no",
+        "pricingProof:missing_or_placeholder",
+        "shippingProof:missing_or_placeholder",
+        "imageProof:missing_or_placeholder",
+        "imageRightsProof:missing_or_placeholder",
+        "finalDecision:missing_or_placeholder",
+        "finalDecision:final_decision_not_ready_review",
+        "reviewedByMouss:missing_or_placeholder",
+        "reviewedByMouss:missing_human_review_mouss",
+        "main:missing_image_proof",
+        "main:missing_webp_file",
+        "detail:missing_image_proof",
+        "detail:missing_webp_file",
+        "usage:missing_image_proof",
+        "usage:missing_webp_file",
+        "dimensions:missing_image_proof",
+        "dimensions:missing_webp_file"
+      ],
+      "warnings": [],
+      "nextAction": "remplir toutes les preuves, deposer les WebP exacts, puis relancer cet audit",
+      "publicationAllowed": false,
+      "paymentAllowed": false,
+      "supplierOrderAllowed": false,
+      "catalogWriteAllowed": false,
+      "evidenceFields": [
+        {
+          "fieldKey": "checkedAt",
+          "label": "Date de verification",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "supplierSellerName",
+          "label": "Nom vendeur fournisseur",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "exactVariantChosen",
+          "label": "Variante exacte",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "deliveryFranceEuropeProof",
+          "label": "Preuve delai France/Europe",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "deliveryEstimateForCustomer",
+          "label": "Delai client Maxi",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "trackingAvailable",
+          "label": "Suivi disponible",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder",
+            "tracking_answer_not_clear_yes_no"
+          ]
+        },
+        {
+          "fieldKey": "pricingProof",
+          "label": "Preuve prix",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "shippingProof",
+          "label": "Preuve livraison",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "imageProof",
+          "label": "Preuve image exacte",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "imageRightsProof",
+          "label": "Droits image",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "finalDecision",
+          "label": "Decision finale",
+          "value": "HOLD",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder",
+            "final_decision_not_ready_review"
+          ]
+        },
+        {
+          "fieldKey": "reviewedByMouss",
+          "label": "Validation Mouss",
+          "value": "non",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder",
+            "missing_human_review_mouss"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "productId": "ali_partner_20260527_support_pc_pliant_001",
+          "productName": "Support PC portable pliant aluminium ajustable",
+          "role": "main",
+          "expectedFileName": "01-support-pc-portable-pliant-aluminium-ajustable-main.webp",
+          "proof": "",
+          "targetPath": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\01-support-pc-portable-pliant-aluminium-ajustable-main.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\01-support-pc-portable-pliant-aluminium-ajustable-main.webp",
+          "exists": false,
+          "sizeBytes": 0,
+          "webpSignatureOk": false,
+          "status": "HOLD_IMAGE_INCOMPLETE",
+          "ok": false,
+          "issues": [
+            "missing_image_proof",
+            "missing_webp_file"
+          ],
+          "warnings": []
+        },
+        {
+          "productId": "ali_partner_20260527_support_pc_pliant_001",
+          "productName": "Support PC portable pliant aluminium ajustable",
+          "role": "detail",
+          "expectedFileName": "02-support-pc-portable-pliant-aluminium-ajustable-detail.webp",
+          "proof": "",
+          "targetPath": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\02-support-pc-portable-pliant-aluminium-ajustable-detail.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\02-support-pc-portable-pliant-aluminium-ajustable-detail.webp",
+          "exists": false,
+          "sizeBytes": 0,
+          "webpSignatureOk": false,
+          "status": "HOLD_IMAGE_INCOMPLETE",
+          "ok": false,
+          "issues": [
+            "missing_image_proof",
+            "missing_webp_file"
+          ],
+          "warnings": []
+        },
+        {
+          "productId": "ali_partner_20260527_support_pc_pliant_001",
+          "productName": "Support PC portable pliant aluminium ajustable",
+          "role": "usage",
+          "expectedFileName": "03-support-pc-portable-pliant-aluminium-ajustable-usage.webp",
+          "proof": "",
+          "targetPath": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\03-support-pc-portable-pliant-aluminium-ajustable-usage.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\03-support-pc-portable-pliant-aluminium-ajustable-usage.webp",
+          "exists": false,
+          "sizeBytes": 0,
+          "webpSignatureOk": false,
+          "status": "HOLD_IMAGE_INCOMPLETE",
+          "ok": false,
+          "issues": [
+            "missing_image_proof",
+            "missing_webp_file"
+          ],
+          "warnings": []
+        },
+        {
+          "productId": "ali_partner_20260527_support_pc_pliant_001",
+          "productName": "Support PC portable pliant aluminium ajustable",
+          "role": "dimensions",
+          "expectedFileName": "04-support-pc-portable-pliant-aluminium-ajustable-dimensions.webp",
+          "proof": "",
+          "targetPath": "business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\04-support-pc-portable-pliant-aluminium-ajustable-dimensions.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\depots-photos\\depot-photos-sprint-20260611\\produits\\02-support-pc-portable-pliant-aluminium-ajustable\\04-support-pc-portable-pliant-aluminium-ajustable-dimensions.webp",
+          "exists": false,
+          "sizeBytes": 0,
+          "webpSignatureOk": false,
+          "status": "HOLD_IMAGE_INCOMPLETE",
+          "ok": false,
+          "issues": [
+            "missing_image_proof",
+            "missing_webp_file"
+          ],
+          "warnings": []
+        }
+      ]
+    },
+    {
+      "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+      "productName": "Filet rangement coffre voiture à sangles fixes",
+      "declaredStatus": "HOLD",
+      "status": "HOLD_FIELD_KIT_INCOMPLETE",
+      "evidenceFieldCount": 12,
+      "evidenceOkCount": 0,
+      "evidenceMissingOrInvalidCount": 12,
+      "imageCount": 6,
+      "imageReadyCount": 0,
+      "missingImageFileCount": 6,
+      "invalidImageFileCount": 0,
+      "blockerCount": 27,
+      "warningCount": 0,
+      "blockers": [
+        "checkedAt:missing_or_placeholder",
+        "supplierSellerName:missing_or_placeholder",
+        "exactVariantChosen:missing_or_placeholder",
+        "deliveryFranceEuropeProof:missing_or_placeholder",
+        "deliveryEstimateForCustomer:missing_or_placeholder",
+        "trackingAvailable:missing_or_placeholder",
+        "trackingAvailable:tracking_answer_not_clear_yes_no",
+        "pricingProof:missing_or_placeholder",
+        "shippingProof:missing_or_placeholder",
+        "imageProof:missing_or_placeholder",
+        "imageRightsProof:missing_or_placeholder",
+        "finalDecision:missing_or_placeholder",
+        "finalDecision:final_decision_not_ready_review",
+        "reviewedByMouss:missing_or_placeholder",
+        "reviewedByMouss:missing_human_review_mouss",
+        "main:missing_image_proof",
+        "main:missing_webp_file",
+        "detail:missing_image_proof",
+        "detail:missing_webp_file",
+        "usage:missing_image_proof",
+        "usage:missing_webp_file",
+        "dimensions:missing_image_proof",
+        "dimensions:missing_webp_file",
+        "detail-5:missing_image_proof",
+        "detail-5:missing_webp_file",
+        "detail-6:missing_image_proof",
+        "detail-6:missing_webp_file"
+      ],
+      "warnings": [],
+      "nextAction": "remplir toutes les preuves, deposer les WebP exacts, puis relancer cet audit",
+      "publicationAllowed": false,
+      "paymentAllowed": false,
+      "supplierOrderAllowed": false,
+      "catalogWriteAllowed": false,
+      "evidenceFields": [
+        {
+          "fieldKey": "checkedAt",
+          "label": "Date de verification",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "supplierSellerName",
+          "label": "Nom vendeur fournisseur",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "exactVariantChosen",
+          "label": "Variante exacte",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "deliveryFranceEuropeProof",
+          "label": "Preuve delai France/Europe",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "deliveryEstimateForCustomer",
+          "label": "Delai client Maxi",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "trackingAvailable",
+          "label": "Suivi disponible",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder",
+            "tracking_answer_not_clear_yes_no"
+          ]
+        },
+        {
+          "fieldKey": "pricingProof",
+          "label": "Preuve prix",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "shippingProof",
+          "label": "Preuve livraison",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "imageProof",
+          "label": "Preuve image exacte",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "imageRightsProof",
+          "label": "Droits image",
+          "value": "",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder"
+          ]
+        },
+        {
+          "fieldKey": "finalDecision",
+          "label": "Decision finale",
+          "value": "HOLD",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder",
+            "final_decision_not_ready_review"
+          ]
+        },
+        {
+          "fieldKey": "reviewedByMouss",
+          "label": "Validation Mouss",
+          "value": "non",
+          "ok": false,
+          "issues": [
+            "missing_or_placeholder",
+            "missing_human_review_mouss"
+          ]
+        }
+      ],
+      "images": [
+        {
+          "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+          "productName": "Filet rangement coffre voiture à sangles fixes",
+          "role": "main",
+          "expectedFileName": "01-filet-rangement-coffre-voiture-a-sangles-fixes-main.webp",
+          "proof": "",
+          "targetPath": "/uploads/partner-products/sprint-go-humain-20260611/filet-rangement-coffre-voiture-a-sangles-fixes/01-filet-rangement-coffre-voiture-a-sangles-fixes-main.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260611\\filet-rangement-coffre-voiture-a-sangles-fixes\\01-filet-rangement-coffre-voiture-a-sangles-fixes-main.webp",
+          "exists": false,
+          "sizeBytes": 0,
+          "webpSignatureOk": false,
+          "status": "HOLD_IMAGE_INCOMPLETE",
+          "ok": false,
+          "issues": [
+            "missing_image_proof",
+            "missing_webp_file"
+          ],
+          "warnings": []
+        },
+        {
+          "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+          "productName": "Filet rangement coffre voiture à sangles fixes",
+          "role": "detail",
+          "expectedFileName": "02-filet-rangement-coffre-voiture-a-sangles-fixes-detail.webp",
+          "proof": "",
+          "targetPath": "/uploads/partner-products/sprint-go-humain-20260611/filet-rangement-coffre-voiture-a-sangles-fixes/02-filet-rangement-coffre-voiture-a-sangles-fixes-detail.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260611\\filet-rangement-coffre-voiture-a-sangles-fixes\\02-filet-rangement-coffre-voiture-a-sangles-fixes-detail.webp",
+          "exists": false,
+          "sizeBytes": 0,
+          "webpSignatureOk": false,
+          "status": "HOLD_IMAGE_INCOMPLETE",
+          "ok": false,
+          "issues": [
+            "missing_image_proof",
+            "missing_webp_file"
+          ],
+          "warnings": []
+        },
+        {
+          "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+          "productName": "Filet rangement coffre voiture à sangles fixes",
+          "role": "usage",
+          "expectedFileName": "03-filet-rangement-coffre-voiture-a-sangles-fixes-usage.webp",
+          "proof": "",
+          "targetPath": "/uploads/partner-products/sprint-go-humain-20260611/filet-rangement-coffre-voiture-a-sangles-fixes/03-filet-rangement-coffre-voiture-a-sangles-fixes-usage.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260611\\filet-rangement-coffre-voiture-a-sangles-fixes\\03-filet-rangement-coffre-voiture-a-sangles-fixes-usage.webp",
+          "exists": false,
+          "sizeBytes": 0,
+          "webpSignatureOk": false,
+          "status": "HOLD_IMAGE_INCOMPLETE",
+          "ok": false,
+          "issues": [
+            "missing_image_proof",
+            "missing_webp_file"
+          ],
+          "warnings": []
+        },
+        {
+          "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+          "productName": "Filet rangement coffre voiture à sangles fixes",
+          "role": "dimensions",
+          "expectedFileName": "04-filet-rangement-coffre-voiture-a-sangles-fixes-dimensions.webp",
+          "proof": "",
+          "targetPath": "/uploads/partner-products/sprint-go-humain-20260611/filet-rangement-coffre-voiture-a-sangles-fixes/04-filet-rangement-coffre-voiture-a-sangles-fixes-dimensions.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260611\\filet-rangement-coffre-voiture-a-sangles-fixes\\04-filet-rangement-coffre-voiture-a-sangles-fixes-dimensions.webp",
+          "exists": false,
+          "sizeBytes": 0,
+          "webpSignatureOk": false,
+          "status": "HOLD_IMAGE_INCOMPLETE",
+          "ok": false,
+          "issues": [
+            "missing_image_proof",
+            "missing_webp_file"
+          ],
+          "warnings": []
+        },
+        {
+          "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+          "productName": "Filet rangement coffre voiture à sangles fixes",
+          "role": "detail-5",
+          "expectedFileName": "05-filet-rangement-coffre-voiture-a-sangles-fixes-detail-5.webp",
+          "proof": "",
+          "targetPath": "/uploads/partner-products/sprint-go-humain-20260611/filet-rangement-coffre-voiture-a-sangles-fixes/05-filet-rangement-coffre-voiture-a-sangles-fixes-detail-5.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260611\\filet-rangement-coffre-voiture-a-sangles-fixes\\05-filet-rangement-coffre-voiture-a-sangles-fixes-detail-5.webp",
+          "exists": false,
+          "sizeBytes": 0,
+          "webpSignatureOk": false,
+          "status": "HOLD_IMAGE_INCOMPLETE",
+          "ok": false,
+          "issues": [
+            "missing_image_proof",
+            "missing_webp_file"
+          ],
+          "warnings": []
+        },
+        {
+          "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+          "productName": "Filet rangement coffre voiture à sangles fixes",
+          "role": "detail-6",
+          "expectedFileName": "06-filet-rangement-coffre-voiture-a-sangles-fixes-detail-6.webp",
+          "proof": "",
+          "targetPath": "/uploads/partner-products/sprint-go-humain-20260611/filet-rangement-coffre-voiture-a-sangles-fixes/06-filet-rangement-coffre-voiture-a-sangles-fixes-detail-6.webp",
+          "targetAbsolutePath": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\public\\uploads\\partner-products\\sprint-go-humain-20260611\\filet-rangement-coffre-voiture-a-sangles-fixes\\06-filet-rangement-coffre-voiture-a-sangles-fixes-detail-6.webp",
+          "exists": false,
+          "sizeBytes": 0,
+          "webpSignatureOk": false,
+          "status": "HOLD_IMAGE_INCOMPLETE",
+          "ok": false,
+          "issues": [
+            "missing_image_proof",
+            "missing_webp_file"
+          ],
+          "warnings": []
+        }
+      ]
+    }
+  ],
+  "outputDirRelative": "business-maxi-trouvailles\\tableaux-action\\audit-kit-terrain-validation-produits-20260611",
+  "sources": {
+    "fieldKitPath": "business-maxi-trouvailles\\tableaux-action\\kit-terrain-validation-produits-20260611\\KIT_TERRAIN_VALIDATION_PRODUITS_20260611.json",
+    "fillAllPath": "business-maxi-trouvailles\\tableaux-action\\kit-terrain-validation-produits-20260611\\A_REMPLIR_TOUTES_PREUVES_IMAGES_20260611.json"
+  },
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublicUploadsWrite": true,
+    "noImageDownload": true,
+    "noImageGeneration": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true,
+    "manualValidationRequired": true
+  },
+  "files": {
+    "json": "business-maxi-trouvailles\\tableaux-action\\audit-kit-terrain-validation-produits-20260611\\AUDIT_KIT_TERRAIN_VALIDATION_PRODUITS_20260611.json",
+    "md": "business-maxi-trouvailles\\tableaux-action\\audit-kit-terrain-validation-produits-20260611\\AUDIT_KIT_TERRAIN_VALIDATION_PRODUITS_20260611.md",
+    "csv": "business-maxi-trouvailles\\tableaux-action\\audit-kit-terrain-validation-produits-20260611\\AUDIT_KIT_TERRAIN_VALIDATION_PRODUITS_20260611.csv"
+  }
+}

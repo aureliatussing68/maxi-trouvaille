@@ -1,0 +1,199 @@
+{
+  "generatedAt": "2026-06-12T08:09:18.263Z",
+  "generatedAtLocal": "2026-06-12 10:09 Europe/Paris",
+  "instructions": "Remplir uniquement apres verification visuelle reelle. Garder finalDecision a HOLD avant validation explicite.",
+  "products": [
+    {
+      "productId": "ali_partner_20260527_pochette_cables_voyage_001",
+      "productName": "Pochette organisateur câbles double couche voyage",
+      "checkedAt": "",
+      "mainImageExact": "",
+      "variantConfirmed": "",
+      "clientSafeImageDecision": "",
+      "imageRightsDecision": "",
+      "localMirrorOrReplacementNeeded": true,
+      "imageProofNotes": "",
+      "images": [
+        {
+          "index": 1,
+          "currentUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSourceType": "remote_url",
+          "currentHostname": "REMOTE_IMAGE_HOST_REDACTED",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 2,
+          "currentUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSourceType": "remote_url",
+          "currentHostname": "REMOTE_IMAGE_HOST_REDACTED",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 3,
+          "currentUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSourceType": "remote_url",
+          "currentHostname": "REMOTE_IMAGE_HOST_REDACTED",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 4,
+          "currentUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSourceType": "remote_url",
+          "currentHostname": "REMOTE_IMAGE_HOST_REDACTED",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        }
+      ],
+      "finalDecision": "HOLD",
+      "reviewedByMouss": false
+    },
+    {
+      "productId": "ali_partner_20260527_support_pc_pliant_001",
+      "productName": "Support PC portable pliant aluminium ajustable",
+      "checkedAt": "",
+      "mainImageExact": "",
+      "variantConfirmed": "",
+      "clientSafeImageDecision": "",
+      "imageRightsDecision": "",
+      "localMirrorOrReplacementNeeded": true,
+      "imageProofNotes": "",
+      "images": [
+        {
+          "index": 1,
+          "currentUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSourceType": "remote_url",
+          "currentHostname": "REMOTE_IMAGE_HOST_REDACTED",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 2,
+          "currentUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSourceType": "remote_url",
+          "currentHostname": "REMOTE_IMAGE_HOST_REDACTED",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 3,
+          "currentUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSourceType": "remote_url",
+          "currentHostname": "REMOTE_IMAGE_HOST_REDACTED",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 4,
+          "currentUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSourceType": "remote_url",
+          "currentHostname": "REMOTE_IMAGE_HOST_REDACTED",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        }
+      ],
+      "finalDecision": "HOLD",
+      "reviewedByMouss": false
+    },
+    {
+      "productId": "ali_partner_20260527_filet_coffre_voiture_001",
+      "productName": "Filet rangement coffre voiture à sangles fixes",
+      "checkedAt": "",
+      "mainImageExact": "",
+      "variantConfirmed": "",
+      "clientSafeImageDecision": "",
+      "imageRightsDecision": "",
+      "localMirrorOrReplacementNeeded": true,
+      "imageProofNotes": "",
+      "images": [
+        {
+          "index": 1,
+          "currentUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSourceType": "remote_url",
+          "currentHostname": "REMOTE_IMAGE_HOST_REDACTED",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 2,
+          "currentUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSourceType": "remote_url",
+          "currentHostname": "REMOTE_IMAGE_HOST_REDACTED",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 3,
+          "currentUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSourceType": "remote_url",
+          "currentHostname": "REMOTE_IMAGE_HOST_REDACTED",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 4,
+          "currentUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSourceType": "remote_url",
+          "currentHostname": "REMOTE_IMAGE_HOST_REDACTED",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 5,
+          "currentUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSourceType": "remote_url",
+          "currentHostname": "REMOTE_IMAGE_HOST_REDACTED",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        },
+        {
+          "index": 6,
+          "currentUrl": "REMOTE_IMAGE_SOURCE_REDACTED",
+          "currentSourceType": "remote_url",
+          "currentHostname": "REMOTE_IMAGE_HOST_REDACTED",
+          "exactMatch": "",
+          "keepForReview": "",
+          "localReplacementPath": "",
+          "issueNotes": ""
+        }
+      ],
+      "finalDecision": "HOLD",
+      "reviewedByMouss": false
+    }
+  ],
+  "safety": {
+    "readOnly": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "rank": 10,
+  "top3Rank": 2,
+  "productId": "integration_articles_20260612_cable-organizer-boite-multiprise",
+  "productSlug": "cache-multiprise-boite-rangement-cables-partenaire-hold",
+  "productName": "Cache multiprise boite rangement cables",
+  "categoryId": "dropshipping-accessoires",
+  "priorityScore": 111,
+  "supplierMaxCost": "7.60 EUR",
+  "targetSalePrice": "18.90 EUR",
+  "targetMargin": "11.30 EUR (60%)",
+  "imageDepositDirRelative": "business-maxi-trouvailles/depots-images-exactes/integration-articles/20260613/cache-multiprise-boite-rangement-cables-partenaire-hold",
+  "expectedImageFiles": [
+    "cache-multiprise-boite-rangement-cables-partenaire-hold-main.webp",
+    "cache-multiprise-boite-rangement-cables-partenaire-hold-detail-1.webp",
+    "cache-multiprise-boite-rangement-cables-partenaire-hold-variant.webp"
+  ],
+  "proofZone": "Prix / stock / marge",
+  "fieldOrder": 5,
+  "fieldKey": "supplierPriceCents",
+  "fieldLabel": "Prix fournisseur reel en centimes",
+  "expectedFormat": "Nombre entier en centimes, hors invention",
+  "rejectIf": "Prix absent, prix estime ou marge cible non tenable",
+  "adminHref": "/admin/preuves-partenaires?status=hold&q=integration_articles_20260612_cable-organizer-boite-multiprise&zone=Prix+%2F+stock+%2F+marge#top-verification-integration_articles_20260612_cable-organizer-boite-multiprise",
+  "status": "TO_FILL_HOLD",
+  "manualInput": {
+    "value": "",
+    "evidenceNote": "",
+    "captureOrFilePath": "",
+    "checkedSameArticle": "",
+    "moussValidation": "",
+    "finalDecision": "HOLD_TO_FILL"
+  },
+  "nextAction": "Remplir cette preuve critique pour le meme article exact, garder HOLD, puis relancer les audits."
+}

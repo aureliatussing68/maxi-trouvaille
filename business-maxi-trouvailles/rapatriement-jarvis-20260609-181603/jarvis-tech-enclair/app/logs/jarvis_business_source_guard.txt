@@ -1,0 +1,17 @@
+Garde-fou sourcing business - 2026-06-09 18:00:59
+
+Mode derniers candidats: demo
+Candidats: 10
+Sources demo: 10
+Sources reelles: 0
+AliExpress API prete: A_CONFIGURER
+Sourcing reel pret: NON
+Message court: Sourcing actuel: demo, produits encore en demo ou incomplets, aucun achat/publication.
+
+Cles AliExpress:
+- ALIEXPRESS_APP_KEY: PARTIEL
+- ALIEXPRESS_APP_SECRET: OK
+- ALIEXPRESS_TRACKING_ID: MANQUANT
+
+Message: Les derniers produits sont encore en mode demo ou sourcing incomplet.
+Securite: lecture seule, aucune commande, aucune publication.

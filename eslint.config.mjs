@@ -12,6 +12,13 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    "scripts/automation/**",
+    "business-maxi-trouvailles/rapatriement-jarvis-*/**",
+    "business-maxi-trouvailles/sauvegardes/**",
+    "business-maxi-trouvailles/backups/**",
+    "backups/**",
+    ".sandbox_home/**",
+    ".sandboxhome/**",
   ]),
 ]);
 

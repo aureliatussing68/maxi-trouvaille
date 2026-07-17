@@ -1,0 +1,36 @@
+{
+  "checked_at": "2026-06-09 18:00:59",
+  "ok": true,
+  "html_path": "C:\\Users\\sinek\\Desktop\\Jarvis-TechEnClair\\app\\logs\\jarvis_business_latest_review.html",
+  "opened": false,
+  "queue_dir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider",
+  "product_title": "Organisateur de cables de voyage compact",
+  "category_id": "dropshipping-accessoires",
+  "import_decision": "BLOCKED_FOR_MANUAL_REVIEW",
+  "blocker_count": 2,
+  "blockers": [
+    "lien fournisseur reel manquant",
+    "sourcing reel AliExpress non pret"
+  ],
+  "review_dir": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345",
+  "review_file": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\A_VALIDER_PAR_MOUSS.md",
+  "manifest_path": "C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\produits-a-valider\\organisateur-de-cables-de-voyage-compact_20260523_130345\\manifest.json",
+  "sale_price": "12,90 €",
+  "supplier_price": "3,90 €",
+  "estimated_margin": "9,00 €",
+  "ads_count": 3,
+  "review_excerpt": "# Dossier produit a valider\n\n> Dossier validation pret: Organisateur de cables de voyage compact, 2 blocage(s) a relire, aucune action sensible.\n\n- Produit: Organisateur de cables de voyage compact\n- Categorie: `dropshipping-accessoires`\n- Prix fournisseur: 3,90 €\n- Prix vente: 12,90 €\n- Marge estimee: 9,00 €\n- Decision import: `BLOCKED_FOR_MANUAL_REVIEW`\n- Scripts pubs: 3\n\n## Blocages avant action\n- lien fournisseur reel manquant\n- sourcing reel AliExpress non pret\n\n## Checklist Mouss\n- [ ] Coller ou verifier un lien fournisseur reel.\n- [ ] Verifier prix fournisseur, livraison Europe, retours et SAV.\n- [ ] Verifier que le produit n'est pas dangereux, medical, contrefait ou interdit.\n- [ ] Verifier les images produit avant toute pub.\n- [ ] Valider la categorie Maxi et le prix promo.\n- [ ] Garder publication TikTok/Instagram/Snapchat en manuel.\n\n## Fichiers pubs\n- `C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260605_160803\\tiktok.md`\n- `C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260605_160803\\instagram-reels.md`\n- `C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260605_160803\\snapchat-story.md`\n- `C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260605_160803\\manifest.json`\n- `C:\\Users\\sinek\\Desktop\\maxi-trouvaille\\business-maxi-trouvailles\\exports-publicites\\scripts\\organisateur-de-cables-de-voyage-compact_20260605_160803\\README.txt`\n\n## Regles\n- Ne pas importer sans validation humaine.\n- Ne pas commander sur AliExpress automatiquement.\n- Ne pas publier sur TikTok, Instagram ou Snapchat automatiquement.\n- Ne pas payer ou modifier Stripe automatiquement.\n",
+  "operator_message": "Dernier produit a valider pret a afficher. Aucune modification.",
+  "safety": {
+    "read_only": true,
+    "display_only": true,
+    "site_modified": false,
+    "import_started": false,
+    "order_started": false,
+    "payment_started": false,
+    "publication_started": false,
+    "manual_validation_required": true,
+    "no_values_exposed": true
+  },
+  "short_message": "Dernier produit: Organisateur de cables de voyage compact. Import bloque pour relecture manuelle, 2 blocage(s), affichage seulement."
+}
