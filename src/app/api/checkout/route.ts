@@ -273,13 +273,13 @@ export async function POST(request: Request) {
       cartLines,
       shippingValidation,
     });
-  } catch {
-    return NextResponse.json(
-      {
-        error:
-          "Paiement Stripe prepare, mais l'enregistrement admin partenaire a echoue. Reessayez avant d'envoyer le client payer.",
-      },
-      { status: 500 },
+  } catch (error) {
+    // Les metadata de la session Stripe contiennent deja le detail complet
+    // de livraison : on ne bloque jamais un client pret a payer pour un
+    // echec d'enregistrement admin (la commande reste recuperable via Stripe).
+    console.error(
+      "[checkout] enregistrement commande partenaire echoue, paiement autorise via fallback Stripe metadata",
+      error,
     );
   }
 

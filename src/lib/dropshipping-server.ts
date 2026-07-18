@@ -1,5 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
+import postgres from "postgres";
 import { isDropshippingProduct, type Product } from "@/lib/catalog";
 import { decrementQuickProductStock } from "@/lib/catalog-server";
 import type { ShippingValidationResult } from "@/lib/shipping";
@@ -10,11 +11,71 @@ import {
   type DropshippingOrderStatus,
 } from "@/lib/dropshipping-shared";
 
-const dropshippingOrdersPath = path.join(
+const localOrdersPath = path.join(
   process.cwd(),
   "data",
   "dropshipping-orders.json",
 );
+const temporaryOrdersPath = path.join(
+  "/tmp",
+  "maxi-trouvaille-dropshipping-orders.json",
+);
+
+let sqlClient: ReturnType<typeof postgres> | null = null;
+let schemaReady: Promise<void> | null = null;
+
+function getDatabaseUrl() {
+  return (
+    process.env.DROPSHIPPING_ORDERS_DATABASE_URL ??
+    process.env.POSTGRES_URL ??
+    process.env.DATABASE_URL ??
+    ""
+  );
+}
+
+function getOrdersPath() {
+  return process.env.VERCEL === "1" && !getDatabaseUrl()
+    ? temporaryOrdersPath
+    : localOrdersPath;
+}
+
+function getSqlClient() {
+  const databaseUrl = getDatabaseUrl();
+
+  if (!databaseUrl) {
+    return null;
+  }
+
+  sqlClient ??= postgres(databaseUrl, {
+    max: 1,
+    idle_timeout: 20,
+    connect_timeout: 10,
+    prepare: false,
+  });
+
+  return sqlClient;
+}
+
+async function ensureOrdersSchema() {
+  const sql = getSqlClient();
+  if (!sql) {
+    return;
+  }
+
+  schemaReady ??= (async () => {
+    await sql`
+      CREATE TABLE IF NOT EXISTS dropshipping_orders (
+        id text PRIMARY KEY,
+        stripe_session_id text NOT NULL DEFAULT '',
+        data jsonb NOT NULL,
+        created_at timestamptz NOT NULL DEFAULT now(),
+        updated_at timestamptz NOT NULL DEFAULT now()
+      )
+    `;
+  })();
+
+  await schemaReady;
+}
 
 type PaidShippingValidation = Extract<ShippingValidationResult, { ok: true }>;
 
@@ -24,8 +85,18 @@ type CartLine = {
 };
 
 export async function readDropshippingOrders(): Promise<DropshippingOrder[]> {
+  const sql = getSqlClient();
+
+  if (sql) {
+    await ensureOrdersSchema();
+    const rows = await sql`
+      SELECT data FROM dropshipping_orders ORDER BY created_at DESC
+    `;
+    return rows.map((row) => row.data as DropshippingOrder);
+  }
+
   try {
-    const content = await fs.readFile(dropshippingOrdersPath, "utf8");
+    const content = await fs.readFile(getOrdersPath(), "utf8");
     const parsed = JSON.parse(content) as unknown;
     return Array.isArray(parsed) ? (parsed as DropshippingOrder[]) : [];
   } catch {
@@ -34,12 +105,32 @@ export async function readDropshippingOrders(): Promise<DropshippingOrder[]> {
 }
 
 export async function writeDropshippingOrders(orders: DropshippingOrder[]) {
-  await fs.mkdir(path.dirname(dropshippingOrdersPath), { recursive: true });
-  await fs.writeFile(
-    dropshippingOrdersPath,
-    JSON.stringify(orders, null, 2),
-    "utf8",
-  );
+  const sql = getSqlClient();
+
+  if (sql) {
+    await ensureOrdersSchema();
+    for (const order of orders) {
+      await sql`
+        INSERT INTO dropshipping_orders (id, stripe_session_id, data, created_at, updated_at)
+        VALUES (
+          ${order.id},
+          ${order.stripeSessionId ?? ""},
+          ${sql.json(order as never)},
+          ${order.createdAt},
+          ${order.updatedAt}
+        )
+        ON CONFLICT (id) DO UPDATE SET
+          stripe_session_id = EXCLUDED.stripe_session_id,
+          data = EXCLUDED.data,
+          updated_at = EXCLUDED.updated_at
+      `;
+    }
+    return;
+  }
+
+  const target = getOrdersPath();
+  await fs.mkdir(path.dirname(target), { recursive: true });
+  await fs.writeFile(target, JSON.stringify(orders, null, 2), "utf8");
 }
 
 function createOrderNumber() {
