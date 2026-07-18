@@ -1,5 +1,418 @@
 [
   {
+    "id": "ali_claude_20260718_rose_briques_005",
+    "slug": "rose-eternelle-blocs-construction",
+    "name": "Rose éternelle en blocs de construction",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 120,
+    "badge": "Best-seller",
+    "image": "/uploads/quick-products/rose-eternelle-blocs-construction-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/rose-eternelle-blocs-construction-photo-1.webp",
+      "/uploads/quick-products/rose-eternelle-blocs-construction-photo-2.webp",
+      "/uploads/quick-products/rose-eternelle-blocs-construction-photo-3.webp",
+      "/uploads/quick-products/rose-eternelle-blocs-construction-photo-4.webp",
+      "/uploads/quick-products/rose-eternelle-blocs-construction-photo-5.webp",
+      "/uploads/quick-products/rose-eternelle-blocs-construction-photo-6.webp"
+    ],
+    "shortDescription": "Une rose à construire soi-même en petites briques, qui ne fane jamais.",
+    "description": "Une rose qu'on construit soi-même brique par brique, et qui ne fane jamais. Compatible avec les grandes marques de briques, ce petit kit est parfait pour un moment créatif : on assemble, on expose, on offre. Déjà plus de 2 000 exemplaires vendus chez notre fournisseur — un vrai best-seller pour les enfants dès 6 ans comme pour la déco du bureau.",
+    "features": [
+      "À construire soi-même : activité créative et apaisante",
+      "Compatible avec les briques des grandes marques",
+      "Une fleur qui ne fane jamais : déco ou cadeau",
+      "Dès 6 ans, notice visuelle simple",
+      "Best-seller : plus de 2 000 exemplaires vendus"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 890,
+    "compareAtPrice": 1290,
+    "imageAlt": "Rose éternelle en blocs de construction",
+    "seo": {
+      "title": "Rose éternelle en blocs de construction | Maxi Trouvaille",
+      "description": "Une rose à construire soi-même en petites briques, qui ne fane jamais.",
+      "imageAlt": "Rose éternelle en blocs de construction"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-18",
+      "note": "Photos fournisseur exactes importees en local (webp) le 18/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-18",
+      "productUrl": "https://fr.aliexpress.com/item/1005008014745132.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 18/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-18"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008014745132.html",
+      "supplierSku": "AE-1005008014745132-BRICK-ROSE",
+      "supplierPriceCents": 246,
+      "supplierStock": 120,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 890,
+      "marginCents": 644,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-18",
+      "validationGate": {
+        "source": "Selection proprietaire + page AliExpress publique",
+        "checkedAt": "2026-07-18",
+        "note": "Validation proprietaire du 18/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260718_peluche_sahur_004",
+    "slug": "peluche-tung-tung-sahur-27cm",
+    "name": "Peluche Tung Tung Sahur 27 cm",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 70,
+    "badge": "Phénomène 2026",
+    "image": "/uploads/quick-products/peluche-tung-tung-sahur-27cm-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/peluche-tung-tung-sahur-27cm-photo-1.webp",
+      "/uploads/quick-products/peluche-tung-tung-sahur-27cm-photo-2.webp",
+      "/uploads/quick-products/peluche-tung-tung-sahur-27cm-photo-3.webp",
+      "/uploads/quick-products/peluche-tung-tung-sahur-27cm-photo-4.webp",
+      "/uploads/quick-products/peluche-tung-tung-sahur-27cm-photo-5.webp",
+      "/uploads/quick-products/peluche-tung-tung-sahur-27cm-photo-6.webp"
+    ],
+    "shortDescription": "La peluche du phénomène « brainrot » : Tung Tung Sahur, 27 cm, toute douce.",
+    "description": "Si vous avez un enfant entre 6 et 12 ans, vous avez forcément entendu « Tung Tung Tung Sahur » ! La peluche du mème le plus célèbre des cours de récré arrive à la maison : 27 cm, toute douce, fidèle au personnage. Le cadeau qui déclenche des cris de joie et fait de vous le parent (ou le tonton) le plus cool de l'année.",
+    "features": [
+      "Le phénomène préféré des enfants en 2026",
+      "27 cm : belle taille pour câlins et étagère",
+      "Peluche douce et rembourrée",
+      "Cadeau garanti effet waouh à l'école",
+      "À collectionner avec les autres personnages"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 2290,
+    "compareAtPrice": 2990,
+    "imageAlt": "Peluche Tung Tung Sahur 27 cm",
+    "seo": {
+      "title": "Peluche Tung Tung Sahur 27 cm | Maxi Trouvaille",
+      "description": "La peluche du phénomène « brainrot » : Tung Tung Sahur, 27 cm, toute douce.",
+      "imageAlt": "Peluche Tung Tung Sahur 27 cm"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-18",
+      "note": "Photos fournisseur exactes importees en local (webp) le 18/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-18",
+      "productUrl": "https://fr.aliexpress.com/item/1005009197489471.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 18/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-18"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009197489471.html",
+      "supplierSku": "AE-1005009197489471-PLUSH-SAHUR",
+      "supplierPriceCents": 1059,
+      "supplierStock": 70,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2290,
+      "marginCents": 1231,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-18",
+      "validationGate": {
+        "source": "Selection proprietaire + page AliExpress publique",
+        "checkedAt": "2026-07-18",
+        "note": "Validation proprietaire du 18/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260718_squishy_coffret_003",
+    "slug": "coffret-squishy-jouets-sensoriels-assortis",
+    "name": "Coffret Squishy — jouets sensoriels assortis",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 100,
+    "badge": "Tendance récré",
+    "image": "/uploads/quick-products/coffret-squishy-jouets-sensoriels-assortis-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/coffret-squishy-jouets-sensoriels-assortis-photo-1.webp",
+      "/uploads/quick-products/coffret-squishy-jouets-sensoriels-assortis-photo-2.webp",
+      "/uploads/quick-products/coffret-squishy-jouets-sensoriels-assortis-photo-3.webp",
+      "/uploads/quick-products/coffret-squishy-jouets-sensoriels-assortis-photo-4.webp",
+      "/uploads/quick-products/coffret-squishy-jouets-sensoriels-assortis-photo-5.webp"
+    ],
+    "shortDescription": "Assortiment de squishies à rebond lent : animaux et personnages rigolos.",
+    "description": "Les squishies, c'est LA folie des cours de récré : on presse, ça reprend sa forme tout doucement, et c'est terriblement satisfaisant. Cet assortiment mélange animaux et personnages rigolos à collectionner et à échanger. Anti-stress pour les grands, jeu sensoriel pour les petits, cadeau d'anniversaire garanti succès.",
+    "features": [
+      "Rebond lent ultra satisfaisant",
+      "Animaux et personnages assortis à collectionner",
+      "Matière douce et souple, sans arêtes",
+      "Idéal cadeau d'anniversaire ou petite récompense",
+      "La tendance n°1 des cours de récré"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1090,
+    "compareAtPrice": 1490,
+    "imageAlt": "Coffret Squishy — jouets sensoriels assortis",
+    "seo": {
+      "title": "Coffret Squishy — jouets sensoriels assortis | Maxi Trouvaille",
+      "description": "Assortiment de squishies à rebond lent : animaux et personnages rigolos.",
+      "imageAlt": "Coffret Squishy — jouets sensoriels assortis"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-18",
+      "note": "Photos fournisseur exactes importees en local (webp) le 18/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-18",
+      "productUrl": "https://fr.aliexpress.com/item/1005012554253655.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 18/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-18"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005012554253655.html",
+      "supplierSku": "AE-1005012554253655-SQUISHY-BOX",
+      "supplierPriceCents": 379,
+      "supplierStock": 100,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1090,
+      "marginCents": 711,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-18",
+      "validationGate": {
+        "source": "Selection proprietaire + page AliExpress publique",
+        "checkedAt": "2026-07-18",
+        "note": "Validation proprietaire du 18/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260718_ventilateur_chat_002",
+    "slug": "mini-ventilateur-chat-usb-silencieux",
+    "name": "Mini ventilateur chat USB silencieux",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 80,
+    "badge": "Coup de cœur",
+    "image": "/uploads/quick-products/mini-ventilateur-chat-usb-silencieux-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/mini-ventilateur-chat-usb-silencieux-photo-1.webp",
+      "/uploads/quick-products/mini-ventilateur-chat-usb-silencieux-photo-2.webp",
+      "/uploads/quick-products/mini-ventilateur-chat-usb-silencieux-photo-3.webp",
+      "/uploads/quick-products/mini-ventilateur-chat-usb-silencieux-photo-4.webp",
+      "/uploads/quick-products/mini-ventilateur-chat-usb-silencieux-photo-5.webp"
+    ],
+    "shortDescription": "Mini ventilateur de bureau en forme de chat, rechargeable USB, ultra silencieux.",
+    "description": "Le ventilateur le plus mignon de l'été : une petite bouille de chat qui rafraîchit le bureau ou la chambre sans faire de bruit. Rechargeable en USB, il est parfait pour les enfants comme pour les grands. Un cadeau qui fait sourire et qui sert tous les jours quand il fait chaud.",
+    "features": [
+      "Design chat adorable, parfait pour la chambre des enfants",
+      "Ultra silencieux : n'empêche pas de dormir ni de travailler",
+      "Rechargeable USB",
+      "Compact, se pose partout",
+      "Le cadeau malin de l'été"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 2490,
+    "compareAtPrice": 3390,
+    "imageAlt": "Mini ventilateur chat USB silencieux",
+    "seo": {
+      "title": "Mini ventilateur chat USB silencieux | Maxi Trouvaille",
+      "description": "Mini ventilateur de bureau en forme de chat, rechargeable USB, ultra silencieux.",
+      "imageAlt": "Mini ventilateur chat USB silencieux"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-18",
+      "note": "Photos fournisseur exactes importees en local (webp) le 18/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-18",
+      "productUrl": "https://fr.aliexpress.com/item/1005012678678215.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 18/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-18"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005012678678215.html",
+      "supplierSku": "AE-1005012678678215-FAN-CAT",
+      "supplierPriceCents": 1116,
+      "supplierStock": 80,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2490,
+      "marginCents": 1374,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-18",
+      "validationGate": {
+        "source": "Selection proprietaire + page AliExpress publique",
+        "checkedAt": "2026-07-18",
+        "note": "Validation proprietaire du 18/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260718_ventilateur_brumisateur_001",
+    "slug": "ventilateur-brumisateur-portable-rechargeable",
+    "name": "Ventilateur brumisateur portable rechargeable",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 60,
+    "badge": "Spécial canicule",
+    "image": "/uploads/quick-products/ventilateur-brumisateur-portable-rechargeable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/ventilateur-brumisateur-portable-rechargeable-photo-1.webp",
+      "/uploads/quick-products/ventilateur-brumisateur-portable-rechargeable-photo-2.webp",
+      "/uploads/quick-products/ventilateur-brumisateur-portable-rechargeable-photo-3.webp",
+      "/uploads/quick-products/ventilateur-brumisateur-portable-rechargeable-photo-4.webp",
+      "/uploads/quick-products/ventilateur-brumisateur-portable-rechargeable-photo-5.webp",
+      "/uploads/quick-products/ventilateur-brumisateur-portable-rechargeable-photo-6.webp"
+    ],
+    "shortDescription": "Ventilateur portable avec brumisation d'eau, batterie 4000 mAh, tête orientable 90°.",
+    "description": "Le combo gagnant des grosses chaleurs : un ventilateur portable qui souffle ET brumise. Son réservoir diffuse une fine brume d'eau fraîche pendant que la batterie 4000 mAh tient plusieurs heures. Tête orientable à 90°, recharge USB, format compact à poser ou à emporter. Le compagnon parfait pour la maison, le bureau, la poussette ou les vacances.",
+    "features": [
+      "Brumisation d'eau intégrée pour un vrai coup de frais",
+      "Batterie rechargeable 4000 mAh (recharge USB)",
+      "Tête orientable à 90°",
+      "Compact et léger, à poser ou à emporter",
+      "Idéal canicule : maison, bureau, extérieur"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 3990,
+    "compareAtPrice": 5490,
+    "imageAlt": "Ventilateur brumisateur portable rechargeable",
+    "seo": {
+      "title": "Ventilateur brumisateur portable rechargeable | Maxi Trouvaille",
+      "description": "Ventilateur portable avec brumisation d'eau, batterie 4000 mAh, tête orientable 90°.",
+      "imageAlt": "Ventilateur brumisateur portable rechargeable"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-18",
+      "note": "Photos fournisseur exactes importees en local (webp) le 18/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-18",
+      "productUrl": "https://fr.aliexpress.com/item/1005012679914856.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 18/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-18"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005012679914856.html",
+      "supplierSku": "AE-1005012679914856-FAN-MIST",
+      "supplierPriceCents": 2911,
+      "supplierStock": 60,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3990,
+      "marginCents": 1079,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-18",
+      "validationGate": {
+        "source": "Selection proprietaire + page AliExpress publique",
+        "checkedAt": "2026-07-18",
+        "note": "Validation proprietaire du 18/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
     "id": "ali_partner_20260605_peigne_autonettoyant_chat_001",
     "slug": "peigne-poils-chat-autonettoyant",
     "name": "Peigne poils chat autonettoyant",
