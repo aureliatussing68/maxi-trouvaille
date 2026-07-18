@@ -147,14 +147,16 @@ export function ShopProductExplorer({
   statsByProductId,
   reviewSummaryByProductId,
   showAdminControls,
+  initialQuery = "",
 }: {
   products: Product[];
   candidateCount?: number;
   statsByProductId: Record<string, ProductStats>;
   reviewSummaryByProductId: Record<string, ProductReviewSummary>;
   showAdminControls: boolean;
+  initialQuery?: string;
 }) {
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState(initialQuery);
   const [categoryId, setCategoryId] = useState("all");
   const [highlight, setHighlight] = useState<HighlightFilter>("all");
   const [sortKey, setSortKey] = useState<SortKey>("recommended");

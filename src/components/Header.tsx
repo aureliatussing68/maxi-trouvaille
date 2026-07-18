@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { Menu, PackageOpen, ShoppingBag, X } from "lucide-react";
+import { Menu, PackageOpen, Search, ShoppingBag, X } from "lucide-react";
 import { useState } from "react";
 import { useCart } from "@/components/CartProvider";
 
@@ -44,7 +44,7 @@ export function Header() {
               Maxi Trouvaille
             </span>
             <span className="hidden text-xs font-semibold uppercase text-muted sm:block">
-              Produits partenaires
+              La boutique à petits prix
             </span>
           </span>
         </Link>
@@ -71,6 +71,28 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
+          <form
+            action="/boutique"
+            method="get"
+            role="search"
+            className="hidden items-center xl:flex"
+          >
+            <label className="relative flex items-center">
+              <span className="sr-only">Rechercher un produit</span>
+              <Search
+                size={16}
+                aria-hidden="true"
+                className="pointer-events-none absolute left-3 text-muted"
+              />
+              <input
+                type="search"
+                name="q"
+                placeholder="Rechercher un produit..."
+                className="h-10 w-52 rounded-md border border-line bg-white pl-9 pr-3 text-sm font-semibold outline-none transition focus:border-teal focus:ring-2 focus:ring-[#bfe7df]"
+              />
+            </label>
+          </form>
+
           <Link
             href="/panier"
             className="focus-ring relative inline-flex h-10 items-center gap-2 rounded-md bg-foreground px-3 text-sm font-bold text-white transition hover:bg-[#2b2b2b]"
@@ -100,6 +122,27 @@ export function Header() {
           aria-label="Navigation mobile"
         >
           <div className="container-page grid gap-2 px-0">
+            <form
+              action="/boutique"
+              method="get"
+              role="search"
+              onSubmit={() => setIsOpen(false)}
+            >
+              <label className="relative flex items-center">
+                <span className="sr-only">Rechercher un produit</span>
+                <Search
+                  size={16}
+                  aria-hidden="true"
+                  className="pointer-events-none absolute left-3 text-muted"
+                />
+                <input
+                  type="search"
+                  name="q"
+                  placeholder="Rechercher un produit..."
+                  className="h-11 w-full rounded-md border border-line bg-white pl-9 pr-3 text-sm font-semibold outline-none transition focus:border-teal focus:ring-2 focus:ring-[#bfe7df]"
+                />
+              </label>
+            </form>
             {navLinks.map((link) => (
               <Link
                 key={link.href}
