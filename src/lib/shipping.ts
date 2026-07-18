@@ -54,6 +54,14 @@ export const shippingMethods: ShippingMethod[] = [
     description:
       "Livraison à domicile avec numéro de suivi. Réception estimée 7 à 14 jours ouvrés.",
   },
+  {
+    id: "mondial-relay",
+    label: "Point relais près de chez vous",
+    shortLabel: "Point relais",
+    price: 290,
+    description:
+      "Livraison en point relais (Mondial Relay ou équivalent) au plus proche de votre adresse. Point exact et suivi communiqués par email. Réception estimée 7 à 14 jours ouvrés.",
+  },
 ];
 
 export const emptyShippingSelection: ShippingSelection = {

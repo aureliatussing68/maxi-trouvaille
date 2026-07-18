@@ -97,6 +97,17 @@ export default async function ShippingPage() {
           </p>
         </article>
         <article className="rounded-lg border border-line bg-paper p-6 shadow-sm">
+          <PackageCheck className="mb-4 text-teal" size={28} aria-hidden="true" />
+          <h2 className="text-xl font-black">
+            Point relais près de chez vous — 2,90 €
+          </h2>
+          <p className="mt-3 text-sm leading-6 text-muted">
+            Livraison en point relais (Mondial Relay ou équivalent) au plus
+            proche de votre adresse. Le point exact et le suivi vous sont
+            communiqués par email.
+          </p>
+        </article>
+        <article className="rounded-lg border border-line bg-paper p-6 shadow-sm">
           <Clock className="mb-4 text-teal" size={28} aria-hidden="true" />
           <h2 className="text-xl font-black">Délai estimé : 7 à 14 jours ouvrés</h2>
           <p className="mt-3 text-sm leading-6 text-muted">
