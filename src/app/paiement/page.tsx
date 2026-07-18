@@ -1,16 +1,14 @@
 import type { Metadata } from "next";
-import { CreditCard, PackageCheck, ShieldCheck } from "lucide-react";
+import { CreditCard, ShieldCheck, Truck } from "lucide-react";
 import { CheckoutView } from "@/components/CheckoutView";
-import { CustomerJourneyPanel } from "@/components/CustomerJourneyPanel";
 import { CustomerSupportQuickLinks } from "@/components/CustomerSupportQuickLinks";
 import { PageHeader } from "@/components/PageHeader";
-import { isDropshippingProduct } from "@/lib/catalog";
-import { getAllProducts, getPublicProducts } from "@/lib/catalog-server";
+import { getPublicProducts } from "@/lib/catalog-server";
 
 export const metadata: Metadata = {
   title: "Paiement",
   description:
-    "Paiement Maxi Trouvaille sécurisé, disponible seulement pour les articles validés.",
+    "Paiement sécurisé Maxi Trouvaille par carte bancaire via Stripe, avec livraison suivie.",
   robots: {
     index: false,
     follow: true,
@@ -20,61 +18,45 @@ export const metadata: Metadata = {
 export const dynamic = "force-dynamic";
 
 export default async function PaymentPage() {
-  const [products, catalogProducts] = await Promise.all([
-    getPublicProducts(),
-    getAllProducts(),
-  ]);
-  const partnerCandidateCount = catalogProducts.filter(isDropshippingProduct).length;
+  const products = await getPublicProducts();
 
   return (
     <>
       <PageHeader
         eyebrow="Paiement"
-        title="Paiement Maxi Trouvaille"
-        description="Le paiement sécurisé s'ouvre uniquement pour les articles validés. Le client garde Maxi Trouvaille comme interlocuteur."
+        title="Finalisez votre commande"
+        description="Adresse de livraison, récapitulatif et paiement par carte sécurisé : c'est la dernière étape avant l'expédition."
       />
-      <section className="container-page border-b border-line py-8">
-        <PaymentGuardSummary candidateCount={partnerCandidateCount} />
-      </section>
-      <section className="container-page border-b border-line py-10">
-        <CustomerJourneyPanel />
+      <CheckoutView products={products} />
+      <section className="container-page border-t border-line py-10">
+        <div className="grid gap-3 md:grid-cols-3">
+          <div className="rounded-lg border border-line bg-paper p-4 shadow-sm">
+            <CreditCard className="text-teal" size={22} aria-hidden="true" />
+            <h2 className="mt-3 text-base font-black">Carte bancaire sécurisée</h2>
+            <p className="mt-2 text-sm leading-6 text-muted">
+              Paiement via Stripe : vos données bancaires ne passent jamais par
+              nos serveurs.
+            </p>
+          </div>
+          <div className="rounded-lg border border-line bg-paper p-4 shadow-sm">
+            <Truck className="text-teal" size={22} aria-hidden="true" />
+            <h2 className="mt-3 text-base font-black">Livraison suivie</h2>
+            <p className="mt-2 text-sm leading-6 text-muted">
+              Frais affichés avant paiement, numéro de suivi dès
+              l&apos;expédition.
+            </p>
+          </div>
+          <div className="rounded-lg border border-line bg-paper p-4 shadow-sm">
+            <ShieldCheck className="text-teal" size={22} aria-hidden="true" />
+            <h2 className="mt-3 text-base font-black">Achat protégé</h2>
+            <p className="mt-2 text-sm leading-6 text-muted">
+              Rétractation 14 jours et service client Maxi Trouvaille à votre
+              écoute.
+            </p>
+          </div>
+        </div>
         <CustomerSupportQuickLinks className="mt-10" />
       </section>
-      <CheckoutView products={products} />
     </>
-  );
-}
-
-function PaymentGuardSummary({ candidateCount }: { candidateCount: number }) {
-  const countLabel =
-    candidateCount > 0
-      ? `${candidateCount} fiche${candidateCount > 1 ? "s" : ""} en contrôle`
-      : "File en préparation";
-
-  return (
-    <section className="grid gap-3 md:grid-cols-3">
-      <div className="rounded-lg border border-line bg-paper p-4 shadow-sm">
-        <CreditCard className="text-teal" size={22} aria-hidden="true" />
-        <h2 className="mt-3 text-base font-black">0 produit achetable sans preuve</h2>
-        <p className="mt-2 text-sm leading-6 text-muted">
-          Le paiement reste fermé tant qu&apos;aucun article validé n&apos;est dans le panier.
-        </p>
-      </div>
-      <div className="rounded-lg border border-line bg-paper p-4 shadow-sm">
-        <PackageCheck className="text-teal" size={22} aria-hidden="true" />
-        <h2 className="mt-3 text-base font-black">{countLabel}</h2>
-        <p className="mt-2 text-sm leading-6 text-muted">
-          Les fiches attendent image exacte, prix, stock, délai et droits image.
-        </p>
-      </div>
-      <div className="rounded-lg border border-line bg-paper p-4 shadow-sm">
-        <ShieldCheck className="text-teal" size={22} aria-hidden="true" />
-        <h2 className="mt-3 text-base font-black">Validation humaine</h2>
-        <p className="mt-2 text-sm leading-6 text-muted">
-          Service client Maxi Trouvaille et partenaire logistique restent
-          alignés avant toute préparation.
-        </p>
-      </div>
-    </section>
   );
 }
