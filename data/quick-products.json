@@ -3488,7 +3488,9 @@
       "/uploads/quick-products/sacs-rangement-sous-vide-voyage-grand-volume-photo-1.webp",
       "/uploads/quick-products/sacs-rangement-sous-vide-voyage-grand-volume-photo-2.webp",
       "/uploads/quick-products/sacs-rangement-sous-vide-voyage-grand-volume-photo-3.webp",
-      "/uploads/quick-products/sacs-rangement-sous-vide-voyage-grand-volume-photo-4.webp"
+      "/uploads/quick-products/sacs-rangement-sous-vide-voyage-grand-volume-photo-4.webp",
+      "/uploads/quick-products/sacs-rangement-sous-vide-voyage-grand-volume-photo-5.webp",
+      "/uploads/quick-products/sacs-rangement-sous-vide-voyage-grand-volume-photo-6.webp"
     ],
     "shortDescription": "Sacs de compression avec valve pour gagner de la place dans une valise, un placard ou un rangement saisonnier.",
     "description": "Sacs de rangement sous vide grand volume pour comprimer vetements, linge de lit ou affaires de voyage. Produit partenaire neuf, conserve en brouillon tant que le lot exact, les dimensions, le fournisseur et le delai Europe ne sont pas valides manuellement.",
@@ -3500,14 +3502,14 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "draft",
+    "status": "published",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
-      "supplierUrl": "https://www.aliexpress.com/wholesale?SearchText=travel+vacuum+storage+bags+choice",
-      "supplierSku": "AE-CHOICE-VACUUM-BAGS-005",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006232978114.html",
+      "supplierSku": "AE-1005006232978114-VACBAG",
       "supplierPriceCents": 530,
-      "supplierStock": 60,
+      "supplierStock": 500,
       "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
       "isPromotion": false,
       "isNew": true,
@@ -3515,13 +3517,13 @@
       "salePriceCents": 1490,
       "marginCents": 960,
       "syncStatus": "manual",
-      "lastSyncAt": "2026-05-27",
+      "lastSyncAt": "2026-07-18",
       "validationGate": {
-        "source": "AliExpress",
-        "checkedAt": "2026-07-17",
-        "note": "Validation proprietaire du 17/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "source": "Selection proprietaire + annonce AliExpress publique (50 000 ventes)",
+        "checkedAt": "2026-07-18",
+        "note": "Validation proprietaire du 18/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
         "checks": [
-          "Fournisseur AliExpress confirme",
+          "Fournisseur AliExpress confirme (50 000 ventes)",
           "Prix de vente et marge valides",
           "Livraison France 7 a 14 jours confirmee",
           "Photos produit importees en local"
@@ -3533,18 +3535,14 @@
       "evidenceNote": "Prix repere $5.97, note 4.9 et volume de ventes indique par la source.",
       "markupPercent": 68,
       "pricingRule": "Prix de vente = prix fournisseur estime x 1,40, arrondi aux 10 centimes superieurs. Marge cible 40% appliquee automatiquement: prix fournisseur 5.30 EUR, prix boutique 8.90 EUR, marge brute estimee 40% avant frais/retours/taxes.",
-      "validationStatus": "HOLD - lien fournisseur exact manquant, a completer avant publication",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 18/07/2026",
       "pricingUpdatedAt": "2026-06-05T18:43:58.439Z"
     },
     "price": 1490,
     "imageValidation": {
       "status": "verified_source_images",
-      "checkedAt": "2026-07-17",
-      "sourceUrl": "https://www.sistastore.com/products/170869",
-      "imageCount": 4,
-      "reason": "Images fournisseur inspectees : elles montrent bien des sacs de rangement sous vide avec valve, compression textile et usage placard/voyage, et remplacent l ancienne image generique accessoires.",
-      "nextAction": "Valider fournisseur exact, dimensions, quantite du lot, prix final et delai Europe avant remise en published.",
-      "note": "Photos fournisseur exactes importees en local (webp) le 17/07/2026."
+      "checkedAt": "2026-07-18",
+      "note": "Photos de l'annonce fournisseur exacte (50 000 ventes) importees en local le 18/07/2026."
     },
     "seo": {
       "title": "Sacs rangement sous vide grand volume voyage | Maxi Trouvaille",
@@ -3572,7 +3570,8 @@
     "compareAtPrice": 2090,
     "sourceVerification": {
       "status": "validated",
-      "checkedAt": "2026-07-17",
+      "checkedAt": "2026-07-18",
+      "productUrl": "https://fr.aliexpress.com/item/1005006232978114.html",
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
@@ -3636,7 +3635,7 @@
       "evidenceNote": "Prix repere PriceArchive : environ $4.05 à $4.23.",
       "markupPercent": 67,
       "pricingRule": "Prix de vente = prix fournisseur estime x 1,40, arrondi aux 10 centimes superieurs. Marge cible 40% appliquee automatiquement: prix fournisseur 3.60 EUR, prix boutique 6.00 EUR, marge brute estimee 40% avant frais/retours/taxes.",
-      "validationStatus": "HOLD - lien fournisseur exact manquant, a completer avant publication",
+      "validationStatus": "HOLD - annonce fournisseur 268ml disparue, produit a re-sourcer ou remplacer",
       "pricingUpdatedAt": "2026-06-05T18:43:58.439Z"
     },
     "price": 1090,
