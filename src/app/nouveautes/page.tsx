@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import { PartnerCampaignLanding } from "@/components/PartnerCampaignLanding";
 
 export const metadata: Metadata = {
-  title: "Nouveautés produits partenaires",
+  title: "Nouveautés",
   description:
-    "Nouveautés produits partenaires Maxi Trouvaille avec paiement Maxi Trouvaille, suivi colis et validation avant mise en vente.",
+    "Les derniers produits arrivés chez Maxi Trouvaille : trouvailles malignes à petits prix, ajoutées régulièrement.",
 };
 
 export default function NewProductsPage() {
