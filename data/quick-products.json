@@ -1,5 +1,661 @@
 [
   {
+    "id": "ali_claude_20260719_kit_guasha_008",
+    "slug": "kit-massage-visage-gua-sha-rouleau-glace",
+    "name": "Kit massage visage 3 pièces : gua sha, rouleaux et glace",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 100,
+    "badge": "Routine fraîcheur",
+    "image": "/uploads/quick-products/kit-massage-visage-gua-sha-rouleau-glace-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/kit-massage-visage-gua-sha-rouleau-glace-photo-1.webp",
+      "/uploads/quick-products/kit-massage-visage-gua-sha-rouleau-glace-photo-2.webp",
+      "/uploads/quick-products/kit-massage-visage-gua-sha-rouleau-glace-photo-3.webp",
+      "/uploads/quick-products/kit-massage-visage-gua-sha-rouleau-glace-photo-4.webp",
+      "/uploads/quick-products/kit-massage-visage-gua-sha-rouleau-glace-photo-5.webp"
+    ],
+    "shortDescription": "Kit 3 pièces : rouleau de glace, planche gua sha et rouleau de massage visage.",
+    "description": "La routine bien-être vue partout : rouleau de glace pour décongestionner au réveil (un bonheur en été), planche gua sha pour sculpter et détendre, rouleau de massage pour faire pénétrer les soins. Trois outils, cinq minutes par jour, effet fraîcheur immédiat. Aussi une jolie idée cadeau.",
+    "features": [
+      "Rouleau de glace : effet fraîcheur immédiat, idéal l'été",
+      "Planche gua sha pour sculpter et détendre le visage",
+      "Rouleau de massage pour faire pénétrer les soins",
+      "Routine de 5 minutes par jour",
+      "Jolie idée cadeau bien-être"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 990,
+    "compareAtPrice": 1390,
+    "imageAlt": "Kit massage visage 3 pièces : gua sha, rouleaux et glace",
+    "seo": {
+      "title": "Kit massage visage 3 pièces : gua sha, rouleaux et glace | Maxi Trouvaille",
+      "description": "Kit 3 pièces : rouleau de glace, planche gua sha et rouleau de massage visage.",
+      "imageAlt": "Kit massage visage 3 pièces : gua sha, rouleaux et glace"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-19",
+      "note": "Photos fournisseur exactes importees en local (webp) le 19/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-19",
+      "productUrl": "https://fr.aliexpress.com/item/1005012378763082.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 19/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-19"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005012378763082.html",
+      "supplierSku": "AE-1005012378763082-GUASHA",
+      "supplierPriceCents": 263,
+      "supplierStock": 100,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 990,
+      "marginCents": 727,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-19",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique",
+        "checkedAt": "2026-07-19",
+        "note": "Validation proprietaire du 19/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260719_lampe_pince_007",
+    "slug": "lampe-bureau-led-pince-usb",
+    "name": "Lampe de bureau LED à pince rechargeable USB",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 90,
+    "badge": "Étudiants",
+    "image": "/uploads/quick-products/lampe-bureau-led-pince-usb-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/lampe-bureau-led-pince-usb-photo-1.webp",
+      "/uploads/quick-products/lampe-bureau-led-pince-usb-photo-2.webp",
+      "/uploads/quick-products/lampe-bureau-led-pince-usb-photo-3.webp",
+      "/uploads/quick-products/lampe-bureau-led-pince-usb-photo-4.webp",
+      "/uploads/quick-products/lampe-bureau-led-pince-usb-photo-5.webp"
+    ],
+    "shortDescription": "Lampe LED à pince rechargeable USB, parfaite pour bureau, lit et lecture.",
+    "description": "Elle se pince sur le bureau, la tête de lit ou une étagère et éclaire exactement où il faut. Rechargeable en USB (pas de prise à monopoliser), lumière LED douce pour les yeux, bras orientable. Parfaite pour étudier, lire au lit ou travailler tard sans déranger. Plus de 5 000 exemplaires vendus.",
+    "features": [
+      "Se pince partout : bureau, lit, étagère",
+      "Rechargeable USB, sans fil une fois chargée",
+      "Lumière LED douce, confortable pour les yeux",
+      "Bras orientable, éclairage précis",
+      "5 000+ exemplaires vendus"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1490,
+    "compareAtPrice": 1990,
+    "imageAlt": "Lampe de bureau LED à pince rechargeable USB",
+    "seo": {
+      "title": "Lampe de bureau LED à pince rechargeable USB | Maxi Trouvaille",
+      "description": "Lampe LED à pince rechargeable USB, parfaite pour bureau, lit et lecture.",
+      "imageAlt": "Lampe de bureau LED à pince rechargeable USB"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-19",
+      "note": "Photos fournisseur exactes importees en local (webp) le 19/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-19",
+      "productUrl": "https://fr.aliexpress.com/item/1005009911924449.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 19/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-19"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009911924449.html",
+      "supplierSku": "AE-1005009911924449-CLIPLAMP",
+      "supplierPriceCents": 559,
+      "supplierStock": 90,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1490,
+      "marginCents": 931,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-19",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (5 000 ventes)",
+        "checkedAt": "2026-07-19",
+        "note": "Validation proprietaire du 19/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260719_coupe_legumes_006",
+    "slug": "coupe-legumes-5-en-1-rape-hachoir",
+    "name": "Coupe-légumes 5-en-1 avec râpe et hachoir",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 80,
+    "badge": "Gain de temps",
+    "image": "/uploads/quick-products/coupe-legumes-5-en-1-rape-hachoir-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/coupe-legumes-5-en-1-rape-hachoir-photo-1.webp",
+      "/uploads/quick-products/coupe-legumes-5-en-1-rape-hachoir-photo-2.webp",
+      "/uploads/quick-products/coupe-legumes-5-en-1-rape-hachoir-photo-3.webp",
+      "/uploads/quick-products/coupe-legumes-5-en-1-rape-hachoir-photo-4.webp",
+      "/uploads/quick-products/coupe-legumes-5-en-1-rape-hachoir-photo-5.webp"
+    ],
+    "shortDescription": "Outil de cuisine 5-en-1 : tranche, râpe et hache légumes et fromage en un geste.",
+    "description": "Tomates, carottes, oignons, fromage : cet outil 5-en-1 tranche, râpe et hache en quelques gestes, sans sortir le gros robot ni salir trois planches. Lames efficaces, prise en main sûre, nettoyage rapide. Le genre d'ustensile qu'on utilise vraiment tous les jours.",
+    "features": [
+      "5 fonctions en 1 seul outil compact",
+      "Tranche, râpe et hache légumes et fromage",
+      "Prise en main sûre, lames efficaces",
+      "Nettoyage rapide",
+      "Moins de vaisselle, plus de temps à table"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1490,
+    "compareAtPrice": 1990,
+    "imageAlt": "Coupe-légumes 5-en-1 avec râpe et hachoir",
+    "seo": {
+      "title": "Coupe-légumes 5-en-1 avec râpe et hachoir | Maxi Trouvaille",
+      "description": "Outil de cuisine 5-en-1 : tranche, râpe et hache légumes et fromage en un geste.",
+      "imageAlt": "Coupe-légumes 5-en-1 avec râpe et hachoir"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-19",
+      "note": "Photos fournisseur exactes importees en local (webp) le 19/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-19",
+      "productUrl": "https://fr.aliexpress.com/item/1005010217605322.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 19/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-19"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010217605322.html",
+      "supplierSku": "AE-1005010217605322-VEGCUTTER",
+      "supplierPriceCents": 559,
+      "supplierStock": 80,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1490,
+      "marginCents": 931,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-19",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique",
+        "checkedAt": "2026-07-19",
+        "note": "Validation proprietaire du 19/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260719_organisateur_voiture_005",
+    "slug": "organisateur-siege-voiture-support-tablette",
+    "name": "Organisateur de siège voiture avec support tablette",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 70,
+    "badge": "Voyage malin",
+    "image": "/uploads/quick-products/organisateur-siege-voiture-support-tablette-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/organisateur-siege-voiture-support-tablette-photo-1.webp",
+      "/uploads/quick-products/organisateur-siege-voiture-support-tablette-photo-2.webp",
+      "/uploads/quick-products/organisateur-siege-voiture-support-tablette-photo-3.webp",
+      "/uploads/quick-products/organisateur-siege-voiture-support-tablette-photo-4.webp",
+      "/uploads/quick-products/organisateur-siege-voiture-support-tablette-photo-5.webp"
+    ],
+    "shortDescription": "Organisateur multi-poches pour dossier de siège, avec support tablette tactile.",
+    "description": "Les longs trajets avec des enfants deviennent (beaucoup) plus calmes : cet organisateur se fixe au dossier du siège et range tout — bouteilles, jouets, goûters, lingettes — avec une poche transparente tactile pour la tablette, films et dessins animés utilisables sans la sortir. Tissu Oxford résistant, installation en 1 minute.",
+    "features": [
+      "Support tablette à écran tactile intégré",
+      "Multi-poches : bouteilles, jouets, goûters, lingettes",
+      "Tissu Oxford résistant et facile à nettoyer",
+      "Installation en 1 minute sur tout appuie-tête",
+      "Le sauveur des longs trajets en famille"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1790,
+    "compareAtPrice": 2390,
+    "imageAlt": "Organisateur de siège voiture avec support tablette",
+    "seo": {
+      "title": "Organisateur de siège voiture avec support tablette | Maxi Trouvaille",
+      "description": "Organisateur multi-poches pour dossier de siège, avec support tablette tactile.",
+      "imageAlt": "Organisateur de siège voiture avec support tablette"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-19",
+      "note": "Photos fournisseur exactes importees en local (webp) le 19/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-19",
+      "productUrl": "https://fr.aliexpress.com/item/1005009921676099.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 19/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-19"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009921676099.html",
+      "supplierSku": "AE-1005009921676099-CARORGANIZER",
+      "supplierPriceCents": 629,
+      "supplierStock": 70,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1790,
+      "marginCents": 1161,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-19",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (800 ventes)",
+        "checkedAt": "2026-07-19",
+        "note": "Validation proprietaire du 19/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260719_moustiquaire_004",
+    "slug": "moustiquaire-porte-magnetique-fermeture-auto",
+    "name": "Moustiquaire de porte magnétique à fermeture automatique",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 60,
+    "badge": "Été serein",
+    "image": "/uploads/quick-products/moustiquaire-porte-magnetique-fermeture-auto-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/moustiquaire-porte-magnetique-fermeture-auto-photo-1.webp",
+      "/uploads/quick-products/moustiquaire-porte-magnetique-fermeture-auto-photo-2.webp",
+      "/uploads/quick-products/moustiquaire-porte-magnetique-fermeture-auto-photo-3.webp",
+      "/uploads/quick-products/moustiquaire-porte-magnetique-fermeture-auto-photo-4.webp",
+      "/uploads/quick-products/moustiquaire-porte-magnetique-fermeture-auto-photo-5.webp"
+    ],
+    "shortDescription": "Rideau moustiquaire magnétique : l'air circule, les moustiques restent dehors.",
+    "description": "Laissez la porte ouverte pour rafraîchir la maison SANS inviter les moustiques : ce rideau moustiquaire se referme tout seul derrière vous grâce à ses aimants. Installation sans perçage, mains libres pour passer avec le plateau ou les courses, et les animaux passent tout seuls. L'indispensable des soirées d'été.",
+    "features": [
+      "Fermeture magnétique automatique après chaque passage",
+      "L'air circule, les insectes restent dehors",
+      "Installation facile sans perçage",
+      "Passage mains libres : idéal courses, plateau, poussette",
+      "Les animaux passent librement"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1990,
+    "compareAtPrice": 2690,
+    "imageAlt": "Moustiquaire de porte magnétique à fermeture automatique",
+    "seo": {
+      "title": "Moustiquaire de porte magnétique à fermeture automatique | Maxi Trouvaille",
+      "description": "Rideau moustiquaire magnétique : l'air circule, les moustiques restent dehors.",
+      "imageAlt": "Moustiquaire de porte magnétique à fermeture automatique"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-19",
+      "note": "Photos fournisseur exactes importees en local (webp) le 19/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-19",
+      "productUrl": "https://fr.aliexpress.com/item/1005008511398552.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 19/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-19"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008511398552.html",
+      "supplierSku": "AE-1005008511398552-MOSQUITONET",
+      "supplierPriceCents": 709,
+      "supplierStock": 60,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1990,
+      "marginCents": 1281,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-19",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique",
+        "checkedAt": "2026-07-19",
+        "note": "Validation proprietaire du 19/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260719_lunettes_polarisees_003",
+    "slug": "lunettes-soleil-polarisees-uv400-vintage",
+    "name": "Lunettes de soleil polarisées UV400 vintage",
+    "categoryId": "dropshipping-mode",
+    "condition": "Neuf",
+    "stock": 120,
+    "badge": "Best-seller",
+    "image": "/uploads/quick-products/lunettes-soleil-polarisees-uv400-vintage-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/lunettes-soleil-polarisees-uv400-vintage-photo-1.webp",
+      "/uploads/quick-products/lunettes-soleil-polarisees-uv400-vintage-photo-2.webp",
+      "/uploads/quick-products/lunettes-soleil-polarisees-uv400-vintage-photo-3.webp",
+      "/uploads/quick-products/lunettes-soleil-polarisees-uv400-vintage-photo-4.webp",
+      "/uploads/quick-products/lunettes-soleil-polarisees-uv400-vintage-photo-5.webp"
+    ],
+    "shortDescription": "Lunettes carrées vintage polarisées UV400, pour conduite, plage et ville.",
+    "description": "Un classique qui ne se démode pas : monture carrée vintage, verres polarisés anti-reflets et protection UV400 complète. Parfaites pour la conduite (fini l'éblouissement), la plage ou la ville. Plus de 50 000 paires vendues chez notre fournisseur — un des accessoires les plus fiables du marché.",
+    "features": [
+      "Verres polarisés : anti-reflets, idéal conduite",
+      "Protection UV400 complète",
+      "Monture carrée vintage, unisexe",
+      "Légères et résistantes",
+      "Best-seller : 50 000+ paires vendues"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1290,
+    "compareAtPrice": 1990,
+    "imageAlt": "Lunettes de soleil polarisées UV400 vintage",
+    "seo": {
+      "title": "Lunettes de soleil polarisées UV400 vintage | Maxi Trouvaille",
+      "description": "Lunettes carrées vintage polarisées UV400, pour conduite, plage et ville.",
+      "imageAlt": "Lunettes de soleil polarisées UV400 vintage"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-19",
+      "note": "Photos fournisseur exactes importees en local (webp) le 19/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-19",
+      "productUrl": "https://fr.aliexpress.com/item/1005007490041223.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 19/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-19"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007490041223.html",
+      "supplierSku": "AE-1005007490041223-SUNGLASS",
+      "supplierPriceCents": 265,
+      "supplierStock": 120,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 1025,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-19",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (50 000 ventes)",
+        "checkedAt": "2026-07-19",
+        "note": "Validation proprietaire du 19/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260719_fontaine_chat_002",
+    "slug": "fontaine-eau-silencieuse-chat-usb",
+    "name": "Fontaine à eau silencieuse pour chat USB 1,2 L",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 90,
+    "badge": "Canicule pets",
+    "image": "/uploads/quick-products/fontaine-eau-silencieuse-chat-usb-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/fontaine-eau-silencieuse-chat-usb-photo-1.webp",
+      "/uploads/quick-products/fontaine-eau-silencieuse-chat-usb-photo-2.webp",
+      "/uploads/quick-products/fontaine-eau-silencieuse-chat-usb-photo-3.webp",
+      "/uploads/quick-products/fontaine-eau-silencieuse-chat-usb-photo-4.webp",
+      "/uploads/quick-products/fontaine-eau-silencieuse-chat-usb-photo-5.webp"
+    ],
+    "shortDescription": "Fontaine à eau USB silencieuse 1,2 L avec filtre, pour chat et petit chien.",
+    "description": "En période de chaleur, un chat qui boit peu s'expose à des soucis de reins : une fontaine l'incite naturellement à boire plus. Celle-ci est silencieuse, se branche en USB et filtre l'eau en continu (réservoir 1,2 L). Entretien facile, design compact. Votre compagnon boit plus, vous êtes tranquille.",
+    "features": [
+      "Incite le chat à boire davantage, surtout l'été",
+      "Ultra silencieuse : ne dérange ni chat ni maître",
+      "Filtre l'eau en continu (filtre inclus)",
+      "Réservoir 1,2 L, alimentation USB",
+      "Convient aussi aux petits chiens"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1290,
+    "compareAtPrice": 1790,
+    "imageAlt": "Fontaine à eau silencieuse pour chat USB 1,2 L",
+    "seo": {
+      "title": "Fontaine à eau silencieuse pour chat USB 1,2 L | Maxi Trouvaille",
+      "description": "Fontaine à eau USB silencieuse 1,2 L avec filtre, pour chat et petit chien.",
+      "imageAlt": "Fontaine à eau silencieuse pour chat USB 1,2 L"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-19",
+      "note": "Photos fournisseur exactes importees en local (webp) le 19/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-19",
+      "productUrl": "https://fr.aliexpress.com/item/1005008575549829.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 19/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-19"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008575549829.html",
+      "supplierSku": "AE-1005008575549829-CATFOUNTAIN",
+      "supplierPriceCents": 309,
+      "supplierStock": 90,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 981,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-19",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (1 000 ventes)",
+        "checkedAt": "2026-07-19",
+        "note": "Validation proprietaire du 19/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260719_pistolet_eau_001",
+    "slug": "pistolet-eau-electrique-led-automatique",
+    "name": "Pistolet à eau électrique LED automatique",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 80,
+    "badge": "Star de l'été",
+    "image": "/uploads/quick-products/pistolet-eau-electrique-led-automatique-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/pistolet-eau-electrique-led-automatique-photo-1.webp",
+      "/uploads/quick-products/pistolet-eau-electrique-led-automatique-photo-2.webp",
+      "/uploads/quick-products/pistolet-eau-electrique-led-automatique-photo-3.webp",
+      "/uploads/quick-products/pistolet-eau-electrique-led-automatique-photo-4.webp",
+      "/uploads/quick-products/pistolet-eau-electrique-led-automatique-photo-5.webp"
+    ],
+    "shortDescription": "Pistolet à eau électrique à tir automatique continu, design spatial avec LED.",
+    "description": "La bataille d'eau passe au niveau supérieur : tir automatique continu (fini de pomper !), design vaisseau spatial avec LED lumineuses et grande capacité d'eau. Le jouet star des étés caniculaires, pour le jardin, la plage ou la piscine. Recharge simple, prise en main facile dès 6 ans.",
+    "features": [
+      "Tir automatique continu, sans pomper",
+      "LED lumineuses effet vaisseau spatial",
+      "Grande capacité d'eau",
+      "Recharge simple",
+      "Le hit des batailles d'eau dès 6 ans"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1990,
+    "compareAtPrice": 2690,
+    "imageAlt": "Pistolet à eau électrique LED automatique",
+    "seo": {
+      "title": "Pistolet à eau électrique LED automatique | Maxi Trouvaille",
+      "description": "Pistolet à eau électrique à tir automatique continu, design spatial avec LED.",
+      "imageAlt": "Pistolet à eau électrique LED automatique"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-19",
+      "note": "Photos fournisseur exactes importees en local (webp) le 19/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-19",
+      "productUrl": "https://fr.aliexpress.com/item/1005011772669543.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 19/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-19"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005011772669543.html",
+      "supplierSku": "AE-1005011772669543-WATERGUN",
+      "supplierPriceCents": 904,
+      "supplierStock": 80,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1990,
+      "marginCents": 1086,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-19",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (4 000 ventes)",
+        "checkedAt": "2026-07-19",
+        "note": "Validation proprietaire du 19/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
     "id": "ali_claude_20260718_rose_briques_005",
     "slug": "rose-eternelle-blocs-construction",
     "name": "Rose éternelle en blocs de construction",
