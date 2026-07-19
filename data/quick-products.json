@@ -1,5 +1,661 @@
 [
   {
+    "id": "ali_claude_20260719_kit_perles_016",
+    "slug": "kit-perles-lettres-bracelets-diy",
+    "name": "Kit 10 800 perles lettres pour bracelets DIY",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 60,
+    "badge": "Créatif",
+    "image": "/uploads/quick-products/kit-perles-lettres-bracelets-diy-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/kit-perles-lettres-bracelets-diy-photo-1.webp",
+      "/uploads/quick-products/kit-perles-lettres-bracelets-diy-photo-2.webp",
+      "/uploads/quick-products/kit-perles-lettres-bracelets-diy-photo-3.webp",
+      "/uploads/quick-products/kit-perles-lettres-bracelets-diy-photo-4.webp",
+      "/uploads/quick-products/kit-perles-lettres-bracelets-diy-photo-5.webp"
+    ],
+    "shortDescription": "Kit géant de perles lettres et couleurs pour créer bracelets et colliers.",
+    "description": "L'activité préférée des après-midis entre copines : créer ses propres bracelets avec prénoms, messages et couleurs. Ce kit géant de 10 800 perles (lettres, couleurs, formes) avec fils inclus occupe des heures, développe la créativité, et chaque bracelet devient un cadeau à offrir. L'amitié se tisse en perles.",
+    "features": [
+      "10 800 perles : lettres, couleurs, formes variées",
+      "Fils inclus, prêt à créer",
+      "Bracelets prénoms, messages, amitié",
+      "Des heures d'activité créative",
+      "Chaque création devient un cadeau"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 2490,
+    "compareAtPrice": 3290,
+    "imageAlt": "Kit 10 800 perles lettres pour bracelets DIY",
+    "seo": {
+      "title": "Kit 10 800 perles lettres pour bracelets DIY | Maxi Trouvaille",
+      "description": "Kit géant de perles lettres et couleurs pour créer bracelets et colliers.",
+      "imageAlt": "Kit 10 800 perles lettres pour bracelets DIY"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-19",
+      "note": "Photos fournisseur exactes importees en local (webp) le 19/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-19",
+      "productUrl": "https://fr.aliexpress.com/item/1005012690252213.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 19/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-19"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005012690252213.html",
+      "supplierSku": "AE-1005012690252213-BEADS",
+      "supplierPriceCents": 1149,
+      "supplierStock": 60,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2490,
+      "marginCents": 1341,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-19",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique",
+        "checkedAt": "2026-07-19",
+        "note": "Validation proprietaire du 19/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260719_brumisateur_visage_015",
+    "slug": "brumisateur-visage-poche-rechargeable",
+    "name": "Brumisateur visage de poche rechargeable",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 100,
+    "badge": "Coup de frais",
+    "image": "/uploads/quick-products/brumisateur-visage-poche-rechargeable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/brumisateur-visage-poche-rechargeable-photo-1.webp",
+      "/uploads/quick-products/brumisateur-visage-poche-rechargeable-photo-2.webp",
+      "/uploads/quick-products/brumisateur-visage-poche-rechargeable-photo-3.webp",
+      "/uploads/quick-products/brumisateur-visage-poche-rechargeable-photo-4.webp",
+      "/uploads/quick-products/brumisateur-visage-poche-rechargeable-photo-5.webp"
+    ],
+    "shortDescription": "Mini brumisateur rechargeable qui tient dans la poche : brume fraîche instantanée.",
+    "description": "Le geste fraîcheur de l'été : une brume ultra-fine sur le visage, n'importe où, n'importe quand. Ce mini brumisateur rechargeable tient dans une poche ou un sac à main, se remplit d'eau en quelques secondes et sauve les journées de canicule — dans le train, au bureau, à la plage. Aussi parfait pour fixer le maquillage.",
+    "features": [
+      "Brume ultra-fine, fraîcheur instantanée",
+      "Format poche : sac à main, bureau, voyage",
+      "Rechargeable USB",
+      "Se remplit d'eau en quelques secondes",
+      "1 000+ exemplaires vendus"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 990,
+    "compareAtPrice": 1390,
+    "imageAlt": "Brumisateur visage de poche rechargeable",
+    "seo": {
+      "title": "Brumisateur visage de poche rechargeable | Maxi Trouvaille",
+      "description": "Mini brumisateur rechargeable qui tient dans la poche : brume fraîche instantanée.",
+      "imageAlt": "Brumisateur visage de poche rechargeable"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-19",
+      "note": "Photos fournisseur exactes importees en local (webp) le 19/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-19",
+      "productUrl": "https://fr.aliexpress.com/item/1005006182455091.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 19/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-19"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006182455091.html",
+      "supplierSku": "AE-1005006182455091-FACEMIST",
+      "supplierPriceCents": 359,
+      "supplierStock": 100,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 990,
+      "marginCents": 631,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-19",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (1 000 ventes)",
+        "checkedAt": "2026-07-19",
+        "note": "Validation proprietaire du 19/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260719_pare_soleil_014",
+    "slug": "pare-soleil-voiture-pliable-parasol",
+    "name": "Pare-soleil de voiture pliable",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 90,
+    "badge": "Voiture fraîche",
+    "image": "/uploads/quick-products/pare-soleil-voiture-pliable-parasol-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/pare-soleil-voiture-pliable-parasol-photo-1.webp",
+      "/uploads/quick-products/pare-soleil-voiture-pliable-parasol-photo-2.webp",
+      "/uploads/quick-products/pare-soleil-voiture-pliable-parasol-photo-3.webp",
+      "/uploads/quick-products/pare-soleil-voiture-pliable-parasol-photo-4.webp",
+      "/uploads/quick-products/pare-soleil-voiture-pliable-parasol-photo-5.webp"
+    ],
+    "shortDescription": "Pare-soleil de pare-brise pliable : jusqu'à 20 degrés de moins dans l'habitacle.",
+    "description": "Le volant brûlant en sortant du travail, tout le monde connaît. Ce pare-soleil de pare-brise bloque les rayons et peut faire gagner jusqu'à 20 degrés dans l'habitacle. Il se déplie en 2 secondes, se replie aussi vite et se range dans la portière. Protège aussi le tableau de bord de la décoloration. 2 000 conducteurs l'ont déjà adopté.",
+    "features": [
+      "Jusqu'à 20 degrés de moins dans l'habitacle",
+      "Se déplie et se replie en quelques secondes",
+      "Protège le tableau de bord de la décoloration",
+      "Se range dans la portière",
+      "2 000+ exemplaires vendus"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1290,
+    "compareAtPrice": 1790,
+    "imageAlt": "Pare-soleil de voiture pliable",
+    "seo": {
+      "title": "Pare-soleil de voiture pliable | Maxi Trouvaille",
+      "description": "Pare-soleil de pare-brise pliable : jusqu'à 20 degrés de moins dans l'habitacle.",
+      "imageAlt": "Pare-soleil de voiture pliable"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-19",
+      "note": "Photos fournisseur exactes importees en local (webp) le 19/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-19",
+      "productUrl": "https://fr.aliexpress.com/item/1005008933424484.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 19/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-19"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008933424484.html",
+      "supplierSku": "AE-1005008933424484-SUNSHADE",
+      "supplierPriceCents": 399,
+      "supplierStock": 90,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 891,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-19",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (2 000 ventes)",
+        "checkedAt": "2026-07-19",
+        "note": "Validation proprietaire du 19/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260719_gourde_inox_013",
+    "slug": "gourde-isotherme-inox-1-litre",
+    "name": "Gourde isotherme inox jusqu'à 1 litre",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 80,
+    "badge": "Fraîcheur 24h",
+    "image": "/uploads/quick-products/gourde-isotherme-inox-1-litre-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/gourde-isotherme-inox-1-litre-photo-1.webp",
+      "/uploads/quick-products/gourde-isotherme-inox-1-litre-photo-2.webp",
+      "/uploads/quick-products/gourde-isotherme-inox-1-litre-photo-3.webp",
+      "/uploads/quick-products/gourde-isotherme-inox-1-litre-photo-4.webp",
+      "/uploads/quick-products/gourde-isotherme-inox-1-litre-photo-5.webp"
+    ],
+    "shortDescription": "Bouteille isotherme double paroi inox : boissons fraîches des heures durant.",
+    "description": "De l'eau encore fraîche à 16 h alors qu'il fait 35 degrés dehors : c'est le travail de cette gourde double paroi en inox 304. Anti-fuite (elle se balade dans le sac sans risque), plusieurs tailles jusqu'à 1 litre, aussi efficace pour le chaud en hiver. Sport, bureau, voiture, école : l'accessoire anti-canicule numéro un.",
+    "features": [
+      "Double paroi inox : garde le frais des heures",
+      "Anti-fuite : se glisse dans n'importe quel sac",
+      "Jusqu'à 1 litre de contenance",
+      "Marche aussi pour les boissons chaudes",
+      "Sport, bureau, école, voiture"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1990,
+    "compareAtPrice": 2690,
+    "imageAlt": "Gourde isotherme inox jusqu'à 1 litre",
+    "seo": {
+      "title": "Gourde isotherme inox jusqu'à 1 litre | Maxi Trouvaille",
+      "description": "Bouteille isotherme double paroi inox : boissons fraîches des heures durant.",
+      "imageAlt": "Gourde isotherme inox jusqu'à 1 litre"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-19",
+      "note": "Photos fournisseur exactes importees en local (webp) le 19/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-19",
+      "productUrl": "https://fr.aliexpress.com/item/1005007902782865.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 19/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-19"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007902782865.html",
+      "supplierSku": "AE-1005007902782865-BOTTLE",
+      "supplierPriceCents": 949,
+      "supplierStock": 80,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1990,
+      "marginCents": 1041,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-19",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique",
+        "checkedAt": "2026-07-19",
+        "note": "Validation proprietaire du 19/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260719_sac_plage_012",
+    "slug": "sac-plage-raphia-grande-capacite",
+    "name": "Sac de plage en raphia grande capacité",
+    "categoryId": "dropshipping-mode",
+    "condition": "Neuf",
+    "stock": 50,
+    "badge": "Style bohème",
+    "image": "/uploads/quick-products/sac-plage-raphia-grande-capacite-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/sac-plage-raphia-grande-capacite-photo-1.webp",
+      "/uploads/quick-products/sac-plage-raphia-grande-capacite-photo-2.webp",
+      "/uploads/quick-products/sac-plage-raphia-grande-capacite-photo-3.webp",
+      "/uploads/quick-products/sac-plage-raphia-grande-capacite-photo-4.webp",
+      "/uploads/quick-products/sac-plage-raphia-grande-capacite-photo-5.webp"
+    ],
+    "shortDescription": "Grand sac de plage bohème en raphia : serviettes, crème, livres — tout rentre.",
+    "description": "Le sac d'été par excellence : style bohème chic en raphia tressé, format XXL où tout rentre — serviettes, crème solaire, livre, gourde et jouets des enfants. Poignées confortables, tenue solide. Aussi à l'aise à la plage qu'au marché ou en ville. Le genre de sac qu'on ressort chaque été avec plaisir.",
+    "features": [
+      "Format XXL : tout l'attirail de plage rentre",
+      "Style bohème chic en raphia tressé",
+      "Poignées confortables et solides",
+      "Plage, marché, ville : il fait tout",
+      "Le compagnon des étés réussis"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 2190,
+    "compareAtPrice": 2990,
+    "imageAlt": "Sac de plage en raphia grande capacité",
+    "seo": {
+      "title": "Sac de plage en raphia grande capacité | Maxi Trouvaille",
+      "description": "Grand sac de plage bohème en raphia : serviettes, crème, livres — tout rentre.",
+      "imageAlt": "Sac de plage en raphia grande capacité"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-19",
+      "note": "Photos fournisseur exactes importees en local (webp) le 19/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-19",
+      "productUrl": "https://fr.aliexpress.com/item/1005012336495320.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 19/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-19"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005012336495320.html",
+      "supplierSku": "AE-1005012336495320-BEACHBAG",
+      "supplierPriceCents": 899,
+      "supplierStock": 50,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2190,
+      "marginCents": 1291,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-19",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique",
+        "checkedAt": "2026-07-19",
+        "note": "Validation proprietaire du 19/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260719_enceinte_douche_011",
+    "slug": "enceinte-bluetooth-etanche-rgb",
+    "name": "Enceinte Bluetooth étanche avec lumière RGB",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 60,
+    "badge": "Été musical",
+    "image": "/uploads/quick-products/enceinte-bluetooth-etanche-rgb-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/enceinte-bluetooth-etanche-rgb-photo-1.webp",
+      "/uploads/quick-products/enceinte-bluetooth-etanche-rgb-photo-2.webp",
+      "/uploads/quick-products/enceinte-bluetooth-etanche-rgb-photo-3.webp",
+      "/uploads/quick-products/enceinte-bluetooth-etanche-rgb-photo-4.webp",
+      "/uploads/quick-products/enceinte-bluetooth-etanche-rgb-photo-5.webp"
+    ],
+    "shortDescription": "Mini enceinte Bluetooth étanche avec ambiance lumineuse RGB : douche, piscine, plage.",
+    "description": "La musique vous suit partout : sous la douche, au bord de la piscine, au barbecue. Cette mini enceinte Bluetooth étanche diffuse un son surprenant pour sa taille, avec une ambiance lumineuse RGB qui suit le rythme. Ventouse et format compact, appels mains libres inclus. L'ambiance de l'été tient dans une main.",
+    "features": [
+      "Étanche : douche, piscine, plage sans stress",
+      "Lumière RGB d'ambiance",
+      "Bluetooth universel, appels mains libres",
+      "Ventouse incluse, format compact",
+      "Son puissant pour sa taille"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 2290,
+    "compareAtPrice": 2990,
+    "imageAlt": "Enceinte Bluetooth étanche avec lumière RGB",
+    "seo": {
+      "title": "Enceinte Bluetooth étanche avec lumière RGB | Maxi Trouvaille",
+      "description": "Mini enceinte Bluetooth étanche avec ambiance lumineuse RGB : douche, piscine, plage.",
+      "imageAlt": "Enceinte Bluetooth étanche avec lumière RGB"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-19",
+      "note": "Photos fournisseur exactes importees en local (webp) le 19/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-19",
+      "productUrl": "https://fr.aliexpress.com/item/1005005802260542.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 19/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-19"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005802260542.html",
+      "supplierSku": "AE-1005005802260542-BTSPEAKER",
+      "supplierPriceCents": 1039,
+      "supplierStock": 60,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2290,
+      "marginCents": 1251,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-19",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique",
+        "checkedAt": "2026-07-19",
+        "note": "Validation proprietaire du 19/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260719_moules_glace_010",
+    "slug": "moules-glaces-silicone-batonnets",
+    "name": "Moules à glaces en silicone avec bâtonnets",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 100,
+    "badge": "Fait maison",
+    "image": "/uploads/quick-products/moules-glaces-silicone-batonnets-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/moules-glaces-silicone-batonnets-photo-1.webp",
+      "/uploads/quick-products/moules-glaces-silicone-batonnets-photo-2.webp",
+      "/uploads/quick-products/moules-glaces-silicone-batonnets-photo-3.webp",
+      "/uploads/quick-products/moules-glaces-silicone-batonnets-photo-4.webp",
+      "/uploads/quick-products/moules-glaces-silicone-batonnets-photo-5.webp"
+    ],
+    "shortDescription": "Moules en silicone pour glaces maison : jus de fruits, yaourt, smoothie.",
+    "description": "Des glaces maison en 5 minutes de préparation : on verse du jus de fruits, du yaourt ou un smoothie, on place au congélateur, et les enfants se régalent avec des glaces dont on connaît chaque ingrédient. Silicone souple : les glaces se démoulent sans casse. Économique, sain, et tellement plus amusant.",
+    "features": [
+      "Glaces maison saines : jus, yaourt, smoothie",
+      "Silicone souple : démoulage facile sans casse",
+      "Réutilisable des centaines de fois",
+      "Activité parfaite avec les enfants",
+      "Passe au lave-vaisselle"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 790,
+    "compareAtPrice": 1090,
+    "imageAlt": "Moules à glaces en silicone avec bâtonnets",
+    "seo": {
+      "title": "Moules à glaces en silicone avec bâtonnets | Maxi Trouvaille",
+      "description": "Moules en silicone pour glaces maison : jus de fruits, yaourt, smoothie.",
+      "imageAlt": "Moules à glaces en silicone avec bâtonnets"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-19",
+      "note": "Photos fournisseur exactes importees en local (webp) le 19/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-19",
+      "productUrl": "https://fr.aliexpress.com/item/1005005816558363.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 19/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-19"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005816558363.html",
+      "supplierSku": "AE-1005005816558363-ICEMOLD",
+      "supplierPriceCents": 236,
+      "supplierStock": 100,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 790,
+      "marginCents": 554,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-19",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique",
+        "checkedAt": "2026-07-19",
+        "note": "Validation proprietaire du 19/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260719_tapis_frais_009",
+    "slug": "tapis-rafraichissant-chien-chat",
+    "name": "Tapis rafraîchissant pour chien et chat",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 90,
+    "badge": "Canicule pets",
+    "image": "/uploads/quick-products/tapis-rafraichissant-chien-chat-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/tapis-rafraichissant-chien-chat-photo-1.webp",
+      "/uploads/quick-products/tapis-rafraichissant-chien-chat-photo-2.webp",
+      "/uploads/quick-products/tapis-rafraichissant-chien-chat-photo-3.webp",
+      "/uploads/quick-products/tapis-rafraichissant-chien-chat-photo-4.webp",
+      "/uploads/quick-products/tapis-rafraichissant-chien-chat-photo-5.webp"
+    ],
+    "shortDescription": "Tapis auto-rafraîchissant pour aider chien et chat à supporter la chaleur.",
+    "description": "Quand il fait 35 degrés, nos compagnons souffrent en silence. Ce tapis au gel auto-rafraîchissant absorbe la chaleur du corps dès que l'animal s'y allonge — sans électricité, sans eau, sans frigo. Plusieurs tailles jusqu'au très grand format, lavable et pliable. Le geste simple qui soulage vraiment pendant les fortes chaleurs.",
+    "features": [
+      "Gel auto-rafraîchissant : aucune électricité nécessaire",
+      "Absorbe la chaleur dès que l'animal s'allonge",
+      "Lavable et pliable",
+      "Plusieurs tailles, jusqu'au très grand format",
+      "Indispensable en période de canicule"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1290,
+    "compareAtPrice": 1790,
+    "imageAlt": "Tapis rafraîchissant pour chien et chat",
+    "seo": {
+      "title": "Tapis rafraîchissant pour chien et chat | Maxi Trouvaille",
+      "description": "Tapis auto-rafraîchissant pour aider chien et chat à supporter la chaleur.",
+      "imageAlt": "Tapis rafraîchissant pour chien et chat"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-19",
+      "note": "Photos fournisseur exactes importees en local (webp) le 19/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-19",
+      "productUrl": "https://fr.aliexpress.com/item/1005008853739347.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 19/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-19"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008853739347.html",
+      "supplierSku": "AE-1005008853739347-COOLMAT",
+      "supplierPriceCents": 296,
+      "supplierStock": 90,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 994,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-19",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (2 000 ventes)",
+        "checkedAt": "2026-07-19",
+        "note": "Validation proprietaire du 19/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
     "id": "ali_claude_20260719_kit_guasha_008",
     "slug": "kit-massage-visage-gua-sha-rouleau-glace",
     "name": "Kit massage visage 3 pièces : gua sha, rouleaux et glace",
