@@ -13259,5 +13259,1170 @@
       ],
       "imageAlt": "Support eponges evier ventouse - image exacte a valider avant publication"
     }
+  },
+  {
+    "id": "ali_partner_20260720_lunettes_soleil_polarisees_sport_uv400_001",
+    "slug": "lunettes-soleil-polarisees-sport-uv400",
+    "name": "Lunettes de soleil polarisées sport UV400",
+    "categoryId": "dropshipping-mode",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/lunettes-soleil-polarisees-sport-uv400-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/lunettes-soleil-polarisees-sport-uv400-photo-1.webp",
+      "/uploads/quick-products/lunettes-soleil-polarisees-sport-uv400-photo-2.webp",
+      "/uploads/quick-products/lunettes-soleil-polarisees-sport-uv400-photo-3.webp",
+      "/uploads/quick-products/lunettes-soleil-polarisees-sport-uv400-photo-4.webp",
+      "/uploads/quick-products/lunettes-soleil-polarisees-sport-uv400-photo-5.webp",
+      "/uploads/quick-products/lunettes-soleil-polarisees-sport-uv400-photo-6.webp"
+    ],
+    "shortDescription": "Lunettes de soleil polarisées à monture sport, protection UV400, confortables pour la conduite, le vélo et les sorties en plein air.",
+    "description": "Lunettes de soleil polarisées avec monture légère de style sport et verres protection UV400. Les verres polarisés réduisent les reflets sur la route et l'eau : idéales pour la conduite, le vélo, la pêche et toutes les activités en extérieur.",
+    "features": [
+      "Verres polarisés anti-reflets avec protection UV400",
+      "Monture sport légère et confortable au quotidien",
+      "Polyvalentes : conduite, vélo, pêche, plage, ville"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007097199237.html",
+      "supplierSku": "AE-ITEM-1005007097199237",
+      "supplierPriceCents": 289,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 990,
+      "marginCents": 701,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007097199237.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 243,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.89 EUR, boutique 9.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:34:40.853Z"
+    },
+    "price": 990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007097199237.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007097199237 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Lunettes de soleil polarisées sport UV400 | Maxi Trouvaille",
+      "description": "Lunettes de soleil polarisées à monture sport, protection UV400, confortables pour la conduite, le vélo et les sorties en plein air.",
+      "h1": "Lunettes de soleil polarisées sport UV400",
+      "h2": "Pourquoi choisir Lunettes de soleil polarisées sport UV400",
+      "keywords": [
+        "lunettes",
+        "soleil",
+        "polarisees",
+        "sport",
+        "uv400",
+        "dropshipping-mode"
+      ],
+      "imageAlt": "Lunettes de soleil polarisées sport UV400 - mode Maxi Trouvaille"
+    },
+    "imageAlt": "Lunettes de soleil polarisées sport UV400 - mode Maxi Trouvaille",
+    "compareAtPrice": 1390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_casquette_baseball_sechage_rapide_respir_001",
+    "slug": "casquette-baseball-sechage-rapide-respirante",
+    "name": "Casquette baseball légère séchage rapide",
+    "categoryId": "dropshipping-mode",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/casquette-baseball-sechage-rapide-respirante-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/casquette-baseball-sechage-rapide-respirante-photo-1.webp",
+      "/uploads/quick-products/casquette-baseball-sechage-rapide-respirante-photo-2.webp",
+      "/uploads/quick-products/casquette-baseball-sechage-rapide-respirante-photo-3.webp",
+      "/uploads/quick-products/casquette-baseball-sechage-rapide-respirante-photo-4.webp",
+      "/uploads/quick-products/casquette-baseball-sechage-rapide-respirante-photo-5.webp",
+      "/uploads/quick-products/casquette-baseball-sechage-rapide-respirante-photo-6.webp"
+    ],
+    "shortDescription": "Casquette de baseball fine et respirante a sechage rapide, ideale pour le sport, la marche et les journees ensoleillees.",
+    "description": "Casquette de baseball legere en tissu respirant a sechage rapide. Sa visiere protege efficacement du soleil pendant le sport, les balades ou les vacances, et sa sangle arriere se regle a toutes les tailles.",
+    "features": [
+      "Tissu fin et respirant a sechage rapide",
+      "Visiere couvrante pour proteger du soleil",
+      "Tour de tete reglable, taille unique"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006538057696.html",
+      "supplierSku": "AE-ITEM-1005006538057696",
+      "supplierPriceCents": 439,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 851,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006538057696.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 194,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.39 EUR, boutique 12.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:34:41.622Z"
+    },
+    "price": 1290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006538057696.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006538057696 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Casquette baseball légère séchage rapide | Maxi Trouvaille",
+      "description": "Casquette de baseball fine et respirante a sechage rapide, ideale pour le sport, la marche et les journees ensoleillees.",
+      "h1": "Casquette baseball légère séchage rapide",
+      "h2": "Pourquoi choisir Casquette baseball légère séchage rapide",
+      "keywords": [
+        "casquette",
+        "baseball",
+        "sechage",
+        "rapide",
+        "respirante",
+        "dropshipping-mode"
+      ],
+      "imageAlt": "Casquette baseball légère séchage rapide - mode Maxi Trouvaille"
+    },
+    "imageAlt": "Casquette baseball légère séchage rapide - mode Maxi Trouvaille",
+    "compareAtPrice": 1790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_sac_banane_bandouliere_toile_etanche_001",
+    "slug": "sac-banane-bandouliere-toile-etanche",
+    "name": "Sac banane bandoulière en toile déperlante",
+    "categoryId": "dropshipping-mode",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/sac-banane-bandouliere-toile-etanche-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/sac-banane-bandouliere-toile-etanche-photo-1.webp",
+      "/uploads/quick-products/sac-banane-bandouliere-toile-etanche-photo-2.webp",
+      "/uploads/quick-products/sac-banane-bandouliere-toile-etanche-photo-3.webp",
+      "/uploads/quick-products/sac-banane-bandouliere-toile-etanche-photo-4.webp",
+      "/uploads/quick-products/sac-banane-bandouliere-toile-etanche-photo-5.webp",
+      "/uploads/quick-products/sac-banane-bandouliere-toile-etanche-photo-6.webp"
+    ],
+    "shortDescription": "Sac banane unisexe en toile deperlante, a porter a la taille ou en bandouliere, parfait pour telephone, cles et portefeuille.",
+    "description": "Sac banane compact en toile resistante et deperlante, porte a la taille ou en bandouliere sur la poitrine. Plusieurs poches zippees pour garder telephone, cles et portefeuille a portee de main, mains libres.",
+    "features": [
+      "Toile resistante et deperlante",
+      "Port taille ou bandouliere, sangle reglable",
+      "Poches zippees pour telephone, cles et portefeuille"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007171636087.html",
+      "supplierSku": "AE-ITEM-1005007171636087",
+      "supplierPriceCents": 339,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 990,
+      "marginCents": 651,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007171636087.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 192,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 3.39 EUR, boutique 9.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:34:44.466Z"
+    },
+    "price": 990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007171636087.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007171636087 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Sac banane bandoulière en toile déperlante | Maxi Trouvaille",
+      "description": "Sac banane unisexe en toile deperlante, a porter a la taille ou en bandouliere, parfait pour telephone, cles et portefeuille.",
+      "h1": "Sac banane bandoulière en toile déperlante",
+      "h2": "Pourquoi choisir Sac banane bandoulière en toile déperlante",
+      "keywords": [
+        "sac",
+        "banane",
+        "bandouliere",
+        "toile",
+        "etanche",
+        "dropshipping-mode"
+      ],
+      "imageAlt": "Sac banane bandoulière en toile déperlante - mode Maxi Trouvaille"
+    },
+    "imageAlt": "Sac banane bandoulière en toile déperlante - mode Maxi Trouvaille",
+    "compareAtPrice": 1390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_support_telephone_voiture_ventouse_table_001",
+    "slug": "support-telephone-voiture-ventouse-tableau-bord",
+    "name": "Support téléphone voiture à ventouse",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/support-telephone-voiture-ventouse-tableau-bord-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/support-telephone-voiture-ventouse-tableau-bord-photo-1.webp",
+      "/uploads/quick-products/support-telephone-voiture-ventouse-tableau-bord-photo-2.webp",
+      "/uploads/quick-products/support-telephone-voiture-ventouse-tableau-bord-photo-3.webp",
+      "/uploads/quick-products/support-telephone-voiture-ventouse-tableau-bord-photo-4.webp",
+      "/uploads/quick-products/support-telephone-voiture-ventouse-tableau-bord-photo-5.webp",
+      "/uploads/quick-products/support-telephone-voiture-ventouse-tableau-bord-photo-6.webp"
+    ],
+    "shortDescription": "Support de telephone universel a ventouse pour tableau de bord, garde le GPS sous les yeux et les mains sur le volant.",
+    "description": "Support de telephone universel pour voiture, fixation par ventouse sur le tableau de bord ou le pare-brise. Bras ajustable et pince stable compatible avec la plupart des smartphones : navigation GPS confortable et conduite plus sure.",
+    "features": [
+      "Fixation ventouse solide sur tableau de bord ou pare-brise",
+      "Compatible avec la plupart des smartphones",
+      "Angle reglable pour une lecture GPS confortable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006904494875.html",
+      "supplierSku": "AE-ITEM-1005006904494875",
+      "supplierPriceCents": 539,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1590,
+      "marginCents": 1051,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006904494875.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (3000+ ventes, visuels officiels importes).",
+      "markupPercent": 195,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 5.39 EUR, boutique 15.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:34:46.387Z"
+    },
+    "price": 1590,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006904494875.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006904494875 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Support téléphone voiture à ventouse | Maxi Trouvaille",
+      "description": "Support de telephone universel a ventouse pour tableau de bord, garde le GPS sous les yeux et les mains sur le volant.",
+      "h1": "Support téléphone voiture à ventouse",
+      "h2": "Pourquoi choisir Support téléphone voiture à ventouse",
+      "keywords": [
+        "support",
+        "telephone",
+        "voiture",
+        "ventouse",
+        "tableau",
+        "bord",
+        "dropshipping-auto-moto"
+      ],
+      "imageAlt": "Support téléphone voiture à ventouse - auto-moto Maxi Trouvaille"
+    },
+    "imageAlt": "Support téléphone voiture à ventouse - auto-moto Maxi Trouvaille",
+    "compareAtPrice": 2190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_mini_aspirateur_voiture_sans_fil_recharg_001",
+    "slug": "mini-aspirateur-voiture-sans-fil-rechargeable",
+    "name": "Mini aspirateur de voiture sans fil rechargeable",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/mini-aspirateur-voiture-sans-fil-rechargeable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/mini-aspirateur-voiture-sans-fil-rechargeable-photo-1.webp",
+      "/uploads/quick-products/mini-aspirateur-voiture-sans-fil-rechargeable-photo-2.webp",
+      "/uploads/quick-products/mini-aspirateur-voiture-sans-fil-rechargeable-photo-3.webp",
+      "/uploads/quick-products/mini-aspirateur-voiture-sans-fil-rechargeable-photo-4.webp",
+      "/uploads/quick-products/mini-aspirateur-voiture-sans-fil-rechargeable-photo-5.webp",
+      "/uploads/quick-products/mini-aspirateur-voiture-sans-fil-rechargeable-photo-6.webp"
+    ],
+    "shortDescription": "Mini aspirateur sans fil rechargeable 2-en-1 aspiration et soufflerie, pour nettoyer sieges, tapis et recoins de la voiture.",
+    "description": "Mini aspirateur portable sans fil, rechargeable en USB, avec fonction aspiration et soufflerie. Compact et maniable, il nettoie sieges, tapis, grilles et recoins de la voiture, et depanne aussi a la maison ou au bureau.",
+    "features": [
+      "Sans fil, rechargeable en USB",
+      "2-en-1 : aspire et souffle la poussiere",
+      "Compact : voiture, clavier, bureau, canape"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006995231269.html",
+      "supplierSku": "AE-ITEM-1005006995231269",
+      "supplierPriceCents": 639,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1790,
+      "marginCents": 1151,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006995231269.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 180,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 6.39 EUR, boutique 17.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:34:47.548Z"
+    },
+    "price": 1790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006995231269.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006995231269 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Mini aspirateur de voiture sans fil rechargeable | Maxi Trouvaille",
+      "description": "Mini aspirateur sans fil rechargeable 2-en-1 aspiration et soufflerie, pour nettoyer sieges, tapis et recoins de la voiture.",
+      "h1": "Mini aspirateur de voiture sans fil rechargeable",
+      "h2": "Pourquoi choisir Mini aspirateur de voiture sans fil rechargeable",
+      "keywords": [
+        "mini",
+        "aspirateur",
+        "voiture",
+        "sans",
+        "fil",
+        "rechargeable",
+        "dropshipping-auto-moto"
+      ],
+      "imageAlt": "Mini aspirateur de voiture sans fil rechargeable - auto-moto Maxi Trouvaille"
+    },
+    "imageAlt": "Mini aspirateur de voiture sans fil rechargeable - auto-moto Maxi Trouvaille",
+    "compareAtPrice": 2490,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_balance_cuisine_numerique_inox_5kg_001",
+    "slug": "balance-cuisine-numerique-inox-5kg",
+    "name": "Balance de cuisine numérique inox 5 kg",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/balance-cuisine-numerique-inox-5kg-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/balance-cuisine-numerique-inox-5kg-photo-1.webp",
+      "/uploads/quick-products/balance-cuisine-numerique-inox-5kg-photo-2.webp",
+      "/uploads/quick-products/balance-cuisine-numerique-inox-5kg-photo-3.webp",
+      "/uploads/quick-products/balance-cuisine-numerique-inox-5kg-photo-4.webp",
+      "/uploads/quick-products/balance-cuisine-numerique-inox-5kg-photo-5.webp",
+      "/uploads/quick-products/balance-cuisine-numerique-inox-5kg-photo-6.webp"
+    ],
+    "shortDescription": "Balance de cuisine numerique 5 kg precision 1 g, plateau inox facile a nettoyer, ecran LCD : patisserie et portions reussies.",
+    "description": "Balance de cuisine electronique avec plateau en acier inoxydable, capacite 5 kg et precision 1 gramme. Ecran LCD lisible, fonction tare pour peser directement dans un bol : indispensable pour la patisserie, les regimes et les portions justes.",
+    "features": [
+      "Capacite 5 kg, precision 1 g",
+      "Plateau inox facile a nettoyer, fonction tare",
+      "Ecran LCD clair, format compact a ranger"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008835628421.html",
+      "supplierSku": "AE-ITEM-1005008835628421",
+      "supplierPriceCents": 769,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2190,
+      "marginCents": 1421,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008835628421.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 185,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 7.69 EUR, boutique 21.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:34:48.732Z"
+    },
+    "price": 2190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008835628421.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008835628421 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Balance de cuisine numérique inox 5 kg | Maxi Trouvaille",
+      "description": "Balance de cuisine numerique 5 kg precision 1 g, plateau inox facile a nettoyer, ecran LCD : patisserie et portions reussies.",
+      "h1": "Balance de cuisine numérique inox 5 kg",
+      "h2": "Pourquoi choisir Balance de cuisine numérique inox 5 kg",
+      "keywords": [
+        "balance",
+        "cuisine",
+        "numerique",
+        "inox",
+        "5kg",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Balance de cuisine numérique inox 5 kg - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Balance de cuisine numérique inox 5 kg - cuisine Maxi Trouvaille",
+    "compareAtPrice": 2990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_coupe_legumes_12_en_1_avec_panier_001",
+    "slug": "coupe-legumes-12-en-1-avec-panier",
+    "name": "Coupe-légumes 12 en 1 avec panier",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/coupe-legumes-12-en-1-avec-panier-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/coupe-legumes-12-en-1-avec-panier-photo-1.webp",
+      "/uploads/quick-products/coupe-legumes-12-en-1-avec-panier-photo-2.webp",
+      "/uploads/quick-products/coupe-legumes-12-en-1-avec-panier-photo-3.webp",
+      "/uploads/quick-products/coupe-legumes-12-en-1-avec-panier-photo-4.webp",
+      "/uploads/quick-products/coupe-legumes-12-en-1-avec-panier-photo-5.webp",
+      "/uploads/quick-products/coupe-legumes-12-en-1-avec-panier-photo-6.webp"
+    ],
+    "shortDescription": "Coupe-legumes multifonction 12 en 1 avec panier recuperateur : tranche, rape et emince fruits et legumes en quelques secondes.",
+    "description": "Coupe-legumes multifonction 12 en 1 avec lames interchangeables et panier recuperateur. Il tranche, rape, emince et coupe en des les legumes et fruits en quelques secondes, pour des salades, gratins et poelees sans corvee de decoupe.",
+    "features": [
+      "12 fonctions : trancher, raper, emincer, couper en des",
+      "Panier recuperateur : plan de travail propre",
+      "Lames en acier inoxydable, nettoyage facile"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006966162935.html",
+      "supplierSku": "AE-ITEM-1005006966162935",
+      "supplierPriceCents": 1519,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3390,
+      "marginCents": 1871,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006966162935.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 123,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 15.19 EUR, boutique 33.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:34:49.299Z"
+    },
+    "price": 3390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006966162935.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006966162935 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Coupe-légumes 12 en 1 avec panier | Maxi Trouvaille",
+      "description": "Coupe-legumes multifonction 12 en 1 avec panier recuperateur : tranche, rape et emince fruits et legumes en quelques secondes.",
+      "h1": "Coupe-légumes 12 en 1 avec panier",
+      "h2": "Pourquoi choisir Coupe-légumes 12 en 1 avec panier",
+      "keywords": [
+        "coupe",
+        "legumes",
+        "avec",
+        "panier",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Coupe-légumes 12 en 1 avec panier - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Coupe-légumes 12 en 1 avec panier - cuisine Maxi Trouvaille",
+    "compareAtPrice": 4590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_ecouteurs_bluetooth_lenovo_xt80_sport_001",
+    "slug": "ecouteurs-bluetooth-lenovo-xt80-sport",
+    "name": "Écouteurs Bluetooth Lenovo XT80 sport",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/ecouteurs-bluetooth-lenovo-xt80-sport-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/ecouteurs-bluetooth-lenovo-xt80-sport-photo-1.webp",
+      "/uploads/quick-products/ecouteurs-bluetooth-lenovo-xt80-sport-photo-2.webp",
+      "/uploads/quick-products/ecouteurs-bluetooth-lenovo-xt80-sport-photo-3.webp",
+      "/uploads/quick-products/ecouteurs-bluetooth-lenovo-xt80-sport-photo-4.webp",
+      "/uploads/quick-products/ecouteurs-bluetooth-lenovo-xt80-sport-photo-5.webp",
+      "/uploads/quick-products/ecouteurs-bluetooth-lenovo-xt80-sport-photo-6.webp"
+    ],
+    "shortDescription": "Ecouteurs sans fil Lenovo XT80 Bluetooth 5.3 avec micro, affichage LED de la batterie et son stereo HiFi pour sport et appels.",
+    "description": "Ecouteurs sans fil Lenovo XT80 en Bluetooth 5.3 avec microphones integres pour les appels, boitier de charge avec affichage LED du niveau de batterie et son stereo HiFi. Maintien confortable, parfaits pour le sport, les trajets et le teletravail.",
+    "features": [
+      "Bluetooth 5.3, connexion stable et rapide",
+      "Boitier de charge avec affichage LED de batterie",
+      "Micros integres : appels et visio mains libres"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006677981770.html",
+      "supplierSku": "AE-ITEM-1005006677981770",
+      "supplierPriceCents": 1419,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3190,
+      "marginCents": 1771,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006677981770.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 125,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 14.19 EUR, boutique 31.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:34:50.903Z"
+    },
+    "price": 3190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006677981770.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006677981770 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Écouteurs Bluetooth Lenovo XT80 sport | Maxi Trouvaille",
+      "description": "Ecouteurs sans fil Lenovo XT80 Bluetooth 5.3 avec micro, affichage LED de la batterie et son stereo HiFi pour sport et appels.",
+      "h1": "Écouteurs Bluetooth Lenovo XT80 sport",
+      "h2": "Pourquoi choisir Écouteurs Bluetooth Lenovo XT80 sport",
+      "keywords": [
+        "ecouteurs",
+        "bluetooth",
+        "lenovo",
+        "xt80",
+        "sport",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Écouteurs Bluetooth Lenovo XT80 sport - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Écouteurs Bluetooth Lenovo XT80 sport - high-tech Maxi Trouvaille",
+    "compareAtPrice": 4390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_montre_connectee_ecran_hd_appel_bluetoot_001",
+    "slug": "montre-connectee-ecran-hd-appel-bluetooth",
+    "name": "Montre connectée écran HD appel Bluetooth",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/montre-connectee-ecran-hd-appel-bluetooth-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/montre-connectee-ecran-hd-appel-bluetooth-photo-1.webp",
+      "/uploads/quick-products/montre-connectee-ecran-hd-appel-bluetooth-photo-2.webp",
+      "/uploads/quick-products/montre-connectee-ecran-hd-appel-bluetooth-photo-3.webp",
+      "/uploads/quick-products/montre-connectee-ecran-hd-appel-bluetooth-photo-4.webp",
+      "/uploads/quick-products/montre-connectee-ecran-hd-appel-bluetooth-photo-5.webp",
+      "/uploads/quick-products/montre-connectee-ecran-hd-appel-bluetooth-photo-6.webp"
+    ],
+    "shortDescription": "Montre connectee grand ecran HD 2,01 pouces avec appels Bluetooth, suivi sante, sommeil et multi-sports, compatible Android et iOS.",
+    "description": "Montre connectee avec grand ecran HD 2,01 pouces, appels via Bluetooth, notifications, suivi de la frequence cardiaque, du sommeil et de nombreux modes sportifs. Compatible Android et iOS, elle accompagne le quotidien comme les entrainements.",
+    "features": [
+      "Grand ecran HD 2,01 pouces",
+      "Appels et notifications via Bluetooth",
+      "Suivi sante : cardio, sommeil, multi-sports"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007169454923.html",
+      "supplierSku": "AE-ITEM-1005007169454923",
+      "supplierPriceCents": 459,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 831,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007169454923.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 181,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.59 EUR, boutique 12.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:34:51.415Z"
+    },
+    "price": 1290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007169454923.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007169454923 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Montre connectée écran HD appel Bluetooth | Maxi Trouvaille",
+      "description": "Montre connectee grand ecran HD 2,01 pouces avec appels Bluetooth, suivi sante, sommeil et multi-sports, compatible Android et iOS.",
+      "h1": "Montre connectée écran HD appel Bluetooth",
+      "h2": "Pourquoi choisir Montre connectée écran HD appel Bluetooth",
+      "keywords": [
+        "montre",
+        "connectee",
+        "ecran",
+        "appel",
+        "bluetooth",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Montre connectée écran HD appel Bluetooth - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Montre connectée écran HD appel Bluetooth - high-tech Maxi Trouvaille",
+    "compareAtPrice": 1790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_miroir_maquillage_poche_led_pliable_001",
+    "slug": "miroir-maquillage-poche-led-pliable",
+    "name": "Miroir de maquillage LED pliable de poche",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/miroir-maquillage-poche-led-pliable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/miroir-maquillage-poche-led-pliable-photo-1.webp",
+      "/uploads/quick-products/miroir-maquillage-poche-led-pliable-photo-2.webp",
+      "/uploads/quick-products/miroir-maquillage-poche-led-pliable-photo-3.webp",
+      "/uploads/quick-products/miroir-maquillage-poche-led-pliable-photo-4.webp",
+      "/uploads/quick-products/miroir-maquillage-poche-led-pliable-photo-5.webp",
+      "/uploads/quick-products/miroir-maquillage-poche-led-pliable-photo-6.webp"
+    ],
+    "shortDescription": "Miroir de poche pliable avec eclairage LED et double face grossissement 1X/2X, parfait pour les retouches en deplacement.",
+    "description": "Miroir de maquillage compact et pliable avec eclairage LED integre, double face avec grossissement 1X et 2X. Il se glisse dans le sac a main pour des retouches impeccables partout, meme en faible lumiere. Une jolie idee cadeau.",
+    "features": [
+      "Eclairage LED pour se maquiller partout",
+      "Double face : normal 1X et grossissant 2X",
+      "Format poche pliable, ideal sac a main"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006398603774.html",
+      "supplierSku": "AE-ITEM-1005006398603774",
+      "supplierPriceCents": 579,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1690,
+      "marginCents": 1111,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006398603774.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 192,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 5.79 EUR, boutique 16.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:34:51.827Z"
+    },
+    "price": 1690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006398603774.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006398603774 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Miroir de maquillage LED pliable de poche | Maxi Trouvaille",
+      "description": "Miroir de poche pliable avec eclairage LED et double face grossissement 1X/2X, parfait pour les retouches en deplacement.",
+      "h1": "Miroir de maquillage LED pliable de poche",
+      "h2": "Pourquoi choisir Miroir de maquillage LED pliable de poche",
+      "keywords": [
+        "miroir",
+        "maquillage",
+        "poche",
+        "led",
+        "pliable",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Miroir de maquillage LED pliable de poche - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Miroir de maquillage LED pliable de poche - beaute Maxi Trouvaille",
+    "compareAtPrice": 2290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_fontaine_eau_chat_filtre_automatique_001",
+    "slug": "fontaine-eau-chat-filtre-automatique",
+    "name": "Fontaine à eau pour chat avec filtre",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/fontaine-eau-chat-filtre-automatique-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/fontaine-eau-chat-filtre-automatique-photo-1.webp",
+      "/uploads/quick-products/fontaine-eau-chat-filtre-automatique-photo-2.webp",
+      "/uploads/quick-products/fontaine-eau-chat-filtre-automatique-photo-3.webp",
+      "/uploads/quick-products/fontaine-eau-chat-filtre-automatique-photo-4.webp",
+      "/uploads/quick-products/fontaine-eau-chat-filtre-automatique-photo-5.webp",
+      "/uploads/quick-products/fontaine-eau-chat-filtre-automatique-photo-6.webp"
+    ],
+    "shortDescription": "Fontaine a eau transparente pour chat avec filtre et pompe silencieuse : de l eau fraiche en circulation toute la journee.",
+    "description": "Fontaine a eau pour chat avec reservoir transparent, filtre integre et pompe silencieuse a recirculation. L eau reste fraiche et propre toute la journee, ce qui encourage le chat a boire davantage et prend soin de ses reins.",
+    "features": [
+      "Filtre integre : eau propre en continu",
+      "Pompe silencieuse avec protection anti-marche a sec",
+      "Reservoir transparent : niveau d eau visible en un coup d oeil"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007857255180.html",
+      "supplierSku": "AE-ITEM-1005007857255180",
+      "supplierPriceCents": 1019,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2290,
+      "marginCents": 1271,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007857255180.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 125,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 10.19 EUR, boutique 22.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:34:52.173Z"
+    },
+    "price": 2290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007857255180.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007857255180 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Fontaine à eau pour chat avec filtre | Maxi Trouvaille",
+      "description": "Fontaine a eau transparente pour chat avec filtre et pompe silencieuse : de l eau fraiche en circulation toute la journee.",
+      "h1": "Fontaine à eau pour chat avec filtre",
+      "h2": "Pourquoi choisir Fontaine à eau pour chat avec filtre",
+      "keywords": [
+        "fontaine",
+        "eau",
+        "chat",
+        "filtre",
+        "automatique",
+        "dropshipping-animaux"
+      ],
+      "imageAlt": "Fontaine à eau pour chat avec filtre - animaux Maxi Trouvaille"
+    },
+    "imageAlt": "Fontaine à eau pour chat avec filtre - animaux Maxi Trouvaille",
+    "compareAtPrice": 3190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_portefeuille_homme_cuir_protection_rfid_001",
+    "slug": "portefeuille-homme-cuir-protection-rfid",
+    "name": "Portefeuille homme cuir anti-RFID",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/portefeuille-homme-cuir-protection-rfid-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/portefeuille-homme-cuir-protection-rfid-photo-1.webp",
+      "/uploads/quick-products/portefeuille-homme-cuir-protection-rfid-photo-2.webp",
+      "/uploads/quick-products/portefeuille-homme-cuir-protection-rfid-photo-3.webp",
+      "/uploads/quick-products/portefeuille-homme-cuir-protection-rfid-photo-4.webp",
+      "/uploads/quick-products/portefeuille-homme-cuir-protection-rfid-photo-5.webp",
+      "/uploads/quick-products/portefeuille-homme-cuir-protection-rfid-photo-6.webp"
+    ],
+    "shortDescription": "Portefeuille compact pour homme en cuir PU avec blocage RFID qui protege les cartes bancaires du piratage sans contact.",
+    "description": "Portefeuille court pour homme en cuir PU souple avec technologie de blocage RFID integree : vos cartes bancaires sont protegees de la lecture sans contact. Compartiments cartes, billets et monnaie dans un format compact qui tient dans la poche avant.",
+    "features": [
+      "Blocage RFID : cartes protegees du piratage sans contact",
+      "Cuir PU souple et resistant, finition soignee",
+      "Format compact : poche avant, veste ou sac"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007096914630.html",
+      "supplierSku": "AE-ITEM-1005007096914630",
+      "supplierPriceCents": 529,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1490,
+      "marginCents": 961,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007096914630.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 182,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 5.29 EUR, boutique 14.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:34:52.971Z"
+    },
+    "price": 1490,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007096914630.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007096914630 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Portefeuille homme cuir anti-RFID | Maxi Trouvaille",
+      "description": "Portefeuille compact pour homme en cuir PU avec blocage RFID qui protege les cartes bancaires du piratage sans contact.",
+      "h1": "Portefeuille homme cuir anti-RFID",
+      "h2": "Pourquoi choisir Portefeuille homme cuir anti-RFID",
+      "keywords": [
+        "portefeuille",
+        "homme",
+        "cuir",
+        "protection",
+        "rfid",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Portefeuille homme cuir anti-RFID - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Portefeuille homme cuir anti-RFID - accessoires Maxi Trouvaille",
+    "compareAtPrice": 2090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
