@@ -18008,5 +18008,196 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_lampe_projection_coucher_de_soleil_001",
+    "slug": "lampe-projection-coucher-de-soleil",
+    "name": "Lampe projection coucher de soleil",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/lampe-projection-coucher-de-soleil-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/lampe-projection-coucher-de-soleil-photo-1.webp",
+      "/uploads/quick-products/lampe-projection-coucher-de-soleil-photo-2.webp",
+      "/uploads/quick-products/lampe-projection-coucher-de-soleil-photo-3.webp",
+      "/uploads/quick-products/lampe-projection-coucher-de-soleil-photo-4.webp"
+    ],
+    "shortDescription": "Lampe LED qui projette un halo coucher de soleil sur le mur : ambiance chaleureuse pour la chambre et photos dignes des reseaux.",
+    "description": "Lampe de projection LED effet coucher de soleil : posee au sol ou sur un meuble, elle projette un grand halo orange chaleureux sur le mur. Ambiance cocooning pour la chambre ou le salon, et un decor parfait pour les photos et videos.",
+    "features": [
+      "Halo coucher de soleil chaleureux",
+      "Alimentation USB, orientation reglable",
+      "Deco et fond photo/video tendance"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010089228157.html",
+      "supplierSku": "AE-ITEM-1005010089228157",
+      "supplierPriceCents": 172,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 518,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010089228157.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 301,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 1.72 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:22:10.112Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010089228157.html",
+      "imageCount": 4,
+      "reason": "Images officielles de la fiche fournisseur 1005010089228157 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Lampe projection coucher de soleil | Maxi Trouvaille",
+      "description": "Lampe LED qui projette un halo coucher de soleil sur le mur : ambiance chaleureuse pour la chambre et photos dignes des reseaux.",
+      "h1": "Lampe projection coucher de soleil",
+      "h2": "Pourquoi choisir Lampe projection coucher de soleil",
+      "keywords": [
+        "lampe",
+        "projection",
+        "coucher",
+        "soleil",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Lampe projection coucher de soleil - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Lampe projection coucher de soleil - maison Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_jouets_bain_baleines_squishy_lot_4_001",
+    "slug": "jouets-bain-baleines-squishy-lot-4",
+    "name": "Jouets de bain baleines squishy - lot de 4",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/jouets-bain-baleines-squishy-lot-4-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/jouets-bain-baleines-squishy-lot-4-photo-1.webp",
+      "/uploads/quick-products/jouets-bain-baleines-squishy-lot-4-photo-2.webp",
+      "/uploads/quick-products/jouets-bain-baleines-squishy-lot-4-photo-3.webp",
+      "/uploads/quick-products/jouets-bain-baleines-squishy-lot-4-photo-4.webp",
+      "/uploads/quick-products/jouets-bain-baleines-squishy-lot-4-photo-5.webp",
+      "/uploads/quick-products/jouets-bain-baleines-squishy-lot-4-photo-6.webp"
+    ],
+    "shortDescription": "Lot de 4 baleines souples et colorees pour le bain : elles flottent, s arrosent et rendent l heure du bain irresistible.",
+    "description": "Lot de 4 petites baleines de bain souples et colorees (bleu, vert, rose, jaune) : elles flottent, se pressent et arrosent en jet d eau. L heure du bain devient un jeu, et les couleurs vives aident bebe a apprendre en s amusant.",
+    "features": [
+      "Lot de 4 baleines colorees",
+      "Matiere souple et sans danger",
+      "Flottent et arrosent : bain amusant"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009412402623.html",
+      "supplierSku": "AE-ITEM-1005009412402623",
+      "supplierPriceCents": 211,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 479,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009412402623.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 227,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.11 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:22:10.688Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009412402623.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009412402623 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Jouets de bain baleines squishy - lot de 4 | Maxi Trouvaille",
+      "description": "Lot de 4 baleines souples et colorees pour le bain : elles flottent, s arrosent et rendent l heure du bain irresistible.",
+      "h1": "Jouets de bain baleines squishy - lot de 4",
+      "h2": "Pourquoi choisir Jouets de bain baleines squishy - lot de 4",
+      "keywords": [
+        "jouets",
+        "bain",
+        "baleines",
+        "squishy",
+        "lot",
+        "dropshipping-enfant"
+      ],
+      "imageAlt": "Jouets de bain baleines squishy - lot de 4 - enfant Maxi Trouvaille"
+    },
+    "imageAlt": "Jouets de bain baleines squishy - lot de 4 - enfant Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
