@@ -14424,5 +14424,1068 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_ruban_led_rvb_flexible_chambre_001",
+    "slug": "ruban-led-rvb-flexible-chambre",
+    "name": "Ruban LED RVB flexible pour chambre",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/ruban-led-rvb-flexible-chambre-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/ruban-led-rvb-flexible-chambre-photo-1.webp",
+      "/uploads/quick-products/ruban-led-rvb-flexible-chambre-photo-2.webp",
+      "/uploads/quick-products/ruban-led-rvb-flexible-chambre-photo-3.webp",
+      "/uploads/quick-products/ruban-led-rvb-flexible-chambre-photo-4.webp",
+      "/uploads/quick-products/ruban-led-rvb-flexible-chambre-photo-5.webp",
+      "/uploads/quick-products/ruban-led-rvb-flexible-chambre-photo-6.webp"
+    ],
+    "shortDescription": "Ruban lumineux LED RVB flexible et adhesif pour la chambre ou le salon : ambiance coloree au choix, pose en quelques minutes.",
+    "description": "Ruban LED RVB flexible et autocollant, plusieurs couleurs et effets pour transformer l ambiance d une chambre, d un salon ou d un bureau gaming. Se decoupe et se pose derriere un lit, un meuble ou une TV en quelques minutes.",
+    "features": [
+      "Couleurs RVB et effets pour une ambiance sur mesure",
+      "Pose adhesive rapide, ruban decoupable",
+      "Ideal chambre, tete de lit, setup gaming, TV"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007914556601.html",
+      "supplierSku": "AE-ITEM-1005007914556601",
+      "supplierPriceCents": 233,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 790,
+      "marginCents": 557,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007914556601.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 239,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.33 EUR, boutique 7.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:47:30.679Z"
+    },
+    "price": 790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007914556601.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007914556601 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Ruban LED RVB flexible pour chambre | Maxi Trouvaille",
+      "description": "Ruban lumineux LED RVB flexible et adhesif pour la chambre ou le salon : ambiance coloree au choix, pose en quelques minutes.",
+      "h1": "Ruban LED RVB flexible pour chambre",
+      "h2": "Pourquoi choisir Ruban LED RVB flexible pour chambre",
+      "keywords": [
+        "ruban",
+        "led",
+        "rvb",
+        "flexible",
+        "chambre",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Ruban LED RVB flexible pour chambre - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Ruban LED RVB flexible pour chambre - maison Maxi Trouvaille",
+    "compareAtPrice": 1090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_projecteur_etoiles_galaxie_veilleuse_001",
+    "slug": "projecteur-etoiles-galaxie-veilleuse",
+    "name": "Projecteur d'étoiles galaxie veilleuse",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/projecteur-etoiles-galaxie-veilleuse-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/projecteur-etoiles-galaxie-veilleuse-photo-1.webp",
+      "/uploads/quick-products/projecteur-etoiles-galaxie-veilleuse-photo-2.webp",
+      "/uploads/quick-products/projecteur-etoiles-galaxie-veilleuse-photo-3.webp",
+      "/uploads/quick-products/projecteur-etoiles-galaxie-veilleuse-photo-4.webp",
+      "/uploads/quick-products/projecteur-etoiles-galaxie-veilleuse-photo-5.webp",
+      "/uploads/quick-products/projecteur-etoiles-galaxie-veilleuse-photo-6.webp"
+    ],
+    "shortDescription": "Projecteur d etoiles et galaxie 7 couleurs qui transforme la chambre en ciel etoile : veilleuse magique pour enfants et ados.",
+    "description": "Projecteur d etoiles et de galaxie avec motifs vagues et 7 couleurs au choix. Il transforme le plafond de la chambre en ciel etoile apaisant : parfait comme veilleuse pour les enfants, deco pour les ados ou ambiance detente.",
+    "features": [
+      "Projection etoiles et galaxie sur tout le plafond",
+      "7 couleurs et plusieurs modes d eclairage",
+      "Veilleuse apaisante pour enfants et ados"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006490746427.html",
+      "supplierSku": "AE-ITEM-1005006490746427",
+      "supplierPriceCents": 329,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 990,
+      "marginCents": 661,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006490746427.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 201,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 3.29 EUR, boutique 9.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:47:31.334Z"
+    },
+    "price": 990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006490746427.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006490746427 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Projecteur d'étoiles galaxie veilleuse | Maxi Trouvaille",
+      "description": "Projecteur d etoiles et galaxie 7 couleurs qui transforme la chambre en ciel etoile : veilleuse magique pour enfants et ados.",
+      "h1": "Projecteur d'étoiles galaxie veilleuse",
+      "h2": "Pourquoi choisir Projecteur d'étoiles galaxie veilleuse",
+      "keywords": [
+        "projecteur",
+        "etoiles",
+        "galaxie",
+        "veilleuse",
+        "dropshipping-enfant"
+      ],
+      "imageAlt": "Projecteur d'étoiles galaxie veilleuse - enfant Maxi Trouvaille"
+    },
+    "imageAlt": "Projecteur d'étoiles galaxie veilleuse - enfant Maxi Trouvaille",
+    "compareAtPrice": 1390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_balle_antistress_dumpling_rebond_lent_001",
+    "slug": "balle-antistress-dumpling-rebond-lent",
+    "name": "Balle antistress dumpling à rebond lent",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/balle-antistress-dumpling-rebond-lent-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/balle-antistress-dumpling-rebond-lent-photo-1.webp",
+      "/uploads/quick-products/balle-antistress-dumpling-rebond-lent-photo-2.webp",
+      "/uploads/quick-products/balle-antistress-dumpling-rebond-lent-photo-3.webp",
+      "/uploads/quick-products/balle-antistress-dumpling-rebond-lent-photo-4.webp",
+      "/uploads/quick-products/balle-antistress-dumpling-rebond-lent-photo-5.webp",
+      "/uploads/quick-products/balle-antistress-dumpling-rebond-lent-photo-6.webp"
+    ],
+    "shortDescription": "Balle antistress toute douce en forme de dumpling, a presser et malaxer : elle reprend lentement sa forme, effet detente garanti.",
+    "description": "Balle antistress souple et coloree en forme de dumpling, a pincer et malaxer a volonte : elle reprend lentement sa forme apres chaque pression. Un jouet sensoriel amusant pour les enfants et relaxant pour les adultes, a la maison comme au bureau.",
+    "features": [
+      "Matiere ultra douce a rebond lent",
+      "Format main : maison, ecole, bureau",
+      "Jouet sensoriel : detente et concentration"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005011781153921.html",
+      "supplierSku": "AE-ITEM-1005011781153921",
+      "supplierPriceCents": 499,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1490,
+      "marginCents": 991,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005011781153921.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 199,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.99 EUR, boutique 14.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:47:31.723Z"
+    },
+    "price": 1490,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005011781153921.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005011781153921 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Balle antistress dumpling à rebond lent | Maxi Trouvaille",
+      "description": "Balle antistress toute douce en forme de dumpling, a presser et malaxer : elle reprend lentement sa forme, effet detente garanti.",
+      "h1": "Balle antistress dumpling à rebond lent",
+      "h2": "Pourquoi choisir Balle antistress dumpling à rebond lent",
+      "keywords": [
+        "balle",
+        "antistress",
+        "dumpling",
+        "rebond",
+        "lent",
+        "dropshipping-enfant"
+      ],
+      "imageAlt": "Balle antistress dumpling à rebond lent - enfant Maxi Trouvaille"
+    },
+    "imageAlt": "Balle antistress dumpling à rebond lent - enfant Maxi Trouvaille",
+    "compareAtPrice": 2090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_mini_enceinte_bluetooth_portable_stereo_001",
+    "slug": "mini-enceinte-bluetooth-portable-stereo",
+    "name": "Mini enceinte Bluetooth portable stéréo",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/mini-enceinte-bluetooth-portable-stereo-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/mini-enceinte-bluetooth-portable-stereo-photo-1.webp",
+      "/uploads/quick-products/mini-enceinte-bluetooth-portable-stereo-photo-2.webp",
+      "/uploads/quick-products/mini-enceinte-bluetooth-portable-stereo-photo-3.webp",
+      "/uploads/quick-products/mini-enceinte-bluetooth-portable-stereo-photo-4.webp",
+      "/uploads/quick-products/mini-enceinte-bluetooth-portable-stereo-photo-5.webp",
+      "/uploads/quick-products/mini-enceinte-bluetooth-portable-stereo-photo-6.webp"
+    ],
+    "shortDescription": "Mini enceinte Bluetooth 5.0 portable au son stereo etonnant pour sa taille : musique partout, maison, plage ou pique-nique.",
+    "description": "Mini enceinte portable en Bluetooth 5.0 avec son stereo et basses etonnantes pour sa taille compacte. Elle accompagne la musique partout : cuisine, salle de bain, jardin, plage ou pique-nique, connectee au telephone en quelques secondes.",
+    "features": [
+      "Bluetooth 5.0 : connexion rapide et stable",
+      "Son stereo puissant pour un format mini",
+      "Legere et transportable partout"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007624582426.html",
+      "supplierSku": "AE-ITEM-1005007624582426",
+      "supplierPriceCents": 419,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1190,
+      "marginCents": 771,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007624582426.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 184,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.19 EUR, boutique 11.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:47:32.667Z"
+    },
+    "price": 1190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007624582426.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007624582426 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Mini enceinte Bluetooth portable stéréo | Maxi Trouvaille",
+      "description": "Mini enceinte Bluetooth 5.0 portable au son stereo etonnant pour sa taille : musique partout, maison, plage ou pique-nique.",
+      "h1": "Mini enceinte Bluetooth portable stéréo",
+      "h2": "Pourquoi choisir Mini enceinte Bluetooth portable stéréo",
+      "keywords": [
+        "mini",
+        "enceinte",
+        "bluetooth",
+        "portable",
+        "stereo",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Mini enceinte Bluetooth portable stéréo - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Mini enceinte Bluetooth portable stéréo - high-tech Maxi Trouvaille",
+    "compareAtPrice": 1690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_pack_jouets_chats_varies_001",
+    "slug": "pack-jouets-chats-varies",
+    "name": "Pack de jouets variés pour chat",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/pack-jouets-chats-varies-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/pack-jouets-chats-varies-photo-1.webp",
+      "/uploads/quick-products/pack-jouets-chats-varies-photo-2.webp",
+      "/uploads/quick-products/pack-jouets-chats-varies-photo-3.webp",
+      "/uploads/quick-products/pack-jouets-chats-varies-photo-4.webp",
+      "/uploads/quick-products/pack-jouets-chats-varies-photo-5.webp",
+      "/uploads/quick-products/pack-jouets-chats-varies-photo-6.webp"
+    ],
+    "shortDescription": "Assortiment de jouets pour chat : balles, souris, plumes et jouets en peluche pour occuper votre compagnon toute la journee.",
+    "description": "Pack de jouets varies pour chat melant balles, souris en peluche, plumeaux et petits jouets en plastique. De quoi stimuler l instinct de chasse de votre chat, le faire bouger et l occuper meme quand vous n etes pas la.",
+    "features": [
+      "Assortiment varie : balles, souris, plumes",
+      "Stimule le jeu et l instinct de chasse",
+      "Convient aux chatons comme aux chats adultes"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009427671047.html",
+      "supplierSku": "AE-ITEM-1005009427671047",
+      "supplierPriceCents": 639,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1790,
+      "marginCents": 1151,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009427671047.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 180,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 6.39 EUR, boutique 17.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:47:33.455Z"
+    },
+    "price": 1790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009427671047.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009427671047 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Pack de jouets variés pour chat | Maxi Trouvaille",
+      "description": "Assortiment de jouets pour chat : balles, souris, plumes et jouets en peluche pour occuper votre compagnon toute la journee.",
+      "h1": "Pack de jouets variés pour chat",
+      "h2": "Pourquoi choisir Pack de jouets variés pour chat",
+      "keywords": [
+        "pack",
+        "jouets",
+        "chats",
+        "varies",
+        "dropshipping-animaux"
+      ],
+      "imageAlt": "Pack de jouets variés pour chat - animaux Maxi Trouvaille"
+    },
+    "imageAlt": "Pack de jouets variés pour chat - animaux Maxi Trouvaille",
+    "compareAtPrice": 2490,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_rouleau_anti_poils_animaux_autonettoyant_001",
+    "slug": "rouleau-anti-poils-animaux-autonettoyant",
+    "name": "Rouleau anti-poils autonettoyant",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/rouleau-anti-poils-animaux-autonettoyant-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/rouleau-anti-poils-animaux-autonettoyant-photo-1.webp",
+      "/uploads/quick-products/rouleau-anti-poils-animaux-autonettoyant-photo-2.webp",
+      "/uploads/quick-products/rouleau-anti-poils-animaux-autonettoyant-photo-3.webp",
+      "/uploads/quick-products/rouleau-anti-poils-animaux-autonettoyant-photo-4.webp",
+      "/uploads/quick-products/rouleau-anti-poils-animaux-autonettoyant-photo-5.webp",
+      "/uploads/quick-products/rouleau-anti-poils-animaux-autonettoyant-photo-6.webp"
+    ],
+    "shortDescription": "Rouleau anti-poils reutilisable et autonettoyant : retire les poils de chien et chat du canape, des tapis et des vetements.",
+    "description": "Rouleau anti-poils double face avec systeme autonettoyant : passez-le sur le canape, les tapis, les sieges de voiture ou les vetements pour retirer les poils de chien et de chat, puis videz le reservoir. Reutilisable a l infini, sans recharges.",
+    "features": [
+      "Retire poils et peluches sur tissus et canapes",
+      "Autonettoyant : reservoir a vider, zero recharge",
+      "Reutilisable : ecologique et economique"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007540031517.html",
+      "supplierSku": "AE-ITEM-1005007540031517",
+      "supplierPriceCents": 204,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 486,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007540031517.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 238,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.04 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:47:34.349Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007540031517.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007540031517 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Rouleau anti-poils autonettoyant | Maxi Trouvaille",
+      "description": "Rouleau anti-poils reutilisable et autonettoyant : retire les poils de chien et chat du canape, des tapis et des vetements.",
+      "h1": "Rouleau anti-poils autonettoyant",
+      "h2": "Pourquoi choisir Rouleau anti-poils autonettoyant",
+      "keywords": [
+        "rouleau",
+        "anti",
+        "poils",
+        "animaux",
+        "autonettoyant",
+        "dropshipping-animaux"
+      ],
+      "imageAlt": "Rouleau anti-poils autonettoyant - animaux Maxi Trouvaille"
+    },
+    "imageAlt": "Rouleau anti-poils autonettoyant - animaux Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_ceinture_homme_boucle_automatique_001",
+    "slug": "ceinture-homme-boucle-automatique",
+    "name": "Ceinture homme à boucle automatique",
+    "categoryId": "dropshipping-mode",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/ceinture-homme-boucle-automatique-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/ceinture-homme-boucle-automatique-photo-1.webp",
+      "/uploads/quick-products/ceinture-homme-boucle-automatique-photo-2.webp",
+      "/uploads/quick-products/ceinture-homme-boucle-automatique-photo-3.webp",
+      "/uploads/quick-products/ceinture-homme-boucle-automatique-photo-4.webp",
+      "/uploads/quick-products/ceinture-homme-boucle-automatique-photo-5.webp",
+      "/uploads/quick-products/ceinture-homme-boucle-automatique-photo-6.webp"
+    ],
+    "shortDescription": "Ceinture pour homme en cuir souple avec boucle automatique en metal : reglage precis au cran pres, elegante au travail comme en ville.",
+    "description": "Ceinture pour homme en cuir souple avec boucle automatique en metal : un clic pour l ajuster au millimetre, sans trous qui deforment la ceinture. Elegante avec un pantalon de ville comme avec un jean.",
+    "features": [
+      "Boucle automatique : reglage precis sans trous",
+      "Cuir souple et resistant",
+      "Style habille ou decontracte"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009384482589.html",
+      "supplierSku": "AE-ITEM-1005009384482589",
+      "supplierPriceCents": 359,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1090,
+      "marginCents": 731,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009384482589.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 204,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 3.59 EUR, boutique 10.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:47:34.681Z"
+    },
+    "price": 1090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009384482589.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009384482589 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Ceinture homme à boucle automatique | Maxi Trouvaille",
+      "description": "Ceinture pour homme en cuir souple avec boucle automatique en metal : reglage precis au cran pres, elegante au travail comme en ville.",
+      "h1": "Ceinture homme à boucle automatique",
+      "h2": "Pourquoi choisir Ceinture homme à boucle automatique",
+      "keywords": [
+        "ceinture",
+        "homme",
+        "boucle",
+        "automatique",
+        "dropshipping-mode"
+      ],
+      "imageAlt": "Ceinture homme à boucle automatique - mode Maxi Trouvaille"
+    },
+    "imageAlt": "Ceinture homme à boucle automatique - mode Maxi Trouvaille",
+    "compareAtPrice": 1490,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_parapluie_pliant_automatique_anti_uv_001",
+    "slug": "parapluie-pliant-automatique-anti-uv",
+    "name": "Parapluie pliant automatique anti-UV",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/parapluie-pliant-automatique-anti-uv-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/parapluie-pliant-automatique-anti-uv-photo-1.webp",
+      "/uploads/quick-products/parapluie-pliant-automatique-anti-uv-photo-2.webp",
+      "/uploads/quick-products/parapluie-pliant-automatique-anti-uv-photo-3.webp",
+      "/uploads/quick-products/parapluie-pliant-automatique-anti-uv-photo-4.webp",
+      "/uploads/quick-products/parapluie-pliant-automatique-anti-uv-photo-5.webp",
+      "/uploads/quick-products/parapluie-pliant-automatique-anti-uv-photo-6.webp"
+    ],
+    "shortDescription": "Parapluie pliant a ouverture et fermeture automatiques, toile solide anti-UV : protege de la pluie comme du soleil.",
+    "description": "Parapluie pliant avec ouverture et fermeture automatiques d une seule main, armature renforcee et toile enduite anti-UV. Compact dans le sac, il protege aussi bien des averses que du soleil d ete.",
+    "features": [
+      "Ouverture/fermeture automatique d une main",
+      "Toile enduite anti-UV : pluie et soleil",
+      "Compact et solide, armature renforcee"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008297871894.html",
+      "supplierSku": "AE-ITEM-1005008297871894",
+      "supplierPriceCents": 1019,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2290,
+      "marginCents": 1271,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008297871894.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 125,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 10.19 EUR, boutique 22.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:47:35.181Z"
+    },
+    "price": 2290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008297871894.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008297871894 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Parapluie pliant automatique anti-UV | Maxi Trouvaille",
+      "description": "Parapluie pliant a ouverture et fermeture automatiques, toile solide anti-UV : protege de la pluie comme du soleil.",
+      "h1": "Parapluie pliant automatique anti-UV",
+      "h2": "Pourquoi choisir Parapluie pliant automatique anti-UV",
+      "keywords": [
+        "parapluie",
+        "pliant",
+        "automatique",
+        "anti",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Parapluie pliant automatique anti-UV - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Parapluie pliant automatique anti-UV - accessoires Maxi Trouvaille",
+    "compareAtPrice": 3190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_brosse_demelante_massage_cuir_chevelu_001",
+    "slug": "brosse-demelante-massage-cuir-chevelu",
+    "name": "Brosse démêlante et massage du cuir chevelu",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/brosse-demelante-massage-cuir-chevelu-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/brosse-demelante-massage-cuir-chevelu-photo-1.webp",
+      "/uploads/quick-products/brosse-demelante-massage-cuir-chevelu-photo-2.webp",
+      "/uploads/quick-products/brosse-demelante-massage-cuir-chevelu-photo-3.webp",
+      "/uploads/quick-products/brosse-demelante-massage-cuir-chevelu-photo-4.webp",
+      "/uploads/quick-products/brosse-demelante-massage-cuir-chevelu-photo-5.webp",
+      "/uploads/quick-products/brosse-demelante-massage-cuir-chevelu-photo-6.webp"
+    ],
+    "shortDescription": "Brosse demelante qui glisse sans tirer sur cheveux boucles, epais ou mouilles, avec effet massage agreable du cuir chevelu.",
+    "description": "Brosse demelante avec picots souples qui glissent dans les cheveux sans tirer ni casser, meme sur cheveux boucles, epais ou mouilles. Son effet massage du cuir chevelu rend le brossage agreable, pour les adultes comme les enfants.",
+    "features": [
+      "Demele sans tirer, meme cheveux mouilles",
+      "Effet massage agreable du cuir chevelu",
+      "Convient a tous types de cheveux"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007573028323.html",
+      "supplierSku": "AE-ITEM-1005007573028323",
+      "supplierPriceCents": 359,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1090,
+      "marginCents": 731,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007573028323.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 204,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 3.59 EUR, boutique 10.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:47:35.599Z"
+    },
+    "price": 1090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007573028323.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007573028323 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Brosse démêlante et massage du cuir chevelu | Maxi Trouvaille",
+      "description": "Brosse demelante qui glisse sans tirer sur cheveux boucles, epais ou mouilles, avec effet massage agreable du cuir chevelu.",
+      "h1": "Brosse démêlante et massage du cuir chevelu",
+      "h2": "Pourquoi choisir Brosse démêlante et massage du cuir chevelu",
+      "keywords": [
+        "brosse",
+        "demelante",
+        "massage",
+        "cuir",
+        "chevelu",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Brosse démêlante et massage du cuir chevelu - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Brosse démêlante et massage du cuir chevelu - beaute Maxi Trouvaille",
+    "compareAtPrice": 1490,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_lampe_chevet_tactile_13_couleurs_telecom_001",
+    "slug": "lampe-chevet-tactile-13-couleurs-telecommande",
+    "name": "Lampe de chevet tactile 13 couleurs",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/lampe-chevet-tactile-13-couleurs-telecommande-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/lampe-chevet-tactile-13-couleurs-telecommande-photo-1.webp",
+      "/uploads/quick-products/lampe-chevet-tactile-13-couleurs-telecommande-photo-2.webp",
+      "/uploads/quick-products/lampe-chevet-tactile-13-couleurs-telecommande-photo-3.webp",
+      "/uploads/quick-products/lampe-chevet-tactile-13-couleurs-telecommande-photo-4.webp",
+      "/uploads/quick-products/lampe-chevet-tactile-13-couleurs-telecommande-photo-5.webp",
+      "/uploads/quick-products/lampe-chevet-tactile-13-couleurs-telecommande-photo-6.webp"
+    ],
+    "shortDescription": "Lampe de chevet rechargeable tactile avec 13 couleurs et telecommande : lumiere douce a poser partout, sans fil.",
+    "description": "Lampe de chevet rechargeable en USB avec commande tactile et telecommande : 13 couleurs et intensite variable pour une lumiere d ambiance douce. Sans fil, elle se pose sur la table de nuit, une etagere ou la table du salon.",
+    "features": [
+      "13 couleurs et intensite variable",
+      "Tactile + telecommande incluse",
+      "Rechargeable USB, aucune prise necessaire"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008070786721.html",
+      "supplierSku": "AE-ITEM-1005008070786721",
+      "supplierPriceCents": 949,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2090,
+      "marginCents": 1141,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008070786721.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 120,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 9.49 EUR, boutique 20.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:47:36.226Z"
+    },
+    "price": 2090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008070786721.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008070786721 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Lampe de chevet tactile 13 couleurs | Maxi Trouvaille",
+      "description": "Lampe de chevet rechargeable tactile avec 13 couleurs et telecommande : lumiere douce a poser partout, sans fil.",
+      "h1": "Lampe de chevet tactile 13 couleurs",
+      "h2": "Pourquoi choisir Lampe de chevet tactile 13 couleurs",
+      "keywords": [
+        "lampe",
+        "chevet",
+        "tactile",
+        "couleurs",
+        "telecommande",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Lampe de chevet tactile 13 couleurs - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Lampe de chevet tactile 13 couleurs - maison Maxi Trouvaille",
+    "compareAtPrice": 2890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_mousseur_lait_electrique_usb_3_vitesses_001",
+    "slug": "mousseur-lait-electrique-usb-3-vitesses",
+    "name": "Mousseur à lait électrique USB 3 vitesses",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/mousseur-lait-electrique-usb-3-vitesses-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/mousseur-lait-electrique-usb-3-vitesses-photo-1.webp",
+      "/uploads/quick-products/mousseur-lait-electrique-usb-3-vitesses-photo-2.webp",
+      "/uploads/quick-products/mousseur-lait-electrique-usb-3-vitesses-photo-3.webp",
+      "/uploads/quick-products/mousseur-lait-electrique-usb-3-vitesses-photo-4.webp",
+      "/uploads/quick-products/mousseur-lait-electrique-usb-3-vitesses-photo-5.webp",
+      "/uploads/quick-products/mousseur-lait-electrique-usb-3-vitesses-photo-6.webp"
+    ],
+    "shortDescription": "Mousseur a lait electrique rechargeable USB avec 3 vitesses : mousse onctueuse pour cappuccino, latte et chocolat maison.",
+    "description": "Mousseur a lait electrique rechargeable en USB avec 3 vitesses : quelques secondes suffisent pour une mousse de lait onctueuse digne d un barista. Parfait pour cappuccino, latte, matcha ou chocolat chaud, il sert aussi de mini fouet pour les oeufs.",
+    "features": [
+      "3 vitesses pour une mousse au choix",
+      "Rechargeable USB, sans piles",
+      "Cappuccino, latte, matcha, oeufs battus"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007987902030.html",
+      "supplierSku": "AE-ITEM-1005007987902030",
+      "supplierPriceCents": 379,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1090,
+      "marginCents": 711,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007987902030.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 188,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 3.79 EUR, boutique 10.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:47:37.021Z"
+    },
+    "price": 1090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007987902030.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007987902030 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Mousseur à lait électrique USB 3 vitesses | Maxi Trouvaille",
+      "description": "Mousseur a lait electrique rechargeable USB avec 3 vitesses : mousse onctueuse pour cappuccino, latte et chocolat maison.",
+      "h1": "Mousseur à lait électrique USB 3 vitesses",
+      "h2": "Pourquoi choisir Mousseur à lait électrique USB 3 vitesses",
+      "keywords": [
+        "mousseur",
+        "lait",
+        "electrique",
+        "usb",
+        "vitesses",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Mousseur à lait électrique USB 3 vitesses - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Mousseur à lait électrique USB 3 vitesses - cuisine Maxi Trouvaille",
+    "compareAtPrice": 1490,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
