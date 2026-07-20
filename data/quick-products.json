@@ -16555,5 +16555,778 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_lunettes_anti_lumiere_bleue_photochromiq_001",
+    "slug": "lunettes-anti-lumiere-bleue-photochromiques",
+    "name": "Lunettes anti-lumière bleue photochromiques",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/lunettes-anti-lumiere-bleue-photochromiques-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/lunettes-anti-lumiere-bleue-photochromiques-photo-1.webp",
+      "/uploads/quick-products/lunettes-anti-lumiere-bleue-photochromiques-photo-2.webp",
+      "/uploads/quick-products/lunettes-anti-lumiere-bleue-photochromiques-photo-3.webp",
+      "/uploads/quick-products/lunettes-anti-lumiere-bleue-photochromiques-photo-4.webp",
+      "/uploads/quick-products/lunettes-anti-lumiere-bleue-photochromiques-photo-5.webp",
+      "/uploads/quick-products/lunettes-anti-lumiere-bleue-photochromiques-photo-6.webp"
+    ],
+    "shortDescription": "Lunettes a monture metal qui filtrent la lumiere bleue des ecrans et foncent au soleil : confort pour les yeux toute la journee.",
+    "description": "Lunettes avec monture fine en metal et verres qui filtrent la lumiere bleue des ecrans, tout en fonçant automatiquement au soleil grace a leur traitement photochromique. Moins de fatigue devant l ordinateur, et une seule paire dedans comme dehors.",
+    "features": [
+      "Filtre la lumiere bleue des ecrans",
+      "Verres photochromiques : foncent au soleil",
+      "Monture metal fine unisexe"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007064775739.html",
+      "supplierSku": "AE-ITEM-1005007064775739",
+      "supplierPriceCents": 282,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 990,
+      "marginCents": 708,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007064775739.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 251,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.82 EUR, boutique 9.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:06:33.560Z"
+    },
+    "price": 990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007064775739.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007064775739 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Lunettes anti-lumière bleue photochromiques | Maxi Trouvaille",
+      "description": "Lunettes a monture metal qui filtrent la lumiere bleue des ecrans et foncent au soleil : confort pour les yeux toute la journee.",
+      "h1": "Lunettes anti-lumière bleue photochromiques",
+      "h2": "Pourquoi choisir Lunettes anti-lumière bleue photochromiques",
+      "keywords": [
+        "lunettes",
+        "anti",
+        "lumiere",
+        "bleue",
+        "photochromiques",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Lunettes anti-lumière bleue photochromiques - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Lunettes anti-lumière bleue photochromiques - accessoires Maxi Trouvaille",
+    "compareAtPrice": 1390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_laisse_retractable_automatique_chien_cha_001",
+    "slug": "laisse-retractable-automatique-chien-chat",
+    "name": "Laisse rétractable automatique pour chien",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/laisse-retractable-automatique-chien-chat-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/laisse-retractable-automatique-chien-chat-photo-1.webp",
+      "/uploads/quick-products/laisse-retractable-automatique-chien-chat-photo-2.webp",
+      "/uploads/quick-products/laisse-retractable-automatique-chien-chat-photo-3.webp",
+      "/uploads/quick-products/laisse-retractable-automatique-chien-chat-photo-4.webp",
+      "/uploads/quick-products/laisse-retractable-automatique-chien-chat-photo-5.webp",
+      "/uploads/quick-products/laisse-retractable-automatique-chien-chat-photo-6.webp"
+    ],
+    "shortDescription": "Laisse retractable en nylon avec verrouillage a une main : liberte controlee pour les promenades des petits chiens et chats.",
+    "description": "Laisse retractable automatique en nylon resistant avec poignee ergonomique et bouton de verrouillage a une main. Elle laisse au chien la liberte d explorer tout en gardant le controle pendant la promenade, en ville comme en balade.",
+    "features": [
+      "Retraction automatique, verrouillage 1 main",
+      "Nylon resistant, poignee confortable",
+      "Pour petits chiens et chats"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005719017071.html",
+      "supplierSku": "AE-ITEM-1005005719017071",
+      "supplierPriceCents": 489,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1390,
+      "marginCents": 901,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005719017071.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 184,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.89 EUR, boutique 13.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:06:33.967Z"
+    },
+    "price": 1390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005719017071.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005719017071 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Laisse rétractable automatique pour chien | Maxi Trouvaille",
+      "description": "Laisse retractable en nylon avec verrouillage a une main : liberte controlee pour les promenades des petits chiens et chats.",
+      "h1": "Laisse rétractable automatique pour chien",
+      "h2": "Pourquoi choisir Laisse rétractable automatique pour chien",
+      "keywords": [
+        "laisse",
+        "retractable",
+        "automatique",
+        "chien",
+        "chat",
+        "dropshipping-animaux"
+      ],
+      "imageAlt": "Laisse rétractable automatique pour chien - animaux Maxi Trouvaille"
+    },
+    "imageAlt": "Laisse rétractable automatique pour chien - animaux Maxi Trouvaille",
+    "compareAtPrice": 1890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_coupe_avocat_3_en_1_trancheur_001",
+    "slug": "coupe-avocat-3-en-1-trancheur",
+    "name": "Coupe-avocat 3 en 1 : ouvre, dénoyaute, tranche",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/coupe-avocat-3-en-1-trancheur-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/coupe-avocat-3-en-1-trancheur-photo-1.webp",
+      "/uploads/quick-products/coupe-avocat-3-en-1-trancheur-photo-2.webp",
+      "/uploads/quick-products/coupe-avocat-3-en-1-trancheur-photo-3.webp",
+      "/uploads/quick-products/coupe-avocat-3-en-1-trancheur-photo-4.webp",
+      "/uploads/quick-products/coupe-avocat-3-en-1-trancheur-photo-5.webp",
+      "/uploads/quick-products/coupe-avocat-3-en-1-trancheur-photo-6.webp"
+    ],
+    "shortDescription": "Outil 3 en 1 pour avocat : il ouvre, retire le noyau et tranche la chair en jolies lamelles, sans couteau et sans danger.",
+    "description": "Coupe-avocat 3 en 1 : la lame en plastique ouvre le fruit sans danger, le denoyauteur retire le noyau d un geste et le trancheur decoupe la chair en lamelles regulieres. Le petit outil malin des fans d avocado toast et de salades.",
+    "features": [
+      "3 en 1 : ouvre, denoyaute, tranche",
+      "Lame plastique sans danger pour les mains",
+      "Passe au lave-vaisselle"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005620406744.html",
+      "supplierSku": "AE-ITEM-1005005620406744",
+      "supplierPriceCents": 180,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 510,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005620406744.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 283,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 1.80 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:06:34.494Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005620406744.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005620406744 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Coupe-avocat 3 en 1 : ouvre, dénoyaute, tranche | Maxi Trouvaille",
+      "description": "Outil 3 en 1 pour avocat : il ouvre, retire le noyau et tranche la chair en jolies lamelles, sans couteau et sans danger.",
+      "h1": "Coupe-avocat 3 en 1 : ouvre, dénoyaute, tranche",
+      "h2": "Pourquoi choisir Coupe-avocat 3 en 1 : ouvre, dénoyaute, tranche",
+      "keywords": [
+        "coupe",
+        "avocat",
+        "trancheur",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Coupe-avocat 3 en 1 : ouvre, dénoyaute, tranche - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Coupe-avocat 3 en 1 : ouvre, dénoyaute, tranche - cuisine Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_jeu_echecs_montessori_bois_enfant_001",
+    "slug": "jeu-echecs-montessori-bois-enfant",
+    "name": "Jeu d'échecs Montessori en bois pour enfant",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/jeu-echecs-montessori-bois-enfant-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/jeu-echecs-montessori-bois-enfant-photo-1.webp",
+      "/uploads/quick-products/jeu-echecs-montessori-bois-enfant-photo-2.webp",
+      "/uploads/quick-products/jeu-echecs-montessori-bois-enfant-photo-3.webp",
+      "/uploads/quick-products/jeu-echecs-montessori-bois-enfant-photo-4.webp",
+      "/uploads/quick-products/jeu-echecs-montessori-bois-enfant-photo-5.webp",
+      "/uploads/quick-products/jeu-echecs-montessori-bois-enfant-photo-6.webp"
+    ],
+    "shortDescription": "Mini jeu de societe Montessori en bois : un puzzle d interaction qui entraine la logique et la concentration des enfants.",
+    "description": "Mini jeu de societe Montessori en bois colore : les enfants avancent leurs pions, resolvent le puzzle et entrainent logique, patience et concentration en s amusant. Un petit jeu d eveil solide qui s emporte partout.",
+    "features": [
+      "Bois solide et pieces colorees",
+      "Entraine logique et concentration",
+      "Format compact a emporter partout"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007972844902.html",
+      "supplierSku": "AE-ITEM-1005007972844902",
+      "supplierPriceCents": 162,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 528,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007972844902.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 326,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 1.62 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:06:34.797Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007972844902.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007972844902 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Jeu d'échecs Montessori en bois pour enfant | Maxi Trouvaille",
+      "description": "Mini jeu de societe Montessori en bois : un puzzle d interaction qui entraine la logique et la concentration des enfants.",
+      "h1": "Jeu d'échecs Montessori en bois pour enfant",
+      "h2": "Pourquoi choisir Jeu d'échecs Montessori en bois pour enfant",
+      "keywords": [
+        "jeu",
+        "echecs",
+        "montessori",
+        "bois",
+        "enfant",
+        "dropshipping-enfant"
+      ],
+      "imageAlt": "Jeu d'échecs Montessori en bois pour enfant - enfant Maxi Trouvaille"
+    },
+    "imageAlt": "Jeu d'échecs Montessori en bois pour enfant - enfant Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_etagere_salle_bain_ventouse_sans_percage_001",
+    "slug": "etagere-salle-bain-ventouse-sans-percage",
+    "name": "Étagère de salle de bain à ventouse sans perçage",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/etagere-salle-bain-ventouse-sans-percage-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/etagere-salle-bain-ventouse-sans-percage-photo-1.webp",
+      "/uploads/quick-products/etagere-salle-bain-ventouse-sans-percage-photo-2.webp",
+      "/uploads/quick-products/etagere-salle-bain-ventouse-sans-percage-photo-3.webp",
+      "/uploads/quick-products/etagere-salle-bain-ventouse-sans-percage-photo-4.webp",
+      "/uploads/quick-products/etagere-salle-bain-ventouse-sans-percage-photo-5.webp",
+      "/uploads/quick-products/etagere-salle-bain-ventouse-sans-percage-photo-6.webp"
+    ],
+    "shortDescription": "Etagere murale en aluminium a fixer par ventouse, sans percer : rangement gels douche et shampoings pose en 1 minute.",
+    "description": "Etagere de salle de bain en aluminium leger qui se fixe au mur par ventouse, sans percage ni outils. Gels douche, shampoings et savons trouvent leur place en une minute, et l etagere se deplace ou s enleve sans laisser de trace.",
+    "features": [
+      "Fixation ventouse : zero trou, zero outil",
+      "Aluminium leger qui ne rouille pas",
+      "Pose en 1 minute, repositionnable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008660272512.html",
+      "supplierSku": "AE-ITEM-1005008660272512",
+      "supplierPriceCents": 1049,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2390,
+      "marginCents": 1341,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008660272512.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 128,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 10.49 EUR, boutique 23.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:06:37.399Z"
+    },
+    "price": 2390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008660272512.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008660272512 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Étagère de salle de bain à ventouse sans perçage | Maxi Trouvaille",
+      "description": "Etagere murale en aluminium a fixer par ventouse, sans percer : rangement gels douche et shampoings pose en 1 minute.",
+      "h1": "Étagère de salle de bain à ventouse sans perçage",
+      "h2": "Pourquoi choisir Étagère de salle de bain à ventouse sans perçage",
+      "keywords": [
+        "etagere",
+        "salle",
+        "bain",
+        "ventouse",
+        "sans",
+        "percage",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Étagère de salle de bain à ventouse sans perçage - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Étagère de salle de bain à ventouse sans perçage - maison Maxi Trouvaille",
+    "compareAtPrice": 3290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_support_telephone_bureau_pliable_metal_001",
+    "slug": "support-telephone-bureau-pliable-metal",
+    "name": "Support téléphone de bureau pliable en métal",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/support-telephone-bureau-pliable-metal-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/support-telephone-bureau-pliable-metal-photo-1.webp",
+      "/uploads/quick-products/support-telephone-bureau-pliable-metal-photo-2.webp",
+      "/uploads/quick-products/support-telephone-bureau-pliable-metal-photo-3.webp",
+      "/uploads/quick-products/support-telephone-bureau-pliable-metal-photo-4.webp",
+      "/uploads/quick-products/support-telephone-bureau-pliable-metal-photo-5.webp",
+      "/uploads/quick-products/support-telephone-bureau-pliable-metal-photo-6.webp"
+    ],
+    "shortDescription": "Support de telephone ultra fin en metal, pliable et reglable : videos, recettes et visio mains libres au bureau ou en cuisine.",
+    "description": "Support de telephone de bureau en alliage metallique, ultra fin et pliable : il se glisse dans la poche et se deplie en beguille stable pour regarder videos et recettes, suivre une visio ou poser le telephone a charger. Compatible avec tous les smartphones.",
+    "features": [
+      "Metal solide, ultra fin et pliable",
+      "Angle reglable, tient tous les telephones",
+      "Bureau, cuisine, voyage : partout"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007604532373.html",
+      "supplierSku": "AE-ITEM-1005007604532373",
+      "supplierPriceCents": 184,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 506,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007604532373.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 275,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 1.84 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:06:37.750Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007604532373.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007604532373 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Support téléphone de bureau pliable en métal | Maxi Trouvaille",
+      "description": "Support de telephone ultra fin en metal, pliable et reglable : videos, recettes et visio mains libres au bureau ou en cuisine.",
+      "h1": "Support téléphone de bureau pliable en métal",
+      "h2": "Pourquoi choisir Support téléphone de bureau pliable en métal",
+      "keywords": [
+        "support",
+        "telephone",
+        "bureau",
+        "pliable",
+        "metal",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Support téléphone de bureau pliable en métal - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Support téléphone de bureau pliable en métal - high-tech Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_pare_soleil_voiture_parapluie_pliable_001",
+    "slug": "pare-soleil-voiture-parapluie-pliable",
+    "name": "Pare-soleil voiture pliable type parapluie",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/pare-soleil-voiture-parapluie-pliable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/pare-soleil-voiture-parapluie-pliable-photo-1.webp",
+      "/uploads/quick-products/pare-soleil-voiture-parapluie-pliable-photo-2.webp",
+      "/uploads/quick-products/pare-soleil-voiture-parapluie-pliable-photo-3.webp",
+      "/uploads/quick-products/pare-soleil-voiture-parapluie-pliable-photo-4.webp",
+      "/uploads/quick-products/pare-soleil-voiture-parapluie-pliable-photo-5.webp",
+      "/uploads/quick-products/pare-soleil-voiture-parapluie-pliable-photo-6.webp"
+    ],
+    "shortDescription": "Pare-soleil de pare-brise qui se deplie comme un parapluie : habitacle protege de la chaleur en ete, pose en 10 secondes.",
+    "description": "Pare-soleil pour pare-brise au systeme pliant type parapluie : il se deploie et se range en quelques secondes et se glisse dans la portiere. Il garde l habitacle et le volant bien plus frais en plein soleil, precieux pendant les canicules.",
+    "features": [
+      "Se deplie comme un parapluie en 10 secondes",
+      "Reflechit le soleil : habitacle plus frais",
+      "Compact une fois plie, rangement facile"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006553670714.html",
+      "supplierSku": "AE-ITEM-1005006553670714",
+      "supplierPriceCents": 489,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1390,
+      "marginCents": 901,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006553670714.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 184,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.89 EUR, boutique 13.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:06:38.087Z"
+    },
+    "price": 1390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006553670714.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006553670714 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Pare-soleil voiture pliable type parapluie | Maxi Trouvaille",
+      "description": "Pare-soleil de pare-brise qui se deplie comme un parapluie : habitacle protege de la chaleur en ete, pose en 10 secondes.",
+      "h1": "Pare-soleil voiture pliable type parapluie",
+      "h2": "Pourquoi choisir Pare-soleil voiture pliable type parapluie",
+      "keywords": [
+        "pare",
+        "soleil",
+        "voiture",
+        "parapluie",
+        "pliable",
+        "dropshipping-auto-moto"
+      ],
+      "imageAlt": "Pare-soleil voiture pliable type parapluie - auto-moto Maxi Trouvaille"
+    },
+    "imageAlt": "Pare-soleil voiture pliable type parapluie - auto-moto Maxi Trouvaille",
+    "compareAtPrice": 1890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_epilateur_electrique_5_en_1_femme_001",
+    "slug": "epilateur-electrique-5-en-1-femme",
+    "name": "Épilateur électrique 5 en 1 pour femme",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/epilateur-electrique-5-en-1-femme-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/epilateur-electrique-5-en-1-femme-photo-1.webp",
+      "/uploads/quick-products/epilateur-electrique-5-en-1-femme-photo-2.webp",
+      "/uploads/quick-products/epilateur-electrique-5-en-1-femme-photo-3.webp",
+      "/uploads/quick-products/epilateur-electrique-5-en-1-femme-photo-4.webp",
+      "/uploads/quick-products/epilateur-electrique-5-en-1-femme-photo-5.webp",
+      "/uploads/quick-products/epilateur-electrique-5-en-1-femme-photo-6.webp"
+    ],
+    "shortDescription": "Set epilateur electrique 5 en 1 : sourcils, visage, aisselles, jambes et zone bikini avec tetes interchangeables.",
+    "description": "Epilateur electrique 5 en 1 avec tetes interchangeables : sourcils, duvet du visage, aisselles, jambes et zone bikini. Une epilation douce et rapide a la maison, sans rendez-vous et sans irritation.",
+    "features": [
+      "5 tetes : sourcils, visage, corps, bikini",
+      "Epilation douce, sans irritation",
+      "Compact : maison et voyage"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007695401131.html",
+      "supplierSku": "AE-ITEM-1005007695401131",
+      "supplierPriceCents": 489,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1390,
+      "marginCents": 901,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007695401131.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 184,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.89 EUR, boutique 13.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:06:38.503Z"
+    },
+    "price": 1390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007695401131.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007695401131 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Épilateur électrique 5 en 1 pour femme | Maxi Trouvaille",
+      "description": "Set epilateur electrique 5 en 1 : sourcils, visage, aisselles, jambes et zone bikini avec tetes interchangeables.",
+      "h1": "Épilateur électrique 5 en 1 pour femme",
+      "h2": "Pourquoi choisir Épilateur électrique 5 en 1 pour femme",
+      "keywords": [
+        "epilateur",
+        "electrique",
+        "femme",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Épilateur électrique 5 en 1 pour femme - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Épilateur électrique 5 en 1 pour femme - beaute Maxi Trouvaille",
+    "compareAtPrice": 1890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
