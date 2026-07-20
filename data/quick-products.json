@@ -1,5 +1,497 @@
 [
   {
+    "id": "ali_claude_20260720_coffre_60l_030",
+    "slug": "organisateur-coffre-voiture-60l-pliable",
+    "name": "Organisateur de coffre pliable 60 L",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 50,
+    "badge": "Coffre rangé",
+    "image": "/uploads/quick-products/organisateur-coffre-voiture-60l-pliable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/organisateur-coffre-voiture-60l-pliable-photo-1.webp",
+      "/uploads/quick-products/organisateur-coffre-voiture-60l-pliable-photo-2.webp",
+      "/uploads/quick-products/organisateur-coffre-voiture-60l-pliable-photo-3.webp",
+      "/uploads/quick-products/organisateur-coffre-voiture-60l-pliable-photo-4.webp",
+      "/uploads/quick-products/organisateur-coffre-voiture-60l-pliable-photo-5.webp"
+    ],
+    "shortDescription": "Grand organisateur 60 L à compartiments : le coffre reste rangé, même en vacances.",
+    "description": "Le coffre qui ressemble à un champ de bataille, c'est terminé : 60 litres de rangement à compartiments en tissu Oxford imperméable, panneaux renforcés, poignées cuir. Courses, produits d'entretien, affaires de sport ou de plage — chaque chose à sa place, et il se plie à plat quand on n'en a pas besoin. Noté 4,9/5 par ses acheteurs.",
+    "features": [
+      "60 litres, multi-compartiments modulables",
+      "Tissu Oxford 600D imperméable, panneaux renforcés",
+      "Poignées cuir : se transporte comme un cabas",
+      "Se plie à plat en 5 secondes",
+      "Noté 4,9/5 par les acheteurs"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 3490,
+    "compareAtPrice": 4490,
+    "imageAlt": "Organisateur de coffre pliable 60 L",
+    "seo": {
+      "title": "Organisateur de coffre pliable 60 L | Maxi Trouvaille",
+      "description": "Grand organisateur 60 L à compartiments : le coffre reste rangé, même en vacances.",
+      "imageAlt": "Organisateur de coffre pliable 60 L"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "note": "Photos fournisseur exactes importees en local (webp) le 20/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "productUrl": "https://fr.aliexpress.com/item/1005012540932931.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-20"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005012540932931.html",
+      "supplierSku": "AE-1005012540932931-TRUNKBOX",
+      "supplierPriceCents": 1669,
+      "supplierStock": 50,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3490,
+      "marginCents": 1821,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (96 ventes, note 4,9)",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260720_porte_cartes_rfid_029",
+    "slug": "porte-cartes-rfid-antivol-minimaliste",
+    "name": "Porte-cartes anti-piratage RFID minimaliste",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 100,
+    "badge": "Anti-piratage",
+    "image": "/uploads/quick-products/porte-cartes-rfid-antivol-minimaliste-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/porte-cartes-rfid-antivol-minimaliste-photo-1.webp",
+      "/uploads/quick-products/porte-cartes-rfid-antivol-minimaliste-photo-2.webp",
+      "/uploads/quick-products/porte-cartes-rfid-antivol-minimaliste-photo-3.webp",
+      "/uploads/quick-products/porte-cartes-rfid-antivol-minimaliste-photo-4.webp",
+      "/uploads/quick-products/porte-cartes-rfid-antivol-minimaliste-photo-5.webp"
+    ],
+    "shortDescription": "Porte-cartes ultra-fin qui bloque le piratage sans contact de vos cartes bancaires.",
+    "description": "Vos cartes sans contact peuvent être lues à votre insu dans une foule : ce porte-cartes intègre un blindage RFID qui bloque toute lecture pirate. Ultra-fin, il glisse dans la poche avant et remplace le gros portefeuille. L'accessoire sécurité que tout le monde devrait avoir — surtout en voyage.",
+    "features": [
+      "Blindage RFID : cartes illisibles par les pirates",
+      "Ultra-fin : tient dans la poche avant",
+      "Plusieurs cartes + billets pliés",
+      "Idéal voyages, transports, festivals",
+      "1 000+ exemplaires vendus"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1090,
+    "compareAtPrice": 1490,
+    "imageAlt": "Porte-cartes anti-piratage RFID minimaliste",
+    "seo": {
+      "title": "Porte-cartes anti-piratage RFID minimaliste | Maxi Trouvaille",
+      "description": "Porte-cartes ultra-fin qui bloque le piratage sans contact de vos cartes bancaires.",
+      "imageAlt": "Porte-cartes anti-piratage RFID minimaliste"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "note": "Photos fournisseur exactes importees en local (webp) le 20/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "productUrl": "https://fr.aliexpress.com/item/1005010179034043.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-20"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010179034043.html",
+      "supplierSku": "AE-1005010179034043-RFIDWALLET",
+      "supplierPriceCents": 359,
+      "supplierStock": 100,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1090,
+      "marginCents": 731,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (1 000 ventes)",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260720_distributeur_oeufs_028",
+    "slug": "distributeur-oeufs-roulant-frigo",
+    "name": "Distributeur d'œufs roulant pour frigo",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 90,
+    "badge": "Frigo rangé",
+    "image": "/uploads/quick-products/distributeur-oeufs-roulant-frigo-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/distributeur-oeufs-roulant-frigo-photo-1.webp",
+      "/uploads/quick-products/distributeur-oeufs-roulant-frigo-photo-2.webp",
+      "/uploads/quick-products/distributeur-oeufs-roulant-frigo-photo-3.webp",
+      "/uploads/quick-products/distributeur-oeufs-roulant-frigo-photo-4.webp",
+      "/uploads/quick-products/distributeur-oeufs-roulant-frigo-photo-5.webp"
+    ],
+    "shortDescription": "24 œufs rangés sur 3 étages : on en prend un, le suivant roule à sa place.",
+    "description": "Le rangement le plus satisfaisant du frigo : 24 œufs sur 3 étages inclinés — on en prend un, le suivant roule doucement à sa place. Fini les boîtes en carton qui prennent la place et les œufs oubliés au fond. Transparent, stable, et étrangement addictif à regarder. 10 000 cuisines l'ont adopté.",
+    "features": [
+      "24 œufs sur 3 étages compacts",
+      "Distribution roulante automatique",
+      "Transparent : on voit le stock d'un coup d'œil",
+      "Libère de la place au frigo",
+      "10 000+ exemplaires vendus"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1390,
+    "compareAtPrice": 1890,
+    "imageAlt": "Distributeur d'œufs roulant pour frigo",
+    "seo": {
+      "title": "Distributeur d'œufs roulant pour frigo | Maxi Trouvaille",
+      "description": "24 œufs rangés sur 3 étages : on en prend un, le suivant roule à sa place.",
+      "imageAlt": "Distributeur d'œufs roulant pour frigo"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "note": "Photos fournisseur exactes importees en local (webp) le 20/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "productUrl": "https://fr.aliexpress.com/item/1005009313031651.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-20"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009313031651.html",
+      "supplierSku": "AE-1005009313031651-EGGHOLDER",
+      "supplierPriceCents": 479,
+      "supplierStock": 90,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1390,
+      "marginCents": 911,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (10 000 ventes)",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260720_distributeur_savon_027",
+    "slug": "distributeur-savon-automatique-mural",
+    "name": "Distributeur de savon automatique mural 500 ml",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 60,
+    "badge": "Sans contact",
+    "image": "/uploads/quick-products/distributeur-savon-automatique-mural-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/distributeur-savon-automatique-mural-photo-1.webp",
+      "/uploads/quick-products/distributeur-savon-automatique-mural-photo-2.webp",
+      "/uploads/quick-products/distributeur-savon-automatique-mural-photo-3.webp",
+      "/uploads/quick-products/distributeur-savon-automatique-mural-photo-4.webp",
+      "/uploads/quick-products/distributeur-savon-automatique-mural-photo-5.webp"
+    ],
+    "shortDescription": "Mousse de savon sans contact : on passe la main, c'est distribué. Mural, 500 ml.",
+    "description": "Fini le flacon poisseux que tout le monde touche : ce distributeur mural détecte la main et délivre une mousse parfaite, sans contact. Réservoir 500 ml rechargeable avec n'importe quel savon liquide, fixation murale sans perçage. Plus hygiénique, plus économe en savon, et les enfants ADORENT se laver les mains d'un coup. 10 000 foyers équipés.",
+    "features": [
+      "Distribution sans contact : plus hygiénique",
+      "Mousse onctueuse, économe en savon",
+      "Réservoir 500 ml, compatible tout savon liquide",
+      "Fixation murale sans perçage",
+      "10 000+ exemplaires vendus"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 3490,
+    "compareAtPrice": 4490,
+    "imageAlt": "Distributeur de savon automatique mural 500 ml",
+    "seo": {
+      "title": "Distributeur de savon automatique mural 500 ml | Maxi Trouvaille",
+      "description": "Mousse de savon sans contact : on passe la main, c'est distribué. Mural, 500 ml.",
+      "imageAlt": "Distributeur de savon automatique mural 500 ml"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "note": "Photos fournisseur exactes importees en local (webp) le 20/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "productUrl": "https://fr.aliexpress.com/item/1005007368872654.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-20"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007368872654.html",
+      "supplierSku": "AE-1005007368872654-SOAPDISP",
+      "supplierPriceCents": 1639,
+      "supplierStock": 60,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3490,
+      "marginCents": 1851,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (10 000 ventes)",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260720_projecteur_galaxie_026",
+    "slug": "projecteur-galaxie-astronaute-enceinte",
+    "name": "Projecteur galaxie astronaute avec enceinte",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 70,
+    "badge": "Chambre magique",
+    "image": "/uploads/quick-products/projecteur-galaxie-astronaute-enceinte-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/projecteur-galaxie-astronaute-enceinte-photo-1.webp",
+      "/uploads/quick-products/projecteur-galaxie-astronaute-enceinte-photo-2.webp",
+      "/uploads/quick-products/projecteur-galaxie-astronaute-enceinte-photo-3.webp",
+      "/uploads/quick-products/projecteur-galaxie-astronaute-enceinte-photo-4.webp",
+      "/uploads/quick-products/projecteur-galaxie-astronaute-enceinte-photo-5.webp"
+    ],
+    "shortDescription": "L'astronaute qui projette une galaxie au plafond, avec enceinte Bluetooth intégrée.",
+    "description": "La star des chambres d'enfants (et des ados) : ce petit astronaute projette un ciel étoilé avec nébuleuses au plafond, transformant la chambre en vaisseau spatial. Enceinte Bluetooth intégrée pour la musique ou les histoires du soir, tête orientable, plusieurs ambiances de couleurs. Le cadeau d'anniversaire qui fait des jaloux — 5 000 exemplaires vendus.",
+    "features": [
+      "Projette étoiles et nébuleuses au plafond",
+      "Enceinte Bluetooth intégrée : musique et histoires",
+      "Tête orientable, plusieurs ambiances",
+      "Effet waouh garanti dans la chambre",
+      "5 000+ exemplaires vendus"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 2490,
+    "compareAtPrice": 3290,
+    "imageAlt": "Projecteur galaxie astronaute avec enceinte",
+    "seo": {
+      "title": "Projecteur galaxie astronaute avec enceinte | Maxi Trouvaille",
+      "description": "L'astronaute qui projette une galaxie au plafond, avec enceinte Bluetooth intégrée.",
+      "imageAlt": "Projecteur galaxie astronaute avec enceinte"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "note": "Photos fournisseur exactes importees en local (webp) le 20/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "productUrl": "https://fr.aliexpress.com/item/1005009055519135.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-20"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009055519135.html",
+      "supplierSku": "AE-1005009055519135-GALAXYPROJ",
+      "supplierPriceCents": 999,
+      "supplierStock": 70,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2490,
+      "marginCents": 1491,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (5 000 ventes)",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260720_tapis_dessin_025",
+    "slug": "tapis-dessin-eau-magique-enfant",
+    "name": "Tapis de dessin à l'eau magique",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 100,
+    "badge": "Zéro tache",
+    "image": "/uploads/quick-products/tapis-dessin-eau-magique-enfant-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/tapis-dessin-eau-magique-enfant-photo-1.webp",
+      "/uploads/quick-products/tapis-dessin-eau-magique-enfant-photo-2.webp",
+      "/uploads/quick-products/tapis-dessin-eau-magique-enfant-photo-3.webp",
+      "/uploads/quick-products/tapis-dessin-eau-magique-enfant-photo-4.webp",
+      "/uploads/quick-products/tapis-dessin-eau-magique-enfant-photo-5.webp"
+    ],
+    "shortDescription": "On dessine à l'eau, ça sèche, on recommence : zéro tache, zéro feutre perdu.",
+    "description": "Le rêve des parents : un tapis sur lequel les enfants dessinent avec un stylo rempli d'EAU. Les couleurs apparaissent comme par magie, sèchent en quelques minutes, et le tapis est prêt pour la prochaine œuvre. Zéro tache sur les murs, zéro feutre sans capuchon, des heures de calme créatif dès 18 mois.",
+    "features": [
+      "Dessin à l'eau : aucune tache possible",
+      "Les couleurs s'effacent en séchant : réutilisable à l'infini",
+      "Stylo à remplir d'eau inclus",
+      "Dès 18 mois, sans danger",
+      "Des heures d'occupation créative"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 990,
+    "compareAtPrice": 1390,
+    "imageAlt": "Tapis de dessin à l'eau magique",
+    "seo": {
+      "title": "Tapis de dessin à l'eau magique | Maxi Trouvaille",
+      "description": "On dessine à l'eau, ça sèche, on recommence : zéro tache, zéro feutre perdu.",
+      "imageAlt": "Tapis de dessin à l'eau magique"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "note": "Photos fournisseur exactes importees en local (webp) le 20/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "productUrl": "https://fr.aliexpress.com/item/1005003906503688.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-20"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005003906503688.html",
+      "supplierSku": "AE-1005003906503688-WATERMAT",
+      "supplierPriceCents": 233,
+      "supplierStock": 100,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 990,
+      "marginCents": 757,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (107 ventes)",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
     "id": "ali_claude_20260720_perche_selfie_024",
     "slug": "perche-selfie-trepied-170cm-bluetooth",
     "name": "Perche selfie trépied 170 cm avec télécommande",
