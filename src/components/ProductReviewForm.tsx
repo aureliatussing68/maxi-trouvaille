@@ -26,8 +26,8 @@ export function ProductReviewForm({
   const [comment, setComment] = useState("");
   const [message, setMessage] = useState(
     availableProducts.length > 0
-      ? "Votre avis sera visible apres validation admin."
-      : "Tous les produits de cette commande ont deja un avis.",
+      ? "Votre avis sera visible après validation par notre équipe."
+      : "Tous les produits de cette commande ont déjà un avis.",
   );
   const [isSending, setIsSending] = useState(false);
   const [submittedProductIds, setSubmittedProductIds] = useState<string[]>([]);
@@ -70,7 +70,7 @@ export function ProductReviewForm({
       setSubmittedProductIds(nextSubmitted);
       setProductId(remainingProduct?.id ?? "");
       setComment("");
-      setMessage(data.message ?? "Avis envoye pour validation.");
+      setMessage(data.message ?? "Avis envoyé pour validation.");
     } catch (error) {
       setMessage(error instanceof Error ? error.message : "Avis impossible.");
     } finally {
@@ -84,13 +84,13 @@ export function ProductReviewForm({
       className="grid gap-5 rounded-lg border border-line bg-paper p-5 shadow-sm"
     >
       <div>
-        <p className="text-sm font-black uppercase text-teal">Avis apres achat</p>
+        <p className="text-sm font-black uppercase text-teal">Avis après achat</p>
         <h1 className="mt-2 text-3xl font-black">Laisser un avis</h1>
         <p className="mt-3 text-sm leading-6 text-muted">{message}</p>
       </div>
 
       <label className="grid gap-2 text-sm font-bold">
-        Produit achete
+        Produit acheté
         <select
           value={productId}
           onChange={(event) => setProductId(event.target.value)}

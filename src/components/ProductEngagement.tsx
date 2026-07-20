@@ -55,16 +55,26 @@ export function ProductStatsBadges({
 }) {
   const safeStats = stats ?? { views: 0, favorites: 0 };
 
+  // Ne pas afficher de compteurs a zero : cela donne une impression
+  // de boutique vide au lieu de rassurer.
+  if (safeStats.views <= 0 && safeStats.favorites <= 0) {
+    return null;
+  }
+
   return (
     <div className={`flex flex-wrap items-center gap-3 text-xs font-bold text-muted ${className}`}>
-      <span className="inline-flex items-center gap-1.5">
-        <Eye size={14} aria-hidden="true" />
-        {formatCount(safeStats.views, "vue", "vues")}
-      </span>
-      <span className="inline-flex items-center gap-1.5">
-        <Heart size={14} aria-hidden="true" />
-        {formatCount(safeStats.favorites, "favori", "favoris")}
-      </span>
+      {safeStats.views > 0 ? (
+        <span className="inline-flex items-center gap-1.5">
+          <Eye size={14} aria-hidden="true" />
+          {formatCount(safeStats.views, "vue", "vues")}
+        </span>
+      ) : null}
+      {safeStats.favorites > 0 ? (
+        <span className="inline-flex items-center gap-1.5">
+          <Heart size={14} aria-hidden="true" />
+          {formatCount(safeStats.favorites, "favori", "favoris")}
+        </span>
+      ) : null}
     </div>
   );
 }

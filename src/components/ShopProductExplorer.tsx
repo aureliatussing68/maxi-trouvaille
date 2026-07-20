@@ -44,49 +44,49 @@ const emptyStateCategoryLinks = [
     icon: Sparkles,
     label: "Nouveautés",
     badge: "Arrivages",
-    text: "Dernières idées partenaires préparées avant publication des fiches.",
+    text: "Les derniers produits ajoutés à la boutique.",
   },
   {
     href: "/promotions",
     icon: BadgePercent,
     label: "Promotions",
-    badge: "Prix suivis",
-    text: "Prix cibles et conditions suivis avant publication.",
+    badge: "Bons plans",
+    text: "Les prix barrés et bonnes affaires du moment.",
   },
   {
     href: "/categories/maison-partenaires",
     icon: House,
     label: "Maison",
-    badge: "Rayon prêt",
-    text: "Objets utiles du quotidien, photos exactes attendues avant publication.",
+    badge: "Rayon",
+    text: "Objets utiles pour la maison, le rangement et le confort.",
   },
   {
     href: "/categories/high-tech-partenaires",
     icon: ShieldCheck,
     label: "High-tech",
-    badge: "Sélection",
-    text: "Accessoires simples à comparer, variantes gardées en sélection.",
+    badge: "Rayon",
+    text: "Accessoires connectés, charge, audio et gadgets utiles.",
   },
 ];
 
 const controlledLaunchCards = [
   {
     icon: ShieldCheck,
-    value: "0 produit achetable",
-    title: "Achat verrouillé",
-    text: "La boutique ne laisse passer aucun article tant que les preuves exactes ne sont pas complètes.",
+    value: "Sélection en cours",
+    title: "Produits vérifiés",
+    text: "Chaque fiche est relue et vérifiée par notre équipe avant d'être mise en vente.",
   },
   {
     icon: Sparkles,
     value: "Rayons actifs",
-    title: "Vitrine montrable",
-    text: "Les univers partenaires restent clairs sur téléphone, même quand les fiches sont encore en contrôle.",
+    title: "Univers clairs",
+    text: "Maison, cuisine, high-tech, animaux, enfant... tout est classé pour trouver vite.",
   },
   {
     icon: Truck,
     value: "Suivi centralisé",
-    title: "Parcours client prêt",
-    text: "Paiement, suivi colis et service client restent sous l'identité Maxi Trouvaille.",
+    title: "Un seul interlocuteur",
+    text: "Paiement, suivi colis et service client : tout se gère sur Maxi Trouvaille.",
   },
 ];
 
@@ -330,15 +330,14 @@ export function ShopProductExplorer({
           <div className="mx-auto max-w-3xl px-4 text-center">
             <p className="inline-flex items-center gap-2 rounded-md bg-[#eef8f6] px-3 py-2 text-sm font-black text-teal">
               <ShieldCheck size={16} aria-hidden="true" />
-              Lancement maîtrisé
+              Aucun résultat
             </p>
             <h2 className="mt-4 text-2xl font-black">
-              Rayons prêts à montrer, fiches publiées après validation
+              Aucun produit ne correspond à votre recherche
             </h2>
             <p className="mx-auto mt-3 max-w-2xl text-sm font-semibold leading-6 text-muted">
-              {candidateCount > 0
-                ? `${candidateCount} fiches partenaires sont en préparation. Elles seront publiées uniquement après validation du partenaire logistique, du stock, du délai, des droits image et des photos exactes.`
-                : "Les fiches partenaires seront publiées uniquement après validation du partenaire logistique, du stock, du délai, des droits image et des photos exactes."}
+              Essayez un autre mot-clé ou explorez les rayons ci-dessous : de
+              nouveaux produits sont ajoutés régulièrement.
             </p>
           </div>
 
@@ -406,8 +405,8 @@ export function ShopProductExplorer({
 function NoPublicProductsShowcase({ candidateCount }: { candidateCount: number }) {
   const candidateText =
     candidateCount > 0
-      ? `${candidateCount} fiches en contrôle`
-      : "Fiches en préparation";
+      ? `${candidateCount} produits en préparation`
+      : "Produits en préparation";
 
   return (
     <section className="grid gap-7 border-y border-line bg-[#faf7f0] py-8">
@@ -415,26 +414,25 @@ function NoPublicProductsShowcase({ candidateCount }: { candidateCount: number }
         <div>
           <p className="inline-flex items-center gap-2 rounded-md bg-[#eef8f6] px-3 py-2 text-sm font-black uppercase text-teal">
             <ShieldCheck size={16} aria-hidden="true" />
-            Boutique en contrôle actif
+            Bientôt disponible
           </p>
           <h2 className="mt-4 max-w-3xl text-2xl font-black leading-tight sm:text-3xl">
-            Les rayons sont visibles, les fiches attendent la validation complète.
+            De nouveaux produits arrivent très bientôt.
           </h2>
           <p className="mt-3 max-w-3xl text-sm font-semibold leading-6 text-muted">
-            Maxi Trouvaille montre une boutique propre: rayons partenaires,
-            paiement Maxi Trouvaille, suivi colis et service client. Les
-            articles restent masqués du parcours d&apos;achat tant que photo
-            exacte, prix, stock, délai et droits image ne sont pas prêts.
+            Notre équipe prépare la prochaine sélection de trouvailles :
+            chaque produit est vérifié avant sa mise en vente. Revenez vite,
+            ou explorez les rayons ci-dessous.
           </p>
         </div>
         <div className="rounded-md border border-line bg-white p-4">
           <p className="text-sm font-black uppercase text-teal">
-            File de validation
+            En coulisses
           </p>
           <p className="mt-2 text-3xl font-black">{candidateText}</p>
           <p className="mt-2 text-sm font-semibold leading-6 text-muted">
-            Priorité aux articles simples à comprendre, faciles à prouver et
-            cohérents pour une livraison suivie.
+            Nous privilégions des produits utiles, faciles à comprendre et
+            livrés avec un suivi.
           </p>
         </div>
       </div>

@@ -46,6 +46,13 @@ export function ReviewSummaryBadge({
   compact?: boolean;
 }) {
   const safeSummary = summary ?? { averageRating: 0, totalReviews: 0 };
+
+  // Sans avis, ne rien afficher plutot que "Aucune note (0 avis)" :
+  // un badge vide n'aide pas le client et affaiblit la fiche.
+  if (safeSummary.totalReviews <= 0) {
+    return null;
+  }
+
   return (
     <ReviewStars
       rating={safeSummary.averageRating}

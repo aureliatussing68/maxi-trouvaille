@@ -19,23 +19,23 @@ type JourneyStep = {
 const journeySteps: JourneyStep[] = [
   {
     icon: ShieldCheck,
-    title: "Articles validés",
-    text: "Un article arrive en boutique quand ses informations clés sont prêtes.",
+    title: "1. Je choisis",
+    text: "Je parcours les rayons et j'ajoute mes trouvailles au panier, sans créer de compte.",
   },
   {
     icon: CreditCard,
-    title: "Paiement Maxi Trouvaille",
-    text: "Le règlement se fait sur le site via un tunnel sécurisé, sans donnée bancaire stockée.",
+    title: "2. Je paie en sécurité",
+    text: "Règlement par carte via un tunnel sécurisé : aucune donnée bancaire stockée sur le site.",
   },
   {
     icon: PackageCheck,
-    title: "Préparation suivie",
-    text: "La commande garde un suivi clair avant l'expédition.",
+    title: "3. Ma commande part",
+    text: "La commande est préparée puis expédiée avec un numéro de suivi.",
   },
   {
     icon: Truck,
-    title: "Suivi colis",
-    text: "Le client garde Maxi Trouvaille comme point de repère jusqu’à la livraison.",
+    title: "4. Je suis mon colis",
+    text: "Je suis la livraison depuis le site, avec le service client Maxi Trouvaille en cas de question.",
   },
 ];
 
@@ -49,11 +49,11 @@ export function CustomerJourneyPanel({ className }: { className?: string }) {
             Parcours client
           </p>
           <h2 className="mt-2 max-w-3xl text-2xl font-black leading-tight sm:text-3xl">
-            Un achat simple quand le produit est validé.
+            Commander en 4 étapes simples.
           </h2>
           <p className="mt-3 max-w-3xl text-sm leading-6 text-muted sm:text-base">
-            Les rayons restent visibles dès maintenant. Le paiement s&apos;ouvre
-            uniquement pour les articles validés.
+            Du choix du produit à la réception du colis, tout se passe sur
+            Maxi Trouvaille.
           </p>
         </div>
         <div className="flex flex-col gap-3 sm:flex-row">

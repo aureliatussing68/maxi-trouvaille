@@ -105,7 +105,7 @@ export function CartView({ products }: { products: Product[] }) {
       const data = (await response.json()) as { url?: string; error?: string };
 
       if (!response.ok || !data.url) {
-        throw new Error(data.error ?? "Impossible d'ouvrir le paiement securise.");
+        throw new Error(data.error ?? "Impossible d'ouvrir le paiement sécurisé.");
       }
 
       window.location.assign(data.url);
@@ -113,7 +113,7 @@ export function CartView({ products }: { products: Product[] }) {
       setCheckoutError(
         error instanceof Error
           ? error.message
-          : "Impossible d'ouvrir le paiement securise.",
+          : "Impossible d'ouvrir le paiement sécurisé.",
       );
     } finally {
       setIsCheckoutLoading(false);
@@ -125,26 +125,26 @@ export function CartView({ products }: { products: Product[] }) {
       <div className="container-page py-12">
         <div className="rounded-lg border border-line bg-paper p-8 text-center shadow-sm">
           <ShoppingBag className="mx-auto mb-4 text-teal" size={42} aria-hidden="true" />
-          <h1 className="text-2xl font-black">Panier prêt, paiement contrôlé</h1>
+          <h1 className="text-2xl font-black">Votre panier est vide</h1>
           <p className="mx-auto mt-3 max-w-xl text-sm leading-6 text-muted">
-            Les articles apparaissent ici uniquement après validation des images,
-            du stock, du délai et de la préparation par partenaire logistique. Le
-            paiement Maxi Trouvaille s&apos;ouvre quand une fiche est validée.
+            Découvrez nos trouvailles à petits prix : maison, cuisine,
+            high-tech, animaux et plus encore. Paiement sécurisé par carte et
+            livraison suivie.
           </p>
           <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
             <Link
-              href="/produits-partenaires"
+              href="/boutique"
               className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-5 py-2.5 text-sm font-black text-white hover:bg-[#2b2b2b]"
             >
               <ShieldCheck size={17} aria-hidden="true" />
-              Rayons partenaires
+              Découvrir la boutique
             </Link>
             <Link
-              href="/suivi-colis"
+              href="/promotions"
               className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-5 py-2.5 text-sm font-black hover:bg-[#f1eadf]"
             >
               <Truck size={17} aria-hidden="true" />
-              Suivi colis
+              Voir les promotions
             </Link>
           </div>
         </div>
@@ -190,7 +190,7 @@ export function CartView({ products }: { products: Product[] }) {
                     {formatPrice(item.lineTotal)}
                   </div>
                   <div className="text-sm text-muted">
-                    {formatPrice(item.product.price)} / unite
+                    {formatPrice(item.product.price)} / unité
                   </div>
                 </div>
               </div>
@@ -200,7 +200,7 @@ export function CartView({ products }: { products: Product[] }) {
                   <button
                     type="button"
                     className="focus-ring flex h-11 w-11 items-center justify-center rounded-l-md hover:bg-[#f1eadf]"
-                    aria-label="Retirer une unite"
+                    aria-label="Retirer une unité"
                     onClick={() => updateQuantity(item.productId, item.quantity - 1)}
                   >
                     <Minus size={16} />
@@ -211,7 +211,7 @@ export function CartView({ products }: { products: Product[] }) {
                   <button
                     type="button"
                     className="focus-ring flex h-11 w-11 items-center justify-center rounded-r-md hover:bg-[#f1eadf]"
-                    aria-label="Ajouter une unite"
+                    aria-label="Ajouter une unité"
                     disabled={
                       item.quantity >= item.product.stock ||
                       !isClientProductPurchasable(item.product)
@@ -257,7 +257,7 @@ export function CartView({ products }: { products: Product[] }) {
       </section>
 
       <aside className="h-fit rounded-lg border border-line bg-paper p-5 shadow-sm">
-        <h2 className="text-xl font-black">Recapitulatif</h2>
+        <h2 className="text-xl font-black">Récapitulatif</h2>
         <div className="mt-5 grid gap-3 text-sm">
           <div className="flex justify-between gap-4">
             <span className="text-muted">Sous-total</span>

@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "Maxi Trouvaille",
     short_name: "Maxi",
     description:
-      "Boutique Maxi Trouvaille : produits partenaires verifies, paiement Maxi Trouvaille, suivi colis et service client.",
+      "Boutique Maxi Trouvaille : trouvailles à petits prix, paiement sécurisé, suivi colis et service client.",
     id: "/",
     start_url: "/",
     scope: "/",
@@ -41,9 +41,9 @@ export default function manifest(): MetadataRoute.Manifest {
         ],
       },
       {
-        name: "Nouveautes",
-        short_name: "Nouveautes",
-        description: "Voir les nouveautes produits partenaires en validation.",
+        name: "Nouveautés",
+        short_name: "Nouveautés",
+        description: "Voir les derniers produits ajoutés sur Maxi Trouvaille.",
         url: "/nouveautes",
         icons: [
           {
@@ -55,7 +55,7 @@ export default function manifest(): MetadataRoute.Manifest {
       {
         name: "Promotions",
         short_name: "Promos",
-        description: "Voir les promotions produits partenaires en validation.",
+        description: "Voir les promotions en cours sur Maxi Trouvaille.",
         url: "/promotions",
         icons: [
           {
@@ -67,7 +67,7 @@ export default function manifest(): MetadataRoute.Manifest {
       {
         name: "Suivi colis",
         short_name: "Suivi",
-        description: "Acceder au suivi colis Maxi Trouvaille.",
+        description: "Accéder au suivi colis Maxi Trouvaille.",
         url: "/suivi-colis",
         icons: [
           {

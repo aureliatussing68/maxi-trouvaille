@@ -14,19 +14,19 @@ const sections = [
   },
   {
     title: "Expédition par partenaire logistique",
-    text: "Certains produits neufs peuvent etre expedies directement par un partenaire logistique. Le client garde Maxi Trouvaille comme interlocuteur principal.",
+    text: "Certains produits neufs peuvent être expédiés directement par un partenaire logistique. Le client garde Maxi Trouvaille comme interlocuteur principal.",
   },
   {
     title: "Délais de livraison",
-    text: "Les delais affiches sont des estimations. Ils peuvent varier selon le partenaire logistique, le transporteur, la periode et les controles avant expedition.",
+    text: "Les délais affichés sont des estimations. Ils peuvent varier selon le partenaire logistique, le transporteur, la période et les contrôles avant expédition.",
   },
   {
     title: "Suivi colis",
-    text: "Le numero de suivi est ajoute des que le partenaire confirme l'expedition. Maxi Trouvaille peut ensuite transmettre les informations au client.",
+    text: "Le numéro de suivi est ajouté dès que le partenaire confirme l'expédition. Maxi Trouvaille transmet ensuite les informations au client.",
   },
   {
     title: "Validation humaine",
-    text: "Chaque commande partenaire est preparee avec une verification humaine pour garder une experience client claire et maitrisee.",
+    text: "Chaque commande partenaire est préparée avec une vérification humaine pour garder une expérience client claire et maîtrisée.",
   },
 ];
 

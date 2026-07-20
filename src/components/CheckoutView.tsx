@@ -95,7 +95,7 @@ export function CheckoutView({ products }: { products: Product[] }) {
 
       const data = (await response.json()) as { url?: string; error?: string };
       if (!response.ok || !data.url) {
-        throw new Error(data.error ?? "Impossible de demarrer le paiement securise.");
+        throw new Error(data.error ?? "Impossible de démarrer le paiement sécurisé.");
       }
 
       window.location.assign(data.url);
@@ -103,7 +103,7 @@ export function CheckoutView({ products }: { products: Product[] }) {
       setError(
         checkoutError instanceof Error
           ? checkoutError.message
-          : "Impossible de demarrer le paiement securise.",
+          : "Impossible de démarrer le paiement sécurisé.",
       );
     } finally {
       setIsLoading(false);
@@ -200,7 +200,7 @@ export function CheckoutView({ products }: { products: Product[] }) {
             <div key={item.productId} className="flex justify-between gap-4 text-sm">
               <div>
                 <div className="font-bold">{item.product.name}</div>
-                <div className="text-muted">Quantite {item.quantity}</div>
+                <div className="text-muted">Quantité {item.quantity}</div>
               </div>
               <div className="font-bold">{formatPrice(item.lineTotal)}</div>
             </div>

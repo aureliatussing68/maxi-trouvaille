@@ -25,37 +25,37 @@ export function ServiceReadinessPanel({
 }: ServiceReadinessPanelProps) {
   const visibleProductValue =
     metrics.publicProductCount > 0
-      ? pluralLabel(metrics.publicProductCount, "article validé", "articles validés")
-      : "0 article sans preuve";
+      ? pluralLabel(
+          metrics.publicProductCount,
+          "article disponible",
+          "articles disponibles",
+        )
+      : "Catalogue en préparation";
 
   const cards = [
     {
-      icon: ShieldCheck,
+      icon: PackageCheck,
       value: visibleProductValue,
-      title: "Vente protégée",
-      text: "Le paiement reste fermé pour les fiches qui n'ont pas encore toutes leurs preuves.",
+      title: "Produits vérifiés",
+      text: "Chaque fiche est relue et vérifiée par notre équipe avant d'être mise en vente.",
     },
     {
-      icon: PackageCheck,
-      value: pluralLabel(
-        metrics.partnerCandidateCount,
-        "fiche en contrôle",
-        "fiches en contrôle",
-      ),
-      title: "Catalogue partenaires",
-      text: "Photo, prix, stock, délai et droits image sont contrôlés avant affichage produit.",
+      icon: ShieldCheck,
+      value: "Paiement sécurisé",
+      title: "Carte bancaire via Stripe",
+      text: "Vos données bancaires ne passent jamais par nos serveurs.",
     },
     {
       icon: Store,
       value: pluralLabel(metrics.partnerCategoryCount, "rayon", "rayons"),
-      title: "Rayons consultables",
-      text: "Les univers restent lisibles sur téléphone sans pousser une fiche non validée.",
+      title: "Rayons clairs",
+      text: "Maison, cuisine, high-tech, animaux, enfant... tout est classé par univers.",
     },
     {
       icon: Headphones,
-      value: "Suivi centralisé",
+      value: "Un seul interlocuteur",
       title: "Service client",
-      text: "Paiement, livraison, suivi et retour restent gérés côté Maxi Trouvaille.",
+      text: "Paiement, livraison, suivi et retours : tout se gère directement avec Maxi Trouvaille.",
     },
   ];
 
@@ -83,15 +83,15 @@ export function ServiceReadinessPanel({
         <div>
           <p className="inline-flex items-center gap-2 rounded-md bg-[#eef8f6] px-3 py-2 text-sm font-black uppercase text-teal">
             <ShieldCheck size={16} aria-hidden="true" />
-            Support sous contrôle
+            Achat en confiance
           </p>
           <h2 className="mt-4 text-2xl font-black leading-tight sm:text-3xl">
-            Le client voit un parcours propre, même pendant la validation.
+            Une boutique simple, un achat sans mauvaise surprise.
           </h2>
           <p className="mt-3 max-w-2xl text-sm font-semibold leading-6 text-muted">
-            Maxi Trouvaille garde le paiement, le suivi colis, la livraison et
-            le service client au même endroit. Les articles deviennent vendables
-            seulement quand les preuves essentielles sont prêtes.
+            Paiement sécurisé par carte, livraison suivie et service client
+            unique : tout se passe sur Maxi Trouvaille, du panier jusqu&apos;à
+            la réception de votre colis.
           </p>
           <div className="mt-4 grid gap-2 sm:grid-cols-3">
             {links.map((link) => {

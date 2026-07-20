@@ -19,6 +19,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { path: "/suivi-colis", priority: 0.75, changeFrequency: "weekly" },
     { path: "/faq", priority: 0.7, changeFrequency: "weekly" },
     { path: "/contact", priority: 0.7, changeFrequency: "weekly" },
+    { path: "/a-propos", priority: 0.6, changeFrequency: "monthly" },
     { path: "/retours-remboursements", priority: 0.5, changeFrequency: "monthly" },
     { path: "/conditions-generales-vente", priority: 0.45, changeFrequency: "monthly" },
     { path: "/conditions-produits-partenaires", priority: 0.55, changeFrequency: "monthly" },

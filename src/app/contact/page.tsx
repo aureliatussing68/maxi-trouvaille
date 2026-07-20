@@ -1,25 +1,23 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import {
+  CircleHelp,
   CreditCard,
   Headphones,
   Mail,
   MessageSquare,
-  PackageCheck,
+  RotateCcw,
   ShieldCheck,
   Truck,
   type LucideIcon,
 } from "lucide-react";
 import { PageHeader } from "@/components/PageHeader";
 import { CustomerJourneyPanel } from "@/components/CustomerJourneyPanel";
-import { CustomerSupportQuickLinks } from "@/components/CustomerSupportQuickLinks";
-import { ServiceReadinessPanel } from "@/components/ServiceReadinessPanel";
-import { getStorefrontControlMetrics } from "@/lib/storefront-control-metrics";
 
 export const metadata: Metadata = {
-  title: "Service client",
+  title: "Contact - Service client",
   description:
-    "Service client Maxi Trouvaille pour les questions paiement, suivi colis, livraison et produits partenaires.",
+    "Contactez le service client Maxi Trouvaille : questions sur une commande, la livraison, le paiement, le suivi colis ou un retour. Réponse rapide par email.",
 };
 
 type SupportCard = {
@@ -34,43 +32,43 @@ const supportCards: SupportCard[] = [
   {
     icon: Truck,
     title: "Suivi colis",
-    text: "Retrouver le point de suivi prévu pour les commandes Maxi Trouvaille.",
+    text: "Votre commande est expédiée ? Suivez-la avec votre numéro de suivi.",
     href: "/suivi-colis",
     action: "Ouvrir le suivi",
   },
   {
     icon: CreditCard,
     title: "Paiement",
-    text: "Comprendre le paiement Maxi Trouvaille pour les articles validés.",
+    text: "Tout savoir sur le paiement sécurisé par carte bancaire via Stripe.",
     href: "/paiement",
     action: "Voir le paiement",
   },
   {
-    icon: PackageCheck,
-    title: "Rayons partenaires",
-    text: "Explorer les univers en préparation sans exposer de fiche non validée.",
-    href: "/produits-partenaires",
-    action: "Voir les rayons",
+    icon: RotateCcw,
+    title: "Retours",
+    text: "14 jours pour changer d'avis : la marche à suivre pour un retour.",
+    href: "/retours-remboursements",
+    action: "Voir les retours",
+  },
+  {
+    icon: CircleHelp,
+    title: "FAQ",
+    text: "Les réponses aux questions les plus fréquentes, avant et après commande.",
+    href: "/faq",
+    action: "Lire la FAQ",
   },
 ];
 
-export default async function ContactPage() {
-  const metrics = await getStorefrontControlMetrics();
-
+export default function ContactPage() {
   return (
     <>
       <PageHeader
         eyebrow="Service client"
-        title="Maxi Trouvaille reste le point de contact."
-        description="Questions produit, paiement, livraison ou suivi colis: le client garde Maxi Trouvaille comme interlocuteur principal."
+        title="Une question ? Nous sommes là."
+        description="Commande, livraison, paiement, suivi colis ou retour : le service client Maxi Trouvaille vous répond rapidement."
       />
-      <section className="container-page border-b border-line py-10">
-        <ServiceReadinessPanel metrics={metrics} />
-        <CustomerJourneyPanel className="mt-10" />
-        <CustomerSupportQuickLinks className="mt-10" />
-      </section>
       <section className="container-page grid gap-6 py-10 lg:grid-cols-[1fr_360px]">
-        <div className="grid gap-4">
+        <div className="grid h-fit gap-4">
           <div className="rounded-lg border border-line bg-paper p-6 shadow-sm">
             <div className="flex items-start gap-3">
               <Headphones
@@ -80,42 +78,45 @@ export default async function ContactPage() {
               />
               <div>
                 <p className="text-sm font-black uppercase text-teal">
-                  Assistance Maxi Trouvaille
+                  Nous contacter
                 </p>
                 <h2 className="mt-1 text-2xl font-black">
-                  Une réponse propre à chaque étape.
+                  Deux façons simples de nous écrire.
                 </h2>
               </div>
             </div>
-            <p className="mt-4 max-w-2xl text-sm leading-6 text-muted">
-              Les demandes client sont prévues pour rester centralisées chez
-              Maxi Trouvaille. Les produits partenaires sont préparés avec des
-              informations de livraison, de stock et d&apos;image claires avant
-              publication.
-            </p>
-            <div className="mt-5 grid gap-3 sm:grid-cols-3">
-              <div className="rounded-md bg-[#eef8f6] p-3">
-                <p className="text-sm font-black text-teal">Paiement</p>
-                <p className="mt-1 text-xs font-semibold leading-5 text-muted">
-                  Ouvert seulement après validation.
+            <div className="mt-5 grid gap-3 sm:grid-cols-2">
+              <div className="rounded-md border border-line bg-white p-4">
+                <Mail className="text-teal" size={22} aria-hidden="true" />
+                <h3 className="mt-3 font-black">Par email</h3>
+                <p className="mt-2 text-sm leading-6 text-muted">
+                  Écrivez-nous à{" "}
+                  <a
+                    href="mailto:contact@maxitrouvaille.fr"
+                    className="font-black text-teal underline"
+                  >
+                    contact@maxitrouvaille.fr
+                  </a>{" "}
+                  en précisant si possible le produit ou la commande concernés.
                 </p>
               </div>
-              <div className="rounded-md bg-[#f6f1e8] p-3">
-                <p className="text-sm font-black text-teal">Livraison</p>
-                <p className="mt-1 text-xs font-semibold leading-5 text-muted">
-                  Préparation par partenaire logistique.
-                </p>
-              </div>
-              <div className="rounded-md bg-[#f7f4ee] p-3">
-                <p className="text-sm font-black text-teal">Suivi</p>
-                <p className="mt-1 text-xs font-semibold leading-5 text-muted">
-                  Maxi Trouvaille reste le repère client.
+              <div className="rounded-md border border-line bg-white p-4">
+                <MessageSquare className="text-teal" size={22} aria-hidden="true" />
+                <h3 className="mt-3 font-black">Depuis une fiche produit</h3>
+                <p className="mt-2 text-sm leading-6 text-muted">
+                  Chaque fiche produit dispose d&apos;un bouton «&nbsp;Envoyer un
+                  message&nbsp;» : votre question arrive directement avec la
+                  référence du produit.
                 </p>
               </div>
             </div>
+            <p className="mt-4 text-xs font-bold leading-5 text-muted">
+              Nous faisons le maximum pour répondre à chaque message dans les
+              plus brefs délais, du lundi au samedi.
+            </p>
           </div>
 
-          <div className="grid gap-3 md:grid-cols-3">
+          <div className="grid gap-3 sm:grid-cols-2">
             {supportCards.map((card) => {
               const Icon = card.icon;
 
@@ -141,32 +142,25 @@ export default async function ContactPage() {
 
         <aside className="grid h-fit gap-4">
           <div className="rounded-lg border border-line bg-paper p-5 shadow-sm">
-            <Mail className="mb-3 text-teal" size={24} aria-hidden="true" />
-            <h2 className="font-black">Contact</h2>
-            <p className="mt-2 text-sm leading-6 text-muted">
-              contact@maxitrouvaille.fr
-            </p>
-            <p className="mt-2 text-xs font-bold leading-5 text-muted">
-              Une réponse claire peut être préparée par l&apos;équipe Maxi Trouvaille.
-            </p>
-          </div>
-          <div className="rounded-lg border border-line bg-paper p-5 shadow-sm">
             <ShieldCheck className="mb-3 text-teal" size={24} aria-hidden="true" />
-            <h2 className="font-black">Validation avant publication</h2>
+            <h2 className="font-black">Commande protégée</h2>
             <p className="mt-2 text-sm leading-6 text-muted">
-              Une fiche apparaît seulement quand les preuves clés sont
-              complètes.
+              Paiement par carte sécurisé, droit de rétractation de 14 jours et
+              un seul interlocuteur du panier à la livraison.
             </p>
           </div>
           <div className="rounded-lg border border-line bg-paper p-5 shadow-sm">
-            <MessageSquare className="mb-3 text-teal" size={24} aria-hidden="true" />
-            <h2 className="font-black">Service client</h2>
+            <Truck className="mb-3 text-teal" size={24} aria-hidden="true" />
+            <h2 className="font-black">Livraison suivie</h2>
             <p className="mt-2 text-sm leading-6 text-muted">
-              Commande, livraison, retour ou suivi: le client reste accompagné
-              par Maxi Trouvaille.
+              Numéro de suivi communiqué dès l&apos;expédition, livraison
+              estimée 7 à 14 jours ouvrés selon les produits.
             </p>
           </div>
         </aside>
+      </section>
+      <section className="container-page pb-12">
+        <CustomerJourneyPanel />
       </section>
     </>
   );

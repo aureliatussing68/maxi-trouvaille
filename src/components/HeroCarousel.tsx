@@ -2,24 +2,24 @@ import Image from "next/image";
 
 const heroSlides = [
   {
-    title: "Catalogue en validation",
+    title: "Des trouvailles à petits prix",
     image: "/uploads/category-images/produits-partenaires.webp",
-    alt: "Rayon produits partenaires Maxi Trouvaille en validation",
+    alt: "Sélection de produits malins Maxi Trouvaille",
   },
   {
-    title: "Preuves produit",
+    title: "Sélection vérifiée par nos soins",
     image: "/uploads/category-images/selection-partenaires.webp",
-    alt: "Selection produits partenaires controlee avant affichage public",
+    alt: "Produits sélectionnés et vérifiés par Maxi Trouvaille",
   },
   {
-    title: "Nouveautes partenaires",
+    title: "Nouveautés régulières",
     image: "/uploads/category-images/nouveautes-partenaires.webp",
-    alt: "Nouveautes partenaires gardees en verification qualite",
+    alt: "Nouveautés ajoutées régulièrement sur Maxi Trouvaille",
   },
   {
     title: "Livraison suivie",
     image: "/uploads/category-images/promotions-partenaires.webp",
-    alt: "Promotions partenaires avec expedition par partenaire logistique",
+    alt: "Livraison suivie pour chaque commande Maxi Trouvaille",
   },
 ];
 

@@ -218,7 +218,7 @@ export default async function ProductPage({
 
         {isComingSoon ? (
           <div className="mt-5 rounded-lg border border-[#fed7aa] bg-[#fff7ed] p-4 text-sm font-black leading-6 text-[#9a3412]">
-            Bientôt disponible sur Maxi Trouvailles
+            Bientôt disponible sur Maxi Trouvaille
           </div>
         ) : (
           <div className="mt-5 flex flex-wrap items-end gap-3">
@@ -253,7 +253,7 @@ export default async function ProductPage({
             {isComingSoon
               ? "Achat ouvert prochainement"
               : product.stock > 0
-              ? `Quantite disponible : ${product.stock}`
+              ? `En stock : ${product.stock} disponibles`
               : "Rupture de stock"}
           </div>
         </div>
@@ -292,7 +292,7 @@ export default async function ProductPage({
         ) : null}
 
         <div className="mt-7 border-t border-line pt-6">
-          <h2 className="text-lg font-black">Points cles</h2>
+          <h2 className="text-lg font-black">Points clés</h2>
           <ul className="mt-4 grid gap-3 text-sm leading-6 text-muted">
             {product.features.map((feature) => (
               <li key={feature} className="flex gap-2">
@@ -317,7 +317,7 @@ export default async function ProductPage({
         <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
           <div>
             <p className="text-sm font-black uppercase text-teal">Avis clients</p>
-            <h2 className="mt-2 text-2xl font-black">Commentaires verifies</h2>
+            <h2 className="mt-2 text-2xl font-black">Ce que disent nos clients</h2>
           </div>
           <ReviewSummaryBadge summary={reviewSummary} />
         </div>
@@ -348,7 +348,8 @@ export default async function ProductPage({
           </div>
         ) : (
           <p className="mt-5 rounded-md bg-[#f6f1e8] p-4 text-sm font-bold text-muted">
-            Aucun avis valide pour ce produit pour le moment.
+            Pas encore d&apos;avis sur ce produit. Vous l&apos;avez commandé ?
+            Partagez votre expérience, elle aidera les prochains clients.
           </p>
         )}
       </div>

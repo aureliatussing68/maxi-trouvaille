@@ -13,10 +13,11 @@ const shopLinks = [
 ];
 
 const legalLinks = [
-  { href: "/mentions-legales", label: "Mentions legales" },
+  { href: "/a-propos", label: "À propos" },
+  { href: "/mentions-legales", label: "Mentions légales" },
   { href: "/conditions-generales-vente", label: "Conditions générales" },
   { href: "/conditions-produits-partenaires", label: "Conditions produits partenaires" },
-  { href: "/politique-confidentialite", label: "Confidentialite" },
+  { href: "/politique-confidentialite", label: "Confidentialité" },
 ];
 
 export function Footer() {
@@ -31,9 +32,9 @@ export function Footer() {
             <span className="text-lg font-black">Maxi Trouvaille</span>
           </div>
           <p className="max-w-md text-sm leading-6 text-white/70">
-            Boutique focalisee sur les produits partenaires: selection propre,
-            paiement Maxi Trouvaille, suivi colis et validation humaine avant
-            publication des fiches.
+            Les trouvailles malignes du moment à petits prix : maison, cuisine,
+            high-tech, animaux et plus encore. Paiement sécurisé par carte,
+            livraison suivie et service client basé en France.
           </p>
         </div>
 
@@ -67,7 +68,7 @@ export function Footer() {
       </div>
       <div className="border-t border-white/10 py-4">
         <div className="container-page text-xs text-white/55">
-          © {new Date().getFullYear()} Maxi Trouvaille. Lancement maîtrisé.
+          © {new Date().getFullYear()} Maxi Trouvaille. Tous droits réservés.
         </div>
       </div>
     </footer>

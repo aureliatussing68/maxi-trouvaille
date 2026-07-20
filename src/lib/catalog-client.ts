@@ -331,14 +331,14 @@ export function isClientProductPurchasable(product: Product) {
 
 export function getClientPublicDeliveryEstimate(product: Product) {
   if (isClientComingSoonProduct(product)) {
-    return "Bientot disponible sur Maxi Trouvaille";
+    return "Bientôt disponible sur Maxi Trouvaille";
   }
 
   if (product.dropshipping?.deliveryEstimate) {
     return product.dropshipping.deliveryEstimate;
   }
 
-  return "Livraison estimee au panier";
+  return "Livraison estimée au panier";
 }
 
 export function getClientProductImageAlt(product: Product, fallbackSuffix?: string) {

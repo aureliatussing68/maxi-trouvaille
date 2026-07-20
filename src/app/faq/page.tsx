@@ -1,63 +1,65 @@
 import type { Metadata } from "next";
-import { CustomerJourneyPanel } from "@/components/CustomerJourneyPanel";
 import { CustomerSupportQuickLinks } from "@/components/CustomerSupportQuickLinks";
 import { PageHeader } from "@/components/PageHeader";
-import { ServiceReadinessPanel } from "@/components/ServiceReadinessPanel";
-import { getStorefrontControlMetrics } from "@/lib/storefront-control-metrics";
 
 const questions = [
   {
-    question: "Les produits sont-ils reels ?",
+    question: "Quels sont les délais de livraison ?",
     answer:
-      "Oui. La boutique met en avant des produits partenaires et des rayons préparés avec prix, stock et informations de livraison contrôlés avant publication.",
+      "La plupart de nos produits sont livrés sous 7 à 14 jours ouvrés, avec un numéro de suivi communiqué dès l'expédition. Le délai estimé est affiché sur chaque fiche produit avant l'achat.",
   },
   {
-    question: "Le paiement est-il actif ?",
+    question: "Comment se passe le paiement ?",
     answer:
-      "Le paiement Maxi Trouvaille passe par un tunnel sécurisé et s'ouvre seulement pour les articles validés.",
+      "Le paiement se fait par carte bancaire via Stripe, une des solutions de paiement les plus utilisées au monde. Vos données bancaires ne passent jamais par nos serveurs, et aucune création de compte n'est nécessaire pour commander.",
   },
   {
-    question: "Quels types de produits seront vendus ?",
+    question: "Comment suivre ma commande ?",
     answer:
-      "Produits utiles, produits partenaires, promotions et nouveautes. Les anciens rayons colis ne sont plus mis en avant sur le site public.",
+      "Dès l'expédition de votre commande, vous recevez un numéro de suivi. Vous pouvez ensuite suivre votre colis directement depuis la page Suivi colis du site.",
   },
   {
-    question: "Les produits partenaires sont-ils vérifiés ?",
+    question: "Puis-je retourner un article ?",
     answer:
-      "Oui. Les produits passent par une validation humaine avant publication.",
+      "Oui. Vous disposez d'un droit de rétractation de 14 jours à compter de la réception de votre commande. Pour lancer un retour, contactez le service client via la page Contact ou la messagerie du site. Les détails sont expliqués sur la page Retours et remboursements.",
   },
   {
-    question: "Qui expédie les produits partenaires ?",
+    question: "Qui expédie les produits ?",
     answer:
-      "Le client paie Maxi Trouvaille, puis le produit est expedie par un partenaire logistique. Le service client et le suivi restent cote Maxi Trouvaille.",
+      "Vous commandez et payez sur Maxi Trouvaille. Selon les produits, l'expédition est assurée par nos soins ou par un partenaire logistique. Dans tous les cas, le service client et le suivi restent gérés par Maxi Trouvaille : vous avez un seul interlocuteur.",
   },
   {
-    question: "Comment fonctionne l'espace partenaires ?",
+    question: "Les produits sont-ils neufs ?",
     answer:
-      "Maxi Trouvaille garde une validation humaine avant chaque publication. Les propositions externes passent d'abord par une sélection Maxi Trouvaille.",
+      "Oui, sauf mention contraire claire sur la fiche produit, tous les articles vendus sont neufs. L'état du produit est toujours indiqué sur la fiche.",
+  },
+  {
+    question: "Comment contacter le service client ?",
+    answer:
+      "Par email à contact@maxitrouvaille.fr, ou via le bouton « Envoyer un message » présent sur chaque fiche produit. Nous répondons rapidement à chaque demande.",
+  },
+  {
+    question: "Un produit est en rupture, reviendra-t-il ?",
+    answer:
+      "Le catalogue évolue régulièrement : nouveautés chaque semaine et retours en stock fréquents. N'hésitez pas à nous envoyer un message depuis la fiche produit pour savoir si un article sera de nouveau disponible.",
   },
 ];
 
 export const metadata: Metadata = {
-  title: "FAQ",
+  title: "FAQ - Questions fréquentes",
   description:
-    "Questions fréquentes Maxi Trouvaille sur les produits partenaires, le paiement, la livraison et le suivi colis.",
+    "Questions fréquentes Maxi Trouvaille : délais de livraison, paiement sécurisé, suivi colis, retours et remboursements.",
 };
 
-export default async function FaqPage() {
-  const metrics = await getStorefrontControlMetrics();
-
+export default function FaqPage() {
   return (
     <>
       <PageHeader
         eyebrow="FAQ"
-        title="Questions frequentes"
-        description="Les reponses principales sur les produits partenaires, le paiement Maxi Trouvaille et le suivi colis."
+        title="Questions fréquentes"
+        description="Livraison, paiement, suivi colis, retours : les réponses aux questions que vous vous posez avant et après votre commande."
       />
       <div className="container-page grid gap-8 py-10">
-        <ServiceReadinessPanel metrics={metrics} />
-        <CustomerJourneyPanel />
-        <CustomerSupportQuickLinks />
         <section className="grid gap-4">
           {questions.map((item) => (
             <article
@@ -69,6 +71,7 @@ export default async function FaqPage() {
             </article>
           ))}
         </section>
+        <CustomerSupportQuickLinks />
       </div>
     </>
   );

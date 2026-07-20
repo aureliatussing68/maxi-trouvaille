@@ -21,42 +21,42 @@ const supportLinks: SupportLink[] = [
   {
     href: "/suivi-colis",
     title: "Suivi colis",
-    text: "Retrouver les informations de livraison quand le numero est ajoute.",
+    text: "Suivez votre commande de l'expédition jusqu'à la livraison.",
     action: "Ouvrir le suivi",
     icon: Truck,
   },
   {
     href: "/paiement",
-    title: "Paiement Maxi Trouvaille",
-    text: "Payer uniquement les articles validés avec un parcours securise.",
+    title: "Paiement sécurisé",
+    text: "Carte bancaire via Stripe : simple, rapide et sans création de compte.",
     action: "Voir le paiement",
     icon: CreditCard,
   },
   {
     href: "/livraison",
     title: "Livraison",
-    text: "Comprendre le delai, le suivi et le partenaire logistique avant achat.",
+    text: "Délais, transporteurs et suivi : tout savoir avant de commander.",
     action: "Voir la livraison",
     icon: Truck,
   },
   {
     href: "/retours-remboursements",
     title: "Retours",
-    text: "Suivre une demande claire avec le service client Maxi Trouvaille.",
+    text: "14 jours pour changer d'avis, avec une procédure simple et claire.",
     action: "Voir les retours",
     icon: RotateCcw,
   },
   {
     href: "/faq",
     title: "FAQ",
-    text: "Lire les reponses sur les produits partenaires, le paiement et le suivi.",
+    text: "Les réponses aux questions les plus fréquentes sur vos commandes.",
     action: "Lire la FAQ",
     icon: CircleHelp,
   },
   {
     href: "/contact",
     title: "Service client",
-    text: "Garder Maxi Trouvaille comme contact principal pour chaque commande.",
+    text: "Une question ? Notre équipe vous répond rapidement par email.",
     action: "Contacter",
     icon: Headphones,
   },
@@ -70,18 +70,17 @@ export function CustomerSupportQuickLinks({ className }: { className?: string })
     >
       <div>
         <p className="text-sm font-black uppercase text-teal">
-          Support client Maxi Trouvaille
+          Besoin d&apos;aide ?
         </p>
         <h2
           id="support-client-maxi"
           className="mt-2 max-w-3xl text-2xl font-black leading-tight"
         >
-          Les raccourcis utiles restent au meme endroit.
+          Tout ce qu&apos;il faut savoir, au même endroit.
         </h2>
         <p className="mt-3 max-w-3xl text-sm font-semibold leading-6 text-muted">
-          Paiement, suivi colis, livraison, retours et service client restent
-          centralises par Maxi Trouvaille. Les produits partenaires restent
-          presentes proprement sans rendre achetable une fiche non validée.
+          Paiement, livraison, suivi colis, retours : retrouvez toutes les
+          informations utiles et contactez le service client en un clic.
         </p>
       </div>
 

@@ -73,7 +73,7 @@ export function ShippingSelector({
         <div>
           <h2 className="text-xl font-black">Choisir votre livraison</h2>
           <p className="mt-1 text-sm leading-6 text-muted">
-            Selectionnez le mode disponible pour ce panier avant de passer au
+            Sélectionnez le mode de livraison souhaité avant de passer au
             paiement.
           </p>
         </div>

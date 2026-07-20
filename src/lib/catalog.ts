@@ -264,7 +264,7 @@ const rawCategories: Array<Omit<Category, "image">> = [
     slug: "produits-partenaires",
     name: "Produits partenaires",
     description:
-      "Produits neufs selectionnes par Maxi Trouvaille, expedies par partenaires logistiques, avec nouveautes et promotions.",
+      "Produits neufs sélectionnés par Maxi Trouvaille, expédiés par partenaires logistiques, avec nouveautés et promotions.",
     accent: "#0f766e",
   },
   {
@@ -295,7 +295,7 @@ const rawCategories: Array<Omit<Category, "image">> = [
     id: "dropshipping-cuisine",
     slug: "cuisine-partenaires",
     name: "Cuisine",
-    description: "Ustensiles, accessoires pratiques et petites idees cuisine.",
+    description: "Ustensiles, accessoires pratiques et petites idées cuisine.",
     accent: "#ea580c",
     parentId: "dropshipping",
   },
@@ -303,7 +303,7 @@ const rawCategories: Array<Omit<Category, "image">> = [
     id: "dropshipping-beaute",
     slug: "beaute-partenaires",
     name: "Beauté",
-    description: "Soins, accessoires beaute et bien-etre expedies par partenaire.",
+    description: "Soins, accessoires beauté et bien-être du quotidien.",
     accent: "#e11d48",
     parentId: "dropshipping",
   },
@@ -311,7 +311,7 @@ const rawCategories: Array<Omit<Category, "image">> = [
     id: "dropshipping-high-tech",
     slug: "high-tech-partenaires",
     name: "High-tech",
-    description: "Accessoires connectes, charge, audio et gadgets utiles.",
+    description: "Accessoires connectés, charge, audio et gadgets utiles.",
     accent: "#2563eb",
     parentId: "dropshipping",
   },
@@ -327,7 +327,7 @@ const rawCategories: Array<Omit<Category, "image">> = [
     id: "dropshipping-auto-moto",
     slug: "auto-moto-partenaires",
     name: "Auto / Moto",
-    description: "Accessoires auto, nettoyage, confort et equipement vehicule.",
+    description: "Accessoires auto, nettoyage, confort et équipement véhicule.",
     accent: "#dc2626",
     parentId: "dropshipping",
   },
@@ -343,7 +343,7 @@ const rawCategories: Array<Omit<Category, "image">> = [
     id: "dropshipping-enfant",
     slug: "enfant-partenaires",
     name: "Enfant",
-    description: "Idees utiles, cadeaux et accessoires pour enfants.",
+    description: "Idées cadeaux, jeux et accessoires pour enfants.",
     accent: "#16a34a",
     parentId: "dropshipping",
   },
@@ -587,7 +587,7 @@ const rawCategories: Array<Omit<Category, "image">> = [
     slug: "produits-partenaires",
     name: "Produits partenaires",
     description:
-      "Produits neufs selectionnes par Maxi Trouvaille et expedies par partenaires logistiques.",
+      "Produits neufs sélectionnés par Maxi Trouvaille et expédiés par partenaires logistiques.",
     accent: "#0f766e",
   },
 ];
@@ -1282,18 +1282,21 @@ export function isProductPurchasable(product: Product) {
 
 export function getPublicDeliveryEstimate(product: Product) {
   if (isComingSoonProduct(product)) {
-    return "Bientot disponible sur Maxi Trouvaille";
+    return "Bientôt disponible sur Maxi Trouvaille";
   }
 
   if (product.dropshipping?.deliveryEstimate) {
     return product.dropshipping.deliveryEstimate;
   }
 
-  return "Livraison estimee au panier";
+  return "Livraison estimée au panier";
 }
 
 export function getProductSeoTitle(product: Product) {
-  return product.seo?.title || product.name;
+  const rawTitle = product.seo?.title || product.name;
+  // Le layout ajoute deja "| Maxi Trouvaille" : on retire le suffixe
+  // pour eviter un titre duplique du type "... | Maxi Trouvaille | Maxi Trouvaille".
+  return rawTitle.replace(/\s*[|–-]\s*Maxi Trouvailles?\s*$/i, "").trim();
 }
 
 export function getProductSeoDescription(product: Product) {

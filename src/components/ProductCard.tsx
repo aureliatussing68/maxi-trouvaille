@@ -134,7 +134,7 @@ export function ProductCard({
           <div className="min-w-0">
             {isComingSoon ? (
               <div className="rounded-md border border-[#fed7aa] bg-[#fff7ed] p-3 text-sm font-black text-[#9a3412]">
-                Bientôt disponible sur Maxi Trouvailles
+                Bientôt disponible sur Maxi Trouvaille
               </div>
             ) : (
               <>
@@ -146,7 +146,7 @@ export function ProductCard({
                 ) : null}
                 <div className="mt-1 text-xs font-bold text-muted">
                   {product.stock > 0
-                    ? `Quantite disponible : ${product.stock}`
+                    ? `En stock : ${product.stock} disponibles`
                     : "Rupture de stock"}
                 </div>
               </>
