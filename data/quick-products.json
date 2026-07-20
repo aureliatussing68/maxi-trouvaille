@@ -1,5 +1,660 @@
 [
   {
+    "id": "ali_claude_20260720_perche_selfie_024",
+    "slug": "perche-selfie-trepied-170cm-bluetooth",
+    "name": "Perche selfie trépied 170 cm avec télécommande",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 60,
+    "badge": "Créateurs",
+    "image": "/uploads/quick-products/perche-selfie-trepied-170cm-bluetooth-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/perche-selfie-trepied-170cm-bluetooth-photo-1.webp",
+      "/uploads/quick-products/perche-selfie-trepied-170cm-bluetooth-photo-2.webp",
+      "/uploads/quick-products/perche-selfie-trepied-170cm-bluetooth-photo-3.webp",
+      "/uploads/quick-products/perche-selfie-trepied-170cm-bluetooth-photo-4.webp",
+      "/uploads/quick-products/perche-selfie-trepied-170cm-bluetooth-photo-5.webp"
+    ],
+    "shortDescription": "Perche selfie qui devient trépied 170 cm, avec télécommande Bluetooth incluse.",
+    "description": "L'outil des créateurs de contenu et des souvenirs de vacances : une perche selfie qui se déploie en trépied jusqu'à 170 cm, avec rotation 360° et télécommande Bluetooth pour déclencher à distance. Photos de groupe, TikTok, visio : plus besoin de demander à un passant. Compatible tous smartphones.",
+    "features": [
+      "Trépied jusqu'à 170 cm + perche selfie 2-en-1",
+      "Télécommande Bluetooth incluse",
+      "Rotation 360°, cadrage libre",
+      "Compatible tous smartphones",
+      "Photos de groupe, TikTok, visio"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 2690,
+    "compareAtPrice": 3490,
+    "imageAlt": "Perche selfie trépied 170 cm avec télécommande",
+    "seo": {
+      "title": "Perche selfie trépied 170 cm avec télécommande | Maxi Trouvaille",
+      "description": "Perche selfie qui devient trépied 170 cm, avec télécommande Bluetooth incluse.",
+      "imageAlt": "Perche selfie trépied 170 cm avec télécommande"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "note": "Photos fournisseur exactes importees en local (webp) le 20/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "productUrl": "https://fr.aliexpress.com/item/1005009093242608.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-20"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009093242608.html",
+      "supplierSku": "AE-1005009093242608-SELFIESTICK",
+      "supplierPriceCents": 1199,
+      "supplierStock": 60,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2690,
+      "marginCents": 1491,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (261 ventes)",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260720_chargeur_3en1_023",
+    "slug": "station-charge-sans-fil-3-en-1-pliable",
+    "name": "Station de charge sans fil 3-en-1 pliable",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 50,
+    "badge": "Bureau rangé",
+    "image": "/uploads/quick-products/station-charge-sans-fil-3-en-1-pliable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/station-charge-sans-fil-3-en-1-pliable-photo-1.webp",
+      "/uploads/quick-products/station-charge-sans-fil-3-en-1-pliable-photo-2.webp",
+      "/uploads/quick-products/station-charge-sans-fil-3-en-1-pliable-photo-3.webp",
+      "/uploads/quick-products/station-charge-sans-fil-3-en-1-pliable-photo-4.webp",
+      "/uploads/quick-products/station-charge-sans-fil-3-en-1-pliable-photo-5.webp"
+    ],
+    "shortDescription": "Charge magnétique téléphone + montre + écouteurs en même temps, format pliable voyage.",
+    "description": "Un seul chargeur pour tout : téléphone en charge magnétique, montre connectée et écouteurs sans fil, simultanément. Compatible avec les iPhone récents, Apple Watch et AirPods (et charge sans fil universelle Qi). Format pliable qui tient dans une poche : le bureau reste rangé, le voyage s'allège.",
+    "features": [
+      "Charge 3 appareils en même temps",
+      "Fixation magnétique pratique pour le téléphone",
+      "Compatible iPhone, Apple Watch, AirPods (Qi universel)",
+      "Pliable : format voyage",
+      "Fini les trois câbles qui traînent"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 3990,
+    "compareAtPrice": 5490,
+    "imageAlt": "Station de charge sans fil 3-en-1 pliable",
+    "seo": {
+      "title": "Station de charge sans fil 3-en-1 pliable | Maxi Trouvaille",
+      "description": "Charge magnétique téléphone + montre + écouteurs en même temps, format pliable voyage.",
+      "imageAlt": "Station de charge sans fil 3-en-1 pliable"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "note": "Photos fournisseur exactes importees en local (webp) le 20/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "productUrl": "https://fr.aliexpress.com/item/1005010773627948.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-20"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010773627948.html",
+      "supplierSku": "AE-1005010773627948-CHARGE3IN1",
+      "supplierPriceCents": 1849,
+      "supplierStock": 50,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3990,
+      "marginCents": 2141,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260720_miroir_led_022",
+    "slug": "miroir-maquillage-led-tactile-pliable",
+    "name": "Miroir de maquillage LED tactile pliable",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 70,
+    "badge": "Lumière parfaite",
+    "image": "/uploads/quick-products/miroir-maquillage-led-tactile-pliable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/miroir-maquillage-led-tactile-pliable-photo-1.webp",
+      "/uploads/quick-products/miroir-maquillage-led-tactile-pliable-photo-2.webp",
+      "/uploads/quick-products/miroir-maquillage-led-tactile-pliable-photo-3.webp",
+      "/uploads/quick-products/miroir-maquillage-led-tactile-pliable-photo-4.webp"
+    ],
+    "shortDescription": "Miroir pliable à LED avec écran tactile : 3 modes de lumière, recharge USB.",
+    "description": "Se maquiller dans une mauvaise lumière, c'est la garantie des mauvaises surprises. Ce miroir pliable s'éclaire en 3 modes (lumière chaude, naturelle, froide) réglables du bout du doigt, pour un rendu parfait en toute situation. Rechargeable USB, il se plie et se glisse dans le sac pour les voyages.",
+    "features": [
+      "3 modes de lumière : chaude, naturelle, froide",
+      "Réglage tactile de l'intensité",
+      "Pliable : parfait en voyage",
+      "Rechargeable USB",
+      "1 000+ exemplaires vendus"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1690,
+    "compareAtPrice": 2290,
+    "imageAlt": "Miroir de maquillage LED tactile pliable",
+    "seo": {
+      "title": "Miroir de maquillage LED tactile pliable | Maxi Trouvaille",
+      "description": "Miroir pliable à LED avec écran tactile : 3 modes de lumière, recharge USB.",
+      "imageAlt": "Miroir de maquillage LED tactile pliable"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "note": "Photos fournisseur exactes importees en local (webp) le 20/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "productUrl": "https://fr.aliexpress.com/item/1005011593394893.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-20"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005011593394893.html",
+      "supplierSku": "AE-1005011593394893-LEDMIRROR",
+      "supplierPriceCents": 649,
+      "supplierStock": 70,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1690,
+      "marginCents": 1041,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (1 000 ventes)",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260720_pinceaux_021",
+    "slug": "kit-13-pinceaux-maquillage-complet",
+    "name": "Kit complet 13 pinceaux de maquillage",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 80,
+    "badge": "Kit complet",
+    "image": "/uploads/quick-products/kit-13-pinceaux-maquillage-complet-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/kit-13-pinceaux-maquillage-complet-photo-1.webp",
+      "/uploads/quick-products/kit-13-pinceaux-maquillage-complet-photo-2.webp",
+      "/uploads/quick-products/kit-13-pinceaux-maquillage-complet-photo-3.webp",
+      "/uploads/quick-products/kit-13-pinceaux-maquillage-complet-photo-4.webp",
+      "/uploads/quick-products/kit-13-pinceaux-maquillage-complet-photo-5.webp"
+    ],
+    "shortDescription": "13 pinceaux doux : teint, poudre, fards, blush et kabuki — le kit complet.",
+    "description": "Tout ce qu'il faut pour un maquillage soigné : 13 pinceaux aux poils doux couvrant teint, correcteur, poudre, fards à paupières, blush et estompage kabuki. Manches confortables, densité de poils bien pensée pour chaque usage. Le kit idéal pour débuter comme pour compléter sa trousse — déjà 4 000 kits vendus.",
+    "features": [
+      "13 pinceaux : teint, poudre, yeux, blush, kabuki",
+      "Poils doux et denses, sans traces",
+      "Manches ergonomiques",
+      "Pour débutantes comme confirmées",
+      "4 000+ kits vendus"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1990,
+    "compareAtPrice": 2690,
+    "imageAlt": "Kit complet 13 pinceaux de maquillage",
+    "seo": {
+      "title": "Kit complet 13 pinceaux de maquillage | Maxi Trouvaille",
+      "description": "13 pinceaux doux : teint, poudre, fards, blush et kabuki — le kit complet.",
+      "imageAlt": "Kit complet 13 pinceaux de maquillage"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "note": "Photos fournisseur exactes importees en local (webp) le 20/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "productUrl": "https://fr.aliexpress.com/item/1005009233340712.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-20"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009233340712.html",
+      "supplierSku": "AE-1005009233340712-BRUSHKIT",
+      "supplierPriceCents": 769,
+      "supplierStock": 80,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1990,
+      "marginCents": 1221,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (4 000 ventes)",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260720_gamelle_glouton_020",
+    "slug": "gamelle-anti-glouton-chien-chat",
+    "name": "Gamelle anti-glouton pour chien et chat",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 100,
+    "badge": "Santé animale",
+    "image": "/uploads/quick-products/gamelle-anti-glouton-chien-chat-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/gamelle-anti-glouton-chien-chat-photo-1.webp",
+      "/uploads/quick-products/gamelle-anti-glouton-chien-chat-photo-2.webp",
+      "/uploads/quick-products/gamelle-anti-glouton-chien-chat-photo-3.webp",
+      "/uploads/quick-products/gamelle-anti-glouton-chien-chat-photo-4.webp",
+      "/uploads/quick-products/gamelle-anti-glouton-chien-chat-photo-5.webp"
+    ],
+    "shortDescription": "Gamelle à labyrinthe qui ralentit les gloutons : meilleure digestion, moins de risques.",
+    "description": "Votre chien avale sa gamelle en 30 secondes ? Ce n'est pas bon pour lui : ballonnements, vomissements, risque de torsion d'estomac. Cette gamelle à labyrinthe le force à manger 5 à 10 fois plus lentement, en s'amusant. Antidérapante, facile à laver. Plus de 5 000 maîtres l'ont déjà adoptée.",
+    "features": [
+      "Ralentit la prise alimentaire de 5 à 10 fois",
+      "Meilleure digestion, moins de vomissements",
+      "Base antidérapante",
+      "Facile à laver",
+      "5 000+ exemplaires vendus"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1090,
+    "compareAtPrice": 1490,
+    "imageAlt": "Gamelle anti-glouton pour chien et chat",
+    "seo": {
+      "title": "Gamelle anti-glouton pour chien et chat | Maxi Trouvaille",
+      "description": "Gamelle à labyrinthe qui ralentit les gloutons : meilleure digestion, moins de risques.",
+      "imageAlt": "Gamelle anti-glouton pour chien et chat"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "note": "Photos fournisseur exactes importees en local (webp) le 20/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "productUrl": "https://fr.aliexpress.com/item/1005004323442131.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-20"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005004323442131.html",
+      "supplierSku": "AE-1005004323442131-SLOWBOWL",
+      "supplierPriceCents": 359,
+      "supplierStock": 100,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1090,
+      "marginCents": 731,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (5 000 ventes)",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260720_balle_chat_019",
+    "slug": "balle-interactive-chat-automatique",
+    "name": "Balle interactive automatique pour chat",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 90,
+    "badge": "Occupation féline",
+    "image": "/uploads/quick-products/balle-interactive-chat-automatique-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/balle-interactive-chat-automatique-photo-1.webp",
+      "/uploads/quick-products/balle-interactive-chat-automatique-photo-2.webp",
+      "/uploads/quick-products/balle-interactive-chat-automatique-photo-3.webp",
+      "/uploads/quick-products/balle-interactive-chat-automatique-photo-4.webp",
+      "/uploads/quick-products/balle-interactive-chat-automatique-photo-5.webp"
+    ],
+    "shortDescription": "Balle magique qui roule toute seule : le chat joue même quand vous n'êtes pas là.",
+    "description": "Un chat qui s'ennuie fait des bêtises : cette balle roule et change de direction toute seule, réveillant l'instinct de chasse même quand vous êtes au travail. Rechargeable, elle s'arrête automatiquement et repart au moindre coup de patte. Le jouet qui fatigue le chat, pas le maître.",
+    "features": [
+      "Roule et change de direction toute seule",
+      "Réveille l'instinct de chasse du chat",
+      "Rechargeable USB",
+      "S'active au coup de patte",
+      "Occupe le chat pendant vos absences"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1090,
+    "compareAtPrice": 1490,
+    "imageAlt": "Balle interactive automatique pour chat",
+    "seo": {
+      "title": "Balle interactive automatique pour chat | Maxi Trouvaille",
+      "description": "Balle magique qui roule toute seule : le chat joue même quand vous n'êtes pas là.",
+      "imageAlt": "Balle interactive automatique pour chat"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "note": "Photos fournisseur exactes importees en local (webp) le 20/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "productUrl": "https://fr.aliexpress.com/item/1005007598004926.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-20"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007598004926.html",
+      "supplierSku": "AE-1005007598004926-CATBALL",
+      "supplierPriceCents": 339,
+      "supplierStock": 90,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1090,
+      "marginCents": 751,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (2 000 ventes)",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260720_chapeau_paille_018",
+    "slug": "chapeau-paille-pliable-upf50",
+    "name": "Chapeau de paille pliable UPF 50+",
+    "categoryId": "dropshipping-mode",
+    "condition": "Neuf",
+    "stock": 80,
+    "badge": "Protection soleil",
+    "image": "/uploads/quick-products/chapeau-paille-pliable-upf50-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/chapeau-paille-pliable-upf50-photo-1.webp",
+      "/uploads/quick-products/chapeau-paille-pliable-upf50-photo-2.webp",
+      "/uploads/quick-products/chapeau-paille-pliable-upf50-photo-3.webp",
+      "/uploads/quick-products/chapeau-paille-pliable-upf50-photo-4.webp",
+      "/uploads/quick-products/chapeau-paille-pliable-upf50-photo-5.webp"
+    ],
+    "shortDescription": "Chapeau de paille à large bord, protection UPF 50+, se plie dans le sac sans s'abîmer.",
+    "description": "L'élégance ET la protection : ce chapeau à large bord bloque les UV (indice UPF 50+) et se plie dans le sac de plage sans garder de mauvais pli. Léger, aéré, il accompagne plage, marché, jardin et terrasses. L'accessoire d'été qui sauve la peau ET le style.",
+    "features": [
+      "Protection solaire UPF 50+",
+      "Large bord : visage et nuque à l'ombre",
+      "Pliable : se glisse dans le sac sans s'abîmer",
+      "Léger et aéré",
+      "Plage, marché, jardin, terrasse"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1490,
+    "compareAtPrice": 1990,
+    "imageAlt": "Chapeau de paille pliable UPF 50+",
+    "seo": {
+      "title": "Chapeau de paille pliable UPF 50+ | Maxi Trouvaille",
+      "description": "Chapeau de paille à large bord, protection UPF 50+, se plie dans le sac sans s'abîmer.",
+      "imageAlt": "Chapeau de paille pliable UPF 50+"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "note": "Photos fournisseur exactes importees en local (webp) le 20/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "productUrl": "https://fr.aliexpress.com/item/1005009523249502.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-20"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009523249502.html",
+      "supplierSku": "AE-1005009523249502-STRAWHAT",
+      "supplierPriceCents": 449,
+      "supplierStock": 80,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1490,
+      "marginCents": 1041,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique (383 ventes)",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
+    "id": "ali_claude_20260720_claquettes_nuage_017",
+    "slug": "claquettes-nuage-eva-ultra-souples",
+    "name": "Claquettes nuage ultra souples",
+    "categoryId": "dropshipping-mode",
+    "condition": "Neuf",
+    "stock": 90,
+    "badge": "Confort nuage",
+    "image": "/uploads/quick-products/claquettes-nuage-eva-ultra-souples-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/claquettes-nuage-eva-ultra-souples-photo-1.webp",
+      "/uploads/quick-products/claquettes-nuage-eva-ultra-souples-photo-2.webp",
+      "/uploads/quick-products/claquettes-nuage-eva-ultra-souples-photo-3.webp",
+      "/uploads/quick-products/claquettes-nuage-eva-ultra-souples-photo-4.webp",
+      "/uploads/quick-products/claquettes-nuage-eva-ultra-souples-photo-5.webp"
+    ],
+    "shortDescription": "Les fameuses claquettes « nuage » en EVA : marcher dessus, c'est comme marcher sur un coussin.",
+    "description": "Le phénomène des étés : des claquettes en EVA à semelle épaisse qui donnent l'impression de marcher sur un nuage. Ultra légères, antidérapantes, elles passent de la douche à la plage et du jardin au canapé. Unisexe, grandes tailles disponibles. Une fois essayées, on ne porte plus rien d'autre à la maison.",
+    "features": [
+      "Semelle épaisse effet « marcher sur un nuage »",
+      "EVA ultra légère et souple",
+      "Antidérapantes : douche, piscine, plage",
+      "Unisexe, larges choix de tailles",
+      "Le confort de l'été à la maison"
+    ],
+    "livraisonDisponible": "toutes",
+    "source": "internal",
+    "status": "published",
+    "price": 1790,
+    "compareAtPrice": 2390,
+    "imageAlt": "Claquettes nuage ultra souples",
+    "seo": {
+      "title": "Claquettes nuage ultra souples | Maxi Trouvaille",
+      "description": "Les fameuses claquettes « nuage » en EVA : marcher dessus, c'est comme marcher sur un coussin.",
+      "imageAlt": "Claquettes nuage ultra souples"
+    },
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "note": "Photos fournisseur exactes importees en local (webp) le 20/07/2026."
+    },
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "productUrl": "https://fr.aliexpress.com/item/1005012425399363.html",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    },
+    "internalSourcing": {
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingRule": "paliers x3.2/x2.8/x2.2 avec ajustement marche, plancher 6,90 EUR",
+      "pricingUpdatedAt": "2026-07-20"
+    },
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005012425399363.html",
+      "supplierSku": "AE-1005012425399363-CLOUDSLIDES",
+      "supplierPriceCents": 629,
+      "supplierStock": 90,
+      "deliveryEstimate": "Livraison suivie 7 a 14 jours ouvres",
+      "isPromotion": true,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1790,
+      "marginCents": 1161,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "Selection proprietaire + annonce AliExpress publique",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    }
+  },
+  {
     "id": "ali_claude_20260719_kit_perles_016",
     "slug": "kit-perles-lettres-bracelets-diy",
     "name": "Kit 10 800 perles lettres pour bracelets DIY",
