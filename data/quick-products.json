@@ -15487,5 +15487,1073 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_chapeau_soleil_protection_uv_rabat_cou_001",
+    "slug": "chapeau-soleil-protection-uv-rabat-cou",
+    "name": "Chapeau de soleil anti-UV avec rabat de cou",
+    "categoryId": "dropshipping-mode",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/chapeau-soleil-protection-uv-rabat-cou-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/chapeau-soleil-protection-uv-rabat-cou-photo-1.webp",
+      "/uploads/quick-products/chapeau-soleil-protection-uv-rabat-cou-photo-2.webp",
+      "/uploads/quick-products/chapeau-soleil-protection-uv-rabat-cou-photo-3.webp",
+      "/uploads/quick-products/chapeau-soleil-protection-uv-rabat-cou-photo-4.webp",
+      "/uploads/quick-products/chapeau-soleil-protection-uv-rabat-cou-photo-5.webp",
+      "/uploads/quick-products/chapeau-soleil-protection-uv-rabat-cou-photo-6.webp"
+    ],
+    "shortDescription": "Chapeau d ete avec protection UV et rabat de cou amovible : ideal jardin, peche, randonnee et vacances au soleil.",
+    "description": "Chapeau de soleil leger avec visiere couvrante et rabat protege-nuque : une protection UV complete pour le jardinage, la peche, la randonnee ou la plage. Tissu respirant qui seche vite, taille reglable pour homme et femme.",
+    "features": [
+      "Protection UV avec rabat protege-nuque",
+      "Tissu leger et respirant, sechage rapide",
+      "Reglable, unisexe : jardin, peche, rando, plage"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008397715408.html",
+      "supplierSku": "AE-ITEM-1005008397715408",
+      "supplierPriceCents": 379,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1090,
+      "marginCents": 711,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008397715408.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 188,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 3.79 EUR, boutique 10.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:58:59.024Z"
+    },
+    "price": 1090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008397715408.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008397715408 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Chapeau de soleil anti-UV avec rabat de cou | Maxi Trouvaille",
+      "description": "Chapeau d ete avec protection UV et rabat de cou amovible : ideal jardin, peche, randonnee et vacances au soleil.",
+      "h1": "Chapeau de soleil anti-UV avec rabat de cou",
+      "h2": "Pourquoi choisir Chapeau de soleil anti-UV avec rabat de cou",
+      "keywords": [
+        "chapeau",
+        "soleil",
+        "protection",
+        "rabat",
+        "cou",
+        "dropshipping-mode"
+      ],
+      "imageAlt": "Chapeau de soleil anti-UV avec rabat de cou - mode Maxi Trouvaille"
+    },
+    "imageAlt": "Chapeau de soleil anti-UV avec rabat de cou - mode Maxi Trouvaille",
+    "compareAtPrice": 1490,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_lot_20_paires_chaussettes_coton_homme_001",
+    "slug": "lot-20-paires-chaussettes-coton-homme",
+    "name": "Lot de 20 paires de chaussettes coton homme",
+    "categoryId": "dropshipping-mode",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/lot-20-paires-chaussettes-coton-homme-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/lot-20-paires-chaussettes-coton-homme-photo-1.webp",
+      "/uploads/quick-products/lot-20-paires-chaussettes-coton-homme-photo-2.webp",
+      "/uploads/quick-products/lot-20-paires-chaussettes-coton-homme-photo-3.webp",
+      "/uploads/quick-products/lot-20-paires-chaussettes-coton-homme-photo-4.webp",
+      "/uploads/quick-products/lot-20-paires-chaussettes-coton-homme-photo-5.webp",
+      "/uploads/quick-products/lot-20-paires-chaussettes-coton-homme-photo-6.webp"
+    ],
+    "shortDescription": "Lot de 20 paires de chaussettes hautes en coton respirant, noires et blanches : le stock complet pour toute l annee.",
+    "description": "Lot de 20 paires de chaussettes hautes classiques en coton respirant qui absorbe la transpiration. Coloris noir et blanc faciles a assortir, elastique confortable qui tient sans serrer : le tiroir a chaussettes rempli pour l annee.",
+    "features": [
+      "20 paires : le stock pour toute l annee",
+      "Coton respirant, absorbe la transpiration",
+      "Coloris classiques noir et blanc"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009384252185.html",
+      "supplierSku": "AE-ITEM-1005009384252185",
+      "supplierPriceCents": 599,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1690,
+      "marginCents": 1091,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009384252185.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 182,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 5.99 EUR, boutique 16.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:59:01.320Z"
+    },
+    "price": 1690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009384252185.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009384252185 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Lot de 20 paires de chaussettes coton homme | Maxi Trouvaille",
+      "description": "Lot de 20 paires de chaussettes hautes en coton respirant, noires et blanches : le stock complet pour toute l annee.",
+      "h1": "Lot de 20 paires de chaussettes coton homme",
+      "h2": "Pourquoi choisir Lot de 20 paires de chaussettes coton homme",
+      "keywords": [
+        "lot",
+        "paires",
+        "chaussettes",
+        "coton",
+        "homme",
+        "dropshipping-mode"
+      ],
+      "imageAlt": "Lot de 20 paires de chaussettes coton homme - mode Maxi Trouvaille"
+    },
+    "imageAlt": "Lot de 20 paires de chaussettes coton homme - mode Maxi Trouvaille",
+    "compareAtPrice": 2290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_kit_5_pinceaux_maquillage_voyage_miroir_001",
+    "slug": "kit-5-pinceaux-maquillage-voyage-miroir",
+    "name": "Kit 5 pinceaux maquillage de voyage avec miroir",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/kit-5-pinceaux-maquillage-voyage-miroir-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/kit-5-pinceaux-maquillage-voyage-miroir-photo-1.webp",
+      "/uploads/quick-products/kit-5-pinceaux-maquillage-voyage-miroir-photo-2.webp",
+      "/uploads/quick-products/kit-5-pinceaux-maquillage-voyage-miroir-photo-3.webp",
+      "/uploads/quick-products/kit-5-pinceaux-maquillage-voyage-miroir-photo-4.webp",
+      "/uploads/quick-products/kit-5-pinceaux-maquillage-voyage-miroir-photo-5.webp",
+      "/uploads/quick-products/kit-5-pinceaux-maquillage-voyage-miroir-photo-6.webp"
+    ],
+    "shortDescription": "Kit de 5 pinceaux de maquillage dans un etui pliable avec miroir integre : la trousse beaute compacte a glisser dans le sac.",
+    "description": "Kit de 5 pinceaux de maquillage aux poils doux, ranges dans un etui pliable avec miroir integre. Fond de teint, poudre, fard a paupieres : l essentiel dans un format voyage qui se glisse dans le sac a main ou la valise.",
+    "features": [
+      "5 pinceaux doux : teint, poudre, yeux",
+      "Etui pliable avec miroir integre",
+      "Format voyage : sac a main et valise"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007542604477.html",
+      "supplierSku": "AE-ITEM-1005007542604477",
+      "supplierPriceCents": 259,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 890,
+      "marginCents": 631,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007542604477.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 244,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.59 EUR, boutique 8.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:59:01.752Z"
+    },
+    "price": 890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007542604477.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007542604477 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Kit 5 pinceaux maquillage de voyage avec miroir | Maxi Trouvaille",
+      "description": "Kit de 5 pinceaux de maquillage dans un etui pliable avec miroir integre : la trousse beaute compacte a glisser dans le sac.",
+      "h1": "Kit 5 pinceaux maquillage de voyage avec miroir",
+      "h2": "Pourquoi choisir Kit 5 pinceaux maquillage de voyage avec miroir",
+      "keywords": [
+        "kit",
+        "pinceaux",
+        "maquillage",
+        "voyage",
+        "miroir",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Kit 5 pinceaux maquillage de voyage avec miroir - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Kit 5 pinceaux maquillage de voyage avec miroir - beaute Maxi Trouvaille",
+    "compareAtPrice": 1290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_pop_tubes_sensoriels_lot_4_jouets_001",
+    "slug": "pop-tubes-sensoriels-lot-4-jouets",
+    "name": "Pop tubes sensoriels colorés - lot de 4",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/pop-tubes-sensoriels-lot-4-jouets-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/pop-tubes-sensoriels-lot-4-jouets-photo-1.webp",
+      "/uploads/quick-products/pop-tubes-sensoriels-lot-4-jouets-photo-2.webp",
+      "/uploads/quick-products/pop-tubes-sensoriels-lot-4-jouets-photo-3.webp",
+      "/uploads/quick-products/pop-tubes-sensoriels-lot-4-jouets-photo-4.webp",
+      "/uploads/quick-products/pop-tubes-sensoriels-lot-4-jouets-photo-5.webp",
+      "/uploads/quick-products/pop-tubes-sensoriels-lot-4-jouets-photo-6.webp"
+    ],
+    "shortDescription": "Lot de 4 pop tubes colores a etirer, plier et connecter : le jouet sensoriel qui occupe les mains et libere le stress.",
+    "description": "Lot de 4 pop tubes colores et robustes, a etirer, plier, tordre et connecter entre eux. Un jouet sensoriel amusant qui developpe la motricite des enfants, occupe les mains pendant les trajets et aide a la concentration.",
+    "features": [
+      "Lot de 4 tubes colores et robustes",
+      "S etirent, se plient et se connectent",
+      "Jouet sensoriel : motricite et concentration"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006863880275.html",
+      "supplierSku": "AE-ITEM-1005006863880275",
+      "supplierPriceCents": 199,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 491,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006863880275.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 247,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 1.99 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:59:02.431Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006863880275.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006863880275 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Pop tubes sensoriels colorés - lot de 4 | Maxi Trouvaille",
+      "description": "Lot de 4 pop tubes colores a etirer, plier et connecter : le jouet sensoriel qui occupe les mains et libere le stress.",
+      "h1": "Pop tubes sensoriels colorés - lot de 4",
+      "h2": "Pourquoi choisir Pop tubes sensoriels colorés - lot de 4",
+      "keywords": [
+        "pop",
+        "tubes",
+        "sensoriels",
+        "lot",
+        "jouets",
+        "dropshipping-enfant"
+      ],
+      "imageAlt": "Pop tubes sensoriels colorés - lot de 4 - enfant Maxi Trouvaille"
+    },
+    "imageAlt": "Pop tubes sensoriels colorés - lot de 4 - enfant Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_tapis_lechage_silicone_chien_ventouses_001",
+    "slug": "tapis-lechage-silicone-chien-ventouses",
+    "name": "Tapis de léchage silicone pour chien",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/tapis-lechage-silicone-chien-ventouses-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/tapis-lechage-silicone-chien-ventouses-photo-1.webp",
+      "/uploads/quick-products/tapis-lechage-silicone-chien-ventouses-photo-2.webp",
+      "/uploads/quick-products/tapis-lechage-silicone-chien-ventouses-photo-3.webp",
+      "/uploads/quick-products/tapis-lechage-silicone-chien-ventouses-photo-4.webp",
+      "/uploads/quick-products/tapis-lechage-silicone-chien-ventouses-photo-5.webp",
+      "/uploads/quick-products/tapis-lechage-silicone-chien-ventouses-photo-6.webp"
+    ],
+    "shortDescription": "Tapis de lechage en silicone a ventouses pour chien : ralentit la gamelle, occupe et apaise pendant le bain ou le brossage.",
+    "description": "Tapis de lechage en silicone souple avec ventouses de fixation : etalez patee ou puree dessus pour occuper le chien pendant le bain, le brossage ou la coupe de griffes. Il ralentit aussi les gloutons et apaise les chiens anxieux.",
+    "features": [
+      "Ventouses : se fixe au mur ou au sol",
+      "Ralentit les repas des gloutons",
+      "Occupe le chien pendant bain et soins"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009935840632.html",
+      "supplierSku": "AE-ITEM-1005009935840632",
+      "supplierPriceCents": 289,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 990,
+      "marginCents": 701,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009935840632.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 243,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.89 EUR, boutique 9.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:59:02.760Z"
+    },
+    "price": 990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009935840632.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009935840632 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Tapis de léchage silicone pour chien | Maxi Trouvaille",
+      "description": "Tapis de lechage en silicone a ventouses pour chien : ralentit la gamelle, occupe et apaise pendant le bain ou le brossage.",
+      "h1": "Tapis de léchage silicone pour chien",
+      "h2": "Pourquoi choisir Tapis de léchage silicone pour chien",
+      "keywords": [
+        "tapis",
+        "lechage",
+        "silicone",
+        "chien",
+        "ventouses",
+        "dropshipping-animaux"
+      ],
+      "imageAlt": "Tapis de léchage silicone pour chien - animaux Maxi Trouvaille"
+    },
+    "imageAlt": "Tapis de léchage silicone pour chien - animaux Maxi Trouvaille",
+    "compareAtPrice": 1390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_organisateur_fente_siege_voiture_2_piece_001",
+    "slug": "organisateur-fente-siege-voiture-2-pieces",
+    "name": "Organisateur de fente de siège voiture (2 pièces)",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/organisateur-fente-siege-voiture-2-pieces-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/organisateur-fente-siege-voiture-2-pieces-photo-1.webp",
+      "/uploads/quick-products/organisateur-fente-siege-voiture-2-pieces-photo-2.webp",
+      "/uploads/quick-products/organisateur-fente-siege-voiture-2-pieces-photo-3.webp",
+      "/uploads/quick-products/organisateur-fente-siege-voiture-2-pieces-photo-4.webp",
+      "/uploads/quick-products/organisateur-fente-siege-voiture-2-pieces-photo-5.webp",
+      "/uploads/quick-products/organisateur-fente-siege-voiture-2-pieces-photo-6.webp"
+    ],
+    "shortDescription": "Boites de rangement a glisser entre siege et console : fini le telephone, les cles ou les pieces qui tombent dans la fente.",
+    "description": "Lot de 2 organisateurs a glisser dans la fente entre le siege et la console centrale : telephone, cles, cartes, monnaie et lunettes restent a portee de main au lieu de tomber sous le siege. Installation immediate, adaptes a la plupart des voitures.",
+    "features": [
+      "Comble la fente siege-console : rien ne tombe",
+      "Rangement telephone, cles, cartes, monnaie",
+      "Lot de 2, installation immediate"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009800425890.html",
+      "supplierSku": "AE-ITEM-1005009800425890",
+      "supplierPriceCents": 259,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 890,
+      "marginCents": 631,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009800425890.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 244,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.59 EUR, boutique 8.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:59:03.521Z"
+    },
+    "price": 890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009800425890.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009800425890 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Organisateur de fente de siège voiture (2 pièces) | Maxi Trouvaille",
+      "description": "Boites de rangement a glisser entre siege et console : fini le telephone, les cles ou les pieces qui tombent dans la fente.",
+      "h1": "Organisateur de fente de siège voiture (2 pièces)",
+      "h2": "Pourquoi choisir Organisateur de fente de siège voiture (2 pièces)",
+      "keywords": [
+        "organisateur",
+        "fente",
+        "siege",
+        "voiture",
+        "pieces",
+        "dropshipping-auto-moto"
+      ],
+      "imageAlt": "Organisateur de fente de siège voiture (2 pièces) - auto-moto Maxi Trouvaille"
+    },
+    "imageAlt": "Organisateur de fente de siège voiture (2 pièces) - auto-moto Maxi Trouvaille",
+    "compareAtPrice": 1290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_moulin_sel_poivre_electrique_rechargeabl_001",
+    "slug": "moulin-sel-poivre-electrique-rechargeable",
+    "name": "Moulin à sel et poivre électrique rechargeable",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/moulin-sel-poivre-electrique-rechargeable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/moulin-sel-poivre-electrique-rechargeable-photo-1.webp",
+      "/uploads/quick-products/moulin-sel-poivre-electrique-rechargeable-photo-2.webp",
+      "/uploads/quick-products/moulin-sel-poivre-electrique-rechargeable-photo-3.webp",
+      "/uploads/quick-products/moulin-sel-poivre-electrique-rechargeable-photo-4.webp",
+      "/uploads/quick-products/moulin-sel-poivre-electrique-rechargeable-photo-5.webp",
+      "/uploads/quick-products/moulin-sel-poivre-electrique-rechargeable-photo-6.webp"
+    ],
+    "shortDescription": "Moulin electrique rechargeable pour sel et poivre avec reglage de la grosseur : assaisonnement d une seule main, comme au restaurant.",
+    "description": "Moulin a sel et poivre electrique rechargeable : une pression suffit pour moudre, meme une poele a la main. Reglage externe de la grosseur de mouture, corps elegant qui trouve sa place sur la table comme a cote des plaques.",
+    "features": [
+      "Moud d une seule main, une simple pression",
+      "Reglage de la grosseur de mouture",
+      "Rechargeable : pas de piles a changer"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010487376364.html",
+      "supplierSku": "AE-ITEM-1005010487376364",
+      "supplierPriceCents": 959,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2190,
+      "marginCents": 1231,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010487376364.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (2000+ ventes, visuels officiels importes).",
+      "markupPercent": 128,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 9.59 EUR, boutique 21.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:59:04.137Z"
+    },
+    "price": 2190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010487376364.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010487376364 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Moulin à sel et poivre électrique rechargeable | Maxi Trouvaille",
+      "description": "Moulin electrique rechargeable pour sel et poivre avec reglage de la grosseur : assaisonnement d une seule main, comme au restaurant.",
+      "h1": "Moulin à sel et poivre électrique rechargeable",
+      "h2": "Pourquoi choisir Moulin à sel et poivre électrique rechargeable",
+      "keywords": [
+        "moulin",
+        "sel",
+        "poivre",
+        "electrique",
+        "rechargeable",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Moulin à sel et poivre électrique rechargeable - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Moulin à sel et poivre électrique rechargeable - cuisine Maxi Trouvaille",
+    "compareAtPrice": 2990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_souris_gaming_sans_fil_attack_shark_x11_001",
+    "slug": "souris-gaming-sans-fil-attack-shark-x11",
+    "name": "Souris gaming sans fil Attack Shark X11",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/souris-gaming-sans-fil-attack-shark-x11-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/souris-gaming-sans-fil-attack-shark-x11-photo-1.webp",
+      "/uploads/quick-products/souris-gaming-sans-fil-attack-shark-x11-photo-2.webp",
+      "/uploads/quick-products/souris-gaming-sans-fil-attack-shark-x11-photo-3.webp",
+      "/uploads/quick-products/souris-gaming-sans-fil-attack-shark-x11-photo-4.webp",
+      "/uploads/quick-products/souris-gaming-sans-fil-attack-shark-x11-photo-5.webp",
+      "/uploads/quick-products/souris-gaming-sans-fil-attack-shark-x11-photo-6.webp"
+    ],
+    "shortDescription": "Souris gaming sans fil Attack Shark X11 avec capteur PAW3311, RGB et station de charge magnetique : precision pro pour les joueurs.",
+    "description": "Souris gaming sans fil Attack Shark X11 equipee du capteur optique PAW3311, d un taux de rafraichissement 1000 Hz, d un eclairage RGB et d une station de charge magnetique. Legere et precise, elle est taillee pour les sessions de jeu intenses comme pour le bureau.",
+    "features": [
+      "Capteur PAW3311 precis, 1000 Hz",
+      "Station de charge magnetique incluse",
+      "Eclairage RGB, design leger"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007987814586.html",
+      "supplierSku": "AE-ITEM-1005007987814586",
+      "supplierPriceCents": 2739,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6090,
+      "marginCents": 3351,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007987814586.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (4000+ ventes, visuels officiels importes).",
+      "markupPercent": 122,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 27.39 EUR, boutique 60.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:59:06.626Z"
+    },
+    "price": 6090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007987814586.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007987814586 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Souris gaming sans fil Attack Shark X11 | Maxi Trouvaille",
+      "description": "Souris gaming sans fil Attack Shark X11 avec capteur PAW3311, RGB et station de charge magnetique : precision pro pour les joueurs.",
+      "h1": "Souris gaming sans fil Attack Shark X11",
+      "h2": "Pourquoi choisir Souris gaming sans fil Attack Shark X11",
+      "keywords": [
+        "souris",
+        "gaming",
+        "sans",
+        "fil",
+        "attack",
+        "shark",
+        "x11",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Souris gaming sans fil Attack Shark X11 - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Souris gaming sans fil Attack Shark X11 - high-tech Maxi Trouvaille",
+    "compareAtPrice": 8290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_station_meteo_numerique_bureau_wifi_001",
+    "slug": "station-meteo-numerique-bureau-wifi",
+    "name": "Station météo numérique de bureau WiFi",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/station-meteo-numerique-bureau-wifi-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/station-meteo-numerique-bureau-wifi-photo-1.webp",
+      "/uploads/quick-products/station-meteo-numerique-bureau-wifi-photo-2.webp",
+      "/uploads/quick-products/station-meteo-numerique-bureau-wifi-photo-3.webp",
+      "/uploads/quick-products/station-meteo-numerique-bureau-wifi-photo-4.webp",
+      "/uploads/quick-products/station-meteo-numerique-bureau-wifi-photo-5.webp",
+      "/uploads/quick-products/station-meteo-numerique-bureau-wifi-photo-6.webp"
+    ],
+    "shortDescription": "Mini station meteo WiFi avec ecran couleur : heure, meteo et temperature en direct dans un joli objet deco pour le bureau.",
+    "description": "Mini station meteo numerique connectee en WiFi avec ecran couleur IPS : heure, previsions meteo et temperature s affichent en direct dans un petit boitier deco. Un gadget pratique et original pour le bureau, l etagere ou la table de nuit.",
+    "features": [
+      "Meteo et heure en direct via WiFi",
+      "Ecran couleur IPS lisible et compact",
+      "Objet deco original pour bureau ou chevet"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006728045097.html",
+      "supplierSku": "AE-ITEM-1005006728045097",
+      "supplierPriceCents": 1289,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2890,
+      "marginCents": 1601,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006728045097.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 124,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 12.89 EUR, boutique 28.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:59:07.060Z"
+    },
+    "price": 2890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006728045097.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006728045097 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Station météo numérique de bureau WiFi | Maxi Trouvaille",
+      "description": "Mini station meteo WiFi avec ecran couleur : heure, meteo et temperature en direct dans un joli objet deco pour le bureau.",
+      "h1": "Station météo numérique de bureau WiFi",
+      "h2": "Pourquoi choisir Station météo numérique de bureau WiFi",
+      "keywords": [
+        "station",
+        "meteo",
+        "numerique",
+        "bureau",
+        "wifi",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Station météo numérique de bureau WiFi - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Station météo numérique de bureau WiFi - maison Maxi Trouvaille",
+    "compareAtPrice": 3990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_montre_homme_quartz_bracelet_acier_001",
+    "slug": "montre-homme-quartz-bracelet-acier",
+    "name": "Montre homme quartz bracelet acier",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/montre-homme-quartz-bracelet-acier-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/montre-homme-quartz-bracelet-acier-photo-1.webp",
+      "/uploads/quick-products/montre-homme-quartz-bracelet-acier-photo-2.webp",
+      "/uploads/quick-products/montre-homme-quartz-bracelet-acier-photo-3.webp",
+      "/uploads/quick-products/montre-homme-quartz-bracelet-acier-photo-4.webp",
+      "/uploads/quick-products/montre-homme-quartz-bracelet-acier-photo-5.webp",
+      "/uploads/quick-products/montre-homme-quartz-bracelet-acier-photo-6.webp"
+    ],
+    "shortDescription": "Montre pour homme a mouvement quartz avec bracelet en acier : un look habille et intemporel pour le travail et les sorties.",
+    "description": "Montre pour homme a mouvement quartz fiable, cadran classique et bracelet en acier au look habille. Elle complete une tenue de bureau comme une sortie du week-end, et fait une jolie idee cadeau.",
+    "features": [
+      "Mouvement quartz precis et fiable",
+      "Bracelet acier au look habille",
+      "Style intemporel, idee cadeau"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007597238114.html",
+      "supplierSku": "AE-ITEM-1005007597238114",
+      "supplierPriceCents": 329,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 990,
+      "marginCents": 661,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007597238114.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 201,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 3.29 EUR, boutique 9.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:59:07.629Z"
+    },
+    "price": 990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007597238114.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007597238114 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Montre homme quartz bracelet acier | Maxi Trouvaille",
+      "description": "Montre pour homme a mouvement quartz avec bracelet en acier : un look habille et intemporel pour le travail et les sorties.",
+      "h1": "Montre homme quartz bracelet acier",
+      "h2": "Pourquoi choisir Montre homme quartz bracelet acier",
+      "keywords": [
+        "montre",
+        "homme",
+        "quartz",
+        "bracelet",
+        "acier",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Montre homme quartz bracelet acier - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Montre homme quartz bracelet acier - accessoires Maxi Trouvaille",
+    "compareAtPrice": 1390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_bocaux_hermetiques_gradues_conservation_001",
+    "slug": "bocaux-hermetiques-gradues-conservation",
+    "name": "Bocaux hermétiques gradués de conservation",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/bocaux-hermetiques-gradues-conservation-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/bocaux-hermetiques-gradues-conservation-photo-1.webp",
+      "/uploads/quick-products/bocaux-hermetiques-gradues-conservation-photo-2.webp",
+      "/uploads/quick-products/bocaux-hermetiques-gradues-conservation-photo-3.webp",
+      "/uploads/quick-products/bocaux-hermetiques-gradues-conservation-photo-4.webp",
+      "/uploads/quick-products/bocaux-hermetiques-gradues-conservation-photo-5.webp",
+      "/uploads/quick-products/bocaux-hermetiques-gradues-conservation-photo-6.webp"
+    ],
+    "shortDescription": "Bocaux de conservation hermetiques avec graduations pour cereales, pates et farine : placard range et aliments qui restent frais.",
+    "description": "Bocaux hermetiques transparents avec graduations et anneau de scellage : cereales, pates, riz, farine et biscuits restent frais et bien visibles. Un placard range, un frigo organise et fini les paquets ouverts qui trainent.",
+    "features": [
+      "Fermeture hermetique : fraicheur preservee",
+      "Graduations et paroi transparente",
+      "Placard, plan de travail et frigo ranges"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009383948783.html",
+      "supplierSku": "AE-ITEM-1005009383948783",
+      "supplierPriceCents": 569,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1690,
+      "marginCents": 1121,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009383948783.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 197,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 5.69 EUR, boutique 16.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T17:59:08.059Z"
+    },
+    "price": 1690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009383948783.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009383948783 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Bocaux hermétiques gradués de conservation | Maxi Trouvaille",
+      "description": "Bocaux de conservation hermetiques avec graduations pour cereales, pates et farine : placard range et aliments qui restent frais.",
+      "h1": "Bocaux hermétiques gradués de conservation",
+      "h2": "Pourquoi choisir Bocaux hermétiques gradués de conservation",
+      "keywords": [
+        "bocaux",
+        "hermetiques",
+        "gradues",
+        "conservation",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Bocaux hermétiques gradués de conservation - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Bocaux hermétiques gradués de conservation - cuisine Maxi Trouvaille",
+    "compareAtPrice": 2290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
