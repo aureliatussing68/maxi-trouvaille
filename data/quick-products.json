@@ -17328,5 +17328,685 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_mini_humidificateur_diffuseur_usb_180ml_001",
+    "slug": "mini-humidificateur-diffuseur-usb-180ml",
+    "name": "Mini humidificateur diffuseur USB 180 ml",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/mini-humidificateur-diffuseur-usb-180ml-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/mini-humidificateur-diffuseur-usb-180ml-photo-1.webp",
+      "/uploads/quick-products/mini-humidificateur-diffuseur-usb-180ml-photo-2.webp",
+      "/uploads/quick-products/mini-humidificateur-diffuseur-usb-180ml-photo-3.webp",
+      "/uploads/quick-products/mini-humidificateur-diffuseur-usb-180ml-photo-4.webp",
+      "/uploads/quick-products/mini-humidificateur-diffuseur-usb-180ml-photo-5.webp",
+      "/uploads/quick-products/mini-humidificateur-diffuseur-usb-180ml-photo-6.webp"
+    ],
+    "shortDescription": "Mini humidificateur USB 180 ml avec lumiere douce : brume fine pour la chambre, le bureau ou la voiture, air moins sec.",
+    "description": "Mini humidificateur d air USB de 180 ml qui diffuse une brume fine et silencieuse, avec lumiere d ambiance douce. Il rend l air moins sec dans la chambre, au bureau ou en voiture, et peut parfumer la piece avec quelques gouttes d huile essentielle.",
+    "features": [
+      "Brume fine et silencieuse, 180 ml",
+      "USB : chambre, bureau, voiture",
+      "Lumiere d ambiance douce integree"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007527811142.html",
+      "supplierSku": "AE-ITEM-1005007527811142",
+      "supplierPriceCents": 218,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 790,
+      "marginCents": 572,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007527811142.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 262,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.18 EUR, boutique 7.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:16:24.848Z"
+    },
+    "price": 790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007527811142.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007527811142 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Mini humidificateur diffuseur USB 180 ml | Maxi Trouvaille",
+      "description": "Mini humidificateur USB 180 ml avec lumiere douce : brume fine pour la chambre, le bureau ou la voiture, air moins sec.",
+      "h1": "Mini humidificateur diffuseur USB 180 ml",
+      "h2": "Pourquoi choisir Mini humidificateur diffuseur USB 180 ml",
+      "keywords": [
+        "mini",
+        "humidificateur",
+        "diffuseur",
+        "usb",
+        "180ml",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Mini humidificateur diffuseur USB 180 ml - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Mini humidificateur diffuseur USB 180 ml - maison Maxi Trouvaille",
+    "compareAtPrice": 1090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_kit_gua_sha_rouleau_jade_visage_001",
+    "slug": "kit-gua-sha-rouleau-jade-visage",
+    "name": "Kit gua sha et rouleau de jade pour le visage",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/kit-gua-sha-rouleau-jade-visage-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/kit-gua-sha-rouleau-jade-visage-photo-1.webp",
+      "/uploads/quick-products/kit-gua-sha-rouleau-jade-visage-photo-2.webp",
+      "/uploads/quick-products/kit-gua-sha-rouleau-jade-visage-photo-3.webp",
+      "/uploads/quick-products/kit-gua-sha-rouleau-jade-visage-photo-4.webp",
+      "/uploads/quick-products/kit-gua-sha-rouleau-jade-visage-photo-5.webp",
+      "/uploads/quick-products/kit-gua-sha-rouleau-jade-visage-photo-6.webp"
+    ],
+    "shortDescription": "Kit massage visage en pierre de jade : rouleau et pierre gua sha pour defatiguer, decongestionner et raffermir la peau.",
+    "description": "Kit de massage du visage en pierre naturelle de jade : le rouleau lisse et decongestionne, la pierre gua sha stimule la circulation et aide a raffermir la peau. Quelques minutes matin ou soir pour un moment de detente et un teint plus frais.",
+    "features": [
+      "Pierre de jade naturelle",
+      "Rouleau + pierre gua sha inclus",
+      "Defatigue, decongestionne, raffermit"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006207968289.html",
+      "supplierSku": "AE-ITEM-1005006207968289",
+      "supplierPriceCents": 279,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 990,
+      "marginCents": 711,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006207968289.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 255,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.79 EUR, boutique 9.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:16:25.342Z"
+    },
+    "price": 990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006207968289.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006207968289 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Kit gua sha et rouleau de jade pour le visage | Maxi Trouvaille",
+      "description": "Kit massage visage en pierre de jade : rouleau et pierre gua sha pour defatiguer, decongestionner et raffermir la peau.",
+      "h1": "Kit gua sha et rouleau de jade pour le visage",
+      "h2": "Pourquoi choisir Kit gua sha et rouleau de jade pour le visage",
+      "keywords": [
+        "kit",
+        "gua",
+        "sha",
+        "rouleau",
+        "jade",
+        "visage",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Kit gua sha et rouleau de jade pour le visage - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Kit gua sha et rouleau de jade pour le visage - beaute Maxi Trouvaille",
+    "compareAtPrice": 1390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_gamelle_inclinee_inox_chat_chien_001",
+    "slug": "gamelle-inclinee-inox-chat-chien",
+    "name": "Gamelle inclinée en inox pour chat et chien",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/gamelle-inclinee-inox-chat-chien-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/gamelle-inclinee-inox-chat-chien-photo-1.webp",
+      "/uploads/quick-products/gamelle-inclinee-inox-chat-chien-photo-2.webp",
+      "/uploads/quick-products/gamelle-inclinee-inox-chat-chien-photo-3.webp",
+      "/uploads/quick-products/gamelle-inclinee-inox-chat-chien-photo-4.webp",
+      "/uploads/quick-products/gamelle-inclinee-inox-chat-chien-photo-5.webp",
+      "/uploads/quick-products/gamelle-inclinee-inox-chat-chien-photo-6.webp"
+    ],
+    "shortDescription": "Gamelle surelevee et inclinee en acier inoxydable : une position de repas plus confortable pour le cou de votre compagnon.",
+    "description": "Gamelle en acier inoxydable montee sur un support incline : la nourriture arrive a bonne hauteur, ce qui soulage le cou et facilite la digestion des chats et petits chiens. Bol amovible facile a laver, base stable antiderapante.",
+    "features": [
+      "Inclinaison etudiee : cou soulage",
+      "Bol inox amovible, lavage facile",
+      "Base stable antiderapante"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009806600938.html",
+      "supplierSku": "AE-ITEM-1005009806600938",
+      "supplierPriceCents": 639,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1790,
+      "marginCents": 1151,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009806600938.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 180,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 6.39 EUR, boutique 17.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:16:25.827Z"
+    },
+    "price": 1790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009806600938.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009806600938 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Gamelle inclinée en inox pour chat et chien | Maxi Trouvaille",
+      "description": "Gamelle surelevee et inclinee en acier inoxydable : une position de repas plus confortable pour le cou de votre compagnon.",
+      "h1": "Gamelle inclinée en inox pour chat et chien",
+      "h2": "Pourquoi choisir Gamelle inclinée en inox pour chat et chien",
+      "keywords": [
+        "gamelle",
+        "inclinee",
+        "inox",
+        "chat",
+        "chien",
+        "dropshipping-animaux"
+      ],
+      "imageAlt": "Gamelle inclinée en inox pour chat et chien - animaux Maxi Trouvaille"
+    },
+    "imageAlt": "Gamelle inclinée en inox pour chat et chien - animaux Maxi Trouvaille",
+    "compareAtPrice": 2490,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_peluche_oreiller_phoque_grognon_001",
+    "slug": "peluche-oreiller-phoque-grognon",
+    "name": "Peluche oreiller phoque grognon",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/peluche-oreiller-phoque-grognon-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/peluche-oreiller-phoque-grognon-photo-1.webp",
+      "/uploads/quick-products/peluche-oreiller-phoque-grognon-photo-2.webp",
+      "/uploads/quick-products/peluche-oreiller-phoque-grognon-photo-3.webp",
+      "/uploads/quick-products/peluche-oreiller-phoque-grognon-photo-4.webp",
+      "/uploads/quick-products/peluche-oreiller-phoque-grognon-photo-5.webp",
+      "/uploads/quick-products/peluche-oreiller-phoque-grognon-photo-6.webp"
+    ],
+    "shortDescription": "Peluche phoque a la bouille grognonne, toute douce et potelee : calin, oreiller et deco de chambre en un seul animal.",
+    "description": "Peluche phoque potelee a l expression grognonne irresistible : ultra douce, elle sert de doudou, d oreiller d appoint et de deco de lit. Un cadeau qui fait rire et craquer les enfants comme les ados.",
+    "features": [
+      "Peluche ultra douce et potelee",
+      "Bouille grognonne irresistible",
+      "Doudou, oreiller et deco a la fois"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005788179268.html",
+      "supplierSku": "AE-ITEM-1005005788179268",
+      "supplierPriceCents": 429,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 861,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005788179268.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 201,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.29 EUR, boutique 12.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:16:26.144Z"
+    },
+    "price": 1290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005788179268.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005788179268 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Peluche oreiller phoque grognon | Maxi Trouvaille",
+      "description": "Peluche phoque a la bouille grognonne, toute douce et potelee : calin, oreiller et deco de chambre en un seul animal.",
+      "h1": "Peluche oreiller phoque grognon",
+      "h2": "Pourquoi choisir Peluche oreiller phoque grognon",
+      "keywords": [
+        "peluche",
+        "oreiller",
+        "phoque",
+        "grognon",
+        "dropshipping-enfant"
+      ],
+      "imageAlt": "Peluche oreiller phoque grognon - enfant Maxi Trouvaille"
+    },
+    "imageAlt": "Peluche oreiller phoque grognon - enfant Maxi Trouvaille",
+    "compareAtPrice": 1790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_chargeur_sans_fil_support_telephone_001",
+    "slug": "chargeur-sans-fil-support-telephone",
+    "name": "Chargeur sans fil avec support téléphone",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/chargeur-sans-fil-support-telephone-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/chargeur-sans-fil-support-telephone-photo-1.webp",
+      "/uploads/quick-products/chargeur-sans-fil-support-telephone-photo-2.webp",
+      "/uploads/quick-products/chargeur-sans-fil-support-telephone-photo-3.webp",
+      "/uploads/quick-products/chargeur-sans-fil-support-telephone-photo-4.webp",
+      "/uploads/quick-products/chargeur-sans-fil-support-telephone-photo-5.webp",
+      "/uploads/quick-products/chargeur-sans-fil-support-telephone-photo-6.webp"
+    ],
+    "shortDescription": "Station de charge sans fil qui tient le telephone debout : il charge pendant que vous regardez videos et notifications.",
+    "description": "Chargeur sans fil en forme de support : posez le telephone dessus, il se recharge tout en restant lisible pour les videos, recettes et notifications. Compatible avec les iPhone et Android compatibles charge sans fil.",
+    "features": [
+      "Charge sans fil : zero cable a brancher",
+      "Support incline : ecran lisible pendant la charge",
+      "Compatible iPhone et Android (norme Qi)"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007171202355.html",
+      "supplierSku": "AE-ITEM-1005007171202355",
+      "supplierPriceCents": 296,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 990,
+      "marginCents": 694,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007171202355.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (2000+ ventes, visuels officiels importes).",
+      "markupPercent": 234,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.96 EUR, boutique 9.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:16:26.446Z"
+    },
+    "price": 990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007171202355.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007171202355 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Chargeur sans fil avec support téléphone | Maxi Trouvaille",
+      "description": "Station de charge sans fil qui tient le telephone debout : il charge pendant que vous regardez videos et notifications.",
+      "h1": "Chargeur sans fil avec support téléphone",
+      "h2": "Pourquoi choisir Chargeur sans fil avec support téléphone",
+      "keywords": [
+        "chargeur",
+        "sans",
+        "fil",
+        "support",
+        "telephone",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Chargeur sans fil avec support téléphone - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Chargeur sans fil avec support téléphone - high-tech Maxi Trouvaille",
+    "compareAtPrice": 1390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_foulard_carre_satin_toucher_soie_001",
+    "slug": "foulard-carre-satin-toucher-soie",
+    "name": "Foulard carré satin toucher soie",
+    "categoryId": "dropshipping-mode",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/foulard-carre-satin-toucher-soie-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/foulard-carre-satin-toucher-soie-photo-1.webp",
+      "/uploads/quick-products/foulard-carre-satin-toucher-soie-photo-2.webp",
+      "/uploads/quick-products/foulard-carre-satin-toucher-soie-photo-3.webp",
+      "/uploads/quick-products/foulard-carre-satin-toucher-soie-photo-4.webp",
+      "/uploads/quick-products/foulard-carre-satin-toucher-soie-photo-5.webp",
+      "/uploads/quick-products/foulard-carre-satin-toucher-soie-photo-6.webp"
+    ],
+    "shortDescription": "Foulard carre au toucher soie a porter en echarpe, bandeau cheveux, tour de cou ou noue au sac : l accessoire qui change tout.",
+    "description": "Foulard carre en satin au toucher soie, imprime elegant : il se porte autour du cou, en bandeau dans les cheveux, noue au poignet ou sur l anse du sac. Un accessoire polyvalent qui habille une tenue en deux secondes.",
+    "features": [
+      "Satin doux au toucher soie",
+      "Se porte cou, cheveux, poignet, sac",
+      "Imprime elegant facile a assortir"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006892818381.html",
+      "supplierSku": "AE-ITEM-1005006892818381",
+      "supplierPriceCents": 279,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 990,
+      "marginCents": 711,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006892818381.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 255,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.79 EUR, boutique 9.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:16:27.672Z"
+    },
+    "price": 990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006892818381.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006892818381 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Foulard carré satin toucher soie | Maxi Trouvaille",
+      "description": "Foulard carre au toucher soie a porter en echarpe, bandeau cheveux, tour de cou ou noue au sac : l accessoire qui change tout.",
+      "h1": "Foulard carré satin toucher soie",
+      "h2": "Pourquoi choisir Foulard carré satin toucher soie",
+      "keywords": [
+        "foulard",
+        "carre",
+        "satin",
+        "toucher",
+        "soie",
+        "dropshipping-mode"
+      ],
+      "imageAlt": "Foulard carré satin toucher soie - mode Maxi Trouvaille"
+    },
+    "imageAlt": "Foulard carré satin toucher soie - mode Maxi Trouvaille",
+    "compareAtPrice": 1390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_porte_cartes_cuir_ultra_fin_femme_001",
+    "slug": "porte-cartes-cuir-ultra-fin-femme",
+    "name": "Porte-cartes ultra-fin en cuir pour femme",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/porte-cartes-cuir-ultra-fin-femme-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/porte-cartes-cuir-ultra-fin-femme-photo-1.webp",
+      "/uploads/quick-products/porte-cartes-cuir-ultra-fin-femme-photo-2.webp",
+      "/uploads/quick-products/porte-cartes-cuir-ultra-fin-femme-photo-3.webp",
+      "/uploads/quick-products/porte-cartes-cuir-ultra-fin-femme-photo-4.webp",
+      "/uploads/quick-products/porte-cartes-cuir-ultra-fin-femme-photo-5.webp",
+      "/uploads/quick-products/porte-cartes-cuir-ultra-fin-femme-photo-6.webp"
+    ],
+    "shortDescription": "Mini porte-cartes en cuir PU ultra-fin et minimaliste : cartes et billets ranges dans un format qui tient dans la paume.",
+    "description": "Porte-cartes minimaliste en cuir PU souple, ultra-fin : cartes bancaires, carte de transport et quelques billets tiennent dans un format qui se glisse dans la poche ou le plus petit sac. Plusieurs coloris tendance.",
+    "features": [
+      "Ultra-fin : tient dans la paume",
+      "Cuir PU souple, coloris tendance",
+      "Cartes, transport, billets : l essentiel"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006935897262.html",
+      "supplierSku": "AE-ITEM-1005006935897262",
+      "supplierPriceCents": 269,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 890,
+      "marginCents": 621,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006935897262.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 231,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.69 EUR, boutique 8.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T18:16:29.026Z"
+    },
+    "price": 890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006935897262.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006935897262 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Porte-cartes ultra-fin en cuir pour femme | Maxi Trouvaille",
+      "description": "Mini porte-cartes en cuir PU ultra-fin et minimaliste : cartes et billets ranges dans un format qui tient dans la paume.",
+      "h1": "Porte-cartes ultra-fin en cuir pour femme",
+      "h2": "Pourquoi choisir Porte-cartes ultra-fin en cuir pour femme",
+      "keywords": [
+        "porte",
+        "cartes",
+        "cuir",
+        "ultra",
+        "fin",
+        "femme",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Porte-cartes ultra-fin en cuir pour femme - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Porte-cartes ultra-fin en cuir pour femme - accessoires Maxi Trouvaille",
+    "compareAtPrice": 1290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
