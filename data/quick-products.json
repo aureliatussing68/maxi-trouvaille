@@ -18199,5 +18199,583 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_gants_four_silicone_anti_brulure_001",
+    "slug": "gants-four-silicone-anti-brulure",
+    "name": "Gants de four silicone anti-brûlure",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/gants-four-silicone-anti-brulure-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/gants-four-silicone-anti-brulure-photo-1.webp",
+      "/uploads/quick-products/gants-four-silicone-anti-brulure-photo-2.webp",
+      "/uploads/quick-products/gants-four-silicone-anti-brulure-photo-3.webp",
+      "/uploads/quick-products/gants-four-silicone-anti-brulure-photo-4.webp",
+      "/uploads/quick-products/gants-four-silicone-anti-brulure-photo-5.webp",
+      "/uploads/quick-products/gants-four-silicone-anti-brulure-photo-6.webp"
+    ],
+    "shortDescription": "Gants de cuisine en silicone anti-brulure : sortez plats et plaques du four sans risque, prise en main antiderapante.",
+    "description": "Gants de four en silicone resistant a la chaleur avec surface antiderapante : plats brulants, plaques de cuisson et bocaux recalcitrants se manipulent sans risque. Faciles a rincer, ils remplacent avantageusement les maniques en tissu.",
+    "features": [
+      "Silicone anti-brulure resistant a la chaleur",
+      "Surface antiderapante : bonne prise en main",
+      "Se rincent a l eau, sechage immediat"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010706713589.html",
+      "supplierSku": "AE-ITEM-1005010706713589",
+      "supplierPriceCents": 399,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1190,
+      "marginCents": 791,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010706713589.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 198,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 3.99 EUR, boutique 11.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T21:06:58.636Z"
+    },
+    "price": 1190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010706713589.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010706713589 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Gants de four silicone anti-brûlure | Maxi Trouvaille",
+      "description": "Gants de cuisine en silicone anti-brulure : sortez plats et plaques du four sans risque, prise en main antiderapante.",
+      "h1": "Gants de four silicone anti-brûlure",
+      "h2": "Pourquoi choisir Gants de four silicone anti-brûlure",
+      "keywords": [
+        "gants",
+        "four",
+        "silicone",
+        "anti",
+        "brulure",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Gants de four silicone anti-brûlure - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Gants de four silicone anti-brûlure - cuisine Maxi Trouvaille",
+    "compareAtPrice": 1690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_serviette_microfibre_sechage_voiture_001",
+    "slug": "serviette-microfibre-sechage-voiture",
+    "name": "Serviette microfibre de séchage voiture",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/serviette-microfibre-sechage-voiture-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/serviette-microfibre-sechage-voiture-photo-1.webp",
+      "/uploads/quick-products/serviette-microfibre-sechage-voiture-photo-2.webp",
+      "/uploads/quick-products/serviette-microfibre-sechage-voiture-photo-3.webp",
+      "/uploads/quick-products/serviette-microfibre-sechage-voiture-photo-4.webp",
+      "/uploads/quick-products/serviette-microfibre-sechage-voiture-photo-5.webp",
+      "/uploads/quick-products/serviette-microfibre-sechage-voiture-photo-6.webp"
+    ],
+    "shortDescription": "Serviette microfibre epaisse double couche : seche la carrosserie sans traces ni rayures apres le lavage.",
+    "description": "Serviette de sechage en microfibre epaisse double couche, ultra absorbante : elle seche la carrosserie sans laisser de traces ni micro-rayures apres le lavage. Sert aussi pour les vitres, l interieur et les surfaces delicates de la maison.",
+    "features": [
+      "Microfibre epaisse double couche",
+      "Ultra absorbante : sechage sans traces",
+      "Douce : zero micro-rayure sur la peinture"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006311851419.html",
+      "supplierSku": "AE-ITEM-1005006311851419",
+      "supplierPriceCents": 225,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 790,
+      "marginCents": 565,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006311851419.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 251,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.25 EUR, boutique 7.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T21:06:59.311Z"
+    },
+    "price": 790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006311851419.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006311851419 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Serviette microfibre de séchage voiture | Maxi Trouvaille",
+      "description": "Serviette microfibre epaisse double couche : seche la carrosserie sans traces ni rayures apres le lavage.",
+      "h1": "Serviette microfibre de séchage voiture",
+      "h2": "Pourquoi choisir Serviette microfibre de séchage voiture",
+      "keywords": [
+        "serviette",
+        "microfibre",
+        "sechage",
+        "voiture",
+        "dropshipping-auto-moto"
+      ],
+      "imageAlt": "Serviette microfibre de séchage voiture - auto-moto Maxi Trouvaille"
+    },
+    "imageAlt": "Serviette microfibre de séchage voiture - auto-moto Maxi Trouvaille",
+    "compareAtPrice": 1090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_cable_usb_c_charge_rapide_affichage_led_001",
+    "slug": "cable-usb-c-charge-rapide-affichage-led",
+    "name": "Câble USB-C charge rapide avec affichage LED",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/cable-usb-c-charge-rapide-affichage-led-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/cable-usb-c-charge-rapide-affichage-led-photo-1.webp",
+      "/uploads/quick-products/cable-usb-c-charge-rapide-affichage-led-photo-2.webp",
+      "/uploads/quick-products/cable-usb-c-charge-rapide-affichage-led-photo-3.webp",
+      "/uploads/quick-products/cable-usb-c-charge-rapide-affichage-led-photo-4.webp",
+      "/uploads/quick-products/cable-usb-c-charge-rapide-affichage-led-photo-5.webp",
+      "/uploads/quick-products/cable-usb-c-charge-rapide-affichage-led-photo-6.webp"
+    ],
+    "shortDescription": "Cable USB vers USB-C en nylon tresse avec petit ecran LED qui affiche la puissance de charge en direct.",
+    "description": "Cable de charge USB vers USB-C en nylon tresse resistant, avec affichage LED integre qui montre la puissance de charge en temps reel. Charge rapide pour smartphones et tablettes compatibles, connecteurs renforces qui durent.",
+    "features": [
+      "Affichage LED : puissance de charge en direct",
+      "Nylon tresse et connecteurs renforces",
+      "Charge rapide smartphones et tablettes"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010439240901.html",
+      "supplierSku": "AE-ITEM-1005010439240901",
+      "supplierPriceCents": 189,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 501,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010439240901.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 265,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 1.89 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T21:06:59.842Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010439240901.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010439240901 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Câble USB-C charge rapide avec affichage LED | Maxi Trouvaille",
+      "description": "Cable USB vers USB-C en nylon tresse avec petit ecran LED qui affiche la puissance de charge en direct.",
+      "h1": "Câble USB-C charge rapide avec affichage LED",
+      "h2": "Pourquoi choisir Câble USB-C charge rapide avec affichage LED",
+      "keywords": [
+        "cable",
+        "usb",
+        "charge",
+        "rapide",
+        "affichage",
+        "led",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Câble USB-C charge rapide avec affichage LED - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Câble USB-C charge rapide avec affichage LED - high-tech Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_collier_chaine_cubaine_acier_inoxydable_001",
+    "slug": "collier-chaine-cubaine-acier-inoxydable",
+    "name": "Collier chaîne cubaine en acier inoxydable",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/collier-chaine-cubaine-acier-inoxydable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/collier-chaine-cubaine-acier-inoxydable-photo-1.webp",
+      "/uploads/quick-products/collier-chaine-cubaine-acier-inoxydable-photo-2.webp",
+      "/uploads/quick-products/collier-chaine-cubaine-acier-inoxydable-photo-3.webp",
+      "/uploads/quick-products/collier-chaine-cubaine-acier-inoxydable-photo-4.webp",
+      "/uploads/quick-products/collier-chaine-cubaine-acier-inoxydable-photo-5.webp"
+    ],
+    "shortDescription": "Collier chaine cubaine en acier inoxydable qui ne noircit pas : un basique bijou unisexe a porter seul ou superpose.",
+    "description": "Collier chaine maille cubaine en acier inoxydable : il garde son eclat sans noircir, resiste a l eau et au quotidien. Un basique unisexe qui se porte seul ou superpose avec d autres colliers, pour homme et femme.",
+    "features": [
+      "Acier inoxydable : ne noircit pas",
+      "Maille cubaine classique unisexe",
+      "Se porte seul ou superpose"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005012013864890.html",
+      "supplierSku": "AE-ITEM-1005012013864890",
+      "supplierPriceCents": 97,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 593,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005012013864890.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 611,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 0.97 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T21:07:00.302Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005012013864890.html",
+      "imageCount": 5,
+      "reason": "Images officielles de la fiche fournisseur 1005012013864890 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Collier chaîne cubaine en acier inoxydable | Maxi Trouvaille",
+      "description": "Collier chaine cubaine en acier inoxydable qui ne noircit pas : un basique bijou unisexe a porter seul ou superpose.",
+      "h1": "Collier chaîne cubaine en acier inoxydable",
+      "h2": "Pourquoi choisir Collier chaîne cubaine en acier inoxydable",
+      "keywords": [
+        "collier",
+        "chaine",
+        "cubaine",
+        "acier",
+        "inoxydable",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Collier chaîne cubaine en acier inoxydable - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Collier chaîne cubaine en acier inoxydable - accessoires Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_chouchous_satin_cheveux_lot_6_001",
+    "slug": "chouchous-satin-cheveux-lot-6",
+    "name": "Chouchous en satin pour cheveux - lot de 6",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/chouchous-satin-cheveux-lot-6-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/chouchous-satin-cheveux-lot-6-photo-1.webp",
+      "/uploads/quick-products/chouchous-satin-cheveux-lot-6-photo-2.webp",
+      "/uploads/quick-products/chouchous-satin-cheveux-lot-6-photo-3.webp",
+      "/uploads/quick-products/chouchous-satin-cheveux-lot-6-photo-4.webp",
+      "/uploads/quick-products/chouchous-satin-cheveux-lot-6-photo-5.webp"
+    ],
+    "shortDescription": "Lot de 6 chouchous en satin doux qui attachent les cheveux sans les casser ni laisser de marques.",
+    "description": "Lot de 6 chouchous en satin tout doux : ils maintiennent queue de cheval et chignon sans casser les cheveux ni laisser de marques, et protegent les longueurs pendant la nuit. Coloris assortis faciles a combiner avec toutes les tenues.",
+    "features": [
+      "Satin doux : zero casse, zero marque",
+      "Lot de 6 coloris assortis",
+      "Jour et nuit : proteges les longueurs"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006859849161.html",
+      "supplierSku": "AE-ITEM-1005006859849161",
+      "supplierPriceCents": 77,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 613,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006859849161.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 796,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 0.77 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T21:07:01.058Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006859849161.html",
+      "imageCount": 5,
+      "reason": "Images officielles de la fiche fournisseur 1005006859849161 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Chouchous en satin pour cheveux - lot de 6 | Maxi Trouvaille",
+      "description": "Lot de 6 chouchous en satin doux qui attachent les cheveux sans les casser ni laisser de marques.",
+      "h1": "Chouchous en satin pour cheveux - lot de 6",
+      "h2": "Pourquoi choisir Chouchous en satin pour cheveux - lot de 6",
+      "keywords": [
+        "chouchous",
+        "satin",
+        "cheveux",
+        "lot",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Chouchous en satin pour cheveux - lot de 6 - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Chouchous en satin pour cheveux - lot de 6 - beaute Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_tunnel_jeu_pliable_chat_001",
+    "slug": "tunnel-jeu-pliable-chat",
+    "name": "Tunnel de jeu pliable pour chat",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/tunnel-jeu-pliable-chat-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/tunnel-jeu-pliable-chat-photo-1.webp",
+      "/uploads/quick-products/tunnel-jeu-pliable-chat-photo-2.webp",
+      "/uploads/quick-products/tunnel-jeu-pliable-chat-photo-3.webp",
+      "/uploads/quick-products/tunnel-jeu-pliable-chat-photo-4.webp",
+      "/uploads/quick-products/tunnel-jeu-pliable-chat-photo-5.webp",
+      "/uploads/quick-products/tunnel-jeu-pliable-chat-photo-6.webp"
+    ],
+    "shortDescription": "Tunnel de jeu pliable ou votre chat se cache, court et joue : exercice et amusement, se replie a plat en un geste.",
+    "description": "Tunnel de jeu pliable pour chat en tissu bruissant : votre compagnon adore s y cacher, y foncer et y guetter ses jouets. Il l occupe et le fait bouger meme en appartement, puis se replie a plat pour se ranger derriere un meuble.",
+    "features": [
+      "Tissu bruissant que les chats adorent",
+      "Exercice et jeu meme en appartement",
+      "Se replie a plat en un geste"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005625821611.html",
+      "supplierSku": "AE-ITEM-1005005625821611",
+      "supplierPriceCents": 439,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 851,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005625821611.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 194,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.39 EUR, boutique 12.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-20T21:07:01.631Z"
+    },
+    "price": 1290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005625821611.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005625821611 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Tunnel de jeu pliable pour chat | Maxi Trouvaille",
+      "description": "Tunnel de jeu pliable ou votre chat se cache, court et joue : exercice et amusement, se replie a plat en un geste.",
+      "h1": "Tunnel de jeu pliable pour chat",
+      "h2": "Pourquoi choisir Tunnel de jeu pliable pour chat",
+      "keywords": [
+        "tunnel",
+        "jeu",
+        "pliable",
+        "chat",
+        "dropshipping-animaux"
+      ],
+      "imageAlt": "Tunnel de jeu pliable pour chat - animaux Maxi Trouvaille"
+    },
+    "imageAlt": "Tunnel de jeu pliable pour chat - animaux Maxi Trouvaille",
+    "compareAtPrice": 1790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
