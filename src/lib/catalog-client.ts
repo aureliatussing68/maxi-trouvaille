@@ -19,6 +19,8 @@ const categoryNamesById: Record<string, string> = {
   "dropshipping-animaux": "Animaux",
   "dropshipping-enfant": "Enfant",
   "dropshipping-mode": "Mode",
+  "dropshipping-outillage": "Outillage & Bricolage",
+  "dropshipping-gaming": "Gaming & PC",
   "produits-partenaires": "Produits partenaires",
 };
 
@@ -57,6 +59,8 @@ const dropshippingFocusCategoryIdSet = new Set([
   "dropshipping-animaux",
   "dropshipping-enfant",
   "dropshipping-mode",
+  "dropshipping-outillage",
+  "dropshipping-gaming",
 ]);
 
 const exactProductImagePrefixes = [

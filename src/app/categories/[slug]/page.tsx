@@ -53,6 +53,8 @@ const legacyCategoryRedirects: Record<string, string> = {
   "dropshipping-animaux": "animaux-partenaires",
   "dropshipping-enfant": "enfant-partenaires",
   "dropshipping-mode": "mode-partenaires",
+  "dropshipping-outillage": "outillage-partenaires",
+  "dropshipping-gaming": "gaming-partenaires",
   "colis-surprise-palettes": "produits-partenaires",
   "palettes-destockage": "promotions-partenaires",
   "colis-mysteres": "nouveautes-partenaires",

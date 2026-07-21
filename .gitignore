@@ -57,3 +57,4 @@ next-env.d.ts
 .sandboxhome/
 .sandbox_home/
 .venv/
+tmp-*

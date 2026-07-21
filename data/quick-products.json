@@ -18777,5 +18777,879 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_visseuse_electrique_worx_wx242_30_embout_001",
+    "slug": "visseuse-electrique-worx-wx242-30-embouts",
+    "name": "Visseuse électrique Worx WX242 + 30 embouts",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/visseuse-electrique-worx-wx242-30-embouts-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/visseuse-electrique-worx-wx242-30-embouts-photo-1.webp",
+      "/uploads/quick-products/visseuse-electrique-worx-wx242-30-embouts-photo-2.webp",
+      "/uploads/quick-products/visseuse-electrique-worx-wx242-30-embouts-photo-3.webp",
+      "/uploads/quick-products/visseuse-electrique-worx-wx242-30-embouts-photo-4.webp",
+      "/uploads/quick-products/visseuse-electrique-worx-wx242-30-embouts-photo-5.webp",
+      "/uploads/quick-products/visseuse-electrique-worx-wx242-30-embouts-photo-6.webp"
+    ],
+    "shortDescription": "Tournevis electrique sans fil Worx WX242 avec coffret de 30 embouts : montage de meubles et petites reparations sans effort.",
+    "description": "Tournevis electrique sans fil Worx WX242, marque reconnue de l outillage : rechargeable en USB, poignee confortable et coffret de 30 embouts pour visser et devisser partout dans la maison. Le compagnon ideal du montage de meubles, des prises et des petites reparations.",
+    "features": [
+      "Marque Worx : qualite d outillage reconnue",
+      "Coffret 30 embouts inclus",
+      "Rechargeable USB, compact et maniable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007039610340.html",
+      "supplierSku": "AE-ITEM-1005007039610340",
+      "supplierPriceCents": 4639,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6990,
+      "marginCents": 2351,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007039610340.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (134+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 46.39 EUR, boutique 69.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-21T05:02:23.280Z"
+    },
+    "price": 6990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007039610340.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007039610340 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Visseuse électrique Worx WX242 + 30 embouts | Maxi Trouvaille",
+      "description": "Tournevis electrique sans fil Worx WX242 avec coffret de 30 embouts : montage de meubles et petites reparations sans effort.",
+      "h1": "Visseuse électrique Worx WX242 + 30 embouts",
+      "h2": "Pourquoi choisir Visseuse électrique Worx WX242 + 30 embouts",
+      "keywords": [
+        "visseuse",
+        "electrique",
+        "worx",
+        "wx242",
+        "embouts",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Visseuse électrique Worx WX242 + 30 embouts - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Visseuse électrique Worx WX242 + 30 embouts - boutique Maxi Trouvaille",
+    "compareAtPrice": 9490,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_tournevis_electrique_precision_6_en_1_001",
+    "slug": "tournevis-electrique-precision-6-en-1",
+    "name": "Tournevis électrique de précision 6 en 1",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/tournevis-electrique-precision-6-en-1-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/tournevis-electrique-precision-6-en-1-photo-1.webp",
+      "/uploads/quick-products/tournevis-electrique-precision-6-en-1-photo-2.webp",
+      "/uploads/quick-products/tournevis-electrique-precision-6-en-1-photo-3.webp",
+      "/uploads/quick-products/tournevis-electrique-precision-6-en-1-photo-4.webp",
+      "/uploads/quick-products/tournevis-electrique-precision-6-en-1-photo-5.webp",
+      "/uploads/quick-products/tournevis-electrique-precision-6-en-1-photo-6.webp"
+    ],
+    "shortDescription": "Mini tournevis electrique de precision avec embouts magnetiques : repare telephones, lunettes, montres et petits appareils.",
+    "description": "Tournevis electrique de precision 6 en 1 rechargeable, avec embouts magnetiques interchangeables : ideal pour ouvrir et reparer telephones, ordinateurs portables, montres, lunettes et consoles. Precis, compact et fourni avec ses embouts dans un etui soigne.",
+    "features": [
+      "Embouts magnetiques de precision inclus",
+      "Repare telephones, PC, montres, lunettes",
+      "Rechargeable, format stylo compact"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006966239894.html",
+      "supplierSku": "AE-ITEM-1005006966239894",
+      "supplierPriceCents": 1439,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3190,
+      "marginCents": 1751,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006966239894.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (2000+ ventes, visuels officiels importes).",
+      "markupPercent": 122,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 14.39 EUR, boutique 31.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-21T05:02:24.073Z"
+    },
+    "price": 3190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006966239894.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006966239894 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Tournevis électrique de précision 6 en 1 | Maxi Trouvaille",
+      "description": "Mini tournevis electrique de precision avec embouts magnetiques : repare telephones, lunettes, montres et petits appareils.",
+      "h1": "Tournevis électrique de précision 6 en 1",
+      "h2": "Pourquoi choisir Tournevis électrique de précision 6 en 1",
+      "keywords": [
+        "tournevis",
+        "electrique",
+        "precision",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Tournevis électrique de précision 6 en 1 - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Tournevis électrique de précision 6 en 1 - boutique Maxi Trouvaille",
+    "compareAtPrice": 4390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_kit_coupe_verre_carrelage_diamant_5_piec_001",
+    "slug": "kit-coupe-verre-carrelage-diamant-5-pieces",
+    "name": "Kit coupe-verre et carrelage diamant 5 pièces",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/kit-coupe-verre-carrelage-diamant-5-pieces-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/kit-coupe-verre-carrelage-diamant-5-pieces-photo-1.webp",
+      "/uploads/quick-products/kit-coupe-verre-carrelage-diamant-5-pieces-photo-2.webp",
+      "/uploads/quick-products/kit-coupe-verre-carrelage-diamant-5-pieces-photo-3.webp",
+      "/uploads/quick-products/kit-coupe-verre-carrelage-diamant-5-pieces-photo-4.webp",
+      "/uploads/quick-products/kit-coupe-verre-carrelage-diamant-5-pieces-photo-5.webp",
+      "/uploads/quick-products/kit-coupe-verre-carrelage-diamant-5-pieces-photo-6.webp"
+    ],
+    "shortDescription": "Kit 5 pieces avec molette diamant pour couper verre et carreaux de 2 a 20 mm : decoupes nettes pour bricolage et pose.",
+    "description": "Kit de coupe 5 pieces avec molette diamant pour le verre et les carreaux de ceramique de 2 a 20 mm d epaisseur. Prise en main facile pour des decoupes nettes : pose de carrelage, miroirs, vitres et projets de bricolage.",
+    "features": [
+      "Molette diamant : coupe verre et carrelage",
+      "Pour epaisseurs de 2 a 20 mm",
+      "Kit complet 5 pieces"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005926384907.html",
+      "supplierSku": "AE-ITEM-1005005926384907",
+      "supplierPriceCents": 439,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 851,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005926384907.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (900+ ventes, visuels officiels importes).",
+      "markupPercent": 194,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.39 EUR, boutique 12.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-21T05:02:25.610Z"
+    },
+    "price": 1290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005926384907.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005926384907 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Kit coupe-verre et carrelage diamant 5 pièces | Maxi Trouvaille",
+      "description": "Kit 5 pieces avec molette diamant pour couper verre et carreaux de 2 a 20 mm : decoupes nettes pour bricolage et pose.",
+      "h1": "Kit coupe-verre et carrelage diamant 5 pièces",
+      "h2": "Pourquoi choisir Kit coupe-verre et carrelage diamant 5 pièces",
+      "keywords": [
+        "kit",
+        "coupe",
+        "verre",
+        "carrelage",
+        "diamant",
+        "pieces",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Kit coupe-verre et carrelage diamant 5 pièces - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Kit coupe-verre et carrelage diamant 5 pièces - boutique Maxi Trouvaille",
+    "compareAtPrice": 1790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_niveau_laser_16_lignes_autonivelant_001",
+    "slug": "niveau-laser-16-lignes-autonivelant",
+    "name": "Niveau laser 16 lignes autonivelant",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/niveau-laser-16-lignes-autonivelant-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/niveau-laser-16-lignes-autonivelant-photo-1.webp",
+      "/uploads/quick-products/niveau-laser-16-lignes-autonivelant-photo-2.webp",
+      "/uploads/quick-products/niveau-laser-16-lignes-autonivelant-photo-3.webp",
+      "/uploads/quick-products/niveau-laser-16-lignes-autonivelant-photo-4.webp",
+      "/uploads/quick-products/niveau-laser-16-lignes-autonivelant-photo-5.webp",
+      "/uploads/quick-products/niveau-laser-16-lignes-autonivelant-photo-6.webp"
+    ],
+    "shortDescription": "Niveau laser 3 axes 16 lignes autonivelant IP54 : lignes verticales et horizontales nettes pour carrelage, etageres et cloisons.",
+    "description": "Niveau laser autonivelant 3 axes projetant 16 lignes vertes verticales et horizontales, boitier IP54 resistant a la poussiere et aux projections. Pose de carrelage, montage d etageres, cloisons, plafonds : des alignements parfaits sans effort.",
+    "features": [
+      "16 lignes sur 3 axes, autonivelant",
+      "Boitier IP54 : chantier et poussiere",
+      "Carrelage, etageres, cloisons, plafonds"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009592635566.html",
+      "supplierSku": "AE-ITEM-1005009592635566",
+      "supplierPriceCents": 3991,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6390,
+      "marginCents": 2399,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009592635566.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 60,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 39.91 EUR, boutique 63.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-21T05:02:29.082Z"
+    },
+    "price": 6390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009592635566.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009592635566 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Niveau laser 16 lignes autonivelant | Maxi Trouvaille",
+      "description": "Niveau laser 3 axes 16 lignes autonivelant IP54 : lignes verticales et horizontales nettes pour carrelage, etageres et cloisons.",
+      "h1": "Niveau laser 16 lignes autonivelant",
+      "h2": "Pourquoi choisir Niveau laser 16 lignes autonivelant",
+      "keywords": [
+        "niveau",
+        "laser",
+        "lignes",
+        "autonivelant",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Niveau laser 16 lignes autonivelant - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Niveau laser 16 lignes autonivelant - boutique Maxi Trouvaille",
+    "compareAtPrice": 8690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_station_energie_allpowers_r600_panneau_2_001",
+    "slug": "station-energie-allpowers-r600-panneau-200w",
+    "name": "Station énergie ALLPOWERS R600 + panneau solaire 200W",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/station-energie-allpowers-r600-panneau-200w-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/station-energie-allpowers-r600-panneau-200w-photo-1.webp",
+      "/uploads/quick-products/station-energie-allpowers-r600-panneau-200w-photo-2.webp",
+      "/uploads/quick-products/station-energie-allpowers-r600-panneau-200w-photo-3.webp",
+      "/uploads/quick-products/station-energie-allpowers-r600-panneau-200w-photo-4.webp",
+      "/uploads/quick-products/station-energie-allpowers-r600-panneau-200w-photo-5.webp",
+      "/uploads/quick-products/station-energie-allpowers-r600-panneau-200w-photo-6.webp"
+    ],
+    "shortDescription": "Centrale electrique portable ALLPOWERS R600 (299 Wh, 600 W) avec panneau solaire 200W : energie autonome, expedition depuis la France.",
+    "description": "Pack energie autonome ALLPOWERS : centrale electrique portable R600 de 299 Wh et 600 W (recharge complete en 1 heure) accompagnee du panneau solaire pliable SP033 200W. Camping-car, camping, jardin, coupures de courant ou travail nomade : de l energie partout, rechargee au soleil. Expedition depuis un entrepot en France pour une livraison rapide.",
+    "features": [
+      "Centrale 299 Wh / 600 W, recharge en 1 h",
+      "Panneau solaire pliable 200W inclus",
+      "Expedie depuis la France : livraison rapide"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010170864338.html",
+      "supplierSku": "AE-ITEM-1005010170864338",
+      "supplierPriceCents": 43899,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 52690,
+      "marginCents": 8791,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010170864338.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (102+ ventes, visuels officiels importes).",
+      "markupPercent": 20,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 438.99 EUR, boutique 526.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-21T05:02:29.890Z"
+    },
+    "price": 52690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010170864338.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010170864338 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Station énergie ALLPOWERS R600 + panneau solaire 200W | Maxi Trouvaille",
+      "description": "Centrale electrique portable ALLPOWERS R600 (299 Wh, 600 W) avec panneau solaire 200W : energie autonome, expedition depuis la France.",
+      "h1": "Station énergie ALLPOWERS R600 + panneau solaire 200W",
+      "h2": "Pourquoi choisir Station énergie ALLPOWERS R600 + panneau solaire 200W",
+      "keywords": [
+        "station",
+        "energie",
+        "allpowers",
+        "r600",
+        "panneau",
+        "200w",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Station énergie ALLPOWERS R600 + panneau solaire 200W - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Station énergie ALLPOWERS R600 + panneau solaire 200W - boutique Maxi Trouvaille",
+    "compareAtPrice": 59990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_mini_drone_camera_pliable_e88_pro_001",
+    "slug": "mini-drone-camera-pliable-e88-pro",
+    "name": "Mini drone caméra pliable E88 Pro",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/mini-drone-camera-pliable-e88-pro-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/mini-drone-camera-pliable-e88-pro-photo-1.webp",
+      "/uploads/quick-products/mini-drone-camera-pliable-e88-pro-photo-2.webp",
+      "/uploads/quick-products/mini-drone-camera-pliable-e88-pro-photo-3.webp",
+      "/uploads/quick-products/mini-drone-camera-pliable-e88-pro-photo-4.webp",
+      "/uploads/quick-products/mini-drone-camera-pliable-e88-pro-photo-5.webp",
+      "/uploads/quick-products/mini-drone-camera-pliable-e88-pro-photo-6.webp"
+    ],
+    "shortDescription": "Mini drone pliable avec camera HD et maintien d altitude : premieres photos aeriennes et pilotage facile pour debuter.",
+    "description": "Mini drone pliable E88 Pro avec camera HD, retour video en direct sur le telephone (WiFi FPV) et maintien d altitude automatique pour un pilotage stable. Ideal pour decouvrir le drone, s amuser au parc et faire ses premieres photos aeriennes.",
+    "features": [
+      "Camera HD avec retour video sur telephone",
+      "Maintien d altitude : pilotage facile",
+      "Pliable et leger, ideal pour debuter"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010439396316.html",
+      "supplierSku": "AE-ITEM-1005010439396316",
+      "supplierPriceCents": 1769,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3990,
+      "marginCents": 2221,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010439396316.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 126,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 17.69 EUR, boutique 39.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-21T05:02:30.564Z"
+    },
+    "price": 3990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010439396316.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010439396316 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Mini drone caméra pliable E88 Pro | Maxi Trouvaille",
+      "description": "Mini drone pliable avec camera HD et maintien d altitude : premieres photos aeriennes et pilotage facile pour debuter.",
+      "h1": "Mini drone caméra pliable E88 Pro",
+      "h2": "Pourquoi choisir Mini drone caméra pliable E88 Pro",
+      "keywords": [
+        "mini",
+        "drone",
+        "camera",
+        "pliable",
+        "e88",
+        "pro",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Mini drone caméra pliable E88 Pro - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Mini drone caméra pliable E88 Pro - high-tech Maxi Trouvaille",
+    "compareAtPrice": 5390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_manette_gamesir_nova_lite_switch_pc_001",
+    "slug": "manette-gamesir-nova-lite-switch-pc",
+    "name": "Manette GameSir Nova Lite (Switch, PC, mobile)",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/manette-gamesir-nova-lite-switch-pc-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/manette-gamesir-nova-lite-switch-pc-photo-1.webp",
+      "/uploads/quick-products/manette-gamesir-nova-lite-switch-pc-photo-2.webp",
+      "/uploads/quick-products/manette-gamesir-nova-lite-switch-pc-photo-3.webp",
+      "/uploads/quick-products/manette-gamesir-nova-lite-switch-pc-photo-4.webp",
+      "/uploads/quick-products/manette-gamesir-nova-lite-switch-pc-photo-5.webp",
+      "/uploads/quick-products/manette-gamesir-nova-lite-switch-pc-photo-6.webp"
+    ],
+    "shortDescription": "Manette sans fil GameSir Nova Lite avec sticks effet Hall anti-drift : compatible Switch, PC, Steam, iPhone et Android.",
+    "description": "Manette de jeu sans fil GameSir Nova Lite avec sticks a effet Hall anti-derive : precision durable, prise en main confortable et compatibilite large avec Nintendo Switch, PC Windows, Steam, iPhone et Android. La marque de confiance des joueurs, plebiscitee par des dizaines de milliers d acheteurs.",
+    "features": [
+      "Sticks effet Hall : zero derive dans le temps",
+      "Compatible Switch, PC, Steam, iOS, Android",
+      "Marque GameSir : qualite reconnue des joueurs"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007689455499.html",
+      "supplierSku": "AE-ITEM-1005007689455499",
+      "supplierPriceCents": 2539,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 4090,
+      "marginCents": 1551,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007689455499.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 61,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 25.39 EUR, boutique 40.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-21T05:02:31.270Z"
+    },
+    "price": 4090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007689455499.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007689455499 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Manette GameSir Nova Lite (Switch, PC, mobile) | Maxi Trouvaille",
+      "description": "Manette sans fil GameSir Nova Lite avec sticks effet Hall anti-drift : compatible Switch, PC, Steam, iPhone et Android.",
+      "h1": "Manette GameSir Nova Lite (Switch, PC, mobile)",
+      "h2": "Pourquoi choisir Manette GameSir Nova Lite (Switch, PC, mobile)",
+      "keywords": [
+        "manette",
+        "gamesir",
+        "nova",
+        "lite",
+        "switch",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Manette GameSir Nova Lite (Switch, PC, mobile) - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Manette GameSir Nova Lite (Switch, PC, mobile) - boutique Maxi Trouvaille",
+    "compareAtPrice": 5590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_casque_gaming_oreilles_chat_rgb_001",
+    "slug": "casque-gaming-oreilles-chat-rgb",
+    "name": "Casque gaming oreilles de chat RGB",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/casque-gaming-oreilles-chat-rgb-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/casque-gaming-oreilles-chat-rgb-photo-1.webp",
+      "/uploads/quick-products/casque-gaming-oreilles-chat-rgb-photo-2.webp",
+      "/uploads/quick-products/casque-gaming-oreilles-chat-rgb-photo-3.webp",
+      "/uploads/quick-products/casque-gaming-oreilles-chat-rgb-photo-4.webp",
+      "/uploads/quick-products/casque-gaming-oreilles-chat-rgb-photo-5.webp",
+      "/uploads/quick-products/casque-gaming-oreilles-chat-rgb-photo-6.webp"
+    ],
+    "shortDescription": "Casque sans fil avec oreilles de chat et halo RGB, micro integre : le casque kawaii des streameuses pour jouer et ecouter.",
+    "description": "Casque sans fil Bluetooth avec oreilles de chat et eclairage RGB degrade, micro integre pour jouer en equipe et son stereo confortable. Le look kawaii vu chez les streameuses, parfait pour le gaming, la musique et les cadeaux qui font mouche.",
+    "features": [
+      "Oreilles de chat + halo RGB degrade",
+      "Micro integre pour jouer en equipe",
+      "Bluetooth : console portable, PC, telephone"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007548887370.html",
+      "supplierSku": "AE-ITEM-1005007548887370",
+      "supplierPriceCents": 1539,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3390,
+      "marginCents": 1851,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007548887370.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (2000+ ventes, visuels officiels importes).",
+      "markupPercent": 120,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 15.39 EUR, boutique 33.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-21T05:02:31.984Z"
+    },
+    "price": 3390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007548887370.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007548887370 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Casque gaming oreilles de chat RGB | Maxi Trouvaille",
+      "description": "Casque sans fil avec oreilles de chat et halo RGB, micro integre : le casque kawaii des streameuses pour jouer et ecouter.",
+      "h1": "Casque gaming oreilles de chat RGB",
+      "h2": "Pourquoi choisir Casque gaming oreilles de chat RGB",
+      "keywords": [
+        "casque",
+        "gaming",
+        "oreilles",
+        "chat",
+        "rgb",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Casque gaming oreilles de chat RGB - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Casque gaming oreilles de chat RGB - boutique Maxi Trouvaille",
+    "compareAtPrice": 4590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_tapis_bureau_souris_feutre_grande_taille_001",
+    "slug": "tapis-bureau-souris-feutre-grande-taille",
+    "name": "Tapis de bureau et souris en feutre grande taille",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/tapis-bureau-souris-feutre-grande-taille-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/tapis-bureau-souris-feutre-grande-taille-photo-1.webp",
+      "/uploads/quick-products/tapis-bureau-souris-feutre-grande-taille-photo-2.webp",
+      "/uploads/quick-products/tapis-bureau-souris-feutre-grande-taille-photo-3.webp",
+      "/uploads/quick-products/tapis-bureau-souris-feutre-grande-taille-photo-4.webp",
+      "/uploads/quick-products/tapis-bureau-souris-feutre-grande-taille-photo-5.webp",
+      "/uploads/quick-products/tapis-bureau-souris-feutre-grande-taille-photo-6.webp"
+    ],
+    "shortDescription": "Grand tapis de bureau en feutre doux pour clavier et souris : glisse agreable, bureau protege et setup propre.",
+    "description": "Grand tapis de bureau en feutre qui accueille clavier et souris : glisse agreable, bureau protege des rayures et setup visuellement propre. Un indispensable du coin gaming comme du teletravail.",
+    "features": [
+      "Grande taille : clavier + souris",
+      "Feutre doux, glisse agreable",
+      "Protege le bureau, setup soigne"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006086188422.html",
+      "supplierSku": "AE-ITEM-1005006086188422",
+      "supplierPriceCents": 193,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 497,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006086188422.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 258,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 1.93 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-21T05:02:32.732Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006086188422.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006086188422 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Tapis de bureau et souris en feutre grande taille | Maxi Trouvaille",
+      "description": "Grand tapis de bureau en feutre doux pour clavier et souris : glisse agreable, bureau protege et setup propre.",
+      "h1": "Tapis de bureau et souris en feutre grande taille",
+      "h2": "Pourquoi choisir Tapis de bureau et souris en feutre grande taille",
+      "keywords": [
+        "tapis",
+        "bureau",
+        "souris",
+        "feutre",
+        "grande",
+        "taille",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Tapis de bureau et souris en feutre grande taille - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Tapis de bureau et souris en feutre grande taille - boutique Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]

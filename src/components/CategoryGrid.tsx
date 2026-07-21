@@ -60,6 +60,8 @@ const iconByCategory: Record<string, LucideIcon> = {
   "dropshipping-animaux": PawPrint,
   "dropshipping-enfant": Baby,
   "dropshipping-mode": Shirt,
+  "dropshipping-outillage": Hammer,
+  "dropshipping-gaming": Gamepad2,
   "palettes-destockage": Package,
   "colis-mysteres": Gift,
   "colis-au-poids": Scale,
