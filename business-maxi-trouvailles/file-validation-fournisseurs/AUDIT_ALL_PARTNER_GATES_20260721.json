@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-07-21T05:02:48.824Z",
+  "checkedAt": "2026-07-21T05:13:53.016Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 192,
-  "publishedPartnerCount": 133,
+  "partnerProductCount": 197,
+  "publishedPartnerCount": 138,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -3465,15 +3465,105 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_telemetre_laser_100m_numerique_001",
+      "slug": "telemetre-laser-100m-numerique",
+      "name": "Télémètre laser numérique 100 m",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-outillage",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_multimetre_numerique_aneng_sz308_001",
+      "slug": "multimetre-numerique-aneng-sz308",
+      "name": "Multimètre numérique ANENG SZ308",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-outillage",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_clavier_mecanique_ajazz_ak820_pro_001",
+      "slug": "clavier-mecanique-ajazz-ak820-pro",
+      "name": "Clavier mécanique AJAZZ AK820 Pro sans fil",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-gaming",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_micro_streaming_fifine_am8_usb_xlr_001",
+      "slug": "micro-streaming-fifine-am8-usb-xlr",
+      "name": "Micro streaming FIFINE AM8 USB/XLR",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-gaming",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_ring_light_selfie_trepied_telecommande_001",
+      "slug": "ring-light-selfie-trepied-telecommande",
+      "name": "Ring light avec trépied et télécommande",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-gaming",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 188
+    "data/quick-products.json": 193
   },
   "byStatus": {
     "draft": 59,
-    "published": 133
+    "published": 138
   },
   "byCategory": {
     "dropshipping-high-tech": 20,
@@ -3485,8 +3575,8 @@
     "dropshipping-beaute": 16,
     "dropshipping-animaux": 20,
     "dropshipping-mode": 16,
-    "dropshipping-outillage": 5,
-    "dropshipping-gaming": 3
+    "dropshipping-outillage": 7,
+    "dropshipping-gaming": 6
   },
   "safety": {
     "readOnlyAudit": true,

@@ -19651,5 +19651,489 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_telemetre_laser_100m_numerique_001",
+    "slug": "telemetre-laser-100m-numerique",
+    "name": "Télémètre laser numérique 100 m",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/telemetre-laser-100m-numerique-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/telemetre-laser-100m-numerique-photo-1.webp",
+      "/uploads/quick-products/telemetre-laser-100m-numerique-photo-2.webp",
+      "/uploads/quick-products/telemetre-laser-100m-numerique-photo-3.webp",
+      "/uploads/quick-products/telemetre-laser-100m-numerique-photo-4.webp",
+      "/uploads/quick-products/telemetre-laser-100m-numerique-photo-5.webp",
+      "/uploads/quick-products/telemetre-laser-100m-numerique-photo-6.webp"
+    ],
+    "shortDescription": "Metre laser numerique jusqu a 100 m : mesurez pieces, murs et distances en une seconde, avec surface et volume calcules.",
+    "description": "Telemetre laser numerique HAUPTSON portee jusqu a 100 m : une pression et la distance s affiche, avec calcul automatique de surface et de volume. L outil indispensable pour les devis, l amenagement, la pose de meubles et les chantiers.",
+    "features": [
+      "Mesure jusqu a 100 m en une seconde",
+      "Calcul automatique surface et volume",
+      "Compact, ecran retroeclaire lisible"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006312972956.html",
+      "supplierSku": "AE-ITEM-1005006312972956",
+      "supplierPriceCents": 1679,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3790,
+      "marginCents": 2111,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006312972956.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 126,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 16.79 EUR, boutique 37.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-21T05:13:50.210Z"
+    },
+    "price": 3790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006312972956.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006312972956 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Télémètre laser numérique 100 m | Maxi Trouvaille",
+      "description": "Metre laser numerique jusqu a 100 m : mesurez pieces, murs et distances en une seconde, avec surface et volume calcules.",
+      "h1": "Télémètre laser numérique 100 m",
+      "h2": "Pourquoi choisir Télémètre laser numérique 100 m",
+      "keywords": [
+        "telemetre",
+        "laser",
+        "100m",
+        "numerique",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Télémètre laser numérique 100 m - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Télémètre laser numérique 100 m - boutique Maxi Trouvaille",
+    "compareAtPrice": 5190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_multimetre_numerique_aneng_sz308_001",
+    "slug": "multimetre-numerique-aneng-sz308",
+    "name": "Multimètre numérique ANENG SZ308",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/multimetre-numerique-aneng-sz308-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/multimetre-numerique-aneng-sz308-photo-1.webp",
+      "/uploads/quick-products/multimetre-numerique-aneng-sz308-photo-2.webp",
+      "/uploads/quick-products/multimetre-numerique-aneng-sz308-photo-3.webp",
+      "/uploads/quick-products/multimetre-numerique-aneng-sz308-photo-4.webp",
+      "/uploads/quick-products/multimetre-numerique-aneng-sz308-photo-5.webp",
+      "/uploads/quick-products/multimetre-numerique-aneng-sz308-photo-6.webp"
+    ],
+    "shortDescription": "Multimetre numerique ANENG : tension, courant, resistance et continuite sur ecran LCD clair, pour tous les depannages electriques.",
+    "description": "Multimetre numerique ANENG SZ308 : mesure tension AC/DC, courant, resistance et continuite sur un ecran LCD bien lisible. Pour verifier une prise, une pile, un fusible ou depanner l electronique, en toute securite.",
+    "features": [
+      "Tension AC/DC, courant, resistance, continuite",
+      "Ecran LCD clair, prise en main simple",
+      "Marque ANENG : plebiscite par 50 000+ acheteurs"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007530336684.html",
+      "supplierSku": "AE-ITEM-1005007530336684",
+      "supplierPriceCents": 579,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1690,
+      "marginCents": 1111,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007530336684.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 192,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 5.79 EUR, boutique 16.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-21T05:13:50.830Z"
+    },
+    "price": 1690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007530336684.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007530336684 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Multimètre numérique ANENG SZ308 | Maxi Trouvaille",
+      "description": "Multimetre numerique ANENG : tension, courant, resistance et continuite sur ecran LCD clair, pour tous les depannages electriques.",
+      "h1": "Multimètre numérique ANENG SZ308",
+      "h2": "Pourquoi choisir Multimètre numérique ANENG SZ308",
+      "keywords": [
+        "multimetre",
+        "numerique",
+        "aneng",
+        "sz308",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Multimètre numérique ANENG SZ308 - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Multimètre numérique ANENG SZ308 - boutique Maxi Trouvaille",
+    "compareAtPrice": 2290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_clavier_mecanique_ajazz_ak820_pro_001",
+    "slug": "clavier-mecanique-ajazz-ak820-pro",
+    "name": "Clavier mécanique AJAZZ AK820 Pro sans fil",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/clavier-mecanique-ajazz-ak820-pro-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/clavier-mecanique-ajazz-ak820-pro-photo-1.webp",
+      "/uploads/quick-products/clavier-mecanique-ajazz-ak820-pro-photo-2.webp",
+      "/uploads/quick-products/clavier-mecanique-ajazz-ak820-pro-photo-3.webp",
+      "/uploads/quick-products/clavier-mecanique-ajazz-ak820-pro-photo-4.webp",
+      "/uploads/quick-products/clavier-mecanique-ajazz-ak820-pro-photo-5.webp",
+      "/uploads/quick-products/clavier-mecanique-ajazz-ak820-pro-photo-6.webp"
+    ],
+    "shortDescription": "Clavier mecanique AJAZZ AK820 Pro : tri-mode (filaire, Bluetooth, 2.4G), RGB, switches remplacables a chaud, format compact.",
+    "description": "Clavier mecanique gaming AJAZZ AK820 Pro en connexion tri-mode (USB-C filaire, Bluetooth et 2.4G), retroeclairage RGB et switches remplacables a chaud pour personnaliser la frappe. Format compact 75 % apprecie des joueurs comme des createurs.",
+    "features": [
+      "Tri-mode : USB-C, Bluetooth, 2.4G",
+      "Switches remplacables a chaud, RGB",
+      "Marque AJAZZ : 10 000+ acheteurs, note 4.9"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007168889184.html",
+      "supplierSku": "AE-ITEM-1005007168889184",
+      "supplierPriceCents": 4179,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6290,
+      "marginCents": 2111,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007168889184.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 41.79 EUR, boutique 62.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-21T05:13:51.227Z"
+    },
+    "price": 6290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007168889184.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007168889184 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Clavier mécanique AJAZZ AK820 Pro sans fil | Maxi Trouvaille",
+      "description": "Clavier mecanique AJAZZ AK820 Pro : tri-mode (filaire, Bluetooth, 2.4G), RGB, switches remplacables a chaud, format compact.",
+      "h1": "Clavier mécanique AJAZZ AK820 Pro sans fil",
+      "h2": "Pourquoi choisir Clavier mécanique AJAZZ AK820 Pro sans fil",
+      "keywords": [
+        "clavier",
+        "mecanique",
+        "ajazz",
+        "ak820",
+        "pro",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Clavier mécanique AJAZZ AK820 Pro sans fil - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Clavier mécanique AJAZZ AK820 Pro sans fil - boutique Maxi Trouvaille",
+    "compareAtPrice": 8590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_micro_streaming_fifine_am8_usb_xlr_001",
+    "slug": "micro-streaming-fifine-am8-usb-xlr",
+    "name": "Micro streaming FIFINE AM8 USB/XLR",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/micro-streaming-fifine-am8-usb-xlr-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/micro-streaming-fifine-am8-usb-xlr-photo-1.webp",
+      "/uploads/quick-products/micro-streaming-fifine-am8-usb-xlr-photo-2.webp",
+      "/uploads/quick-products/micro-streaming-fifine-am8-usb-xlr-photo-3.webp",
+      "/uploads/quick-products/micro-streaming-fifine-am8-usb-xlr-photo-4.webp",
+      "/uploads/quick-products/micro-streaming-fifine-am8-usb-xlr-photo-5.webp",
+      "/uploads/quick-products/micro-streaming-fifine-am8-usb-xlr-photo-6.webp"
+    ],
+    "shortDescription": "Microphone dynamique FIFINE AM8 USB et XLR avec RGB, bouton muet et prise casque : la reference du streaming a petit prix.",
+    "description": "Microphone dynamique FIFINE AmpliGame AM8 avec double connexion USB et XLR, eclairage RGB, bouton muet tactile et prise casque pour s ecouter en direct. La reference des streamers et podcasteurs qui veulent un son propre sans se ruiner.",
+    "features": [
+      "Double connexion USB et XLR",
+      "Bouton muet tactile + prise casque",
+      "Marque FIFINE : reference streaming, note 4.9"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006356702381.html",
+      "supplierSku": "AE-ITEM-1005006356702381",
+      "supplierPriceCents": 4999,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6990,
+      "marginCents": 1991,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006356702381.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 52,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 49.99 EUR, boutique 75.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-21T05:13:51.970Z"
+    },
+    "price": 6990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006356702381.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006356702381 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Micro streaming FIFINE AM8 USB/XLR | Maxi Trouvaille",
+      "description": "Microphone dynamique FIFINE AM8 USB et XLR avec RGB, bouton muet et prise casque : la reference du streaming a petit prix.",
+      "h1": "Micro streaming FIFINE AM8 USB/XLR",
+      "h2": "Pourquoi choisir Micro streaming FIFINE AM8 USB/XLR",
+      "keywords": [
+        "micro",
+        "streaming",
+        "fifine",
+        "am8",
+        "usb",
+        "xlr",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Micro streaming FIFINE AM8 USB/XLR - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Micro streaming FIFINE AM8 USB/XLR - boutique Maxi Trouvaille",
+    "compareAtPrice": 8990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_ring_light_selfie_trepied_telecommande_001",
+    "slug": "ring-light-selfie-trepied-telecommande",
+    "name": "Ring light avec trépied et télécommande",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/ring-light-selfie-trepied-telecommande-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/ring-light-selfie-trepied-telecommande-photo-1.webp",
+      "/uploads/quick-products/ring-light-selfie-trepied-telecommande-photo-2.webp",
+      "/uploads/quick-products/ring-light-selfie-trepied-telecommande-photo-3.webp",
+      "/uploads/quick-products/ring-light-selfie-trepied-telecommande-photo-4.webp",
+      "/uploads/quick-products/ring-light-selfie-trepied-telecommande-photo-5.webp",
+      "/uploads/quick-products/ring-light-selfie-trepied-telecommande-photo-6.webp"
+    ],
+    "shortDescription": "Anneau lumineux LED avec trepied, support telephone et telecommande : des videos TikTok et visios bien eclairees.",
+    "description": "Ring light LED avec trepied reglable, support telephone et telecommande : lumiere douce et homogene pour les videos TikTok, les lives, les visios et les photos. Plusieurs teintes et intensites pour toujours etre bien eclaire.",
+    "features": [
+      "Trepied + support telephone inclus",
+      "Telecommande : declenchement a distance",
+      "Teintes et intensites reglables"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006861644981.html",
+      "supplierSku": "AE-ITEM-1005006861644981",
+      "supplierPriceCents": 879,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1990,
+      "marginCents": 1111,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006861644981.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (2000+ ventes, visuels officiels importes).",
+      "markupPercent": 126,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 8.79 EUR, boutique 19.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-21T05:13:52.457Z"
+    },
+    "price": 1990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006861644981.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006861644981 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Ring light avec trépied et télécommande | Maxi Trouvaille",
+      "description": "Anneau lumineux LED avec trepied, support telephone et telecommande : des videos TikTok et visios bien eclairees.",
+      "h1": "Ring light avec trépied et télécommande",
+      "h2": "Pourquoi choisir Ring light avec trépied et télécommande",
+      "keywords": [
+        "ring",
+        "light",
+        "selfie",
+        "trepied",
+        "telecommande",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Ring light avec trépied et télécommande - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Ring light avec trépied et télécommande - boutique Maxi Trouvaille",
+    "compareAtPrice": 2690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
