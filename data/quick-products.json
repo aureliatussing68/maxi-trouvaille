@@ -20135,5 +20135,488 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_jeu_douilles_hexagonales_9_pieces_001",
+    "slug": "jeu-douilles-hexagonales-9-pieces",
+    "name": "Jeu de douilles hexagonales 9 pièces (5-13 mm)",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/jeu-douilles-hexagonales-9-pieces-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/jeu-douilles-hexagonales-9-pieces-photo-1.webp",
+      "/uploads/quick-products/jeu-douilles-hexagonales-9-pieces-photo-2.webp",
+      "/uploads/quick-products/jeu-douilles-hexagonales-9-pieces-photo-3.webp",
+      "/uploads/quick-products/jeu-douilles-hexagonales-9-pieces-photo-4.webp",
+      "/uploads/quick-products/jeu-douilles-hexagonales-9-pieces-photo-5.webp",
+      "/uploads/quick-products/jeu-douilles-hexagonales-9-pieces-photo-6.webp"
+    ],
+    "shortDescription": "Jeu de 9 embouts a douille hexagonale de 5 a 13 mm pour visseuse et perceuse : boulons et ecrous serres en un clin d oeil.",
+    "description": "Jeu de 9 embouts a douille hexagonale de 5 a 13 mm compatibles visseuse et perceuse : ecrous, boulons et vis a tete hexagonale se serrent et se desserrent sans effort. Un basique de la caisse a outils plebiscite par plus de 100 000 acheteurs.",
+    "features": [
+      "9 douilles de 5 a 13 mm",
+      "Compatible visseuse et perceuse",
+      "Acier resistant, fixation solide"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005062993089.html",
+      "supplierSku": "AE-ITEM-1005005062993089",
+      "supplierPriceCents": 259,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 890,
+      "marginCents": 631,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005062993089.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 244,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.59 EUR, boutique 8.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-22T12:21:24.149Z"
+    },
+    "price": 890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005062993089.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005062993089 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Jeu de douilles hexagonales 9 pièces (5-13 mm) | Maxi Trouvaille",
+      "description": "Jeu de 9 embouts a douille hexagonale de 5 a 13 mm pour visseuse et perceuse : boulons et ecrous serres en un clin d oeil.",
+      "h1": "Jeu de douilles hexagonales 9 pièces (5-13 mm)",
+      "h2": "Pourquoi choisir Jeu de douilles hexagonales 9 pièces (5-13 mm)",
+      "keywords": [
+        "jeu",
+        "douilles",
+        "hexagonales",
+        "pieces",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Jeu de douilles hexagonales 9 pièces (5-13 mm) - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Jeu de douilles hexagonales 9 pièces (5-13 mm) - boutique Maxi Trouvaille",
+    "compareAtPrice": 1290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_coffret_cle_cliquet_douilles_46_pieces_001",
+    "slug": "coffret-cle-cliquet-douilles-46-pieces",
+    "name": "Coffret clé à cliquet et douilles 46 pièces",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/coffret-cle-cliquet-douilles-46-pieces-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/coffret-cle-cliquet-douilles-46-pieces-photo-1.webp",
+      "/uploads/quick-products/coffret-cle-cliquet-douilles-46-pieces-photo-2.webp",
+      "/uploads/quick-products/coffret-cle-cliquet-douilles-46-pieces-photo-3.webp",
+      "/uploads/quick-products/coffret-cle-cliquet-douilles-46-pieces-photo-4.webp",
+      "/uploads/quick-products/coffret-cle-cliquet-douilles-46-pieces-photo-5.webp",
+      "/uploads/quick-products/coffret-cle-cliquet-douilles-46-pieces-photo-6.webp"
+    ],
+    "shortDescription": "Coffret 46 pieces avec cle a cliquet 1/4, douilles metriques et embouts : le kit mecanique complet pour la maison et l auto.",
+    "description": "Coffret d outillage 46 pieces avec cle a cliquet 1/4, douilles metriques, embouts et rallonges, le tout range dans une mallette compacte. Reparations auto, velo, meubles et bricolage du quotidien : le kit qui depanne dans toutes les situations.",
+    "features": [
+      "Cle a cliquet 1/4 + 46 pieces",
+      "Douilles metriques, embouts, rallonges",
+      "Mallette de rangement compacte"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009918638131.html",
+      "supplierSku": "AE-ITEM-1005009918638131",
+      "supplierPriceCents": 609,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1790,
+      "marginCents": 1181,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009918638131.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 194,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 6.09 EUR, boutique 17.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-22T12:21:24.897Z"
+    },
+    "price": 1790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009918638131.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009918638131 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Coffret clé à cliquet et douilles 46 pièces | Maxi Trouvaille",
+      "description": "Coffret 46 pieces avec cle a cliquet 1/4, douilles metriques et embouts : le kit mecanique complet pour la maison et l auto.",
+      "h1": "Coffret clé à cliquet et douilles 46 pièces",
+      "h2": "Pourquoi choisir Coffret clé à cliquet et douilles 46 pièces",
+      "keywords": [
+        "coffret",
+        "cle",
+        "cliquet",
+        "douilles",
+        "pieces",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Coffret clé à cliquet et douilles 46 pièces - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Coffret clé à cliquet et douilles 46 pièces - boutique Maxi Trouvaille",
+    "compareAtPrice": 2490,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_pince_electricien_multifonction_denuder_001",
+    "slug": "pince-electricien-multifonction-denuder",
+    "name": "Pince d'électricien multifonction à dénuder",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/pince-electricien-multifonction-denuder-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/pince-electricien-multifonction-denuder-photo-1.webp",
+      "/uploads/quick-products/pince-electricien-multifonction-denuder-photo-2.webp",
+      "/uploads/quick-products/pince-electricien-multifonction-denuder-photo-3.webp",
+      "/uploads/quick-products/pince-electricien-multifonction-denuder-photo-4.webp",
+      "/uploads/quick-products/pince-electricien-multifonction-denuder-photo-5.webp",
+      "/uploads/quick-products/pince-electricien-multifonction-denuder-photo-6.webp"
+    ],
+    "shortDescription": "Pince multifonction d electricien : denude, coupe et sertit les fils avec precision, manche pliant compact.",
+    "description": "Pince d electricien multifonction pliante : elle denude les fils sans les abimer, coupe proprement et sertit les cosses. Un seul outil precis et compact pour tous les branchements : prises, luminaires, domotique et petites installations.",
+    "features": [
+      "Denude, coupe et sertit les fils",
+      "Reglage precis, ne blesse pas le cuivre",
+      "Format pliant compact"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008660169717.html",
+      "supplierSku": "AE-ITEM-1005008660169717",
+      "supplierPriceCents": 599,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1690,
+      "marginCents": 1091,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008660169717.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (2000+ ventes, visuels officiels importes).",
+      "markupPercent": 182,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 5.99 EUR, boutique 16.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-22T12:21:25.468Z"
+    },
+    "price": 1690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008660169717.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008660169717 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Pince d'électricien multifonction à dénuder | Maxi Trouvaille",
+      "description": "Pince multifonction d electricien : denude, coupe et sertit les fils avec precision, manche pliant compact.",
+      "h1": "Pince d'électricien multifonction à dénuder",
+      "h2": "Pourquoi choisir Pince d'électricien multifonction à dénuder",
+      "keywords": [
+        "pince",
+        "electricien",
+        "multifonction",
+        "denuder",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Pince d'électricien multifonction à dénuder - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Pince d'électricien multifonction à dénuder - boutique Maxi Trouvaille",
+    "compareAtPrice": 2290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_support_casque_gamer_rgb_2_ports_usb_001",
+    "slug": "support-casque-gamer-rgb-2-ports-usb",
+    "name": "Support casque gamer RGB avec 2 ports USB",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/support-casque-gamer-rgb-2-ports-usb-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/support-casque-gamer-rgb-2-ports-usb-photo-1.webp",
+      "/uploads/quick-products/support-casque-gamer-rgb-2-ports-usb-photo-2.webp",
+      "/uploads/quick-products/support-casque-gamer-rgb-2-ports-usb-photo-3.webp",
+      "/uploads/quick-products/support-casque-gamer-rgb-2-ports-usb-photo-4.webp",
+      "/uploads/quick-products/support-casque-gamer-rgb-2-ports-usb-photo-5.webp",
+      "/uploads/quick-products/support-casque-gamer-rgb-2-ports-usb-photo-6.webp"
+    ],
+    "shortDescription": "Support de casque RGB avec 2 ports USB integres : le casque bien range, le setup illumine et deux prises en bonus.",
+    "description": "Support de casque gaming avec eclairage RGB et 2 ports USB integres : le casque trouve sa place, le bureau reste range et les lumieres donnent le ton du setup. Base en caoutchouc antiderapante, compatible avec tous les casques.",
+    "features": [
+      "Eclairage RGB pour le setup",
+      "2 ports USB integres en bonus",
+      "Base antiderapante stable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007938165150.html",
+      "supplierSku": "AE-ITEM-1005007938165150",
+      "supplierPriceCents": 1519,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3390,
+      "marginCents": 1871,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007938165150.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (496+ ventes, visuels officiels importes).",
+      "markupPercent": 123,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 15.19 EUR, boutique 33.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-22T12:21:26.320Z"
+    },
+    "price": 3390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007938165150.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007938165150 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Support casque gamer RGB avec 2 ports USB | Maxi Trouvaille",
+      "description": "Support de casque RGB avec 2 ports USB integres : le casque bien range, le setup illumine et deux prises en bonus.",
+      "h1": "Support casque gamer RGB avec 2 ports USB",
+      "h2": "Pourquoi choisir Support casque gamer RGB avec 2 ports USB",
+      "keywords": [
+        "support",
+        "casque",
+        "gamer",
+        "rgb",
+        "ports",
+        "usb",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Support casque gamer RGB avec 2 ports USB - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Support casque gamer RGB avec 2 ports USB - boutique Maxi Trouvaille",
+    "compareAtPrice": 4590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_hub_usb_type_c_8_en_2_multiport_001",
+    "slug": "hub-usb-type-c-8-en-2-multiport",
+    "name": "Hub USB + Type-C 8 en 2 multiport",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/hub-usb-type-c-8-en-2-multiport-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/hub-usb-type-c-8-en-2-multiport-photo-1.webp",
+      "/uploads/quick-products/hub-usb-type-c-8-en-2-multiport-photo-2.webp",
+      "/uploads/quick-products/hub-usb-type-c-8-en-2-multiport-photo-3.webp",
+      "/uploads/quick-products/hub-usb-type-c-8-en-2-multiport-photo-4.webp",
+      "/uploads/quick-products/hub-usb-type-c-8-en-2-multiport-photo-5.webp",
+      "/uploads/quick-products/hub-usb-type-c-8-en-2-multiport-photo-6.webp"
+    ],
+    "shortDescription": "Hub 8 en 2 USB et USB-C : ports supplementaires, lecteur de cartes SD et prise jack pour PC portable, tablette et telephone.",
+    "description": "Hub multiport 8 en 2 avec connecteurs USB et USB-C : il ajoute des ports USB, un lecteur de cartes SD/Micro SD et une prise jack 3,5 mm aux PC portables, tablettes et telephones. Plus de 100 000 acheteurs conquis par ce petit accessoire indispensable.",
+    "features": [
+      "8 fonctions : USB, USB-C, SD, jack 3,5 mm",
+      "Compatible PC portable, tablette, telephone",
+      "Compact : se glisse dans la trousse"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007244139650.html",
+      "supplierSku": "AE-ITEM-1005007244139650",
+      "supplierPriceCents": 309,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 890,
+      "marginCents": 581,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007244139650.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 188,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 3.09 EUR, boutique 8.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-22T12:21:26.746Z"
+    },
+    "price": 890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007244139650.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007244139650 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Hub USB + Type-C 8 en 2 multiport | Maxi Trouvaille",
+      "description": "Hub 8 en 2 USB et USB-C : ports supplementaires, lecteur de cartes SD et prise jack pour PC portable, tablette et telephone.",
+      "h1": "Hub USB + Type-C 8 en 2 multiport",
+      "h2": "Pourquoi choisir Hub USB + Type-C 8 en 2 multiport",
+      "keywords": [
+        "hub",
+        "usb",
+        "type",
+        "multiport",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Hub USB + Type-C 8 en 2 multiport - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Hub USB + Type-C 8 en 2 multiport - boutique Maxi Trouvaille",
+    "compareAtPrice": 1290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
