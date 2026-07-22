@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-07-22T12:21:27.457Z",
+  "checkedAt": "2026-07-22T12:25:34.743Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 202,
-  "publishedPartnerCount": 143,
+  "partnerProductCount": 204,
+  "publishedPartnerCount": 145,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -3645,20 +3645,56 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_sac_lavage_chaussures_machine_001",
+      "slug": "sac-lavage-chaussures-machine",
+      "name": "Sac de lavage chaussures pour machine",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-maison",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_porte_pantalons_multi_niveaux_gain_place_001",
+      "slug": "porte-pantalons-multi-niveaux-gain-place",
+      "name": "Porte-pantalons multi-niveaux gain de place",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-maison",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 198
+    "data/quick-products.json": 200
   },
   "byStatus": {
     "draft": 59,
-    "published": 143
+    "published": 145
   },
   "byCategory": {
     "dropshipping-high-tech": 20,
     "dropshipping-accessoires": 26,
-    "dropshipping-maison": 26,
+    "dropshipping-maison": 28,
     "dropshipping-auto-moto": 17,
     "dropshipping-cuisine": 25,
     "dropshipping-enfant": 18,

@@ -20618,5 +20618,199 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_sac_lavage_chaussures_machine_001",
+    "slug": "sac-lavage-chaussures-machine",
+    "name": "Sac de lavage chaussures pour machine",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/sac-lavage-chaussures-machine-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/sac-lavage-chaussures-machine-photo-1.webp",
+      "/uploads/quick-products/sac-lavage-chaussures-machine-photo-2.webp",
+      "/uploads/quick-products/sac-lavage-chaussures-machine-photo-3.webp",
+      "/uploads/quick-products/sac-lavage-chaussures-machine-photo-4.webp",
+      "/uploads/quick-products/sac-lavage-chaussures-machine-photo-5.webp",
+      "/uploads/quick-products/sac-lavage-chaussures-machine-photo-6.webp"
+    ],
+    "shortDescription": "Sac de lavage special chaussures : baskets propres en machine sans abimer ni la machine ni les chaussures.",
+    "description": "Sac de lavage en fibre epaisse concu pour les chaussures : les baskets passent en machine sans s abimer, sans bruit de tambour et sans deformer la machine. Fermeture eclair solide, reutilisable a chaque lavage, sert aussi pour le linge delicat.",
+    "features": [
+      "Baskets propres en machine sans degats",
+      "Fibre epaisse : protege chaussures et tambour",
+      "Reutilisable, fermeture eclair solide"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009045250530.html",
+      "supplierSku": "AE-ITEM-1005009045250530",
+      "supplierPriceCents": 274,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 890,
+      "marginCents": 616,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009045250530.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 225,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.74 EUR, boutique 8.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-22T12:25:33.047Z"
+    },
+    "price": 890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009045250530.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009045250530 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Sac de lavage chaussures pour machine | Maxi Trouvaille",
+      "description": "Sac de lavage special chaussures : baskets propres en machine sans abimer ni la machine ni les chaussures.",
+      "h1": "Sac de lavage chaussures pour machine",
+      "h2": "Pourquoi choisir Sac de lavage chaussures pour machine",
+      "keywords": [
+        "sac",
+        "lavage",
+        "chaussures",
+        "machine",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Sac de lavage chaussures pour machine - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Sac de lavage chaussures pour machine - maison Maxi Trouvaille",
+    "compareAtPrice": 1290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_porte_pantalons_multi_niveaux_gain_place_001",
+    "slug": "porte-pantalons-multi-niveaux-gain-place",
+    "name": "Porte-pantalons multi-niveaux gain de place",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/porte-pantalons-multi-niveaux-gain-place-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/porte-pantalons-multi-niveaux-gain-place-photo-1.webp",
+      "/uploads/quick-products/porte-pantalons-multi-niveaux-gain-place-photo-2.webp",
+      "/uploads/quick-products/porte-pantalons-multi-niveaux-gain-place-photo-3.webp",
+      "/uploads/quick-products/porte-pantalons-multi-niveaux-gain-place-photo-4.webp",
+      "/uploads/quick-products/porte-pantalons-multi-niveaux-gain-place-photo-5.webp",
+      "/uploads/quick-products/porte-pantalons-multi-niveaux-gain-place-photo-6.webp"
+    ],
+    "shortDescription": "Porte-pantalons pliable multi-niveaux avec pinces antiderapantes : plusieurs pantalons sur un seul cintre, penderie desencombree.",
+    "description": "Porte-pantalons multi-niveaux pliable avec pinces antiderapantes : plusieurs pantalons, jeans ou echarpes suspendus sur la place d un seul cintre. La penderie respire, les plis disparaissent et tout reste visible d un coup d oeil.",
+    "features": [
+      "Plusieurs pantalons sur un seul cintre",
+      "Pinces antiderapantes : aucun pli",
+      "Pliable, penderie desencombree"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010228874323.html",
+      "supplierSku": "AE-ITEM-1005010228874323",
+      "supplierPriceCents": 449,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 841,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010228874323.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (4000+ ventes, visuels officiels importes).",
+      "markupPercent": 187,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.49 EUR, boutique 12.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-22T12:25:34.255Z"
+    },
+    "price": 1290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010228874323.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010228874323 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Porte-pantalons multi-niveaux gain de place | Maxi Trouvaille",
+      "description": "Porte-pantalons pliable multi-niveaux avec pinces antiderapantes : plusieurs pantalons sur un seul cintre, penderie desencombree.",
+      "h1": "Porte-pantalons multi-niveaux gain de place",
+      "h2": "Pourquoi choisir Porte-pantalons multi-niveaux gain de place",
+      "keywords": [
+        "porte",
+        "pantalons",
+        "multi",
+        "niveaux",
+        "gain",
+        "place",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Porte-pantalons multi-niveaux gain de place - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Porte-pantalons multi-niveaux gain de place - maison Maxi Trouvaille",
+    "compareAtPrice": 1790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
