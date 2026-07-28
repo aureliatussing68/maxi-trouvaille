@@ -22844,5 +22844,102 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_barre_lumineuse_ecran_usb_50cm_001",
+    "slug": "barre-lumineuse-ecran-usb-50cm",
+    "name": "Barre lumineuse d'écran USB 50 cm",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/barre-lumineuse-ecran-usb-50cm-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/barre-lumineuse-ecran-usb-50cm-photo-1.webp",
+      "/uploads/quick-products/barre-lumineuse-ecran-usb-50cm-photo-2.webp",
+      "/uploads/quick-products/barre-lumineuse-ecran-usb-50cm-photo-3.webp",
+      "/uploads/quick-products/barre-lumineuse-ecran-usb-50cm-photo-4.webp",
+      "/uploads/quick-products/barre-lumineuse-ecran-usb-50cm-photo-5.webp",
+      "/uploads/quick-products/barre-lumineuse-ecran-usb-50cm-photo-6.webp"
+    ],
+    "shortDescription": "Barre LED a poser sur l ecran : eclaire le bureau sans reflet ni place perdue, intensite et temperature reglables. Note 4.9.",
+    "description": "Barre lumineuse de 50 cm qui se pose sur le haut de l ecran : elle eclaire le clavier et le bureau sans reflet sur la dalle et sans prendre de place. Intensite et temperature de couleur reglables, alimentation USB. Le confort des longues sessions gaming et teletravail. Note 4.9 par 1 700 acheteurs.",
+    "features": [
+      "Se pose sur l ecran : zero place perdue",
+      "Eclairage sans reflet sur la dalle",
+      "Intensite et temperature reglables, USB"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007805766024.html",
+      "supplierSku": "AE-ITEM-1005007805766024",
+      "supplierPriceCents": 1249,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2790,
+      "marginCents": 1541,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007805766024.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 123,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 12.49 EUR, boutique 27.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T09:54:42.045Z"
+    },
+    "price": 2790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007805766024.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007805766024 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Barre lumineuse d'écran USB 50 cm | Maxi Trouvaille",
+      "description": "Barre LED a poser sur l ecran : eclaire le bureau sans reflet ni place perdue, intensite et temperature reglables. Note 4.9.",
+      "h1": "Barre lumineuse d'écran USB 50 cm",
+      "h2": "Pourquoi choisir Barre lumineuse d'écran USB 50 cm",
+      "keywords": [
+        "barre",
+        "lumineuse",
+        "ecran",
+        "usb",
+        "50cm",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Barre lumineuse d'écran USB 50 cm - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Barre lumineuse d'écran USB 50 cm - boutique Maxi Trouvaille",
+    "compareAtPrice": 3790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
