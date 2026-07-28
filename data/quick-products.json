@@ -22457,5 +22457,296 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_porte_cable_magnetique_bureau_001",
+    "slug": "porte-cable-magnetique-bureau",
+    "name": "Porte-câbles magnétique de bureau",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/porte-cable-magnetique-bureau-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/porte-cable-magnetique-bureau-photo-1.webp",
+      "/uploads/quick-products/porte-cable-magnetique-bureau-photo-2.webp",
+      "/uploads/quick-products/porte-cable-magnetique-bureau-photo-3.webp",
+      "/uploads/quick-products/porte-cable-magnetique-bureau-photo-4.webp",
+      "/uploads/quick-products/porte-cable-magnetique-bureau-photo-5.webp",
+      "/uploads/quick-products/porte-cable-magnetique-bureau-photo-6.webp"
+    ],
+    "shortDescription": "Support magnetique qui garde les cables de charge a portee de main : fini les cables qui glissent derriere le bureau. Note 4.9.",
+    "description": "Porte-cables magnetique adhesif : les embouts de vos cables USB restent accroches au bord du bureau ou de la table de nuit au lieu de glisser par terre. Un petit accessoire malin adopte par plus de 50 000 acheteurs, note 4.9 sur pres de 10 000 avis.",
+    "features": [
+      "Aimants : les cables restent en place",
+      "Adhesif solide, pose en 10 secondes",
+      "Bureau, chevet, cuisine, voiture"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009916313017.html",
+      "supplierSku": "AE-ITEM-1005009916313017",
+      "supplierPriceCents": 159,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 531,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009916313017.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 334,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 1.59 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T09:48:24.762Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009916313017.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009916313017 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Porte-câbles magnétique de bureau | Maxi Trouvaille",
+      "description": "Support magnetique qui garde les cables de charge a portee de main : fini les cables qui glissent derriere le bureau. Note 4.9.",
+      "h1": "Porte-câbles magnétique de bureau",
+      "h2": "Pourquoi choisir Porte-câbles magnétique de bureau",
+      "keywords": [
+        "porte",
+        "cable",
+        "magnetique",
+        "bureau",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Porte-câbles magnétique de bureau - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Porte-câbles magnétique de bureau - high-tech Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_mug_thermos_voyage_inox_anti_fuite_001",
+    "slug": "mug-thermos-voyage-inox-anti-fuite",
+    "name": "Mug thermos de voyage inox anti-fuite",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/mug-thermos-voyage-inox-anti-fuite-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/mug-thermos-voyage-inox-anti-fuite-photo-1.webp",
+      "/uploads/quick-products/mug-thermos-voyage-inox-anti-fuite-photo-2.webp",
+      "/uploads/quick-products/mug-thermos-voyage-inox-anti-fuite-photo-3.webp",
+      "/uploads/quick-products/mug-thermos-voyage-inox-anti-fuite-photo-4.webp",
+      "/uploads/quick-products/mug-thermos-voyage-inox-anti-fuite-photo-5.webp",
+      "/uploads/quick-products/mug-thermos-voyage-inox-anti-fuite-photo-6.webp"
+    ],
+    "shortDescription": "Mug isotherme double paroi inox anti-fuite : cafe chaud pendant le trajet, tient dans le porte-gobelet de la voiture.",
+    "description": "Mug thermos de voyage en double paroi inox : le cafe reste chaud pendant des heures, le couvercle anti-fuite supporte le sac et les secousses, et le format se glisse dans le porte-gobelet de la voiture. Le compagnon des trajets du matin, adopte par plus de 10 000 acheteurs.",
+    "features": [
+      "Double paroi inox : boissons chaudes des heures",
+      "Couvercle anti-fuite teste en sac",
+      "Format porte-gobelet voiture"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006277807357.html",
+      "supplierSku": "AE-ITEM-1005006277807357",
+      "supplierPriceCents": 769,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2190,
+      "marginCents": 1421,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006277807357.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 185,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 7.69 EUR, boutique 21.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T09:48:25.343Z"
+    },
+    "price": 2190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006277807357.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006277807357 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Mug thermos de voyage inox anti-fuite | Maxi Trouvaille",
+      "description": "Mug isotherme double paroi inox anti-fuite : cafe chaud pendant le trajet, tient dans le porte-gobelet de la voiture.",
+      "h1": "Mug thermos de voyage inox anti-fuite",
+      "h2": "Pourquoi choisir Mug thermos de voyage inox anti-fuite",
+      "keywords": [
+        "mug",
+        "thermos",
+        "voyage",
+        "inox",
+        "anti",
+        "fuite",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Mug thermos de voyage inox anti-fuite - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Mug thermos de voyage inox anti-fuite - cuisine Maxi Trouvaille",
+    "compareAtPrice": 2990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_lampe_frontale_led_cob_rechargeable_001",
+    "slug": "lampe-frontale-led-cob-rechargeable",
+    "name": "Lampe frontale LED COB rechargeable",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/lampe-frontale-led-cob-rechargeable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/lampe-frontale-led-cob-rechargeable-photo-1.webp",
+      "/uploads/quick-products/lampe-frontale-led-cob-rechargeable-photo-2.webp",
+      "/uploads/quick-products/lampe-frontale-led-cob-rechargeable-photo-3.webp",
+      "/uploads/quick-products/lampe-frontale-led-cob-rechargeable-photo-4.webp",
+      "/uploads/quick-products/lampe-frontale-led-cob-rechargeable-photo-5.webp",
+      "/uploads/quick-products/lampe-frontale-led-cob-rechargeable-photo-6.webp"
+    ],
+    "shortDescription": "Lampe frontale LED COB rechargeable USB avec detecteur de mouvement : mains libres pour bricoler, camper et courir la nuit.",
+    "description": "Lampe frontale LED COB rechargeable en USB avec capteur de mouvement : un geste de la main devant le front pour allumer et eteindre, faisceau large et puissant, bandeau confortable. Bricolage, camping, peche et footing du soir les mains libres. Plus de 50 000 acheteurs, note 4.6 sur 10 000 avis.",
+    "features": [
+      "Allumage d un geste (capteur de mouvement)",
+      "LED COB : faisceau large et puissant",
+      "Rechargeable USB, bandeau confortable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007255182152.html",
+      "supplierSku": "AE-ITEM-1005007255182152",
+      "supplierPriceCents": 429,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 861,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007255182152.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 201,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.29 EUR, boutique 12.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T09:48:26.069Z"
+    },
+    "price": 1290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007255182152.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007255182152 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Lampe frontale LED COB rechargeable | Maxi Trouvaille",
+      "description": "Lampe frontale LED COB rechargeable USB avec detecteur de mouvement : mains libres pour bricoler, camper et courir la nuit.",
+      "h1": "Lampe frontale LED COB rechargeable",
+      "h2": "Pourquoi choisir Lampe frontale LED COB rechargeable",
+      "keywords": [
+        "lampe",
+        "frontale",
+        "led",
+        "cob",
+        "rechargeable",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Lampe frontale LED COB rechargeable - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Lampe frontale LED COB rechargeable - boutique Maxi Trouvaille",
+    "compareAtPrice": 1790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]

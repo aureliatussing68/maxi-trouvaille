@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-07-28T09:43:46.442Z",
+  "checkedAt": "2026-07-28T09:48:26.607Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 221,
-  "publishedPartnerCount": 162,
+  "partnerProductCount": 224,
+  "publishedPartnerCount": 165,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -3987,27 +3987,81 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_porte_cable_magnetique_bureau_001",
+      "slug": "porte-cable-magnetique-bureau",
+      "name": "Porte-câbles magnétique de bureau",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-high-tech",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_mug_thermos_voyage_inox_anti_fuite_001",
+      "slug": "mug-thermos-voyage-inox-anti-fuite",
+      "name": "Mug thermos de voyage inox anti-fuite",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-cuisine",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_lampe_frontale_led_cob_rechargeable_001",
+      "slug": "lampe-frontale-led-cob-rechargeable",
+      "name": "Lampe frontale LED COB rechargeable",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-outillage",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 217
+    "data/quick-products.json": 220
   },
   "byStatus": {
     "draft": 59,
-    "published": 162
+    "published": 165
   },
   "byCategory": {
-    "dropshipping-high-tech": 22,
+    "dropshipping-high-tech": 23,
     "dropshipping-accessoires": 28,
     "dropshipping-maison": 29,
     "dropshipping-auto-moto": 18,
-    "dropshipping-cuisine": 27,
+    "dropshipping-cuisine": 28,
     "dropshipping-enfant": 20,
     "dropshipping-beaute": 18,
     "dropshipping-animaux": 22,
     "dropshipping-mode": 17,
-    "dropshipping-outillage": 11,
+    "dropshipping-outillage": 12,
     "dropshipping-gaming": 9
   },
   "safety": {
