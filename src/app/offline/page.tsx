@@ -26,13 +26,13 @@ const offlineActions = [
   {
     href: "/boutique",
     label: "Boutique",
-    description: "Revoir les rayons des que la connexion revient.",
+    description: "Revoir les rayons dès que la connexion revient.",
     Icon: Home,
   },
   {
     href: "/produits-partenaires",
     label: "Produits partenaires",
-    description: "Retrouver les articles controles avant mise en vente.",
+    description: "Retrouver les articles contrôlés avant mise en vente.",
     Icon: PackageCheck,
   },
   {
@@ -50,21 +50,21 @@ const offlineActions = [
 
 const offlineAssurances = [
   {
-    title: "Boutique gardee propre",
+    title: "Boutique gardée propre",
     description:
-      "Les articles restent controles avant publication pour garder une vitrine claire et fiable.",
+      "Les articles restent contrôlés avant publication pour garder une vitrine claire et fiable.",
     Icon: ShieldCheck,
   },
   {
     title: "Paiement Maxi Trouvaille",
     description:
-      "Le paiement reprend seulement quand le reseau revient et uniquement pour les articles prets.",
+      "Le paiement reprend seulement quand le réseau revient et uniquement pour les articles prêts.",
     Icon: RefreshCw,
   },
   {
-    title: "Suivi centralise",
+    title: "Suivi centralisé",
     description:
-      "Les informations de livraison et de service client restent au meme endroit apres reconnexion.",
+      "Les informations de livraison et de service client restent au même endroit après reconnexion.",
     Icon: PackageCheck,
   },
 ] satisfies Array<{
@@ -81,12 +81,12 @@ const offlineDemoSteps = [
   },
   {
     label: "Produits partenaires",
-    text: "Montrer les rayons et les articles controles avant mise en vente.",
+    text: "Montrer les rayons et les articles contrôlés avant mise en vente.",
     href: "/produits-partenaires",
   },
   {
     label: "Service client",
-    text: "Rassurer sur le suivi colis, les retours et le contact apres reconnexion.",
+    text: "Rassurer sur le suivi colis, les retours et le contact après reconnexion.",
     href: "/contact",
   },
 ] satisfies Array<{
@@ -105,19 +105,19 @@ export default function OfflinePage() {
             Mode hors ligne
           </p>
           <h1 className="mt-3 max-w-3xl text-3xl font-black leading-tight text-foreground md:text-5xl">
-            Maxi Trouvaille reste pret a redemarrer.
+            Maxi Trouvaille reste prêt à redémarrer.
           </h1>
           <p className="mt-5 max-w-2xl text-lg leading-8 text-muted">
-            La connexion semble indisponible. Les pages deja consultees peuvent
+            La connexion semble indisponible. Les pages déjà consultées peuvent
             rester accessibles, puis la boutique, le paiement Maxi Trouvaille et
-            le suivi colis reprennent des que le reseau revient.
+            le suivi colis reprennent dès que le réseau revient.
           </p>
           <div className="mt-7 flex flex-wrap gap-3">
             <Link
               href="/"
               className="focus-ring inline-flex min-h-12 items-center justify-center rounded-full bg-foreground px-6 text-sm font-bold text-white transition hover:bg-teal"
             >
-              Revenir a l&apos;accueil
+              Revenir à l&apos;accueil
             </Link>
             <Link
               href="/boutique"
@@ -130,7 +130,7 @@ export default function OfflinePage() {
           <div className="mt-8 border-t border-line pt-6">
             <div className="flex items-center gap-3 text-sm font-black uppercase tracking-[0.14em] text-teal">
               <ClipboardList aria-hidden className="h-4 w-4" />
-              Chemin demo mobile
+              Chemin démo mobile
             </div>
             <ol className="mt-4 grid gap-3 sm:grid-cols-3">
               {offlineDemoSteps.map(({ label, text, href }, index) => (
@@ -168,14 +168,14 @@ export default function OfflinePage() {
             </span>
             <div>
               <p className="text-sm font-black uppercase tracking-[0.14em] text-teal">
-                Connexion a reprendre
+                Connexion à reprendre
               </p>
               <h2 className="mt-2 text-xl font-black text-foreground">
-                Rien n&apos;est envoye hors ligne.
+                Rien n&apos;est envoyé hors ligne.
               </h2>
               <p className="mt-2 text-sm leading-6 text-muted">
                 Les actions sensibles attendent une connexion active. La visite
-                reste simple, lisible et centree sur les pages utiles.
+                reste simple, lisible et centrée sur les pages utiles.
               </p>
             </div>
           </div>

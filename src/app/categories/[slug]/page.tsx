@@ -19,6 +19,7 @@ import {
   PartnerCategorySafePanel,
 } from "@/components/PartnerMobileShowcasePanel";
 import { ProductCard } from "@/components/ProductCard";
+import { isAdminModeEnabled } from "@/lib/admin";
 import {
   categories,
   getCategoryBySlug,
@@ -149,7 +150,9 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         description={category.description}
       />
       <section className="container-page py-10">
-        {isPartnerCategory ? (
+        {/* Panneaux de pilotage interne : visibles uniquement en mode admin,
+            jamais pour les visiteurs de la boutique. */}
+        {isPartnerCategory && isAdminModeEnabled() ? (
           <div className="mb-10 grid gap-6">
             <PartnerCategorySafePanel
               categoryName={category.name}

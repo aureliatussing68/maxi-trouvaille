@@ -64,6 +64,9 @@ const nextConfig: NextConfig = {
     ];
   },
   images: {
+    // Les photos locales (.webp) sont deja legeres : on n'utilise plus
+    // l'optimiseur d'images de Vercel (quota depasse -> erreur 402 = photos cassees).
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",

@@ -5,9 +5,9 @@ import { ServiceReadinessPanel } from "@/components/ServiceReadinessPanel";
 import { getStorefrontControlMetrics } from "@/lib/storefront-control-metrics";
 
 export const metadata: Metadata = {
-  title: "Mentions legales",
+  title: "Mentions légales",
   description:
-    "Mentions legales Maxi Trouvaille pour une boutique centree produits partenaires, service client et suivi colis.",
+    "Mentions légales Maxi Trouvaille pour une boutique centrée produits partenaires, service client et suivi colis.",
 };
 
 export default async function LegalNoticePage() {

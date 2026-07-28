@@ -113,7 +113,7 @@ export function ShippingSelector({
         <div className="mt-5 rounded-lg border border-[#fed7aa] bg-[#fff7ed] p-4 text-sm font-semibold leading-6 text-[#9a3412]">
           Ce panier contient un objet volumineux ou sur devis. Le paiement en
           ligne reste en attente : contactez Maxi Trouvaille pour organiser le
-          retrait ou obtenir un devis personnalise.
+          retrait ou obtenir un devis personnalisé.
         </div>
       )}
 
@@ -131,7 +131,7 @@ export function ShippingSelector({
           </div>
           <div className="grid gap-4 sm:grid-cols-2">
             <Field
-              label="Prenom"
+              label="Prénom"
               value={selection.customer.firstName}
               autoComplete="given-name"
               onChange={(firstName) =>
@@ -173,7 +173,7 @@ export function ShippingSelector({
               onChange={(city) => onChange(patchCustomer(selection, { city }))}
             />
             <Field
-              label="Telephone"
+              label="Téléphone"
               value={selection.customer.phone}
               autoComplete="tel"
               type="tel"
@@ -189,7 +189,7 @@ export function ShippingSelector({
           </div>
           {needsRelayDetails ? (
             <div className="rounded-md border border-dashed border-line bg-paper p-3 text-sm font-bold text-muted">
-              Choix du point relais a venir.
+              Choix du point relais à venir.
             </div>
           ) : null}
         </div>

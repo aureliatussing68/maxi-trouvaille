@@ -204,7 +204,7 @@ export function validateShippingSelection(
     return {
       ok: false,
       selection,
-      error: "Completez les informations de livraison avant paiement.",
+      error: "Complétez les informations de livraison avant paiement.",
     };
   }
 

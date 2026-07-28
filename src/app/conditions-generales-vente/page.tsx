@@ -5,9 +5,9 @@ import { ServiceReadinessPanel } from "@/components/ServiceReadinessPanel";
 import { getStorefrontControlMetrics } from "@/lib/storefront-control-metrics";
 
 export const metadata: Metadata = {
-  title: "Conditions generales de vente",
+  title: "Conditions générales de vente",
   description:
-    "Conditions generales de vente Maxi Trouvaille pour les produits partenaires, le paiement, la livraison et le service client.",
+    "Conditions générales de vente Maxi Trouvaille pour les produits partenaires, le paiement, la livraison et le service client.",
 };
 
 export default async function TermsPage() {

@@ -5,9 +5,9 @@ import { ServiceReadinessPanel } from "@/components/ServiceReadinessPanel";
 import { getStorefrontControlMetrics } from "@/lib/storefront-control-metrics";
 
 export const metadata: Metadata = {
-  title: "Politique de confidentialite",
+  title: "Politique de confidentialité",
   description:
-    "Politique de confidentialite Maxi Trouvaille pour les commandes, paiements, livraisons, suivi colis et support client.",
+    "Politique de confidentialité Maxi Trouvaille pour les commandes, paiements, livraisons, suivi colis et support client.",
 };
 
 export default async function PrivacyPage() {

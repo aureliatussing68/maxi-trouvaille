@@ -21587,5 +21587,491 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_tapis_souris_gaming_led_rgb_etanche_001",
+    "slug": "tapis-souris-gaming-led-rgb-etanche",
+    "name": "Tapis de souris gaming LED RGB étanche",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/tapis-souris-gaming-led-rgb-etanche-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/tapis-souris-gaming-led-rgb-etanche-photo-1.webp",
+      "/uploads/quick-products/tapis-souris-gaming-led-rgb-etanche-photo-2.webp",
+      "/uploads/quick-products/tapis-souris-gaming-led-rgb-etanche-photo-3.webp",
+      "/uploads/quick-products/tapis-souris-gaming-led-rgb-etanche-photo-4.webp",
+      "/uploads/quick-products/tapis-souris-gaming-led-rgb-etanche-photo-5.webp",
+      "/uploads/quick-products/tapis-souris-gaming-led-rgb-etanche-photo-6.webp"
+    ],
+    "shortDescription": "Grand tapis de souris avec contour LED RGB : glisse precise, surface etanche et halo lumineux qui transforme le setup.",
+    "description": "Tapis de souris gaming grand format avec contour LED RGB : plusieurs modes lumineux pour accorder le tapis au reste du setup, surface lisse et precise pour la souris, revetement etanche facile a essuyer. Note 4.8 par pres de 400 joueurs.",
+    "features": [
+      "Contour LED RGB, plusieurs modes",
+      "Surface precise et etanche",
+      "Grand format : clavier + souris"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/4000804707848.html",
+      "supplierSku": "AE-ITEM-4000804707848",
+      "supplierPriceCents": 829,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1890,
+      "marginCents": 1061,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/4000804707848.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 128,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 8.29 EUR, boutique 18.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T09:38:02.794Z"
+    },
+    "price": 1890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/4000804707848.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 4000804707848 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Tapis de souris gaming LED RGB étanche | Maxi Trouvaille",
+      "description": "Grand tapis de souris avec contour LED RGB : glisse precise, surface etanche et halo lumineux qui transforme le setup.",
+      "h1": "Tapis de souris gaming LED RGB étanche",
+      "h2": "Pourquoi choisir Tapis de souris gaming LED RGB étanche",
+      "keywords": [
+        "tapis",
+        "souris",
+        "gaming",
+        "led",
+        "rgb",
+        "etanche",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Tapis de souris gaming LED RGB étanche - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Tapis de souris gaming LED RGB étanche - boutique Maxi Trouvaille",
+    "compareAtPrice": 2590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_purificateur_air_hepa_ions_negatifs_001",
+    "slug": "purificateur-air-hepa-ions-negatifs",
+    "name": "Purificateur d'air HEPA avec ions négatifs",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/purificateur-air-hepa-ions-negatifs-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/purificateur-air-hepa-ions-negatifs-photo-1.webp",
+      "/uploads/quick-products/purificateur-air-hepa-ions-negatifs-photo-2.webp",
+      "/uploads/quick-products/purificateur-air-hepa-ions-negatifs-photo-3.webp",
+      "/uploads/quick-products/purificateur-air-hepa-ions-negatifs-photo-4.webp",
+      "/uploads/quick-products/purificateur-air-hepa-ions-negatifs-photo-5.webp",
+      "/uploads/quick-products/purificateur-air-hepa-ions-negatifs-photo-6.webp"
+    ],
+    "shortDescription": "Purificateur d air compact avec filtre HEPA et ions negatifs : poussiere, poils et odeurs filtres dans la chambre ou le bureau.",
+    "description": "Purificateur d air compact avec filtre HEPA et generateur d ions negatifs : il capte poussiere, poils d animaux, pollens et odeurs pour un air plus sain dans la chambre, le bureau ou le salon. Silencieux et sobre, note 4.9 par plus de 600 acheteurs.",
+    "features": [
+      "Filtre HEPA : poussiere, pollens, poils",
+      "Ions negatifs : air assaini, odeurs reduites",
+      "Compact et silencieux, note 4.9"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009193917166.html",
+      "supplierSku": "AE-ITEM-1005009193917166",
+      "supplierPriceCents": 1529,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3390,
+      "marginCents": 1861,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009193917166.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (4000+ ventes, visuels officiels importes).",
+      "markupPercent": 122,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 15.29 EUR, boutique 33.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T09:38:03.411Z"
+    },
+    "price": 3390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009193917166.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009193917166 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Purificateur d'air HEPA avec ions négatifs | Maxi Trouvaille",
+      "description": "Purificateur d air compact avec filtre HEPA et ions negatifs : poussiere, poils et odeurs filtres dans la chambre ou le bureau.",
+      "h1": "Purificateur d'air HEPA avec ions négatifs",
+      "h2": "Pourquoi choisir Purificateur d'air HEPA avec ions négatifs",
+      "keywords": [
+        "purificateur",
+        "air",
+        "hepa",
+        "ions",
+        "negatifs",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Purificateur d'air HEPA avec ions négatifs - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Purificateur d'air HEPA avec ions négatifs - maison Maxi Trouvaille",
+    "compareAtPrice": 4590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_pistolet_colle_chaude_150w_001",
+    "slug": "pistolet-colle-chaude-150w",
+    "name": "Pistolet à colle chaude 150W chauffe rapide",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/pistolet-colle-chaude-150w-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/pistolet-colle-chaude-150w-photo-1.webp",
+      "/uploads/quick-products/pistolet-colle-chaude-150w-photo-2.webp",
+      "/uploads/quick-products/pistolet-colle-chaude-150w-photo-3.webp",
+      "/uploads/quick-products/pistolet-colle-chaude-150w-photo-4.webp",
+      "/uploads/quick-products/pistolet-colle-chaude-150w-photo-5.webp",
+      "/uploads/quick-products/pistolet-colle-chaude-150w-photo-6.webp"
+    ],
+    "shortDescription": "Pistolet a colle chaude 150W qui chauffe en quelques secondes : bricolage, reparations et loisirs creatifs sans attendre.",
+    "description": "Pistolet a colle chaude 150W a chauffe rapide pour batons de 11 mm : reparations du quotidien, fixation, loisirs creatifs et deco. Debit regulier, buse precise et repose-pistolet integre. Note 4.9 par pres de 750 acheteurs.",
+    "features": [
+      "150W : chauffe en quelques secondes",
+      "Batons 11 mm standard",
+      "Bricolage, reparations, loisirs creatifs"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007805746057.html",
+      "supplierSku": "AE-ITEM-1005007805746057",
+      "supplierPriceCents": 739,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2090,
+      "marginCents": 1351,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007805746057.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (4000+ ventes, visuels officiels importes).",
+      "markupPercent": 183,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 7.39 EUR, boutique 20.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T09:38:03.971Z"
+    },
+    "price": 2090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007805746057.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007805746057 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Pistolet à colle chaude 150W chauffe rapide | Maxi Trouvaille",
+      "description": "Pistolet a colle chaude 150W qui chauffe en quelques secondes : bricolage, reparations et loisirs creatifs sans attendre.",
+      "h1": "Pistolet à colle chaude 150W chauffe rapide",
+      "h2": "Pourquoi choisir Pistolet à colle chaude 150W chauffe rapide",
+      "keywords": [
+        "pistolet",
+        "colle",
+        "chaude",
+        "150w",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Pistolet à colle chaude 150W chauffe rapide - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Pistolet à colle chaude 150W chauffe rapide - boutique Maxi Trouvaille",
+    "compareAtPrice": 2890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_mini_projecteur_hy300_pro_android_wifi6_001",
+    "slug": "mini-projecteur-hy300-pro-android-wifi6",
+    "name": "Mini projecteur HY300 Pro Android WiFi 6",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/mini-projecteur-hy300-pro-android-wifi6-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/mini-projecteur-hy300-pro-android-wifi6-photo-1.webp",
+      "/uploads/quick-products/mini-projecteur-hy300-pro-android-wifi6-photo-2.webp",
+      "/uploads/quick-products/mini-projecteur-hy300-pro-android-wifi6-photo-3.webp",
+      "/uploads/quick-products/mini-projecteur-hy300-pro-android-wifi6-photo-4.webp",
+      "/uploads/quick-products/mini-projecteur-hy300-pro-android-wifi6-photo-5.webp",
+      "/uploads/quick-products/mini-projecteur-hy300-pro-android-wifi6-photo-6.webp"
+    ],
+    "shortDescription": "Mini videoprojecteur HY300 Pro sous Android avec WiFi 6 et Bluetooth : le cinema a la maison, note 4.9 sur 19 000 avis.",
+    "description": "Mini projecteur HY300 Pro sous Android avec WiFi 6 et Bluetooth 5.4 : Netflix, YouTube et vos applis directement dans le projecteur, image jusqu a tres grand format sur un mur blanc. Le carton des soirees cinema a la maison : note 4.9 sur plus de 19 000 avis et 100 000 ventes.",
+    "features": [
+      "Android integre : applis sans autre appareil",
+      "WiFi 6 + Bluetooth 5.4",
+      "Note 4.9 sur plus de 19 000 avis"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010130929906.html",
+      "supplierSku": "AE-ITEM-1005010130929906",
+      "supplierPriceCents": 3684,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 5990,
+      "marginCents": 2306,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010130929906.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 63,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 36.84 EUR, boutique 59.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T09:38:05.060Z"
+    },
+    "price": 5990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010130929906.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010130929906 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Mini projecteur HY300 Pro Android WiFi 6 | Maxi Trouvaille",
+      "description": "Mini videoprojecteur HY300 Pro sous Android avec WiFi 6 et Bluetooth : le cinema a la maison, note 4.9 sur 19 000 avis.",
+      "h1": "Mini projecteur HY300 Pro Android WiFi 6",
+      "h2": "Pourquoi choisir Mini projecteur HY300 Pro Android WiFi 6",
+      "keywords": [
+        "mini",
+        "projecteur",
+        "hy300",
+        "pro",
+        "android",
+        "wifi6",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Mini projecteur HY300 Pro Android WiFi 6 - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Mini projecteur HY300 Pro Android WiFi 6 - high-tech Maxi Trouvaille",
+    "compareAtPrice": 8090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_montre_enfant_digitale_led_etanche_001",
+    "slug": "montre-enfant-digitale-led-etanche",
+    "name": "Montre enfant digitale LED étanche",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/montre-enfant-digitale-led-etanche-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/montre-enfant-digitale-led-etanche-photo-1.webp",
+      "/uploads/quick-products/montre-enfant-digitale-led-etanche-photo-2.webp",
+      "/uploads/quick-products/montre-enfant-digitale-led-etanche-photo-3.webp",
+      "/uploads/quick-products/montre-enfant-digitale-led-etanche-photo-4.webp",
+      "/uploads/quick-products/montre-enfant-digitale-led-etanche-photo-5.webp",
+      "/uploads/quick-products/montre-enfant-digitale-led-etanche-photo-6.webp"
+    ],
+    "shortDescription": "Montre digitale pour enfant avec bracelet silicone souple et ecran LED : etanche, coloree et facile a lire.",
+    "description": "Montre digitale pour enfant avec ecran LED et bracelet en silicone souple et confortable. Etanche pour survivre au lavage des mains et a la piscine, elle apprend l heure aux petits avec un look sport et colore. Note 4.9 par plus de 1 000 parents.",
+    "features": [
+      "Etanche : mains lavees, piscine OK",
+      "Bracelet silicone doux et solide",
+      "Ecran LED facile a lire, coloris varies"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006982692916.html",
+      "supplierSku": "AE-ITEM-1005006982692916",
+      "supplierPriceCents": 176,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 514,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006982692916.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 292,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 1.76 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T09:38:05.450Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006982692916.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006982692916 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Montre enfant digitale LED étanche | Maxi Trouvaille",
+      "description": "Montre digitale pour enfant avec bracelet silicone souple et ecran LED : etanche, coloree et facile a lire.",
+      "h1": "Montre enfant digitale LED étanche",
+      "h2": "Pourquoi choisir Montre enfant digitale LED étanche",
+      "keywords": [
+        "montre",
+        "enfant",
+        "digitale",
+        "led",
+        "etanche",
+        "dropshipping-enfant"
+      ],
+      "imageAlt": "Montre enfant digitale LED étanche - enfant Maxi Trouvaille"
+    },
+    "imageAlt": "Montre enfant digitale LED étanche - enfant Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
