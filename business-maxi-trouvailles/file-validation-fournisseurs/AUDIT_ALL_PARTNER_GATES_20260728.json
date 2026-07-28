@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-07-28T09:48:26.607Z",
+  "checkedAt": "2026-07-28T09:51:59.248Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 224,
-  "publishedPartnerCount": 165,
+  "partnerProductCount": 225,
+  "publishedPartnerCount": 166,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -4041,15 +4041,33 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_ceinture_tressee_elastique_unisexe_001",
+      "slug": "ceinture-tressee-elastique-unisexe",
+      "name": "Ceinture tressée élastique unisexe",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-mode",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 220
+    "data/quick-products.json": 221
   },
   "byStatus": {
     "draft": 59,
-    "published": 165
+    "published": 166
   },
   "byCategory": {
     "dropshipping-high-tech": 23,
@@ -4060,7 +4078,7 @@
     "dropshipping-enfant": 20,
     "dropshipping-beaute": 18,
     "dropshipping-animaux": 22,
-    "dropshipping-mode": 17,
+    "dropshipping-mode": 18,
     "dropshipping-outillage": 12,
     "dropshipping-gaming": 9
   },
