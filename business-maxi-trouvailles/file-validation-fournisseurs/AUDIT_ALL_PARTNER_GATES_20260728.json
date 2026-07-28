@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-07-28T01:53:43.422Z",
+  "checkedAt": "2026-07-28T01:55:47.409Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 211,
-  "publishedPartnerCount": 152,
+  "partnerProductCount": 212,
+  "publishedPartnerCount": 153,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -3807,19 +3807,37 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_sac_dos_antivol_ordinateur_port_usb_001",
+      "slug": "sac-dos-antivol-ordinateur-port-usb",
+      "name": "Sac à dos antivol ordinateur avec port USB",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-accessoires",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 207
+    "data/quick-products.json": 208
   },
   "byStatus": {
     "draft": 59,
-    "published": 152
+    "published": 153
   },
   "byCategory": {
     "dropshipping-high-tech": 21,
-    "dropshipping-accessoires": 26,
+    "dropshipping-accessoires": 27,
     "dropshipping-maison": 28,
     "dropshipping-auto-moto": 18,
     "dropshipping-cuisine": 26,

@@ -21489,5 +21489,103 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_sac_dos_antivol_ordinateur_port_usb_001",
+    "slug": "sac-dos-antivol-ordinateur-port-usb",
+    "name": "Sac à dos antivol ordinateur avec port USB",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/sac-dos-antivol-ordinateur-port-usb-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/sac-dos-antivol-ordinateur-port-usb-photo-1.webp",
+      "/uploads/quick-products/sac-dos-antivol-ordinateur-port-usb-photo-2.webp",
+      "/uploads/quick-products/sac-dos-antivol-ordinateur-port-usb-photo-3.webp",
+      "/uploads/quick-products/sac-dos-antivol-ordinateur-port-usb-photo-4.webp",
+      "/uploads/quick-products/sac-dos-antivol-ordinateur-port-usb-photo-5.webp",
+      "/uploads/quick-products/sac-dos-antivol-ordinateur-port-usb-photo-6.webp"
+    ],
+    "shortDescription": "Sac a dos d affaires antivol avec compartiment ordinateur et port USB externe : ideal boulot, fac et voyage. Note 5.0.",
+    "description": "Sac a dos antivol pour ordinateur portable : poches securisees dans le dos, tissu resistant a l eau, compartiments organises et port USB externe pour recharger le telephone depuis une batterie glissee a l interieur. Parfait pour le travail, les etudes et les voyages. Note parfaite 5.0 sur pres de 200 avis.",
+    "features": [
+      "Poches antivol dissimulees dans le dos",
+      "Compartiment ordinateur + port USB externe",
+      "Tissu resistant a l eau, note 5.0"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007764533998.html",
+      "supplierSku": "AE-ITEM-1005007764533998",
+      "supplierPriceCents": 3619,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 5890,
+      "marginCents": 2271,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007764533998.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 63,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 36.19 EUR, boutique 58.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T01:55:46.834Z"
+    },
+    "price": 5890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007764533998.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007764533998 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Sac à dos antivol ordinateur avec port USB | Maxi Trouvaille",
+      "description": "Sac a dos d affaires antivol avec compartiment ordinateur et port USB externe : ideal boulot, fac et voyage. Note 5.0.",
+      "h1": "Sac à dos antivol ordinateur avec port USB",
+      "h2": "Pourquoi choisir Sac à dos antivol ordinateur avec port USB",
+      "keywords": [
+        "sac",
+        "dos",
+        "antivol",
+        "ordinateur",
+        "port",
+        "usb",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Sac à dos antivol ordinateur avec port USB - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Sac à dos antivol ordinateur avec port USB - accessoires Maxi Trouvaille",
+    "compareAtPrice": 7990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
