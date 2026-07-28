@@ -22073,5 +22073,389 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_seche_cheveux_ionique_professionnel_001",
+    "slug": "seche-cheveux-ionique-professionnel",
+    "name": "Sèche-cheveux ionique professionnel",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/seche-cheveux-ionique-professionnel-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/seche-cheveux-ionique-professionnel-photo-1.webp",
+      "/uploads/quick-products/seche-cheveux-ionique-professionnel-photo-2.webp",
+      "/uploads/quick-products/seche-cheveux-ionique-professionnel-photo-3.webp",
+      "/uploads/quick-products/seche-cheveux-ionique-professionnel-photo-4.webp",
+      "/uploads/quick-products/seche-cheveux-ionique-professionnel-photo-5.webp",
+      "/uploads/quick-products/seche-cheveux-ionique-professionnel-photo-6.webp"
+    ],
+    "shortDescription": "Seche-cheveux a ions negatifs, sechage rapide et silencieux : cheveux lisses et brillants sans les agresser. Note 4.9.",
+    "description": "Seche-cheveux professionnel a ions negatifs : sechage rapide a temperature constante qui limite la casse et les frisottis, moteur turbine silencieux et format leger. Cheveux plus lisses et brillants au quotidien. Note 4.9 par pres de 14 000 acheteurs.",
+    "features": [
+      "Ions negatifs : brillance, moins de frisottis",
+      "Sechage rapide, temperature constante",
+      "Leger et silencieux, note 4.9 (14 000 avis)"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009874295208.html",
+      "supplierSku": "AE-ITEM-1005009874295208",
+      "supplierPriceCents": 1169,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2590,
+      "marginCents": 1421,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009874295208.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 122,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 11.69 EUR, boutique 25.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T09:43:44.583Z"
+    },
+    "price": 2590,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009874295208.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009874295208 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Sèche-cheveux ionique professionnel | Maxi Trouvaille",
+      "description": "Seche-cheveux a ions negatifs, sechage rapide et silencieux : cheveux lisses et brillants sans les agresser. Note 4.9.",
+      "h1": "Sèche-cheveux ionique professionnel",
+      "h2": "Pourquoi choisir Sèche-cheveux ionique professionnel",
+      "keywords": [
+        "seche",
+        "cheveux",
+        "ionique",
+        "professionnel",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Sèche-cheveux ionique professionnel - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Sèche-cheveux ionique professionnel - beaute Maxi Trouvaille",
+    "compareAtPrice": 3590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_thermometre_cuisine_numerique_sonde_001",
+    "slug": "thermometre-cuisine-numerique-sonde",
+    "name": "Thermomètre de cuisine numérique à sonde",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/thermometre-cuisine-numerique-sonde-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/thermometre-cuisine-numerique-sonde-photo-1.webp",
+      "/uploads/quick-products/thermometre-cuisine-numerique-sonde-photo-2.webp",
+      "/uploads/quick-products/thermometre-cuisine-numerique-sonde-photo-3.webp",
+      "/uploads/quick-products/thermometre-cuisine-numerique-sonde-photo-4.webp"
+    ],
+    "shortDescription": "Thermometre de cuisson a lecture instantanee avec sonde inox : viandes, barbecue et patisserie toujours a la bonne temperature.",
+    "description": "Thermometre de cuisine numerique a sonde inox et lecture instantanee : plantez, lisez, servez. Viandes rosees a coeur, barbecue maitrise, sirops et chocolats a temperature exacte. L outil des cuissons reussies, note 4.8 par pres de 600 acheteurs.",
+    "features": [
+      "Lecture instantanee sur ecran LCD",
+      "Sonde inox : viande, BBQ, patisserie",
+      "Compact, se glisse dans un tiroir"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009619016198.html",
+      "supplierSku": "AE-ITEM-1005009619016198",
+      "supplierPriceCents": 389,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1090,
+      "marginCents": 701,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009619016198.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (4000+ ventes, visuels officiels importes).",
+      "markupPercent": 180,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 3.89 EUR, boutique 10.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T09:43:45.075Z"
+    },
+    "price": 1090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009619016198.html",
+      "imageCount": 4,
+      "reason": "Images officielles de la fiche fournisseur 1005009619016198 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Thermomètre de cuisine numérique à sonde | Maxi Trouvaille",
+      "description": "Thermometre de cuisson a lecture instantanee avec sonde inox : viandes, barbecue et patisserie toujours a la bonne temperature.",
+      "h1": "Thermomètre de cuisine numérique à sonde",
+      "h2": "Pourquoi choisir Thermomètre de cuisine numérique à sonde",
+      "keywords": [
+        "thermometre",
+        "cuisine",
+        "numerique",
+        "sonde",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Thermomètre de cuisine numérique à sonde - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Thermomètre de cuisine numérique à sonde - cuisine Maxi Trouvaille",
+    "compareAtPrice": 1490,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_harnais_laisse_chat_petit_chien_reflechi_001",
+    "slug": "harnais-laisse-chat-petit-chien-reflechissant",
+    "name": "Harnais et laisse réfléchissants chat et petit chien",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/harnais-laisse-chat-petit-chien-reflechissant-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/harnais-laisse-chat-petit-chien-reflechissant-photo-1.webp",
+      "/uploads/quick-products/harnais-laisse-chat-petit-chien-reflechissant-photo-2.webp",
+      "/uploads/quick-products/harnais-laisse-chat-petit-chien-reflechissant-photo-3.webp",
+      "/uploads/quick-products/harnais-laisse-chat-petit-chien-reflechissant-photo-4.webp",
+      "/uploads/quick-products/harnais-laisse-chat-petit-chien-reflechissant-photo-5.webp",
+      "/uploads/quick-products/harnais-laisse-chat-petit-chien-reflechissant-photo-6.webp"
+    ],
+    "shortDescription": "Harnais gilet en maille respirante avec laisse assortie : bandes reflechissantes et reglages doux pour chats et petits chiens.",
+    "description": "Ensemble harnais et laisse pour chat et petit chien : gilet en maille polyester respirante qui repartit la traction sans serrer le cou, bandes reflechissantes pour les sorties du soir et reglages faciles. Promenades sereines, note 4.6 par pres de 1 400 acheteurs.",
+    "features": [
+      "Gilet maille respirante, traction repartie",
+      "Bandes reflechissantes pour le soir",
+      "Laisse assortie incluse"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005901190328.html",
+      "supplierSku": "AE-ITEM-1005005901190328",
+      "supplierPriceCents": 235,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 790,
+      "marginCents": 555,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005901190328.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 236,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.35 EUR, boutique 7.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T09:43:45.493Z"
+    },
+    "price": 790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005901190328.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005901190328 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Harnais et laisse réfléchissants chat et petit chien | Maxi Trouvaille",
+      "description": "Harnais gilet en maille respirante avec laisse assortie : bandes reflechissantes et reglages doux pour chats et petits chiens.",
+      "h1": "Harnais et laisse réfléchissants chat et petit chien",
+      "h2": "Pourquoi choisir Harnais et laisse réfléchissants chat et petit chien",
+      "keywords": [
+        "harnais",
+        "laisse",
+        "chat",
+        "petit",
+        "chien",
+        "reflechissant",
+        "dropshipping-animaux"
+      ],
+      "imageAlt": "Harnais et laisse réfléchissants chat et petit chien - animaux Maxi Trouvaille"
+    },
+    "imageAlt": "Harnais et laisse réfléchissants chat et petit chien - animaux Maxi Trouvaille",
+    "compareAtPrice": 1090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_cubes_rangement_valise_lot_6_001",
+    "slug": "cubes-rangement-valise-lot-6",
+    "name": "Cubes de rangement valise - lot de 6",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/cubes-rangement-valise-lot-6-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/cubes-rangement-valise-lot-6-photo-1.webp",
+      "/uploads/quick-products/cubes-rangement-valise-lot-6-photo-2.webp",
+      "/uploads/quick-products/cubes-rangement-valise-lot-6-photo-3.webp",
+      "/uploads/quick-products/cubes-rangement-valise-lot-6-photo-4.webp",
+      "/uploads/quick-products/cubes-rangement-valise-lot-6-photo-5.webp",
+      "/uploads/quick-products/cubes-rangement-valise-lot-6-photo-6.webp"
+    ],
+    "shortDescription": "Lot de 6 organisateurs de valise etanches avec zip : vetements ranges par categorie, valise faite et defaite en 5 minutes.",
+    "description": "Lot de 6 sacs de rangement de voyage etanches avec fermeture eclair : vetements, sous-vetements et chaussures ranges chacun dans leur cube, la valise se fait et se defait en 5 minutes et reste impeccable tout le sejour. Note 4.6 par pres de 5 000 voyageurs.",
+    "features": [
+      "6 cubes de tailles differentes",
+      "Tissu etanche, fermetures zippees",
+      "Valise organisee, gain de place reel"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005449320271.html",
+      "supplierSku": "AE-ITEM-1005005449320271",
+      "supplierPriceCents": 549,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1590,
+      "marginCents": 1041,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005449320271.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 190,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 5.49 EUR, boutique 15.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T09:43:45.891Z"
+    },
+    "price": 1590,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005449320271.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005449320271 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Cubes de rangement valise - lot de 6 | Maxi Trouvaille",
+      "description": "Lot de 6 organisateurs de valise etanches avec zip : vetements ranges par categorie, valise faite et defaite en 5 minutes.",
+      "h1": "Cubes de rangement valise - lot de 6",
+      "h2": "Pourquoi choisir Cubes de rangement valise - lot de 6",
+      "keywords": [
+        "cubes",
+        "rangement",
+        "valise",
+        "lot",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Cubes de rangement valise - lot de 6 - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Cubes de rangement valise - lot de 6 - accessoires Maxi Trouvaille",
+    "compareAtPrice": 2190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
