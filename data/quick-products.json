@@ -20812,5 +20812,682 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_affuteur_couteaux_rouleau_magnetique_001",
+    "slug": "affuteur-couteaux-rouleau-magnetique",
+    "name": "Affûteur de couteaux à rouleau magnétique",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/affuteur-couteaux-rouleau-magnetique-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/affuteur-couteaux-rouleau-magnetique-photo-1.webp",
+      "/uploads/quick-products/affuteur-couteaux-rouleau-magnetique-photo-2.webp",
+      "/uploads/quick-products/affuteur-couteaux-rouleau-magnetique-photo-3.webp",
+      "/uploads/quick-products/affuteur-couteaux-rouleau-magnetique-photo-4.webp",
+      "/uploads/quick-products/affuteur-couteaux-rouleau-magnetique-photo-5.webp",
+      "/uploads/quick-products/affuteur-couteaux-rouleau-magnetique-photo-6.webp"
+    ],
+    "shortDescription": "Affuteur a rouleau avec guide magnetique 15 et 20 degres : des couteaux comme neufs en quelques allers-retours, sans savoir-faire.",
+    "description": "Kit d affutage a rouleau avec base magnetique double angle 15 et 20 degres et pierre diamant double face : posez le couteau, faites rouler, le fil revient comme neuf. La methode simple et sure popularisee par les chefs, sans aucun coup de main a apprendre.",
+    "features": [
+      "Base magnetique double angle 15/20 degres",
+      "Pierre diamant double face incluse",
+      "Resultat professionnel sans savoir-faire"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009002386598.html",
+      "supplierSku": "AE-ITEM-1005009002386598",
+      "supplierPriceCents": 1989,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 4390,
+      "marginCents": 2401,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009002386598.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 121,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 19.89 EUR, boutique 43.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T01:53:30.595Z"
+    },
+    "price": 4390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009002386598.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009002386598 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Affûteur de couteaux à rouleau magnétique | Maxi Trouvaille",
+      "description": "Affuteur a rouleau avec guide magnetique 15 et 20 degres : des couteaux comme neufs en quelques allers-retours, sans savoir-faire.",
+      "h1": "Affûteur de couteaux à rouleau magnétique",
+      "h2": "Pourquoi choisir Affûteur de couteaux à rouleau magnétique",
+      "keywords": [
+        "affuteur",
+        "couteaux",
+        "rouleau",
+        "magnetique",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Affûteur de couteaux à rouleau magnétique - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Affûteur de couteaux à rouleau magnétique - cuisine Maxi Trouvaille",
+    "compareAtPrice": 5990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_barrettes_ram_ddr4_cusu_16_32_go_001",
+    "slug": "barrettes-ram-ddr4-cusu-16-32-go",
+    "name": "Barrettes RAM DDR4 CUSU 3200/3600 MHz avec dissipateur",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/barrettes-ram-ddr4-cusu-16-32-go-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/barrettes-ram-ddr4-cusu-16-32-go-photo-1.webp",
+      "/uploads/quick-products/barrettes-ram-ddr4-cusu-16-32-go-photo-2.webp",
+      "/uploads/quick-products/barrettes-ram-ddr4-cusu-16-32-go-photo-3.webp",
+      "/uploads/quick-products/barrettes-ram-ddr4-cusu-16-32-go-photo-4.webp",
+      "/uploads/quick-products/barrettes-ram-ddr4-cusu-16-32-go-photo-5.webp",
+      "/uploads/quick-products/barrettes-ram-ddr4-cusu-16-32-go-photo-6.webp"
+    ],
+    "shortDescription": "Kit memoire RAM DDR4 avec dissipateur thermique, 3200/3600 MHz XMP 2.0 : boostez votre PC de bureau simplement.",
+    "description": "Barrettes de memoire RAM DDR4 CUSU pour PC de bureau : frequences 3200/3600 MHz, profil XMP 2.0 active en un clic dans le BIOS et dissipateur thermique en aluminium. Un des upgrades les plus efficaces pour redonner de la vitesse a un PC, plebiscite par plus de 10 000 acheteurs (note 4.8).",
+    "features": [
+      "DDR4 3200/3600 MHz, profil XMP 2.0",
+      "Dissipateur aluminium : stable sous charge",
+      "Upgrade PC simple et immediat"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007869625249.html",
+      "supplierSku": "AE-ITEM-1005007869625249",
+      "supplierPriceCents": 6039,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 8490,
+      "marginCents": 2451,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007869625249.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 60.39 EUR, boutique 90.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T01:53:31.118Z"
+    },
+    "price": 8490,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007869625249.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007869625249 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Barrettes RAM DDR4 CUSU 3200/3600 MHz avec dissipateur | Maxi Trouvaille",
+      "description": "Kit memoire RAM DDR4 avec dissipateur thermique, 3200/3600 MHz XMP 2.0 : boostez votre PC de bureau simplement.",
+      "h1": "Barrettes RAM DDR4 CUSU 3200/3600 MHz avec dissipateur",
+      "h2": "Pourquoi choisir Barrettes RAM DDR4 CUSU 3200/3600 MHz avec dissipateur",
+      "keywords": [
+        "barrettes",
+        "ram",
+        "ddr4",
+        "cusu",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Barrettes RAM DDR4 CUSU 3200/3600 MHz avec dissipateur - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Barrettes RAM DDR4 CUSU 3200/3600 MHz avec dissipateur - high-tech Maxi Trouvaille",
+    "compareAtPrice": 9990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_compresseur_air_portable_carsun_sans_fil_001",
+    "slug": "compresseur-air-portable-carsun-sans-fil",
+    "name": "Compresseur d'air portable CARSUN sans fil",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/compresseur-air-portable-carsun-sans-fil-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/compresseur-air-portable-carsun-sans-fil-photo-1.webp",
+      "/uploads/quick-products/compresseur-air-portable-carsun-sans-fil-photo-2.webp",
+      "/uploads/quick-products/compresseur-air-portable-carsun-sans-fil-photo-3.webp",
+      "/uploads/quick-products/compresseur-air-portable-carsun-sans-fil-photo-4.webp",
+      "/uploads/quick-products/compresseur-air-portable-carsun-sans-fil-photo-5.webp",
+      "/uploads/quick-products/compresseur-air-portable-carsun-sans-fil-photo-6.webp"
+    ],
+    "shortDescription": "Gonfleur electrique sans fil avec ecran numerique : pneus de voiture, velo, moto et ballons regonfles en quelques minutes.",
+    "description": "Compresseur d air portable CARSUN rechargeable : reglez la pression cible sur l ecran numerique, il gonfle et s arrete tout seul. Pneus de voiture, velo, moto, ballons : fini les stations service, il tient dans la boite a gants. Note 4.8 par plus de 2 300 acheteurs.",
+    "features": [
+      "Sans fil, ecran numerique, arret auto",
+      "Voiture, velo, moto, ballons",
+      "Compact : tient dans la boite a gants"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005768360349.html",
+      "supplierSku": "AE-ITEM-1005005768360349",
+      "supplierPriceCents": 1939,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 4290,
+      "marginCents": 2351,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005768360349.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 121,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 19.39 EUR, boutique 42.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T01:53:31.755Z"
+    },
+    "price": 4290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005768360349.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005768360349 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Compresseur d'air portable CARSUN sans fil | Maxi Trouvaille",
+      "description": "Gonfleur electrique sans fil avec ecran numerique : pneus de voiture, velo, moto et ballons regonfles en quelques minutes.",
+      "h1": "Compresseur d'air portable CARSUN sans fil",
+      "h2": "Pourquoi choisir Compresseur d'air portable CARSUN sans fil",
+      "keywords": [
+        "compresseur",
+        "air",
+        "portable",
+        "carsun",
+        "sans",
+        "fil",
+        "dropshipping-auto-moto"
+      ],
+      "imageAlt": "Compresseur d'air portable CARSUN sans fil - auto-moto Maxi Trouvaille"
+    },
+    "imageAlt": "Compresseur d'air portable CARSUN sans fil - auto-moto Maxi Trouvaille",
+    "compareAtPrice": 5890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_lampe_uv_led_seche_ongles_gel_001",
+    "slug": "lampe-uv-led-seche-ongles-gel",
+    "name": "Lampe UV LED sèche-ongles pour vernis gel",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/lampe-uv-led-seche-ongles-gel-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/lampe-uv-led-seche-ongles-gel-photo-1.webp",
+      "/uploads/quick-products/lampe-uv-led-seche-ongles-gel-photo-2.webp",
+      "/uploads/quick-products/lampe-uv-led-seche-ongles-gel-photo-3.webp",
+      "/uploads/quick-products/lampe-uv-led-seche-ongles-gel-photo-4.webp",
+      "/uploads/quick-products/lampe-uv-led-seche-ongles-gel-photo-5.webp",
+      "/uploads/quick-products/lampe-uv-led-seche-ongles-gel-photo-6.webp"
+    ],
+    "shortDescription": "Lampe UV LED professionnelle avec 4 minuteurs et capteur automatique : un vernis semi-permanent impeccable a la maison.",
+    "description": "Lampe UV LED de sechage pour vernis gel et semi-permanent : 4 minuteurs, capteur automatique au passage de la main et ecran LCD. La manucure de salon a la maison, pour des ongles brillants qui tiennent des semaines.",
+    "features": [
+      "4 minuteurs + capteur automatique",
+      "Seche gel et semi-permanent",
+      "Ecran LCD, usage maison facile"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006122653486.html",
+      "supplierSku": "AE-ITEM-1005006122653486",
+      "supplierPriceCents": 1149,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2590,
+      "marginCents": 1441,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006122653486.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (2000+ ventes, visuels officiels importes).",
+      "markupPercent": 125,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 11.49 EUR, boutique 25.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T01:53:32.269Z"
+    },
+    "price": 2590,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006122653486.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006122653486 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Lampe UV LED sèche-ongles pour vernis gel | Maxi Trouvaille",
+      "description": "Lampe UV LED professionnelle avec 4 minuteurs et capteur automatique : un vernis semi-permanent impeccable a la maison.",
+      "h1": "Lampe UV LED sèche-ongles pour vernis gel",
+      "h2": "Pourquoi choisir Lampe UV LED sèche-ongles pour vernis gel",
+      "keywords": [
+        "lampe",
+        "led",
+        "seche",
+        "ongles",
+        "gel",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Lampe UV LED sèche-ongles pour vernis gel - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Lampe UV LED sèche-ongles pour vernis gel - beaute Maxi Trouvaille",
+    "compareAtPrice": 3590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_puzzle_3d_bois_maquette_vehicules_001",
+    "slug": "puzzle-3d-bois-maquette-vehicules",
+    "name": "Puzzle 3D en bois : maquettes de véhicules",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/puzzle-3d-bois-maquette-vehicules-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/puzzle-3d-bois-maquette-vehicules-photo-1.webp",
+      "/uploads/quick-products/puzzle-3d-bois-maquette-vehicules-photo-2.webp",
+      "/uploads/quick-products/puzzle-3d-bois-maquette-vehicules-photo-3.webp",
+      "/uploads/quick-products/puzzle-3d-bois-maquette-vehicules-photo-4.webp",
+      "/uploads/quick-products/puzzle-3d-bois-maquette-vehicules-photo-5.webp",
+      "/uploads/quick-products/puzzle-3d-bois-maquette-vehicules-photo-6.webp"
+    ],
+    "shortDescription": "Maquette en bois decoupee au laser a assembler sans colle : bateau, avion ou locomotive, un loisir creatif pour petits et grands.",
+    "description": "Puzzle 3D en bois decoupe au laser : les pieces s assemblent sans colle pour former un voilier, un biplan ou une locomotive a vapeur. Un loisir creatif qui developpe patience et precision, et finit en jolie deco sur l etagere. Note 4.7 par plus de 600 acheteurs.",
+    "features": [
+      "Decoupe laser precise, montage sans colle",
+      "Plusieurs modeles : bateau, avion, train",
+      "Loisir creatif puis objet deco"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005676910185.html",
+      "supplierSku": "AE-ITEM-1005005676910185",
+      "supplierPriceCents": 479,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1390,
+      "marginCents": 911,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005676910185.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 190,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.79 EUR, boutique 13.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T01:53:33.156Z"
+    },
+    "price": 1390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005676910185.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005676910185 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Puzzle 3D en bois : maquettes de véhicules | Maxi Trouvaille",
+      "description": "Maquette en bois decoupee au laser a assembler sans colle : bateau, avion ou locomotive, un loisir creatif pour petits et grands.",
+      "h1": "Puzzle 3D en bois : maquettes de véhicules",
+      "h2": "Pourquoi choisir Puzzle 3D en bois : maquettes de véhicules",
+      "keywords": [
+        "puzzle",
+        "bois",
+        "maquette",
+        "vehicules",
+        "dropshipping-enfant"
+      ],
+      "imageAlt": "Puzzle 3D en bois : maquettes de véhicules - enfant Maxi Trouvaille"
+    },
+    "imageAlt": "Puzzle 3D en bois : maquettes de véhicules - enfant Maxi Trouvaille",
+    "compareAtPrice": 1890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_distributeur_croquettes_automatique_roje_001",
+    "slug": "distributeur-croquettes-automatique-rojeco-wifi",
+    "name": "Distributeur de croquettes automatique ROJECO WiFi",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/distributeur-croquettes-automatique-rojeco-wifi-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/distributeur-croquettes-automatique-rojeco-wifi-photo-1.webp",
+      "/uploads/quick-products/distributeur-croquettes-automatique-rojeco-wifi-photo-2.webp",
+      "/uploads/quick-products/distributeur-croquettes-automatique-rojeco-wifi-photo-3.webp",
+      "/uploads/quick-products/distributeur-croquettes-automatique-rojeco-wifi-photo-4.webp",
+      "/uploads/quick-products/distributeur-croquettes-automatique-rojeco-wifi-photo-5.webp",
+      "/uploads/quick-products/distributeur-croquettes-automatique-rojeco-wifi-photo-6.webp"
+    ],
+    "shortDescription": "Distributeur de croquettes intelligent ROJECO pilotable au telephone : repas programmes pour chat et chien, meme en votre absence.",
+    "description": "Distributeur automatique de croquettes ROJECO connecte en WiFi : programmez les repas depuis le telephone, lancez une distribution a distance et gardez votre chat ou chien nourri a heures fixes meme en deplacement. Note 4.9, marque reconnue des accessoires connectes pour animaux.",
+    "features": [
+      "Pilotage WiFi depuis le telephone",
+      "Repas programmes a heures fixes",
+      "Pour chats et chiens, note 4.9"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006860715612.html",
+      "supplierSku": "AE-ITEM-1005006860715612",
+      "supplierPriceCents": 6869,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 9490,
+      "marginCents": 2621,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006860715612.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 68.69 EUR, boutique 103.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T01:53:33.838Z"
+    },
+    "price": 9490,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006860715612.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006860715612 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Distributeur de croquettes automatique ROJECO WiFi | Maxi Trouvaille",
+      "description": "Distributeur de croquettes intelligent ROJECO pilotable au telephone : repas programmes pour chat et chien, meme en votre absence.",
+      "h1": "Distributeur de croquettes automatique ROJECO WiFi",
+      "h2": "Pourquoi choisir Distributeur de croquettes automatique ROJECO WiFi",
+      "keywords": [
+        "distributeur",
+        "croquettes",
+        "automatique",
+        "rojeco",
+        "wifi",
+        "dropshipping-animaux"
+      ],
+      "imageAlt": "Distributeur de croquettes automatique ROJECO WiFi - animaux Maxi Trouvaille"
+    },
+    "imageAlt": "Distributeur de croquettes automatique ROJECO WiFi - animaux Maxi Trouvaille",
+    "compareAtPrice": 11990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_sac_bandouliere_cuir_pu_femme_homefish_001",
+    "slug": "sac-bandouliere-cuir-pu-femme-homefish",
+    "name": "Sac bandoulière femme en cuir PU",
+    "categoryId": "dropshipping-mode",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/sac-bandouliere-cuir-pu-femme-homefish-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/sac-bandouliere-cuir-pu-femme-homefish-photo-1.webp",
+      "/uploads/quick-products/sac-bandouliere-cuir-pu-femme-homefish-photo-2.webp",
+      "/uploads/quick-products/sac-bandouliere-cuir-pu-femme-homefish-photo-3.webp",
+      "/uploads/quick-products/sac-bandouliere-cuir-pu-femme-homefish-photo-4.webp",
+      "/uploads/quick-products/sac-bandouliere-cuir-pu-femme-homefish-photo-5.webp",
+      "/uploads/quick-products/sac-bandouliere-cuir-pu-femme-homefish-photo-6.webp"
+    ],
+    "shortDescription": "Mini sac a main bandouliere en cuir PU souple, couleurs unies faciles a assortir : l essentiel avec style, note 4.9.",
+    "description": "Sac a bandouliere pour femme en cuir PU souple, format mini qui contient l essentiel : telephone, porte-cartes, cles et rouge a levres. Couleurs unies faciles a assortir, bandouliere reglable. Note 4.9 par pres de 2 000 acheteuses.",
+    "features": [
+      "Cuir PU souple, finitions soignees",
+      "Format mini : l essentiel a portee",
+      "Note 4.9 sur pres de 2 000 avis"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010155226776.html",
+      "supplierSku": "AE-ITEM-1005010155226776",
+      "supplierPriceCents": 579,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1690,
+      "marginCents": 1111,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010155226776.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 192,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 5.79 EUR, boutique 16.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-28T01:53:34.376Z"
+    },
+    "price": 1690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010155226776.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010155226776 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Sac bandoulière femme en cuir PU | Maxi Trouvaille",
+      "description": "Mini sac a main bandouliere en cuir PU souple, couleurs unies faciles a assortir : l essentiel avec style, note 4.9.",
+      "h1": "Sac bandoulière femme en cuir PU",
+      "h2": "Pourquoi choisir Sac bandoulière femme en cuir PU",
+      "keywords": [
+        "sac",
+        "bandouliere",
+        "cuir",
+        "femme",
+        "homefish",
+        "dropshipping-mode"
+      ],
+      "imageAlt": "Sac bandoulière femme en cuir PU - mode Maxi Trouvaille"
+    },
+    "imageAlt": "Sac bandoulière femme en cuir PU - mode Maxi Trouvaille",
+    "compareAtPrice": 2290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
