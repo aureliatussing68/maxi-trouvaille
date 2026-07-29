@@ -22941,5 +22941,101 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_brosse_lissante_chauffante_electrique_001",
+    "slug": "brosse-lissante-chauffante-electrique",
+    "name": "Brosse lissante chauffante électrique",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/brosse-lissante-chauffante-electrique-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/brosse-lissante-chauffante-electrique-photo-1.webp",
+      "/uploads/quick-products/brosse-lissante-chauffante-electrique-photo-2.webp",
+      "/uploads/quick-products/brosse-lissante-chauffante-electrique-photo-3.webp",
+      "/uploads/quick-products/brosse-lissante-chauffante-electrique-photo-4.webp",
+      "/uploads/quick-products/brosse-lissante-chauffante-electrique-photo-5.webp",
+      "/uploads/quick-products/brosse-lissante-chauffante-electrique-photo-6.webp"
+    ],
+    "shortDescription": "Brosse chauffante qui lisse les cheveux en les brossant : coiffage rapide du matin sans lisseur ni coup de main particulier.",
+    "description": "Brosse lissante electrique chauffante : brossez, les cheveux se lissent au passage. Plus rapide et plus naturel qu un lisseur a plaques, chauffe reguliere et poils qui protegent le cuir chevelu. Le coiffage du matin en quelques minutes.",
+    "features": [
+      "Lisse en brossant : geste naturel",
+      "Chauffe rapide et reguliere",
+      "Plus doux qu un lisseur a plaques"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007183338415.html",
+      "supplierSku": "AE-ITEM-1005007183338415",
+      "supplierPriceCents": 1149,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2590,
+      "marginCents": 1441,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007183338415.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 125,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 11.49 EUR, boutique 25.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-29T03:42:22.475Z"
+    },
+    "price": 2590,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007183338415.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007183338415 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Brosse lissante chauffante électrique | Maxi Trouvaille",
+      "description": "Brosse chauffante qui lisse les cheveux en les brossant : coiffage rapide du matin sans lisseur ni coup de main particulier.",
+      "h1": "Brosse lissante chauffante électrique",
+      "h2": "Pourquoi choisir Brosse lissante chauffante électrique",
+      "keywords": [
+        "brosse",
+        "lissante",
+        "chauffante",
+        "electrique",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Brosse lissante chauffante électrique - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Brosse lissante chauffante électrique - beaute Maxi Trouvaille",
+    "compareAtPrice": 3590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
