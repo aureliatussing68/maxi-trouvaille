@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-07-29T03:42:23.368Z",
+  "checkedAt": "2026-07-29T10:02:21.083Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 227,
-  "publishedPartnerCount": 168,
+  "partnerProductCount": 229,
+  "publishedPartnerCount": 170,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -4095,20 +4095,56 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_lampe_champignon_deco_rechargeable_001",
+      "slug": "lampe-champignon-deco-rechargeable",
+      "name": "Lampe champignon déco rechargeable",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-maison",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_support_tablette_telephone_aluminium_pli_001",
+      "slug": "support-tablette-telephone-aluminium-pliable",
+      "name": "Support tablette et téléphone en aluminium",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-high-tech",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 223
+    "data/quick-products.json": 225
   },
   "byStatus": {
     "draft": 59,
-    "published": 168
+    "published": 170
   },
   "byCategory": {
-    "dropshipping-high-tech": 23,
+    "dropshipping-high-tech": 24,
     "dropshipping-accessoires": 28,
-    "dropshipping-maison": 29,
+    "dropshipping-maison": 30,
     "dropshipping-auto-moto": 18,
     "dropshipping-cuisine": 28,
     "dropshipping-enfant": 20,

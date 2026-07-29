@@ -23037,5 +23037,198 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_lampe_champignon_deco_rechargeable_001",
+    "slug": "lampe-champignon-deco-rechargeable",
+    "name": "Lampe champignon déco rechargeable",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/lampe-champignon-deco-rechargeable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/lampe-champignon-deco-rechargeable-photo-1.webp",
+      "/uploads/quick-products/lampe-champignon-deco-rechargeable-photo-2.webp",
+      "/uploads/quick-products/lampe-champignon-deco-rechargeable-photo-3.webp",
+      "/uploads/quick-products/lampe-champignon-deco-rechargeable-photo-4.webp",
+      "/uploads/quick-products/lampe-champignon-deco-rechargeable-photo-5.webp",
+      "/uploads/quick-products/lampe-champignon-deco-rechargeable-photo-6.webp"
+    ],
+    "shortDescription": "Petite lampe champignon rechargeable a la lumiere douce : l objet deco tendance pour la table de nuit ou l etagere. Note 4.9.",
+    "description": "Mini lampe de nuit en forme de champignon, rechargeable en USB : une lumiere douce et chaleureuse qui transforme une table de nuit, une etagere ou un coin lecture. L objet deco vu partout sur les reseaux, note 4.9 par plus de 600 acheteurs.",
+    "features": [
+      "Lumiere douce et chaleureuse",
+      "Rechargeable USB, sans fil",
+      "Objet deco tendance, note 4.9"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008144960219.html",
+      "supplierSku": "AE-ITEM-1005008144960219",
+      "supplierPriceCents": 539,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1590,
+      "marginCents": 1051,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008144960219.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 195,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 5.39 EUR, boutique 15.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-29T10:02:19.716Z"
+    },
+    "price": 1590,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008144960219.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008144960219 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Lampe champignon déco rechargeable | Maxi Trouvaille",
+      "description": "Petite lampe champignon rechargeable a la lumiere douce : l objet deco tendance pour la table de nuit ou l etagere. Note 4.9.",
+      "h1": "Lampe champignon déco rechargeable",
+      "h2": "Pourquoi choisir Lampe champignon déco rechargeable",
+      "keywords": [
+        "lampe",
+        "champignon",
+        "deco",
+        "rechargeable",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Lampe champignon déco rechargeable - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Lampe champignon déco rechargeable - maison Maxi Trouvaille",
+    "compareAtPrice": 2190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_support_tablette_telephone_aluminium_pli_001",
+    "slug": "support-tablette-telephone-aluminium-pliable",
+    "name": "Support tablette et téléphone en aluminium",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/support-tablette-telephone-aluminium-pliable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/support-tablette-telephone-aluminium-pliable-photo-1.webp",
+      "/uploads/quick-products/support-tablette-telephone-aluminium-pliable-photo-2.webp",
+      "/uploads/quick-products/support-tablette-telephone-aluminium-pliable-photo-3.webp",
+      "/uploads/quick-products/support-tablette-telephone-aluminium-pliable-photo-4.webp",
+      "/uploads/quick-products/support-tablette-telephone-aluminium-pliable-photo-5.webp",
+      "/uploads/quick-products/support-tablette-telephone-aluminium-pliable-photo-6.webp"
+    ],
+    "shortDescription": "Support en alliage d aluminium reglable pour tablette et telephone : recettes, videos et visio a la bonne hauteur.",
+    "description": "Support universel en alliage d aluminium pour tablette et telephone : angle et hauteur reglables, base stable, se plie a plat pour se ranger. Recettes en cuisine, series au lit, visio au bureau : l ecran toujours a la bonne hauteur.",
+    "features": [
+      "Aluminium solide, base stable",
+      "Angle et hauteur reglables",
+      "Pliable a plat, compatible 4 a 13 pouces"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005407725181.html",
+      "supplierSku": "AE-ITEM-1005005407725181",
+      "supplierPriceCents": 349,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 990,
+      "marginCents": 641,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005407725181.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 184,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 3.49 EUR, boutique 9.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-29T10:02:20.260Z"
+    },
+    "price": 990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005407725181.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005407725181 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Support tablette et téléphone en aluminium | Maxi Trouvaille",
+      "description": "Support en alliage d aluminium reglable pour tablette et telephone : recettes, videos et visio a la bonne hauteur.",
+      "h1": "Support tablette et téléphone en aluminium",
+      "h2": "Pourquoi choisir Support tablette et téléphone en aluminium",
+      "keywords": [
+        "support",
+        "tablette",
+        "telephone",
+        "aluminium",
+        "pliable",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Support tablette et téléphone en aluminium - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Support tablette et téléphone en aluminium - high-tech Maxi Trouvaille",
+    "compareAtPrice": 1390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
