@@ -23230,5 +23230,200 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_kit_fer_a_souder_80w_temperature_reglabl_001",
+    "slug": "kit-fer-a-souder-80w-temperature-reglable",
+    "name": "Kit fer à souder 80W température réglable",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/kit-fer-a-souder-80w-temperature-reglable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/kit-fer-a-souder-80w-temperature-reglable-photo-1.webp",
+      "/uploads/quick-products/kit-fer-a-souder-80w-temperature-reglable-photo-2.webp",
+      "/uploads/quick-products/kit-fer-a-souder-80w-temperature-reglable-photo-3.webp",
+      "/uploads/quick-products/kit-fer-a-souder-80w-temperature-reglable-photo-4.webp",
+      "/uploads/quick-products/kit-fer-a-souder-80w-temperature-reglable-photo-5.webp",
+      "/uploads/quick-products/kit-fer-a-souder-80w-temperature-reglable-photo-6.webp"
+    ],
+    "shortDescription": "Kit de soudure complet 80W avec ecran LCD et temperature reglable : pointes, pincettes et fil inclus pour toutes les reparations.",
+    "description": "Kit de fer a souder 80W a temperature reglable avec affichage LCD et chauffe ceramique rapide. Livre avec plusieurs pointes, pincettes, fil a souder et support : de quoi reparer cables, prises, electronique et petits appareils au lieu de les jeter. Note 4.7 sur pres de 10 000 avis, plus de 50 000 kits vendus.",
+    "features": [
+      "80W, temperature reglable avec ecran LCD",
+      "Chauffe ceramique rapide et stable",
+      "Kit complet : pointes, pincettes, fil, support"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005623832147.html",
+      "supplierSku": "AE-ITEM-1005005623832147",
+      "supplierPriceCents": 689,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1990,
+      "marginCents": 1301,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005623832147.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 189,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 6.89 EUR, boutique 19.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-31T12:56:01.408Z"
+    },
+    "price": 1990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005623832147.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005623832147 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Kit fer à souder 80W température réglable | Maxi Trouvaille",
+      "description": "Kit de soudure complet 80W avec ecran LCD et temperature reglable : pointes, pincettes et fil inclus pour toutes les reparations.",
+      "h1": "Kit fer à souder 80W température réglable",
+      "h2": "Pourquoi choisir Kit fer à souder 80W température réglable",
+      "keywords": [
+        "kit",
+        "fer",
+        "souder",
+        "80w",
+        "temperature",
+        "reglable",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Kit fer à souder 80W température réglable - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Kit fer à souder 80W température réglable - boutique Maxi Trouvaille",
+    "compareAtPrice": 2690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_enceinte_bluetooth_etanche_radio_fm_20h_001",
+    "slug": "enceinte-bluetooth-etanche-radio-fm-20h",
+    "name": "Enceinte Bluetooth étanche radio FM 20h",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/enceinte-bluetooth-etanche-radio-fm-20h-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/enceinte-bluetooth-etanche-radio-fm-20h-photo-1.webp",
+      "/uploads/quick-products/enceinte-bluetooth-etanche-radio-fm-20h-photo-2.webp",
+      "/uploads/quick-products/enceinte-bluetooth-etanche-radio-fm-20h-photo-3.webp",
+      "/uploads/quick-products/enceinte-bluetooth-etanche-radio-fm-20h-photo-4.webp",
+      "/uploads/quick-products/enceinte-bluetooth-etanche-radio-fm-20h-photo-5.webp",
+      "/uploads/quick-products/enceinte-bluetooth-etanche-radio-fm-20h-photo-6.webp"
+    ],
+    "shortDescription": "Enceinte Bluetooth etanche avec caisson de basses, radio FM et 20 h d autonomie : douche, plage, jardin et chantier.",
+    "description": "Enceinte Bluetooth portable etanche avec caisson de basses, radio FM integree et jusqu a 20 heures d autonomie. Elle encaisse les eclaboussures de la douche, le sable de la plage et la poussiere du chantier sans broncher. Note 4.9 sur plus de 1 600 avis.",
+    "features": [
+      "Etanche : douche, plage, jardin, chantier",
+      "20 h d autonomie, radio FM integree",
+      "Caisson de basses, son stereo puissant"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006727721552.html",
+      "supplierSku": "AE-ITEM-1005006727721552",
+      "supplierPriceCents": 919,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2090,
+      "marginCents": 1171,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006727721552.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 127,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 9.19 EUR, boutique 20.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-31T12:56:02.461Z"
+    },
+    "price": 2090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006727721552.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006727721552 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Enceinte Bluetooth étanche radio FM 20h | Maxi Trouvaille",
+      "description": "Enceinte Bluetooth etanche avec caisson de basses, radio FM et 20 h d autonomie : douche, plage, jardin et chantier.",
+      "h1": "Enceinte Bluetooth étanche radio FM 20h",
+      "h2": "Pourquoi choisir Enceinte Bluetooth étanche radio FM 20h",
+      "keywords": [
+        "enceinte",
+        "bluetooth",
+        "etanche",
+        "radio",
+        "20h",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Enceinte Bluetooth étanche radio FM 20h - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Enceinte Bluetooth étanche radio FM 20h - high-tech Maxi Trouvaille",
+    "compareAtPrice": 2890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
