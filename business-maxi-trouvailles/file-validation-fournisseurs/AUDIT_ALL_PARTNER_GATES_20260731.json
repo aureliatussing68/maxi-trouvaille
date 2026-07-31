@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-07-31T12:56:03.352Z",
+  "checkedAt": "2026-07-31T12:59:13.719Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 231,
-  "publishedPartnerCount": 172,
+  "partnerProductCount": 232,
+  "publishedPartnerCount": 173,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -4167,18 +4167,36 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_montre_connectee_colmi_p81_ultra_appels_001",
+      "slug": "montre-connectee-colmi-p81-ultra-appels",
+      "name": "Montre connectée COLMI P81 Ultra avec appels",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-high-tech",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 227
+    "data/quick-products.json": 228
   },
   "byStatus": {
     "draft": 59,
-    "published": 172
+    "published": 173
   },
   "byCategory": {
-    "dropshipping-high-tech": 25,
+    "dropshipping-high-tech": 26,
     "dropshipping-accessoires": 28,
     "dropshipping-maison": 30,
     "dropshipping-auto-moto": 18,

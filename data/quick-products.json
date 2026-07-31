@@ -23425,5 +23425,103 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_montre_connectee_colmi_p81_ultra_appels_001",
+    "slug": "montre-connectee-colmi-p81-ultra-appels",
+    "name": "Montre connectée COLMI P81 Ultra avec appels",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/montre-connectee-colmi-p81-ultra-appels-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/montre-connectee-colmi-p81-ultra-appels-photo-1.webp",
+      "/uploads/quick-products/montre-connectee-colmi-p81-ultra-appels-photo-2.webp",
+      "/uploads/quick-products/montre-connectee-colmi-p81-ultra-appels-photo-3.webp",
+      "/uploads/quick-products/montre-connectee-colmi-p81-ultra-appels-photo-4.webp",
+      "/uploads/quick-products/montre-connectee-colmi-p81-ultra-appels-photo-5.webp",
+      "/uploads/quick-products/montre-connectee-colmi-p81-ultra-appels-photo-6.webp"
+    ],
+    "shortDescription": "Montre connectee COLMI P81 Ultra, grand ecran 1,9 pouce, appels Bluetooth, suivi sante 24h et plus de 100 modes sportifs. Note 4.9.",
+    "description": "Montre connectee COLMI P81 Ultra : grand ecran 1,9 pouce, appels et notifications via Bluetooth, suivi de la frequence cardiaque, de l oxygene et du sommeil 24 h/24, plus de 100 modes sportifs. COLMI est une marque etablie du secteur, et cette reference affiche une note de 4.9 sur plus de 4 200 avis.",
+    "features": [
+      "Grand ecran 1,9 pouce, appels Bluetooth",
+      "Suivi sante 24h : cardio, oxygene, sommeil",
+      "Plus de 100 modes sportifs, note 4.9"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006860956181.html",
+      "supplierSku": "AE-ITEM-1005006860956181",
+      "supplierPriceCents": 1439,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3190,
+      "marginCents": 1751,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006860956181.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 122,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 14.39 EUR, boutique 31.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-07-31T12:59:13.199Z"
+    },
+    "price": 3190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006860956181.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006860956181 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Montre connectée COLMI P81 Ultra avec appels | Maxi Trouvaille",
+      "description": "Montre connectee COLMI P81 Ultra, grand ecran 1,9 pouce, appels Bluetooth, suivi sante 24h et plus de 100 modes sportifs. Note 4.9.",
+      "h1": "Montre connectée COLMI P81 Ultra avec appels",
+      "h2": "Pourquoi choisir Montre connectée COLMI P81 Ultra avec appels",
+      "keywords": [
+        "montre",
+        "connectee",
+        "colmi",
+        "p81",
+        "ultra",
+        "appels",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Montre connectée COLMI P81 Ultra avec appels - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Montre connectée COLMI P81 Ultra avec appels - high-tech Maxi Trouvaille",
+    "compareAtPrice": 4390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
