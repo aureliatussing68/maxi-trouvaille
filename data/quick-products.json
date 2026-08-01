@@ -24006,5 +24006,100 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_cle_universelle_double_tete_3_17mm_001",
+    "slug": "cle-universelle-double-tete-3-17mm",
+    "name": "Clé universelle double tête auto-serrante 3-17 mm",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/cle-universelle-double-tete-3-17mm-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/cle-universelle-double-tete-3-17mm-photo-1.webp",
+      "/uploads/quick-products/cle-universelle-double-tete-3-17mm-photo-2.webp",
+      "/uploads/quick-products/cle-universelle-double-tete-3-17mm-photo-3.webp",
+      "/uploads/quick-products/cle-universelle-double-tete-3-17mm-photo-4.webp"
+    ],
+    "shortDescription": "Cle universelle a double tete auto-serrante de 3 a 17 mm : elle remplace tout un jeu de cles plates. Plus de 20 000 avis.",
+    "description": "Cle universelle a double extremite auto-serrante couvrant les ecrous de 3 a 17 mm : les machoires s adaptent seules a la taille du boulon, ce qui remplace tout un jeu de cles plates dans la boite a outils ou le coffre de la voiture. Systeme a cliquet pour serrer sans repositionner. Plus de 100 000 ventes et 20 000 avis.",
+    "features": [
+      "Auto-serrante : s adapte de 3 a 17 mm",
+      "Double tete a cliquet, serrage sans repositionner",
+      "Remplace un jeu complet de cles plates"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006980090984.html",
+      "supplierSku": "AE-ITEM-1005006980090984",
+      "supplierPriceCents": 156,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 534,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006980090984.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 342,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 1.56 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-08-01T13:19:04.620Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006980090984.html",
+      "imageCount": 4,
+      "reason": "Images officielles de la fiche fournisseur 1005006980090984 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Clé universelle double tête auto-serrante 3-17 mm | Maxi Trouvaille",
+      "description": "Cle universelle a double tete auto-serrante de 3 a 17 mm : elle remplace tout un jeu de cles plates. Plus de 20 000 avis.",
+      "h1": "Clé universelle double tête auto-serrante 3-17 mm",
+      "h2": "Pourquoi choisir Clé universelle double tête auto-serrante 3-17 mm",
+      "keywords": [
+        "cle",
+        "universelle",
+        "double",
+        "tete",
+        "17mm",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Clé universelle double tête auto-serrante 3-17 mm - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Clé universelle double tête auto-serrante 3-17 mm - boutique Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
