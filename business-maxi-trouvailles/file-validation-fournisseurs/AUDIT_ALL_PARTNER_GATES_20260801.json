@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-01T05:48:39.102Z",
+  "checkedAt": "2026-08-01T05:50:30.937Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 234,
-  "publishedPartnerCount": 175,
+  "partnerProductCount": 235,
+  "publishedPartnerCount": 176,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -4221,18 +4221,36 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_batterie_externe_ugreen_20000mah_pd_20w_001",
+      "slug": "batterie-externe-ugreen-20000mah-pd-20w",
+      "name": "Batterie externe UGREEN 20000 mAh charge rapide 20W",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-high-tech",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 230
+    "data/quick-products.json": 231
   },
   "byStatus": {
     "draft": 59,
-    "published": 175
+    "published": 176
   },
   "byCategory": {
-    "dropshipping-high-tech": 26,
+    "dropshipping-high-tech": 27,
     "dropshipping-accessoires": 28,
     "dropshipping-maison": 30,
     "dropshipping-auto-moto": 18,

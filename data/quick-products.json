@@ -23717,5 +23717,102 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_batterie_externe_ugreen_20000mah_pd_20w_001",
+    "slug": "batterie-externe-ugreen-20000mah-pd-20w",
+    "name": "Batterie externe UGREEN 20000 mAh charge rapide 20W",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/batterie-externe-ugreen-20000mah-pd-20w-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/batterie-externe-ugreen-20000mah-pd-20w-photo-1.webp",
+      "/uploads/quick-products/batterie-externe-ugreen-20000mah-pd-20w-photo-2.webp",
+      "/uploads/quick-products/batterie-externe-ugreen-20000mah-pd-20w-photo-3.webp",
+      "/uploads/quick-products/batterie-externe-ugreen-20000mah-pd-20w-photo-4.webp",
+      "/uploads/quick-products/batterie-externe-ugreen-20000mah-pd-20w-photo-5.webp",
+      "/uploads/quick-products/batterie-externe-ugreen-20000mah-pd-20w-photo-6.webp"
+    ],
+    "shortDescription": "Batterie externe UGREEN 20000 mAh avec charge rapide PD 20W : plusieurs recharges completes de telephone, marque reconnue. Note 4.9.",
+    "description": "Batterie externe UGREEN de 20000 mAh avec charge rapide Power Delivery 20W : de quoi recharger un telephone quatre a cinq fois, ou depanner une tablette. UGREEN est une marque etablie de l accessoire mobile, gage de securite sur les cellules et l electronique de charge. Note 4.9 sur plus de 1 700 avis.",
+    "features": [
+      "20000 mAh : 4 a 5 recharges de telephone",
+      "Charge rapide PD 20W, plusieurs ports",
+      "Marque UGREEN reconnue, note 4.9"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006670126685.html",
+      "supplierSku": "AE-ITEM-1005006670126685",
+      "supplierPriceCents": 4339,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6590,
+      "marginCents": 2251,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006670126685.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 52,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 43.39 EUR, boutique 65.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-08-01T05:50:30.415Z"
+    },
+    "price": 6590,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006670126685.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006670126685 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Batterie externe UGREEN 20000 mAh charge rapide 20W | Maxi Trouvaille",
+      "description": "Batterie externe UGREEN 20000 mAh avec charge rapide PD 20W : plusieurs recharges completes de telephone, marque reconnue. Note 4.9.",
+      "h1": "Batterie externe UGREEN 20000 mAh charge rapide 20W",
+      "h2": "Pourquoi choisir Batterie externe UGREEN 20000 mAh charge rapide 20W",
+      "keywords": [
+        "batterie",
+        "externe",
+        "ugreen",
+        "20000mah",
+        "20w",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Batterie externe UGREEN 20000 mAh charge rapide 20W - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Batterie externe UGREEN 20000 mAh charge rapide 20W - high-tech Maxi Trouvaille",
+    "compareAtPrice": 8990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
