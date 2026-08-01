@@ -23523,5 +23523,199 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_souris_gaming_filaire_rgb_7_boutons_001",
+    "slug": "souris-gaming-filaire-rgb-7-boutons",
+    "name": "Souris gaming filaire RGB 7 boutons",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/souris-gaming-filaire-rgb-7-boutons-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/souris-gaming-filaire-rgb-7-boutons-photo-1.webp",
+      "/uploads/quick-products/souris-gaming-filaire-rgb-7-boutons-photo-2.webp",
+      "/uploads/quick-products/souris-gaming-filaire-rgb-7-boutons-photo-3.webp",
+      "/uploads/quick-products/souris-gaming-filaire-rgb-7-boutons-photo-4.webp",
+      "/uploads/quick-products/souris-gaming-filaire-rgb-7-boutons-photo-5.webp",
+      "/uploads/quick-products/souris-gaming-filaire-rgb-7-boutons-photo-6.webp"
+    ],
+    "shortDescription": "Souris de jeu filaire avec retroeclairage RGB, 7 boutons programmables et DPI reglable jusqu a 2400. Note 4.9.",
+    "description": "Souris gaming filaire au capteur optique precis : DPI reglable jusqu a 2400 pour ajuster la sensibilite au jeu, 7 boutons dont deux lateraux, retroeclairage RGB et coque ergonomique antiderapante. Le branchement USB suffit, aucun pilote a installer. Note 4.9 sur plus de 2 000 avis.",
+    "features": [
+      "DPI reglable jusqu a 2400, capteur optique",
+      "7 boutons dont 2 lateraux, RGB",
+      "Plug USB : aucun pilote a installer"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006727693525.html",
+      "supplierSku": "AE-ITEM-1005006727693525",
+      "supplierPriceCents": 579,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1690,
+      "marginCents": 1111,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006727693525.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 192,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 5.79 EUR, boutique 16.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-08-01T05:48:37.610Z"
+    },
+    "price": 1690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006727693525.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006727693525 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Souris gaming filaire RGB 7 boutons | Maxi Trouvaille",
+      "description": "Souris de jeu filaire avec retroeclairage RGB, 7 boutons programmables et DPI reglable jusqu a 2400. Note 4.9.",
+      "h1": "Souris gaming filaire RGB 7 boutons",
+      "h2": "Pourquoi choisir Souris gaming filaire RGB 7 boutons",
+      "keywords": [
+        "souris",
+        "gaming",
+        "filaire",
+        "rgb",
+        "boutons",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Souris gaming filaire RGB 7 boutons - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Souris gaming filaire RGB 7 boutons - boutique Maxi Trouvaille",
+    "compareAtPrice": 2290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_kit_scies_cloches_11_pieces_19_64mm_001",
+    "slug": "kit-scies-cloches-11-pieces-19-64mm",
+    "name": "Kit de scies cloches 11 pièces (19-64 mm)",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/kit-scies-cloches-11-pieces-19-64mm-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/kit-scies-cloches-11-pieces-19-64mm-photo-1.webp",
+      "/uploads/quick-products/kit-scies-cloches-11-pieces-19-64mm-photo-2.webp",
+      "/uploads/quick-products/kit-scies-cloches-11-pieces-19-64mm-photo-3.webp",
+      "/uploads/quick-products/kit-scies-cloches-11-pieces-19-64mm-photo-4.webp",
+      "/uploads/quick-products/kit-scies-cloches-11-pieces-19-64mm-photo-5.webp",
+      "/uploads/quick-products/kit-scies-cloches-11-pieces-19-64mm-photo-6.webp"
+    ],
+    "shortDescription": "Coffret de 11 scies cloches de 19 a 64 mm avec mandrin et etui : percages nets pour spots, prises et passages de cables.",
+    "description": "Kit de 11 scies cloches de 19 a 64 mm livre avec mandrin, foret pilote et etui de rangement. Percages nets et reguliers dans le bois, le placo et le plastique : spots encastres, boitiers de prises, passages de cables et amenagements. Note 4.6 sur pres de 1 500 avis.",
+    "features": [
+      "11 diametres de 19 a 64 mm",
+      "Mandrin et foret pilote inclus",
+      "Bois, placo, plastique - etui de rangement"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006853275997.html",
+      "supplierSku": "AE-ITEM-1005006853275997",
+      "supplierPriceCents": 919,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2090,
+      "marginCents": 1171,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006853275997.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 127,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 9.19 EUR, boutique 20.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-08-01T05:48:38.233Z"
+    },
+    "price": 2090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006853275997.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006853275997 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Kit de scies cloches 11 pièces (19-64 mm) | Maxi Trouvaille",
+      "description": "Coffret de 11 scies cloches de 19 a 64 mm avec mandrin et etui : percages nets pour spots, prises et passages de cables.",
+      "h1": "Kit de scies cloches 11 pièces (19-64 mm)",
+      "h2": "Pourquoi choisir Kit de scies cloches 11 pièces (19-64 mm)",
+      "keywords": [
+        "kit",
+        "scies",
+        "cloches",
+        "pieces",
+        "64mm",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Kit de scies cloches 11 pièces (19-64 mm) - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Kit de scies cloches 11 pièces (19-64 mm) - boutique Maxi Trouvaille",
+    "compareAtPrice": 2890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
