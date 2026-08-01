@@ -23814,5 +23814,197 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260720_brosse_autonettoyante_chien_chat_001",
+    "slug": "brosse-autonettoyante-chien-chat",
+    "name": "Brosse autonettoyante pour chien et chat",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/brosse-autonettoyante-chien-chat-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/brosse-autonettoyante-chien-chat-photo-1.webp",
+      "/uploads/quick-products/brosse-autonettoyante-chien-chat-photo-2.webp",
+      "/uploads/quick-products/brosse-autonettoyante-chien-chat-photo-3.webp",
+      "/uploads/quick-products/brosse-autonettoyante-chien-chat-photo-4.webp",
+      "/uploads/quick-products/brosse-autonettoyante-chien-chat-photo-5.webp",
+      "/uploads/quick-products/brosse-autonettoyante-chien-chat-photo-6.webp"
+    ],
+    "shortDescription": "Brosse de toilettage autonettoyante : un bouton et les poils se detachent d un bloc, fini les brosses bouchees. Note 4.8.",
+    "description": "Brosse de toilettage pour chien et chat avec systeme autonettoyant : appuyez sur le bouton, les picots se retractent et les poils se detachent d un seul bloc. Les picots a bouts arrondis demelent le sous-poil sans griffer la peau et reduisent nettement les poils sur les canapes. Note 4.8 sur plus de 3 300 avis.",
+    "features": [
+      "Bouton autonettoyant : poils retires d un bloc",
+      "Picots a bouts arrondis, sans griffer",
+      "Chiens et chats, poils courts ou longs"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005619774026.html",
+      "supplierSku": "AE-ITEM-1005005619774026",
+      "supplierPriceCents": 295,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 990,
+      "marginCents": 695,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005619774026.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 236,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.95 EUR, boutique 9.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-08-01T13:15:35.748Z"
+    },
+    "price": 990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005619774026.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005619774026 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Brosse autonettoyante pour chien et chat | Maxi Trouvaille",
+      "description": "Brosse de toilettage autonettoyante : un bouton et les poils se detachent d un bloc, fini les brosses bouchees. Note 4.8.",
+      "h1": "Brosse autonettoyante pour chien et chat",
+      "h2": "Pourquoi choisir Brosse autonettoyante pour chien et chat",
+      "keywords": [
+        "brosse",
+        "autonettoyante",
+        "chien",
+        "chat",
+        "dropshipping-animaux"
+      ],
+      "imageAlt": "Brosse autonettoyante pour chien et chat - animaux Maxi Trouvaille"
+    },
+    "imageAlt": "Brosse autonettoyante pour chien et chat - animaux Maxi Trouvaille",
+    "compareAtPrice": 1390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260720_metre_ruban_airaj_autobloquant_5m_001",
+    "slug": "metre-ruban-airaj-autobloquant-5m",
+    "name": "Mètre ruban AIRAJ autobloquant 5 m",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/metre-ruban-airaj-autobloquant-5m-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/metre-ruban-airaj-autobloquant-5m-photo-1.webp",
+      "/uploads/quick-products/metre-ruban-airaj-autobloquant-5m-photo-2.webp",
+      "/uploads/quick-products/metre-ruban-airaj-autobloquant-5m-photo-3.webp",
+      "/uploads/quick-products/metre-ruban-airaj-autobloquant-5m-photo-4.webp",
+      "/uploads/quick-products/metre-ruban-airaj-autobloquant-5m-photo-5.webp",
+      "/uploads/quick-products/metre-ruban-airaj-autobloquant-5m-photo-6.webp"
+    ],
+    "shortDescription": "Metre ruban AIRAJ autobloquant avec double graduation metrique et imperiale : lame rigide qui ne plie pas, blocage ferme.",
+    "description": "Metre ruban AIRAJ a blocage automatique : la lame reste tendue sans tenir le bouton, tient droite sur plusieurs metres pour mesurer seul, et affiche les graduations metriques et imperiales. Boitier caoutchoute antichoc, clip ceinture et crochet magnetique. Note 4.7 sur pres de 1 200 avis.",
+    "features": [
+      "Blocage automatique de la lame",
+      "Double graduation metrique et imperiale",
+      "Boitier antichoc, clip ceinture, crochet"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008053851420.html",
+      "supplierSku": "AE-ITEM-1005008053851420",
+      "supplierPriceCents": 429,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 861,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-07-20",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-07-20",
+        "note": "Validation proprietaire du 20/07/2026 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008053851420.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-07-20 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 201,
+      "pricingRule": "Paliers x3,2 / x2,8 / x2,2 selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.29 EUR, boutique 12.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 20/07/2026",
+      "pricingUpdatedAt": "2026-08-01T13:17:16.800Z"
+    },
+    "price": 1290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-07-20",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008053851420.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008053851420 verifiees et importees en local (webp) le 2026-07-20.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-07-20."
+    },
+    "seo": {
+      "title": "Mètre ruban AIRAJ autobloquant 5 m | Maxi Trouvaille",
+      "description": "Metre ruban AIRAJ autobloquant avec double graduation metrique et imperiale : lame rigide qui ne plie pas, blocage ferme.",
+      "h1": "Mètre ruban AIRAJ autobloquant 5 m",
+      "h2": "Pourquoi choisir Mètre ruban AIRAJ autobloquant 5 m",
+      "keywords": [
+        "metre",
+        "ruban",
+        "airaj",
+        "autobloquant",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Mètre ruban AIRAJ autobloquant 5 m - boutique Maxi Trouvaille"
+    },
+    "imageAlt": "Mètre ruban AIRAJ autobloquant 5 m - boutique Maxi Trouvaille",
+    "compareAtPrice": 1790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-07-20",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]

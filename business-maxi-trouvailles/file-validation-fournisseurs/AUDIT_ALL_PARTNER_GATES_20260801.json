@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-01T05:50:30.937Z",
+  "checkedAt": "2026-08-01T13:17:17.447Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 235,
-  "publishedPartnerCount": 176,
+  "partnerProductCount": 237,
+  "publishedPartnerCount": 178,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -4239,15 +4239,51 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_brosse_autonettoyante_chien_chat_001",
+      "slug": "brosse-autonettoyante-chien-chat",
+      "name": "Brosse autonettoyante pour chien et chat",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-animaux",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260720_metre_ruban_airaj_autobloquant_5m_001",
+      "slug": "metre-ruban-airaj-autobloquant-5m",
+      "name": "Mètre ruban AIRAJ autobloquant 5 m",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-outillage",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 231
+    "data/quick-products.json": 233
   },
   "byStatus": {
     "draft": 59,
-    "published": 176
+    "published": 178
   },
   "byCategory": {
     "dropshipping-high-tech": 27,
@@ -4257,9 +4293,9 @@
     "dropshipping-cuisine": 28,
     "dropshipping-enfant": 20,
     "dropshipping-beaute": 19,
-    "dropshipping-animaux": 22,
+    "dropshipping-animaux": 23,
     "dropshipping-mode": 18,
-    "dropshipping-outillage": 14,
+    "dropshipping-outillage": 15,
     "dropshipping-gaming": 11
   },
   "safety": {
