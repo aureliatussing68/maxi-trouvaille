@@ -24682,5 +24682,877 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260802_coque_iphone_transparente_antichoc_renfo_001",
+    "slug": "coque-iphone-transparente-antichoc-renforcee",
+    "name": "Coque iPhone transparente antichoc renforcée",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/coque-iphone-transparente-antichoc-renforcee-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/coque-iphone-transparente-antichoc-renforcee-photo-1.webp",
+      "/uploads/quick-products/coque-iphone-transparente-antichoc-renforcee-photo-2.webp",
+      "/uploads/quick-products/coque-iphone-transparente-antichoc-renforcee-photo-3.webp",
+      "/uploads/quick-products/coque-iphone-transparente-antichoc-renforcee-photo-4.webp",
+      "/uploads/quick-products/coque-iphone-transparente-antichoc-renforcee-photo-5.webp",
+      "/uploads/quick-products/coque-iphone-transparente-antichoc-renforcee-photo-6.webp"
+    ],
+    "shortDescription": "Coque transparente antichoc avec coins renforces : protege l iPhone sans cacher sa couleur. Note 4.8 sur plus de 9 000 avis.",
+    "description": "Coque de protection transparente pour iPhone avec pare-chocs souple et coins renforces : elle absorbe les chocs des chutes du quotidien tout en laissant voir la couleur d origine du telephone. Bords releves qui protegent l ecran et l appareil photo poses a plat, decoupes precises pour les boutons et le port de charge, matiere anti-jaunissement. Compatible de l iPhone 7 a l iPhone 17. Note 4.8 sur plus de 9 000 avis, 50 000 ventes.",
+    "features": [
+      "Coins renforces : absorbe les chocs des chutes",
+      "Transparente : garde la couleur du telephone",
+      "Bords releves qui protegent ecran et camera"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007623280284.html",
+      "supplierSku": "AE-ITEM-1005007623280284",
+      "supplierPriceCents": 179,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 511,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007623280284.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 285,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 1.79 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T16:50:35.317Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007623280284.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007623280284 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Coque iPhone transparente antichoc renforcée | Maxi Trouvaille",
+      "description": "Coque transparente antichoc avec coins renforces : protege l iPhone sans cacher sa couleur. Note 4.8 sur plus de 9 000 avis.",
+      "h1": "Coque iPhone transparente antichoc renforcée",
+      "h2": "Pourquoi choisir Coque iPhone transparente antichoc renforcée",
+      "keywords": [
+        "coque",
+        "iphone",
+        "transparente",
+        "antichoc",
+        "renforcee",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Coque iPhone transparente antichoc renforcée - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Coque iPhone transparente antichoc renforcée - accessoires Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_lampe_torche_led_cob_rechargeable_usb_c_001",
+    "slug": "lampe-torche-led-cob-rechargeable-usb-c",
+    "name": "Lampe torche LED COB rechargeable USB-C",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/lampe-torche-led-cob-rechargeable-usb-c-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/lampe-torche-led-cob-rechargeable-usb-c-photo-1.webp",
+      "/uploads/quick-products/lampe-torche-led-cob-rechargeable-usb-c-photo-2.webp",
+      "/uploads/quick-products/lampe-torche-led-cob-rechargeable-usb-c-photo-3.webp",
+      "/uploads/quick-products/lampe-torche-led-cob-rechargeable-usb-c-photo-4.webp",
+      "/uploads/quick-products/lampe-torche-led-cob-rechargeable-usb-c-photo-5.webp",
+      "/uploads/quick-products/lampe-torche-led-cob-rechargeable-usb-c-photo-6.webp"
+    ],
+    "shortDescription": "Lampe torche LED haute puissance avec lumiere laterale COB, recharge USB-C : garage, cave, camping, pannes de courant. 17 000 avis.",
+    "description": "Lampe torche LED haute puissance rechargeable en USB-C, avec faisceau zoomable a l avant et bandeau lumineux COB sur le cote pour eclairer large. Plusieurs modes dont un mode secours clignotant, batterie integree qui evite d acheter des piles, corps metal resistant aux chocs. Elle sert au garage, dans la cave, sous le capot, en camping ou pendant une panne de courant. Note 4.6 sur plus de 17 000 avis, 100 000 ventes.",
+    "features": [
+      "Faisceau zoomable + lumiere laterale COB",
+      "Recharge USB-C, batterie integree, zero pile",
+      "Corps metal resistant, plusieurs modes"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008455136318.html",
+      "supplierSku": "AE-ITEM-1005008455136318",
+      "supplierPriceCents": 439,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 851,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008455136318.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 194,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.39 EUR, boutique 12.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T16:50:36.090Z"
+    },
+    "price": 1290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008455136318.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008455136318 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Lampe torche LED COB rechargeable USB-C | Maxi Trouvaille",
+      "description": "Lampe torche LED haute puissance avec lumiere laterale COB, recharge USB-C : garage, cave, camping, pannes de courant. 17 000 avis.",
+      "h1": "Lampe torche LED COB rechargeable USB-C",
+      "h2": "Pourquoi choisir Lampe torche LED COB rechargeable USB-C",
+      "keywords": [
+        "lampe",
+        "torche",
+        "led",
+        "cob",
+        "rechargeable",
+        "usb",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Lampe torche LED COB rechargeable USB-C - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Lampe torche LED COB rechargeable USB-C - outillage Maxi Trouvaille",
+    "compareAtPrice": 1790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_coffret_cles_a_douille_cliquet_12_pieces_001",
+    "slug": "coffret-cles-a-douille-cliquet-12-pieces",
+    "name": "Coffret 12 clés à douille avec cliquet",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/coffret-cles-a-douille-cliquet-12-pieces-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/coffret-cles-a-douille-cliquet-12-pieces-photo-1.webp",
+      "/uploads/quick-products/coffret-cles-a-douille-cliquet-12-pieces-photo-2.webp",
+      "/uploads/quick-products/coffret-cles-a-douille-cliquet-12-pieces-photo-3.webp",
+      "/uploads/quick-products/coffret-cles-a-douille-cliquet-12-pieces-photo-4.webp",
+      "/uploads/quick-products/coffret-cles-a-douille-cliquet-12-pieces-photo-5.webp",
+      "/uploads/quick-products/coffret-cles-a-douille-cliquet-12-pieces-photo-6.webp"
+    ],
+    "shortDescription": "Coffret 12 pieces cles a douille avec cliquet : entretien moto, velo, voiture et petit bricolage, le tout range dans son etui.",
+    "description": "Coffret d entretien 12 pieces avec cliquet et douilles metriques : de quoi demonter, resserrer et regler sur une moto, un velo, une voiture ou dans la maison. Acier traite, cliquet reversible qui travaille dans les deux sens et etui compact qui tient dans le coffre ou le sac. Note 4.5 sur plus de 4 100 avis, 10 000 ventes.",
+    "features": [
+      "12 pieces : cliquet reversible + douilles",
+      "Acier traite, moto, velo, voiture, maison",
+      "Etui compact : tient dans le coffre"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006362995957.html",
+      "supplierSku": "AE-ITEM-1005006362995957",
+      "supplierPriceCents": 919,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2090,
+      "marginCents": 1171,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006362995957.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 127,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 9.19 EUR, boutique 20.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T16:50:36.637Z"
+    },
+    "price": 2090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006362995957.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006362995957 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Coffret 12 clés à douille avec cliquet | Maxi Trouvaille",
+      "description": "Coffret 12 pieces cles a douille avec cliquet : entretien moto, velo, voiture et petit bricolage, le tout range dans son etui.",
+      "h1": "Coffret 12 clés à douille avec cliquet",
+      "h2": "Pourquoi choisir Coffret 12 clés à douille avec cliquet",
+      "keywords": [
+        "coffret",
+        "cles",
+        "douille",
+        "cliquet",
+        "pieces",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Coffret 12 clés à douille avec cliquet - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Coffret 12 clés à douille avec cliquet - outillage Maxi Trouvaille",
+    "compareAtPrice": 2890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_casque_gaming_filaire_micro_antibruit_001",
+    "slug": "casque-gaming-filaire-micro-antibruit",
+    "name": "Casque gaming filaire avec micro antibruit",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/casque-gaming-filaire-micro-antibruit-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/casque-gaming-filaire-micro-antibruit-photo-1.webp",
+      "/uploads/quick-products/casque-gaming-filaire-micro-antibruit-photo-2.webp",
+      "/uploads/quick-products/casque-gaming-filaire-micro-antibruit-photo-3.webp",
+      "/uploads/quick-products/casque-gaming-filaire-micro-antibruit-photo-4.webp",
+      "/uploads/quick-products/casque-gaming-filaire-micro-antibruit-photo-5.webp",
+      "/uploads/quick-products/casque-gaming-filaire-micro-antibruit-photo-6.webp"
+    ],
+    "shortDescription": "Casque de jeu filaire jack 3,5 mm avec micro antibruit : PS4, PS5, Xbox, Switch et PC. Note 4.9 sur plus de 1 400 avis.",
+    "description": "Casque gaming filaire en jack 3,5 mm compatible PS4, PS5, Xbox, Nintendo Switch, PC et telephone : son stereo qui situe bien les bruits de pas, micro antibruit oriente vers la bouche pour se faire comprendre en vocal, coussinets moelleux et arceau reglable pour les longues sessions. Branchement direct, aucune installation. Note 4.9 sur plus de 1 400 avis.",
+    "features": [
+      "Jack 3,5 mm : PS4, PS5, Xbox, Switch, PC",
+      "Micro antibruit oriente, vocal net",
+      "Coussinets moelleux, arceau reglable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006861850231.html",
+      "supplierSku": "AE-ITEM-1005006861850231",
+      "supplierPriceCents": 729,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2090,
+      "marginCents": 1361,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006861850231.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 187,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 7.29 EUR, boutique 20.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T16:50:37.512Z"
+    },
+    "price": 2090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006861850231.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006861850231 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Casque gaming filaire avec micro antibruit | Maxi Trouvaille",
+      "description": "Casque de jeu filaire jack 3,5 mm avec micro antibruit : PS4, PS5, Xbox, Switch et PC. Note 4.9 sur plus de 1 400 avis.",
+      "h1": "Casque gaming filaire avec micro antibruit",
+      "h2": "Pourquoi choisir Casque gaming filaire avec micro antibruit",
+      "keywords": [
+        "casque",
+        "gaming",
+        "filaire",
+        "micro",
+        "antibruit",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Casque gaming filaire avec micro antibruit - gaming Maxi Trouvaille"
+    },
+    "imageAlt": "Casque gaming filaire avec micro antibruit - gaming Maxi Trouvaille",
+    "compareAtPrice": 2890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_casque_studio_oneodio_pro_dj_micro_001",
+    "slug": "casque-studio-oneodio-pro-dj-micro",
+    "name": "Casque studio Oneodio Pro avec micro",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/casque-studio-oneodio-pro-dj-micro-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/casque-studio-oneodio-pro-dj-micro-photo-1.webp",
+      "/uploads/quick-products/casque-studio-oneodio-pro-dj-micro-photo-2.webp",
+      "/uploads/quick-products/casque-studio-oneodio-pro-dj-micro-photo-3.webp",
+      "/uploads/quick-products/casque-studio-oneodio-pro-dj-micro-photo-4.webp",
+      "/uploads/quick-products/casque-studio-oneodio-pro-dj-micro-photo-5.webp",
+      "/uploads/quick-products/casque-studio-oneodio-pro-dj-micro-photo-6.webp"
+    ],
+    "shortDescription": "Casque de studio Oneadio hi-fi pour DJ, mixage et jeu, avec micro detachable. Marque reconnue, note 4.9 sur plus de 1 500 avis.",
+    "description": "Casque professionnel Oneodio pense pour le studio, le mixage DJ et le gaming : grands transducteurs pour des basses profondes et des aigus nets, oreillettes pivotantes a 90 degres pour ecouter d une seule oreille, coussinets rembourres qui isolent du bruit ambiant et micro detachable. Double cablage fourni, compatible table de mixage, PC, console et telephone. Oneodio est une marque etablie de l audio. Note 4.9 sur plus de 1 500 avis.",
+    "features": [
+      "Marque Oneodio : son hi-fi studio et DJ",
+      "Oreillettes pivotantes 90 degres, micro detachable",
+      "Coussinets isolants, PC, console, table de mixage"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006966378311.html",
+      "supplierSku": "AE-ITEM-1005006966378311",
+      "supplierPriceCents": 3939,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6390,
+      "marginCents": 2451,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006966378311.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 62,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 39.39 EUR, boutique 63.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T16:50:38.084Z"
+    },
+    "price": 6390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006966378311.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006966378311 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Casque studio Oneodio Pro avec micro | Maxi Trouvaille",
+      "description": "Casque de studio Oneadio hi-fi pour DJ, mixage et jeu, avec micro detachable. Marque reconnue, note 4.9 sur plus de 1 500 avis.",
+      "h1": "Casque studio Oneodio Pro avec micro",
+      "h2": "Pourquoi choisir Casque studio Oneodio Pro avec micro",
+      "keywords": [
+        "casque",
+        "studio",
+        "oneodio",
+        "pro",
+        "micro",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Casque studio Oneodio Pro avec micro - gaming Maxi Trouvaille"
+    },
+    "imageAlt": "Casque studio Oneodio Pro avec micro - gaming Maxi Trouvaille",
+    "compareAtPrice": 8690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_coupe_legumes_manuel_9_en_1_001",
+    "slug": "coupe-legumes-manuel-9-en-1",
+    "name": "Coupe-légumes manuel 9 en 1",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/coupe-legumes-manuel-9-en-1-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/coupe-legumes-manuel-9-en-1-photo-1.webp",
+      "/uploads/quick-products/coupe-legumes-manuel-9-en-1-photo-2.webp",
+      "/uploads/quick-products/coupe-legumes-manuel-9-en-1-photo-3.webp",
+      "/uploads/quick-products/coupe-legumes-manuel-9-en-1-photo-4.webp",
+      "/uploads/quick-products/coupe-legumes-manuel-9-en-1-photo-5.webp",
+      "/uploads/quick-products/coupe-legumes-manuel-9-en-1-photo-6.webp"
+    ],
+    "shortDescription": "Coupe-legumes 9 en 1 : frites, des, rondelles, rapes fines ou epaisses en un geste, avec bac de recuperation. Note 4.9.",
+    "description": "Coupe-legumes manuel 9 en 1 avec ses lames interchangeables : frites, cubes, rondelles, batonnets, rapes fine et epaisse. Un geste sur la poignee et le legume est coupe regulierement, directement dans le bac de recuperation qui evite d en mettre partout. Poussoir protege-doigts, lames inox, tout se lave a l eau. Fait gagner un temps reel sur les pommes de terre, carottes, oignons et courgettes. Note 4.9 sur pres de 1 000 avis, 5 000 ventes.",
+    "features": [
+      "9 lames : frites, des, rondelles, rapes",
+      "Bac de recuperation integre, zero desordre",
+      "Poussoir protege-doigts, lames inox"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008932929331.html",
+      "supplierSku": "AE-ITEM-1005008932929331",
+      "supplierPriceCents": 769,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2190,
+      "marginCents": 1421,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008932929331.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 185,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 7.69 EUR, boutique 21.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T16:50:38.602Z"
+    },
+    "price": 2190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008932929331.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008932929331 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Coupe-légumes manuel 9 en 1 | Maxi Trouvaille",
+      "description": "Coupe-legumes 9 en 1 : frites, des, rondelles, rapes fines ou epaisses en un geste, avec bac de recuperation. Note 4.9.",
+      "h1": "Coupe-légumes manuel 9 en 1",
+      "h2": "Pourquoi choisir Coupe-légumes manuel 9 en 1",
+      "keywords": [
+        "coupe",
+        "legumes",
+        "manuel",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Coupe-légumes manuel 9 en 1 - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Coupe-légumes manuel 9 en 1 - cuisine Maxi Trouvaille",
+    "compareAtPrice": 2990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_brosse_soufflante_lisapro_volumatrice_001",
+    "slug": "brosse-soufflante-lisapro-volumatrice",
+    "name": "Brosse soufflante volumatrice LISAPRO",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/brosse-soufflante-lisapro-volumatrice-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/brosse-soufflante-lisapro-volumatrice-photo-1.webp",
+      "/uploads/quick-products/brosse-soufflante-lisapro-volumatrice-photo-2.webp",
+      "/uploads/quick-products/brosse-soufflante-lisapro-volumatrice-photo-3.webp",
+      "/uploads/quick-products/brosse-soufflante-lisapro-volumatrice-photo-4.webp",
+      "/uploads/quick-products/brosse-soufflante-lisapro-volumatrice-photo-5.webp",
+      "/uploads/quick-products/brosse-soufflante-lisapro-volumatrice-photo-6.webp"
+    ],
+    "shortDescription": "Brosse soufflante LISAPRO : seche et coiffe en une seule etape, donne du volume et lisse sans casser le cheveu. Note 4.9.",
+    "description": "Brosse soufflante volumatrice LISAPRO : elle seche et coiffe en meme temps, ce qui remplace le seche-cheveux et la brosse ronde. La forme ovale attrape la meche, souleve la racine et lisse les longueurs en un seul passage, avec plusieurs reglages de chaleur et de vitesse dont un mode air frais qui fixe le brushing. Ionisation pour limiter les frisottis et l electricite statique. Note 4.9.",
+    "features": [
+      "Seche et coiffe en une seule etape",
+      "Volume a la racine, longueurs lissees",
+      "Reglages chaleur/vitesse + mode air frais"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006997564351.html",
+      "supplierSku": "AE-ITEM-1005006997564351",
+      "supplierPriceCents": 2519,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 4090,
+      "marginCents": 1571,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006997564351.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (500+ ventes, visuels officiels importes).",
+      "markupPercent": 62,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 25.19 EUR, boutique 40.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T16:50:39.624Z"
+    },
+    "price": 4090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006997564351.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006997564351 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Brosse soufflante volumatrice LISAPRO | Maxi Trouvaille",
+      "description": "Brosse soufflante LISAPRO : seche et coiffe en une seule etape, donne du volume et lisse sans casser le cheveu. Note 4.9.",
+      "h1": "Brosse soufflante volumatrice LISAPRO",
+      "h2": "Pourquoi choisir Brosse soufflante volumatrice LISAPRO",
+      "keywords": [
+        "brosse",
+        "soufflante",
+        "lisapro",
+        "volumatrice",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Brosse soufflante volumatrice LISAPRO - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Brosse soufflante volumatrice LISAPRO - beaute Maxi Trouvaille",
+    "compareAtPrice": 5590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_videoprojecteur_magcubic_hy300_pro_wifi6_001",
+    "slug": "videoprojecteur-magcubic-hy300-pro-wifi6",
+    "name": "Vidéoprojecteur Magcubic HY300 Pro Wifi 6",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/videoprojecteur-magcubic-hy300-pro-wifi6-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/videoprojecteur-magcubic-hy300-pro-wifi6-photo-1.webp",
+      "/uploads/quick-products/videoprojecteur-magcubic-hy300-pro-wifi6-photo-2.webp",
+      "/uploads/quick-products/videoprojecteur-magcubic-hy300-pro-wifi6-photo-3.webp",
+      "/uploads/quick-products/videoprojecteur-magcubic-hy300-pro-wifi6-photo-4.webp",
+      "/uploads/quick-products/videoprojecteur-magcubic-hy300-pro-wifi6-photo-5.webp",
+      "/uploads/quick-products/videoprojecteur-magcubic-hy300-pro-wifi6-photo-6.webp"
+    ],
+    "shortDescription": "Videoprojecteur Magcubic HY300 Pro : Android 14, double Wifi 6, Bluetooth 5.4, image jusqu a 130 pouces. 17 000 avis, note 4.9.",
+    "description": "Videoprojecteur portable Magcubic HY300 Pro, l un des modeles les plus vendus au monde : Android 14 integre avec ses applications, double Wifi 6 pour diffuser sans fil depuis le telephone, Bluetooth 5.4 pour une enceinte externe et support magnetique rotatif qui projette meme au plafond. Image nette jusqu a 130 pouces, correction automatique de la deformation, haut-parleur integre. Il transforme un mur en cinema, dedans comme dans le jardin. Note 4.9 sur plus de 17 000 avis.",
+    "features": [
+      "Android 14 + double Wifi 6 : diffusion sans fil",
+      "Image jusqu a 130 pouces, correction auto",
+      "Support magnetique rotatif, Bluetooth 5.4"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006782790827.html",
+      "supplierSku": "AE-ITEM-1005006782790827",
+      "supplierPriceCents": 5199,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 7890,
+      "marginCents": 2691,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006782790827.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 52,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 51.99 EUR, boutique 78.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T16:50:40.513Z"
+    },
+    "price": 7890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006782790827.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006782790827 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Vidéoprojecteur Magcubic HY300 Pro Wifi 6 | Maxi Trouvaille",
+      "description": "Videoprojecteur Magcubic HY300 Pro : Android 14, double Wifi 6, Bluetooth 5.4, image jusqu a 130 pouces. 17 000 avis, note 4.9.",
+      "h1": "Vidéoprojecteur Magcubic HY300 Pro Wifi 6",
+      "h2": "Pourquoi choisir Vidéoprojecteur Magcubic HY300 Pro Wifi 6",
+      "keywords": [
+        "videoprojecteur",
+        "magcubic",
+        "hy300",
+        "pro",
+        "wifi6",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Vidéoprojecteur Magcubic HY300 Pro Wifi 6 - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Vidéoprojecteur Magcubic HY300 Pro Wifi 6 - high-tech Maxi Trouvaille",
+    "compareAtPrice": 10690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_aspirateur_voiture_sans_fil_haute_puissa_001",
+    "slug": "aspirateur-voiture-sans-fil-haute-puissance",
+    "name": "Aspirateur voiture sans fil haute puissance",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/aspirateur-voiture-sans-fil-haute-puissance-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/aspirateur-voiture-sans-fil-haute-puissance-photo-1.webp",
+      "/uploads/quick-products/aspirateur-voiture-sans-fil-haute-puissance-photo-2.webp",
+      "/uploads/quick-products/aspirateur-voiture-sans-fil-haute-puissance-photo-3.webp",
+      "/uploads/quick-products/aspirateur-voiture-sans-fil-haute-puissance-photo-4.webp",
+      "/uploads/quick-products/aspirateur-voiture-sans-fil-haute-puissance-photo-5.webp",
+      "/uploads/quick-products/aspirateur-voiture-sans-fil-haute-puissance-photo-6.webp"
+    ],
+    "shortDescription": "Aspirateur a main sans fil tres puissant : sieges, moquettes, coffre et miettes entre les banquettes. Note 4.7, 10 000 ventes.",
+    "description": "Aspirateur a main sans fil concu pour la voiture : aspiration tres puissante qui decolle le sable, les miettes et les poils d animaux coinces dans les sieges et les moquettes. Batterie rechargeable pour travailler sans prise, embouts fins pour aller entre les banquettes et dans les vide-poches, filtre lavable et bac transparent qui se vide en un clic. Sert aussi a la maison sur le canape et les escaliers. Note 4.7 sur plus de 2 100 avis.",
+    "features": [
+      "Aspiration puissante : sable, miettes, poils",
+      "Sans fil, batterie rechargeable",
+      "Embouts fins + filtre lavable, bac clipsable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007600399738.html",
+      "supplierSku": "AE-ITEM-1005007600399738",
+      "supplierPriceCents": 3319,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 5390,
+      "marginCents": 2071,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007600399738.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 62,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 33.19 EUR, boutique 53.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T16:50:41.091Z"
+    },
+    "price": 5390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007600399738.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007600399738 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Aspirateur voiture sans fil haute puissance | Maxi Trouvaille",
+      "description": "Aspirateur a main sans fil tres puissant : sieges, moquettes, coffre et miettes entre les banquettes. Note 4.7, 10 000 ventes.",
+      "h1": "Aspirateur voiture sans fil haute puissance",
+      "h2": "Pourquoi choisir Aspirateur voiture sans fil haute puissance",
+      "keywords": [
+        "aspirateur",
+        "voiture",
+        "sans",
+        "fil",
+        "haute",
+        "puissance",
+        "dropshipping-auto-moto"
+      ],
+      "imageAlt": "Aspirateur voiture sans fil haute puissance - auto-moto Maxi Trouvaille"
+    },
+    "imageAlt": "Aspirateur voiture sans fil haute puissance - auto-moto Maxi Trouvaille",
+    "compareAtPrice": 7290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
