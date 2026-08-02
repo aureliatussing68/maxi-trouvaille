@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import Stripe from "stripe";
 import { markDropshippingOrderPaid } from "@/lib/dropshipping-server";
+import type { DropshippingOrder } from "@/lib/dropshipping-shared";
+import { sendCheckoutConfirmationEmail } from "@/lib/order-emails";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -42,10 +44,11 @@ export async function POST(request: Request) {
 
   if (event.type === "checkout.session.completed") {
     const session = event.data.object as Stripe.Checkout.Session;
+    let paidOrder: DropshippingOrder | null = null;
 
     if (session.id && session.metadata?.hasDropshippingItems === "true") {
       try {
-        await markDropshippingOrderPaid(session.id);
+        paidOrder = await markDropshippingOrderPaid(session.id);
       } catch {
         return NextResponse.json(
           {
@@ -54,6 +57,23 @@ export async function POST(request: Request) {
           },
           { status: 500 },
         );
+      }
+    }
+
+    // Email de confirmation client : totalement isole du traitement
+    // paiement/stock ci-dessus. Un echec d'email ne doit jamais changer le
+    // code HTTP renvoye a Stripe, sinon Stripe rejoue l'evenement en boucle
+    // et la commande est retraitee. Sans cle d'envoi configuree, l'appel ne
+    // fait strictement rien.
+    if (session.id) {
+      try {
+        await sendCheckoutConfirmationEmail({
+          session,
+          order: paidOrder,
+          stripe,
+        });
+      } catch {
+        // Silence volontaire : le paiement reste valide.
       }
     }
   }
