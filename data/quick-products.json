@@ -29038,5 +29038,390 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260802_anneau_lumineux_26cm_trepied_telephone_001",
+    "slug": "anneau-lumineux-26cm-trepied-telephone",
+    "name": "Anneau lumineux 26 cm avec trépied",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/anneau-lumineux-26cm-trepied-telephone-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/anneau-lumineux-26cm-trepied-telephone-photo-1.webp",
+      "/uploads/quick-products/anneau-lumineux-26cm-trepied-telephone-photo-2.webp",
+      "/uploads/quick-products/anneau-lumineux-26cm-trepied-telephone-photo-3.webp",
+      "/uploads/quick-products/anneau-lumineux-26cm-trepied-telephone-photo-4.webp",
+      "/uploads/quick-products/anneau-lumineux-26cm-trepied-telephone-photo-5.webp",
+      "/uploads/quick-products/anneau-lumineux-26cm-trepied-telephone-photo-6.webp"
+    ],
+    "shortDescription": "Anneau lumineux LED de 26 cm avec trepied et support telephone : eclairage flatteur pour videos, visio et photos. Note 4.9.",
+    "description": "Anneau lumineux LED de 26 cm livre avec son trepied reglable et son support telephone : la lumiere circulaire supprime les ombres dures sur le visage, ce qui change tout en video TikTok, en visio professionnelle ou pour des photos de produits. Trois temperatures de couleur du blanc froid au chaud et intensite reglable, telecommande incluse, hauteur ajustable. Alimentation USB, tout se replie pour se ranger. Note 4.9 sur plus de 400 avis.",
+    "features": [
+      "Anneau 26 cm : supprime les ombres sur le visage",
+      "3 temperatures de couleur, intensite reglable",
+      "Trepied ajustable + support telephone inclus"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007805665340.html",
+      "supplierSku": "AE-ITEM-1005007805665340",
+      "supplierPriceCents": 919,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2090,
+      "marginCents": 1171,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007805665340.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (4000+ ventes, visuels officiels importes).",
+      "markupPercent": 127,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 9.19 EUR, boutique 20.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:24:40.763Z"
+    },
+    "price": 2090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007805665340.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007805665340 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Anneau lumineux 26 cm avec trépied | Maxi Trouvaille",
+      "description": "Anneau lumineux LED de 26 cm avec trepied et support telephone : eclairage flatteur pour videos, visio et photos. Note 4.9.",
+      "h1": "Anneau lumineux 26 cm avec trépied",
+      "h2": "Pourquoi choisir Anneau lumineux 26 cm avec trépied",
+      "keywords": [
+        "anneau",
+        "lumineux",
+        "26cm",
+        "trepied",
+        "telephone",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Anneau lumineux 26 cm avec trépied - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Anneau lumineux 26 cm avec trépied - accessoires Maxi Trouvaille",
+    "compareAtPrice": 2890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_tapis_de_bain_antiderapant_absorbant_001",
+    "slug": "tapis-de-bain-antiderapant-absorbant",
+    "name": "Tapis de bain antidérapant absorbant",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/tapis-de-bain-antiderapant-absorbant-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/tapis-de-bain-antiderapant-absorbant-photo-1.webp",
+      "/uploads/quick-products/tapis-de-bain-antiderapant-absorbant-photo-2.webp",
+      "/uploads/quick-products/tapis-de-bain-antiderapant-absorbant-photo-3.webp",
+      "/uploads/quick-products/tapis-de-bain-antiderapant-absorbant-photo-4.webp",
+      "/uploads/quick-products/tapis-de-bain-antiderapant-absorbant-photo-5.webp",
+      "/uploads/quick-products/tapis-de-bain-antiderapant-absorbant-photo-6.webp"
+    ],
+    "shortDescription": "Tapis de bain antiderapant tres absorbant : seche les pieds et tient au sol. Note 4.5 sur plus de 16 000 avis.",
+    "description": "Tapis de salle de bain en fibres gaufrees : il absorbe l eau immediatement au lieu de la laisser stagner, et sa base antiderapante le maintient en place meme les pieds mouilles, ce qui evite le glissement au sortir de la douche. Il seche vite, passe en machine et garde sa forme lavage apres lavage. Convient aussi devant l evier de cuisine ou a l entree. Note 4.5 sur plus de 16 000 avis, 100 000 ventes.",
+    "features": [
+      "Tres absorbant : plus de flaque au sol",
+      "Base antiderapante, tient meme pieds mouilles",
+      "Lavable en machine, seche vite"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006694412942.html",
+      "supplierSku": "AE-ITEM-1005006694412942",
+      "supplierPriceCents": 207,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 483,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006694412942.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 233,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.07 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:24:41.459Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006694412942.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006694412942 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Tapis de bain antidérapant absorbant | Maxi Trouvaille",
+      "description": "Tapis de bain antiderapant tres absorbant : seche les pieds et tient au sol. Note 4.5 sur plus de 16 000 avis.",
+      "h1": "Tapis de bain antidérapant absorbant",
+      "h2": "Pourquoi choisir Tapis de bain antidérapant absorbant",
+      "keywords": [
+        "tapis",
+        "bain",
+        "antiderapant",
+        "absorbant",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Tapis de bain antidérapant absorbant - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Tapis de bain antidérapant absorbant - maison Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_machine_expresso_20_bars_buse_vapeur_001",
+    "slug": "machine-expresso-20-bars-buse-vapeur",
+    "name": "Machine à expresso 20 bars avec buse vapeur",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/machine-expresso-20-bars-buse-vapeur-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/machine-expresso-20-bars-buse-vapeur-photo-1.webp",
+      "/uploads/quick-products/machine-expresso-20-bars-buse-vapeur-photo-2.webp",
+      "/uploads/quick-products/machine-expresso-20-bars-buse-vapeur-photo-3.webp",
+      "/uploads/quick-products/machine-expresso-20-bars-buse-vapeur-photo-4.webp",
+      "/uploads/quick-products/machine-expresso-20-bars-buse-vapeur-photo-5.webp",
+      "/uploads/quick-products/machine-expresso-20-bars-buse-vapeur-photo-6.webp"
+    ],
+    "shortDescription": "Machine a expresso semi-automatique 20 bars avec buse vapeur : expresso creme et cappuccino maison. Note 4.9.",
+    "description": "Machine a expresso semi-automatique a 20 bars de pression : assez de pression pour extraire un vrai expresso avec sa crema, la ou les machines d entree de gamme sortent un cafe plat. Buse vapeur orientable pour faire mousser le lait et reussir cappuccino et latte a la maison, temperature reglable, mode froid pour les cafes glaces de l ete et porte-filtre professionnel. Reservoir amovible qui se remplit sans deplacer la machine. Note 4.9 sur plus de 1 200 avis, 5 000 ventes.",
+    "features": [
+      "20 bars : vrai expresso avec crema",
+      "Buse vapeur : cappuccino et latte maison",
+      "Temperature reglable, mode froid, reservoir amovible"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009522306725.html",
+      "supplierSku": "AE-ITEM-1005009522306725",
+      "supplierPriceCents": 9069,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 13690,
+      "marginCents": 4621,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009522306725.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 90.69 EUR, boutique 136.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:24:42.129Z"
+    },
+    "price": 13690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009522306725.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009522306725 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Machine à expresso 20 bars avec buse vapeur | Maxi Trouvaille",
+      "description": "Machine a expresso semi-automatique 20 bars avec buse vapeur : expresso creme et cappuccino maison. Note 4.9.",
+      "h1": "Machine à expresso 20 bars avec buse vapeur",
+      "h2": "Pourquoi choisir Machine à expresso 20 bars avec buse vapeur",
+      "keywords": [
+        "machine",
+        "expresso",
+        "bars",
+        "buse",
+        "vapeur",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Machine à expresso 20 bars avec buse vapeur - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Machine à expresso 20 bars avec buse vapeur - cuisine Maxi Trouvaille",
+    "compareAtPrice": 18490,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_cle_dynamometrique_precision_3_8_001",
+    "slug": "cle-dynamometrique-precision-3-8",
+    "name": "Clé dynamométrique de précision 3/8",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/cle-dynamometrique-precision-3-8-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/cle-dynamometrique-precision-3-8-photo-1.webp",
+      "/uploads/quick-products/cle-dynamometrique-precision-3-8-photo-2.webp",
+      "/uploads/quick-products/cle-dynamometrique-precision-3-8-photo-3.webp",
+      "/uploads/quick-products/cle-dynamometrique-precision-3-8-photo-4.webp",
+      "/uploads/quick-products/cle-dynamometrique-precision-3-8-photo-5.webp",
+      "/uploads/quick-products/cle-dynamometrique-precision-3-8-photo-6.webp"
+    ],
+    "shortDescription": "Cle dynamometrique 3/8 pouce a declic : serre chaque boulon au couple exact, ni trop ni pas assez. Note 4.9.",
+    "description": "Cle dynamometrique professionnelle a embout carre 3/8 pouce : elle emet un declic net des que le couple regle est atteint, ce qui evite de casser un filetage en serrant trop fort ou de laisser une roue mal serree. Reglage precis sur la molette graduee, mecanisme reversible et corps acier livre dans son coffret. Indispensable pour les roues, la culasse, les etriers de frein et tout ce que le constructeur donne en newton-metres, sur voiture comme sur velo. Note 4.9 sur plus de 1 200 avis, 5 000 ventes.",
+    "features": [
+      "Declic net au couple exact : ni trop ni trop peu",
+      "Embout 3/8 pouce, mecanisme reversible",
+      "Coffret inclus, voiture, moto et velo"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007636470173.html",
+      "supplierSku": "AE-ITEM-1005007636470173",
+      "supplierPriceCents": 2799,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 4490,
+      "marginCents": 1691,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007636470173.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 60,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 27.99 EUR, boutique 44.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:24:43.160Z"
+    },
+    "price": 4490,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007636470173.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007636470173 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Clé dynamométrique de précision 3/8 | Maxi Trouvaille",
+      "description": "Cle dynamometrique 3/8 pouce a declic : serre chaque boulon au couple exact, ni trop ni pas assez. Note 4.9.",
+      "h1": "Clé dynamométrique de précision 3/8",
+      "h2": "Pourquoi choisir Clé dynamométrique de précision 3/8",
+      "keywords": [
+        "cle",
+        "dynamometrique",
+        "precision",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Clé dynamométrique de précision 3/8 - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Clé dynamométrique de précision 3/8 - outillage Maxi Trouvaille",
+    "compareAtPrice": 6090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
