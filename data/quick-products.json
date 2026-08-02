@@ -27394,5 +27394,486 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260802_diffuseur_humidificateur_effet_flamme_001",
+    "slug": "diffuseur-humidificateur-effet-flamme",
+    "name": "Diffuseur humidificateur effet flamme",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/diffuseur-humidificateur-effet-flamme-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/diffuseur-humidificateur-effet-flamme-photo-1.webp",
+      "/uploads/quick-products/diffuseur-humidificateur-effet-flamme-photo-2.webp",
+      "/uploads/quick-products/diffuseur-humidificateur-effet-flamme-photo-3.webp",
+      "/uploads/quick-products/diffuseur-humidificateur-effet-flamme-photo-4.webp",
+      "/uploads/quick-products/diffuseur-humidificateur-effet-flamme-photo-5.webp",
+      "/uploads/quick-products/diffuseur-humidificateur-effet-flamme-photo-6.webp"
+    ],
+    "shortDescription": "Humidificateur et diffuseur de parfum avec fausse flamme lumineuse : ambiance chaleureuse et air moins sec. Note 4.5.",
+    "description": "Humidificateur et diffuseur d huiles essentielles avec effet flamme lumineux : la brume et la lumiere imitent un feu de cheminee qui danse, sans aucune chaleur ni risque. Il humidifie l air sec des chambres chauffees, diffuse le parfum de votre choix et sert de veilleuse d ambiance dans le salon ou sur un bureau. Arret automatique quand le reservoir est vide, fonctionnement silencieux, alimentation USB. Note 4.5 sur plus de 600 avis.",
+    "features": [
+      "Effet flamme lumineux, sans chaleur ni risque",
+      "Humidifie l air sec + diffuse les huiles essentielles",
+      "Silencieux, arret automatique, alimentation USB"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007588350723.html",
+      "supplierSku": "AE-ITEM-1005007588350723",
+      "supplierPriceCents": 939,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2090,
+      "marginCents": 1151,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007588350723.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (4000+ ventes, visuels officiels importes).",
+      "markupPercent": 123,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 9.39 EUR, boutique 20.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:05:23.153Z"
+    },
+    "price": 2090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007588350723.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007588350723 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Diffuseur humidificateur effet flamme | Maxi Trouvaille",
+      "description": "Humidificateur et diffuseur de parfum avec fausse flamme lumineuse : ambiance chaleureuse et air moins sec. Note 4.5.",
+      "h1": "Diffuseur humidificateur effet flamme",
+      "h2": "Pourquoi choisir Diffuseur humidificateur effet flamme",
+      "keywords": [
+        "diffuseur",
+        "humidificateur",
+        "effet",
+        "flamme",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Diffuseur humidificateur effet flamme - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Diffuseur humidificateur effet flamme - maison Maxi Trouvaille",
+    "compareAtPrice": 2890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_epilateur_ipl_refroidissement_glace_001",
+    "slug": "epilateur-ipl-refroidissement-glace",
+    "name": "Épilateur IPL avec refroidissement",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/epilateur-ipl-refroidissement-glace-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/epilateur-ipl-refroidissement-glace-photo-1.webp",
+      "/uploads/quick-products/epilateur-ipl-refroidissement-glace-photo-2.webp",
+      "/uploads/quick-products/epilateur-ipl-refroidissement-glace-photo-3.webp",
+      "/uploads/quick-products/epilateur-ipl-refroidissement-glace-photo-4.webp",
+      "/uploads/quick-products/epilateur-ipl-refroidissement-glace-photo-5.webp",
+      "/uploads/quick-products/epilateur-ipl-refroidissement-glace-photo-6.webp"
+    ],
+    "shortDescription": "Epilateur a lumiere pulsee avec tete refroidissante : seances a la maison, sans douleur ni rendez-vous en institut. Note 4.6.",
+    "description": "Epilateur a lumiere pulsee avec tete refroidissante integree : le froid applique au moment du flash rend la seance indolore, la ou les appareils classiques piquent. Plusieurs niveaux d intensite a adapter selon la zone et la sensibilite, mode automatique pour les grandes surfaces, et une reserve de flashs largement suffisante pour des annees d utilisation. Utilisable sur les jambes, les aisselles, le maillot, les bras et le visage. Note 4.6.",
+    "features": [
+      "Tete refroidissante : seance indolore",
+      "Plusieurs intensites + mode automatique",
+      "Jambes, aisselles, maillot, bras, visage"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006728091018.html",
+      "supplierSku": "AE-ITEM-1005006728091018",
+      "supplierPriceCents": 6169,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 9290,
+      "marginCents": 3121,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006728091018.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (2000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 61.69 EUR, boutique 92.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:05:24.175Z"
+    },
+    "price": 9290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006728091018.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006728091018 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Épilateur IPL avec refroidissement | Maxi Trouvaille",
+      "description": "Epilateur a lumiere pulsee avec tete refroidissante : seances a la maison, sans douleur ni rendez-vous en institut. Note 4.6.",
+      "h1": "Épilateur IPL avec refroidissement",
+      "h2": "Pourquoi choisir Épilateur IPL avec refroidissement",
+      "keywords": [
+        "epilateur",
+        "ipl",
+        "refroidissement",
+        "glace",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Épilateur IPL avec refroidissement - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Épilateur IPL avec refroidissement - beaute Maxi Trouvaille",
+    "compareAtPrice": 12590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_dashcam_ddpai_n1_avant_arriere_001",
+    "slug": "dashcam-ddpai-n1-avant-arriere",
+    "name": "Dashcam DDPAI N1 avant et arrière",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/dashcam-ddpai-n1-avant-arriere-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/dashcam-ddpai-n1-avant-arriere-photo-1.webp",
+      "/uploads/quick-products/dashcam-ddpai-n1-avant-arriere-photo-2.webp",
+      "/uploads/quick-products/dashcam-ddpai-n1-avant-arriere-photo-3.webp",
+      "/uploads/quick-products/dashcam-ddpai-n1-avant-arriere-photo-4.webp",
+      "/uploads/quick-products/dashcam-ddpai-n1-avant-arriere-photo-5.webp",
+      "/uploads/quick-products/dashcam-ddpai-n1-avant-arriere-photo-6.webp"
+    ],
+    "shortDescription": "Camera embarquee DDPAI N1 double : filme l avant et l arriere en 1296P avec vision de nuit. Preuve en cas d accident. Note 4.9.",
+    "description": "Camera embarquee DDPAI N1 avec double enregistrement avant et arriere en 1296P : en cas d accrochage ou de litige, vous avez la preuve filmee des deux cotes du vehicule. Vision de nuit qui garde une image exploitable dans le noir, enregistrement en boucle qui ecrase les vieux fichiers tout seul, verrouillage automatique de la sequence en cas de choc et application telephone pour recuperer les videos sans demonter quoi que ce soit. DDPAI est un fabricant reconnu de cameras embarquees. Note 4.9 sur plus de 800 avis.",
+    "features": [
+      "Double camera avant + arriere en 1296P",
+      "Vision de nuit, verrouillage auto en cas de choc",
+      "Enregistrement en boucle, application telephone"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006291767331.html",
+      "supplierSku": "AE-ITEM-1005006291767331",
+      "supplierPriceCents": 6299,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 9490,
+      "marginCents": 3191,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006291767331.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 62.99 EUR, boutique 94.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:05:24.860Z"
+    },
+    "price": 9490,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006291767331.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006291767331 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Dashcam DDPAI N1 avant et arrière | Maxi Trouvaille",
+      "description": "Camera embarquee DDPAI N1 double : filme l avant et l arriere en 1296P avec vision de nuit. Preuve en cas d accident. Note 4.9.",
+      "h1": "Dashcam DDPAI N1 avant et arrière",
+      "h2": "Pourquoi choisir Dashcam DDPAI N1 avant et arrière",
+      "keywords": [
+        "dashcam",
+        "ddpai",
+        "avant",
+        "arriere",
+        "dropshipping-auto-moto"
+      ],
+      "imageAlt": "Dashcam DDPAI N1 avant et arrière - auto-moto Maxi Trouvaille"
+    },
+    "imageAlt": "Dashcam DDPAI N1 avant et arrière - auto-moto Maxi Trouvaille",
+    "compareAtPrice": 12890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_ecouteurs_lenovo_gm2_pro_bluetooth_001",
+    "slug": "ecouteurs-lenovo-gm2-pro-bluetooth",
+    "name": "Écouteurs Lenovo GM2 Pro Bluetooth 5.3",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/ecouteurs-lenovo-gm2-pro-bluetooth-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/ecouteurs-lenovo-gm2-pro-bluetooth-photo-1.webp",
+      "/uploads/quick-products/ecouteurs-lenovo-gm2-pro-bluetooth-photo-2.webp",
+      "/uploads/quick-products/ecouteurs-lenovo-gm2-pro-bluetooth-photo-3.webp",
+      "/uploads/quick-products/ecouteurs-lenovo-gm2-pro-bluetooth-photo-4.webp",
+      "/uploads/quick-products/ecouteurs-lenovo-gm2-pro-bluetooth-photo-5.webp",
+      "/uploads/quick-products/ecouteurs-lenovo-gm2-pro-bluetooth-photo-6.webp"
+    ],
+    "shortDescription": "Ecouteurs Lenovo GM2 Pro : mode jeu a faible latence, appels HD et reduction de bruit. Note 4.9 sur plus de 26 000 avis.",
+    "description": "Ecouteurs sans fil Lenovo GM2 Pro en Bluetooth 5.3 avec double mode : le mode musique pour l ecoute quotidienne et le mode jeu a faible latence qui synchronise le son avec l image, indispensable pour jouer sur telephone. Micro avec reduction de bruit pour des appels nets meme dehors, commandes tactiles, boitier de charge qui prolonge l autonomie sur plusieurs jours. Lenovo est un constructeur mondial. Note 4.9 sur plus de 26 000 avis, 100 000 ventes : l un des ecouteurs les mieux notes de la plateforme.",
+    "features": [
+      "Mode jeu faible latence : son cale sur l image",
+      "Micro a reduction de bruit, appels nets",
+      "Bluetooth 5.3, boitier de charge, marque Lenovo"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006677984952.html",
+      "supplierSku": "AE-ITEM-1005006677984952",
+      "supplierPriceCents": 1189,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2690,
+      "marginCents": 1501,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006677984952.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 126,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 11.89 EUR, boutique 26.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:05:25.418Z"
+    },
+    "price": 2690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006677984952.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006677984952 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Écouteurs Lenovo GM2 Pro Bluetooth 5.3 | Maxi Trouvaille",
+      "description": "Ecouteurs Lenovo GM2 Pro : mode jeu a faible latence, appels HD et reduction de bruit. Note 4.9 sur plus de 26 000 avis.",
+      "h1": "Écouteurs Lenovo GM2 Pro Bluetooth 5.3",
+      "h2": "Pourquoi choisir Écouteurs Lenovo GM2 Pro Bluetooth 5.3",
+      "keywords": [
+        "ecouteurs",
+        "lenovo",
+        "gm2",
+        "pro",
+        "bluetooth",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Écouteurs Lenovo GM2 Pro Bluetooth 5.3 - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Écouteurs Lenovo GM2 Pro Bluetooth 5.3 - accessoires Maxi Trouvaille",
+    "compareAtPrice": 3690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_friteuse_a_air_6l_hublot_8_programmes_001",
+    "slug": "friteuse-a-air-6l-hublot-8-programmes",
+    "name": "Friteuse à air 6 L avec hublot",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/friteuse-a-air-6l-hublot-8-programmes-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/friteuse-a-air-6l-hublot-8-programmes-photo-1.webp",
+      "/uploads/quick-products/friteuse-a-air-6l-hublot-8-programmes-photo-2.webp",
+      "/uploads/quick-products/friteuse-a-air-6l-hublot-8-programmes-photo-3.webp",
+      "/uploads/quick-products/friteuse-a-air-6l-hublot-8-programmes-photo-4.webp",
+      "/uploads/quick-products/friteuse-a-air-6l-hublot-8-programmes-photo-5.webp",
+      "/uploads/quick-products/friteuse-a-air-6l-hublot-8-programmes-photo-6.webp"
+    ],
+    "shortDescription": "Friteuse a air 6 L 1800W avec hublot et 8 programmes : frites croustillantes, poulet, legumes, presque sans huile. Note 4.5.",
+    "description": "Friteuse a air de 6 litres et 1800W avec fenetre de visualisation : on voit la cuisson avancer sans ouvrir le panier et faire retomber la temperature. Huit programmes preregles pour les frites, le poulet, le poisson, les legumes, les gateaux et le rechauffage, ecran numerique et minuterie. Une cuillere d huile suffit la ou une friteuse classique en demande un litre, ce qui change autant le budget que l odeur dans la cuisine. Cuve antiadhesive amovible qui passe au lave-vaisselle. Note 4.5.",
+    "features": [
+      "6 L, 1800W : repas pour toute la famille",
+      "Hublot de controle + 8 programmes preregles",
+      "Presque sans huile, cuve amovible lave-vaisselle"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008926003208.html",
+      "supplierSku": "AE-ITEM-1005008926003208",
+      "supplierPriceCents": 4499,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6790,
+      "marginCents": 2291,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008926003208.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (700+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 44.99 EUR, boutique 67.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:05:27.771Z"
+    },
+    "price": 6790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008926003208.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008926003208 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Friteuse à air 6 L avec hublot | Maxi Trouvaille",
+      "description": "Friteuse a air 6 L 1800W avec hublot et 8 programmes : frites croustillantes, poulet, legumes, presque sans huile. Note 4.5.",
+      "h1": "Friteuse à air 6 L avec hublot",
+      "h2": "Pourquoi choisir Friteuse à air 6 L avec hublot",
+      "keywords": [
+        "friteuse",
+        "air",
+        "hublot",
+        "programmes",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Friteuse à air 6 L avec hublot - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Friteuse à air 6 L avec hublot - cuisine Maxi Trouvaille",
+    "compareAtPrice": 9190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
