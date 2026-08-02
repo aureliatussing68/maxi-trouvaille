@@ -24101,5 +24101,199 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260802_nettoyeur_vapeur_portable_haute_temperat_001",
+    "slug": "nettoyeur-vapeur-portable-haute-temperature",
+    "name": "Nettoyeur vapeur portable haute température",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/nettoyeur-vapeur-portable-haute-temperature-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/nettoyeur-vapeur-portable-haute-temperature-photo-1.webp",
+      "/uploads/quick-products/nettoyeur-vapeur-portable-haute-temperature-photo-2.webp",
+      "/uploads/quick-products/nettoyeur-vapeur-portable-haute-temperature-photo-3.webp",
+      "/uploads/quick-products/nettoyeur-vapeur-portable-haute-temperature-photo-4.webp",
+      "/uploads/quick-products/nettoyeur-vapeur-portable-haute-temperature-photo-5.webp",
+      "/uploads/quick-products/nettoyeur-vapeur-portable-haute-temperature-photo-6.webp"
+    ],
+    "shortDescription": "Nettoyeur vapeur portable haute temperature : degraisse hotte, four, joints et sieges de voiture sans produits chimiques.",
+    "description": "Nettoyeur a vapeur portable haute temperature avec plusieurs embouts : la vapeur sous pression decolle la graisse de la hotte et du four, nettoie les joints de carrelage, la climatisation et les sieges de voiture, sans aucun produit chimique. Note 4.6 sur plus de 2 300 avis, 10 000 ventes.",
+    "features": [
+      "Vapeur haute temperature : degraisse sans produits",
+      "Embouts multiples : cuisine, joints, voiture",
+      "Portable, prise en main a une seule main"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009786156624.html",
+      "supplierSku": "AE-ITEM-1005009786156624",
+      "supplierPriceCents": 3620,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 5890,
+      "marginCents": 2270,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009786156624.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 63,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 36.20 EUR, boutique 58.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T04:54:29.759Z"
+    },
+    "price": 5890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009786156624.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009786156624 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Nettoyeur vapeur portable haute température | Maxi Trouvaille",
+      "description": "Nettoyeur vapeur portable haute temperature : degraisse hotte, four, joints et sieges de voiture sans produits chimiques.",
+      "h1": "Nettoyeur vapeur portable haute température",
+      "h2": "Pourquoi choisir Nettoyeur vapeur portable haute température",
+      "keywords": [
+        "nettoyeur",
+        "vapeur",
+        "portable",
+        "haute",
+        "temperature",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Nettoyeur vapeur portable haute température - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Nettoyeur vapeur portable haute température - maison Maxi Trouvaille",
+    "compareAtPrice": 7990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_tondeuse_cheveux_kemei_km_2299_pro_001",
+    "slug": "tondeuse-cheveux-kemei-km-2299-pro",
+    "name": "Tondeuse à cheveux professionnelle Kemei KM-2299",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/tondeuse-cheveux-kemei-km-2299-pro-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/tondeuse-cheveux-kemei-km-2299-pro-photo-1.webp",
+      "/uploads/quick-products/tondeuse-cheveux-kemei-km-2299-pro-photo-2.webp",
+      "/uploads/quick-products/tondeuse-cheveux-kemei-km-2299-pro-photo-3.webp",
+      "/uploads/quick-products/tondeuse-cheveux-kemei-km-2299-pro-photo-4.webp",
+      "/uploads/quick-products/tondeuse-cheveux-kemei-km-2299-pro-photo-5.webp",
+      "/uploads/quick-products/tondeuse-cheveux-kemei-km-2299-pro-photo-6.webp"
+    ],
+    "shortDescription": "Tondeuse professionnelle Kemei KM-2299, batterie 1200 mAh et recharge USB : coupes nettes a la maison, marque reconnue des coiffeurs.",
+    "description": "Tondeuse a cheveux professionnelle Kemei KM-2299 : moteur puissant, lames en acier affutees, batterie 1200 mAh rechargeable en USB pour une longue autonomie et sabots de plusieurs hauteurs. Kemei est une marque de reference chez les coiffeurs et barbiers. Note 4.7 sur plus de 3 400 avis.",
+    "features": [
+      "Marque Kemei, reference des barbiers",
+      "Batterie 1200 mAh, recharge USB",
+      "Lames acier affutees, sabots multiples"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006187201138.html",
+      "supplierSku": "AE-ITEM-1005006187201138",
+      "supplierPriceCents": 1639,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3690,
+      "marginCents": 2051,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006187201138.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 125,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 16.39 EUR, boutique 36.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T04:54:30.188Z"
+    },
+    "price": 3690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006187201138.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006187201138 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Tondeuse à cheveux professionnelle Kemei KM-2299 | Maxi Trouvaille",
+      "description": "Tondeuse professionnelle Kemei KM-2299, batterie 1200 mAh et recharge USB : coupes nettes a la maison, marque reconnue des coiffeurs.",
+      "h1": "Tondeuse à cheveux professionnelle Kemei KM-2299",
+      "h2": "Pourquoi choisir Tondeuse à cheveux professionnelle Kemei KM-2299",
+      "keywords": [
+        "tondeuse",
+        "cheveux",
+        "kemei",
+        "2299",
+        "pro",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Tondeuse à cheveux professionnelle Kemei KM-2299 - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Tondeuse à cheveux professionnelle Kemei KM-2299 - beaute Maxi Trouvaille",
+    "compareAtPrice": 4990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
