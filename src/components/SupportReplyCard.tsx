@@ -61,6 +61,7 @@ export function SupportReplyCard(props: SupportReplyCardProps) {
 
       const data = (await response.json()) as {
         error?: string;
+        emailSent?: boolean;
         message?: { supportStatus?: string; supportSentAt?: string };
       };
 
@@ -70,11 +71,22 @@ export function SupportReplyCard(props: SupportReplyCardProps) {
 
       setStatus(data.message?.supportStatus);
       setSentAt(data.message?.supportSentAt);
-      setFeedback(
-        nextStatus === "envoye"
-          ? "Marque comme envoye."
-          : "Brouillon enregistre.",
-      );
+
+      if (nextStatus === "envoye") {
+        // Le serveur n'a pas pu envoyer (pas de service d'email configure) :
+        // on ouvre le logiciel de messagerie, comme avant.
+        if (!data.emailSent) {
+          openMailClient();
+        }
+
+        setFeedback(
+          data.emailSent
+            ? "Reponse envoyee au client par email."
+            : "Marque comme envoye. Ton logiciel de messagerie s'ouvre pour envoyer la reponse.",
+        );
+      } else {
+        setFeedback("Brouillon enregistre.");
+      }
     } catch (error) {
       setFeedback(
         error instanceof Error ? error.message : "Enregistrement impossible.",
@@ -93,7 +105,8 @@ export function SupportReplyCard(props: SupportReplyCardProps) {
   }
 
   async function sendReply() {
-    openMailClient();
+    // patchMessage ouvre lui-meme le logiciel de messagerie si le serveur
+    // n'a pas envoye l'email : jamais deux fois la meme reponse au client.
     await patchMessage("envoye");
   }
 
@@ -155,7 +168,7 @@ export function SupportReplyCard(props: SupportReplyCardProps) {
           ) : (
             <Mail size={16} aria-hidden="true" />
           )}
-          Ouvrir l&apos;email et marquer envoye
+          Envoyer la reponse au client
         </button>
 
         <button

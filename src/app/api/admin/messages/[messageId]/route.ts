@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { isAdminModeEnabled } from "@/lib/admin";
 import { adminApiUnavailable } from "@/lib/admin-api";
+import { sendCustomerReplyEmail } from "@/lib/order-emails";
 import { updateProductMessageSupport } from "@/lib/product-messages";
 
 export const runtime = "nodejs";
@@ -50,5 +51,31 @@ export async function PATCH(request: Request, context: RouteContext) {
     return NextResponse.json({ error: "Message introuvable." }, { status: 404 });
   }
 
-  return NextResponse.json({ message });
+  // Envoi reel de la reponse au client, UNIQUEMENT si le service d'envoi est
+  // configure (RESEND_API_KEY). Sans cle, sendCustomerReplyEmail renvoie
+  // { sent: false } sans rien contacter : l'admin retombe alors sur
+  // l'ouverture du logiciel de messagerie, exactement comme avant.
+  // Isole dans un try/catch : un email en echec n'annule jamais la mise a jour.
+  let emailSent = false;
+  let emailReason = "non_demande";
+
+  if (supportStatus === "envoye") {
+    try {
+      const dispatch = await sendCustomerReplyEmail({
+        to: message.customerEmail,
+        customerName: message.customerName,
+        productName: message.productName,
+        productUrl: message.productUrl,
+        originalMessage: message.message,
+        replyText: supportDraft ?? message.supportDraft ?? "",
+      });
+      emailSent = dispatch.sent;
+      emailReason = dispatch.reason;
+    } catch {
+      emailSent = false;
+      emailReason = "erreur_interne";
+    }
+  }
+
+  return NextResponse.json({ message, emailSent, emailReason });
 }
