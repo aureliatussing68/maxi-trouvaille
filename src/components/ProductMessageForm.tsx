@@ -49,14 +49,23 @@ export function ProductMessageForm({ product }: ProductMessageFormProps) {
           productUrl,
         }),
       });
-      const data = (await response.json()) as { error?: string };
+      const data = (await response.json()) as {
+        error?: string;
+        autoReply?: string;
+      };
 
       if (!response.ok) {
         throw new Error(data.error ?? "Message impossible a envoyer.");
       }
 
       setStatus("sent");
-      setFeedback("Message enregistre. Vous pouvez le consulter dans l'admin.");
+      // autoReply n'existe que si la reponse automatique est activee ET
+      // autorisee pour ce message. Sinon, comportement inchange.
+      setFeedback(
+        typeof data.autoReply === "string" && data.autoReply.trim()
+          ? data.autoReply.trim()
+          : "Message enregistre. Vous pouvez le consulter dans l'admin.",
+      );
       setCustomerName("");
       setCustomerEmail("");
       setMessage(defaultMessage);
@@ -120,7 +129,7 @@ export function ProductMessageForm({ product }: ProductMessageFormProps) {
 
           {feedback ? (
             <div
-              className={`rounded-md p-3 text-sm font-bold ${
+              className={`whitespace-pre-line rounded-md p-3 text-sm font-bold ${
                 status === "error"
                   ? "bg-[#fff1f2] text-rose"
                   : "bg-[#eef8f6] text-teal"

@@ -2,9 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { MessageCircle } from "lucide-react";
 import { PageHeader } from "@/components/PageHeader";
+import { SupportReplyCard } from "@/components/SupportReplyCard";
 import { isAdminModeEnabled } from "@/lib/admin";
 import { formatPrice } from "@/lib/format";
 import { readProductMessages } from "@/lib/product-messages";
+import { getSupportReplyMode, isSupportAiEnabled } from "@/lib/support-ai";
 
 export const dynamic = "force-dynamic";
 
@@ -28,6 +30,8 @@ export default async function AdminMessagesPage() {
   }
 
   const messages = await readProductMessages();
+  const assistantOn = isSupportAiEnabled();
+  const replyMode = getSupportReplyMode();
 
   return (
     <>
@@ -36,6 +40,29 @@ export default async function AdminMessagesPage() {
         title="Messages produits"
         description="Messages envoyés depuis les fiches produits. Interface simple pour répondre ensuite par email."
       />
+      <section className="container-page pt-6">
+        <div className="rounded-lg border border-line bg-paper p-4 text-sm font-bold leading-6">
+          {assistantOn ? (
+            <>
+              Assistant service client : <span className="text-teal">actif</span>{" "}
+              — mode{" "}
+              {replyMode === "auto" ? (
+                <span className="text-rose">envoi automatique</span>
+              ) : (
+                <span className="text-teal">brouillon (rien ne part sans toi)</span>
+              )}
+              .
+            </>
+          ) : (
+            <>
+              Assistant service client :{" "}
+              <span className="text-muted">éteint</span>. Pour l&apos;allumer,
+              ajoute MAXI_SUPPORT_AI_ENABLED=true dans les variables
+              d&apos;environnement.
+            </>
+          )}
+        </div>
+      </section>
       <section className="container-page py-8">
         {messages.length > 0 ? (
           <div className="grid gap-4">
@@ -79,6 +106,19 @@ export default async function AdminMessagesPage() {
                 <p className="mt-4 whitespace-pre-line text-sm leading-6 text-muted">
                   {message.message}
                 </p>
+
+                <SupportReplyCard
+                  messageId={message.id}
+                  customerEmail={message.customerEmail}
+                  productName={message.productName}
+                  supportCategory={message.supportCategory}
+                  supportStatus={message.supportStatus}
+                  supportDraft={message.supportDraft}
+                  supportDraftSource={message.supportDraftSource}
+                  supportDraftModel={message.supportDraftModel}
+                  supportReason={message.supportReason}
+                  supportSentAt={message.supportSentAt}
+                />
               </article>
             ))}
           </div>

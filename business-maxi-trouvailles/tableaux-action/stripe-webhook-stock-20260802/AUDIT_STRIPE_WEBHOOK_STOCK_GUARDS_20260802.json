@@ -1,0 +1,109 @@
+{
+  "ok": true,
+  "checkedAt": "2026-08-02T12:43:19.896Z",
+  "mode": "read_only_stripe_webhook_stock_guard_audit",
+  "checkCount": 17,
+  "failureCount": 0,
+  "checks": [
+    {
+      "name": "webhook_node_runtime",
+      "ok": true,
+      "detail": "Le webhook Stripe reste en runtime Node pour la verification de signature."
+    },
+    {
+      "name": "webhook_force_dynamic",
+      "ok": true,
+      "detail": "Le webhook n'est jamais prerendu ni cache."
+    },
+    {
+      "name": "stripe_signature_required",
+      "ok": true,
+      "detail": "La signature Stripe est obligatoire avant traitement."
+    },
+    {
+      "name": "stripe_construct_event",
+      "ok": true,
+      "detail": "Le body brut est verifie avec le secret webhook."
+    },
+    {
+      "name": "checkout_completed_only",
+      "ok": true,
+      "detail": "Le traitement commande part uniquement d'un checkout.session.completed signe."
+    },
+    {
+      "name": "dropshipping_metadata_required",
+      "ok": true,
+      "detail": "Le decrement stock ne concerne que les sessions marquees dropshipping."
+    },
+    {
+      "name": "server_marks_paid",
+      "ok": true,
+      "detail": "Le webhook appelle le helper serveur de commande dropshipping."
+    },
+    {
+      "name": "webhook_returns_retryable_error",
+      "ok": true,
+      "detail": "Un echec de stock renvoie une erreur serveur pour permettre une reprise."
+    },
+    {
+      "name": "success_page_no_admin_decrement",
+      "ok": true,
+      "detail": "La page succes paiement ne decremente jamais le stock via une route admin."
+    },
+    {
+      "name": "stock_status_type_exists",
+      "ok": true,
+      "detail": "Les etats stock webhook sont traces dans le type commande."
+    },
+    {
+      "name": "draft_starts_pending_payment",
+      "ok": true,
+      "detail": "Une commande creee avant paiement part en attente de paiement."
+    },
+    {
+      "name": "server_uses_local_stock_decrement",
+      "ok": true,
+      "detail": "Le stock est ajuste cote serveur local, sans appel client."
+    },
+    {
+      "name": "idempotence_guard_before_decrement",
+      "ok": true,
+      "detail": "Les statuts done/skipped ou stockDecrementedAt sont controles avant decrement."
+    },
+    {
+      "name": "legacy_paid_orders_are_skipped",
+      "ok": true,
+      "detail": "Les anciennes commandes deja payees sans trace stock ne sont pas redecrementees."
+    },
+    {
+      "name": "done_status_after_success",
+      "ok": true,
+      "detail": "Un succes de webhook trace la source, la date et le statut done."
+    },
+    {
+      "name": "failed_status_and_retry",
+      "ok": true,
+      "detail": "Un echec stock est trace en failed et reste retryable."
+    },
+    {
+      "name": "no_supplier_or_payment_side_effect",
+      "ok": true,
+      "detail": "Le helper paye/stock ne commande pas chez un fournisseur et ne contacte aucun service externe."
+    }
+  ],
+  "failures": [],
+  "filesInspected": [
+    "src/app/api/stripe/webhook/route.ts",
+    "src/lib/dropshipping-server.ts",
+    "src/lib/dropshipping-shared.ts",
+    "src/components/OrderSuccess.tsx"
+  ],
+  "safety": {
+    "readOnlyAudit": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noAdminClientDecrement": true,
+    "noExternalApiCall": true,
+    "noSecretsCopied": true
+  }
+}

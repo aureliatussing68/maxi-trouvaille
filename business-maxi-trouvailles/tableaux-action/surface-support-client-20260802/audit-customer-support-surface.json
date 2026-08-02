@@ -1,0 +1,73 @@
+{
+  "checkedAt": "2026-08-02T12:43:27.647Z",
+  "ok": false,
+  "componentPath": "src/components/CustomerSupportQuickLinks.tsx",
+  "checkedRouteCount": 6,
+  "requiredLinkCount": 6,
+  "findingCount": 11,
+  "findings": [
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "line": 1,
+      "rule": "missing_maxi_trouvaille"
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "line": 1,
+      "rule": "missing_logistics_partner_wording"
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "line": 1,
+      "rule": "missing_partner_products_wording"
+    },
+    {
+      "file": "src/components/CustomerSupportQuickLinks.tsx",
+      "line": 31,
+      "rule": "payment_provider_brand"
+    },
+    {
+      "file": "src/app/contact/page.tsx",
+      "line": 1,
+      "rule": "support_quick_links_not_mounted"
+    },
+    {
+      "file": "src/app/contact/page.tsx",
+      "line": 42,
+      "rule": "payment_provider_brand"
+    },
+    {
+      "file": "src/app/contact/page.tsx",
+      "line": 95,
+      "rule": "real_message_link"
+    },
+    {
+      "file": "src/app/faq/page.tsx",
+      "line": 14,
+      "rule": "payment_provider_brand"
+    },
+    {
+      "file": "src/app/retours-remboursements/page.tsx",
+      "line": 35,
+      "rule": "real_message_link"
+    },
+    {
+      "file": "src/app/paiement/page.tsx",
+      "line": 11,
+      "rule": "payment_provider_brand"
+    },
+    {
+      "file": "src/app/paiement/page.tsx",
+      "line": 37,
+      "rule": "payment_provider_brand"
+    }
+  ],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPublication": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true
+  }
+}

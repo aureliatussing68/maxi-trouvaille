@@ -24295,5 +24295,200 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260802_support_telephone_velo_moto_joyroom_360_001",
+    "slug": "support-telephone-velo-moto-joyroom-360",
+    "name": "Support téléphone vélo et moto Joyroom 360°",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/support-telephone-velo-moto-joyroom-360-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/support-telephone-velo-moto-joyroom-360-photo-1.webp",
+      "/uploads/quick-products/support-telephone-velo-moto-joyroom-360-photo-2.webp",
+      "/uploads/quick-products/support-telephone-velo-moto-joyroom-360-photo-3.webp",
+      "/uploads/quick-products/support-telephone-velo-moto-joyroom-360-photo-4.webp",
+      "/uploads/quick-products/support-telephone-velo-moto-joyroom-360-photo-5.webp",
+      "/uploads/quick-products/support-telephone-velo-moto-joyroom-360-photo-6.webp"
+    ],
+    "shortDescription": "Support de telephone Joyroom pour velo et moto : rotation 360 degres, maintien anti-choc et compatible ecrans de 4,7 a 7 pouces.",
+    "description": "Support de telephone universel Joyroom pour guidon de velo, VTT, trottinette ou moto : rotation sur 360 degres pour choisir l orientation, machoires anti-choc qui encaissent les vibrations et les pavés, compatible avec les ecrans de 4,7 a 7 pouces. Le GPS reste lisible sans lacher le guidon. Joyroom est une marque etablie de l accessoire mobile, note 4.9 sur plus de 1 700 avis.",
+    "features": [
+      "Rotation 360 degres, orientation libre",
+      "Maintien anti-choc, resiste aux vibrations",
+      "Compatible ecrans 4,7 a 7 pouces"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006860953710.html",
+      "supplierSku": "AE-ITEM-1005006860953710",
+      "supplierPriceCents": 1129,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2490,
+      "marginCents": 1361,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006860953710.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 121,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 11.29 EUR, boutique 24.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T12:50:05.287Z"
+    },
+    "price": 2490,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006860953710.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006860953710 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Support téléphone vélo et moto Joyroom 360° | Maxi Trouvaille",
+      "description": "Support de telephone Joyroom pour velo et moto : rotation 360 degres, maintien anti-choc et compatible ecrans de 4,7 a 7 pouces.",
+      "h1": "Support téléphone vélo et moto Joyroom 360°",
+      "h2": "Pourquoi choisir Support téléphone vélo et moto Joyroom 360°",
+      "keywords": [
+        "support",
+        "telephone",
+        "velo",
+        "moto",
+        "joyroom",
+        "360",
+        "dropshipping-auto-moto"
+      ],
+      "imageAlt": "Support téléphone vélo et moto Joyroom 360° - auto-moto Maxi Trouvaille"
+    },
+    "imageAlt": "Support téléphone vélo et moto Joyroom 360° - auto-moto Maxi Trouvaille",
+    "compareAtPrice": 3390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_portefeuille_femme_long_zippe_cuir_pu_001",
+    "slug": "portefeuille-femme-long-zippe-cuir-pu",
+    "name": "Portefeuille femme long zippé en cuir PU",
+    "categoryId": "dropshipping-mode",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/portefeuille-femme-long-zippe-cuir-pu-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/portefeuille-femme-long-zippe-cuir-pu-photo-1.webp",
+      "/uploads/quick-products/portefeuille-femme-long-zippe-cuir-pu-photo-2.webp",
+      "/uploads/quick-products/portefeuille-femme-long-zippe-cuir-pu-photo-3.webp",
+      "/uploads/quick-products/portefeuille-femme-long-zippe-cuir-pu-photo-4.webp",
+      "/uploads/quick-products/portefeuille-femme-long-zippe-cuir-pu-photo-5.webp",
+      "/uploads/quick-products/portefeuille-femme-long-zippe-cuir-pu-photo-6.webp"
+    ],
+    "shortDescription": "Portefeuille long zippe en cuir PU : nombreux emplacements cartes, compartiments billets et poche monnaie, tout reste range.",
+    "description": "Portefeuille long pour femme en cuir PU avec fermeture eclair : plusieurs rangees d emplacements pour les cartes, deux compartiments billets, une poche zippee pour la monnaie et un espace telephone. Tout tient en place et rien ne tombe, meme sac renverse. Note 4.6 sur pres de 1 900 avis, 10 000 ventes.",
+    "features": [
+      "Fermeture eclair : rien ne tombe",
+      "Nombreux emplacements cartes et billets",
+      "Cuir PU souple, coloris varies"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005004799595981.html",
+      "supplierSku": "AE-ITEM-1005004799595981",
+      "supplierPriceCents": 389,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1090,
+      "marginCents": 701,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005004799595981.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 180,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 3.89 EUR, boutique 10.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T12:50:06.063Z"
+    },
+    "price": 1090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005004799595981.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005004799595981 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Portefeuille femme long zippé en cuir PU | Maxi Trouvaille",
+      "description": "Portefeuille long zippe en cuir PU : nombreux emplacements cartes, compartiments billets et poche monnaie, tout reste range.",
+      "h1": "Portefeuille femme long zippé en cuir PU",
+      "h2": "Pourquoi choisir Portefeuille femme long zippé en cuir PU",
+      "keywords": [
+        "portefeuille",
+        "femme",
+        "long",
+        "zippe",
+        "cuir",
+        "dropshipping-mode"
+      ],
+      "imageAlt": "Portefeuille femme long zippé en cuir PU - mode Maxi Trouvaille"
+    },
+    "imageAlt": "Portefeuille femme long zippé en cuir PU - mode Maxi Trouvaille",
+    "compareAtPrice": 1490,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]

@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-02T04:54:31.954Z",
+  "checkedAt": "2026-08-02T12:50:06.592Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 240,
-  "publishedPartnerCount": 181,
+  "partnerProductCount": 242,
+  "publishedPartnerCount": 183,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -4329,26 +4329,62 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260802_support_telephone_velo_moto_joyroom_360_001",
+      "slug": "support-telephone-velo-moto-joyroom-360",
+      "name": "Support téléphone vélo et moto Joyroom 360°",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-auto-moto",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260802_portefeuille_femme_long_zippe_cuir_pu_001",
+      "slug": "portefeuille-femme-long-zippe-cuir-pu",
+      "name": "Portefeuille femme long zippé en cuir PU",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-mode",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 236
+    "data/quick-products.json": 238
   },
   "byStatus": {
     "draft": 59,
-    "published": 181
+    "published": 183
   },
   "byCategory": {
     "dropshipping-high-tech": 27,
     "dropshipping-accessoires": 28,
     "dropshipping-maison": 31,
-    "dropshipping-auto-moto": 18,
+    "dropshipping-auto-moto": 19,
     "dropshipping-cuisine": 28,
     "dropshipping-enfant": 20,
     "dropshipping-beaute": 20,
     "dropshipping-animaux": 23,
-    "dropshipping-mode": 18,
+    "dropshipping-mode": 19,
     "dropshipping-outillage": 16,
     "dropshipping-gaming": 11
   },

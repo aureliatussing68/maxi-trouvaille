@@ -1,5 +1,9 @@
 import { NextResponse } from "next/server";
-import { createProductMessage } from "@/lib/product-messages";
+import {
+  createProductMessage,
+  updateProductMessageSupport,
+} from "@/lib/product-messages";
+import { triageProductMessage } from "@/lib/support-ai";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -53,5 +57,41 @@ export async function POST(request: Request) {
     productUrl,
   });
 
-  return NextResponse.json({ message: savedMessage });
+  // Le message est deja enregistre a ce stade. Le classement et le brouillon
+  // sont un bonus : ils sont isoles dans leur propre try/catch, ne changent
+  // jamais le code HTTP, et n'empechent jamais le client de voir un succes.
+  let autoReply: string | null = null;
+
+  try {
+    const triage = await triageProductMessage({
+      customerName,
+      message,
+      productName,
+    });
+
+    if (triage) {
+      const now = new Date().toISOString();
+      await updateProductMessageSupport(savedMessage.id, {
+        supportCategory: triage.category,
+        supportStatus: triage.status,
+        supportDraft: triage.draft,
+        supportDraftSource: triage.source,
+        supportDraftModel: triage.model,
+        supportReason: triage.reason,
+        supportDraftAt: now,
+        supportSentAt: triage.autoSend ? now : undefined,
+      });
+
+      if (triage.autoSend) {
+        autoReply = triage.draft;
+      }
+    }
+  } catch {
+    // Silencieux : un incident cote assistant ne doit rien changer pour le client.
+  }
+
+  // Sans reponse automatique, la reponse JSON est exactement celle d'avant.
+  return NextResponse.json(
+    autoReply ? { message: savedMessage, autoReply } : { message: savedMessage },
+  );
 }

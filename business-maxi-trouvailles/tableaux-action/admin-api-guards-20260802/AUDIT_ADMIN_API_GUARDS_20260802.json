@@ -1,0 +1,211 @@
+{
+  "ok": true,
+  "checkedAt": "2026-08-02T12:43:18.914Z",
+  "mode": "read_only_admin_api_guard_audit",
+  "routeCount": 11,
+  "methodCount": 15,
+  "failureCount": 0,
+  "routes": [
+    {
+      "path": "src/app/api/admin/dropshipping/import/route.ts",
+      "routeOk": true,
+      "importsAdminMode": true,
+      "importsAdminApiUnavailable": true,
+      "methods": [
+        {
+          "method": "POST",
+          "hasMaskedAdminGuard": true,
+          "guardBeforeSensitiveWork": true,
+          "guardIndex": 3,
+          "firstSensitiveIndex": 127
+        }
+      ]
+    },
+    {
+      "path": "src/app/api/admin/dropshipping/orders/[orderId]/route.ts",
+      "routeOk": true,
+      "importsAdminMode": true,
+      "importsAdminApiUnavailable": true,
+      "methods": [
+        {
+          "method": "PATCH",
+          "hasMaskedAdminGuard": true,
+          "guardBeforeSensitiveWork": true,
+          "guardIndex": 3,
+          "firstSensitiveIndex": 140
+        }
+      ]
+    },
+    {
+      "path": "src/app/api/admin/dropshipping/orders/route.ts",
+      "routeOk": true,
+      "importsAdminMode": true,
+      "importsAdminApiUnavailable": true,
+      "methods": [
+        {
+          "method": "GET",
+          "hasMaskedAdminGuard": true,
+          "guardBeforeSensitiveWork": true,
+          "guardIndex": 3,
+          "firstSensitiveIndex": 114
+        }
+      ]
+    },
+    {
+      "path": "src/app/api/admin/dropshipping/sync/route.ts",
+      "routeOk": true,
+      "importsAdminMode": true,
+      "importsAdminApiUnavailable": true,
+      "methods": [
+        {
+          "method": "GET",
+          "hasMaskedAdminGuard": true,
+          "guardBeforeSensitiveWork": true,
+          "guardIndex": 3,
+          "firstSensitiveIndex": 96
+        },
+        {
+          "method": "POST",
+          "hasMaskedAdminGuard": true,
+          "guardBeforeSensitiveWork": true,
+          "guardIndex": 3,
+          "firstSensitiveIndex": -1
+        }
+      ]
+    },
+    {
+      "path": "src/app/api/admin/messages/[messageId]/route.ts",
+      "routeOk": true,
+      "importsAdminMode": true,
+      "importsAdminApiUnavailable": true,
+      "methods": [
+        {
+          "method": "PATCH",
+          "hasMaskedAdminGuard": true,
+          "guardBeforeSensitiveWork": true,
+          "guardIndex": 3,
+          "firstSensitiveIndex": 142
+        }
+      ]
+    },
+    {
+      "path": "src/app/api/admin/products/[slug]/image/route.ts",
+      "routeOk": true,
+      "importsAdminMode": true,
+      "importsAdminApiUnavailable": true,
+      "methods": [
+        {
+          "method": "PATCH",
+          "hasMaskedAdminGuard": true,
+          "guardBeforeSensitiveWork": true,
+          "guardIndex": 3,
+          "firstSensitiveIndex": 96
+        }
+      ]
+    },
+    {
+      "path": "src/app/api/admin/products/[slug]/route.ts",
+      "routeOk": true,
+      "importsAdminMode": true,
+      "importsAdminApiUnavailable": true,
+      "methods": [
+        {
+          "method": "GET",
+          "hasMaskedAdminGuard": true,
+          "guardBeforeSensitiveWork": true,
+          "guardIndex": 3,
+          "firstSensitiveIndex": 137
+        },
+        {
+          "method": "PATCH",
+          "hasMaskedAdminGuard": true,
+          "guardBeforeSensitiveWork": true,
+          "guardIndex": 3,
+          "firstSensitiveIndex": 142
+        }
+      ]
+    },
+    {
+      "path": "src/app/api/admin/products/decrement/route.ts",
+      "routeOk": true,
+      "importsAdminMode": true,
+      "importsAdminApiUnavailable": true,
+      "methods": [
+        {
+          "method": "POST",
+          "hasMaskedAdminGuard": true,
+          "guardBeforeSensitiveWork": true,
+          "guardIndex": 3,
+          "firstSensitiveIndex": 96
+        }
+      ]
+    },
+    {
+      "path": "src/app/api/admin/products/photo-analysis/route.ts",
+      "routeOk": true,
+      "importsAdminMode": true,
+      "importsAdminApiUnavailable": true,
+      "methods": [
+        {
+          "method": "POST",
+          "hasMaskedAdminGuard": true,
+          "guardBeforeSensitiveWork": true,
+          "guardIndex": 3,
+          "firstSensitiveIndex": 96
+        }
+      ]
+    },
+    {
+      "path": "src/app/api/admin/products/route.ts",
+      "routeOk": true,
+      "importsAdminMode": true,
+      "importsAdminApiUnavailable": true,
+      "methods": [
+        {
+          "method": "GET",
+          "hasMaskedAdminGuard": true,
+          "guardBeforeSensitiveWork": true,
+          "guardIndex": 3,
+          "firstSensitiveIndex": 116
+        },
+        {
+          "method": "POST",
+          "hasMaskedAdminGuard": true,
+          "guardBeforeSensitiveWork": true,
+          "guardIndex": 3,
+          "firstSensitiveIndex": 183
+        }
+      ]
+    },
+    {
+      "path": "src/app/api/admin/reviews/[reviewId]/route.ts",
+      "routeOk": true,
+      "importsAdminMode": true,
+      "importsAdminApiUnavailable": true,
+      "methods": [
+        {
+          "method": "PATCH",
+          "hasMaskedAdminGuard": true,
+          "guardBeforeSensitiveWork": true,
+          "guardIndex": 3,
+          "firstSensitiveIndex": 202
+        },
+        {
+          "method": "DELETE",
+          "hasMaskedAdminGuard": true,
+          "guardBeforeSensitiveWork": true,
+          "guardIndex": 3,
+          "firstSensitiveIndex": 132
+        }
+      ]
+    }
+  ],
+  "failures": [],
+  "safety": {
+    "readOnlyAudit": true,
+    "noCatalogWrite": true,
+    "noPayment": true,
+    "noSupplierOrder": true,
+    "noMessageSent": true
+  }
+}
