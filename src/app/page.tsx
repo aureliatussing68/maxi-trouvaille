@@ -11,10 +11,29 @@ import { CategoryGrid } from "@/components/CategoryGrid";
 import { CustomerSupportQuickLinks } from "@/components/CustomerSupportQuickLinks";
 import { HeroCarousel } from "@/components/HeroCarousel";
 import { ProductCard } from "@/components/ProductCard";
-import { isProductPurchasable, isPromotionProduct } from "@/lib/catalog";
+import { ProductShelf, type ProductShelfItem } from "@/components/ProductShelf";
+import {
+  isProductPurchasable,
+  isPromotionProduct,
+  type Product,
+} from "@/lib/catalog";
 import { getPublicProducts } from "@/lib/catalog-server";
-import { getApprovedReviewSummaryMap } from "@/lib/product-reviews";
-import { getProductStatsMap } from "@/lib/product-stats";
+import {
+  buildHomeShowcasePool,
+  getParisDayIndex,
+  selectHomeShowcase,
+} from "@/lib/home-rotation";
+import {
+  getApprovedReviewSummaryMap,
+  type ProductReviewSummary,
+} from "@/lib/product-reviews";
+import { getProductStatsMap, type ProductStats } from "@/lib/product-stats";
+
+// La vitrine change une fois par jour (heure de Paris). Sans revalidation, la
+// page d'accueil resterait gelee au dernier deploiement et la rotation ne se
+// verrait jamais. Effet de bord utile : les nouveaux produits apparaissent sur
+// l'accueil dans l'heure, sans redeploiement.
+export const revalidate = 3600;
 
 const quickSignals = [
   {
@@ -65,31 +84,87 @@ const customerSignals = [
   },
 ];
 
+// Une panne de base de donnees ne doit jamais casser la page d'accueil : la
+// carte produit masque deja d'elle-meme les avis et compteurs absents.
+async function loadReviewSummaries(productIds: string[]) {
+  if (productIds.length === 0) {
+    return new Map<string, ProductReviewSummary>();
+  }
+
+  try {
+    return await getApprovedReviewSummaryMap(productIds);
+  } catch {
+    return new Map<string, ProductReviewSummary>();
+  }
+}
+
+async function loadProductStats(productIds: string[]) {
+  if (productIds.length === 0) {
+    return new Map<string, ProductStats>();
+  }
+
+  try {
+    return await getProductStatsMap(productIds);
+  } catch {
+    return new Map<string, ProductStats>();
+  }
+}
+
 export default async function Home() {
   const publicProducts = await getPublicProducts();
   const purchasable = publicProducts.filter(isProductPurchasable);
-  const products = purchasable.slice(0, 8);
   const promoCount = purchasable.filter(isPromotionProduct).length;
-  const productIds = products.map((product) => product.id);
-  const [statsMap, reviewSummaryMap] = await Promise.all([
-    getProductStatsMap(productIds),
-    getApprovedReviewSummaryMap(productIds),
-  ]);
+
+  const showcasePool = buildHomeShowcasePool(purchasable);
+  const reviewSummaryMap = await loadReviewSummaries(
+    showcasePool.map((product) => product.id),
+  );
+  // Seul signal client authentique du site : un avis reellement approuve.
+  // Ce groupe est vide aujourd'hui, la rotation est donc parfaitement equitable.
+  const reviewedProductIds = new Set(
+    [...reviewSummaryMap.entries()]
+      .filter(([, summary]) => summary.totalReviews > 0)
+      .map(([productId]) => productId),
+  );
+
+  const showcase = selectHomeShowcase({
+    pool: showcasePool,
+    dayIndex: getParisDayIndex(),
+    featuredIds: reviewedProductIds,
+  });
+
+  const statsMap = await loadProductStats(
+    [...showcase.shelf, ...showcase.grid].map((product) => product.id),
+  );
+
+  // La vitrine ne recoit pas les compteurs de vues : a la premiere visite ils
+  // afficheraient "1 vue" sur chaque carte.
+  const toShelfItem = (product: Product): ProductShelfItem => ({
+    product,
+    reviewSummary: reviewSummaryMap.get(product.id),
+  });
+
+  const products = showcase.grid;
 
   return (
     <>
-      <section className="relative min-h-[78svh] overflow-hidden bg-[#171717] text-white sm:min-h-[calc(86svh-4rem)]">
+      {/* Hero volontairement court : le haut du carrousel de produits doit
+          apparaitre sans avoir a faire defiler la page. */}
+      <section className="relative min-h-[44svh] overflow-hidden bg-[#171717] text-white sm:min-h-[calc(60svh-4rem)]">
         <HeroCarousel />
-        <div className="container-page relative flex min-h-[78svh] items-center py-12 sm:min-h-[calc(86svh-4rem)] sm:py-14">
+        {/* pb-16 sur mobile : reserve la bande du bas au libelle du diaporama. */}
+        <div className="container-page relative flex min-h-[44svh] items-center py-8 pb-16 sm:min-h-[calc(60svh-4rem)] sm:py-12">
           <div className="max-w-2xl">
-            <h1 className="text-balance text-5xl font-black leading-[0.98] sm:text-7xl">
+            <h1 className="text-balance text-4xl font-black leading-[0.98] sm:text-7xl">
               Maxi Trouvaille
             </h1>
-            <p className="mt-5 max-w-xl text-xl font-black leading-8 text-white/92 sm:text-2xl">
+            <p className="mt-4 max-w-xl text-base font-black leading-6 text-white/92 sm:mt-5 sm:text-2xl sm:leading-8">
               Les trouvailles malignes du moment, à petits prix : maison,
               cuisine, high-tech, auto, animaux et plus encore.
             </p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            {/* Boutons sur une ligne qui se replie : trois boutons empiles
+                repoussaient le carrousel sous la ligne de flottaison mobile. */}
+            <div className="mt-6 flex flex-wrap gap-3 sm:mt-8">
               <Link
                 href="/boutique"
                 className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-brand px-5 py-3 text-sm font-black text-foreground hover:bg-[#ffd166]"
@@ -113,6 +188,44 @@ export default async function Home() {
           </div>
         </div>
       </section>
+
+      {/* Le carrousel passe avant le bandeau de reassurance : c'est la premiere
+          chose que le client doit voir en arrivant. */}
+      {showcase.shelf.length > 0 ? (
+        <section
+          className="container-page py-6 sm:py-8"
+          aria-roledescription="carrousel"
+          aria-labelledby="trouvailles-du-jour-titre"
+        >
+          <ProductShelf
+            items={showcase.shelf.map(toShelfItem)}
+            label={`Les trouvailles du jour, ${showcase.shelf.length} produits`}
+            header={
+              <>
+                <p className="text-sm font-black uppercase text-teal">
+                  Chaque jour
+                </p>
+                <h2
+                  id="trouvailles-du-jour-titre"
+                  className="mt-2 text-2xl font-black"
+                >
+                  Les trouvailles du jour
+                </h2>
+                <p className="mt-2 text-sm leading-6 text-muted">
+                  Une nouvelle sélection de produits en stock, renouvelée chaque
+                  jour.{" "}
+                  <span className="lg:hidden">
+                    Faites glisser pour voir la suite.
+                  </span>
+                  <span className="hidden lg:inline">
+                    Utilisez les flèches pour voir la suite.
+                  </span>
+                </p>
+              </>
+            }
+          />
+        </section>
+      ) : null}
 
       <section className="bg-paper">
         <div className="container-page grid gap-3 py-5 md:grid-cols-3">
@@ -139,7 +252,7 @@ export default async function Home() {
         </div>
       </section>
 
-      <section className="container-page py-10">
+      <section className="container-page border-t border-line py-10">
         <div className="mb-6">
           <p className="text-sm font-black uppercase text-teal">Nos rayons</p>
           <h2 className="mt-2 text-2xl font-black">
