@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-02T12:50:06.592Z",
+  "checkedAt": "2026-08-02T12:53:30.093Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 242,
-  "publishedPartnerCount": 183,
+  "partnerProductCount": 244,
+  "publishedPartnerCount": 185,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -4365,24 +4365,60 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260802_coussin_massant_nuque_chauffant_001",
+      "slug": "coussin-massant-nuque-chauffant",
+      "name": "Coussin massant nuque chauffant",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-beaute",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260802_cafetiere_italienne_moka_aluminium_001",
+      "slug": "cafetiere-italienne-moka-aluminium",
+      "name": "Cafetière italienne Moka en aluminium",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-cuisine",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 238
+    "data/quick-products.json": 240
   },
   "byStatus": {
     "draft": 59,
-    "published": 183
+    "published": 185
   },
   "byCategory": {
     "dropshipping-high-tech": 27,
     "dropshipping-accessoires": 28,
     "dropshipping-maison": 31,
     "dropshipping-auto-moto": 19,
-    "dropshipping-cuisine": 28,
+    "dropshipping-cuisine": 29,
     "dropshipping-enfant": 20,
-    "dropshipping-beaute": 20,
+    "dropshipping-beaute": 21,
     "dropshipping-animaux": 23,
     "dropshipping-mode": 19,
     "dropshipping-outillage": 16,

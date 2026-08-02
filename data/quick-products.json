@@ -24490,5 +24490,197 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260802_coussin_massant_nuque_chauffant_001",
+    "slug": "coussin-massant-nuque-chauffant",
+    "name": "Coussin massant nuque chauffant",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/coussin-massant-nuque-chauffant-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/coussin-massant-nuque-chauffant-photo-1.webp",
+      "/uploads/quick-products/coussin-massant-nuque-chauffant-photo-2.webp",
+      "/uploads/quick-products/coussin-massant-nuque-chauffant-photo-3.webp",
+      "/uploads/quick-products/coussin-massant-nuque-chauffant-photo-4.webp",
+      "/uploads/quick-products/coussin-massant-nuque-chauffant-photo-5.webp",
+      "/uploads/quick-products/coussin-massant-nuque-chauffant-photo-6.webp"
+    ],
+    "shortDescription": "Coussin masseur de nuque avec chaleur et vibration : detend les cervicales apres une journee devant l ecran ou au volant. Note 4.9.",
+    "description": "Coussin masseur cervical avec chauffage et vibration : il epouse la nuque et travaille les tensions accumulees devant l ecran, au volant ou apres le sport. Fonction chaleur pour detendre les muscles, plusieurs intensites, usage a la maison comme au bureau. Note 4.9 sur plus de 600 avis, 5 000 ventes.",
+    "features": [
+      "Massage par vibration + fonction chauffante",
+      "Epouse la nuque, plusieurs intensites",
+      "Maison, bureau, voiture"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007344904537.html",
+      "supplierSku": "AE-ITEM-1005007344904537",
+      "supplierPriceCents": 2839,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 4590,
+      "marginCents": 1751,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007344904537.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 62,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 28.39 EUR, boutique 45.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T12:53:28.723Z"
+    },
+    "price": 4590,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007344904537.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007344904537 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Coussin massant nuque chauffant | Maxi Trouvaille",
+      "description": "Coussin masseur de nuque avec chaleur et vibration : detend les cervicales apres une journee devant l ecran ou au volant. Note 4.9.",
+      "h1": "Coussin massant nuque chauffant",
+      "h2": "Pourquoi choisir Coussin massant nuque chauffant",
+      "keywords": [
+        "coussin",
+        "massant",
+        "nuque",
+        "chauffant",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Coussin massant nuque chauffant - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Coussin massant nuque chauffant - beaute Maxi Trouvaille",
+    "compareAtPrice": 6290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_cafetiere_italienne_moka_aluminium_001",
+    "slug": "cafetiere-italienne-moka-aluminium",
+    "name": "Cafetière italienne Moka en aluminium",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/cafetiere-italienne-moka-aluminium-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/cafetiere-italienne-moka-aluminium-photo-1.webp",
+      "/uploads/quick-products/cafetiere-italienne-moka-aluminium-photo-2.webp",
+      "/uploads/quick-products/cafetiere-italienne-moka-aluminium-photo-3.webp",
+      "/uploads/quick-products/cafetiere-italienne-moka-aluminium-photo-4.webp",
+      "/uploads/quick-products/cafetiere-italienne-moka-aluminium-photo-5.webp",
+      "/uploads/quick-products/cafetiere-italienne-moka-aluminium-photo-6.webp"
+    ],
+    "shortDescription": "Cafetiere Moka classique en aluminium a poser sur le feu : un vrai cafe serre a l italienne, sans capsule ni electricite.",
+    "description": "Cafetiere italienne Moka en aluminium a poser sur la plaque ou le rechaud : de l eau, du cafe moulu, quelques minutes sur le feu et vous obtenez un cafe serre et aromatique, sans capsule ni machine. Livree avec ses joints de rechange, elle suit aussi en camping et en van. Note 4.9 sur plus de 1 700 avis.",
+    "features": [
+      "Vrai cafe italien sans capsule ni electricite",
+      "Aluminium, compatible plaque et rechaud",
+      "Joints de rechange inclus, ideale camping"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007306641588.html",
+      "supplierSku": "AE-ITEM-1005007306641588",
+      "supplierPriceCents": 869,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1990,
+      "marginCents": 1121,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007306641588.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 129,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 8.69 EUR, boutique 19.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T12:53:29.571Z"
+    },
+    "price": 1990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007306641588.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007306641588 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Cafetière italienne Moka en aluminium | Maxi Trouvaille",
+      "description": "Cafetiere Moka classique en aluminium a poser sur le feu : un vrai cafe serre a l italienne, sans capsule ni electricite.",
+      "h1": "Cafetière italienne Moka en aluminium",
+      "h2": "Pourquoi choisir Cafetière italienne Moka en aluminium",
+      "keywords": [
+        "cafetiere",
+        "italienne",
+        "moka",
+        "aluminium",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Cafetière italienne Moka en aluminium - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Cafetière italienne Moka en aluminium - cuisine Maxi Trouvaille",
+    "compareAtPrice": 2690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
