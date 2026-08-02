@@ -27875,5 +27875,585 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260802_enceinte_bluetooth_zealot_s32_pro_etanch_001",
+    "slug": "enceinte-bluetooth-zealot-s32-pro-etanche",
+    "name": "Enceinte Bluetooth ZEALOT S32 Pro étanche",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/enceinte-bluetooth-zealot-s32-pro-etanche-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/enceinte-bluetooth-zealot-s32-pro-etanche-photo-1.webp",
+      "/uploads/quick-products/enceinte-bluetooth-zealot-s32-pro-etanche-photo-2.webp",
+      "/uploads/quick-products/enceinte-bluetooth-zealot-s32-pro-etanche-photo-3.webp",
+      "/uploads/quick-products/enceinte-bluetooth-zealot-s32-pro-etanche-photo-4.webp",
+      "/uploads/quick-products/enceinte-bluetooth-zealot-s32-pro-etanche-photo-5.webp",
+      "/uploads/quick-products/enceinte-bluetooth-zealot-s32-pro-etanche-photo-6.webp"
+    ],
+    "shortDescription": "Enceinte Bluetooth 5.2 etanche ZEALOT S32 Pro : basses profondes, appairage de deux enceintes en stereo. Note 4.9.",
+    "description": "Enceinte portable ZEALOT S32 Pro en Bluetooth 5.2 : son ample avec des basses qui portent, resistance a l eau et aux eclaboussures pour la plage, la salle de bain, le jardin ou le chantier. Fonction TWS qui appaire deux enceintes pour obtenir une vraie stereo, lecture par carte memoire ou cable si le telephone est a plat, et longue autonomie pour tenir toute une soiree. Note 4.9 sur plus de 2 700 avis, 10 000 ventes.",
+    "features": [
+      "Etanche : plage, douche, jardin, chantier",
+      "Bluetooth 5.2 + appairage stereo de deux enceintes",
+      "Basses profondes, longue autonomie, lecture carte SD"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005012536411230.html",
+      "supplierSku": "AE-ITEM-1005012536411230",
+      "supplierPriceCents": 2319,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3790,
+      "marginCents": 1471,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005012536411230.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 63,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 23.19 EUR, boutique 37.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:12:36.309Z"
+    },
+    "price": 3790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005012536411230.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005012536411230 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Enceinte Bluetooth ZEALOT S32 Pro étanche | Maxi Trouvaille",
+      "description": "Enceinte Bluetooth 5.2 etanche ZEALOT S32 Pro : basses profondes, appairage de deux enceintes en stereo. Note 4.9.",
+      "h1": "Enceinte Bluetooth ZEALOT S32 Pro étanche",
+      "h2": "Pourquoi choisir Enceinte Bluetooth ZEALOT S32 Pro étanche",
+      "keywords": [
+        "enceinte",
+        "bluetooth",
+        "zealot",
+        "s32",
+        "pro",
+        "etanche",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Enceinte Bluetooth ZEALOT S32 Pro étanche - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Enceinte Bluetooth ZEALOT S32 Pro étanche - accessoires Maxi Trouvaille",
+    "compareAtPrice": 5190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_voiture_rc_drift_kf20_4wd_001",
+    "slug": "voiture-rc-drift-kf20-4wd",
+    "name": "Voiture RC de drift KF20 4 roues motrices",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/voiture-rc-drift-kf20-4wd-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/voiture-rc-drift-kf20-4wd-photo-1.webp",
+      "/uploads/quick-products/voiture-rc-drift-kf20-4wd-photo-2.webp",
+      "/uploads/quick-products/voiture-rc-drift-kf20-4wd-photo-3.webp",
+      "/uploads/quick-products/voiture-rc-drift-kf20-4wd-photo-4.webp",
+      "/uploads/quick-products/voiture-rc-drift-kf20-4wd-photo-5.webp",
+      "/uploads/quick-products/voiture-rc-drift-kf20-4wd-photo-6.webp"
+    ],
+    "shortDescription": "Voiture telecommandee de drift 4 roues motrices en 2.4 GHz : glisse en virage comme les vraies. Note 4.7, 10 000 ventes.",
+    "description": "Voiture telecommandee KF20 concue pour le drift : quatre roues motrices, pneus lisses qui font glisser l arriere en virage et chassis bas qui accroche la trajectoire. Radio 2.4 GHz qui permet de faire courir plusieurs voitures en meme temps sans interference, batterie rechargeable et carrosserie de style sportif. Un jouet qui plait autant aux enfants qu aux grands, sur carrelage comme sur parquet. Note 4.7 sur plus de 1 200 avis, 10 000 ventes.",
+    "features": [
+      "4 roues motrices, pneus drift : glisse en virage",
+      "Radio 2.4 GHz : plusieurs voitures sans interference",
+      "Batterie rechargeable, carrosserie sportive"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008319471531.html",
+      "supplierSku": "AE-ITEM-1005008319471531",
+      "supplierPriceCents": 2259,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3690,
+      "marginCents": 1431,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008319471531.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 63,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 22.59 EUR, boutique 36.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:12:38.644Z"
+    },
+    "price": 3690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008319471531.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008319471531 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Voiture RC de drift KF20 4 roues motrices | Maxi Trouvaille",
+      "description": "Voiture telecommandee de drift 4 roues motrices en 2.4 GHz : glisse en virage comme les vraies. Note 4.7, 10 000 ventes.",
+      "h1": "Voiture RC de drift KF20 4 roues motrices",
+      "h2": "Pourquoi choisir Voiture RC de drift KF20 4 roues motrices",
+      "keywords": [
+        "voiture",
+        "drift",
+        "kf20",
+        "4wd",
+        "dropshipping-enfant"
+      ],
+      "imageAlt": "Voiture RC de drift KF20 4 roues motrices - enfant Maxi Trouvaille"
+    },
+    "imageAlt": "Voiture RC de drift KF20 4 roues motrices - enfant Maxi Trouvaille",
+    "compareAtPrice": 4990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_harnais_chien_rembourre_poignee_001",
+    "slug": "harnais-chien-rembourre-poignee",
+    "name": "Harnais chien rembourré avec poignée",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/harnais-chien-rembourre-poignee-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/harnais-chien-rembourre-poignee-photo-1.webp",
+      "/uploads/quick-products/harnais-chien-rembourre-poignee-photo-2.webp",
+      "/uploads/quick-products/harnais-chien-rembourre-poignee-photo-3.webp",
+      "/uploads/quick-products/harnais-chien-rembourre-poignee-photo-4.webp",
+      "/uploads/quick-products/harnais-chien-rembourre-poignee-photo-5.webp",
+      "/uploads/quick-products/harnais-chien-rembourre-poignee-photo-6.webp"
+    ],
+    "shortDescription": "Harnais rembourre reglable avec poignee de controle : repartit la traction sur le poitrail au lieu du cou. Note 4.8.",
+    "description": "Harnais pour chien rembourre et entierement reglable : la traction se repartit sur le poitrail au lieu de serrer le cou, ce qui evite de faire tousser le chien qui tire. Doublure douce qui ne cisaille pas sous les pattes, poignee sur le dos pour le retenir vite dans un passage delicat ou l aider a monter en voiture, bandes reflechissantes pour les sorties de nuit et attache solide pour la laisse. Note 4.8 sur plus de 600 avis.",
+    "features": [
+      "Traction sur le poitrail, pas sur le cou",
+      "Poignee de controle sur le dos",
+      "Rembourre, reglable, bandes reflechissantes"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007123851690.html",
+      "supplierSku": "AE-ITEM-1005007123851690",
+      "supplierPriceCents": 1019,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2290,
+      "marginCents": 1271,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007123851690.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (4000+ ventes, visuels officiels importes).",
+      "markupPercent": 125,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 10.19 EUR, boutique 22.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:12:39.688Z"
+    },
+    "price": 2290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007123851690.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007123851690 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Harnais chien rembourré avec poignée | Maxi Trouvaille",
+      "description": "Harnais rembourre reglable avec poignee de controle : repartit la traction sur le poitrail au lieu du cou. Note 4.8.",
+      "h1": "Harnais chien rembourré avec poignée",
+      "h2": "Pourquoi choisir Harnais chien rembourré avec poignée",
+      "keywords": [
+        "harnais",
+        "chien",
+        "rembourre",
+        "poignee",
+        "dropshipping-animaux"
+      ],
+      "imageAlt": "Harnais chien rembourré avec poignée - animaux Maxi Trouvaille"
+    },
+    "imageAlt": "Harnais chien rembourré avec poignée - animaux Maxi Trouvaille",
+    "compareAtPrice": 3190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_cle_usb_sandisk_3_2_haute_vitesse_001",
+    "slug": "cle-usb-sandisk-3-2-haute-vitesse",
+    "name": "Clé USB SanDisk 3.2 haute vitesse",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/cle-usb-sandisk-3-2-haute-vitesse-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/cle-usb-sandisk-3-2-haute-vitesse-photo-1.webp",
+      "/uploads/quick-products/cle-usb-sandisk-3-2-haute-vitesse-photo-2.webp",
+      "/uploads/quick-products/cle-usb-sandisk-3-2-haute-vitesse-photo-3.webp",
+      "/uploads/quick-products/cle-usb-sandisk-3-2-haute-vitesse-photo-4.webp",
+      "/uploads/quick-products/cle-usb-sandisk-3-2-haute-vitesse-photo-5.webp",
+      "/uploads/quick-products/cle-usb-sandisk-3-2-haute-vitesse-photo-6.webp"
+    ],
+    "shortDescription": "Cle USB SanDisk en USB 3.2 : transferts rapides, boitier metal et fiabilite d une marque de reference. Note 4.8.",
+    "description": "Cle USB SanDisk en norme USB 3.2 : les gros fichiers, videos et sauvegardes passent en quelques secondes la ou une cle USB 2.0 fait patienter plusieurs minutes. Boitier metal resistant avec capuchon retractable qui ne se perd pas, compatible PC Windows, Mac, television, autoradio et console. SanDisk est l une des references mondiales du stockage, ce qui compte quand il s agit de donnees que l on ne veut pas perdre. Note 4.8 sur plus de 1 300 avis.",
+    "features": [
+      "USB 3.2 : transferts rapides des gros fichiers",
+      "Boitier metal, capuchon retractable",
+      "Marque SanDisk, PC, Mac, TV, autoradio, console"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007512713086.html",
+      "supplierSku": "AE-ITEM-1005007512713086",
+      "supplierPriceCents": 1099,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2490,
+      "marginCents": 1391,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007512713086.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 127,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 10.99 EUR, boutique 24.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:12:40.227Z"
+    },
+    "price": 2490,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007512713086.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007512713086 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Clé USB SanDisk 3.2 haute vitesse | Maxi Trouvaille",
+      "description": "Cle USB SanDisk en USB 3.2 : transferts rapides, boitier metal et fiabilite d une marque de reference. Note 4.8.",
+      "h1": "Clé USB SanDisk 3.2 haute vitesse",
+      "h2": "Pourquoi choisir Clé USB SanDisk 3.2 haute vitesse",
+      "keywords": [
+        "cle",
+        "usb",
+        "sandisk",
+        "haute",
+        "vitesse",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Clé USB SanDisk 3.2 haute vitesse - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Clé USB SanDisk 3.2 haute vitesse - high-tech Maxi Trouvaille",
+    "compareAtPrice": 3390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_support_manettes_casque_trois_etages_001",
+    "slug": "support-manettes-casque-trois-etages",
+    "name": "Support 3 étages manettes et casque",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/support-manettes-casque-trois-etages-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/support-manettes-casque-trois-etages-photo-1.webp",
+      "/uploads/quick-products/support-manettes-casque-trois-etages-photo-2.webp",
+      "/uploads/quick-products/support-manettes-casque-trois-etages-photo-3.webp",
+      "/uploads/quick-products/support-manettes-casque-trois-etages-photo-4.webp",
+      "/uploads/quick-products/support-manettes-casque-trois-etages-photo-5.webp",
+      "/uploads/quick-products/support-manettes-casque-trois-etages-photo-6.webp"
+    ],
+    "shortDescription": "Support universel a trois etages : range deux manettes et le casque sans encombrer le bureau. PS5, PS4, Xbox, Switch. Note 4.7.",
+    "description": "Support de rangement a trois etages pour manettes et casque : deux manettes posees proprement plutot que jetees sur le bureau, et le casque suspendu au-dessus au lieu d ecraser ses coussinets. Compatible PS5, PS4, Xbox, Nintendo Switch et manettes PC. Base lestee antiderapante qui ne bascule pas, finition qui s accorde a un setup gaming. Il libere le bureau et evite les chutes de manette. Note 4.7.",
+    "features": [
+      "Trois etages : deux manettes + un casque",
+      "PS5, PS4, Xbox, Switch, manettes PC",
+      "Base lestee antiderapante, gain de place"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008446030407.html",
+      "supplierSku": "AE-ITEM-1005008446030407",
+      "supplierPriceCents": 919,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2090,
+      "marginCents": 1171,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008446030407.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (2000+ ventes, visuels officiels importes).",
+      "markupPercent": 127,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 9.19 EUR, boutique 20.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:12:41.429Z"
+    },
+    "price": 2090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008446030407.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008446030407 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Support 3 étages manettes et casque | Maxi Trouvaille",
+      "description": "Support universel a trois etages : range deux manettes et le casque sans encombrer le bureau. PS5, PS4, Xbox, Switch. Note 4.7.",
+      "h1": "Support 3 étages manettes et casque",
+      "h2": "Pourquoi choisir Support 3 étages manettes et casque",
+      "keywords": [
+        "support",
+        "manettes",
+        "casque",
+        "trois",
+        "etages",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Support 3 étages manettes et casque - gaming Maxi Trouvaille"
+    },
+    "imageAlt": "Support 3 étages manettes et casque - gaming Maxi Trouvaille",
+    "compareAtPrice": 2890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_brosse_nettoyante_visage_sonique_001",
+    "slug": "brosse-nettoyante-visage-sonique",
+    "name": "Brosse nettoyante visage sonique",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/brosse-nettoyante-visage-sonique-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/brosse-nettoyante-visage-sonique-photo-1.webp",
+      "/uploads/quick-products/brosse-nettoyante-visage-sonique-photo-2.webp",
+      "/uploads/quick-products/brosse-nettoyante-visage-sonique-photo-3.webp",
+      "/uploads/quick-products/brosse-nettoyante-visage-sonique-photo-4.webp",
+      "/uploads/quick-products/brosse-nettoyante-visage-sonique-photo-5.webp",
+      "/uploads/quick-products/brosse-nettoyante-visage-sonique-photo-6.webp"
+    ],
+    "shortDescription": "Brosse nettoyante sonique etanche : deloge le sebum et les impuretes que les doigts laissent dans les pores. Note 4.8.",
+    "description": "Brosse de nettoyage du visage a vibrations soniques, etanche et rechargeable : les micro-vibrations decollent le sebum, le maquillage et les impuretes logees dans les pores, la ou un nettoyage aux doigts reste en surface. Plusieurs intensites selon la zone et la sensibilite de la peau, silicone souple qui ne raye pas et se rince en une seconde, utilisable sous la douche. Homme comme femme, en particulier sur les peaux mixtes a grasses. Note 4.8.",
+    "features": [
+      "Vibrations soniques : nettoie dans les pores",
+      "Silicone souple, etanche, utilisable sous la douche",
+      "Plusieurs intensites, rechargeable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005455196503.html",
+      "supplierSku": "AE-ITEM-1005005455196503",
+      "supplierPriceCents": 1299,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2890,
+      "marginCents": 1591,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005455196503.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 122,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 12.99 EUR, boutique 28.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:12:41.962Z"
+    },
+    "price": 2890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005455196503.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005455196503 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Brosse nettoyante visage sonique | Maxi Trouvaille",
+      "description": "Brosse nettoyante sonique etanche : deloge le sebum et les impuretes que les doigts laissent dans les pores. Note 4.8.",
+      "h1": "Brosse nettoyante visage sonique",
+      "h2": "Pourquoi choisir Brosse nettoyante visage sonique",
+      "keywords": [
+        "brosse",
+        "nettoyante",
+        "visage",
+        "sonique",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Brosse nettoyante visage sonique - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Brosse nettoyante visage sonique - beaute Maxi Trouvaille",
+    "compareAtPrice": 3990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
