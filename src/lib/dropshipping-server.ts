@@ -398,6 +398,41 @@ export async function updateDropshippingOrder(
   return updatedOrder;
 }
 
+/**
+ * Pose la date d'envoi d'un email client sur la commande.
+ *
+ * Sert uniquement de verrou anti-doublon : on n'ecrit qu'une seule fois,
+ * et seulement APRES qu'un email a reellement ete envoye. Aucun appel
+ * reseau, aucune commande fournisseur ici.
+ */
+export async function markDropshippingOrderEmailSent(
+  orderId: string,
+  field: "confirmationEmailSentAt" | "shippingEmailSentAt",
+) {
+  const orders = await readDropshippingOrders();
+  const orderIndex = orders.findIndex((order) => order.id === orderId);
+
+  if (orderIndex < 0) {
+    return null;
+  }
+
+  const order = orders[orderIndex];
+
+  if (order[field]) {
+    return order;
+  }
+
+  const now = new Date().toISOString();
+  const updatedOrder: DropshippingOrder =
+    field === "confirmationEmailSentAt"
+      ? { ...order, confirmationEmailSentAt: now, updatedAt: now }
+      : { ...order, shippingEmailSentAt: now, updatedAt: now };
+
+  orders[orderIndex] = updatedOrder;
+  await writeDropshippingOrders(orders);
+  return updatedOrder;
+}
+
 export function getDropshippingConnectorStatus() {
   const aliexpressReady = Boolean(
     process.env.ALIEXPRESS_API_KEY ||

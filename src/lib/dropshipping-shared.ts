@@ -82,6 +82,10 @@ export type DropshippingOrder = {
   supplierOrderReference?: string;
   internalNote?: string;
   followUpMessagePreparedAt?: string;
+  // Marqueurs anti-doublon des emails clients. Optionnels : une commande
+  // enregistree avant l'ajout des emails reste parfaitement valide.
+  confirmationEmailSentAt?: string;
+  shippingEmailSentAt?: string;
   createdAt: string;
   updatedAt: string;
 };
