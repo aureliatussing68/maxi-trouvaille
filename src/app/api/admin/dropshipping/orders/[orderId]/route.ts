@@ -3,6 +3,7 @@ import { isAdminModeEnabled } from "@/lib/admin";
 import { adminApiUnavailable } from "@/lib/admin-api";
 import { updateDropshippingOrder } from "@/lib/dropshipping-server";
 import { sanitizeDropshippingStatus } from "@/lib/dropshipping-shared";
+import { sendDropshippingShippingEmail } from "@/lib/order-emails";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -46,6 +47,16 @@ export async function PATCH(request: Request, context: RouteContext) {
 
   if (!order) {
     return NextResponse.json({ error: "Commande introuvable." }, { status: 404 });
+  }
+
+  // Email d'expedition : un seul envoi par commande (marqueur
+  // shippingEmailSentAt), uniquement si la commande est payee et passee en
+  // "expedie". Isole dans son try/catch : un email rate ne doit jamais
+  // annuler la mise a jour de la commande. Inerte sans cle d'envoi.
+  try {
+    await sendDropshippingShippingEmail(order);
+  } catch {
+    // Silence volontaire : la commande est deja enregistree.
   }
 
   return NextResponse.json({ order });
