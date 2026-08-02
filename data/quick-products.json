@@ -25554,5 +25554,682 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260802_tournevis_electrique_worx_wx242_4v_001",
+    "slug": "tournevis-electrique-worx-wx242-4v",
+    "name": "Tournevis électrique Worx WX242 4V",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/tournevis-electrique-worx-wx242-4v-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/tournevis-electrique-worx-wx242-4v-photo-1.webp",
+      "/uploads/quick-products/tournevis-electrique-worx-wx242-4v-photo-2.webp",
+      "/uploads/quick-products/tournevis-electrique-worx-wx242-4v-photo-3.webp",
+      "/uploads/quick-products/tournevis-electrique-worx-wx242-4v-photo-4.webp",
+      "/uploads/quick-products/tournevis-electrique-worx-wx242-4v-photo-5.webp",
+      "/uploads/quick-products/tournevis-electrique-worx-wx242-4v-photo-6.webp"
+    ],
+    "shortDescription": "Tournevis electrique sans fil Worx WX242 4V, recharge USB : visse et devisse sans effort, marque reconnue de l outillage. Note 4.9.",
+    "description": "Tournevis electrique sans fil Worx WX242 4V, compact et rechargeable en USB : il visse et devisse sans effort les meubles en kit, les prises, les charnieres et le petit bricolage du quotidien. Tete pivotante pour atteindre les angles, eclairage LED integre, embouts inclus et batterie lithium qui tient la charge des mois entre deux utilisations. Worx est une marque etablie de l outillage electroportatif. Note 4.9 sur plus de 1 600 avis, 10 000 ventes.",
+    "features": [
+      "Marque Worx, outillage electroportatif reconnu",
+      "Sans fil, recharge USB, batterie lithium",
+      "Tete pivotante + eclairage LED, embouts inclus"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006025572712.html",
+      "supplierSku": "AE-ITEM-1005006025572712",
+      "supplierPriceCents": 3959,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6390,
+      "marginCents": 2431,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006025572712.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 61,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 39.59 EUR, boutique 63.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T16:58:58.132Z"
+    },
+    "price": 6390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006025572712.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006025572712 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Tournevis électrique Worx WX242 4V | Maxi Trouvaille",
+      "description": "Tournevis electrique sans fil Worx WX242 4V, recharge USB : visse et devisse sans effort, marque reconnue de l outillage. Note 4.9.",
+      "h1": "Tournevis électrique Worx WX242 4V",
+      "h2": "Pourquoi choisir Tournevis électrique Worx WX242 4V",
+      "keywords": [
+        "tournevis",
+        "electrique",
+        "worx",
+        "wx242",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Tournevis électrique Worx WX242 4V - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Tournevis électrique Worx WX242 4V - outillage Maxi Trouvaille",
+    "compareAtPrice": 8690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_montre_homme_poedagar_chrono_acier_001",
+    "slug": "montre-homme-poedagar-chrono-acier",
+    "name": "Montre homme POEDAGAR chronographe acier",
+    "categoryId": "dropshipping-mode",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/montre-homme-poedagar-chrono-acier-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/montre-homme-poedagar-chrono-acier-photo-1.webp",
+      "/uploads/quick-products/montre-homme-poedagar-chrono-acier-photo-2.webp",
+      "/uploads/quick-products/montre-homme-poedagar-chrono-acier-photo-3.webp",
+      "/uploads/quick-products/montre-homme-poedagar-chrono-acier-photo-4.webp",
+      "/uploads/quick-products/montre-homme-poedagar-chrono-acier-photo-5.webp",
+      "/uploads/quick-products/montre-homme-poedagar-chrono-acier-photo-6.webp"
+    ],
+    "shortDescription": "Montre homme POEDAGAR en acier inoxydable : chronographe, aiguilles luminescentes et etancheite. Note 4.7 sur plus de 2 500 avis.",
+    "description": "Montre-bracelet homme POEDAGAR en acier inoxydable : cadran chronographe lisible, aiguilles et index luminescents pour l heure dans le noir, verre resistant aux rayures et etancheite pour la pluie et le lavage des mains. Le bracelet acier s ajuste et donne une allure habillee qui passe aussi bien au bureau qu en soiree. POEDAGAR est une marque horlogere etablie sur ce segment. Note 4.7 sur plus de 2 500 avis, 10 000 ventes.",
+    "features": [
+      "Acier inoxydable, cadran chronographe",
+      "Aiguilles luminescentes, verre anti-rayures",
+      "Etanche au quotidien, bracelet ajustable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008949053149.html",
+      "supplierSku": "AE-ITEM-1005008949053149",
+      "supplierPriceCents": 1799,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3990,
+      "marginCents": 2191,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008949053149.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 122,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 17.99 EUR, boutique 39.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T16:58:59.210Z"
+    },
+    "price": 3990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008949053149.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008949053149 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Montre homme POEDAGAR chronographe acier | Maxi Trouvaille",
+      "description": "Montre homme POEDAGAR en acier inoxydable : chronographe, aiguilles luminescentes et etancheite. Note 4.7 sur plus de 2 500 avis.",
+      "h1": "Montre homme POEDAGAR chronographe acier",
+      "h2": "Pourquoi choisir Montre homme POEDAGAR chronographe acier",
+      "keywords": [
+        "montre",
+        "homme",
+        "poedagar",
+        "chrono",
+        "acier",
+        "dropshipping-mode"
+      ],
+      "imageAlt": "Montre homme POEDAGAR chronographe acier - mode Maxi Trouvaille"
+    },
+    "imageAlt": "Montre homme POEDAGAR chronographe acier - mode Maxi Trouvaille",
+    "compareAtPrice": 5390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_ensemble_clavier_souris_gaming_sans_fil_001",
+    "slug": "ensemble-clavier-souris-gaming-sans-fil",
+    "name": "Ensemble clavier et souris gaming sans fil",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/ensemble-clavier-souris-gaming-sans-fil-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/ensemble-clavier-souris-gaming-sans-fil-photo-1.webp",
+      "/uploads/quick-products/ensemble-clavier-souris-gaming-sans-fil-photo-2.webp",
+      "/uploads/quick-products/ensemble-clavier-souris-gaming-sans-fil-photo-3.webp",
+      "/uploads/quick-products/ensemble-clavier-souris-gaming-sans-fil-photo-4.webp",
+      "/uploads/quick-products/ensemble-clavier-souris-gaming-sans-fil-photo-5.webp",
+      "/uploads/quick-products/ensemble-clavier-souris-gaming-sans-fil-photo-6.webp"
+    ],
+    "shortDescription": "Pack clavier + souris sans fil retroeclaires pour PC et portable : un seul recepteur USB, zero fil sur le bureau. Note 4.5.",
+    "description": "Ensemble clavier et souris sans fil avec retroeclairage, livre avec un recepteur USB unique : on branche, ca marche, sans installation ni fil qui traine. Touches silencieuses au toucher franc, souris a plusieurs niveaux de sensibilite, autonomie longue et interrupteur pour economiser les piles. Compatible PC fixe, ordinateur portable, box TV et console. Note 4.5 sur plus de 550 avis, 3 000 ventes.",
+    "features": [
+      "Clavier + souris sans fil, un seul recepteur USB",
+      "Retroeclairage, touches silencieuses",
+      "PC fixe, portable, box TV, console"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009232552917.html",
+      "supplierSku": "AE-ITEM-1005009232552917",
+      "supplierPriceCents": 2359,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3790,
+      "marginCents": 1431,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009232552917.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (3000+ ventes, visuels officiels importes).",
+      "markupPercent": 61,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 23.59 EUR, boutique 37.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T16:58:59.787Z"
+    },
+    "price": 3790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009232552917.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009232552917 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Ensemble clavier et souris gaming sans fil | Maxi Trouvaille",
+      "description": "Pack clavier + souris sans fil retroeclaires pour PC et portable : un seul recepteur USB, zero fil sur le bureau. Note 4.5.",
+      "h1": "Ensemble clavier et souris gaming sans fil",
+      "h2": "Pourquoi choisir Ensemble clavier et souris gaming sans fil",
+      "keywords": [
+        "ensemble",
+        "clavier",
+        "souris",
+        "gaming",
+        "sans",
+        "fil",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Ensemble clavier et souris gaming sans fil - gaming Maxi Trouvaille"
+    },
+    "imageAlt": "Ensemble clavier et souris gaming sans fil - gaming Maxi Trouvaille",
+    "compareAtPrice": 5190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_booster_demarrage_voiture_5000a_gonfleur_001",
+    "slug": "booster-demarrage-voiture-5000a-gonfleur",
+    "name": "Booster de démarrage 5000A avec gonfleur",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/booster-demarrage-voiture-5000a-gonfleur-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/booster-demarrage-voiture-5000a-gonfleur-photo-1.webp",
+      "/uploads/quick-products/booster-demarrage-voiture-5000a-gonfleur-photo-2.webp",
+      "/uploads/quick-products/booster-demarrage-voiture-5000a-gonfleur-photo-3.webp",
+      "/uploads/quick-products/booster-demarrage-voiture-5000a-gonfleur-photo-4.webp",
+      "/uploads/quick-products/booster-demarrage-voiture-5000a-gonfleur-photo-5.webp",
+      "/uploads/quick-products/booster-demarrage-voiture-5000a-gonfleur-photo-6.webp"
+    ],
+    "shortDescription": "Booster de demarrage 5000A avec compresseur 150 PSI et batterie externe : redemarre la voiture et gonfle les pneus. Note 4.9.",
+    "description": "Booster de demarrage autonome 5000A trois en un : il redemarre une voiture dont la batterie est a plat sans avoir besoin d un autre vehicule, gonfle les pneus grace a son compresseur 150 PSI integre et sert de batterie externe pour recharger un telephone. Pinces protegees contre l inversion de polarite et les courts-circuits, lampe de secours integree, coffre a garder en permanence dans le vehicule. Note 4.9 sur plus de 4 700 avis, 10 000 ventes.",
+    "features": [
+      "Redemarre la voiture seul, 5000A",
+      "Compresseur 150 PSI integre pour les pneus",
+      "Batterie externe + lampe de secours, protections anti-erreur"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005011584298993.html",
+      "supplierSku": "AE-ITEM-1005011584298993",
+      "supplierPriceCents": 3985,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6390,
+      "marginCents": 2405,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005011584298993.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 60,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 39.85 EUR, boutique 63.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T16:59:00.461Z"
+    },
+    "price": 6390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005011584298993.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005011584298993 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Booster de démarrage 5000A avec gonfleur | Maxi Trouvaille",
+      "description": "Booster de demarrage 5000A avec compresseur 150 PSI et batterie externe : redemarre la voiture et gonfle les pneus. Note 4.9.",
+      "h1": "Booster de démarrage 5000A avec gonfleur",
+      "h2": "Pourquoi choisir Booster de démarrage 5000A avec gonfleur",
+      "keywords": [
+        "booster",
+        "demarrage",
+        "voiture",
+        "5000a",
+        "gonfleur",
+        "dropshipping-auto-moto"
+      ],
+      "imageAlt": "Booster de démarrage 5000A avec gonfleur - auto-moto Maxi Trouvaille"
+    },
+    "imageAlt": "Booster de démarrage 5000A avec gonfleur - auto-moto Maxi Trouvaille",
+    "compareAtPrice": 8690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_hydropulseur_dentaire_sans_fil_6_embouts_001",
+    "slug": "hydropulseur-dentaire-sans-fil-6-embouts",
+    "name": "Hydropulseur dentaire sans fil 6 embouts",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/hydropulseur-dentaire-sans-fil-6-embouts-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/hydropulseur-dentaire-sans-fil-6-embouts-photo-1.webp",
+      "/uploads/quick-products/hydropulseur-dentaire-sans-fil-6-embouts-photo-2.webp",
+      "/uploads/quick-products/hydropulseur-dentaire-sans-fil-6-embouts-photo-3.webp",
+      "/uploads/quick-products/hydropulseur-dentaire-sans-fil-6-embouts-photo-4.webp",
+      "/uploads/quick-products/hydropulseur-dentaire-sans-fil-6-embouts-photo-5.webp",
+      "/uploads/quick-products/hydropulseur-dentaire-sans-fil-6-embouts-photo-6.webp"
+    ],
+    "shortDescription": "Jet dentaire sans fil 300 ml, 3 modes et 6 embouts : deloge ce que la brosse laisse entre les dents. Note 4.8, 10 000 ventes.",
+    "description": "Hydropulseur dentaire sans fil avec reservoir de 300 ml : le jet d eau sous pression deloge les residus coinces entre les dents et le long des gencives, la ou la brosse et parfois meme le fil ne passent pas. Trois modes dont un mode doux pour gencives sensibles, six embouts pour toute la famille, appareil etanche utilisable sous la douche et recharge USB qui tient plusieurs semaines. Particulierement utile avec un appareil dentaire, un bridge ou des implants. Note 4.8 sur plus de 1 900 avis.",
+    "features": [
+      "Reservoir 300 ml, 3 modes dont gencives sensibles",
+      "6 embouts : toute la famille",
+      "Etanche, recharge USB, autonomie de plusieurs semaines"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005080878375.html",
+      "supplierSku": "AE-ITEM-1005005080878375",
+      "supplierPriceCents": 2459,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3990,
+      "marginCents": 1531,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005080878375.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 62,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 24.59 EUR, boutique 39.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T16:59:01.418Z"
+    },
+    "price": 3990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005080878375.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005080878375 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Hydropulseur dentaire sans fil 6 embouts | Maxi Trouvaille",
+      "description": "Jet dentaire sans fil 300 ml, 3 modes et 6 embouts : deloge ce que la brosse laisse entre les dents. Note 4.8, 10 000 ventes.",
+      "h1": "Hydropulseur dentaire sans fil 6 embouts",
+      "h2": "Pourquoi choisir Hydropulseur dentaire sans fil 6 embouts",
+      "keywords": [
+        "hydropulseur",
+        "dentaire",
+        "sans",
+        "fil",
+        "embouts",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Hydropulseur dentaire sans fil 6 embouts - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Hydropulseur dentaire sans fil 6 embouts - beaute Maxi Trouvaille",
+    "compareAtPrice": 5390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_balance_de_cuisine_numerique_precision_001",
+    "slug": "balance-de-cuisine-numerique-precision",
+    "name": "Balance de cuisine numérique de précision",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/balance-de-cuisine-numerique-precision-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/balance-de-cuisine-numerique-precision-photo-1.webp",
+      "/uploads/quick-products/balance-de-cuisine-numerique-precision-photo-2.webp",
+      "/uploads/quick-products/balance-de-cuisine-numerique-precision-photo-3.webp",
+      "/uploads/quick-products/balance-de-cuisine-numerique-precision-photo-4.webp",
+      "/uploads/quick-products/balance-de-cuisine-numerique-precision-photo-5.webp",
+      "/uploads/quick-products/balance-de-cuisine-numerique-precision-photo-6.webp"
+    ],
+    "shortDescription": "Balance de cuisine numerique 5 kg au gramme pres, ecran LED et fonction tare : patisserie, regime, cafe filtre. Note 4.5.",
+    "description": "Balance de cuisine numerique jusqu a 5 kg avec precision au gramme : indispensable en patisserie ou la moindre erreur de dosage se voit, pratique pour suivre des portions ou peser son cafe. Fonction tare pour deduire le poids du recipient, ecran LED lisible, plateau qui se nettoie d un coup d eponge et format plat qui se range dans un tiroir. Note 4.5 sur plus de 1 000 avis, 5 000 ventes.",
+    "features": [
+      "Jusqu a 5 kg, precision au gramme",
+      "Fonction tare, ecran LED lisible",
+      "Format plat, se range dans un tiroir"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007341319338.html",
+      "supplierSku": "AE-ITEM-1005007341319338",
+      "supplierPriceCents": 549,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1590,
+      "marginCents": 1041,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007341319338.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 190,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 5.49 EUR, boutique 15.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T16:59:01.876Z"
+    },
+    "price": 1590,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007341319338.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007341319338 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Balance de cuisine numérique de précision | Maxi Trouvaille",
+      "description": "Balance de cuisine numerique 5 kg au gramme pres, ecran LED et fonction tare : patisserie, regime, cafe filtre. Note 4.5.",
+      "h1": "Balance de cuisine numérique de précision",
+      "h2": "Pourquoi choisir Balance de cuisine numérique de précision",
+      "keywords": [
+        "balance",
+        "cuisine",
+        "numerique",
+        "precision",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Balance de cuisine numérique de précision - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Balance de cuisine numérique de précision - cuisine Maxi Trouvaille",
+    "compareAtPrice": 2190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_batterie_externe_20000mah_pd_65w_001",
+    "slug": "batterie-externe-20000mah-pd-65w",
+    "name": "Batterie externe 20000 mAh charge rapide 65W",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/batterie-externe-20000mah-pd-65w-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/batterie-externe-20000mah-pd-65w-photo-1.webp",
+      "/uploads/quick-products/batterie-externe-20000mah-pd-65w-photo-2.webp",
+      "/uploads/quick-products/batterie-externe-20000mah-pd-65w-photo-3.webp",
+      "/uploads/quick-products/batterie-externe-20000mah-pd-65w-photo-4.webp",
+      "/uploads/quick-products/batterie-externe-20000mah-pd-65w-photo-5.webp",
+      "/uploads/quick-products/batterie-externe-20000mah-pd-65w-photo-6.webp"
+    ],
+    "shortDescription": "Batterie externe 20000 mAh avec charge rapide PD 65W : recharge aussi un ordinateur portable, pas seulement le telephone. Note 4.9.",
+    "description": "Batterie externe 20000 mAh avec sortie Power Delivery 65W : assez puissante pour recharger un ordinateur portable en USB-C, en plus du telephone, de la tablette et des ecouteurs. Quatre a cinq charges completes de smartphone, plusieurs sorties pour brancher tout le monde en meme temps, ecran qui affiche le pourcentage restant et recharge rapide de la batterie elle-meme. Le compagnon des trajets, des vacances et des journees longues. Note 4.9 sur plus de 4 700 avis, 10 000 ventes.",
+    "features": [
+      "20000 mAh : 4 a 5 charges de telephone",
+      "Charge rapide PD 65W : recharge aussi un portable",
+      "Plusieurs sorties + ecran du niveau restant"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006974245321.html",
+      "supplierSku": "AE-ITEM-1005006974245321",
+      "supplierPriceCents": 3239,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 5190,
+      "marginCents": 1951,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006974245321.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 60,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 32.39 EUR, boutique 51.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T16:59:02.530Z"
+    },
+    "price": 5190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006974245321.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006974245321 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Batterie externe 20000 mAh charge rapide 65W | Maxi Trouvaille",
+      "description": "Batterie externe 20000 mAh avec charge rapide PD 65W : recharge aussi un ordinateur portable, pas seulement le telephone. Note 4.9.",
+      "h1": "Batterie externe 20000 mAh charge rapide 65W",
+      "h2": "Pourquoi choisir Batterie externe 20000 mAh charge rapide 65W",
+      "keywords": [
+        "batterie",
+        "externe",
+        "20000mah",
+        "65w",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Batterie externe 20000 mAh charge rapide 65W - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Batterie externe 20000 mAh charge rapide 65W - high-tech Maxi Trouvaille",
+    "compareAtPrice": 7090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
