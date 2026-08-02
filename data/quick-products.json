@@ -29423,5 +29423,101 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260802_multimetre_numerique_aneng_681_001",
+    "slug": "multimetre-numerique-aneng-681",
+    "name": "Multimètre numérique ANENG 681",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/multimetre-numerique-aneng-681-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/multimetre-numerique-aneng-681-photo-1.webp",
+      "/uploads/quick-products/multimetre-numerique-aneng-681-photo-2.webp",
+      "/uploads/quick-products/multimetre-numerique-aneng-681-photo-3.webp",
+      "/uploads/quick-products/multimetre-numerique-aneng-681-photo-4.webp",
+      "/uploads/quick-products/multimetre-numerique-aneng-681-photo-5.webp",
+      "/uploads/quick-products/multimetre-numerique-aneng-681-photo-6.webp"
+    ],
+    "shortDescription": "Multimetre numerique ANENG 681 avec detection de tension sans contact : depanne une prise, teste une pile ou un fusible. Note 4.8.",
+    "description": "Multimetre numerique professionnel ANENG 681 : il mesure la tension alternative et continue, le courant, la resistance, la continuite, les diodes et la temperature. La detection de tension sans contact permet de savoir si un fil est sous tension avant meme de le toucher, ce qui evite les mauvaises surprises. Grand ecran retroeclaire lisible dans un placard technique, selection automatique de calibre, coque antichoc et bequille. De quoi tester une prise qui ne marche plus, une pile, un fusible de voiture ou un cable douteux. Note 4.8 sur plus de 3 400 avis, 10 000 ventes.",
+    "features": [
+      "Detection de tension sans contact : securite avant intervention",
+      "Tension, courant, resistance, continuite, temperature",
+      "Ecran retroeclaire, calibre automatique, coque antichoc"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005913916630.html",
+      "supplierSku": "AE-ITEM-1005005913916630",
+      "supplierPriceCents": 2779,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 4490,
+      "marginCents": 1711,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005913916630.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 62,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 27.79 EUR, boutique 44.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:26:26.312Z"
+    },
+    "price": 4490,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005913916630.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005913916630 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Multimètre numérique ANENG 681 | Maxi Trouvaille",
+      "description": "Multimetre numerique ANENG 681 avec detection de tension sans contact : depanne une prise, teste une pile ou un fusible. Note 4.8.",
+      "h1": "Multimètre numérique ANENG 681",
+      "h2": "Pourquoi choisir Multimètre numérique ANENG 681",
+      "keywords": [
+        "multimetre",
+        "numerique",
+        "aneng",
+        "681",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Multimètre numérique ANENG 681 - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Multimètre numérique ANENG 681 - outillage Maxi Trouvaille",
+    "compareAtPrice": 6090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]

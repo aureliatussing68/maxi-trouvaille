@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-02T22:24:54.449Z",
+  "checkedAt": "2026-08-02T22:26:27.090Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 293,
-  "publishedPartnerCount": 234,
+  "partnerProductCount": 294,
+  "publishedPartnerCount": 235,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -5283,15 +5283,33 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260802_multimetre_numerique_aneng_681_001",
+      "slug": "multimetre-numerique-aneng-681",
+      "name": "Multimètre numérique ANENG 681",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-outillage",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 289
+    "data/quick-products.json": 290
   },
   "byStatus": {
     "draft": 59,
-    "published": 234
+    "published": 235
   },
   "byCategory": {
     "dropshipping-high-tech": 32,
@@ -5303,7 +5321,7 @@
     "dropshipping-beaute": 26,
     "dropshipping-animaux": 25,
     "dropshipping-mode": 21,
-    "dropshipping-outillage": 24,
+    "dropshipping-outillage": 25,
     "dropshipping-gaming": 16
   },
   "safety": {
