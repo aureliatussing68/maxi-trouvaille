@@ -26231,5 +26231,393 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260802_drone_gps_l900_pro_se_double_camera_001",
+    "slug": "drone-gps-l900-pro-se-double-camera",
+    "name": "Drone GPS L900 Pro SE double caméra",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/drone-gps-l900-pro-se-double-camera-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/drone-gps-l900-pro-se-double-camera-photo-1.webp",
+      "/uploads/quick-products/drone-gps-l900-pro-se-double-camera-photo-2.webp",
+      "/uploads/quick-products/drone-gps-l900-pro-se-double-camera-photo-3.webp",
+      "/uploads/quick-products/drone-gps-l900-pro-se-double-camera-photo-4.webp",
+      "/uploads/quick-products/drone-gps-l900-pro-se-double-camera-photo-5.webp",
+      "/uploads/quick-products/drone-gps-l900-pro-se-double-camera-photo-6.webp"
+    ],
+    "shortDescription": "Drone GPS avec double camera, moteurs sans balais et retour automatique : filme le paysage sans risquer de le perdre. Note 4.9.",
+    "description": "Drone quadricoptere L900 Pro SE equipe du GPS : il tient sa position tout seul face au vent, revient au point de decollage d une pression sur un bouton et rentre automatiquement quand la batterie faiblit ou que le signal se perd. Double camera commutable, transmission d image en direct sur le telephone via le Wi-Fi 5G, moteurs sans balais plus silencieux et plus endurants que les moteurs classiques. Se plie pour tenir dans un sac. Note 4.9 sur plus de 700 avis.",
+    "features": [
+      "GPS : maintien de position et retour automatique",
+      "Double camera, retour video en direct sur le telephone",
+      "Moteurs sans balais, chassis pliable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006861985068.html",
+      "supplierSku": "AE-ITEM-1005006861985068",
+      "supplierPriceCents": 6269,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 9490,
+      "marginCents": 3221,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006861985068.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 62.69 EUR, boutique 94.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T21:51:30.872Z"
+    },
+    "price": 9490,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006861985068.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006861985068 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Drone GPS L900 Pro SE double caméra | Maxi Trouvaille",
+      "description": "Drone GPS avec double camera, moteurs sans balais et retour automatique : filme le paysage sans risquer de le perdre. Note 4.9.",
+      "h1": "Drone GPS L900 Pro SE double caméra",
+      "h2": "Pourquoi choisir Drone GPS L900 Pro SE double caméra",
+      "keywords": [
+        "drone",
+        "gps",
+        "l900",
+        "pro",
+        "double",
+        "camera",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Drone GPS L900 Pro SE double caméra - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Drone GPS L900 Pro SE double caméra - high-tech Maxi Trouvaille",
+    "compareAtPrice": 12890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_panneau_solaire_pliable_dokio_100w_001",
+    "slug": "panneau-solaire-pliable-dokio-100w",
+    "name": "Panneau solaire pliable Dokio 100W",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/panneau-solaire-pliable-dokio-100w-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/panneau-solaire-pliable-dokio-100w-photo-1.webp",
+      "/uploads/quick-products/panneau-solaire-pliable-dokio-100w-photo-2.webp",
+      "/uploads/quick-products/panneau-solaire-pliable-dokio-100w-photo-3.webp",
+      "/uploads/quick-products/panneau-solaire-pliable-dokio-100w-photo-4.webp",
+      "/uploads/quick-products/panneau-solaire-pliable-dokio-100w-photo-5.webp",
+      "/uploads/quick-products/panneau-solaire-pliable-dokio-100w-photo-6.webp"
+    ],
+    "shortDescription": "Panneau solaire pliable Dokio 100W 18V avec regulateur 12V : recharge une batterie en camping, van ou cabanon. Note 4.6.",
+    "description": "Panneau solaire pliable Dokio 100W en 18V, livre avec son regulateur de charge 12V : il recharge une batterie de camping-car, de bateau, de van ou de cabanon la ou il n y a pas de prise. Se deplie au soleil, se replie en mallette a poignee et se transporte facilement. Surface resistante a la pluie, pieds inclinables pour capter au meilleur angle. Dokio est un fabricant etabli du solaire portable. Note 4.6.",
+    "features": [
+      "100W en 18V, regulateur de charge 12V inclus",
+      "Se plie en mallette a poignee, resistant a la pluie",
+      "Camping-car, van, bateau, cabanon"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007300601225.html",
+      "supplierSku": "AE-ITEM-1005007300601225",
+      "supplierPriceCents": 7739,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 11690,
+      "marginCents": 3951,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007300601225.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 77.39 EUR, boutique 116.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T21:51:31.690Z"
+    },
+    "price": 11690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007300601225.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007300601225 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Panneau solaire pliable Dokio 100W | Maxi Trouvaille",
+      "description": "Panneau solaire pliable Dokio 100W 18V avec regulateur 12V : recharge une batterie en camping, van ou cabanon. Note 4.6.",
+      "h1": "Panneau solaire pliable Dokio 100W",
+      "h2": "Pourquoi choisir Panneau solaire pliable Dokio 100W",
+      "keywords": [
+        "panneau",
+        "solaire",
+        "pliable",
+        "dokio",
+        "100w",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Panneau solaire pliable Dokio 100W - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Panneau solaire pliable Dokio 100W - outillage Maxi Trouvaille",
+    "compareAtPrice": 15790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_station_electrique_portable_allpowers_r6_001",
+    "slug": "station-electrique-portable-allpowers-r600",
+    "name": "Station électrique portable ALLPOWERS R600",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/station-electrique-portable-allpowers-r600-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/station-electrique-portable-allpowers-r600-photo-1.webp",
+      "/uploads/quick-products/station-electrique-portable-allpowers-r600-photo-2.webp",
+      "/uploads/quick-products/station-electrique-portable-allpowers-r600-photo-3.webp",
+      "/uploads/quick-products/station-electrique-portable-allpowers-r600-photo-4.webp",
+      "/uploads/quick-products/station-electrique-portable-allpowers-r600-photo-5.webp",
+      "/uploads/quick-products/station-electrique-portable-allpowers-r600-photo-6.webp"
+    ],
+    "shortDescription": "Station d energie ALLPOWERS R600 : 299 Wh en batterie LiFePO4, deux prises 220V 600W. Camping, van, coupures de courant. Note 4.7.",
+    "description": "Station d energie portable ALLPOWERS R600 avec batterie LiFePO4 de 299 Wh : deux vraies prises 220V de 600W, plus des sorties USB-C, USB-A et 12V. Elle fait tourner un ordinateur portable, un frigo de camping, une lampe, un ventilateur ou recharge des telephones toute une soiree, en camping comme pendant une coupure de courant. La chimie LiFePO4 tient plusieurs milliers de cycles la ou les batteries classiques faiblissent, et elle se recharge sur secteur, en voiture ou avec un panneau solaire. Note 4.7 sur plus de 1 500 avis, 10 000 ventes.",
+    "features": [
+      "299 Wh, deux prises 220V de 600W",
+      "Batterie LiFePO4 : des milliers de cycles",
+      "Recharge secteur, voiture ou panneau solaire"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007425600001.html",
+      "supplierSku": "AE-ITEM-1005007425600001",
+      "supplierPriceCents": 17469,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 20990,
+      "marginCents": 3521,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007425600001.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 20,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 174.69 EUR, boutique 209.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T21:51:32.381Z"
+    },
+    "price": 20990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007425600001.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007425600001 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Station électrique portable ALLPOWERS R600 | Maxi Trouvaille",
+      "description": "Station d energie ALLPOWERS R600 : 299 Wh en batterie LiFePO4, deux prises 220V 600W. Camping, van, coupures de courant. Note 4.7.",
+      "h1": "Station électrique portable ALLPOWERS R600",
+      "h2": "Pourquoi choisir Station électrique portable ALLPOWERS R600",
+      "keywords": [
+        "station",
+        "electrique",
+        "portable",
+        "allpowers",
+        "r600",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Station électrique portable ALLPOWERS R600 - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Station électrique portable ALLPOWERS R600 - outillage Maxi Trouvaille",
+    "compareAtPrice": 28390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_pistolet_massage_musculaire_percussion_001",
+    "slug": "pistolet-massage-musculaire-percussion",
+    "name": "Pistolet de massage musculaire à percussion",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/pistolet-massage-musculaire-percussion-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/pistolet-massage-musculaire-percussion-photo-1.webp",
+      "/uploads/quick-products/pistolet-massage-musculaire-percussion-photo-2.webp",
+      "/uploads/quick-products/pistolet-massage-musculaire-percussion-photo-3.webp",
+      "/uploads/quick-products/pistolet-massage-musculaire-percussion-photo-4.webp",
+      "/uploads/quick-products/pistolet-massage-musculaire-percussion-photo-5.webp",
+      "/uploads/quick-products/pistolet-massage-musculaire-percussion-photo-6.webp"
+    ],
+    "shortDescription": "Pistolet de massage a percussion : denoue les nuques raides, les dos et les jambes lourdes apres le sport ou le bureau. Note 4.5.",
+    "description": "Pistolet de massage a percussion avec plusieurs tetes interchangeables : il travaille en profondeur la nuque raide, le haut du dos, les cuisses et les mollets, apres une seance de sport comme apres une journee assise. Plusieurs vitesses pour passer d un echauffement doux a un travail profond, moteur silencieux qui ne gene personne, batterie rechargeable et poignee qui permet d atteindre son propre dos. Note 4.5 sur plus de 1 300 avis, 10 000 ventes.",
+    "features": [
+      "Plusieurs vitesses, du doux au travail profond",
+      "Tetes interchangeables : nuque, dos, cuisses, mollets",
+      "Moteur silencieux, batterie rechargeable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007343958003.html",
+      "supplierSku": "AE-ITEM-1005007343958003",
+      "supplierPriceCents": 2059,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3390,
+      "marginCents": 1331,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007343958003.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 65,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 20.59 EUR, boutique 33.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T21:51:32.826Z"
+    },
+    "price": 3390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007343958003.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007343958003 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Pistolet de massage musculaire à percussion | Maxi Trouvaille",
+      "description": "Pistolet de massage a percussion : denoue les nuques raides, les dos et les jambes lourdes apres le sport ou le bureau. Note 4.5.",
+      "h1": "Pistolet de massage musculaire à percussion",
+      "h2": "Pourquoi choisir Pistolet de massage musculaire à percussion",
+      "keywords": [
+        "pistolet",
+        "massage",
+        "musculaire",
+        "percussion",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Pistolet de massage musculaire à percussion - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Pistolet de massage musculaire à percussion - beaute Maxi Trouvaille",
+    "compareAtPrice": 4590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
