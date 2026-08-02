@@ -28455,5 +28455,588 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260802_niveau_laser_12_lignes_vert_autonivelant_001",
+    "slug": "niveau-laser-12-lignes-vert-autonivelant",
+    "name": "Niveau laser 12 lignes vert auto-nivelant",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/niveau-laser-12-lignes-vert-autonivelant-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/niveau-laser-12-lignes-vert-autonivelant-photo-1.webp",
+      "/uploads/quick-products/niveau-laser-12-lignes-vert-autonivelant-photo-2.webp",
+      "/uploads/quick-products/niveau-laser-12-lignes-vert-autonivelant-photo-3.webp",
+      "/uploads/quick-products/niveau-laser-12-lignes-vert-autonivelant-photo-4.webp",
+      "/uploads/quick-products/niveau-laser-12-lignes-vert-autonivelant-photo-5.webp",
+      "/uploads/quick-products/niveau-laser-12-lignes-vert-autonivelant-photo-6.webp"
+    ],
+    "shortDescription": "Niveau laser 3D 12 lignes vertes, auto-nivelant : pose de carrelage, cloisons, etageres et cadres parfaitement droits. Note 4.9.",
+    "description": "Niveau laser 3D a 12 lignes vertes qui projette les horizontales et les verticales sur 360 degres : le carrelage, les cloisons, les etageres, les meubles de cuisine et les cadres se posent droits du premier coup. Auto-nivelant, il corrige lui-meme les petits defauts d assise et alerte quand la pente est trop forte. Le faisceau vert reste visible bien plus loin que le rouge, y compris en plein jour. Support magnetique orientable et batterie rechargeable. Note 4.9 sur plus de 1 100 avis, 10 000 ventes.",
+    "features": [
+      "12 lignes vertes sur 360 degres, visibles de loin",
+      "Auto-nivelant : corrige seul les petits defauts",
+      "Support magnetique orientable, batterie rechargeable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007805660107.html",
+      "supplierSku": "AE-ITEM-1005007805660107",
+      "supplierPriceCents": 3939,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6390,
+      "marginCents": 2451,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007805660107.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 62,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 39.39 EUR, boutique 63.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:18:59.019Z"
+    },
+    "price": 6390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007805660107.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007805660107 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Niveau laser 12 lignes vert auto-nivelant | Maxi Trouvaille",
+      "description": "Niveau laser 3D 12 lignes vertes, auto-nivelant : pose de carrelage, cloisons, etageres et cadres parfaitement droits. Note 4.9.",
+      "h1": "Niveau laser 12 lignes vert auto-nivelant",
+      "h2": "Pourquoi choisir Niveau laser 12 lignes vert auto-nivelant",
+      "keywords": [
+        "niveau",
+        "laser",
+        "lignes",
+        "vert",
+        "autonivelant",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Niveau laser 12 lignes vert auto-nivelant - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Niveau laser 12 lignes vert auto-nivelant - outillage Maxi Trouvaille",
+    "compareAtPrice": 8690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_machine_sous_vide_alimentaire_coupe_sac_001",
+    "slug": "machine-sous-vide-alimentaire-coupe-sac",
+    "name": "Machine sous vide alimentaire avec coupe-sac",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/machine-sous-vide-alimentaire-coupe-sac-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/machine-sous-vide-alimentaire-coupe-sac-photo-1.webp",
+      "/uploads/quick-products/machine-sous-vide-alimentaire-coupe-sac-photo-2.webp",
+      "/uploads/quick-products/machine-sous-vide-alimentaire-coupe-sac-photo-3.webp",
+      "/uploads/quick-products/machine-sous-vide-alimentaire-coupe-sac-photo-4.webp",
+      "/uploads/quick-products/machine-sous-vide-alimentaire-coupe-sac-photo-5.webp",
+      "/uploads/quick-products/machine-sous-vide-alimentaire-coupe-sac-photo-6.webp"
+    ],
+    "shortDescription": "Machine a mettre sous vide avec coupe-sac integre : les aliments tiennent plusieurs fois plus longtemps au frigo et au congelateur. Note 4.6.",
+    "description": "Machine de mise sous vide alimentaire a commande tactile : en retirant l air, elle multiplie la duree de conservation de la viande, du poisson, du fromage et des restes, et supprime le givre au congelateur. Deux modes, sec et humide, pour s adapter aux aliments juteux, et un coupe-sac integre qui permet de faire des sachets a la bonne longueur sans ciseaux. Elle rentabilise les achats en gros et evite de jeter. Note 4.6 sur plus de 800 avis, 5 000 ventes.",
+    "features": [
+      "Conservation multipliee, plus de givre au congelateur",
+      "Modes sec et humide selon les aliments",
+      "Coupe-sac integre, commande tactile"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009123478507.html",
+      "supplierSku": "AE-ITEM-1005009123478507",
+      "supplierPriceCents": 3099,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 4990,
+      "marginCents": 1891,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009123478507.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 61,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 30.99 EUR, boutique 49.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:19:00.091Z"
+    },
+    "price": 4990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009123478507.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009123478507 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Machine sous vide alimentaire avec coupe-sac | Maxi Trouvaille",
+      "description": "Machine a mettre sous vide avec coupe-sac integre : les aliments tiennent plusieurs fois plus longtemps au frigo et au congelateur. Note 4.6.",
+      "h1": "Machine sous vide alimentaire avec coupe-sac",
+      "h2": "Pourquoi choisir Machine sous vide alimentaire avec coupe-sac",
+      "keywords": [
+        "machine",
+        "sous",
+        "vide",
+        "alimentaire",
+        "coupe",
+        "sac",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Machine sous vide alimentaire avec coupe-sac - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Machine sous vide alimentaire avec coupe-sac - cuisine Maxi Trouvaille",
+    "compareAtPrice": 6790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_polisseuse_voiture_sans_fil_12v_001",
+    "slug": "polisseuse-voiture-sans-fil-12v",
+    "name": "Polisseuse voiture sans fil 12V",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/polisseuse-voiture-sans-fil-12v-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/polisseuse-voiture-sans-fil-12v-photo-1.webp",
+      "/uploads/quick-products/polisseuse-voiture-sans-fil-12v-photo-2.webp",
+      "/uploads/quick-products/polisseuse-voiture-sans-fil-12v-photo-3.webp",
+      "/uploads/quick-products/polisseuse-voiture-sans-fil-12v-photo-4.webp",
+      "/uploads/quick-products/polisseuse-voiture-sans-fil-12v-photo-5.webp",
+      "/uploads/quick-products/polisseuse-voiture-sans-fil-12v-photo-6.webp"
+    ],
+    "shortDescription": "Polisseuse orbitale sans fil : efface les micro-rayures et redonne de la brillance a la carrosserie, sans compresseur. Note 4.8.",
+    "description": "Polisseuse orbitale sans fil 12V pour la carrosserie : le mouvement excentre lisse les micro-rayures, efface les traces de lavage et fait ressortir la brillance de la peinture, avec beaucoup moins de risque de bruler le vernis qu une polisseuse rotative classique. Plusieurs vitesses, tampons de finition inclus, batterie rechargeable pour travailler dans la rue ou le garage sans rallonge. Sert aussi sur les phares ternis et les jantes. Note 4.8 sur plus de 600 avis, 5 000 ventes.",
+    "features": [
+      "Mouvement orbital : peu de risque pour le vernis",
+      "Sans fil, batterie rechargeable, plusieurs vitesses",
+      "Carrosserie, phares ternis, jantes"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007443390537.html",
+      "supplierSku": "AE-ITEM-1005007443390537",
+      "supplierPriceCents": 6139,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 9290,
+      "marginCents": 3151,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007443390537.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 61.39 EUR, boutique 92.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:19:01.049Z"
+    },
+    "price": 9290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007443390537.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007443390537 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Polisseuse voiture sans fil 12V | Maxi Trouvaille",
+      "description": "Polisseuse orbitale sans fil : efface les micro-rayures et redonne de la brillance a la carrosserie, sans compresseur. Note 4.8.",
+      "h1": "Polisseuse voiture sans fil 12V",
+      "h2": "Pourquoi choisir Polisseuse voiture sans fil 12V",
+      "keywords": [
+        "polisseuse",
+        "voiture",
+        "sans",
+        "fil",
+        "12v",
+        "dropshipping-auto-moto"
+      ],
+      "imageAlt": "Polisseuse voiture sans fil 12V - auto-moto Maxi Trouvaille"
+    },
+    "imageAlt": "Polisseuse voiture sans fil 12V - auto-moto Maxi Trouvaille",
+    "compareAtPrice": 12590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_bouilloire_col_de_cygne_thermostat_001",
+    "slug": "bouilloire-col-de-cygne-thermostat",
+    "name": "Bouilloire col de cygne à thermostat",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/bouilloire-col-de-cygne-thermostat-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/bouilloire-col-de-cygne-thermostat-photo-1.webp",
+      "/uploads/quick-products/bouilloire-col-de-cygne-thermostat-photo-2.webp",
+      "/uploads/quick-products/bouilloire-col-de-cygne-thermostat-photo-3.webp",
+      "/uploads/quick-products/bouilloire-col-de-cygne-thermostat-photo-4.webp",
+      "/uploads/quick-products/bouilloire-col-de-cygne-thermostat-photo-5.webp",
+      "/uploads/quick-products/bouilloire-col-de-cygne-thermostat-photo-6.webp"
+    ],
+    "shortDescription": "Bouilloire a col de cygne 1200W avec reglage de temperature : le bec fin permet de verser lentement pour le cafe filtre et le the. Note 4.6.",
+    "description": "Bouilloire electrique a col de cygne de 1200W avec controle precis de la temperature : le bec fin verse un filet regulier, ce qui change tout pour un cafe filtre reussi, et le thermostat evite de bruler un the vert avec de l eau trop chaude. Maintien au chaud, affichage de la temperature en direct, corps en inox et base pivotante. L accessoire des amateurs de cafe de specialite. Note 4.6.",
+    "features": [
+      "Bec fin col de cygne : versement lent et precis",
+      "Temperature reglable au degre, affichage en direct",
+      "Maintien au chaud, corps inox, base pivotante"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007130153724.html",
+      "supplierSku": "AE-ITEM-1005007130153724",
+      "supplierPriceCents": 5969,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 8990,
+      "marginCents": 3021,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007130153724.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (900+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 59.69 EUR, boutique 89.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:19:01.804Z"
+    },
+    "price": 8990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007130153724.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007130153724 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Bouilloire col de cygne à thermostat | Maxi Trouvaille",
+      "description": "Bouilloire a col de cygne 1200W avec reglage de temperature : le bec fin permet de verser lentement pour le cafe filtre et le the. Note 4.6.",
+      "h1": "Bouilloire col de cygne à thermostat",
+      "h2": "Pourquoi choisir Bouilloire col de cygne à thermostat",
+      "keywords": [
+        "bouilloire",
+        "col",
+        "cygne",
+        "thermostat",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Bouilloire col de cygne à thermostat - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Bouilloire col de cygne à thermostat - cuisine Maxi Trouvaille",
+    "compareAtPrice": 12190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_montre_connectee_enfant_gps_4g_sos_001",
+    "slug": "montre-connectee-enfant-gps-4g-sos",
+    "name": "Montre connectée enfant GPS 4G avec SOS",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/montre-connectee-enfant-gps-4g-sos-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/montre-connectee-enfant-gps-4g-sos-photo-1.webp",
+      "/uploads/quick-products/montre-connectee-enfant-gps-4g-sos-photo-2.webp",
+      "/uploads/quick-products/montre-connectee-enfant-gps-4g-sos-photo-3.webp",
+      "/uploads/quick-products/montre-connectee-enfant-gps-4g-sos-photo-4.webp",
+      "/uploads/quick-products/montre-connectee-enfant-gps-4g-sos-photo-5.webp",
+      "/uploads/quick-products/montre-connectee-enfant-gps-4g-sos-photo-6.webp"
+    ],
+    "shortDescription": "Montre enfant 4G avec GPS, appel video et bouton SOS : vous savez ou il est et il peut vous joindre. Etanche IP67. Note 4.9.",
+    "description": "Montre connectee pour enfant en 4G avec carte SIM : elle passe et recoit les appels, y compris en video, et vous permet de localiser votre enfant en temps reel depuis votre telephone. Bouton SOS qui appelle les numeros enregistres en cas de probleme, liste blanche de contacts pour que personne d autre ne puisse le joindre, appareil photo et etancheite IP67. Une alternative rassurante au smartphone, sans reseaux sociaux ni navigation internet. Note 4.9 sur plus de 400 avis, 3 000 ventes.",
+    "features": [
+      "GPS en temps reel + appels et appel video 4G",
+      "Bouton SOS et liste blanche de contacts",
+      "Etanche IP67, appareil photo, sans reseaux sociaux"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007171135840.html",
+      "supplierSku": "AE-ITEM-1005007171135840",
+      "supplierPriceCents": 4519,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6790,
+      "marginCents": 2271,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007171135840.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (3000+ ventes, visuels officiels importes).",
+      "markupPercent": 50,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 45.19 EUR, boutique 67.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:19:02.584Z"
+    },
+    "price": 6790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007171135840.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007171135840 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Montre connectée enfant GPS 4G avec SOS | Maxi Trouvaille",
+      "description": "Montre enfant 4G avec GPS, appel video et bouton SOS : vous savez ou il est et il peut vous joindre. Etanche IP67. Note 4.9.",
+      "h1": "Montre connectée enfant GPS 4G avec SOS",
+      "h2": "Pourquoi choisir Montre connectée enfant GPS 4G avec SOS",
+      "keywords": [
+        "montre",
+        "connectee",
+        "enfant",
+        "gps",
+        "sos",
+        "dropshipping-enfant"
+      ],
+      "imageAlt": "Montre connectée enfant GPS 4G avec SOS - enfant Maxi Trouvaille"
+    },
+    "imageAlt": "Montre connectée enfant GPS 4G avec SOS - enfant Maxi Trouvaille",
+    "compareAtPrice": 9190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_station_charge_3en1_magnetique_sans_fil_001",
+    "slug": "station-charge-3en1-magnetique-sans-fil",
+    "name": "Station de charge 3 en 1 magnétique sans fil",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/station-charge-3en1-magnetique-sans-fil-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/station-charge-3en1-magnetique-sans-fil-photo-1.webp",
+      "/uploads/quick-products/station-charge-3en1-magnetique-sans-fil-photo-2.webp",
+      "/uploads/quick-products/station-charge-3en1-magnetique-sans-fil-photo-3.webp",
+      "/uploads/quick-products/station-charge-3en1-magnetique-sans-fil-photo-4.webp",
+      "/uploads/quick-products/station-charge-3en1-magnetique-sans-fil-photo-5.webp",
+      "/uploads/quick-products/station-charge-3en1-magnetique-sans-fil-photo-6.webp"
+    ],
+    "shortDescription": "Station de charge magnetique 3 en 1 : telephone, montre connectee et ecouteurs sur un seul socle. Note 4.9 sur plus de 1 500 avis.",
+    "description": "Station de charge sans fil 3 en 1 avec fixation magnetique : le telephone se colle et se cale a l angle voulu, la montre connectee et les ecouteurs se posent sur leurs emplacements dedies. Un seul cable derriere le meuble au lieu de trois, une seule prise occupee, et tout est charge le matin. Se replie pour tenir dans un sac de voyage. Compatible iPhone MagSafe, Apple Watch et AirPods, ainsi que les telephones Android compatibles avec un anneau magnetique. Note 4.9 sur plus de 1 500 avis, 10 000 ventes.",
+    "features": [
+      "Telephone + montre + ecouteurs sur un seul socle",
+      "Fixation magnetique, angle reglable",
+      "Se replie pour le voyage, un seul cable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006860919298.html",
+      "supplierSku": "AE-ITEM-1005006860919298",
+      "supplierPriceCents": 2179,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3490,
+      "marginCents": 1311,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006860919298.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 60,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 21.79 EUR, boutique 34.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T22:19:03.473Z"
+    },
+    "price": 3490,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006860919298.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006860919298 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Station de charge 3 en 1 magnétique sans fil | Maxi Trouvaille",
+      "description": "Station de charge magnetique 3 en 1 : telephone, montre connectee et ecouteurs sur un seul socle. Note 4.9 sur plus de 1 500 avis.",
+      "h1": "Station de charge 3 en 1 magnétique sans fil",
+      "h2": "Pourquoi choisir Station de charge 3 en 1 magnétique sans fil",
+      "keywords": [
+        "station",
+        "charge",
+        "3en1",
+        "magnetique",
+        "sans",
+        "fil",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Station de charge 3 en 1 magnétique sans fil - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Station de charge 3 en 1 magnétique sans fil - accessoires Maxi Trouvaille",
+    "compareAtPrice": 4790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
