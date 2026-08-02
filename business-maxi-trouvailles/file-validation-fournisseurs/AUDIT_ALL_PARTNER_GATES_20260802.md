@@ -1,13 +1,13 @@
 # Audit all partner publication gates
 
-Date: 2026-08-02T21:51:39.127Z
+Date: 2026-08-02T22:00:01.025Z
 
 Status: OK
 
 ## Summary
 
-- Partner products analyzed: 264
-- Published partner products: 205
+- Partner products analyzed: 272
+- Published partner products: 213
 - Draft/HOLD partner products: 59
 - Failure count: 0
 - Warning count: 0
@@ -22,9 +22,9 @@ Status: OK
 
 ## Counts
 
-- By origin: {"src/lib/catalog.ts":4,"data/quick-products.json":260}
-- By status: {"draft":59,"published":205}
-- By category: {"dropshipping-high-tech":30,"dropshipping-accessoires":29,"dropshipping-maison":31,"dropshipping-auto-moto":21,"dropshipping-cuisine":31,"dropshipping-enfant":20,"dropshipping-beaute":24,"dropshipping-animaux":23,"dropshipping-mode":20,"dropshipping-outillage":21,"dropshipping-gaming":14}
+- By origin: {"src/lib/catalog.ts":4,"data/quick-products.json":268}
+- By status: {"draft":59,"published":213}
+- By category: {"dropshipping-high-tech":31,"dropshipping-accessoires":29,"dropshipping-maison":32,"dropshipping-auto-moto":21,"dropshipping-cuisine":32,"dropshipping-enfant":21,"dropshipping-beaute":24,"dropshipping-animaux":24,"dropshipping-mode":21,"dropshipping-outillage":22,"dropshipping-gaming":15}
 
 ## Safety
 

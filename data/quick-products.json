@@ -26619,5 +26619,780 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260802_telemetre_laser_mileseey_100m_001",
+    "slug": "telemetre-laser-mileseey-100m",
+    "name": "Télémètre laser MILESEEY 100 m",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/telemetre-laser-mileseey-100m-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/telemetre-laser-mileseey-100m-photo-1.webp",
+      "/uploads/quick-products/telemetre-laser-mileseey-100m-photo-2.webp",
+      "/uploads/quick-products/telemetre-laser-mileseey-100m-photo-3.webp",
+      "/uploads/quick-products/telemetre-laser-mileseey-100m-photo-4.webp",
+      "/uploads/quick-products/telemetre-laser-mileseey-100m-photo-5.webp",
+      "/uploads/quick-products/telemetre-laser-mileseey-100m-photo-6.webp"
+    ],
+    "shortDescription": "Metre laser 100 m precis a 2 mm : mesure une piece seul, en une seconde, sans decametre ni escabeau. Note 4.9.",
+    "description": "Telemetre laser MILESEEY portee 100 m avec precision de plus ou moins 2 mm : on vise, on appuie, la distance s affiche. Fini le decametre qui se plie et les mesures a deux. Il calcule aussi les surfaces et les volumes tout seul, garde les dernieres mesures en memoire et fonctionne en continu pour ajuster un meuble ou une cloison. Indice IP54 contre la poussiere et les projections, il tient dans une poche. Note 4.9 sur plus de 1 000 avis.",
+    "features": [
+      "Portee 100 m, precision +/- 2 mm",
+      "Calcule surfaces et volumes automatiquement",
+      "Mesure seul, sans decametre, resistant IP54"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005796007366.html",
+      "supplierSku": "AE-ITEM-1005005796007366",
+      "supplierPriceCents": 1649,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3690,
+      "marginCents": 2041,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005796007366.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 124,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 16.49 EUR, boutique 36.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T21:59:43.546Z"
+    },
+    "price": 3690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005796007366.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005796007366 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Télémètre laser MILESEEY 100 m | Maxi Trouvaille",
+      "description": "Metre laser 100 m precis a 2 mm : mesure une piece seul, en une seconde, sans decametre ni escabeau. Note 4.9.",
+      "h1": "Télémètre laser MILESEEY 100 m",
+      "h2": "Pourquoi choisir Télémètre laser MILESEEY 100 m",
+      "keywords": [
+        "telemetre",
+        "laser",
+        "mileseey",
+        "100m",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Télémètre laser MILESEEY 100 m - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Télémètre laser MILESEEY 100 m - outillage Maxi Trouvaille",
+    "compareAtPrice": 4990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_machine_expresso_portable_sans_fil_3en1_001",
+    "slug": "machine-expresso-portable-sans-fil-3en1",
+    "name": "Machine à expresso portable sans fil 3 en 1",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/machine-expresso-portable-sans-fil-3en1-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/machine-expresso-portable-sans-fil-3en1-photo-1.webp",
+      "/uploads/quick-products/machine-expresso-portable-sans-fil-3en1-photo-2.webp",
+      "/uploads/quick-products/machine-expresso-portable-sans-fil-3en1-photo-3.webp",
+      "/uploads/quick-products/machine-expresso-portable-sans-fil-3en1-photo-4.webp",
+      "/uploads/quick-products/machine-expresso-portable-sans-fil-3en1-photo-5.webp",
+      "/uploads/quick-products/machine-expresso-portable-sans-fil-3en1-photo-6.webp"
+    ],
+    "shortDescription": "Cafetiere expresso portable sans fil : capsules ou cafe moulu, chauffe l eau elle-meme. Voiture, bureau, camping. Note 4.6.",
+    "description": "Machine a expresso portable sans fil compatible capsules et cafe moulu : elle chauffe l eau elle-meme et monte en pression pour sortir un vrai expresso creme, sans branchement secteur. Elle se recharge en USB et s emmene en voiture, au bureau, en van, en camping ou a l hotel. Trois usages en un appareil, nettoyage rapide, format bouteille qui tient dans un porte-gobelet. Note 4.6 sur plus de 4 000 avis, 10 000 ventes.",
+    "features": [
+      "Capsules ou cafe moulu, vrai expresso creme",
+      "Chauffe l eau seule, sans prise secteur",
+      "Format bouteille : voiture, bureau, camping"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007317504326.html",
+      "supplierSku": "AE-ITEM-1005007317504326",
+      "supplierPriceCents": 4059,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6090,
+      "marginCents": 2031,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007317504326.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 50,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 40.59 EUR, boutique 60.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T21:59:44.314Z"
+    },
+    "price": 6090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007317504326.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007317504326 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Machine à expresso portable sans fil 3 en 1 | Maxi Trouvaille",
+      "description": "Cafetiere expresso portable sans fil : capsules ou cafe moulu, chauffe l eau elle-meme. Voiture, bureau, camping. Note 4.6.",
+      "h1": "Machine à expresso portable sans fil 3 en 1",
+      "h2": "Pourquoi choisir Machine à expresso portable sans fil 3 en 1",
+      "keywords": [
+        "machine",
+        "expresso",
+        "portable",
+        "sans",
+        "fil",
+        "3en1",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Machine à expresso portable sans fil 3 en 1 - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Machine à expresso portable sans fil 3 en 1 - cuisine Maxi Trouvaille",
+    "compareAtPrice": 8290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_robot_lave_vitres_telecommande_001",
+    "slug": "robot-lave-vitres-telecommande",
+    "name": "Robot lave-vitres avec télécommande",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/robot-lave-vitres-telecommande-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/robot-lave-vitres-telecommande-photo-1.webp",
+      "/uploads/quick-products/robot-lave-vitres-telecommande-photo-2.webp",
+      "/uploads/quick-products/robot-lave-vitres-telecommande-photo-3.webp",
+      "/uploads/quick-products/robot-lave-vitres-telecommande-photo-4.webp",
+      "/uploads/quick-products/robot-lave-vitres-telecommande-photo-5.webp",
+      "/uploads/quick-products/robot-lave-vitres-telecommande-photo-6.webp"
+    ],
+    "shortDescription": "Robot lave-vitres a telecommande : il grimpe seul sur la vitre et la nettoie des deux cotes, meme en hauteur. Note 4.9.",
+    "description": "Robot lave-vitres qui se colle a la vitre par aspiration et la parcourt tout seul : plus besoin de monter sur un escabeau ni de se pencher par la fenetre. Il detecte les bords, choisit son parcours, et se pilote a la telecommande si on veut insister sur une zone. Securite anti-chute avec cable de retenue et batterie de secours qui le maintient colle en cas de coupure de courant. Convient aux fenetres, baies vitrees, miroirs et parois de douche. Note 4.9 sur plus de 1 600 avis, 10 000 ventes.",
+    "features": [
+      "Grimpe et nettoie la vitre tout seul",
+      "Detection des bords + pilotage telecommande",
+      "Securite anti-chute : cable et batterie de secours"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007990770419.html",
+      "supplierSku": "AE-ITEM-1005007990770419",
+      "supplierPriceCents": 5239,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 7890,
+      "marginCents": 2651,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007990770419.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 52.39 EUR, boutique 78.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T21:59:45.092Z"
+    },
+    "price": 7890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007990770419.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007990770419 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Robot lave-vitres avec télécommande | Maxi Trouvaille",
+      "description": "Robot lave-vitres a telecommande : il grimpe seul sur la vitre et la nettoie des deux cotes, meme en hauteur. Note 4.9.",
+      "h1": "Robot lave-vitres avec télécommande",
+      "h2": "Pourquoi choisir Robot lave-vitres avec télécommande",
+      "keywords": [
+        "robot",
+        "lave",
+        "vitres",
+        "telecommande",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Robot lave-vitres avec télécommande - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Robot lave-vitres avec télécommande - maison Maxi Trouvaille",
+    "compareAtPrice": 10690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_sac_a_dos_antivol_port_usb_etanche_001",
+    "slug": "sac-a-dos-antivol-port-usb-etanche",
+    "name": "Sac à dos antivol avec port USB",
+    "categoryId": "dropshipping-mode",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/sac-a-dos-antivol-port-usb-etanche-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/sac-a-dos-antivol-port-usb-etanche-photo-1.webp",
+      "/uploads/quick-products/sac-a-dos-antivol-port-usb-etanche-photo-2.webp",
+      "/uploads/quick-products/sac-a-dos-antivol-port-usb-etanche-photo-3.webp",
+      "/uploads/quick-products/sac-a-dos-antivol-port-usb-etanche-photo-4.webp",
+      "/uploads/quick-products/sac-a-dos-antivol-port-usb-etanche-photo-5.webp",
+      "/uploads/quick-products/sac-a-dos-antivol-port-usb-etanche-photo-6.webp"
+    ],
+    "shortDescription": "Sac a dos antivol etanche avec port USB : fermetures dissimulees, compartiment ordinateur 15 pouces et recharge en marchant. Note 4.6.",
+    "description": "Sac a dos antivol avec fermetures eclair dissimulees contre le dos : impossible d y entrer sans que vous le sentiez, meme dans le metro ou dans une file. Port USB exterieur relie a une poche interieure pour recharger le telephone en marchant, compartiment rembourre pour un ordinateur portable jusqu a 15 pouces, tissu deperlant qui protege de la pluie et bretelles rembourrees. Le sac des trajets quotidiens comme des voyages. Note 4.6.",
+    "features": [
+      "Fermetures dissimulees : anti-pickpocket",
+      "Port USB : recharge le telephone en marchant",
+      "Compartiment ordinateur 15 pouces, tissu deperlant"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006394746889.html",
+      "supplierSku": "AE-ITEM-1005006394746889",
+      "supplierPriceCents": 1499,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3390,
+      "marginCents": 1891,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006394746889.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (445+ ventes, visuels officiels importes).",
+      "markupPercent": 126,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 14.99 EUR, boutique 33.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T21:59:46.840Z"
+    },
+    "price": 3390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006394746889.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006394746889 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Sac à dos antivol avec port USB | Maxi Trouvaille",
+      "description": "Sac a dos antivol etanche avec port USB : fermetures dissimulees, compartiment ordinateur 15 pouces et recharge en marchant. Note 4.6.",
+      "h1": "Sac à dos antivol avec port USB",
+      "h2": "Pourquoi choisir Sac à dos antivol avec port USB",
+      "keywords": [
+        "sac",
+        "dos",
+        "antivol",
+        "port",
+        "usb",
+        "etanche",
+        "dropshipping-mode"
+      ],
+      "imageAlt": "Sac à dos antivol avec port USB - mode Maxi Trouvaille"
+    },
+    "imageAlt": "Sac à dos antivol avec port USB - mode Maxi Trouvaille",
+    "compareAtPrice": 4590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_manette_8bitdo_ultimate_2c_sans_fil_001",
+    "slug": "manette-8bitdo-ultimate-2c-sans-fil",
+    "name": "Manette 8BitDo Ultimate 2C sans fil",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/manette-8bitdo-ultimate-2c-sans-fil-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/manette-8bitdo-ultimate-2c-sans-fil-photo-1.webp",
+      "/uploads/quick-products/manette-8bitdo-ultimate-2c-sans-fil-photo-2.webp",
+      "/uploads/quick-products/manette-8bitdo-ultimate-2c-sans-fil-photo-3.webp",
+      "/uploads/quick-products/manette-8bitdo-ultimate-2c-sans-fil-photo-4.webp",
+      "/uploads/quick-products/manette-8bitdo-ultimate-2c-sans-fil-photo-5.webp",
+      "/uploads/quick-products/manette-8bitdo-ultimate-2c-sans-fil-photo-6.webp"
+    ],
+    "shortDescription": "Manette 8BitDo Ultimate 2C sans fil, joysticks a effet Hall et gachettes ajustables. PC, Steam, Android. Note 4.9.",
+    "description": "Manette 8BitDo Ultimate 2C : joysticks et gachettes a effet Hall, sans usure ni derive, prise en main soignee et logiciel dedie pour remapper les boutons, regler les zones mortes et enregistrer des profils. Connexion sans fil 2.4 GHz a faible latence ou USB-C filaire, compatible PC Windows, Steam, Android et Raspberry Pi. 8BitDo est une reference respectee chez les joueurs pour la finition de ses manettes. Note 4.9 sur plus de 1 100 avis.",
+    "features": [
+      "8BitDo : joysticks et gachettes a effet Hall",
+      "Sans fil 2.4 GHz faible latence ou USB-C",
+      "Logiciel de remappage et profils personnalises"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006593373628.html",
+      "supplierSku": "AE-ITEM-1005006593373628",
+      "supplierPriceCents": 2399,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3890,
+      "marginCents": 1491,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006593373628.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 62,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 23.99 EUR, boutique 38.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T21:59:47.478Z"
+    },
+    "price": 3890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006593373628.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006593373628 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Manette 8BitDo Ultimate 2C sans fil | Maxi Trouvaille",
+      "description": "Manette 8BitDo Ultimate 2C sans fil, joysticks a effet Hall et gachettes ajustables. PC, Steam, Android. Note 4.9.",
+      "h1": "Manette 8BitDo Ultimate 2C sans fil",
+      "h2": "Pourquoi choisir Manette 8BitDo Ultimate 2C sans fil",
+      "keywords": [
+        "manette",
+        "8bitdo",
+        "ultimate",
+        "sans",
+        "fil",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Manette 8BitDo Ultimate 2C sans fil - gaming Maxi Trouvaille"
+    },
+    "imageAlt": "Manette 8BitDo Ultimate 2C sans fil - gaming Maxi Trouvaille",
+    "compareAtPrice": 5290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_tapis_de_peinture_silicone_enfant_001",
+    "slug": "tapis-de-peinture-silicone-enfant",
+    "name": "Tapis de peinture en silicone pour enfant",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/tapis-de-peinture-silicone-enfant-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/tapis-de-peinture-silicone-enfant-photo-1.webp",
+      "/uploads/quick-products/tapis-de-peinture-silicone-enfant-photo-2.webp",
+      "/uploads/quick-products/tapis-de-peinture-silicone-enfant-photo-3.webp",
+      "/uploads/quick-products/tapis-de-peinture-silicone-enfant-photo-4.webp",
+      "/uploads/quick-products/tapis-de-peinture-silicone-enfant-photo-5.webp",
+      "/uploads/quick-products/tapis-de-peinture-silicone-enfant-photo-6.webp"
+    ],
+    "shortDescription": "Tapis de peinture en silicone avec palette, gobelet et porte-pinceaux : l enfant peint, la table reste propre. Note 4.9.",
+    "description": "Tapis de peinture en silicone souple avec palette moulee, gobelet a eau et porte-pinceaux integres : l enfant peint librement, la peinture reste sur le tapis et la table ne prend rien. Une fois sec, tout se decolle et se rince a l eau, ou passe au lave-vaisselle. Silicone alimentaire sans BPA, il se roule pour se ranger dans un tiroir. Utile aussi pour la pate a modeler et les activites collantes. Note 4.9.",
+    "features": [
+      "Palette, gobelet et porte-pinceaux integres",
+      "La peinture se decolle et se rince a l eau",
+      "Silicone alimentaire sans BPA, se roule pour ranger"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006865627188.html",
+      "supplierSku": "AE-ITEM-1005006865627188",
+      "supplierPriceCents": 1129,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2490,
+      "marginCents": 1361,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006865627188.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 121,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 11.29 EUR, boutique 24.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T21:59:48.067Z"
+    },
+    "price": 2490,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006865627188.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006865627188 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Tapis de peinture en silicone pour enfant | Maxi Trouvaille",
+      "description": "Tapis de peinture en silicone avec palette, gobelet et porte-pinceaux : l enfant peint, la table reste propre. Note 4.9.",
+      "h1": "Tapis de peinture en silicone pour enfant",
+      "h2": "Pourquoi choisir Tapis de peinture en silicone pour enfant",
+      "keywords": [
+        "tapis",
+        "peinture",
+        "silicone",
+        "enfant",
+        "dropshipping-enfant"
+      ],
+      "imageAlt": "Tapis de peinture en silicone pour enfant - enfant Maxi Trouvaille"
+    },
+    "imageAlt": "Tapis de peinture en silicone pour enfant - enfant Maxi Trouvaille",
+    "compareAtPrice": 3390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_tondeuse_pattes_chien_chat_silencieuse_001",
+    "slug": "tondeuse-pattes-chien-chat-silencieuse",
+    "name": "Tondeuse pattes pour chien et chat",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/tondeuse-pattes-chien-chat-silencieuse-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/tondeuse-pattes-chien-chat-silencieuse-photo-1.webp",
+      "/uploads/quick-products/tondeuse-pattes-chien-chat-silencieuse-photo-2.webp",
+      "/uploads/quick-products/tondeuse-pattes-chien-chat-silencieuse-photo-3.webp",
+      "/uploads/quick-products/tondeuse-pattes-chien-chat-silencieuse-photo-4.webp",
+      "/uploads/quick-products/tondeuse-pattes-chien-chat-silencieuse-photo-5.webp",
+      "/uploads/quick-products/tondeuse-pattes-chien-chat-silencieuse-photo-6.webp"
+    ],
+    "shortDescription": "Tondeuse silencieuse pour pattes et zones sensibles, avec lumiere LED et recharge USB-C : le chien ne s affole pas. Note 4.8.",
+    "description": "Tondeuse de finition pour les pattes, le museau et les zones sensibles : moteur silencieux qui n effraie pas l animal, la ou une tondeuse bruyante le fait fuir des la premiere seconde. Lumiere LED qui eclaire entre les coussinets, lame de 18 mm en acier qui ne tire pas le poil, ecran d autonomie et recharge USB-C. Corps etanche qui se rince apres usage. Note 4.8.",
+    "features": [
+      "Moteur silencieux : n effraie pas l animal",
+      "Lumiere LED pour voir entre les coussinets",
+      "Lame acier 18 mm, recharge USB-C, corps rincable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007516827794.html",
+      "supplierSku": "AE-ITEM-1005007516827794",
+      "supplierPriceCents": 779,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2190,
+      "marginCents": 1411,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007516827794.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 181,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 7.79 EUR, boutique 21.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T21:59:48.841Z"
+    },
+    "price": 2190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007516827794.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007516827794 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Tondeuse pattes pour chien et chat | Maxi Trouvaille",
+      "description": "Tondeuse silencieuse pour pattes et zones sensibles, avec lumiere LED et recharge USB-C : le chien ne s affole pas. Note 4.8.",
+      "h1": "Tondeuse pattes pour chien et chat",
+      "h2": "Pourquoi choisir Tondeuse pattes pour chien et chat",
+      "keywords": [
+        "tondeuse",
+        "pattes",
+        "chien",
+        "chat",
+        "silencieuse",
+        "dropshipping-animaux"
+      ],
+      "imageAlt": "Tondeuse pattes pour chien et chat - animaux Maxi Trouvaille"
+    },
+    "imageAlt": "Tondeuse pattes pour chien et chat - animaux Maxi Trouvaille",
+    "compareAtPrice": 2990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260802_montre_connectee_realme_watch_5_gps_001",
+    "slug": "montre-connectee-realme-watch-5-gps",
+    "name": "Montre connectée realme Watch 5 GPS",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/montre-connectee-realme-watch-5-gps-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/montre-connectee-realme-watch-5-gps-photo-1.webp",
+      "/uploads/quick-products/montre-connectee-realme-watch-5-gps-photo-2.webp",
+      "/uploads/quick-products/montre-connectee-realme-watch-5-gps-photo-3.webp",
+      "/uploads/quick-products/montre-connectee-realme-watch-5-gps-photo-4.webp",
+      "/uploads/quick-products/montre-connectee-realme-watch-5-gps-photo-5.webp",
+      "/uploads/quick-products/montre-connectee-realme-watch-5-gps-photo-6.webp"
+    ],
+    "shortDescription": "realme Watch 5 : ecran AMOLED 1,97 pouce, GPS, NFC, 14 jours d autonomie et etancheite IP68. Version mondiale. Note 4.9.",
+    "description": "Montre connectee realme Watch 5 en version mondiale : grand ecran AMOLED de 1,97 pouce lisible en plein soleil, GPS integre pour tracer les parcours sans emporter le telephone, puce NFC, Bluetooth 5.3 pour prendre les appels au poignet et jusqu a 14 jours d autonomie la ou la plupart tiennent deux jours. Suivi du rythme cardiaque, de l oxygene sanguin et du sommeil, plus de cent modes sportifs, etancheite IP68. realme est un constructeur mondial reconnu. Note 4.9 sur plus de 1 900 avis, 10 000 ventes.",
+    "features": [
+      "AMOLED 1,97 pouce, GPS et NFC integres",
+      "Jusqu a 14 jours d autonomie, IP68",
+      "Appels Bluetooth, cardio, sommeil, 100+ sports"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005012032578954.html",
+      "supplierSku": "AE-ITEM-1005012032578954",
+      "supplierPriceCents": 4097,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6190,
+      "marginCents": 2093,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-02",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-02",
+        "note": "Validation proprietaire du 2026-08-02 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005012032578954.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-02 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 40.97 EUR, boutique 61.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-02",
+      "pricingUpdatedAt": "2026-08-02T21:59:50.195Z"
+    },
+    "price": 6190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-02",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005012032578954.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005012032578954 verifiees et importees en local (webp) le 2026-08-02.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-02."
+    },
+    "seo": {
+      "title": "Montre connectée realme Watch 5 GPS | Maxi Trouvaille",
+      "description": "realme Watch 5 : ecran AMOLED 1,97 pouce, GPS, NFC, 14 jours d autonomie et etancheite IP68. Version mondiale. Note 4.9.",
+      "h1": "Montre connectée realme Watch 5 GPS",
+      "h2": "Pourquoi choisir Montre connectée realme Watch 5 GPS",
+      "keywords": [
+        "montre",
+        "connectee",
+        "realme",
+        "watch",
+        "gps",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Montre connectée realme Watch 5 GPS - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Montre connectée realme Watch 5 GPS - high-tech Maxi Trouvaille",
+    "compareAtPrice": 8390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-02",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
