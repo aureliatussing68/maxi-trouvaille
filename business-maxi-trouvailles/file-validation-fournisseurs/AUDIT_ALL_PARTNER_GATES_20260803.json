@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-03T08:49:03.443Z",
+  "checkedAt": "2026-08-03T08:52:29.107Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 332,
-  "publishedPartnerCount": 273,
+  "partnerProductCount": 334,
+  "publishedPartnerCount": 275,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -5985,18 +5985,54 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_xiaomi_tv_box_s_3e_generation_4k_001",
+      "slug": "xiaomi-tv-box-s-3e-generation-4k",
+      "name": "Xiaomi TV Box S 3e génération 4K",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-high-tech",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_microphone_usb_rgb_bras_articule_001",
+      "slug": "microphone-usb-rgb-bras-articule",
+      "name": "Microphone USB RGB avec bras articulé",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-gaming",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 328
+    "data/quick-products.json": 330
   },
   "byStatus": {
     "draft": 59,
-    "published": 273
+    "published": 275
   },
   "byCategory": {
-    "dropshipping-high-tech": 38,
+    "dropshipping-high-tech": 39,
     "dropshipping-accessoires": 36,
     "dropshipping-maison": 36,
     "dropshipping-auto-moto": 26,
@@ -6006,7 +6042,7 @@
     "dropshipping-animaux": 26,
     "dropshipping-mode": 22,
     "dropshipping-outillage": 32,
-    "dropshipping-gaming": 19
+    "dropshipping-gaming": 20
   },
   "safety": {
     "readOnlyAudit": true,

@@ -33195,5 +33195,197 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_xiaomi_tv_box_s_3e_generation_4k_001",
+    "slug": "xiaomi-tv-box-s-3e-generation-4k",
+    "name": "Xiaomi TV Box S 3e génération 4K",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/xiaomi-tv-box-s-3e-generation-4k-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/xiaomi-tv-box-s-3e-generation-4k-photo-1.webp",
+      "/uploads/quick-products/xiaomi-tv-box-s-3e-generation-4k-photo-2.webp",
+      "/uploads/quick-products/xiaomi-tv-box-s-3e-generation-4k-photo-3.webp",
+      "/uploads/quick-products/xiaomi-tv-box-s-3e-generation-4k-photo-4.webp",
+      "/uploads/quick-products/xiaomi-tv-box-s-3e-generation-4k-photo-5.webp",
+      "/uploads/quick-products/xiaomi-tv-box-s-3e-generation-4k-photo-6.webp"
+    ],
+    "shortDescription": "Xiaomi TV Box S 3e generation : transforme n importe quelle television en Google TV 4K. Expediee de France. Note 4.9, 9 040 avis.",
+    "description": "Boitier Xiaomi TV Box S de troisieme generation sous Google TV : il rend intelligente une television qui ne l est pas, ou remplace l interface lente d une smart TV vieillissante. Lecture 4K Ultra HD avec Dolby Vision et HDR10+, son Dolby Atmos, acces direct aux applications de streaming, telecommande vocale avec Google Assistant et diffusion depuis le telephone. Une seule prise HDMI a brancher. Materiel Xiaomi d origine et non une copie. Expedie depuis un entrepot francais : livraison en quelques jours. Note 4.9 sur plus de 9 000 avis, 50 000 ventes.",
+    "features": [
+      "Google TV 4K, Dolby Vision, HDR10+ et Dolby Atmos",
+      "Rend intelligente une TV qui ne l est pas",
+      "Telecommande vocale Google. Expediee de France"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009841106181.html",
+      "supplierSku": "AE-ITEM-1005009841106181",
+      "supplierPriceCents": 7788,
+      "supplierStock": 40,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 11690,
+      "marginCents": 3902,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009841106181.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 50,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 77.88 EUR, boutique 116.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T08:52:27.923Z"
+    },
+    "price": 11690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009841106181.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009841106181 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Xiaomi TV Box S 3e génération 4K | Maxi Trouvaille",
+      "description": "Xiaomi TV Box S 3e generation : transforme n importe quelle television en Google TV 4K. Expediee de France. Note 4.9, 9 040 avis.",
+      "h1": "Xiaomi TV Box S 3e génération 4K",
+      "h2": "Pourquoi choisir Xiaomi TV Box S 3e génération 4K",
+      "keywords": [
+        "xiaomi",
+        "box",
+        "generation",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Xiaomi TV Box S 3e génération 4K - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Xiaomi TV Box S 3e génération 4K - high-tech Maxi Trouvaille",
+    "compareAtPrice": 15790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_microphone_usb_rgb_bras_articule_001",
+    "slug": "microphone-usb-rgb-bras-articule",
+    "name": "Microphone USB RGB avec bras articulé",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/microphone-usb-rgb-bras-articule-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/microphone-usb-rgb-bras-articule-photo-1.webp",
+      "/uploads/quick-products/microphone-usb-rgb-bras-articule-photo-2.webp",
+      "/uploads/quick-products/microphone-usb-rgb-bras-articule-photo-3.webp",
+      "/uploads/quick-products/microphone-usb-rgb-bras-articule-photo-4.webp",
+      "/uploads/quick-products/microphone-usb-rgb-bras-articule-photo-5.webp",
+      "/uploads/quick-products/microphone-usb-rgb-bras-articule-photo-6.webp"
+    ],
+    "shortDescription": "Micro USB a condensateur avec bras articule et eclairage RGB : voix nette pour le stream, le podcast et le vocal. Note 4.9.",
+    "description": "Microphone a condensateur USB livre avec son bras articule et son filtre anti-pop : la capsule capte la voix de bien plus pres et plus proprement qu un micro de casque, ce qui s entend immediatement en stream, en podcast, en visio ou en vocal de jeu. Le bras deporte le micro devant la bouche et l eloigne du clavier, dont les frappes ne sont plus enregistrees. Reglage du volume et retour casque directement sur le micro, eclairage RGB pour le setup. Branchement USB, aucune carte son necessaire. Note 4.9 sur plus de 1 700 avis, 10 000 ventes.",
+    "features": [
+      "Bras articule + filtre anti-pop inclus",
+      "Voix bien plus nette qu un micro de casque",
+      "Reglage volume et retour casque, RGB, USB direct"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007096854664.html",
+      "supplierSku": "AE-ITEM-1005007096854664",
+      "supplierPriceCents": 3959,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6390,
+      "marginCents": 2431,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007096854664.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 61,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 39.59 EUR, boutique 63.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T08:52:28.582Z"
+    },
+    "price": 6390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007096854664.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007096854664 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Microphone USB RGB avec bras articulé | Maxi Trouvaille",
+      "description": "Micro USB a condensateur avec bras articule et eclairage RGB : voix nette pour le stream, le podcast et le vocal. Note 4.9.",
+      "h1": "Microphone USB RGB avec bras articulé",
+      "h2": "Pourquoi choisir Microphone USB RGB avec bras articulé",
+      "keywords": [
+        "microphone",
+        "usb",
+        "rgb",
+        "bras",
+        "articule",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Microphone USB RGB avec bras articulé - gaming Maxi Trouvaille"
+    },
+    "imageAlt": "Microphone USB RGB avec bras articulé - gaming Maxi Trouvaille",
+    "compareAtPrice": 8690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
