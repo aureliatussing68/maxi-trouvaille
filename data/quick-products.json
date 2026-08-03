@@ -32614,5 +32614,199 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_gourde_sport_dosettes_saveur_paille_001",
+    "slug": "gourde-sport-dosettes-saveur-paille",
+    "name": "Gourde de sport à dosettes de saveur",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/gourde-sport-dosettes-saveur-paille-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/gourde-sport-dosettes-saveur-paille-photo-1.webp",
+      "/uploads/quick-products/gourde-sport-dosettes-saveur-paille-photo-2.webp",
+      "/uploads/quick-products/gourde-sport-dosettes-saveur-paille-photo-3.webp",
+      "/uploads/quick-products/gourde-sport-dosettes-saveur-paille-photo-4.webp",
+      "/uploads/quick-products/gourde-sport-dosettes-saveur-paille-photo-5.webp",
+      "/uploads/quick-products/gourde-sport-dosettes-saveur-paille-photo-6.webp"
+    ],
+    "shortDescription": "Gourde a paille avec dosettes aromatiques : donne du gout a l eau sans sucre ni calories. Note 4.9 sur 1 746 avis.",
+    "description": "Gourde de sport avec systeme de dosettes aromatiques : l arome passe dans l air aspire, ce qui donne l impression de boire une boisson parfumee alors qu il n y a que de l eau dans la bouteille — zero sucre, zero calorie, zero colorant dans le liquide. Utile pour ceux qui n aiment pas l eau plate et se rabattent sur les sodas. Paille integree, bouchon anti-fuite qui ne coule pas dans un sac, corps sans BPA. Livree avec une dosette. Note 4.9 sur plus de 1 700 avis, 10 000 ventes.",
+    "features": [
+      "Dosettes aromatiques : du gout sans sucre ni calories",
+      "Paille integree, bouchon anti-fuite",
+      "Corps sans BPA, une dosette incluse"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007540130070.html",
+      "supplierSku": "AE-ITEM-1005007540130070",
+      "supplierPriceCents": 1159,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2590,
+      "marginCents": 1431,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007540130070.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 123,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 11.59 EUR, boutique 25.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T05:13:22.722Z"
+    },
+    "price": 2590,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007540130070.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007540130070 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Gourde de sport à dosettes de saveur | Maxi Trouvaille",
+      "description": "Gourde a paille avec dosettes aromatiques : donne du gout a l eau sans sucre ni calories. Note 4.9 sur 1 746 avis.",
+      "h1": "Gourde de sport à dosettes de saveur",
+      "h2": "Pourquoi choisir Gourde de sport à dosettes de saveur",
+      "keywords": [
+        "gourde",
+        "sport",
+        "dosettes",
+        "saveur",
+        "paille",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Gourde de sport à dosettes de saveur - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Gourde de sport à dosettes de saveur - cuisine Maxi Trouvaille",
+    "compareAtPrice": 3590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_brosse_a_dents_electrique_enfant_360_001",
+    "slug": "brosse-a-dents-electrique-enfant-360",
+    "name": "Brosse à dents électrique enfant 360°",
+    "categoryId": "dropshipping-enfant",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/brosse-a-dents-electrique-enfant-360-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/brosse-a-dents-electrique-enfant-360-photo-1.webp",
+      "/uploads/quick-products/brosse-a-dents-electrique-enfant-360-photo-2.webp",
+      "/uploads/quick-products/brosse-a-dents-electrique-enfant-360-photo-3.webp",
+      "/uploads/quick-products/brosse-a-dents-electrique-enfant-360-photo-4.webp",
+      "/uploads/quick-products/brosse-a-dents-electrique-enfant-360-photo-5.webp",
+      "/uploads/quick-products/brosse-a-dents-electrique-enfant-360-photo-6.webp"
+    ],
+    "shortDescription": "Brosse a dents en U pour enfant : brosse les deux faces des dents en meme temps, l enfant n a qu a mordre. Note 4.6.",
+    "description": "Brosse a dents electrique en forme de U pour enfant : les picots en silicone souple entourent les dents et brossent les deux faces simultanement par vibration sonique. L enfant n a pas a maitriser le geste circulaire que la plupart ne font pas correctement avant huit ou dix ans — il mord l embout et laisse l appareil travailler. Silicone alimentaire doux pour les gencives, minuterie qui apprend la duree correcte, rechargeable. Note 4.6 sur plus de 3 400 avis, 50 000 ventes.",
+    "features": [
+      "Forme en U : brosse les deux faces a la fois",
+      "L enfant n a pas besoin de maitriser le geste",
+      "Silicone alimentaire doux, minuterie, rechargeable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006025531236.html",
+      "supplierSku": "AE-ITEM-1005006025531236",
+      "supplierPriceCents": 140,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 550,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006025531236.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 393,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 1.40 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T05:13:23.144Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006025531236.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006025531236 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Brosse à dents électrique enfant 360° | Maxi Trouvaille",
+      "description": "Brosse a dents en U pour enfant : brosse les deux faces des dents en meme temps, l enfant n a qu a mordre. Note 4.6.",
+      "h1": "Brosse à dents électrique enfant 360°",
+      "h2": "Pourquoi choisir Brosse à dents électrique enfant 360°",
+      "keywords": [
+        "brosse",
+        "dents",
+        "electrique",
+        "enfant",
+        "360",
+        "dropshipping-enfant"
+      ],
+      "imageAlt": "Brosse à dents électrique enfant 360° - enfant Maxi Trouvaille"
+    },
+    "imageAlt": "Brosse à dents électrique enfant 360° - enfant Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]

@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-03T05:10:00.779Z",
+  "checkedAt": "2026-08-03T05:13:23.682Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 326,
-  "publishedPartnerCount": 267,
+  "partnerProductCount": 328,
+  "publishedPartnerCount": 269,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -5877,23 +5877,59 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_gourde_sport_dosettes_saveur_paille_001",
+      "slug": "gourde-sport-dosettes-saveur-paille",
+      "name": "Gourde de sport à dosettes de saveur",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-cuisine",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_brosse_a_dents_electrique_enfant_360_001",
+      "slug": "brosse-a-dents-electrique-enfant-360",
+      "name": "Brosse à dents électrique enfant 360°",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-enfant",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 322
+    "data/quick-products.json": 324
   },
   "byStatus": {
     "draft": 59,
-    "published": 267
+    "published": 269
   },
   "byCategory": {
     "dropshipping-high-tech": 38,
     "dropshipping-accessoires": 34,
     "dropshipping-maison": 36,
     "dropshipping-auto-moto": 25,
-    "dropshipping-cuisine": 41,
-    "dropshipping-enfant": 23,
+    "dropshipping-cuisine": 42,
+    "dropshipping-enfant": 24,
     "dropshipping-beaute": 30,
     "dropshipping-animaux": 26,
     "dropshipping-mode": 22,
