@@ -16,11 +16,10 @@ import { ProductShelf, type ProductShelfItem } from "@/components/ProductShelf";
 import {
   countProductsByCategory,
   homeShowcaseCategoryIds,
-  isProductPurchasable,
   isPromotionProduct,
-  type Product,
 } from "@/lib/catalog";
 import { getPublicProducts } from "@/lib/catalog-server";
+import type { PublicProduct } from "@/lib/public-product";
 import { SERVICE_PROMISE } from "@/lib/copy";
 import {
   buildHomeShowcasePool,
@@ -91,7 +90,10 @@ async function loadReviewSummaries(productIds: string[]) {
 
 export default async function Home() {
   const publicProducts = await getPublicProducts();
-  const purchasable = publicProducts.filter(isProductPurchasable);
+  // Verdict d'achat deja rendu par le serveur (getPublicProducts) : il n'a plus
+  // besoin d'etre recalcule, et surtout il n'oblige plus a transporter le
+  // dossier de sourcing jusqu'ici.
+  const purchasable = publicProducts.filter((product) => product.isPurchasable);
   const promoCount = purchasable.filter(isPromotionProduct).length;
   // Chiffres reels du catalogue, recalcules a chaque revalidation : rien en dur.
   const productCountByCategoryId = countProductsByCategory(
@@ -120,7 +122,7 @@ export default async function Home() {
 
   // La vitrine ne recoit aucun compteur de vues : a la premiere visite ils
   // afficheraient "1 vue" sur chaque carte, ce qui dessert la boutique.
-  const toShelfItem = (product: Product): ProductShelfItem => ({
+  const toShelfItem = (product: PublicProduct): ProductShelfItem => ({
     product,
     reviewSummary: reviewSummaryMap.get(product.id),
   });

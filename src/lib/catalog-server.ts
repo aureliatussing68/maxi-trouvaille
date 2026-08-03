@@ -4,6 +4,7 @@ import {
   getCategoryProductFamilyIds,
   getProductBySlug,
   getProductsByCategory,
+  isComingSoonProduct,
   isNewProduct,
   isPromotionProduct,
   isPublicProduct,
@@ -11,6 +12,7 @@ import {
   type Product,
 } from "@/lib/catalog";
 import { hasReviewedOpeningPhoto } from "@/lib/home-rotation";
+import { toPublicProduct, type PublicProduct } from "@/lib/public-product";
 import { mergeProducts, sanitizeQuickProducts } from "@/lib/quick-products";
 
 const quickProductsPath = path.join(process.cwd(), "data", "quick-products.json");
@@ -108,8 +110,39 @@ async function filterServerPublicProducts(productList: Product[]) {
     .map((item) => item.product);
 }
 
-export async function getPublicProducts() {
+/**
+ * Produits publics COMPLETS — usage strictement serveur.
+ *
+ * Volontairement NON exporte : cette liste contient encore tout le dossier de
+ * sourcing (prix d'achat, marge, lien fournisseur). Elle sert uniquement aux
+ * traitements serveur qui en ont besoin, comme le tri des rayons ci-dessous
+ * (qui lit dropshipping.lastSyncAt). Tout ce qui sort vers une page passe par
+ * toPublicProductList().
+ */
+async function getPublicSourceProducts() {
   return filterServerPublicProducts(await getAllProducts());
+}
+
+/**
+ * LA frontiere. Toute liste de produits destinee a une page publique passe
+ * par ici, et donc par la liste blanche de src/lib/public-product.ts.
+ *
+ * Les produits recus sont deja passes par isServerPublicProduct() : leur
+ * verdict de publication est donc "vrai" par construction. Le verdict d'achat
+ * suit exactement la meme regle que isProductPurchasable() cote catalogue
+ * (publie + stock disponible + pas "bientot disponible").
+ */
+function toPublicProductList(productList: Product[]): PublicProduct[] {
+  return productList.map((product) =>
+    toPublicProduct(product, {
+      isPublic: true,
+      isPurchasable: product.stock > 0 && !isComingSoonProduct(product),
+    }),
+  );
+}
+
+export async function getPublicProducts(): Promise<PublicProduct[]> {
+  return toPublicProductList(await getPublicSourceProducts());
 }
 
 export async function getCatalogProductById(id: string) {
@@ -173,20 +206,31 @@ function sortNewestPartnerProductsFirst(productList: Product[]) {
   });
 }
 
-export async function getPublicCatalogProductsByCategory(categoryId: string) {
-  const publicProducts = await getPublicProducts();
+export async function getPublicCatalogProductsByCategory(
+  categoryId: string,
+): Promise<PublicProduct[]> {
+  // Le tri s'applique sur les fiches COMPLETES : il lit dropshipping.lastSyncAt,
+  // qui ne sort pas au navigateur. Le nettoyage vient donc apres le tri, pour
+  // que l'ordre d'affichage des rayons reste rigoureusement identique.
+  const publicProducts = await getPublicSourceProducts();
 
   if (categoryId === "dropshipping-nouveautes") {
-    return sortNewestPartnerProductsFirst(publicProducts.filter(isNewProduct));
+    return toPublicProductList(
+      sortNewestPartnerProductsFirst(publicProducts.filter(isNewProduct)),
+    );
   }
 
   if (categoryId === "dropshipping-promotions") {
-    return sortNewestPartnerProductsFirst(publicProducts.filter(isPromotionProduct));
+    return toPublicProductList(
+      sortNewestPartnerProductsFirst(publicProducts.filter(isPromotionProduct)),
+    );
   }
 
   const categoryIds = new Set(getCategoryProductFamilyIds(categoryId));
-  return sortNewestPartnerProductsFirst(
-    publicProducts.filter((product) => categoryIds.has(product.categoryId)),
+  return toPublicProductList(
+    sortNewestPartnerProductsFirst(
+      publicProducts.filter((product) => categoryIds.has(product.categoryId)),
+    ),
   );
 }
 

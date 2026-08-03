@@ -12,7 +12,9 @@ import type { ProductSource, SellerListingMeta } from "@/lib/marketplace";
  */
 const REFERENCE_PRICE_MIN_DISCOUNT = 30;
 
-function getRealDiscountPercent(product: Product) {
+function getRealDiscountPercent(
+  product: Pick<Product, "price" | "compareAtPrice">,
+) {
   const compareAtPrice = product.compareAtPrice;
 
   if (
@@ -26,7 +28,9 @@ function getRealDiscountPercent(product: Product) {
   return Math.round(((compareAtPrice - product.price) / compareAtPrice) * 100);
 }
 
-function shouldShowReferencePrice(product: Product) {
+function shouldShowReferencePrice(
+  product: Pick<Product, "price" | "compareAtPrice">,
+) {
   return getRealDiscountPercent(product) >= REFERENCE_PRICE_MIN_DISCOUNT;
 }
 
@@ -1191,7 +1195,20 @@ export function getPublicImageBlockers(product: Product) {
   return Array.from(new Set(blockers));
 }
 
-export function isComingSoonProduct(product: Product) {
+/**
+ * Certains predicats ci-dessous sont exprimes en Pick<Product, ...> plutot
+ * qu'en Product entier. C'est volontaire : ils sont appeles aussi bien sur une
+ * fiche COMPLETE (cote serveur et cote administration) que sur sa version
+ * publique nettoyee (src/lib/public-product.ts), qui ne porte plus le dossier
+ * de sourcing. En n'exigeant que les champs reellement lus, la meme regle sert
+ * aux deux sans etre dupliquee.
+ */
+export function isComingSoonProduct(
+  product: Pick<
+    Product,
+    "commerceStatus" | "categoryId" | "name" | "shortDescription" | "description"
+  >,
+) {
   if (product.commerceStatus === "coming-soon") {
     return true;
   }
@@ -1209,7 +1226,7 @@ export function isComingSoonProduct(product: Product) {
   );
 }
 
-export function isDropshippingProduct(product: Product) {
+export function isDropshippingProduct(product: Pick<Product, "dropshipping">) {
   return Boolean(product.dropshipping?.enabled);
 }
 
@@ -1347,11 +1364,13 @@ export function isPublicProduct(product: Product) {
  * reellement significatives (voir REFERENCE_PRICE_MIN_DISCOUNT), exactement le
  * meme critere que celui qui decide d'afficher un prix barre sur une carte.
  */
-export function isPromotionProduct(product: Product) {
+export function isPromotionProduct(
+  product: Pick<Product, "price" | "compareAtPrice">,
+) {
   return shouldShowReferencePrice(product);
 }
 
-export function isNewProduct(product: Product) {
+export function isNewProduct(product: Pick<Product, "dropshipping">) {
   return Boolean(product.dropshipping?.isNew);
 }
 
@@ -1473,7 +1492,7 @@ export function getCategoryProductFamilyIds(categoryId: string): string[] {
 // est donc toujours celui que le client comptera en ouvrant le rayon.
 // La liste de produits doit deja etre filtree (produits publics) par l'appelant.
 export function countProductsByCategory(
-  productList: Product[],
+  productList: ReadonlyArray<Pick<Product, "categoryId">>,
   categoryIds: readonly string[],
 ): Record<string, number> {
   const counts: Record<string, number> = {};

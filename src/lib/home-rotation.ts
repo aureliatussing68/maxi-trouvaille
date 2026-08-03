@@ -282,7 +282,20 @@ export function hasReviewedOpeningPhoto(product: Pick<Product, "slug">) {
   return !HOME_SHOWCASE_BLOCKLIST.has(product.slug);
 }
 
-export function isHomeShowcaseEligible(product: Product) {
+/**
+ * Forme minimale qu'un produit doit avoir pour entrer dans la rotation.
+ *
+ * Exprimee en Pick<Product, ...> pour que la vitrine fonctionne aussi bien sur
+ * la fiche complete (scripts d'audit, code serveur) que sur sa version publique
+ * nettoyee (src/lib/public-product.ts), qui ne porte plus le dossier de
+ * sourcing. Aucun champ sensible n'intervient dans la selection.
+ */
+export type HomeShowcaseCandidate = Pick<
+  Product,
+  "id" | "slug" | "categoryId" | "price" | "compareAtPrice" | "images"
+>;
+
+export function isHomeShowcaseEligible(product: HomeShowcaseCandidate) {
   if (!hasReviewedOpeningPhoto(product)) {
     return false;
   }
@@ -296,7 +309,7 @@ export function isHomeShowcaseEligible(product: Product) {
   return imageCount >= HOME_MIN_IMAGE_COUNT && hasRealDiscount;
 }
 
-function sortByStablePermutation(productList: Product[]) {
+function sortByStablePermutation<T extends HomeShowcaseCandidate>(productList: T[]) {
   return [...productList]
     .map((product) => ({ product, rank: hashProductId(product.id) }))
     .sort(
@@ -313,7 +326,9 @@ function sortByStablePermutation(productList: Product[]) {
  * Filet de securite : si le filtre qualite ne laisse rien passer, on retombe
  * sur la liste complete plutot que d'afficher une accueil vide.
  */
-export function buildHomeShowcasePool(purchasableProducts: Product[]) {
+export function buildHomeShowcasePool<T extends HomeShowcaseCandidate>(
+  purchasableProducts: T[],
+) {
   const eligible = purchasableProducts.filter(isHomeShowcaseEligible);
 
   return sortByStablePermutation(
@@ -328,8 +343,8 @@ export function buildHomeShowcasePool(purchasableProducts: Product[]) {
  * quota qui exclut, ici aucun produit n'est ecarte : la fenetre du jour reste
  * exactement la meme, donc tout le catalogue continue de defiler.
  */
-function interleaveByCategory(productList: Product[]) {
-  const groups = new Map<string, Product[]>();
+function interleaveByCategory<T extends HomeShowcaseCandidate>(productList: T[]) {
+  const groups = new Map<string, T[]>();
 
   for (const product of productList) {
     const group = groups.get(product.categoryId);
@@ -345,7 +360,7 @@ function interleaveByCategory(productList: Product[]) {
     .sort((a, b) => b[1].length - a[1].length || a[0].localeCompare(b[0]))
     .map((entry) => entry[1]);
 
-  const interleaved: Product[] = [];
+  const interleaved: T[] = [];
   let cursor = 0;
 
   while (interleaved.length < productList.length) {
@@ -368,18 +383,18 @@ function interleaveByCategory(productList: Product[]) {
   return interleaved;
 }
 
-export type HomeShowcaseSelection = {
+export type HomeShowcaseSelection<T extends HomeShowcaseCandidate = HomeShowcaseCandidate> = {
   /** Les produits du carrousel. */
-  shelf: Product[];
+  shelf: T[];
   /** Les produits de la grille juste en dessous (aucun doublon avec shelf). */
-  grid: Product[];
+  grid: T[];
   /** Taille du vivier, pour l'affichage honnete du sous-titre. */
   poolSize: number;
   /** Nombre de jours pour que tout le vivier soit passe en vitrine. */
   fullCycleDays: number;
 };
 
-export function selectHomeShowcase({
+export function selectHomeShowcase<T extends HomeShowcaseCandidate>({
   pool,
   dayIndex,
   featuredIds,
@@ -387,13 +402,13 @@ export function selectHomeShowcase({
   shelfSize = HOME_SHELF_SIZE,
   featuredSlots = HOME_FEATURED_SLOTS,
 }: {
-  pool: Product[];
+  pool: T[];
   dayIndex: number;
   featuredIds?: ReadonlySet<string>;
   rotationSize?: number;
   shelfSize?: number;
   featuredSlots?: number;
-}): HomeShowcaseSelection {
+}): HomeShowcaseSelection<T> {
   const poolSize = pool.length;
 
   if (poolSize === 0) {
@@ -401,10 +416,10 @@ export function selectHomeShowcase({
   }
 
   const target = Math.min(rotationSize, poolSize);
-  const selected: Product[] = [];
+  const selected: T[] = [];
   const selectedIds = new Set<string>();
 
-  const take = (product: Product) => {
+  const take = (product: T) => {
     if (selectedIds.has(product.id)) {
       return;
     }
@@ -439,7 +454,7 @@ export function selectHomeShowcase({
   //    taille chaque jour : tout le catalogue passe donc en vitrine en
   //    fullCycleDays jours, puis le cycle recommence.
   const start = (((dayIndex * rotationSize) % poolSize) + poolSize) % poolSize;
-  const windowProducts: Product[] = [];
+  const windowProducts: T[] = [];
 
   for (
     let offset = 0;

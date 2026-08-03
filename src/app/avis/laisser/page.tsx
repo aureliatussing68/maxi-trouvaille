@@ -50,11 +50,16 @@ export default async function LeaveReviewPage({
     );
   }
 
+  // Seuls l'identifiant et le nom traversent vers le formulaire (client) : la
+  // fiche complete — prix d'achat, marge, lien et reference fournisseur — reste
+  // cote serveur.
   const products = (
     await Promise.all(
       tokenDetails.productIds.map((productId) => getCatalogProductById(productId)),
     )
-  ).filter((product): product is Product => Boolean(product));
+  )
+    .filter((product): product is Product => Boolean(product))
+    .map((product) => ({ id: product.id, name: product.name }));
   const reviewedProductIds = await getReviewedProductIdsForToken(token);
 
   return (

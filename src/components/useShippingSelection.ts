@@ -1,7 +1,9 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import type { Product } from "@/lib/catalog";
+// Type volontairement pris dans catalog-client : cote navigateur, un produit
+// est sa version PUBLIQUE (sans prix d'achat, marge ni source fournisseur).
+import type { Product } from "@/lib/catalog-client";
 import {
   emptyShippingSelection,
   getAvailableShippingMethods,

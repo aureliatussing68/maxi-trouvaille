@@ -14,9 +14,9 @@ import {
   isDropshippingProduct,
   isNewProduct,
   isPromotionProduct,
-  type Product,
 } from "@/lib/catalog";
 import { getPublicProducts } from "@/lib/catalog-server";
+import type { PublicProduct } from "@/lib/public-product";
 import { getApprovedReviewSummaryMap } from "@/lib/product-reviews";
 import { getProductStatsMap } from "@/lib/product-stats";
 
@@ -28,7 +28,7 @@ type CampaignConfig = {
   icon: LucideIcon;
   name: string;
   title: string;
-  matchesProduct: (product: Product) => boolean;
+  matchesProduct: (product: PublicProduct) => boolean;
 };
 
 const campaignConfigs: Record<CampaignKind, CampaignConfig> = {

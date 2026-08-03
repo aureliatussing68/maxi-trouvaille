@@ -699,7 +699,13 @@ function sourceGuards() {
       ),
     cartEligibilityApiUsesPublicPurchasableProducts:
       /getPublicProducts/.test(cartEligibilityRouteSource) &&
-      /\.filter\(isProductPurchasable\)/.test(cartEligibilityRouteSource) &&
+      // isPublicProductPurchasable est la meme regle que isProductPurchasable,
+      // appliquee a la fiche PUBLIQUE (src/lib/public-product.ts) : le verdict
+      // est calcule sur le serveur au lieu d'etre recalcule a partir du dossier
+      // de sourcing, qui n'a plus a sortir du serveur.
+      /\.filter\((isProductPurchasable|isPublicProductPurchasable)\)/.test(
+        cartEligibilityRouteSource,
+      ) &&
       /id: product\.id/.test(cartEligibilityRouteSource) &&
       /stock: product\.stock/.test(cartEligibilityRouteSource) &&
       /Cache-Control/.test(cartEligibilityRouteSource),

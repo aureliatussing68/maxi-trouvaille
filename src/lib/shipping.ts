@@ -115,7 +115,13 @@ export function sanitizeShippingSelection(input: unknown): ShippingSelection {
   };
 }
 
-export function getAllowedShippingMethodIds(product: Product): ShippingMethodId[] {
+// Signatures volontairement exprimees en Pick<Product, ...> : le panier et le
+// paiement travaillent sur la fiche PUBLIQUE (src/lib/public-product.ts), qui ne
+// porte plus le dossier de sourcing, tandis que la route serveur /api/checkout
+// travaille sur la fiche complete. Seul livraisonDisponible est lu.
+export function getAllowedShippingMethodIds(
+  product: Pick<Product, "livraisonDisponible">,
+): ShippingMethodId[] {
   switch (product.livraisonDisponible ?? "toutes") {
     case "remise uniquement":
       return ["pickup"];
@@ -131,7 +137,9 @@ export function getAllowedShippingMethodIds(product: Product): ShippingMethodId[
   }
 }
 
-export function getAvailableShippingMethods(products: Product[]) {
+export function getAvailableShippingMethods(
+  products: ReadonlyArray<Pick<Product, "livraisonDisponible">>,
+) {
   if (products.length === 0) {
     return [];
   }
@@ -166,7 +174,7 @@ function hasEmailShape(value: string) {
 
 export function validateShippingSelection(
   input: unknown,
-  products: Product[],
+  products: ReadonlyArray<Pick<Product, "livraisonDisponible">>,
 ): ShippingValidationResult {
   const selection = sanitizeShippingSelection(input);
   const availableMethods = getAvailableShippingMethods(products);

@@ -3,11 +3,20 @@
 import { Loader2, Send, Star } from "lucide-react";
 import type { FormEvent } from "react";
 import { useMemo, useState } from "react";
-import type { Product } from "@/lib/catalog";
+/**
+ * Le formulaire d'avis n'a besoin que de l'identifiant et du nom de l'article
+ * commande : il remplit une liste deroulante. On ne fait donc traverser QUE ces
+ * deux champs vers le navigateur, jamais la fiche produit complete (qui porte
+ * le prix d'achat, la marge et la source fournisseur).
+ */
+export type ReviewableProduct = {
+  id: string;
+  name: string;
+};
 
 type ProductReviewFormProps = {
   token: string;
-  products: Product[];
+  products: ReviewableProduct[];
   reviewedProductIds: string[];
 };
 

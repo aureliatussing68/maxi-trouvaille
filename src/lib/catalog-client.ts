@@ -1,9 +1,28 @@
 import type {
-  Product,
   ProductBadge,
   ProductBadgeTone,
 } from "@/lib/catalog";
-export type { Product, ProductBadgeTone };
+import type { PublicProduct } from "@/lib/public-product";
+
+/**
+ * Helpers utilisables dans un composant "use client".
+ *
+ * IMPORTANT — ce que "Product" veut dire ICI :
+ *
+ * Cote navigateur, un produit n'est PAS la fiche complete du catalogue : c'est
+ * sa version publique (voir src/lib/public-product.ts), amputee de tout le
+ * dossier de sourcing (prix d'achat, marge, lien et reference fournisseur,
+ * notes de validation interne). Le type est donc volontairement alias sur
+ * PublicProduct : si un composant client tente de lire un champ sensible,
+ * TypeScript refuse de compiler. C'est le garde-fou principal contre le retour
+ * de la fuite.
+ *
+ * Ce fichier ne doit contenir QUE des imports de type : rien de @/lib/catalog
+ * ne doit se retrouver dans le paquet JavaScript envoye au navigateur.
+ */
+export type Product = PublicProduct;
+export type { PublicProduct };
+export type { ProductBadgeTone };
 
 /**
  * Meme regle que dans src/lib/catalog.ts et src/lib/product-display.ts, qui la
@@ -71,145 +90,11 @@ const surpriseComingSoonKeywords = [
   "colis perdus",
 ];
 
-const dropshippingFocusCategoryIdSet = new Set([
-  "dropshipping",
-  "dropshipping-nouveautes",
-  "dropshipping-promotions",
-  "dropshipping-maison",
-  "dropshipping-cuisine",
-  "dropshipping-beaute",
-  "dropshipping-high-tech",
-  "dropshipping-accessoires",
-  "dropshipping-auto-moto",
-  "dropshipping-animaux",
-  "dropshipping-enfant",
-  "dropshipping-mode",
-  "dropshipping-outillage",
-  "dropshipping-gaming",
-]);
-
-const exactProductImagePrefixes = [
-  "/uploads/partner-products/",
-  "/uploads/quick-products/",
-] as const;
-
-const nonExactProductImagePrefixes = [
-  "/uploads/category-images/",
-  "/uploads/generated-products/",
-] as const;
-
 function normalizeCatalogText(value: string) {
   return value
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase();
-}
-
-function hasHoldOrManualCheckSignal(value: unknown) {
-  const normalized = normalizeCatalogText(String(value ?? ""));
-
-  return [
-    "hold",
-    "a verifier",
-    "verifier avant",
-    "a confirmer",
-    "confirmer avant",
-    "obligatoire",
-    "manquant",
-    "missing",
-    "avant publication",
-    "avant vente",
-  ].some((signal) => normalized.includes(signal));
-}
-
-function hasPositiveCents(value: unknown) {
-  return typeof value === "number" && Number.isFinite(value) && value > 0;
-}
-
-function hasExactSupplierUrl(value: unknown) {
-  const normalized = normalizeCatalogText(String(value ?? ""));
-
-  if (!normalized) {
-    return false;
-  }
-
-  return !(
-    normalized.includes("wholesale?") ||
-    normalized.includes("searchtext=") ||
-    normalized.includes("/w/wholesale-")
-  );
-}
-
-function hasReadyStatus(value: unknown) {
-  const normalized = normalizeCatalogText(String(value ?? ""));
-  const statusParts = normalized.split(/[^a-z0-9]+/).filter(Boolean);
-
-  if (
-    !normalized ||
-    hasHoldOrManualCheckSignal(normalized) ||
-    ["not", "non", "pas", "pending", "ko", "incomplete", "blocked", "refused", "invalid"].some(
-      (status) => statusParts.includes(status),
-    )
-  ) {
-    return false;
-  }
-
-  return ["ok", "ready", "verified", "validated", "valide"].some((status) =>
-    statusParts.includes(status),
-  );
-}
-
-function getClientProductImageCandidates(product: Product) {
-  return Array.from(
-    new Set(
-      [product.image, ...(Array.isArray(product.images) ? product.images : [])]
-        .map((image) => String(image ?? "").trim())
-        .filter(Boolean),
-    ),
-  );
-}
-
-export function getClientPublicImageBlockers(product: Product) {
-  const blockers: string[] = [];
-  const images = getClientProductImageCandidates(product);
-
-  if (images.length === 0) {
-    blockers.push("image_missing");
-  }
-
-  for (const image of images) {
-    const normalized = image.toLowerCase();
-
-    if (/^https?:\/\//i.test(image)) {
-      blockers.push("image_remote_not_local");
-    }
-
-    if (/alicdn|aliexpress-media|ae-pic|aliexpress|temu/i.test(image)) {
-      blockers.push("supplier_cdn_image");
-    }
-
-    if (/images\.unsplash\.com|unsplash/i.test(image)) {
-      blockers.push("stock_visual_image");
-    }
-
-    if (nonExactProductImagePrefixes.some((prefix) => normalized.startsWith(prefix))) {
-      blockers.push("image_not_exact_product_photo");
-    }
-
-    if (/placeholder|a-verifier|hold/i.test(image)) {
-      blockers.push("placeholder_or_hold_image");
-    }
-
-    if (!exactProductImagePrefixes.some((prefix) => normalized.startsWith(prefix))) {
-      blockers.push("image_not_in_exact_product_depot");
-    }
-
-    if (!/\.webp(?:\?.*)?$/i.test(image)) {
-      blockers.push("image_not_webp");
-    }
-  }
-
-  return Array.from(new Set(blockers));
 }
 
 export function getClientCategoryNameById(categoryId: string) {
@@ -247,116 +132,26 @@ export function isClientNewProduct(product: Product) {
   return Boolean(product.dropshipping?.isNew);
 }
 
-export function getClientDropshippingPublicBlockers(product: Product) {
-  const blockers: string[] = [];
-  const dropshipping = product.dropshipping;
-
-  if (!dropshipping?.enabled) {
-    blockers.push("dropshipping_disabled");
-    return blockers;
-  }
-
-  if (!hasExactSupplierUrl(dropshipping.supplierUrl)) {
-    blockers.push("supplier_url_exact_missing");
-  }
-
-  if (!dropshipping.supplierSku) {
-    blockers.push("supplier_sku_missing");
-  }
-
-  if (!hasPositiveCents(dropshipping.supplierPriceCents)) {
-    blockers.push("supplier_price_missing");
-  }
-
-  if (!hasPositiveCents(dropshipping.salePriceCents)) {
-    blockers.push("sale_price_missing");
-  }
-
-  if (!hasPositiveCents(dropshipping.marginCents)) {
-    blockers.push("margin_missing");
-  }
-
-  if (!(typeof dropshipping.supplierStock === "number" && dropshipping.supplierStock > 0)) {
-    blockers.push("supplier_stock_missing");
-  }
-
-  if (
-    !dropshipping.deliveryEstimate ||
-    hasHoldOrManualCheckSignal(dropshipping.deliveryEstimate)
-  ) {
-    blockers.push("delivery_estimate_not_ready");
-  }
-
-  if (product.imageValidation?.status !== "verified_source_images") {
-    blockers.push("exact_images_not_verified");
-  }
-
-  blockers.push(...getClientPublicImageBlockers(product));
-
-  if (!product.sourceVerification?.rightsStatus || !hasReadyStatus(product.sourceVerification.rightsStatus)) {
-    blockers.push("image_rights_not_ready");
-  }
-
-  if (!product.sourceVerification?.priceStatus || !hasReadyStatus(product.sourceVerification.priceStatus)) {
-    blockers.push("source_price_not_ready");
-  }
-
-  if (
-    !product.sourceVerification?.deliveryStatus ||
-    !hasReadyStatus(product.sourceVerification.deliveryStatus)
-  ) {
-    blockers.push("source_delivery_not_ready");
-  }
-
-  const validationGateChecks = Array.isArray(dropshipping.validationGate?.checks)
-    ? dropshipping.validationGate.checks
-    : [];
-
-  if (!dropshipping.validationGate || (!dropshipping.validationGate.note && validationGateChecks.length === 0)) {
-    blockers.push("validation_gate_missing");
-  }
-
-  if (
-    hasHoldOrManualCheckSignal(dropshipping.validationGate?.note) ||
-    hasHoldOrManualCheckSignal(validationGateChecks.join(" "))
-  ) {
-    blockers.push("validation_gate_not_ready");
-  }
-
-  if (hasHoldOrManualCheckSignal(product.internalSourcing?.validationStatus)) {
-    blockers.push("internal_sourcing_hold");
-  }
-
-  if (isClientComingSoonProduct(product)) {
-    blockers.push("coming_soon");
-  }
-
-  return Array.from(new Set(blockers));
-}
-
-export function isClientDropshippingProductReadyForPublic(product: Product) {
-  return getClientDropshippingPublicBlockers(product).length === 0;
-}
-
+/**
+ * Verdict de publication.
+ *
+ * Avant, cette fonction REJOUAIT dans le navigateur toute la porte de
+ * publication : elle exigeait supplierUrl, supplierSku, supplierPriceCents,
+ * marginCents, supplierStock, validationGate, sourceVerification,
+ * imageValidation... C'etait la raison technique pour laquelle tout le dossier
+ * de sourcing partait au navigateur, et donc la cause de la fuite.
+ *
+ * Le serveur rend deja ce verdict (isServerPublicProduct dans catalog-server.ts,
+ * qui verifie en plus l'existence reelle des fichiers photo). On se contente
+ * desormais de transmettre son resultat. Aucun controle n'est perdu : celui du
+ * serveur est strictement plus complet que celui qui etait refait ici.
+ */
 export function isClientPublicProduct(product: Product) {
-  const basePublic =
-    (product.status ?? "published") === "published" &&
-    !product.isTestProduct &&
-    dropshippingFocusCategoryIdSet.has(product.categoryId);
-
-  if (!basePublic) {
-    return false;
-  }
-
-  return isClientDropshippingProductReadyForPublic(product);
+  return product.isPublic;
 }
 
 export function isClientProductPurchasable(product: Product) {
-  return (
-    isClientPublicProduct(product) &&
-    product.stock > 0 &&
-    !isClientComingSoonProduct(product)
-  );
+  return product.isPurchasable;
 }
 
 export function getClientPublicDeliveryEstimate(product: Product) {
