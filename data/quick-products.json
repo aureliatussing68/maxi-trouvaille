@@ -31938,5 +31938,199 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_organisateur_placard_cuisine_extensible__001",
+    "slug": "organisateur-placard-cuisine-extensible-inox",
+    "name": "Organisateur de placard extensible en inox",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/organisateur-placard-cuisine-extensible-inox-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/organisateur-placard-cuisine-extensible-inox-photo-1.webp",
+      "/uploads/quick-products/organisateur-placard-cuisine-extensible-inox-photo-2.webp",
+      "/uploads/quick-products/organisateur-placard-cuisine-extensible-inox-photo-3.webp",
+      "/uploads/quick-products/organisateur-placard-cuisine-extensible-inox-photo-4.webp",
+      "/uploads/quick-products/organisateur-placard-cuisine-extensible-inox-photo-5.webp",
+      "/uploads/quick-products/organisateur-placard-cuisine-extensible-inox-photo-6.webp"
+    ],
+    "shortDescription": "Etagere extensible en inox pour placard : double la surface de rangement sans percer. Note 4.9, 10 000 ventes.",
+    "description": "Organisateur de placard extensible en acier inoxydable : il se pose dans un placard, sous l evier ou sur le plan de travail et cree un second niveau, ce qui double la surface utile sans percer ni monter quoi que ce soit. Largeur reglable pour s adapter au meuble, pieds antiderapants, structure inox qui ne rouille pas dans une cuisine humide et supporte des casseroles et des piles d assiettes. Sert aussi a ranger les planches a decouper et les couvercles a la verticale. Note 4.9 sur plus de 900 avis, 10 000 ventes.",
+    "features": [
+      "Cree un second niveau : double la surface du placard",
+      "Largeur reglable, pieds antiderapants",
+      "Inox : ne rouille pas, supporte casseroles et assiettes"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007170336837.html",
+      "supplierSku": "AE-ITEM-1005007170336837",
+      "supplierPriceCents": 1529,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3390,
+      "marginCents": 1861,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007170336837.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 122,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 15.29 EUR, boutique 33.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T04:37:16.477Z"
+    },
+    "price": 3390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007170336837.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007170336837 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Organisateur de placard extensible en inox | Maxi Trouvaille",
+      "description": "Etagere extensible en inox pour placard : double la surface de rangement sans percer. Note 4.9, 10 000 ventes.",
+      "h1": "Organisateur de placard extensible en inox",
+      "h2": "Pourquoi choisir Organisateur de placard extensible en inox",
+      "keywords": [
+        "organisateur",
+        "placard",
+        "cuisine",
+        "extensible",
+        "inox",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Organisateur de placard extensible en inox - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Organisateur de placard extensible en inox - cuisine Maxi Trouvaille",
+    "compareAtPrice": 4590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_phare_velo_led_rechargeable_usb_c_001",
+    "slug": "phare-velo-led-rechargeable-usb-c",
+    "name": "Phare de vélo LED rechargeable USB-C",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/phare-velo-led-rechargeable-usb-c-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/phare-velo-led-rechargeable-usb-c-photo-1.webp",
+      "/uploads/quick-products/phare-velo-led-rechargeable-usb-c-photo-2.webp",
+      "/uploads/quick-products/phare-velo-led-rechargeable-usb-c-photo-3.webp",
+      "/uploads/quick-products/phare-velo-led-rechargeable-usb-c-photo-4.webp",
+      "/uploads/quick-products/phare-velo-led-rechargeable-usb-c-photo-5.webp",
+      "/uploads/quick-products/phare-velo-led-rechargeable-usb-c-photo-6.webp"
+    ],
+    "shortDescription": "Phare avant de velo LED rechargeable USB-C : eclaire la route et rend visible de loin. Note 4.7 sur pres de 12 000 avis.",
+    "description": "Phare avant de velo a LED rechargeable en USB-C : il eclaire reellement la chaussee au lieu de simplement signaler la presence, ce qui compte sur une piste cyclable non eclairee ou une route de campagne. Plusieurs modes dont un clignotant pour la ville, fixation a sangle qui se monte et se retire en quelques secondes sans outil, corps resistant a la pluie. Batterie integree rechargeable avec le meme cable que le telephone. Convient VTT, velo de route, velo electrique et trottinette. Note 4.7 sur pres de 12 000 avis, 50 000 ventes.",
+    "features": [
+      "Eclaire la chaussee, pas seulement signaler",
+      "Plusieurs modes dont clignotant ville",
+      "Fixation sans outil, recharge USB-C, resiste a la pluie"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007869265979.html",
+      "supplierSku": "AE-ITEM-1005007869265979",
+      "supplierPriceCents": 439,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 851,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007869265979.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 194,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.39 EUR, boutique 12.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T04:37:17.193Z"
+    },
+    "price": 1290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007869265979.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007869265979 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Phare de vélo LED rechargeable USB-C | Maxi Trouvaille",
+      "description": "Phare avant de velo LED rechargeable USB-C : eclaire la route et rend visible de loin. Note 4.7 sur pres de 12 000 avis.",
+      "h1": "Phare de vélo LED rechargeable USB-C",
+      "h2": "Pourquoi choisir Phare de vélo LED rechargeable USB-C",
+      "keywords": [
+        "phare",
+        "velo",
+        "led",
+        "rechargeable",
+        "usb",
+        "dropshipping-auto-moto"
+      ],
+      "imageAlt": "Phare de vélo LED rechargeable USB-C - auto-moto Maxi Trouvaille"
+    },
+    "imageAlt": "Phare de vélo LED rechargeable USB-C - auto-moto Maxi Trouvaille",
+    "compareAtPrice": 1790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
