@@ -30391,5 +30391,390 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_machine_a_glacons_portable_12kg_001",
+    "slug": "machine-a-glacons-portable-12kg",
+    "name": "Machine à glaçons portable 12 kg/24h",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/machine-a-glacons-portable-12kg-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/machine-a-glacons-portable-12kg-photo-1.webp",
+      "/uploads/quick-products/machine-a-glacons-portable-12kg-photo-2.webp",
+      "/uploads/quick-products/machine-a-glacons-portable-12kg-photo-3.webp",
+      "/uploads/quick-products/machine-a-glacons-portable-12kg-photo-4.webp",
+      "/uploads/quick-products/machine-a-glacons-portable-12kg-photo-5.webp",
+      "/uploads/quick-products/machine-a-glacons-portable-12kg-photo-6.webp"
+    ],
+    "shortDescription": "Machine a glacons de comptoir : 8 glacons en 6 a 13 minutes, jusqu a 12 kg par jour. Expediee d Allemagne. Note 4.9.",
+    "description": "Machine a glacons de comptoir : on remplit le reservoir de 0,8 L, on appuie, et huit glacons sortent en six a treize minutes, jusqu a douze kilos sur vingt-quatre heures. Deux tailles de glacons au choix, fonction auto-nettoyage, voyant quand le bac est plein ou le reservoir vide. Elle remplace les bacs du congelateur qui prennent la place et gardent le gout des aliments, et suit en soiree, en van ou au bord de la piscine. Expediee depuis un entrepot allemand, donc livraison rapide. Note 4.9.",
+    "features": [
+      "8 glacons en 6 a 13 minutes, 12 kg par jour",
+      "Deux tailles au choix, auto-nettoyage",
+      "Expediee d Allemagne : livraison rapide"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005011939304911.html",
+      "supplierSku": "AE-ITEM-1005011939304911",
+      "supplierPriceCents": 6732,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 10190,
+      "marginCents": 3458,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005011939304911.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 67.32 EUR, boutique 101.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:42:54.104Z"
+    },
+    "price": 10190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005011939304911.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005011939304911 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Machine à glaçons portable 12 kg/24h | Maxi Trouvaille",
+      "description": "Machine a glacons de comptoir : 8 glacons en 6 a 13 minutes, jusqu a 12 kg par jour. Expediee d Allemagne. Note 4.9.",
+      "h1": "Machine à glaçons portable 12 kg/24h",
+      "h2": "Pourquoi choisir Machine à glaçons portable 12 kg/24h",
+      "keywords": [
+        "machine",
+        "glacons",
+        "portable",
+        "12kg",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Machine à glaçons portable 12 kg/24h - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Machine à glaçons portable 12 kg/24h - cuisine Maxi Trouvaille",
+    "compareAtPrice": 13790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_defroisseur_vapeur_portable_pliable_001",
+    "slug": "defroisseur-vapeur-portable-pliable",
+    "name": "Défroisseur vapeur portable pliable",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/defroisseur-vapeur-portable-pliable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/defroisseur-vapeur-portable-pliable-photo-1.webp",
+      "/uploads/quick-products/defroisseur-vapeur-portable-pliable-photo-2.webp",
+      "/uploads/quick-products/defroisseur-vapeur-portable-pliable-photo-3.webp",
+      "/uploads/quick-products/defroisseur-vapeur-portable-pliable-photo-4.webp",
+      "/uploads/quick-products/defroisseur-vapeur-portable-pliable-photo-5.webp",
+      "/uploads/quick-products/defroisseur-vapeur-portable-pliable-photo-6.webp"
+    ],
+    "shortDescription": "Defroisseur vapeur a main pliable : defroisse une chemise sur cintre en deux minutes, sans planche a repasser. Note 4.8.",
+    "description": "Defroisseur vapeur portable et pliable : la chemise, la robe ou le rideau se defroissent directement sur le cintre, sans sortir la planche a repasser ni attendre que le fer chauffe. La vapeur assainit aussi les tissus qui ne passent pas en machine — canape, matelas, rideaux, peluches. Chauffe en quelques dizaines de secondes, poignee qui se replie pour tenir dans une valise, arret automatique quand le reservoir est vide. Note 4.8 sur plus de 1 500 avis, 10 000 ventes.",
+    "features": [
+      "Defroisse sur cintre, sans planche a repasser",
+      "Assainit canape, matelas, rideaux et peluches",
+      "Se plie pour la valise, arret automatique"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006641990725.html",
+      "supplierSku": "AE-ITEM-1005006641990725",
+      "supplierPriceCents": 3519,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 5690,
+      "marginCents": 2171,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006641990725.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 62,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 35.19 EUR, boutique 56.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:42:54.702Z"
+    },
+    "price": 5690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006641990725.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006641990725 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Défroisseur vapeur portable pliable | Maxi Trouvaille",
+      "description": "Defroisseur vapeur a main pliable : defroisse une chemise sur cintre en deux minutes, sans planche a repasser. Note 4.8.",
+      "h1": "Défroisseur vapeur portable pliable",
+      "h2": "Pourquoi choisir Défroisseur vapeur portable pliable",
+      "keywords": [
+        "defroisseur",
+        "vapeur",
+        "portable",
+        "pliable",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Défroisseur vapeur portable pliable - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Défroisseur vapeur portable pliable - maison Maxi Trouvaille",
+    "compareAtPrice": 7690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_boite_rangement_compartiments_vis_001",
+    "slug": "boite-rangement-compartiments-vis",
+    "name": "Boîte de rangement à compartiments",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/boite-rangement-compartiments-vis-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/boite-rangement-compartiments-vis-photo-1.webp",
+      "/uploads/quick-products/boite-rangement-compartiments-vis-photo-2.webp",
+      "/uploads/quick-products/boite-rangement-compartiments-vis-photo-3.webp",
+      "/uploads/quick-products/boite-rangement-compartiments-vis-photo-4.webp",
+      "/uploads/quick-products/boite-rangement-compartiments-vis-photo-5.webp",
+      "/uploads/quick-products/boite-rangement-compartiments-vis-photo-6.webp"
+    ],
+    "shortDescription": "Boite a compartiments reglables pour vis, chevilles et petites pieces : on retrouve la bonne vis en trois secondes. Note 4.8.",
+    "description": "Boite de rangement a compartiments reglables : les separateurs se deplacent pour adapter les cases aux vis, chevilles, forets, embouts, piles boutons ou composants electroniques. Couvercle transparent qui se ferme a clip, donc rien ne se melange dans le coffre ou l atelier, et on voit ce qu il y a dedans sans ouvrir. Empilable avec d autres du meme modele. Sert aussi pour les perles, les medicaments ou le materiel de peche. Note 4.8 sur plus de 2 400 avis, 10 000 ventes.",
+    "features": [
+      "Compartiments reglables selon ce qu on range",
+      "Couvercle transparent a clip : rien ne se melange",
+      "Empilable, atelier, coffre, peche, loisirs creatifs"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010427463563.html",
+      "supplierSku": "AE-ITEM-1005010427463563",
+      "supplierPriceCents": 659,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1890,
+      "marginCents": 1231,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010427463563.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 187,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 6.59 EUR, boutique 18.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:42:55.160Z"
+    },
+    "price": 1890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010427463563.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010427463563 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Boîte de rangement à compartiments | Maxi Trouvaille",
+      "description": "Boite a compartiments reglables pour vis, chevilles et petites pieces : on retrouve la bonne vis en trois secondes. Note 4.8.",
+      "h1": "Boîte de rangement à compartiments",
+      "h2": "Pourquoi choisir Boîte de rangement à compartiments",
+      "keywords": [
+        "boite",
+        "rangement",
+        "compartiments",
+        "vis",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Boîte de rangement à compartiments - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Boîte de rangement à compartiments - outillage Maxi Trouvaille",
+    "compareAtPrice": 2590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_mini_lisseur_boucleur_2en1_ceramique_001",
+    "slug": "mini-lisseur-boucleur-2en1-ceramique",
+    "name": "Mini lisseur boucleur 2 en 1 céramique",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/mini-lisseur-boucleur-2en1-ceramique-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/mini-lisseur-boucleur-2en1-ceramique-photo-1.webp",
+      "/uploads/quick-products/mini-lisseur-boucleur-2en1-ceramique-photo-2.webp",
+      "/uploads/quick-products/mini-lisseur-boucleur-2en1-ceramique-photo-3.webp",
+      "/uploads/quick-products/mini-lisseur-boucleur-2en1-ceramique-photo-4.webp",
+      "/uploads/quick-products/mini-lisseur-boucleur-2en1-ceramique-photo-5.webp",
+      "/uploads/quick-products/mini-lisseur-boucleur-2en1-ceramique-photo-6.webp"
+    ],
+    "shortDescription": "Mini lisseur et boucleur 2 en 1 en ceramique : lisse ou boucle selon le geste, format voyage. Note 4.9.",
+    "description": "Mini fer 2 en 1 a plaques ceramique : plat il lisse, tourne il boucle, ce qui evite d acheter deux appareils. Les plaques ceramique chauffent uniformement et glissent sans tirer sur le cheveu, la temperature monte en une trentaine de secondes. Son format court le rend maniable sur les cheveux courts, la frange, les meches du visage et la barbe, et il tient dans une trousse de toilette. Note 4.9.",
+    "features": [
+      "Lisse et boucle avec le meme appareil",
+      "Plaques ceramique : chauffe uniforme, glisse sans tirer",
+      "Format court et voyage, chauffe en 30 secondes"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007038722017.html",
+      "supplierSku": "AE-ITEM-1005007038722017",
+      "supplierPriceCents": 1489,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3290,
+      "marginCents": 1801,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007038722017.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (3000+ ventes, visuels officiels importes).",
+      "markupPercent": 121,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 14.89 EUR, boutique 32.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:42:55.510Z"
+    },
+    "price": 3290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007038722017.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007038722017 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Mini lisseur boucleur 2 en 1 céramique | Maxi Trouvaille",
+      "description": "Mini lisseur et boucleur 2 en 1 en ceramique : lisse ou boucle selon le geste, format voyage. Note 4.9.",
+      "h1": "Mini lisseur boucleur 2 en 1 céramique",
+      "h2": "Pourquoi choisir Mini lisseur boucleur 2 en 1 céramique",
+      "keywords": [
+        "mini",
+        "lisseur",
+        "boucleur",
+        "2en1",
+        "ceramique",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Mini lisseur boucleur 2 en 1 céramique - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Mini lisseur boucleur 2 en 1 céramique - beaute Maxi Trouvaille",
+    "compareAtPrice": 4490,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
