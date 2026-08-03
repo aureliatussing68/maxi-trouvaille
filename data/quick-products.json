@@ -32132,5 +32132,101 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_sac_banane_multifonction_resistant_001",
+    "slug": "sac-banane-multifonction-resistant",
+    "name": "Sac banane multifonction résistant",
+    "categoryId": "dropshipping-mode",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/sac-banane-multifonction-resistant-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/sac-banane-multifonction-resistant-photo-1.webp",
+      "/uploads/quick-products/sac-banane-multifonction-resistant-photo-2.webp",
+      "/uploads/quick-products/sac-banane-multifonction-resistant-photo-3.webp",
+      "/uploads/quick-products/sac-banane-multifonction-resistant-photo-4.webp",
+      "/uploads/quick-products/sac-banane-multifonction-resistant-photo-5.webp",
+      "/uploads/quick-products/sac-banane-multifonction-resistant-photo-6.webp"
+    ],
+    "shortDescription": "Sac banane resistant a l usure et aux eclaboussures, grande capacite : se porte a la taille ou en bandouliere. Note 4.9.",
+    "description": "Sac banane multifonction en tissu resistant a l usure et aux eclaboussures : il encaisse le chantier, le velo, la randonnee ou les trajets quotidiens sans se dechirer aux coutures. Plusieurs poches zippees pour separer telephone, cles, portefeuille et outils, sangle reglable pour le porter a la taille, en bandouliere ou en travers de la poitrine. Assez grand pour un telephone de grande taille et une petite bouteille. Note 4.9 sur plus de 2 400 avis, 10 000 ventes.",
+    "features": [
+      "Tissu resistant a l usure et aux eclaboussures",
+      "Plusieurs poches zippees, grande capacite",
+      "Se porte a la taille, en bandouliere ou en travers"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007539857995.html",
+      "supplierSku": "AE-ITEM-1005007539857995",
+      "supplierPriceCents": 529,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1490,
+      "marginCents": 961,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007539857995.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 182,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 5.29 EUR, boutique 14.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T05:03:33.188Z"
+    },
+    "price": 1490,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007539857995.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007539857995 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Sac banane multifonction résistant | Maxi Trouvaille",
+      "description": "Sac banane resistant a l usure et aux eclaboussures, grande capacite : se porte a la taille ou en bandouliere. Note 4.9.",
+      "h1": "Sac banane multifonction résistant",
+      "h2": "Pourquoi choisir Sac banane multifonction résistant",
+      "keywords": [
+        "sac",
+        "banane",
+        "multifonction",
+        "resistant",
+        "dropshipping-mode"
+      ],
+      "imageAlt": "Sac banane multifonction résistant - mode Maxi Trouvaille"
+    },
+    "imageAlt": "Sac banane multifonction résistant - mode Maxi Trouvaille",
+    "compareAtPrice": 2090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
