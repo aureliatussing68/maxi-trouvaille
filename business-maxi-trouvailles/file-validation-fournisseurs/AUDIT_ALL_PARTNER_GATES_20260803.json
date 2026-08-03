@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-03T03:46:40.564Z",
+  "checkedAt": "2026-08-03T03:49:03.552Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 309,
-  "publishedPartnerCount": 250,
+  "partnerProductCount": 310,
+  "publishedPartnerCount": 251,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -5571,15 +5571,33 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_kit_arrosage_goutte_a_goutte_automatique_001",
+      "slug": "kit-arrosage-goutte-a-goutte-automatique",
+      "name": "Kit d'arrosage goutte-à-goutte automatique",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-outillage",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 305
+    "data/quick-products.json": 306
   },
   "byStatus": {
     "draft": 59,
-    "published": 250
+    "published": 251
   },
   "byCategory": {
     "dropshipping-high-tech": 34,
@@ -5591,7 +5609,7 @@
     "dropshipping-beaute": 29,
     "dropshipping-animaux": 26,
     "dropshipping-mode": 21,
-    "dropshipping-outillage": 26,
+    "dropshipping-outillage": 27,
     "dropshipping-gaming": 18
   },
   "safety": {
