@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-03T05:03:33.793Z",
+  "checkedAt": "2026-08-03T05:06:53.134Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 322,
-  "publishedPartnerCount": 263,
+  "partnerProductCount": 324,
+  "publishedPartnerCount": 265,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -5805,27 +5805,63 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_mixeur_plongeant_4en1_inox_accessoires_001",
+      "slug": "mixeur-plongeant-4en1-inox-accessoires",
+      "name": "Mixeur plongeant 4 en 1 en inox",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-cuisine",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_lampe_frontale_led_detecteur_mouvement_001",
+      "slug": "lampe-frontale-led-detecteur-mouvement",
+      "name": "Lampe frontale LED avec détecteur de mouvement",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-outillage",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 318
+    "data/quick-products.json": 320
   },
   "byStatus": {
     "draft": 59,
-    "published": 263
+    "published": 265
   },
   "byCategory": {
     "dropshipping-high-tech": 37,
     "dropshipping-accessoires": 34,
     "dropshipping-maison": 36,
     "dropshipping-auto-moto": 25,
-    "dropshipping-cuisine": 40,
+    "dropshipping-cuisine": 41,
     "dropshipping-enfant": 23,
     "dropshipping-beaute": 29,
     "dropshipping-animaux": 26,
     "dropshipping-mode": 22,
-    "dropshipping-outillage": 31,
+    "dropshipping-outillage": 32,
     "dropshipping-gaming": 19
   },
   "safety": {
