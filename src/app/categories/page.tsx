@@ -4,6 +4,11 @@ import { ArrowRight, BadgeEuro, Headphones, ShieldCheck, Truck } from "lucide-re
 import { CategoryGrid } from "@/components/CategoryGrid";
 import { CustomerSupportQuickLinks } from "@/components/CustomerSupportQuickLinks";
 import { PageHeader } from "@/components/PageHeader";
+import {
+  countProductsByCategory,
+  homeShowcaseCategoryIds,
+} from "@/lib/catalog";
+import { getPublicProducts } from "@/lib/catalog-server";
 
 export const dynamic = "force-dynamic";
 
@@ -14,12 +19,18 @@ export const metadata: Metadata = {
 };
 
 export default async function CategoriesPage() {
+  const publicProducts = await getPublicProducts();
+  const productCountByCategoryId = countProductsByCategory(
+    publicProducts,
+    homeShowcaseCategoryIds,
+  );
+
   return (
     <>
       <PageHeader
         eyebrow="Nos rayons"
         title="Trouvez votre bonheur par univers"
-        description="Nouveautés, promotions, maison, cuisine, beauté, high-tech, auto-moto : chaque rayon regroupe des produits malins à petits prix."
+        description="Maison, cuisine, beauté, high-tech, accessoires, outillage, auto-moto, animaux, enfant, mode, gaming : chaque rayon regroupe des produits malins à petits prix."
       />
       <section className="container-page py-10">
         <div className="mb-8 grid gap-3 rounded-lg border border-line bg-paper p-4 shadow-sm md:grid-cols-[1fr_auto] md:items-center">
@@ -54,7 +65,20 @@ export default async function CategoriesPage() {
             </Link>
           </div>
         </div>
-        <CategoryGrid />
+        {/* Cette page, intitulee "Nos rayons", n'affichait qu'UNE seule tuile :
+            "Produits partenaires", avec la photo de poignee de main. Elle
+            montre desormais les memes rayons que l'accueil et le bas de la
+            boutique, avec le nombre reel de produits de chacun. */}
+        <CategoryGrid
+          compact
+          featuredOnly
+          productCountByCategoryId={productCountByCategoryId}
+          trailingTile={{
+            href: "/boutique",
+            label: "Toute la boutique",
+            hint: `${publicProducts.length} produits`,
+          }}
+        />
         <CustomerSupportQuickLinks className="mt-8" />
         <div className="mt-8 grid gap-3 md:grid-cols-3">
           <div className="rounded-lg border border-line bg-paper p-4 shadow-sm">

@@ -22,19 +22,57 @@ import { formatPrice } from "@/lib/format";
 import type { ProductStats } from "@/lib/product-stats";
 import type { ProductReviewSummary } from "@/lib/product-reviews";
 
+/**
+ * "showcase" : version vitrine, utilisee uniquement par le carrousel de la page
+ * d'accueil. Meme carte, mais allegee — un seul badge (la remise reelle), une
+ * description coupee a deux lignes et le bloc prix + boutons colle en bas de
+ * carte, pour que les prix soient tous alignes d'une carte a l'autre.
+ */
+export type ProductCardVariant = "default" | "showcase";
+
+/**
+ * Pourcentage de remise reel, calcule a partir du prix barre de la fiche.
+ * Aucun chiffre invente : sans prix barre superieur au prix, pas de badge.
+ */
+function getRealDiscountPercent(product: Product) {
+  const compareAtPrice = product.compareAtPrice;
+
+  if (
+    typeof compareAtPrice !== "number" ||
+    !Number.isFinite(compareAtPrice) ||
+    compareAtPrice <= product.price
+  ) {
+    return 0;
+  }
+
+  return Math.round(((compareAtPrice - product.price) / compareAtPrice) * 100);
+}
+
 export function ProductCard({
   product,
   stats,
   reviewSummary,
   showAdminControls = false,
+  variant = "default",
 }: {
   product: Product;
   stats?: ProductStats;
   reviewSummary?: ProductReviewSummary;
   showAdminControls?: boolean;
+  variant?: ProductCardVariant;
 }) {
+  const isShowcase = variant === "showcase";
   const categoryName = getClientCategoryNameById(product.categoryId);
-  const badges = getClientProductBadges(product);
+  const discountPercent = getRealDiscountPercent(product);
+  const defaultBadges = getClientProductBadges(product);
+  // Vitrine : un seul badge, et seulement s'il porte une vraie information.
+  const badges = isShowcase
+    ? isClientComingSoonProduct(product)
+      ? defaultBadges.slice(0, 1)
+      : discountPercent >= 1
+        ? [{ label: `-${discountPercent} %`, tone: "promotion" as ProductBadgeTone }]
+        : []
+    : defaultBadges;
   const isComingSoon = isClientComingSoonProduct(product);
   const isDropshipping = isClientDropshippingProduct(product);
   const canRenderPublicProduct = isClientPublicProduct(product);
@@ -79,7 +117,11 @@ export function ProductCard({
   }
 
   return (
-    <article className="overflow-hidden rounded-lg border border-line bg-paper shadow-sm">
+    <article
+      className={`overflow-hidden rounded-lg border border-line bg-paper shadow-sm ${
+        isShowcase ? "flex h-full flex-col" : ""
+      }`}
+    >
       <Link href={`/produit/${product.slug}`} className="group block">
         <div className="relative aspect-[4/3] overflow-hidden bg-[#ede7db]">
           <Image
@@ -104,16 +146,32 @@ export function ProductCard({
         </div>
       </Link>
 
-      <div className="grid gap-4 p-4">
+      <div
+        className={
+          isShowcase ? "flex flex-1 flex-col gap-3 p-4" : "grid gap-4 p-4"
+        }
+      >
         <div className="grid gap-2">
           <div className="flex items-center gap-2 text-xs font-bold uppercase text-teal">
             <Tag size={14} aria-hidden="true" />
             {categoryName ?? "Categorie"}
           </div>
           <Link href={`/produit/${product.slug}`} className="hover:text-teal">
-            <h2 className="text-lg font-black leading-6">{product.name}</h2>
+            <h2
+              className={`text-lg font-black leading-6 ${
+                isShowcase ? "line-clamp-2" : ""
+              }`}
+            >
+              {product.name}
+            </h2>
           </Link>
-          <p className="text-sm leading-6 text-muted">{product.shortDescription}</p>
+          <p
+            className={`text-sm leading-6 text-muted ${
+              isShowcase ? "line-clamp-2" : ""
+            }`}
+          >
+            {product.shortDescription}
+          </p>
           <div className="flex items-center gap-2 text-xs font-bold text-muted">
             <Store size={14} aria-hidden="true" />
             {isDropshipping
@@ -127,10 +185,16 @@ export function ProductCard({
             {deliveryEstimate}
           </div>
           <ReviewSummaryBadge summary={reviewSummary} compact />
-          <ProductStatsBadges stats={stats} />
+          {/* Vitrine : aucun compteur de vues. A la premiere visite il
+              afficherait "1 vue", ce qui dessert la boutique. */}
+          {isShowcase ? null : <ProductStatsBadges stats={stats} />}
         </div>
 
-        <div className="flex flex-wrap items-end justify-between gap-3">
+        <div
+          className={`flex flex-wrap items-end justify-between gap-3 ${
+            isShowcase ? "mt-auto" : ""
+          }`}
+        >
           <div className="min-w-0">
             {isComingSoon ? (
               <div className="rounded-md border border-[#fed7aa] bg-[#fff7ed] p-3 text-sm font-black text-[#9a3412]">

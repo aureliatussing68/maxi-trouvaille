@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-03T08:46:01.104Z",
+  "checkedAt": "2026-08-03T08:49:03.443Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 330,
-  "publishedPartnerCount": 271,
+  "partnerProductCount": 332,
+  "publishedPartnerCount": 273,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -5949,21 +5949,57 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_support_tablette_bras_long_lit_001",
+      "slug": "support-tablette-bras-long-lit",
+      "name": "Support tablette à bras long pour lit",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-accessoires",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_tapis_sol_voiture_cuir_pu_5_pieces_001",
+      "slug": "tapis-sol-voiture-cuir-pu-5-pieces",
+      "name": "Tapis de sol voiture en cuir PU 5 pièces",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-auto-moto",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 326
+    "data/quick-products.json": 328
   },
   "byStatus": {
     "draft": 59,
-    "published": 271
+    "published": 273
   },
   "byCategory": {
     "dropshipping-high-tech": 38,
-    "dropshipping-accessoires": 35,
+    "dropshipping-accessoires": 36,
     "dropshipping-maison": 36,
-    "dropshipping-auto-moto": 25,
+    "dropshipping-auto-moto": 26,
     "dropshipping-cuisine": 42,
     "dropshipping-enfant": 24,
     "dropshipping-beaute": 31,

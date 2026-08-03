@@ -33001,5 +33001,199 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_support_tablette_bras_long_lit_001",
+    "slug": "support-tablette-bras-long-lit",
+    "name": "Support tablette à bras long pour lit",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/support-tablette-bras-long-lit-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/support-tablette-bras-long-lit-photo-1.webp",
+      "/uploads/quick-products/support-tablette-bras-long-lit-photo-2.webp",
+      "/uploads/quick-products/support-tablette-bras-long-lit-photo-3.webp",
+      "/uploads/quick-products/support-tablette-bras-long-lit-photo-4.webp",
+      "/uploads/quick-products/support-tablette-bras-long-lit-photo-5.webp",
+      "/uploads/quick-products/support-tablette-bras-long-lit-photo-6.webp"
+    ],
+    "shortDescription": "Support a bras long articule pour tablette et telephone : regarder un film au lit sans tenir l ecran. Note 4.7.",
+    "description": "Support a bras long articule qui se pince sur un cadre de lit, une table ou un bureau : il tient la tablette ou le telephone a hauteur du regard, orientable a 360 degres, ce qui evite de garder l ecran a bout de bras ou de se tordre la nuque pendant un film ou une visio. Bras metallique renforce qui ne s affaisse pas sous le poids d une tablette de 12 pouces, pince rembourree qui ne marque pas les meubles. Compatible de 4 a 12,9 pouces. Note 4.7 sur plus de 1 400 avis, 5 000 ventes.",
+    "features": [
+      "Bras long articule, orientation 360 degres",
+      "Metal renforce : ne s affaisse pas avec une grande tablette",
+      "Pince rembourree, compatible 4 a 12,9 pouces"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006749407390.html",
+      "supplierSku": "AE-ITEM-1005006749407390",
+      "supplierPriceCents": 1539,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3390,
+      "marginCents": 1851,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006749407390.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 120,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 15.39 EUR, boutique 33.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T08:49:02.301Z"
+    },
+    "price": 3390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006749407390.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006749407390 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Support tablette à bras long pour lit | Maxi Trouvaille",
+      "description": "Support a bras long articule pour tablette et telephone : regarder un film au lit sans tenir l ecran. Note 4.7.",
+      "h1": "Support tablette à bras long pour lit",
+      "h2": "Pourquoi choisir Support tablette à bras long pour lit",
+      "keywords": [
+        "support",
+        "tablette",
+        "bras",
+        "long",
+        "lit",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Support tablette à bras long pour lit - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Support tablette à bras long pour lit - accessoires Maxi Trouvaille",
+    "compareAtPrice": 4590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_tapis_sol_voiture_cuir_pu_5_pieces_001",
+    "slug": "tapis-sol-voiture-cuir-pu-5-pieces",
+    "name": "Tapis de sol voiture en cuir PU 5 pièces",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/tapis-sol-voiture-cuir-pu-5-pieces-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/tapis-sol-voiture-cuir-pu-5-pieces-photo-1.webp",
+      "/uploads/quick-products/tapis-sol-voiture-cuir-pu-5-pieces-photo-2.webp",
+      "/uploads/quick-products/tapis-sol-voiture-cuir-pu-5-pieces-photo-3.webp",
+      "/uploads/quick-products/tapis-sol-voiture-cuir-pu-5-pieces-photo-4.webp",
+      "/uploads/quick-products/tapis-sol-voiture-cuir-pu-5-pieces-photo-5.webp",
+      "/uploads/quick-products/tapis-sol-voiture-cuir-pu-5-pieces-photo-6.webp"
+    ],
+    "shortDescription": "Jeu de 5 tapis de sol universels en cuir PU impermeable : se rincent d un coup d eponge, fini la moquette sale. Note 4.9.",
+    "description": "Jeu de cinq tapis de sol de voiture universels en cuir PU impermeable : la boue, la neige fondue, le sable et le cafe renverse restent en surface et se rincent d un coup d eponge, la ou une moquette d origine garde les taches et les odeurs. Format universel a decouper si besoin pour epouser le plancher, surface antiderapante qui ne glisse pas sous les pedales, coloris sobres qui vont avec tous les interieurs. Cinq pieces pour couvrir l avant, l arriere et le tunnel central. Note 4.9 sur plus de 1 100 avis, 10 000 ventes.",
+    "features": [
+      "Cuir PU impermeable : se rince d un coup d eponge",
+      "5 pieces : avant, arriere et tunnel central",
+      "Antiderapant, universel, decoupable si besoin"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007038159953.html",
+      "supplierSku": "AE-ITEM-1005007038159953",
+      "supplierPriceCents": 1419,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3190,
+      "marginCents": 1771,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007038159953.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 125,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 14.19 EUR, boutique 31.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T08:49:02.911Z"
+    },
+    "price": 3190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007038159953.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007038159953 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Tapis de sol voiture en cuir PU 5 pièces | Maxi Trouvaille",
+      "description": "Jeu de 5 tapis de sol universels en cuir PU impermeable : se rincent d un coup d eponge, fini la moquette sale. Note 4.9.",
+      "h1": "Tapis de sol voiture en cuir PU 5 pièces",
+      "h2": "Pourquoi choisir Tapis de sol voiture en cuir PU 5 pièces",
+      "keywords": [
+        "tapis",
+        "sol",
+        "voiture",
+        "cuir",
+        "pieces",
+        "dropshipping-auto-moto"
+      ],
+      "imageAlt": "Tapis de sol voiture en cuir PU 5 pièces - auto-moto Maxi Trouvaille"
+    },
+    "imageAlt": "Tapis de sol voiture en cuir PU 5 pièces - auto-moto Maxi Trouvaille",
+    "compareAtPrice": 4390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
