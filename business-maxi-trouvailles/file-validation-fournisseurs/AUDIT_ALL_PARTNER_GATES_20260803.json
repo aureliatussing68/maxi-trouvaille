@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-03T03:32:26.950Z",
+  "checkedAt": "2026-08-03T03:38:40.714Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 300,
-  "publishedPartnerCount": 241,
+  "partnerProductCount": 303,
+  "publishedPartnerCount": 244,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -5409,25 +5409,79 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_cadre_photo_numerique_wifi_10_pouces_001",
+      "slug": "cadre-photo-numerique-wifi-10-pouces",
+      "name": "Cadre photo numérique WiFi 10 pouces",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-high-tech",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_ecran_carplay_sans_fil_portable_voiture_001",
+      "slug": "ecran-carplay-sans-fil-portable-voiture",
+      "name": "Écran CarPlay sans fil portable",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-auto-moto",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_arbre_a_chat_170cm_multi_niveaux_001",
+      "slug": "arbre-a-chat-170cm-multi-niveaux",
+      "name": "Arbre à chat 170 cm multi-niveaux",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-animaux",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 296
+    "data/quick-products.json": 299
   },
   "byStatus": {
     "draft": 59,
-    "published": 241
+    "published": 244
   },
   "byCategory": {
-    "dropshipping-high-tech": 33,
+    "dropshipping-high-tech": 34,
     "dropshipping-accessoires": 33,
     "dropshipping-maison": 35,
-    "dropshipping-auto-moto": 23,
+    "dropshipping-auto-moto": 24,
     "dropshipping-cuisine": 37,
     "dropshipping-enfant": 23,
     "dropshipping-beaute": 28,
-    "dropshipping-animaux": 25,
+    "dropshipping-animaux": 26,
     "dropshipping-mode": 21,
     "dropshipping-outillage": 25,
     "dropshipping-gaming": 17

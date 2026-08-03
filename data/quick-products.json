@@ -30099,5 +30099,297 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_cadre_photo_numerique_wifi_10_pouces_001",
+    "slug": "cadre-photo-numerique-wifi-10-pouces",
+    "name": "Cadre photo numérique WiFi 10 pouces",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/cadre-photo-numerique-wifi-10-pouces-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/cadre-photo-numerique-wifi-10-pouces-photo-1.webp",
+      "/uploads/quick-products/cadre-photo-numerique-wifi-10-pouces-photo-2.webp",
+      "/uploads/quick-products/cadre-photo-numerique-wifi-10-pouces-photo-3.webp",
+      "/uploads/quick-products/cadre-photo-numerique-wifi-10-pouces-photo-4.webp",
+      "/uploads/quick-products/cadre-photo-numerique-wifi-10-pouces-photo-5.webp",
+      "/uploads/quick-products/cadre-photo-numerique-wifi-10-pouces-photo-6.webp"
+    ],
+    "shortDescription": "Cadre photo numerique WiFi 10 pouces : la famille envoie les photos depuis son telephone, elles s affichent toutes seules. Note 4.8.",
+    "description": "Cadre photo numerique connecte de 10,1 pouces avec ecran tactile IPS : une fois relie au WiFi, n importe qui dans la famille peut lui envoyer des photos depuis son telephone, ou qu il soit, et elles apparaissent immediatement sur le cadre. Aucune manipulation pour la personne qui le recoit — c est ce qui en fait un cadeau apprecie des grands-parents. Memoire integree, diaporama automatique, orientation portrait ou paysage, fixation murale possible. Note 4.8.",
+    "features": [
+      "La famille envoie les photos depuis le telephone, a distance",
+      "Ecran tactile IPS 10,1 pouces, diaporama automatique",
+      "Aucune manipulation pour celui qui le recoit"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005545336780.html",
+      "supplierSku": "AE-ITEM-1005005545336780",
+      "supplierPriceCents": 6669,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 10090,
+      "marginCents": 3421,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005545336780.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (3000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 66.69 EUR, boutique 100.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:38:27.571Z"
+    },
+    "price": 10090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005545336780.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005545336780 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Cadre photo numérique WiFi 10 pouces | Maxi Trouvaille",
+      "description": "Cadre photo numerique WiFi 10 pouces : la famille envoie les photos depuis son telephone, elles s affichent toutes seules. Note 4.8.",
+      "h1": "Cadre photo numérique WiFi 10 pouces",
+      "h2": "Pourquoi choisir Cadre photo numérique WiFi 10 pouces",
+      "keywords": [
+        "cadre",
+        "photo",
+        "numerique",
+        "wifi",
+        "pouces",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Cadre photo numérique WiFi 10 pouces - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Cadre photo numérique WiFi 10 pouces - high-tech Maxi Trouvaille",
+    "compareAtPrice": 13690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_ecran_carplay_sans_fil_portable_voiture_001",
+    "slug": "ecran-carplay-sans-fil-portable-voiture",
+    "name": "Écran CarPlay sans fil portable",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/ecran-carplay-sans-fil-portable-voiture-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/ecran-carplay-sans-fil-portable-voiture-photo-1.webp",
+      "/uploads/quick-products/ecran-carplay-sans-fil-portable-voiture-photo-2.webp",
+      "/uploads/quick-products/ecran-carplay-sans-fil-portable-voiture-photo-3.webp",
+      "/uploads/quick-products/ecran-carplay-sans-fil-portable-voiture-photo-4.webp",
+      "/uploads/quick-products/ecran-carplay-sans-fil-portable-voiture-photo-5.webp",
+      "/uploads/quick-products/ecran-carplay-sans-fil-portable-voiture-photo-6.webp"
+    ],
+    "shortDescription": "Ecran tactile CarPlay et Android Auto sans fil : ajoute le GPS et la musique du telephone a une voiture qui n a rien. Note 4.9.",
+    "description": "Ecran tactile portable compatible CarPlay et Android Auto en sans fil : il donne a une voiture ancienne le GPS plein ecran, la musique, les appels et les messages dictes, sans changer l autoradio ni couper un seul fil. Il se pose sur le tableau de bord ou le pare-brise et s alimente sur l allume-cigare. Le telephone se connecte tout seul au demarrage. Se demonte en quelques secondes pour changer de vehicule ou eviter de le laisser en vue. Note 4.9 sur plus de 2 300 avis, 10 000 ventes.",
+    "features": [
+      "CarPlay et Android Auto sans fil, connexion automatique",
+      "Aucun demontage : se pose et s alimente sur l allume-cigare",
+      "GPS plein ecran, musique, appels et messages"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010114751081.html",
+      "supplierSku": "AE-ITEM-1005010114751081",
+      "supplierPriceCents": 5539,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 8390,
+      "marginCents": 2851,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010114751081.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 55.39 EUR, boutique 83.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:38:29.077Z"
+    },
+    "price": 8390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010114751081.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010114751081 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Écran CarPlay sans fil portable | Maxi Trouvaille",
+      "description": "Ecran tactile CarPlay et Android Auto sans fil : ajoute le GPS et la musique du telephone a une voiture qui n a rien. Note 4.9.",
+      "h1": "Écran CarPlay sans fil portable",
+      "h2": "Pourquoi choisir Écran CarPlay sans fil portable",
+      "keywords": [
+        "ecran",
+        "carplay",
+        "sans",
+        "fil",
+        "portable",
+        "voiture",
+        "dropshipping-auto-moto"
+      ],
+      "imageAlt": "Écran CarPlay sans fil portable - auto-moto Maxi Trouvaille"
+    },
+    "imageAlt": "Écran CarPlay sans fil portable - auto-moto Maxi Trouvaille",
+    "compareAtPrice": 11390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_arbre_a_chat_170cm_multi_niveaux_001",
+    "slug": "arbre-a-chat-170cm-multi-niveaux",
+    "name": "Arbre à chat 170 cm multi-niveaux",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/arbre-a-chat-170cm-multi-niveaux-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/arbre-a-chat-170cm-multi-niveaux-photo-1.webp",
+      "/uploads/quick-products/arbre-a-chat-170cm-multi-niveaux-photo-2.webp",
+      "/uploads/quick-products/arbre-a-chat-170cm-multi-niveaux-photo-3.webp",
+      "/uploads/quick-products/arbre-a-chat-170cm-multi-niveaux-photo-4.webp",
+      "/uploads/quick-products/arbre-a-chat-170cm-multi-niveaux-photo-5.webp",
+      "/uploads/quick-products/arbre-a-chat-170cm-multi-niveaux-photo-6.webp"
+    ],
+    "shortDescription": "Arbre a chat de 170 cm avec plateformes, niche et poteaux a griffer : expedie depuis l Allemagne, note 4.9.",
+    "description": "Arbre a chat de 170 cm a plusieurs niveaux : plateformes en hauteur pour observer la piece, niche fermee pour dormir au calme et poteaux entoures de sisal qui detournent les griffes du canape et des rideaux. Structure stable avec fixation murale de securite, tapis lavables en machine, montage explique etape par etape. Il occupe un chat d interieur qui s ennuie et lui rend de la hauteur. Expedie depuis un entrepot allemand, donc livraison nettement plus rapide que la moyenne. Note 4.9.",
+    "features": [
+      "170 cm : plateformes, niche fermee, poteaux en sisal",
+      "Detourne les griffes du canape et des rideaux",
+      "Expedie d Allemagne : livraison rapide. Tapis lavables"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008998367322.html",
+      "supplierSku": "AE-ITEM-1005008998367322",
+      "supplierPriceCents": 6499,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 9790,
+      "marginCents": 3291,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008998367322.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 64.99 EUR, boutique 97.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:38:30.098Z"
+    },
+    "price": 9790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008998367322.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008998367322 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Arbre à chat 170 cm multi-niveaux | Maxi Trouvaille",
+      "description": "Arbre a chat de 170 cm avec plateformes, niche et poteaux a griffer : expedie depuis l Allemagne, note 4.9.",
+      "h1": "Arbre à chat 170 cm multi-niveaux",
+      "h2": "Pourquoi choisir Arbre à chat 170 cm multi-niveaux",
+      "keywords": [
+        "arbre",
+        "chat",
+        "170cm",
+        "multi",
+        "niveaux",
+        "dropshipping-animaux"
+      ],
+      "imageAlt": "Arbre à chat 170 cm multi-niveaux - animaux Maxi Trouvaille"
+    },
+    "imageAlt": "Arbre à chat 170 cm multi-niveaux - animaux Maxi Trouvaille",
+    "compareAtPrice": 13290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
