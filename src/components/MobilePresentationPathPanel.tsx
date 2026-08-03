@@ -100,7 +100,7 @@ export function MobilePresentationPathPanel({
     >
       <div className="grid gap-4 lg:grid-cols-[1fr_auto] lg:items-end">
         <div>
-          <p className="flex items-center gap-2 text-sm font-black uppercase text-teal">
+          <p className="flex items-center gap-2 text-sm font-bold uppercase text-teal">
             <ShieldCheck size={16} aria-hidden="true" />
             Parcours express mobile
           </p>
@@ -115,7 +115,7 @@ export function MobilePresentationPathPanel({
         </div>
         <Link
           href="/contact"
-          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
         >
           <Headphones size={17} aria-hidden="true" />
           Service client
@@ -133,10 +133,10 @@ export function MobilePresentationPathPanel({
             >
               <div className="flex items-start justify-between gap-3">
                 <div>
-                  <p className="text-sm font-black text-teal">
+                  <p className="text-sm font-bold text-teal">
                     {metric.value}
                   </p>
-                  <h3 className="mt-1 text-base font-black">
+                  <h3 className="mt-1 text-base font-bold">
                     {metric.label}
                   </h3>
                 </div>
@@ -164,18 +164,18 @@ export function MobilePresentationPathPanel({
                   <span className="flex h-10 w-10 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
                     <Icon size={19} aria-hidden="true" />
                   </span>
-                  <span className="rounded-md bg-[#f6f1e8] px-2 py-1 text-[11px] font-black uppercase text-teal">
+                  <span className="rounded-md bg-[#f6f1e8] px-2 py-1 text-[11px] font-bold uppercase text-teal">
                     {step.label}
                   </span>
                 </span>
-                <span className="mt-4 block text-base font-black group-hover:text-teal">
+                <span className="mt-4 block text-base font-bold group-hover:text-teal">
                   {step.title}
                 </span>
                 <span className="mt-2 block text-sm leading-6 text-muted">
                   {step.text}
                 </span>
               </span>
-              <span className="mt-4 inline-flex items-center gap-2 text-sm font-black text-teal">
+              <span className="mt-4 inline-flex items-center gap-2 text-sm font-bold text-teal">
                 Ouvrir
                 <ArrowRight size={15} aria-hidden="true" />
               </span>

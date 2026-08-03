@@ -313,7 +313,11 @@ export function ProductShelf({
           fleche droite partait seule a la ligne. */}
       <div className="mb-4 flex flex-col justify-between gap-3 sm:mb-6 sm:gap-4 lg:flex-row lg:items-end">
         {header ? <div className="max-w-2xl">{header}</div> : <div />}
-        <div className="flex flex-wrap items-center gap-2 lg:justify-end">
+        {/* Commandes reservees a l'ordinateur. Sur telephone on fait glisser au
+            doigt : ces trois boutons ne servaient a rien, ils occupaient une
+            rangee entiere AU-DESSUS des produits (environ 80 px) et un bouton
+            "Pause" dans une vitrine fait console technique, pas boutique. */}
+        <div className="hidden flex-wrap items-center gap-2 lg:flex lg:justify-end">
           {prefersReducedMotion ? null : (
             <button
               type="button"
@@ -324,7 +328,7 @@ export function ProductShelf({
               }
               aria-pressed={!isPlaying}
               onClick={() => setIsPlaying((playing) => !playing)}
-              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line px-3 text-sm font-black hover:bg-[#f1eadf]"
+              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line px-3 text-sm font-bold hover:bg-[#f1eadf]"
             >
               {isPlaying ? (
                 <Pause size={16} aria-hidden="true" />

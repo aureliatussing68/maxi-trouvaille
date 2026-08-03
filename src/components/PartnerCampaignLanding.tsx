@@ -93,7 +93,7 @@ export async function PartnerCampaignLanding({ kind }: { kind: CampaignKind }) {
 
       <section className="container-page py-8">
         {campaignProducts.length > 0 ? (
-          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-4">
             {campaignProducts.map((product) => (
               <ProductCard
                 key={product.id}
@@ -126,7 +126,7 @@ export async function PartnerCampaignLanding({ kind }: { kind: CampaignKind }) {
                 className="rounded-lg border border-line bg-paper p-4 shadow-sm"
               >
                 <Icon className="text-teal" size={22} aria-hidden="true" />
-                <h2 className="mt-3 text-base font-black">{card.title}</h2>
+                <h2 className="mt-3 text-base font-bold">{card.title}</h2>
                 <p className="mt-2 text-sm leading-6 text-muted">{card.text}</p>
               </div>
             );

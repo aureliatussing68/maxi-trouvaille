@@ -3,13 +3,16 @@
 :root {
   --background: #fbfaf7;
   --foreground: #171717;
-  --muted: #625f58;
+  --muted: #5f5c55;
   --brand: #ffbf38;
   --brand-strong: #f59e0b;
   --teal: #0f766e;
   --rose: #be123c;
   --paper: #ffffff;
   --line: #e8e1d5;
+  /* Fond neutre des photos produit : les sources sont sur fond blanc, un
+     placeholder blanc casse evite le lisere gris autour du produit. */
+  --photo-bg: #f7f4ee;
 }
 
 @theme inline {
@@ -22,6 +25,19 @@
   --color-rose: var(--rose);
   --color-paper: var(--paper);
   --color-line: var(--line);
+  --color-photo: var(--photo-bg);
+}
+
+/* Un seul jeu d'arrondis pour tout le site.
+   Avant : 6 px et 8 px cohabitaient sur la meme page (78 elements contre 38),
+   ce qui enlevait la sensation de "dessine d'une seule main". On redefinit ici
+   les deux valeurs de l'echelle Tailwind reellement utilisees dans le code, ce
+   qui harmonise l'ensemble sans avoir a toucher des centaines de classes :
+   - rounded-md = boutons, champs, pastilles  -> 10 px
+   - rounded-lg = cartes et panneaux          -> 14 px */
+@theme {
+  --radius-md: 0.625rem;
+  --radius-lg: 0.875rem;
 }
 
 * {
@@ -35,14 +51,35 @@ html {
   text-size-adjust: 100%;
 }
 
+/* Typographie de marque, sans un seul octet telecharge.
+   Arial n'a pas de graisse 900 : le navigateur la fabriquait en epaississant
+   les lettres, d'ou l'aspect ecrase et flou des titres. Les polices systeme
+   modernes, elles, ont de VRAIES graisses jusqu'au Black : Segoe UI Variable
+   sur Windows, SF Pro sur iPhone et Mac, Roboto sur Android. Le rendu est net
+   partout, et le client n'attend aucun fichier de police. */
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    "Segoe UI Variable Text",
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+  letter-spacing: -0.006em;
   min-height: 100dvh;
   overflow-x: clip;
   overscroll-behavior-y: none;
   -webkit-tap-highlight-color: transparent;
+}
+
+/* Les gros titres respirent mieux un peu resserres. */
+h1,
+h2 {
+  letter-spacing: -0.022em;
 }
 
 button,
@@ -170,22 +207,27 @@ svg {
 .hero-carousel-veil {
   background-image: linear-gradient(
     to top,
-    rgba(23, 23, 23, 0.5) 0%,
-    rgba(23, 23, 23, 0.6) 11%,
-    rgba(23, 23, 23, 0.87) 21%,
-    rgba(23, 23, 23, 0.87) 87%,
-    rgba(23, 23, 23, 0.55) 100%
+    rgba(23, 23, 23, 0.2) 0%,
+    rgba(23, 23, 23, 0.38) 12%,
+    rgba(23, 23, 23, 0.8) 22%,
+    rgba(23, 23, 23, 0.82) 88%,
+    rgba(23, 23, 23, 0.6) 100%
   );
 }
 
+/* Grand ecran : le voile etait un aplat quasi noir sur toute la moitie gauche,
+   or a 1920 px le texte ne commence qu'a 400 px du bord — un cinquieme du hero
+   ne montrait donc ni texte ni photo. Le degrade s'ouvre maintenant des le bord
+   gauche et se concentre sur la bande ou le texte se trouve reellement. */
 @media (min-width: 640px) {
   .hero-carousel-veil {
     background-image: linear-gradient(
       to right,
-      rgba(23, 23, 23, 0.94) 0%,
-      rgba(23, 23, 23, 0.87) 45%,
-      rgba(23, 23, 23, 0.66) 72%,
-      rgba(23, 23, 23, 0.48) 100%
+      rgba(23, 23, 23, 0.7) 0%,
+      rgba(23, 23, 23, 0.86) 10%,
+      rgba(23, 23, 23, 0.84) 55%,
+      rgba(23, 23, 23, 0.5) 78%,
+      rgba(23, 23, 23, 0.28) 100%
     );
   }
 }
@@ -210,7 +252,7 @@ svg {
    horizontale et fleches du clavier sans une ligne de JavaScript. */
 .product-shelf {
   display: flex;
-  gap: 20px;
+  gap: 12px;
   list-style: none;
   margin: 0;
   overflow-x: auto;
@@ -224,13 +266,15 @@ svg {
   -webkit-overflow-scrolling: touch;
 }
 
-/* Largeur de carte calculee pour que la carte suivante depasse toujours d'un
-   bon tiers : un debord franc se lit comme "il y en a d'autres", alors qu'un
-   filet de 30 px coupait la photo et le titre en plein milieu.
+/* Largeur de carte calculee pour qu'une carte de plus depasse toujours
+   franchement : un debord net se lit comme "il y en a d'autres".
+   Sur telephone on montre deux cartes entieres plus un quart de la troisieme :
+   la carte est desormais portee par une photo carree et compacte, deux tiennent
+   largement dans la largeur.
    Formule : (largeur visible - gouttieres) / (cartes entieres + debord). */
 .product-shelf > li {
   display: flex;
-  flex: 0 0 calc((100% - 20px) / 1.3);
+  flex: 0 0 calc((100% - 12px) / 1.85);
   min-width: 0;
   scroll-snap-align: start;
 }
@@ -241,17 +285,17 @@ svg {
   width: 100%;
 }
 
-/* 2 cartes entieres + 45 % de la troisieme. */
+/* 3 cartes entieres + un tiers de la quatrieme. */
 @media (min-width: 640px) {
   .product-shelf > li {
-    flex-basis: calc((100% - 40px) / 2.45);
+    flex-basis: calc((100% - 36px) / 3.3);
   }
 }
 
-/* 3 cartes entieres + 45 % de la quatrieme. */
+/* 4 cartes entieres + un tiers de la cinquieme. */
 @media (min-width: 1024px) {
   .product-shelf > li {
-    flex-basis: calc((100% - 60px) / 3.45);
+    flex-basis: calc((100% - 48px) / 4.3);
   }
 }
 

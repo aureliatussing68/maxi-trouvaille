@@ -191,17 +191,17 @@ export function CategoryGrid({
               >
                 <Icon size={21} aria-hidden="true" />
               </span>
-              <h2 className="text-base font-black group-hover:text-teal">
+              <h2 className="text-base font-bold group-hover:text-teal">
                 {category.name}
               </h2>
               <span className="mt-2 flex flex-wrap gap-2">
                 {isMainCategory ? (
-                  <span className="inline-flex w-fit rounded-md bg-[#f6f1e8] px-2 py-1 text-[11px] font-black uppercase text-teal">
+                  <span className="inline-flex w-fit rounded-md bg-[#f6f1e8] px-2 py-1 text-[11px] font-bold uppercase text-teal">
                     Rayon principal
                   </span>
                 ) : null}
                 {isPartnerCategory ? (
-                  <span className="inline-flex w-fit rounded-md bg-[#ecfdf5] px-2 py-1 text-[11px] font-black uppercase text-teal">
+                  <span className="inline-flex w-fit rounded-md bg-[#ecfdf5] px-2 py-1 text-[11px] font-bold uppercase text-teal">
                     Partenaire
                   </span>
                 ) : null}
@@ -296,27 +296,27 @@ export function CategoryGrid({
               {compact ? null : (
               <span className="mt-3 flex flex-wrap gap-2">
                 {isMainCategory ? (
-                  <span className="inline-flex w-fit rounded-md bg-[#f6f1e8] px-2 py-1 text-[11px] font-black uppercase text-teal">
+                  <span className="inline-flex w-fit rounded-md bg-[#f6f1e8] px-2 py-1 text-[11px] font-bold uppercase text-teal">
                     Rayon principal
                   </span>
                 ) : null}
                 {isPartnerCategory ? (
-                  <span className="inline-flex w-fit rounded-md bg-[#ecfdf5] px-2 py-1 text-[11px] font-black uppercase text-teal">
+                  <span className="inline-flex w-fit rounded-md bg-[#ecfdf5] px-2 py-1 text-[11px] font-bold uppercase text-teal">
                     Partenaire
                   </span>
                 ) : null}
                 {isNewDropshipping ? (
-                  <span className="inline-flex w-fit rounded-md bg-[#eff6ff] px-2 py-1 text-[11px] font-black uppercase text-[#2563eb]">
+                  <span className="inline-flex w-fit rounded-md bg-[#eff6ff] px-2 py-1 text-[11px] font-bold uppercase text-[#2563eb]">
                     Nouveauté
                   </span>
                 ) : null}
                 {isPromotionDropshipping ? (
-                  <span className="inline-flex w-fit rounded-md bg-[#fff1f2] px-2 py-1 text-[11px] font-black uppercase text-rose">
+                  <span className="inline-flex w-fit rounded-md bg-[#fff1f2] px-2 py-1 text-[11px] font-bold uppercase text-rose">
                     Promotion
                   </span>
                 ) : null}
                 {isSurpriseCategory ? (
-                  <span className="inline-flex w-fit rounded-md bg-[#fffbeb] px-2 py-1 text-[11px] font-black uppercase text-[#b45309]">
+                  <span className="inline-flex w-fit rounded-md bg-[#fffbeb] px-2 py-1 text-[11px] font-bold uppercase text-[#b45309]">
                     À venir
                   </span>
                 ) : null}

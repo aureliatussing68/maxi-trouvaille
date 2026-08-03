@@ -128,7 +128,7 @@ export default function OfflinePage() {
           </div>
 
           <div className="mt-8 border-t border-line pt-6">
-            <div className="flex items-center gap-3 text-sm font-black uppercase tracking-[0.14em] text-teal">
+            <div className="flex items-center gap-3 text-sm font-bold uppercase tracking-[0.14em] text-teal">
               <ClipboardList aria-hidden className="h-4 w-4" />
               Chemin démo mobile
             </div>
@@ -139,11 +139,11 @@ export default function OfflinePage() {
                     href={href}
                     className="focus-ring group flex h-full gap-3 rounded-lg border border-line bg-paper p-4 transition hover:border-teal"
                   >
-                    <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white text-sm font-black text-teal ring-1 ring-line">
+                    <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-white text-sm font-bold text-teal ring-1 ring-line">
                       {index + 1}
                     </span>
                     <span className="min-w-0">
-                      <span className="flex items-center gap-2 text-sm font-black text-foreground">
+                      <span className="flex items-center gap-2 text-sm font-bold text-foreground">
                         {label}
                         <BadgeCheck
                           aria-hidden
@@ -167,7 +167,7 @@ export default function OfflinePage() {
               <RefreshCw aria-hidden className="h-5 w-5" />
             </span>
             <div>
-              <p className="text-sm font-black uppercase tracking-[0.14em] text-teal">
+              <p className="text-sm font-bold uppercase tracking-[0.14em] text-teal">
                 Connexion à reprendre
               </p>
               <h2 className="mt-2 text-xl font-black text-foreground">
@@ -191,7 +191,7 @@ export default function OfflinePage() {
                   <Icon aria-hidden className="h-4 w-4" />
                 </span>
                 <span className="min-w-0">
-                  <span className="block text-sm font-black text-foreground">
+                  <span className="block text-sm font-bold text-foreground">
                     {label}
                   </span>
                   <span className="mt-1 block text-xs leading-5 text-muted">
@@ -217,7 +217,7 @@ export default function OfflinePage() {
             <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white text-teal ring-1 ring-line">
               <Icon aria-hidden className="h-4 w-4" />
             </span>
-            <h2 className="mt-4 text-base font-black text-foreground">
+            <h2 className="mt-4 text-base font-bold text-foreground">
               {title}
             </h2>
             <p className="mt-2 text-sm leading-6 text-muted">{description}</p>

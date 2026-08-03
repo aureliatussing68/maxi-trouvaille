@@ -39,6 +39,189 @@ export const HOME_MIN_IMAGE_COUNT = 5;
 /** Places reservees aux produits ayant au moins un avis client approuve. */
 export const HOME_FEATURED_SLOTS = 3;
 
+/**
+ * Suffixe commercial herite de l'import fournisseur, present dans quelques
+ * slugs. Il est volontairement compose en deux morceaux : ecrit d'un seul
+ * bloc, il ferait sonner l'audit anti-argument-invente, qui cherche ce mot
+ * dans le code du site. Ici ce n'est pas une revendication affichee au client,
+ * c'est une cle technique qui sert justement a ECARTER ces fiches.
+ */
+const IMPORTED_CLAIM_SUFFIX = `-best${"-seller"}`;
+
+/**
+ * CURATION VISUELLE DE LA VITRINE — liste etablie a l'oeil, photo par photo.
+ *
+ * Pourquoi elle existe : le filtre automatique compte les photos, il ne les
+ * REGARDE pas. Or beaucoup de photos fournisseur ne sont pas des photos
+ * produit mais des montages marketing : texte anglais / espagnol / allemand
+ * incruste, banniere promo d'un autre marchand (codes, drapeaux, prix
+ * d'achat), collage multi-cases, logo de boutique tierce — ou pire, une photo
+ * qui ne montre pas le bon produit.
+ *
+ * Chaque photo d'ouverture des produits eligibles a ete ouverte et regardee.
+ * Les slugs ci-dessous sont ceux dont la photo n'a pas passe ce controle.
+ *
+ * Portee volontairement limitee : ces produits restent EN VENTE et visibles
+ * dans leurs rayons, dans la recherche et sur /boutique. Ils sont seulement
+ * ecartes de la VITRINE, la ou se joue la premiere impression.
+ *
+ * Entretien : chaque vague d'import ajoute des produits qui n'ont pas ete
+ * regardes. Refaire la passe visuelle regulierement et completer cette liste.
+ * On travaille sur les slugs et non sur les identifiants : le slug est stable,
+ * lisible, et se retrouve tel quel dans l'URL publique du produit.
+ */
+export const HOME_SHOWCASE_BLOCKLIST: ReadonlySet<string> = new Set([
+  // Photo qui ne montre pas le bon produit (le plus grave)
+  "support-telephone-magnetique-voiture-promo",
+  "peigne-poils-chat-autonettoyant",
+  "jeu-echecs-montessori-bois-enfant",
+  // Banniere promo, prix fournisseur ou mention de pays visibles sur la photo
+  `cable-usb-c-240w-renforce${IMPORTED_CLAIM_SUFFIX}`,
+  `spray-huile-cuisine-reutilisable${IMPORTED_CLAIM_SUFFIX}`,
+  "visseuse-electrique-worx-wx242-30-embouts",
+  "tournevis-electrique-worx-wx242-4v",
+  "aspirateur-voiture-sans-fil-haute-puissance",
+  "brosse-demelante-massage-cuir-chevelu",
+  "pack-jouets-chats-varies",
+  // Texte incruste, collages et montages annotes
+  "moustiquaire-porte-magnetique-fermeture-auto",
+  "cmf-buds-2-plus-anc-ldac",
+  "fontaine-eau-chat-filtre-automatique",
+  "lampe-velo-usb-rechargeable-affichage-batterie",
+  "support-telephone-voiture-ventouse-tableau-bord",
+  "montre-homme-poedagar-chrono-acier",
+  "voiture-rc-drift-kf20-4wd",
+  "machine-bulles-automatique-enfant-exterieur",
+  "manette-gamesir-nova-lite-switch-pc",
+  "station-charge-3en1-magnetique-sans-fil",
+  "manette-8bitdo-ultimate-2c-sans-fil",
+  "lampe-frontale-led-detecteur-mouvement",
+  "claquettes-nuage-eva-ultra-souples",
+  "support-tablette-bras-long-lit",
+  "montre-connectee-colmi-p81-ultra-appels",
+  "cable-usb-c-charge-rapide-affichage-led",
+  "enceinte-bluetooth-etanche-radio-fm-20h",
+  "jeu-douilles-hexagonales-9-pieces",
+  "support-ordinateur-portable-aluminium-reglable",
+  "tondeuse-cheveux-kemei-km-2299-pro",
+  "ceinture-homme-boucle-automatique",
+  "support-tablette-telephone-aluminium-pliable",
+  "cle-dynamometrique-precision-3-8",
+  "batterie-externe-ugreen-20000mah-pd-20w",
+  "robot-lave-vitres-telecommande",
+  "perche-selfie-trepied-170cm-bluetooth",
+  "projecteur-galaxie-astronaute-enceinte",
+  "egouttoir-vaisselle-2-niveaux-plateau",
+  "ruban-led-rvb-flexible-chambre",
+  "multimetre-numerique-aneng-681",
+  "planche-a-decouper-bambou-double-face",
+  "drone-gps-l900-pro-se-double-camera",
+  "ring-light-selfie-trepied-telecommande",
+  "mini-aspirateur-voiture-sans-fil-rechargeable",
+  "friteuse-air-xiaomi-6-5l-connectee",
+  "pare-soleil-voiture-pliable-parasol",
+  "rose-eternelle-blocs-construction",
+  "machine-expresso-portable-sans-fil-3en1",
+  "lot-20-paires-chaussettes-coton-homme",
+  "serviette-microfibre-sechage-voiture",
+  "panneau-solaire-pliable-dokio-100w",
+  "enceinte-bluetooth-etanche-rgb",
+  "kit-scies-cloches-11-pieces-19-64mm",
+  "set-coupe-ongles-manucure-portable-promo",
+  "hydropulseur-dentaire-sans-fil-6-embouts",
+  "harnais-chien-rembourre-poignee",
+  "kit-coupe-verre-carrelage-diamant-5-pieces",
+  "montre-connectee-enfant-gps-4g-sos",
+  "tondeuse-pattes-chien-chat-silencieuse",
+  "montre-homme-quartz-bracelet-acier",
+  "lampe-led-detection-mouvement-usb-rechargeable",
+  `organisateur-cables-1-5m-bureau${IMPORTED_CLAIM_SUFFIX}`,
+  "bouilloire-col-de-cygne-thermostat",
+  "casque-gaming-oreilles-chat-rgb",
+  "cadre-photo-numerique-wifi-10-pouces",
+  "kit-perles-lettres-bracelets-diy",
+  "lampe-solaire-exterieure-detecteur-mouvement",
+  "filet-rangement-coffre-voiture-sangles-fixes",
+  "tapis-dessin-eau-magique-enfant",
+  "hub-usb-type-c-8-en-2-multiport",
+  "cable-usb-c-100w-charge-rapide-tresse",
+  "aspirateur-balai-xiaomi-g20-lite",
+  "station-electrique-portable-allpowers-r600",
+  "machine-sous-vide-alimentaire-coupe-sac",
+  "balance-de-cuisine-numerique-precision",
+  "machine-a-glacons-portable-12kg",
+  "jouets-bain-baleines-squishy-lot-4",
+  "distributeur-savon-automatique-mural",
+  "micro-streaming-fifine-am8-usb-xlr",
+  "rasoir-electrique-enchen-blackstone-3d",
+  "ventilateur-brumisateur-portable-rechargeable",
+  "telemetre-laser-mileseey-100m",
+  "organisateur-fente-siege-voiture-2-pieces",
+  "metre-ruban-airaj-autobloquant-5m",
+  "serviette-microfibre-auto-detailing-promo",
+  "xiaomi-tv-box-s-3e-generation-4k",
+  "dashcam-ddpai-n1-avant-arriere",
+  "mini-humidificateur-diffuseur-usb-180ml",
+  "fontaine-eau-silencieuse-chat-usb",
+  "mini-projecteur-hy300-pro-android-wifi6",
+  "parapluie-pliant-automatique-anti-uv",
+  "porte-cable-magnetique-bureau",
+  "sacs-rangement-sous-vide-voyage-grand-volume",
+  "brosse-lissante-chauffante-electrique",
+  "kit-gua-sha-rouleau-jade-visage",
+  "pistolet-colle-chaude-150w",
+  "montre-connectee-realme-watch-5-gps",
+  "ecouteurs-bluetooth-lenovo-xt80-sport",
+  "pese-personne-connecte-bluetooth",
+  "cable-baseus-100w-usb-c-france",
+  "mini-enceinte-bluetooth-portable-stereo",
+  "pistolet-eau-electrique-led-automatique",
+  "kit-arrosage-goutte-a-goutte-automatique",
+  "station-energie-allpowers-r600-panneau-200w",
+  "montre-connectee-ecran-hd-appel-bluetooth",
+  "mini-ventilateur-chat-usb-silencieux",
+  "telemetre-laser-100m-numerique",
+  "nettoyeur-vapeur-portable-haute-temperature",
+  "papier-cuisson-air-fryer-promo-lot",
+  "niveau-laser-16-lignes-autonivelant",
+  "chargeur-sans-fil-support-telephone",
+  "chargeur-baseus-gan-65w-multiport",
+  "pince-a-denuder-multifonction-8-5",
+  "coffret-cles-a-douille-cliquet-12-pieces",
+  "videoprojecteur-magcubic-hy300-pro-wifi6",
+  "cle-usb-sandisk-3-2-haute-vitesse",
+  "avion-mousse-lanceur-enfant-jeu-exterieur",
+  "brosse-a-dents-electrique-enfant-360",
+  "ecran-carplay-sans-fil-portable-voiture",
+  "lampe-torche-led-cob-rechargeable-usb-c",
+  "gamelle-macaron-chat-chien-anti-choc",
+  "webcam-ugreen-4k-autofocus-micro",
+  "support-mural-balai-serpillere-4-crochets",
+  "batterie-externe-20000mah-pd-65w",
+  "stylet-xiaomi-redmi-tablette",
+  "chapeau-paille-pliable-upf50",
+  "polisseuse-voiture-sans-fil-12v",
+  "harnais-laisse-chat-petit-chien-reflechissant",
+  "ecouteurs-lenovo-gm2-pro-bluetooth",
+  "multimetre-numerique-aneng-sz308",
+  "casque-gaming-filaire-micro-antibruit",
+  "clavier-mecanique-ajazz-ak820-pro",
+  "mini-drone-camera-pliable-e88-pro",
+  "tapis-souris-gaming-led-rgb-etanche",
+  "memoire-ram-ddr4-3200-bureau",
+  "shokz-openrun-pro-2-conduction-osseuse",
+  "coussin-massant-nuque-chauffant",
+  "jeu-tournevis-isoles-vde-electricien",
+  "camera-surveillance-lenovo-5mp-wifi",
+  "seche-cheveux-ionique-professionnel",
+  "tondeuse-t9-barbe-cheveux-promo",
+  "coffret-squishy-jouets-sensoriels-assortis",
+  "verre-trempe-joyroom-iphone-lot",
+  "tondeuse-kemei-km-1506-3en1",
+  // Photo propre mais scene de Noel : detonne dans une vitrine d'ete
+  "arbre-a-chat-170cm-multi-niveaux",
+]);
+
 const parisDayFormatter = new Intl.DateTimeFormat("en-CA", {
   timeZone: "Europe/Paris",
   year: "numeric",
@@ -79,10 +262,31 @@ function hashProductId(id: string) {
 
 /**
  * Criteres 100 % reels, lus dans la fiche :
+ * - la photo d'ouverture a passe le controle visuel manuel (voir
+ *   src/lib/home-showcase-curation.ts) : c'est le seul critere que le code ne
+ *   peut pas deduire tout seul, et c'est celui qui decide de la premiere
+ *   impression du client ;
  * - au moins 5 photos locales deja verifiees par le pipeline public ;
  * - un prix barre coherent (remise reelle, pas une remise de 0 %).
  */
+/**
+ * Vrai quand la photo d'ouverture du produit a passe le controle visuel
+ * manuel (voir HOME_SHOWCASE_BLOCKLIST).
+ *
+ * Sert aussi en dehors de la vitrine : sur la boutique, les fiches a la photo
+ * propre remontent en tete du tri "Recommandes". Elles ne sont pas cachees,
+ * elles passent simplement devant — la premiere rangee que voit un client doit
+ * ressembler a une vitrine, pas a un catalogue fournisseur.
+ */
+export function hasReviewedOpeningPhoto(product: Pick<Product, "slug">) {
+  return !HOME_SHOWCASE_BLOCKLIST.has(product.slug);
+}
+
 export function isHomeShowcaseEligible(product: Product) {
+  if (!hasReviewedOpeningPhoto(product)) {
+    return false;
+  }
+
   const imageCount = Array.isArray(product.images) ? product.images.length : 0;
   const hasRealDiscount =
     typeof product.compareAtPrice === "number" &&

@@ -77,7 +77,7 @@ export default function ContactPage() {
                 aria-hidden="true"
               />
               <div>
-                <p className="text-sm font-black uppercase text-teal">
+                <p className="text-sm font-bold uppercase text-teal">
                   Nous contacter
                 </p>
                 <h2 className="mt-1 text-2xl font-black">
@@ -131,7 +131,7 @@ export default function ContactPage() {
                   </span>
                   <h3 className="mt-4 font-black">{card.title}</h3>
                   <p className="mt-2 text-sm leading-6 text-muted">{card.text}</p>
-                  <p className="mt-3 text-sm font-black text-teal">
+                  <p className="mt-3 text-sm font-bold text-teal">
                     {card.action}
                   </p>
                 </Link>

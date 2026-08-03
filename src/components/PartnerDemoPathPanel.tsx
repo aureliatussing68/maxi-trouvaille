@@ -142,7 +142,7 @@ export function PartnerDemoPathPanel({
     >
       <div className="grid gap-4 lg:grid-cols-[1fr_auto] lg:items-end">
         <div>
-          <p className="flex items-center gap-2 text-sm font-black uppercase text-teal">
+          <p className="flex items-center gap-2 text-sm font-bold uppercase text-teal">
             <ShieldCheck size={16} aria-hidden="true" />
             Parcours démo mobile
           </p>
@@ -157,18 +157,18 @@ export function PartnerDemoPathPanel({
         </div>
         <div className="grid gap-2 sm:grid-cols-2 lg:min-w-64 lg:grid-cols-1">
           <div className="rounded-md border border-line bg-[#fbfaf7] p-3">
-            <p className="text-[11px] font-black uppercase text-muted">
+            <p className="text-[11px] font-bold uppercase text-muted">
               File visible
             </p>
-            <p className="mt-1 text-sm font-black text-teal">
+            <p className="mt-1 text-sm font-bold text-teal">
               {countLabel(candidateCount, "fiche en validation", "fiches en validation")}
             </p>
           </div>
           <div className="rounded-md border border-line bg-[#fbfaf7] p-3">
-            <p className="text-[11px] font-black uppercase text-muted">
+            <p className="text-[11px] font-bold uppercase text-muted">
               Vente publique
             </p>
-            <p className="mt-1 text-sm font-black text-teal">
+            <p className="mt-1 text-sm font-bold text-teal">
               {publicProductCount > 0
                 ? countLabel(publicProductCount, "article validé", "articles validés")
                 : "Achat verrouillé"}
@@ -191,12 +191,12 @@ export function PartnerDemoPathPanel({
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
                   <Icon size={19} aria-hidden="true" />
                 </span>
-                <span className="rounded-md bg-[#f6f1e8] px-2 py-1 text-[11px] font-black uppercase text-teal">
+                <span className="rounded-md bg-[#f6f1e8] px-2 py-1 text-[11px] font-bold uppercase text-teal">
                   {step.label}
                 </span>
               </span>
               <span>
-                <span className="mt-4 flex items-center justify-between gap-3 text-base font-black group-hover:text-teal">
+                <span className="mt-4 flex items-center justify-between gap-3 text-base font-bold group-hover:text-teal">
                   {step.title}
                   <ArrowRight size={16} aria-hidden="true" />
                 </span>
@@ -212,7 +212,7 @@ export function PartnerDemoPathPanel({
       <div>
         <div className="mb-3 flex items-end justify-between gap-3">
           <div>
-            <p className="text-sm font-black uppercase text-teal">
+            <p className="text-sm font-bold uppercase text-teal">
               Rayons à ouvrir en premier
             </p>
             <h3 className="mt-1 text-xl font-black">
@@ -221,7 +221,7 @@ export function PartnerDemoPathPanel({
           </div>
           <Link
             href="/categories"
-            className="hidden text-sm font-black text-teal hover:text-foreground sm:inline-flex"
+            className="hidden text-sm font-bold text-teal hover:text-foreground sm:inline-flex"
           >
             Tous les rayons
           </Link>
@@ -241,12 +241,12 @@ export function PartnerDemoPathPanel({
                   <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
                     <Icon size={19} aria-hidden="true" />
                   </span>
-                  <span className="rounded-md bg-white px-2 py-1 text-[11px] font-black uppercase text-teal ring-1 ring-line">
+                  <span className="rounded-md bg-white px-2 py-1 text-[11px] font-bold uppercase text-teal ring-1 ring-line">
                     {card.badge}
                   </span>
                 </span>
                 <span>
-                  <span className="mt-4 flex items-center justify-between gap-3 text-base font-black group-hover:text-teal">
+                  <span className="mt-4 flex items-center justify-between gap-3 text-base font-bold group-hover:text-teal">
                     {card.label}
                     <ArrowRight size={16} aria-hidden="true" />
                   </span>
@@ -263,21 +263,21 @@ export function PartnerDemoPathPanel({
       <div className="grid gap-3 md:grid-cols-3">
         <Link
           href="/paiement"
-          className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-[#2b2b2b]"
+          className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-bold text-white hover:bg-[#2b2b2b]"
         >
           <CreditCard size={17} aria-hidden="true" />
           Paiement Maxi Trouvaille
         </Link>
         <Link
           href="/suivi-colis"
-          className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+          className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
         >
           <Truck size={17} aria-hidden="true" />
           Suivi colis
         </Link>
         <Link
           href="/contact"
-          className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+          className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
         >
           <Headphones size={17} aria-hidden="true" />
           Service client

@@ -58,7 +58,7 @@ export default function AboutPage() {
 
       <section className="container-page grid gap-8 py-10">
         <div className="rounded-lg border border-line bg-paper p-6 shadow-sm sm:p-8">
-          <p className="text-sm font-black uppercase text-teal">
+          <p className="text-sm font-bold uppercase text-teal">
             Notre histoire
           </p>
           <h2 className="mt-2 max-w-2xl text-2xl font-black leading-tight">
@@ -87,7 +87,7 @@ export default function AboutPage() {
         </div>
 
         <div>
-          <p className="text-sm font-black uppercase text-teal">
+          <p className="text-sm font-bold uppercase text-teal">
             Nos engagements
           </p>
           <h2 className="mt-2 text-2xl font-black">
@@ -105,7 +105,7 @@ export default function AboutPage() {
                   <span className="flex h-10 w-10 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
                     <Icon size={19} aria-hidden="true" />
                   </span>
-                  <h3 className="mt-4 text-base font-black">{item.title}</h3>
+                  <h3 className="mt-4 text-base font-bold">{item.title}</h3>
                   <p className="mt-2 text-sm leading-6 text-muted">
                     {item.text}
                   </p>
@@ -117,7 +117,7 @@ export default function AboutPage() {
 
         <div className="flex flex-col items-start gap-4 rounded-lg border border-line bg-[#faf7f0] p-6 shadow-sm sm:flex-row sm:items-center sm:justify-between">
           <div>
-            <p className="flex items-center gap-2 text-sm font-black uppercase text-teal">
+            <p className="flex items-center gap-2 text-sm font-bold uppercase text-teal">
               <Sparkles size={16} aria-hidden="true" />
               Nouveautés chaque semaine
             </p>
@@ -132,14 +132,14 @@ export default function AboutPage() {
           <div className="flex flex-col gap-3 sm:flex-row">
             <Link
               href="/boutique"
-              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-[#2b2b2b]"
+              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-bold text-white hover:bg-[#2b2b2b]"
             >
               Voir la boutique
               <ArrowRight size={17} aria-hidden="true" />
             </Link>
             <Link
               href="/contact"
-              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
             >
               <BadgeCheck size={17} aria-hidden="true" />
               Nous contacter

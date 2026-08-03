@@ -51,7 +51,7 @@ export default async function ShippingPage() {
       <section className="container-page border-b border-line py-10">
         <div className="grid gap-4 rounded-lg border border-line bg-[#faf7f0] p-5 shadow-sm lg:grid-cols-[1fr_1.1fr] lg:items-center">
           <div>
-            <p className="text-sm font-black uppercase text-teal">
+            <p className="text-sm font-bold uppercase text-teal">
               Comment ça marche
             </p>
             <h2 className="mt-2 text-2xl font-black">
@@ -75,7 +75,7 @@ export default async function ShippingPage() {
                   <span className="flex h-10 w-10 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
                     <Icon size={19} aria-hidden="true" />
                   </span>
-                  <h3 className="mt-4 text-sm font-black">{item.title}</h3>
+                  <h3 className="mt-4 text-sm font-bold">{item.title}</h3>
                   <p className="mt-2 text-xs font-semibold leading-5 text-muted">
                     {item.text}
                   </p>

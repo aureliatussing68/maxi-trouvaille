@@ -3,8 +3,33 @@ import type {
   ProductBadge,
   ProductBadgeTone,
 } from "@/lib/catalog";
-
 export type { Product, ProductBadgeTone };
+
+/**
+ * Meme regle que dans src/lib/catalog.ts et src/lib/product-display.ts, qui la
+ * documente en detail. Recopiee ici pour la meme raison : ces fichiers sont
+ * charges tels quels par les scripts d'audit du depot, avec node, qui ne sait
+ * pas resoudre les alias "@/...". Les trois valeurs doivent rester identiques.
+ */
+const REFERENCE_PRICE_MIN_DISCOUNT = 30;
+
+function getRealDiscountPercent(product: Product) {
+  const compareAtPrice = product.compareAtPrice;
+
+  if (
+    typeof compareAtPrice !== "number" ||
+    !Number.isFinite(compareAtPrice) ||
+    compareAtPrice <= product.price
+  ) {
+    return 0;
+  }
+
+  return Math.round(((compareAtPrice - product.price) / compareAtPrice) * 100);
+}
+
+function shouldShowReferencePrice(product: Product) {
+  return getRealDiscountPercent(product) >= REFERENCE_PRICE_MIN_DISCOUNT;
+}
 
 const categoryNamesById: Record<string, string> = {
   dropshipping: "Produits partenaires",
@@ -213,8 +238,9 @@ export function isClientDropshippingProduct(product: Product) {
   return Boolean(product.dropshipping?.enabled);
 }
 
+/** Meme regle que cote serveur : seules les vraies remises comptent. */
 export function isClientPromotionProduct(product: Product) {
-  return Boolean(product.dropshipping?.isPromotion || product.compareAtPrice);
+  return shouldShowReferencePrice(product);
 }
 
 export function isClientNewProduct(product: Product) {
@@ -350,32 +376,21 @@ export function getClientProductImageAlt(product: Product, fallbackSuffix?: stri
   return fallbackSuffix ? `${baseAlt} ${fallbackSuffix}` : baseAlt;
 }
 
+/** Meme regle que cote serveur : une pastille au maximum, et jamais pour rien. */
 export function getClientProductBadges(product: Product): ProductBadge[] {
   if (isClientComingSoonProduct(product)) {
     return [{ label: "À venir", tone: "coming-soon" }];
   }
 
-  const badges: ProductBadge[] = [];
-
-  if (isClientDropshippingProduct(product)) {
-    badges.push({ label: "Partenaire", tone: "dropshipping" });
-  }
-
-  if (isClientNewProduct(product)) {
-    badges.push({ label: "Nouveauté", tone: "new" });
-  }
-
-  if (isClientPromotionProduct(product)) {
-    badges.push({ label: "Promotion", tone: "promotion" });
-  }
-
   if (product.stock <= 0) {
-    badges.push({ label: "Rupture de stock", tone: "stock" });
+    return [{ label: "Rupture de stock", tone: "stock" }];
   }
 
-  if (badges.length === 0 && product.badge) {
-    badges.push({ label: product.badge, tone: "default" });
+  const discountPercent = getRealDiscountPercent(product);
+
+  if (discountPercent >= REFERENCE_PRICE_MIN_DISCOUNT) {
+    return [{ label: `-${discountPercent} %`, tone: "promotion" }];
   }
 
-  return badges;
+  return [];
 }

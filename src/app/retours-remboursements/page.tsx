@@ -21,7 +21,7 @@ export default function ReturnsPage() {
         <section className="grid gap-5 md:grid-cols-2">
           <article className="rounded-lg border border-line bg-[#faf7f0] p-6 shadow-sm md:col-span-2">
             <ShieldCheck className="mb-4 text-teal" size={28} aria-hidden="true" />
-            <p className="text-sm font-black uppercase text-teal">
+            <p className="text-sm font-bold uppercase text-teal">
               Comment faire un retour
             </p>
             <h2 className="mt-2 text-2xl font-black">

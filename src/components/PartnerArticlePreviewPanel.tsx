@@ -307,7 +307,7 @@ export function PartnerArticlePreviewPanel({
     >
       <div className="grid gap-4 lg:grid-cols-[1fr_auto] lg:items-end">
         <div>
-          <p className="flex items-center gap-2 text-sm font-black uppercase text-teal">
+          <p className="flex items-center gap-2 text-sm font-bold uppercase text-teal">
             <ShieldCheck size={16} aria-hidden="true" />
             Articles en validation
           </p>
@@ -323,12 +323,12 @@ export function PartnerArticlePreviewPanel({
           </p>
         </div>
         <div className="flex flex-col gap-3 sm:flex-row lg:justify-end">
-          <span className="inline-flex min-h-11 items-center justify-center rounded-md border border-line bg-white px-4 text-sm font-black text-teal">
+          <span className="inline-flex min-h-11 items-center justify-center rounded-md border border-line bg-white px-4 text-sm font-bold text-teal">
             {articles.length} aperçu{articles.length > 1 ? "s" : ""} en validation
           </span>
           <Link
             href="/produits-partenaires"
-            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-[#2b2b2b]"
+            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-bold text-white hover:bg-[#2b2b2b]"
           >
             Voir les rayons
             <ArrowRight size={17} aria-hidden="true" />
@@ -356,20 +356,20 @@ export function PartnerArticlePreviewPanel({
                 <span className="absolute left-3 top-3 flex h-10 w-10 items-center justify-center rounded-md bg-white/92 text-teal shadow-sm">
                   <Icon size={19} aria-hidden="true" />
                 </span>
-                <span className="absolute bottom-3 left-3 rounded-md bg-white/92 px-2 py-1 text-[11px] font-black uppercase text-teal shadow-sm">
+                <span className="absolute bottom-3 left-3 rounded-md bg-white/92 px-2 py-1 text-[11px] font-bold uppercase text-teal shadow-sm">
                   Visuel de rayon
                 </span>
               </div>
               <div className="flex flex-1 flex-col p-4">
                 <div className="flex items-center justify-between gap-3">
-                  <p className="text-xs font-black uppercase text-muted">
+                  <p className="text-xs font-bold uppercase text-muted">
                     {article.category}
                   </p>
-                  <span className="rounded-md bg-[#ecfdf5] px-2 py-1 text-[11px] font-black uppercase text-teal">
+                  <span className="rounded-md bg-[#ecfdf5] px-2 py-1 text-[11px] font-bold uppercase text-teal">
                     Validation
                   </span>
                 </div>
-                <h3 className="mt-2 text-base font-black leading-6">
+                <h3 className="mt-2 text-base font-bold leading-6">
                   {article.title}
                 </h3>
                 <p className="mt-2 flex-1 text-sm leading-6 text-muted">
@@ -380,7 +380,7 @@ export function PartnerArticlePreviewPanel({
                 </p>
                 <Link
                   href={article.href}
-                  className="focus-ring mt-4 inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-line px-3 text-sm font-black hover:bg-[#f1eadf]"
+                  className="focus-ring mt-4 inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-line px-3 text-sm font-bold hover:bg-[#f1eadf]"
                 >
                   Voir le rayon
                   <ArrowRight size={15} aria-hidden="true" />

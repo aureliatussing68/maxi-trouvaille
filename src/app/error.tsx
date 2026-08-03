@@ -29,21 +29,21 @@ export default function AppError({
           <button
             type="button"
             onClick={reset}
-            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-5 py-2.5 text-sm font-black text-white hover:bg-[#2b2b2b]"
+            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-5 py-2.5 text-sm font-bold text-white hover:bg-[#2b2b2b]"
           >
             <RotateCcw size={18} aria-hidden="true" />
             Reessayer
           </button>
           <Link
             href="/boutique"
-            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-5 py-2.5 text-sm font-black hover:bg-[#f1eadf]"
+            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-5 py-2.5 text-sm font-bold hover:bg-[#f1eadf]"
           >
             <ShoppingBag size={17} aria-hidden="true" />
             Boutique
           </Link>
           <Link
             href="/contact"
-            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-5 py-2.5 text-sm font-black hover:bg-[#f1eadf]"
+            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-5 py-2.5 text-sm font-bold hover:bg-[#f1eadf]"
           >
             <Headphones size={17} aria-hidden="true" />
             Service client

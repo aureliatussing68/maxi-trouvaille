@@ -24,16 +24,22 @@ import {
   isClientPromotionProduct,
   type Product,
 } from "@/lib/catalog-client";
+import { hasReviewedOpeningPhoto } from "@/lib/home-rotation";
 import type { ProductReviewSummary } from "@/lib/product-reviews";
 import type { ProductStats } from "@/lib/product-stats";
 
 type HighlightFilter = "all" | "available" | "partner" | "new" | "promotion";
 type SortKey = "recommended" | "price-asc" | "price-desc" | "name";
 
+/**
+ * "Partenaires" a ete retire de cette rangee : c'est un mot de coulisses qui
+ * ne dit rien a un acheteur, et il ne filtrait rien puisque la quasi-totalite
+ * du catalogue passe par le meme partenaire logistique. Le filtre lui-meme
+ * reste disponible dans le code pour un usage interne.
+ */
 const highlightFilters: Array<{ id: HighlightFilter; label: string }> = [
   { id: "all", label: "Tout" },
   { id: "available", label: "Disponible" },
-  { id: "partner", label: "Partenaires" },
   { id: "new", label: "Nouveautés" },
   { id: "promotion", label: "Promos" },
 ];
@@ -100,6 +106,12 @@ function normalizeText(value: string) {
 function getProductScore(product: Product) {
   return [
     isClientProductPurchasable(product) ? 100 : 0,
+    // Photo d'ouverture relue a l'oeil : c'est le critere qui pese le plus
+    // apres la disponibilite. Rien n'est cache — les fiches dont la photo est
+    // un montage fournisseur restent dans la boutique, dans la recherche et
+    // dans leur rayon, elles passent simplement apres. La premiere rangee que
+    // voit un client doit ressembler a une vitrine.
+    hasReviewedOpeningPhoto(product) ? 40 : 0,
     isClientPromotionProduct(product) ? 20 : 0,
     isClientNewProduct(product) ? 15 : 0,
     isClientDropshippingProduct(product) ? 10 : 0,
@@ -160,6 +172,9 @@ export function ShopProductExplorer({
   const [categoryId, setCategoryId] = useState("all");
   const [highlight, setHighlight] = useState<HighlightFilter>("all");
   const [sortKey, setSortKey] = useState<SortKey>("recommended");
+  // Replie par defaut : ce n'est vrai que sur telephone, la classe lg:block
+  // rouvre le panneau sur ordinateur sans etat supplementaire.
+  const [isFilterPanelOpen, setIsFilterPanelOpen] = useState(false);
 
   const categoryOptions = useMemo(() => {
     const categoryMap = new Map<string, string>();
@@ -219,11 +234,39 @@ export function ShopProductExplorer({
   }
 
   return (
-    <div className="grid gap-6">
-      <div className="rounded-lg border border-line bg-paper p-4 shadow-sm">
+    <div className="grid gap-5">
+      {/* Sur telephone, les filtres sont replies derriere un bouton : deplies,
+          ils occupaient tout le premier ecran et le client arrivait dans une
+          boutique sans voir un seul produit. Sur ordinateur ils restent
+          visibles, il y a la place. */}
+      <div className="flex items-center justify-between gap-3 lg:hidden">
+        <button
+          type="button"
+          onClick={() => setIsFilterPanelOpen((open) => !open)}
+          aria-expanded={isFilterPanelOpen}
+          className="focus-ring inline-flex min-h-11 items-center gap-2 rounded-md border border-line bg-paper px-4 text-sm font-bold shadow-sm hover:bg-[#f1eadf]"
+        >
+          <SlidersHorizontal size={16} aria-hidden="true" />
+          Filtrer
+          {activeFilterCount > 0 ? (
+            <span className="min-w-5 rounded-full bg-teal px-1.5 text-center text-xs font-bold leading-5 text-white">
+              {activeFilterCount}
+            </span>
+          ) : null}
+        </button>
+        <span className="text-sm font-semibold text-muted">
+          {visibleProducts.length} produit{visibleProducts.length > 1 ? "s" : ""}
+        </span>
+      </div>
+
+      <div
+        className={`${
+          isFilterPanelOpen ? "block" : "hidden"
+        } rounded-lg border border-line bg-paper p-4 shadow-sm lg:block`}
+      >
         <div className="grid gap-4 lg:grid-cols-[minmax(240px,1fr)_220px_220px] lg:items-end">
           <label className="grid gap-2">
-            <span className="flex items-center gap-2 text-sm font-black text-foreground">
+            <span className="flex items-center gap-2 text-sm font-bold text-foreground">
               <Search size={16} aria-hidden="true" />
               Recherche
             </span>
@@ -231,19 +274,19 @@ export function ShopProductExplorer({
               value={query}
               onChange={(event) => setQuery(event.target.value)}
               placeholder="Produit, rayon, usage..."
-              className="min-h-11 rounded-md border border-line bg-white px-3 text-sm font-semibold outline-none transition focus:border-teal focus:ring-2 focus:ring-[#bfe7df]"
+              className="min-h-11 rounded-md border border-line bg-white px-3 text-sm font-medium outline-none transition focus:border-teal focus:ring-2 focus:ring-[#bfe7df]"
             />
           </label>
 
           <label className="grid gap-2">
-            <span className="flex items-center gap-2 text-sm font-black text-foreground">
+            <span className="flex items-center gap-2 text-sm font-bold text-foreground">
               <SlidersHorizontal size={16} aria-hidden="true" />
               Rayon
             </span>
             <select
               value={categoryId}
               onChange={(event) => setCategoryId(event.target.value)}
-              className="min-h-11 rounded-md border border-line bg-white px-3 text-sm font-semibold outline-none transition focus:border-teal focus:ring-2 focus:ring-[#bfe7df]"
+              className="min-h-11 rounded-md border border-line bg-white px-3 text-sm font-medium outline-none transition focus:border-teal focus:ring-2 focus:ring-[#bfe7df]"
             >
               <option value="all">Tous les rayons</option>
               {categoryOptions.map((category) => (
@@ -255,14 +298,14 @@ export function ShopProductExplorer({
           </label>
 
           <label className="grid gap-2">
-            <span className="flex items-center gap-2 text-sm font-black text-foreground">
+            <span className="flex items-center gap-2 text-sm font-bold text-foreground">
               <ArrowUpDown size={16} aria-hidden="true" />
               Tri
             </span>
             <select
               value={sortKey}
               onChange={(event) => setSortKey(event.target.value as SortKey)}
-              className="min-h-11 rounded-md border border-line bg-white px-3 text-sm font-semibold outline-none transition focus:border-teal focus:ring-2 focus:ring-[#bfe7df]"
+              className="min-h-11 rounded-md border border-line bg-white px-3 text-sm font-medium outline-none transition focus:border-teal focus:ring-2 focus:ring-[#bfe7df]"
             >
               <option value="recommended">Recommandés</option>
               <option value="price-asc">Prix croissant</option>
@@ -282,7 +325,7 @@ export function ShopProductExplorer({
                   key={filter.id}
                   type="button"
                   onClick={() => setHighlight(filter.id)}
-                  className={`focus-ring inline-flex min-h-10 items-center gap-2 rounded-md border px-3 text-sm font-black transition ${
+                  className={`focus-ring inline-flex min-h-10 items-center gap-2 rounded-md border px-3 text-sm font-bold transition ${
                     isActive
                       ? "border-teal bg-[#eef8f6] text-teal"
                       : "border-line bg-white text-muted hover:text-foreground"
@@ -296,14 +339,14 @@ export function ShopProductExplorer({
           </div>
 
           <div className="flex items-center gap-3">
-            <span className="text-sm font-black text-muted">
+            <span className="hidden text-sm font-bold text-muted lg:inline">
               {visibleProducts.length} produit{visibleProducts.length > 1 ? "s" : ""}
             </span>
             {activeFilterCount > 0 ? (
               <button
                 type="button"
                 onClick={resetFilters}
-                className="focus-ring inline-flex min-h-10 items-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-black hover:bg-[#f1eadf]"
+                className="focus-ring inline-flex min-h-10 items-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-bold hover:bg-[#f1eadf]"
               >
                 <X size={15} aria-hidden="true" />
                 Réinitialiser
@@ -313,22 +356,25 @@ export function ShopProductExplorer({
         </div>
       </div>
 
+      {/* Deux colonnes sur telephone, comme les rayons : le client passe d'un
+          produit par ecran a quatre, il peut enfin balayer l'offre. */}
       {visibleProducts.length > 0 ? (
-        <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
-          {visibleProducts.map((product) => (
+        <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-4">
+          {visibleProducts.map((product, index) => (
             <ProductCard
               key={product.id}
               product={product}
               stats={statsByProductId[product.id]}
               reviewSummary={reviewSummaryByProductId[product.id]}
               showAdminControls={showAdminControls}
+              priority={index < 4}
             />
           ))}
         </div>
       ) : (
         <section className="grid gap-6 border-y border-line bg-[#faf7f0] py-8">
           <div className="mx-auto max-w-3xl px-4 text-center">
-            <p className="inline-flex items-center gap-2 rounded-md bg-[#eef8f6] px-3 py-2 text-sm font-black text-teal">
+            <p className="inline-flex items-center gap-2 rounded-md bg-[#eef8f6] px-3 py-2 text-sm font-bold text-teal">
               <ShieldCheck size={16} aria-hidden="true" />
               Aucun résultat
             </p>
@@ -355,12 +401,12 @@ export function ShopProductExplorer({
                     <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
                       <Icon size={19} aria-hidden="true" />
                     </span>
-                    <span className="rounded-md bg-[#f6f1e8] px-2 py-1 text-[11px] font-black uppercase text-teal">
+                    <span className="rounded-md bg-[#f6f1e8] px-2 py-1 text-[11px] font-bold uppercase text-teal">
                       {item.badge}
                     </span>
                   </span>
                   <span>
-                    <span className="mt-4 flex items-center justify-between gap-3 text-base font-black group-hover:text-teal">
+                    <span className="mt-4 flex items-center justify-between gap-3 text-base font-bold group-hover:text-teal">
                       {item.label}
                       <ArrowRight size={16} aria-hidden="true" />
                     </span>
@@ -376,21 +422,21 @@ export function ShopProductExplorer({
           <div className="grid gap-3 px-4 md:grid-cols-3">
             <Link
               href="/paiement"
-              className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-[#2b2b2b]"
+              className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-bold text-white hover:bg-[#2b2b2b]"
             >
               <BadgePercent size={17} aria-hidden="true" />
               Paiement Maxi Trouvaille
             </Link>
             <Link
               href="/suivi-colis"
-              className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+              className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
             >
               <Truck size={17} aria-hidden="true" />
               Suivi colis
             </Link>
             <Link
               href="/contact"
-              className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+              className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
             >
               <Headphones size={17} aria-hidden="true" />
               Service client
@@ -412,7 +458,7 @@ function NoPublicProductsShowcase({ candidateCount }: { candidateCount: number }
     <section className="grid gap-7 border-y border-line bg-[#faf7f0] py-8">
       <div className="grid gap-5 px-4 lg:grid-cols-[1fr_0.8fr] lg:items-end">
         <div>
-          <p className="inline-flex items-center gap-2 rounded-md bg-[#eef8f6] px-3 py-2 text-sm font-black uppercase text-teal">
+          <p className="inline-flex items-center gap-2 rounded-md bg-[#eef8f6] px-3 py-2 text-sm font-bold uppercase text-teal">
             <ShieldCheck size={16} aria-hidden="true" />
             Bientôt disponible
           </p>
@@ -426,7 +472,7 @@ function NoPublicProductsShowcase({ candidateCount }: { candidateCount: number }
           </p>
         </div>
         <div className="rounded-md border border-line bg-white p-4">
-          <p className="text-sm font-black uppercase text-teal">
+          <p className="text-sm font-bold uppercase text-teal">
             En coulisses
           </p>
           <p className="mt-2 text-3xl font-black">{candidateText}</p>
@@ -448,8 +494,8 @@ function NoPublicProductsShowcase({ candidateCount }: { candidateCount: number }
             >
               <div className="flex items-start justify-between gap-3">
                 <div>
-                  <p className="text-sm font-black text-teal">{card.value}</p>
-                  <h3 className="mt-1 text-base font-black">{card.title}</h3>
+                  <p className="text-sm font-bold text-teal">{card.value}</p>
+                  <h3 className="mt-1 text-base font-bold">{card.title}</h3>
                 </div>
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
                   <Icon size={19} aria-hidden="true" />
@@ -475,12 +521,12 @@ function NoPublicProductsShowcase({ candidateCount }: { candidateCount: number }
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
                   <Icon size={19} aria-hidden="true" />
                 </span>
-                <span className="rounded-md bg-[#f6f1e8] px-2 py-1 text-[11px] font-black uppercase text-teal">
+                <span className="rounded-md bg-[#f6f1e8] px-2 py-1 text-[11px] font-bold uppercase text-teal">
                   {item.badge}
                 </span>
               </span>
               <span>
-                <span className="mt-4 flex items-center justify-between gap-3 text-base font-black group-hover:text-teal">
+                <span className="mt-4 flex items-center justify-between gap-3 text-base font-bold group-hover:text-teal">
                   {item.label}
                   <ArrowRight size={16} aria-hidden="true" />
                 </span>
@@ -496,21 +542,21 @@ function NoPublicProductsShowcase({ candidateCount }: { candidateCount: number }
       <div className="grid gap-3 px-4 md:grid-cols-3">
         <Link
           href="/paiement"
-          className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-[#2b2b2b]"
+          className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-bold text-white hover:bg-[#2b2b2b]"
         >
           <BadgePercent size={17} aria-hidden="true" />
           Paiement Maxi Trouvaille
         </Link>
         <Link
           href="/suivi-colis"
-          className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+          className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
         >
           <Truck size={17} aria-hidden="true" />
           Suivi colis
         </Link>
         <Link
           href="/contact"
-          className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+          className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
         >
           <Headphones size={17} aria-hidden="true" />
           Service client

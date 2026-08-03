@@ -55,28 +55,34 @@ export default async function PartnerProductsPage() {
 
   return (
     <>
+      {/* En-tete court : sur telephone, l'en-tete pleine hauteur suivie de
+          trois grandes cartes de reassurance faisait deux ecrans avant le
+          premier rayon. */}
       <PageHeader
         eyebrow="Nos rayons"
-        title="Tous les rayons Maxi Trouvaille"
-        description="Promotions, nouveautés, maison, cuisine, beauté, high-tech, auto-moto, animaux, enfant et mode : parcourez les rayons et commandez en quelques clics."
+        title="Tous les rayons"
+        description="Maison, cuisine, beauté, high-tech, auto-moto, animaux, enfant, mode : parcourez les rayons et commandez en quelques clics."
+        compact
       />
 
-      <section className="container-page border-b border-line py-8">
-        <div className="grid gap-4 md:grid-cols-3">
+      {/* Meme bandeau de reassurance compact que sur l'accueil : une ligne,
+          pas trois cartes. */}
+      <section className="border-b border-line bg-paper">
+        <div className="container-page grid grid-cols-2 gap-x-4 gap-y-5 py-6 lg:grid-cols-3">
           <TrustItem
-            icon={<ShieldCheck size={22} aria-hidden="true" />}
+            icon={<ShieldCheck size={18} aria-hidden="true" />}
             title="Paiement sécurisé"
-            text="Paiement par carte via un tunnel sécurisé, directement sur Maxi Trouvaille."
+            text="Par carte, directement sur Maxi Trouvaille."
           />
           <TrustItem
-            icon={<Truck size={22} aria-hidden="true" />}
+            icon={<Truck size={18} aria-hidden="true" />}
             title="Livraison suivie"
-            text="Numéro de suivi et réception estimée 7 à 14 jours ouvrés."
+            text="Numéro de suivi sur chaque commande."
           />
           <TrustItem
-            icon={<PackageCheck size={22} aria-hidden="true" />}
+            icon={<PackageCheck size={18} aria-hidden="true" />}
             title="Fiches vérifiées"
-            text="Photos fidèles, prix clairs et stock contrôlé sur chaque fiche produit."
+            text="Photos fidèles, prix clairs et stock contrôlé."
           />
         </div>
       </section>
@@ -84,14 +90,16 @@ export default async function PartnerProductsPage() {
       <section className="container-page py-10">
         <div className="mb-6 flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
           <div>
-            <p className="text-sm font-black uppercase text-teal">Rayons</p>
-            <h2 className="mt-2 text-2xl font-black">
+            <p className="text-xs font-bold uppercase tracking-[0.14em] text-teal">
+              Rayons
+            </p>
+            <h2 className="mt-2 text-[26px] font-black leading-tight sm:text-3xl">
               Trouvez votre bonheur par univers
             </h2>
           </div>
           <Link
             href="/categories/produits-partenaires"
-            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line px-4 text-sm font-black hover:bg-[#f1eadf]"
+            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line px-4 text-sm font-bold hover:bg-[#f1eadf]"
           >
             Toutes les sous-catégories
             <ArrowUpRight size={16} aria-hidden="true" />
@@ -103,7 +111,7 @@ export default async function PartnerProductsPage() {
       <section className="container-page pb-12">
         <div className="mb-7 flex flex-col justify-between gap-4 sm:flex-row sm:items-end">
           <div>
-            <p className="flex items-center gap-2 text-sm font-black uppercase text-teal">
+            <p className="flex items-center gap-2 text-sm font-bold uppercase text-teal">
               <BadgePercent size={16} aria-hidden="true" />
               Sélection du moment
             </p>
@@ -111,14 +119,14 @@ export default async function PartnerProductsPage() {
               Promotions et nouveautés
             </h2>
           </div>
-          <span className="inline-flex w-fit items-center gap-2 rounded-md bg-[#eff6ff] px-3 py-2 text-sm font-black text-[#1d4ed8]">
+          <span className="inline-flex w-fit items-center gap-2 rounded-md bg-[#eff6ff] px-3 py-2 text-sm font-bold text-[#1d4ed8]">
             <Sparkles size={16} aria-hidden="true" />
             Mis à jour régulièrement
           </span>
         </div>
 
         {highlightedProducts.length > 0 ? (
-          <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-4">
             {highlightedProducts.map((product) => (
               <ProductCard
                 key={product.id}
@@ -154,12 +162,14 @@ function TrustItem({
   text: string;
 }) {
   return (
-    <article className="rounded-lg border border-line bg-paper p-5 shadow-sm">
-      <div className="flex items-center gap-3 text-teal">
+    <div className="flex gap-3">
+      <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
         {icon}
-        <h2 className="text-base font-black">{title}</h2>
+      </span>
+      <div className="min-w-0">
+        <h2 className="text-[13px] font-bold leading-4">{title}</h2>
+        <p className="mt-1 text-[13px] leading-5 text-muted">{text}</p>
       </div>
-      <p className="mt-3 text-sm leading-6 text-muted">{text}</p>
-    </article>
+    </div>
   );
 }

@@ -18,7 +18,7 @@ export function LegalDocument({
         .filter(Boolean)
         .join(" ")}
     >
-      <p className="text-sm font-black uppercase text-teal">Document client</p>
+      <p className="text-sm font-bold uppercase text-teal">Document client</p>
       <h1 className="mt-3 text-3xl font-black leading-[1.08]">{document.title}</h1>
       <p className="mt-3 text-sm leading-6 text-muted">
         Cadre d&apos;information Maxi Trouvaille pour les commandes, le service

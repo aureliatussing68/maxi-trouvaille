@@ -42,18 +42,17 @@ export default async function ShopPage({
 
   return (
     <>
+      {/* En-tete raccourci sur telephone : titre + phrase + bandeau photo +
+          panneau de filtres, cela faisait un ecran et demi de vide commercial
+          avant la moindre marchandise. Sur une page qui s'appelle "Toute la
+          boutique", les produits doivent commencer dans le premier ecran. */}
       <PageHeader
         eyebrow="Boutique"
-        title="Toute la boutique Maxi Trouvaille"
-        description="Recherchez un produit, filtrez par rayon et commandez en quelques clics. Paiement sécurisé et livraison suivie."
+        title="Toute la boutique"
+        description="Recherchez un produit, filtrez par rayon et commandez en quelques clics."
+        compact
       />
-      {/* Bandeau qui defile, juste sous l'en-tete : il separe nettement
-          l'accroche de l'outil de recherche. Volontairement fin (128 px sur
-          telephone) pour que la barre de recherche reste visible sans defiler.
-          Cout reseau nul : ce sont les 4 memes fichiers que la grille des rayons
-          en bas de cette page, donc rien de neuf a telecharger. */}
-      <HeroCarousel variant="band" />
-      <section className="container-page py-8">
+      <section className="container-page pb-8 pt-4 sm:pt-6">
         <ShopProductExplorer
           products={publicProducts}
           statsByProductId={statsByProductId}
@@ -62,10 +61,25 @@ export default async function ShopPage({
           initialQuery={initialQuery}
         />
       </section>
+      {/* Le bandeau qui defile reste, mais APRES les produits : en tete de page
+          il repoussait toute la marchandise sous la ligne de flottaison, et
+          colle bord a bord il faisait rapporte au milieu d'une page en cartes
+          arrondies. Il ferme maintenant la zone produits et ouvre les rayons.
+          Cout reseau nul : ce sont les 4 memes fichiers que la grille des
+          rayons juste en dessous. */}
+      <section className="container-page pb-10">
+        <div className="overflow-hidden rounded-lg">
+          <HeroCarousel variant="band" />
+        </div>
+      </section>
       <section className="container-page border-t border-line py-10">
         <div className="mb-6">
-          <p className="text-sm font-black uppercase text-teal">Nos rayons</p>
-          <h2 className="mt-2 text-2xl font-black">Explorez par univers</h2>
+          <p className="text-xs font-bold uppercase tracking-[0.14em] text-teal">
+            Nos rayons
+          </p>
+          <h2 className="mt-2 text-[26px] font-black leading-tight sm:text-3xl">
+            Explorez par univers
+          </h2>
           <p className="mt-2 text-sm leading-6 text-muted">
             {homeShowcaseCategoryIds.length} rayons, {publicProducts.length}{" "}
             produits en ligne.

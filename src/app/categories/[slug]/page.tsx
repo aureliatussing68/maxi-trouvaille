@@ -175,7 +175,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         {subcategories.length > 0 ? (
           <div className="mb-10">
             <div className="mb-6">
-              <p className="text-sm font-black uppercase text-teal">
+              <p className="text-sm font-bold uppercase text-teal">
                 Sous-catégories
               </p>
               <h2 className="mt-2 text-2xl font-black">
@@ -189,7 +189,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
           <>
             {subcategories.length > 0 ? (
               <div className="mb-6">
-                <p className="text-sm font-black uppercase text-teal">
+                <p className="text-sm font-bold uppercase text-teal">
                   Produits du rayon
                 </p>
                 <h2 className="mt-2 text-2xl font-black">
@@ -197,7 +197,9 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                 </h2>
               </div>
             ) : null}
-            <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+            {/* Deux colonnes sur telephone, comme partout ailleurs : un rayon
+                doit se balayer, pas se derouler un produit par ecran. */}
+            <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 xl:grid-cols-4">
               {categoryProducts.map((product) => (
                 <ProductCard
                   key={product.id}
@@ -211,7 +213,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         ) : (
           <section className="grid gap-6 rounded-lg border border-line bg-[#faf7f0] p-5 shadow-sm sm:p-8">
             <div className="mx-auto max-w-3xl text-center">
-              <p className="inline-flex items-center gap-2 rounded-md bg-[#eef8f6] px-3 py-2 text-sm font-black text-teal">
+              <p className="inline-flex items-center gap-2 rounded-md bg-[#eef8f6] px-3 py-2 text-sm font-bold text-teal">
                 <ShieldCheck size={16} aria-hidden="true" />
                 Lancement maîtrisé
               </p>
@@ -243,7 +245,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
                     <span className="flex h-10 w-10 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
                       <Icon size={19} aria-hidden="true" />
                     </span>
-                    <h3 className="mt-4 text-base font-black">{signal.title}</h3>
+                    <h3 className="mt-4 text-base font-bold">{signal.title}</h3>
                     <p className="mt-2 text-sm leading-6 text-muted">
                       {signal.text}
                     </p>
@@ -255,21 +257,21 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
             <div className="grid gap-3 md:grid-cols-3">
               <Link
                 href="/boutique"
-                className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-[#2b2b2b]"
+                className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-bold text-white hover:bg-[#2b2b2b]"
               >
                 Retour boutique
                 <ArrowRight size={17} aria-hidden="true" />
               </Link>
               <Link
                 href="/suivi-colis"
-                className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+                className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
               >
                 <Truck size={17} aria-hidden="true" />
                 Suivi colis
               </Link>
               <Link
                 href="/contact"
-                className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+                className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
               >
                 <Headphones size={17} aria-hidden="true" />
                 Service client

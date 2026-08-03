@@ -113,11 +113,11 @@ export function SupportReplyCard(props: SupportReplyCardProps) {
   return (
     <div className="mt-4 rounded-md border border-line bg-white p-4">
       <div className="flex flex-wrap items-center gap-2">
-        <span className="rounded-full bg-[#f6f1e8] px-3 py-1 text-xs font-black uppercase text-foreground">
+        <span className="rounded-full bg-[#f6f1e8] px-3 py-1 text-xs font-bold uppercase text-foreground">
           {supportCategoryLabel(props.supportCategory)}
         </span>
         <span
-          className={`rounded-full px-3 py-1 text-xs font-black uppercase ${statusTone(status)}`}
+          className={`rounded-full px-3 py-1 text-xs font-bold uppercase ${statusTone(status)}`}
         >
           {supportStatusLabel(status)}
         </span>
@@ -161,7 +161,7 @@ export function SupportReplyCard(props: SupportReplyCardProps) {
           type="button"
           onClick={sendReply}
           disabled={busy !== "" || !draft.trim()}
-          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 py-2 text-sm font-black text-white hover:bg-[#2b2b2b] disabled:cursor-not-allowed disabled:opacity-65"
+          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 py-2 text-sm font-bold text-white hover:bg-[#2b2b2b] disabled:cursor-not-allowed disabled:opacity-65"
         >
           {busy === "send" ? (
             <Loader2 className="animate-spin" size={16} aria-hidden="true" />
@@ -175,7 +175,7 @@ export function SupportReplyCard(props: SupportReplyCardProps) {
           type="button"
           onClick={() => patchMessage("brouillon")}
           disabled={busy !== "" || !draft.trim()}
-          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line px-4 py-2 text-sm font-black hover:bg-[#f6f1e8] disabled:cursor-not-allowed disabled:opacity-65"
+          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line px-4 py-2 text-sm font-bold hover:bg-[#f6f1e8] disabled:cursor-not-allowed disabled:opacity-65"
         >
           {busy === "save" ? (
             <Loader2 className="animate-spin" size={16} aria-hidden="true" />
@@ -186,7 +186,7 @@ export function SupportReplyCard(props: SupportReplyCardProps) {
         </button>
 
         {status === "envoye" ? (
-          <span className="inline-flex items-center gap-2 text-sm font-black text-teal">
+          <span className="inline-flex items-center gap-2 text-sm font-bold text-teal">
             <Check size={16} aria-hidden="true" />
             Traite
           </span>

@@ -23,21 +23,28 @@ const heroSlides = [
     title: "Maison",
     image: "/uploads/category-images/maison.webp",
     alt: "Rayon maison : paniers en osier, linge plie et petit rangement",
+    position: "50% 50%",
   },
   {
     title: "Cuisine",
     image: "/uploads/category-images/cuisine.webp",
     alt: "Rayon cuisine : robot menager, casseroles et ustensiles en bois",
+    position: "50% 50%",
   },
   {
+    // Recadrage remonte : centre, le plein cadre coupait la tete du golden
+    // retriever au niveau des yeux, il ne restait que le museau derriere le
+    // titre. A 30 %, les deux animaux tiennent dans la bande visible.
     title: "Animaux",
     image: "/uploads/category-images/animaux.webp",
     alt: "Rayon animaux : chien et chat entoures de gamelles, paniers et jouets",
+    position: "50% 30%",
   },
   {
     title: "High-tech",
     image: "/uploads/category-images/high-tech.webp",
     alt: "Rayon high-tech : ecran, enceinte connectee, montre et ecouteurs",
+    position: "50% 45%",
   },
 ];
 
@@ -74,10 +81,12 @@ export function HeroCarousel({
             alt={slide.alt}
             fill
             sizes="100vw"
-            // Les fichiers font 960x640 : nets sur telephone, un peu mous sur
-            // un grand ecran. Le leger agrandissement masque la mollesse et
-            // evite les bords blancs au recadrage.
-            className="scale-[1.05] object-cover"
+            // Les fichiers font 960x640. L'agrandissement de 5 % qui trainait
+            // ici n'aidait pas : il ajoutait encore de l'etirement a une image
+            // deja affichee au-dela de sa taille sur grand ecran. Retire, la
+            // photo est au plus net que le fichier permet.
+            className="object-cover"
+            style={{ objectPosition: slide.position }}
             // Sur l'accueil la premiere diapo fait partie du premier ecran.
             // Sur la boutique le bandeau est decoratif : on laisse le
             // navigateur decider, il chargera de toute facon tout de suite
@@ -104,7 +113,7 @@ export function HeroCarousel({
           {isBand ? null : (
             <div className="absolute inset-x-0 bottom-4 px-4 sm:bottom-6">
               <div className="container-page flex justify-end">
-                <span className="inline-flex items-center gap-2 rounded-full bg-black/55 px-3 py-1.5 text-[11px] font-black uppercase tracking-wider text-white backdrop-blur-sm">
+                <span className="inline-flex items-center gap-2 rounded-full bg-black/55 px-3 py-1.5 text-[11px] font-bold uppercase tracking-wider text-white backdrop-blur-sm">
                   <span
                     className="h-1.5 w-1.5 rounded-full bg-brand"
                     aria-hidden="true"

@@ -64,7 +64,7 @@ export default async function TrackingPage() {
                 <span className="flex h-10 w-10 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
                   <Icon size={19} aria-hidden="true" />
                 </span>
-                <h2 className="mt-4 text-base font-black">{step.title}</h2>
+                <h2 className="mt-4 text-base font-bold">{step.title}</h2>
                 <p className="mt-2 text-sm leading-6 text-muted">{step.text}</p>
               </article>
             );

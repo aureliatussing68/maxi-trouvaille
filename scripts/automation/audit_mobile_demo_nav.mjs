@@ -7,10 +7,15 @@ const layoutPath = path.join(root, "src", "app", "layout.tsx");
 const manifestPath = path.join(root, "src", "app", "manifest.ts");
 const serviceWorkerPath = path.join(root, "public", "sw.js");
 
+// Les DESTINATIONS restent figees (elles sont alignees sur les raccourcis du
+// manifest PWA et aucune page transactionnelle n'y est admise).
+// Les LIBELLES ont ete harmonises avec l'en-tete et le menu : la barre du bas
+// disait "Partenaires" et "Nouveau" la ou le reste du site disait "Rayons" et
+// "Nouveautes", pour exactement les memes pages.
 const requiredLinks = [
   { href: "/boutique", label: "Boutique" },
-  { href: "/produits-partenaires", label: "Partenaires" },
-  { href: "/nouveautes", label: "Nouveau" },
+  { href: "/produits-partenaires", label: "Rayons" },
+  { href: "/nouveautes", label: "Nouveautés" },
   { href: "/promotions", label: "Promos" },
   { href: "/suivi-colis", label: "Suivi" },
 ];

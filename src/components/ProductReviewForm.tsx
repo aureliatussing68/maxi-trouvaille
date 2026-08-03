@@ -84,7 +84,7 @@ export function ProductReviewForm({
       className="grid gap-5 rounded-lg border border-line bg-paper p-5 shadow-sm"
     >
       <div>
-        <p className="text-sm font-black uppercase text-teal">Avis après achat</p>
+        <p className="text-sm font-bold uppercase text-teal">Avis après achat</p>
         <h1 className="mt-2 text-3xl font-black">Laisser un avis</h1>
         <p className="mt-3 text-sm leading-6 text-muted">{message}</p>
       </div>
@@ -152,7 +152,7 @@ export function ProductReviewForm({
       <button
         type="submit"
         disabled={isSending || !canSubmit || selectableProducts.length === 0}
-        className="focus-ring inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-md bg-foreground px-5 py-3 text-sm font-black text-white hover:bg-[#2b2b2b] disabled:cursor-not-allowed disabled:opacity-65 sm:w-fit"
+        className="focus-ring inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-md bg-foreground px-5 py-3 text-sm font-bold text-white hover:bg-[#2b2b2b] disabled:cursor-not-allowed disabled:opacity-65 sm:w-fit"
       >
         {isSending ? (
           <Loader2 className="animate-spin" size={18} aria-hidden="true" />

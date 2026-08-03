@@ -44,7 +44,7 @@ export function PartnerProgramGatePanel({ className }: { className?: string }) {
     <section className={["grid gap-5", className].filter(Boolean).join(" ")}>
       <div className="grid gap-5 rounded-lg border border-line bg-[#faf7f0] p-5 shadow-sm lg:grid-cols-[1fr_auto] lg:items-center">
         <div>
-          <p className="inline-flex items-center gap-2 rounded-md bg-[#eef8f6] px-3 py-2 text-sm font-black uppercase text-teal">
+          <p className="inline-flex items-center gap-2 rounded-md bg-[#eef8f6] px-3 py-2 text-sm font-bold uppercase text-teal">
             <LockKeyhole size={16} aria-hidden="true" />
             Accès encadré
           </p>
@@ -60,7 +60,7 @@ export function PartnerProgramGatePanel({ className }: { className?: string }) {
         <div className="grid gap-3 sm:grid-cols-3 lg:min-w-[360px] lg:grid-cols-1">
           <Link
             href="/produits-partenaires"
-            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-[#2b2b2b]"
+            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-bold text-white hover:bg-[#2b2b2b]"
           >
             <Store size={17} aria-hidden="true" />
             Produits partenaires
@@ -68,14 +68,14 @@ export function PartnerProgramGatePanel({ className }: { className?: string }) {
           </Link>
           <Link
             href="/conditions-produits-partenaires"
-            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
           >
             <ClipboardCheck size={17} aria-hidden="true" />
             Conditions
           </Link>
           <Link
             href="/contact"
-            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
           >
             <Headphones size={17} aria-hidden="true" />
             Service client
@@ -95,7 +95,7 @@ export function PartnerProgramGatePanel({ className }: { className?: string }) {
               <span className="flex h-10 w-10 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
                 <Icon size={19} aria-hidden="true" />
               </span>
-              <h3 className="mt-4 text-base font-black">{item.title}</h3>
+              <h3 className="mt-4 text-base font-bold">{item.title}</h3>
               <p className="mt-2 text-sm leading-6 text-muted">{item.text}</p>
             </article>
           );

@@ -41,7 +41,7 @@ export function TrackingLookupForm() {
         <button
           type="button"
           onClick={lookupTracking}
-          className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-foreground px-5 py-3 text-sm font-black text-white hover:bg-[#2b2b2b]"
+          className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md bg-foreground px-5 py-3 text-sm font-bold text-white hover:bg-[#2b2b2b]"
         >
           <Search size={18} aria-hidden="true" />
           Rechercher

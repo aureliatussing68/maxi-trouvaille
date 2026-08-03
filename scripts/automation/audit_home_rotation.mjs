@@ -63,13 +63,19 @@ const sourceChecks = [
       ["selectHomeShowcase", "rotation_not_used"],
       ["getParisDayIndex", "paris_day_index_not_used"],
       ["loadReviewSummaries", "review_fallback_missing"],
-      ["loadProductStats", "stats_fallback_missing"],
       ['aria-roledescription="carrousel"', "carousel_roledescription_missing"],
     ],
     forbidden: [
       ["purchasable.slice(0, 8)", "frozen_first_eight_still_present"],
       ["Math.random(", "random_selection_forbidden"],
       ['dynamic = "force-dynamic"', "force_dynamic_on_home_forbidden"],
+      // Remplace l'ancienne exigence "loadProductStats" (un appel stats
+      // entoure d'un try/catch pour qu'une panne de base ne casse pas
+      // l'accueil). La vitrine n'affiche plus aucun compteur de vues : a la
+      // premiere visite ils annoncaient "1 vue" sur chaque carte, ce qui
+      // dessert la boutique. Ne plus interroger la base du tout est une
+      // garantie plus forte que de savoir rattraper la panne.
+      ["getProductStatsMap", "stats_query_on_home_forbidden"],
     ],
   },
   {

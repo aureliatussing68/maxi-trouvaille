@@ -5,7 +5,7 @@ export default function NotFound() {
   return (
     <section className="container-page py-12 sm:py-16">
       <div className="mx-auto max-w-3xl text-center">
-        <p className="text-sm font-black uppercase tracking-[0.18em] text-teal">
+        <p className="text-sm font-bold uppercase tracking-[0.18em] text-teal">
           Page introuvable
         </p>
         <h1 className="mt-3 text-3xl font-black leading-tight sm:text-5xl">
@@ -19,13 +19,13 @@ export default function NotFound() {
         <div className="mt-7 flex flex-col justify-center gap-3 sm:flex-row">
           <Link
             href="/boutique"
-            className="focus-ring inline-flex min-h-11 items-center justify-center rounded-md bg-foreground px-5 py-2.5 text-sm font-black text-white hover:bg-[#2b2b2b]"
+            className="focus-ring inline-flex min-h-11 items-center justify-center rounded-md bg-foreground px-5 py-2.5 text-sm font-bold text-white hover:bg-[#2b2b2b]"
           >
             Voir la boutique
           </Link>
           <Link
             href="/contact"
-            className="focus-ring inline-flex min-h-11 items-center justify-center rounded-md border border-line bg-white px-5 py-2.5 text-sm font-black hover:bg-[#f1eadf]"
+            className="focus-ring inline-flex min-h-11 items-center justify-center rounded-md border border-line bg-white px-5 py-2.5 text-sm font-bold hover:bg-[#f1eadf]"
           >
             Service client
           </Link>

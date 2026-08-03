@@ -37,10 +37,10 @@ export function AddToCartButton({
       type="button"
       onClick={handleClick}
       disabled={disabled}
-      className={`focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 py-2.5 text-sm font-black text-white transition hover:bg-[#2b2b2b] disabled:cursor-not-allowed disabled:bg-muted ${className}`}
+      className={`focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 py-2.5 text-sm font-bold text-white shadow-sm transition active:scale-[0.98] hover:bg-[#2b2b2b] disabled:cursor-not-allowed disabled:bg-muted disabled:shadow-none ${className}`}
     >
-      <ShoppingCart size={18} aria-hidden="true" />
-      {disabled ? disabledLabel : feedback ? "Ajoute" : label}
+      <ShoppingCart size={17} aria-hidden="true" />
+      {disabled ? disabledLabel : feedback ? "Ajouté !" : label}
     </button>
   );
 }

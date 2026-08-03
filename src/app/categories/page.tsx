@@ -35,7 +35,7 @@ export default async function CategoriesPage() {
       <section className="container-page py-10">
         <div className="mb-8 grid gap-3 rounded-lg border border-line bg-paper p-4 shadow-sm md:grid-cols-[1fr_auto] md:items-center">
           <div>
-            <p className="flex items-center gap-2 text-sm font-black uppercase text-teal">
+            <p className="flex items-center gap-2 text-sm font-bold uppercase text-teal">
               <ShieldCheck size={16} aria-hidden="true" />
               Achat en confiance
             </p>
@@ -51,14 +51,14 @@ export default async function CategoriesPage() {
           <div className="flex flex-col gap-3 sm:flex-row md:justify-end">
             <Link
               href="/boutique"
-              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-[#2b2b2b]"
+              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-bold text-white hover:bg-[#2b2b2b]"
             >
               Voir la boutique
               <ArrowRight size={17} aria-hidden="true" />
             </Link>
             <Link
               href="/contact"
-              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+              className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
             >
               <Headphones size={17} aria-hidden="true" />
               Service client
@@ -83,7 +83,7 @@ export default async function CategoriesPage() {
         <div className="mt-8 grid gap-3 md:grid-cols-3">
           <div className="rounded-lg border border-line bg-paper p-4 shadow-sm">
             <BadgeEuro className="text-teal" size={22} aria-hidden="true" />
-            <h2 className="mt-3 text-base font-black">Prix clairs</h2>
+            <h2 className="mt-3 text-base font-bold">Prix clairs</h2>
             <p className="mt-2 text-sm leading-6 text-muted">
               Prix tout compris et frais de livraison affichés avant le
               paiement.
@@ -91,14 +91,14 @@ export default async function CategoriesPage() {
           </div>
           <div className="rounded-lg border border-line bg-paper p-4 shadow-sm">
             <Truck className="text-teal" size={22} aria-hidden="true" />
-            <h2 className="mt-3 text-base font-black">Livraison suivie</h2>
+            <h2 className="mt-3 text-base font-bold">Livraison suivie</h2>
             <p className="mt-2 text-sm leading-6 text-muted">
               Numéro de suivi et réception estimée 7 à 14 jours ouvrés.
             </p>
           </div>
           <div className="rounded-lg border border-line bg-paper p-4 shadow-sm">
             <ShieldCheck className="text-teal" size={22} aria-hidden="true" />
-            <h2 className="mt-3 text-base font-black">Photos fidèles</h2>
+            <h2 className="mt-3 text-base font-bold">Photos fidèles</h2>
             <p className="mt-2 text-sm leading-6 text-muted">
               Les photos des fiches produit correspondent à l&apos;article
               expédié.

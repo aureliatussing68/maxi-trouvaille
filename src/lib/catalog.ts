@@ -1,5 +1,35 @@
 import type { ProductSource, SellerListingMeta } from "@/lib/marketplace";
 
+/**
+ * Remise minimale, en pourcentage, pour qu'un prix barre et un badge soient
+ * montres au client.
+ *
+ * Cette regle est DUPLIQUEE a l'identique dans src/lib/product-display.ts (qui
+ * la documente en detail) et dans src/lib/catalog-client.ts. C'est volontaire :
+ * ce fichier est charge tel quel par les scripts d'audit avec node, qui ne
+ * savent pas resoudre les alias "@/...". Un import ici casserait la chaine
+ * d'audit du depot. Les trois valeurs doivent rester identiques.
+ */
+const REFERENCE_PRICE_MIN_DISCOUNT = 30;
+
+function getRealDiscountPercent(product: Product) {
+  const compareAtPrice = product.compareAtPrice;
+
+  if (
+    typeof compareAtPrice !== "number" ||
+    !Number.isFinite(compareAtPrice) ||
+    compareAtPrice <= product.price
+  ) {
+    return 0;
+  }
+
+  return Math.round(((compareAtPrice - product.price) / compareAtPrice) * 100);
+}
+
+function shouldShowReferencePrice(product: Product) {
+  return getRealDiscountPercent(product) >= REFERENCE_PRICE_MIN_DISCOUNT;
+}
+
 export type Category = {
   id: string;
   slug: string;
@@ -1308,8 +1338,17 @@ export function isPublicProduct(product: Product) {
   return true;
 }
 
+/**
+ * Une promotion, c'est une exception — pas l'etat permanent de la boutique.
+ *
+ * Le catalogue importe porte un prix barre sur 100 % des fiches : la page
+ * /promotions finissait donc par etre la boutique entiere, et un badge present
+ * partout ne veut plus rien dire. On ne retient desormais que les remises
+ * reellement significatives (voir REFERENCE_PRICE_MIN_DISCOUNT), exactement le
+ * meme critere que celui qui decide d'afficher un prix barre sur une carte.
+ */
 export function isPromotionProduct(product: Product) {
-  return Boolean(product.dropshipping?.isPromotion || product.compareAtPrice);
+  return shouldShowReferencePrice(product);
 }
 
 export function isNewProduct(product: Product) {
@@ -1338,9 +1377,16 @@ export function getPublicDeliveryEstimate(product: Product) {
 
 export function getProductSeoTitle(product: Product) {
   const rawTitle = product.seo?.title || product.name;
-  // Le layout ajoute deja "| Maxi Trouvaille" : on retire le suffixe
-  // pour eviter un titre duplique du type "... | Maxi Trouvaille | Maxi Trouvaille".
-  return rawTitle.replace(/\s*[|–-]\s*Maxi Trouvailles?\s*$/i, "").trim();
+  // Le layout ajoute deja "| Maxi Trouvaille" : on retire le suffixe pour
+  // eviter un titre duplique du type "... | Maxi Trouvaille | Maxi Trouvaille".
+  // Le nom de marque est souvent TRONQUE dans les donnees importees (le champ
+  // est coupe a une longueur fixe, d'ou des "| Maxi Trouvaill" ou
+  // "| Maxi Trouv" en fin de titre). L'ancienne expression, qui exigeait le
+  // mot entier, ne les attrapait pas et l'onglet du navigateur affichait
+  // "... | Maxi Trouvaill | Maxi Trouvaille".
+  return rawTitle
+    .replace(/\s*[|–-]\s*Maxi(?:\s+T(?:r(?:o(?:u(?:v(?:a(?:i(?:l(?:l(?:es?)?)?)?)?)?)?)?)?)?)?\s*$/i, "")
+    .trim();
 }
 
 export function getProductSeoDescription(product: Product) {
@@ -1352,34 +1398,34 @@ export function getProductImageAlt(product: Product, fallbackSuffix?: string) {
   return fallbackSuffix ? `${baseAlt} ${fallbackSuffix}` : baseAlt;
 }
 
+/**
+ * Une pastille au maximum, et seulement quand elle apprend quelque chose.
+ *
+ * Avant : trois pastilles de trois couleurs sur chaque photo — "Partenaire",
+ * "Nouveaute", "Promotion". Verifie dans les donnees, "Nouveaute" etait vrai
+ * pour 285 fiches sur 285 et "Promotion" aussi : elles ne distinguaient donc
+ * rien, elles bariolaient la photo. "Partenaire" est en plus un mot de
+ * coulisses qui ne dit rien a un acheteur.
+ *
+ * Ne restent que des informations utiles a la decision : le produit n'est pas
+ * encore achetable, il est en rupture, ou sa remise est reellement notable.
+ */
 export function getProductBadges(product: Product): ProductBadge[] {
   if (isComingSoonProduct(product)) {
     return [{ label: "À venir", tone: "coming-soon" }];
   }
 
-  const badges: ProductBadge[] = [];
-
-  if (isDropshippingProduct(product)) {
-    badges.push({ label: "Partenaire", tone: "dropshipping" });
-  }
-
-  if (isNewProduct(product)) {
-    badges.push({ label: "Nouveauté", tone: "new" });
-  }
-
-  if (isPromotionProduct(product)) {
-    badges.push({ label: "Promotion", tone: "promotion" });
-  }
-
   if (product.stock <= 0) {
-    badges.push({ label: "Rupture de stock", tone: "stock" });
+    return [{ label: "Rupture de stock", tone: "stock" }];
   }
 
-  if (badges.length === 0 && product.badge) {
-    badges.push({ label: product.badge, tone: "default" });
+  const discountPercent = getRealDiscountPercent(product);
+
+  if (discountPercent >= REFERENCE_PRICE_MIN_DISCOUNT) {
+    return [{ label: `-${discountPercent} %`, tone: "promotion" }];
   }
 
-  return badges;
+  return [];
 }
 
 export function getCategoryById(id: string) {

@@ -46,6 +46,17 @@ function getOrCreateVisitorId() {
   }
 }
 
+/**
+ * Seuils d'affichage des compteurs.
+ *
+ * "2 vues" ou "1 favori", c'est de la preuve sociale A L'ENVERS : ca dit au
+ * client "personne ne vient ici". Un compteur n'aide que quand le nombre est
+ * assez grand pour signifier quelque chose. En dessous, on n'affiche rien —
+ * on n'invente evidemment aucun chiffre pour combler.
+ */
+const MIN_VIEWS_TO_DISPLAY = 50;
+const MIN_FAVORITES_TO_DISPLAY = 5;
+
 export function ProductStatsBadges({
   stats,
   className = "",
@@ -54,22 +65,22 @@ export function ProductStatsBadges({
   className?: string;
 }) {
   const safeStats = stats ?? { views: 0, favorites: 0 };
+  const showViews = safeStats.views >= MIN_VIEWS_TO_DISPLAY;
+  const showFavorites = safeStats.favorites >= MIN_FAVORITES_TO_DISPLAY;
 
-  // Ne pas afficher de compteurs a zero : cela donne une impression
-  // de boutique vide au lieu de rassurer.
-  if (safeStats.views <= 0 && safeStats.favorites <= 0) {
+  if (!showViews && !showFavorites) {
     return null;
   }
 
   return (
     <div className={`flex flex-wrap items-center gap-3 text-xs font-bold text-muted ${className}`}>
-      {safeStats.views > 0 ? (
+      {showViews ? (
         <span className="inline-flex items-center gap-1.5">
           <Eye size={14} aria-hidden="true" />
           {formatCount(safeStats.views, "vue", "vues")}
         </span>
       ) : null}
-      {safeStats.favorites > 0 ? (
+      {showFavorites ? (
         <span className="inline-flex items-center gap-1.5">
           <Heart size={14} aria-hidden="true" />
           {formatCount(safeStats.favorites, "favori", "favoris")}
@@ -81,12 +92,11 @@ export function ProductStatsBadges({
 
 export function ProductEngagement({
   productId,
-  initialStats,
 }: {
   productId: string;
-  initialStats: ProductStats;
+  /** Conserve pour compatibilite : plus rien n'est affiche a partir de la. */
+  initialStats?: ProductStats;
 }) {
-  const [stats, setStats] = useState(initialStats);
   const [isFavorited, setIsFavorited] = useState(false);
   const [isLoadingFavorite, setIsLoadingFavorite] = useState(false);
   const viewRequestStarted = useRef(false);
@@ -105,22 +115,18 @@ export function ProductEngagement({
     viewRequestStarted.current = true;
     const visitorId = getOrCreateVisitorId();
 
+    // Le compteur de vues continue d'etre alimente cote serveur : il servira
+    // le jour ou les nombres seront assez grands pour vouloir dire quelque
+    // chose. Simplement, plus rien n'est affiche au client en attendant.
     fetch(`/api/products/${encodeURIComponent(productId)}/stats`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({ visitorId }),
-    })
-      .then((response) => (response.ok ? response.json() : null))
-      .then((data: { stats?: ProductStats } | null) => {
-        if (data?.stats) {
-          setStats(data.stats);
-        }
-      })
-      .catch(() => {
-        setStats((currentStats) => currentStats);
-      });
+    }).catch(() => {
+      // Un compteur de vues indisponible ne doit rien casser sur la fiche.
+    });
 
     return () => window.clearTimeout(favoriteTimer);
   }, [productId]);
@@ -164,10 +170,6 @@ export function ProductEngagement({
 
       writeStoredFavorites(favorites);
       setIsFavorited(favorited);
-
-      if (data.stats) {
-        setStats(data.stats);
-      }
     } catch {
       setIsFavorited((current) => current);
     } finally {
@@ -175,30 +177,34 @@ export function ProductEngagement({
     }
   }
 
+  // Un simple coeur a cote du titre. En bouton pleine largeur avec son
+  // libelle, il prenait la place d'une vraie action commerciale pour une
+  // fonction dont personne n'a besoin sur une boutique sans compte.
   return (
-    <div className="mt-5 grid gap-3 rounded-lg border border-line bg-[#fbfaf7] p-4">
-      <ProductStatsBadges stats={stats} className="text-sm" />
-      <button
-        type="button"
-        onClick={toggleFavorite}
-        disabled={isLoadingFavorite}
-        className={`focus-ring inline-flex min-h-11 w-fit items-center justify-center gap-2 rounded-md border px-4 text-sm font-black ${
-          isFavorited
-            ? "border-rose bg-[#fff1f2] text-rose hover:bg-[#ffe4e6]"
-            : "border-line bg-paper text-foreground hover:bg-[#f1eadf]"
-        } disabled:cursor-not-allowed disabled:opacity-65`}
-      >
-        {isLoadingFavorite ? (
-          <Loader2 className="animate-spin" size={17} aria-hidden="true" />
-        ) : (
-          <Heart
-            size={17}
-            aria-hidden="true"
-            fill={isFavorited ? "currentColor" : "none"}
-          />
-        )}
+    <button
+      type="button"
+      onClick={toggleFavorite}
+      disabled={isLoadingFavorite}
+      aria-pressed={isFavorited}
+      title={isFavorited ? "Retirer des favoris" : "Ajouter aux favoris"}
+      className={`focus-ring inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-md border transition ${
+        isFavorited
+          ? "border-rose bg-[#fff1f2] text-rose hover:bg-[#ffe4e6]"
+          : "border-line bg-paper text-muted hover:bg-[#f1eadf] hover:text-foreground"
+      } disabled:cursor-not-allowed disabled:opacity-65`}
+    >
+      <span className="sr-only">
         {isFavorited ? "Retirer des favoris" : "Ajouter aux favoris"}
-      </button>
-    </div>
+      </span>
+      {isLoadingFavorite ? (
+        <Loader2 className="animate-spin" size={18} aria-hidden="true" />
+      ) : (
+        <Heart
+          size={18}
+          aria-hidden="true"
+          fill={isFavorited ? "currentColor" : "none"}
+        />
+      )}
+    </button>
   );
 }

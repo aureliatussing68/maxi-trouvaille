@@ -7,6 +7,7 @@ import {
   LockKeyhole,
   MessageCircle,
   Pencil,
+  RotateCcw,
   ShieldCheck,
   Store,
   Truck,
@@ -36,6 +37,14 @@ import {
   getPublicProducts,
 } from "@/lib/catalog-server";
 import { formatPrice } from "@/lib/format";
+import {
+  getDisplayDeliveryEstimate,
+  getDisplayProductName,
+  getPublicDescription,
+  getPublicFeatures,
+  getStockLabel,
+  shouldShowReferencePrice,
+} from "@/lib/product-display";
 import {
   getApprovedReviewsForProduct,
   getApprovedReviewSummary,
@@ -73,8 +82,11 @@ export async function generateMetadata({
   }
 
   return {
-    title: getProductSeoTitle(product),
-    description: getProductSeoDescription(product),
+    // Le titre et la description partagent le meme nettoyage que la page :
+    // ni suffixe commercial invente dans le nom, ni note fournisseur
+    // invendable dans l'extrait affiche par Google.
+    title: getDisplayProductName({ name: getProductSeoTitle(product) }),
+    description: getPublicDescription(getProductSeoDescription(product)),
     robots: adminMode
       ? {
           index: false,
@@ -115,23 +127,30 @@ export default async function ProductPage({
   const isComingSoon = isComingSoonProduct(product);
   const isDropshipping = isDropshippingProduct(product);
   const canPurchase = isProductPurchasable(product);
-  const deliveryEstimate = getPublicDeliveryEstimate(product);
+  const deliveryEstimate = getDisplayDeliveryEstimate(
+    getPublicDeliveryEstimate(product),
+  );
+  const displayName = getDisplayProductName(product);
+  const showReferencePrice = shouldShowReferencePrice(product);
+  const stockLabel = getStockLabel(product);
   const stats = await getProductStats(product.id);
   const reviewSummary = await getApprovedReviewSummary(product.id);
   const reviews = await getApprovedReviewsForProduct(product.id);
 
   return (
     <>
-    <section className="container-page grid gap-8 py-10 lg:grid-cols-[1fr_440px]">
+    <section className="container-page grid gap-8 py-8 sm:py-10 lg:grid-cols-[1fr_440px]">
       <div className="grid h-fit gap-3">
-        <div className="relative aspect-[4/3] overflow-hidden rounded-lg border border-line bg-[#ede7db] shadow-sm">
+        {/* Carre, comme les fichiers sources : le produit est montre entier,
+            sans recadrage haut et bas. */}
+        <div className="relative aspect-square overflow-hidden rounded-lg border border-line bg-photo shadow-sm">
           {canShowProductImages ? (
             <Image
               src={product.image}
               alt={getProductImageAlt(product)}
               fill
               sizes="(min-width: 1024px) 640px, 100vw"
-              className="object-cover"
+              className="object-contain"
               priority
             />
           ) : (
@@ -154,14 +173,14 @@ export default async function ProductPage({
             {galleryImages.slice(1).map((image, index) => (
               <div
                 key={image}
-                className="relative aspect-square overflow-hidden rounded-md border border-line bg-[#ede7db]"
+                className="relative aspect-square overflow-hidden rounded-md border border-line bg-photo transition hover:border-[#d9cfbd]"
               >
                 <Image
                   src={image}
                   alt={getProductImageAlt(product, `photo ${index + 2}`)}
                   fill
                   sizes="120px"
-                  className="object-cover"
+                  className="object-contain"
                 />
               </div>
             ))}
@@ -171,19 +190,19 @@ export default async function ProductPage({
 
       <div className="h-fit rounded-lg border border-line bg-paper p-6 shadow-sm">
         {showUpdatedMessage ? (
-          <div className="mb-5 rounded-md border border-teal/20 bg-[#eef8f6] p-3 text-sm font-black text-teal">
+          <div className="mb-5 rounded-md border border-teal/20 bg-[#eef8f6] p-3 text-sm font-bold text-teal">
             Produit modifié avec succès
           </div>
         ) : null}
         {!canShowProductImages ? (
-          <div className="mb-5 rounded-md border border-[#fed7aa] bg-[#fff7ed] p-3 text-sm font-black leading-6 text-[#9a3412]">
+          <div className="mb-5 rounded-md border border-[#fed7aa] bg-[#fff7ed] p-3 text-sm font-bold leading-6 text-[#9a3412]">
             Prévisualisation contrôlée: image, achat et publication restent
             bloqués jusqu aux preuves complètes.
           </div>
         ) : null}
         <Link
           href={category ? `/categories/${category.slug}` : "/categories"}
-          className="text-sm font-black uppercase text-teal hover:text-foreground"
+          className="text-sm font-bold uppercase text-teal hover:text-foreground"
         >
           {category?.name ?? "Categorie"}
         </Link>
@@ -191,7 +210,7 @@ export default async function ProductPage({
           {badges.map((badge) => (
             <span
               key={`${product.id}-${badge.label}`}
-              className={`rounded-md px-2.5 py-1 text-xs font-black ${getBadgeClassName(
+              className={`rounded-md px-2.5 py-1 text-xs font-bold ${getBadgeClassName(
                 badge.tone,
               )}`}
             >
@@ -199,102 +218,114 @@ export default async function ProductPage({
             </span>
           ))}
         </div>
-        <h1 className="mt-3 text-3xl font-black leading-[1.08]">{product.name}</h1>
+        <div className="mt-3 flex items-start justify-between gap-3">
+          <h1 className="text-2xl font-black leading-[1.12] sm:text-3xl">
+            {displayName}
+          </h1>
+          <ProductEngagement productId={product.id} initialStats={stats} />
+        </div>
         <div className="mt-3">
           <ReviewSummaryBadge summary={reviewSummary} />
         </div>
         {adminMode ? (
           <Link
             href={`/admin/produits/${product.slug}/modifier`}
-            className="focus-ring mt-4 inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-line px-3 text-sm font-black hover:bg-[#f1eadf]"
+            className="focus-ring mt-4 inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-line px-3 text-sm font-bold hover:bg-[#f1eadf]"
           >
             <Pencil size={15} aria-hidden="true" />
             Modifier
           </Link>
         ) : null}
-        <p className="mt-4 text-sm leading-6 text-muted">{product.description}</p>
 
-        <ProductEngagement productId={product.id} initialStats={stats} />
-
+        {/* Le prix passe AVANT la description : c'est l'information que le
+            client cherche en arrivant sur la fiche. */}
         {isComingSoon ? (
-          <div className="mt-5 rounded-lg border border-[#fed7aa] bg-[#fff7ed] p-4 text-sm font-black leading-6 text-[#9a3412]">
+          <div className="mt-5 rounded-lg border border-[#fed7aa] bg-[#fff7ed] p-4 text-sm font-bold leading-6 text-[#9a3412]">
             Bientôt disponible sur Maxi Trouvaille
           </div>
         ) : (
           <div className="mt-5 flex flex-wrap items-end gap-3">
-            <div className="text-4xl font-black">{formatPrice(product.price)}</div>
-            {product.compareAtPrice ? (
-              <div className="pb-1 text-base font-semibold text-muted line-through">
+            <div className="text-[40px] font-black leading-none tracking-tight">
+              {formatPrice(product.price)}
+            </div>
+            {showReferencePrice && product.compareAtPrice ? (
+              <div className="pb-1 text-base font-medium text-muted line-through">
                 {formatPrice(product.compareAtPrice)}
               </div>
             ) : null}
           </div>
         )}
 
-        <div className="mt-6 grid gap-3 text-sm">
-          <div className="flex items-center gap-2 text-muted">
-            <Store size={18} aria-hidden="true" />
-            {isDropshipping
-              ? "Produit expédié par partenaire logistique"
-              : product.source === "internal"
-                ? "Vendu par Maxi Trouvaille"
-                : "Annonce vendeur externe"}
-          </div>
-          <div className="flex items-center gap-2 text-muted">
-            <ShieldCheck size={18} aria-hidden="true" />
-            {product.condition}
-          </div>
-          <div className="flex items-center gap-2 text-muted">
-            <Truck size={18} aria-hidden="true" />
-            {deliveryEstimate}
-          </div>
-          <div className={product.stock > 0 ? "flex items-center gap-2 text-muted" : "flex items-center gap-2 font-black text-rose"}>
-            <Boxes size={18} aria-hidden="true" />
-            {isComingSoon
-              ? "Achat ouvert prochainement"
-              : product.stock > 0
-              ? `En stock : ${product.stock} disponibles`
-              : "Rupture de stock"}
-          </div>
+        <div className="mt-4 flex items-center gap-2 text-sm">
+          <Boxes size={17} aria-hidden="true" className={stockLabel.tone === "ok" ? "text-teal" : "text-rose"} />
+          <span
+            className={
+              stockLabel.tone === "ok"
+                ? "font-semibold text-teal"
+                : "font-bold text-rose"
+            }
+          >
+            {isComingSoon ? "Achat ouvert prochainement" : stockLabel.label}
+          </span>
         </div>
 
         {isComingSoon ? null : (
           <AddToCartButton
             productId={product.id}
-            className="mt-7 w-full"
+            className="mt-5 w-full py-3.5 text-base"
             label="Ajouter au panier"
             disabled={!canPurchase}
           />
         )}
+
+        {/* Les mentions logistiques passent SOUS le bouton, et une seule fois.
+            Repetees sur chaque carte de la boutique, elles martelaient au
+            client "tu vas attendre deux semaines" et "ce n'est pas nous qui
+            expedions" — le contraire de ce qui donne envie d'acheter. Ici,
+            au moment ou il en a besoin, elles rassurent. */}
+        <div className="mt-5 grid gap-2.5 rounded-lg border border-line bg-[#fbfaf7] p-4 text-sm">
+          <div className="flex items-center gap-2 font-semibold text-teal">
+            <ShieldCheck size={17} aria-hidden="true" />
+            Paiement sécurisé sur Maxi Trouvaille
+          </div>
+          <div className="flex items-start gap-2 text-muted">
+            <Truck size={17} aria-hidden="true" className="mt-0.5 shrink-0" />
+            <span>{deliveryEstimate}</span>
+          </div>
+          <div className="flex items-start gap-2 text-muted">
+            <Store size={17} aria-hidden="true" className="mt-0.5 shrink-0" />
+            <span>
+              {isDropshipping
+                ? "Expédié par notre partenaire logistique, suivi et service client assurés par Maxi Trouvaille"
+                : product.source === "internal"
+                  ? "Vendu et expédié par Maxi Trouvaille"
+                  : "Annonce vendeur externe"}
+            </span>
+          </div>
+          <div className="flex items-start gap-2 text-muted">
+            <RotateCcw size={17} aria-hidden="true" className="mt-0.5 shrink-0" />
+            <span>{`${product.condition} · 14 jours pour changer d'avis`}</span>
+          </div>
+        </div>
+
+        {/* Simple lien texte : en bouton pleine largeur, il avait exactement le
+            meme poids que "Ajouter au panier" et lui volait l'attention. */}
         <Link
           href="#message-produit"
-          className="focus-ring mt-3 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-md border border-line px-5 py-3 text-sm font-black hover:bg-[#f1eadf]"
+          className="focus-ring mt-4 inline-flex items-center gap-2 rounded-md py-1 text-sm font-semibold text-teal underline-offset-4 hover:underline"
         >
-          <MessageCircle size={18} aria-hidden="true" />
-          Envoyer un message
+          <MessageCircle size={16} aria-hidden="true" />
+          Une question sur ce produit ?
         </Link>
 
-        {isDropshipping && !isComingSoon ? (
-          <div className="mt-5 grid gap-2 rounded-lg border border-line bg-[#fbfaf7] p-4 text-sm">
-            <div className="flex items-center gap-2 font-black text-teal">
-              <ShieldCheck size={18} aria-hidden="true" />
-              Paiement sécurisé sur Maxi Trouvaille
-            </div>
-            <div className="flex items-center gap-2 text-muted">
-              <Truck size={18} aria-hidden="true" />
-              Livraison estimée : {deliveryEstimate}
-            </div>
-            <div className="flex items-center gap-2 text-muted">
-              <Store size={18} aria-hidden="true" />
-              Service client Maxi Trouvaille et suivi colis
-            </div>
-          </div>
-        ) : null}
+        <p className="mt-5 text-sm leading-6 text-muted">
+          {getPublicDescription(product.description)}
+        </p>
 
         <div className="mt-7 border-t border-line pt-6">
           <h2 className="text-lg font-black">Points clés</h2>
           <ul className="mt-4 grid gap-3 text-sm leading-6 text-muted">
-            {product.features.map((feature) => (
+            {getPublicFeatures(product.features).map((feature) => (
               <li key={feature} className="flex gap-2">
                 <CheckCircle2 className="mt-0.5 shrink-0 text-teal" size={18} />
                 <span>{feature}</span>
@@ -316,7 +347,7 @@ export default async function ProductPage({
       <div className="rounded-lg border border-line bg-paper p-6 shadow-sm">
         <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
           <div>
-            <p className="text-sm font-black uppercase text-teal">Avis clients</p>
+            <p className="text-sm font-bold uppercase text-teal">Avis clients</p>
             <h2 className="mt-2 text-2xl font-black">Ce que disent nos clients</h2>
           </div>
           <ReviewSummaryBadge summary={reviewSummary} />

@@ -101,7 +101,7 @@ export function PartnerMobileShowcasePanel({
     <section className={["grid gap-6", className].filter(Boolean).join(" ")}>
       <div className="grid gap-5 lg:grid-cols-[1fr_auto] lg:items-end">
         <div>
-          <p className="flex items-center gap-2 text-sm font-black uppercase text-teal">
+          <p className="flex items-center gap-2 text-sm font-bold uppercase text-teal">
             <ShieldCheck size={16} aria-hidden="true" />
             Présentation mobile sûre
           </p>
@@ -117,14 +117,14 @@ export function PartnerMobileShowcasePanel({
         <div className="flex flex-col gap-3 sm:flex-row lg:justify-end">
           <Link
             href="/produits-partenaires"
-            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-[#2b2b2b]"
+            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-bold text-white hover:bg-[#2b2b2b]"
           >
             Présenter les rayons
             <ArrowRight size={17} aria-hidden="true" />
           </Link>
           <Link
             href="/contact"
-            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
           >
             <Headphones size={17} aria-hidden="true" />
             Service client
@@ -143,8 +143,8 @@ export function PartnerMobileShowcasePanel({
             >
               <div className="flex items-start justify-between gap-3">
                 <div>
-                  <p className="text-sm font-black text-teal">{metric.value}</p>
-                  <h3 className="mt-1 text-base font-black">{metric.label}</h3>
+                  <p className="text-sm font-bold text-teal">{metric.value}</p>
+                  <h3 className="mt-1 text-base font-bold">{metric.label}</h3>
                 </div>
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
                   <Icon size={19} aria-hidden="true" />
@@ -177,12 +177,12 @@ export function PartnerMobileShowcasePanel({
                 <span className="absolute left-3 top-3 flex h-10 w-10 items-center justify-center rounded-md bg-white/92 text-teal shadow-sm">
                   <Icon size={19} aria-hidden="true" />
                 </span>
-                <span className="absolute bottom-3 left-3 rounded-md bg-white/92 px-2 py-1 text-[11px] font-black uppercase text-teal shadow-sm">
+                <span className="absolute bottom-3 left-3 rounded-md bg-white/92 px-2 py-1 text-[11px] font-bold uppercase text-teal shadow-sm">
                   {card.badge}
                 </span>
               </div>
               <div className="p-4">
-                <h3 className="flex items-center justify-between gap-3 text-base font-black group-hover:text-teal">
+                <h3 className="flex items-center justify-between gap-3 text-base font-bold group-hover:text-teal">
                   {card.title}
                   <ArrowRight size={16} aria-hidden="true" />
                 </h3>
@@ -252,7 +252,7 @@ export function PartnerValidationPromisePanel({
     >
       <div className="grid gap-4 lg:grid-cols-[1fr_auto] lg:items-end">
         <div>
-          <p className="flex items-center gap-2 text-sm font-black uppercase text-teal">
+          <p className="flex items-center gap-2 text-sm font-bold uppercase text-teal">
             <BadgeCheck size={16} aria-hidden="true" />
             Sélection propre
           </p>
@@ -268,14 +268,14 @@ export function PartnerValidationPromisePanel({
         <div className="flex flex-col gap-2 sm:flex-row lg:justify-end">
           <Link
             href="/categories/produits-partenaires"
-            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-[#2b2b2b]"
+            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-bold text-white hover:bg-[#2b2b2b]"
           >
             Parcourir les rayons
             <ArrowRight size={17} aria-hidden="true" />
           </Link>
           <Link
             href="/paiement"
-            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+            className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
           >
             <CreditCard size={17} aria-hidden="true" />
             Paiement
@@ -293,14 +293,14 @@ export function PartnerValidationPromisePanel({
               className="rounded-md border border-line bg-white p-4"
             >
               <div className="flex items-start justify-between gap-3">
-                <span className="rounded-md bg-[#eef8f6] px-2 py-1 text-[11px] font-black uppercase text-teal">
+                <span className="rounded-md bg-[#eef8f6] px-2 py-1 text-[11px] font-bold uppercase text-teal">
                   {step.value}
                 </span>
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
                   <Icon size={18} aria-hidden="true" />
                 </span>
               </div>
-              <h3 className="mt-4 text-base font-black">{step.title}</h3>
+              <h3 className="mt-4 text-base font-bold">{step.title}</h3>
               <p className="mt-2 text-sm leading-6 text-muted">{step.text}</p>
             </article>
           );
@@ -371,7 +371,7 @@ export function PartnerCategoryDemoGuidePanel({
     >
       <div className="grid gap-4 lg:grid-cols-[1fr_auto] lg:items-end">
         <div>
-          <p className="flex items-center gap-2 text-sm font-black uppercase text-teal">
+          <p className="flex items-center gap-2 text-sm font-bold uppercase text-teal">
             <BadgeCheck size={16} aria-hidden="true" />
             Guide du rayon
           </p>
@@ -385,10 +385,10 @@ export function PartnerCategoryDemoGuidePanel({
           </p>
         </div>
         <div className="rounded-md border border-line bg-white p-4 lg:min-w-64">
-          <p className="text-[11px] font-black uppercase text-muted">
+          <p className="text-[11px] font-bold uppercase text-muted">
             Mise en vente
           </p>
-          <p className="mt-1 text-sm font-black text-teal">
+          <p className="mt-1 text-sm font-bold text-teal">
             {publicProductCount > 0
               ? "Articles validés"
               : "Verrouillée jusqu'à validation"}
@@ -413,11 +413,11 @@ export function PartnerCategoryDemoGuidePanel({
                 <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-md bg-[#eef8f6] text-teal">
                   <Icon size={19} aria-hidden="true" />
                 </span>
-                <span className="rounded-md bg-[#f6f1e8] px-2 py-1 text-[11px] font-black uppercase text-teal">
+                <span className="rounded-md bg-[#f6f1e8] px-2 py-1 text-[11px] font-bold uppercase text-teal">
                   {step.value}
                 </span>
               </div>
-              <h3 className="mt-4 text-base font-black">{step.title}</h3>
+              <h3 className="mt-4 text-base font-bold">{step.title}</h3>
               <p className="mt-2 text-sm leading-6 text-muted">{step.text}</p>
             </article>
           );
@@ -426,7 +426,7 @@ export function PartnerCategoryDemoGuidePanel({
 
       <div className="grid gap-4 rounded-md border border-line bg-white p-4 lg:grid-cols-[1fr_auto] lg:items-center">
         <div>
-          <p className="flex items-center gap-2 text-sm font-black uppercase text-teal">
+          <p className="flex items-center gap-2 text-sm font-bold uppercase text-teal">
             <ShieldCheck size={16} aria-hidden="true" />
             Checklist visible
           </p>
@@ -438,7 +438,7 @@ export function PartnerCategoryDemoGuidePanel({
           {proofItems.map((item) => (
             <span
               key={item}
-              className="inline-flex min-h-9 items-center rounded-md bg-[#eef8f6] px-3 text-xs font-black text-teal"
+              className="inline-flex min-h-9 items-center rounded-md bg-[#eef8f6] px-3 text-xs font-bold text-teal"
             >
               {item}
             </span>
@@ -449,7 +449,7 @@ export function PartnerCategoryDemoGuidePanel({
       <div className="grid gap-2 sm:grid-cols-3">
         <Link
           href="/paiement"
-          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-black hover:bg-[#f1eadf]"
+          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-bold hover:bg-[#f1eadf]"
         >
           <CreditCard size={16} aria-hidden="true" />
           Paiement Maxi
@@ -457,7 +457,7 @@ export function PartnerCategoryDemoGuidePanel({
         </Link>
         <Link
           href="/suivi-colis"
-          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-black hover:bg-[#f1eadf]"
+          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-bold hover:bg-[#f1eadf]"
         >
           <Truck size={16} aria-hidden="true" />
           Suivi colis
@@ -465,7 +465,7 @@ export function PartnerCategoryDemoGuidePanel({
         </Link>
         <Link
           href="/contact"
-          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-black hover:bg-[#f1eadf]"
+          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-bold hover:bg-[#f1eadf]"
         >
           <Headphones size={16} aria-hidden="true" />
           Service client
@@ -505,7 +505,7 @@ export function PartnerCategoryRelayPanel({
     >
       <div className="grid gap-4 lg:grid-cols-[1fr_auto] lg:items-end">
         <div>
-          <p className="flex items-center gap-2 text-sm font-black uppercase text-teal">
+          <p className="flex items-center gap-2 text-sm font-bold uppercase text-teal">
             <Sparkles size={16} aria-hidden="true" />
             Navigation rayons
           </p>
@@ -520,7 +520,7 @@ export function PartnerCategoryRelayPanel({
         </div>
         <Link
           href="/categories"
-          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
         >
           Tous les rayons
           <ArrowRight size={16} aria-hidden="true" />
@@ -535,7 +535,7 @@ export function PartnerCategoryRelayPanel({
             className="focus-ring group flex min-h-40 flex-col justify-between rounded-md border border-line bg-[#fbfaf7] p-4 transition hover:-translate-y-0.5 hover:border-[#d5c8b7] hover:bg-white hover:shadow-md"
           >
             <span className="flex items-start justify-between gap-3">
-              <span className="rounded-md bg-[#eef8f6] px-2 py-1 text-[11px] font-black uppercase text-teal">
+              <span className="rounded-md bg-[#eef8f6] px-2 py-1 text-[11px] font-bold uppercase text-teal">
                 {item.emphasis}
               </span>
               <ArrowRight
@@ -545,7 +545,7 @@ export function PartnerCategoryRelayPanel({
               />
             </span>
             <span>
-              <span className="mt-4 block text-base font-black group-hover:text-teal">
+              <span className="mt-4 block text-base font-bold group-hover:text-teal">
                 {item.label}
               </span>
               <span className="mt-2 block text-sm leading-6 text-muted">
@@ -559,21 +559,21 @@ export function PartnerCategoryRelayPanel({
       <div className="grid gap-2 sm:grid-cols-3">
         <Link
           href="/produits-partenaires"
-          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-black hover:bg-[#f1eadf]"
+          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-bold hover:bg-[#f1eadf]"
         >
           Rayons partenaires
           <ArrowRight size={15} aria-hidden="true" />
         </Link>
         <Link
           href="/boutique"
-          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-black hover:bg-[#f1eadf]"
+          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-bold hover:bg-[#f1eadf]"
         >
           Boutique
           <ArrowRight size={15} aria-hidden="true" />
         </Link>
         <Link
           href="/contact"
-          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-black hover:bg-[#f1eadf]"
+          className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-bold hover:bg-[#f1eadf]"
         >
           Service client
           <ArrowRight size={15} aria-hidden="true" />
@@ -652,7 +652,7 @@ export function PartnerCategorySafePanel({
         .join(" ")}
     >
       <div>
-        <p className="flex items-center gap-2 text-sm font-black uppercase text-teal">
+        <p className="flex items-center gap-2 text-sm font-bold uppercase text-teal">
           <ShieldCheck size={16} aria-hidden="true" />
           Rayon mobile sécurisé
         </p>
@@ -666,18 +666,18 @@ export function PartnerCategorySafePanel({
         </p>
         <div className="mt-4 grid gap-2 sm:grid-cols-2">
           <div className="rounded-md border border-line bg-white p-3">
-            <p className="text-[11px] font-black uppercase text-muted">
+            <p className="text-[11px] font-bold uppercase text-muted">
               File locale
             </p>
-            <p className="mt-1 text-sm font-black text-teal">
+            <p className="mt-1 text-sm font-bold text-teal">
               {candidateStatusText}
             </p>
           </div>
           <div className="rounded-md border border-line bg-white p-3">
-            <p className="text-[11px] font-black uppercase text-muted">
+            <p className="text-[11px] font-bold uppercase text-muted">
               Vente
             </p>
-            <p className="mt-1 text-sm font-black text-teal">
+            <p className="mt-1 text-sm font-bold text-teal">
               {publicProductCount > 0 ? "Articles validés" : "Achat verrouillé"}
             </p>
           </div>
@@ -699,10 +699,10 @@ export function PartnerCategorySafePanel({
                     <Icon size={17} aria-hidden="true" />
                   </span>
                   <div className="min-w-0">
-                    <p className="text-[11px] font-black uppercase text-muted">
+                    <p className="text-[11px] font-bold uppercase text-muted">
                       {metric.label}
                     </p>
-                    <p className="mt-1 truncate text-sm font-black text-foreground">
+                    <p className="mt-1 truncate text-sm font-bold text-foreground">
                       {metric.value}
                     </p>
                   </div>
@@ -720,7 +720,7 @@ export function PartnerCategorySafePanel({
               <Link
                 key={link.href}
                 href={link.href}
-                className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-black hover:bg-[#f1eadf]"
+                className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-3 text-sm font-bold hover:bg-[#f1eadf]"
               >
                 <Icon size={16} aria-hidden="true" />
                 {link.label}

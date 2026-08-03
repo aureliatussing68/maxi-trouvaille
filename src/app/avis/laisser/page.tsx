@@ -33,7 +33,7 @@ export default async function LeaveReviewPage({
     return (
       <section className="container-page py-12">
         <div className="max-w-2xl rounded-lg border border-line bg-paper p-6 shadow-sm">
-          <p className="text-sm font-black uppercase text-rose">Lien invalide</p>
+          <p className="text-sm font-bold uppercase text-rose">Lien invalide</p>
           <h1 className="mt-3 text-3xl font-black">Avis indisponible</h1>
           <p className="mt-4 text-sm leading-6 text-muted">
             Ce lien d&apos;avis est invalide ou expire. Le service client Maxi
@@ -41,7 +41,7 @@ export default async function LeaveReviewPage({
           </p>
           <Link
             href="/contact"
-            className="focus-ring mt-6 inline-flex min-h-11 items-center rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-teal"
+            className="focus-ring mt-6 inline-flex min-h-11 items-center rounded-md bg-foreground px-4 text-sm font-bold text-white hover:bg-teal"
           >
             Contacter le service client
           </Link>

@@ -9,7 +9,7 @@ const items = [
   {
     icon: ShieldCheck,
     title: "Achat sécurisé",
-    text: "Paiement par carte via Stripe, données protégées.",
+    text: "Paiement par carte sécurisé, données protégées.",
   },
   {
     icon: Truck,
@@ -36,7 +36,7 @@ export function TrustBar() {
                 <Icon size={20} aria-hidden="true" />
               </span>
               <div>
-                <h2 className="text-sm font-black">{item.title}</h2>
+                <h2 className="text-sm font-bold">{item.title}</h2>
                 <p className="mt-1 text-sm leading-5 text-muted">{item.text}</p>
               </div>
             </div>

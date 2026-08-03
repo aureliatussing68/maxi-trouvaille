@@ -53,7 +53,7 @@ export default async function PartnerTermsPage() {
         <section className="grid gap-4">
           <div className="grid gap-4 rounded-lg border border-line bg-[#faf7f0] p-5 shadow-sm md:grid-cols-[1fr_auto] md:items-center">
             <div>
-              <p className="flex items-center gap-2 text-sm font-black uppercase text-teal">
+              <p className="flex items-center gap-2 text-sm font-bold uppercase text-teal">
                 <ShieldCheck size={16} aria-hidden="true" />
                 Cadre client
               </p>
@@ -68,14 +68,14 @@ export default async function PartnerTermsPage() {
             <div className="flex flex-col gap-3 sm:flex-row md:justify-end">
               <Link
                 href="/suivi-colis"
-                className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-black text-white hover:bg-[#2b2b2b]"
+                className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md bg-foreground px-4 text-sm font-bold text-white hover:bg-[#2b2b2b]"
               >
                 Suivi colis
                 <Truck size={17} aria-hidden="true" />
               </Link>
               <Link
                 href="/contact"
-                className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-black hover:bg-[#f1eadf]"
+                className="focus-ring inline-flex min-h-11 items-center justify-center gap-2 rounded-md border border-line bg-white px-4 text-sm font-bold hover:bg-[#f1eadf]"
               >
                 Service client
                 <Headphones size={17} aria-hidden="true" />
@@ -93,7 +93,7 @@ export default async function PartnerTermsPage() {
           ))}
           <Link
             href="/produits-partenaires"
-            className="focus-ring inline-flex min-h-11 w-fit items-center justify-center gap-2 rounded-md bg-foreground px-5 text-sm font-black text-white hover:bg-[#2b2b2b]"
+            className="focus-ring inline-flex min-h-11 w-fit items-center justify-center gap-2 rounded-md bg-foreground px-5 text-sm font-bold text-white hover:bg-[#2b2b2b]"
           >
             Voir les produits partenaires
             <ArrowRight size={17} aria-hidden="true" />

@@ -83,7 +83,7 @@ export function ProductMessageForm({ product }: ProductMessageFormProps) {
         <div className="flex items-start gap-3">
           <MessageCircle className="mt-1 text-teal" size={24} aria-hidden="true" />
           <div>
-            <p className="text-sm font-black uppercase text-teal">Message</p>
+            <p className="text-sm font-bold uppercase text-teal">Message</p>
             <h2 className="mt-1 text-2xl font-black">Envoyer un message</h2>
             <p className="mt-2 text-sm font-bold text-muted">
               {product.name} - {formatPrice(product.price)}
@@ -142,7 +142,7 @@ export function ProductMessageForm({ product }: ProductMessageFormProps) {
           <button
             type="submit"
             disabled={status === "sending"}
-            className="focus-ring inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-md bg-foreground px-5 py-3 text-sm font-black text-white hover:bg-[#2b2b2b] disabled:cursor-not-allowed disabled:opacity-65 sm:w-fit"
+            className="focus-ring inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-md bg-foreground px-5 py-3 text-sm font-bold text-white hover:bg-[#2b2b2b] disabled:cursor-not-allowed disabled:opacity-65 sm:w-fit"
           >
             {status === "sending" ? (
               <Loader2 className="animate-spin" size={18} aria-hidden="true" />

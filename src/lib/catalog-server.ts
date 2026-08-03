@@ -10,6 +10,7 @@ import {
   products,
   type Product,
 } from "@/lib/catalog";
+import { hasReviewedOpeningPhoto } from "@/lib/home-rotation";
 import { mergeProducts, sanitizeQuickProducts } from "@/lib/quick-products";
 
 const quickProductsPath = path.join(process.cwd(), "data", "quick-products.json");
@@ -146,8 +147,26 @@ export async function getCatalogProductsByCategory(categoryId: string) {
   ];
 }
 
+/**
+ * Ordre d'affichage des listes publiques (rayons, nouveautes, promotions).
+ *
+ * Premier critere : la photo d'ouverture a-t-elle ete relue a l'oeil ? Une
+ * bonne moitie des photos fournisseur sont des montages marketing avec du
+ * texte etranger incruste ; laissees en tete de liste, elles donnent
+ * l'impression d'un catalogue de revente. Elles ne sont pas cachees pour
+ * autant, elles passent simplement apres les fiches propres.
+ *
+ * Second critere, inchange : les arrivages les plus recents d'abord.
+ */
 function sortNewestPartnerProductsFirst(productList: Product[]) {
   return [...productList].sort((a, b) => {
+    const photoRank =
+      Number(hasReviewedOpeningPhoto(b)) - Number(hasReviewedOpeningPhoto(a));
+
+    if (photoRank !== 0) {
+      return photoRank;
+    }
+
     const bDate = Date.parse(b.dropshipping?.lastSyncAt ?? "") || 0;
     const aDate = Date.parse(a.dropshipping?.lastSyncAt ?? "") || 0;
     return bDate - aDate;
