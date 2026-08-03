@@ -55,12 +55,17 @@ export const metadata: Metadata = {
     siteName: "Maxi Trouvaille",
     locale: "fr_FR",
     type: "website",
+    // Image de partage (WhatsApp, Facebook, SMS...) : c'est la carte de visite
+    // du site. Elle montrait une poignee de main en costume, qui ne dit rien de
+    // ce qu'on vend. Remplacee par une photo de produits reels du disque.
+    // Dimensions declarees = dimensions reelles du fichier (960x640) : annoncer
+    // 1200x630 faisait recadrer la vignette de travers chez certains clients.
     images: [
       {
-        url: "/uploads/category-images/produits-partenaires.webp",
-        width: 1200,
-        height: 630,
-        alt: "Maxi Trouvaille - produits partenaires",
+        url: "/uploads/category-images/selection-partenaires.webp",
+        width: 960,
+        height: 640,
+        alt: "Maxi Trouvaille - une selection de produits du catalogue prets a etre expedies",
       },
     ],
   },
@@ -69,7 +74,7 @@ export const metadata: Metadata = {
     title: "Maxi Trouvaille - Boutique en ligne à petits prix",
     description:
       "Maison, cuisine, high-tech, auto, animaux : les trouvailles malignes du moment. Paiement sécurisé et livraison suivie.",
-    images: ["/uploads/category-images/produits-partenaires.webp"],
+    images: ["/uploads/category-images/selection-partenaires.webp"],
   },
   other: {
     "apple-mobile-web-app-capable": "yes",

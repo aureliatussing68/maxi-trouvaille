@@ -157,6 +157,29 @@ export const dropshippingFocusCategoryIds = [
   "dropshipping-gaming",
 ] as const;
 
+// Rayons mis en avant sur l'accueil et en bas de la boutique, dans l'ordre
+// d'affichage. Liste VOLONTAIREMENT distincte de dropshippingFocusCategoryIds :
+// cette derniere sert de garde de publication (isDropshippingCategory ->
+// isPublicCategory -> isPublicProduct), en retirer une entree depublierait des
+// produits entiers. Ici on ne fait que choisir ce que le client voit.
+// Sont ecartes : "dropshipping" (fourre-tout qui doublonne la boutique entiere)
+// ainsi que "dropshipping-nouveautes" et "dropshipping-promotions", qui sont des
+// vues filtrees et non des univers de produits : ils redeviennent des raccourcis
+// a part, pour qu'un client ne clique pas sur un "rayon" qui est un filtre.
+export const homeShowcaseCategoryIds = [
+  "dropshipping-cuisine",
+  "dropshipping-maison",
+  "dropshipping-high-tech",
+  "dropshipping-accessoires",
+  "dropshipping-beaute",
+  "dropshipping-outillage",
+  "dropshipping-animaux",
+  "dropshipping-auto-moto",
+  "dropshipping-enfant",
+  "dropshipping-mode",
+  "dropshipping-gaming",
+] as const;
+
 const publicStoreMode = "dropshipping" as const;
 const dropshippingFocusCategoryIdSet = new Set<string>(dropshippingFocusCategoryIds);
 
@@ -1396,6 +1419,27 @@ export function getCategoryProductFamilyIds(categoryId: string): string[] {
   return Array.from(
     new Set([...getCategoryFamilyIds(categoryId), ...(partnerCategoryMirrors[categoryId] ?? [])]),
   );
+}
+
+// Nombre reel de produits par rayon, pour l'afficher sur les vignettes.
+// Volontairement calcule avec EXACTEMENT le meme regroupement que la page d'un
+// rayon (getPublicCatalogProductsByCategory) : le chiffre annonce sur la tuile
+// est donc toujours celui que le client comptera en ouvrant le rayon.
+// La liste de produits doit deja etre filtree (produits publics) par l'appelant.
+export function countProductsByCategory(
+  productList: Product[],
+  categoryIds: readonly string[],
+): Record<string, number> {
+  const counts: Record<string, number> = {};
+
+  for (const categoryId of categoryIds) {
+    const familyIds = new Set(getCategoryProductFamilyIds(categoryId));
+    counts[categoryId] = productList.filter((product) =>
+      familyIds.has(product.categoryId),
+    ).length;
+  }
+
+  return counts;
 }
 
 export function getProductBySlug(slug: string) {

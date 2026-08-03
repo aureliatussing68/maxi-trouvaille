@@ -1,6 +1,7 @@
 import Link from "next/link";
 import {
   ArrowRight,
+  BadgePercent,
   CreditCard,
   Headphones,
   ShieldCheck,
@@ -13,6 +14,8 @@ import { HeroCarousel } from "@/components/HeroCarousel";
 import { ProductCard } from "@/components/ProductCard";
 import { ProductShelf, type ProductShelfItem } from "@/components/ProductShelf";
 import {
+  countProductsByCategory,
+  homeShowcaseCategoryIds,
   isProductPurchasable,
   isPromotionProduct,
   type Product,
@@ -114,6 +117,12 @@ export default async function Home() {
   const publicProducts = await getPublicProducts();
   const purchasable = publicProducts.filter(isProductPurchasable);
   const promoCount = purchasable.filter(isPromotionProduct).length;
+  // Chiffres reels du catalogue, recalcules a chaque revalidation : rien en dur.
+  const productCountByCategoryId = countProductsByCategory(
+    publicProducts,
+    homeShowcaseCategoryIds,
+  );
+  const shopProductCount = publicProducts.length;
 
   const showcasePool = buildHomeShowcasePool(purchasable);
   const reviewSummaryMap = await loadReviewSummaries(
@@ -253,13 +262,47 @@ export default async function Home() {
       </section>
 
       <section className="container-page border-t border-line py-10">
-        <div className="mb-6">
+        <div className="mb-5">
           <p className="text-sm font-black uppercase text-teal">Nos rayons</p>
           <h2 className="mt-2 text-2xl font-black">
             Trouvez votre bonheur par univers
           </h2>
+          {/* Les deux nombres viennent du catalogue, ils ne sont pas ecrits en
+              dur : ils suivent tout seuls les ajouts de produits. */}
+          <p className="mt-2 text-sm leading-6 text-muted">
+            {homeShowcaseCategoryIds.length} rayons, {shopProductCount} produits
+            en ligne. Ouvrez un rayon pour voir tous ses produits.
+          </p>
         </div>
-        <CategoryGrid compact featuredOnly />
+        {/* Nouveautes et Promotions sortent de la grille : ce sont des vues
+            filtrees de la boutique, pas des univers de produits. En tuile,
+            elles se faisaient passer pour des rayons. */}
+        <div className="mb-6 grid grid-cols-2 gap-3 sm:max-w-lg">
+          <Link
+            href="/nouveautes"
+            className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-paper px-3 text-sm font-black hover:bg-[#f1eadf]"
+          >
+            <Sparkles size={16} aria-hidden="true" />
+            Nouveautés
+          </Link>
+          <Link
+            href="/promotions"
+            className="focus-ring inline-flex min-h-12 items-center justify-center gap-2 rounded-md border border-line bg-paper px-3 text-sm font-black hover:bg-[#f1eadf]"
+          >
+            <BadgePercent size={16} aria-hidden="true" />
+            Promotions
+          </Link>
+        </div>
+        <CategoryGrid
+          compact
+          featuredOnly
+          productCountByCategoryId={productCountByCategoryId}
+          trailingTile={{
+            href: "/boutique",
+            label: "Toute la boutique",
+            hint: `${shopProductCount} produits`,
+          }}
+        />
       </section>
 
       {products.length > 0 ? (
