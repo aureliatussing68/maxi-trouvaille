@@ -31066,5 +31066,393 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_rainureuse_mur_beton_125mm_laser_001",
+    "slug": "rainureuse-mur-beton-125mm-laser",
+    "name": "Rainureuse à béton 125 mm avec visée laser",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/rainureuse-mur-beton-125mm-laser-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/rainureuse-mur-beton-125mm-laser-photo-1.webp",
+      "/uploads/quick-products/rainureuse-mur-beton-125mm-laser-photo-2.webp",
+      "/uploads/quick-products/rainureuse-mur-beton-125mm-laser-photo-3.webp",
+      "/uploads/quick-products/rainureuse-mur-beton-125mm-laser-photo-4.webp",
+      "/uploads/quick-products/rainureuse-mur-beton-125mm-laser-photo-5.webp",
+      "/uploads/quick-products/rainureuse-mur-beton-125mm-laser-photo-6.webp"
+    ],
+    "shortDescription": "Rainureuse murale 125 mm avec visee laser : creuse les saignees electriques dans le beton et la brique. Expediee de France. Note 4.7.",
+    "description": "Rainureuse murale a disques diamant de 125 mm avec visee laser : elle creuse en une passe les saignees pour passer les gaines electriques ou la plomberie dans le beton, la brique et le parpaing, la ou une meuleuse simple oblige a repasser plusieurs fois et ne garde jamais la ligne droite. Le laser guide la coupe, la profondeur et la largeur se reglent, et le raccord d aspiration limite fortement la poussiere. Outil filaire, donc pas de batterie a acheter ni d autonomie a surveiller. Expediee depuis un entrepot francais : livraison en quelques jours. Note 4.7 sur plus de 650 avis, 5 000 ventes.",
+    "features": [
+      "Saignees droites en une passe dans beton et brique",
+      "Visee laser, profondeur et largeur reglables",
+      "Filaire, raccord d aspiration. Expediee de France"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006685523112.html",
+      "supplierSku": "AE-ITEM-1005006685523112",
+      "supplierPriceCents": 10039,
+      "supplierStock": 40,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 12090,
+      "marginCents": 2051,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006685523112.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 20,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 100.39 EUR, boutique 120.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T04:22:22.720Z"
+    },
+    "price": 12090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006685523112.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006685523112 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Rainureuse à béton 125 mm avec visée laser | Maxi Trouvaille",
+      "description": "Rainureuse murale 125 mm avec visee laser : creuse les saignees electriques dans le beton et la brique. Expediee de France. Note 4.7.",
+      "h1": "Rainureuse à béton 125 mm avec visée laser",
+      "h2": "Pourquoi choisir Rainureuse à béton 125 mm avec visée laser",
+      "keywords": [
+        "rainureuse",
+        "mur",
+        "beton",
+        "125mm",
+        "laser",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Rainureuse à béton 125 mm avec visée laser - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Rainureuse à béton 125 mm avec visée laser - outillage Maxi Trouvaille",
+    "compareAtPrice": 16390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_perceuse_visseuse_sans_fil_kit_batterie_001",
+    "slug": "perceuse-visseuse-sans-fil-kit-batterie",
+    "name": "Perceuse-visseuse sans fil avec batterie",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/perceuse-visseuse-sans-fil-kit-batterie-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/perceuse-visseuse-sans-fil-kit-batterie-photo-1.webp",
+      "/uploads/quick-products/perceuse-visseuse-sans-fil-kit-batterie-photo-2.webp",
+      "/uploads/quick-products/perceuse-visseuse-sans-fil-kit-batterie-photo-3.webp",
+      "/uploads/quick-products/perceuse-visseuse-sans-fil-kit-batterie-photo-4.webp",
+      "/uploads/quick-products/perceuse-visseuse-sans-fil-kit-batterie-photo-5.webp",
+      "/uploads/quick-products/perceuse-visseuse-sans-fil-kit-batterie-photo-6.webp"
+    ],
+    "shortDescription": "Perceuse-visseuse sans fil 2 en 1, 45 N.m, livree avec sa batterie et ses embouts. Expediee d Espagne. Note 4.6.",
+    "description": "Perceuse-visseuse sans fil 2 en 1 livree complete, avec sa batterie lithium, son chargeur et ses embouts — pas de mauvaise surprise a la reception, contrairement aux outils vendus nus. Couple de 45 N.m et 1400 tours par minute : de quoi percer le bois, le placo et le metal fin, et visser un meuble en kit ou une etagere sans forcer. Reglage du couple pour ne pas arracher les vis, mandrin sans cle, eclairage LED. Expediee depuis un entrepot espagnol, donc livraison en quelques jours. Note 4.6.",
+    "features": [
+      "Batterie, chargeur et embouts INCLUS",
+      "45 N.m, 1400 tr/min : bois, placo, metal fin",
+      "Reglage du couple, mandrin sans cle, LED. Expediee d Espagne"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008569229314.html",
+      "supplierSku": "AE-ITEM-1005008569229314",
+      "supplierPriceCents": 2654,
+      "supplierStock": 40,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis Espagne, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 4290,
+      "marginCents": 1636,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008569229314.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (900+ ventes, visuels officiels importes).",
+      "markupPercent": 62,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 26.54 EUR, boutique 42.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T04:22:23.819Z"
+    },
+    "price": 4290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008569229314.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008569229314 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Perceuse-visseuse sans fil avec batterie | Maxi Trouvaille",
+      "description": "Perceuse-visseuse sans fil 2 en 1, 45 N.m, livree avec sa batterie et ses embouts. Expediee d Espagne. Note 4.6.",
+      "h1": "Perceuse-visseuse sans fil avec batterie",
+      "h2": "Pourquoi choisir Perceuse-visseuse sans fil avec batterie",
+      "keywords": [
+        "perceuse",
+        "visseuse",
+        "sans",
+        "fil",
+        "kit",
+        "batterie",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Perceuse-visseuse sans fil avec batterie - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Perceuse-visseuse sans fil avec batterie - outillage Maxi Trouvaille",
+    "compareAtPrice": 5890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_ssd_nvme_netac_m2_2280_001",
+    "slug": "ssd-nvme-netac-m2-2280",
+    "name": "SSD NVMe Netac M.2 2280",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/ssd-nvme-netac-m2-2280-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/ssd-nvme-netac-m2-2280-photo-1.webp",
+      "/uploads/quick-products/ssd-nvme-netac-m2-2280-photo-2.webp",
+      "/uploads/quick-products/ssd-nvme-netac-m2-2280-photo-3.webp",
+      "/uploads/quick-products/ssd-nvme-netac-m2-2280-photo-4.webp",
+      "/uploads/quick-products/ssd-nvme-netac-m2-2280-photo-5.webp",
+      "/uploads/quick-products/ssd-nvme-netac-m2-2280-photo-6.webp"
+    ],
+    "shortDescription": "SSD NVMe Netac M.2 en PCIe 3.0, jusqu a 3500 Mo/s : redonne vie a un PC lent en une seule piece. Note 4.8.",
+    "description": "SSD interne Netac au format M.2 2280 en NVMe PCIe 3.0, avec des debits annonces jusqu a 3500 Mo/s en lecture. C est le changement le plus rentable sur un ordinateur qui rame : remplacer un vieux disque dur mecanique par un SSD NVMe divise les temps de demarrage et de chargement par cinq ou plus, bien davantage qu ajouter de la memoire. Il se visse directement sur la carte mere, sans cable ni alimentation. Compatible PC de bureau et portables recents equipes d un port M.2 NVMe. Netac est un fabricant de stockage etabli. Note 4.8 sur plus de 3 100 avis, 10 000 ventes.",
+    "features": [
+      "NVMe PCIe 3.0, jusqu a 3500 Mo/s en lecture",
+      "Le meilleur gain de vitesse sur un PC qui rame",
+      "Format M.2 2280, se visse sans cable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005445585329.html",
+      "supplierSku": "AE-ITEM-1005005445585329",
+      "supplierPriceCents": 4059,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6090,
+      "marginCents": 2031,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005445585329.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 50,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 40.59 EUR, boutique 60.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T04:22:24.546Z"
+    },
+    "price": 6090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005445585329.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005445585329 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "SSD NVMe Netac M.2 2280 | Maxi Trouvaille",
+      "description": "SSD NVMe Netac M.2 en PCIe 3.0, jusqu a 3500 Mo/s : redonne vie a un PC lent en une seule piece. Note 4.8.",
+      "h1": "SSD NVMe Netac M.2 2280",
+      "h2": "Pourquoi choisir SSD NVMe Netac M.2 2280",
+      "keywords": [
+        "ssd",
+        "nvme",
+        "netac",
+        "2280",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "SSD NVMe Netac M.2 2280 - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "SSD NVMe Netac M.2 2280 - high-tech Maxi Trouvaille",
+    "compareAtPrice": 8290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_memoire_ram_ddr4_3200_bureau_001",
+    "slug": "memoire-ram-ddr4-3200-bureau",
+    "name": "Mémoire RAM DDR4 3200 MHz pour PC de bureau",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/memoire-ram-ddr4-3200-bureau-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/memoire-ram-ddr4-3200-bureau-photo-1.webp",
+      "/uploads/quick-products/memoire-ram-ddr4-3200-bureau-photo-2.webp",
+      "/uploads/quick-products/memoire-ram-ddr4-3200-bureau-photo-3.webp",
+      "/uploads/quick-products/memoire-ram-ddr4-3200-bureau-photo-4.webp",
+      "/uploads/quick-products/memoire-ram-ddr4-3200-bureau-photo-5.webp",
+      "/uploads/quick-products/memoire-ram-ddr4-3200-bureau-photo-6.webp"
+    ],
+    "shortDescription": "Barrette de memoire DDR4 3200 MHz au format DIMM pour PC de bureau. Attention : cartes meres Intel uniquement. Note 4.8.",
+    "description": "Barrette de memoire vive DDR4 cadencee a 3200 MHz, au format DIMM pour ordinateur de bureau. Ajouter de la memoire est la solution quand le PC rame des qu on ouvre plusieurs onglets, un jeu et un logiciel en meme temps : le systeme arrete de puiser sur le disque et redevient fluide. Dissipateur en aluminium pour tenir la temperature en charge. Point important a verifier avant de commander : ce modele est prevu pour les cartes meres Intel et n est pas garanti compatible avec les plateformes AMD. Note 4.8 sur plus de 500 avis, 3 000 ventes.",
+    "features": [
+      "DDR4 3200 MHz, format DIMM pour PC de bureau",
+      "Dissipateur aluminium, stabilite en charge",
+      "A verifier : prevue pour cartes meres Intel, pas AMD"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007224566148.html",
+      "supplierSku": "AE-ITEM-1005007224566148",
+      "supplierPriceCents": 5439,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 8190,
+      "marginCents": 2751,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007224566148.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (3000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 54.39 EUR, boutique 81.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T04:22:25.059Z"
+    },
+    "price": 8190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007224566148.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007224566148 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Mémoire RAM DDR4 3200 MHz pour PC de bureau | Maxi Trouvaille",
+      "description": "Barrette de memoire DDR4 3200 MHz au format DIMM pour PC de bureau. Attention : cartes meres Intel uniquement. Note 4.8.",
+      "h1": "Mémoire RAM DDR4 3200 MHz pour PC de bureau",
+      "h2": "Pourquoi choisir Mémoire RAM DDR4 3200 MHz pour PC de bureau",
+      "keywords": [
+        "memoire",
+        "ram",
+        "ddr4",
+        "3200",
+        "bureau",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Mémoire RAM DDR4 3200 MHz pour PC de bureau - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Mémoire RAM DDR4 3200 MHz pour PC de bureau - high-tech Maxi Trouvaille",
+    "compareAtPrice": 11090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
