@@ -32228,5 +32228,199 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_mixeur_plongeant_4en1_inox_accessoires_001",
+    "slug": "mixeur-plongeant-4en1-inox-accessoires",
+    "name": "Mixeur plongeant 4 en 1 en inox",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/mixeur-plongeant-4en1-inox-accessoires-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/mixeur-plongeant-4en1-inox-accessoires-photo-1.webp",
+      "/uploads/quick-products/mixeur-plongeant-4en1-inox-accessoires-photo-2.webp",
+      "/uploads/quick-products/mixeur-plongeant-4en1-inox-accessoires-photo-3.webp",
+      "/uploads/quick-products/mixeur-plongeant-4en1-inox-accessoires-photo-4.webp",
+      "/uploads/quick-products/mixeur-plongeant-4en1-inox-accessoires-photo-5.webp",
+      "/uploads/quick-products/mixeur-plongeant-4en1-inox-accessoires-photo-6.webp"
+    ],
+    "shortDescription": "Mixeur plongeant 4 en 1 : pied inox, bol hachoir 500 ml, bol melangeur 700 ml et fouet. Note 4.9.",
+    "description": "Mixeur plongeant 4 en 1 livre complet : pied mixeur en acier inoxydable, bol hachoir de 500 ml, bol melangeur de 700 ml et fouet a monter les blancs. Le pied inox passe directement dans la casserole pour une soupe ou une puree sans transvaser, le hachoir s occupe des oignons et des herbes, le fouet monte la chantilly. Vitesse variable pour doser la puissance selon la texture, et tous les accessoires amovibles passent au lave-vaisselle. Il remplace trois appareils dans un placard souvent trop petit. Note 4.9, 4 000 ventes.",
+    "features": [
+      "4 en 1 : mixeur, hachoir, bol melangeur, fouet",
+      "Pied inox : mixe directement dans la casserole",
+      "Vitesse variable, accessoires au lave-vaisselle"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007129588075.html",
+      "supplierSku": "AE-ITEM-1005007129588075",
+      "supplierPriceCents": 4939,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 7490,
+      "marginCents": 2551,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007129588075.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (4000+ ventes, visuels officiels importes).",
+      "markupPercent": 52,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 49.39 EUR, boutique 74.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T05:06:51.302Z"
+    },
+    "price": 7490,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007129588075.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007129588075 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Mixeur plongeant 4 en 1 en inox | Maxi Trouvaille",
+      "description": "Mixeur plongeant 4 en 1 : pied inox, bol hachoir 500 ml, bol melangeur 700 ml et fouet. Note 4.9.",
+      "h1": "Mixeur plongeant 4 en 1 en inox",
+      "h2": "Pourquoi choisir Mixeur plongeant 4 en 1 en inox",
+      "keywords": [
+        "mixeur",
+        "plongeant",
+        "4en1",
+        "inox",
+        "accessoires",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Mixeur plongeant 4 en 1 en inox - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Mixeur plongeant 4 en 1 en inox - cuisine Maxi Trouvaille",
+    "compareAtPrice": 10190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_lampe_frontale_led_detecteur_mouvement_001",
+    "slug": "lampe-frontale-led-detecteur-mouvement",
+    "name": "Lampe frontale LED avec détecteur de mouvement",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/lampe-frontale-led-detecteur-mouvement-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/lampe-frontale-led-detecteur-mouvement-photo-1.webp",
+      "/uploads/quick-products/lampe-frontale-led-detecteur-mouvement-photo-2.webp",
+      "/uploads/quick-products/lampe-frontale-led-detecteur-mouvement-photo-3.webp",
+      "/uploads/quick-products/lampe-frontale-led-detecteur-mouvement-photo-4.webp",
+      "/uploads/quick-products/lampe-frontale-led-detecteur-mouvement-photo-5.webp",
+      "/uploads/quick-products/lampe-frontale-led-detecteur-mouvement-photo-6.webp"
+    ],
+    "shortDescription": "Lampe frontale LED rechargeable avec capteur : un geste de la main devant le front l allume, sans lacher l outil. 8 150 avis.",
+    "description": "Lampe frontale LED rechargeable en USB avec detecteur de mouvement : un simple passage de la main devant le capteur l allume ou l eteint, ce qui evite de poser ce qu on tient pour appuyer sur un bouton — sous un evier, dans un comble, sous le capot ou en peche de nuit. Faisceau orientable, plusieurs modes dont un eclairage large et un faisceau concentre, bandeau reglable qui ne serre pas, batterie integree. Note 4.9 sur plus de 8 100 avis, 50 000 ventes.",
+    "features": [
+      "Capteur de mouvement : s allume d un geste, mains occupees",
+      "Faisceau orientable, plusieurs modes",
+      "Rechargeable USB, bandeau reglable"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010707018118.html",
+      "supplierSku": "AE-ITEM-1005010707018118",
+      "supplierPriceCents": 359,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1090,
+      "marginCents": 731,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010707018118.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 204,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 3.59 EUR, boutique 10.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T05:06:52.524Z"
+    },
+    "price": 1090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010707018118.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010707018118 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Lampe frontale LED avec détecteur de mouvement | Maxi Trouvaille",
+      "description": "Lampe frontale LED rechargeable avec capteur : un geste de la main devant le front l allume, sans lacher l outil. 8 150 avis.",
+      "h1": "Lampe frontale LED avec détecteur de mouvement",
+      "h2": "Pourquoi choisir Lampe frontale LED avec détecteur de mouvement",
+      "keywords": [
+        "lampe",
+        "frontale",
+        "led",
+        "detecteur",
+        "mouvement",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Lampe frontale LED avec détecteur de mouvement - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Lampe frontale LED avec détecteur de mouvement - outillage Maxi Trouvaille",
+    "compareAtPrice": 1490,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
