@@ -33387,5 +33387,295 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_shokz_openrun_pro_2_conduction_osseuse_001",
+    "slug": "shokz-openrun-pro-2-conduction-osseuse",
+    "name": "SHOKZ OpenRun Pro 2 à conduction osseuse",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/shokz-openrun-pro-2-conduction-osseuse-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/shokz-openrun-pro-2-conduction-osseuse-photo-1.webp",
+      "/uploads/quick-products/shokz-openrun-pro-2-conduction-osseuse-photo-2.webp",
+      "/uploads/quick-products/shokz-openrun-pro-2-conduction-osseuse-photo-3.webp",
+      "/uploads/quick-products/shokz-openrun-pro-2-conduction-osseuse-photo-4.webp",
+      "/uploads/quick-products/shokz-openrun-pro-2-conduction-osseuse-photo-5.webp",
+      "/uploads/quick-products/shokz-openrun-pro-2-conduction-osseuse-photo-6.webp"
+    ],
+    "shortDescription": "Casque de sport SHOKZ OpenRun Pro 2 a oreilles ouvertes : on entend la musique ET la circulation. Expedie de France. Note 4.9.",
+    "description": "Casque de sport SHOKZ OpenRun Pro 2 a conduction osseuse : le son passe par les pommettes et laisse les oreilles completement libres, ce qui permet d entendre une voiture arriver, un velo doubler ou quelqu un parler pendant qu on court. C est le seul type de casque reellement sur pour courir en ville ou rouler a velo. Arceau leger qui tient sans serrer et ne bouge pas en course, resistance a la sueur et a la pluie IP55, micro antibruit pour les appels, charge rapide. SHOKZ est la reference mondiale de la conduction osseuse. Note 4.9 sur pres de 1 600 avis, 10 000 ventes. Expedie de France.",
+    "features": [
+      "Conduction osseuse : oreilles libres, on entend la rue",
+      "Tient sans serrer, ne bouge pas en course",
+      "Resistant sueur et pluie IP55. Expedie de France"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010598188226.html",
+      "supplierSku": "AE-ITEM-1005010598188226",
+      "supplierPriceCents": 11697,
+      "supplierStock": 40,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 14090,
+      "marginCents": 2393,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010598188226.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 20,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 116.97 EUR, boutique 140.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T08:57:19.265Z"
+    },
+    "price": 14090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010598188226.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010598188226 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "SHOKZ OpenRun Pro 2 à conduction osseuse | Maxi Trouvaille",
+      "description": "Casque de sport SHOKZ OpenRun Pro 2 a oreilles ouvertes : on entend la musique ET la circulation. Expedie de France. Note 4.9.",
+      "h1": "SHOKZ OpenRun Pro 2 à conduction osseuse",
+      "h2": "Pourquoi choisir SHOKZ OpenRun Pro 2 à conduction osseuse",
+      "keywords": [
+        "shokz",
+        "openrun",
+        "pro",
+        "conduction",
+        "osseuse",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "SHOKZ OpenRun Pro 2 à conduction osseuse - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "SHOKZ OpenRun Pro 2 à conduction osseuse - high-tech Maxi Trouvaille",
+    "compareAtPrice": 19090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_cmf_buds_2_plus_anc_ldac_001",
+    "slug": "cmf-buds-2-plus-anc-ldac",
+    "name": "Écouteurs CMF Buds 2 Plus avec ANC",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/cmf-buds-2-plus-anc-ldac-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/cmf-buds-2-plus-anc-ldac-photo-1.webp",
+      "/uploads/quick-products/cmf-buds-2-plus-anc-ldac-photo-2.webp",
+      "/uploads/quick-products/cmf-buds-2-plus-anc-ldac-photo-3.webp",
+      "/uploads/quick-products/cmf-buds-2-plus-anc-ldac-photo-4.webp",
+      "/uploads/quick-products/cmf-buds-2-plus-anc-ldac-photo-5.webp",
+      "/uploads/quick-products/cmf-buds-2-plus-anc-ldac-photo-6.webp"
+    ],
+    "shortDescription": "Ecouteurs CMF Buds 2 Plus : reduction de bruit active 50 dB, audio haute resolution LDAC, IP55. Expedies de France. Note 4.9.",
+    "description": "Ecouteurs sans fil CMF Buds 2 Plus, la gamme accessible de Nothing : reduction de bruit active hybride jusqu a 50 dB, qui coupe reellement le bruit du metro ou de l open space, transducteurs LCP de 12 mm et prise en charge du LDAC pour l audio haute resolution — une specification qu on trouve rarement a ce prix. Resistance a l eau et a la poussiere IP55, longue autonomie avec le boitier, application dediee pour l egaliseur. Version globale, compatible iPhone et Android. Note 4.9 sur plus de 1 100 avis. Expedies de France.",
+    "features": [
+      "Reduction de bruit active hybride jusqu a 50 dB",
+      "Audio haute resolution LDAC, transducteurs 12 mm",
+      "IP55, application egaliseur. Expedies de France"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005012587371044.html",
+      "supplierSku": "AE-ITEM-1005012587371044",
+      "supplierPriceCents": 3736,
+      "supplierStock": 40,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 5990,
+      "marginCents": 2254,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005012587371044.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 60,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 37.36 EUR, boutique 59.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T08:57:21.705Z"
+    },
+    "price": 5990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005012587371044.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005012587371044 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Écouteurs CMF Buds 2 Plus avec ANC | Maxi Trouvaille",
+      "description": "Ecouteurs CMF Buds 2 Plus : reduction de bruit active 50 dB, audio haute resolution LDAC, IP55. Expedies de France. Note 4.9.",
+      "h1": "Écouteurs CMF Buds 2 Plus avec ANC",
+      "h2": "Pourquoi choisir Écouteurs CMF Buds 2 Plus avec ANC",
+      "keywords": [
+        "cmf",
+        "buds",
+        "plus",
+        "anc",
+        "ldac",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Écouteurs CMF Buds 2 Plus avec ANC - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Écouteurs CMF Buds 2 Plus avec ANC - accessoires Maxi Trouvaille",
+    "compareAtPrice": 8090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_stylet_xiaomi_redmi_tablette_001",
+    "slug": "stylet-xiaomi-redmi-tablette",
+    "name": "Stylet Xiaomi Redmi pour tablette",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/stylet-xiaomi-redmi-tablette-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/stylet-xiaomi-redmi-tablette-photo-1.webp",
+      "/uploads/quick-products/stylet-xiaomi-redmi-tablette-photo-2.webp",
+      "/uploads/quick-products/stylet-xiaomi-redmi-tablette-photo-3.webp",
+      "/uploads/quick-products/stylet-xiaomi-redmi-tablette-photo-4.webp",
+      "/uploads/quick-products/stylet-xiaomi-redmi-tablette-photo-5.webp",
+      "/uploads/quick-products/stylet-xiaomi-redmi-tablette-photo-6.webp"
+    ],
+    "shortDescription": "Stylet Xiaomi Redmi Smart Pen : latence de 5 ms et 240 Hz pour ecrire et dessiner sur tablette Redmi Pad. Expedie de France.",
+    "description": "Stylet officiel Xiaomi pour tablette Redmi Pad : latence annoncee de 5 millisecondes et frequence de 240 Hz, ce qui donne la sensation que le trait sort directement de la pointe au lieu de suivre le doigt avec un temps de retard. Sensibilite a la pression pour varier l epaisseur du trait en dessin, prise de notes manuscrites, annotation de documents. Charge magnetique en se fixant sur la tablette. Materiel Xiaomi d origine. Note 4.9 sur pres de 1 500 avis, 5 000 ventes. Expedie de France.",
+    "features": [
+      "Latence 5 ms, 240 Hz : le trait suit la pointe",
+      "Sensible a la pression pour le dessin",
+      "Charge magnetique sur la tablette. Expedie de France"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009978741767.html",
+      "supplierSku": "AE-ITEM-1005009978741767",
+      "supplierPriceCents": 4374,
+      "supplierStock": 40,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 6590,
+      "marginCents": 2216,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009978741767.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 43.74 EUR, boutique 65.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T08:57:23.988Z"
+    },
+    "price": 6590,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009978741767.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009978741767 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Stylet Xiaomi Redmi pour tablette | Maxi Trouvaille",
+      "description": "Stylet Xiaomi Redmi Smart Pen : latence de 5 ms et 240 Hz pour ecrire et dessiner sur tablette Redmi Pad. Expedie de France.",
+      "h1": "Stylet Xiaomi Redmi pour tablette",
+      "h2": "Pourquoi choisir Stylet Xiaomi Redmi pour tablette",
+      "keywords": [
+        "stylet",
+        "xiaomi",
+        "redmi",
+        "tablette",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Stylet Xiaomi Redmi pour tablette - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Stylet Xiaomi Redmi pour tablette - high-tech Maxi Trouvaille",
+    "compareAtPrice": 8990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]

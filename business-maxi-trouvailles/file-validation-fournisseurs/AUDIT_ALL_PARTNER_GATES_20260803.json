@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-03T08:52:29.107Z",
+  "checkedAt": "2026-08-03T08:57:24.535Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 334,
-  "publishedPartnerCount": 275,
+  "partnerProductCount": 337,
+  "publishedPartnerCount": 278,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -6021,19 +6021,73 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_shokz_openrun_pro_2_conduction_osseuse_001",
+      "slug": "shokz-openrun-pro-2-conduction-osseuse",
+      "name": "SHOKZ OpenRun Pro 2 à conduction osseuse",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-high-tech",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_cmf_buds_2_plus_anc_ldac_001",
+      "slug": "cmf-buds-2-plus-anc-ldac",
+      "name": "Écouteurs CMF Buds 2 Plus avec ANC",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-accessoires",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_stylet_xiaomi_redmi_tablette_001",
+      "slug": "stylet-xiaomi-redmi-tablette",
+      "name": "Stylet Xiaomi Redmi pour tablette",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-high-tech",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 330
+    "data/quick-products.json": 333
   },
   "byStatus": {
     "draft": 59,
-    "published": 275
+    "published": 278
   },
   "byCategory": {
-    "dropshipping-high-tech": 39,
-    "dropshipping-accessoires": 36,
+    "dropshipping-high-tech": 41,
+    "dropshipping-accessoires": 37,
     "dropshipping-maison": 36,
     "dropshipping-auto-moto": 26,
     "dropshipping-cuisine": 42,
