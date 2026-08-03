@@ -32422,5 +32422,197 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_pese_personne_connecte_bluetooth_001",
+    "slug": "pese-personne-connecte-bluetooth",
+    "name": "Pèse-personne connecté Bluetooth",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/pese-personne-connecte-bluetooth-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/pese-personne-connecte-bluetooth-photo-1.webp",
+      "/uploads/quick-products/pese-personne-connecte-bluetooth-photo-2.webp",
+      "/uploads/quick-products/pese-personne-connecte-bluetooth-photo-3.webp",
+      "/uploads/quick-products/pese-personne-connecte-bluetooth-photo-4.webp",
+      "/uploads/quick-products/pese-personne-connecte-bluetooth-photo-5.webp",
+      "/uploads/quick-products/pese-personne-connecte-bluetooth-photo-6.webp"
+    ],
+    "shortDescription": "Balance connectee Bluetooth : poids, masse grasse, masse musculaire et suivi dans l application. Note 4.9.",
+    "description": "Pese-personne connecte en Bluetooth : au-dela du poids, il estime la masse grasse, la masse musculaire, l eau corporelle et l indice de masse corporelle, puis envoie tout dans une application qui trace les courbes dans le temps. C est ce suivi qui compte quand on suit un regime ou une reprise de sport : le poids seul monte et descend, la repartition entre muscle et graisse dit la vraie tendance. Plusieurs profils utilisateurs, plateau en verre trempe, allumage automatique en montant dessus. Note 4.9 sur pres de 1 500 avis, 5 000 ventes.",
+    "features": [
+      "Masse grasse, masse musculaire, eau, IMC",
+      "Suivi des courbes dans l application",
+      "Plusieurs profils, verre trempe, allumage automatique"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010806510249.html",
+      "supplierSku": "AE-ITEM-1005010806510249",
+      "supplierPriceCents": 1919,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 4290,
+      "marginCents": 2371,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010806510249.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 124,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 19.19 EUR, boutique 42.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T05:09:59.736Z"
+    },
+    "price": 4290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010806510249.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010806510249 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Pèse-personne connecté Bluetooth | Maxi Trouvaille",
+      "description": "Balance connectee Bluetooth : poids, masse grasse, masse musculaire et suivi dans l application. Note 4.9.",
+      "h1": "Pèse-personne connecté Bluetooth",
+      "h2": "Pourquoi choisir Pèse-personne connecté Bluetooth",
+      "keywords": [
+        "pese",
+        "personne",
+        "connecte",
+        "bluetooth",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Pèse-personne connecté Bluetooth - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Pèse-personne connecté Bluetooth - beaute Maxi Trouvaille",
+    "compareAtPrice": 5890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_hub_usb_c_4_ports_otg_001",
+    "slug": "hub-usb-c-4-ports-otg",
+    "name": "Hub USB-C 4 ports",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/hub-usb-c-4-ports-otg-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/hub-usb-c-4-ports-otg-photo-1.webp",
+      "/uploads/quick-products/hub-usb-c-4-ports-otg-photo-2.webp",
+      "/uploads/quick-products/hub-usb-c-4-ports-otg-photo-3.webp",
+      "/uploads/quick-products/hub-usb-c-4-ports-otg-photo-4.webp",
+      "/uploads/quick-products/hub-usb-c-4-ports-otg-photo-5.webp",
+      "/uploads/quick-products/hub-usb-c-4-ports-otg-photo-6.webp"
+    ],
+    "shortDescription": "Hub USB-C 4 ports : branche cle USB, souris, clavier et disque dur sur un ordinateur qui n a qu un seul port. 12 298 avis.",
+    "description": "Hub USB-C a 4 ports : les ordinateurs portables recents et les MacBook n ont souvent qu un ou deux ports, ce qui oblige a debrancher sans arret. Ce repartiteur en ajoute quatre d un coup pour la cle USB, la souris, le clavier, le disque dur externe ou la manette. Boitier compact en aluminium qui dissipe la chaleur, cable court qui ne traine pas, aucun pilote a installer — on branche et ca fonctionne, sur Windows, Mac et Android compatible OTG. Note 4.9 sur plus de 12 000 avis, 50 000 ventes.",
+    "features": [
+      "4 ports USB depuis un seul port USB-C",
+      "Aucun pilote : on branche et ca marche",
+      "Boitier aluminium compact, Windows, Mac, Android OTG"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007097076449.html",
+      "supplierSku": "AE-ITEM-1005007097076449",
+      "supplierPriceCents": 208,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 482,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007097076449.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 232,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.08 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T05:10:00.161Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007097076449.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007097076449 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Hub USB-C 4 ports | Maxi Trouvaille",
+      "description": "Hub USB-C 4 ports : branche cle USB, souris, clavier et disque dur sur un ordinateur qui n a qu un seul port. 12 298 avis.",
+      "h1": "Hub USB-C 4 ports",
+      "h2": "Pourquoi choisir Hub USB-C 4 ports",
+      "keywords": [
+        "hub",
+        "usb",
+        "ports",
+        "otg",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Hub USB-C 4 ports - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Hub USB-C 4 ports - high-tech Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]

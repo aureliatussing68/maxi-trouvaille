@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-03T05:06:53.134Z",
+  "checkedAt": "2026-08-03T05:10:00.779Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 324,
-  "publishedPartnerCount": 265,
+  "partnerProductCount": 326,
+  "publishedPartnerCount": 267,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -5841,24 +5841,60 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_pese_personne_connecte_bluetooth_001",
+      "slug": "pese-personne-connecte-bluetooth",
+      "name": "Pèse-personne connecté Bluetooth",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-beaute",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_hub_usb_c_4_ports_otg_001",
+      "slug": "hub-usb-c-4-ports-otg",
+      "name": "Hub USB-C 4 ports",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-high-tech",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 320
+    "data/quick-products.json": 322
   },
   "byStatus": {
     "draft": 59,
-    "published": 265
+    "published": 267
   },
   "byCategory": {
-    "dropshipping-high-tech": 37,
+    "dropshipping-high-tech": 38,
     "dropshipping-accessoires": 34,
     "dropshipping-maison": 36,
     "dropshipping-auto-moto": 25,
     "dropshipping-cuisine": 41,
     "dropshipping-enfant": 23,
-    "dropshipping-beaute": 29,
+    "dropshipping-beaute": 30,
     "dropshipping-animaux": 26,
     "dropshipping-mode": 22,
     "dropshipping-outillage": 32,
