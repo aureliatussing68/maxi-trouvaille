@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-03T04:22:39.833Z",
+  "checkedAt": "2026-08-03T04:26:25.024Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 314,
-  "publishedPartnerCount": 255,
+  "partnerProductCount": 316,
+  "publishedPartnerCount": 257,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -5661,15 +5661,51 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_jeu_mini_tournevis_25_en_1_precision_001",
+      "slug": "jeu-mini-tournevis-25-en-1-precision",
+      "name": "Jeu de mini tournevis de précision 25 en 1",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-outillage",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_jeu_tournevis_isoles_vde_electricien_001",
+      "slug": "jeu-tournevis-isoles-vde-electricien",
+      "name": "Jeu de tournevis isolés VDE pour électricien",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-outillage",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 310
+    "data/quick-products.json": 312
   },
   "byStatus": {
     "draft": 59,
-    "published": 255
+    "published": 257
   },
   "byCategory": {
     "dropshipping-high-tech": 36,
@@ -5681,7 +5717,7 @@
     "dropshipping-beaute": 29,
     "dropshipping-animaux": 26,
     "dropshipping-mode": 21,
-    "dropshipping-outillage": 29,
+    "dropshipping-outillage": 31,
     "dropshipping-gaming": 18
   },
   "safety": {
