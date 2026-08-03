@@ -31647,5 +31647,296 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_webcam_ugreen_4k_autofocus_micro_001",
+    "slug": "webcam-ugreen-4k-autofocus-micro",
+    "name": "Webcam UGREEN 4K avec autofocus",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/webcam-ugreen-4k-autofocus-micro-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/webcam-ugreen-4k-autofocus-micro-photo-1.webp",
+      "/uploads/quick-products/webcam-ugreen-4k-autofocus-micro-photo-2.webp",
+      "/uploads/quick-products/webcam-ugreen-4k-autofocus-micro-photo-3.webp",
+      "/uploads/quick-products/webcam-ugreen-4k-autofocus-micro-photo-4.webp",
+      "/uploads/quick-products/webcam-ugreen-4k-autofocus-micro-photo-5.webp",
+      "/uploads/quick-products/webcam-ugreen-4k-autofocus-micro-photo-6.webp"
+    ],
+    "shortDescription": "Webcam UGREEN 8 MP avec autofocus et double micro antibruit : visio nette et voix claire, meme en piece bruyante. Note 4.8.",
+    "description": "Webcam UGREEN de 8 megapixels avec mise au point automatique par detection de phase : le visage reste net meme si l on bouge ou change de distance, la ou une webcam d entree de gamme reste floue. Double microphone avec reduction de bruit qui filtre le clavier, le ventilateur et le bruit de fond, correction automatique de la lumiere pour les pieces mal eclairees. Branchement USB direct, sans installation, compatible Zoom, Teams, Google Meet, OBS et Windows comme Mac. UGREEN est une marque etablie de l accessoire informatique. Note 4.8 sur plus de 1 300 avis.",
+    "features": [
+      "8 MP avec autofocus : image nette en permanence",
+      "Double micro antibruit : voix claire, clavier filtre",
+      "USB direct, sans installation. Zoom, Teams, Meet, OBS"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009234854371.html",
+      "supplierSku": "AE-ITEM-1005009234854371",
+      "supplierPriceCents": 2419,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3890,
+      "marginCents": 1471,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009234854371.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 61,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 24.19 EUR, boutique 38.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T04:33:16.017Z"
+    },
+    "price": 3890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009234854371.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009234854371 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Webcam UGREEN 4K avec autofocus | Maxi Trouvaille",
+      "description": "Webcam UGREEN 8 MP avec autofocus et double micro antibruit : visio nette et voix claire, meme en piece bruyante. Note 4.8.",
+      "h1": "Webcam UGREEN 4K avec autofocus",
+      "h2": "Pourquoi choisir Webcam UGREEN 4K avec autofocus",
+      "keywords": [
+        "webcam",
+        "ugreen",
+        "autofocus",
+        "micro",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Webcam UGREEN 4K avec autofocus - gaming Maxi Trouvaille"
+    },
+    "imageAlt": "Webcam UGREEN 4K avec autofocus - gaming Maxi Trouvaille",
+    "compareAtPrice": 5290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_cable_usb_c_100w_charge_rapide_tresse_001",
+    "slug": "cable-usb-c-100w-charge-rapide-tresse",
+    "name": "Câble USB-C 100W tressé charge rapide",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/cable-usb-c-100w-charge-rapide-tresse-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/cable-usb-c-100w-charge-rapide-tresse-photo-1.webp",
+      "/uploads/quick-products/cable-usb-c-100w-charge-rapide-tresse-photo-2.webp",
+      "/uploads/quick-products/cable-usb-c-100w-charge-rapide-tresse-photo-3.webp",
+      "/uploads/quick-products/cable-usb-c-100w-charge-rapide-tresse-photo-4.webp",
+      "/uploads/quick-products/cable-usb-c-100w-charge-rapide-tresse-photo-5.webp",
+      "/uploads/quick-products/cable-usb-c-100w-charge-rapide-tresse-photo-6.webp"
+    ],
+    "shortDescription": "Cable USB-C vers USB-C 100W en nylon tresse : charge un ordinateur portable comme un telephone. 4.8 sur pres de 15 000 avis.",
+    "description": "Cable USB-C vers USB-C compatible Power Delivery 3.0 jusqu a 100W : assez puissant pour recharger un ordinateur portable, une tablette ou un telephone a pleine vitesse, contrairement aux cables bon marche qui plafonnent et font trainer la charge. Gaine en nylon tresse et connecteurs renforces qui resistent au pliage repete, la ou les cables d origine cassent au ras de la prise au bout de quelques mois. Transfert de donnees inclus. Note 4.8 sur pres de 15 000 avis, 100 000 ventes : l un des cables les mieux notes de la plateforme.",
+    "features": [
+      "100W Power Delivery : recharge aussi un portable",
+      "Nylon tresse et connecteurs renforces : ne casse pas",
+      "Charge et transfert de donnees"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006117724690.html",
+      "supplierSku": "AE-ITEM-1005006117724690",
+      "supplierPriceCents": 179,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 511,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006117724690.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 285,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 1.79 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T04:33:16.852Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006117724690.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006117724690 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Câble USB-C 100W tressé charge rapide | Maxi Trouvaille",
+      "description": "Cable USB-C vers USB-C 100W en nylon tresse : charge un ordinateur portable comme un telephone. 4.8 sur pres de 15 000 avis.",
+      "h1": "Câble USB-C 100W tressé charge rapide",
+      "h2": "Pourquoi choisir Câble USB-C 100W tressé charge rapide",
+      "keywords": [
+        "cable",
+        "usb",
+        "100w",
+        "charge",
+        "rapide",
+        "tresse",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Câble USB-C 100W tressé charge rapide - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Câble USB-C 100W tressé charge rapide - accessoires Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_chargeur_baseus_gan_65w_multiport_001",
+    "slug": "chargeur-baseus-gan-65w-multiport",
+    "name": "Chargeur Baseus GaN 65W multiport",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/chargeur-baseus-gan-65w-multiport-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/chargeur-baseus-gan-65w-multiport-photo-1.webp",
+      "/uploads/quick-products/chargeur-baseus-gan-65w-multiport-photo-2.webp",
+      "/uploads/quick-products/chargeur-baseus-gan-65w-multiport-photo-3.webp",
+      "/uploads/quick-products/chargeur-baseus-gan-65w-multiport-photo-4.webp",
+      "/uploads/quick-products/chargeur-baseus-gan-65w-multiport-photo-5.webp",
+      "/uploads/quick-products/chargeur-baseus-gan-65w-multiport-photo-6.webp"
+    ],
+    "shortDescription": "Chargeur Baseus 65W en GaN : recharge un ordinateur portable et deux appareils en meme temps, dans un format de poche. Note 4.9.",
+    "description": "Chargeur secteur Baseus de 65W en technologie GaN : la puce nitrure de gallium permet de tenir la puissance d un chargeur d ordinateur portable dans un boitier a peine plus gros qu un chargeur de telephone. Plusieurs ports pour brancher le portable, le telephone et les ecouteurs sur une seule prise, avec repartition automatique de la puissance. Il remplace trois chargeurs dans le sac. Protections contre la surchauffe et la surtension. Baseus est une marque etablie de l accessoire mobile. Note 4.9 sur plus de 2 400 avis, 10 000 ventes.",
+    "features": [
+      "65W en GaN : puissance d un chargeur de portable, format de poche",
+      "Plusieurs ports : portable + telephone + ecouteurs",
+      "Repartition automatique, protections surchauffe et surtension"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006994778584.html",
+      "supplierSku": "AE-ITEM-1005006994778584",
+      "supplierPriceCents": 2859,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 4590,
+      "marginCents": 1731,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006994778584.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 61,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 28.59 EUR, boutique 45.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T04:33:17.414Z"
+    },
+    "price": 4590,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006994778584.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006994778584 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Chargeur Baseus GaN 65W multiport | Maxi Trouvaille",
+      "description": "Chargeur Baseus 65W en GaN : recharge un ordinateur portable et deux appareils en meme temps, dans un format de poche. Note 4.9.",
+      "h1": "Chargeur Baseus GaN 65W multiport",
+      "h2": "Pourquoi choisir Chargeur Baseus GaN 65W multiport",
+      "keywords": [
+        "chargeur",
+        "baseus",
+        "gan",
+        "65w",
+        "multiport",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Chargeur Baseus GaN 65W multiport - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Chargeur Baseus GaN 65W multiport - high-tech Maxi Trouvaille",
+    "compareAtPrice": 6290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
