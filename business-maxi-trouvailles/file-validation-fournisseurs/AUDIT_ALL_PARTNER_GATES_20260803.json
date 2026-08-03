@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-03T03:49:03.552Z",
+  "checkedAt": "2026-08-03T04:22:39.833Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 310,
-  "publishedPartnerCount": 251,
+  "partnerProductCount": 314,
+  "publishedPartnerCount": 255,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -5589,18 +5589,90 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_rainureuse_mur_beton_125mm_laser_001",
+      "slug": "rainureuse-mur-beton-125mm-laser",
+      "name": "Rainureuse à béton 125 mm avec visée laser",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-outillage",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_perceuse_visseuse_sans_fil_kit_batterie_001",
+      "slug": "perceuse-visseuse-sans-fil-kit-batterie",
+      "name": "Perceuse-visseuse sans fil avec batterie",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-outillage",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis Espagne, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_ssd_nvme_netac_m2_2280_001",
+      "slug": "ssd-nvme-netac-m2-2280",
+      "name": "SSD NVMe Netac M.2 2280",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-high-tech",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_memoire_ram_ddr4_3200_bureau_001",
+      "slug": "memoire-ram-ddr4-3200-bureau",
+      "name": "Mémoire RAM DDR4 3200 MHz pour PC de bureau",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-high-tech",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 306
+    "data/quick-products.json": 310
   },
   "byStatus": {
     "draft": 59,
-    "published": 251
+    "published": 255
   },
   "byCategory": {
-    "dropshipping-high-tech": 34,
+    "dropshipping-high-tech": 36,
     "dropshipping-accessoires": 33,
     "dropshipping-maison": 36,
     "dropshipping-auto-moto": 24,
@@ -5609,7 +5681,7 @@
     "dropshipping-beaute": 29,
     "dropshipping-animaux": 26,
     "dropshipping-mode": 21,
-    "dropshipping-outillage": 27,
+    "dropshipping-outillage": 29,
     "dropshipping-gaming": 18
   },
   "safety": {
