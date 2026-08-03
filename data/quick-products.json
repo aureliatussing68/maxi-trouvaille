@@ -29519,5 +29519,585 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_camera_surveillance_lenovo_5mp_wifi_001",
+    "slug": "camera-surveillance-lenovo-5mp-wifi",
+    "name": "Caméra de surveillance Lenovo 5MP WiFi",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/camera-surveillance-lenovo-5mp-wifi-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/camera-surveillance-lenovo-5mp-wifi-photo-1.webp",
+      "/uploads/quick-products/camera-surveillance-lenovo-5mp-wifi-photo-2.webp",
+      "/uploads/quick-products/camera-surveillance-lenovo-5mp-wifi-photo-3.webp",
+      "/uploads/quick-products/camera-surveillance-lenovo-5mp-wifi-photo-4.webp",
+      "/uploads/quick-products/camera-surveillance-lenovo-5mp-wifi-photo-5.webp",
+      "/uploads/quick-products/camera-surveillance-lenovo-5mp-wifi-photo-6.webp"
+    ],
+    "shortDescription": "Camera de surveillance Lenovo 5MP en WiFi : vision de nuit, detection de mouvement et alerte sur le telephone. Note 4.7.",
+    "description": "Camera de surveillance interieure Lenovo en 5 megapixels : elle se relie au WiFi de la maison et envoie une alerte sur le telephone des qu un mouvement est detecte, avec l image en direct consultable de n importe ou. Vision de nuit infrarouge pour voir dans le noir complet, rotation motorisee pour balayer la piece, micro et haut-parleur pour parler a distance, enregistrement sur carte memoire. Utile pour surveiller un logement vide, un animal reste seul ou l entree. Note 4.7 sur plus de 1 700 avis.",
+    "features": [
+      "5 MP, vision de nuit infrarouge",
+      "Alerte mouvement en direct sur le telephone",
+      "Rotation motorisee, micro et haut-parleur integres"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007575302849.html",
+      "supplierSku": "AE-ITEM-1005007575302849",
+      "supplierPriceCents": 2699,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 4390,
+      "marginCents": 1691,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007575302849.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 63,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 26.99 EUR, boutique 43.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:32:06.322Z"
+    },
+    "price": 4390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007575302849.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007575302849 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Caméra de surveillance Lenovo 5MP WiFi | Maxi Trouvaille",
+      "description": "Camera de surveillance Lenovo 5MP en WiFi : vision de nuit, detection de mouvement et alerte sur le telephone. Note 4.7.",
+      "h1": "Caméra de surveillance Lenovo 5MP WiFi",
+      "h2": "Pourquoi choisir Caméra de surveillance Lenovo 5MP WiFi",
+      "keywords": [
+        "camera",
+        "surveillance",
+        "lenovo",
+        "5mp",
+        "wifi",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Caméra de surveillance Lenovo 5MP WiFi - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Caméra de surveillance Lenovo 5MP WiFi - high-tech Maxi Trouvaille",
+    "compareAtPrice": 5990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_lampe_solaire_exterieure_detecteur_mouve_001",
+    "slug": "lampe-solaire-exterieure-detecteur-mouvement",
+    "name": "Lampe solaire extérieure à détecteur de mouvement",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/lampe-solaire-exterieure-detecteur-mouvement-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/lampe-solaire-exterieure-detecteur-mouvement-photo-1.webp",
+      "/uploads/quick-products/lampe-solaire-exterieure-detecteur-mouvement-photo-2.webp",
+      "/uploads/quick-products/lampe-solaire-exterieure-detecteur-mouvement-photo-3.webp",
+      "/uploads/quick-products/lampe-solaire-exterieure-detecteur-mouvement-photo-4.webp",
+      "/uploads/quick-products/lampe-solaire-exterieure-detecteur-mouvement-photo-5.webp",
+      "/uploads/quick-products/lampe-solaire-exterieure-detecteur-mouvement-photo-6.webp"
+    ],
+    "shortDescription": "Lampe solaire etanche a detecteur de mouvement : s allume quand quelqu un approche, sans fil ni electricien. Note 4.6.",
+    "description": "Lampe solaire d exterieur avec detecteur de mouvement : elle se charge au soleil dans la journee et s allume automatiquement des qu une presence est detectee la nuit. Aucun cable a tirer, aucune facture d electricite, aucun electricien : deux vis et c est pose sur un mur, un portail, une allee ou au-dessus de la porte du garage. Etanche a la pluie, plusieurs modes dont un eclairage faible en continu. Note 4.6 sur plus de 14 700 avis, 100 000 ventes.",
+    "features": [
+      "Detecteur de mouvement : s allume a l approche",
+      "100 % solaire : ni cable, ni facture",
+      "Etanche, pose en deux vis, plusieurs modes"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007551320745.html",
+      "supplierSku": "AE-ITEM-1005007551320745",
+      "supplierPriceCents": 439,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 851,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007551320745.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 194,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.39 EUR, boutique 12.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:32:06.717Z"
+    },
+    "price": 1290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007551320745.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007551320745 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Lampe solaire extérieure à détecteur de mouvement | Maxi Trouvaille",
+      "description": "Lampe solaire etanche a detecteur de mouvement : s allume quand quelqu un approche, sans fil ni electricien. Note 4.6.",
+      "h1": "Lampe solaire extérieure à détecteur de mouvement",
+      "h2": "Pourquoi choisir Lampe solaire extérieure à détecteur de mouvement",
+      "keywords": [
+        "lampe",
+        "solaire",
+        "exterieure",
+        "detecteur",
+        "mouvement",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Lampe solaire extérieure à détecteur de mouvement - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Lampe solaire extérieure à détecteur de mouvement - maison Maxi Trouvaille",
+    "compareAtPrice": 1790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_kit_8_elastiques_musculation_poignees_001",
+    "slug": "kit-8-elastiques-musculation-poignees",
+    "name": "Kit 8 élastiques de musculation avec poignées",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/kit-8-elastiques-musculation-poignees-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/kit-8-elastiques-musculation-poignees-photo-1.webp",
+      "/uploads/quick-products/kit-8-elastiques-musculation-poignees-photo-2.webp",
+      "/uploads/quick-products/kit-8-elastiques-musculation-poignees-photo-3.webp",
+      "/uploads/quick-products/kit-8-elastiques-musculation-poignees-photo-4.webp",
+      "/uploads/quick-products/kit-8-elastiques-musculation-poignees-photo-5.webp",
+      "/uploads/quick-products/kit-8-elastiques-musculation-poignees-photo-6.webp"
+    ],
+    "shortDescription": "Kit complet d elastiques de resistance avec poignees, sangles de cheville et ancrage de porte : une salle de sport dans un sac. Note 4.9.",
+    "description": "Kit de 8 elastiques de resistance avec poignees, sangles de cheville et ancrage de porte : en les combinant, on couvre les bras, le dos, les epaules, les pectoraux, les fessiers et les jambes, avec des resistances qui s additionnent pour progresser. Tout tient dans une pochette, ce qui permet de s entrainer chez soi, en vacances ou a l hotel sans abonnement ni machine. Utilise aussi en yoga, en pilates et en reeducation douce. Note 4.9 sur plus de 4 100 avis, 10 000 ventes.",
+    "features": [
+      "8 elastiques : resistances combinables et progressives",
+      "Poignees, sangles de cheville et ancrage de porte inclus",
+      "Tout le corps, tient dans une pochette"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008248145097.html",
+      "supplierSku": "AE-ITEM-1005008248145097",
+      "supplierPriceCents": 247,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 890,
+      "marginCents": 643,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008248145097.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 260,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.47 EUR, boutique 8.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:32:09.440Z"
+    },
+    "price": 890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008248145097.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008248145097 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Kit 8 élastiques de musculation avec poignées | Maxi Trouvaille",
+      "description": "Kit complet d elastiques de resistance avec poignees, sangles de cheville et ancrage de porte : une salle de sport dans un sac. Note 4.9.",
+      "h1": "Kit 8 élastiques de musculation avec poignées",
+      "h2": "Pourquoi choisir Kit 8 élastiques de musculation avec poignées",
+      "keywords": [
+        "kit",
+        "elastiques",
+        "musculation",
+        "poignees",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Kit 8 élastiques de musculation avec poignées - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Kit 8 élastiques de musculation avec poignées - beaute Maxi Trouvaille",
+    "compareAtPrice": 1290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_support_ordinateur_portable_aluminium_re_001",
+    "slug": "support-ordinateur-portable-aluminium-reglable",
+    "name": "Support ordinateur portable aluminium réglable",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/support-ordinateur-portable-aluminium-reglable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/support-ordinateur-portable-aluminium-reglable-photo-1.webp",
+      "/uploads/quick-products/support-ordinateur-portable-aluminium-reglable-photo-2.webp",
+      "/uploads/quick-products/support-ordinateur-portable-aluminium-reglable-photo-3.webp",
+      "/uploads/quick-products/support-ordinateur-portable-aluminium-reglable-photo-4.webp",
+      "/uploads/quick-products/support-ordinateur-portable-aluminium-reglable-photo-5.webp",
+      "/uploads/quick-products/support-ordinateur-portable-aluminium-reglable-photo-6.webp"
+    ],
+    "shortDescription": "Support en aluminium reglable pour ordinateur portable : remonte l ecran a hauteur des yeux et ventile la machine. Note 4.9.",
+    "description": "Support en alliage d aluminium pour ordinateur portable : il remonte l ecran a hauteur des yeux, ce qui soulage la nuque et le dos apres quelques heures de travail ou de jeu, et laisse l air circuler sous la machine pour limiter la chauffe et le bruit des ventilateurs. Hauteur et inclinaison reglables, patins qui ne rayent pas le chassis, structure stable meme en tapant vite. Il se plie a plat pour suivre en deplacement. Compatible 11 a 17 pouces. Note 4.9 sur plus de 2 700 avis, 10 000 ventes.",
+    "features": [
+      "Ecran a hauteur des yeux : soulage nuque et dos",
+      "Aluminium : ventile et limite la chauffe",
+      "Hauteur et inclinaison reglables, se plie a plat"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008932937285.html",
+      "supplierSku": "AE-ITEM-1005008932937285",
+      "supplierPriceCents": 1269,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2890,
+      "marginCents": 1621,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008932937285.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 128,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 12.69 EUR, boutique 28.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:32:09.802Z"
+    },
+    "price": 2890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008932937285.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008932937285 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Support ordinateur portable aluminium réglable | Maxi Trouvaille",
+      "description": "Support en aluminium reglable pour ordinateur portable : remonte l ecran a hauteur des yeux et ventile la machine. Note 4.9.",
+      "h1": "Support ordinateur portable aluminium réglable",
+      "h2": "Pourquoi choisir Support ordinateur portable aluminium réglable",
+      "keywords": [
+        "support",
+        "ordinateur",
+        "portable",
+        "aluminium",
+        "reglable",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Support ordinateur portable aluminium réglable - gaming Maxi Trouvaille"
+    },
+    "imageAlt": "Support ordinateur portable aluminium réglable - gaming Maxi Trouvaille",
+    "compareAtPrice": 3990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_planche_a_decouper_bambou_double_face_001",
+    "slug": "planche-a-decouper-bambou-double-face",
+    "name": "Planche à découper bambou double face",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/planche-a-decouper-bambou-double-face-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/planche-a-decouper-bambou-double-face-photo-1.webp",
+      "/uploads/quick-products/planche-a-decouper-bambou-double-face-photo-2.webp",
+      "/uploads/quick-products/planche-a-decouper-bambou-double-face-photo-3.webp",
+      "/uploads/quick-products/planche-a-decouper-bambou-double-face-photo-4.webp",
+      "/uploads/quick-products/planche-a-decouper-bambou-double-face-photo-5.webp",
+      "/uploads/quick-products/planche-a-decouper-bambou-double-face-photo-6.webp"
+    ],
+    "shortDescription": "Planche a decouper en bambou double face avec support vertical : une face viande, une face legumes, elle seche debout. Note 4.7.",
+    "description": "Planche a decouper en bambou Moso double face avec support vertical : une face pour la viande crue, l autre pour les legumes et le pain, ce qui evite les melanges. Le bambou est naturellement plus dense que le bois classique, il marque moins sous le couteau et resiste mieux a l humidite. La rainure recupere le jus au lieu de le laisser couler sur le plan de travail, et le support permet de la faire secher debout plutot que de la voir moisir a plat. Note 4.7.",
+    "features": [
+      "Double face : viande d un cote, legumes de l autre",
+      "Bambou dense : marque peu, resiste a l humidite",
+      "Rainure a jus + support vertical pour secher"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010537825330.html",
+      "supplierSku": "AE-ITEM-1005010537825330",
+      "supplierPriceCents": 1179,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2690,
+      "marginCents": 1511,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010537825330.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 128,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 11.79 EUR, boutique 26.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:32:11.579Z"
+    },
+    "price": 2690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010537825330.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010537825330 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Planche à découper bambou double face | Maxi Trouvaille",
+      "description": "Planche a decouper en bambou double face avec support vertical : une face viande, une face legumes, elle seche debout. Note 4.7.",
+      "h1": "Planche à découper bambou double face",
+      "h2": "Pourquoi choisir Planche à découper bambou double face",
+      "keywords": [
+        "planche",
+        "decouper",
+        "bambou",
+        "double",
+        "face",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Planche à découper bambou double face - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Planche à découper bambou double face - cuisine Maxi Trouvaille",
+    "compareAtPrice": 3690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_rasoir_electrique_enchen_blackstone_3d_001",
+    "slug": "rasoir-electrique-enchen-blackstone-3d",
+    "name": "Rasoir électrique ENCHEN Blackstone 3D",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/rasoir-electrique-enchen-blackstone-3d-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/rasoir-electrique-enchen-blackstone-3d-photo-1.webp",
+      "/uploads/quick-products/rasoir-electrique-enchen-blackstone-3d-photo-2.webp",
+      "/uploads/quick-products/rasoir-electrique-enchen-blackstone-3d-photo-3.webp",
+      "/uploads/quick-products/rasoir-electrique-enchen-blackstone-3d-photo-4.webp",
+      "/uploads/quick-products/rasoir-electrique-enchen-blackstone-3d-photo-5.webp",
+      "/uploads/quick-products/rasoir-electrique-enchen-blackstone-3d-photo-6.webp"
+    ],
+    "shortDescription": "Rasoir rotatif ENCHEN Blackstone a trois tetes flottantes, lavable et rechargeable USB-C. Note 4.7 sur plus de 6 800 avis.",
+    "description": "Rasoir electrique rotatif ENCHEN Blackstone a trois tetes flottantes : elles suivent les creux du menton, de la machoire et du cou, la ou un rasoir rigide saute et irrite. Tete entierement lavable a l eau courante, recharge USB-C, utilisable a sec ou sous la douche avec de la mousse. Autonomie confortable et format compact qui se glisse dans un sac de voyage. ENCHEN est une marque etablie du rasage electrique. Note 4.7 sur plus de 6 800 avis, 10 000 ventes.",
+    "features": [
+      "Trois tetes flottantes 3D : suivent les creux du visage",
+      "Lavable a l eau, utilisable a sec ou sous la douche",
+      "Recharge USB-C, format voyage"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005902976406.html",
+      "supplierSku": "AE-ITEM-1005005902976406",
+      "supplierPriceCents": 1379,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3090,
+      "marginCents": 1711,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005902976406.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 124,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 13.79 EUR, boutique 30.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:32:13.019Z"
+    },
+    "price": 3090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005902976406.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005902976406 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Rasoir électrique ENCHEN Blackstone 3D | Maxi Trouvaille",
+      "description": "Rasoir rotatif ENCHEN Blackstone a trois tetes flottantes, lavable et rechargeable USB-C. Note 4.7 sur plus de 6 800 avis.",
+      "h1": "Rasoir électrique ENCHEN Blackstone 3D",
+      "h2": "Pourquoi choisir Rasoir électrique ENCHEN Blackstone 3D",
+      "keywords": [
+        "rasoir",
+        "electrique",
+        "enchen",
+        "blackstone",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Rasoir électrique ENCHEN Blackstone 3D - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Rasoir électrique ENCHEN Blackstone 3D - beaute Maxi Trouvaille",
+    "compareAtPrice": 4190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
