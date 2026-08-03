@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-03T04:26:25.024Z",
+  "checkedAt": "2026-08-03T04:33:17.950Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 316,
-  "publishedPartnerCount": 257,
+  "partnerProductCount": 319,
+  "publishedPartnerCount": 260,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -5697,19 +5697,73 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_webcam_ugreen_4k_autofocus_micro_001",
+      "slug": "webcam-ugreen-4k-autofocus-micro",
+      "name": "Webcam UGREEN 4K avec autofocus",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-gaming",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_cable_usb_c_100w_charge_rapide_tresse_001",
+      "slug": "cable-usb-c-100w-charge-rapide-tresse",
+      "name": "Câble USB-C 100W tressé charge rapide",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-accessoires",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_chargeur_baseus_gan_65w_multiport_001",
+      "slug": "chargeur-baseus-gan-65w-multiport",
+      "name": "Chargeur Baseus GaN 65W multiport",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-high-tech",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 312
+    "data/quick-products.json": 315
   },
   "byStatus": {
     "draft": 59,
-    "published": 257
+    "published": 260
   },
   "byCategory": {
-    "dropshipping-high-tech": 36,
-    "dropshipping-accessoires": 33,
+    "dropshipping-high-tech": 37,
+    "dropshipping-accessoires": 34,
     "dropshipping-maison": 36,
     "dropshipping-auto-moto": 24,
     "dropshipping-cuisine": 39,
@@ -5718,7 +5772,7 @@
     "dropshipping-animaux": 26,
     "dropshipping-mode": 21,
     "dropshipping-outillage": 31,
-    "dropshipping-gaming": 18
+    "dropshipping-gaming": 19
   },
   "safety": {
     "readOnlyAudit": true,
