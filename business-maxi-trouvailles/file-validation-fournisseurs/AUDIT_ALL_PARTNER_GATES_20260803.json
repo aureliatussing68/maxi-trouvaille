@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-03T04:33:17.950Z",
+  "checkedAt": "2026-08-03T04:37:17.727Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 319,
-  "publishedPartnerCount": 260,
+  "partnerProductCount": 321,
+  "publishedPartnerCount": 262,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -5751,22 +5751,58 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_organisateur_placard_cuisine_extensible__001",
+      "slug": "organisateur-placard-cuisine-extensible-inox",
+      "name": "Organisateur de placard extensible en inox",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-cuisine",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_phare_velo_led_rechargeable_usb_c_001",
+      "slug": "phare-velo-led-rechargeable-usb-c",
+      "name": "Phare de vélo LED rechargeable USB-C",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-auto-moto",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 315
+    "data/quick-products.json": 317
   },
   "byStatus": {
     "draft": 59,
-    "published": 260
+    "published": 262
   },
   "byCategory": {
     "dropshipping-high-tech": 37,
     "dropshipping-accessoires": 34,
     "dropshipping-maison": 36,
-    "dropshipping-auto-moto": 24,
-    "dropshipping-cuisine": 39,
+    "dropshipping-auto-moto": 25,
+    "dropshipping-cuisine": 40,
     "dropshipping-enfant": 23,
     "dropshipping-beaute": 29,
     "dropshipping-animaux": 26,
