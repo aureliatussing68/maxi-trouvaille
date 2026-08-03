@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-03T03:42:56.038Z",
+  "checkedAt": "2026-08-03T03:46:40.564Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 307,
-  "publishedPartnerCount": 248,
+  "partnerProductCount": 309,
+  "publishedPartnerCount": 250,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -5535,28 +5535,64 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_tapis_de_souris_xxl_90x40_bureau_001",
+      "slug": "tapis-de-souris-xxl-90x40-bureau",
+      "name": "Tapis de souris XXL 90x40 cm",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-gaming",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_gourde_isotherme_inox_304_paille_001",
+      "slug": "gourde-isotherme-inox-304-paille",
+      "name": "Gourde isotherme inox 304 avec paille",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-cuisine",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 303
+    "data/quick-products.json": 305
   },
   "byStatus": {
     "draft": 59,
-    "published": 248
+    "published": 250
   },
   "byCategory": {
     "dropshipping-high-tech": 34,
     "dropshipping-accessoires": 33,
     "dropshipping-maison": 36,
     "dropshipping-auto-moto": 24,
-    "dropshipping-cuisine": 38,
+    "dropshipping-cuisine": 39,
     "dropshipping-enfant": 23,
     "dropshipping-beaute": 29,
     "dropshipping-animaux": 26,
     "dropshipping-mode": 21,
     "dropshipping-outillage": 26,
-    "dropshipping-gaming": 17
+    "dropshipping-gaming": 18
   },
   "safety": {
     "readOnlyAudit": true,

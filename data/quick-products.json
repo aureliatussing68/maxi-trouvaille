@@ -30776,5 +30776,199 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_tapis_de_souris_xxl_90x40_bureau_001",
+    "slug": "tapis-de-souris-xxl-90x40-bureau",
+    "name": "Tapis de souris XXL 90x40 cm",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/tapis-de-souris-xxl-90x40-bureau-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/tapis-de-souris-xxl-90x40-bureau-photo-1.webp",
+      "/uploads/quick-products/tapis-de-souris-xxl-90x40-bureau-photo-2.webp",
+      "/uploads/quick-products/tapis-de-souris-xxl-90x40-bureau-photo-3.webp",
+      "/uploads/quick-products/tapis-de-souris-xxl-90x40-bureau-photo-4.webp",
+      "/uploads/quick-products/tapis-de-souris-xxl-90x40-bureau-photo-5.webp",
+      "/uploads/quick-products/tapis-de-souris-xxl-90x40-bureau-photo-6.webp"
+    ],
+    "shortDescription": "Grand tapis de souris 90 x 40 cm qui couvre clavier et souris : glisse reguliere et bureau protege. Note 4.8.",
+    "description": "Tapis de souris grand format 90 x 40 cm : il passe sous le clavier et la souris d un seul tenant, ce qui donne une surface de glisse homogene sur toute l amplitude du bras, utile en jeu comme au travail. Surface tissee fine pour un deplacement precis, base caoutchouc antiderapante qui ne bouge pas d un millimetre, bords surpiques qui ne s effilochent pas au bout de quelques mois. Il protege aussi le bureau des rayures et des traces de tasse. Note 4.8 sur plus de 1 100 avis, 10 000 ventes.",
+    "features": [
+      "90 x 40 cm : clavier et souris sur la meme surface",
+      "Base antiderapante, bords surpiques anti-effilochage",
+      "Surface tissee fine : glisse precise"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005814603086.html",
+      "supplierSku": "AE-ITEM-1005005814603086",
+      "supplierPriceCents": 419,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1190,
+      "marginCents": 771,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005814603086.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 184,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.19 EUR, boutique 11.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:46:39.426Z"
+    },
+    "price": 1190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005814603086.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005814603086 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Tapis de souris XXL 90x40 cm | Maxi Trouvaille",
+      "description": "Grand tapis de souris 90 x 40 cm qui couvre clavier et souris : glisse reguliere et bureau protege. Note 4.8.",
+      "h1": "Tapis de souris XXL 90x40 cm",
+      "h2": "Pourquoi choisir Tapis de souris XXL 90x40 cm",
+      "keywords": [
+        "tapis",
+        "souris",
+        "xxl",
+        "90x40",
+        "bureau",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Tapis de souris XXL 90x40 cm - gaming Maxi Trouvaille"
+    },
+    "imageAlt": "Tapis de souris XXL 90x40 cm - gaming Maxi Trouvaille",
+    "compareAtPrice": 1690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_gourde_isotherme_inox_304_paille_001",
+    "slug": "gourde-isotherme-inox-304-paille",
+    "name": "Gourde isotherme inox 304 avec paille",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/gourde-isotherme-inox-304-paille-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/gourde-isotherme-inox-304-paille-photo-1.webp",
+      "/uploads/quick-products/gourde-isotherme-inox-304-paille-photo-2.webp",
+      "/uploads/quick-products/gourde-isotherme-inox-304-paille-photo-3.webp",
+      "/uploads/quick-products/gourde-isotherme-inox-304-paille-photo-4.webp",
+      "/uploads/quick-products/gourde-isotherme-inox-304-paille-photo-5.webp",
+      "/uploads/quick-products/gourde-isotherme-inox-304-paille-photo-6.webp"
+    ],
+    "shortDescription": "Bouteille isotherme en inox 304 double paroi : garde froid ou chaud des heures, avec paille et poignee. Note 4.7.",
+    "description": "Gourde isotherme en acier inoxydable 304 a double paroi sous vide : l eau reste fraiche toute une journee d ete et le the reste chaud plusieurs heures, sans condensation sur les doigts ni gout de metal. Bouchon a paille pour boire sans devisser, poignee de transport, joint etanche qui ne fuit pas dans un sac. L inox 304 est la qualite alimentaire de reference, contrairement aux plastiques qui marquent avec le temps. Note 4.7 sur plus de 1 800 avis, 10 000 ventes.",
+    "features": [
+      "Double paroi sous vide : froid ou chaud des heures",
+      "Inox 304 alimentaire, sans gout de metal",
+      "Bouchon a paille, poignee, joint etanche"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006782010244.html",
+      "supplierSku": "AE-ITEM-1005006782010244",
+      "supplierPriceCents": 1499,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3390,
+      "marginCents": 1891,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006782010244.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 126,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 14.99 EUR, boutique 33.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:46:40.046Z"
+    },
+    "price": 3390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006782010244.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006782010244 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Gourde isotherme inox 304 avec paille | Maxi Trouvaille",
+      "description": "Bouteille isotherme en inox 304 double paroi : garde froid ou chaud des heures, avec paille et poignee. Note 4.7.",
+      "h1": "Gourde isotherme inox 304 avec paille",
+      "h2": "Pourquoi choisir Gourde isotherme inox 304 avec paille",
+      "keywords": [
+        "gourde",
+        "isotherme",
+        "inox",
+        "304",
+        "paille",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Gourde isotherme inox 304 avec paille - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Gourde isotherme inox 304 avec paille - cuisine Maxi Trouvaille",
+    "compareAtPrice": 4590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
