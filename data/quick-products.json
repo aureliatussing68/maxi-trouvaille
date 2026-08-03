@@ -29519,5 +29519,1552 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_camera_surveillance_lenovo_5mp_wifi_001",
+    "slug": "camera-surveillance-lenovo-5mp-wifi",
+    "name": "Caméra de surveillance Lenovo 5MP WiFi",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/camera-surveillance-lenovo-5mp-wifi-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/camera-surveillance-lenovo-5mp-wifi-photo-1.webp",
+      "/uploads/quick-products/camera-surveillance-lenovo-5mp-wifi-photo-2.webp",
+      "/uploads/quick-products/camera-surveillance-lenovo-5mp-wifi-photo-3.webp",
+      "/uploads/quick-products/camera-surveillance-lenovo-5mp-wifi-photo-4.webp",
+      "/uploads/quick-products/camera-surveillance-lenovo-5mp-wifi-photo-5.webp",
+      "/uploads/quick-products/camera-surveillance-lenovo-5mp-wifi-photo-6.webp"
+    ],
+    "shortDescription": "Camera de surveillance Lenovo 5MP en WiFi : vision de nuit, detection de mouvement et alerte sur le telephone. Note 4.7.",
+    "description": "Camera de surveillance interieure Lenovo en 5 megapixels : elle se relie au WiFi de la maison et envoie une alerte sur le telephone des qu un mouvement est detecte, avec l image en direct consultable de n importe ou. Vision de nuit infrarouge pour voir dans le noir complet, rotation motorisee pour balayer la piece, micro et haut-parleur pour parler a distance, enregistrement sur carte memoire. Utile pour surveiller un logement vide, un animal reste seul ou l entree. Note 4.7 sur plus de 1 700 avis.",
+    "features": [
+      "5 MP, vision de nuit infrarouge",
+      "Alerte mouvement en direct sur le telephone",
+      "Rotation motorisee, micro et haut-parleur integres"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007575302849.html",
+      "supplierSku": "AE-ITEM-1005007575302849",
+      "supplierPriceCents": 2699,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 4390,
+      "marginCents": 1691,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007575302849.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (5000+ ventes, visuels officiels importes).",
+      "markupPercent": 63,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 26.99 EUR, boutique 43.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:32:06.322Z"
+    },
+    "price": 4390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007575302849.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007575302849 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Caméra de surveillance Lenovo 5MP WiFi | Maxi Trouvaille",
+      "description": "Camera de surveillance Lenovo 5MP en WiFi : vision de nuit, detection de mouvement et alerte sur le telephone. Note 4.7.",
+      "h1": "Caméra de surveillance Lenovo 5MP WiFi",
+      "h2": "Pourquoi choisir Caméra de surveillance Lenovo 5MP WiFi",
+      "keywords": [
+        "camera",
+        "surveillance",
+        "lenovo",
+        "5mp",
+        "wifi",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Caméra de surveillance Lenovo 5MP WiFi - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Caméra de surveillance Lenovo 5MP WiFi - high-tech Maxi Trouvaille",
+    "compareAtPrice": 5990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_lampe_solaire_exterieure_detecteur_mouve_001",
+    "slug": "lampe-solaire-exterieure-detecteur-mouvement",
+    "name": "Lampe solaire extérieure à détecteur de mouvement",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/lampe-solaire-exterieure-detecteur-mouvement-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/lampe-solaire-exterieure-detecteur-mouvement-photo-1.webp",
+      "/uploads/quick-products/lampe-solaire-exterieure-detecteur-mouvement-photo-2.webp",
+      "/uploads/quick-products/lampe-solaire-exterieure-detecteur-mouvement-photo-3.webp",
+      "/uploads/quick-products/lampe-solaire-exterieure-detecteur-mouvement-photo-4.webp",
+      "/uploads/quick-products/lampe-solaire-exterieure-detecteur-mouvement-photo-5.webp",
+      "/uploads/quick-products/lampe-solaire-exterieure-detecteur-mouvement-photo-6.webp"
+    ],
+    "shortDescription": "Lampe solaire etanche a detecteur de mouvement : s allume quand quelqu un approche, sans fil ni electricien. Note 4.6.",
+    "description": "Lampe solaire d exterieur avec detecteur de mouvement : elle se charge au soleil dans la journee et s allume automatiquement des qu une presence est detectee la nuit. Aucun cable a tirer, aucune facture d electricite, aucun electricien : deux vis et c est pose sur un mur, un portail, une allee ou au-dessus de la porte du garage. Etanche a la pluie, plusieurs modes dont un eclairage faible en continu. Note 4.6 sur plus de 14 700 avis, 100 000 ventes.",
+    "features": [
+      "Detecteur de mouvement : s allume a l approche",
+      "100 % solaire : ni cable, ni facture",
+      "Etanche, pose en deux vis, plusieurs modes"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007551320745.html",
+      "supplierSku": "AE-ITEM-1005007551320745",
+      "supplierPriceCents": 439,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 851,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007551320745.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 194,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.39 EUR, boutique 12.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:32:06.717Z"
+    },
+    "price": 1290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007551320745.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007551320745 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Lampe solaire extérieure à détecteur de mouvement | Maxi Trouvaille",
+      "description": "Lampe solaire etanche a detecteur de mouvement : s allume quand quelqu un approche, sans fil ni electricien. Note 4.6.",
+      "h1": "Lampe solaire extérieure à détecteur de mouvement",
+      "h2": "Pourquoi choisir Lampe solaire extérieure à détecteur de mouvement",
+      "keywords": [
+        "lampe",
+        "solaire",
+        "exterieure",
+        "detecteur",
+        "mouvement",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Lampe solaire extérieure à détecteur de mouvement - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Lampe solaire extérieure à détecteur de mouvement - maison Maxi Trouvaille",
+    "compareAtPrice": 1790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_kit_8_elastiques_musculation_poignees_001",
+    "slug": "kit-8-elastiques-musculation-poignees",
+    "name": "Kit 8 élastiques de musculation avec poignées",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/kit-8-elastiques-musculation-poignees-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/kit-8-elastiques-musculation-poignees-photo-1.webp",
+      "/uploads/quick-products/kit-8-elastiques-musculation-poignees-photo-2.webp",
+      "/uploads/quick-products/kit-8-elastiques-musculation-poignees-photo-3.webp",
+      "/uploads/quick-products/kit-8-elastiques-musculation-poignees-photo-4.webp",
+      "/uploads/quick-products/kit-8-elastiques-musculation-poignees-photo-5.webp",
+      "/uploads/quick-products/kit-8-elastiques-musculation-poignees-photo-6.webp"
+    ],
+    "shortDescription": "Kit complet d elastiques de resistance avec poignees, sangles de cheville et ancrage de porte : une salle de sport dans un sac. Note 4.9.",
+    "description": "Kit de 8 elastiques de resistance avec poignees, sangles de cheville et ancrage de porte : en les combinant, on couvre les bras, le dos, les epaules, les pectoraux, les fessiers et les jambes, avec des resistances qui s additionnent pour progresser. Tout tient dans une pochette, ce qui permet de s entrainer chez soi, en vacances ou a l hotel sans abonnement ni machine. Utilise aussi en yoga, en pilates et en reeducation douce. Note 4.9 sur plus de 4 100 avis, 10 000 ventes.",
+    "features": [
+      "8 elastiques : resistances combinables et progressives",
+      "Poignees, sangles de cheville et ancrage de porte inclus",
+      "Tout le corps, tient dans une pochette"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008248145097.html",
+      "supplierSku": "AE-ITEM-1005008248145097",
+      "supplierPriceCents": 247,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 890,
+      "marginCents": 643,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008248145097.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 260,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.47 EUR, boutique 8.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:32:09.440Z"
+    },
+    "price": 890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008248145097.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008248145097 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Kit 8 élastiques de musculation avec poignées | Maxi Trouvaille",
+      "description": "Kit complet d elastiques de resistance avec poignees, sangles de cheville et ancrage de porte : une salle de sport dans un sac. Note 4.9.",
+      "h1": "Kit 8 élastiques de musculation avec poignées",
+      "h2": "Pourquoi choisir Kit 8 élastiques de musculation avec poignées",
+      "keywords": [
+        "kit",
+        "elastiques",
+        "musculation",
+        "poignees",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Kit 8 élastiques de musculation avec poignées - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Kit 8 élastiques de musculation avec poignées - beaute Maxi Trouvaille",
+    "compareAtPrice": 1290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_support_ordinateur_portable_aluminium_re_001",
+    "slug": "support-ordinateur-portable-aluminium-reglable",
+    "name": "Support ordinateur portable aluminium réglable",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/support-ordinateur-portable-aluminium-reglable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/support-ordinateur-portable-aluminium-reglable-photo-1.webp",
+      "/uploads/quick-products/support-ordinateur-portable-aluminium-reglable-photo-2.webp",
+      "/uploads/quick-products/support-ordinateur-portable-aluminium-reglable-photo-3.webp",
+      "/uploads/quick-products/support-ordinateur-portable-aluminium-reglable-photo-4.webp",
+      "/uploads/quick-products/support-ordinateur-portable-aluminium-reglable-photo-5.webp",
+      "/uploads/quick-products/support-ordinateur-portable-aluminium-reglable-photo-6.webp"
+    ],
+    "shortDescription": "Support en aluminium reglable pour ordinateur portable : remonte l ecran a hauteur des yeux et ventile la machine. Note 4.9.",
+    "description": "Support en alliage d aluminium pour ordinateur portable : il remonte l ecran a hauteur des yeux, ce qui soulage la nuque et le dos apres quelques heures de travail ou de jeu, et laisse l air circuler sous la machine pour limiter la chauffe et le bruit des ventilateurs. Hauteur et inclinaison reglables, patins qui ne rayent pas le chassis, structure stable meme en tapant vite. Il se plie a plat pour suivre en deplacement. Compatible 11 a 17 pouces. Note 4.9 sur plus de 2 700 avis, 10 000 ventes.",
+    "features": [
+      "Ecran a hauteur des yeux : soulage nuque et dos",
+      "Aluminium : ventile et limite la chauffe",
+      "Hauteur et inclinaison reglables, se plie a plat"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008932937285.html",
+      "supplierSku": "AE-ITEM-1005008932937285",
+      "supplierPriceCents": 1269,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2890,
+      "marginCents": 1621,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008932937285.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 128,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 12.69 EUR, boutique 28.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:32:09.802Z"
+    },
+    "price": 2890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008932937285.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008932937285 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Support ordinateur portable aluminium réglable | Maxi Trouvaille",
+      "description": "Support en aluminium reglable pour ordinateur portable : remonte l ecran a hauteur des yeux et ventile la machine. Note 4.9.",
+      "h1": "Support ordinateur portable aluminium réglable",
+      "h2": "Pourquoi choisir Support ordinateur portable aluminium réglable",
+      "keywords": [
+        "support",
+        "ordinateur",
+        "portable",
+        "aluminium",
+        "reglable",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Support ordinateur portable aluminium réglable - gaming Maxi Trouvaille"
+    },
+    "imageAlt": "Support ordinateur portable aluminium réglable - gaming Maxi Trouvaille",
+    "compareAtPrice": 3990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_planche_a_decouper_bambou_double_face_001",
+    "slug": "planche-a-decouper-bambou-double-face",
+    "name": "Planche à découper bambou double face",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/planche-a-decouper-bambou-double-face-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/planche-a-decouper-bambou-double-face-photo-1.webp",
+      "/uploads/quick-products/planche-a-decouper-bambou-double-face-photo-2.webp",
+      "/uploads/quick-products/planche-a-decouper-bambou-double-face-photo-3.webp",
+      "/uploads/quick-products/planche-a-decouper-bambou-double-face-photo-4.webp",
+      "/uploads/quick-products/planche-a-decouper-bambou-double-face-photo-5.webp",
+      "/uploads/quick-products/planche-a-decouper-bambou-double-face-photo-6.webp"
+    ],
+    "shortDescription": "Planche a decouper en bambou double face avec support vertical : une face viande, une face legumes, elle seche debout. Note 4.7.",
+    "description": "Planche a decouper en bambou Moso double face avec support vertical : une face pour la viande crue, l autre pour les legumes et le pain, ce qui evite les melanges. Le bambou est naturellement plus dense que le bois classique, il marque moins sous le couteau et resiste mieux a l humidite. La rainure recupere le jus au lieu de le laisser couler sur le plan de travail, et le support permet de la faire secher debout plutot que de la voir moisir a plat. Note 4.7.",
+    "features": [
+      "Double face : viande d un cote, legumes de l autre",
+      "Bambou dense : marque peu, resiste a l humidite",
+      "Rainure a jus + support vertical pour secher"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010537825330.html",
+      "supplierSku": "AE-ITEM-1005010537825330",
+      "supplierPriceCents": 1179,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2690,
+      "marginCents": 1511,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010537825330.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 128,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 11.79 EUR, boutique 26.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:32:11.579Z"
+    },
+    "price": 2690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010537825330.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010537825330 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Planche à découper bambou double face | Maxi Trouvaille",
+      "description": "Planche a decouper en bambou double face avec support vertical : une face viande, une face legumes, elle seche debout. Note 4.7.",
+      "h1": "Planche à découper bambou double face",
+      "h2": "Pourquoi choisir Planche à découper bambou double face",
+      "keywords": [
+        "planche",
+        "decouper",
+        "bambou",
+        "double",
+        "face",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Planche à découper bambou double face - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Planche à découper bambou double face - cuisine Maxi Trouvaille",
+    "compareAtPrice": 3690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_rasoir_electrique_enchen_blackstone_3d_001",
+    "slug": "rasoir-electrique-enchen-blackstone-3d",
+    "name": "Rasoir électrique ENCHEN Blackstone 3D",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/rasoir-electrique-enchen-blackstone-3d-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/rasoir-electrique-enchen-blackstone-3d-photo-1.webp",
+      "/uploads/quick-products/rasoir-electrique-enchen-blackstone-3d-photo-2.webp",
+      "/uploads/quick-products/rasoir-electrique-enchen-blackstone-3d-photo-3.webp",
+      "/uploads/quick-products/rasoir-electrique-enchen-blackstone-3d-photo-4.webp",
+      "/uploads/quick-products/rasoir-electrique-enchen-blackstone-3d-photo-5.webp",
+      "/uploads/quick-products/rasoir-electrique-enchen-blackstone-3d-photo-6.webp"
+    ],
+    "shortDescription": "Rasoir rotatif ENCHEN Blackstone a trois tetes flottantes, lavable et rechargeable USB-C. Note 4.7 sur plus de 6 800 avis.",
+    "description": "Rasoir electrique rotatif ENCHEN Blackstone a trois tetes flottantes : elles suivent les creux du menton, de la machoire et du cou, la ou un rasoir rigide saute et irrite. Tete entierement lavable a l eau courante, recharge USB-C, utilisable a sec ou sous la douche avec de la mousse. Autonomie confortable et format compact qui se glisse dans un sac de voyage. ENCHEN est une marque etablie du rasage electrique. Note 4.7 sur plus de 6 800 avis, 10 000 ventes.",
+    "features": [
+      "Trois tetes flottantes 3D : suivent les creux du visage",
+      "Lavable a l eau, utilisable a sec ou sous la douche",
+      "Recharge USB-C, format voyage"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005902976406.html",
+      "supplierSku": "AE-ITEM-1005005902976406",
+      "supplierPriceCents": 1379,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3090,
+      "marginCents": 1711,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005902976406.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 124,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 13.79 EUR, boutique 30.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:32:13.019Z"
+    },
+    "price": 3090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005902976406.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005902976406 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Rasoir électrique ENCHEN Blackstone 3D | Maxi Trouvaille",
+      "description": "Rasoir rotatif ENCHEN Blackstone a trois tetes flottantes, lavable et rechargeable USB-C. Note 4.7 sur plus de 6 800 avis.",
+      "h1": "Rasoir électrique ENCHEN Blackstone 3D",
+      "h2": "Pourquoi choisir Rasoir électrique ENCHEN Blackstone 3D",
+      "keywords": [
+        "rasoir",
+        "electrique",
+        "enchen",
+        "blackstone",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Rasoir électrique ENCHEN Blackstone 3D - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Rasoir électrique ENCHEN Blackstone 3D - beaute Maxi Trouvaille",
+    "compareAtPrice": 4190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_cadre_photo_numerique_wifi_10_pouces_001",
+    "slug": "cadre-photo-numerique-wifi-10-pouces",
+    "name": "Cadre photo numérique WiFi 10 pouces",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/cadre-photo-numerique-wifi-10-pouces-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/cadre-photo-numerique-wifi-10-pouces-photo-1.webp",
+      "/uploads/quick-products/cadre-photo-numerique-wifi-10-pouces-photo-2.webp",
+      "/uploads/quick-products/cadre-photo-numerique-wifi-10-pouces-photo-3.webp",
+      "/uploads/quick-products/cadre-photo-numerique-wifi-10-pouces-photo-4.webp",
+      "/uploads/quick-products/cadre-photo-numerique-wifi-10-pouces-photo-5.webp",
+      "/uploads/quick-products/cadre-photo-numerique-wifi-10-pouces-photo-6.webp"
+    ],
+    "shortDescription": "Cadre photo numerique WiFi 10 pouces : la famille envoie les photos depuis son telephone, elles s affichent toutes seules. Note 4.8.",
+    "description": "Cadre photo numerique connecte de 10,1 pouces avec ecran tactile IPS : une fois relie au WiFi, n importe qui dans la famille peut lui envoyer des photos depuis son telephone, ou qu il soit, et elles apparaissent immediatement sur le cadre. Aucune manipulation pour la personne qui le recoit — c est ce qui en fait un cadeau apprecie des grands-parents. Memoire integree, diaporama automatique, orientation portrait ou paysage, fixation murale possible. Note 4.8.",
+    "features": [
+      "La famille envoie les photos depuis le telephone, a distance",
+      "Ecran tactile IPS 10,1 pouces, diaporama automatique",
+      "Aucune manipulation pour celui qui le recoit"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005545336780.html",
+      "supplierSku": "AE-ITEM-1005005545336780",
+      "supplierPriceCents": 6669,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 10090,
+      "marginCents": 3421,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005545336780.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (3000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 66.69 EUR, boutique 100.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:38:27.571Z"
+    },
+    "price": 10090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005545336780.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005545336780 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Cadre photo numérique WiFi 10 pouces | Maxi Trouvaille",
+      "description": "Cadre photo numerique WiFi 10 pouces : la famille envoie les photos depuis son telephone, elles s affichent toutes seules. Note 4.8.",
+      "h1": "Cadre photo numérique WiFi 10 pouces",
+      "h2": "Pourquoi choisir Cadre photo numérique WiFi 10 pouces",
+      "keywords": [
+        "cadre",
+        "photo",
+        "numerique",
+        "wifi",
+        "pouces",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Cadre photo numérique WiFi 10 pouces - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Cadre photo numérique WiFi 10 pouces - high-tech Maxi Trouvaille",
+    "compareAtPrice": 13690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_ecran_carplay_sans_fil_portable_voiture_001",
+    "slug": "ecran-carplay-sans-fil-portable-voiture",
+    "name": "Écran CarPlay sans fil portable",
+    "categoryId": "dropshipping-auto-moto",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/ecran-carplay-sans-fil-portable-voiture-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/ecran-carplay-sans-fil-portable-voiture-photo-1.webp",
+      "/uploads/quick-products/ecran-carplay-sans-fil-portable-voiture-photo-2.webp",
+      "/uploads/quick-products/ecran-carplay-sans-fil-portable-voiture-photo-3.webp",
+      "/uploads/quick-products/ecran-carplay-sans-fil-portable-voiture-photo-4.webp",
+      "/uploads/quick-products/ecran-carplay-sans-fil-portable-voiture-photo-5.webp",
+      "/uploads/quick-products/ecran-carplay-sans-fil-portable-voiture-photo-6.webp"
+    ],
+    "shortDescription": "Ecran tactile CarPlay et Android Auto sans fil : ajoute le GPS et la musique du telephone a une voiture qui n a rien. Note 4.9.",
+    "description": "Ecran tactile portable compatible CarPlay et Android Auto en sans fil : il donne a une voiture ancienne le GPS plein ecran, la musique, les appels et les messages dictes, sans changer l autoradio ni couper un seul fil. Il se pose sur le tableau de bord ou le pare-brise et s alimente sur l allume-cigare. Le telephone se connecte tout seul au demarrage. Se demonte en quelques secondes pour changer de vehicule ou eviter de le laisser en vue. Note 4.9 sur plus de 2 300 avis, 10 000 ventes.",
+    "features": [
+      "CarPlay et Android Auto sans fil, connexion automatique",
+      "Aucun demontage : se pose et s alimente sur l allume-cigare",
+      "GPS plein ecran, musique, appels et messages"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010114751081.html",
+      "supplierSku": "AE-ITEM-1005010114751081",
+      "supplierPriceCents": 5539,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 8390,
+      "marginCents": 2851,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010114751081.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 55.39 EUR, boutique 83.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:38:29.077Z"
+    },
+    "price": 8390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010114751081.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010114751081 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Écran CarPlay sans fil portable | Maxi Trouvaille",
+      "description": "Ecran tactile CarPlay et Android Auto sans fil : ajoute le GPS et la musique du telephone a une voiture qui n a rien. Note 4.9.",
+      "h1": "Écran CarPlay sans fil portable",
+      "h2": "Pourquoi choisir Écran CarPlay sans fil portable",
+      "keywords": [
+        "ecran",
+        "carplay",
+        "sans",
+        "fil",
+        "portable",
+        "voiture",
+        "dropshipping-auto-moto"
+      ],
+      "imageAlt": "Écran CarPlay sans fil portable - auto-moto Maxi Trouvaille"
+    },
+    "imageAlt": "Écran CarPlay sans fil portable - auto-moto Maxi Trouvaille",
+    "compareAtPrice": 11390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_arbre_a_chat_170cm_multi_niveaux_001",
+    "slug": "arbre-a-chat-170cm-multi-niveaux",
+    "name": "Arbre à chat 170 cm multi-niveaux",
+    "categoryId": "dropshipping-animaux",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/arbre-a-chat-170cm-multi-niveaux-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/arbre-a-chat-170cm-multi-niveaux-photo-1.webp",
+      "/uploads/quick-products/arbre-a-chat-170cm-multi-niveaux-photo-2.webp",
+      "/uploads/quick-products/arbre-a-chat-170cm-multi-niveaux-photo-3.webp",
+      "/uploads/quick-products/arbre-a-chat-170cm-multi-niveaux-photo-4.webp",
+      "/uploads/quick-products/arbre-a-chat-170cm-multi-niveaux-photo-5.webp",
+      "/uploads/quick-products/arbre-a-chat-170cm-multi-niveaux-photo-6.webp"
+    ],
+    "shortDescription": "Arbre a chat de 170 cm avec plateformes, niche et poteaux a griffer : expedie depuis l Allemagne, note 4.9.",
+    "description": "Arbre a chat de 170 cm a plusieurs niveaux : plateformes en hauteur pour observer la piece, niche fermee pour dormir au calme et poteaux entoures de sisal qui detournent les griffes du canape et des rideaux. Structure stable avec fixation murale de securite, tapis lavables en machine, montage explique etape par etape. Il occupe un chat d interieur qui s ennuie et lui rend de la hauteur. Expedie depuis un entrepot allemand, donc livraison nettement plus rapide que la moyenne. Note 4.9.",
+    "features": [
+      "170 cm : plateformes, niche fermee, poteaux en sisal",
+      "Detourne les griffes du canape et des rideaux",
+      "Expedie d Allemagne : livraison rapide. Tapis lavables"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008998367322.html",
+      "supplierSku": "AE-ITEM-1005008998367322",
+      "supplierPriceCents": 6499,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 9790,
+      "marginCents": 3291,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008998367322.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 64.99 EUR, boutique 97.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:38:30.098Z"
+    },
+    "price": 9790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008998367322.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008998367322 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Arbre à chat 170 cm multi-niveaux | Maxi Trouvaille",
+      "description": "Arbre a chat de 170 cm avec plateformes, niche et poteaux a griffer : expedie depuis l Allemagne, note 4.9.",
+      "h1": "Arbre à chat 170 cm multi-niveaux",
+      "h2": "Pourquoi choisir Arbre à chat 170 cm multi-niveaux",
+      "keywords": [
+        "arbre",
+        "chat",
+        "170cm",
+        "multi",
+        "niveaux",
+        "dropshipping-animaux"
+      ],
+      "imageAlt": "Arbre à chat 170 cm multi-niveaux - animaux Maxi Trouvaille"
+    },
+    "imageAlt": "Arbre à chat 170 cm multi-niveaux - animaux Maxi Trouvaille",
+    "compareAtPrice": 13290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_machine_a_glacons_portable_12kg_001",
+    "slug": "machine-a-glacons-portable-12kg",
+    "name": "Machine à glaçons portable 12 kg/24h",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/machine-a-glacons-portable-12kg-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/machine-a-glacons-portable-12kg-photo-1.webp",
+      "/uploads/quick-products/machine-a-glacons-portable-12kg-photo-2.webp",
+      "/uploads/quick-products/machine-a-glacons-portable-12kg-photo-3.webp",
+      "/uploads/quick-products/machine-a-glacons-portable-12kg-photo-4.webp",
+      "/uploads/quick-products/machine-a-glacons-portable-12kg-photo-5.webp",
+      "/uploads/quick-products/machine-a-glacons-portable-12kg-photo-6.webp"
+    ],
+    "shortDescription": "Machine a glacons de comptoir : 8 glacons en 6 a 13 minutes, jusqu a 12 kg par jour. Expediee d Allemagne. Note 4.9.",
+    "description": "Machine a glacons de comptoir : on remplit le reservoir de 0,8 L, on appuie, et huit glacons sortent en six a treize minutes, jusqu a douze kilos sur vingt-quatre heures. Deux tailles de glacons au choix, fonction auto-nettoyage, voyant quand le bac est plein ou le reservoir vide. Elle remplace les bacs du congelateur qui prennent la place et gardent le gout des aliments, et suit en soiree, en van ou au bord de la piscine. Expediee depuis un entrepot allemand, donc livraison rapide. Note 4.9.",
+    "features": [
+      "8 glacons en 6 a 13 minutes, 12 kg par jour",
+      "Deux tailles au choix, auto-nettoyage",
+      "Expediee d Allemagne : livraison rapide"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005011939304911.html",
+      "supplierSku": "AE-ITEM-1005011939304911",
+      "supplierPriceCents": 6732,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 10190,
+      "marginCents": 3458,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005011939304911.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (1000+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 67.32 EUR, boutique 101.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:42:54.104Z"
+    },
+    "price": 10190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005011939304911.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005011939304911 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Machine à glaçons portable 12 kg/24h | Maxi Trouvaille",
+      "description": "Machine a glacons de comptoir : 8 glacons en 6 a 13 minutes, jusqu a 12 kg par jour. Expediee d Allemagne. Note 4.9.",
+      "h1": "Machine à glaçons portable 12 kg/24h",
+      "h2": "Pourquoi choisir Machine à glaçons portable 12 kg/24h",
+      "keywords": [
+        "machine",
+        "glacons",
+        "portable",
+        "12kg",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Machine à glaçons portable 12 kg/24h - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Machine à glaçons portable 12 kg/24h - cuisine Maxi Trouvaille",
+    "compareAtPrice": 13790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_defroisseur_vapeur_portable_pliable_001",
+    "slug": "defroisseur-vapeur-portable-pliable",
+    "name": "Défroisseur vapeur portable pliable",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/defroisseur-vapeur-portable-pliable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/defroisseur-vapeur-portable-pliable-photo-1.webp",
+      "/uploads/quick-products/defroisseur-vapeur-portable-pliable-photo-2.webp",
+      "/uploads/quick-products/defroisseur-vapeur-portable-pliable-photo-3.webp",
+      "/uploads/quick-products/defroisseur-vapeur-portable-pliable-photo-4.webp",
+      "/uploads/quick-products/defroisseur-vapeur-portable-pliable-photo-5.webp",
+      "/uploads/quick-products/defroisseur-vapeur-portable-pliable-photo-6.webp"
+    ],
+    "shortDescription": "Defroisseur vapeur a main pliable : defroisse une chemise sur cintre en deux minutes, sans planche a repasser. Note 4.8.",
+    "description": "Defroisseur vapeur portable et pliable : la chemise, la robe ou le rideau se defroissent directement sur le cintre, sans sortir la planche a repasser ni attendre que le fer chauffe. La vapeur assainit aussi les tissus qui ne passent pas en machine — canape, matelas, rideaux, peluches. Chauffe en quelques dizaines de secondes, poignee qui se replie pour tenir dans une valise, arret automatique quand le reservoir est vide. Note 4.8 sur plus de 1 500 avis, 10 000 ventes.",
+    "features": [
+      "Defroisse sur cintre, sans planche a repasser",
+      "Assainit canape, matelas, rideaux et peluches",
+      "Se plie pour la valise, arret automatique"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006641990725.html",
+      "supplierSku": "AE-ITEM-1005006641990725",
+      "supplierPriceCents": 3519,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 5690,
+      "marginCents": 2171,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006641990725.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 62,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 35.19 EUR, boutique 56.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:42:54.702Z"
+    },
+    "price": 5690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006641990725.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006641990725 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Défroisseur vapeur portable pliable | Maxi Trouvaille",
+      "description": "Defroisseur vapeur a main pliable : defroisse une chemise sur cintre en deux minutes, sans planche a repasser. Note 4.8.",
+      "h1": "Défroisseur vapeur portable pliable",
+      "h2": "Pourquoi choisir Défroisseur vapeur portable pliable",
+      "keywords": [
+        "defroisseur",
+        "vapeur",
+        "portable",
+        "pliable",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Défroisseur vapeur portable pliable - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Défroisseur vapeur portable pliable - maison Maxi Trouvaille",
+    "compareAtPrice": 7690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_boite_rangement_compartiments_vis_001",
+    "slug": "boite-rangement-compartiments-vis",
+    "name": "Boîte de rangement à compartiments",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/boite-rangement-compartiments-vis-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/boite-rangement-compartiments-vis-photo-1.webp",
+      "/uploads/quick-products/boite-rangement-compartiments-vis-photo-2.webp",
+      "/uploads/quick-products/boite-rangement-compartiments-vis-photo-3.webp",
+      "/uploads/quick-products/boite-rangement-compartiments-vis-photo-4.webp",
+      "/uploads/quick-products/boite-rangement-compartiments-vis-photo-5.webp",
+      "/uploads/quick-products/boite-rangement-compartiments-vis-photo-6.webp"
+    ],
+    "shortDescription": "Boite a compartiments reglables pour vis, chevilles et petites pieces : on retrouve la bonne vis en trois secondes. Note 4.8.",
+    "description": "Boite de rangement a compartiments reglables : les separateurs se deplacent pour adapter les cases aux vis, chevilles, forets, embouts, piles boutons ou composants electroniques. Couvercle transparent qui se ferme a clip, donc rien ne se melange dans le coffre ou l atelier, et on voit ce qu il y a dedans sans ouvrir. Empilable avec d autres du meme modele. Sert aussi pour les perles, les medicaments ou le materiel de peche. Note 4.8 sur plus de 2 400 avis, 10 000 ventes.",
+    "features": [
+      "Compartiments reglables selon ce qu on range",
+      "Couvercle transparent a clip : rien ne se melange",
+      "Empilable, atelier, coffre, peche, loisirs creatifs"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010427463563.html",
+      "supplierSku": "AE-ITEM-1005010427463563",
+      "supplierPriceCents": 659,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1890,
+      "marginCents": 1231,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010427463563.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 187,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 6.59 EUR, boutique 18.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:42:55.160Z"
+    },
+    "price": 1890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010427463563.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010427463563 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Boîte de rangement à compartiments | Maxi Trouvaille",
+      "description": "Boite a compartiments reglables pour vis, chevilles et petites pieces : on retrouve la bonne vis en trois secondes. Note 4.8.",
+      "h1": "Boîte de rangement à compartiments",
+      "h2": "Pourquoi choisir Boîte de rangement à compartiments",
+      "keywords": [
+        "boite",
+        "rangement",
+        "compartiments",
+        "vis",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Boîte de rangement à compartiments - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Boîte de rangement à compartiments - outillage Maxi Trouvaille",
+    "compareAtPrice": 2590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_mini_lisseur_boucleur_2en1_ceramique_001",
+    "slug": "mini-lisseur-boucleur-2en1-ceramique",
+    "name": "Mini lisseur boucleur 2 en 1 céramique",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/mini-lisseur-boucleur-2en1-ceramique-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/mini-lisseur-boucleur-2en1-ceramique-photo-1.webp",
+      "/uploads/quick-products/mini-lisseur-boucleur-2en1-ceramique-photo-2.webp",
+      "/uploads/quick-products/mini-lisseur-boucleur-2en1-ceramique-photo-3.webp",
+      "/uploads/quick-products/mini-lisseur-boucleur-2en1-ceramique-photo-4.webp",
+      "/uploads/quick-products/mini-lisseur-boucleur-2en1-ceramique-photo-5.webp",
+      "/uploads/quick-products/mini-lisseur-boucleur-2en1-ceramique-photo-6.webp"
+    ],
+    "shortDescription": "Mini lisseur et boucleur 2 en 1 en ceramique : lisse ou boucle selon le geste, format voyage. Note 4.9.",
+    "description": "Mini fer 2 en 1 a plaques ceramique : plat il lisse, tourne il boucle, ce qui evite d acheter deux appareils. Les plaques ceramique chauffent uniformement et glissent sans tirer sur le cheveu, la temperature monte en une trentaine de secondes. Son format court le rend maniable sur les cheveux courts, la frange, les meches du visage et la barbe, et il tient dans une trousse de toilette. Note 4.9.",
+    "features": [
+      "Lisse et boucle avec le meme appareil",
+      "Plaques ceramique : chauffe uniforme, glisse sans tirer",
+      "Format court et voyage, chauffe en 30 secondes"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007038722017.html",
+      "supplierSku": "AE-ITEM-1005007038722017",
+      "supplierPriceCents": 1489,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3290,
+      "marginCents": 1801,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007038722017.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (3000+ ventes, visuels officiels importes).",
+      "markupPercent": 121,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 14.89 EUR, boutique 32.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:42:55.510Z"
+    },
+    "price": 3290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007038722017.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007038722017 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Mini lisseur boucleur 2 en 1 céramique | Maxi Trouvaille",
+      "description": "Mini lisseur et boucleur 2 en 1 en ceramique : lisse ou boucle selon le geste, format voyage. Note 4.9.",
+      "h1": "Mini lisseur boucleur 2 en 1 céramique",
+      "h2": "Pourquoi choisir Mini lisseur boucleur 2 en 1 céramique",
+      "keywords": [
+        "mini",
+        "lisseur",
+        "boucleur",
+        "2en1",
+        "ceramique",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Mini lisseur boucleur 2 en 1 céramique - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Mini lisseur boucleur 2 en 1 céramique - beaute Maxi Trouvaille",
+    "compareAtPrice": 4490,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_tapis_de_souris_xxl_90x40_bureau_001",
+    "slug": "tapis-de-souris-xxl-90x40-bureau",
+    "name": "Tapis de souris XXL 90x40 cm",
+    "categoryId": "dropshipping-gaming",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/tapis-de-souris-xxl-90x40-bureau-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/tapis-de-souris-xxl-90x40-bureau-photo-1.webp",
+      "/uploads/quick-products/tapis-de-souris-xxl-90x40-bureau-photo-2.webp",
+      "/uploads/quick-products/tapis-de-souris-xxl-90x40-bureau-photo-3.webp",
+      "/uploads/quick-products/tapis-de-souris-xxl-90x40-bureau-photo-4.webp",
+      "/uploads/quick-products/tapis-de-souris-xxl-90x40-bureau-photo-5.webp",
+      "/uploads/quick-products/tapis-de-souris-xxl-90x40-bureau-photo-6.webp"
+    ],
+    "shortDescription": "Grand tapis de souris 90 x 40 cm qui couvre clavier et souris : glisse reguliere et bureau protege. Note 4.8.",
+    "description": "Tapis de souris grand format 90 x 40 cm : il passe sous le clavier et la souris d un seul tenant, ce qui donne une surface de glisse homogene sur toute l amplitude du bras, utile en jeu comme au travail. Surface tissee fine pour un deplacement precis, base caoutchouc antiderapante qui ne bouge pas d un millimetre, bords surpiques qui ne s effilochent pas au bout de quelques mois. Il protege aussi le bureau des rayures et des traces de tasse. Note 4.8 sur plus de 1 100 avis, 10 000 ventes.",
+    "features": [
+      "90 x 40 cm : clavier et souris sur la meme surface",
+      "Base antiderapante, bords surpiques anti-effilochage",
+      "Surface tissee fine : glisse precise"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005814603086.html",
+      "supplierSku": "AE-ITEM-1005005814603086",
+      "supplierPriceCents": 419,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1190,
+      "marginCents": 771,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005814603086.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 184,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.19 EUR, boutique 11.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:46:39.426Z"
+    },
+    "price": 1190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005814603086.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005814603086 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Tapis de souris XXL 90x40 cm | Maxi Trouvaille",
+      "description": "Grand tapis de souris 90 x 40 cm qui couvre clavier et souris : glisse reguliere et bureau protege. Note 4.8.",
+      "h1": "Tapis de souris XXL 90x40 cm",
+      "h2": "Pourquoi choisir Tapis de souris XXL 90x40 cm",
+      "keywords": [
+        "tapis",
+        "souris",
+        "xxl",
+        "90x40",
+        "bureau",
+        "dropshipping-gaming"
+      ],
+      "imageAlt": "Tapis de souris XXL 90x40 cm - gaming Maxi Trouvaille"
+    },
+    "imageAlt": "Tapis de souris XXL 90x40 cm - gaming Maxi Trouvaille",
+    "compareAtPrice": 1690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_gourde_isotherme_inox_304_paille_001",
+    "slug": "gourde-isotherme-inox-304-paille",
+    "name": "Gourde isotherme inox 304 avec paille",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/gourde-isotherme-inox-304-paille-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/gourde-isotherme-inox-304-paille-photo-1.webp",
+      "/uploads/quick-products/gourde-isotherme-inox-304-paille-photo-2.webp",
+      "/uploads/quick-products/gourde-isotherme-inox-304-paille-photo-3.webp",
+      "/uploads/quick-products/gourde-isotherme-inox-304-paille-photo-4.webp",
+      "/uploads/quick-products/gourde-isotherme-inox-304-paille-photo-5.webp",
+      "/uploads/quick-products/gourde-isotherme-inox-304-paille-photo-6.webp"
+    ],
+    "shortDescription": "Bouteille isotherme en inox 304 double paroi : garde froid ou chaud des heures, avec paille et poignee. Note 4.7.",
+    "description": "Gourde isotherme en acier inoxydable 304 a double paroi sous vide : l eau reste fraiche toute une journee d ete et le the reste chaud plusieurs heures, sans condensation sur les doigts ni gout de metal. Bouchon a paille pour boire sans devisser, poignee de transport, joint etanche qui ne fuit pas dans un sac. L inox 304 est la qualite alimentaire de reference, contrairement aux plastiques qui marquent avec le temps. Note 4.7 sur plus de 1 800 avis, 10 000 ventes.",
+    "features": [
+      "Double paroi sous vide : froid ou chaud des heures",
+      "Inox 304 alimentaire, sans gout de metal",
+      "Bouchon a paille, poignee, joint etanche"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006782010244.html",
+      "supplierSku": "AE-ITEM-1005006782010244",
+      "supplierPriceCents": 1499,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3390,
+      "marginCents": 1891,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006782010244.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 126,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 14.99 EUR, boutique 33.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:46:40.046Z"
+    },
+    "price": 3390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006782010244.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006782010244 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Gourde isotherme inox 304 avec paille | Maxi Trouvaille",
+      "description": "Bouteille isotherme en inox 304 double paroi : garde froid ou chaud des heures, avec paille et poignee. Note 4.7.",
+      "h1": "Gourde isotherme inox 304 avec paille",
+      "h2": "Pourquoi choisir Gourde isotherme inox 304 avec paille",
+      "keywords": [
+        "gourde",
+        "isotherme",
+        "inox",
+        "304",
+        "paille",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Gourde isotherme inox 304 avec paille - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Gourde isotherme inox 304 avec paille - cuisine Maxi Trouvaille",
+    "compareAtPrice": 4590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_kit_arrosage_goutte_a_goutte_automatique_001",
+    "slug": "kit-arrosage-goutte-a-goutte-automatique",
+    "name": "Kit d'arrosage goutte-à-goutte automatique",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/kit-arrosage-goutte-a-goutte-automatique-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/kit-arrosage-goutte-a-goutte-automatique-photo-1.webp",
+      "/uploads/quick-products/kit-arrosage-goutte-a-goutte-automatique-photo-2.webp",
+      "/uploads/quick-products/kit-arrosage-goutte-a-goutte-automatique-photo-3.webp",
+      "/uploads/quick-products/kit-arrosage-goutte-a-goutte-automatique-photo-4.webp",
+      "/uploads/quick-products/kit-arrosage-goutte-a-goutte-automatique-photo-5.webp",
+      "/uploads/quick-products/kit-arrosage-goutte-a-goutte-automatique-photo-6.webp"
+    ],
+    "shortDescription": "Kit d arrosage goutte-a-goutte a buses reglables : les plantes sont arrosees toutes seules, meme pendant les vacances. Note 4.9.",
+    "description": "Kit d arrosage goutte-a-goutte complet : tuyau souple, raccords et buses reglables a repartir entre les pots, les jardinieres, la serre ou le potager. Chaque buse se dose independamment, du filet lent pour les plantes fragiles au jet plus large pour les gros pots. L eau va directement au pied, donc rien ne s evapore sur les feuilles et la consommation baisse nettement par rapport a l arrosoir. Associe a un programmateur, il gere l arrosage pendant les vacances. Note 4.9 sur plus de 1 500 avis, 10 000 ventes.",
+    "features": [
+      "Buses reglables individuellement selon la plante",
+      "L eau va au pied : moins d evaporation, moins de gaspillage",
+      "Pots, jardinieres, serre et potager, meme absent"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007037720187.html",
+      "supplierSku": "AE-ITEM-1005007037720187",
+      "supplierPriceCents": 979,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2190,
+      "marginCents": 1211,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007037720187.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 124,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 9.79 EUR, boutique 21.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T03:49:03.037Z"
+    },
+    "price": 2190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007037720187.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007037720187 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Kit d'arrosage goutte-à-goutte automatique | Maxi Trouvaille",
+      "description": "Kit d arrosage goutte-a-goutte a buses reglables : les plantes sont arrosees toutes seules, meme pendant les vacances. Note 4.9.",
+      "h1": "Kit d'arrosage goutte-à-goutte automatique",
+      "h2": "Pourquoi choisir Kit d'arrosage goutte-à-goutte automatique",
+      "keywords": [
+        "kit",
+        "arrosage",
+        "goutte",
+        "automatique",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Kit d'arrosage goutte-à-goutte automatique - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Kit d'arrosage goutte-à-goutte automatique - outillage Maxi Trouvaille",
+    "compareAtPrice": 2990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
