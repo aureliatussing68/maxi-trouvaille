@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-03T05:13:23.682Z",
+  "checkedAt": "2026-08-03T08:46:01.104Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 328,
-  "publishedPartnerCount": 269,
+  "partnerProductCount": 330,
+  "publishedPartnerCount": 271,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -5913,24 +5913,60 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_tondeuse_kemei_km_1506_3en1_001",
+      "slug": "tondeuse-kemei-km-1506-3en1",
+      "name": "Tondeuse Kemei KM-1506 3 en 1",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-beaute",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_verre_trempe_joyroom_iphone_lot_001",
+      "slug": "verre-trempe-joyroom-iphone-lot",
+      "name": "Verre trempé Joyroom pour iPhone",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-accessoires",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 324
+    "data/quick-products.json": 326
   },
   "byStatus": {
     "draft": 59,
-    "published": 269
+    "published": 271
   },
   "byCategory": {
     "dropshipping-high-tech": 38,
-    "dropshipping-accessoires": 34,
+    "dropshipping-accessoires": 35,
     "dropshipping-maison": 36,
     "dropshipping-auto-moto": 25,
     "dropshipping-cuisine": 42,
     "dropshipping-enfant": 24,
-    "dropshipping-beaute": 30,
+    "dropshipping-beaute": 31,
     "dropshipping-animaux": 26,
     "dropshipping-mode": 22,
     "dropshipping-outillage": 32,

@@ -32808,5 +32808,198 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_tondeuse_kemei_km_1506_3en1_001",
+    "slug": "tondeuse-kemei-km-1506-3en1",
+    "name": "Tondeuse Kemei KM-1506 3 en 1",
+    "categoryId": "dropshipping-beaute",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/tondeuse-kemei-km-1506-3en1-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/tondeuse-kemei-km-1506-3en1-photo-1.webp",
+      "/uploads/quick-products/tondeuse-kemei-km-1506-3en1-photo-2.webp",
+      "/uploads/quick-products/tondeuse-kemei-km-1506-3en1-photo-3.webp",
+      "/uploads/quick-products/tondeuse-kemei-km-1506-3en1-photo-4.webp",
+      "/uploads/quick-products/tondeuse-kemei-km-1506-3en1-photo-5.webp",
+      "/uploads/quick-products/tondeuse-kemei-km-1506-3en1-photo-6.webp"
+    ],
+    "shortDescription": "Tondeuse Kemei 3 en 1 : cheveux, barbe et poils du nez avec un seul appareil rechargeable USB. Note 4.9 sur 10 010 avis.",
+    "description": "Tondeuse Kemei KM-1506 trois en un : une tete pour les cheveux avec ses sabots, une tete de finition pour la barbe et les contours, et une tete specifique pour les poils du nez et des oreilles. Un seul appareil et une seule recharge USB au lieu de trois accessoires dispersés dans la salle de bain. Lames en acier inoxydable affutees, tetes lavables a l eau, format compact qui suit en voyage. Kemei est une marque etablie chez les coiffeurs et barbiers. Note 4.9 sur plus de 10 000 avis, 10 000 ventes.",
+    "features": [
+      "3 en 1 : cheveux, barbe, nez et oreilles",
+      "Recharge USB, un seul appareil a emporter",
+      "Lames acier inoxydable, tetes lavables. Marque Kemei"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007171285491.html",
+      "supplierSku": "AE-ITEM-1005007171285491",
+      "supplierPriceCents": 939,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2090,
+      "marginCents": 1151,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007171285491.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (10000+ ventes, visuels officiels importes).",
+      "markupPercent": 123,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 9.39 EUR, boutique 20.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T08:46:00.134Z"
+    },
+    "price": 2090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007171285491.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007171285491 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Tondeuse Kemei KM-1506 3 en 1 | Maxi Trouvaille",
+      "description": "Tondeuse Kemei 3 en 1 : cheveux, barbe et poils du nez avec un seul appareil rechargeable USB. Note 4.9 sur 10 010 avis.",
+      "h1": "Tondeuse Kemei KM-1506 3 en 1",
+      "h2": "Pourquoi choisir Tondeuse Kemei KM-1506 3 en 1",
+      "keywords": [
+        "tondeuse",
+        "kemei",
+        "1506",
+        "3en1",
+        "dropshipping-beaute"
+      ],
+      "imageAlt": "Tondeuse Kemei KM-1506 3 en 1 - beaute Maxi Trouvaille"
+    },
+    "imageAlt": "Tondeuse Kemei KM-1506 3 en 1 - beaute Maxi Trouvaille",
+    "compareAtPrice": 2890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_verre_trempe_joyroom_iphone_lot_001",
+    "slug": "verre-trempe-joyroom-iphone-lot",
+    "name": "Verre trempé Joyroom pour iPhone",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/verre-trempe-joyroom-iphone-lot-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/verre-trempe-joyroom-iphone-lot-photo-1.webp",
+      "/uploads/quick-products/verre-trempe-joyroom-iphone-lot-photo-2.webp",
+      "/uploads/quick-products/verre-trempe-joyroom-iphone-lot-photo-3.webp",
+      "/uploads/quick-products/verre-trempe-joyroom-iphone-lot-photo-4.webp",
+      "/uploads/quick-products/verre-trempe-joyroom-iphone-lot-photo-5.webp",
+      "/uploads/quick-products/verre-trempe-joyroom-iphone-lot-photo-6.webp"
+    ],
+    "shortDescription": "Verre trempe Joyroom plein ecran pour iPhone, avec gabarit de pose : pas de bulles, pas de travers. 14 436 avis.",
+    "description": "Protection d ecran en verre trempe Joyroom couvrant tout l ecran de l iPhone : durete elevee qui encaisse les chutes de cles dans la poche et les rayures du sable, sans alterer la sensibilite tactile ni la finesse de l appareil. Livre avec un gabarit de pose qui aligne le verre tout seul — c est ce qui evite les bulles et le collage de travers, la difficulte principale de ce type de produit. Lingettes de nettoyage incluses. Joyroom est une marque etablie de l accessoire mobile. Note 4.8 sur plus de 14 000 avis, 100 000 ventes.",
+    "features": [
+      "Gabarit de pose : ni bulles, ni pose de travers",
+      "Couvre tout l ecran, sensibilite tactile preservee",
+      "Marque Joyroom, lingettes de nettoyage incluses"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007708755344.html",
+      "supplierSku": "AE-ITEM-1005007708755344",
+      "supplierPriceCents": 519,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1490,
+      "marginCents": 971,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007708755344.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 187,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 5.19 EUR, boutique 14.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T08:46:00.574Z"
+    },
+    "price": 1490,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007708755344.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007708755344 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Verre trempé Joyroom pour iPhone | Maxi Trouvaille",
+      "description": "Verre trempe Joyroom plein ecran pour iPhone, avec gabarit de pose : pas de bulles, pas de travers. 14 436 avis.",
+      "h1": "Verre trempé Joyroom pour iPhone",
+      "h2": "Pourquoi choisir Verre trempé Joyroom pour iPhone",
+      "keywords": [
+        "verre",
+        "trempe",
+        "joyroom",
+        "iphone",
+        "lot",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Verre trempé Joyroom pour iPhone - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Verre trempé Joyroom pour iPhone - accessoires Maxi Trouvaille",
+    "compareAtPrice": 2090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
