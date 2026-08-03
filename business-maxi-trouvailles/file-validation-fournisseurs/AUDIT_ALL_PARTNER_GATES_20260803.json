@@ -1,9 +1,9 @@
 {
   "ok": true,
-  "checkedAt": "2026-08-03T04:37:17.727Z",
+  "checkedAt": "2026-08-03T05:03:33.793Z",
   "mode": "read_only_all_partner_publication_gate_audit",
-  "partnerProductCount": 321,
-  "publishedPartnerCount": 262,
+  "partnerProductCount": 322,
+  "publishedPartnerCount": 263,
   "draftHoldCount": 59,
   "failureCount": 0,
   "warningCount": 0,
@@ -5787,15 +5787,33 @@
       "holdSignalPresent": false,
       "problems": [],
       "warnings": []
+    },
+    {
+      "id": "ali_partner_20260803_sac_banane_multifonction_resistant_001",
+      "slug": "sac-banane-multifonction-resistant",
+      "name": "Sac banane multifonction résistant",
+      "origin": "data/quick-products.json",
+      "status": "published",
+      "categoryId": "dropshipping-mode",
+      "supplierUrlPresent": true,
+      "supplierUrlExactEnough": true,
+      "supplierSkuPresent": true,
+      "supplierPricePresent": true,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "imageValidation": "verified_source_images",
+      "validationGatePresent": true,
+      "holdSignalPresent": false,
+      "problems": [],
+      "warnings": []
     }
   ],
   "byOrigin": {
     "src/lib/catalog.ts": 4,
-    "data/quick-products.json": 317
+    "data/quick-products.json": 318
   },
   "byStatus": {
     "draft": 59,
-    "published": 262
+    "published": 263
   },
   "byCategory": {
     "dropshipping-high-tech": 37,
@@ -5806,7 +5824,7 @@
     "dropshipping-enfant": 23,
     "dropshipping-beaute": 29,
     "dropshipping-animaux": 26,
-    "dropshipping-mode": 21,
+    "dropshipping-mode": 22,
     "dropshipping-outillage": 31,
     "dropshipping-gaming": 19
   },
