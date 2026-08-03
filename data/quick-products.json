@@ -33677,5 +33677,679 @@
       "priceStatus": "validated",
       "rightsStatus": "validated"
     }
+  },
+  {
+    "id": "ali_partner_20260803_aspirateur_balai_xiaomi_g20_lite_001",
+    "slug": "aspirateur-balai-xiaomi-g20-lite",
+    "name": "Aspirateur balai Xiaomi G20 Lite",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/aspirateur-balai-xiaomi-g20-lite-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/aspirateur-balai-xiaomi-g20-lite-photo-1.webp",
+      "/uploads/quick-products/aspirateur-balai-xiaomi-g20-lite-photo-2.webp",
+      "/uploads/quick-products/aspirateur-balai-xiaomi-g20-lite-photo-3.webp",
+      "/uploads/quick-products/aspirateur-balai-xiaomi-g20-lite-photo-4.webp",
+      "/uploads/quick-products/aspirateur-balai-xiaomi-g20-lite-photo-5.webp",
+      "/uploads/quick-products/aspirateur-balai-xiaomi-g20-lite-photo-6.webp"
+    ],
+    "shortDescription": "Aspirateur balai Xiaomi G20 Lite : 18 000 Pa d aspiration, filtration cinq etages, sans fil. Materiel officiel expedie de France.",
+    "description": "Aspirateur balai sans fil Xiaomi G20 Lite : jusqu a 18 000 Pa d aspiration, assez pour extraire la poussiere incrustee dans un tapis et pas seulement ramasser ce qui traine en surface. Filtration en cinq etages qui retient les particules fines au lieu de les renvoyer dans la piece — utile en cas d allergies. Brosse motorisee anti-enroulement de cheveux, format leger qui se transforme en aspirateur a main pour la voiture et les escaliers, bac se videe sans toucher la poussiere. Materiel Xiaomi officiel, expedie depuis la France : livraison en quelques jours.",
+    "features": [
+      "18 000 Pa : extrait la poussiere des tapis",
+      "Filtration 5 etages : ne renvoie pas les particules fines",
+      "Se transforme en aspirateur a main. Officiel Xiaomi, expedie de France"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008644657321.html",
+      "supplierSku": "AE-ITEM-1005008644657321",
+      "supplierPriceCents": 9999,
+      "supplierStock": 40,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 15090,
+      "marginCents": 5091,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008644657321.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (262+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 99.99 EUR, boutique 150.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T09:17:29.660Z"
+    },
+    "price": 15090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008644657321.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008644657321 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Aspirateur balai Xiaomi G20 Lite | Maxi Trouvaille",
+      "description": "Aspirateur balai Xiaomi G20 Lite : 18 000 Pa d aspiration, filtration cinq etages, sans fil. Materiel officiel expedie de France.",
+      "h1": "Aspirateur balai Xiaomi G20 Lite",
+      "h2": "Pourquoi choisir Aspirateur balai Xiaomi G20 Lite",
+      "keywords": [
+        "aspirateur",
+        "balai",
+        "xiaomi",
+        "g20",
+        "lite",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Aspirateur balai Xiaomi G20 Lite - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Aspirateur balai Xiaomi G20 Lite - maison Maxi Trouvaille",
+    "compareAtPrice": 20390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_friteuse_air_xiaomi_6_5l_connectee_001",
+    "slug": "friteuse-air-xiaomi-6-5l-connectee",
+    "name": "Friteuse à air Xiaomi 6,5 L connectée",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/friteuse-air-xiaomi-6-5l-connectee-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/friteuse-air-xiaomi-6-5l-connectee-photo-1.webp",
+      "/uploads/quick-products/friteuse-air-xiaomi-6-5l-connectee-photo-2.webp",
+      "/uploads/quick-products/friteuse-air-xiaomi-6-5l-connectee-photo-3.webp",
+      "/uploads/quick-products/friteuse-air-xiaomi-6-5l-connectee-photo-4.webp",
+      "/uploads/quick-products/friteuse-air-xiaomi-6-5l-connectee-photo-5.webp",
+      "/uploads/quick-products/friteuse-air-xiaomi-6-5l-connectee-photo-6.webp"
+    ],
+    "shortDescription": "Friteuse a air Xiaomi 6,5 L pilotable au telephone : chauffe 360 degres, de 40 a 220 degres. Officielle, expediee de France.",
+    "description": "Friteuse a air Xiaomi de 6,5 litres avec chauffage a 360 degres : la circulation d air enveloppe les aliments et evite d avoir a secouer le panier a mi-cuisson. Plage de temperature large, de 40 degres pour faire lever une pate ou secher des fruits jusqu a 220 degres pour saisir, ce que la plupart des modeles ne permettent pas. Pilotable depuis le telephone via l application Xiaomi Home : on lance, on suit et on est prevenu a distance. Cuve amovible antiadhesive. Materiel Xiaomi officiel expedie depuis la France.",
+    "features": [
+      "6,5 L, chauffage 360 degres : pas besoin de secouer",
+      "De 40 a 220 degres : levee de pate, sechage, cuisson, saisie",
+      "Pilotage au telephone. Officielle Xiaomi, expediee de France"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007437686436.html",
+      "supplierSku": "AE-ITEM-1005007437686436",
+      "supplierPriceCents": 7999,
+      "supplierStock": 40,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 12090,
+      "marginCents": 4091,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007437686436.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (124+ ventes, visuels officiels importes).",
+      "markupPercent": 51,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 79.99 EUR, boutique 120.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T09:17:31.858Z"
+    },
+    "price": 12090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007437686436.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007437686436 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Friteuse à air Xiaomi 6,5 L connectée | Maxi Trouvaille",
+      "description": "Friteuse a air Xiaomi 6,5 L pilotable au telephone : chauffe 360 degres, de 40 a 220 degres. Officielle, expediee de France.",
+      "h1": "Friteuse à air Xiaomi 6,5 L connectée",
+      "h2": "Pourquoi choisir Friteuse à air Xiaomi 6,5 L connectée",
+      "keywords": [
+        "friteuse",
+        "air",
+        "xiaomi",
+        "connectee",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Friteuse à air Xiaomi 6,5 L connectée - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Friteuse à air Xiaomi 6,5 L connectée - cuisine Maxi Trouvaille",
+    "compareAtPrice": 16390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_cable_baseus_100w_usb_c_france_001",
+    "slug": "cable-baseus-100w-usb-c-france",
+    "name": "Câble Baseus 100W USB-C",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/cable-baseus-100w-usb-c-france-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/cable-baseus-100w-usb-c-france-photo-1.webp",
+      "/uploads/quick-products/cable-baseus-100w-usb-c-france-photo-2.webp",
+      "/uploads/quick-products/cable-baseus-100w-usb-c-france-photo-3.webp",
+      "/uploads/quick-products/cable-baseus-100w-usb-c-france-photo-4.webp",
+      "/uploads/quick-products/cable-baseus-100w-usb-c-france-photo-5.webp",
+      "/uploads/quick-products/cable-baseus-100w-usb-c-france-photo-6.webp"
+    ],
+    "shortDescription": "Cable Baseus USB-C 100W : note 5,0 sur 5 873 avis, expedie de France. La reference de la charge rapide.",
+    "description": "Cable de charge Baseus USB-C vers USB-C compatible Power Delivery 100W : il charge un MacBook, un iPad ou un telephone a pleine vitesse, et transporte aussi les donnees. Gaine renforcee et connecteurs moules qui resistent au pliage repete, la ou les cables d origine cassent au ras de la prise. Baseus est l une des marques les plus etablies de l accessoire mobile, et cette reference affiche une note de 5,0 sur pres de 5 900 avis — un score qu on ne voit presque jamais. Expedie depuis la France : livraison en quelques jours.",
+    "features": [
+      "100W Power Delivery : MacBook, iPad, telephone",
+      "Note 5,0 sur pres de 5 900 avis",
+      "Gaine renforcee, marque Baseus. Expedie de France"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006995405201.html",
+      "supplierSku": "AE-ITEM-1005006995405201",
+      "supplierPriceCents": 659,
+      "supplierStock": 40,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1890,
+      "marginCents": 1231,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006995405201.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 187,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 6.59 EUR, boutique 18.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T09:19:35.835Z"
+    },
+    "price": 1890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006995405201.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006995405201 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Câble Baseus 100W USB-C | Maxi Trouvaille",
+      "description": "Cable Baseus USB-C 100W : note 5,0 sur 5 873 avis, expedie de France. La reference de la charge rapide.",
+      "h1": "Câble Baseus 100W USB-C",
+      "h2": "Pourquoi choisir Câble Baseus 100W USB-C",
+      "keywords": [
+        "cable",
+        "baseus",
+        "100w",
+        "usb",
+        "france",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Câble Baseus 100W USB-C - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Câble Baseus 100W USB-C - accessoires Maxi Trouvaille",
+    "compareAtPrice": 2590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_support_telephone_tablette_bureau_reglab_001",
+    "slug": "support-telephone-tablette-bureau-reglable",
+    "name": "Support téléphone et tablette de bureau",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/support-telephone-tablette-bureau-reglable-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/support-telephone-tablette-bureau-reglable-photo-1.webp",
+      "/uploads/quick-products/support-telephone-tablette-bureau-reglable-photo-2.webp",
+      "/uploads/quick-products/support-telephone-tablette-bureau-reglable-photo-3.webp",
+      "/uploads/quick-products/support-telephone-tablette-bureau-reglable-photo-4.webp",
+      "/uploads/quick-products/support-telephone-tablette-bureau-reglable-photo-5.webp",
+      "/uploads/quick-products/support-telephone-tablette-bureau-reglable-photo-6.webp"
+    ],
+    "shortDescription": "Support de bureau reglable pour telephone et tablette : 4.9 sur plus de 25 000 avis. Expedie de France.",
+    "description": "Support de bureau reglable en hauteur et en inclinaison pour telephone ou tablette : il remonte l ecran a hauteur du regard pendant une visio, une recette de cuisine ou une serie, au lieu de le laisser a plat sur la table. Structure metallique stable qui ne bascule pas quand on touche l ecran, patins qui ne rayent pas, ouverture pour laisser passer le cable de charge, et pliage a plat pour glisser dans un sac. Compatible de 4 a 12 pouces, toutes marques. Note 4.9 sur plus de 25 000 avis, 100 000 ventes. Expedie de France.",
+    "features": [
+      "Hauteur et inclinaison reglables, ecran a hauteur des yeux",
+      "Metal stable, ne bascule pas au toucher",
+      "Se plie a plat. Note 4.9 sur 25 000 avis. Expedie de France"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007010254856.html",
+      "supplierSku": "AE-ITEM-1005007010254856",
+      "supplierPriceCents": 439,
+      "supplierStock": 40,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1290,
+      "marginCents": 851,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007010254856.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (100000+ ventes, visuels officiels importes).",
+      "markupPercent": 194,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.39 EUR, boutique 12.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T09:19:36.223Z"
+    },
+    "price": 1290,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007010254856.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007010254856 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Support téléphone et tablette de bureau | Maxi Trouvaille",
+      "description": "Support de bureau reglable pour telephone et tablette : 4.9 sur plus de 25 000 avis. Expedie de France.",
+      "h1": "Support téléphone et tablette de bureau",
+      "h2": "Pourquoi choisir Support téléphone et tablette de bureau",
+      "keywords": [
+        "support",
+        "telephone",
+        "tablette",
+        "bureau",
+        "reglable",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Support téléphone et tablette de bureau - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Support téléphone et tablette de bureau - accessoires Maxi Trouvaille",
+    "compareAtPrice": 1790,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_pince_a_denuder_multifonction_8_5_001",
+    "slug": "pince-a-denuder-multifonction-8-5",
+    "name": "Pince à dénuder multifonction 8,5 pouces",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/pince-a-denuder-multifonction-8-5-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/pince-a-denuder-multifonction-8-5-photo-1.webp",
+      "/uploads/quick-products/pince-a-denuder-multifonction-8-5-photo-2.webp",
+      "/uploads/quick-products/pince-a-denuder-multifonction-8-5-photo-3.webp",
+      "/uploads/quick-products/pince-a-denuder-multifonction-8-5-photo-4.webp",
+      "/uploads/quick-products/pince-a-denuder-multifonction-8-5-photo-5.webp",
+      "/uploads/quick-products/pince-a-denuder-multifonction-8-5-photo-6.webp"
+    ],
+    "shortDescription": "Pince a denuder multifonction : denude, coupe, sertit et pince avec un seul outil. Note 4.9 sur 8 240 avis. Expediee de France.",
+    "description": "Pince a denuder multifonction de 8,5 pouces : encoches calibrees pour retirer la gaine sans entailler le cuivre — le defaut qui provoque les faux contacts et les echauffements —, coupe-fil, sertisseur de cosses et machoires de prehension, le tout dans un seul outil. Poignees ergonomiques isolees qui limitent la fatigue sur les longues seances de cablage, ressort de rappel qui rouvre la pince tout seul. Acier traite. Note 4.9 sur plus de 8 200 avis, 50 000 ventes. Expediee de France : livraison en quelques jours.",
+    "features": [
+      "Denude sans entailler le cuivre : pas de faux contact",
+      "Coupe, sertit et pince : un seul outil",
+      "Poignees isolees, ressort de rappel. Expediee de France"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007792121637.html",
+      "supplierSku": "AE-ITEM-1005007792121637",
+      "supplierPriceCents": 779,
+      "supplierStock": 40,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2190,
+      "marginCents": 1411,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007792121637.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (50000+ ventes, visuels officiels importes).",
+      "markupPercent": 181,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 7.79 EUR, boutique 21.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T09:22:37.816Z"
+    },
+    "price": 2190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007792121637.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007792121637 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Pince à dénuder multifonction 8,5 pouces | Maxi Trouvaille",
+      "description": "Pince a denuder multifonction : denude, coupe, sertit et pince avec un seul outil. Note 4.9 sur 8 240 avis. Expediee de France.",
+      "h1": "Pince à dénuder multifonction 8,5 pouces",
+      "h2": "Pourquoi choisir Pince à dénuder multifonction 8,5 pouces",
+      "keywords": [
+        "pince",
+        "denuder",
+        "multifonction",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Pince à dénuder multifonction 8,5 pouces - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Pince à dénuder multifonction 8,5 pouces - outillage Maxi Trouvaille",
+    "compareAtPrice": 2990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_egouttoir_vaisselle_2_niveaux_plateau_001",
+    "slug": "egouttoir-vaisselle-2-niveaux-plateau",
+    "name": "Égouttoir à vaisselle 2 niveaux",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/egouttoir-vaisselle-2-niveaux-plateau-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/egouttoir-vaisselle-2-niveaux-plateau-photo-1.webp",
+      "/uploads/quick-products/egouttoir-vaisselle-2-niveaux-plateau-photo-2.webp",
+      "/uploads/quick-products/egouttoir-vaisselle-2-niveaux-plateau-photo-3.webp",
+      "/uploads/quick-products/egouttoir-vaisselle-2-niveaux-plateau-photo-4.webp",
+      "/uploads/quick-products/egouttoir-vaisselle-2-niveaux-plateau-photo-5.webp",
+      "/uploads/quick-products/egouttoir-vaisselle-2-niveaux-plateau-photo-6.webp"
+    ],
+    "shortDescription": "Egouttoir a vaisselle deux niveaux avec plateau de drainage et porte-ustensiles : liberer l evier sans inonder le plan de travail. Note 4.9.",
+    "description": "Egouttoir a vaisselle a deux niveaux : assiettes en bas, verres et tasses en haut, avec un porte-ustensiles amovible et un plateau de drainage qui renvoie l eau vers l evier au lieu de la laisser stagner sur le plan de travail. La double hauteur double la capacite sans prendre plus de place au sol, ce qui change tout dans une petite cuisine ou apres un repas de famille. Acier revetu anticorrosion, pieds antiderapants. Note 4.9. Expedie de France.",
+    "features": [
+      "Deux niveaux : double la capacite sans prendre plus de place",
+      "Plateau de drainage oriente vers l evier",
+      "Porte-ustensiles amovible, acier anticorrosion. Expedie de France"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005010132651707.html",
+      "supplierSku": "AE-ITEM-1005010132651707",
+      "supplierPriceCents": 3716,
+      "supplierStock": 40,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 5990,
+      "marginCents": 2274,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005010132651707.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (2000+ ventes, visuels officiels importes).",
+      "markupPercent": 61,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 37.16 EUR, boutique 59.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T09:22:38.579Z"
+    },
+    "price": 5990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005010132651707.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005010132651707 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Égouttoir à vaisselle 2 niveaux | Maxi Trouvaille",
+      "description": "Egouttoir a vaisselle deux niveaux avec plateau de drainage et porte-ustensiles : liberer l evier sans inonder le plan de travail. Note 4.9.",
+      "h1": "Égouttoir à vaisselle 2 niveaux",
+      "h2": "Pourquoi choisir Égouttoir à vaisselle 2 niveaux",
+      "keywords": [
+        "egouttoir",
+        "vaisselle",
+        "niveaux",
+        "plateau",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Égouttoir à vaisselle 2 niveaux - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Égouttoir à vaisselle 2 niveaux - cuisine Maxi Trouvaille",
+    "compareAtPrice": 8090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260803_robot_patissier_bolomix_6l_1200w_001",
+    "slug": "robot-patissier-bolomix-6l-1200w",
+    "name": "Robot pâtissier 6 L 1200 W",
+    "categoryId": "dropshipping-cuisine",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/robot-patissier-bolomix-6l-1200w-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/robot-patissier-bolomix-6l-1200w-photo-1.webp",
+      "/uploads/quick-products/robot-patissier-bolomix-6l-1200w-photo-2.webp",
+      "/uploads/quick-products/robot-patissier-bolomix-6l-1200w-photo-3.webp",
+      "/uploads/quick-products/robot-patissier-bolomix-6l-1200w-photo-4.webp",
+      "/uploads/quick-products/robot-patissier-bolomix-6l-1200w-photo-5.webp",
+      "/uploads/quick-products/robot-patissier-bolomix-6l-1200w-photo-6.webp"
+    ],
+    "shortDescription": "Robot patissier sur socle 6 L et 1200 W : petrit, fouette et melange a votre place. Six vitesses. Expedie de France. Note 4.9.",
+    "description": "Robot patissier sur socle de 6 litres et 1200 W : il petrit une pate a pain ou a pizza sans forcer, monte les blancs et la chantilly, et melange les appareils a gateau pendant que vous faites autre chose. Bol inox de 6 litres qui encaisse les grosses quantites, trois accessoires fournis — crochet petrisseur, fouet et batteur plat —, six vitesses plus un mode impulsion, et moteur a entrainement direct nettement plus silencieux que les modeles a courroie. Tete inclinable pour ajouter les ingredients en cours de melange. Note 4.9. Expedie de France.",
+    "features": [
+      "6 L et 1200 W : petrit le pain sans forcer",
+      "Crochet, fouet et batteur plat inclus, 6 vitesses",
+      "Moteur silencieux, tete inclinable. Expedie de France"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009877682433.html",
+      "supplierSku": "AE-ITEM-1005009877682433",
+      "supplierPriceCents": 9769,
+      "supplierStock": 40,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 14690,
+      "marginCents": 4921,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-03",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-03",
+        "note": "Validation proprietaire du 2026-08-03 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison France 7 a 14 jours confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009877682433.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-03 (800+ ventes, visuels officiels importes).",
+      "markupPercent": 50,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 97.69 EUR, boutique 146.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-03",
+      "pricingUpdatedAt": "2026-08-03T09:22:40.043Z"
+    },
+    "price": 14690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-03",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009877682433.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009877682433 verifiees et importees en local (webp) le 2026-08-03.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-03."
+    },
+    "seo": {
+      "title": "Robot pâtissier 6 L 1200 W | Maxi Trouvaille",
+      "description": "Robot patissier sur socle 6 L et 1200 W : petrit, fouette et melange a votre place. Six vitesses. Expedie de France. Note 4.9.",
+      "h1": "Robot pâtissier 6 L 1200 W",
+      "h2": "Pourquoi choisir Robot pâtissier 6 L 1200 W",
+      "keywords": [
+        "robot",
+        "patissier",
+        "bolomix",
+        "1200w",
+        "dropshipping-cuisine"
+      ],
+      "imageAlt": "Robot pâtissier 6 L 1200 W - cuisine Maxi Trouvaille"
+    },
+    "imageAlt": "Robot pâtissier 6 L 1200 W - cuisine Maxi Trouvaille",
+    "compareAtPrice": 19890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
   }
 ]
