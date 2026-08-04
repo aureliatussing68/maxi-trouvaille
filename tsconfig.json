@@ -33,6 +33,7 @@
   "exclude": [
     "node_modules",
     "backups/**",
+    "business-maxi-trouvailles/backups/**",
     "business-maxi-trouvailles/sauvegardes/**",
     "business-maxi-trouvailles/rapatriement-jarvis-*/current-couches-snapshot/**",
     ".sandbox_home/**",
