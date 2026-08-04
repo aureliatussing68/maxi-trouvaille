@@ -5526,7 +5526,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "draft",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -5559,7 +5559,7 @@
       "evidenceNote": "Page publique Alitools/AliExpress reperee pour l'article 4001209749759. Images catalogue recuperees depuis la page AliExpress directe.",
       "markupPercent": 67,
       "pricingRule": "Prix de vente 14,90 EUR pour une marge brute estimee proche de 35% sur prix de vente, avant frais/retours/taxes. Marge cible 40% appliquee automatiquement: prix fournisseur 9.70 EUR, prix boutique 16.20 EUR, marge brute estimee 40% avant frais/retours/taxes.",
-      "validationStatus": "validated - publication approuvee par le proprietaire le 17/07/2026",
+      "validationStatus": "hold - retire de la vente le 2026-08-04 sur decision du proprietaire : doublon de confusion avec le support a ventouse a 15,90 EUR",
       "pricingUpdatedAt": "2026-06-05T18:43:58.439Z"
     },
     "price": 2190,
@@ -34347,6 +34347,2428 @@
     "sourceVerification": {
       "status": "validated",
       "checkedAt": "2026-08-03",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_boitier_disque_dur_externe_2_5_usb_c_ori_001",
+    "slug": "boitier-disque-dur-externe-2-5-usb-c-orico",
+    "name": "Boîtier disque dur externe 2,5\" USB-C ORICO",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/boitier-disque-dur-externe-2-5-usb-c-orico-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/boitier-disque-dur-externe-2-5-usb-c-orico-photo-1.webp",
+      "/uploads/quick-products/boitier-disque-dur-externe-2-5-usb-c-orico-photo-2.webp",
+      "/uploads/quick-products/boitier-disque-dur-externe-2-5-usb-c-orico-photo-3.webp",
+      "/uploads/quick-products/boitier-disque-dur-externe-2-5-usb-c-orico-photo-4.webp",
+      "/uploads/quick-products/boitier-disque-dur-externe-2-5-usb-c-orico-photo-5.webp",
+      "/uploads/quick-products/boitier-disque-dur-externe-2-5-usb-c-orico-photo-6.webp"
+    ],
+    "shortDescription": "Boitier ORICO qui transforme un ancien disque dur 2,5 pouces en disque externe. Expedie de France.",
+    "description": "Boitier ORICO pour disque 2,5 pouces : le disque dur ou le SSD recupere dans un vieil ordinateur portable redevient un disque externe utilisable partout, au lieu de dormir dans un tiroir. Connexion USB-C en SATA vers USB 3.1 a 6 Gbit/s avec prise en charge de l UASP, le protocole qui accelere reellement les transferts de gros fichiers au lieu de plafonner. Montage sans outil, boitier ferme qui protege le disque des chocs et de la poussiere. Compatible disques durs et SSD 2,5 pouces de toutes marques. Le disque n est pas inclus. ORICO est une marque installee du stockage informatique. Expedie de France : livraison en quelques jours.",
+    "features": [
+      "Redonne vie a un disque 2,5 pouces qui dormait dans un tiroir",
+      "USB-C 6 Gbit/s avec UASP : transferts reellement rapides",
+      "Montage sans outil. Expedie de France. Disque non inclus"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008558048503.html",
+      "supplierSku": "AE-ITEM-1005008558048503",
+      "supplierPriceCents": 1089,
+      "supplierStock": 40,
+      "deliveryEstimate": "3 à 7 jours ouvrés depuis France, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2490,
+      "marginCents": 1401,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 3 à 7 jours ouvrés depuis France, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008558048503.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (4000+ ventes, note 4.9), visuels officiels importes.",
+      "markupPercent": 129,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 10.89 EUR, boutique 24.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:23.591Z"
+    },
+    "price": 2490,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008558048503.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008558048503 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Boîtier disque dur externe 2,5\" USB-C ORICO | Maxi Trouvaille",
+      "description": "Boitier ORICO qui transforme un ancien disque dur 2,5 pouces en disque externe. Expedie de France.",
+      "h1": "Boîtier disque dur externe 2,5\" USB-C ORICO",
+      "h2": "Pourquoi choisir Boîtier disque dur externe 2,5\" USB-C ORICO",
+      "keywords": [
+        "boitier",
+        "disque",
+        "dur",
+        "externe",
+        "usb",
+        "orico",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Boîtier disque dur externe 2,5\" USB-C ORICO - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Boîtier disque dur externe 2,5\" USB-C ORICO - high-tech Maxi Trouvaille",
+    "compareAtPrice": 3390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_boitier_ssd_m2_nvme_usb_c_10gbps_orico_001",
+    "slug": "boitier-ssd-m2-nvme-usb-c-10gbps-orico",
+    "name": "Boîtier SSD M.2 NVMe USB-C 10 Gbit/s ORICO",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/boitier-ssd-m2-nvme-usb-c-10gbps-orico-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/boitier-ssd-m2-nvme-usb-c-10gbps-orico-photo-1.webp",
+      "/uploads/quick-products/boitier-ssd-m2-nvme-usb-c-10gbps-orico-photo-2.webp",
+      "/uploads/quick-products/boitier-ssd-m2-nvme-usb-c-10gbps-orico-photo-3.webp",
+      "/uploads/quick-products/boitier-ssd-m2-nvme-usb-c-10gbps-orico-photo-4.webp",
+      "/uploads/quick-products/boitier-ssd-m2-nvme-usb-c-10gbps-orico-photo-5.webp",
+      "/uploads/quick-products/boitier-ssd-m2-nvme-usb-c-10gbps-orico-photo-6.webp"
+    ],
+    "shortDescription": "Boitier ORICO pour SSD M.2 NVMe : 10 Gbit/s en USB-C, le disque externe le plus rapide a ce prix.",
+    "description": "Boitier ORICO pour SSD M.2 : il transforme un SSD NVMe ou SATA NGFF en disque externe ultra-rapide. En NVMe, la liaison USB-C 3.2 Gen2 monte a 10 Gbit/s, soit environ 1 Go par seconde en pratique : un film de 20 Go se copie en une vingtaine de secondes, la ou un disque dur classique demande plusieurs minutes. Coque aluminium qui sert de dissipateur et evite la chute de performance a chaud, ce qui arrive avec les boitiers plastique. Compatible NVMe PCIe et SATA NGFF, formats 2230 a 2280. Le SSD n est pas inclus.",
+    "features": [
+      "10 Gbit/s : environ 1 Go par seconde en NVMe",
+      "Coque aluminium dissipatrice, pas de chute de debit a chaud",
+      "Compatible NVMe et SATA NGFF. SSD non inclus"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/4001297316228.html",
+      "supplierSku": "AE-ITEM-4001297316228",
+      "supplierPriceCents": 1519,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3390,
+      "marginCents": 1871,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/4001297316228.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (2000+ ventes, note 4.8), visuels officiels importes.",
+      "markupPercent": 123,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 15.19 EUR, boutique 33.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:25.220Z"
+    },
+    "price": 3390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/4001297316228.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 4001297316228 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Boîtier SSD M.2 NVMe USB-C 10 Gbit/s ORICO | Maxi Trouvaille",
+      "description": "Boitier ORICO pour SSD M.2 NVMe : 10 Gbit/s en USB-C, le disque externe le plus rapide a ce prix.",
+      "h1": "Boîtier SSD M.2 NVMe USB-C 10 Gbit/s ORICO",
+      "h2": "Pourquoi choisir Boîtier SSD M.2 NVMe USB-C 10 Gbit/s ORICO",
+      "keywords": [
+        "boitier",
+        "ssd",
+        "nvme",
+        "usb",
+        "10gbps",
+        "orico",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Boîtier SSD M.2 NVMe USB-C 10 Gbit/s ORICO - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Boîtier SSD M.2 NVMe USB-C 10 Gbit/s ORICO - high-tech Maxi Trouvaille",
+    "compareAtPrice": 4590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_carte_microsdxc_64go_orico_v30_001",
+    "slug": "carte-microsdxc-64go-orico-v30",
+    "name": "Carte microSDXC 64 Go ORICO V30",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/carte-microsdxc-64go-orico-v30-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/carte-microsdxc-64go-orico-v30-photo-1.webp",
+      "/uploads/quick-products/carte-microsdxc-64go-orico-v30-photo-2.webp",
+      "/uploads/quick-products/carte-microsdxc-64go-orico-v30-photo-3.webp",
+      "/uploads/quick-products/carte-microsdxc-64go-orico-v30-photo-4.webp",
+      "/uploads/quick-products/carte-microsdxc-64go-orico-v30-photo-5.webp",
+      "/uploads/quick-products/carte-microsdxc-64go-orico-v30-photo-6.webp"
+    ],
+    "shortDescription": "Carte microSDXC 64 Go ORICO, 180 Mo/s, classee V30 et A1 : concue pour la video 4K et les cameras embarquees.",
+    "description": "Carte microSDXC ORICO de 64 Go : jusqu a 180 Mo/s en lecture, et surtout les classements qui comptent vraiment, V30 et U3. Ils garantissent un debit d ecriture minimum de 30 Mo/s en continu, ce qui est la condition pour filmer en 4K sans que l enregistrement se coupe en plein milieu. Classement A1 en prime pour lancer des applications directement depuis la carte. C est la carte adaptee aux cameras embarquees, aux cameras d action et aux appareils photo, la ou une carte bas de gamme lache au bout de quelques minutes. Adaptateur SD fourni.",
+    "features": [
+      "V30 et U3 : 30 Mo/s garantis, la video 4K ne se coupe pas",
+      "Jusqu a 180 Mo/s en lecture, classement A1",
+      "Pour camera embarquee, camera d action et appareil photo"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005009110772231.html",
+      "supplierSku": "AE-ITEM-1005009110772231",
+      "supplierPriceCents": 1639,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3690,
+      "marginCents": 2051,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005009110772231.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (4000+ ventes, note 4.8), visuels officiels importes.",
+      "markupPercent": 125,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 16.39 EUR, boutique 36.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:26.314Z"
+    },
+    "price": 3690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005009110772231.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005009110772231 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Carte microSDXC 64 Go ORICO V30 | Maxi Trouvaille",
+      "description": "Carte microSDXC 64 Go ORICO, 180 Mo/s, classee V30 et A1 : concue pour la video 4K et les cameras embarquees.",
+      "h1": "Carte microSDXC 64 Go ORICO V30",
+      "h2": "Pourquoi choisir Carte microSDXC 64 Go ORICO V30",
+      "keywords": [
+        "carte",
+        "microsdxc",
+        "64go",
+        "orico",
+        "v30",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Carte microSDXC 64 Go ORICO V30 - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Carte microSDXC 64 Go ORICO V30 - high-tech Maxi Trouvaille",
+    "compareAtPrice": 4990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_berceau_support_disque_dur_2_5_orico_001",
+    "slug": "berceau-support-disque-dur-2-5-orico",
+    "name": "Berceau de fixation disque dur 2,5\" ORICO",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/berceau-support-disque-dur-2-5-orico-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/berceau-support-disque-dur-2-5-orico-photo-1.webp",
+      "/uploads/quick-products/berceau-support-disque-dur-2-5-orico-photo-2.webp",
+      "/uploads/quick-products/berceau-support-disque-dur-2-5-orico-photo-3.webp",
+      "/uploads/quick-products/berceau-support-disque-dur-2-5-orico-photo-4.webp",
+      "/uploads/quick-products/berceau-support-disque-dur-2-5-orico-photo-5.webp",
+      "/uploads/quick-products/berceau-support-disque-dur-2-5-orico-photo-6.webp"
+    ],
+    "shortDescription": "Berceau ORICO pour monter un disque 2,5 pouces dans un emplacement 3,5 pouces de tour PC.",
+    "description": "Berceau de montage ORICO : il permet de fixer proprement un disque dur ou un SSD de 2,5 pouces dans un emplacement 3,5 pouces de tour d ordinateur. Sans lui, le SSD reste ballotte au fond du boitier, pose sur un cable, ce qui finit par arracher un connecteur. Acier avec percages aux normes SATA, compatible avec les disques de 7, 9,5 et 12,5 mm d epaisseur, visserie fournie. Un accessoire a moins de dix euros qui evite une reparation a cent.",
+    "features": [
+      "Fixe un SSD 2,5 pouces dans une baie 3,5 pouces de tour PC",
+      "Acier, percages aux normes, visserie fournie",
+      "Compatible epaisseurs 7, 9,5 et 12,5 mm"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006455359741.html",
+      "supplierSku": "AE-ITEM-1005006455359741",
+      "supplierPriceCents": 659,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1890,
+      "marginCents": 1231,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006455359741.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (4000+ ventes, note 4.8), visuels officiels importes.",
+      "markupPercent": 187,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 6.59 EUR, boutique 18.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:28.585Z"
+    },
+    "price": 1890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006455359741.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006455359741 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Berceau de fixation disque dur 2,5\" ORICO | Maxi Trouvaille",
+      "description": "Berceau ORICO pour monter un disque 2,5 pouces dans un emplacement 3,5 pouces de tour PC.",
+      "h1": "Berceau de fixation disque dur 2,5\" ORICO",
+      "h2": "Pourquoi choisir Berceau de fixation disque dur 2,5\" ORICO",
+      "keywords": [
+        "berceau",
+        "support",
+        "disque",
+        "dur",
+        "orico",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Berceau de fixation disque dur 2,5\" ORICO - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Berceau de fixation disque dur 2,5\" ORICO - high-tech Maxi Trouvaille",
+    "compareAtPrice": 2590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_hub_usb_c_4_ports_transparent_orico_001",
+    "slug": "hub-usb-c-4-ports-transparent-orico",
+    "name": "Hub USB-C 4 ports transparent ORICO",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/hub-usb-c-4-ports-transparent-orico-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/hub-usb-c-4-ports-transparent-orico-photo-1.webp",
+      "/uploads/quick-products/hub-usb-c-4-ports-transparent-orico-photo-2.webp",
+      "/uploads/quick-products/hub-usb-c-4-ports-transparent-orico-photo-3.webp",
+      "/uploads/quick-products/hub-usb-c-4-ports-transparent-orico-photo-4.webp",
+      "/uploads/quick-products/hub-usb-c-4-ports-transparent-orico-photo-5.webp",
+      "/uploads/quick-products/hub-usb-c-4-ports-transparent-orico-photo-6.webp"
+    ],
+    "shortDescription": "Hub USB-C ORICO 4 ports USB 3.2, coque transparente, avec entree d alimentation separee.",
+    "description": "Hub USB-C ORICO a quatre ports USB 3.2 : un seul port USB-C de l ordinateur portable devient quatre prises pour la souris, le clavier, la cle USB et le disque externe. Debit de 5 Gbit/s sur chaque port, avec une entree d alimentation separee pour les peripheriques gourmands comme un disque dur externe, qui sinon font decrocher le hub. Coque transparente qui laisse voir l electronique, format plat qui se glisse dans une sacoche. Fonctionne aussi en OTG sur telephone et tablette.",
+    "features": [
+      "Un port USB-C devient quatre prises USB 3.2",
+      "Entree d alimentation : les disques externes tiennent",
+      "Format plat, se glisse dans une sacoche"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006455353793.html",
+      "supplierSku": "AE-ITEM-1005006455353793",
+      "supplierPriceCents": 869,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1990,
+      "marginCents": 1121,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006455353793.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (3000+ ventes, note 4.9), visuels officiels importes.",
+      "markupPercent": 129,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 8.69 EUR, boutique 19.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:29.872Z"
+    },
+    "price": 1990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006455353793.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006455353793 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Hub USB-C 4 ports transparent ORICO | Maxi Trouvaille",
+      "description": "Hub USB-C ORICO 4 ports USB 3.2, coque transparente, avec entree d alimentation separee.",
+      "h1": "Hub USB-C 4 ports transparent ORICO",
+      "h2": "Pourquoi choisir Hub USB-C 4 ports transparent ORICO",
+      "keywords": [
+        "hub",
+        "usb",
+        "ports",
+        "transparent",
+        "orico",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Hub USB-C 4 ports transparent ORICO - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Hub USB-C 4 ports transparent ORICO - high-tech Maxi Trouvaille",
+    "compareAtPrice": 2690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_hub_usb_3_0_alimente_7_ports_aluminium_o_001",
+    "slug": "hub-usb-3-0-alimente-7-ports-aluminium-orico",
+    "name": "Hub USB 3.0 alimenté 7 ports aluminium ORICO",
+    "categoryId": "dropshipping-high-tech",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/hub-usb-3-0-alimente-7-ports-aluminium-orico-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/hub-usb-3-0-alimente-7-ports-aluminium-orico-photo-1.webp",
+      "/uploads/quick-products/hub-usb-3-0-alimente-7-ports-aluminium-orico-photo-2.webp",
+      "/uploads/quick-products/hub-usb-3-0-alimente-7-ports-aluminium-orico-photo-3.webp",
+      "/uploads/quick-products/hub-usb-3-0-alimente-7-ports-aluminium-orico-photo-4.webp",
+      "/uploads/quick-products/hub-usb-3-0-alimente-7-ports-aluminium-orico-photo-5.webp",
+      "/uploads/quick-products/hub-usb-3-0-alimente-7-ports-aluminium-orico-photo-6.webp"
+    ],
+    "shortDescription": "Hub ORICO 7 ports USB 3.0 en aluminium, alimentation 12V dediee et interrupteur par port.",
+    "description": "Hub ORICO a sept ports USB 3.0 avec bloc d alimentation 12V dedie : chaque port dispose de sa propre puissance, ce qui permet de brancher simultanement plusieurs disques durs externes, un disque SSD et des peripheriques gourmands sans qu aucun ne decroche. C est la difference avec un hub non alimente, qui se partage les 500 mA du port de l ordinateur. Interrupteur independant par port avec temoin lumineux : on coupe un disque sans le debrancher physiquement. Corps aluminium qui evacue la chaleur.",
+    "features": [
+      "Alimentation 12V dediee : sept peripheriques gourmands tiennent",
+      "Interrupteur et temoin par port, on coupe sans debrancher",
+      "Corps aluminium qui evacue la chaleur"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006994898181.html",
+      "supplierSku": "AE-ITEM-1005006994898181",
+      "supplierPriceCents": 3579,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 5790,
+      "marginCents": 2211,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006994898181.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (3000+ ventes, note 4.9), visuels officiels importes.",
+      "markupPercent": 62,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 35.79 EUR, boutique 57.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:31.664Z"
+    },
+    "price": 5790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006994898181.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006994898181 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Hub USB 3.0 alimenté 7 ports aluminium ORICO | Maxi Trouvaille",
+      "description": "Hub ORICO 7 ports USB 3.0 en aluminium, alimentation 12V dediee et interrupteur par port.",
+      "h1": "Hub USB 3.0 alimenté 7 ports aluminium ORICO",
+      "h2": "Pourquoi choisir Hub USB 3.0 alimenté 7 ports aluminium ORICO",
+      "keywords": [
+        "hub",
+        "usb",
+        "alimente",
+        "ports",
+        "aluminium",
+        "orico",
+        "dropshipping-high-tech"
+      ],
+      "imageAlt": "Hub USB 3.0 alimenté 7 ports aluminium ORICO - high-tech Maxi Trouvaille"
+    },
+    "imageAlt": "Hub USB 3.0 alimenté 7 ports aluminium ORICO - high-tech Maxi Trouvaille",
+    "compareAtPrice": 7890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_chargeur_mini_30w_usb_c_essager_001",
+    "slug": "chargeur-mini-30w-usb-c-essager",
+    "name": "Chargeur mini 30 W USB-C Essager",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/chargeur-mini-30w-usb-c-essager-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/chargeur-mini-30w-usb-c-essager-photo-1.webp",
+      "/uploads/quick-products/chargeur-mini-30w-usb-c-essager-photo-2.webp",
+      "/uploads/quick-products/chargeur-mini-30w-usb-c-essager-photo-3.webp",
+      "/uploads/quick-products/chargeur-mini-30w-usb-c-essager-photo-4.webp",
+      "/uploads/quick-products/chargeur-mini-30w-usb-c-essager-photo-5.webp",
+      "/uploads/quick-products/chargeur-mini-30w-usb-c-essager-photo-6.webp"
+    ],
+    "shortDescription": "Chargeur Essager 30 W USB-C au format mini, compatible Power Delivery et Quick Charge 3.0.",
+    "description": "Chargeur secteur Essager de 30 W au format mini : il tient dans la paume et charge un iPhone a 50 pour cent en une demi-heure environ, la ou un vieux bloc 5 W demande deux heures. Compatible Power Delivery et Quick Charge 3.0, il s adapte tout seul a l appareil branche, du telephone a la tablette en passant par les ecouteurs. Boitier compact a broches fixes qui ne prend pas la place de la prise voisine sur une multiprise. Prise europeenne.",
+    "features": [
+      "30 W : environ 50 pour cent de batterie en une demi-heure",
+      "Power Delivery et Quick Charge 3.0, s adapte tout seul",
+      "Format mini, ne bloque pas la prise voisine"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008923843215.html",
+      "supplierSku": "AE-ITEM-1005008923843215",
+      "supplierPriceCents": 419,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1190,
+      "marginCents": 771,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008923843215.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (50000+ ventes, note 4.8), visuels officiels importes.",
+      "markupPercent": 184,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 4.19 EUR, boutique 11.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:32.357Z"
+    },
+    "price": 1190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008923843215.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008923843215 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Chargeur mini 30 W USB-C Essager | Maxi Trouvaille",
+      "description": "Chargeur Essager 30 W USB-C au format mini, compatible Power Delivery et Quick Charge 3.0.",
+      "h1": "Chargeur mini 30 W USB-C Essager",
+      "h2": "Pourquoi choisir Chargeur mini 30 W USB-C Essager",
+      "keywords": [
+        "chargeur",
+        "mini",
+        "30w",
+        "usb",
+        "essager",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Chargeur mini 30 W USB-C Essager - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Chargeur mini 30 W USB-C Essager - accessoires Maxi Trouvaille",
+    "compareAtPrice": 1690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_chargeur_gan_100w_4_ports_essager_001",
+    "slug": "chargeur-gan-100w-4-ports-essager",
+    "name": "Chargeur GaN 100 W multi-ports Essager",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/chargeur-gan-100w-4-ports-essager-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/chargeur-gan-100w-4-ports-essager-photo-1.webp",
+      "/uploads/quick-products/chargeur-gan-100w-4-ports-essager-photo-2.webp",
+      "/uploads/quick-products/chargeur-gan-100w-4-ports-essager-photo-3.webp",
+      "/uploads/quick-products/chargeur-gan-100w-4-ports-essager-photo-4.webp",
+      "/uploads/quick-products/chargeur-gan-100w-4-ports-essager-photo-5.webp",
+      "/uploads/quick-products/chargeur-gan-100w-4-ports-essager-photo-6.webp"
+    ],
+    "shortDescription": "Chargeur Essager 100 W en nitrure de gallium : un seul bloc pour l ordinateur portable, la tablette et le telephone.",
+    "description": "Chargeur Essager de 100 W en technologie GaN, le nitrure de gallium : a puissance egale, il fait la moitie du volume d un chargeur classique et chauffe nettement moins. Cent watts, c est de quoi alimenter un MacBook Pro a pleine vitesse, ou repartir la puissance entre un ordinateur portable, une tablette et un telephone branches en meme temps. Power Delivery 3.0 et Quick Charge 4.0, repartition automatique selon ce qui est connecte. Un seul bloc dans la valise au lieu de trois.",
+    "features": [
+      "100 W : alimente un ordinateur portable a pleine vitesse",
+      "GaN : deux fois plus compact et bien moins chaud",
+      "Repartit la puissance entre plusieurs appareils branches"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006436990810.html",
+      "supplierSku": "AE-ITEM-1005006436990810",
+      "supplierPriceCents": 2519,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 4090,
+      "marginCents": 1571,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006436990810.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (10000+ ventes, note 4.8), visuels officiels importes.",
+      "markupPercent": 62,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 25.19 EUR, boutique 40.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:33.058Z"
+    },
+    "price": 4090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006436990810.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006436990810 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Chargeur GaN 100 W multi-ports Essager | Maxi Trouvaille",
+      "description": "Chargeur Essager 100 W en nitrure de gallium : un seul bloc pour l ordinateur portable, la tablette et le telephone.",
+      "h1": "Chargeur GaN 100 W multi-ports Essager",
+      "h2": "Pourquoi choisir Chargeur GaN 100 W multi-ports Essager",
+      "keywords": [
+        "chargeur",
+        "gan",
+        "100w",
+        "ports",
+        "essager",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Chargeur GaN 100 W multi-ports Essager - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Chargeur GaN 100 W multi-ports Essager - accessoires Maxi Trouvaille",
+    "compareAtPrice": 5590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_adaptateur_usb_c_vers_jack_3_5_essager_001",
+    "slug": "adaptateur-usb-c-vers-jack-3-5-essager",
+    "name": "Adaptateur USB-C vers jack 3,5 mm Essager",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/adaptateur-usb-c-vers-jack-3-5-essager-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/adaptateur-usb-c-vers-jack-3-5-essager-photo-1.webp",
+      "/uploads/quick-products/adaptateur-usb-c-vers-jack-3-5-essager-photo-2.webp",
+      "/uploads/quick-products/adaptateur-usb-c-vers-jack-3-5-essager-photo-3.webp",
+      "/uploads/quick-products/adaptateur-usb-c-vers-jack-3-5-essager-photo-4.webp",
+      "/uploads/quick-products/adaptateur-usb-c-vers-jack-3-5-essager-photo-5.webp",
+      "/uploads/quick-products/adaptateur-usb-c-vers-jack-3-5-essager-photo-6.webp"
+    ],
+    "shortDescription": "Adaptateur Essager USB-C vers jack 3,5 mm : rebrancher ses ecouteurs filaires sur un telephone sans prise casque.",
+    "description": "Adaptateur Essager USB-C vers jack 3,5 mm : il rend utilisables les ecouteurs filaires sur les telephones et tablettes qui ont supprime la prise casque. Puce de conversion integree, donc il fonctionne aussi sur les appareils qui ne gerent pas l audio analogique en direct, la ou un simple cable passif reste muet. Transmet aussi le micro et les boutons de la telecommande du casque. Cable souple et court, connecteur renforce a la sortie, l endroit ou ces adaptateurs cassent en premier. Compatible Android, iPad et ordinateurs portables en USB-C.",
+    "features": [
+      "Rebranche des ecouteurs filaires sur un telephone sans prise casque",
+      "Puce integree : fonctionne meme sans support audio analogique",
+      "Transmet le micro et les boutons de la telecommande"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007585192827.html",
+      "supplierSku": "AE-ITEM-1005007585192827",
+      "supplierPriceCents": 193,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 497,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007585192827.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (10000+ ventes, note 4.7), visuels officiels importes.",
+      "markupPercent": 258,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 1.93 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:33.850Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007585192827.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007585192827 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Adaptateur USB-C vers jack 3,5 mm Essager | Maxi Trouvaille",
+      "description": "Adaptateur Essager USB-C vers jack 3,5 mm : rebrancher ses ecouteurs filaires sur un telephone sans prise casque.",
+      "h1": "Adaptateur USB-C vers jack 3,5 mm Essager",
+      "h2": "Pourquoi choisir Adaptateur USB-C vers jack 3,5 mm Essager",
+      "keywords": [
+        "adaptateur",
+        "usb",
+        "vers",
+        "jack",
+        "essager",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Adaptateur USB-C vers jack 3,5 mm Essager - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Adaptateur USB-C vers jack 3,5 mm Essager - accessoires Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_adaptateur_otg_usb_3_0_vers_usb_c_essage_001",
+    "slug": "adaptateur-otg-usb-3-0-vers-usb-c-essager",
+    "name": "Adaptateur OTG USB 3.0 vers USB-C Essager",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/adaptateur-otg-usb-3-0-vers-usb-c-essager-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/adaptateur-otg-usb-3-0-vers-usb-c-essager-photo-1.webp",
+      "/uploads/quick-products/adaptateur-otg-usb-3-0-vers-usb-c-essager-photo-2.webp",
+      "/uploads/quick-products/adaptateur-otg-usb-3-0-vers-usb-c-essager-photo-3.webp",
+      "/uploads/quick-products/adaptateur-otg-usb-3-0-vers-usb-c-essager-photo-4.webp",
+      "/uploads/quick-products/adaptateur-otg-usb-3-0-vers-usb-c-essager-photo-5.webp",
+      "/uploads/quick-products/adaptateur-otg-usb-3-0-vers-usb-c-essager-photo-6.webp"
+    ],
+    "shortDescription": "Adaptateur OTG Essager : brancher une cle USB, une souris ou un clavier sur un telephone ou une tablette USB-C.",
+    "description": "Adaptateur OTG Essager en USB 3.0 vers USB-C : il permet de brancher directement une cle USB, un lecteur de carte, une souris ou un clavier sur un telephone, une tablette ou un MacBook. On recupere les photos d un appareil photo sans passer par un ordinateur, on branche une manette sur une tablette, on lit une cle USB en deplacement. Debit USB 3.0 a 5 Gbit/s, donc les transferts de fichiers lourds ne trainent pas. Corps metallique compact, assez petit pour rester accroche a un porte-cles.",
+    "features": [
+      "Branche cle USB, souris ou clavier sur un telephone USB-C",
+      "USB 3.0 a 5 Gbit/s : les gros fichiers passent vite",
+      "Corps metallique, tient sur un porte-cles"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006202095509.html",
+      "supplierSku": "AE-ITEM-1005006202095509",
+      "supplierPriceCents": 209,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 481,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006202095509.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (10000+ ventes, note 4.9), visuels officiels importes.",
+      "markupPercent": 230,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.09 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:35.027Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006202095509.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006202095509 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Adaptateur OTG USB 3.0 vers USB-C Essager | Maxi Trouvaille",
+      "description": "Adaptateur OTG Essager : brancher une cle USB, une souris ou un clavier sur un telephone ou une tablette USB-C.",
+      "h1": "Adaptateur OTG USB 3.0 vers USB-C Essager",
+      "h2": "Pourquoi choisir Adaptateur OTG USB 3.0 vers USB-C Essager",
+      "keywords": [
+        "adaptateur",
+        "otg",
+        "usb",
+        "vers",
+        "essager",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Adaptateur OTG USB 3.0 vers USB-C Essager - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Adaptateur OTG USB 3.0 vers USB-C Essager - accessoires Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_cable_usb_c_240w_pd_3_1_essager_001",
+    "slug": "cable-usb-c-240w-pd-3-1-essager",
+    "name": "Câble USB-C 240 W PD 3.1 Essager",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/cable-usb-c-240w-pd-3-1-essager-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/cable-usb-c-240w-pd-3-1-essager-photo-1.webp",
+      "/uploads/quick-products/cable-usb-c-240w-pd-3-1-essager-photo-2.webp",
+      "/uploads/quick-products/cable-usb-c-240w-pd-3-1-essager-photo-3.webp",
+      "/uploads/quick-products/cable-usb-c-240w-pd-3-1-essager-photo-4.webp",
+      "/uploads/quick-products/cable-usb-c-240w-pd-3-1-essager-photo-5.webp",
+      "/uploads/quick-products/cable-usb-c-240w-pd-3-1-essager-photo-6.webp"
+    ],
+    "shortDescription": "Cable Essager USB-C vers USB-C prevu pour 240 W en Power Delivery 3.1, largement au-dessus des cables 100 W.",
+    "description": "Cable Essager USB-C vers USB-C concu pour la norme Power Delivery 3.1 et 240 W : c est le double de la limite des cables 100 W habituels, ce qui laisse de la marge pour les ordinateurs portables gourmands et les futurs appareils. Meme sur un telephone, un cable surdimensionne chauffe moins et vieillit mieux. Puce E-Marker integree qui negocie la puissance exacte avec l appareil au lieu de forcer. Gaine tressee et connecteurs moules qui resistent au pliage repete, la ou les cables d origine cassent au ras de la prise.",
+    "features": [
+      "240 W : le double des cables 100 W classiques",
+      "Puce E-Marker : negocie la puissance exacte, pas de forcage",
+      "Gaine tressee, connecteurs moules contre la casse"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006304425302.html",
+      "supplierSku": "AE-ITEM-1005006304425302",
+      "supplierPriceCents": 549,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1590,
+      "marginCents": 1041,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006304425302.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (10000+ ventes, note 4.8), visuels officiels importes.",
+      "markupPercent": 190,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 5.49 EUR, boutique 15.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:35.996Z"
+    },
+    "price": 1590,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006304425302.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006304425302 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Câble USB-C 240 W PD 3.1 Essager | Maxi Trouvaille",
+      "description": "Cable Essager USB-C vers USB-C prevu pour 240 W en Power Delivery 3.1, largement au-dessus des cables 100 W.",
+      "h1": "Câble USB-C 240 W PD 3.1 Essager",
+      "h2": "Pourquoi choisir Câble USB-C 240 W PD 3.1 Essager",
+      "keywords": [
+        "cable",
+        "usb",
+        "240w",
+        "essager",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Câble USB-C 240 W PD 3.1 Essager - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Câble USB-C 240 W PD 3.1 Essager - accessoires Maxi Trouvaille",
+    "compareAtPrice": 2190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_cable_usb_c_100w_affichage_numerique_ess_001",
+    "slug": "cable-usb-c-100w-affichage-numerique-essager",
+    "name": "Câble USB-C 100 W à affichage numérique Essager",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/cable-usb-c-100w-affichage-numerique-essager-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/cable-usb-c-100w-affichage-numerique-essager-photo-1.webp",
+      "/uploads/quick-products/cable-usb-c-100w-affichage-numerique-essager-photo-2.webp",
+      "/uploads/quick-products/cable-usb-c-100w-affichage-numerique-essager-photo-3.webp",
+      "/uploads/quick-products/cable-usb-c-100w-affichage-numerique-essager-photo-4.webp",
+      "/uploads/quick-products/cable-usb-c-100w-affichage-numerique-essager-photo-5.webp",
+      "/uploads/quick-products/cable-usb-c-100w-affichage-numerique-essager-photo-6.webp"
+    ],
+    "shortDescription": "Cable Essager 100 W avec un petit ecran qui affiche la puissance de charge en direct. On voit enfin ce qui se passe.",
+    "description": "Cable Essager USB-C 100 W avec petit ecran integre dans le connecteur : il affiche en direct la puissance reellement delivree, en watts. On sait immediatement si le telephone charge a 20 W ou seulement a 5 W, et donc si le probleme vient du chargeur, du cable ou de la prise. C est l accessoire qui repond a la question que tout le monde se pose quand une charge traine. Prise en charge du Power Delivery jusqu a 100 W pour les ordinateurs portables, transfert de donnees inclus, gaine tressee.",
+    "features": [
+      "Ecran integre : la puissance de charge s affiche en direct",
+      "On voit tout de suite d ou vient une charge trop lente",
+      "100 W Power Delivery, gaine tressee"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008095293390.html",
+      "supplierSku": "AE-ITEM-1005008095293390",
+      "supplierPriceCents": 369,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1090,
+      "marginCents": 721,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008095293390.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (10000+ ventes, note 4.8), visuels officiels importes.",
+      "markupPercent": 195,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 3.69 EUR, boutique 10.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:36.916Z"
+    },
+    "price": 1090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008095293390.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008095293390 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Câble USB-C 100 W à affichage numérique Essager | Maxi Trouvaille",
+      "description": "Cable Essager 100 W avec un petit ecran qui affiche la puissance de charge en direct. On voit enfin ce qui se passe.",
+      "h1": "Câble USB-C 100 W à affichage numérique Essager",
+      "h2": "Pourquoi choisir Câble USB-C 100 W à affichage numérique Essager",
+      "keywords": [
+        "cable",
+        "usb",
+        "100w",
+        "affichage",
+        "numerique",
+        "essager",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Câble USB-C 100 W à affichage numérique Essager - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Câble USB-C 100 W à affichage numérique Essager - accessoires Maxi Trouvaille",
+    "compareAtPrice": 1490,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_cable_lightning_charge_rapide_essager_001",
+    "slug": "cable-lightning-charge-rapide-essager",
+    "name": "Câble Lightning charge rapide Essager",
+    "categoryId": "dropshipping-accessoires",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/cable-lightning-charge-rapide-essager-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/cable-lightning-charge-rapide-essager-photo-1.webp",
+      "/uploads/quick-products/cable-lightning-charge-rapide-essager-photo-2.webp",
+      "/uploads/quick-products/cable-lightning-charge-rapide-essager-photo-3.webp",
+      "/uploads/quick-products/cable-lightning-charge-rapide-essager-photo-4.webp",
+      "/uploads/quick-products/cable-lightning-charge-rapide-essager-photo-5.webp",
+      "/uploads/quick-products/cable-lightning-charge-rapide-essager-photo-6.webp"
+    ],
+    "shortDescription": "Cable Essager a connecteur Lightning pour iPhone jusqu au 14, charge rapide et gaine renforcee.",
+    "description": "Cable de charge Essager a connecteur Lightning pour les iPhone jusqu au modele 14, les iPad et les anciens accessoires Apple. Il prend en charge la charge rapide quand il est branche sur un chargeur Power Delivery, ce que ne fait pas un cable premier prix. La ou le cable blanc d origine se fendille au ras de la prise au bout de quelques mois, celui-ci utilise une gaine renforcee et des connecteurs moules d un seul tenant. Longueur confortable pour continuer a utiliser le telephone pendant la charge.",
+    "features": [
+      "Charge rapide sur chargeur Power Delivery",
+      "Gaine renforcee : ne se fendille pas au ras de la prise",
+      "Pour iPhone jusqu au 14, iPad et accessoires Apple"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006782856572.html",
+      "supplierSku": "AE-ITEM-1005006782856572",
+      "supplierPriceCents": 246,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 790,
+      "marginCents": 544,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006782856572.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (10000+ ventes, note 4.9), visuels officiels importes.",
+      "markupPercent": 221,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.46 EUR, boutique 7.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:37.816Z"
+    },
+    "price": 790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006782856572.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006782856572 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Câble Lightning charge rapide Essager | Maxi Trouvaille",
+      "description": "Cable Essager a connecteur Lightning pour iPhone jusqu au 14, charge rapide et gaine renforcee.",
+      "h1": "Câble Lightning charge rapide Essager",
+      "h2": "Pourquoi choisir Câble Lightning charge rapide Essager",
+      "keywords": [
+        "cable",
+        "lightning",
+        "charge",
+        "rapide",
+        "essager",
+        "dropshipping-accessoires"
+      ],
+      "imageAlt": "Câble Lightning charge rapide Essager - accessoires Maxi Trouvaille"
+    },
+    "imageAlt": "Câble Lightning charge rapide Essager - accessoires Maxi Trouvaille",
+    "compareAtPrice": 1090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_capteur_fuite_eau_aqara_zigbee_001",
+    "slug": "capteur-fuite-eau-aqara-zigbee",
+    "name": "Capteur de fuite d'eau Aqara",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/capteur-fuite-eau-aqara-zigbee-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/capteur-fuite-eau-aqara-zigbee-photo-1.webp",
+      "/uploads/quick-products/capteur-fuite-eau-aqara-zigbee-photo-2.webp",
+      "/uploads/quick-products/capteur-fuite-eau-aqara-zigbee-photo-3.webp",
+      "/uploads/quick-products/capteur-fuite-eau-aqara-zigbee-photo-4.webp",
+      "/uploads/quick-products/capteur-fuite-eau-aqara-zigbee-photo-5.webp",
+      "/uploads/quick-products/capteur-fuite-eau-aqara-zigbee-photo-6.webp"
+    ],
+    "shortDescription": "Capteur Aqara qui previent sur le telephone des les premieres gouttes sous le lave-linge ou l evier.",
+    "description": "Detecteur de fuite d eau Aqara a poser sous le lave-linge, le lave-vaisselle, le chauffe-eau ou au fond du meuble d evier. Des que de l eau touche les deux contacts, l alarme sonne sur place et une notification part sur le telephone, meme si personne n est a la maison. C est exactement la situation ou quelques heures d avance evitent un parquet a refaire et un degat des eaux chez le voisin du dessous. Boitier etanche IP67, pile fournie annoncee pour environ deux ans, aucun cablage. Necessite une passerelle Aqara ou Xiaomi, vendue separement.",
+    "features": [
+      "Alerte sur le telephone des les premieres gouttes",
+      "Etanche IP67, pile d environ deux ans, aucun cablage",
+      "Necessite une passerelle Aqara ou Xiaomi, vendue separement"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007010503267.html",
+      "supplierSku": "AE-ITEM-1005007010503267",
+      "supplierPriceCents": 1669,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3690,
+      "marginCents": 2021,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007010503267.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (3000+ ventes, note 4.9), visuels officiels importes.",
+      "markupPercent": 121,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 16.69 EUR, boutique 36.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:38.517Z"
+    },
+    "price": 3690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007010503267.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007010503267 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Capteur de fuite d'eau Aqara | Maxi Trouvaille",
+      "description": "Capteur Aqara qui previent sur le telephone des les premieres gouttes sous le lave-linge ou l evier.",
+      "h1": "Capteur de fuite d'eau Aqara",
+      "h2": "Pourquoi choisir Capteur de fuite d'eau Aqara",
+      "keywords": [
+        "capteur",
+        "fuite",
+        "eau",
+        "aqara",
+        "zigbee",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Capteur de fuite d'eau Aqara - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Capteur de fuite d'eau Aqara - maison Maxi Trouvaille",
+    "compareAtPrice": 4990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_capteur_mouvement_aqara_zigbee_001",
+    "slug": "capteur-mouvement-aqara-zigbee",
+    "name": "Capteur de mouvement Aqara",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/capteur-mouvement-aqara-zigbee-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/capteur-mouvement-aqara-zigbee-photo-1.webp",
+      "/uploads/quick-products/capteur-mouvement-aqara-zigbee-photo-2.webp",
+      "/uploads/quick-products/capteur-mouvement-aqara-zigbee-photo-3.webp",
+      "/uploads/quick-products/capteur-mouvement-aqara-zigbee-photo-4.webp",
+      "/uploads/quick-products/capteur-mouvement-aqara-zigbee-photo-5.webp",
+      "/uploads/quick-products/capteur-mouvement-aqara-zigbee-photo-6.webp"
+    ],
+    "shortDescription": "Detecteur de mouvement Aqara sans fil : allume la lumiere quand on entre, alerte quand on n est pas la.",
+    "description": "Detecteur de mouvement Aqara sans fil, a poser ou coller n importe ou grace a son socle magnetique oriente. Deux usages au quotidien : declencher automatiquement une lumiere quand on entre dans un couloir ou un garage les mains chargees, et servir d alerte de presence quand la maison est vide. Detection infrarouge sur environ sept metres et 170 degres, avec capteur de luminosite integre pour ne pas allumer en plein jour. Pile fournie tenant environ deux ans, aucun fil a tirer. Necessite une passerelle Aqara ou Xiaomi, vendue separement.",
+    "features": [
+      "Allume la lumiere quand on entre les mains chargees",
+      "Alerte de presence quand la maison est vide",
+      "Socle magnetique oriente. Passerelle Aqara requise, vendue separement"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007344883681.html",
+      "supplierSku": "AE-ITEM-1005007344883681",
+      "supplierPriceCents": 1699,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3790,
+      "marginCents": 2091,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007344883681.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (2000+ ventes, note 4.9), visuels officiels importes.",
+      "markupPercent": 123,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 16.99 EUR, boutique 37.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:39.126Z"
+    },
+    "price": 3790,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007344883681.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007344883681 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Capteur de mouvement Aqara | Maxi Trouvaille",
+      "description": "Detecteur de mouvement Aqara sans fil : allume la lumiere quand on entre, alerte quand on n est pas la.",
+      "h1": "Capteur de mouvement Aqara",
+      "h2": "Pourquoi choisir Capteur de mouvement Aqara",
+      "keywords": [
+        "capteur",
+        "mouvement",
+        "aqara",
+        "zigbee",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Capteur de mouvement Aqara - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Capteur de mouvement Aqara - maison Maxi Trouvaille",
+    "compareAtPrice": 5190,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_interrupteur_mural_aqara_e1_zigbee_001",
+    "slug": "interrupteur-mural-aqara-e1-zigbee",
+    "name": "Interrupteur mural connecté Aqara E1",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/interrupteur-mural-aqara-e1-zigbee-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/interrupteur-mural-aqara-e1-zigbee-photo-1.webp",
+      "/uploads/quick-products/interrupteur-mural-aqara-e1-zigbee-photo-2.webp",
+      "/uploads/quick-products/interrupteur-mural-aqara-e1-zigbee-photo-3.webp",
+      "/uploads/quick-products/interrupteur-mural-aqara-e1-zigbee-photo-4.webp",
+      "/uploads/quick-products/interrupteur-mural-aqara-e1-zigbee-photo-5.webp",
+      "/uploads/quick-products/interrupteur-mural-aqara-e1-zigbee-photo-6.webp"
+    ],
+    "shortDescription": "Interrupteur mural Aqara E1 qui se pose sans fil de neutre : c est ce qui bloque la plupart des installations francaises.",
+    "description": "Interrupteur mural connecte Aqara E1 en version sans fil de neutre : c est le point qui compte. Dans la majorite des logements francais anciens, la boite d interrupteur ne recoit que la phase et le retour lampe, sans neutre, ce qui rend incompatibles la plupart des interrupteurs connectes du marche. Celui-ci fonctionne dans cette configuration. Une fois pose, l eclairage se commande au mur comme avant, mais aussi a la voix ou depuis le telephone, et se programme par horaires. Protocole ZigBee 3.0, compatible Xiaomi Home et Apple HomeKit. Necessite une passerelle, vendue separement.",
+    "features": [
+      "Fonctionne SANS fil de neutre : compatible logements anciens",
+      "Garde l usage normal au mur, ajoute la voix et le telephone",
+      "ZigBee 3.0. Passerelle requise, vendue separement"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005008121039071.html",
+      "supplierSku": "AE-ITEM-1005008121039071",
+      "supplierPriceCents": 1419,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3190,
+      "marginCents": 1771,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005008121039071.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (5000+ ventes, note 4.8), visuels officiels importes.",
+      "markupPercent": 125,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 14.19 EUR, boutique 31.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:39.618Z"
+    },
+    "price": 3190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005008121039071.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005008121039071 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Interrupteur mural connecté Aqara E1 | Maxi Trouvaille",
+      "description": "Interrupteur mural Aqara E1 qui se pose sans fil de neutre : c est ce qui bloque la plupart des installations francaises.",
+      "h1": "Interrupteur mural connecté Aqara E1",
+      "h2": "Pourquoi choisir Interrupteur mural connecté Aqara E1",
+      "keywords": [
+        "interrupteur",
+        "mural",
+        "aqara",
+        "zigbee",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Interrupteur mural connecté Aqara E1 - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Interrupteur mural connecté Aqara E1 - maison Maxi Trouvaille",
+    "compareAtPrice": 4390,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_mini_interrupteur_sans_fil_aqara_001",
+    "slug": "mini-interrupteur-sans-fil-aqara",
+    "name": "Mini interrupteur sans fil Aqara",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/mini-interrupteur-sans-fil-aqara-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/mini-interrupteur-sans-fil-aqara-photo-1.webp",
+      "/uploads/quick-products/mini-interrupteur-sans-fil-aqara-photo-2.webp",
+      "/uploads/quick-products/mini-interrupteur-sans-fil-aqara-photo-3.webp",
+      "/uploads/quick-products/mini-interrupteur-sans-fil-aqara-photo-4.webp",
+      "/uploads/quick-products/mini-interrupteur-sans-fil-aqara-photo-5.webp",
+      "/uploads/quick-products/mini-interrupteur-sans-fil-aqara-photo-6.webp"
+    ],
+    "shortDescription": "Bouton Aqara sans fil a coller n importe ou : appui simple, double ou long, trois actions differentes.",
+    "description": "Mini interrupteur sans fil Aqara : un bouton autonome a coller ou poser ou l on veut, sans percer, sans tirer de fil. Il reconnait trois gestes distincts, appui simple, double appui et appui long, donc un seul bouton peut eteindre toutes les lumieres, lancer un scenario du soir et declencher une alerte. On le colle au chevet, dans l entree, sur le plan de travail. Format d environ quatre centimetres, pile bouton fournie. Necessite une passerelle Aqara ou Xiaomi, vendue separement.",
+    "features": [
+      "Trois actions differentes : appui simple, double et long",
+      "Se colle n importe ou, sans percer ni tirer de fil",
+      "Passerelle Aqara ou Xiaomi requise, vendue separement"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007724596666.html",
+      "supplierSku": "AE-ITEM-1005007724596666",
+      "supplierPriceCents": 919,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2090,
+      "marginCents": 1171,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007724596666.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (2000+ ventes, note 4.9), visuels officiels importes.",
+      "markupPercent": 127,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 9.19 EUR, boutique 20.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:40.260Z"
+    },
+    "price": 2090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007724596666.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007724596666 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Mini interrupteur sans fil Aqara | Maxi Trouvaille",
+      "description": "Bouton Aqara sans fil a coller n importe ou : appui simple, double ou long, trois actions differentes.",
+      "h1": "Mini interrupteur sans fil Aqara",
+      "h2": "Pourquoi choisir Mini interrupteur sans fil Aqara",
+      "keywords": [
+        "mini",
+        "interrupteur",
+        "sans",
+        "fil",
+        "aqara",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Mini interrupteur sans fil Aqara - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Mini interrupteur sans fil Aqara - maison Maxi Trouvaille",
+    "compareAtPrice": 2890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_capteur_temperature_humidite_pression_aq_001",
+    "slug": "capteur-temperature-humidite-pression-aqara",
+    "name": "Capteur température, humidité et pression Aqara",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/capteur-temperature-humidite-pression-aqara-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/capteur-temperature-humidite-pression-aqara-photo-1.webp",
+      "/uploads/quick-products/capteur-temperature-humidite-pression-aqara-photo-2.webp",
+      "/uploads/quick-products/capteur-temperature-humidite-pression-aqara-photo-3.webp",
+      "/uploads/quick-products/capteur-temperature-humidite-pression-aqara-photo-4.webp",
+      "/uploads/quick-products/capteur-temperature-humidite-pression-aqara-photo-5.webp",
+      "/uploads/quick-products/capteur-temperature-humidite-pression-aqara-photo-6.webp"
+    ],
+    "shortDescription": "Capteur Aqara qui mesure temperature, humidite et pression, et peut declencher un chauffage ou un deshumidificateur.",
+    "description": "Capteur Aqara trois-en-un : temperature, taux d humidite et pression atmospherique, releves en continu et consultables sur le telephone avec l historique. Son interet depasse l affichage : il sert de declencheur. En dessous de 18 degres dans la chambre, le chauffage se met en route ; au-dessus de 65 pour cent d humidite dans la salle de bain, l extracteur ou le deshumidificateur demarre. C est la mesure qui pilote l action, au lieu d y penser soi-meme. Format de quatre centimetres, pile fournie. Necessite une passerelle Aqara ou Xiaomi, vendue separement.",
+    "features": [
+      "Temperature, humidite et pression avec historique",
+      "Sert de declencheur : chauffage, deshumidificateur, extracteur",
+      "Passerelle Aqara ou Xiaomi requise, vendue separement"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006794094479.html",
+      "supplierSku": "AE-ITEM-1005006794094479",
+      "supplierPriceCents": 1519,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3390,
+      "marginCents": 1871,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006794094479.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (1000+ ventes, note 4.8), visuels officiels importes.",
+      "markupPercent": 123,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 15.19 EUR, boutique 33.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:40.782Z"
+    },
+    "price": 3390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006794094479.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006794094479 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Capteur température, humidité et pression Aqara | Maxi Trouvaille",
+      "description": "Capteur Aqara qui mesure temperature, humidite et pression, et peut declencher un chauffage ou un deshumidificateur.",
+      "h1": "Capteur température, humidité et pression Aqara",
+      "h2": "Pourquoi choisir Capteur température, humidité et pression Aqara",
+      "keywords": [
+        "capteur",
+        "temperature",
+        "humidite",
+        "pression",
+        "aqara",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Capteur température, humidité et pression Aqara - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Capteur température, humidité et pression Aqara - maison Maxi Trouvaille",
+    "compareAtPrice": 4590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_module_relais_aqara_t1_zigbee_001",
+    "slug": "module-relais-aqara-t1-zigbee",
+    "name": "Module relais connecté Aqara T1",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/module-relais-aqara-t1-zigbee-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/module-relais-aqara-t1-zigbee-photo-1.webp",
+      "/uploads/quick-products/module-relais-aqara-t1-zigbee-photo-2.webp",
+      "/uploads/quick-products/module-relais-aqara-t1-zigbee-photo-3.webp",
+      "/uploads/quick-products/module-relais-aqara-t1-zigbee-photo-4.webp",
+      "/uploads/quick-products/module-relais-aqara-t1-zigbee-photo-5.webp",
+      "/uploads/quick-products/module-relais-aqara-t1-zigbee-photo-6.webp"
+    ],
+    "shortDescription": "Module Aqara T1 a cacher derriere un interrupteur existant : l installation ne change pas, elle devient connectee.",
+    "description": "Module relais Aqara T1 : il se loge dans la boite d encastrement derriere un interrupteur ou une prise deja en place. Rien ne change visuellement, l interrupteur d origine continue de fonctionner normalement, mais le circuit devient pilotable au telephone et a la voix, et programmable par horaires. C est la solution quand on veut garder ses interrupteurs existants, ou rendre connecte un volet, un chauffe-serviette ou un eclairage exterieur. Version compatible avec et sans fil de neutre. Installation sur circuit electrique : faire appel a un electricien si vous n etes pas a l aise. Necessite une passerelle, vendue separement.",
+    "features": [
+      "Se cache derriere un interrupteur existant, rien ne change a la vue",
+      "Fonctionne avec ou sans fil de neutre",
+      "Intervention sur circuit electrique. Passerelle requise, vendue separement"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005904678342.html",
+      "supplierSku": "AE-ITEM-1005005904678342",
+      "supplierPriceCents": 2099,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 3390,
+      "marginCents": 1291,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005904678342.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (1000+ ventes, note 4.7), visuels officiels importes.",
+      "markupPercent": 62,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 20.99 EUR, boutique 33.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:41.456Z"
+    },
+    "price": 3390,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005904678342.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005904678342 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Module relais connecté Aqara T1 | Maxi Trouvaille",
+      "description": "Module Aqara T1 a cacher derriere un interrupteur existant : l installation ne change pas, elle devient connectee.",
+      "h1": "Module relais connecté Aqara T1",
+      "h2": "Pourquoi choisir Module relais connecté Aqara T1",
+      "keywords": [
+        "module",
+        "relais",
+        "aqara",
+        "zigbee",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Module relais connecté Aqara T1 - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Module relais connecté Aqara T1 - maison Maxi Trouvaille",
+    "compareAtPrice": 4590,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_capteur_ouverture_porte_fenetre_aqara_001",
+    "slug": "capteur-ouverture-porte-fenetre-aqara",
+    "name": "Capteur d'ouverture porte et fenêtre Aqara",
+    "categoryId": "dropshipping-maison",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/capteur-ouverture-porte-fenetre-aqara-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/capteur-ouverture-porte-fenetre-aqara-photo-1.webp",
+      "/uploads/quick-products/capteur-ouverture-porte-fenetre-aqara-photo-2.webp",
+      "/uploads/quick-products/capteur-ouverture-porte-fenetre-aqara-photo-3.webp",
+      "/uploads/quick-products/capteur-ouverture-porte-fenetre-aqara-photo-4.webp",
+      "/uploads/quick-products/capteur-ouverture-porte-fenetre-aqara-photo-5.webp",
+      "/uploads/quick-products/capteur-ouverture-porte-fenetre-aqara-photo-6.webp"
+    ],
+    "shortDescription": "Capteur Aqara qui previent a chaque ouverture de porte ou de fenetre. Deux morceaux a coller, aucun fil.",
+    "description": "Capteur d ouverture Aqara : deux petits blocs a coller face a face, l un sur la porte ou la fenetre, l autre sur le dormant. Des qu ils se separent, la notification part sur le telephone. On sait quand un enfant rentre de l ecole, si le portail du jardin s ouvre, ou si une fenetre est restee entrouverte avant de partir en week-end. Il peut aussi declencher autre chose : allumer l entree a l ouverture de la porte, couper le chauffage quand une fenetre s ouvre. Adhesif fourni, aucun percage, pile d environ deux ans. Necessite une passerelle Aqara ou Xiaomi, vendue separement.",
+    "features": [
+      "Notification a chaque ouverture, meme a distance",
+      "Coupe le chauffage quand une fenetre s ouvre",
+      "Colle sans percer. Passerelle Aqara ou Xiaomi requise, vendue separement"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007203355845.html",
+      "supplierSku": "AE-ITEM-1005007203355845",
+      "supplierPriceCents": 919,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2090,
+      "marginCents": 1171,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007203355845.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (2000+ ventes, note 4.9), visuels officiels importes.",
+      "markupPercent": 127,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 9.19 EUR, boutique 20.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:42.199Z"
+    },
+    "price": 2090,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007203355845.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007203355845 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Capteur d'ouverture porte et fenêtre Aqara | Maxi Trouvaille",
+      "description": "Capteur Aqara qui previent a chaque ouverture de porte ou de fenetre. Deux morceaux a coller, aucun fil.",
+      "h1": "Capteur d'ouverture porte et fenêtre Aqara",
+      "h2": "Pourquoi choisir Capteur d'ouverture porte et fenêtre Aqara",
+      "keywords": [
+        "capteur",
+        "ouverture",
+        "porte",
+        "fenetre",
+        "aqara",
+        "dropshipping-maison"
+      ],
+      "imageAlt": "Capteur d'ouverture porte et fenêtre Aqara - maison Maxi Trouvaille"
+    },
+    "imageAlt": "Capteur d'ouverture porte et fenêtre Aqara - maison Maxi Trouvaille",
+    "compareAtPrice": 2890,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_coffret_outils_46_pieces_cliquet_001",
+    "slug": "coffret-outils-46-pieces-cliquet",
+    "name": "Coffret à outils 46 pièces avec cliquet",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/coffret-outils-46-pieces-cliquet-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/coffret-outils-46-pieces-cliquet-photo-1.webp",
+      "/uploads/quick-products/coffret-outils-46-pieces-cliquet-photo-2.webp",
+      "/uploads/quick-products/coffret-outils-46-pieces-cliquet-photo-3.webp",
+      "/uploads/quick-products/coffret-outils-46-pieces-cliquet-photo-4.webp",
+      "/uploads/quick-products/coffret-outils-46-pieces-cliquet-photo-5.webp",
+      "/uploads/quick-products/coffret-outils-46-pieces-cliquet-photo-6.webp"
+    ],
+    "shortDescription": "Coffret 46 pieces avec cliquet, douilles et embouts : de quoi couvrir la voiture, le velo et le bricolage courant.",
+    "description": "Coffret de 46 pieces organise dans une mallette : cliquet reversible, jeu de douilles, rallonge, cardan, embouts de vissage et cles. C est l assortiment qui couvre la grande majorite des interventions courantes, du serrage d une roue de velo au demontage d une batterie de voiture en passant par le montage de meubles. Le cliquet a denture fine permet de travailler dans un espace reduit, la ou une cle plate demande de reprendre a chaque quart de tour. Chaque piece a son logement dans la mallette : on voit immediatement ce qui manque au rangement.",
+    "features": [
+      "46 pieces : cliquet, douilles, rallonge, cardan et embouts",
+      "Denture fine : on travaille dans les espaces reduits",
+      "Chaque piece a son logement, rien ne se perd"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005012061834096.html",
+      "supplierSku": "AE-ITEM-1005012061834096",
+      "supplierPriceCents": 1899,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 4190,
+      "marginCents": 2291,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005012061834096.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (50000+ ventes, note 4.9), visuels officiels importes.",
+      "markupPercent": 121,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 18.99 EUR, boutique 41.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:42.826Z"
+    },
+    "price": 4190,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005012061834096.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005012061834096 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Coffret à outils 46 pièces avec cliquet | Maxi Trouvaille",
+      "description": "Coffret 46 pieces avec cliquet, douilles et embouts : de quoi couvrir la voiture, le velo et le bricolage courant.",
+      "h1": "Coffret à outils 46 pièces avec cliquet",
+      "h2": "Pourquoi choisir Coffret à outils 46 pièces avec cliquet",
+      "keywords": [
+        "coffret",
+        "outils",
+        "pieces",
+        "cliquet",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Coffret à outils 46 pièces avec cliquet - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Coffret à outils 46 pièces avec cliquet - outillage Maxi Trouvaille",
+    "compareAtPrice": 5690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_rallonges_porte_embouts_3_pieces_001",
+    "slug": "rallonges-porte-embouts-3-pieces",
+    "name": "Rallonges porte-embouts 3 pièces",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/rallonges-porte-embouts-3-pieces-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/rallonges-porte-embouts-3-pieces-photo-1.webp",
+      "/uploads/quick-products/rallonges-porte-embouts-3-pieces-photo-2.webp",
+      "/uploads/quick-products/rallonges-porte-embouts-3-pieces-photo-3.webp",
+      "/uploads/quick-products/rallonges-porte-embouts-3-pieces-photo-4.webp",
+      "/uploads/quick-products/rallonges-porte-embouts-3-pieces-photo-5.webp",
+      "/uploads/quick-products/rallonges-porte-embouts-3-pieces-photo-6.webp"
+    ],
+    "shortDescription": "Trois rallonges de 50 mm en 1/4, 3/8 et 1/2 pour atteindre une vis au fond d un logement.",
+    "description": "Jeu de trois rallonges hexagonales de 50 mm, en carre 1/4, 3/8 et 1/2 pouce : elles se montent sur une perceuse, une visseuse ou un cliquet pour atteindre une vis au fond d un logement, derriere un obstacle ou dans un angle. C est l accessoire auquel on ne pense qu au moment ou l embout n atteint pas la vis et ou le chantier s arrete. Acier traite avec retenue magnetique ou a bille selon le format, changement d embout rapide. Trois tailles pour couvrir toutes les configurations.",
+    "features": [
+      "Atteint une vis au fond d un logement ou derriere un obstacle",
+      "Trois carres : 1/4, 3/8 et 1/2 pouce",
+      "Acier traite, changement d embout rapide"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006996370695.html",
+      "supplierSku": "AE-ITEM-1005006996370695",
+      "supplierPriceCents": 269,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 890,
+      "marginCents": 621,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006996370695.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (50000+ ventes, note 4.9), visuels officiels importes.",
+      "markupPercent": 231,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 2.69 EUR, boutique 8.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:43.559Z"
+    },
+    "price": 890,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006996370695.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006996370695 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Rallonges porte-embouts 3 pièces | Maxi Trouvaille",
+      "description": "Trois rallonges de 50 mm en 1/4, 3/8 et 1/2 pour atteindre une vis au fond d un logement.",
+      "h1": "Rallonges porte-embouts 3 pièces",
+      "h2": "Pourquoi choisir Rallonges porte-embouts 3 pièces",
+      "keywords": [
+        "rallonges",
+        "porte",
+        "embouts",
+        "pieces",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Rallonges porte-embouts 3 pièces - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Rallonges porte-embouts 3 pièces - outillage Maxi Trouvaille",
+    "compareAtPrice": 1290,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_pince_amperemetrique_aneng_st180_001",
+    "slug": "pince-amperemetrique-aneng-st180",
+    "name": "Pince ampèremétrique ANENG ST180",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/pince-amperemetrique-aneng-st180-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/pince-amperemetrique-aneng-st180-photo-1.webp",
+      "/uploads/quick-products/pince-amperemetrique-aneng-st180-photo-2.webp",
+      "/uploads/quick-products/pince-amperemetrique-aneng-st180-photo-3.webp",
+      "/uploads/quick-products/pince-amperemetrique-aneng-st180-photo-4.webp",
+      "/uploads/quick-products/pince-amperemetrique-aneng-st180-photo-5.webp",
+      "/uploads/quick-products/pince-amperemetrique-aneng-st180-photo-6.webp"
+    ],
+    "shortDescription": "Pince amperemetrique ANENG ST180 : mesurer le courant d un cable sans le couper ni le debrancher.",
+    "description": "Pince amperemetrique ANENG ST180 : elle mesure l intensite qui circule dans un cable simplement en l entourant, sans couper le circuit ni debrancher quoi que ce soit. C est la difference decisive avec un multimetre classique, ou mesurer un courant impose d ouvrir le circuit et de s inserer dedans. On verifie ainsi la consommation reelle d un appareil, on trouve la ligne qui fait disjoncter, on controle un circuit automobile. Affichage 4 000 points, mesure aussi la tension, la resistance, la capacite, la frequence, et detecte une phase sans contact grace au NCV.",
+    "features": [
+      "Mesure le courant sans couper ni debrancher le cable",
+      "Trouve la ligne qui fait disjoncter, verifie une consommation",
+      "Aussi tension, resistance, capacite et detection de phase sans contact"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005007530757150.html",
+      "supplierSku": "AE-ITEM-1005007530757150",
+      "supplierPriceCents": 1319,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 2990,
+      "marginCents": 1671,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005007530757150.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (10000+ ventes, note 4.7), visuels officiels importes.",
+      "markupPercent": 127,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 13.19 EUR, boutique 29.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:44.311Z"
+    },
+    "price": 2990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005007530757150.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005007530757150 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Pince ampèremétrique ANENG ST180 | Maxi Trouvaille",
+      "description": "Pince amperemetrique ANENG ST180 : mesurer le courant d un cable sans le couper ni le debrancher.",
+      "h1": "Pince ampèremétrique ANENG ST180",
+      "h2": "Pourquoi choisir Pince ampèremétrique ANENG ST180",
+      "keywords": [
+        "pince",
+        "amperemetrique",
+        "aneng",
+        "st180",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Pince ampèremétrique ANENG ST180 - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Pince ampèremétrique ANENG ST180 - outillage Maxi Trouvaille",
+    "compareAtPrice": 4090,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_ruban_mesurer_adhesif_inox_etabli_001",
+    "slug": "ruban-mesurer-adhesif-inox-etabli",
+    "name": "Ruban à mesurer adhésif inox pour établi",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/ruban-mesurer-adhesif-inox-etabli-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/ruban-mesurer-adhesif-inox-etabli-photo-1.webp",
+      "/uploads/quick-products/ruban-mesurer-adhesif-inox-etabli-photo-2.webp",
+      "/uploads/quick-products/ruban-mesurer-adhesif-inox-etabli-photo-3.webp",
+      "/uploads/quick-products/ruban-mesurer-adhesif-inox-etabli-photo-4.webp",
+      "/uploads/quick-products/ruban-mesurer-adhesif-inox-etabli-photo-5.webp",
+      "/uploads/quick-products/ruban-mesurer-adhesif-inox-etabli-photo-6.webp"
+    ],
+    "shortDescription": "Reglet adhesif en inox a coller sur un etabli, une scie sur table ou un rail : la mesure est toujours la.",
+    "description": "Ruban a mesurer adhesif en acier inoxydable, a coller directement sur un etabli, un rail en T, une scie sur table ou une defonceuse. La graduation reste en place en permanence : plus besoin de rechercher le metre a chaque coupe, et surtout plus de decalage entre deux mesures puisque la reference ne bouge jamais. C est ce qui fait la difference sur une serie de coupes identiques. Inox qui ne rouille pas et resiste aux copeaux, adhesif fort, disponible en plusieurs longueurs et sens de lecture.",
+    "features": [
+      "La graduation reste en place : plus de metre a rechercher",
+      "Meme reference a chaque coupe, pas de decalage sur une serie",
+      "Inox qui ne rouille pas, adhesif fort"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005005682900366.html",
+      "supplierSku": "AE-ITEM-1005005682900366",
+      "supplierPriceCents": 161,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 690,
+      "marginCents": 529,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005005682900366.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (10000+ ventes, note 4.8), visuels officiels importes.",
+      "markupPercent": 329,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 1.61 EUR, boutique 6.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:44.920Z"
+    },
+    "price": 690,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005005682900366.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005005682900366 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Ruban à mesurer adhésif inox pour établi | Maxi Trouvaille",
+      "description": "Reglet adhesif en inox a coller sur un etabli, une scie sur table ou un rail : la mesure est toujours la.",
+      "h1": "Ruban à mesurer adhésif inox pour établi",
+      "h2": "Pourquoi choisir Ruban à mesurer adhésif inox pour établi",
+      "keywords": [
+        "ruban",
+        "mesurer",
+        "adhesif",
+        "inox",
+        "etabli",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Ruban à mesurer adhésif inox pour établi - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Ruban à mesurer adhésif inox pour établi - outillage Maxi Trouvaille",
+    "compareAtPrice": 990,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
+      "deliveryStatus": "validated",
+      "priceStatus": "validated",
+      "rightsStatus": "validated"
+    }
+  },
+  {
+    "id": "ali_partner_20260804_adaptateur_mandrin_sans_cle_perceuse_001",
+    "slug": "adaptateur-mandrin-sans-cle-perceuse",
+    "name": "Adaptateur de mandrin sans clé pour perceuse",
+    "categoryId": "dropshipping-outillage",
+    "condition": "Neuf",
+    "stock": 40,
+    "badge": "Nouveauté",
+    "image": "/uploads/quick-products/adaptateur-mandrin-sans-cle-perceuse-photo-1.webp",
+    "images": [
+      "/uploads/quick-products/adaptateur-mandrin-sans-cle-perceuse-photo-1.webp",
+      "/uploads/quick-products/adaptateur-mandrin-sans-cle-perceuse-photo-2.webp",
+      "/uploads/quick-products/adaptateur-mandrin-sans-cle-perceuse-photo-3.webp",
+      "/uploads/quick-products/adaptateur-mandrin-sans-cle-perceuse-photo-4.webp",
+      "/uploads/quick-products/adaptateur-mandrin-sans-cle-perceuse-photo-5.webp",
+      "/uploads/quick-products/adaptateur-mandrin-sans-cle-perceuse-photo-6.webp"
+    ],
+    "shortDescription": "Mandrin sans cle a monter sur une visseuse a choc : elle accepte alors tous les forets a queue ronde.",
+    "description": "Adaptateur mandrin sans cle a tige hexagonale 1/4 de pouce : il se monte en quelques secondes sur une visseuse a choc ou une perceuse a emmanchement hexagonal, qui accepte alors n importe quel foret a queue ronde. Sans lui, une visseuse a choc ne prend que les embouts hexagonaux, ce qui exclut la quasi-totalite des forets a bois et a metal. Serrage a la main sans cle, filetage 3/8-24 UNF standard, capacite jusqu a 10 mm. Un accessoire a moins de dix euros qui evite d acheter une deuxieme machine.",
+    "features": [
+      "Une visseuse a choc accepte enfin les forets a queue ronde",
+      "Serrage a la main, sans cle, capacite jusqu a 10 mm",
+      "Evite d acheter une deuxieme machine"
+    ],
+    "livraisonDisponible": "colissimo uniquement",
+    "source": "internal",
+    "status": "published",
+    "dropshipping": {
+      "enabled": true,
+      "supplierName": "AliExpress",
+      "supplierUrl": "https://fr.aliexpress.com/item/1005006861089202.html",
+      "supplierSku": "AE-ITEM-1005006861089202",
+      "supplierPriceCents": 879,
+      "supplierStock": 40,
+      "deliveryEstimate": "7 à 14 jours ouvrés, livraison suivie",
+      "isPromotion": false,
+      "isNew": true,
+      "logisticsPartnerLabel": "partenaire logistique",
+      "salePriceCents": 1990,
+      "marginCents": 1111,
+      "syncStatus": "manual",
+      "lastSyncAt": "2026-08-04",
+      "validationGate": {
+        "source": "AliExpress",
+        "checkedAt": "2026-08-04",
+        "note": "Validation proprietaire du 2026-08-04 : fournisseur, prix, livraison et visuels confirmes.",
+        "checks": [
+          "Fournisseur AliExpress confirme",
+          "Prix de vente et marge valides",
+          "Livraison 7 à 14 jours ouvrés, livraison suivie confirmee",
+          "Photos produit importees en local"
+        ]
+      }
+    },
+    "internalSourcing": {
+      "evidenceUrl": "https://fr.aliexpress.com/item/1005006861089202.html",
+      "evidenceNote": "Fiche fournisseur exacte relevee le 2026-08-04 (10000+ ventes, note 4.9), visuels officiels importes.",
+      "markupPercent": 126,
+      "pricingRule": "Paliers degressifs selon prix fournisseur, plancher 6,90 EUR, arrondi en X,90 : fournisseur 8.79 EUR, boutique 19.90 EUR.",
+      "validationStatus": "validated - publication approuvee par le proprietaire le 2026-08-04",
+      "pricingUpdatedAt": "2026-08-04T08:14:45.479Z"
+    },
+    "price": 1990,
+    "imageValidation": {
+      "status": "verified_source_images",
+      "checkedAt": "2026-08-04",
+      "sourceUrl": "https://fr.aliexpress.com/item/1005006861089202.html",
+      "imageCount": 6,
+      "reason": "Images officielles de la fiche fournisseur 1005006861089202 verifiees et importees en local (webp) le 2026-08-04.",
+      "nextAction": "Aucune : fiche complete et validee.",
+      "note": "Photos fournisseur exactes importees en local (webp) le 2026-08-04."
+    },
+    "seo": {
+      "title": "Adaptateur de mandrin sans clé pour perceuse | Maxi Trouvaille",
+      "description": "Mandrin sans cle a monter sur une visseuse a choc : elle accepte alors tous les forets a queue ronde.",
+      "h1": "Adaptateur de mandrin sans clé pour perceuse",
+      "h2": "Pourquoi choisir Adaptateur de mandrin sans clé pour perceuse",
+      "keywords": [
+        "adaptateur",
+        "mandrin",
+        "sans",
+        "cle",
+        "perceuse",
+        "dropshipping-outillage"
+      ],
+      "imageAlt": "Adaptateur de mandrin sans clé pour perceuse - outillage Maxi Trouvaille"
+    },
+    "imageAlt": "Adaptateur de mandrin sans clé pour perceuse - outillage Maxi Trouvaille",
+    "compareAtPrice": 2690,
+    "sourceVerification": {
+      "status": "validated",
+      "checkedAt": "2026-08-04",
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
