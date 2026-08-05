@@ -41,7 +41,10 @@ const highlightFilters: Array<{ id: HighlightFilter; label: string }> = [
   { id: "all", label: "Tout" },
   { id: "available", label: "Disponible" },
   { id: "new", label: "Nouveautés" },
-  { id: "promotion", label: "Promos" },
+  // « Promos » retire du choix visible le 05/08/2026 : l'affichage des prix
+  // barres est coupe faute d'historique de prix reel, ce filtre ne renvoyait
+  // donc plus aucun produit. Le filtre lui-meme reste dans le code, comme les
+  // autres filtres internes.
 ];
 
 const emptyStateCategoryLinks = [
@@ -149,7 +152,10 @@ function sortProducts(products: Product[], sortKey: SortKey) {
       return a.name.localeCompare(b.name, "fr");
     }
 
-    return getProductScore(b) - getProductScore(a) || a.name.localeCompare(b.name, "fr");
+    return (
+      getProductScore(b) - getProductScore(a) ||
+      a.name.localeCompare(b.name, "fr")
+    );
   });
 }
 
@@ -255,7 +261,8 @@ export function ShopProductExplorer({
           ) : null}
         </button>
         <span className="text-sm font-semibold text-muted">
-          {visibleProducts.length} produit{visibleProducts.length > 1 ? "s" : ""}
+          {visibleProducts.length} produit
+          {visibleProducts.length > 1 ? "s" : ""}
         </span>
       </div>
 
@@ -331,7 +338,9 @@ export function ShopProductExplorer({
                       : "border-line bg-white text-muted hover:text-foreground"
                   }`}
                 >
-                  {filter.id === "new" ? <Sparkles size={15} aria-hidden="true" /> : null}
+                  {filter.id === "new" ? (
+                    <Sparkles size={15} aria-hidden="true" />
+                  ) : null}
                   {filter.label}
                 </button>
               );
@@ -340,7 +349,8 @@ export function ShopProductExplorer({
 
           <div className="flex items-center gap-3">
             <span className="hidden text-sm font-bold text-muted lg:inline">
-              {visibleProducts.length} produit{visibleProducts.length > 1 ? "s" : ""}
+              {visibleProducts.length} produit
+              {visibleProducts.length > 1 ? "s" : ""}
             </span>
             {activeFilterCount > 0 ? (
               <button
@@ -448,7 +458,11 @@ export function ShopProductExplorer({
   );
 }
 
-function NoPublicProductsShowcase({ candidateCount }: { candidateCount: number }) {
+function NoPublicProductsShowcase({
+  candidateCount,
+}: {
+  candidateCount: number;
+}) {
   const candidateText =
     candidateCount > 0
       ? `${candidateCount} produits en préparation`
@@ -466,15 +480,13 @@ function NoPublicProductsShowcase({ candidateCount }: { candidateCount: number }
             De nouveaux produits arrivent très bientôt.
           </h2>
           <p className="mt-3 max-w-3xl text-sm font-semibold leading-6 text-muted">
-            Notre équipe prépare la prochaine sélection de trouvailles :
-            chaque produit est vérifié avant sa mise en vente. Revenez vite,
-            ou explorez les rayons ci-dessous.
+            Notre équipe prépare la prochaine sélection de trouvailles : chaque
+            produit est vérifié avant sa mise en vente. Revenez vite, ou
+            explorez les rayons ci-dessous.
           </p>
         </div>
         <div className="rounded-md border border-line bg-white p-4">
-          <p className="text-sm font-bold uppercase text-teal">
-            En coulisses
-          </p>
+          <p className="text-sm font-bold uppercase text-teal">En coulisses</p>
           <p className="mt-2 text-3xl font-black">{candidateText}</p>
           <p className="mt-2 text-sm font-semibold leading-6 text-muted">
             Nous privilégions des produits utiles, faciles à comprendre et

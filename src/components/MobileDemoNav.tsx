@@ -3,13 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { LucideIcon } from "lucide-react";
-import {
-  BadgePercent,
-  Grid2X2,
-  PackageSearch,
-  ShoppingBag,
-  Sparkles,
-} from "lucide-react";
+import { Grid2X2, PackageSearch, ShoppingBag, Sparkles } from "lucide-react";
 
 /**
  * Barre du bas, sur telephone.
@@ -43,12 +37,8 @@ const mobileLinks = [
     icon: Sparkles,
     activePaths: ["/nouveautes"],
   },
-  {
-    href: "/promotions",
-    label: "Promos",
-    icon: BadgePercent,
-    activePaths: ["/promotions"],
-  },
+  // « Promos » retire le 05/08/2026 : la page est vide tant que l'affichage
+  // des prix barres est coupe. Voir le commentaire dans Header.tsx.
   {
     href: "/suivi-colis",
     label: "Suivi",
