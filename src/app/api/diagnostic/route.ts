@@ -22,6 +22,11 @@
 
 import postgres from "postgres";
 import { readRecentEmailIncidents } from "@/lib/email-incidents";
+import {
+  champsManquants,
+  champsRecommandesManquants,
+  vendeurComplet,
+} from "@/lib/legal-identity";
 import { getEmailSettings } from "@/lib/mailer";
 
 export const runtime = "nodejs";
@@ -253,6 +258,14 @@ export async function GET(request: Request) {
     );
   }
 
+  const juridiqueManquant = champsManquants();
+
+  if (juridiqueManquant.length > 0) {
+    alertes.push(
+      `Identite legale incomplete (${juridiqueManquant.length}) : ${juridiqueManquant.join(", ")}. Ces trous sont VISIBLES sur les pages legales du site.`,
+    );
+  }
+
   const corps = {
     verifieLe: new Date().toISOString(),
     tout_va_bien: alertes.length === 0,
@@ -272,6 +285,12 @@ export async function GET(request: Request) {
       cleEnvoi: presence("RESEND_API_KEY"),
     },
     base,
+    juridique: {
+      vendeurAffiche: vendeurComplet(),
+      champsObligatoiresManquants: juridiqueManquant,
+      champsRecommandesManquants: champsRecommandesManquants(),
+      pretAPublier: juridiqueManquant.length === 0,
+    },
     emailsNonPartis: incidents,
     site: {
       url: emails.siteUrl,

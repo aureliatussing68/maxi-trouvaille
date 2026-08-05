@@ -23,6 +23,9 @@ import {
   adressePostale,
   champ,
   champFacultatif,
+  mentionTva,
+  vendeurComplet,
+  vendeurLegal,
 } from "@/lib/legal-identity";
 
 type LegalSection = {
@@ -46,16 +49,26 @@ function ligneCapital() {
   return capital ? `Capital social : ${capital}.` : "";
 }
 
+/**
+ * Ligne d'immatriculation. L'article R123-237 du code de commerce impose le
+ * numéro unique d'identification (SIREN), la mention RCS et la ville du greffe.
+ */
 function ligneImmatriculation() {
-  const valeur = champFacultatif("immatriculation");
-  return valeur ? `Immatriculation : ${valeur}.` : "";
+  const rcs = champFacultatif("immatriculation");
+  const gestion = champFacultatif("numeroGestion");
+
+  return [
+    rcs ? `Immatriculation : ${rcs}.` : "",
+    gestion ? `Numéro de gestion : ${gestion}.` : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
 }
 
-function ligneTva() {
-  const valeur = champFacultatif("tvaIntracommunautaire");
-  return valeur
-    ? `Numéro de TVA intracommunautaire : ${valeur}.`
-    : "TVA non applicable, article 293 B du code général des impôts (franchise en base de TVA). Les prix affichés sont nets de taxe.";
+/** Le SIRET n'est affiché que s'il est connu — jamais reconstitué. */
+function ligneSiret() {
+  const valeur = champFacultatif("siret");
+  return valeur ? `SIRET : ${valeur}.` : "";
 }
 
 function blocMediateur() {
@@ -78,11 +91,14 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
       {
         title: "Éditeur du site",
         paragraphs: [
-          `Le site maxitrouvaille.fr est édité par ${champ("denomination")}, ${champ("formeJuridique")}.`,
-          `Siège : ${adressePostale()}.`,
-          `SIRET : ${champ("siret")}.`,
-          [ligneImmatriculation(), ligneCapital()].filter(Boolean).join(" "),
-          ligneTva(),
+          `Le site maxitrouvaille.fr est édité par ${vendeurComplet()}, ${champ("formeJuridique")}.`,
+          `Adresse de l'établissement : ${adressePostale()}.`,
+          `SIREN : ${champ("siren")}.`,
+          [ligneSiret(), ligneImmatriculation(), ligneCapital()]
+            .filter(Boolean)
+            .join(" "),
+          `Greffe compétent : ${champ("greffe")}. Date d'immatriculation : ${champ("dateImmatriculation")}.`,
+          mentionTva(),
         ].filter(Boolean),
       },
       {
@@ -125,7 +141,7 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
       {
         title: "1. Identité du vendeur",
         paragraphs: [
-          `Les produits vendus sur maxitrouvaille.fr le sont par ${champ("denomination")}, ${champ("formeJuridique")}, SIRET ${champ("siret")}, dont le siège est situé ${adressePostale()}.`,
+          `Les produits vendus sur maxitrouvaille.fr le sont par ${vendeurComplet()}, ${champ("formeJuridique")}, SIREN ${champ("siren")}, ${champ("immatriculation")}, dont l'établissement est situé ${adressePostale()}.`,
           `Contact : ${champ("email")} — ${champ("telephone")}.`,
         ],
       },
@@ -147,8 +163,8 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
       {
         title: "4. Prix",
         paragraphs: [
-          `Les prix sont indiqués en euros, toutes taxes comprises le cas échéant, hors frais de livraison.`,
-          ligneTva(),
+          `Les prix sont indiqués en euros, hors frais de livraison. Le prix affiché sur la fiche produit est le prix final dû pour ce produit : aucune taxe ni aucun supplément ne s'y ajoute au moment du paiement, en dehors des frais de livraison annoncés séparément.`,
+          mentionTva(),
           `Les frais de livraison sont affichés avant la validation définitive de la commande. Le montant total dû est rappelé au moment du paiement.`,
           `Le vendeur se réserve le droit de modifier ses prix à tout moment ; le produit est facturé au prix affiché lors de l'enregistrement de la commande.`,
         ],
@@ -263,7 +279,7 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
         title: "Formulaire type de rétractation",
         paragraphs: [
           `Ce formulaire n'est pas obligatoire : il vous est proposé pour vous simplifier la tâche. Complétez-le et renvoyez-le uniquement si vous souhaitez vous rétracter.`,
-          `À l'attention de ${champ("denomination")}, ${adressePostale()}, ${champ("email")} :`,
+          `À l'attention de ${vendeurLegal()} — ${champFacultatif("nomCommercial") || "Maxi Trouvaille"}, ${adressePostale()}, ${champ("email")} :`,
           `Je vous notifie par la présente ma rétractation du contrat portant sur la vente du bien ci-dessous :`,
           `— Commandé le : …………  /  Reçu le : …………`,
           `— Numéro de commande : …………`,
@@ -284,7 +300,7 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
       {
         title: "Responsable du traitement",
         paragraphs: [
-          `Le responsable du traitement des données est ${champ("denomination")}, ${adressePostale()}.`,
+          `Le responsable du traitement des données est ${vendeurComplet()}, ${adressePostale()}.`,
           `Pour toute question relative à vos données : ${champ("email")}.`,
         ],
       },
