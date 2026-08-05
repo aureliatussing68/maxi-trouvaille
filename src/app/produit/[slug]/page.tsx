@@ -10,6 +10,7 @@ import {
   RotateCcw,
   ShieldCheck,
   Store,
+  TriangleAlert,
   Truck,
 } from "lucide-react";
 import { notFound } from "next/navigation";
@@ -38,6 +39,7 @@ import {
 } from "@/lib/catalog-server";
 import { formatPrice } from "@/lib/format";
 import { adressePostale, champ, vendeurComplet } from "@/lib/legal-identity";
+import { getAvertissementsSecurite } from "@/lib/product-safety";
 import {
   getDisplayDeliveryEstimate,
   getDisplayProductName,
@@ -132,6 +134,9 @@ export default async function ProductPage({
     getPublicDeliveryEstimate(product),
   );
   const displayName = getDisplayProductName(product);
+  // Classement sur le NOM affiche, pas sur la description : voir l'explication
+  // en tete de src/lib/product-safety.ts.
+  const avertissementsSecurite = getAvertissementsSecurite(displayName);
   const showReferencePrice = shouldShowReferencePrice(product);
   const stockLabel = getStockLabel(product);
   const stats = await getProductStats(product.id);
@@ -364,6 +369,20 @@ export default async function ProductPage({
         */}
           <div className="mt-7 border-t border-line pt-6">
             <h2 className="text-lg font-black">Sécurité du produit</h2>
+            {avertissementsSecurite.length > 0 ? (
+              <ul className="mt-4 grid gap-3 text-sm leading-6 text-foreground">
+                {avertissementsSecurite.map((avertissement) => (
+                  <li key={avertissement} className="flex gap-2">
+                    <TriangleAlert
+                      className="mt-0.5 shrink-0 text-rose"
+                      size={18}
+                      aria-hidden="true"
+                    />
+                    <span>{avertissement}</span>
+                  </li>
+                ))}
+              </ul>
+            ) : null}
             <div className="mt-4 grid gap-2 text-sm leading-6 text-muted">
               <p>
                 Opérateur économique responsable de ce produit dans l&apos;Union
