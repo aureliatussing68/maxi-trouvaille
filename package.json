@@ -40,6 +40,8 @@
     "catalog:audit-surprise-hold": "node scripts/automation/audit_surprise_products_hold.mjs",
     "catalog:audit-public-dropshipping-surface": "node scripts/automation/audit_public_dropshipping_surface.mjs",
     "catalog:audit-public-catalog-source-guards": "node scripts/automation/audit_public_catalog_source_guards.mjs",
+    "catalog:audit-public-payload-leaks": "node scripts/automation/audit_public_payload_leaks.mjs",
+    "catalog:audit-public-payload-leaks-code": "node scripts/automation/audit_public_payload_leaks.mjs --offline",
     "catalog:audit-public-demo-copy": "node scripts/automation/audit_public_demo_copy.mjs",
     "catalog:audit-public-route-aliases": "node scripts/automation/audit_public_route_aliases.mjs",
     "catalog:audit-public-visual-ambiguity": "node scripts/automation/audit_public_visual_ambiguity.mjs",
