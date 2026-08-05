@@ -71,6 +71,12 @@ function ligneSiret() {
   return valeur ? `SIRET : ${valeur}.` : "";
 }
 
+/**
+ * Le renvoi vers la plateforme europeenne de reglement en ligne des litiges
+ * (ec.europa.eu/consumers/odr) a ete retire le 05/08/2026 : cette plateforme a
+ * FERME le 20 juillet 2025. Plus aucun texte n'impose ce lien, et envoyer un
+ * client mecontent vers une page morte ne peut que l'exasperer davantage.
+ */
 function blocMediateur() {
   const nom = champ("mediateurNom");
   const adresse = champFacultatif("mediateurAdresse");
@@ -79,7 +85,6 @@ function blocMediateur() {
   return [
     `Conformément à l'article L616-1 du code de la consommation, le client consommateur peut recourir gratuitement à un médiateur de la consommation en vue de la résolution amiable d'un litige, après avoir adressé une réclamation écrite au service client et à défaut de réponse satisfaisante sous deux mois.`,
     [`Médiateur compétent : ${nom}.`, adresse, site].filter(Boolean).join(" "),
-    `Le client peut également utiliser la plateforme européenne de règlement en ligne des litiges : https://ec.europa.eu/consumers/odr`,
   ];
 }
 
@@ -117,6 +122,7 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
         title: "Hébergement",
         paragraphs: [
           `Le site est hébergé par ${HEBERGEUR.nom}, ${HEBERGEUR.adresse}.`,
+          `Téléphone de l'hébergeur : ${HEBERGEUR.telephone || "[A COMPLETER : telephone de l'hebergeur]"}.`,
           `Site de l'hébergeur : ${HEBERGEUR.site}`,
         ],
       },
@@ -155,8 +161,8 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
       {
         title: "3. Produits",
         paragraphs: [
-          `Les caractéristiques essentielles de chaque produit sont présentées sur sa fiche. Les photographies et illustrations n'entrent pas dans le champ contractuel : elles peuvent différer légèrement du produit livré.`,
-          `Certains produits sont expédiés directement par un partenaire logistique situé hors de l'Union européenne. Cette information est indiquée sur la fiche produit et n'a aucune conséquence sur les droits du client : le vendeur reste son seul interlocuteur.`,
+          `Les caractéristiques essentielles de chaque produit sont présentées sur sa fiche. Les photographies sont contractuelles quant aux caractéristiques essentielles du produit ; de légères variations de teinte ou de finition, propres à l'affichage des écrans, ne constituent pas un défaut de conformité.`,
+          `Les produits vendus sur le site sont expédiés directement par un partenaire logistique situé hors de l'Union européenne. Cette information est donnée ici, avant tout achat, et n'a aucune conséquence sur les droits du client : le vendeur reste son seul interlocuteur pour le suivi, la livraison, le retour, le remboursement et la garantie.`,
           `Les offres sont valables tant qu'elles sont visibles sur le site et dans la limite des stocks disponibles.`,
         ],
       },
@@ -167,6 +173,8 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
           mentionTva(),
           `Les frais de livraison sont affichés avant la validation définitive de la commande. Le montant total dû est rappelé au moment du paiement.`,
           `Le vendeur se réserve le droit de modifier ses prix à tout moment ; le produit est facturé au prix affiché lors de l'enregistrement de la commande.`,
+          `Les produits étant expédiés depuis un pays situé hors de l'Union européenne, des droits de douane et une TVA à l'importation peuvent être réclamés au client par les autorités douanières à la livraison, pour les envois dont la valeur dépasse les seuils en vigueur. Ces sommes ne sont pas perçues par le vendeur et restent à la charge du client.`,
+          `Pièces détachées indispensables à l'utilisation des produits : non disponibles. Cette information est donnée au titre de l'article L111-4 du code de la consommation.`,
         ],
       },
       {
@@ -187,6 +195,7 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
       {
         title: "7. Livraison",
         paragraphs: [
+          `**La livraison est assurée en France métropolitaine uniquement.** Aucune commande ne peut être expédiée vers un autre pays, ni vers les départements et territoires d'outre-mer. Cette restriction est rappelée dans le panier et sur la page de paiement, avant toute validation de commande.`,
           `Les produits sont livrés à l'adresse indiquée par le client lors de la commande. Le client est responsable de l'exactitude des informations qu'il fournit.`,
           `Les modes, délais et frais de livraison sont affichés avant la validation de la commande. Le délai indicatif est de 7 à 14 jours ouvrés selon le produit et le transporteur.`,
           `Conformément à l'article L216-1 du code de la consommation, en l'absence d'indication contraire, le vendeur livre au plus tard trente jours après la conclusion du contrat. En cas de dépassement, le client peut résoudre le contrat dans les conditions de l'article L216-6 et être remboursé.`,
@@ -263,7 +272,8 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
       {
         title: "Votre remboursement",
         paragraphs: [
-          `Nous vous remboursons l'intégralité des sommes versées, frais de livraison standard compris, au plus tard ${DELAI_RETRACTATION_JOURS} jours à compter de la récupération du produit ou de la preuve de son expédition, la date retenue étant celle du premier de ces faits.`,
+          `Nous vous remboursons l'intégralité des sommes versées, frais de livraison standard compris, au plus tard ${DELAI_RETRACTATION_JOURS} jours à compter du jour où nous sommes informés de votre décision de vous rétracter.`,
+          `Nous pouvons différer le remboursement jusqu'à la récupération du produit ou jusqu'à ce que vous ayez fourni une preuve de son expédition, la date retenue étant celle du premier de ces faits. Ce report ne décale pas le point de départ du délai ci-dessus.`,
           `Si vous aviez choisi un mode de livraison plus coûteux que le mode standard, seul le coût du mode standard vous est remboursé.`,
           `Le remboursement est effectué par le même moyen de paiement que celui utilisé lors de la commande, sans frais pour vous.`,
         ],
@@ -272,7 +282,7 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
         title: "Les cas où la rétractation ne s'applique pas",
         paragraphs: [
           `Conformément à l'article L221-28 du code de la consommation, le droit de rétractation ne peut être exercé notamment pour : les biens confectionnés selon vos spécifications ou nettement personnalisés ; les biens susceptibles de se détériorer ou de se périmer rapidement ; les biens descellés par vous et ne pouvant être renvoyés pour des raisons d'hygiène ou de protection de la santé ; les enregistrements audio, vidéo ou logiciels descellés ; les biens qui, après livraison, sont mélangés de manière indissociable avec d'autres articles.`,
-          `Lorsqu'une exception s'applique à un produit, elle est signalée sur sa fiche avant l'achat.`,
+          `Aucun produit actuellement vendu sur le site ne relève de ces exceptions : le droit de rétractation s'applique à l'intégralité du catalogue.`,
         ],
       },
       {

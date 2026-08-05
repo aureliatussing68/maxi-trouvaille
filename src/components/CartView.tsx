@@ -61,7 +61,10 @@ export function CartView({ products }: { products: Product[] }) {
     () => buildDetailedCartItems(items, products),
     [items, products],
   );
-  const subtotal = detailedItems.reduce((total, item) => total + item.lineTotal, 0);
+  const subtotal = detailedItems.reduce(
+    (total, item) => total + item.lineTotal,
+    0,
+  );
   const shippingProducts = detailedItems.map((item) => item.product);
   const {
     selection,
@@ -105,7 +108,9 @@ export function CartView({ products }: { products: Product[] }) {
       const data = (await response.json()) as { url?: string; error?: string };
 
       if (!response.ok || !data.url) {
-        throw new Error(data.error ?? "Impossible d'ouvrir le paiement sécurisé.");
+        throw new Error(
+          data.error ?? "Impossible d'ouvrir le paiement sécurisé.",
+        );
       }
 
       window.location.assign(data.url);
@@ -124,7 +129,11 @@ export function CartView({ products }: { products: Product[] }) {
     return (
       <div className="container-page py-12">
         <div className="rounded-lg border border-line bg-paper p-8 text-center shadow-sm">
-          <ShoppingBag className="mx-auto mb-4 text-teal" size={42} aria-hidden="true" />
+          <ShoppingBag
+            className="mx-auto mb-4 text-teal"
+            size={42}
+            aria-hidden="true"
+          />
           <h1 className="text-2xl font-black">Votre panier est vide</h1>
           <p className="mx-auto mt-3 max-w-xl text-sm leading-6 text-muted">
             Découvrez nos trouvailles à petits prix : maison, cuisine,
@@ -174,7 +183,9 @@ export function CartView({ products }: { products: Product[] }) {
               <div className="flex flex-wrap justify-between gap-3">
                 <div>
                   <h2 className="text-lg font-black">{item.product.name}</h2>
-                  <p className="mt-1 text-sm text-muted">{item.product.condition}</p>
+                  <p className="mt-1 text-sm text-muted">
+                    {item.product.condition}
+                  </p>
                   {isClientComingSoonProduct(item.product) ? (
                     <p className="mt-2 w-fit rounded-md border border-[#fed7aa] bg-[#fff7ed] px-3 py-1 text-xs font-black text-[#9a3412]">
                       Bientôt disponible sur Maxi Trouvailles
@@ -201,7 +212,9 @@ export function CartView({ products }: { products: Product[] }) {
                     type="button"
                     className="focus-ring flex h-11 w-11 items-center justify-center rounded-l-md hover:bg-[#f1eadf]"
                     aria-label="Retirer une unité"
-                    onClick={() => updateQuantity(item.productId, item.quantity - 1)}
+                    onClick={() =>
+                      updateQuantity(item.productId, item.quantity - 1)
+                    }
                   >
                     <Minus size={16} />
                   </button>
@@ -216,7 +229,9 @@ export function CartView({ products }: { products: Product[] }) {
                       item.quantity >= item.product.stock ||
                       !isClientProductPurchasable(item.product)
                     }
-                    onClick={() => updateQuantity(item.productId, item.quantity + 1)}
+                    onClick={() =>
+                      updateQuantity(item.productId, item.quantity + 1)
+                    }
                   >
                     <Plus size={16} />
                   </button>
@@ -231,8 +246,17 @@ export function CartView({ products }: { products: Product[] }) {
                   Retirer
                 </button>
               </div>
+              {/*
+                Le chiffre brut de stock a ete retire le 05/08/2026 : il vaut
+                40 sur 244 fiches sur 309 et n'est jamais decremente apres une
+                vente. Afficher un nombre qui ne veut rien dire n'apporte rien
+                au client et fabrique un risque inutile. « Disponible » est
+                exact : les produits sont bien commandables.
+              */}
               <p className="text-xs font-bold text-muted">
-                Stock disponible : {item.product.stock}
+                {item.product.stock > 0
+                  ? "Disponible à la commande"
+                  : "Rupture de stock"}
               </p>
             </div>
           </article>
@@ -258,6 +282,17 @@ export function CartView({ products }: { products: Product[] }) {
 
       <aside className="h-fit rounded-lg border border-line bg-paper p-5 shadow-sm">
         <h2 className="text-xl font-black">Récapitulatif</h2>
+        {/*
+          Article L221-14, dernier alinea : les restrictions de livraison
+          doivent etre indiquees « au plus tard au debut du processus de
+          commande ». Le site ne livre qu'en France metropolitaine — c'est code
+          en dur cote serveur — mais ne le disait nulle part : un client belge
+          ou guadeloupeen pouvait remplir tout le tunnel et payer avant de
+          l'apprendre.
+        */}
+        <p className="mt-3 text-sm font-semibold leading-6 text-muted">
+          Livraison en France métropolitaine uniquement.
+        </p>
         <div className="mt-5 grid gap-3 text-sm">
           <div className="flex justify-between gap-4">
             <span className="text-muted">Sous-total</span>

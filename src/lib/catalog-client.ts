@@ -1,7 +1,4 @@
-import type {
-  ProductBadge,
-  ProductBadgeTone,
-} from "@/lib/catalog";
+import type { ProductBadge, ProductBadgeTone } from "@/lib/catalog";
 import type { PublicProduct } from "@/lib/public-product";
 
 /**
@@ -46,7 +43,19 @@ function getRealDiscountPercent(product: Product) {
   return Math.round(((compareAtPrice - product.price) / compareAtPrice) * 100);
 }
 
+/**
+ * Interrupteur general du prix barre. Voir product-display.ts, qui documente
+ * en detail pourquoi il est a false : sans historique de prix reel, un prix
+ * barre est une annonce de reduction irreguliere (article L112-1-1 du code de
+ * la consommation). Les trois copies doivent rester egales.
+ */
+const HISTORIQUE_PRIX_VERIFIE = false;
+
 function shouldShowReferencePrice(product: Product) {
+  if (!HISTORIQUE_PRIX_VERIFIE) {
+    return false;
+  }
+
   return getRealDiscountPercent(product) >= REFERENCE_PRICE_MIN_DISCOUNT;
 }
 
@@ -166,7 +175,10 @@ export function getClientPublicDeliveryEstimate(product: Product) {
   return "Livraison estimée au panier";
 }
 
-export function getClientProductImageAlt(product: Product, fallbackSuffix?: string) {
+export function getClientProductImageAlt(
+  product: Product,
+  fallbackSuffix?: string,
+) {
   const baseAlt = product.imageAlt || product.seo?.imageAlt || product.name;
   return fallbackSuffix ? `${baseAlt} ${fallbackSuffix}` : baseAlt;
 }
@@ -183,7 +195,10 @@ export function getClientProductBadges(product: Product): ProductBadge[] {
 
   const discountPercent = getRealDiscountPercent(product);
 
-  if (discountPercent >= REFERENCE_PRICE_MIN_DISCOUNT) {
+  if (
+    HISTORIQUE_PRIX_VERIFIE &&
+    discountPercent >= REFERENCE_PRICE_MIN_DISCOUNT
+  ) {
     return [{ label: `-${discountPercent} %`, tone: "promotion" }];
   }
 

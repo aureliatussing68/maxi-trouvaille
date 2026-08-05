@@ -78,8 +78,20 @@ const REMOVABLE_SENTENCE_PATTERNS = [
 
 /**
  * Description prete a etre montree : les phrases invendables ci-dessus sont
- * retirees. Si tout devait sauter, on rend le texte d'origine plutot qu'un
- * vide — une fiche sans description serait pire.
+ * retirees.
+ *
+ * ATTENTION — ne JAMAIS rendre le texte d'origine en repli.
+ *
+ * Ce code disait avant : « si le resultat filtre fait moins de 30 caracteres,
+ * on rend la source, une fiche sans description serait pire ». C'etait faux, et
+ * ca annulait le filtre exactement dans le cas le plus dangereux : quand la
+ * phrase fautive etait la SEULE phrase de la fiche. Une note fournisseur
+ * recopiee d'une place de marche (« note 4.9 sur 19 000 avis ») ressortait
+ * alors telle quelle. Annoncer une note qu'on ne peut pas justifier est une
+ * pratique commerciale trompeuse (article L121-2 du code de la consommation).
+ *
+ * Une description vide est un probleme commercial. Une fausse note est un
+ * probleme penal. On rend donc le texte filtre, meme vide.
  */
 export function getPublicDescription(rawDescription: string | undefined) {
   const source = (rawDescription ?? "").trim();
@@ -88,7 +100,7 @@ export function getPublicDescription(rawDescription: string | undefined) {
     return "";
   }
 
-  const kept = source
+  return source
     .split(/(?<=[.;!?])\s+/)
     .filter(
       (sentence) =>
@@ -98,8 +110,6 @@ export function getPublicDescription(rawDescription: string | undefined) {
     .replace(/\s+/g, " ")
     .replace(/[\s,;]+$/, "")
     .trim();
-
-  return kept.length >= 30 ? kept : source;
 }
 
 /**
@@ -109,12 +119,13 @@ export function getPublicDescription(rawDescription: string | undefined) {
  */
 export function getPublicFeatures(features: readonly string[] | undefined) {
   const source = features ?? [];
-  const kept = source.filter(
+
+  // Meme regle que ci-dessus : pas de repli sur la source. Si toutes les puces
+  // sont fautives, on n'en montre aucune plutot que de toutes les montrer.
+  return source.filter(
     (feature) =>
       !REMOVABLE_SENTENCE_PATTERNS.some((pattern) => pattern.test(feature)),
   );
-
-  return kept.length > 0 ? kept : source;
 }
 
 /**
@@ -180,12 +191,41 @@ export function getRealDiscountPercent(
 export const REFERENCE_PRICE_MIN_DISCOUNT = 30;
 
 /**
+ * Interrupteur general du prix barre. A false, aucun prix barre et aucun badge
+ * de remise n'est montre nulle part sur le site.
+ *
+ * POURQUOI C'EST COUPE (05/08/2026)
+ * ---------------------------------
+ * L'article L112-1-1 du code de la consommation impose qu'un prix barre soit
+ * le prix le plus bas REELLEMENT pratique dans les 30 jours precedant la
+ * remise. Or la boutique ne conserve aucun historique de prix : le
+ * `compareAtPrice` des fiches est derive du cout fournisseur par une regle de
+ * marge, il n'a jamais ete demande a un client. Afficher « -35 % » par rapport
+ * a un prix qui n'a jamais existe est une annonce de reduction irreguliere,
+ * passible d'une amende administrative (article L131-5).
+ *
+ * Les donnees ne sont PAS effacees : le champ `compareAtPrice` reste dans les
+ * fiches. Seul l'affichage est coupe. Le jour ou un historique de prix date
+ * existera, il suffira de repasser cette constante a true — et de n'autoriser
+ * l'affichage que pour les fiches ayant 30 jours d'historique.
+ *
+ * Cette constante est DUPLIQUEE dans catalog.ts et catalog-client.ts pour la
+ * meme raison que le seuil ci-dessus (scripts d'audit lances avec node, qui ne
+ * resolvent pas les alias "@/..."). Les trois valeurs doivent rester egales.
+ */
+export const HISTORIQUE_PRIX_VERIFIE = false;
+
+/**
  * Vrai quand le prix barre et le badge de remise doivent etre affiches.
  * Sous le seuil, le produit garde simplement son prix, sans mise en scene.
  */
 export function shouldShowReferencePrice(
   product: Pick<Product, "price" | "compareAtPrice">,
 ) {
+  if (!HISTORIQUE_PRIX_VERIFIE) {
+    return false;
+  }
+
   return getRealDiscountPercent(product) >= REFERENCE_PRICE_MIN_DISCOUNT;
 }
 

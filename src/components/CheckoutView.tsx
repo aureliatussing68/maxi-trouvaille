@@ -13,10 +13,7 @@ import { type CartLine, useCart } from "@/components/CartProvider";
 import { ShippingSelector } from "@/components/ShippingSelector";
 import { useShippingSelection } from "@/components/useShippingSelection";
 import { clampQuantity, formatPrice } from "@/lib/format";
-import {
-  isClientProductPurchasable,
-  type Product,
-} from "@/lib/catalog-client";
+import { isClientProductPurchasable, type Product } from "@/lib/catalog-client";
 
 type DetailedCartLine = CartLine & {
   product: Product;
@@ -54,7 +51,10 @@ export function CheckoutView({ products }: { products: Product[] }) {
     () => buildDetailedCartItems(items, products),
     [items, products],
   );
-  const subtotal = detailedItems.reduce((total, item) => total + item.lineTotal, 0);
+  const subtotal = detailedItems.reduce(
+    (total, item) => total + item.lineTotal,
+    0,
+  );
   const shippingProducts = detailedItems.map((item) => item.product);
   const {
     selection,
@@ -66,13 +66,17 @@ export function CheckoutView({ products }: { products: Product[] }) {
   } = useShippingSelection(shippingProducts);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  // Demarre a false, toujours : un consentement pre-coche est nul.
+  const [conditionsAcceptees, setConditionsAcceptees] = useState(false);
   const blockedItems = detailedItems.filter(
     (item) => !isClientProductPurchasable(item.product),
   );
 
   async function startCheckout() {
     if (blockedItems.length > 0) {
-      setError("Retirez les produits non disponibles avant de passer au paiement.");
+      setError(
+        "Retirez les produits non disponibles avant de passer au paiement.",
+      );
       return;
     }
 
@@ -95,7 +99,9 @@ export function CheckoutView({ products }: { products: Product[] }) {
 
       const data = (await response.json()) as { url?: string; error?: string };
       if (!response.ok || !data.url) {
-        throw new Error(data.error ?? "Impossible de démarrer le paiement sécurisé.");
+        throw new Error(
+          data.error ?? "Impossible de démarrer le paiement sécurisé.",
+        );
       }
 
       window.location.assign(data.url);
@@ -114,12 +120,17 @@ export function CheckoutView({ products }: { products: Product[] }) {
     return (
       <div className="container-page py-12">
         <div className="rounded-lg border border-line bg-paper p-8 text-center shadow-sm">
-          <CreditCard className="mx-auto mb-4 text-teal" size={42} aria-hidden="true" />
+          <CreditCard
+            className="mx-auto mb-4 text-teal"
+            size={42}
+            aria-hidden="true"
+          />
           <h1 className="text-2xl font-black">Paiement Maxi Trouvaille prêt</h1>
           <p className="mx-auto mt-3 max-w-xl text-sm leading-6 text-muted">
-            Le paiement s&apos;ouvre seulement quand un article validé est dans le
-            panier. Les rayons restent consultables pendant que les fiches
-            partenaires passent les contrôles image, stock, délai et préparation.
+            Le paiement s&apos;ouvre seulement quand un article validé est dans
+            le panier. Les rayons restent consultables pendant que les fiches
+            partenaires passent les contrôles image, stock, délai et
+            préparation.
           </p>
           <div className="mt-6 flex flex-col justify-center gap-3 sm:flex-row">
             <Link
@@ -147,7 +158,11 @@ export function CheckoutView({ products }: { products: Product[] }) {
       <section className="grid gap-5">
         <div className="rounded-lg border border-line bg-paper p-5 shadow-sm">
           <div className="flex items-start gap-3 rounded-lg bg-[#eef8f6] p-4 text-sm leading-6 text-[#115e59]">
-            <ShieldCheck className="mt-0.5 shrink-0" size={20} aria-hidden="true" />
+            <ShieldCheck
+              className="mt-0.5 shrink-0"
+              size={20}
+              aria-hidden="true"
+            />
             <p>
               Le paiement Maxi Trouvaille passe par un prestataire sécurisé.
               Maxi Trouvaille ne stocke pas vos donnees bancaires.
@@ -182,22 +197,87 @@ export function CheckoutView({ products }: { products: Product[] }) {
           </div>
         ) : null}
 
+        <p className="mt-5 rounded-lg border border-line bg-[#f8f5ef] p-4 text-sm font-semibold leading-6 text-foreground">
+          Livraison en France métropolitaine uniquement. Nous ne livrons pas
+          l&apos;outre-mer ni l&apos;étranger.
+        </p>
+
+        {/*
+          Case a cocher OBLIGATOIRE et NON pre-cochee.
+
+          Sans elle, les CGV affirmaient que le client « reconnait en avoir pris
+          connaissance avant de payer » alors qu'aucun ecran ne les lui montrait :
+          c'est une clause noire au sens de l'article R212-1 1° du code de la
+          consommation, interdite en toutes circonstances. Consequence civile la
+          plus lourde : les CGV deviennent inopposables, donc les clauses de
+          livraison, de retour et de responsabilite tombent le jour d'un litige.
+
+          Ne jamais la pre-cocher : un consentement pre-coche est nul.
+        */}
+        <label className="mt-5 flex cursor-pointer items-start gap-3 text-sm leading-6 text-muted">
+          <input
+            type="checkbox"
+            checked={conditionsAcceptees}
+            onChange={(event) => setConditionsAcceptees(event.target.checked)}
+            className="focus-ring mt-1 h-5 w-5 shrink-0 cursor-pointer rounded border-line accent-foreground"
+          />
+          <span>
+            J&apos;ai lu et j&apos;accepte les{" "}
+            <a
+              className="font-semibold underline"
+              href="/conditions-generales-vente"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              conditions générales de vente
+            </a>{" "}
+            et la{" "}
+            <a
+              className="font-semibold underline"
+              href="/politique-confidentialite"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              politique de confidentialité
+            </a>
+            .
+          </span>
+        </label>
+
         <button
           type="button"
           onClick={startCheckout}
-          disabled={isLoading || !validation.ok || blockedItems.length > 0}
+          disabled={
+            isLoading ||
+            !validation.ok ||
+            blockedItems.length > 0 ||
+            !conditionsAcceptees
+          }
           className="focus-ring mt-6 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-md bg-foreground px-5 py-3 text-sm font-black text-white transition hover:bg-[#2b2b2b] disabled:cursor-not-allowed disabled:opacity-65 sm:w-auto"
         >
-          {isLoading ? <Loader2 className="animate-spin" size={18} /> : <CreditCard size={18} />}
+          {isLoading ? (
+            <Loader2 className="animate-spin" size={18} />
+          ) : (
+            <CreditCard size={18} />
+          )}
           Continuer vers le paiement sécurisé
         </button>
+
+        {!conditionsAcceptees ? (
+          <p className="mt-3 text-sm leading-6 text-muted">
+            Cochez la case ci-dessus pour continuer.
+          </p>
+        ) : null}
       </section>
 
       <aside className="h-fit rounded-lg border border-line bg-paper p-5 shadow-sm">
         <h2 className="text-xl font-black">Votre commande</h2>
         <div className="mt-5 grid gap-4">
           {detailedItems.map((item) => (
-            <div key={item.productId} className="flex justify-between gap-4 text-sm">
+            <div
+              key={item.productId}
+              className="flex justify-between gap-4 text-sm"
+            >
               <div>
                 <div className="font-bold">{item.product.name}</div>
                 <div className="text-muted">Quantité {item.quantity}</div>
@@ -219,7 +299,9 @@ export function CheckoutView({ products }: { products: Product[] }) {
           </div>
           <div className="flex justify-between gap-4 text-lg">
             <span className="font-black">Total</span>
-            <span className="font-black">{formatPrice(subtotal + shipping)}</span>
+            <span className="font-black">
+              {formatPrice(subtotal + shipping)}
+            </span>
           </div>
         </div>
       </aside>

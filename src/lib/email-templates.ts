@@ -8,7 +8,20 @@
  * Regle de contenu : aucun chiffre invente. Les delais, prix et adresses
  * affiches viennent tous de la commande reelle ou des pages publiques du
  * site (page Livraison : "7 a 14 jours ouvres").
+ *
+ * Seule exception a la regle « aucun import » : l'identite legale du vendeur.
+ * Elle est lue depuis legal-identity.ts, jamais recopiee ici — l'article
+ * R123-237 du code de commerce impose de l'afficher sur toute correspondance
+ * professionnelle, et un jour ou l'autre elle changera.
  */
+
+import {
+  DELAI_RETRACTATION_JOURS,
+  adressePostale,
+  champFacultatif,
+  identiteVendeurUneLigne,
+  vendeurLegal,
+} from "@/lib/legal-identity";
 
 export type EmailContent = {
   subject: string;
@@ -229,7 +242,8 @@ function renderShell({
             <tr>
               <td style="background:${palette.background};border-top:1px solid ${palette.line};padding:18px 24px;font-family:${fontStack};font-size:12px;line-height:1.6;color:${palette.muted};">
                 <p style="margin:0 0 6px 0;">Une question ? Répondez simplement à cet email, ou écrivez à <a href="mailto:${escapeHtml(supportEmail)}" style="color:${palette.teal};">${escapeHtml(supportEmail)}</a>.</p>
-                <p style="margin:0;"><a href="${escapeHtml(homeUrl)}" style="color:${palette.teal};">maxitrouvaille.fr</a> — © ${year} Maxi Trouvaille</p>
+                <p style="margin:0 0 10px 0;"><a href="${escapeHtml(homeUrl)}" style="color:${palette.teal};">maxitrouvaille.fr</a> — © ${year} Maxi Trouvaille</p>
+                <p style="margin:0;border-top:1px solid ${palette.line};padding-top:10px;">${escapeHtml(identiteVendeurUneLigne())}</p>
               </td>
             </tr>
           </table>
@@ -363,6 +377,64 @@ function linesToText(lines: OrderEmailLine[]) {
       return `- ${cleanText(line.name, 220) || "Article"} x${quantity}${priceText}`;
     })
     .join("\n");
+}
+
+/**
+ * Bloc de retractation joint a la confirmation de commande.
+ *
+ * POURQUOI IL EXISTE
+ * ------------------
+ * L'article L221-13 du code de la consommation impose de confirmer la commande
+ * « sur un support durable » AVEC les informations legales, dont le droit de
+ * retractation et le formulaire type. Une page du site ne vaut pas support
+ * durable (arret CJUE Content Services, C-49/11) : l'email, si.
+ *
+ * L'email de confirmation ne contenait rien de tout cela — ni retractation, ni
+ * garanties, ni identite du vendeur — alors que les CGV designent elles-memes
+ * cet email comme la preuve de la commande.
+ */
+function renderRetractationTexte(siteUrl: string) {
+  const site = normalizeSiteUrl(siteUrl);
+
+  return [
+    "— — —",
+    `VOTRE DROIT DE RÉTRACTATION (${DELAI_RETRACTATION_JOURS} jours)`,
+    `Vous disposez de ${DELAI_RETRACTATION_JOURS} jours à compter de la réception de votre commande pour changer d'avis, sans avoir à vous justifier et sans pénalité.`,
+    `Pour l'exercer, écrivez-nous à ${champFacultatif("email")} ou à ${adressePostale()}. Toute déclaration sans ambiguïté suffit.`,
+    "Frais de retour à votre charge, sauf si le produit est défectueux ou non conforme : dans ce cas nous les prenons en charge.",
+    `Remboursement intégral, frais de livraison standard compris, au plus tard ${DELAI_RETRACTATION_JOURS} jours après réception de votre décision.`,
+    "",
+    "FORMULAIRE TYPE DE RÉTRACTATION (à utiliser seulement si vous le souhaitez)",
+    `À l'attention de ${vendeurLegal()} — ${champFacultatif("nomCommercial")}, ${adressePostale()}, ${champFacultatif("email")} :`,
+    "Je vous notifie ma rétractation du contrat portant sur la vente du bien ci-dessous.",
+    "— Commandé le : ……  / Reçu le : ……",
+    "— Numéro de commande : ……",
+    "— Produit(s) : ……",
+    "— Nom et adresse du consommateur : ……",
+    "— Date : ……",
+    "",
+    "GARANTIES LÉGALES",
+    "Vous bénéficiez de la garantie légale de conformité (2 ans, articles L217-3 et suivants du code de la consommation) et de la garantie des vices cachés (articles 1641 et suivants du code civil). Elles s'exercent auprès de nous, sans contact avec le partenaire logistique.",
+    "",
+    `Détail : ${site}/retractation — Conditions générales : ${site}/conditions-generales-vente`,
+    identiteVendeurUneLigne(),
+  ];
+}
+
+function renderRetractationHtml(siteUrl: string) {
+  const site = normalizeSiteUrl(siteUrl);
+  const lignes = [
+    `<strong>Votre droit de rétractation (${DELAI_RETRACTATION_JOURS} jours)</strong>`,
+    `Vous disposez de ${DELAI_RETRACTATION_JOURS} jours à compter de la réception de votre commande pour changer d'avis, sans avoir à vous justifier et sans pénalité. Écrivez-nous à ${champFacultatif("email")} ou à ${adressePostale()}.`,
+    `Frais de retour à votre charge, sauf produit défectueux ou non conforme. Remboursement intégral, frais de livraison standard compris, au plus tard ${DELAI_RETRACTATION_JOURS} jours après réception de votre décision.`,
+    `<strong>Garanties légales</strong> — garantie de conformité (2 ans, articles L217-3 et suivants du code de la consommation) et garantie des vices cachés (articles 1641 et suivants du code civil). Elles s'exercent auprès de nous.`,
+    `Formulaire type de rétractation et modalités complètes : <a href="${escapeHtml(site)}/retractation" style="color:${palette.teal};">${escapeHtml(site)}/retractation</a> — Conditions générales : <a href="${escapeHtml(site)}/conditions-generales-vente" style="color:${palette.teal};">nos CGV</a>.`,
+  ];
+
+  return `
+    <div style="margin-top:22px;border:1px solid ${palette.line};border-radius:10px;padding:16px;background:${palette.background};font-family:${fontStack};font-size:13px;line-height:1.6;color:${palette.muted};">
+      ${lignes.map((ligne) => `<p style="margin:0 0 8px 0;">${ligne}</p>`).join("")}
+    </div>`;
 }
 
 export function renderOrderConfirmationEmail(
@@ -520,6 +592,8 @@ export function renderOrderConfirmationEmail(
     "",
     `Une question ? Répondez à cet email ou écrivez à ${supportEmail}.`,
     "Merci de votre confiance, et à très vite sur Maxi Trouvaille.",
+    "",
+    ...renderRetractationTexte(siteUrl),
   );
 
   return {
@@ -527,7 +601,7 @@ export function renderOrderConfirmationEmail(
     html: renderShell({
       title: subject,
       preheader: "Votre paiement est bien reçu, nous préparons votre colis.",
-      bodyHtml,
+      bodyHtml: `${bodyHtml}${renderRetractationHtml(siteUrl)}`,
       siteUrl,
       supportEmail,
     }),

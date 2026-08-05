@@ -12,6 +12,14 @@ import type { ProductSource, SellerListingMeta } from "@/lib/marketplace";
  */
 const REFERENCE_PRICE_MIN_DISCOUNT = 30;
 
+/**
+ * Interrupteur general du prix barre. Voir product-display.ts, qui documente
+ * en detail pourquoi il est a false : sans historique de prix reel, un prix
+ * barre est une annonce de reduction irreguliere (article L112-1-1 du code de
+ * la consommation). Les trois copies doivent rester egales.
+ */
+const HISTORIQUE_PRIX_VERIFIE = false;
+
 function getRealDiscountPercent(
   product: Pick<Product, "price" | "compareAtPrice">,
 ) {
@@ -31,6 +39,10 @@ function getRealDiscountPercent(
 function shouldShowReferencePrice(
   product: Pick<Product, "price" | "compareAtPrice">,
 ) {
+  if (!HISTORIQUE_PRIX_VERIFIE) {
+    return false;
+  }
+
   return getRealDiscountPercent(product) >= REFERENCE_PRICE_MIN_DISCOUNT;
 }
 
@@ -145,12 +157,7 @@ export type DropshippingProductMeta = {
 };
 
 export type ProductBadgeTone =
-  | "coming-soon"
-  | "dropshipping"
-  | "new"
-  | "promotion"
-  | "stock"
-  | "default";
+  "coming-soon" | "dropshipping" | "new" | "promotion" | "stock" | "default";
 
 export type ProductBadge = {
   label: string;
@@ -215,7 +222,9 @@ export const homeShowcaseCategoryIds = [
 ] as const;
 
 const publicStoreMode = "dropshipping" as const;
-const dropshippingFocusCategoryIdSet = new Set<string>(dropshippingFocusCategoryIds);
+const dropshippingFocusCategoryIdSet = new Set<string>(
+  dropshippingFocusCategoryIds,
+);
 
 const hiddenNavigationCategoryIds = [
   "colis-surprise-palettes",
@@ -242,18 +251,34 @@ const partnerCategoryMirrors: Record<string, string[]> = {
   "auto-moto": ["dropshipping-auto-moto"],
   animaux: ["dropshipping-animaux"],
   "beaute-sante": ["dropshipping-beaute"],
-  bricolage: ["dropshipping-outillage", "dropshipping-high-tech", "dropshipping-accessoires"],
+  bricolage: [
+    "dropshipping-outillage",
+    "dropshipping-high-tech",
+    "dropshipping-accessoires",
+  ],
   cuisine: ["dropshipping-cuisine"],
   deco: ["dropshipping-maison", "dropshipping-accessoires"],
   electricite: ["dropshipping-outillage", "dropshipping-high-tech"],
   gadgets: ["dropshipping-accessoires", "dropshipping-high-tech"],
   "high-tech": ["dropshipping-high-tech", "dropshipping-gaming"],
-  informatique: ["dropshipping-gaming", "dropshipping-high-tech", "dropshipping-accessoires"],
+  informatique: [
+    "dropshipping-gaming",
+    "dropshipping-high-tech",
+    "dropshipping-accessoires",
+  ],
   jardin: ["dropshipping-maison", "dropshipping-accessoires"],
-  "jeux-video": ["dropshipping-gaming", "dropshipping-high-tech", "dropshipping-accessoires"],
+  "jeux-video": [
+    "dropshipping-gaming",
+    "dropshipping-high-tech",
+    "dropshipping-accessoires",
+  ],
   outillage: ["dropshipping-outillage"],
   jouets: ["dropshipping-enfant", "dropshipping-accessoires"],
-  maison: ["dropshipping-maison", "dropshipping-cuisine", "dropshipping-accessoires"],
+  maison: [
+    "dropshipping-maison",
+    "dropshipping-cuisine",
+    "dropshipping-accessoires",
+  ],
   puericulture: ["dropshipping-enfant"],
   "sport-loisirs": ["dropshipping-accessoires", "dropshipping-high-tech"],
   telephonie: ["dropshipping-high-tech", "dropshipping-accessoires"],
@@ -333,7 +358,8 @@ const rawCategories: Array<Omit<Category, "image">> = [
     id: "dropshipping-nouveautes",
     slug: "nouveautes-partenaires",
     name: "Nouveautés",
-    description: "Les derniers produits partenaires préparés pour Maxi Trouvaille.",
+    description:
+      "Les derniers produits partenaires préparés pour Maxi Trouvaille.",
     accent: "#2563eb",
     parentId: "dropshipping",
   },
@@ -341,7 +367,8 @@ const rawCategories: Array<Omit<Category, "image">> = [
     id: "dropshipping-promotions",
     slug: "promotions-partenaires",
     name: "Promotions",
-    description: "Sélections partenaires avec prix barrés et offres mises en avant.",
+    description:
+      "Sélections partenaires avec prix barrés et offres mises en avant.",
     accent: "#be123c",
     parentId: "dropshipping",
   },
@@ -381,7 +408,8 @@ const rawCategories: Array<Omit<Category, "image">> = [
     id: "dropshipping-accessoires",
     slug: "accessoires-partenaires",
     name: "Accessoires",
-    description: "Petits produits pratiques, rangement, voyage et accessoires du quotidien.",
+    description:
+      "Petits produits pratiques, rangement, voyage et accessoires du quotidien.",
     accent: "#db2777",
     parentId: "dropshipping",
   },
@@ -397,7 +425,8 @@ const rawCategories: Array<Omit<Category, "image">> = [
     id: "dropshipping-animaux",
     slug: "animaux-partenaires",
     name: "Animaux",
-    description: "Accessoires partenaires pour chiens, chats et animaux du quotidien.",
+    description:
+      "Accessoires partenaires pour chiens, chats et animaux du quotidien.",
     accent: "#ca8a04",
     parentId: "dropshipping",
   },
@@ -421,7 +450,8 @@ const rawCategories: Array<Omit<Category, "image">> = [
     id: "dropshipping-outillage",
     slug: "outillage-partenaires",
     name: "Outillage & Bricolage",
-    description: "Outils, visseuses, équipement chantier, énergie portable et panneaux solaires.",
+    description:
+      "Outils, visseuses, équipement chantier, énergie portable et panneaux solaires.",
     accent: "#b45309",
     parentId: "dropshipping",
   },
@@ -429,7 +459,8 @@ const rawCategories: Array<Omit<Category, "image">> = [
     id: "dropshipping-gaming",
     slug: "gaming-partenaires",
     name: "Gaming & PC",
-    description: "Accessoires console, périphériques PC, setup gaming et idées cadeaux joueurs.",
+    description:
+      "Accessoires console, périphériques PC, setup gaming et idées cadeaux joueurs.",
     accent: "#7c3aed",
     parentId: "dropshipping",
   },
@@ -579,7 +610,8 @@ const rawCategories: Array<Omit<Category, "image">> = [
     id: "presentoirs",
     slug: "presentoirs",
     name: "Présentoirs",
-    description: "Présentoirs comptoir, supports et accessoires de mise en avant.",
+    description:
+      "Présentoirs comptoir, supports et accessoires de mise en avant.",
     accent: "#0891b2",
   },
   {
@@ -1130,9 +1162,17 @@ function hasReadyStatus(value: unknown) {
   if (
     !normalized ||
     hasHoldOrManualCheckSignal(normalized) ||
-    ["not", "non", "pas", "pending", "ko", "incomplete", "blocked", "refused", "invalid"].some(
-      (status) => statusParts.includes(status),
-    )
+    [
+      "not",
+      "non",
+      "pas",
+      "pending",
+      "ko",
+      "incomplete",
+      "blocked",
+      "refused",
+      "invalid",
+    ].some((status) => statusParts.includes(status))
   ) {
     return false;
   }
@@ -1175,7 +1215,11 @@ export function getPublicImageBlockers(product: Product) {
       blockers.push("stock_visual_image");
     }
 
-    if (nonExactProductImagePrefixes.some((prefix) => normalized.startsWith(prefix))) {
+    if (
+      nonExactProductImagePrefixes.some((prefix) =>
+        normalized.startsWith(prefix),
+      )
+    ) {
       blockers.push("image_not_exact_product_photo");
     }
 
@@ -1183,7 +1227,9 @@ export function getPublicImageBlockers(product: Product) {
       blockers.push("placeholder_or_hold_image");
     }
 
-    if (!exactProductImagePrefixes.some((prefix) => normalized.startsWith(prefix))) {
+    if (
+      !exactProductImagePrefixes.some((prefix) => normalized.startsWith(prefix))
+    ) {
       blockers.push("image_not_in_exact_product_depot");
     }
 
@@ -1206,7 +1252,11 @@ export function getPublicImageBlockers(product: Product) {
 export function isComingSoonProduct(
   product: Pick<
     Product,
-    "commerceStatus" | "categoryId" | "name" | "shortDescription" | "description"
+    | "commerceStatus"
+    | "categoryId"
+    | "name"
+    | "shortDescription"
+    | "description"
   >,
 ) {
   if (product.commerceStatus === "coming-soon") {
@@ -1259,7 +1309,10 @@ export function getDropshippingPublicBlockers(product: Product) {
     blockers.push("margin_missing");
   }
 
-  if (!(typeof dropshipping.supplierStock === "number" && dropshipping.supplierStock > 0)) {
+  if (!(
+    typeof dropshipping.supplierStock === "number" &&
+    dropshipping.supplierStock > 0
+  )) {
     blockers.push("supplier_stock_missing");
   }
 
@@ -1276,11 +1329,17 @@ export function getDropshippingPublicBlockers(product: Product) {
 
   blockers.push(...getPublicImageBlockers(product));
 
-  if (!product.sourceVerification?.rightsStatus || !hasReadyStatus(product.sourceVerification.rightsStatus)) {
+  if (
+    !product.sourceVerification?.rightsStatus ||
+    !hasReadyStatus(product.sourceVerification.rightsStatus)
+  ) {
     blockers.push("image_rights_not_ready");
   }
 
-  if (!product.sourceVerification?.priceStatus || !hasReadyStatus(product.sourceVerification.priceStatus)) {
+  if (
+    !product.sourceVerification?.priceStatus ||
+    !hasReadyStatus(product.sourceVerification.priceStatus)
+  ) {
     blockers.push("source_price_not_ready");
   }
 
@@ -1291,11 +1350,16 @@ export function getDropshippingPublicBlockers(product: Product) {
     blockers.push("source_delivery_not_ready");
   }
 
-  const validationGateChecks = Array.isArray(dropshipping.validationGate?.checks)
+  const validationGateChecks = Array.isArray(
+    dropshipping.validationGate?.checks,
+  )
     ? dropshipping.validationGate.checks
     : [];
 
-  if (!dropshipping.validationGate || (!dropshipping.validationGate.note && validationGateChecks.length === 0)) {
+  if (
+    !dropshipping.validationGate ||
+    (!dropshipping.validationGate.note && validationGateChecks.length === 0)
+  ) {
     blockers.push("validation_gate_missing");
   }
 
@@ -1404,7 +1468,10 @@ export function getProductSeoTitle(product: Product) {
   // mot entier, ne les attrapait pas et l'onglet du navigateur affichait
   // "... | Maxi Trouvaill | Maxi Trouvaille".
   return rawTitle
-    .replace(/\s*[|–-]\s*Maxi(?:\s+T(?:r(?:o(?:u(?:v(?:a(?:i(?:l(?:l(?:es?)?)?)?)?)?)?)?)?)?)?\s*$/i, "")
+    .replace(
+      /\s*[|–-]\s*Maxi(?:\s+T(?:r(?:o(?:u(?:v(?:a(?:i(?:l(?:l(?:es?)?)?)?)?)?)?)?)?)?)?\s*$/i,
+      "",
+    )
     .trim();
 }
 
@@ -1440,7 +1507,10 @@ export function getProductBadges(product: Product): ProductBadge[] {
 
   const discountPercent = getRealDiscountPercent(product);
 
-  if (discountPercent >= REFERENCE_PRICE_MIN_DISCOUNT) {
+  if (
+    HISTORIQUE_PRIX_VERIFIE &&
+    discountPercent >= REFERENCE_PRICE_MIN_DISCOUNT
+  ) {
     return [{ label: `-${discountPercent} %`, tone: "promotion" }];
   }
 
@@ -1482,7 +1552,10 @@ export function getCategoryFamilyIds(categoryId: string): string[] {
 
 export function getCategoryProductFamilyIds(categoryId: string): string[] {
   return Array.from(
-    new Set([...getCategoryFamilyIds(categoryId), ...(partnerCategoryMirrors[categoryId] ?? [])]),
+    new Set([
+      ...getCategoryFamilyIds(categoryId),
+      ...(partnerCategoryMirrors[categoryId] ?? []),
+    ]),
   );
 }
 
@@ -1522,6 +1595,8 @@ export function getProductsByCategory(categoryId: string) {
 
 export function getFeaturedProducts() {
   return products
-    .filter((product) => isPublicProduct(product) && !isComingSoonProduct(product))
+    .filter(
+      (product) => isPublicProduct(product) && !isComingSoonProduct(product),
+    )
     .slice(0, 3);
 }

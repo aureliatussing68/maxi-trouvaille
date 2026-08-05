@@ -26,7 +26,7 @@ const questions = [
   {
     question: "Qui expédie les produits ?",
     answer:
-      "Vous commandez et payez sur Maxi Trouvaille. Selon les produits, l'expédition est assurée par nos soins ou par un partenaire logistique. Dans tous les cas, le service client et le suivi restent gérés par Maxi Trouvaille : vous avez un seul interlocuteur.",
+      "Vous commandez et payez sur Maxi Trouvaille. L'expédition est assurée par un partenaire logistique situé hors de l'Union européenne. Le service client, le suivi, les retours, les remboursements et la garantie restent gérés par Maxi Trouvaille : vous avez un seul interlocuteur, et vos droits de consommateur sont exactement les mêmes.",
   },
   {
     question: "Les produits sont-ils neufs ?",

@@ -7,6 +7,7 @@ import {
   isProductPurchasable,
 } from "@/lib/catalog";
 import { clampQuantity } from "@/lib/format";
+import { getPublicDescription } from "@/lib/product-display";
 import { validateShippingSelection } from "@/lib/shipping";
 import { recordDropshippingCheckoutDraft } from "@/lib/dropshipping-server";
 
@@ -162,6 +163,22 @@ export async function POST(request: Request) {
 
     cartProducts.push(product);
     cartLines.push({ productId, quantity });
+
+    /**
+     * Le texte FILTRE, jamais la description brute de la fiche.
+     *
+     * Cette ligne s'affiche sur la page de paiement, au moment exact ou le
+     * client sort sa carte. Elle envoyait jusqu'ici les notes recopiees du
+     * fournisseur (« note 4.9 sur 19 000 avis ») — des notes que la boutique
+     * ne peut pas justifier, donc une pratique commerciale trompeuse au sens
+     * de l'article L121-2 du code de la consommation.
+     *
+     * Si le filtre ne laisse rien, on n'envoie pas de description du tout :
+     * Stripe refuse une chaine vide, et pas de description vaut mieux qu'une
+     * fausse note.
+     */
+    const descriptionPublique = getPublicDescription(product.shortDescription);
+
     lineItems.push({
       quantity,
       price_data: {
@@ -169,7 +186,7 @@ export async function POST(request: Request) {
         unit_amount: product.price,
         product_data: {
           name: product.name,
-          description: product.shortDescription,
+          ...(descriptionPublique ? { description: descriptionPublique } : {}),
           images: getStripeProductImages(product.image, siteUrl),
           metadata: {
             productId: product.id,

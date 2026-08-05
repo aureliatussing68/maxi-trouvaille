@@ -28,21 +28,27 @@ function writeStoredFavorites(favorites: Set<string>) {
   );
 }
 
-function getOrCreateVisitorId() {
+/**
+ * L'identifiant visiteur permanent a ete SUPPRIME le 05/08/2026.
+ *
+ * Il etait cree des l'ouverture d'une fiche produit, ecrit dans le navigateur
+ * et envoye au serveur sans le moindre clic du visiteur. L'article 82 de la loi
+ * Informatique et Libertes n'autorise ca que si c'est strictement necessaire au
+ * service demande — un compteur de vues ne l'est pas. Il aurait donc fallu un
+ * bandeau de consentement, pour alimenter des compteurs que le site n'affiche
+ * meme plus.
+ *
+ * Choix retenu : supprimer le mouchard plutot que d'imposer un bandeau a tous
+ * les visiteurs. Les favoris restent entierement locaux au navigateur, ce qui
+ * releve de l'exemption « service expressement demande par l'utilisateur ».
+ *
+ * Ne pas le reintroduire sans bandeau de consentement ET sans purge automatique.
+ */
+function nettoyerAncienIdentifiantVisiteur() {
   try {
-    const stored = window.localStorage.getItem(visitorStorageKey);
-    if (stored) {
-      return stored;
-    }
-
-    const visitorId =
-      typeof crypto.randomUUID === "function"
-        ? crypto.randomUUID()
-        : `visitor_${Date.now()}_${Math.random().toString(36).slice(2)}`;
-    window.localStorage.setItem(visitorStorageKey, visitorId);
-    return visitorId;
+    window.localStorage.removeItem(visitorStorageKey);
   } catch {
-    return `visitor_${Date.now()}_${Math.random().toString(36).slice(2)}`;
+    // Un navigateur qui refuse le stockage local n'a rien a nettoyer.
   }
 }
 
@@ -73,7 +79,9 @@ export function ProductStatsBadges({
   }
 
   return (
-    <div className={`flex flex-wrap items-center gap-3 text-xs font-bold text-muted ${className}`}>
+    <div
+      className={`flex flex-wrap items-center gap-3 text-xs font-bold text-muted ${className}`}
+    >
       {showViews ? (
         <span className="inline-flex items-center gap-1.5">
           <Eye size={14} aria-hidden="true" />
@@ -113,63 +121,37 @@ export function ProductEngagement({
     }
 
     viewRequestStarted.current = true;
-    const visitorId = getOrCreateVisitorId();
 
-    // Le compteur de vues continue d'etre alimente cote serveur : il servira
-    // le jour ou les nombres seront assez grands pour vouloir dire quelque
-    // chose. Simplement, plus rien n'est affiche au client en attendant.
-    fetch(`/api/products/${encodeURIComponent(productId)}/stats`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ visitorId }),
-    }).catch(() => {
-      // Un compteur de vues indisponible ne doit rien casser sur la fiche.
-    });
+    // Plus aucun appel au serveur a l'ouverture d'une fiche. Le compteur de
+    // vues alimentait une statistique que le site n'affiche plus, au prix d'un
+    // identifiant permanent depose sans consentement. Le nettoyage ci-dessous
+    // efface aussi celui des visiteurs deja venus.
+    nettoyerAncienIdentifiantVisiteur();
 
     return () => window.clearTimeout(favoriteTimer);
   }, [productId]);
 
-  async function toggleFavorite() {
-    const visitorId = getOrCreateVisitorId();
+  /**
+   * Le favori est desormais purement local : rien ne part au serveur, donc
+   * aucun profil de navigation n'est constitue. Le visiteur retrouve ses
+   * favoris sur son propre navigateur, ce qui est tout ce que cette boutique
+   * sans compte client sait en faire de toute facon.
+   */
+  function toggleFavorite() {
     const nextFavorite = !isFavorited;
     setIsLoadingFavorite(true);
 
     try {
-      const response = await fetch(
-        `/api/products/${encodeURIComponent(productId)}/favorite`,
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify({
-            visitorId,
-            favorite: nextFavorite,
-          }),
-        },
-      );
-      const data = (await response.json()) as {
-        favorited?: boolean;
-        stats?: ProductStats;
-      };
-
-      if (!response.ok) {
-        throw new Error("Favori impossible.");
-      }
-
       const favorites = getStoredFavorites();
-      const favorited = data.favorited ?? nextFavorite;
 
-      if (favorited) {
+      if (nextFavorite) {
         favorites.add(productId);
       } else {
         favorites.delete(productId);
       }
 
       writeStoredFavorites(favorites);
-      setIsFavorited(favorited);
+      setIsFavorited(nextFavorite);
     } catch {
       setIsFavorited((current) => current);
     } finally {

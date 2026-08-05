@@ -74,11 +74,9 @@ export const IDENTITE_LEGALE = {
 
   /**
    * SIRET — les 14 chiffres (SIREN + 5 chiffres d'etablissement).
-   * MANQUANT : le Kbis ne le donne pas, il figure sur l'avis de situation
-   * INSEE. Necessaire pour les factures, pas pour les mentions legales.
-   * NE PAS DEVINER les 5 derniers chiffres.
+   * Transmis par l'exploitant le 05/08/2026, coherent avec le SIREN ci-dessus.
    */
-  siret: "",
+  siret: "793 292 285 00053",
 
   /** Immatriculation au registre du commerce et des societes. */
   immatriculation: "793 292 285 R.C.S. Colmar",
@@ -93,18 +91,42 @@ export const IDENTITE_LEGALE = {
   dateImmatriculation: "28/10/2020",
 
   /**
-   * Statut TVA. Trois valeurs possibles, et TROIS SEULEMENT :
-   *   "franchise"  -> franchise en base, article 293 B du CGI (pas de TVA)
-   *   "assujetti"  -> TVA facturee, remplir aussi tvaIntracommunautaire
-   *   ""           -> inconnu : le site affiche un trou visible
+   * ==========================================================================
+   *  L'INTERRUPTEUR TVA — une seule ligne a changer, nulle part ailleurs
+   * ==========================================================================
    *
-   * MANQUANT. Tant que c'est vide, le site n'affirme RIEN sur la TVA — ecrire
-   * « TVA non applicable » sans le savoir serait une mention fausse, et sur un
-   * prix affiche c'est une pratique commerciale trompeuse.
+   * Trois valeurs possibles, et TROIS SEULEMENT :
+   *
+   *   "franchise"  -> le site affichera partout : « TVA non applicable,
+   *                   article 293 B du code general des impots (franchise en
+   *                   base de TVA). Les prix affiches sont nets de taxe. »
+   *                   Rien d'autre a remplir.
+   *
+   *   "assujetti"  -> le site affichera « Prix toutes taxes comprises, TVA au
+   *                   taux de X % » et le numero de TVA intracommunautaire.
+   *                   Remplir alors `tauxTva` et `tvaIntracommunautaire`
+   *                   ci-dessous.
+   *
+   *   ""           -> INCONNU. Le site n'affirme RIEN et affiche un trou
+   *                   visible. C'est l'etat actuel, en attendant la
+   *                   verification sur impots.gouv.fr.
+   *
+   * POURQUOI ON NE DEVINE PAS : ecrire « TVA non applicable » sans le savoir
+   * est une mention fiscale fausse a cote d'un prix affiche, donc une pratique
+   * commerciale trompeuse (article L121-2 du code de la consommation).
+   * Le regime micro-entrepreneur n'implique PAS automatiquement la franchise
+   * en base : au-dela des seuils de chiffre d'affaires, on devient assujetti
+   * tout en restant micro-entrepreneur. Les deux notions sont independantes.
+   *
+   * La phrase affichee est construite une seule fois, par `mentionTva()` en bas
+   * de ce fichier. Les mentions legales et les CGV l'utilisent toutes les deux.
    */
   statutTva: "" as "" | "franchise" | "assujetti",
 
-  /** Numero de TVA intracommunautaire. A remplir UNIQUEMENT si assujetti. */
+  /** Taux de TVA applique, en pourcentage. UNIQUEMENT si assujetti. Ex : "20". */
+  tauxTva: "",
+
+  /** Numero de TVA intracommunautaire. UNIQUEMENT si assujetti. */
   tvaIntracommunautaire: "",
 
   /** Capital social. Vide pour une entreprise individuelle : elle n'en a pas. */
@@ -126,12 +148,11 @@ export const IDENTITE_LEGALE = {
   email: "contact@maxitrouvaille.fr",
 
   /**
-   * Telephone du service client.
-   * MANQUANT et OBLIGATOIRE : depuis la reforme de 2022, l'article L221-5 du
-   * code de la consommation impose au vendeur a distance d'afficher un numero
-   * de telephone, et pas seulement un email. Un numero de portable convient.
+   * Telephone du service client. Obligatoire : depuis la reforme de 2022,
+   * l'article L221-5 du code de la consommation impose au vendeur a distance
+   * d'afficher un numero de telephone, pas seulement un email.
    */
-  telephone: "",
+  telephone: "06 27 28 31 18",
 
   /** Personne responsable du contenu du site. */
   directeurPublication: "CHAHI Mustapha",
@@ -155,7 +176,20 @@ export const IDENTITE_LEGALE = {
  */
 export const HEBERGEUR = {
   nom: "Vercel Inc.",
-  adresse: "340 S Lemon Ave #4133, Walnut, CA 91789, Etats-Unis",
+  /**
+   * Adresse corrigee le 05/08/2026. L'ancienne (« 340 S Lemon Ave #4133,
+   * Walnut, CA 91789 ») est PERIMEE : Vercel a demenage, et ses documents
+   * legaux indiquent aujourd'hui l'adresse ci-dessous. L'ancienne circule
+   * encore, recopiee par des milliers de sites francais.
+   */
+  adresse: "440 N Barranca Avenue #4133, Covina, CA 91723, Etats-Unis",
+  /**
+   * MANQUANT. L'article 6 III-1 d) de la LCEN exige le nom, l'adresse ET le
+   * telephone de l'hebergeur. Ne PAS recopier un numero trouve sur un site
+   * francais au hasard : plusieurs faux circulent. Il doit etre releve sur les
+   * documents legaux de Vercel.
+   */
+  telephone: "",
   site: "https://vercel.com",
 };
 
@@ -176,6 +210,7 @@ const ETIQUETTES: Record<ChampIdentite, string> = {
   greffe: "greffe",
   dateImmatriculation: "date d'immatriculation",
   statutTva: "statut TVA (franchise en base ou assujetti)",
+  tauxTva: "taux de TVA",
   tvaIntracommunautaire: "numero de TVA intracommunautaire",
   capitalSocial: "capital social",
   adresseRue: "adresse (rue)",
@@ -245,6 +280,29 @@ export function vendeurComplet() {
     : vendeurLegal();
 }
 
+/**
+ * Identification du vendeur en une ligne, pour le pied des emails.
+ *
+ * L'article R123-237 du code de commerce impose que TOUTE correspondance
+ * professionnelle porte le SIREN, la mention RCS + ville du greffe et le siege.
+ * Les emails de commande partaient jusqu'ici signes « Maxi Trouvaille » tout
+ * court : un nom commercial ne suffit pas, personne ne pouvait savoir a qui il
+ * achetait. Comme tout vient d'ici, le jour du passage en SASU les emails
+ * suivront tout seuls.
+ */
+export function identiteVendeurUneLigne() {
+  return [
+    vendeurLegal(),
+    champFacultatif("nomCommercial"),
+    adressePostale(),
+    `SIREN ${champFacultatif("siren")}`,
+    champFacultatif("immatriculation"),
+    champFacultatif("telephone"),
+  ]
+    .filter(Boolean)
+    .join(" — ");
+}
+
 /** Adresse postale complete, sur une seule ligne. */
 export function adressePostale() {
   return [
@@ -266,11 +324,14 @@ export function mentionTva() {
   }
 
   if (statut === "assujetti") {
-    const numero = champFacultatif("tvaIntracommunautaire");
-    const suffixe = numero
-      ? ` Numéro de TVA intracommunautaire : ${numero}.`
-      : ` ${champ("tvaIntracommunautaire")}.`;
-    return `Les prix affichés s'entendent toutes taxes comprises.${suffixe}`;
+    const taux = champFacultatif("tauxTva");
+
+    return [
+      taux
+        ? `Les prix affichés s'entendent toutes taxes comprises, TVA au taux de ${taux} %.`
+        : `Les prix affichés s'entendent toutes taxes comprises, TVA au taux de ${champ("tauxTva")}.`,
+      `Numéro de TVA intracommunautaire : ${champ("tvaIntracommunautaire")}.`,
+    ].join(" ");
   }
 
   return `Régime de TVA : ${champ("statutTva")}.`;
