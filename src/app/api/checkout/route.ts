@@ -232,19 +232,35 @@ export async function POST(request: Request) {
       metadata: {
         project: "maxi-trouvaille",
         checkoutMode: stripeMode,
-        hasDropshippingItems: cartProducts.some(isDropshippingProduct) ? "true" : "false",
+        hasDropshippingItems: cartProducts.some(isDropshippingProduct)
+          ? "true"
+          : "false",
         reviewProductIds: reviewProductIds.slice(0, 500),
         shippingMethod: shippingValidation.method.id,
         shippingPriceCents: String(shippingValidation.method.price),
         // Store only the minimum order handoff details needed by admin tools.
-        shippingName: `${shippingCustomer.firstName} ${shippingCustomer.lastName}`
-          .trim()
-          .slice(0, 120),
+        shippingName:
+          `${shippingCustomer.firstName} ${shippingCustomer.lastName}`
+            .trim()
+            .slice(0, 120),
         shippingStreet: shippingCustomer.street.slice(0, 250),
         shippingCity: shippingCustomer.city.slice(0, 120),
         shippingPostalCode: shippingCustomer.postalCode.slice(0, 20),
         shippingPhone: shippingCustomer.phone.slice(0, 80),
         shippingEmail: shippingCustomer.email.slice(0, 120),
+        // Pays de livraison, en clair dans les metadata.
+        //
+        // Pourquoi une constante et pas un champ du formulaire : la boutique
+        // ne propose aujourd'hui que des transporteurs francais (Colissimo,
+        // Mondial Relay), et le formulaire de livraison ne demande donc pas
+        // de pays. Mais une commande fournisseur, elle, EXIGE toujours un
+        // pays de destination : sans lui, l'adresse recuperee depuis Stripe
+        // est inexploitable pour passer commande automatiquement.
+        //
+        // Le jour ou une livraison hors de France sera proposee, cette ligne
+        // devra lire le pays choisi par le client (et `shipping.ts` devra
+        // collecter le champ) — sinon les commandes partiraient en France.
+        shippingCountry: "FR",
       },
     });
   } catch (error) {
