@@ -184,12 +184,19 @@ export const HEBERGEUR = {
    */
   adresse: "440 N Barranca Avenue #4133, Covina, CA 91723, Etats-Unis",
   /**
-   * MANQUANT. L'article 6 III-1 d) de la LCEN exige le nom, l'adresse ET le
-   * telephone de l'hebergeur. Ne PAS recopier un numero trouve sur un site
-   * francais au hasard : plusieurs faux circulent. Il doit etre releve sur les
-   * documents legaux de Vercel.
+   * Releve le 05/08/2026 sur la page legale de Vercel elle-meme :
+   * https://vercel.com/legal/dmca-policy — bloc de l'agent DMCA designe.
+   *
+   * C'est la SEULE source fiable trouvee, et elle est solide : le titre 17
+   * du code americain, section 512 (c)(2), oblige un hebergeur a publier le
+   * telephone de son agent DMCA. Vercel le publie donc lui-meme, sous sa
+   * propre responsabilite. Les annuaires d'entreprises tiers affichent le
+   * meme numero, ce qui le corrobore.
+   *
+   * Ne PAS le remplacer par un numero trouve sur un site francais : plusieurs
+   * faux circulent, recopies d'un site a l'autre.
    */
-  telephone: "",
+  telephone: "+1 559 288 7060",
   site: "https://vercel.com",
 };
 

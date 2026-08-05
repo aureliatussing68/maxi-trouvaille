@@ -192,7 +192,21 @@ export const dropshippingFocusCategoryIds = [
   "dropshipping-accessoires",
   "dropshipping-auto-moto",
   "dropshipping-animaux",
-  "dropshipping-enfant",
+  // « dropshipping-enfant » retire de cette liste le 05/08/2026.
+  //
+  // Cette liste est la GARDE DE PUBLICATION : en sortir une categorie rend
+  // isPublicCategory() faux, donc isPublicProduct() faux pour tout ce qu'elle
+  // contient, et /categories/enfant-partenaires redirige vers /categories au
+  // lieu d'afficher une page vide.
+  //
+  // C'est volontaire et c'est une securite, pas un simple masquage : tant que
+  // cette ligne est absente, AUCUNE fiche destinee aux enfants ne peut
+  // reapparaitre en boutique par accident, meme si quelqu'un la repasse en
+  // "published". Les 22 fiches concernees sont archivees, pas supprimees.
+  //
+  // Pour rouvrir le rayon le jour ou les declarations UE de conformite sont
+  // obtenues : remettre cette entree ici, remettre "dropshipping-enfant" dans
+  // homeShowcaseCategoryIds, et repasser les fiches en "published".
   "dropshipping-mode",
   "dropshipping-outillage",
   "dropshipping-gaming",
@@ -216,7 +230,17 @@ export const homeShowcaseCategoryIds = [
   "dropshipping-outillage",
   "dropshipping-animaux",
   "dropshipping-auto-moto",
-  "dropshipping-enfant",
+  // « Enfant » retire de la vitrine le 05/08/2026. Ses 22 fiches ont ete
+  // archivees : ce sont des jouets et des appareils electriques destines a des
+  // enfants, pour lesquels la declaration UE de conformite exigee par la
+  // directive 2009/48/CE (et selon les cas 2014/35, 2014/30, 2011/65, 2014/53)
+  // n'est pas detenue. Le rayon serait donc vide, et un rayon vide qui promet
+  // des jeux est une promesse trompeuse.
+  //
+  // La categorie N'EST PAS supprimee : elle reste declaree plus bas et reste
+  // dans dropshippingFocusCategoryIds. Le jour ou un fournisseur fournit les
+  // documents, il suffit de repasser les fiches en "published" et de remettre
+  // cette ligne pour que le rayon revienne.
   "dropshipping-mode",
   "dropshipping-gaming",
 ] as const;

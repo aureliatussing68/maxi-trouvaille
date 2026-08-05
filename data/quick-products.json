@@ -354,7 +354,7 @@
     ],
     "livraisonDisponible": "toutes",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "price": 2490,
     "compareAtPrice": 3290,
     "imageAlt": "Projecteur galaxie astronaute avec enceinte",
@@ -407,6 +407,12 @@
           "Photos produit importees en local"
         ]
       }
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Produit electrique/radio destine a un enfant : declaration UE de conformite (LVD 2014/35, CEM 2014/30, RoHS 2011/65) non detenue.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -436,7 +442,7 @@
     ],
     "livraisonDisponible": "toutes",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "price": 990,
     "compareAtPrice": 1390,
     "imageAlt": "Tapis de dessin à l'eau magique",
@@ -489,6 +495,12 @@
           "Photos produit importees en local"
         ]
       }
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Jouet au sens de la directive 2009/48/CE : declaration UE de conformite, marquage CE et coordonnees de l importateur non detenus.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -1173,7 +1185,7 @@
     ],
     "livraisonDisponible": "toutes",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "price": 2490,
     "compareAtPrice": 3290,
     "imageAlt": "Kit 10 800 perles lettres pour bracelets DIY",
@@ -1226,6 +1238,12 @@
           "Photos produit importees en local"
         ]
       }
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Jouet au sens de la directive 2009/48/CE : declaration UE de conformite, marquage CE et coordonnees de l importateur non detenus.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -2399,7 +2417,7 @@
     ],
     "livraisonDisponible": "toutes",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "price": 1990,
     "compareAtPrice": 2690,
     "imageAlt": "Pistolet à eau électrique LED automatique",
@@ -2452,6 +2470,12 @@
           "Photos produit importees en local"
         ]
       }
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Jouet au sens de la directive 2009/48/CE : declaration UE de conformite, marquage CE et coordonnees de l importateur non detenus.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -2481,7 +2505,7 @@
     ],
     "livraisonDisponible": "toutes",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "price": 890,
     "compareAtPrice": 1290,
     "imageAlt": "Rose éternelle en blocs de construction",
@@ -2534,6 +2558,12 @@
           "Photos produit importees en local"
         ]
       }
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Jouet au sens de la directive 2009/48/CE : declaration UE de conformite, marquage CE et coordonnees de l importateur non detenus.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -2564,7 +2594,7 @@
     ],
     "livraisonDisponible": "toutes",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "price": 2290,
     "compareAtPrice": 2990,
     "imageAlt": "Peluche Tung Tung Sahur 27 cm",
@@ -2617,6 +2647,12 @@
           "Photos produit importees en local"
         ]
       }
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Jouet au sens de la directive 2009/48/CE : declaration UE de conformite, marquage CE et coordonnees de l importateur non detenus.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -2646,7 +2682,7 @@
     ],
     "livraisonDisponible": "toutes",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "price": 1090,
     "compareAtPrice": 1490,
     "imageAlt": "Coffret Squishy — jouets sensoriels assortis",
@@ -2699,6 +2735,12 @@
           "Photos produit importees en local"
         ]
       }
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Jouet au sens de la directive 2009/48/CE : declaration UE de conformite, marquage CE et coordonnees de l importateur non detenus.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -2728,7 +2770,7 @@
     ],
     "livraisonDisponible": "toutes",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "price": 2490,
     "compareAtPrice": 3390,
     "imageAlt": "Mini ventilateur chat USB silencieux",
@@ -2781,6 +2823,12 @@
           "Photos produit importees en local"
         ]
       }
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Produit electrique/radio destine a un enfant : declaration UE de conformite (LVD 2014/35, CEM 2014/30, RoHS 2011/65) non detenue.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -4958,7 +5006,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "compareAtPrice": 1390,
     "dropshipping": {
       "enabled": true,
@@ -5043,7 +5091,13 @@
       ],
       "imageAlt": "Machine à bulles automatique enfant extérieur - enfant Maxi Trouvaille"
     },
-    "imageAlt": "Machine à bulles automatique enfant extérieur - enfant Maxi Trouvaille"
+    "imageAlt": "Machine à bulles automatique enfant extérieur - enfant Maxi Trouvaille",
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Jouet au sens de la directive 2009/48/CE : declaration UE de conformite, marquage CE et coordonnees de l importateur non detenus.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
+    }
   },
   {
     "id": "ali_partner_20260605_avion_mousse_lanceur_001",
@@ -5073,7 +5127,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "compareAtPrice": 1290,
     "dropshipping": {
       "enabled": true,
@@ -5155,7 +5209,13 @@
       ],
       "imageAlt": "Avion mousse avec lanceur jeu extérieur - enfant Maxi Trouvaille"
     },
-    "imageAlt": "Avion mousse avec lanceur jeu extérieur - enfant Maxi Trouvaille"
+    "imageAlt": "Avion mousse avec lanceur jeu extérieur - enfant Maxi Trouvaille",
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Jouet au sens de la directive 2009/48/CE : declaration UE de conformite, marquage CE et coordonnees de l importateur non detenus.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
+    }
   },
   {
     "id": "ali_partner_20260605_serviette_microfibre_auto_001",
@@ -14548,7 +14608,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -14616,6 +14676,12 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Produit electrique/radio destine a un enfant : declaration UE de conformite (LVD 2014/35, CEM 2014/30, RoHS 2011/65) non detenue.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -14644,7 +14710,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -14713,6 +14779,12 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Jouet au sens de la directive 2009/48/CE : declaration UE de conformite, marquage CE et coordonnees de l importateur non detenus.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -15805,7 +15877,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -15874,6 +15946,12 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Jouet au sens de la directive 2009/48/CE : declaration UE de conformite, marquage CE et coordonnees de l importateur non detenus.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -16871,7 +16949,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -16940,6 +17018,12 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Jouet au sens de la directive 2009/48/CE : declaration UE de conformite, marquage CE et coordonnees de l importateur non detenus.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -17647,7 +17731,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -17715,6 +17799,12 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Jouet au sens de la directive 2009/48/CE : declaration UE de conformite, marquage CE et coordonnees de l importateur non detenus.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -18129,7 +18219,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -18198,6 +18288,12 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Jouet au sens de la directive 2009/48/CE : declaration UE de conformite, marquage CE et coordonnees de l importateur non detenus.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -21226,7 +21322,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -21294,6 +21390,12 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Jouet au sens de la directive 2009/48/CE : declaration UE de conformite, marquage CE et coordonnees de l importateur non detenus.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -22003,7 +22105,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -22072,6 +22174,12 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Produit electrique/radio destine a un enfant : declaration UE de conformite (LVD 2014/35, CEM 2014/30, RoHS 2011/65) non detenue.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -27131,7 +27239,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -27199,6 +27307,12 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Jouet au sens de la directive 2009/48/CE : declaration UE de conformite, marquage CE et coordonnees de l importateur non detenus.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -28000,7 +28114,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -28068,6 +28182,12 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Equipement radioelectrique destine a un enfant : declaration UE de conformite RED 2014/53/UE non detenue.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -28870,7 +28990,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -28939,6 +29059,12 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Objet connecte geolocalisant un enfant : declaration RED 2014/53/UE non detenue, et traitement de donnees de localisation d un mineur sans base juridique ni analyse d impact. Categorie deja visee par des rappels europeens.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
@@ -32738,7 +32864,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -32807,6 +32933,12 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "motif": "Produit electrique/radio destine a un enfant : declaration UE de conformite (LVD 2014/35, CEM 2014/30, RoHS 2011/65) non detenue.",
+      "decision": "Retrait decide par le commercant le 05/08/2026.",
+      "republiableSi": "Le fournisseur transmet la declaration UE de conformite et les coordonnees du fabricant."
     }
   },
   {
