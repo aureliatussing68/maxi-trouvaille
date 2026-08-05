@@ -172,6 +172,36 @@ export const IDENTITE_LEGALE = {
 };
 
 /**
+ * Identifiants uniques REP (dits « IDU »), delivres par l'ADEME.
+ *
+ * POURQUOI CE BLOC EXISTE : en important pour la premiere fois un produit sur
+ * le marche francais, on devient « producteur » au sens de la responsabilite
+ * elargie du producteur (article L541-10 du code de l'environnement). Il faut
+ * alors adherer a un eco-organisme agree par filiere concernee, ce qui donne un
+ * identifiant de la forme FR_XXXXXX_XX — un par filiere, pas un pour tout.
+ *
+ * L'article L541-9-5 du code de l'environnement impose de faire figurer cet
+ * identifiant dans les conditions generales de vente. Son absence est
+ * sanctionnee, l'amende pouvant aller jusqu'a 30 000 euros.
+ *
+ * COMMENT LE REMPLIR : une ligne par filiere effectivement souscrite. Tant que
+ * le tableau est vide, les CGV n'affichent RIEN a ce sujet — elles n'inventent
+ * pas un numero et ne pretendent pas non plus etre en regle. Des qu'une ligne
+ * est ajoutee, elle apparait dans les CGV toute seule.
+ *
+ * Ne recopie jamais ici l'identifiant d'une autre entreprise : il est verifiable
+ * publiquement sur filieres-rep.ademe.fr, et un faux se voit immediatement.
+ */
+export const IDENTIFIANTS_REP: Array<{
+  /** Nom de la filiere, en francais courant. Ex : « Emballages menagers ». */
+  filiere: string;
+  /** Identifiant delivre par l'ADEME, format FR_XXXXXX_XX. */
+  identifiant: string;
+  /** Eco-organisme aupres duquel l'adhesion a ete prise. */
+  ecoOrganisme: string;
+}> = [];
+
+/**
  * Hebergeur du site. A verifier si Vercel change d'adresse un jour.
  */
 export const HEBERGEUR = {

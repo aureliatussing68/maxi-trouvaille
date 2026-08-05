@@ -261,6 +261,18 @@ const dropshippingFocusCategoryIdSet = new Set<string>(
  */
 const CATEGORIES_FERMEES = new Set<string>(["dropshipping-enfant"]);
 
+/**
+ * Vrai si ce rayon est ferme pour un motif de conformite.
+ *
+ * A distinguer d'une categorie simplement non publique : celle-la renvoie le
+ * visiteur vers la liste des rayons, tandis qu'un rayon ferme doit repondre
+ * franchement 404. Une adresse qui repond 200 avec une page vide reste
+ * indexee par les moteurs et continue d'etre proposee aux internautes.
+ */
+export function estCategorieFermee(categoryId: string) {
+  return CATEGORIES_FERMEES.has(categoryId);
+}
+
 const hiddenNavigationCategoryIds = [
   "colis-surprise-palettes",
   "palettes-destockage",

@@ -22,6 +22,7 @@ import { ProductCard } from "@/components/ProductCard";
 import { isAdminModeEnabled } from "@/lib/admin";
 import {
   categories,
+  estCategorieFermee,
   getCategoryBySlug,
   getSubcategoriesByParentId,
   isDropshippingCategory,
@@ -112,6 +113,14 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
     notFound();
   }
 
+  // Un rayon ferme pour non-conformite repond 404, pas 200 : sinon l'adresse
+  // reste indexee et continue d'etre proposee aux internautes, alors que la
+  // page ne contient plus rien. Le renvoi vers /categories est reserve aux
+  // categories simplement non publiques, qui elles ont vocation a revenir.
+  if (estCategorieFermee(category.id)) {
+    notFound();
+  }
+
   if (!isPublicCategory(category)) {
     redirect("/categories");
   }
@@ -127,7 +136,10 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   ).length;
   const partnerRelayItems = isPartnerCategory
     ? categories
-        .filter((item) => item.parentId === "dropshipping" && item.slug !== category.slug)
+        .filter(
+          (item) =>
+            item.parentId === "dropshipping" && item.slug !== category.slug,
+        )
         .slice(0, 6)
         .map((item, index) => ({
           href: `/categories/${item.slug}`,
@@ -137,9 +149,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
         }))
     : [];
   const productIds = categoryProducts.map((product) => product.id);
-  const statsMap = await getProductStatsMap(
-    productIds,
-  );
+  const statsMap = await getProductStatsMap(productIds);
   const reviewSummaryMap = await getApprovedReviewSummaryMap(productIds);
 
   return (
@@ -178,9 +188,7 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
               <p className="text-sm font-bold uppercase text-teal">
                 Sous-catégories
               </p>
-              <h2 className="mt-2 text-2xl font-black">
-                Explorer ce rayon
-              </h2>
+              <h2 className="mt-2 text-2xl font-black">Explorer ce rayon</h2>
             </div>
             <CategoryGrid items={subcategories} compact />
           </div>

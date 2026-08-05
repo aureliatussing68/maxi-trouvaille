@@ -20,6 +20,7 @@
 import {
   DELAI_RETRACTATION_JOURS,
   HEBERGEUR,
+  IDENTIFIANTS_REP,
   adressePostale,
   champ,
   champFacultatif,
@@ -69,6 +70,31 @@ function ligneImmatriculation() {
 function ligneSiret() {
   const valeur = champFacultatif("siret");
   return valeur ? `SIRET : ${valeur}.` : "";
+}
+
+/**
+ * Identifiants uniques REP, à afficher dans les CGV.
+ *
+ * L'article L541-9-5 du code de l'environnement impose au producteur de faire
+ * figurer son identifiant dans ses conditions générales de vente. Importer un
+ * produit sur le marché français fait de nous ce producteur.
+ *
+ * Tant qu'aucune adhésion n'est prise, cette ligne reste VIDE : les CGV ne
+ * disent alors rien du tout à ce sujet. C'est délibéré — mieux vaut un silence
+ * qu'une affirmation de conformité qui serait fausse, et un numéro inventé se
+ * vérifierait en dix secondes sur filieres-rep.ademe.fr.
+ */
+function ligneIdentifiantsRep() {
+  if (IDENTIFIANTS_REP.length === 0) {
+    return "";
+  }
+
+  const liste = IDENTIFIANTS_REP.map(
+    (entree) =>
+      `${entree.filiere} : ${entree.identifiant} (${entree.ecoOrganisme})`,
+  ).join(" — ");
+
+  return `Identifiants uniques attribués par l'ADEME au titre de la responsabilité élargie du producteur (article L541-10 du code de l'environnement) : ${liste}.`;
 }
 
 /**
@@ -149,7 +175,8 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
         paragraphs: [
           `Les produits vendus sur maxitrouvaille.fr le sont par ${vendeurComplet()}, ${champ("formeJuridique")}, SIREN ${champ("siren")}, ${champ("immatriculation")}, dont l'établissement est situé ${adressePostale()}.`,
           `Contact : ${champ("email")} — ${champ("telephone")}.`,
-        ],
+          ligneIdentifiantsRep(),
+        ].filter(Boolean),
       },
       {
         title: "2. Objet et acceptation",
