@@ -69,6 +69,30 @@ const INTERNAL_COPY_PATTERNS = [
   /\bHOLD\b/,
   /fiche\s+candidate/i,
   /brouillon/i,
+
+  // Ajoutes le 05/08/2026, apres verification sur le site EN LIGNE : ces
+  // formules-la passaient bel et bien jusqu'au client. Sur la fiche publique
+  // « Lampe velo USB rechargeable », un visiteur lisait « Tres bon signal de
+  // ventes recentes » et « Produit ajoute en couche catalogue controlee ».
+  //
+  // « Marge cible 30-40% » etait deja intercepte par /\bmarge\b/. C'est en
+  // cherchant pourquoi les deux autres passaient que le trou est apparu.
+  // Lecon : un filtre se verifie sur la page publique, jamais sur sa liste de
+  // motifs.
+  //
+  // « signal de ventes » est le plus genant des trois. Ce n'est pas seulement
+  // du jargon de coulisses : c'est une allegation de succes commercial que la
+  // boutique ne peut pas justifier, puisqu'aucune vente n'a encore ete
+  // enregistree. Meme famille que les fausses notes plus haut — article L121-2
+  // du code de la consommation.
+  /signal\s+de\s+vente/i,
+  /couche\s+catalogue/i,
+  /potentiel\s+promo/i,
+  /\bsourcing\b/i,
+  /source\s+europe/i,
+  /prix\s+d['’]achat/i,
+  /taux\s+de\s+conversion/i,
+  /panier\s+moyen/i,
 ];
 
 const REMOVABLE_SENTENCE_PATTERNS = [
