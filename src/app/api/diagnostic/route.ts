@@ -186,6 +186,167 @@ async function diagnostiquerBase() {
   }
 }
 
+/**
+ * Liste courte des dernieres commandes.
+ *
+ * On ne renvoie VOLONTAIREMENT ni nom, ni adresse, ni email, ni telephone :
+ * cette page sert a diagnostiquer, pas a consulter des donnees clients. Meme
+ * protegee par un jeton, elle ne doit jamais devenir une porte de sortie pour
+ * des donnees personnelles.
+ */
+async function listerCommandes(limite = 20) {
+  const url = getDatabaseUrl();
+
+  if (!url) {
+    return [];
+  }
+
+  const sql = postgres(url, {
+    max: 1,
+    idle_timeout: 5,
+    connect_timeout: 10,
+    prepare: false,
+  });
+
+  try {
+    const lignes = await sql<
+      { data: Record<string, unknown>; created_at: Date }[]
+    >`
+      SELECT data, created_at FROM dropshipping_orders
+      ORDER BY created_at DESC
+      LIMIT ${limite}
+    `;
+
+    return lignes.map((ligne) => ({
+      reference: String(ligne.data?.orderNumber ?? "?"),
+      paiement: String(ligne.data?.paymentStatus ?? "?"),
+      statut: String(ligne.data?.status ?? "?"),
+      creeeLe: ligne.created_at?.toISOString?.() ?? "",
+    }));
+  } catch {
+    return [];
+  } finally {
+    await sql.end({ timeout: 5 }).catch(() => undefined);
+  }
+}
+
+/**
+ * Supprime UNE commande, designee par sa reference exacte.
+ *
+ * Trois verrous, parce qu'une suppression ne se rattrape pas :
+ *   1. il faut le jeton de diagnostic ;
+ *   2. il faut nommer la commande — aucun effacement en masse n'est possible ;
+ *   3. une commande PAYEE est refusee, quoi qu'il arrive. Une vente reelle est
+ *      une piece comptable : elle se conserve dix ans, elle ne s'efface pas.
+ */
+async function supprimerCommandeNonPayee(reference: string) {
+  const url = getDatabaseUrl();
+
+  if (!url) {
+    return { supprimee: false, motif: "aucune base de donnees configuree" };
+  }
+
+  const sql = postgres(url, {
+    max: 1,
+    idle_timeout: 5,
+    connect_timeout: 10,
+    prepare: false,
+  });
+
+  try {
+    const existantes = await sql<{ paiement: string }[]>`
+      SELECT data->>'paymentStatus' AS paiement
+      FROM dropshipping_orders
+      WHERE data->>'orderNumber' = ${reference}
+    `;
+
+    if (existantes.length === 0) {
+      return {
+        supprimee: false,
+        motif: "aucune commande avec cette reference",
+      };
+    }
+
+    if (existantes.some((ligne) => ligne.paiement === "paid")) {
+      return {
+        supprimee: false,
+        motif:
+          "cette commande est PAYEE : suppression refusee (piece comptable a conserver)",
+      };
+    }
+
+    const effacees = await sql<{ n: string }[]>`
+      DELETE FROM dropshipping_orders
+      WHERE data->>'orderNumber' = ${reference}
+        AND data->>'paymentStatus' <> 'paid'
+      RETURNING id
+    `;
+
+    return {
+      supprimee: effacees.length > 0,
+      nombre: effacees.length,
+      motif: effacees.length > 0 ? "" : "rien n'a ete supprime",
+    };
+  } catch (error) {
+    return {
+      supprimee: false,
+      motif:
+        error instanceof Error
+          ? error.message.slice(0, 200)
+          : "erreur inconnue",
+    };
+  } finally {
+    await sql.end({ timeout: 5 }).catch(() => undefined);
+  }
+}
+
+/**
+ * Suppression d'une commande de test.
+ * DELETE /api/diagnostic?token=<jeton>&commande=<reference>
+ */
+export async function DELETE(request: Request) {
+  const attendu = getDiagToken();
+
+  if (!attendu) {
+    return introuvable();
+  }
+
+  const params = new URL(request.url).searchParams;
+
+  if ((params.get("token") ?? "") !== attendu) {
+    return introuvable();
+  }
+
+  const reference = (params.get("commande") ?? "").trim();
+
+  if (!reference) {
+    return new Response(
+      JSON.stringify({
+        error:
+          "Precise la commande a supprimer : ?commande=<reference>. Aucune suppression en masse n'est possible.",
+      }),
+      {
+        status: 400,
+        headers: {
+          "content-type": "application/json; charset=utf-8",
+          "cache-control": "no-store",
+        },
+      },
+    );
+  }
+
+  const resultat = await supprimerCommandeNonPayee(reference);
+
+  return new Response(JSON.stringify({ reference, ...resultat }, null, 2), {
+    status: resultat.supprimee ? 200 : 409,
+    headers: {
+      "content-type": "application/json; charset=utf-8",
+      "x-robots-tag": "noindex, nofollow",
+      "cache-control": "no-store",
+    },
+  });
+}
+
 export async function GET(request: Request) {
   const attendu = getDiagToken();
 
@@ -291,6 +452,7 @@ export async function GET(request: Request) {
       champsRecommandesManquants: champsRecommandesManquants(),
       pretAPublier: juridiqueManquant.length === 0,
     },
+    dernieresCommandes: await listerCommandes(20).catch(() => []),
     emailsNonPartis: incidents,
     site: {
       url: emails.siteUrl,
