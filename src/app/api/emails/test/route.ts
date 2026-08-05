@@ -12,6 +12,7 @@
 
 import {
   renderCustomerReplyEmail,
+  renderNewOrderAlertEmail,
   renderOrderConfirmationEmail,
   renderShippingEmail,
   escapeHtml,
@@ -22,12 +23,18 @@ import { getEmailSettings, sendEmail } from "@/lib/mailer";
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
-const templateIds = ["confirmation", "expedition", "reponse"] as const;
+const templateIds = [
+  "confirmation",
+  "alerte",
+  "expedition",
+  "reponse",
+] as const;
 
 type TemplateId = (typeof templateIds)[number];
 
 const templateLabels: Record<TemplateId, string> = {
-  confirmation: "Confirmation de commande",
+  confirmation: "Confirmation de commande (au client)",
+  alerte: "Alerte nouvelle commande (à moi)",
   expedition: "Commande expédiée",
   reponse: "Réponse à un message client",
 };
@@ -73,7 +80,11 @@ function sanitizeTemplate(value: unknown): TemplateId {
   return templateIds.find((id) => id === value) ?? "confirmation";
 }
 
-function buildSampleContent(templateId: TemplateId, siteUrl: string, supportEmail: string): EmailContent {
+function buildSampleContent(
+  templateId: TemplateId,
+  siteUrl: string,
+  supportEmail: string,
+): EmailContent {
   if (templateId === "expedition") {
     return renderShippingEmail({
       customerName: "Client Test",
@@ -87,7 +98,46 @@ function buildSampleContent(templateId: TemplateId, siteUrl: string, supportEmai
         city: "Paris",
         country: "France",
       },
-      lines: [{ name: "Article de démonstration (email de test)", quantity: 1 }],
+      lines: [
+        { name: "Article de démonstration (email de test)", quantity: 1 },
+      ],
+      siteUrl,
+      supportEmail,
+    });
+  }
+
+  if (templateId === "alerte") {
+    return renderNewOrderAlertEmail({
+      orderNumber: "MT-DROP-TEST-0001",
+      orderDateIso: new Date().toISOString(),
+      customerName: "Client Test",
+      customerEmail: "client-test@exemple.fr",
+      customerPhone: "06 00 00 00 00",
+      shippingAddress: {
+        name: "Client Test",
+        street: "1 rue de l'Exemple",
+        postalCode: "75001",
+        city: "Paris",
+        country: "FR",
+      },
+      shippingMethodLabel: "Livraison suivie à domicile",
+      lines: [
+        {
+          name: "Article de démonstration (email de test)",
+          quantity: 1,
+          unitPriceCents: 1990,
+          supplierName: "Fournisseur de démonstration",
+          supplierSku: "REF-DEMO-0001",
+          supplierPriceCents: 640,
+        },
+      ],
+      totalPaidCents: 2380,
+      supplierTotalCents: 640,
+      estimatedMarginCents: 1350,
+      stripeSessionId: "cs_test_exemple",
+      warnings: [
+        "Ceci est un email de démonstration : aucune commande réelle n'est concernée.",
+      ],
       siteUrl,
       supportEmail,
     });
@@ -97,7 +147,8 @@ function buildSampleContent(templateId: TemplateId, siteUrl: string, supportEmai
     return renderCustomerReplyEmail({
       customerName: "Client Test",
       productName: "Article de démonstration (email de test)",
-      originalMessage: "Bonjour, ce message est un exemple pour tester l'affichage.",
+      originalMessage:
+        "Bonjour, ce message est un exemple pour tester l'affichage.",
       replyText:
         "Ceci est un email de TEST envoyé depuis la page de vérification de Maxi Trouvaille.\n\nAucun vrai client n'a reçu ce message. Si vous lisez ces lignes, l'envoi d'emails fonctionne.",
       siteUrl,
@@ -248,7 +299,11 @@ export async function POST(request: Request) {
   }
 
   const settings = getEmailSettings();
-  const content = buildSampleContent(templateId, settings.siteUrl, settings.replyTo);
+  const content = buildSampleContent(
+    templateId,
+    settings.siteUrl,
+    settings.replyTo,
+  );
   const result = await sendEmail({
     to,
     subject: `[TEST] ${content.subject}`,

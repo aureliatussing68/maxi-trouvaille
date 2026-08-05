@@ -105,7 +105,9 @@ export function formatEuroCents(cents: number | null | undefined) {
 }
 
 function cleanText(value: unknown, maxLength = 400) {
-  return String(value ?? "").trim().slice(0, maxLength);
+  return String(value ?? "")
+    .trim()
+    .slice(0, maxLength);
 }
 
 function getFirstName(fullName: string | undefined) {
@@ -261,7 +263,9 @@ function renderLinesTable(lines: OrderEmailLine[]) {
           <td style="padding:10px 0;border-bottom:1px solid ${palette.line};font-family:${fontStack};font-size:14px;color:${palette.text};">
             <strong>${escapeHtml(cleanText(line.name, 220) || "Article")}</strong><br />
             <span style="font-size:13px;color:${palette.muted};">Quantité : ${quantity}${
-              unit === null ? "" : ` — ${escapeHtml(formatEuroCents(unit))} l'unité`
+              unit === null
+                ? ""
+                : ` — ${escapeHtml(formatEuroCents(unit))} l'unité`
             }</span>
             ${estimate ? `<br /><span style="font-size:13px;color:${palette.muted};">Livraison estimée : ${escapeHtml(estimate)}</span>` : ""}
           </td>
@@ -320,7 +324,10 @@ function addressToText(
 ) {
   const name = cleanText(address?.name, 160);
   const street = cleanText(address?.street, 250);
-  const cityLine = [cleanText(address?.postalCode, 20), cleanText(address?.city, 120)]
+  const cityLine = [
+    cleanText(address?.postalCode, 20),
+    cleanText(address?.city, 120),
+  ]
     .filter(Boolean)
     .join(" ");
   const country = cleanText(address?.country, 80);
@@ -362,7 +369,8 @@ export function renderOrderConfirmationEmail(
   input: OrderConfirmationEmailInput,
 ): EmailContent {
   const siteUrl = normalizeSiteUrl(input.siteUrl);
-  const supportEmail = cleanText(input.supportEmail, 180) || DEFAULT_SUPPORT_EMAIL;
+  const supportEmail =
+    cleanText(input.supportEmail, 180) || DEFAULT_SUPPORT_EMAIL;
   const firstName = getFirstName(input.customerName);
   const orderNumber = cleanText(input.orderNumber, 60);
   const orderDate = formatFrenchDate(input.orderDateIso);
@@ -374,7 +382,9 @@ export function renderOrderConfirmationEmail(
   const itemsTotal =
     typeof input.itemsTotalCents === "number" ? input.itemsTotalCents : null;
   const shippingPrice =
-    typeof input.shippingPriceCents === "number" ? input.shippingPriceCents : null;
+    typeof input.shippingPriceCents === "number"
+      ? input.shippingPriceCents
+      : null;
   const totalPaid =
     typeof input.totalPaidCents === "number" ? input.totalPaidCents : null;
   const expectedTotal =
@@ -382,7 +392,9 @@ export function renderOrderConfirmationEmail(
       ? null
       : (itemsTotal ?? 0) + (shippingPrice ?? 0);
   const discount =
-    totalPaid !== null && expectedTotal !== null && expectedTotal - totalPaid > 0
+    totalPaid !== null &&
+    expectedTotal !== null &&
+    expectedTotal - totalPaid > 0
       ? expectedTotal - totalPaid
       : 0;
 
@@ -391,14 +403,18 @@ export function renderOrderConfirmationEmail(
     : "Merci ! Votre commande Maxi Trouvaille est confirmée";
 
   const totalsRows = [
-    itemsTotal === null ? "" : renderTotalsRow("Articles", formatEuroCents(itemsTotal)),
+    itemsTotal === null
+      ? ""
+      : renderTotalsRow("Articles", formatEuroCents(itemsTotal)),
     shippingPrice === null
       ? ""
       : renderTotalsRow(
           "Livraison",
           shippingPrice > 0 ? formatEuroCents(shippingPrice) : "Offerte",
         ),
-    discount > 0 ? renderTotalsRow("Remise appliquée", `- ${formatEuroCents(discount)}`) : "",
+    discount > 0
+      ? renderTotalsRow("Remise appliquée", `- ${formatEuroCents(discount)}`)
+      : "",
     totalPaid === null
       ? ""
       : renderTotalsRow("Total payé", formatEuroCents(totalPaid), true),
@@ -408,13 +424,17 @@ export function renderOrderConfirmationEmail(
 
   const bodyHtml = `
     <h1 style="margin:0 0 12px 0;font-size:23px;line-height:1.3;color:${palette.text};">${
-      firstName ? `Merci ${escapeHtml(firstName)} !` : "Merci pour votre commande !"
+      firstName
+        ? `Merci ${escapeHtml(firstName)} !`
+        : "Merci pour votre commande !"
     }</h1>
     <p style="margin:0 0 14px 0;">Votre paiement est bien reçu et votre commande est enregistrée. Nous préparons votre colis.</p>
     ${
       orderNumber || orderDate
         ? `<p style="margin:0 0 16px 0;font-size:14px;color:${palette.muted};">${[
-            orderNumber ? `Commande n° <strong style="color:${palette.text};">${escapeHtml(orderNumber)}</strong>` : "",
+            orderNumber
+              ? `Commande n° <strong style="color:${palette.text};">${escapeHtml(orderNumber)}</strong>`
+              : "",
             orderDate ? `du ${escapeHtml(orderDate)}` : "",
           ]
             .filter(Boolean)
@@ -455,7 +475,10 @@ export function renderOrderConfirmationEmail(
   ];
 
   if (orderNumber) {
-    textParts.push("", `Commande n° ${orderNumber}${orderDate ? ` du ${orderDate}` : ""}`);
+    textParts.push(
+      "",
+      `Commande n° ${orderNumber}${orderDate ? ` du ${orderDate}` : ""}`,
+    );
   }
 
   if (lines.length) {
@@ -514,7 +537,8 @@ export function renderOrderConfirmationEmail(
 
 export function renderShippingEmail(input: ShippingEmailInput): EmailContent {
   const siteUrl = normalizeSiteUrl(input.siteUrl);
-  const supportEmail = cleanText(input.supportEmail, 180) || DEFAULT_SUPPORT_EMAIL;
+  const supportEmail =
+    cleanText(input.supportEmail, 180) || DEFAULT_SUPPORT_EMAIL;
   const firstName = getFirstName(input.customerName);
   const orderNumber = cleanText(input.orderNumber, 60);
   const trackingNumber = cleanText(input.trackingNumber, 80);
@@ -529,7 +553,9 @@ export function renderShippingEmail(input: ShippingEmailInput): EmailContent {
 
   const bodyHtml = `
     <h1 style="margin:0 0 12px 0;font-size:23px;line-height:1.3;color:${palette.text};">${
-      firstName ? `Bonne nouvelle ${escapeHtml(firstName)} !` : "Bonne nouvelle !"
+      firstName
+        ? `Bonne nouvelle ${escapeHtml(firstName)} !`
+        : "Bonne nouvelle !"
     }</h1>
     <p style="margin:0 0 14px 0;">Votre colis vient de partir${orderNumber ? ` (commande n° <strong>${escapeHtml(orderNumber)}</strong>)` : ""}.</p>
     ${
@@ -549,7 +575,11 @@ export function renderShippingEmail(input: ShippingEmailInput): EmailContent {
     ${
       lines.length
         ? `<h2 style="margin:22px 0 4px 0;font-size:16px;color:${palette.text};">Dans ce colis</h2>${renderLinesTable(
-            lines.map((line) => ({ ...line, unitPriceCents: undefined, totalPriceCents: undefined })),
+            lines.map((line) => ({
+              ...line,
+              unitPriceCents: undefined,
+              totalPriceCents: undefined,
+            })),
           )}`
         : ""
     }
@@ -569,13 +599,26 @@ export function renderShippingEmail(input: ShippingEmailInput): EmailContent {
       textParts.push(methodLabel);
     }
   } else {
-    textParts.push("", "Le numéro de suivi vous sera communiqué dès qu'il est disponible.");
+    textParts.push(
+      "",
+      "Le numéro de suivi vous sera communiqué dès qu'il est disponible.",
+    );
   }
 
   textParts.push("", `Suivi : ${trackingUrl}`);
 
   if (lines.length) {
-    textParts.push("", "Dans ce colis :", linesToText(lines.map((line) => ({ ...line, unitPriceCents: undefined, totalPriceCents: undefined }))));
+    textParts.push(
+      "",
+      "Dans ce colis :",
+      linesToText(
+        lines.map((line) => ({
+          ...line,
+          unitPriceCents: undefined,
+          totalPriceCents: undefined,
+        })),
+      ),
+    );
   }
 
   const addressText = addressToText(input.shippingAddress, methodLabel);
@@ -609,7 +652,8 @@ export function renderCustomerReplyEmail(
   input: CustomerReplyEmailInput,
 ): EmailContent {
   const siteUrl = normalizeSiteUrl(input.siteUrl);
-  const supportEmail = cleanText(input.supportEmail, 180) || DEFAULT_SUPPORT_EMAIL;
+  const supportEmail =
+    cleanText(input.supportEmail, 180) || DEFAULT_SUPPORT_EMAIL;
   const firstName = getFirstName(input.customerName);
   const productName = cleanText(input.productName, 220);
   const productUrl = safeUrl(input.productUrl);
@@ -670,6 +714,309 @@ export function renderCustomerReplyEmail(
     html: renderShell({
       title: subject,
       preheader: "Voici la réponse de Maxi Trouvaille à votre message.",
+      bodyHtml,
+      siteUrl,
+      supportEmail,
+    }),
+    text: textParts.join("\n"),
+  };
+}
+
+/* -------------------------------------------------------------------------
+ * Email interne : une commande vient d'etre payee.
+ *
+ * Destinataire : le commercant, PAS le client. C'est un bon de travail, pas
+ * un email commercial. Il contient donc volontairement ce qu'un email client
+ * ne doit jamais contenir : reference fournisseur, prix d'achat, marge.
+ *
+ * Regle de conception : l'adresse doit pouvoir etre copiee-collee d'un bloc
+ * dans le formulaire du fournisseur, sans retaper un seul caractere. C'est
+ * la raison d'etre de cet email.
+ * ---------------------------------------------------------------------- */
+
+export type NewOrderAlertLine = OrderEmailLine & {
+  supplierName?: string;
+  supplierSku?: string;
+  supplierUrl?: string;
+  supplierPriceCents?: number;
+};
+
+export type NewOrderAlertEmailInput = {
+  orderNumber?: string;
+  orderDateIso?: string;
+  customerName?: string;
+  customerEmail?: string;
+  customerPhone?: string;
+  shippingAddress?: OrderEmailAddress;
+  shippingMethodLabel?: string;
+  lines?: NewOrderAlertLine[];
+  totalPaidCents?: number | null;
+  supplierTotalCents?: number | null;
+  estimatedMarginCents?: number | null;
+  stripeSessionId?: string;
+  /** Anomalies detectees sur la commande (adresse incomplete, stock, ...). */
+  warnings?: string[];
+  siteUrl?: string;
+  supportEmail?: string;
+};
+
+/**
+ * Construit le bloc adresse pret a copier-coller.
+ * Une ligne par champ, aucun libelle parasite : ce qui sort d'ici doit
+ * pouvoir etre colle tel quel.
+ */
+function addressToCopyBlock(
+  address: OrderEmailAddress | undefined,
+  customerName: string,
+  phone: string,
+) {
+  const lignes = [
+    cleanText(address?.name, 160) || customerName,
+    cleanText(address?.street, 250),
+    [cleanText(address?.postalCode, 20), cleanText(address?.city, 120)]
+      .filter(Boolean)
+      .join(" "),
+    cleanText(address?.country, 80),
+    phone,
+  ].filter(Boolean);
+
+  return lignes.join("\n");
+}
+
+function renderSupplierLinesTable(lines: NewOrderAlertLine[]) {
+  if (lines.length === 0) {
+    return "";
+  }
+
+  const rows = lines
+    .map((line) => {
+      const nom = cleanText(line.name, 220) || "Article";
+      const quantite = Math.max(1, Math.trunc(Number(line.quantity) || 1));
+      const sku = cleanText(line.supplierSku, 120);
+      const fournisseur = cleanText(line.supplierName, 120);
+      const url = safeUrl(line.supplierUrl);
+      const achat =
+        typeof line.supplierPriceCents === "number"
+          ? formatEuroCents(line.supplierPriceCents * quantite)
+          : "";
+
+      const details = [
+        fournisseur ? `Fournisseur : ${escapeHtml(fournisseur)}` : "",
+        sku ? `Référence : <strong>${escapeHtml(sku)}</strong>` : "",
+        url
+          ? `<a href="${escapeHtml(url)}" style="color:${palette.teal};">ouvrir la fiche fournisseur</a>`
+          : "",
+      ]
+        .filter(Boolean)
+        .join(" &middot; ");
+
+      return `
+      <tr>
+        <td style="padding:10px 0;border-bottom:1px solid ${palette.line};font-family:${fontStack};font-size:14px;line-height:1.5;color:${palette.text};">
+          <strong>${escapeHtml(nom)}</strong> &times;${quantite}
+          ${details ? `<div style="padding-top:4px;font-size:12px;color:${palette.muted};">${details}</div>` : ""}
+        </td>
+        <td align="right" style="padding:10px 0;border-bottom:1px solid ${palette.line};font-family:${fontStack};font-size:14px;color:${palette.muted};white-space:nowrap;vertical-align:top;">${escapeHtml(achat)}</td>
+      </tr>`;
+    })
+    .join("");
+
+  return `
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;margin:8px 0 4px 0;">
+      <tr>
+        <td style="padding:0 0 6px 0;font-family:${fontStack};font-size:12px;text-transform:uppercase;letter-spacing:0.4px;color:${palette.muted};">À commander chez le fournisseur</td>
+        <td align="right" style="padding:0 0 6px 0;font-family:${fontStack};font-size:12px;text-transform:uppercase;letter-spacing:0.4px;color:${palette.muted};">Coût d'achat</td>
+      </tr>
+      ${rows}
+    </table>`;
+}
+
+export function renderNewOrderAlertEmail(
+  input: NewOrderAlertEmailInput,
+): EmailContent {
+  const siteUrl = normalizeSiteUrl(input.siteUrl);
+  const supportEmail =
+    cleanText(input.supportEmail, 180) || DEFAULT_SUPPORT_EMAIL;
+  const orderNumber = cleanText(input.orderNumber, 60);
+  const orderDate = formatFrenchDate(input.orderDateIso);
+  const customerName = cleanText(input.customerName, 160);
+  const customerEmail = cleanText(input.customerEmail, 180);
+  const customerPhone = cleanText(input.customerPhone, 40);
+  const methodLabel = cleanText(input.shippingMethodLabel, 120);
+  const lines = Array.isArray(input.lines) ? input.lines.slice(0, 40) : [];
+  const sessionId = cleanText(input.stripeSessionId, 120);
+  const warnings = (Array.isArray(input.warnings) ? input.warnings : [])
+    .map((value) => cleanText(value, 220))
+    .filter(Boolean)
+    .slice(0, 6);
+
+  const totalPaid =
+    typeof input.totalPaidCents === "number" ? input.totalPaidCents : null;
+  const supplierTotal =
+    typeof input.supplierTotalCents === "number"
+      ? input.supplierTotalCents
+      : null;
+  const margin =
+    typeof input.estimatedMarginCents === "number"
+      ? input.estimatedMarginCents
+      : totalPaid !== null && supplierTotal !== null
+        ? totalPaid - supplierTotal
+        : null;
+
+  const montant = totalPaid === null ? "" : formatEuroCents(totalPaid);
+
+  const subject = [
+    "Commande payée",
+    orderNumber ? `n° ${orderNumber}` : "",
+    montant ? `— ${montant}` : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
+
+  const copyBlock = addressToCopyBlock(
+    input.shippingAddress,
+    customerName,
+    customerPhone,
+  );
+
+  const totalsRows = [
+    totalPaid === null
+      ? ""
+      : renderTotalsRow("Encaissé (client)", formatEuroCents(totalPaid), true),
+    supplierTotal === null
+      ? ""
+      : renderTotalsRow(
+          "Coût fournisseur estimé",
+          formatEuroCents(supplierTotal),
+        ),
+    margin === null
+      ? ""
+      : renderTotalsRow("Marge estimée", formatEuroCents(margin)),
+  ]
+    .filter(Boolean)
+    .join("");
+
+  const warningsHtml =
+    warnings.length === 0
+      ? ""
+      : `
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;margin:18px 0 4px 0;background:#fff7ed;border:1px solid #fdba74;border-radius:10px;">
+      <tr>
+        <td style="padding:14px 16px;font-family:${fontStack};font-size:14px;line-height:1.6;color:${palette.text};">
+          <strong style="font-size:13px;text-transform:uppercase;letter-spacing:0.4px;color:#9a3412;">À vérifier avant de commander</strong>
+          <ul style="margin:8px 0 0 0;padding-left:18px;">
+            ${warnings.map((value) => `<li>${escapeHtml(value)}</li>`).join("")}
+          </ul>
+        </td>
+      </tr>
+    </table>`;
+
+  const bodyHtml = `
+    <h1 style="margin:0 0 6px 0;font-size:21px;line-height:1.3;color:${palette.text};">Commande payée${orderNumber ? ` — ${escapeHtml(orderNumber)}` : ""}</h1>
+    <p style="margin:0 0 18px 0;color:${palette.muted};font-size:14px;">${[orderDate, montant ? `${montant} encaissés` : ""].filter(Boolean).join(" &middot; ")}</p>
+    ${warningsHtml}
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;margin:18px 0 4px 0;background:${palette.softTeal};border:1px solid ${palette.teal};border-radius:10px;">
+      <tr>
+        <td style="padding:14px 16px;font-family:${fontStack};font-size:15px;line-height:1.7;color:${palette.text};">
+          <strong style="font-size:13px;text-transform:uppercase;letter-spacing:0.4px;color:${palette.teal};">Adresse de livraison — à copier telle quelle</strong>
+          <div style="padding-top:8px;font-family:Consolas, Menlo, monospace;font-size:14px;white-space:pre-line;">${escapeHtml(copyBlock || "adresse absente")}</div>
+          ${methodLabel ? `<div style="padding-top:8px;font-size:13px;color:${palette.muted};">Mode choisi : ${escapeHtml(methodLabel)}</div>` : ""}
+        </td>
+      </tr>
+    </table>
+    ${renderSupplierLinesTable(lines)}
+    ${totalsRows ? `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;margin:12px 0 4px 0;border-top:1px solid ${palette.line};">${totalsRows}</table>` : ""}
+    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;margin:18px 0 4px 0;background:${palette.background};border:1px solid ${palette.line};border-radius:10px;">
+      <tr>
+        <td style="padding:14px 16px;font-family:${fontStack};font-size:14px;line-height:1.6;color:${palette.text};">
+          <strong style="font-size:13px;text-transform:uppercase;letter-spacing:0.4px;color:${palette.muted};">Client</strong><br />
+          ${[customerName, customerEmail, customerPhone]
+            .filter(Boolean)
+            .map((value) => escapeHtml(value))
+            .join("<br />")}
+          ${sessionId ? `<div style="padding-top:8px;font-size:12px;color:${palette.muted};">Session Stripe : ${escapeHtml(sessionId)}</div>` : ""}
+        </td>
+      </tr>
+    </table>
+    ${renderButton("Voir le paiement dans Stripe", "https://dashboard.stripe.com/payments")}`;
+
+  const textParts = [
+    `COMMANDE PAYÉE${orderNumber ? ` — ${orderNumber}` : ""}`,
+    [orderDate, montant ? `${montant} encaissés` : ""]
+      .filter(Boolean)
+      .join(" | "),
+  ];
+
+  if (warnings.length > 0) {
+    textParts.push("", "À VÉRIFIER AVANT DE COMMANDER :");
+    warnings.forEach((value) => textParts.push(`- ${value}`));
+  }
+
+  textParts.push("", "ADRESSE DE LIVRAISON (à copier telle quelle) :", "");
+  textParts.push(copyBlock || "adresse absente");
+
+  if (methodLabel) {
+    textParts.push("", `Mode choisi : ${methodLabel}`);
+  }
+
+  if (lines.length > 0) {
+    textParts.push("", "À COMMANDER CHEZ LE FOURNISSEUR :");
+
+    lines.forEach((line) => {
+      const quantite = Math.max(1, Math.trunc(Number(line.quantity) || 1));
+      const sku = cleanText(line.supplierSku, 120);
+      const url = safeUrl(line.supplierUrl);
+      const achat =
+        typeof line.supplierPriceCents === "number"
+          ? ` — achat ${formatEuroCents(line.supplierPriceCents * quantite)}`
+          : "";
+
+      textParts.push(
+        `- ${cleanText(line.name, 220) || "Article"} x${quantite}${sku ? ` (réf. ${sku})` : ""}${achat}`,
+      );
+
+      if (url) {
+        textParts.push(`  ${url}`);
+      }
+    });
+  }
+
+  textParts.push("");
+
+  if (totalPaid !== null) {
+    textParts.push(`Encaissé : ${formatEuroCents(totalPaid)}`);
+  }
+
+  if (supplierTotal !== null) {
+    textParts.push(
+      `Coût fournisseur estimé : ${formatEuroCents(supplierTotal)}`,
+    );
+  }
+
+  if (margin !== null) {
+    textParts.push(`Marge estimée : ${formatEuroCents(margin)}`);
+  }
+
+  textParts.push(
+    "",
+    "CLIENT :",
+    ...[customerName, customerEmail, customerPhone].filter(Boolean),
+  );
+
+  if (sessionId) {
+    textParts.push(`Session Stripe : ${sessionId}`);
+  }
+
+  textParts.push(
+    "",
+    "Paiements Stripe : https://dashboard.stripe.com/payments",
+  );
+
+  return {
+    subject,
+    html: renderShell({
+      title: subject,
+      preheader: `Adresse et références fournisseur prêtes${montant ? ` — ${montant}` : ""}.`,
       bodyHtml,
       siteUrl,
       supportEmail,

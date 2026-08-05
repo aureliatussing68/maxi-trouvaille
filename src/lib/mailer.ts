@@ -37,6 +37,8 @@ export type EmailSettings = {
   from: string;
   replyTo: string;
   siteUrl: string;
+  /** Adresse interne prevenue a chaque commande payee. Vide = pas d'alerte. */
+  notificationTo: string;
   enabled: boolean;
   disabledBySwitch: boolean;
   hasCustomFrom: boolean;
@@ -77,7 +79,11 @@ export function getEmailSettings(): EmailSettings {
     // onboarding@resend.dev permet d'envoyer vers sa propre adresse.
     from: customFrom || "Maxi Trouvaille <onboarding@resend.dev>",
     replyTo: readEnvValue("EMAIL_REPLY_TO") || "contact@maxitrouvaille.fr",
-    siteUrl: readEnvValue("NEXT_PUBLIC_SITE_URL") || "https://maxitrouvaille.fr",
+    siteUrl:
+      readEnvValue("NEXT_PUBLIC_SITE_URL") || "https://maxitrouvaille.fr",
+    // Volontairement SANS valeur de repli : si la variable n'est pas posee,
+    // mieux vaut aucune alerte qu'une alerte envoyee a une adresse devinee.
+    notificationTo: readEnvValue("MAXI_ORDER_NOTIFICATION_EMAIL"),
     enabled: Boolean(apiKey) && !disabledBySwitch,
     disabledBySwitch,
     hasCustomFrom: Boolean(customFrom),
@@ -102,7 +108,9 @@ function normalizeRecipients(to: EmailRecipient) {
  * Sans cle configuree, renvoie { ok: true, sent: false } et se contente
  * d'une trace dans les logs serveur.
  */
-export async function sendEmail(input: SendEmailInput): Promise<SendEmailResult> {
+export async function sendEmail(
+  input: SendEmailInput,
+): Promise<SendEmailResult> {
   const settings = getEmailSettings();
 
   if (!settings.enabled) {
@@ -141,8 +149,11 @@ export async function sendEmail(input: SendEmailInput): Promise<SendEmailResult>
 
     if (!response.ok) {
       const detail = (await response.text().catch(() => "")).slice(0, 300);
-      console.warn(
-        `[mailer] refus du service d'envoi (${response.status}) : ${detail}`,
+      // Niveau ERREUR et non avertissement : un refus du service d'envoi
+      // signifie qu'un client n'a rien recu. Le cas le plus frequent est un
+      // HTTP 403 quand EMAIL_FROM n'utilise pas un domaine verifie.
+      console.error(
+        `[mailer] REFUS du service d'envoi (${response.status}) — expediteur="${input.from?.trim() || settings.from}" sujet="${input.subject}" : ${detail}`,
       );
       return {
         ok: false,
@@ -152,16 +163,16 @@ export async function sendEmail(input: SendEmailInput): Promise<SendEmailResult>
       };
     }
 
-    const payload = (await response.json().catch(() => null)) as
-      | { id?: unknown }
-      | null;
+    const payload = (await response.json().catch(() => null)) as {
+      id?: unknown;
+    } | null;
     const id = typeof payload?.id === "string" ? payload.id : null;
 
     return { ok: true, sent: true, provider: "resend", id };
   } catch (error) {
     const detail =
       error instanceof Error ? error.message.slice(0, 300) : "erreur inconnue";
-    console.warn(`[mailer] envoi impossible : ${detail}`);
+    console.error(`[mailer] envoi IMPOSSIBLE (reseau) : ${detail}`);
     return { ok: false, sent: false, reason: "erreur_reseau", detail };
   }
 }

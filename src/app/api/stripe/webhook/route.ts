@@ -2,7 +2,11 @@ import { NextResponse } from "next/server";
 import Stripe from "stripe";
 import { markDropshippingOrderPaid } from "@/lib/dropshipping-server";
 import type { DropshippingOrder } from "@/lib/dropshipping-shared";
-import { sendCheckoutConfirmationEmail } from "@/lib/order-emails";
+import { recordEmailFailureIfReal } from "@/lib/email-incidents";
+import {
+  sendCheckoutConfirmationEmail,
+  sendNewOrderAlertEmail,
+} from "@/lib/order-emails";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -45,36 +49,82 @@ export async function POST(request: Request) {
   if (event.type === "checkout.session.completed") {
     const session = event.data.object as Stripe.Checkout.Session;
     let paidOrder: DropshippingOrder | null = null;
+    let storageFailed = false;
 
     if (session.id && session.metadata?.hasDropshippingItems === "true") {
       try {
         paidOrder = await markDropshippingOrderPaid(session.id);
       } catch {
-        return NextResponse.json(
-          {
-            error:
-              "Paiement confirme, mais traitement stock local a relancer.",
-          },
-          { status: 500 },
-        );
+        // On NE sort PAS ici. Auparavant, un echec d'enregistrement renvoyait
+        // un 500 immediat : la commande n'etait ni stockee NI signalee par
+        // email, et le commercant n'apprenait rien. Or c'est exactement le
+        // moment ou il a le plus besoin d'etre prevenu. On note l'echec, on
+        // envoie les emails, et on renvoie le 500 a la toute fin pour que
+        // Stripe reessaie l'enregistrement.
+        storageFailed = true;
       }
     }
 
-    // Email de confirmation client : totalement isole du traitement
-    // paiement/stock ci-dessus. Un echec d'email ne doit jamais changer le
-    // code HTTP renvoye a Stripe, sinon Stripe rejoue l'evenement en boucle
-    // et la commande est retraitee. Sans cle d'envoi configuree, l'appel ne
-    // fait strictement rien.
+    // Emails : totalement isoles du traitement paiement/stock ci-dessus.
+    // Un echec d'email ne doit jamais changer le code HTTP renvoye a Stripe,
+    // sinon Stripe rejoue l'evenement en boucle et la commande est retraitee.
+    // Sans cle d'envoi configuree, ces appels ne font strictement rien.
     if (session.id) {
+      // Chaque envoi est isole ET trace. Le `catch` ne renvoie plus au
+      // silence : un echec laisse une trace durable (table email_incidents)
+      // et une ligne de niveau ERREUR dans les journaux d'execution.
+      // Sans cette trace, un client pouvait payer, ne rien recevoir, et
+      // personne ne l'apprenait jamais.
       try {
-        await sendCheckoutConfirmationEmail({
+        const confirmation = await sendCheckoutConfirmationEmail({
           session,
           order: paidOrder,
           stripe,
         });
-      } catch {
-        // Silence volontaire : le paiement reste valide.
+
+        await recordEmailFailureIfReal({
+          kind: "confirmation-client",
+          reason: confirmation.sent ? "" : confirmation.reason,
+          recipient: session.customer_details?.email ?? "",
+          orderReference: paidOrder?.orderNumber ?? session.id,
+        });
+      } catch (error) {
+        console.error(
+          "[webhook] email de confirmation client impossible :",
+          error,
+        );
       }
+
+      // Alerte interne, envoyee separement : si l'email client echoue, le
+      // commercant doit quand meme recevoir l'adresse de livraison.
+      try {
+        const alerte = await sendNewOrderAlertEmail({
+          session,
+          order: paidOrder,
+          stripe,
+        });
+
+        await recordEmailFailureIfReal({
+          kind: "alerte-commercant",
+          reason: alerte.sent ? "" : alerte.reason,
+          orderReference: paidOrder?.orderNumber ?? session.id,
+        });
+      } catch (error) {
+        console.error("[webhook] alerte commercant impossible :", error);
+      }
+    }
+
+    if (storageFailed) {
+      console.error(
+        `[webhook] enregistrement de la commande IMPOSSIBLE pour la session ${session.id} — paiement encaisse, fiche non ecrite. Stripe va reessayer.`,
+      );
+    }
+
+    if (storageFailed) {
+      return NextResponse.json(
+        { error: "Paiement confirme, mais traitement stock local a relancer." },
+        { status: 500 },
+      );
     }
   }
 

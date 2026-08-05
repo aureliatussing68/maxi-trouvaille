@@ -27,7 +27,9 @@ export async function PATCH(request: Request, context: RouteContext) {
   };
 
   const order = await updateDropshippingOrder(orderId, {
-    status: payload.status ? sanitizeDropshippingStatus(payload.status) : undefined,
+    status: payload.status
+      ? sanitizeDropshippingStatus(payload.status)
+      : undefined,
     trackingNumber:
       typeof payload.trackingNumber === "string"
         ? payload.trackingNumber.trim()
@@ -46,18 +48,30 @@ export async function PATCH(request: Request, context: RouteContext) {
   });
 
   if (!order) {
-    return NextResponse.json({ error: "Commande introuvable." }, { status: 404 });
+    return NextResponse.json(
+      { error: "Commande introuvable." },
+      { status: 404 },
+    );
   }
 
   // Email d'expedition : un seul envoi par commande (marqueur
   // shippingEmailSentAt), uniquement si la commande est payee et passee en
   // "expedie". Isole dans son try/catch : un email rate ne doit jamais
   // annuler la mise a jour de la commande. Inerte sans cle d'envoi.
+  // Le resultat de l'envoi est desormais RECUPERE et RENVOYE. Auparavant il
+  // etait jete : l'email d'expedition pouvait echouer sans laisser la moindre
+  // trace applicative, et l'ecran d'administration affichait un succes.
+  let emailExpedition: { sent: boolean; reason: string } = {
+    sent: false,
+    reason: "non_tente",
+  };
+
   try {
-    await sendDropshippingShippingEmail(order);
-  } catch {
-    // Silence volontaire : la commande est deja enregistree.
+    emailExpedition = await sendDropshippingShippingEmail(order);
+  } catch (error) {
+    console.error("[admin] email d'expedition impossible :", error);
+    emailExpedition = { sent: false, reason: "erreur_interne" };
   }
 
-  return NextResponse.json({ order });
+  return NextResponse.json({ order, emailExpedition });
 }

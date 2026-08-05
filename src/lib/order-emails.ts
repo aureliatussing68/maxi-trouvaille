@@ -18,11 +18,22 @@ import type { DropshippingOrder } from "@/lib/dropshipping-shared";
 import {
   PUBLIC_DELIVERY_ESTIMATE,
   renderCustomerReplyEmail,
+  renderNewOrderAlertEmail,
   renderOrderConfirmationEmail,
   renderShippingEmail,
+  type NewOrderAlertLine,
   type OrderEmailLine,
 } from "@/lib/email-templates";
-import { getEmailSettings, isEmailSendingEnabled, sendEmail } from "@/lib/mailer";
+import {
+  recordEmailFailureIfReal,
+  type EmailIncidentKind,
+} from "@/lib/email-incidents";
+import {
+  getEmailSettings,
+  isEmailSendingEnabled,
+  sendEmail,
+  type SendEmailInput,
+} from "@/lib/mailer";
 import { getShippingMethodById } from "@/lib/shipping";
 
 export type EmailDispatchResult = {
@@ -34,8 +45,45 @@ function skipped(reason: string): EmailDispatchResult {
   return { sent: false, reason };
 }
 
+/**
+ * Envoie un email ET laisse une trace quand il ne part pas.
+ *
+ * C'est le point de passage unique de tous les envois de ce fichier. Avant
+ * lui, un refus du fournisseur d'envoi (par exemple un HTTP 403 parce que
+ * EMAIL_FROM n'etait pas configuree) se transformait en un simple statut
+ * "ignore" que personne ne lisait : le client ne recevait rien et rien ne le
+ * signalait.
+ *
+ * Les non-envois volontaires (emails desactives, email deja envoye, pas de
+ * destinataire attendu) ne sont PAS des incidents : le tri est fait par
+ * `recordEmailFailureIfReal`.
+ *
+ * Ne jette jamais : tracer un echec ne doit pas creer un second echec.
+ */
+async function sendEmailTraced(
+  kind: EmailIncidentKind,
+  input: SendEmailInput,
+  orderReference = "",
+) {
+  const result = await sendEmail(input);
+
+  if (!result.sent) {
+    await recordEmailFailureIfReal({
+      kind,
+      reason: result.reason,
+      recipient: Array.isArray(input.to) ? input.to.join(", ") : input.to,
+      detail: "detail" in result ? result.detail : undefined,
+      orderReference,
+    }).catch(() => undefined);
+  }
+
+  return result;
+}
+
 function cleanValue(value: unknown, maxLength = 250) {
-  return String(value ?? "").trim().slice(0, maxLength);
+  return String(value ?? "")
+    .trim()
+    .slice(0, maxLength);
 }
 
 function toCents(value: unknown) {
@@ -114,23 +162,33 @@ export async function sendDropshippingOrderConfirmationEmail(
         city: order.shippingAddress?.city,
         country: order.shippingAddress?.country,
       },
-      deliveryEstimate: getCommonDeliveryEstimate(lines) || PUBLIC_DELIVERY_ESTIMATE,
+      deliveryEstimate:
+        getCommonDeliveryEstimate(lines) || PUBLIC_DELIVERY_ESTIMATE,
       siteUrl: settings.siteUrl,
       supportEmail: settings.replyTo,
     });
 
-    const result = await sendEmail({ to, ...content });
+    const result = await sendEmailTraced(
+      "confirmation-client",
+      { to, ...content },
+      order.orderNumber,
+    );
 
     if (!result.sent) {
       return skipped(result.reason);
     }
 
-    await markDropshippingOrderEmailSent(order.id, "confirmationEmailSentAt").catch(
-      () => null,
-    );
+    await markDropshippingOrderEmailSent(
+      order.id,
+      "confirmationEmailSentAt",
+    ).catch(() => null);
 
     return { sent: true, reason: "confirmation_envoyee" };
-  } catch {
+  } catch (error) {
+    // Le silence reste volontaire vis-a-vis de l'appelant (un email rate ne
+    // doit jamais annuler un paiement), mais il n'est plus invisible : la
+    // trace part en niveau ERREUR dans les journaux d'execution.
+    console.error("[order-emails] erreur interne pendant un envoi :", error);
     return skipped("erreur_interne");
   }
 }
@@ -154,7 +212,9 @@ async function buildFallbackFromSession(
 ): Promise<StripeFallbackOrder | null> {
   const metadata = session.metadata ?? {};
   const to = cleanValue(
-    session.customer_email || metadata.shippingEmail || session.customer_details?.email,
+    session.customer_email ||
+      metadata.shippingEmail ||
+      session.customer_details?.email,
     180,
   );
 
@@ -202,7 +262,8 @@ async function buildFallbackFromSession(
     ),
     lines,
     itemsTotalCents: lines.length > 0 ? itemsTotalCents : null,
-    shippingPriceCents: shippingFromLineItems ?? toCents(metadata.shippingPriceCents),
+    shippingPriceCents:
+      shippingFromLineItems ?? toCents(metadata.shippingPriceCents),
     totalPaidCents: toCents(session.amount_total),
     shippingMethodLabel: method?.label ?? "",
     street: cleanValue(metadata.shippingStreet, 250),
@@ -263,12 +324,188 @@ export async function sendCheckoutConfirmationEmail({
       supportEmail: settings.replyTo,
     });
 
-    const result = await sendEmail({ to: fallback.to, ...content });
+    const result = await sendEmailTraced(
+      "confirmation-client",
+      { to: fallback.to, ...content },
+      cleanValue(session.id, 120),
+    );
 
     return result.sent
       ? { sent: true, reason: "confirmation_envoyee" }
       : skipped(result.reason);
-  } catch {
+  } catch (error) {
+    // Le silence reste volontaire vis-a-vis de l'appelant (un email rate ne
+    // doit jamais annuler un paiement), mais il n'est plus invisible : la
+    // trace part en niveau ERREUR dans les journaux d'execution.
+    console.error("[order-emails] erreur interne pendant un envoi :", error);
+    return skipped("erreur_interne");
+  }
+}
+
+/**
+ * Alerte interne : une commande vient d'etre payee.
+ *
+ * Destinataire : la variable MAXI_ORDER_NOTIFICATION_EMAIL. Si elle n'est pas
+ * posee, la fonction ne fait rien et ne plante pas — comme tout le reste du
+ * module.
+ *
+ * Cet email est le filet de securite du commercant : meme sans base de
+ * donnees branchee, meme si la fiche de commande ne s'est pas enregistree,
+ * l'adresse de livraison et les references fournisseur arrivent dans sa boite.
+ * C'est pour cette raison qu'il est envoye SEPAREMENT de l'email client, et
+ * qu'un echec de l'un ne doit jamais empecher l'autre.
+ */
+export async function sendNewOrderAlertEmail({
+  session,
+  order,
+  stripe,
+}: {
+  session: Stripe.Checkout.Session;
+  order: DropshippingOrder | null;
+  stripe: Stripe;
+}): Promise<EmailDispatchResult> {
+  try {
+    if (!isEmailSendingEnabled()) {
+      return skipped("emails_inactifs");
+    }
+
+    const settings = getEmailSettings();
+    const to = settings.notificationTo;
+
+    if (!to) {
+      return skipped("adresse_notification_absente");
+    }
+
+    const metadata = session.metadata ?? {};
+    const warnings: string[] = [];
+
+    const shippingAddress = order
+      ? {
+          name: cleanValue(order.customer?.name, 160),
+          street: cleanValue(order.shippingAddress?.street, 250),
+          postalCode: cleanValue(order.shippingAddress?.postalCode, 20),
+          city: cleanValue(order.shippingAddress?.city, 120),
+          country: cleanValue(order.shippingAddress?.country, 80),
+        }
+      : {
+          name: cleanValue(
+            metadata.shippingName || session.customer_details?.name,
+            160,
+          ),
+          street: cleanValue(metadata.shippingStreet, 250),
+          postalCode: cleanValue(metadata.shippingPostalCode, 20),
+          city: cleanValue(metadata.shippingCity, 120),
+          country: cleanValue(metadata.shippingCountry, 80),
+        };
+
+    const customerEmail = order
+      ? cleanValue(order.customer?.email, 180)
+      : cleanValue(
+          metadata.shippingEmail || session.customer_details?.email,
+          180,
+        );
+    const customerPhone = order
+      ? cleanValue(order.customer?.phone, 40)
+      : cleanValue(metadata.shippingPhone, 40);
+
+    let alertLines: NewOrderAlertLine[] = [];
+    let totalPaidCents = toCents(session.amount_total);
+    let supplierTotalCents: number | null = null;
+    let estimatedMarginCents: number | null = null;
+    let methodLabel = "";
+    let orderNumber = "";
+    let orderDateIso = new Date().toISOString();
+
+    if (order) {
+      orderNumber = cleanValue(order.orderNumber, 60);
+      orderDateIso = order.createdAt || orderDateIso;
+      methodLabel = cleanValue(order.shippingAddress?.methodLabel, 120);
+      supplierTotalCents = toCents(order.supplierTotalCents);
+      estimatedMarginCents = toCents(order.estimatedMarginCents);
+      alertLines = order.lines.map((line) => ({
+        name: line.productName,
+        quantity: line.quantity,
+        unitPriceCents: line.soldPriceCents,
+        supplierName: line.supplierName,
+        supplierSku: line.supplierSku,
+        supplierUrl: line.supplierUrl,
+        supplierPriceCents: line.supplierPriceCents,
+      }));
+
+      if (order.stockDecrementStatus === "failed") {
+        warnings.push(
+          "Le decompte de stock a echoue cote site : verifier le stock restant avant de commander.",
+        );
+      }
+    } else {
+      warnings.push(
+        "Aucune fiche de commande n'a ete enregistree cote site (base de donnees absente ou en echec) : cet email est la seule trace exploitable.",
+      );
+
+      const fallback = await buildFallbackFromSession(session, stripe);
+
+      if (fallback) {
+        methodLabel = fallback.shippingMethodLabel;
+        totalPaidCents = fallback.totalPaidCents;
+        alertLines = fallback.lines.map((line) => ({ ...line }));
+      }
+    }
+
+    if (!shippingAddress.street) {
+      warnings.push(
+        "Rue de livraison vide : la reclamer au client avant toute expedition.",
+      );
+    }
+
+    if (!shippingAddress.country) {
+      warnings.push(
+        "Pays de livraison absent : un formulaire fournisseur le refusera.",
+      );
+    }
+
+    if (!customerPhone) {
+      warnings.push(
+        "Telephone absent : certains transporteurs le rendent obligatoire.",
+      );
+    }
+
+    const content = renderNewOrderAlertEmail({
+      orderNumber,
+      orderDateIso,
+      customerName: shippingAddress.name,
+      customerEmail,
+      customerPhone,
+      shippingAddress,
+      shippingMethodLabel: methodLabel,
+      lines: alertLines,
+      totalPaidCents,
+      supplierTotalCents,
+      estimatedMarginCents,
+      stripeSessionId: cleanValue(session.id, 120),
+      warnings,
+      siteUrl: settings.siteUrl,
+      supportEmail: settings.replyTo,
+    });
+
+    const result = await sendEmailTraced(
+      "alerte-commercant",
+      {
+        to,
+        ...content,
+        // Repondre a cette alerte doit ecrire au CLIENT, pas au support.
+        replyTo: customerEmail || settings.replyTo,
+      },
+      orderNumber || cleanValue(session.id, 120),
+    );
+
+    return result.sent
+      ? { sent: true, reason: "alerte_envoyee" }
+      : skipped(result.reason);
+  } catch (error) {
+    // Le silence reste volontaire vis-a-vis de l'appelant (un email rate ne
+    // doit jamais annuler un paiement), mais il n'est plus invisible : la
+    // trace part en niveau ERREUR dans les journaux d'execution.
+    console.error("[order-emails] erreur interne pendant un envoi :", error);
     return skipped("erreur_interne");
   }
 }
@@ -332,7 +569,11 @@ export async function sendDropshippingShippingEmail(
       supportEmail: settings.replyTo,
     });
 
-    const result = await sendEmail({ to, ...content });
+    const result = await sendEmailTraced(
+      "expedition-client",
+      { to, ...content },
+      order.orderNumber,
+    );
 
     if (!result.sent) {
       return skipped(result.reason);
@@ -343,7 +584,11 @@ export async function sendDropshippingShippingEmail(
     );
 
     return { sent: true, reason: "expedition_envoyee" };
-  } catch {
+  } catch (error) {
+    // Le silence reste volontaire vis-a-vis de l'appelant (un email rate ne
+    // doit jamais annuler un paiement), mais il n'est plus invisible : la
+    // trace part en niveau ERREUR dans les journaux d'execution.
+    console.error("[order-emails] erreur interne pendant un envoi :", error);
     return skipped("erreur_interne");
   }
 }
@@ -387,12 +632,16 @@ export async function sendCustomerReplyEmail(input: {
       supportEmail: settings.replyTo,
     });
 
-    const result = await sendEmail({ to, ...content });
+    const result = await sendEmailTraced("reponse-client", { to, ...content });
 
     return result.sent
       ? { sent: true, reason: "reponse_envoyee" }
       : skipped(result.reason);
-  } catch {
+  } catch (error) {
+    // Le silence reste volontaire vis-a-vis de l'appelant (un email rate ne
+    // doit jamais annuler un paiement), mais il n'est plus invisible : la
+    // trace part en niveau ERREUR dans les journaux d'execution.
+    console.error("[order-emails] erreur interne pendant un envoi :", error);
     return skipped("erreur_interne");
   }
 }
