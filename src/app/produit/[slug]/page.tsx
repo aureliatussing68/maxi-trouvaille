@@ -37,6 +37,7 @@ import {
   getPublicProducts,
 } from "@/lib/catalog-server";
 import { formatPrice } from "@/lib/format";
+import { adressePostale, champ, vendeurComplet } from "@/lib/legal-identity";
 import {
   getDisplayDeliveryEstimate,
   getDisplayProductName,
@@ -139,252 +140,304 @@ export default async function ProductPage({
 
   return (
     <>
-    <section className="container-page grid gap-8 py-8 sm:py-10 lg:grid-cols-[1fr_440px]">
-      <div className="grid h-fit gap-3">
-        {/* Carre, comme les fichiers sources : le produit est montre entier,
+      <section className="container-page grid gap-8 py-8 sm:py-10 lg:grid-cols-[1fr_440px]">
+        <div className="grid h-fit gap-3">
+          {/* Carre, comme les fichiers sources : le produit est montre entier,
             sans recadrage haut et bas. */}
-        <div className="relative aspect-square overflow-hidden rounded-lg border border-line bg-photo shadow-sm">
-          {canShowProductImages ? (
-            <Image
-              src={product.image}
-              alt={getProductImageAlt(product)}
-              fill
-              sizes="(min-width: 1024px) 640px, 100vw"
-              className="object-contain"
-              priority
-            />
-          ) : (
-            <div className="flex h-full min-h-[260px] flex-col items-center justify-center gap-3 p-6 text-center">
-              <span className="inline-flex h-14 w-14 items-center justify-center rounded-md border border-[#fed7aa] bg-[#fff7ed] text-[#9a3412]">
-                <LockKeyhole size={26} aria-hidden="true" />
-              </span>
-              <div>
-                <p className="text-lg font-black">Photos en préparation</p>
-                <p className="mt-2 max-w-md text-sm font-bold leading-6 text-muted">
-                  Les photos de ce produit arrivent très bientôt. Ce produit
-                  sera disponible à la vente une fois sa fiche complète.
-                </p>
+          <div className="relative aspect-square overflow-hidden rounded-lg border border-line bg-photo shadow-sm">
+            {canShowProductImages ? (
+              <Image
+                src={product.image}
+                alt={getProductImageAlt(product)}
+                fill
+                sizes="(min-width: 1024px) 640px, 100vw"
+                className="object-contain"
+                priority
+              />
+            ) : (
+              <div className="flex h-full min-h-[260px] flex-col items-center justify-center gap-3 p-6 text-center">
+                <span className="inline-flex h-14 w-14 items-center justify-center rounded-md border border-[#fed7aa] bg-[#fff7ed] text-[#9a3412]">
+                  <LockKeyhole size={26} aria-hidden="true" />
+                </span>
+                <div>
+                  <p className="text-lg font-black">Photos en préparation</p>
+                  <p className="mt-2 max-w-md text-sm font-bold leading-6 text-muted">
+                    Les photos de ce produit arrivent très bientôt. Ce produit
+                    sera disponible à la vente une fois sa fiche complète.
+                  </p>
+                </div>
               </div>
+            )}
+          </div>
+          {canShowProductImages && galleryImages.length > 1 ? (
+            <div className="grid grid-cols-5 gap-3">
+              {galleryImages.slice(1).map((image, index) => (
+                <div
+                  key={image}
+                  className="relative aspect-square overflow-hidden rounded-md border border-line bg-photo transition hover:border-[#d9cfbd]"
+                >
+                  <Image
+                    src={image}
+                    alt={getProductImageAlt(product, `photo ${index + 2}`)}
+                    fill
+                    sizes="120px"
+                    className="object-contain"
+                  />
+                </div>
+              ))}
             </div>
-          )}
+          ) : null}
         </div>
-        {canShowProductImages && galleryImages.length > 1 ? (
-          <div className="grid grid-cols-5 gap-3">
-            {galleryImages.slice(1).map((image, index) => (
-              <div
-                key={image}
-                className="relative aspect-square overflow-hidden rounded-md border border-line bg-photo transition hover:border-[#d9cfbd]"
+
+        <div className="h-fit rounded-lg border border-line bg-paper p-6 shadow-sm">
+          {showUpdatedMessage ? (
+            <div className="mb-5 rounded-md border border-teal/20 bg-[#eef8f6] p-3 text-sm font-bold text-teal">
+              Produit modifié avec succès
+            </div>
+          ) : null}
+          {!canShowProductImages ? (
+            <div className="mb-5 rounded-md border border-[#fed7aa] bg-[#fff7ed] p-3 text-sm font-bold leading-6 text-[#9a3412]">
+              Prévisualisation contrôlée: image, achat et publication restent
+              bloqués jusqu aux preuves complètes.
+            </div>
+          ) : null}
+          <Link
+            href={category ? `/categories/${category.slug}` : "/categories"}
+            className="text-sm font-bold uppercase text-teal hover:text-foreground"
+          >
+            {category?.name ?? "Categorie"}
+          </Link>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {badges.map((badge) => (
+              <span
+                key={`${product.id}-${badge.label}`}
+                className={`rounded-md px-2.5 py-1 text-xs font-bold ${getBadgeClassName(
+                  badge.tone,
+                )}`}
               >
-                <Image
-                  src={image}
-                  alt={getProductImageAlt(product, `photo ${index + 2}`)}
-                  fill
-                  sizes="120px"
-                  className="object-contain"
-                />
-              </div>
+                {badge.label}
+              </span>
             ))}
           </div>
-        ) : null}
-      </div>
-
-      <div className="h-fit rounded-lg border border-line bg-paper p-6 shadow-sm">
-        {showUpdatedMessage ? (
-          <div className="mb-5 rounded-md border border-teal/20 bg-[#eef8f6] p-3 text-sm font-bold text-teal">
-            Produit modifié avec succès
+          <div className="mt-3 flex items-start justify-between gap-3">
+            <h1 className="text-2xl font-black leading-[1.12] sm:text-3xl">
+              {displayName}
+            </h1>
+            <ProductEngagement productId={product.id} initialStats={stats} />
           </div>
-        ) : null}
-        {!canShowProductImages ? (
-          <div className="mb-5 rounded-md border border-[#fed7aa] bg-[#fff7ed] p-3 text-sm font-bold leading-6 text-[#9a3412]">
-            Prévisualisation contrôlée: image, achat et publication restent
-            bloqués jusqu aux preuves complètes.
+          <div className="mt-3">
+            <ReviewSummaryBadge summary={reviewSummary} />
           </div>
-        ) : null}
-        <Link
-          href={category ? `/categories/${category.slug}` : "/categories"}
-          className="text-sm font-bold uppercase text-teal hover:text-foreground"
-        >
-          {category?.name ?? "Categorie"}
-        </Link>
-        <div className="mt-3 flex flex-wrap gap-2">
-          {badges.map((badge) => (
-            <span
-              key={`${product.id}-${badge.label}`}
-              className={`rounded-md px-2.5 py-1 text-xs font-bold ${getBadgeClassName(
-                badge.tone,
-              )}`}
+          {adminMode ? (
+            <Link
+              href={`/admin/produits/${product.slug}/modifier`}
+              className="focus-ring mt-4 inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-line px-3 text-sm font-bold hover:bg-[#f1eadf]"
             >
-              {badge.label}
-            </span>
-          ))}
-        </div>
-        <div className="mt-3 flex items-start justify-between gap-3">
-          <h1 className="text-2xl font-black leading-[1.12] sm:text-3xl">
-            {displayName}
-          </h1>
-          <ProductEngagement productId={product.id} initialStats={stats} />
-        </div>
-        <div className="mt-3">
-          <ReviewSummaryBadge summary={reviewSummary} />
-        </div>
-        {adminMode ? (
-          <Link
-            href={`/admin/produits/${product.slug}/modifier`}
-            className="focus-ring mt-4 inline-flex min-h-10 items-center justify-center gap-2 rounded-md border border-line px-3 text-sm font-bold hover:bg-[#f1eadf]"
-          >
-            <Pencil size={15} aria-hidden="true" />
-            Modifier
-          </Link>
-        ) : null}
+              <Pencil size={15} aria-hidden="true" />
+              Modifier
+            </Link>
+          ) : null}
 
-        {/* Le prix passe AVANT la description : c'est l'information que le
+          {/* Le prix passe AVANT la description : c'est l'information que le
             client cherche en arrivant sur la fiche. */}
-        {isComingSoon ? (
-          <div className="mt-5 rounded-lg border border-[#fed7aa] bg-[#fff7ed] p-4 text-sm font-bold leading-6 text-[#9a3412]">
-            Bientôt disponible sur Maxi Trouvaille
-          </div>
-        ) : (
-          <div className="mt-5 flex flex-wrap items-end gap-3">
-            <div className="text-[40px] font-black leading-none tracking-tight">
-              {formatPrice(product.price)}
+          {isComingSoon ? (
+            <div className="mt-5 rounded-lg border border-[#fed7aa] bg-[#fff7ed] p-4 text-sm font-bold leading-6 text-[#9a3412]">
+              Bientôt disponible sur Maxi Trouvaille
             </div>
-            {showReferencePrice && product.compareAtPrice ? (
-              <div className="pb-1 text-base font-medium text-muted line-through">
-                {formatPrice(product.compareAtPrice)}
+          ) : (
+            <div className="mt-5 flex flex-wrap items-end gap-3">
+              <div className="text-[40px] font-black leading-none tracking-tight">
+                {formatPrice(product.price)}
               </div>
-            ) : null}
+              {showReferencePrice && product.compareAtPrice ? (
+                <div className="pb-1 text-base font-medium text-muted line-through">
+                  {formatPrice(product.compareAtPrice)}
+                </div>
+              ) : null}
+            </div>
+          )}
+
+          <div className="mt-4 flex items-center gap-2 text-sm">
+            <Boxes
+              size={17}
+              aria-hidden="true"
+              className={stockLabel.tone === "ok" ? "text-teal" : "text-rose"}
+            />
+            <span
+              className={
+                stockLabel.tone === "ok"
+                  ? "font-semibold text-teal"
+                  : "font-bold text-rose"
+              }
+            >
+              {isComingSoon ? "Achat ouvert prochainement" : stockLabel.label}
+            </span>
           </div>
-        )}
 
-        <div className="mt-4 flex items-center gap-2 text-sm">
-          <Boxes size={17} aria-hidden="true" className={stockLabel.tone === "ok" ? "text-teal" : "text-rose"} />
-          <span
-            className={
-              stockLabel.tone === "ok"
-                ? "font-semibold text-teal"
-                : "font-bold text-rose"
-            }
-          >
-            {isComingSoon ? "Achat ouvert prochainement" : stockLabel.label}
-          </span>
-        </div>
+          {isComingSoon ? null : (
+            <AddToCartButton
+              productId={product.id}
+              className="mt-5 w-full py-3.5 text-base"
+              label="Ajouter au panier"
+              disabled={!canPurchase}
+            />
+          )}
 
-        {isComingSoon ? null : (
-          <AddToCartButton
-            productId={product.id}
-            className="mt-5 w-full py-3.5 text-base"
-            label="Ajouter au panier"
-            disabled={!canPurchase}
-          />
-        )}
-
-        {/* Les mentions logistiques passent SOUS le bouton, et une seule fois.
+          {/* Les mentions logistiques passent SOUS le bouton, et une seule fois.
             Repetees sur chaque carte de la boutique, elles martelaient au
             client "tu vas attendre deux semaines" et "ce n'est pas nous qui
             expedions" — le contraire de ce qui donne envie d'acheter. Ici,
             au moment ou il en a besoin, elles rassurent. */}
-        <div className="mt-5 grid gap-2.5 rounded-lg border border-line bg-[#fbfaf7] p-4 text-sm">
-          <div className="flex items-center gap-2 font-semibold text-teal">
-            <ShieldCheck size={17} aria-hidden="true" />
-            Paiement sécurisé sur Maxi Trouvaille
+          <div className="mt-5 grid gap-2.5 rounded-lg border border-line bg-[#fbfaf7] p-4 text-sm">
+            <div className="flex items-center gap-2 font-semibold text-teal">
+              <ShieldCheck size={17} aria-hidden="true" />
+              Paiement sécurisé sur Maxi Trouvaille
+            </div>
+            <div className="flex items-start gap-2 text-muted">
+              <Truck size={17} aria-hidden="true" className="mt-0.5 shrink-0" />
+              <span>{deliveryEstimate}</span>
+            </div>
+            <div className="flex items-start gap-2 text-muted">
+              <Store size={17} aria-hidden="true" className="mt-0.5 shrink-0" />
+              <span>
+                {isDropshipping
+                  ? "Expédié par notre partenaire logistique, suivi et service client assurés par Maxi Trouvaille"
+                  : product.source === "internal"
+                    ? "Vendu et expédié par Maxi Trouvaille"
+                    : "Annonce vendeur externe"}
+              </span>
+            </div>
+            <div className="flex items-start gap-2 text-muted">
+              <RotateCcw
+                size={17}
+                aria-hidden="true"
+                className="mt-0.5 shrink-0"
+              />
+              <span>{`${product.condition} · 14 jours pour changer d'avis`}</span>
+            </div>
           </div>
-          <div className="flex items-start gap-2 text-muted">
-            <Truck size={17} aria-hidden="true" className="mt-0.5 shrink-0" />
-            <span>{deliveryEstimate}</span>
-          </div>
-          <div className="flex items-start gap-2 text-muted">
-            <Store size={17} aria-hidden="true" className="mt-0.5 shrink-0" />
-            <span>
-              {isDropshipping
-                ? "Expédié par notre partenaire logistique, suivi et service client assurés par Maxi Trouvaille"
-                : product.source === "internal"
-                  ? "Vendu et expédié par Maxi Trouvaille"
-                  : "Annonce vendeur externe"}
-            </span>
-          </div>
-          <div className="flex items-start gap-2 text-muted">
-            <RotateCcw size={17} aria-hidden="true" className="mt-0.5 shrink-0" />
-            <span>{`${product.condition} · 14 jours pour changer d'avis`}</span>
-          </div>
-        </div>
 
-        {/* Simple lien texte : en bouton pleine largeur, il avait exactement le
+          {/* Simple lien texte : en bouton pleine largeur, il avait exactement le
             meme poids que "Ajouter au panier" et lui volait l'attention. */}
-        <Link
-          href="#message-produit"
-          className="focus-ring mt-4 inline-flex items-center gap-2 rounded-md py-1 text-sm font-semibold text-teal underline-offset-4 hover:underline"
-        >
-          <MessageCircle size={16} aria-hidden="true" />
-          Une question sur ce produit ?
-        </Link>
+          <Link
+            href="#message-produit"
+            className="focus-ring mt-4 inline-flex items-center gap-2 rounded-md py-1 text-sm font-semibold text-teal underline-offset-4 hover:underline"
+          >
+            <MessageCircle size={16} aria-hidden="true" />
+            Une question sur ce produit ?
+          </Link>
 
-        <p className="mt-5 text-sm leading-6 text-muted">
-          {getPublicDescription(product.description)}
-        </p>
-
-        <div className="mt-7 border-t border-line pt-6">
-          <h2 className="text-lg font-black">Points clés</h2>
-          <ul className="mt-4 grid gap-3 text-sm leading-6 text-muted">
-            {getPublicFeatures(product.features).map((feature) => (
-              <li key={feature} className="flex gap-2">
-                <CheckCircle2 className="mt-0.5 shrink-0 text-teal" size={18} />
-                <span>{feature}</span>
-              </li>
-            ))}
-          </ul>
-        </div>
-      </div>
-    </section>
-    <ProductMessageForm
-      product={{
-        id: product.id,
-        slug: product.slug,
-        name: product.name,
-        price: product.price,
-      }}
-    />
-    <section className="container-page pb-12">
-      <div className="rounded-lg border border-line bg-paper p-6 shadow-sm">
-        <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
-          <div>
-            <p className="text-sm font-bold uppercase text-teal">Avis clients</p>
-            <h2 className="mt-2 text-2xl font-black">Ce que disent nos clients</h2>
-          </div>
-          <ReviewSummaryBadge summary={reviewSummary} />
-        </div>
-
-        {reviews.length > 0 ? (
-          <div className="mt-6 grid gap-4">
-            {reviews.map((review) => (
-              <article key={review.id} className="rounded-md border border-line p-4">
-                <ReviewSummaryBadge
-                  summary={{ averageRating: review.rating, totalReviews: 1 }}
-                  compact
-                />
-                <p className="mt-3 text-sm leading-6 text-muted">
-                  {review.comment}
-                </p>
-                {review.adminReply ? (
-                  <div className="mt-3 rounded-md bg-[#eef8f6] p-3 text-sm leading-6 text-[#115e59]">
-                    <strong>Réponse Maxi Trouvaille : </strong>
-                    {review.adminReply}
-                  </div>
-                ) : null}
-                <div className="mt-3 text-xs font-bold text-muted">
-                  {review.customerName} -{" "}
-                  {new Date(review.createdAt).toLocaleDateString("fr-FR")}
-                </div>
-              </article>
-            ))}
-          </div>
-        ) : (
-          <p className="mt-5 rounded-md bg-[#f6f1e8] p-4 text-sm font-bold text-muted">
-            Pas encore d&apos;avis sur ce produit. Vous l&apos;avez commandé ?
-            Partagez votre expérience, elle aidera les prochains clients.
+          <p className="mt-5 text-sm leading-6 text-muted">
+            {getPublicDescription(product.description)}
           </p>
-        )}
-      </div>
-    </section>
+
+          <div className="mt-7 border-t border-line pt-6">
+            <h2 className="text-lg font-black">Points clés</h2>
+            <ul className="mt-4 grid gap-3 text-sm leading-6 text-muted">
+              {getPublicFeatures(product.features).map((feature) => (
+                <li key={feature} className="flex gap-2">
+                  <CheckCircle2
+                    className="mt-0.5 shrink-0 text-teal"
+                    size={18}
+                  />
+                  <span>{feature}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/*
+          Securite du produit — article 19 du reglement (UE) 2023/988.
+
+          Depuis le 13 decembre 2024, une offre en ligne doit identifier
+          l'operateur economique etabli dans l'Union qui repond du produit.
+          Quand le fabricant est hors UE — c'est le cas ici, les produits
+          viennent de Chine — ce role revient a l'importateur, c'est-a-dire au
+          vendeur lui-meme (article 16). Ce bloc remplit cette obligation.
+
+          Ce qu'il ne fait PAS, volontairement : il n'affirme aucun marquage CE
+          et ne nomme aucun fabricant. Ces informations ne sont pas detenues
+          aujourd'hui, et une conformite affirmee sans preuve serait une
+          pratique commerciale trompeuse en plus de l'infraction de securite.
+          Le jour ou les fournisseurs transmettront les declarations UE de
+          conformite, c'est ici que l'information viendra s'ajouter.
+        */}
+          <div className="mt-7 border-t border-line pt-6">
+            <h2 className="text-lg font-black">Sécurité du produit</h2>
+            <div className="mt-4 grid gap-2 text-sm leading-6 text-muted">
+              <p>
+                Opérateur économique responsable de ce produit dans l&apos;Union
+                européenne, au sens du règlement (UE) 2023/988 relatif à la
+                sécurité générale des produits :
+              </p>
+              <p className="font-semibold text-foreground">
+                {vendeurComplet()}, {adressePostale()}.
+              </p>
+              <p>
+                Pour toute question de sécurité concernant ce produit :{" "}
+                {champ("email")} — {champ("telephone")}.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <ProductMessageForm
+        product={{
+          id: product.id,
+          slug: product.slug,
+          name: product.name,
+          price: product.price,
+        }}
+      />
+      <section className="container-page pb-12">
+        <div className="rounded-lg border border-line bg-paper p-6 shadow-sm">
+          <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
+            <div>
+              <p className="text-sm font-bold uppercase text-teal">
+                Avis clients
+              </p>
+              <h2 className="mt-2 text-2xl font-black">
+                Ce que disent nos clients
+              </h2>
+            </div>
+            <ReviewSummaryBadge summary={reviewSummary} />
+          </div>
+
+          {reviews.length > 0 ? (
+            <div className="mt-6 grid gap-4">
+              {reviews.map((review) => (
+                <article
+                  key={review.id}
+                  className="rounded-md border border-line p-4"
+                >
+                  <ReviewSummaryBadge
+                    summary={{ averageRating: review.rating, totalReviews: 1 }}
+                    compact
+                  />
+                  <p className="mt-3 text-sm leading-6 text-muted">
+                    {review.comment}
+                  </p>
+                  {review.adminReply ? (
+                    <div className="mt-3 rounded-md bg-[#eef8f6] p-3 text-sm leading-6 text-[#115e59]">
+                      <strong>Réponse Maxi Trouvaille : </strong>
+                      {review.adminReply}
+                    </div>
+                  ) : null}
+                  <div className="mt-3 text-xs font-bold text-muted">
+                    {review.customerName} -{" "}
+                    {new Date(review.createdAt).toLocaleDateString("fr-FR")}
+                  </div>
+                </article>
+              ))}
+            </div>
+          ) : (
+            <p className="mt-5 rounded-md bg-[#f6f1e8] p-4 text-sm font-bold text-muted">
+              Pas encore d&apos;avis sur ce produit. Vous l&apos;avez commandé ?
+              Partagez votre expérience, elle aidera les prochains clients.
+            </p>
+          )}
+        </div>
+      </section>
     </>
   );
 }
