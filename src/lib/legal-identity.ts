@@ -189,6 +189,11 @@ export const IDENTITE_LEGALE = {
  * pas un numero et ne pretendent pas non plus etre en regle. Des qu'une ligne
  * est ajoutee, elle apparait dans les CGV toute seule.
  *
+ * Les sept lignes en commentaire ci-dessous correspondent aux filieres
+ * reellement concernees par le catalogue, mesurees le 05/08/2026 sur les fiches
+ * publiees. Pour en activer une : enlever les `//`, coller l'identifiant recu,
+ * verifier le nom de l'eco-organisme. Rien d'autre a toucher dans le site.
+ *
  * Ne recopie jamais ici l'identifiant d'une autre entreprise : il est verifiable
  * publiquement sur filieres-rep.ademe.fr, et un faux se voit immediatement.
  */
@@ -199,7 +204,41 @@ export const IDENTIFIANTS_REP: Array<{
   identifiant: string;
   /** Eco-organisme aupres duquel l'adhesion a ete prise. */
   ecoOrganisme: string;
-}> = [];
+}> = [
+  // --- Filieres concernees, par nombre de fiches (mesure du 05/08/2026) ------
+  //
+  // 276 fiches sur 276 — tout produit expedie arrive dans un emballage.
+  // { filiere: "Emballages menagers", identifiant: "FR______", ecoOrganisme: "Citeo" },
+  //
+  // ~140 fiches — tout ce qui a une prise, une pile ou un circuit.
+  // { filiere: "Equipements electriques et electroniques", identifiant: "FR______", ecoOrganisme: "Ecologic" },
+  //
+  // ~67 fiches — piles fournies avec le produit ou integrees.
+  // { filiere: "Piles et accumulateurs", identifiant: "FR______", ecoOrganisme: "Ecologic" },
+  //
+  // ~30 fiches — outillage, jardin, quincaillerie.
+  // { filiere: "Articles de bricolage et de jardin", identifiant: "FR______", ecoOrganisme: "Ecologic" },
+  //
+  // 8 fiches — textiles, linge de maison, chaussures.
+  // { filiere: "Textiles, linge de maison et chaussures", identifiant: "FR______", ecoOrganisme: "Refashion" },
+  //
+  // 2 fiches — meubles et elements d'ameublement.
+  // { filiere: "Elements d'ameublement", identifiant: "FR______", ecoOrganisme: "Ecomaison" },
+  //
+  // 1 fiche — articles de sport et de loisirs.
+  // { filiere: "Articles de sport et de loisirs", identifiant: "FR______", ecoOrganisme: "Ecologic" },
+];
+
+/**
+ * Vrai tant qu'aucun identifiant REP n'est renseigne.
+ *
+ * Sert au diagnostic : c'est une obligation legale non remplie, et elle ne se
+ * voit nulle part sur le site puisque, precisement, on choisit de ne rien
+ * afficher plutot que d'afficher un faux. Sans ce signal, l'oubli est invisible.
+ */
+export function identifiantsRepManquants() {
+  return IDENTIFIANTS_REP.length === 0;
+}
 
 /**
  * Hebergeur du site. A verifier si Vercel change d'adresse un jour.

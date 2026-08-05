@@ -25,6 +25,8 @@ import { readRecentEmailIncidents } from "@/lib/email-incidents";
 import {
   champsManquants,
   champsRecommandesManquants,
+  identifiantsRepManquants,
+  IDENTIFIANTS_REP,
   vendeurComplet,
 } from "@/lib/legal-identity";
 import { getEmailSettings } from "@/lib/mailer";
@@ -427,6 +429,12 @@ export async function GET(request: Request) {
     );
   }
 
+  if (identifiantsRepManquants()) {
+    alertes.push(
+      "Aucun identifiant unique REP (ADEME) renseigne. L'article L541-9-5 du code de l'environnement impose de le faire figurer dans les CGV ; l'absence est sanctionnee jusqu'a 30 000 euros. A remplir dans src/lib/legal-identity.ts des reception des numeros.",
+    );
+  }
+
   const corps = {
     verifieLe: new Date().toISOString(),
     tout_va_bien: alertes.length === 0,
@@ -451,6 +459,10 @@ export async function GET(request: Request) {
       champsObligatoiresManquants: juridiqueManquant,
       champsRecommandesManquants: champsRecommandesManquants(),
       pretAPublier: juridiqueManquant.length === 0,
+      identifiantsRep: IDENTIFIANTS_REP.map(
+        (entree) =>
+          `${entree.filiere} : ${entree.identifiant} (${entree.ecoOrganisme})`,
+      ),
     },
     dernieresCommandes: await listerCommandes(20).catch(() => []),
     emailsNonPartis: incidents,
