@@ -192,21 +192,7 @@ export const dropshippingFocusCategoryIds = [
   "dropshipping-accessoires",
   "dropshipping-auto-moto",
   "dropshipping-animaux",
-  // « dropshipping-enfant » retire de cette liste le 05/08/2026.
-  //
-  // Cette liste est la GARDE DE PUBLICATION : en sortir une categorie rend
-  // isPublicCategory() faux, donc isPublicProduct() faux pour tout ce qu'elle
-  // contient, et /categories/enfant-partenaires redirige vers /categories au
-  // lieu d'afficher une page vide.
-  //
-  // C'est volontaire et c'est une securite, pas un simple masquage : tant que
-  // cette ligne est absente, AUCUNE fiche destinee aux enfants ne peut
-  // reapparaitre en boutique par accident, meme si quelqu'un la repasse en
-  // "published". Les 22 fiches concernees sont archivees, pas supprimees.
-  //
-  // Pour rouvrir le rayon le jour ou les declarations UE de conformite sont
-  // obtenues : remettre cette entree ici, remettre "dropshipping-enfant" dans
-  // homeShowcaseCategoryIds, et repasser les fiches en "published".
+  "dropshipping-enfant",
   "dropshipping-mode",
   "dropshipping-outillage",
   "dropshipping-gaming",
@@ -249,6 +235,31 @@ const publicStoreMode = "dropshipping" as const;
 const dropshippingFocusCategoryIdSet = new Set<string>(
   dropshippingFocusCategoryIds,
 );
+
+/**
+ * Rayons fermes pour un motif de CONFORMITE, pas de commerce.
+ *
+ * Une categorie listee ici disparait entierement de la boutique : elle sort de
+ * la vitrine, sa page redirige vers /categories au lieu d'afficher un rayon
+ * vide, elle sort du sitemap, et surtout AUCUNE de ses fiches ne peut etre
+ * publiee — isPublicProduct() passe par isPublicCategory().
+ *
+ * C'est la seule barriere qui tient : les autres listes de ce fichier se
+ * rattrapent entre elles. Retirer une entree de dropshippingFocusCategoryIds
+ * ne ferme rien, parce que isDropshippingCategory() accepte ensuite toute
+ * categorie dont le parentId vaut "dropshipping".
+ *
+ * dropshipping-enfant, ferme le 05/08/2026 : ses 22 fiches sont des jouets au
+ * sens de la directive 2009/48/CE, ou des appareils electriques et
+ * radioelectriques destines a des enfants. La declaration UE de conformite
+ * qu'exige le droit europeen n'est pas detenue, et l'importateur — c'est-a-dire
+ * nous — en repond. Les fiches sont archivees, pas supprimees : elles portent
+ * le motif dans leur champ retraitConformite.
+ *
+ * Pour rouvrir un rayon : retirer son identifiant d'ici, le remettre dans
+ * homeShowcaseCategoryIds, et repasser les fiches en "published".
+ */
+const CATEGORIES_FERMEES = new Set<string>(["dropshipping-enfant"]);
 
 const hiddenNavigationCategoryIds = [
   "colis-surprise-palettes",
@@ -1418,6 +1429,15 @@ export function isDropshippingCategory(category: Category) {
 }
 
 export function isPublicCategory(category: Category) {
+  // Le verrou de conformite passe AVANT tout le reste, y compris avant le
+  // mode dropshipping. C'est volontaire : les listes de categories ci-dessus
+  // se rattrapent les unes les autres (isDropshippingCategory accepte deja
+  // toute categorie dont le parentId vaut "dropshipping"), donc en retirer une
+  // entree ne ferme rien du tout. Seul un test place en tete ferme vraiment.
+  if (CATEGORIES_FERMEES.has(category.id)) {
+    return false;
+  }
+
   if (publicStoreMode === "dropshipping") {
     return isDropshippingCategory(category);
   }
