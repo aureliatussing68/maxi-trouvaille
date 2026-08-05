@@ -34,6 +34,7 @@
     "catalog:audit-rescue-support-surface": "node scripts/automation/audit_rescue_support_surface.mjs",
     "catalog:audit-transactional-noindex-surface": "node scripts/automation/audit_transactional_noindex_surface.mjs",
     "catalog:audit-legacy-alias-seo-surface": "node scripts/automation/audit_legacy_alias_seo_surface.mjs",
+    "catalog:audit-loading-boundaries": "node scripts/automation/audit_loading_boundaries.mjs",
     "catalog:audit-partner-gates": "node scripts/automation/audit_partner_publication_gates.mjs",
     "catalog:audit-all-partner-gates": "node scripts/automation/audit_all_partner_publication_gates.mjs",
     "catalog:audit-partners": "node scripts/automation/audit_partner_catalog_resume.mjs",

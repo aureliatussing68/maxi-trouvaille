@@ -104,6 +104,14 @@ export default async function CategoryPage({ params }: CategoryPageProps) {
   const { slug } = await params;
   const legacyRedirect = legacyCategoryRedirects[slug];
   if (legacyRedirect) {
+    // Si l'ancienne adresse mene a un rayon ferme, on repond 404 tout de
+    // suite. Rediriger vers une page qui repond elle-meme 404 oblige le robot
+    // a faire le detour pour rien, et brouille le signal qu'on veut envoyer :
+    // ce rayon n'existe plus.
+    const cible = getCategoryBySlug(legacyRedirect);
+    if (cible && estCategorieFermee(cible.id)) {
+      notFound();
+    }
     redirect(`/categories/${legacyRedirect}`);
   }
 
