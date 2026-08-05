@@ -80,8 +80,15 @@ const REGLES: RegleSecurite[] = [
       /\bbooster de demarrage\b/,
       /\bstation electrique\b/,
     ],
+    // Formulation revue le 05/08/2026 : la version precedente affirmait « une
+    // batterie au lithium ». C'etait une deduction, pas un fait mesure — la
+    // chimie exacte n'est ecrite nulle part dans nos donnees. Ces produits sont
+    // au lithium dans l'immense majorite des cas, mais « immense majorite » ne
+    // suffit pas pour l'ecrire au client. Le texte parle donc de « batterie
+    // rechargeable », ce qui est vrai par construction, et les precautions
+    // restent identiques.
     avertissements: [
-      "Cet appareil contient une batterie au lithium. Ne l'exposez pas à une source de chaleur, ne le percez pas, ne le démontez pas et cessez de l'utiliser s'il gonfle, chauffe anormalement ou se déforme.",
+      "Cet appareil contient une batterie rechargeable. Ne l'exposez pas à une source de chaleur, ne le percez pas, ne le démontez pas, et cessez de l'utiliser s'il gonfle, chauffe anormalement ou se déforme.",
       "Rechargez-le avec un câble adapté et sous surveillance. Une batterie usagée ne se jette jamais avec les ordures ménagères : déposez-la dans une borne de collecte.",
     ],
   },
