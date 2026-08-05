@@ -2,11 +2,12 @@ import Link from "next/link";
 import { CreditCard, Lock, PackageCheck } from "lucide-react";
 import { SERVICE_PROMISE } from "@/lib/copy";
 
+// « Promos » retire le 05/08/2026 : la page est vide tant que l'affichage des
+// prix barres est coupe. Voir le commentaire dans Header.tsx.
 const shopLinks = [
   { href: "/boutique", label: "Boutique" },
   { href: "/produits-partenaires", label: "Rayons" },
   { href: "/nouveautes", label: "Nouveautés" },
-  { href: "/promotions", label: "Promos" },
 ];
 
 const helpLinks = [

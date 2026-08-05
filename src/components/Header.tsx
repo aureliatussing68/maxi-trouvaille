@@ -15,12 +15,23 @@ import { useCart } from "@/components/CartProvider";
  * client ne savait pas ou aller. Desormais les memes mots partout, dans le
  * meme ordre, du parcours d'achat vers l'aide.
  */
+/**
+ * « Promos » a ete retire du menu le 05/08/2026.
+ *
+ * L'affichage des prix barres est coupe tant qu'aucun historique de prix reel
+ * n'existe (voir HISTORIQUE_PRIX_VERIFIE dans product-display.ts), donc la page
+ * /promotions ne liste plus aucun produit. La laisser dans le menu envoyait les
+ * clients sur une page vide.
+ *
+ * La page elle-meme n'est PAS supprimee : les liens existants continuent de
+ * fonctionner. Le jour ou l'historique de prix existera, il suffira de remettre
+ * cette ligne en meme temps que l'interrupteur.
+ */
 const navLinks = [
   { href: "/", label: "Accueil" },
   { href: "/boutique", label: "Boutique" },
   { href: "/produits-partenaires", label: "Rayons" },
   { href: "/nouveautes", label: "Nouveautés" },
-  { href: "/promotions", label: "Promos" },
   { href: "/suivi-colis", label: "Suivi" },
   { href: "/contact", label: "Contact" },
 ];
@@ -71,7 +82,9 @@ export function Header() {
         >
           {navLinks.map((link) => {
             const isActive =
-              link.href === "/" ? pathname === "/" : pathname.startsWith(link.href);
+              link.href === "/"
+                ? pathname === "/"
+                : pathname.startsWith(link.href);
 
             return (
               <Link
