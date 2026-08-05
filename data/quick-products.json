@@ -2253,7 +2253,7 @@
     ],
     "livraisonDisponible": "toutes",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "price": 1290,
     "compareAtPrice": 1990,
     "imageAlt": "Lunettes de soleil polarisées UV400 vintage",
@@ -2306,6 +2306,14 @@
           "Photos produit importees en local"
         ]
       }
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Lunettes solaires, polarisees, photochromiques et de protection",
+      "motif": "Reglement (UE) 2016/425, annexe I, categorie I : les EPI protegeant contre le rayonnement solaire autre que lors de l observation du soleil relevent de la categorie I, et les lunettes de soleil non correctrices en font partie. L article 10 impose a l importateur de verifier le marquage CE et la declaration UE de conformite, d apposer son nom et son adresse, de fournir la notice en francais et de conserver la declaration 10 ans. La norme harmonisee EN ISO 12312-1 impose l indication de la categorie de filtre 0 a 4. Une lunette teintee qui ne filtre pas les UV est plus dangereuse que pas de lune",
+      "documentManquant": "Declaration UE de conformite (reglement (UE) 2016/425) + rapport d essai EN ISO 12312-1 indiquant la categorie de filtre",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -13412,7 +13420,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -13481,6 +13489,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Lunettes solaires, polarisees, photochromiques et de protection",
+      "motif": "Reglement (UE) 2016/425, annexe I, categorie I : les EPI protegeant contre le rayonnement solaire autre que lors de l observation du soleil relevent de la categorie I, et les lunettes de soleil non correctrices en font partie. L article 10 impose a l importateur de verifier le marquage CE et la declaration UE de conformite, d apposer son nom et son adresse, de fournir la notice en francais et de conserver la declaration 10 ans. La norme harmonisee EN ISO 12312-1 impose l indication de la categorie de filtre 0 a 4. Une lunette teintee qui ne filtre pas les UV est plus dangereuse que pas de lune",
+      "documentManquant": "Declaration UE de conformite (reglement (UE) 2016/425) + rapport d essai EN ISO 12312-1 indiquant la categorie de filtre",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -15555,7 +15571,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -15624,6 +15640,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -16726,7 +16750,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -16795,6 +16819,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Lunettes solaires, polarisees, photochromiques et de protection",
+      "motif": "Reglement (UE) 2016/425, annexe I, categorie I : les EPI protegeant contre le rayonnement solaire autre que lors de l observation du soleil relevent de la categorie I, et les lunettes de soleil non correctrices en font partie. L article 10 impose a l importateur de verifier le marquage CE et la declaration UE de conformite, d apposer son nom et son adresse, de fournir la notice en francais et de conserver la declaration 10 ans. La norme harmonisee EN ISO 12312-1 impose l indication de la categorie de filtre 0 a 4. Une lunette teintee qui ne filtre pas les UV est plus dangereuse que pas de lune",
+      "documentManquant": "Declaration UE de conformite (reglement (UE) 2016/425) + rapport d essai EN ISO 12312-1 indiquant la categorie de filtre",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -18388,7 +18420,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -18457,6 +18489,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Gants et protections thermiques ou anti-coupure",
+      "motif": "Le reglement (UE) 2016/425 a supprime l exclusion que l ancienne directive 89/686/CEE prevoyait pour les EPI a usage prive protegeant contre la chaleur : son article 2, paragraphe 2, point d) ne conserve que les conditions atmospheriques non extremes et la vaisselle. Un gant de cuisine vendu a un consommateur est donc un EPI de categorie II (il ne releve ni des risques minimes de la categorie I, ni des risques mortels de la categorie III), soumis a l examen UE de type de l article 19 par un organisme notifie et a la notice d information de l annexe II point 1.4, exigee en francais par l articl",
+      "documentManquant": "Attestation d examen UE de type (article 19 du reglement (UE) 2016/425) delivree par un organisme notifie : hors de portee",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -18966,7 +19006,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -19035,6 +19075,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Machines electroportatives",
+      "motif": "Directive 2006/42/CE relative aux machines, annexe I, point 1.7.4 : chaque machine doit etre accompagnee d une notice d instructions dans la langue de l Etat membre de mise sur le marche ; point 1.7.4.1 b) : cette notice doit etre une notice originale ou une traduction de la notice originale ; point 1.7.4.2 : son contenu est impose (usage prevu, mauvais usages raisonnablement previsibles, avertissements, entretien). S y ajoutent la declaration UE de conformite et le marquage CE. Il est impossible depuis la France de garantir ce qu un fournisseur chinois met dans le colis, et une notice de mach",
+      "documentManquant": "Notice d instructions originale ou traduite en francais (annexe I, point 1.7.4, de la directive 2006/42/CE) + declaration UE de conformite machines",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -19063,7 +19111,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -19130,6 +19178,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Machines electroportatives",
+      "motif": "Directive 2006/42/CE relative aux machines, annexe I, point 1.7.4 : chaque machine doit etre accompagnee d une notice d instructions dans la langue de l Etat membre de mise sur le marche ; point 1.7.4.1 b) : cette notice doit etre une notice originale ou une traduction de la notice originale ; point 1.7.4.2 : son contenu est impose (usage prevu, mauvais usages raisonnablement previsibles, avertissements, entretien). S y ajoutent la declaration UE de conformite et le marquage CE. Il est impossible depuis la France de garantir ce qu un fournisseur chinois met dans le colis, et une notice de mach",
+      "documentManquant": "Notice d instructions originale ou traduite en francais (annexe I, point 1.7.4, de la directive 2006/42/CE) + declaration UE de conformite machines",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -19256,7 +19312,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -19324,6 +19380,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Appareils a rayonnement laser",
+      "motif": "L etiquette de classe laser et la mention Rayonnement laser - ne pas regarder dans le faisceau doivent etre apposees sur l appareil selon la norme EN 60825-1 ; l article 19, point d), du reglement (UE) 2023/988 impose alors de reprendre cet avertissement dans l offre en ligne, et l article 5 pose l obligation generale de securite. Or aucune des fiches n indique la classe : la recherche de classe 2, EN 60825 et rayonnement donne 0 resultat sur le catalogue publie. Les niveaux laser de chantier a lignes vertes sont frequemment de classe 2 ou 3R, et au-dela de la classe 2 le reflexe palpebral ne ",
+      "documentManquant": "Fiche technique fournisseur indiquant la classe laser et la longueur d onde selon EN 60825-1 + declaration UE de conformite",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -19352,7 +19416,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -19422,6 +19486,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Batteries lithium de forte capacite, stations d energie, demarreurs et panneaux solaires",
+      "motif": "Reglement (UE) 2023/1542 relatif aux batteries et aux dechets de batteries, article 38 : l importateur verifie la procedure d evaluation et la documentation technique, appose son nom et son adresse, fournit les informations en francais et conserve la declaration UE de conformite 10 ans ; article 13 et annexe VI : etiquetage obligatoire de la capacite, de la duree de vie, du symbole de collecte separee et des symboles chimiques, exigences applicables a compter du 18 aout 2026. S y ajoute le transport : les batteries lithium sont des marchandises dangereuses (UN 3480 et UN 3481, instructions IAT",
+      "documentManquant": "Declaration UE de conformite au titre du reglement (UE) 2023/1542 + rapport d essai UN 38.3 (transport des batteries lithium)",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -19450,7 +19522,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -19520,6 +19592,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Drones et aeronefs telepilotes",
+      "motif": "Reglement delegue (UE) 2019/945, article 4 et parties 1 a 5 de l annexe : une etiquette d identification de classe C0 a C4 doit etre apposee de maniere visible sur l aeronef, en plus du marquage CE ; l article 9 met a la charge de l importateur la verification de cette etiquette, la conservation de la declaration UE de conformite 10 ans et la fourniture du manuel en francais. Reglement d execution (UE) 2019/947, article 14 : enregistrement obligatoire de l exploitant, en France sur AlphaTango, et information de l utilisateur sur ses obligations. Un drone importe de Chine sans etiquette de clas",
+      "documentManquant": "Declaration UE de conformite (reglement delegue (UE) 2019/945) + etiquette d identification de classe C0 a C4 apposee sur l appareil",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -19840,7 +19920,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -19908,6 +19988,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Appareils a rayonnement laser",
+      "motif": "L etiquette de classe laser et la mention Rayonnement laser - ne pas regarder dans le faisceau doivent etre apposees sur l appareil selon la norme EN 60825-1 ; l article 19, point d), du reglement (UE) 2023/988 impose alors de reprendre cet avertissement dans l offre en ligne, et l article 5 pose l obligation generale de securite. Or aucune des fiches n indique la classe : la recherche de classe 2, EN 60825 et rayonnement donne 0 resultat sur le catalogue publie. Les niveaux laser de chantier a lignes vertes sont frequemment de classe 2 ou 3R, et au-dela de la classe 2 le reflexe palpebral ne ",
+      "documentManquant": "Fiche technique fournisseur indiquant la classe laser et la longueur d onde selon EN 60825-1 + declaration UE de conformite",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -21291,7 +21379,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -21360,6 +21448,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Appareils a lumiere pulsee ou a rayonnement UV appliques sur le corps",
+      "motif": "Obligation generale de securite, article 5 du reglement (UE) 2023/988, et obligations de l importateur de l article 11(1) et 11(4). Ces appareils projettent un rayonnement optique intense sur la peau et pres des yeux : la norme applicable est EN 60335-2-27 pour les appareils de traitement de la peau par rayonnement ultraviolet et infrarouge, avec avertissements et protection oculaire imposes. Une lampe UV a secher les ongles emet dans l UVA a quelques centimetres de la peau des mains, un IPL sans filtre correct provoque brulures et lesions oculaires. Sans rapport d essai et sans notice francai",
+      "documentManquant": "Declaration UE de conformite + rapport d essai EN 60335-2-27 et notice de securite en francais (protection oculaire, contre-indications)",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -21977,7 +22073,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -22045,6 +22141,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -22274,7 +22378,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -22342,6 +22446,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -23142,7 +23254,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -23210,6 +23322,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -23431,7 +23551,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -23501,6 +23621,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -23918,7 +24046,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -23987,6 +24115,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Batteries lithium de forte capacite, stations d energie, demarreurs et panneaux solaires",
+      "motif": "Reglement (UE) 2023/1542 relatif aux batteries et aux dechets de batteries, article 38 : l importateur verifie la procedure d evaluation et la documentation technique, appose son nom et son adresse, fournit les informations en francais et conserve la declaration UE de conformite 10 ans ; article 13 et annexe VI : etiquetage obligatoire de la capacite, de la duree de vie, du symbole de collecte separee et des symboles chimiques, exigences applicables a compter du 18 aout 2026. S y ajoute le transport : les batteries lithium sont des marchandises dangereuses (UN 3480 et UN 3481, instructions IAT",
+      "documentManquant": "Declaration UE de conformite au titre du reglement (UE) 2023/1542 + rapport d essai UN 38.3 (transport des batteries lithium)",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -24302,7 +24438,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -24371,6 +24507,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -24691,7 +24835,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -24759,6 +24903,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -25464,7 +25616,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -25532,6 +25684,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -25755,7 +25915,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -25823,6 +25983,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Machines electroportatives",
+      "motif": "Directive 2006/42/CE relative aux machines, annexe I, point 1.7.4 : chaque machine doit etre accompagnee d une notice d instructions dans la langue de l Etat membre de mise sur le marche ; point 1.7.4.1 b) : cette notice doit etre une notice originale ou une traduction de la notice originale ; point 1.7.4.2 : son contenu est impose (usage prevu, mauvais usages raisonnablement previsibles, avertissements, entretien). S y ajoutent la declaration UE de conformite et le marquage CE. Il est impossible depuis la France de garantir ce qu un fournisseur chinois met dans le colis, et une notice de mach",
+      "documentManquant": "Notice d instructions originale ou traduite en francais (annexe I, point 1.7.4, de la directive 2006/42/CE) + declaration UE de conformite machines",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -26046,7 +26214,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -26115,6 +26283,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Batteries lithium de forte capacite, stations d energie, demarreurs et panneaux solaires",
+      "motif": "Reglement (UE) 2023/1542 relatif aux batteries et aux dechets de batteries, article 38 : l importateur verifie la procedure d evaluation et la documentation technique, appose son nom et son adresse, fournit les informations en francais et conserve la declaration UE de conformite 10 ans ; article 13 et annexe VI : etiquetage obligatoire de la capacite, de la duree de vie, du symbole de collecte separee et des symboles chimiques, exigences applicables a compter du 18 aout 2026. S y ajoute le transport : les batteries lithium sont des marchandises dangereuses (UN 3480 et UN 3481, instructions IAT",
+      "documentManquant": "Declaration UE de conformite au titre du reglement (UE) 2023/1542 + rapport d essai UN 38.3 (transport des batteries lithium)",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -26336,7 +26512,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -26404,6 +26580,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Batteries lithium de forte capacite, stations d energie, demarreurs et panneaux solaires",
+      "motif": "Reglement (UE) 2023/1542 relatif aux batteries et aux dechets de batteries, article 38 : l importateur verifie la procedure d evaluation et la documentation technique, appose son nom et son adresse, fournit les informations en francais et conserve la declaration UE de conformite 10 ans ; article 13 et annexe VI : etiquetage obligatoire de la capacite, de la duree de vie, du symbole de collecte separee et des symboles chimiques, exigences applicables a compter du 18 aout 2026. S y ajoute le transport : les batteries lithium sont des marchandises dangereuses (UN 3480 et UN 3481, instructions IAT",
+      "documentManquant": "Declaration UE de conformite au titre du reglement (UE) 2023/1542 + rapport d essai UN 38.3 (transport des batteries lithium)",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -26432,7 +26616,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -26502,6 +26686,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Drones et aeronefs telepilotes",
+      "motif": "Reglement delegue (UE) 2019/945, article 4 et parties 1 a 5 de l annexe : une etiquette d identification de classe C0 a C4 doit etre apposee de maniere visible sur l aeronef, en plus du marquage CE ; l article 9 met a la charge de l importateur la verification de cette etiquette, la conservation de la declaration UE de conformite 10 ans et la fourniture du manuel en francais. Reglement d execution (UE) 2019/947, article 14 : enregistrement obligatoire de l exploitant, en France sur AlphaTango, et information de l utilisateur sur ses obligations. Un drone importe de Chine sans etiquette de clas",
+      "documentManquant": "Declaration UE de conformite (reglement delegue (UE) 2019/945) + etiquette d identification de classe C0 a C4 apposee sur l appareil",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -26530,7 +26722,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -26599,6 +26791,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Batteries lithium de forte capacite, stations d energie, demarreurs et panneaux solaires",
+      "motif": "Reglement (UE) 2023/1542 relatif aux batteries et aux dechets de batteries, article 38 : l importateur verifie la procedure d evaluation et la documentation technique, appose son nom et son adresse, fournit les informations en francais et conserve la declaration UE de conformite 10 ans ; article 13 et annexe VI : etiquetage obligatoire de la capacite, de la duree de vie, du symbole de collecte separee et des symboles chimiques, exigences applicables a compter du 18 aout 2026. S y ajoute le transport : les batteries lithium sont des marchandises dangereuses (UN 3480 et UN 3481, instructions IAT",
+      "documentManquant": "Declaration UE de conformite au titre du reglement (UE) 2023/1542 + rapport d essai UN 38.3 (transport des batteries lithium)",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -26627,7 +26827,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -26696,6 +26896,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Batteries lithium de forte capacite, stations d energie, demarreurs et panneaux solaires",
+      "motif": "Reglement (UE) 2023/1542 relatif aux batteries et aux dechets de batteries, article 38 : l importateur verifie la procedure d evaluation et la documentation technique, appose son nom et son adresse, fournit les informations en francais et conserve la declaration UE de conformite 10 ans ; article 13 et annexe VI : etiquetage obligatoire de la capacite, de la duree de vie, du symbole de collecte separee et des symboles chimiques, exigences applicables a compter du 18 aout 2026. S y ajoute le transport : les batteries lithium sont des marchandises dangereuses (UN 3480 et UN 3481, instructions IAT",
+      "documentManquant": "Declaration UE de conformite au titre du reglement (UE) 2023/1542 + rapport d essai UN 38.3 (transport des batteries lithium)",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -26820,7 +27028,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -26888,6 +27096,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Appareils a rayonnement laser",
+      "motif": "L etiquette de classe laser et la mention Rayonnement laser - ne pas regarder dans le faisceau doivent etre apposees sur l appareil selon la norme EN 60825-1 ; l article 19, point d), du reglement (UE) 2023/988 impose alors de reprendre cet avertissement dans l offre en ligne, et l article 5 pose l obligation generale de securite. Or aucune des fiches n indique la classe : la recherche de classe 2, EN 60825 et rayonnement donne 0 resultat sur le catalogue publie. Les niveaux laser de chantier a lignes vertes sont frequemment de classe 2 ou 3R, et au-dela de la classe 2 le reflexe palpebral ne ",
+      "documentManquant": "Fiche technique fournisseur indiquant la classe laser et la longueur d onde selon EN 60825-1 + declaration UE de conformite",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -26916,7 +27132,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -26986,6 +27202,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -27697,7 +27921,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -27765,6 +27989,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Appareils a lumiere pulsee ou a rayonnement UV appliques sur le corps",
+      "motif": "Obligation generale de securite, article 5 du reglement (UE) 2023/988, et obligations de l importateur de l article 11(1) et 11(4). Ces appareils projettent un rayonnement optique intense sur la peau et pres des yeux : la norme applicable est EN 60335-2-27 pour les appareils de traitement de la peau par rayonnement ultraviolet et infrarouge, avec avertissements et protection oculaire imposes. Une lampe UV a secher les ongles emet dans l UVA a quelques centimetres de la peau des mains, un IPL sans filtre correct provoque brulures et lesions oculaires. Sans rapport d essai et sans notice francai",
+      "documentManquant": "Declaration UE de conformite + rapport d essai EN 60335-2-27 et notice de securite en francais (protection oculaire, contre-indications)",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -27986,7 +28218,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -28054,6 +28286,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -28668,7 +28908,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -28737,6 +28977,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Appareils a rayonnement laser",
+      "motif": "L etiquette de classe laser et la mention Rayonnement laser - ne pas regarder dans le faisceau doivent etre apposees sur l appareil selon la norme EN 60825-1 ; l article 19, point d), du reglement (UE) 2023/988 impose alors de reprendre cet avertissement dans l offre en ligne, et l article 5 pose l obligation generale de securite. Or aucune des fiches n indique la classe : la recherche de classe 2, EN 60825 et rayonnement donne 0 resultat sur le catalogue publie. Les niveaux laser de chantier a lignes vertes sont frequemment de classe 2 ou 3R, et au-dela de la classe 2 le reflexe palpebral ne ",
+      "documentManquant": "Fiche technique fournisseur indiquant la classe laser et la longueur d onde selon EN 60825-1 + declaration UE de conformite",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -28765,7 +29013,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -28835,6 +29083,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -28863,7 +29119,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -28932,6 +29188,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Machines electroportatives",
+      "motif": "Directive 2006/42/CE relative aux machines, annexe I, point 1.7.4 : chaque machine doit etre accompagnee d une notice d instructions dans la langue de l Etat membre de mise sur le marche ; point 1.7.4.1 b) : cette notice doit etre une notice originale ou une traduction de la notice originale ; point 1.7.4.2 : son contenu est impose (usage prevu, mauvais usages raisonnablement previsibles, avertissements, entretien). S y ajoutent la declaration UE de conformite et le marquage CE. Il est impossible depuis la France de garantir ce qu un fournisseur chinois met dans le colis, et une notice de mach",
+      "documentManquant": "Notice d instructions originale ou traduite en francais (annexe I, point 1.7.4, de la directive 2006/42/CE) + declaration UE de conformite machines",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -28960,7 +29224,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -29028,6 +29292,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -29450,7 +29722,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -29519,6 +29791,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -30610,7 +30890,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -30678,6 +30958,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -30706,7 +30994,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -30774,6 +31062,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -30898,7 +31194,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -30967,6 +31263,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -31285,7 +31589,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -31354,6 +31658,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Appareils a rayonnement laser",
+      "motif": "L etiquette de classe laser et la mention Rayonnement laser - ne pas regarder dans le faisceau doivent etre apposees sur l appareil selon la norme EN 60825-1 ; l article 19, point d), du reglement (UE) 2023/988 impose alors de reprendre cet avertissement dans l offre en ligne, et l article 5 pose l obligation generale de securite. Or aucune des fiches n indique la classe : la recherche de classe 2, EN 60825 et rayonnement donne 0 resultat sur le catalogue publie. Les niveaux laser de chantier a lignes vertes sont frequemment de classe 2 ou 3R, et au-dela de la classe 2 le reflexe palpebral ne ",
+      "documentManquant": "Fiche technique fournisseur indiquant la classe laser et la longueur d onde selon EN 60825-1 + declaration UE de conformite",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -31382,7 +31694,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -31452,6 +31764,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Machines electroportatives",
+      "motif": "Directive 2006/42/CE relative aux machines, annexe I, point 1.7.4 : chaque machine doit etre accompagnee d une notice d instructions dans la langue de l Etat membre de mise sur le marche ; point 1.7.4.1 b) : cette notice doit etre une notice originale ou une traduction de la notice originale ; point 1.7.4.2 : son contenu est impose (usage prevu, mauvais usages raisonnablement previsibles, avertissements, entretien). S y ajoutent la declaration UE de conformite et le marquage CE. Il est impossible depuis la France de garantir ce qu un fournisseur chinois met dans le colis, et une notice de mach",
+      "documentManquant": "Notice d instructions originale ou traduite en francais (annexe I, point 1.7.4, de la directive 2006/42/CE) + declaration UE de conformite machines",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -31769,7 +32089,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -31838,6 +32158,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Outils isoles pour travaux sous tension",
+      "motif": "Un outil vendu comme isole a 1000 V est un dispositif de securite : la norme applicable est la serie IEC/EN 60900 (outils manuels pour travaux sous tension jusqu a 1000 V en courant alternatif), qui impose des essais dielectriques individuels sur chaque outil produit. S y ajoute l obligation generale de securite de l article 5 du reglement (UE) 2023/988 et l article 11(1) qui impose a l importateur de verifier la conformite avant mise sur le marche. Sans proces-verbal d essai dielectrique, l allegation VDE est invérifiable et un electricien qui s y fie prend 230 V dans les mains. Le doute sur ",
+      "documentManquant": "Proces-verbal d essai dielectrique individuel selon IEC/EN 60900 + certificat d organisme (VDE, GS) : non fourni par un vendeur AliExpress",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -32447,7 +32775,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -32516,6 +32844,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -33999,7 +34335,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -34067,6 +34403,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -34480,7 +34824,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -34548,6 +34892,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Petit electromenager chauffant, a vapeur ou a lames",
+      "motif": "Directive 2014/35/UE basse tension, article 1er (materiel employe entre 50 et 1000 V en alternatif) et article 6 : l importateur ne met sur le marche que du materiel conforme, verifie la procedure d evaluation de l annexe III et la documentation technique, appose son nom et son adresse, fournit les instructions en francais (6(4)) et conserve la declaration UE de conformite 10 ans (6(6)). S y ajoutent la directive 2014/30/UE CEM et, pour les appareils au contact des aliments, le reglement (CE) n° 1935/2004. Ce sont exactement les categories qui concentrent les incendies domestiques et les brulu",
+      "documentManquant": "Declaration UE de conformite couvrant 2014/35/UE, 2014/30/UE et 2011/65/UE + notice d utilisation et de securite en francais fournie dans le colis",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -36033,7 +36385,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -36101,6 +36453,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Appareillage a raccorder sur une installation electrique fixe",
+      "motif": "Directive 2014/35/UE basse tension, article 6(4) : l importateur veille a ce que le materiel soit accompagne d instructions et d informations de securite en francais ; annexe I, points 1 d) et 2 : la conception et les instructions doivent assurer une installation sure. En France, toute intervention sur un circuit fixe releve de la norme NF C 15-100 et engage la conformite de l installation du logement. Faire ouvrir une boite d encastrement a un consommateur non habilite, sur un module dont on ne detient ni la declaration UE de conformite ni la notice francaise, expose a l electrisation et a l ",
+      "documentManquant": "Declaration UE de conformite (directive 2014/35/UE) et notice d installation en francais - recuperables chez la marque, mais le risque d installation par un non-professionnel demeure",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
@@ -36323,7 +36683,7 @@
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
-    "status": "published",
+    "status": "archived",
     "dropshipping": {
       "enabled": true,
       "supplierName": "AliExpress",
@@ -36391,6 +36751,14 @@
       "deliveryStatus": "validated",
       "priceStatus": "validated",
       "rightsStatus": "validated"
+    },
+    "retraitConformite": {
+      "date": "2026-08-05",
+      "famille": "Appareillage a raccorder sur une installation electrique fixe",
+      "motif": "Directive 2014/35/UE basse tension, article 6(4) : l importateur veille a ce que le materiel soit accompagne d instructions et d informations de securite en francais ; annexe I, points 1 d) et 2 : la conception et les instructions doivent assurer une installation sure. En France, toute intervention sur un circuit fixe releve de la norme NF C 15-100 et engage la conformite de l installation du logement. Faire ouvrir une boite d encastrement a un consommateur non habilite, sur un module dont on ne detient ni la declaration UE de conformite ni la notice francaise, expose a l electrisation et a l ",
+      "documentManquant": "Declaration UE de conformite (directive 2014/35/UE) et notice d installation en francais - recuperables chez la marque, mais le risque d installation par un non-professionnel demeure",
+      "decision": "Archivee le 05/08/2026 par l'audit de securite produit.",
+      "republiableSi": "Le document ci-dessus est obtenu aupres du fournisseur et archive."
     }
   },
   {
