@@ -93,6 +93,28 @@ const INTERNAL_COPY_PATTERNS = [
   /prix\s+d['’]achat/i,
   /taux\s+de\s+conversion/i,
   /panier\s+moyen/i,
+
+  // Le pire de tous, trouve le 05/08/2026 et VU sur les pages publiques :
+  // onze fiches pourtant publiees affichaient au client « Publication bloquee
+  // tant que prix, delai, stock et droits images ne sont pas verifies ».
+  //
+  // C'est un aveu ecrit, par le vendeur lui-meme, qu'il vend un produit dont
+  // il n'a verifie ni le prix, ni le delai, ni le stock, ni le droit
+  // d'utiliser les photos. Devant la DGCCRF, cette phrase est une piece a
+  // charge fournie par l'interesse.
+  //
+  // Le filtre ci-dessous empeche qu'une telle phrase reparaisse un jour. Il ne
+  // suffit PAS a lui seul : les onze fiches ont ete archivees en meme temps,
+  // parce que masquer l'aveu sans traiter le fond reviendrait a cacher le
+  // probleme au lieu de le regler.
+  /publication\s+bloqu/i,
+  /\ba\s+valider\b/i,
+  /\bà\s+valider\b/i,
+  /en\s+attente\s+de\s+valid/i,
+  /tant\s+que\s+.{0,60}(verifi|vérifi|valid|confirm)/i,
+  /sous\s+r[eé]serve\s+de\s+valid/i,
+  /v[eé]rification\s+en\s+cours/i,
+  /droits\s+images/i,
 ];
 
 const REMOVABLE_SENTENCE_PATTERNS = [
