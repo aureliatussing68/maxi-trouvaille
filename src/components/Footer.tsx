@@ -22,7 +22,11 @@ const legalLinks = [
   { href: "/a-propos", label: "À propos" },
   { href: "/mentions-legales", label: "Mentions légales" },
   { href: "/conditions-generales-vente", label: "Conditions générales" },
-  { href: "/conditions-produits-partenaires", label: "Conditions produits partenaires" },
+  { href: "/retractation", label: "Droit de rétractation" },
+  {
+    href: "/conditions-produits-partenaires",
+    label: "Conditions produits partenaires",
+  },
   { href: "/politique-confidentialite", label: "Confidentialité" },
 ];
 
