@@ -27806,7 +27806,7 @@
         "RED 2014/53/UE"
       ],
       "urlDocument": "https://image01.realme.net/general/20260508/17782205833264dd566acfb9a4f9fa5505c72abdda48f.pdf",
-      "documentArchive": "CONFORMITE\\realme\\montre-connectee-realme-watch-5-gps.pdf",
+      "documentArchive": "CONFORMITE/realme/montre-connectee-realme-watch-5-gps.pdf",
       "trouveLe": "2026-08-05",
       "note": "16 pages, 8 langues, version francaise page 7. Lien retrouve derriere l'entree RMW2501 du portail realme.com/eu/support/declaration."
     }
@@ -33845,7 +33845,7 @@
         "RoHS 2011/65/UE"
       ],
       "urlDocument": "https://i02.appmifile.com/26_operatorx_operatorx_xm/07/04/2026/43552185582480251463cc27a37d701e.pdf",
-      "documentArchive": "CONFORMITE\\Xiaomi\\xiaomi-tv-box-s-3e-generation-4k.pdf",
+      "documentArchive": "CONFORMITE/Xiaomi/xiaomi-tv-box-s-3e-generation-4k.pdf",
       "trouveLe": "2026-08-05",
       "note": "Declaration publiee par Xiaomi sur son propre serveur."
     }
@@ -34051,7 +34051,7 @@
         "RED 2014/53/UE"
       ],
       "urlDocument": "https://cdn.shopify.com/s/files/1/0857/5574/files/SHOKZ_S820_Declaration_of_Conformity_4968124d-cc1a-4e56-b37f-b86caed3582d.pdf",
-      "documentArchive": "CONFORMITE\\SHOKZ\\shokz-openrun-pro-2-conduction-osseuse.pdf",
+      "documentArchive": "CONFORMITE/SHOKZ/shokz-openrun-pro-2-conduction-osseuse.pdf",
       "trouveLe": "2026-08-05",
       "note": "13 pages, dont une version francaise integrale. Lien retrouve dans le HTML de shokz.com/pages/policies. ATTENTION : si la fiche propose aussi la version Mini, c'est le document S821 qu'il faut, le S820 ne la couvre pas."
     }
@@ -34257,9 +34257,9 @@
         "RoHS 2011/65/UE + 2015/863"
       ],
       "urlDocument": "https://i02.appmifile.com/693_operatorx_operatorx_xm/31/05/2024/af40ba2d6be9b2d6fc0bd29be396242d.zip",
-      "documentArchive": "CONFORMITE\\Xiaomi\\stylet-xiaomi-redmi-tablette.zip",
+      "documentArchive": "CONFORMITE/Xiaomi/stylet-xiaomi-redmi-tablette.pdf",
       "trouveLe": "2026-08-05",
-      "note": "L'archive contient 27 PDF, un par langue. Le PDF francais a ete lu : vraie declaration, fabricant Xiaomi Communications, contact UE Xiaomi Technology Netherlands B.V., organisme notifie Timco Engineering ID 1177. Un lien vers un .zip ne vaut rien en controle : extraire le PDF francais et archiver LUI. La fiche ne porte aucune reference de modele : le fournisseur peut expedier autre chose."
+      "note": "Declaration UE de conformite en francais, extraite de l archive officielle Xiaomi (24048MP07G=fr.pdf, 27 langues). Fabricant Xiaomi Communications, contact UE Xiaomi Technology Netherlands B.V., organisme notifie Timco Engineering ID 1177, certificat E1177-243894. La fiche boutique ne porte aucune reference de modele : faire confirmer par ecrit au fournisseur que le stylet expedie est bien un 24048MP07G avant de considerer la fiche couverte."
     }
   },
   {
@@ -34368,7 +34368,7 @@
         "RoHS 2011/65/UE"
       ],
       "urlDocument": "https://ce-doc.alsgp0.mi-fds.com/ce-doc/XiaomiVacuumVacuumG20LiteC203.pdf",
-      "documentArchive": "CONFORMITE\\Xiaomi\\aspirateur-balai-xiaomi-g20-lite.pdf",
+      "documentArchive": "CONFORMITE/Xiaomi/aspirateur-balai-xiaomi-g20-lite.pdf",
       "trouveLe": "2026-08-05",
       "note": "Portail de conformite officiel Xiaomi. Le nom du fichier porte la reference exacte du modele."
     }
@@ -35364,7 +35364,7 @@
         "RoHS 2011/65/UE + 2015/863"
       ],
       "urlDocument": "https://fen.home.pl/pub/Producenci/Orico/Deklaracje%20CE/CE%20Declaration%20AC325-1S-V1-BK-BP-RO.pdf",
-      "documentArchive": "CONFORMITE\\ORICO\\berceau-support-disque-dur-2-5-orico.pdf",
+      "documentArchive": "CONFORMITE/ORICO/berceau-support-disque-dur-2-5-orico.pdf",
       "trouveLe": "2026-08-05",
       "note": "Declaration ORICO signee du 10/10/2023, liste de modeles descendant jusqu'a la reference nue AC325 : toute la famille est couverte. Piece metallique passive, sans electronique."
     }
@@ -36348,7 +36348,7 @@
         "RoHS 2011/65/UE"
       ],
       "urlDocument": "https://www.aqara.com/wp-content/uploads/declaration-of-conformity/Water_Leak_Sensor_SJCGQ11LM_EU_DOC_%241630481474629021101.pdf",
-      "documentArchive": "CONFORMITE\\Aqara\\capteur-fuite-eau-aqara-zigbee.pdf",
+      "documentArchive": "CONFORMITE/Aqara/capteur-fuite-eau-aqara-zigbee.pdf",
       "trouveLe": "2026-08-05",
       "note": "Fabricant Lumi United Technology, Shenzhen. Aqara vend plusieurs generations du meme capteur, chacune avec SON document : lire la reference sur la coque ou la boite avant de rattacher."
     }
@@ -36658,7 +36658,7 @@
         "RoHS 2011/65/UE"
       ],
       "urlDocument": "https://www.aqara.com/wp-content/uploads/declaration-of-conformity/Wireless_Mini_Switch_WXKG11LM_EU_DOC_%241630481480177008260.pdf",
-      "documentArchive": "CONFORMITE\\Aqara\\mini-interrupteur-sans-fil-aqara.pdf",
+      "documentArchive": "CONFORMITE/Aqara/mini-interrupteur-sans-fil-aqara.pdf",
       "trouveLe": "2026-08-05",
       "note": "Le WXKG01LM et le WXKG11LM sont presque identiques a l'oeil et les fournisseurs les confondent en permanence. Verification de la reference obligatoire."
     }
@@ -36768,7 +36768,7 @@
         "RoHS 2011/65/UE"
       ],
       "urlDocument": "https://www.aqara.com/wp-content/uploads/declaration-of-conformity/Temperature%20and%20Humidity%20Sensor%20-%20WSDCGQ11LM_EU_DOC_%241643511461163070978.pdf",
-      "documentArchive": "CONFORMITE\\Aqara\\capteur-temperature-humidite-pression-aqara.pdf",
+      "documentArchive": "CONFORMITE/Aqara/capteur-temperature-humidite-pression-aqara.pdf",
       "trouveLe": "2026-08-05",
       "note": "Fabricant Lumi United Technology, Shenzhen."
     }
@@ -36982,7 +36982,7 @@
         "RoHS 2011/65/UE"
       ],
       "urlDocument": "https://www.aqara.com/wp-content/uploads/declaration-of-conformity/Door_and_Window_Sensor_MCCGQ11LM_EU_DOC_%241630481401943070208.pdf",
-      "documentArchive": "CONFORMITE\\Aqara\\capteur-ouverture-porte-fenetre-aqara.pdf",
+      "documentArchive": "CONFORMITE/Aqara/capteur-ouverture-porte-fenetre-aqara.pdf",
       "trouveLe": "2026-08-05",
       "note": "Fabricant Lumi United Technology, Shenzhen."
     }
