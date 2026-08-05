@@ -265,6 +265,26 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
           `Les présentes conditions sont soumises au droit français. En cas de litige, les tribunaux français sont compétents dans les conditions prévues par le code de procédure civile.`,
         ],
       },
+      {
+        // Article L541-10-8 du code de l'environnement. Cette obligation pese
+        // sur le DISTRIBUTEUR et existe independamment de toute adhesion a un
+        // eco-organisme : elle s'applique deja aujourd'hui. Le silence des CGV
+        // sur ce point etait donc lui-meme une infraction, et pas seulement une
+        // omission commerciale.
+        //
+        // Rediger « renvoyez-nous l'ancien appareil a telle adresse » creerait
+        // un flux de dechets non maitrise vers un domicile. Le texte annonce
+        // donc le droit — qui est du, et que le client peut exercer — en
+        // passant par une prise de contact, ce qui laisse au vendeur le choix
+        // de la modalite concrete au cas par cas. C'est exact, exigible, et ca
+        // n'engage pas une logistique qui n'existe pas encore.
+        title: "13. Reprise des appareils et des piles usagés",
+        paragraphs: [
+          `Conformément à l'article L541-10-8 du code de l'environnement, lors de l'achat d'un équipement électrique ou électronique, le client peut nous remettre gratuitement un équipement usagé de même type, dans la limite d'un appareil rendu pour un appareil acheté. Cette reprise est sans frais et sans condition d'achat supplémentaire.`,
+          `Pour en bénéficier, il suffit d'en faire la demande au moment de la commande ou dans les jours qui suivent la livraison, à l'adresse ${champ("email")}. Les modalités pratiques de la reprise sont alors convenues ensemble.`,
+          `Les piles et batteries usagées ne se jettent jamais avec les ordures ménagères. Elles peuvent être déposées gratuitement dans les bornes de collecte présentes dans la plupart des commerces et des déchèteries.`,
+        ],
+      },
     ],
   },
 
