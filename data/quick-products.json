@@ -16,13 +16,12 @@
       "/uploads/quick-products/organisateur-coffre-voiture-60l-pliable-photo-5.webp"
     ],
     "shortDescription": "Grand organisateur 60 L à compartiments : le coffre reste rangé, même en vacances.",
-    "description": "Le coffre qui ressemble à un champ de bataille, c'est terminé : 60 litres de rangement à compartiments en tissu Oxford imperméable, panneaux renforcés, poignées cuir. Courses, produits d'entretien, affaires de sport ou de plage — chaque chose à sa place, et il se plie à plat quand on n'en a pas besoin. Noté 4,9/5 par ses acheteurs.",
+    "description": "Le coffre qui ressemble à un champ de bataille, c'est terminé : 60 litres de rangement à compartiments en tissu Oxford imperméable, panneaux renforcés, poignées cuir. Courses, produits d'entretien, affaires de sport ou de plage — chaque chose à sa place, et il se plie à plat quand on n'en a pas besoin.",
     "features": [
       "60 litres, multi-compartiments modulables",
       "Tissu Oxford 600D imperméable, panneaux renforcés",
       "Poignées cuir : se transporte comme un cabas",
-      "Se plie à plat en 5 secondes",
-      "Noté 4,9/5 par les acheteurs"
+      "Se plie à plat en 5 secondes"
     ],
     "livraisonDisponible": "toutes",
     "source": "internal",
@@ -84,7 +83,7 @@
   {
     "id": "ali_claude_20260720_porte_cartes_rfid_029",
     "slug": "porte-cartes-rfid-antivol-minimaliste",
-    "name": "Porte-cartes anti-piratage RFID minimaliste",
+    "name": "Porte-cartes minimaliste avec blindage RFID",
     "categoryId": "dropshipping-accessoires",
     "condition": "Neuf",
     "stock": 100,
@@ -97,8 +96,8 @@
       "/uploads/quick-products/porte-cartes-rfid-antivol-minimaliste-photo-4.webp",
       "/uploads/quick-products/porte-cartes-rfid-antivol-minimaliste-photo-5.webp"
     ],
-    "shortDescription": "Porte-cartes ultra-fin qui bloque le piratage sans contact de vos cartes bancaires.",
-    "description": "Vos cartes sans contact peuvent être lues à votre insu dans une foule : ce porte-cartes intègre un blindage RFID qui bloque toute lecture pirate. Ultra-fin, il glisse dans la poche avant et remplace le gros portefeuille. L'accessoire sécurité que tout le monde devrait avoir — surtout en voyage.",
+    "shortDescription": "Porte-cartes ultra-fin qui fait écran à la lecture sans contact de vos cartes bancaires.",
+    "description": "Vos cartes sans contact peuvent être lues à votre insu dans une foule : ce porte-cartes intègre un blindage RFID qui fait écran à la lecture sans contact. Ultra-fin, il glisse dans la poche avant et remplace le gros portefeuille. L'accessoire sécurité que tout le monde devrait avoir — surtout en voyage.",
     "features": [
       "Blindage RFID : cartes illisibles par les pirates",
       "Ultra-fin : tient dans la poche avant",
@@ -997,7 +996,7 @@
   {
     "id": "ali_claude_20260720_chapeau_paille_018",
     "slug": "chapeau-paille-pliable-upf50",
-    "name": "Chapeau de paille pliable UPF 50+",
+    "name": "Chapeau de paille pliable à large bord",
     "categoryId": "dropshipping-mode",
     "condition": "Neuf",
     "stock": 80,
@@ -1010,8 +1009,8 @@
       "/uploads/quick-products/chapeau-paille-pliable-upf50-photo-4.webp",
       "/uploads/quick-products/chapeau-paille-pliable-upf50-photo-5.webp"
     ],
-    "shortDescription": "Chapeau de paille à large bord, protection UPF 50+, se plie dans le sac sans s'abîmer.",
-    "description": "L'élégance ET la protection : ce chapeau à large bord bloque les UV (indice UPF 50+) et se plie dans le sac de plage sans garder de mauvais pli. Léger, aéré, il accompagne plage, marché, jardin et terrasses. L'accessoire d'été qui sauve la peau ET le style.",
+    "shortDescription": "Chapeau de paille à large bord, se plie dans le sac sans s'abîmer.",
+    "description": "L'élégance ET la protection : ce chapeau à large bord protège du soleil grâce à son large bord et se plie dans le sac de plage sans garder de mauvais pli. Léger, aéré, il accompagne plage, marché, jardin et terrasses. L'accessoire d'été qui sauve la peau ET le style.",
     "features": [
       "Protection solaire UPF 50+",
       "Large bord : visage et nuque à l'ombre",
@@ -3172,8 +3171,7 @@
     "description": "Sac banane sport/voyage, conçu pour transporter téléphone, clés ou petits objets pendant marche, randonnée, course ou vélo.",
     "features": [
       "Accessoire sport/loisirs léger et facile à expédier",
-      "Usage clair: marche, voyage, vélo, running",
-      "Bon signal de commandes récentes",
+      "Usage clair : marche, voyage, vélo, running",
       "Produit ajoute en couche catalogue controlee",
       "Marge cible 30-40% avant frais, retours et taxes"
     ],
@@ -3638,7 +3636,6 @@
     "features": [
       "Prix bas, bon candidat panier additionnel",
       "Usage maison/cuisine/salle de bain facile à comprendre",
-      "Très fort signal de commandes recentes",
       "Produit ajoute en couche catalogue controlee",
       "Marge cible 30-40% avant frais, retours et taxes"
     ],
@@ -3868,7 +3865,6 @@
     "description": "Set coupe-ongles/manucure portable pour maison, voyage ou trousse de toilette.",
     "features": [
       "Produit beauté/hygiène pratique et compact",
-      "Bon signal de commandes recentes",
       "Candidat bundle avec trousse voyage",
       "Produit ajoute en couche catalogue controlee",
       "Marge cible 30-40% avant frais, retours et taxes"
@@ -14473,7 +14469,7 @@
   {
     "id": "ali_partner_20260720_portefeuille_homme_cuir_protection_rfid_001",
     "slug": "portefeuille-homme-cuir-protection-rfid",
-    "name": "Portefeuille homme cuir anti-RFID",
+    "name": "Portefeuille homme compact avec blindage RFID",
     "categoryId": "dropshipping-accessoires",
     "condition": "Neuf",
     "stock": 40,
@@ -14487,11 +14483,11 @@
       "/uploads/quick-products/portefeuille-homme-cuir-protection-rfid-photo-5.webp",
       "/uploads/quick-products/portefeuille-homme-cuir-protection-rfid-photo-6.webp"
     ],
-    "shortDescription": "Portefeuille compact pour homme en cuir PU avec blocage RFID qui protege les cartes bancaires du piratage sans contact.",
-    "description": "Portefeuille court pour homme en cuir PU souple avec technologie de blocage RFID integree : vos cartes bancaires sont protegees de la lecture sans contact. Compartiments cartes, billets et monnaie dans un format compact qui tient dans la poche avant.",
+    "shortDescription": "Portefeuille compact pour homme en polyuréthane avec blocage RFID qui fait écran à la lecture sans contact des cartes bancaires.",
+    "description": "Portefeuille court pour homme en polyuréthane souple avec technologie de blocage RFID integree : vos cartes bancaires sont à l'abri de la lecture sans contact. Compartiments cartes, billets et monnaie dans un format compact qui tient dans la poche avant.",
     "features": [
       "Blocage RFID : cartes protegees du piratage sans contact",
-      "Cuir PU souple et resistant, finition soignee",
+      "polyuréthane souple et resistant, finition soignee",
       "Format compact : poche avant, veste ou sac"
     ],
     "livraisonDisponible": "colissimo uniquement",
@@ -15258,7 +15254,7 @@
   {
     "id": "ali_partner_20260720_parapluie_pliant_automatique_anti_uv_001",
     "slug": "parapluie-pliant-automatique-anti-uv",
-    "name": "Parapluie pliant automatique anti-UV",
+    "name": "Parapluie pliant automatique compact",
     "categoryId": "dropshipping-accessoires",
     "condition": "Neuf",
     "stock": 40,
@@ -15272,11 +15268,11 @@
       "/uploads/quick-products/parapluie-pliant-automatique-anti-uv-photo-5.webp",
       "/uploads/quick-products/parapluie-pliant-automatique-anti-uv-photo-6.webp"
     ],
-    "shortDescription": "Parapluie pliant a ouverture et fermeture automatiques, toile solide anti-UV : protege de la pluie comme du soleil.",
-    "description": "Parapluie pliant avec ouverture et fermeture automatiques d une seule main, armature renforcee et toile enduite anti-UV. Compact dans le sac, il protege aussi bien des averses que du soleil d ete.",
+    "shortDescription": "Parapluie pliant a ouverture et fermeture automatiques, toile solide : protege de la pluie comme du soleil.",
+    "description": "Parapluie pliant avec ouverture et fermeture automatiques d une seule main, armature renforcee et toile enduite. Compact dans le sac, il protege aussi bien des averses que du soleil d ete.",
     "features": [
       "Ouverture/fermeture automatique d une main",
-      "Toile enduite anti-UV : pluie et soleil",
+      "toile enduite : pluie et soleil",
       "Compact et solide, armature renforcee"
     ],
     "livraisonDisponible": "colissimo uniquement",
@@ -15653,7 +15649,7 @@
   {
     "id": "ali_partner_20260720_chapeau_soleil_protection_uv_rabat_cou_001",
     "slug": "chapeau-soleil-protection-uv-rabat-cou",
-    "name": "Chapeau de soleil anti-UV avec rabat de cou",
+    "name": "Chapeau de soleil avec rabat de cou",
     "categoryId": "dropshipping-mode",
     "condition": "Neuf",
     "stock": 40,
@@ -15667,8 +15663,8 @@
       "/uploads/quick-products/chapeau-soleil-protection-uv-rabat-cou-photo-5.webp",
       "/uploads/quick-products/chapeau-soleil-protection-uv-rabat-cou-photo-6.webp"
     ],
-    "shortDescription": "Chapeau d ete avec protection UV et rabat de cou amovible : ideal jardin, peche, randonnee et vacances au soleil.",
-    "description": "Chapeau de soleil leger avec visiere couvrante et rabat protege-nuque : une protection UV complete pour le jardinage, la peche, la randonnee ou la plage. Tissu respirant qui seche vite, taille reglable pour homme et femme.",
+    "shortDescription": "Chapeau d ete couvrant avec rabat de cou amovible : ideal jardin, peche, randonnee et vacances au soleil.",
+    "description": "Chapeau de soleil leger avec visiere couvrante et rabat protege-nuque : une couverture complete de la tete et de la nuque pour le jardinage, la peche, la randonnee ou la plage. Tissu respirant qui seche vite, taille reglable pour homme et femme.",
     "features": [
       "Protection UV avec rabat protege-nuque",
       "Tissu leger et respirant, sechage rapide",
@@ -18102,7 +18098,7 @@
   {
     "id": "ali_partner_20260720_porte_cartes_cuir_ultra_fin_femme_001",
     "slug": "porte-cartes-cuir-ultra-fin-femme",
-    "name": "Porte-cartes ultra-fin en cuir pour femme",
+    "name": "Porte-cartes ultra-fin pour femme",
     "categoryId": "dropshipping-accessoires",
     "condition": "Neuf",
     "stock": 40,
@@ -18116,11 +18112,11 @@
       "/uploads/quick-products/porte-cartes-cuir-ultra-fin-femme-photo-5.webp",
       "/uploads/quick-products/porte-cartes-cuir-ultra-fin-femme-photo-6.webp"
     ],
-    "shortDescription": "Mini porte-cartes en cuir PU ultra-fin et minimaliste : cartes et billets ranges dans un format qui tient dans la paume.",
-    "description": "Porte-cartes minimaliste en cuir PU souple, ultra-fin : cartes bancaires, carte de transport et quelques billets tiennent dans un format qui se glisse dans la poche ou le plus petit sac. Plusieurs coloris tendance.",
+    "shortDescription": "Mini porte-cartes en polyuréthane ultra-fin et minimaliste : cartes et billets ranges dans un format qui tient dans la paume.",
+    "description": "Porte-cartes minimaliste en polyuréthane souple, ultra-fin : cartes bancaires, carte de transport et quelques billets tiennent dans un format qui se glisse dans la poche ou le plus petit sac. Plusieurs coloris tendance.",
     "features": [
       "Ultra-fin : tient dans la paume",
-      "Cuir PU souple, coloris tendance",
+      "polyuréthane souple, coloris tendance",
       "Cartes, transport, billets : l essentiel"
     ],
     "livraisonDisponible": "colissimo uniquement",
@@ -19620,7 +19616,7 @@
       "/uploads/quick-products/manette-gamesir-nova-lite-switch-pc-photo-6.webp"
     ],
     "shortDescription": "Manette sans fil GameSir Nova Lite avec sticks effet Hall anti-drift : compatible Switch, PC, Steam, iPhone et Android.",
-    "description": "Manette de jeu sans fil GameSir Nova Lite avec sticks a effet Hall anti-derive : precision durable, prise en main confortable et compatibilite large avec Nintendo Switch, PC Windows, Steam, iPhone et Android. La marque de confiance des joueurs, plebiscitee par des dizaines de milliers d acheteurs.",
+    "description": "Manette de jeu sans fil GameSir Nova Lite avec sticks a effet Hall anti-derive : precision durable, prise en main confortable et compatibilite large avec Nintendo Switch, PC Windows, Steam, iPhone et Android. La marque de confiance des joueurs",
     "features": [
       "Sticks effet Hall : zero derive dans le temps",
       "Compatible Switch, PC, Steam, iOS, Android",
@@ -20020,7 +20016,7 @@
     "features": [
       "Tension AC/DC, courant, resistance, continuite",
       "Ecran LCD clair, prise en main simple",
-      "Marque ANENG : plebiscite par 50 000+ acheteurs"
+      "Marque ANENG"
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
@@ -20116,7 +20112,7 @@
     "features": [
       "Tri-mode : USB-C, Bluetooth, 2.4G",
       "Switches remplacables a chaud, RGB",
-      "Marque AJAZZ : 10 000+ acheteurs, note 4.9"
+      "Marque AJAZZ"
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
@@ -20213,7 +20209,7 @@
     "features": [
       "Double connexion USB et XLR",
       "Bouton muet tactile + prise casque",
-      "Marque FIFINE : reference streaming, note 4.9"
+      "Marque FIFINE : reference streaming."
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
@@ -20404,7 +20400,7 @@
       "/uploads/quick-products/jeu-douilles-hexagonales-9-pieces-photo-6.webp"
     ],
     "shortDescription": "Jeu de 9 embouts a douille hexagonale de 5 a 13 mm pour visseuse et perceuse : boulons et ecrous serres en un clin d oeil.",
-    "description": "Jeu de 9 embouts a douille hexagonale de 5 a 13 mm compatibles visseuse et perceuse : ecrous, boulons et vis a tete hexagonale se serrent et se desserrent sans effort. Un basique de la caisse a outils plebiscite par plus de 100 000 acheteurs.",
+    "description": "Jeu de 9 embouts a douille hexagonale de 5 a 13 mm compatibles visseuse et perceuse : ecrous, boulons et vis a tete hexagonale se serrent et se desserrent sans effort. Un basique de la caisse a outils plebiscite",
     "features": [
       "9 douilles de 5 a 13 mm",
       "Compatible visseuse et perceuse",
@@ -20582,7 +20578,7 @@
   {
     "id": "ali_partner_20260720_pince_electricien_multifonction_denuder_001",
     "slug": "pince-electricien-multifonction-denuder",
-    "name": "Pince d'électricien multifonction à dénuder",
+    "name": "Pince multifonction à dénuder et sertir",
     "categoryId": "dropshipping-outillage",
     "condition": "Neuf",
     "stock": 40,
@@ -20596,8 +20592,8 @@
       "/uploads/quick-products/pince-electricien-multifonction-denuder-photo-5.webp",
       "/uploads/quick-products/pince-electricien-multifonction-denuder-photo-6.webp"
     ],
-    "shortDescription": "Pince multifonction d electricien : denude, coupe et sertit les fils avec precision, manche pliant compact.",
-    "description": "Pince d electricien multifonction pliante : elle denude les fils sans les abimer, coupe proprement et sertit les cosses. Un seul outil precis et compact pour tous les branchements : prises, luminaires, domotique et petites installations.",
+    "shortDescription": "Pince multifonction : denude, coupe et sertit les fils avec precision, manche pliant compact.",
+    "description": "Pince multifonction pliante : elle denude les fils sans les abimer, coupe proprement et sertit les cosses. Un seul outil precis et compact pour tous les branchements : prises, luminaires, domotique et petites installations.",
     "features": [
       "Denude, coupe et sertit les fils",
       "Reglage precis, ne blesse pas le cuivre",
@@ -20791,7 +20787,7 @@
       "/uploads/quick-products/hub-usb-type-c-8-en-2-multiport-photo-6.webp"
     ],
     "shortDescription": "Hub 8 en 2 USB et USB-C : ports supplementaires, lecteur de cartes SD et prise jack pour PC portable, tablette et telephone.",
-    "description": "Hub multiport 8 en 2 avec connecteurs USB et USB-C : il ajoute des ports USB, un lecteur de cartes SD/Micro SD et une prise jack 3,5 mm aux PC portables, tablettes et telephones. Plus de 100 000 acheteurs conquis par ce petit accessoire indispensable.",
+    "description": "Hub multiport 8 en 2 avec connecteurs USB et USB-C : il ajoute des ports USB, un lecteur de cartes SD/Micro SD et une prise jack 3,5 mm aux PC portables, tablettes et telephones.",
     "features": [
       "8 fonctions : USB, USB-C, SD, jack 3,5 mm",
       "Compatible PC portable, tablette, telephone",
@@ -21177,7 +21173,7 @@
       "/uploads/quick-products/barrettes-ram-ddr4-cusu-16-32-go-photo-6.webp"
     ],
     "shortDescription": "Kit memoire RAM DDR4 avec dissipateur thermique, 3200/3600 MHz XMP 2.0 : boostez votre PC de bureau simplement.",
-    "description": "Barrettes de memoire RAM DDR4 CUSU pour PC de bureau : frequences 3200/3600 MHz, profil XMP 2.0 active en un clic dans le BIOS et dissipateur thermique en aluminium. Un des upgrades les plus efficaces pour redonner de la vitesse a un PC, plebiscite par plus de 10 000 acheteurs (note 4.8).",
+    "description": "Barrettes de memoire RAM DDR4 CUSU pour PC de bureau : frequences 3200/3600 MHz, profil XMP 2.0 active en un clic dans le BIOS et dissipateur thermique en aluminium. Un des upgrades les plus efficaces pour redonner de la vitesse a un PC, plebiscite(.).",
     "features": [
       "DDR4 3200/3600 MHz, profil XMP 2.0",
       "Dissipateur aluminium : stable sous charge",
@@ -21273,7 +21269,7 @@
       "/uploads/quick-products/compresseur-air-portable-carsun-sans-fil-photo-6.webp"
     ],
     "shortDescription": "Gonfleur electrique sans fil avec ecran numerique : pneus de voiture, velo, moto et ballons regonfles en quelques minutes.",
-    "description": "Compresseur d air portable CARSUN rechargeable : reglez la pression cible sur l ecran numerique, il gonfle et s arrete tout seul. Pneus de voiture, velo, moto, ballons : fini les stations service, il tient dans la boite a gants. Note 4.8 par plus de 2 300 acheteurs.",
+    "description": "Compresseur d air portable CARSUN rechargeable : reglez la pression cible sur l ecran numerique, il gonfle et s arrete tout seul. Pneus de voiture, velo, moto, ballons : fini les stations service, il tient dans la boite a gants",
     "features": [
       "Sans fil, ecran numerique, arret auto",
       "Voiture, velo, moto, ballons",
@@ -21578,11 +21574,11 @@
       "/uploads/quick-products/distributeur-croquettes-automatique-rojeco-wifi-photo-6.webp"
     ],
     "shortDescription": "Distributeur de croquettes intelligent ROJECO pilotable au telephone : repas programmes pour chat et chien, meme en votre absence.",
-    "description": "Distributeur automatique de croquettes ROJECO connecte en WiFi : programmez les repas depuis le telephone, lancez une distribution a distance et gardez votre chat ou chien nourri a heures fixes meme en deplacement. Note 4.9, marque reconnue des accessoires connectes pour animaux.",
+    "description": "Distributeur automatique de croquettes ROJECO connecte en WiFi : programmez les repas depuis le telephone, lancez une distribution a distance et gardez votre chat ou chien nourri a heures fixes meme en deplacement., marque reconnue des accessoires connectes pour animaux.",
     "features": [
       "Pilotage WiFi depuis le telephone",
       "Repas programmes a heures fixes",
-      "Pour chats et chiens, note 4.9"
+      "Pour chats et chiens."
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
@@ -21660,7 +21656,7 @@
   {
     "id": "ali_partner_20260720_sac_bandouliere_cuir_pu_femme_homefish_001",
     "slug": "sac-bandouliere-cuir-pu-femme-homefish",
-    "name": "Sac bandoulière femme en cuir PU",
+    "name": "Sac bandoulière femme en polyuréthane",
     "categoryId": "dropshipping-mode",
     "condition": "Neuf",
     "stock": 40,
@@ -21674,12 +21670,11 @@
       "/uploads/quick-products/sac-bandouliere-cuir-pu-femme-homefish-photo-5.webp",
       "/uploads/quick-products/sac-bandouliere-cuir-pu-femme-homefish-photo-6.webp"
     ],
-    "shortDescription": "Mini sac a main bandouliere en cuir PU souple, couleurs unies faciles a assortir : l essentiel avec style, note 4.9.",
-    "description": "Sac a bandouliere pour femme en cuir PU souple, format mini qui contient l essentiel : telephone, porte-cartes, cles et rouge a levres. Couleurs unies faciles a assortir, bandouliere reglable. Note 4.9 par pres de 2 000 acheteuses.",
+    "shortDescription": "Mini sac a main bandouliere en polyuréthane souple, couleurs unies faciles a assortir : l essentiel avec style.",
+    "description": "Sac a bandouliere pour femme en polyuréthane souple, format mini qui contient l essentiel : telephone, porte-cartes, cles et rouge a levres. Couleurs unies faciles a assortir, bandouliere reglable.par pres de 2 000 acheteuses.",
     "features": [
-      "Cuir PU souple, finitions soignees",
-      "Format mini : l essentiel a portee",
-      "Note 4.9 sur pres de 2 000 avis"
+      "polyuréthane souple, finitions soignees",
+      "Format mini : l essentiel a portee"
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
@@ -21771,12 +21766,12 @@
       "/uploads/quick-products/sac-dos-antivol-ordinateur-port-usb-photo-5.webp",
       "/uploads/quick-products/sac-dos-antivol-ordinateur-port-usb-photo-6.webp"
     ],
-    "shortDescription": "Sac a dos d affaires antivol avec compartiment ordinateur et port USB externe : ideal boulot, fac et voyage. Note 5.0.",
-    "description": "Sac a dos antivol pour ordinateur portable : poches securisees dans le dos, tissu resistant a l eau, compartiments organises et port USB externe pour recharger le telephone depuis une batterie glissee a l interieur. Parfait pour le travail, les etudes et les voyages. Note parfaite 5.0 sur pres de 200 avis.",
+    "shortDescription": "Sac a dos d affaires antivol avec compartiment ordinateur et port USB externe : ideal boulot, fac et voyage.",
+    "description": "Sac a dos antivol pour ordinateur portable : poches securisees dans le dos, tissu resistant a l eau, compartiments organises et port USB externe pour recharger le telephone depuis une batterie glissee a l interieur. Parfait pour le travail, les etudes et les voyages.",
     "features": [
       "Poches antivol dissimulees dans le dos",
       "Compartiment ordinateur + port USB externe",
-      "Tissu resistant a l eau, note 5.0"
+      "Tissu resistant a l eau,"
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
@@ -21870,7 +21865,7 @@
       "/uploads/quick-products/tapis-souris-gaming-led-rgb-etanche-photo-6.webp"
     ],
     "shortDescription": "Grand tapis de souris avec contour LED RGB : glisse precise, surface etanche et halo lumineux qui transforme le setup.",
-    "description": "Tapis de souris gaming grand format avec contour LED RGB : plusieurs modes lumineux pour accorder le tapis au reste du setup, surface lisse et precise pour la souris, revetement etanche facile a essuyer. Note 4.8 par pres de 400 joueurs.",
+    "description": "Tapis de souris gaming grand format avec contour LED RGB : plusieurs modes lumineux pour accorder le tapis au reste du setup, surface lisse et precise pour la souris, revetement etanche facile a essuyer.par pres de 400 joueurs.",
     "features": [
       "Contour LED RGB, plusieurs modes",
       "Surface precise et etanche",
@@ -21968,11 +21963,11 @@
       "/uploads/quick-products/purificateur-air-hepa-ions-negatifs-photo-6.webp"
     ],
     "shortDescription": "Purificateur d air compact avec filtre HEPA et ions negatifs : poussiere, poils et odeurs filtres dans la chambre ou le bureau.",
-    "description": "Purificateur d air compact avec filtre HEPA et generateur d ions negatifs : il capte poussiere, poils d animaux, pollens et odeurs pour un air plus sain dans la chambre, le bureau ou le salon. Silencieux et sobre, note 4.9 par plus de 600 acheteurs.",
+    "description": "Purificateur d air compact avec filtre HEPA et generateur d ions negatifs : il capte poussiere, poils d animaux, pollens et odeurs pour un air plus sain dans la chambre, le bureau ou le salon. Silencieux et sobre",
     "features": [
       "Filtre HEPA : poussiere, pollens, poils",
       "Ions negatifs : air assaini, odeurs reduites",
-      "Compact et silencieux, note 4.9"
+      "Compact et silencieux."
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
@@ -22168,12 +22163,11 @@
       "/uploads/quick-products/mini-projecteur-hy300-pro-android-wifi6-photo-5.webp",
       "/uploads/quick-products/mini-projecteur-hy300-pro-android-wifi6-photo-6.webp"
     ],
-    "shortDescription": "Mini videoprojecteur HY300 Pro sous Android avec WiFi 6 et Bluetooth : le cinema a la maison, note 4.9 sur 19 000 avis.",
-    "description": "Mini projecteur HY300 Pro sous Android avec WiFi 6 et Bluetooth 5.4 : Netflix, YouTube et vos applis directement dans le projecteur, image jusqu a tres grand format sur un mur blanc. Le carton des soirees cinema a la maison : note 4.9 sur plus de 19 000 avis et 100 000 ventes.",
+    "shortDescription": "Mini videoprojecteur HY300 Pro sous Android avec WiFi 6 et Bluetooth : le cinema a la maison.",
+    "description": "Mini projecteur HY300 Pro sous Android avec WiFi 6 et Bluetooth 5.4 : Netflix, YouTube et vos applis directement dans le projecteur, image jusqu a tres grand format sur un mur blanc. Le carton des soirees cinema a la maison:",
     "features": [
       "Android integre : applis sans autre appareil",
-      "WiFi 6 + Bluetooth 5.4",
-      "Note 4.9 sur plus de 19 000 avis"
+      "WiFi 6 + Bluetooth 5.4"
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
@@ -22472,7 +22466,7 @@
       "/uploads/quick-products/thermometre-cuisine-numerique-sonde-photo-4.webp"
     ],
     "shortDescription": "Thermometre de cuisson a lecture instantanee avec sonde inox : viandes, barbecue et patisserie toujours a la bonne temperature.",
-    "description": "Thermometre de cuisine numerique a sonde inox et lecture instantanee : plantez, lisez, servez. Viandes rosees a coeur, barbecue maitrise, sirops et chocolats a temperature exacte. L outil des cuissons reussies, note 4.8 par pres de 600 acheteurs.",
+    "description": "Thermometre de cuisine numerique a sonde inox et lecture instantanee : plantez, lisez, servez. Viandes rosees a coeur, barbecue maitrise, sirops et chocolats a temperature exacte. L outil des cuissons reussies",
     "features": [
       "Lecture instantanee sur ecran LCD",
       "Sonde inox : viande, BBQ, patisserie",
@@ -22568,7 +22562,7 @@
       "/uploads/quick-products/harnais-laisse-chat-petit-chien-reflechissant-photo-6.webp"
     ],
     "shortDescription": "Harnais gilet en maille respirante avec laisse assortie : bandes reflechissantes et reglages doux pour chats et petits chiens.",
-    "description": "Ensemble harnais et laisse pour chat et petit chien : gilet en maille polyester respirante qui repartit la traction sans serrer le cou, bandes reflechissantes pour les sorties du soir et reglages faciles. Promenades sereines, note 4.6 par pres de 1 400 acheteurs.",
+    "description": "Ensemble harnais et laisse pour chat et petit chien : gilet en maille polyester respirante qui repartit la traction sans serrer le cou, bandes reflechissantes pour les sorties du soir et reglages faciles. Promenades sereines",
     "features": [
       "Gilet maille respirante, traction repartie",
       "Bandes reflechissantes pour le soir",
@@ -22666,7 +22660,7 @@
       "/uploads/quick-products/cubes-rangement-valise-lot-6-photo-6.webp"
     ],
     "shortDescription": "Lot de 6 organisateurs de valise etanches avec zip : vetements ranges par categorie, valise faite et defaite en 5 minutes.",
-    "description": "Lot de 6 sacs de rangement de voyage etanches avec fermeture eclair : vetements, sous-vetements et chaussures ranges chacun dans leur cube, la valise se fait et se defait en 5 minutes et reste impeccable tout le sejour. Note 4.6 par pres de 5 000 voyageurs.",
+    "description": "Lot de 6 sacs de rangement de voyage etanches avec fermeture eclair : vetements, sous-vetements et chaussures ranges chacun dans leur cube, la valise se fait et se defait en 5 minutes et reste impeccable tout le sejour.par pres de 5 000 voyageurs.",
     "features": [
       "6 cubes de tailles differentes",
       "Tissu etanche, fermetures zippees",
@@ -22761,8 +22755,8 @@
       "/uploads/quick-products/porte-cable-magnetique-bureau-photo-5.webp",
       "/uploads/quick-products/porte-cable-magnetique-bureau-photo-6.webp"
     ],
-    "shortDescription": "Support magnetique qui garde les cables de charge a portee de main : fini les cables qui glissent derriere le bureau. Note 4.9.",
-    "description": "Porte-cables magnetique adhesif : les embouts de vos cables USB restent accroches au bord du bureau ou de la table de nuit au lieu de glisser par terre. Un petit accessoire malin adopte par plus de 50 000 acheteurs, note 4.9 sur pres de 10 000 avis.",
+    "shortDescription": "Support magnetique qui garde les cables de charge a portee de main : fini les cables qui glissent derriere le bureau.",
+    "description": "Porte-cables magnetique adhesif : les embouts de vos cables USB restent accroches au bord du bureau ou de la table de nuit au lieu de glisser par terre. Un petit accessoire malin",
     "features": [
       "Aimants : les cables restent en place",
       "Adhesif solide, pose en 10 secondes",
@@ -22858,7 +22852,7 @@
       "/uploads/quick-products/mug-thermos-voyage-inox-anti-fuite-photo-6.webp"
     ],
     "shortDescription": "Mug isotherme double paroi inox anti-fuite : cafe chaud pendant le trajet, tient dans le porte-gobelet de la voiture.",
-    "description": "Mug thermos de voyage en double paroi inox : le cafe reste chaud pendant des heures, le couvercle anti-fuite supporte le sac et les secousses, et le format se glisse dans le porte-gobelet de la voiture. Le compagnon des trajets du matin, adopte par plus de 10 000 acheteurs.",
+    "description": "Mug thermos de voyage en double paroi inox : le cafe reste chaud pendant des heures, le couvercle anti-fuite supporte le sac et les secousses, et le format se glisse dans le porte-gobelet de la voiture. Le compagnon des trajets du matin.",
     "features": [
       "Double paroi inox : boissons chaudes des heures",
       "Couvercle anti-fuite teste en sac",
@@ -22956,7 +22950,7 @@
       "/uploads/quick-products/lampe-frontale-led-cob-rechargeable-photo-6.webp"
     ],
     "shortDescription": "Lampe frontale LED COB rechargeable USB avec detecteur de mouvement : mains libres pour bricoler, camper et courir la nuit.",
-    "description": "Lampe frontale LED COB rechargeable en USB avec capteur de mouvement : un geste de la main devant le front pour allumer et eteindre, faisceau large et puissant, bandeau confortable. Bricolage, camping, peche et footing du soir les mains libres. Plus de 50 000 acheteurs, note 4.6 sur 10 000 avis.",
+    "description": "Lampe frontale LED COB rechargeable en USB avec capteur de mouvement : un geste de la main devant le front pour allumer et eteindre, faisceau large et puissant, bandeau confortable. Bricolage, camping, peche et footing du soir les mains libres.",
     "features": [
       "Allumage d un geste (capteur de mouvement)",
       "LED COB : faisceau large et puissant",
@@ -23053,7 +23047,7 @@
       "/uploads/quick-products/ceinture-tressee-elastique-unisexe-photo-6.webp"
     ],
     "shortDescription": "Ceinture en toile tressee extensible avec boucle ardillon : confortable toute la journee, elle s ajuste sans trous.",
-    "description": "Ceinture tressee en toile elastique avec boucle ardillon classique : la maille extensible suit les mouvements et l ardillon se glisse n importe ou dans le tressage, sans trous imposes. Confortable assise comme debout, pour homme et femme, plusieurs longueurs et coloris. Note 4.8 par pres de 1 400 acheteurs.",
+    "description": "Ceinture tressee en toile elastique avec boucle ardillon classique : la maille extensible suit les mouvements et l ardillon se glisse n importe ou dans le tressage, sans trous imposes. Confortable assise comme debout, pour homme et femme, plusieurs longueurs et coloris",
     "features": [
       "Toile tressee extensible : confort reel",
       "Reglage continu, sans trous imposes",
@@ -23148,8 +23142,8 @@
       "/uploads/quick-products/barre-lumineuse-ecran-usb-50cm-photo-5.webp",
       "/uploads/quick-products/barre-lumineuse-ecran-usb-50cm-photo-6.webp"
     ],
-    "shortDescription": "Barre LED a poser sur l ecran : eclaire le bureau sans reflet ni place perdue, intensite et temperature reglables. Note 4.9.",
-    "description": "Barre lumineuse de 50 cm qui se pose sur le haut de l ecran : elle eclaire le clavier et le bureau sans reflet sur la dalle et sans prendre de place. Intensite et temperature de couleur reglables, alimentation USB. Le confort des longues sessions gaming et teletravail. Note 4.9 par 1 700 acheteurs.",
+    "shortDescription": "Barre LED a poser sur l ecran : eclaire le bureau sans reflet ni place perdue, intensite et temperature reglables.",
+    "description": "Barre lumineuse de 50 cm qui se pose sur le haut de l ecran : elle eclaire le clavier et le bureau sans reflet sur la dalle et sans prendre de place. Intensite et temperature de couleur reglables, alimentation USB. Le confort des longues sessions gaming et teletravail",
     "features": [
       "Se pose sur l ecran : zero place perdue",
       "Eclairage sans reflet sur la dalle",
@@ -23349,12 +23343,12 @@
       "/uploads/quick-products/lampe-champignon-deco-rechargeable-photo-5.webp",
       "/uploads/quick-products/lampe-champignon-deco-rechargeable-photo-6.webp"
     ],
-    "shortDescription": "Petite lampe champignon rechargeable a la lumiere douce : l objet deco tendance pour la table de nuit ou l etagere. Note 4.9.",
-    "description": "Mini lampe de nuit en forme de champignon, rechargeable en USB : une lumiere douce et chaleureuse qui transforme une table de nuit, une etagere ou un coin lecture. L objet deco vu partout sur les reseaux, note 4.9 par plus de 600 acheteurs.",
+    "shortDescription": "Petite lampe champignon rechargeable a la lumiere douce : l objet deco tendance pour la table de nuit ou l etagere.",
+    "description": "Mini lampe de nuit en forme de champignon, rechargeable en USB : une lumiere douce et chaleureuse qui transforme une table de nuit, une etagere ou un coin lecture. L objet deco vu partout sur les reseaux",
     "features": [
       "Lumiere douce et chaleureuse",
       "Rechargeable USB, sans fil",
-      "Objet deco tendance, note 4.9"
+      "Objet deco tendance."
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
@@ -23649,7 +23643,7 @@
       "/uploads/quick-products/enceinte-bluetooth-etanche-radio-fm-20h-photo-6.webp"
     ],
     "shortDescription": "Enceinte Bluetooth etanche avec caisson de basses, radio FM et 20 h d autonomie : douche, plage, jardin et chantier.",
-    "description": "Enceinte Bluetooth portable etanche avec caisson de basses, radio FM integree et jusqu a 20 heures d autonomie. Elle encaisse les eclaboussures de la douche, le sable de la plage et la poussiere du chantier sans broncher. Note 4.9 sur plus de 1 600 avis.",
+    "description": "Enceinte Bluetooth portable etanche avec caisson de basses, radio FM integree et jusqu a 20 heures d autonomie. Elle encaisse les eclaboussures de la douche, le sable de la plage et la poussiere du chantier sans broncher",
     "features": [
       "Etanche : douche, plage, jardin, chantier",
       "20 h d autonomie, radio FM integree",
@@ -23745,12 +23739,12 @@
       "/uploads/quick-products/montre-connectee-colmi-p81-ultra-appels-photo-5.webp",
       "/uploads/quick-products/montre-connectee-colmi-p81-ultra-appels-photo-6.webp"
     ],
-    "shortDescription": "Montre connectee COLMI P81 Ultra, grand ecran 1,9 pouce, appels Bluetooth, suivi sante 24h et plus de 100 modes sportifs. Note 4.9.",
-    "description": "Montre connectee COLMI P81 Ultra : grand ecran 1,9 pouce, appels et notifications via Bluetooth, suivi de la frequence cardiaque, de l oxygene et du sommeil 24 h/24, plus de 100 modes sportifs. COLMI est une marque etablie du secteur, et cette reference affiche une note de 4.9 sur plus de 4 200 avis.",
+    "shortDescription": "Montre connectee COLMI P81 Ultra, grand ecran 1,9 pouce, appels Bluetooth, suivi sante 24h et plus de 100 modes sportifs.",
+    "description": "Montre connectee COLMI P81 Ultra : grand ecran 1,9 pouce, appels et notifications via Bluetooth, suivi de la frequence cardiaque, de l oxygene et du sommeil 24 h/24, plus de 100 modes sportifs. COLMI est une marque etablie du secteur, et cette reference",
     "features": [
       "Grand ecran 1,9 pouce, appels Bluetooth",
       "Suivi sante 24h : cardio, oxygene, sommeil",
-      "Plus de 100 modes sportifs, note 4.9"
+      "Plus de 100 modes sportifs."
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
@@ -23843,8 +23837,8 @@
       "/uploads/quick-products/souris-gaming-filaire-rgb-7-boutons-photo-5.webp",
       "/uploads/quick-products/souris-gaming-filaire-rgb-7-boutons-photo-6.webp"
     ],
-    "shortDescription": "Souris de jeu filaire avec retroeclairage RGB, 7 boutons programmables et DPI reglable jusqu a 2400. Note 4.9.",
-    "description": "Souris gaming filaire au capteur optique precis : DPI reglable jusqu a 2400 pour ajuster la sensibilite au jeu, 7 boutons dont deux lateraux, retroeclairage RGB et coque ergonomique antiderapante. Le branchement USB suffit, aucun pilote a installer. Note 4.9 sur plus de 2 000 avis.",
+    "shortDescription": "Souris de jeu filaire avec retroeclairage RGB, 7 boutons programmables et DPI reglable jusqu a 2400.",
+    "description": "Souris gaming filaire au capteur optique precis : DPI reglable jusqu a 2400 pour ajuster la sensibilite au jeu, 7 boutons dont deux lateraux, retroeclairage RGB et coque ergonomique antiderapante. Le branchement USB suffit, aucun pilote a installer",
     "features": [
       "DPI reglable jusqu a 2400, capteur optique",
       "7 boutons dont 2 lateraux, RGB",
@@ -23941,7 +23935,7 @@
       "/uploads/quick-products/kit-scies-cloches-11-pieces-19-64mm-photo-6.webp"
     ],
     "shortDescription": "Coffret de 11 scies cloches de 19 a 64 mm avec mandrin et etui : percages nets pour spots, prises et passages de cables.",
-    "description": "Kit de 11 scies cloches de 19 a 64 mm livre avec mandrin, foret pilote et etui de rangement. Percages nets et reguliers dans le bois, le placo et le plastique : spots encastres, boitiers de prises, passages de cables et amenagements. Note 4.6 sur pres de 1 500 avis.",
+    "description": "Kit de 11 scies cloches de 19 a 64 mm livre avec mandrin, foret pilote et etui de rangement. Percages nets et reguliers dans le bois, le placo et le plastique : spots encastres, boitiers de prises, passages de cables et amenagements",
     "features": [
       "11 diametres de 19 a 64 mm",
       "Mandrin et foret pilote inclus",
@@ -24142,8 +24136,8 @@
       "/uploads/quick-products/brosse-autonettoyante-chien-chat-photo-5.webp",
       "/uploads/quick-products/brosse-autonettoyante-chien-chat-photo-6.webp"
     ],
-    "shortDescription": "Brosse de toilettage autonettoyante : un bouton et les poils se detachent d un bloc, fini les brosses bouchees. Note 4.8.",
-    "description": "Brosse de toilettage pour chien et chat avec systeme autonettoyant : appuyez sur le bouton, les picots se retractent et les poils se detachent d un seul bloc. Les picots a bouts arrondis demelent le sous-poil sans griffer la peau et reduisent nettement les poils sur les canapes. Note 4.8 sur plus de 3 300 avis.",
+    "shortDescription": "Brosse de toilettage autonettoyante : un bouton et les poils se detachent d un bloc, fini les brosses bouchees.",
+    "description": "Brosse de toilettage pour chien et chat avec systeme autonettoyant : appuyez sur le bouton, les picots se retractent et les poils se detachent d un seul bloc. Les picots a bouts arrondis demelent le sous-poil sans griffer la peau et reduisent nettement les poils sur les canapes",
     "features": [
       "Bouton autonettoyant : poils retires d un bloc",
       "Picots a bouts arrondis, sans griffer",
@@ -24239,7 +24233,7 @@
       "/uploads/quick-products/metre-ruban-airaj-autobloquant-5m-photo-6.webp"
     ],
     "shortDescription": "Metre ruban AIRAJ autobloquant avec double graduation metrique et imperiale : lame rigide qui ne plie pas, blocage ferme.",
-    "description": "Metre ruban AIRAJ a blocage automatique : la lame reste tendue sans tenir le bouton, tient droite sur plusieurs metres pour mesurer seul, et affiche les graduations metriques et imperiales. Boitier caoutchoute antichoc, clip ceinture et crochet magnetique. Note 4.7 sur pres de 1 200 avis.",
+    "description": "Metre ruban AIRAJ a blocage automatique : la lame reste tendue sans tenir le bouton, tient droite sur plusieurs metres pour mesurer seul, et affiche les graduations metriques et imperiales. Boitier caoutchoute antichoc, clip ceinture et crochet magnetique",
     "features": [
       "Blocage automatique de la lame",
       "Double graduation metrique et imperiale",
@@ -24332,8 +24326,8 @@
       "/uploads/quick-products/cle-universelle-double-tete-3-17mm-photo-3.webp",
       "/uploads/quick-products/cle-universelle-double-tete-3-17mm-photo-4.webp"
     ],
-    "shortDescription": "Cle universelle a double tete auto-serrante de 3 a 17 mm : elle remplace tout un jeu de cles plates. Plus de 20 000 avis.",
-    "description": "Cle universelle a double extremite auto-serrante couvrant les ecrous de 3 a 17 mm : les machoires s adaptent seules a la taille du boulon, ce qui remplace tout un jeu de cles plates dans la boite a outils ou le coffre de la voiture. Systeme a cliquet pour serrer sans repositionner. Plus de 100 000 ventes et 20 000 avis.",
+    "shortDescription": "Cle universelle a double tete auto-serrante de 3 a 17 mm : elle remplace tout un jeu de cles plates.",
+    "description": "Cle universelle a double extremite auto-serrante couvrant les ecrous de 3 a 17 mm : les machoires s adaptent seules a la taille du boulon, ce qui remplace tout un jeu de cles plates dans la boite a outils ou le coffre de la voiture. Systeme a cliquet pour serrer sans repositionner.",
     "features": [
       "Auto-serrante : s adapte de 3 a 17 mm",
       "Double tete a cliquet, serrage sans repositionner",
@@ -24535,7 +24529,7 @@
       "/uploads/quick-products/tondeuse-cheveux-kemei-km-2299-pro-photo-6.webp"
     ],
     "shortDescription": "Tondeuse professionnelle Kemei KM-2299, batterie 1200 mAh et recharge USB : coupes nettes a la maison, marque reconnue des coiffeurs.",
-    "description": "Tondeuse a cheveux professionnelle Kemei KM-2299 : moteur puissant, lames en acier affutees, batterie 1200 mAh rechargeable en USB pour une longue autonomie et sabots de plusieurs hauteurs. Kemei est une marque de reference chez les coiffeurs et barbiers. Note 4.7 sur plus de 3 400 avis.",
+    "description": "Tondeuse a cheveux professionnelle Kemei KM-2299 : moteur puissant, lames en acier affutees, batterie 1200 mAh rechargeable en USB pour une longue autonomie et sabots de plusieurs hauteurs. Kemei est une marque de reference chez les coiffeurs et barbiers",
     "features": [
       "Marque Kemei, reference des barbiers",
       "Batterie 1200 mAh, recharge USB",
@@ -24632,7 +24626,7 @@
       "/uploads/quick-products/support-telephone-velo-moto-joyroom-360-photo-6.webp"
     ],
     "shortDescription": "Support de telephone Joyroom pour velo et moto : rotation 360 degres, maintien anti-choc et compatible ecrans de 4,7 a 7 pouces.",
-    "description": "Support de telephone universel Joyroom pour guidon de velo, VTT, trottinette ou moto : rotation sur 360 degres pour choisir l orientation, machoires anti-choc qui encaissent les vibrations et les pavés, compatible avec les ecrans de 4,7 a 7 pouces. Le GPS reste lisible sans lacher le guidon. Joyroom est une marque etablie de l accessoire mobile, note 4.9 sur plus de 1 700 avis.",
+    "description": "Support de telephone universel Joyroom pour guidon de velo, VTT, trottinette ou moto : rotation sur 360 degres pour choisir l orientation, machoires anti-choc qui encaissent les vibrations et les pavés, compatible avec les ecrans de 4,7 a 7 pouces. Le GPS reste lisible sans lacher le guidon. Joyroom est une marque etablie de l accessoire mobile",
     "features": [
       "Rotation 360 degres, orientation libre",
       "Maintien anti-choc, resiste aux vibrations",
@@ -24715,7 +24709,7 @@
   {
     "id": "ali_partner_20260802_portefeuille_femme_long_zippe_cuir_pu_001",
     "slug": "portefeuille-femme-long-zippe-cuir-pu",
-    "name": "Portefeuille femme long zippé en cuir PU",
+    "name": "Portefeuille femme long zippé en polyuréthane",
     "categoryId": "dropshipping-mode",
     "condition": "Neuf",
     "stock": 40,
@@ -24729,12 +24723,12 @@
       "/uploads/quick-products/portefeuille-femme-long-zippe-cuir-pu-photo-5.webp",
       "/uploads/quick-products/portefeuille-femme-long-zippe-cuir-pu-photo-6.webp"
     ],
-    "shortDescription": "Portefeuille long zippe en cuir PU : nombreux emplacements cartes, compartiments billets et poche monnaie, tout reste range.",
-    "description": "Portefeuille long pour femme en cuir PU avec fermeture eclair : plusieurs rangees d emplacements pour les cartes, deux compartiments billets, une poche zippee pour la monnaie et un espace telephone. Tout tient en place et rien ne tombe, meme sac renverse. Note 4.6 sur pres de 1 900 avis, 10 000 ventes.",
+    "shortDescription": "Portefeuille long zippe en polyuréthane : nombreux emplacements cartes, compartiments billets et poche monnaie, tout reste range.",
+    "description": "Portefeuille long pour femme en polyuréthane avec fermeture eclair : plusieurs rangees d emplacements pour les cartes, deux compartiments billets, une poche zippee pour la monnaie et un espace telephone. Tout tient en place et rien ne tombe, meme sac renverse",
     "features": [
       "Fermeture eclair : rien ne tombe",
       "Nombreux emplacements cartes et billets",
-      "Cuir PU souple, coloris varies"
+      "polyuréthane souple, coloris varies"
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
@@ -24931,7 +24925,7 @@
       "/uploads/quick-products/cafetiere-italienne-moka-aluminium-photo-6.webp"
     ],
     "shortDescription": "Cafetiere Moka classique en aluminium a poser sur le feu : un vrai cafe serre a l italienne, sans capsule ni electricite.",
-    "description": "Cafetiere italienne Moka en aluminium a poser sur la plaque ou le rechaud : de l eau, du cafe moulu, quelques minutes sur le feu et vous obtenez un cafe serre et aromatique, sans capsule ni machine. Livree avec ses joints de rechange, elle suit aussi en camping et en van. Note 4.9 sur plus de 1 700 avis.",
+    "description": "Cafetiere italienne Moka en aluminium a poser sur la plaque ou le rechaud : de l eau, du cafe moulu, quelques minutes sur le feu et vous obtenez un cafe serre et aromatique, sans capsule ni machine. Livree avec ses joints de rechange, elle suit aussi en camping et en van",
     "features": [
       "Vrai cafe italien sans capsule ni electricite",
       "Aluminium, compatible plaque et rechaud",
@@ -25026,8 +25020,8 @@
       "/uploads/quick-products/coque-iphone-transparente-antichoc-renforcee-photo-5.webp",
       "/uploads/quick-products/coque-iphone-transparente-antichoc-renforcee-photo-6.webp"
     ],
-    "shortDescription": "Coque transparente antichoc avec coins renforces : protege l iPhone sans cacher sa couleur. Note 4.8 sur plus de 9 000 avis.",
-    "description": "Coque de protection transparente pour iPhone avec pare-chocs souple et coins renforces : elle absorbe les chocs des chutes du quotidien tout en laissant voir la couleur d origine du telephone. Bords releves qui protegent l ecran et l appareil photo poses a plat, decoupes precises pour les boutons et le port de charge, matiere anti-jaunissement. Compatible de l iPhone 7 a l iPhone 17. Note 4.8 sur plus de 9 000 avis, 50 000 ventes.",
+    "shortDescription": "Coque transparente antichoc avec coins renforces : protege l iPhone sans cacher sa couleur",
+    "description": "Coque de protection transparente pour iPhone avec pare-chocs souple et coins renforces : elle absorbe les chocs des chutes du quotidien tout en laissant voir la couleur d origine du telephone. Bords releves qui protegent l ecran et l appareil photo poses a plat, decoupes precises pour les boutons et le port de charge, matiere anti-jaunissement. Compatible de l iPhone 7 a l iPhone 17",
     "features": [
       "Coins renforces : absorbe les chocs des chutes",
       "Transparente : garde la couleur du telephone",
@@ -25123,8 +25117,8 @@
       "/uploads/quick-products/lampe-torche-led-cob-rechargeable-usb-c-photo-5.webp",
       "/uploads/quick-products/lampe-torche-led-cob-rechargeable-usb-c-photo-6.webp"
     ],
-    "shortDescription": "Lampe torche LED haute puissance avec lumiere laterale COB, recharge USB-C : garage, cave, camping, pannes de courant. 17 000 avis.",
-    "description": "Lampe torche LED haute puissance rechargeable en USB-C, avec faisceau zoomable a l avant et bandeau lumineux COB sur le cote pour eclairer large. Plusieurs modes dont un mode secours clignotant, batterie integree qui evite d acheter des piles, corps metal resistant aux chocs. Elle sert au garage, dans la cave, sous le capot, en camping ou pendant une panne de courant. Note 4.6 sur plus de 17 000 avis, 100 000 ventes.",
+    "shortDescription": "Lampe torche LED haute puissance avec lumiere laterale COB, recharge USB-C : garage, cave, camping, pannes de courant.",
+    "description": "Lampe torche LED haute puissance rechargeable en USB-C, avec faisceau zoomable a l avant et bandeau lumineux COB sur le cote pour eclairer large. Plusieurs modes dont un mode secours clignotant, batterie integree qui evite d acheter des piles, corps metal resistant aux chocs. Elle sert au garage, dans la cave, sous le capot, en camping ou pendant une panne de courant",
     "features": [
       "Faisceau zoomable + lumiere laterale COB",
       "Recharge USB-C, batterie integree, zero pile",
@@ -25222,7 +25216,7 @@
       "/uploads/quick-products/coffret-cles-a-douille-cliquet-12-pieces-photo-6.webp"
     ],
     "shortDescription": "Coffret 12 pieces cles a douille avec cliquet : entretien moto, velo, voiture et petit bricolage, le tout range dans son etui.",
-    "description": "Coffret d entretien 12 pieces avec cliquet et douilles metriques : de quoi demonter, resserrer et regler sur une moto, un velo, une voiture ou dans la maison. Acier traite, cliquet reversible qui travaille dans les deux sens et etui compact qui tient dans le coffre ou le sac. Note 4.5 sur plus de 4 100 avis, 10 000 ventes.",
+    "description": "Coffret d entretien 12 pieces avec cliquet et douilles metriques : de quoi demonter, resserrer et regler sur une moto, un velo, une voiture ou dans la maison. Acier traite, cliquet reversible qui travaille dans les deux sens et etui compact qui tient dans le coffre ou le sac",
     "features": [
       "12 pieces : cliquet reversible + douilles",
       "Acier traite, moto, velo, voiture, maison",
@@ -25318,8 +25312,8 @@
       "/uploads/quick-products/casque-gaming-filaire-micro-antibruit-photo-5.webp",
       "/uploads/quick-products/casque-gaming-filaire-micro-antibruit-photo-6.webp"
     ],
-    "shortDescription": "Casque de jeu filaire jack 3,5 mm avec micro antibruit : PS4, PS5, Xbox, Switch et PC. Note 4.9 sur plus de 1 400 avis.",
-    "description": "Casque gaming filaire en jack 3,5 mm compatible PS4, PS5, Xbox, Nintendo Switch, PC et telephone : son stereo qui situe bien les bruits de pas, micro antibruit oriente vers la bouche pour se faire comprendre en vocal, coussinets moelleux et arceau reglable pour les longues sessions. Branchement direct, aucune installation. Note 4.9 sur plus de 1 400 avis.",
+    "shortDescription": "Casque de jeu filaire jack 3,5 mm avec micro antibruit : PS4, PS5, Xbox, Switch et PC",
+    "description": "Casque gaming filaire en jack 3,5 mm compatible PS4, PS5, Xbox, Nintendo Switch, PC et telephone : son stereo qui situe bien les bruits de pas, micro antibruit oriente vers la bouche pour se faire comprendre en vocal, coussinets moelleux et arceau reglable pour les longues sessions. Branchement direct, aucune installation",
     "features": [
       "Jack 3,5 mm : PS4, PS5, Xbox, Switch, PC",
       "Micro antibruit oriente, vocal net",
@@ -25415,8 +25409,8 @@
       "/uploads/quick-products/casque-studio-oneodio-pro-dj-micro-photo-5.webp",
       "/uploads/quick-products/casque-studio-oneodio-pro-dj-micro-photo-6.webp"
     ],
-    "shortDescription": "Casque de studio Oneadio hi-fi pour DJ, mixage et jeu, avec micro detachable. Marque reconnue, note 4.9 sur plus de 1 500 avis.",
-    "description": "Casque professionnel Oneodio pense pour le studio, le mixage DJ et le gaming : grands transducteurs pour des basses profondes et des aigus nets, oreillettes pivotantes a 90 degres pour ecouter d une seule oreille, coussinets rembourres qui isolent du bruit ambiant et micro detachable. Double cablage fourni, compatible table de mixage, PC, console et telephone. Oneodio est une marque etablie de l audio. Note 4.9 sur plus de 1 500 avis.",
+    "shortDescription": "Casque de studio Oneadio hi-fi pour DJ, mixage et jeu, avec micro detachable. Marque reconnue",
+    "description": "Casque professionnel Oneodio pense pour le studio, le mixage DJ et le gaming : grands transducteurs pour des basses profondes et des aigus nets, oreillettes pivotantes a 90 degres pour ecouter d une seule oreille, coussinets rembourres qui isolent du bruit ambiant et micro detachable. Double cablage fourni, compatible table de mixage, PC, console et telephone. Oneodio est une marque etablie de l audio",
     "features": [
       "Marque Oneodio : son hi-fi studio et DJ",
       "Oreillettes pivotantes 90 degres, micro detachable",
@@ -25512,8 +25506,8 @@
       "/uploads/quick-products/coupe-legumes-manuel-9-en-1-photo-5.webp",
       "/uploads/quick-products/coupe-legumes-manuel-9-en-1-photo-6.webp"
     ],
-    "shortDescription": "Coupe-legumes 9 en 1 : frites, des, rondelles, rapes fines ou epaisses en un geste, avec bac de recuperation. Note 4.9.",
-    "description": "Coupe-legumes manuel 9 en 1 avec ses lames interchangeables : frites, cubes, rondelles, batonnets, rapes fine et epaisse. Un geste sur la poignee et le legume est coupe regulierement, directement dans le bac de recuperation qui evite d en mettre partout. Poussoir protege-doigts, lames inox, tout se lave a l eau. Fait gagner un temps reel sur les pommes de terre, carottes, oignons et courgettes. Note 4.9 sur pres de 1 000 avis, 5 000 ventes.",
+    "shortDescription": "Coupe-legumes 9 en 1 : frites, des, rondelles, rapes fines ou epaisses en un geste, avec bac de recuperation.",
+    "description": "Coupe-legumes manuel 9 en 1 avec ses lames interchangeables : frites, cubes, rondelles, batonnets, rapes fine et epaisse. Un geste sur la poignee et le legume est coupe regulierement, directement dans le bac de recuperation qui evite d en mettre partout. Poussoir protege-doigts, lames inox, tout se lave a l eau. Fait gagner un temps reel sur les pommes de terre, carottes, oignons et courgettes",
     "features": [
       "9 lames : frites, des, rondelles, rapes",
       "Bac de recuperation integre, zero desordre",
@@ -25711,8 +25705,8 @@
       "/uploads/quick-products/videoprojecteur-magcubic-hy300-pro-wifi6-photo-5.webp",
       "/uploads/quick-products/videoprojecteur-magcubic-hy300-pro-wifi6-photo-6.webp"
     ],
-    "shortDescription": "Videoprojecteur Magcubic HY300 Pro : Android 14, double Wifi 6, Bluetooth 5.4, image jusqu a 130 pouces. 17 000 avis, note 4.9.",
-    "description": "Videoprojecteur portable Magcubic HY300 Pro, l un des modeles les plus vendus au monde : Android 14 integre avec ses applications, double Wifi 6 pour diffuser sans fil depuis le telephone, Bluetooth 5.4 pour une enceinte externe et support magnetique rotatif qui projette meme au plafond. Image nette jusqu a 130 pouces, correction automatique de la deformation, haut-parleur integre. Il transforme un mur en cinema, dedans comme dans le jardin. Note 4.9 sur plus de 17 000 avis.",
+    "shortDescription": "Videoprojecteur Magcubic HY300 Pro : Android 14, double Wifi 6, Bluetooth 5.4, image jusqu a 130 pouces.",
+    "description": "Videoprojecteur portable Magcubic HY300 Pro, l un des modeles les plus vendus au monde : Android 14 integre avec ses applications, double Wifi 6 pour diffuser sans fil depuis le telephone, Bluetooth 5.4 pour une enceinte externe et support magnetique rotatif qui projette meme au plafond. Image nette jusqu a 130 pouces, correction automatique de la deformation, haut-parleur integre. Il transforme un mur en cinema, dedans comme dans le jardin",
     "features": [
       "Android 14 + double Wifi 6 : diffusion sans fil",
       "Image jusqu a 130 pouces, correction auto",
@@ -25808,8 +25802,8 @@
       "/uploads/quick-products/aspirateur-voiture-sans-fil-haute-puissance-photo-5.webp",
       "/uploads/quick-products/aspirateur-voiture-sans-fil-haute-puissance-photo-6.webp"
     ],
-    "shortDescription": "Aspirateur a main sans fil tres puissant : sieges, moquettes, coffre et miettes entre les banquettes. Note 4.7, 10 000 ventes.",
-    "description": "Aspirateur a main sans fil concu pour la voiture : aspiration tres puissante qui decolle le sable, les miettes et les poils d animaux coinces dans les sieges et les moquettes. Batterie rechargeable pour travailler sans prise, embouts fins pour aller entre les banquettes et dans les vide-poches, filtre lavable et bac transparent qui se vide en un clic. Sert aussi a la maison sur le canape et les escaliers. Note 4.7 sur plus de 2 100 avis.",
+    "shortDescription": "Aspirateur a main sans fil tres puissant : sieges, moquettes, coffre et miettes entre les banquettes.",
+    "description": "Aspirateur a main sans fil concu pour la voiture : aspiration tres puissante qui decolle le sable, les miettes et les poils d animaux coinces dans les sieges et les moquettes. Batterie rechargeable pour travailler sans prise, embouts fins pour aller entre les banquettes et dans les vide-poches, filtre lavable et bac transparent qui se vide en un clic. Sert aussi a la maison sur le canape et les escaliers",
     "features": [
       "Aspiration puissante : sable, miettes, poils",
       "Sans fil, batterie rechargeable",
@@ -26010,8 +26004,8 @@
       "/uploads/quick-products/montre-homme-poedagar-chrono-acier-photo-5.webp",
       "/uploads/quick-products/montre-homme-poedagar-chrono-acier-photo-6.webp"
     ],
-    "shortDescription": "Montre homme POEDAGAR en acier inoxydable : chronographe, aiguilles luminescentes et etancheite. Note 4.7 sur plus de 2 500 avis.",
-    "description": "Montre-bracelet homme POEDAGAR en acier inoxydable : cadran chronographe lisible, aiguilles et index luminescents pour l heure dans le noir, verre resistant aux rayures et etancheite pour la pluie et le lavage des mains. Le bracelet acier s ajuste et donne une allure habillee qui passe aussi bien au bureau qu en soiree. POEDAGAR est une marque horlogere etablie sur ce segment. Note 4.7 sur plus de 2 500 avis, 10 000 ventes.",
+    "shortDescription": "Montre homme POEDAGAR en acier inoxydable : chronographe, aiguilles luminescentes et etancheite",
+    "description": "Montre-bracelet homme POEDAGAR en acier inoxydable : cadran chronographe lisible, aiguilles et index luminescents pour l heure dans le noir, verre resistant aux rayures et etancheite pour la pluie et le lavage des mains. Le bracelet acier s ajuste et donne une allure habillee qui passe aussi bien au bureau qu en soiree. POEDAGAR est une marque horlogere etablie sur ce segment",
     "features": [
       "Acier inoxydable, cadran chronographe",
       "Aiguilles luminescentes, verre anti-rayures",
@@ -26107,8 +26101,8 @@
       "/uploads/quick-products/ensemble-clavier-souris-gaming-sans-fil-photo-5.webp",
       "/uploads/quick-products/ensemble-clavier-souris-gaming-sans-fil-photo-6.webp"
     ],
-    "shortDescription": "Pack clavier + souris sans fil retroeclaires pour PC et portable : un seul recepteur USB, zero fil sur le bureau. Note 4.5.",
-    "description": "Ensemble clavier et souris sans fil avec retroeclairage, livre avec un recepteur USB unique : on branche, ca marche, sans installation ni fil qui traine. Touches silencieuses au toucher franc, souris a plusieurs niveaux de sensibilite, autonomie longue et interrupteur pour economiser les piles. Compatible PC fixe, ordinateur portable, box TV et console. Note 4.5 sur plus de 550 avis, 3 000 ventes.",
+    "shortDescription": "Pack clavier + souris sans fil retroeclaires pour PC et portable : un seul recepteur USB, zero fil sur le bureau.",
+    "description": "Ensemble clavier et souris sans fil avec retroeclairage, livre avec un recepteur USB unique : on branche, ca marche, sans installation ni fil qui traine. Touches silencieuses au toucher franc, souris a plusieurs niveaux de sensibilite, autonomie longue et interrupteur pour economiser les piles. Compatible PC fixe, ordinateur portable, box TV et console",
     "features": [
       "Clavier + souris sans fil, un seul recepteur USB",
       "Retroeclairage, touches silencieuses",
@@ -26310,8 +26304,8 @@
       "/uploads/quick-products/hydropulseur-dentaire-sans-fil-6-embouts-photo-5.webp",
       "/uploads/quick-products/hydropulseur-dentaire-sans-fil-6-embouts-photo-6.webp"
     ],
-    "shortDescription": "Jet dentaire sans fil 300 ml, 3 modes et 6 embouts : deloge ce que la brosse laisse entre les dents. Note 4.8, 10 000 ventes.",
-    "description": "Hydropulseur dentaire sans fil avec reservoir de 300 ml : le jet d eau sous pression deloge les residus coinces entre les dents et le long des gencives, la ou la brosse et parfois meme le fil ne passent pas. Trois modes dont un mode doux pour gencives sensibles, six embouts pour toute la famille, appareil etanche utilisable sous la douche et recharge USB qui tient plusieurs semaines. Particulierement utile avec un appareil dentaire, un bridge ou des implants. Note 4.8 sur plus de 1 900 avis.",
+    "shortDescription": "Jet dentaire sans fil 300 ml, 3 modes et 6 embouts : deloge ce que la brosse laisse entre les dents.",
+    "description": "Hydropulseur dentaire sans fil avec reservoir de 300 ml : le jet d eau sous pression deloge les residus coinces entre les dents et le long des gencives, la ou la brosse et parfois meme le fil ne passent pas. Trois modes dont un mode doux pour gencives sensibles, six embouts pour toute la famille, appareil etanche utilisable sous la douche et recharge USB qui tient plusieurs semaines. Particulierement utile avec un appareil dentaire, un bridge ou des implants",
     "features": [
       "Reservoir 300 ml, 3 modes dont gencives sensibles",
       "6 embouts : toute la famille",
@@ -26407,8 +26401,8 @@
       "/uploads/quick-products/balance-de-cuisine-numerique-precision-photo-5.webp",
       "/uploads/quick-products/balance-de-cuisine-numerique-precision-photo-6.webp"
     ],
-    "shortDescription": "Balance de cuisine numerique 5 kg au gramme pres, ecran LED et fonction tare : patisserie, regime, cafe filtre. Note 4.5.",
-    "description": "Balance de cuisine numerique jusqu a 5 kg avec precision au gramme : indispensable en patisserie ou la moindre erreur de dosage se voit, pratique pour suivre des portions ou peser son cafe. Fonction tare pour deduire le poids du recipient, ecran LED lisible, plateau qui se nettoie d un coup d eponge et format plat qui se range dans un tiroir. Note 4.5 sur plus de 1 000 avis, 5 000 ventes.",
+    "shortDescription": "Balance de cuisine numerique 5 kg au gramme pres, ecran LED et fonction tare : patisserie, regime, cafe filtre.",
+    "description": "Balance de cuisine numerique jusqu a 5 kg avec precision au gramme : indispensable en patisserie ou la moindre erreur de dosage se voit, pratique pour suivre des portions ou peser son cafe. Fonction tare pour deduire le poids du recipient, ecran LED lisible, plateau qui se nettoie d un coup d eponge et format plat qui se range dans un tiroir",
     "features": [
       "Jusqu a 5 kg, precision au gramme",
       "Fonction tare, ecran LED lisible",
@@ -26923,8 +26917,8 @@
       "/uploads/quick-products/pistolet-massage-musculaire-percussion-photo-5.webp",
       "/uploads/quick-products/pistolet-massage-musculaire-percussion-photo-6.webp"
     ],
-    "shortDescription": "Pistolet de massage a percussion : denoue les nuques raides, les dos et les jambes lourdes apres le sport ou le bureau. Note 4.5.",
-    "description": "Pistolet de massage a percussion avec plusieurs tetes interchangeables : il travaille en profondeur la nuque raide, le haut du dos, les cuisses et les mollets, apres une seance de sport comme apres une journee assise. Plusieurs vitesses pour passer d un echauffement doux a un travail profond, moteur silencieux qui ne gene personne, batterie rechargeable et poignee qui permet d atteindre son propre dos. Note 4.5 sur plus de 1 300 avis, 10 000 ventes.",
+    "shortDescription": "Pistolet de massage a percussion : denoue les nuques raides, les dos et les jambes lourdes apres le sport ou le bureau.",
+    "description": "Pistolet de massage a percussion avec plusieurs tetes interchangeables : il travaille en profondeur la nuque raide, le haut du dos, les cuisses et les mollets, apres une seance de sport comme apres une journee assise. Plusieurs vitesses pour passer d un echauffement doux a un travail profond, moteur silencieux qui ne gene personne, batterie rechargeable et poignee qui permet d atteindre son propre dos",
     "features": [
       "Plusieurs vitesses, du doux au travail profond",
       "Tetes interchangeables : nuque, dos, cuisses, mollets",
@@ -27229,8 +27223,8 @@
       "/uploads/quick-products/robot-lave-vitres-telecommande-photo-5.webp",
       "/uploads/quick-products/robot-lave-vitres-telecommande-photo-6.webp"
     ],
-    "shortDescription": "Robot lave-vitres a telecommande : il grimpe seul sur la vitre et la nettoie des deux cotes, meme en hauteur. Note 4.9.",
-    "description": "Robot lave-vitres qui se colle a la vitre par aspiration et la parcourt tout seul : plus besoin de monter sur un escabeau ni de se pencher par la fenetre. Il detecte les bords, choisit son parcours, et se pilote a la telecommande si on veut insister sur une zone. Securite anti-chute avec cable de retenue et batterie de secours qui le maintient colle en cas de coupure de courant. Convient aux fenetres, baies vitrees, miroirs et parois de douche. Note 4.9 sur plus de 1 600 avis, 10 000 ventes.",
+    "shortDescription": "Robot lave-vitres a telecommande : il grimpe seul sur la vitre et la nettoie des deux cotes, meme en hauteur.",
+    "description": "Robot lave-vitres qui se colle a la vitre par aspiration et la parcourt tout seul : plus besoin de monter sur un escabeau ni de se pencher par la fenetre. Il detecte les bords, choisit son parcours, et se pilote a la telecommande si on veut insister sur une zone. Securite anti-chute avec cable de retenue et batterie de secours qui le maintient colle en cas de coupure de courant. Convient aux fenetres, baies vitrees, miroirs et parois de douche",
     "features": [
       "Grimpe et nettoie la vitre tout seul",
       "Detection des bords + pilotage telecommande",
@@ -27325,8 +27319,8 @@
       "/uploads/quick-products/sac-a-dos-antivol-port-usb-etanche-photo-5.webp",
       "/uploads/quick-products/sac-a-dos-antivol-port-usb-etanche-photo-6.webp"
     ],
-    "shortDescription": "Sac a dos antivol etanche avec port USB : fermetures dissimulees, compartiment ordinateur 15 pouces et recharge en marchant. Note 4.6.",
-    "description": "Sac a dos antivol avec fermetures eclair dissimulees contre le dos : impossible d y entrer sans que vous le sentiez, meme dans le metro ou dans une file. Port USB exterieur relie a une poche interieure pour recharger le telephone en marchant, compartiment rembourre pour un ordinateur portable jusqu a 15 pouces, tissu deperlant qui protege de la pluie et bretelles rembourrees. Le sac des trajets quotidiens comme des voyages. Note 4.6.",
+    "shortDescription": "Sac a dos antivol etanche avec port USB : fermetures dissimulees, compartiment ordinateur 15 pouces et recharge en marchant.",
+    "description": "Sac a dos antivol avec fermetures eclair dissimulees contre le dos : impossible d y entrer sans que vous le sentiez, meme dans le metro ou dans une file. Port USB exterieur relie a une poche interieure pour recharger le telephone en marchant, compartiment rembourre pour un ordinateur portable jusqu a 15 pouces, tissu deperlant qui protege de la pluie et bretelles rembourrees. Le sac des trajets quotidiens comme des voyages.",
     "features": [
       "Fermetures dissimulees : anti-pickpocket",
       "Port USB : recharge le telephone en marchant",
@@ -27423,8 +27417,8 @@
       "/uploads/quick-products/manette-8bitdo-ultimate-2c-sans-fil-photo-5.webp",
       "/uploads/quick-products/manette-8bitdo-ultimate-2c-sans-fil-photo-6.webp"
     ],
-    "shortDescription": "Manette 8BitDo Ultimate 2C sans fil, joysticks a effet Hall et gachettes ajustables. PC, Steam, Android. Note 4.9.",
-    "description": "Manette 8BitDo Ultimate 2C : joysticks et gachettes a effet Hall, sans usure ni derive, prise en main soignee et logiciel dedie pour remapper les boutons, regler les zones mortes et enregistrer des profils. Connexion sans fil 2.4 GHz a faible latence ou USB-C filaire, compatible PC Windows, Steam, Android et Raspberry Pi. 8BitDo est une reference respectee chez les joueurs pour la finition de ses manettes. Note 4.9 sur plus de 1 100 avis.",
+    "shortDescription": "Manette 8BitDo Ultimate 2C sans fil, joysticks a effet Hall et gachettes ajustables. PC, Steam, Android.",
+    "description": "Manette 8BitDo Ultimate 2C : joysticks et gachettes a effet Hall, sans usure ni derive, prise en main soignee et logiciel dedie pour remapper les boutons, regler les zones mortes et enregistrer des profils. Connexion sans fil 2.4 GHz a faible latence ou USB-C filaire, compatible PC Windows, Steam, Android et Raspberry Pi. 8BitDo est une reference respectee chez les joueurs pour la finition de ses manettes",
     "features": [
       "8BitDo : joysticks et gachettes a effet Hall",
       "Sans fil 2.4 GHz faible latence ou USB-C",
@@ -27622,8 +27616,8 @@
       "/uploads/quick-products/tondeuse-pattes-chien-chat-silencieuse-photo-5.webp",
       "/uploads/quick-products/tondeuse-pattes-chien-chat-silencieuse-photo-6.webp"
     ],
-    "shortDescription": "Tondeuse silencieuse pour pattes et zones sensibles, avec lumiere LED et recharge USB-C : le chien ne s affole pas. Note 4.8.",
-    "description": "Tondeuse de finition pour les pattes, le museau et les zones sensibles : moteur silencieux qui n effraie pas l animal, la ou une tondeuse bruyante le fait fuir des la premiere seconde. Lumiere LED qui eclaire entre les coussinets, lame de 18 mm en acier qui ne tire pas le poil, ecran d autonomie et recharge USB-C. Corps etanche qui se rince apres usage. Note 4.8.",
+    "shortDescription": "Tondeuse silencieuse pour pattes et zones sensibles, avec lumiere LED et recharge USB-C : le chien ne s affole pas.",
+    "description": "Tondeuse de finition pour les pattes, le museau et les zones sensibles : moteur silencieux qui n effraie pas l animal, la ou une tondeuse bruyante le fait fuir des la premiere seconde. Lumiere LED qui eclaire entre les coussinets, lame de 18 mm en acier qui ne tire pas le poil, ecran d autonomie et recharge USB-C. Corps etanche qui se rince apres usage.",
     "features": [
       "Moteur silencieux : n effraie pas l animal",
       "Lumiere LED pour voir entre les coussinets",
@@ -27719,8 +27713,8 @@
       "/uploads/quick-products/montre-connectee-realme-watch-5-gps-photo-5.webp",
       "/uploads/quick-products/montre-connectee-realme-watch-5-gps-photo-6.webp"
     ],
-    "shortDescription": "realme Watch 5 : ecran AMOLED 1,97 pouce, GPS, NFC, 14 jours d autonomie et etancheite IP68. Version mondiale. Note 4.9.",
-    "description": "Montre connectee realme Watch 5 en version mondiale : grand ecran AMOLED de 1,97 pouce lisible en plein soleil, GPS integre pour tracer les parcours sans emporter le telephone, puce NFC, Bluetooth 5.3 pour prendre les appels au poignet et jusqu a 14 jours d autonomie la ou la plupart tiennent deux jours. Suivi du rythme cardiaque, de l oxygene sanguin et du sommeil, plus de cent modes sportifs, etancheite IP68. realme est un constructeur mondial reconnu. Note 4.9 sur plus de 1 900 avis, 10 000 ventes.",
+    "shortDescription": "realme Watch 5 : ecran AMOLED 1,97 pouce, GPS, NFC, 14 jours d autonomie et etancheite IP68. Version mondiale.",
+    "description": "Montre connectee realme Watch 5 en version mondiale : grand ecran AMOLED de 1,97 pouce lisible en plein soleil, GPS integre pour tracer les parcours sans emporter le telephone, puce NFC, Bluetooth 5.3 pour prendre les appels au poignet et jusqu a 14 jours d autonomie la ou la plupart tiennent deux jours. Suivi du rythme cardiaque, de l oxygene sanguin et du sommeil, plus de cent modes sportifs, etancheite IP68. realme est un constructeur mondial reconnu",
     "features": [
       "AMOLED 1,97 pouce, GPS et NFC integres",
       "Jusqu a 14 jours d autonomie, IP68",
@@ -27828,8 +27822,8 @@
       "/uploads/quick-products/diffuseur-humidificateur-effet-flamme-photo-5.webp",
       "/uploads/quick-products/diffuseur-humidificateur-effet-flamme-photo-6.webp"
     ],
-    "shortDescription": "Humidificateur et diffuseur de parfum avec fausse flamme lumineuse : ambiance chaleureuse et air moins sec. Note 4.5.",
-    "description": "Humidificateur et diffuseur d huiles essentielles avec effet flamme lumineux : la brume et la lumiere imitent un feu de cheminee qui danse, sans aucune chaleur ni risque. Il humidifie l air sec des chambres chauffees, diffuse le parfum de votre choix et sert de veilleuse d ambiance dans le salon ou sur un bureau. Arret automatique quand le reservoir est vide, fonctionnement silencieux, alimentation USB. Note 4.5 sur plus de 600 avis.",
+    "shortDescription": "Humidificateur et diffuseur de parfum avec fausse flamme lumineuse : ambiance chaleureuse et air moins sec.",
+    "description": "Humidificateur et diffuseur d huiles essentielles avec effet flamme lumineux : la brume et la lumiere imitent un feu de cheminee qui danse, sans aucune chaleur ni risque. Il humidifie l air sec des chambres chauffees, diffuse le parfum de votre choix et sert de veilleuse d ambiance dans le salon ou sur un bureau. Arret automatique quand le reservoir est vide, fonctionnement silencieux, alimentation USB",
     "features": [
       "Effet flamme lumineux, sans chaleur ni risque",
       "Humidifie l air sec + diffuse les huiles essentielles",
@@ -28028,8 +28022,8 @@
       "/uploads/quick-products/dashcam-ddpai-n1-avant-arriere-photo-5.webp",
       "/uploads/quick-products/dashcam-ddpai-n1-avant-arriere-photo-6.webp"
     ],
-    "shortDescription": "Camera embarquee DDPAI N1 double : filme l avant et l arriere en 1296P avec vision de nuit. Preuve en cas d accident. Note 4.9.",
-    "description": "Camera embarquee DDPAI N1 avec double enregistrement avant et arriere en 1296P : en cas d accrochage ou de litige, vous avez la preuve filmee des deux cotes du vehicule. Vision de nuit qui garde une image exploitable dans le noir, enregistrement en boucle qui ecrase les vieux fichiers tout seul, verrouillage automatique de la sequence en cas de choc et application telephone pour recuperer les videos sans demonter quoi que ce soit. DDPAI est un fabricant reconnu de cameras embarquees. Note 4.9 sur plus de 800 avis.",
+    "shortDescription": "Camera embarquee DDPAI N1 double : filme l avant et l arriere en 1296P avec vision de nuit. Preuve en cas d accident.",
+    "description": "Camera embarquee DDPAI N1 avec double enregistrement avant et arriere en 1296P : en cas d accrochage ou de litige, vous avez la preuve filmee des deux cotes du vehicule. Vision de nuit qui garde une image exploitable dans le noir, enregistrement en boucle qui ecrase les vieux fichiers tout seul, verrouillage automatique de la sequence en cas de choc et application telephone pour recuperer les videos sans demonter quoi que ce soit. DDPAI est un fabricant reconnu de cameras embarquees",
     "features": [
       "Double camera avant + arriere en 1296P",
       "Vision de nuit, verrouillage auto en cas de choc",
@@ -28124,8 +28118,8 @@
       "/uploads/quick-products/ecouteurs-lenovo-gm2-pro-bluetooth-photo-5.webp",
       "/uploads/quick-products/ecouteurs-lenovo-gm2-pro-bluetooth-photo-6.webp"
     ],
-    "shortDescription": "Ecouteurs Lenovo GM2 Pro : mode jeu a faible latence, appels HD et reduction de bruit. Note 4.9 sur plus de 26 000 avis.",
-    "description": "Ecouteurs sans fil Lenovo GM2 Pro en Bluetooth 5.3 avec double mode : le mode musique pour l ecoute quotidienne et le mode jeu a faible latence qui synchronise le son avec l image, indispensable pour jouer sur telephone. Micro avec reduction de bruit pour des appels nets meme dehors, commandes tactiles, boitier de charge qui prolonge l autonomie sur plusieurs jours. Lenovo est un constructeur mondial. Note 4.9 sur plus de 26 000 avis, 100 000 ventes : l un des ecouteurs les mieux notes de la plateforme.",
+    "shortDescription": "Ecouteurs Lenovo GM2 Pro : mode jeu a faible latence, appels HD et reduction de bruit",
+    "description": "Ecouteurs sans fil Lenovo GM2 Pro en Bluetooth 5.3 avec double mode : le mode musique pour l ecoute quotidienne et le mode jeu a faible latence qui synchronise le son avec l image, indispensable pour jouer sur telephone. Micro avec reduction de bruit pour des appels nets meme dehors, commandes tactiles, boitier de charge qui prolonge l autonomie sur plusieurs jours. Lenovo est un constructeur mondial : l un des ecouteurs les mieux notes de la plateforme.",
     "features": [
       "Mode jeu faible latence : son cale sur l image",
       "Micro a reduction de bruit, appels nets",
@@ -28325,8 +28319,8 @@
       "/uploads/quick-products/enceinte-bluetooth-zealot-s32-pro-etanche-photo-5.webp",
       "/uploads/quick-products/enceinte-bluetooth-zealot-s32-pro-etanche-photo-6.webp"
     ],
-    "shortDescription": "Enceinte Bluetooth 5.2 etanche ZEALOT S32 Pro : basses profondes, appairage de deux enceintes en stereo. Note 4.9.",
-    "description": "Enceinte portable ZEALOT S32 Pro en Bluetooth 5.2 : son ample avec des basses qui portent, resistance a l eau et aux eclaboussures pour la plage, la salle de bain, le jardin ou le chantier. Fonction TWS qui appaire deux enceintes pour obtenir une vraie stereo, lecture par carte memoire ou cable si le telephone est a plat, et longue autonomie pour tenir toute une soiree. Note 4.9 sur plus de 2 700 avis, 10 000 ventes.",
+    "shortDescription": "Enceinte Bluetooth 5.2 etanche ZEALOT S32 Pro : basses profondes, appairage de deux enceintes en stereo.",
+    "description": "Enceinte portable ZEALOT S32 Pro en Bluetooth 5.2 : son ample avec des basses qui portent, resistance a l eau et aux eclaboussures pour la plage, la salle de bain, le jardin ou le chantier. Fonction TWS qui appaire deux enceintes pour obtenir une vraie stereo, lecture par carte memoire ou cable si le telephone est a plat, et longue autonomie pour tenir toute une soiree",
     "features": [
       "Etanche : plage, douche, jardin, chantier",
       "Bluetooth 5.2 + appairage stereo de deux enceintes",
@@ -28525,8 +28519,8 @@
       "/uploads/quick-products/harnais-chien-rembourre-poignee-photo-5.webp",
       "/uploads/quick-products/harnais-chien-rembourre-poignee-photo-6.webp"
     ],
-    "shortDescription": "Harnais rembourre reglable avec poignee de controle : repartit la traction sur le poitrail au lieu du cou. Note 4.8.",
-    "description": "Harnais pour chien rembourre et entierement reglable : la traction se repartit sur le poitrail au lieu de serrer le cou, ce qui evite de faire tousser le chien qui tire. Doublure douce qui ne cisaille pas sous les pattes, poignee sur le dos pour le retenir vite dans un passage delicat ou l aider a monter en voiture, bandes reflechissantes pour les sorties de nuit et attache solide pour la laisse. Note 4.8 sur plus de 600 avis.",
+    "shortDescription": "Harnais rembourre reglable avec poignee de controle : repartit la traction sur le poitrail au lieu du cou.",
+    "description": "Harnais pour chien rembourre et entierement reglable : la traction se repartit sur le poitrail au lieu de serrer le cou, ce qui evite de faire tousser le chien qui tire. Doublure douce qui ne cisaille pas sous les pattes, poignee sur le dos pour le retenir vite dans un passage delicat ou l aider a monter en voiture, bandes reflechissantes pour les sorties de nuit et attache solide pour la laisse",
     "features": [
       "Traction sur le poitrail, pas sur le cou",
       "Poignee de controle sur le dos",
@@ -28621,8 +28615,8 @@
       "/uploads/quick-products/cle-usb-sandisk-3-2-haute-vitesse-photo-5.webp",
       "/uploads/quick-products/cle-usb-sandisk-3-2-haute-vitesse-photo-6.webp"
     ],
-    "shortDescription": "Cle USB SanDisk en USB 3.2 : transferts rapides, boitier metal et fiabilite d une marque de reference. Note 4.8.",
-    "description": "Cle USB SanDisk en norme USB 3.2 : les gros fichiers, videos et sauvegardes passent en quelques secondes la ou une cle USB 2.0 fait patienter plusieurs minutes. Boitier metal resistant avec capuchon retractable qui ne se perd pas, compatible PC Windows, Mac, television, autoradio et console. SanDisk est l une des references mondiales du stockage, ce qui compte quand il s agit de donnees que l on ne veut pas perdre. Note 4.8 sur plus de 1 300 avis.",
+    "shortDescription": "Cle USB SanDisk en USB 3.2 : transferts rapides, boitier metal et fiabilite d une marque de reference.",
+    "description": "Cle USB SanDisk en norme USB 3.2 : les gros fichiers, videos et sauvegardes passent en quelques secondes la ou une cle USB 2.0 fait patienter plusieurs minutes. Boitier metal resistant avec capuchon retractable qui ne se perd pas, compatible PC Windows, Mac, television, autoradio et console. SanDisk est l une des references mondiales du stockage, ce qui compte quand il s agit de donnees que l on ne veut pas perdre",
     "features": [
       "USB 3.2 : transferts rapides des gros fichiers",
       "Boitier metal, capuchon retractable",
@@ -28718,8 +28712,8 @@
       "/uploads/quick-products/support-manettes-casque-trois-etages-photo-5.webp",
       "/uploads/quick-products/support-manettes-casque-trois-etages-photo-6.webp"
     ],
-    "shortDescription": "Support universel a trois etages : range deux manettes et le casque sans encombrer le bureau. PS5, PS4, Xbox, Switch. Note 4.7.",
-    "description": "Support de rangement a trois etages pour manettes et casque : deux manettes posees proprement plutot que jetees sur le bureau, et le casque suspendu au-dessus au lieu d ecraser ses coussinets. Compatible PS5, PS4, Xbox, Nintendo Switch et manettes PC. Base lestee antiderapante qui ne bascule pas, finition qui s accorde a un setup gaming. Il libere le bureau et evite les chutes de manette. Note 4.7.",
+    "shortDescription": "Support universel a trois etages : range deux manettes et le casque sans encombrer le bureau. PS5, PS4, Xbox, Switch.",
+    "description": "Support de rangement a trois etages pour manettes et casque : deux manettes posees proprement plutot que jetees sur le bureau, et le casque suspendu au-dessus au lieu d ecraser ses coussinets. Compatible PS5, PS4, Xbox, Nintendo Switch et manettes PC. Base lestee antiderapante qui ne bascule pas, finition qui s accorde a un setup gaming. Il libere le bureau et evite les chutes de manette.",
     "features": [
       "Trois etages : deux manettes + un casque",
       "PS5, PS4, Xbox, Switch, manettes PC",
@@ -28815,8 +28809,8 @@
       "/uploads/quick-products/brosse-nettoyante-visage-sonique-photo-5.webp",
       "/uploads/quick-products/brosse-nettoyante-visage-sonique-photo-6.webp"
     ],
-    "shortDescription": "Brosse nettoyante sonique etanche : deloge le sebum et les impuretes que les doigts laissent dans les pores. Note 4.8.",
-    "description": "Brosse de nettoyage du visage a vibrations soniques, etanche et rechargeable : les micro-vibrations decollent le sebum, le maquillage et les impuretes logees dans les pores, la ou un nettoyage aux doigts reste en surface. Plusieurs intensites selon la zone et la sensibilite de la peau, silicone souple qui ne raye pas et se rince en une seconde, utilisable sous la douche. Homme comme femme, en particulier sur les peaux mixtes a grasses. Note 4.8.",
+    "shortDescription": "Brosse nettoyante sonique etanche : deloge le sebum et les impuretes que les doigts laissent dans les pores.",
+    "description": "Brosse de nettoyage du visage a vibrations soniques, etanche et rechargeable : les micro-vibrations decollent le sebum, le maquillage et les impuretes logees dans les pores, la ou un nettoyage aux doigts reste en surface. Plusieurs intensites selon la zone et la sensibilite de la peau, silicone souple qui ne raye pas et se rince en une seconde, utilisable sous la douche. Homme comme femme, en particulier sur les peaux mixtes a grasses.",
     "features": [
       "Vibrations soniques : nettoie dans les pores",
       "Silicone souple, etanche, utilisable sous la douche",
@@ -29434,8 +29428,8 @@
       "/uploads/quick-products/station-charge-3en1-magnetique-sans-fil-photo-5.webp",
       "/uploads/quick-products/station-charge-3en1-magnetique-sans-fil-photo-6.webp"
     ],
-    "shortDescription": "Station de charge magnetique 3 en 1 : telephone, montre connectee et ecouteurs sur un seul socle. Note 4.9 sur plus de 1 500 avis.",
-    "description": "Station de charge sans fil 3 en 1 avec fixation magnetique : le telephone se colle et se cale a l angle voulu, la montre connectee et les ecouteurs se posent sur leurs emplacements dedies. Un seul cable derriere le meuble au lieu de trois, une seule prise occupee, et tout est charge le matin. Se replie pour tenir dans un sac de voyage. Compatible iPhone MagSafe, Apple Watch et AirPods, ainsi que les telephones Android compatibles avec un anneau magnetique. Note 4.9 sur plus de 1 500 avis, 10 000 ventes.",
+    "shortDescription": "Station de charge magnetique 3 en 1 : telephone, montre connectee et ecouteurs sur un seul socle",
+    "description": "Station de charge sans fil 3 en 1 avec fixation magnetique : le telephone se colle et se cale a l angle voulu, la montre connectee et les ecouteurs se posent sur leurs emplacements dedies. Un seul cable derriere le meuble au lieu de trois, une seule prise occupee, et tout est charge le matin. Se replie pour tenir dans un sac de voyage. Compatible iPhone MagSafe, Apple Watch et AirPods, ainsi que les telephones Android compatibles avec un anneau magnetique",
     "features": [
       "Telephone + montre + ecouteurs sur un seul socle",
       "Fixation magnetique, angle reglable",
@@ -29532,8 +29526,8 @@
       "/uploads/quick-products/anneau-lumineux-26cm-trepied-telephone-photo-5.webp",
       "/uploads/quick-products/anneau-lumineux-26cm-trepied-telephone-photo-6.webp"
     ],
-    "shortDescription": "Anneau lumineux LED de 26 cm avec trepied et support telephone : eclairage flatteur pour videos, visio et photos. Note 4.9.",
-    "description": "Anneau lumineux LED de 26 cm livre avec son trepied reglable et son support telephone : la lumiere circulaire supprime les ombres dures sur le visage, ce qui change tout en video TikTok, en visio professionnelle ou pour des photos de produits. Trois temperatures de couleur du blanc froid au chaud et intensite reglable, telecommande incluse, hauteur ajustable. Alimentation USB, tout se replie pour se ranger. Note 4.9 sur plus de 400 avis.",
+    "shortDescription": "Anneau lumineux LED de 26 cm avec trepied et support telephone : eclairage flatteur pour videos, visio et photos.",
+    "description": "Anneau lumineux LED de 26 cm livre avec son trepied reglable et son support telephone : la lumiere circulaire supprime les ombres dures sur le visage, ce qui change tout en video TikTok, en visio professionnelle ou pour des photos de produits. Trois temperatures de couleur du blanc froid au chaud et intensite reglable, telecommande incluse, hauteur ajustable. Alimentation USB, tout se replie pour se ranger",
     "features": [
       "Anneau 26 cm : supprime les ombres sur le visage",
       "3 temperatures de couleur, intensite reglable",
@@ -29629,8 +29623,8 @@
       "/uploads/quick-products/tapis-de-bain-antiderapant-absorbant-photo-5.webp",
       "/uploads/quick-products/tapis-de-bain-antiderapant-absorbant-photo-6.webp"
     ],
-    "shortDescription": "Tapis de bain antiderapant tres absorbant : seche les pieds et tient au sol. Note 4.5 sur plus de 16 000 avis.",
-    "description": "Tapis de salle de bain en fibres gaufrees : il absorbe l eau immediatement au lieu de la laisser stagner, et sa base antiderapante le maintient en place meme les pieds mouilles, ce qui evite le glissement au sortir de la douche. Il seche vite, passe en machine et garde sa forme lavage apres lavage. Convient aussi devant l evier de cuisine ou a l entree. Note 4.5 sur plus de 16 000 avis, 100 000 ventes.",
+    "shortDescription": "Tapis de bain antiderapant tres absorbant : seche les pieds et tient au sol",
+    "description": "Tapis de salle de bain en fibres gaufrees : il absorbe l eau immediatement au lieu de la laisser stagner, et sa base antiderapante le maintient en place meme les pieds mouilles, ce qui evite le glissement au sortir de la douche. Il seche vite, passe en machine et garde sa forme lavage apres lavage. Convient aussi devant l evier de cuisine ou a l entree",
     "features": [
       "Tres absorbant : plus de flaque au sol",
       "Base antiderapante, tient meme pieds mouilles",
@@ -29830,8 +29824,8 @@
       "/uploads/quick-products/cle-dynamometrique-precision-3-8-photo-5.webp",
       "/uploads/quick-products/cle-dynamometrique-precision-3-8-photo-6.webp"
     ],
-    "shortDescription": "Cle dynamometrique 3/8 pouce a declic : serre chaque boulon au couple exact, ni trop ni pas assez. Note 4.9.",
-    "description": "Cle dynamometrique professionnelle a embout carre 3/8 pouce : elle emet un declic net des que le couple regle est atteint, ce qui evite de casser un filetage en serrant trop fort ou de laisser une roue mal serree. Reglage precis sur la molette graduee, mecanisme reversible et corps acier livre dans son coffret. Indispensable pour les roues, la culasse, les etriers de frein et tout ce que le constructeur donne en newton-metres, sur voiture comme sur velo. Note 4.9 sur plus de 1 200 avis, 5 000 ventes.",
+    "shortDescription": "Cle dynamometrique 3/8 pouce a declic : serre chaque boulon au couple exact, ni trop ni pas assez.",
+    "description": "Cle dynamometrique professionnelle a embout carre 3/8 pouce : elle emet un declic net des que le couple regle est atteint, ce qui evite de casser un filetage en serrant trop fort ou de laisser une roue mal serree. Reglage precis sur la molette graduee, mecanisme reversible et corps acier livre dans son coffret. Indispensable pour les roues, la culasse, les etriers de frein et tout ce que le constructeur donne en newton-metres, sur voiture comme sur velo",
     "features": [
       "Declic net au couple exact : ni trop ni trop peu",
       "Embout 3/8 pouce, mecanisme reversible",
@@ -29925,8 +29919,8 @@
       "/uploads/quick-products/multimetre-numerique-aneng-681-photo-5.webp",
       "/uploads/quick-products/multimetre-numerique-aneng-681-photo-6.webp"
     ],
-    "shortDescription": "Multimetre numerique ANENG 681 avec detection de tension sans contact : depanne une prise, teste une pile ou un fusible. Note 4.8.",
-    "description": "Multimetre numerique professionnel ANENG 681 : il mesure la tension alternative et continue, le courant, la resistance, la continuite, les diodes et la temperature. La detection de tension sans contact permet de savoir si un fil est sous tension avant meme de le toucher, ce qui evite les mauvaises surprises. Grand ecran retroeclaire lisible dans un placard technique, selection automatique de calibre, coque antichoc et bequille. De quoi tester une prise qui ne marche plus, une pile, un fusible de voiture ou un cable douteux. Note 4.8 sur plus de 3 400 avis, 10 000 ventes.",
+    "shortDescription": "Multimetre numerique ANENG 681 avec detection de tension sans contact : depanne une prise, teste une pile ou un fusible.",
+    "description": "Multimetre numerique professionnel ANENG 681 : il mesure la tension alternative et continue, le courant, la resistance, la continuite, les diodes et la temperature. La detection de tension sans contact permet de savoir si un fil est sous tension avant meme de le toucher, ce qui evite les mauvaises surprises. Grand ecran retroeclaire lisible dans un placard technique, selection automatique de calibre, coque antichoc et bequille. De quoi tester une prise qui ne marche plus, une pile, un fusible de voiture ou un cable douteux",
     "features": [
       "Detection de tension sans contact : securite avant intervention",
       "Tension, courant, resistance, continuite, temperature",
@@ -30021,8 +30015,8 @@
       "/uploads/quick-products/camera-surveillance-lenovo-5mp-wifi-photo-5.webp",
       "/uploads/quick-products/camera-surveillance-lenovo-5mp-wifi-photo-6.webp"
     ],
-    "shortDescription": "Camera de surveillance Lenovo 5MP en WiFi : vision de nuit, detection de mouvement et alerte sur le telephone. Note 4.7.",
-    "description": "Camera de surveillance interieure Lenovo en 5 megapixels : elle se relie au WiFi de la maison et envoie une alerte sur le telephone des qu un mouvement est detecte, avec l image en direct consultable de n importe ou. Vision de nuit infrarouge pour voir dans le noir complet, rotation motorisee pour balayer la piece, micro et haut-parleur pour parler a distance, enregistrement sur carte memoire. Utile pour surveiller un logement vide, un animal reste seul ou l entree. Note 4.7 sur plus de 1 700 avis.",
+    "shortDescription": "Camera de surveillance Lenovo 5MP en WiFi : vision de nuit, detection de mouvement et alerte sur le telephone.",
+    "description": "Camera de surveillance interieure Lenovo en 5 megapixels : elle se relie au WiFi de la maison et envoie une alerte sur le telephone des qu un mouvement est detecte, avec l image en direct consultable de n importe ou. Vision de nuit infrarouge pour voir dans le noir complet, rotation motorisee pour balayer la piece, micro et haut-parleur pour parler a distance, enregistrement sur carte memoire. Utile pour surveiller un logement vide, un animal reste seul ou l entree",
     "features": [
       "5 MP, vision de nuit infrarouge",
       "Alerte mouvement en direct sur le telephone",
@@ -30118,8 +30112,8 @@
       "/uploads/quick-products/lampe-solaire-exterieure-detecteur-mouvement-photo-5.webp",
       "/uploads/quick-products/lampe-solaire-exterieure-detecteur-mouvement-photo-6.webp"
     ],
-    "shortDescription": "Lampe solaire etanche a detecteur de mouvement : s allume quand quelqu un approche, sans fil ni electricien. Note 4.6.",
-    "description": "Lampe solaire d exterieur avec detecteur de mouvement : elle se charge au soleil dans la journee et s allume automatiquement des qu une presence est detectee la nuit. Aucun cable a tirer, aucune facture d electricite, aucun electricien : deux vis et c est pose sur un mur, un portail, une allee ou au-dessus de la porte du garage. Etanche a la pluie, plusieurs modes dont un eclairage faible en continu. Note 4.6 sur plus de 14 700 avis, 100 000 ventes.",
+    "shortDescription": "Lampe solaire etanche a detecteur de mouvement : s allume quand quelqu un approche, sans fil ni electricien.",
+    "description": "Lampe solaire d exterieur avec detecteur de mouvement : elle se charge au soleil dans la journee et s allume automatiquement des qu une presence est detectee la nuit. Aucun cable a tirer, aucune facture d electricite, aucun electricien : deux vis et c est pose sur un mur, un portail, une allee ou au-dessus de la porte du garage. Etanche a la pluie, plusieurs modes dont un eclairage faible en continu",
     "features": [
       "Detecteur de mouvement : s allume a l approche",
       "100 % solaire : ni cable, ni facture",
@@ -30215,8 +30209,8 @@
       "/uploads/quick-products/kit-8-elastiques-musculation-poignees-photo-5.webp",
       "/uploads/quick-products/kit-8-elastiques-musculation-poignees-photo-6.webp"
     ],
-    "shortDescription": "Kit complet d elastiques de resistance avec poignees, sangles de cheville et ancrage de porte : une salle de sport dans un sac. Note 4.9.",
-    "description": "Kit de 8 elastiques de resistance avec poignees, sangles de cheville et ancrage de porte : en les combinant, on couvre les bras, le dos, les epaules, les pectoraux, les fessiers et les jambes, avec des resistances qui s additionnent pour progresser. Tout tient dans une pochette, ce qui permet de s entrainer chez soi, en vacances ou a l hotel sans abonnement ni machine. Utilise aussi en yoga, en pilates et en reeducation douce. Note 4.9 sur plus de 4 100 avis, 10 000 ventes.",
+    "shortDescription": "Kit complet d elastiques de resistance avec poignees, sangles de cheville et ancrage de porte : une salle de sport dans un sac.",
+    "description": "Kit de 8 elastiques de resistance avec poignees, sangles de cheville et ancrage de porte : en les combinant, on couvre les bras, le dos, les epaules, les pectoraux, les fessiers et les jambes, avec des resistances qui s additionnent pour progresser. Tout tient dans une pochette, ce qui permet de s entrainer chez soi, en vacances ou a l hotel sans abonnement ni machine. Utilise aussi en yoga, en pilates et en reeducation douce",
     "features": [
       "8 elastiques : resistances combinables et progressives",
       "Poignees, sangles de cheville et ancrage de porte inclus",
@@ -30311,8 +30305,8 @@
       "/uploads/quick-products/support-ordinateur-portable-aluminium-reglable-photo-5.webp",
       "/uploads/quick-products/support-ordinateur-portable-aluminium-reglable-photo-6.webp"
     ],
-    "shortDescription": "Support en aluminium reglable pour ordinateur portable : remonte l ecran a hauteur des yeux et ventile la machine. Note 4.9.",
-    "description": "Support en alliage d aluminium pour ordinateur portable : il remonte l ecran a hauteur des yeux, ce qui soulage la nuque et le dos apres quelques heures de travail ou de jeu, et laisse l air circuler sous la machine pour limiter la chauffe et le bruit des ventilateurs. Hauteur et inclinaison reglables, patins qui ne rayent pas le chassis, structure stable meme en tapant vite. Il se plie a plat pour suivre en deplacement. Compatible 11 a 17 pouces. Note 4.9 sur plus de 2 700 avis, 10 000 ventes.",
+    "shortDescription": "Support en aluminium reglable pour ordinateur portable : remonte l ecran a hauteur des yeux et ventile la machine.",
+    "description": "Support en alliage d aluminium pour ordinateur portable : il remonte l ecran a hauteur des yeux, ce qui soulage la nuque et le dos apres quelques heures de travail ou de jeu, et laisse l air circuler sous la machine pour limiter la chauffe et le bruit des ventilateurs. Hauteur et inclinaison reglables, patins qui ne rayent pas le chassis, structure stable meme en tapant vite. Il se plie a plat pour suivre en deplacement. Compatible 11 a 17 pouces",
     "features": [
       "Ecran a hauteur des yeux : soulage nuque et dos",
       "Aluminium : ventile et limite la chauffe",
@@ -30408,8 +30402,8 @@
       "/uploads/quick-products/planche-a-decouper-bambou-double-face-photo-5.webp",
       "/uploads/quick-products/planche-a-decouper-bambou-double-face-photo-6.webp"
     ],
-    "shortDescription": "Planche a decouper en bambou double face avec support vertical : une face viande, une face legumes, elle seche debout. Note 4.7.",
-    "description": "Planche a decouper en bambou Moso double face avec support vertical : une face pour la viande crue, l autre pour les legumes et le pain, ce qui evite les melanges. Le bambou est naturellement plus dense que le bois classique, il marque moins sous le couteau et resiste mieux a l humidite. La rainure recupere le jus au lieu de le laisser couler sur le plan de travail, et le support permet de la faire secher debout plutot que de la voir moisir a plat. Note 4.7.",
+    "shortDescription": "Planche a decouper en bambou double face avec support vertical : une face viande, une face legumes, elle seche debout.",
+    "description": "Planche a decouper en bambou Moso double face avec support vertical : une face pour la viande crue, l autre pour les legumes et le pain, ce qui evite les melanges. Le bambou est naturellement plus dense que le bois classique, il marque moins sous le couteau et resiste mieux a l humidite. La rainure recupere le jus au lieu de le laisser couler sur le plan de travail, et le support permet de la faire secher debout plutot que de la voir moisir a plat.",
     "features": [
       "Double face : viande d un cote, legumes de l autre",
       "Bambou dense : marque peu, resiste a l humidite",
@@ -30505,8 +30499,8 @@
       "/uploads/quick-products/rasoir-electrique-enchen-blackstone-3d-photo-5.webp",
       "/uploads/quick-products/rasoir-electrique-enchen-blackstone-3d-photo-6.webp"
     ],
-    "shortDescription": "Rasoir rotatif ENCHEN Blackstone a trois tetes flottantes, lavable et rechargeable USB-C. Note 4.7 sur plus de 6 800 avis.",
-    "description": "Rasoir electrique rotatif ENCHEN Blackstone a trois tetes flottantes : elles suivent les creux du menton, de la machoire et du cou, la ou un rasoir rigide saute et irrite. Tete entierement lavable a l eau courante, recharge USB-C, utilisable a sec ou sous la douche avec de la mousse. Autonomie confortable et format compact qui se glisse dans un sac de voyage. ENCHEN est une marque etablie du rasage electrique. Note 4.7 sur plus de 6 800 avis, 10 000 ventes.",
+    "shortDescription": "Rasoir rotatif ENCHEN Blackstone a trois tetes flottantes, lavable et rechargeable USB-C",
+    "description": "Rasoir electrique rotatif ENCHEN Blackstone a trois tetes flottantes : elles suivent les creux du menton, de la machoire et du cou, la ou un rasoir rigide saute et irrite. Tete entierement lavable a l eau courante, recharge USB-C, utilisable a sec ou sous la douche avec de la mousse. Autonomie confortable et format compact qui se glisse dans un sac de voyage. ENCHEN est une marque etablie du rasage electrique",
     "features": [
       "Trois tetes flottantes 3D : suivent les creux du visage",
       "Lavable a l eau, utilisable a sec ou sous la douche",
@@ -30601,8 +30595,8 @@
       "/uploads/quick-products/cadre-photo-numerique-wifi-10-pouces-photo-5.webp",
       "/uploads/quick-products/cadre-photo-numerique-wifi-10-pouces-photo-6.webp"
     ],
-    "shortDescription": "Cadre photo numerique WiFi 10 pouces : la famille envoie les photos depuis son telephone, elles s affichent toutes seules. Note 4.8.",
-    "description": "Cadre photo numerique connecte de 10,1 pouces avec ecran tactile IPS : une fois relie au WiFi, n importe qui dans la famille peut lui envoyer des photos depuis son telephone, ou qu il soit, et elles apparaissent immediatement sur le cadre. Aucune manipulation pour la personne qui le recoit — c est ce qui en fait un cadeau apprecie des grands-parents. Memoire integree, diaporama automatique, orientation portrait ou paysage, fixation murale possible. Note 4.8.",
+    "shortDescription": "Cadre photo numerique WiFi 10 pouces : la famille envoie les photos depuis son telephone, elles s affichent toutes seules.",
+    "description": "Cadre photo numerique connecte de 10,1 pouces avec ecran tactile IPS : une fois relie au WiFi, n importe qui dans la famille peut lui envoyer des photos depuis son telephone, ou qu il soit, et elles apparaissent immediatement sur le cadre. Aucune manipulation pour la personne qui le recoit — c est ce qui en fait un cadeau apprecie des grands-parents. Memoire integree, diaporama automatique, orientation portrait ou paysage, fixation murale possible.",
     "features": [
       "La famille envoie les photos depuis le telephone, a distance",
       "Ecran tactile IPS 10,1 pouces, diaporama automatique",
@@ -30698,8 +30692,8 @@
       "/uploads/quick-products/ecran-carplay-sans-fil-portable-voiture-photo-5.webp",
       "/uploads/quick-products/ecran-carplay-sans-fil-portable-voiture-photo-6.webp"
     ],
-    "shortDescription": "Ecran tactile CarPlay et Android Auto sans fil : ajoute le GPS et la musique du telephone a une voiture qui n a rien. Note 4.9.",
-    "description": "Ecran tactile portable compatible CarPlay et Android Auto en sans fil : il donne a une voiture ancienne le GPS plein ecran, la musique, les appels et les messages dictes, sans changer l autoradio ni couper un seul fil. Il se pose sur le tableau de bord ou le pare-brise et s alimente sur l allume-cigare. Le telephone se connecte tout seul au demarrage. Se demonte en quelques secondes pour changer de vehicule ou eviter de le laisser en vue. Note 4.9 sur plus de 2 300 avis, 10 000 ventes.",
+    "shortDescription": "Ecran tactile CarPlay et Android Auto sans fil : ajoute le GPS et la musique du telephone a une voiture qui n a rien.",
+    "description": "Ecran tactile portable compatible CarPlay et Android Auto en sans fil : il donne a une voiture ancienne le GPS plein ecran, la musique, les appels et les messages dictes, sans changer l autoradio ni couper un seul fil. Il se pose sur le tableau de bord ou le pare-brise et s alimente sur l allume-cigare. Le telephone se connecte tout seul au demarrage. Se demonte en quelques secondes pour changer de vehicule ou eviter de le laisser en vue",
     "features": [
       "CarPlay et Android Auto sans fil, connexion automatique",
       "Aucun demontage : se pose et s alimente sur l allume-cigare",
@@ -30796,8 +30790,8 @@
       "/uploads/quick-products/arbre-a-chat-170cm-multi-niveaux-photo-5.webp",
       "/uploads/quick-products/arbre-a-chat-170cm-multi-niveaux-photo-6.webp"
     ],
-    "shortDescription": "Arbre a chat de 170 cm avec plateformes, niche et poteaux a griffer : expedie depuis l Allemagne, note 4.9.",
-    "description": "Arbre a chat de 170 cm a plusieurs niveaux : plateformes en hauteur pour observer la piece, niche fermee pour dormir au calme et poteaux entoures de sisal qui detournent les griffes du canape et des rideaux. Structure stable avec fixation murale de securite, tapis lavables en machine, montage explique etape par etape. Il occupe un chat d interieur qui s ennuie et lui rend de la hauteur. Expedie depuis un entrepot allemand, donc livraison nettement plus rapide que la moyenne. Note 4.9.",
+    "shortDescription": "Arbre a chat de 170 cm avec plateformes, niche et poteaux a griffer : expedie depuis l Allemagne.",
+    "description": "Arbre a chat de 170 cm a plusieurs niveaux : plateformes en hauteur pour observer la piece, niche fermee pour dormir au calme et poteaux entoures de sisal qui detournent les griffes du canape et des rideaux. Structure stable avec fixation murale de securite, tapis lavables en machine, montage explique etape par etape. Il occupe un chat d interieur qui s ennuie et lui rend de la hauteur. Expedie depuis un entrepot allemand, donc livraison nettement plus rapide que la moyenne.",
     "features": [
       "170 cm : plateformes, niche fermee, poteaux en sisal",
       "Detourne les griffes du canape et des rideaux",
@@ -31101,8 +31095,8 @@
       "/uploads/quick-products/boite-rangement-compartiments-vis-photo-5.webp",
       "/uploads/quick-products/boite-rangement-compartiments-vis-photo-6.webp"
     ],
-    "shortDescription": "Boite a compartiments reglables pour vis, chevilles et petites pieces : on retrouve la bonne vis en trois secondes. Note 4.8.",
-    "description": "Boite de rangement a compartiments reglables : les separateurs se deplacent pour adapter les cases aux vis, chevilles, forets, embouts, piles boutons ou composants electroniques. Couvercle transparent qui se ferme a clip, donc rien ne se melange dans le coffre ou l atelier, et on voit ce qu il y a dedans sans ouvrir. Empilable avec d autres du meme modele. Sert aussi pour les perles, les medicaments ou le materiel de peche. Note 4.8 sur plus de 2 400 avis, 10 000 ventes.",
+    "shortDescription": "Boite a compartiments reglables pour vis, chevilles et petites pieces : on retrouve la bonne vis en trois secondes.",
+    "description": "Boite de rangement a compartiments reglables : les separateurs se deplacent pour adapter les cases aux vis, chevilles, forets, embouts, piles boutons ou composants electroniques. Couvercle transparent qui se ferme a clip, donc rien ne se melange dans le coffre ou l atelier, et on voit ce qu il y a dedans sans ouvrir. Empilable avec d autres du meme modele. Sert aussi pour les perles, les medicaments ou le materiel de peche",
     "features": [
       "Compartiments reglables selon ce qu on range",
       "Couvercle transparent a clip : rien ne se melange",
@@ -31302,8 +31296,8 @@
       "/uploads/quick-products/tapis-de-souris-xxl-90x40-bureau-photo-5.webp",
       "/uploads/quick-products/tapis-de-souris-xxl-90x40-bureau-photo-6.webp"
     ],
-    "shortDescription": "Grand tapis de souris 90 x 40 cm qui couvre clavier et souris : glisse reguliere et bureau protege. Note 4.8.",
-    "description": "Tapis de souris grand format 90 x 40 cm : il passe sous le clavier et la souris d un seul tenant, ce qui donne une surface de glisse homogene sur toute l amplitude du bras, utile en jeu comme au travail. Surface tissee fine pour un deplacement precis, base caoutchouc antiderapante qui ne bouge pas d un millimetre, bords surpiques qui ne s effilochent pas au bout de quelques mois. Il protege aussi le bureau des rayures et des traces de tasse. Note 4.8 sur plus de 1 100 avis, 10 000 ventes.",
+    "shortDescription": "Grand tapis de souris 90 x 40 cm qui couvre clavier et souris : glisse reguliere et bureau protege.",
+    "description": "Tapis de souris grand format 90 x 40 cm : il passe sous le clavier et la souris d un seul tenant, ce qui donne une surface de glisse homogene sur toute l amplitude du bras, utile en jeu comme au travail. Surface tissee fine pour un deplacement precis, base caoutchouc antiderapante qui ne bouge pas d un millimetre, bords surpiques qui ne s effilochent pas au bout de quelques mois. Il protege aussi le bureau des rayures et des traces de tasse",
     "features": [
       "90 x 40 cm : clavier et souris sur la meme surface",
       "Base antiderapante, bords surpiques anti-effilochage",
@@ -31399,8 +31393,8 @@
       "/uploads/quick-products/gourde-isotherme-inox-304-paille-photo-5.webp",
       "/uploads/quick-products/gourde-isotherme-inox-304-paille-photo-6.webp"
     ],
-    "shortDescription": "Bouteille isotherme en inox 304 double paroi : garde froid ou chaud des heures, avec paille et poignee. Note 4.7.",
-    "description": "Gourde isotherme en acier inoxydable 304 a double paroi sous vide : l eau reste fraiche toute une journee d ete et le the reste chaud plusieurs heures, sans condensation sur les doigts ni gout de metal. Bouchon a paille pour boire sans devisser, poignee de transport, joint etanche qui ne fuit pas dans un sac. L inox 304 est la qualite alimentaire de reference, contrairement aux plastiques qui marquent avec le temps. Note 4.7 sur plus de 1 800 avis, 10 000 ventes.",
+    "shortDescription": "Bouteille isotherme en inox 304 double paroi : garde froid ou chaud des heures, avec paille et poignee.",
+    "description": "Gourde isotherme en acier inoxydable 304 a double paroi sous vide : l eau reste fraiche toute une journee d ete et le the reste chaud plusieurs heures, sans condensation sur les doigts ni gout de metal. Bouchon a paille pour boire sans devisser, poignee de transport, joint etanche qui ne fuit pas dans un sac. L inox 304 est la qualite alimentaire de reference, contrairement aux plastiques qui marquent avec le temps",
     "features": [
       "Double paroi sous vide : froid ou chaud des heures",
       "Inox 304 alimentaire, sans gout de metal",
@@ -31496,8 +31490,8 @@
       "/uploads/quick-products/kit-arrosage-goutte-a-goutte-automatique-photo-5.webp",
       "/uploads/quick-products/kit-arrosage-goutte-a-goutte-automatique-photo-6.webp"
     ],
-    "shortDescription": "Kit d arrosage goutte-a-goutte a buses reglables : les plantes sont arrosees toutes seules, meme pendant les vacances. Note 4.9.",
-    "description": "Kit d arrosage goutte-a-goutte complet : tuyau souple, raccords et buses reglables a repartir entre les pots, les jardinieres, la serre ou le potager. Chaque buse se dose independamment, du filet lent pour les plantes fragiles au jet plus large pour les gros pots. L eau va directement au pied, donc rien ne s evapore sur les feuilles et la consommation baisse nettement par rapport a l arrosoir. Associe a un programmateur, il gere l arrosage pendant les vacances. Note 4.9 sur plus de 1 500 avis, 10 000 ventes.",
+    "shortDescription": "Kit d arrosage goutte-a-goutte a buses reglables : les plantes sont arrosees toutes seules, meme pendant les vacances.",
+    "description": "Kit d arrosage goutte-a-goutte complet : tuyau souple, raccords et buses reglables a repartir entre les pots, les jardinieres, la serre ou le potager. Chaque buse se dose independamment, du filet lent pour les plantes fragiles au jet plus large pour les gros pots. L eau va directement au pied, donc rien ne s evapore sur les feuilles et la consommation baisse nettement par rapport a l arrosoir. Associe a un programmateur, il gere l arrosage pendant les vacances",
     "features": [
       "Buses reglables individuellement selon la plante",
       "L eau va au pied : moins d evaporation, moins de gaspillage",
@@ -31803,8 +31797,8 @@
       "/uploads/quick-products/ssd-nvme-netac-m2-2280-photo-5.webp",
       "/uploads/quick-products/ssd-nvme-netac-m2-2280-photo-6.webp"
     ],
-    "shortDescription": "SSD NVMe Netac M.2 en PCIe 3.0, jusqu a 3500 Mo/s : redonne vie a un PC lent en une seule piece. Note 4.8.",
-    "description": "SSD interne Netac au format M.2 2280 en NVMe PCIe 3.0, avec des debits annonces jusqu a 3500 Mo/s en lecture. C est le changement le plus rentable sur un ordinateur qui rame : remplacer un vieux disque dur mecanique par un SSD NVMe divise les temps de demarrage et de chargement par cinq ou plus, bien davantage qu ajouter de la memoire. Il se visse directement sur la carte mere, sans cable ni alimentation. Compatible PC de bureau et portables recents equipes d un port M.2 NVMe. Netac est un fabricant de stockage etabli. Note 4.8 sur plus de 3 100 avis, 10 000 ventes.",
+    "shortDescription": "SSD NVMe Netac M.2 en PCIe 3.0, jusqu a 3500 Mo/s : redonne vie a un PC lent en une seule piece.",
+    "description": "SSD interne Netac au format M.2 2280 en NVMe PCIe 3.0, avec des debits annonces jusqu a 3500 Mo/s en lecture. C est le changement le plus rentable sur un ordinateur qui rame : remplacer un vieux disque dur mecanique par un SSD NVMe divise les temps de demarrage et de chargement par cinq ou plus, bien davantage qu ajouter de la memoire. Il se visse directement sur la carte mere, sans cable ni alimentation. Compatible PC de bureau et portables recents equipes d un port M.2 NVMe. Netac est un fabricant de stockage etabli",
     "features": [
       "NVMe PCIe 3.0, jusqu a 3500 Mo/s en lecture",
       "Le meilleur gain de vitesse sur un PC qui rame",
@@ -31899,8 +31893,8 @@
       "/uploads/quick-products/memoire-ram-ddr4-3200-bureau-photo-5.webp",
       "/uploads/quick-products/memoire-ram-ddr4-3200-bureau-photo-6.webp"
     ],
-    "shortDescription": "Barrette de memoire DDR4 3200 MHz au format DIMM pour PC de bureau. Attention : cartes meres Intel uniquement. Note 4.8.",
-    "description": "Barrette de memoire vive DDR4 cadencee a 3200 MHz, au format DIMM pour ordinateur de bureau. Ajouter de la memoire est la solution quand le PC rame des qu on ouvre plusieurs onglets, un jeu et un logiciel en meme temps : le systeme arrete de puiser sur le disque et redevient fluide. Dissipateur en aluminium pour tenir la temperature en charge. Point important a verifier avant de commander : ce modele est prevu pour les cartes meres Intel et n est pas garanti compatible avec les plateformes AMD. Note 4.8 sur plus de 500 avis, 3 000 ventes.",
+    "shortDescription": "Barrette de memoire DDR4 3200 MHz au format DIMM pour PC de bureau. Attention : cartes meres Intel uniquement.",
+    "description": "Barrette de memoire vive DDR4 cadencee a 3200 MHz, au format DIMM pour ordinateur de bureau. Ajouter de la memoire est la solution quand le PC rame des qu on ouvre plusieurs onglets, un jeu et un logiciel en meme temps : le systeme arrete de puiser sur le disque et redevient fluide. Dissipateur en aluminium pour tenir la temperature en charge. Point important a verifier avant de commander : ce modele est prevu pour les cartes meres Intel et n est pas garanti compatible avec les plateformes AMD",
     "features": [
       "DDR4 3200 MHz, format DIMM pour PC de bureau",
       "Dissipateur aluminium, stabilite en charge",
@@ -31996,8 +31990,8 @@
       "/uploads/quick-products/jeu-mini-tournevis-25-en-1-precision-photo-5.webp",
       "/uploads/quick-products/jeu-mini-tournevis-25-en-1-precision-photo-6.webp"
     ],
-    "shortDescription": "Kit 25 en 1 de tournevis de precision : ouvre telephone, console, lunettes, montre et petit electronique. Expedie de France. Note 4.9.",
-    "description": "Jeu de tournevis de precision 25 en 1 avec ses embouts interchangeables : plat, cruciforme, Torx, Pentalobe, hexagonal — de quoi ouvrir un telephone, une manette, une console, un ordinateur portable, une paire de lunettes ou une montre sans arracher les vis. Embouts en acier trempe magnetises pour ne pas perdre la visserie minuscule, manche a tete rotative pour visser droit d une seule main, etui compact. Expedie depuis un entrepot francais : livraison en quelques jours. Note 4.9 sur plus de 11 000 avis, 100 000 ventes.",
+    "shortDescription": "Kit 25 en 1 de tournevis de precision : ouvre telephone, console, lunettes, montre et petit electronique. Expedie de France.",
+    "description": "Jeu de tournevis de precision 25 en 1 avec ses embouts interchangeables : plat, cruciforme, Torx, Pentalobe, hexagonal — de quoi ouvrir un telephone, une manette, une console, un ordinateur portable, une paire de lunettes ou une montre sans arracher les vis. Embouts en acier trempe magnetises pour ne pas perdre la visserie minuscule, manche a tete rotative pour visser droit d une seule main, etui compact. Expedie depuis un entrepot francais : livraison en quelques jours",
     "features": [
       "25 embouts : plat, cruciforme, Torx, Pentalobe, hexa",
       "Embouts magnetises, manche a tete rotative",
@@ -32197,8 +32191,8 @@
       "/uploads/quick-products/webcam-ugreen-4k-autofocus-micro-photo-5.webp",
       "/uploads/quick-products/webcam-ugreen-4k-autofocus-micro-photo-6.webp"
     ],
-    "shortDescription": "Webcam UGREEN 8 MP avec autofocus et double micro antibruit : visio nette et voix claire, meme en piece bruyante. Note 4.8.",
-    "description": "Webcam UGREEN de 8 megapixels avec mise au point automatique par detection de phase : le visage reste net meme si l on bouge ou change de distance, la ou une webcam d entree de gamme reste floue. Double microphone avec reduction de bruit qui filtre le clavier, le ventilateur et le bruit de fond, correction automatique de la lumiere pour les pieces mal eclairees. Branchement USB direct, sans installation, compatible Zoom, Teams, Google Meet, OBS et Windows comme Mac. UGREEN est une marque etablie de l accessoire informatique. Note 4.8 sur plus de 1 300 avis.",
+    "shortDescription": "Webcam UGREEN 8 MP avec autofocus et double micro antibruit : visio nette et voix claire, meme en piece bruyante.",
+    "description": "Webcam UGREEN de 8 megapixels avec mise au point automatique par detection de phase : le visage reste net meme si l on bouge ou change de distance, la ou une webcam d entree de gamme reste floue. Double microphone avec reduction de bruit qui filtre le clavier, le ventilateur et le bruit de fond, correction automatique de la lumiere pour les pieces mal eclairees. Branchement USB direct, sans installation, compatible Zoom, Teams, Google Meet, OBS et Windows comme Mac. UGREEN est une marque etablie de l accessoire informatique",
     "features": [
       "8 MP avec autofocus : image nette en permanence",
       "Double micro antibruit : voix claire, clavier filtre",
@@ -32293,8 +32287,8 @@
       "/uploads/quick-products/cable-usb-c-100w-charge-rapide-tresse-photo-5.webp",
       "/uploads/quick-products/cable-usb-c-100w-charge-rapide-tresse-photo-6.webp"
     ],
-    "shortDescription": "Cable USB-C vers USB-C 100W en nylon tresse : charge un ordinateur portable comme un telephone. 4.8 sur pres de 15 000 avis.",
-    "description": "Cable USB-C vers USB-C compatible Power Delivery 3.0 jusqu a 100W : assez puissant pour recharger un ordinateur portable, une tablette ou un telephone a pleine vitesse, contrairement aux cables bon marche qui plafonnent et font trainer la charge. Gaine en nylon tresse et connecteurs renforces qui resistent au pliage repete, la ou les cables d origine cassent au ras de la prise au bout de quelques mois. Transfert de donnees inclus. Note 4.8 sur pres de 15 000 avis, 100 000 ventes : l un des cables les mieux notes de la plateforme.",
+    "shortDescription": "Cable USB-C vers USB-C 100W en nylon tresse : charge un ordinateur portable comme un telephone. 4.8",
+    "description": "Cable USB-C vers USB-C compatible Power Delivery 3.0 jusqu a 100W : assez puissant pour recharger un ordinateur portable, une tablette ou un telephone a pleine vitesse, contrairement aux cables bon marche qui plafonnent et font trainer la charge. Gaine en nylon tresse et connecteurs renforces qui resistent au pliage repete, la ou les cables d origine cassent au ras de la prise au bout de quelques mois. Transfert de donnees inclus : l un des cables les mieux notes de la plateforme.",
     "features": [
       "100W Power Delivery : recharge aussi un portable",
       "Nylon tresse et connecteurs renforces : ne casse pas",
@@ -32391,8 +32385,8 @@
       "/uploads/quick-products/chargeur-baseus-gan-65w-multiport-photo-5.webp",
       "/uploads/quick-products/chargeur-baseus-gan-65w-multiport-photo-6.webp"
     ],
-    "shortDescription": "Chargeur Baseus 65W en GaN : recharge un ordinateur portable et deux appareils en meme temps, dans un format de poche. Note 4.9.",
-    "description": "Chargeur secteur Baseus de 65W en technologie GaN : la puce nitrure de gallium permet de tenir la puissance d un chargeur d ordinateur portable dans un boitier a peine plus gros qu un chargeur de telephone. Plusieurs ports pour brancher le portable, le telephone et les ecouteurs sur une seule prise, avec repartition automatique de la puissance. Il remplace trois chargeurs dans le sac. Protections contre la surchauffe et la surtension. Baseus est une marque etablie de l accessoire mobile. Note 4.9 sur plus de 2 400 avis, 10 000 ventes.",
+    "shortDescription": "Chargeur Baseus 65W en GaN : recharge un ordinateur portable et deux appareils en meme temps, dans un format de poche.",
+    "description": "Chargeur secteur Baseus de 65W en technologie GaN : la puce nitrure de gallium permet de tenir la puissance d un chargeur d ordinateur portable dans un boitier a peine plus gros qu un chargeur de telephone. Plusieurs ports pour brancher le portable, le telephone et les ecouteurs sur une seule prise, avec repartition automatique de la puissance. Il remplace trois chargeurs dans le sac. Protections contre la surchauffe et la surtension. Baseus est une marque etablie de l accessoire mobile",
     "features": [
       "65W en GaN : puissance d un chargeur de portable, format de poche",
       "Plusieurs ports : portable + telephone + ecouteurs",
@@ -32488,8 +32482,8 @@
       "/uploads/quick-products/organisateur-placard-cuisine-extensible-inox-photo-5.webp",
       "/uploads/quick-products/organisateur-placard-cuisine-extensible-inox-photo-6.webp"
     ],
-    "shortDescription": "Etagere extensible en inox pour placard : double la surface de rangement sans percer. Note 4.9, 10 000 ventes.",
-    "description": "Organisateur de placard extensible en acier inoxydable : il se pose dans un placard, sous l evier ou sur le plan de travail et cree un second niveau, ce qui double la surface utile sans percer ni monter quoi que ce soit. Largeur reglable pour s adapter au meuble, pieds antiderapants, structure inox qui ne rouille pas dans une cuisine humide et supporte des casseroles et des piles d assiettes. Sert aussi a ranger les planches a decouper et les couvercles a la verticale. Note 4.9 sur plus de 900 avis, 10 000 ventes.",
+    "shortDescription": "Etagere extensible en inox pour placard : double la surface de rangement sans percer.",
+    "description": "Organisateur de placard extensible en acier inoxydable : il se pose dans un placard, sous l evier ou sur le plan de travail et cree un second niveau, ce qui double la surface utile sans percer ni monter quoi que ce soit. Largeur reglable pour s adapter au meuble, pieds antiderapants, structure inox qui ne rouille pas dans une cuisine humide et supporte des casseroles et des piles d assiettes. Sert aussi a ranger les planches a decouper et les couvercles a la verticale",
     "features": [
       "Cree un second niveau : double la surface du placard",
       "Largeur reglable, pieds antiderapants",
@@ -32585,8 +32579,8 @@
       "/uploads/quick-products/phare-velo-led-rechargeable-usb-c-photo-5.webp",
       "/uploads/quick-products/phare-velo-led-rechargeable-usb-c-photo-6.webp"
     ],
-    "shortDescription": "Phare avant de velo LED rechargeable USB-C : eclaire la route et rend visible de loin. Note 4.7 sur pres de 12 000 avis.",
-    "description": "Phare avant de velo a LED rechargeable en USB-C : il eclaire reellement la chaussee au lieu de simplement signaler la presence, ce qui compte sur une piste cyclable non eclairee ou une route de campagne. Plusieurs modes dont un clignotant pour la ville, fixation a sangle qui se monte et se retire en quelques secondes sans outil, corps resistant a la pluie. Batterie integree rechargeable avec le meme cable que le telephone. Convient VTT, velo de route, velo electrique et trottinette. Note 4.7 sur pres de 12 000 avis, 50 000 ventes.",
+    "shortDescription": "Phare avant de velo LED rechargeable USB-C : eclaire la route et rend visible de loin",
+    "description": "Phare avant de velo a LED rechargeable en USB-C : il eclaire reellement la chaussee au lieu de simplement signaler la presence, ce qui compte sur une piste cyclable non eclairee ou une route de campagne. Plusieurs modes dont un clignotant pour la ville, fixation a sangle qui se monte et se retire en quelques secondes sans outil, corps resistant a la pluie. Batterie integree rechargeable avec le meme cable que le telephone. Convient VTT, velo de route, velo electrique et trottinette",
     "features": [
       "Eclaire la chaussee, pas seulement signaler",
       "Plusieurs modes dont clignotant ville",
@@ -32682,8 +32676,8 @@
       "/uploads/quick-products/sac-banane-multifonction-resistant-photo-5.webp",
       "/uploads/quick-products/sac-banane-multifonction-resistant-photo-6.webp"
     ],
-    "shortDescription": "Sac banane resistant a l usure et aux eclaboussures, grande capacite : se porte a la taille ou en bandouliere. Note 4.9.",
-    "description": "Sac banane multifonction en tissu resistant a l usure et aux eclaboussures : il encaisse le chantier, le velo, la randonnee ou les trajets quotidiens sans se dechirer aux coutures. Plusieurs poches zippees pour separer telephone, cles, portefeuille et outils, sangle reglable pour le porter a la taille, en bandouliere ou en travers de la poitrine. Assez grand pour un telephone de grande taille et une petite bouteille. Note 4.9 sur plus de 2 400 avis, 10 000 ventes.",
+    "shortDescription": "Sac banane resistant a l usure et aux eclaboussures, grande capacite : se porte a la taille ou en bandouliere.",
+    "description": "Sac banane multifonction en tissu resistant a l usure et aux eclaboussures : il encaisse le chantier, le velo, la randonnee ou les trajets quotidiens sans se dechirer aux coutures. Plusieurs poches zippees pour separer telephone, cles, portefeuille et outils, sangle reglable pour le porter a la taille, en bandouliere ou en travers de la poitrine. Assez grand pour un telephone de grande taille et une petite bouteille",
     "features": [
       "Tissu resistant a l usure et aux eclaboussures",
       "Plusieurs poches zippees, grande capacite",
@@ -32883,8 +32877,8 @@
       "/uploads/quick-products/lampe-frontale-led-detecteur-mouvement-photo-5.webp",
       "/uploads/quick-products/lampe-frontale-led-detecteur-mouvement-photo-6.webp"
     ],
-    "shortDescription": "Lampe frontale LED rechargeable avec capteur : un geste de la main devant le front l allume, sans lacher l outil. 8 150 avis.",
-    "description": "Lampe frontale LED rechargeable en USB avec detecteur de mouvement : un simple passage de la main devant le capteur l allume ou l eteint, ce qui evite de poser ce qu on tient pour appuyer sur un bouton — sous un evier, dans un comble, sous le capot ou en peche de nuit. Faisceau orientable, plusieurs modes dont un eclairage large et un faisceau concentre, bandeau reglable qui ne serre pas, batterie integree. Note 4.9 sur plus de 8 100 avis, 50 000 ventes.",
+    "shortDescription": "Lampe frontale LED rechargeable avec capteur : un geste de la main devant le front l allume, sans lacher l outil.",
+    "description": "Lampe frontale LED rechargeable en USB avec detecteur de mouvement : un simple passage de la main devant le capteur l allume ou l eteint, ce qui evite de poser ce qu on tient pour appuyer sur un bouton — sous un evier, dans un comble, sous le capot ou en peche de nuit. Faisceau orientable, plusieurs modes dont un eclairage large et un faisceau concentre, bandeau reglable qui ne serre pas, batterie integree",
     "features": [
       "Capteur de mouvement : s allume d un geste, mains occupees",
       "Faisceau orientable, plusieurs modes",
@@ -32980,8 +32974,8 @@
       "/uploads/quick-products/pese-personne-connecte-bluetooth-photo-5.webp",
       "/uploads/quick-products/pese-personne-connecte-bluetooth-photo-6.webp"
     ],
-    "shortDescription": "Balance connectee Bluetooth : poids, masse grasse, masse musculaire et suivi dans l application. Note 4.9.",
-    "description": "Pese-personne connecte en Bluetooth : au-dela du poids, il estime la masse grasse, la masse musculaire, l eau corporelle et l indice de masse corporelle, puis envoie tout dans une application qui trace les courbes dans le temps. C est ce suivi qui compte quand on suit un regime ou une reprise de sport : le poids seul monte et descend, la repartition entre muscle et graisse dit la vraie tendance. Plusieurs profils utilisateurs, plateau en verre trempe, allumage automatique en montant dessus. Note 4.9 sur pres de 1 500 avis, 5 000 ventes.",
+    "shortDescription": "Balance connectee Bluetooth : poids, masse grasse, masse musculaire et suivi dans l application.",
+    "description": "Pese-personne connecte en Bluetooth : au-dela du poids, il estime la masse grasse, la masse musculaire, l eau corporelle et l indice de masse corporelle, puis envoie tout dans une application qui trace les courbes dans le temps. C est ce suivi qui compte quand on suit un regime ou une reprise de sport : le poids seul monte et descend, la repartition entre muscle et graisse dit la vraie tendance. Plusieurs profils utilisateurs, plateau en verre trempe, allumage automatique en montant dessus",
     "features": [
       "Masse grasse, masse musculaire, eau, IMC",
       "Suivi des courbes dans l application",
@@ -33076,8 +33070,8 @@
       "/uploads/quick-products/hub-usb-c-4-ports-otg-photo-5.webp",
       "/uploads/quick-products/hub-usb-c-4-ports-otg-photo-6.webp"
     ],
-    "shortDescription": "Hub USB-C 4 ports : branche cle USB, souris, clavier et disque dur sur un ordinateur qui n a qu un seul port. 12 298 avis.",
-    "description": "Hub USB-C a 4 ports : les ordinateurs portables recents et les MacBook n ont souvent qu un ou deux ports, ce qui oblige a debrancher sans arret. Ce repartiteur en ajoute quatre d un coup pour la cle USB, la souris, le clavier, le disque dur externe ou la manette. Boitier compact en aluminium qui dissipe la chaleur, cable court qui ne traine pas, aucun pilote a installer — on branche et ca fonctionne, sur Windows, Mac et Android compatible OTG. Note 4.9 sur plus de 12 000 avis, 50 000 ventes.",
+    "shortDescription": "Hub USB-C 4 ports : branche cle USB, souris, clavier et disque dur sur un ordinateur qui n a qu un seul port.",
+    "description": "Hub USB-C a 4 ports : les ordinateurs portables recents et les MacBook n ont souvent qu un ou deux ports, ce qui oblige a debrancher sans arret. Ce repartiteur en ajoute quatre d un coup pour la cle USB, la souris, le clavier, le disque dur externe ou la manette. Boitier compact en aluminium qui dissipe la chaleur, cable court qui ne traine pas, aucun pilote a installer — on branche et ca fonctionne, sur Windows, Mac et Android compatible OTG",
     "features": [
       "4 ports USB depuis un seul port USB-C",
       "Aucun pilote : on branche et ca marche",
@@ -33172,8 +33166,8 @@
       "/uploads/quick-products/gourde-sport-dosettes-saveur-paille-photo-5.webp",
       "/uploads/quick-products/gourde-sport-dosettes-saveur-paille-photo-6.webp"
     ],
-    "shortDescription": "Gourde a paille avec dosettes aromatiques : donne du gout a l eau sans sucre ni calories. Note 4.9 sur 1 746 avis.",
-    "description": "Gourde de sport avec systeme de dosettes aromatiques : l arome passe dans l air aspire, ce qui donne l impression de boire une boisson parfumee alors qu il n y a que de l eau dans la bouteille — zero sucre, zero calorie, zero colorant dans le liquide. Utile pour ceux qui n aiment pas l eau plate et se rabattent sur les sodas. Paille integree, bouchon anti-fuite qui ne coule pas dans un sac, corps sans BPA. Livree avec une dosette. Note 4.9 sur plus de 1 700 avis, 10 000 ventes.",
+    "shortDescription": "Gourde a paille avec dosettes aromatiques : donne du gout a l eau sans sucre ni calories.",
+    "description": "Gourde de sport avec systeme de dosettes aromatiques : l arome passe dans l air aspire, ce qui donne l impression de boire une boisson parfumee alors qu il n y a que de l eau dans la bouteille — zero sucre, zero calorie, zero colorant dans le liquide. Utile pour ceux qui n aiment pas l eau plate et se rabattent sur les sodas. Paille integree, bouchon anti-fuite qui ne coule pas dans un sac, corps sans BPA. Livree avec une dosette",
     "features": [
       "Dosettes aromatiques : du gout sans sucre ni calories",
       "Paille integree, bouchon anti-fuite",
@@ -33372,8 +33366,8 @@
       "/uploads/quick-products/tondeuse-kemei-km-1506-3en1-photo-5.webp",
       "/uploads/quick-products/tondeuse-kemei-km-1506-3en1-photo-6.webp"
     ],
-    "shortDescription": "Tondeuse Kemei 3 en 1 : cheveux, barbe et poils du nez avec un seul appareil rechargeable USB. Note 4.9 sur 10 010 avis.",
-    "description": "Tondeuse Kemei KM-1506 trois en un : une tete pour les cheveux avec ses sabots, une tete de finition pour la barbe et les contours, et une tete specifique pour les poils du nez et des oreilles. Un seul appareil et une seule recharge USB au lieu de trois accessoires dispersés dans la salle de bain. Lames en acier inoxydable affutees, tetes lavables a l eau, format compact qui suit en voyage. Kemei est une marque etablie chez les coiffeurs et barbiers. Note 4.9 sur plus de 10 000 avis, 10 000 ventes.",
+    "shortDescription": "Tondeuse Kemei 3 en 1 : cheveux, barbe et poils du nez avec un seul appareil rechargeable USB.",
+    "description": "Tondeuse Kemei KM-1506 trois en un : une tete pour les cheveux avec ses sabots, une tete de finition pour la barbe et les contours, et une tete specifique pour les poils du nez et des oreilles. Un seul appareil et une seule recharge USB au lieu de trois accessoires dispersés dans la salle de bain. Lames en acier inoxydable affutees, tetes lavables a l eau, format compact qui suit en voyage. Kemei est une marque etablie chez les coiffeurs et barbiers",
     "features": [
       "3 en 1 : cheveux, barbe, nez et oreilles",
       "Recharge USB, un seul appareil a emporter",
@@ -33468,8 +33462,8 @@
       "/uploads/quick-products/verre-trempe-joyroom-iphone-lot-photo-5.webp",
       "/uploads/quick-products/verre-trempe-joyroom-iphone-lot-photo-6.webp"
     ],
-    "shortDescription": "Verre trempe Joyroom plein ecran pour iPhone, avec gabarit de pose : pas de bulles, pas de travers. 14 436 avis.",
-    "description": "Protection d ecran en verre trempe Joyroom couvrant tout l ecran de l iPhone : durete elevee qui encaisse les chutes de cles dans la poche et les rayures du sable, sans alterer la sensibilite tactile ni la finesse de l appareil. Livre avec un gabarit de pose qui aligne le verre tout seul — c est ce qui evite les bulles et le collage de travers, la difficulte principale de ce type de produit. Lingettes de nettoyage incluses. Joyroom est une marque etablie de l accessoire mobile. Note 4.8 sur plus de 14 000 avis, 100 000 ventes.",
+    "shortDescription": "Verre trempe Joyroom plein ecran pour iPhone, avec gabarit de pose : pas de bulles, pas de travers.",
+    "description": "Protection d ecran en verre trempe Joyroom couvrant tout l ecran de l iPhone : durete elevee qui encaisse les chutes de cles dans la poche et les rayures du sable, sans alterer la sensibilite tactile ni la finesse de l appareil. Livre avec un gabarit de pose qui aligne le verre tout seul — c est ce qui evite les bulles et le collage de travers, la difficulte principale de ce type de produit. Lingettes de nettoyage incluses. Joyroom est une marque etablie de l accessoire mobile",
     "features": [
       "Gabarit de pose : ni bulles, ni pose de travers",
       "Couvre tout l ecran, sensibilite tactile preservee",
@@ -33565,8 +33559,8 @@
       "/uploads/quick-products/support-tablette-bras-long-lit-photo-5.webp",
       "/uploads/quick-products/support-tablette-bras-long-lit-photo-6.webp"
     ],
-    "shortDescription": "Support a bras long articule pour tablette et telephone : regarder un film au lit sans tenir l ecran. Note 4.7.",
-    "description": "Support a bras long articule qui se pince sur un cadre de lit, une table ou un bureau : il tient la tablette ou le telephone a hauteur du regard, orientable a 360 degres, ce qui evite de garder l ecran a bout de bras ou de se tordre la nuque pendant un film ou une visio. Bras metallique renforce qui ne s affaisse pas sous le poids d une tablette de 12 pouces, pince rembourree qui ne marque pas les meubles. Compatible de 4 a 12,9 pouces. Note 4.7 sur plus de 1 400 avis, 5 000 ventes.",
+    "shortDescription": "Support a bras long articule pour tablette et telephone : regarder un film au lit sans tenir l ecran.",
+    "description": "Support a bras long articule qui se pince sur un cadre de lit, une table ou un bureau : il tient la tablette ou le telephone a hauteur du regard, orientable a 360 degres, ce qui evite de garder l ecran a bout de bras ou de se tordre la nuque pendant un film ou une visio. Bras metallique renforce qui ne s affaisse pas sous le poids d une tablette de 12 pouces, pince rembourree qui ne marque pas les meubles. Compatible de 4 a 12,9 pouces",
     "features": [
       "Bras long articule, orientation 360 degres",
       "Metal renforce : ne s affaisse pas avec une grande tablette",
@@ -33648,7 +33642,7 @@
   {
     "id": "ali_partner_20260803_tapis_sol_voiture_cuir_pu_5_pieces_001",
     "slug": "tapis-sol-voiture-cuir-pu-5-pieces",
-    "name": "Tapis de sol voiture en cuir PU 5 pièces",
+    "name": "Tapis de sol voiture en polyuréthane 5 pièces",
     "categoryId": "dropshipping-auto-moto",
     "condition": "Neuf",
     "stock": 40,
@@ -33662,10 +33656,10 @@
       "/uploads/quick-products/tapis-sol-voiture-cuir-pu-5-pieces-photo-5.webp",
       "/uploads/quick-products/tapis-sol-voiture-cuir-pu-5-pieces-photo-6.webp"
     ],
-    "shortDescription": "Jeu de 5 tapis de sol universels en cuir PU impermeable : se rincent d un coup d eponge, fini la moquette sale. Note 4.9.",
-    "description": "Jeu de cinq tapis de sol de voiture universels en cuir PU impermeable : la boue, la neige fondue, le sable et le cafe renverse restent en surface et se rincent d un coup d eponge, la ou une moquette d origine garde les taches et les odeurs. Format universel a decouper si besoin pour epouser le plancher, surface antiderapante qui ne glisse pas sous les pedales, coloris sobres qui vont avec tous les interieurs. Cinq pieces pour couvrir l avant, l arriere et le tunnel central. Note 4.9 sur plus de 1 100 avis, 10 000 ventes.",
+    "shortDescription": "Jeu de 5 tapis de sol universels en polyuréthane impermeable : se rincent d un coup d eponge, fini la moquette sale.",
+    "description": "Jeu de cinq tapis de sol de voiture universels en polyuréthane impermeable : la boue, la neige fondue, le sable et le cafe renverse restent en surface et se rincent d un coup d eponge, la ou une moquette d origine garde les taches et les odeurs. Format universel a decouper si besoin pour epouser le plancher, surface antiderapante qui ne glisse pas sous les pedales, coloris sobres qui vont avec tous les interieurs. Cinq pieces pour couvrir l avant, l arriere et le tunnel central",
     "features": [
-      "Cuir PU impermeable : se rince d un coup d eponge",
+      "polyuréthane impermeable : se rince d un coup d eponge",
       "5 pieces : avant, arriere et tunnel central",
       "Antiderapant, universel, decoupable si besoin"
     ],
@@ -33759,8 +33753,8 @@
       "/uploads/quick-products/xiaomi-tv-box-s-3e-generation-4k-photo-5.webp",
       "/uploads/quick-products/xiaomi-tv-box-s-3e-generation-4k-photo-6.webp"
     ],
-    "shortDescription": "Xiaomi TV Box S 3e generation : transforme n importe quelle television en Google TV 4K. Expediee de France. Note 4.9, 9 040 avis.",
-    "description": "Boitier Xiaomi TV Box S de troisieme generation sous Google TV : il rend intelligente une television qui ne l est pas, ou remplace l interface lente d une smart TV vieillissante. Lecture 4K Ultra HD avec Dolby Vision et HDR10+, son Dolby Atmos, acces direct aux applications de streaming, telecommande vocale avec Google Assistant et diffusion depuis le telephone. Une seule prise HDMI a brancher. Materiel Xiaomi d origine et non une copie. Expedie depuis un entrepot francais : livraison en quelques jours. Note 4.9 sur plus de 9 000 avis, 50 000 ventes.",
+    "shortDescription": "Xiaomi TV Box S 3e generation : transforme n importe quelle television en Google TV 4K. Expediee de France.",
+    "description": "Boitier Xiaomi TV Box S de troisieme generation sous Google TV : il rend intelligente une television qui ne l est pas, ou remplace l interface lente d une smart TV vieillissante. Lecture 4K Ultra HD avec Dolby Vision et HDR10+, son Dolby Atmos, acces direct aux applications de streaming, telecommande vocale avec Google Assistant et diffusion depuis le telephone. Une seule prise HDMI a brancher. Materiel Xiaomi d origine et non une copie. Expedie depuis un entrepot francais : livraison en quelques jours",
     "features": [
       "Google TV 4K, Dolby Vision, HDR10+ et Dolby Atmos",
       "Rend intelligente une TV qui ne l est pas",
@@ -33867,8 +33861,8 @@
       "/uploads/quick-products/microphone-usb-rgb-bras-articule-photo-5.webp",
       "/uploads/quick-products/microphone-usb-rgb-bras-articule-photo-6.webp"
     ],
-    "shortDescription": "Micro USB a condensateur avec bras articule et eclairage RGB : voix nette pour le stream, le podcast et le vocal. Note 4.9.",
-    "description": "Microphone a condensateur USB livre avec son bras articule et son filtre anti-pop : la capsule capte la voix de bien plus pres et plus proprement qu un micro de casque, ce qui s entend immediatement en stream, en podcast, en visio ou en vocal de jeu. Le bras deporte le micro devant la bouche et l eloigne du clavier, dont les frappes ne sont plus enregistrees. Reglage du volume et retour casque directement sur le micro, eclairage RGB pour le setup. Branchement USB, aucune carte son necessaire. Note 4.9 sur plus de 1 700 avis, 10 000 ventes.",
+    "shortDescription": "Micro USB a condensateur avec bras articule et eclairage RGB : voix nette pour le stream, le podcast et le vocal.",
+    "description": "Microphone a condensateur USB livre avec son bras articule et son filtre anti-pop : la capsule capte la voix de bien plus pres et plus proprement qu un micro de casque, ce qui s entend immediatement en stream, en podcast, en visio ou en vocal de jeu. Le bras deporte le micro devant la bouche et l eloigne du clavier, dont les frappes ne sont plus enregistrees. Reglage du volume et retour casque directement sur le micro, eclairage RGB pour le setup. Branchement USB, aucune carte son necessaire",
     "features": [
       "Bras articule + filtre anti-pop inclus",
       "Voix bien plus nette qu un micro de casque",
@@ -33964,8 +33958,8 @@
       "/uploads/quick-products/shokz-openrun-pro-2-conduction-osseuse-photo-5.webp",
       "/uploads/quick-products/shokz-openrun-pro-2-conduction-osseuse-photo-6.webp"
     ],
-    "shortDescription": "Casque de sport SHOKZ OpenRun Pro 2 a oreilles ouvertes : on entend la musique ET la circulation. Expedie de France. Note 4.9.",
-    "description": "Casque de sport SHOKZ OpenRun Pro 2 a conduction osseuse : le son passe par les pommettes et laisse les oreilles completement libres, ce qui permet d entendre une voiture arriver, un velo doubler ou quelqu un parler pendant qu on court. C est le seul type de casque reellement sur pour courir en ville ou rouler a velo. Arceau leger qui tient sans serrer et ne bouge pas en course, resistance a la sueur et a la pluie IP55, micro antibruit pour les appels, charge rapide. SHOKZ est la reference mondiale de la conduction osseuse. Note 4.9 sur pres de 1 600 avis, 10 000 ventes. Expedie de France.",
+    "shortDescription": "Casque de sport SHOKZ OpenRun Pro 2 a oreilles ouvertes : on entend la musique ET la circulation. Expedie de France.",
+    "description": "Casque de sport SHOKZ OpenRun Pro 2 a conduction osseuse : le son passe par les pommettes et laisse les oreilles completement libres, ce qui permet d entendre une voiture arriver, un velo doubler ou quelqu un parler pendant qu on court. C est le seul type de casque reellement sur pour courir en ville ou rouler a velo. Arceau leger qui tient sans serrer et ne bouge pas en course, resistance a la sueur et a la pluie IP55, micro antibruit pour les appels, charge rapide. SHOKZ est la reference mondiale de la conduction osseuse Expedie de France.",
     "features": [
       "Conduction osseuse : oreilles libres, on entend la rue",
       "Tient sans serrer, ne bouge pas en course",
@@ -34073,8 +34067,8 @@
       "/uploads/quick-products/cmf-buds-2-plus-anc-ldac-photo-5.webp",
       "/uploads/quick-products/cmf-buds-2-plus-anc-ldac-photo-6.webp"
     ],
-    "shortDescription": "Ecouteurs CMF Buds 2 Plus : reduction de bruit active 50 dB, audio haute resolution LDAC, IP55. Expedies de France. Note 4.9.",
-    "description": "Ecouteurs sans fil CMF Buds 2 Plus, la gamme accessible de Nothing : reduction de bruit active hybride jusqu a 50 dB, qui coupe reellement le bruit du metro ou de l open space, transducteurs LCP de 12 mm et prise en charge du LDAC pour l audio haute resolution — une specification qu on trouve rarement a ce prix. Resistance a l eau et a la poussiere IP55, longue autonomie avec le boitier, application dediee pour l egaliseur. Version globale, compatible iPhone et Android. Note 4.9 sur plus de 1 100 avis. Expedies de France.",
+    "shortDescription": "Ecouteurs CMF Buds 2 Plus : reduction de bruit active 50 dB, audio haute resolution LDAC, IP55. Expedies de France.",
+    "description": "Ecouteurs sans fil CMF Buds 2 Plus, la gamme accessible de Nothing : reduction de bruit active hybride jusqu a 50 dB, qui coupe reellement le bruit du metro ou de l open space, transducteurs LCP de 12 mm et prise en charge du LDAC pour l audio haute resolution — une specification qu on trouve rarement a ce prix. Resistance a l eau et a la poussiere IP55, longue autonomie avec le boitier, application dediee pour l egaliseur. Version globale, compatible iPhone et Android Expedies de France.",
     "features": [
       "Reduction de bruit active hybride jusqu a 50 dB",
       "Audio haute resolution LDAC, transducteurs 12 mm",
@@ -34171,7 +34165,7 @@
       "/uploads/quick-products/stylet-xiaomi-redmi-tablette-photo-6.webp"
     ],
     "shortDescription": "Stylet Xiaomi Redmi Smart Pen : latence de 5 ms et 240 Hz pour ecrire et dessiner sur tablette Redmi Pad. Expedie de France.",
-    "description": "Stylet officiel Xiaomi pour tablette Redmi Pad : latence annoncee de 5 millisecondes et frequence de 240 Hz, ce qui donne la sensation que le trait sort directement de la pointe au lieu de suivre le doigt avec un temps de retard. Sensibilite a la pression pour varier l epaisseur du trait en dessin, prise de notes manuscrites, annotation de documents. Charge magnetique en se fixant sur la tablette. Materiel Xiaomi d origine. Note 4.9 sur pres de 1 500 avis, 5 000 ventes. Expedie de France.",
+    "description": "Stylet officiel Xiaomi pour tablette Redmi Pad : latence annoncee de 5 millisecondes et frequence de 240 Hz, ce qui donne la sensation que le trait sort directement de la pointe au lieu de suivre le doigt avec un temps de retard. Sensibilite a la pression pour varier l epaisseur du trait en dessin, prise de notes manuscrites, annotation de documents. Charge magnetique en se fixant sur la tablette. Materiel Xiaomi d origine Expedie de France.",
     "features": [
       "Latence 5 ms, 240 Hz : le trait suit la pointe",
       "Sensible a la pression pour le dessin",
@@ -34494,11 +34488,10 @@
       "/uploads/quick-products/cable-baseus-100w-usb-c-france-photo-5.webp",
       "/uploads/quick-products/cable-baseus-100w-usb-c-france-photo-6.webp"
     ],
-    "shortDescription": "Cable Baseus USB-C 100W : note 5,0 sur 5 873 avis, expedie de France. La reference de la charge rapide.",
-    "description": "Cable de charge Baseus USB-C vers USB-C compatible Power Delivery 100W : il charge un MacBook, un iPad ou un telephone a pleine vitesse, et transporte aussi les donnees. Gaine renforcee et connecteurs moules qui resistent au pliage repete, la ou les cables d origine cassent au ras de la prise. Baseus est l une des marques les plus etablies de l accessoire mobile, et cette reference affiche une note de 5,0 sur pres de 5 900 avis — un score qu on ne voit presque jamais. Expedie depuis la France : livraison en quelques jours.",
+    "shortDescription": "Cable Baseus USB-C 100W : sur, expedie de France. La reference de la charge rapide.",
+    "description": "Cable de charge Baseus USB-C vers USB-C compatible Power Delivery 100W : il charge un MacBook, un iPad ou un telephone a pleine vitesse, et transporte aussi les donnees. Gaine renforcee et connecteurs moules qui resistent au pliage repete, la ou les cables d origine cassent au ras de la prise. Baseus est l une des marques les plus etablies de l accessoire mobile, et cette reference — un score qu on ne voit presque jamais. Expedie depuis la France : livraison en quelques jours.",
     "features": [
       "100W Power Delivery : MacBook, iPad, telephone",
-      "Note 5,0 sur pres de 5 900 avis",
       "Gaine renforcee, marque Baseus. Expedie de France"
     ],
     "livraisonDisponible": "colissimo uniquement",
@@ -34591,12 +34584,12 @@
       "/uploads/quick-products/support-telephone-tablette-bureau-reglable-photo-5.webp",
       "/uploads/quick-products/support-telephone-tablette-bureau-reglable-photo-6.webp"
     ],
-    "shortDescription": "Support de bureau reglable pour telephone et tablette : 4.9 sur plus de 25 000 avis. Expedie de France.",
-    "description": "Support de bureau reglable en hauteur et en inclinaison pour telephone ou tablette : il remonte l ecran a hauteur du regard pendant une visio, une recette de cuisine ou une serie, au lieu de le laisser a plat sur la table. Structure metallique stable qui ne bascule pas quand on touche l ecran, patins qui ne rayent pas, ouverture pour laisser passer le cable de charge, et pliage a plat pour glisser dans un sac. Compatible de 4 a 12 pouces, toutes marques. Note 4.9 sur plus de 25 000 avis, 100 000 ventes. Expedie de France.",
+    "shortDescription": "Support de bureau reglable pour telephone et tablette : 4.9 Expedie de France.",
+    "description": "Support de bureau reglable en hauteur et en inclinaison pour telephone ou tablette : il remonte l ecran a hauteur du regard pendant une visio, une recette de cuisine ou une serie, au lieu de le laisser a plat sur la table. Structure metallique stable qui ne bascule pas quand on touche l ecran, patins qui ne rayent pas, ouverture pour laisser passer le cable de charge, et pliage a plat pour glisser dans un sac. Compatible de 4 a 12 pouces, toutes marques Expedie de France.",
     "features": [
       "Hauteur et inclinaison reglables, ecran a hauteur des yeux",
       "Metal stable, ne bascule pas au toucher",
-      "Se plie a plat. Note 4.9 sur 25 000 avis. Expedie de France"
+      "Se plie a plat. Expedie de France"
     ],
     "livraisonDisponible": "colissimo uniquement",
     "source": "internal",
@@ -34674,7 +34667,7 @@
   {
     "id": "ali_partner_20260803_pince_a_denuder_multifonction_8_5_001",
     "slug": "pince-a-denuder-multifonction-8-5",
-    "name": "Pince à dénuder multifonction 8,5 pouces",
+    "name": "Pince à dénuder multifonction 21,5 cm",
     "categoryId": "dropshipping-outillage",
     "condition": "Neuf",
     "stock": 40,
@@ -34688,8 +34681,8 @@
       "/uploads/quick-products/pince-a-denuder-multifonction-8-5-photo-5.webp",
       "/uploads/quick-products/pince-a-denuder-multifonction-8-5-photo-6.webp"
     ],
-    "shortDescription": "Pince a denuder multifonction : denude, coupe, sertit et pince avec un seul outil. Note 4.9 sur 8 240 avis. Expediee de France.",
-    "description": "Pince a denuder multifonction de 8,5 pouces : encoches calibrees pour retirer la gaine sans entailler le cuivre — le defaut qui provoque les faux contacts et les echauffements —, coupe-fil, sertisseur de cosses et machoires de prehension, le tout dans un seul outil. Poignees ergonomiques isolees qui limitent la fatigue sur les longues seances de cablage, ressort de rappel qui rouvre la pince tout seul. Acier traite. Note 4.9 sur plus de 8 200 avis, 50 000 ventes. Expediee de France : livraison en quelques jours.",
+    "shortDescription": "Pince a denuder multifonction : denude, coupe, sertit et pince avec un seul outil. Expediee de France.",
+    "description": "Pince a denuder multifonction de 21,5 cm : encoches calibrees pour retirer la gaine sans entailler le cuivre — le defaut qui provoque les faux contacts et les echauffements —, coupe-fil, sertisseur de cosses et machoires de prehension, le tout dans un seul outil. Poignees ergonomiques isolees qui limitent la fatigue sur les longues seances de cablage, ressort de rappel qui rouvre la pince tout seul. Acier traite Expediee de France : livraison en quelques jours.",
     "features": [
       "Denude sans entailler le cuivre : pas de faux contact",
       "Coupe, sertit et pince : un seul outil",
@@ -34783,8 +34776,8 @@
       "/uploads/quick-products/egouttoir-vaisselle-2-niveaux-plateau-photo-5.webp",
       "/uploads/quick-products/egouttoir-vaisselle-2-niveaux-plateau-photo-6.webp"
     ],
-    "shortDescription": "Egouttoir a vaisselle deux niveaux avec plateau de drainage et porte-ustensiles : liberer l evier sans inonder le plan de travail. Note 4.9.",
-    "description": "Egouttoir a vaisselle a deux niveaux : assiettes en bas, verres et tasses en haut, avec un porte-ustensiles amovible et un plateau de drainage qui renvoie l eau vers l evier au lieu de la laisser stagner sur le plan de travail. La double hauteur double la capacite sans prendre plus de place au sol, ce qui change tout dans une petite cuisine ou apres un repas de famille. Acier revetu anticorrosion, pieds antiderapants. Note 4.9. Expedie de France.",
+    "shortDescription": "Egouttoir a vaisselle deux niveaux avec plateau de drainage et porte-ustensiles : liberer l evier sans inonder le plan de travail.",
+    "description": "Egouttoir a vaisselle a deux niveaux : assiettes en bas, verres et tasses en haut, avec un porte-ustensiles amovible et un plateau de drainage qui renvoie l eau vers l evier au lieu de la laisser stagner sur le plan de travail. La double hauteur double la capacite sans prendre plus de place au sol, ce qui change tout dans une petite cuisine ou apres un repas de famille. Acier revetu anticorrosion, pieds antiderapants. Expedie de France.",
     "features": [
       "Deux niveaux : double la capacite sans prendre plus de place",
       "Plateau de drainage oriente vers l evier",

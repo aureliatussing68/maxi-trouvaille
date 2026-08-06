@@ -122,6 +122,65 @@ const REGLES: RegleSecurite[] = [
       "Cet appareil émet un rayonnement laser. Ne dirigez jamais le faisceau vers les yeux d'une personne ou d'un animal, et ne le regardez pas directement, y compris à travers un instrument optique.",
     ],
   },
+
+  // Familles ajoutees le 05/08/2026 apres l'audit des 89 fiches sans document
+  // requis. Meme doctrine que ci-dessus : rien qui depende du modele exact.
+  {
+    famille: "Aimants",
+    motifs: [/\bmagnetique\b/, /\baimante?e?s?\b/],
+    avertissements: [
+      "Ce produit contient des aimants. Un aimant avalé peut provoquer des lésions internes graves : tenez-le hors de portée des enfants et consultez immédiatement un médecin en cas d'ingestion.",
+      "Les aimants peuvent perturber les stimulateurs cardiaques et autres implants médicaux : gardez le produit à distance de ces dispositifs.",
+    ],
+  },
+  {
+    famille: "Tapis de sol voiture",
+    motifs: [
+      /\btapis de sol voiture\b/,
+      /\btapis (?:de sol )?(?:de |pour )?voiture\b/,
+    ],
+    avertissements: [
+      "Un tapis mal positionné peut gêner ou bloquer les pédales. Après l'installation, vérifiez que le tapis côté conducteur est bien maintenu en place et n'entrave ni l'accélérateur, ni le frein, ni l'embrayage. Ne superposez jamais deux tapis côté conducteur.",
+    ],
+  },
+  {
+    famille: "Sacs sous vide",
+    motifs: [/\bsous vide\b/],
+    avertissements: [
+      "Les films et sacs plastiques présentent un risque d'étouffement : tenez-les hors de portée des enfants et des bébés, et ne les utilisez jamais comme jouet.",
+    ],
+  },
+  {
+    famille: "Paracorde",
+    motifs: [/\bparacorde\b/, /\bcorde de survie\b/],
+    avertissements: [
+      "Cette corde n'est pas un équipement de protection individuelle : elle ne doit jamais servir à assurer, suspendre ou retenir une personne (escalade, travaux en hauteur, sécurité).",
+    ],
+  },
+  {
+    famille: "Élastiques de résistance",
+    motifs: [
+      /\belastique.{0,20}(musculation|resistance|fitness|sport)\b/,
+      /\bbande.{0,15}resistance\b/,
+    ],
+    avertissements: [
+      "Un élastique qui lâche ou glisse de son ancrage revient violemment vers le visage. Avant chaque séance, vérifiez l'état de l'élastique (coupures, craquelures) et la solidité du point d'ancrage, et remplacez-le au moindre signe d'usure.",
+    ],
+  },
+  {
+    famille: "Arbre à chat",
+    motifs: [/\barbre a chat\b/],
+    avertissements: [
+      "Installez l'arbre à chat sur un sol plat et stable, contre un mur si possible. Vérifiez régulièrement le serrage des fixations : un meuble instable peut basculer sur l'animal ou sur un enfant.",
+    ],
+  },
+  {
+    famille: "Pince à dénuder",
+    motifs: [/\bdenuder\b/],
+    avertissements: [
+      "Cet outil n'est pas un outil isolé pour travaux électriques : ne l'utilisez jamais sur un circuit ou un câble sous tension. Coupez l'alimentation avant toute intervention.",
+    ],
+  },
 ];
 
 /** Minuscules, sans accents — pour comparer un nom aux motifs ci-dessus. */

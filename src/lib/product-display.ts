@@ -86,6 +86,9 @@ const INTERNAL_COPY_PATTERNS = [
   // enregistree. Meme famille que les fausses notes plus haut — article L121-2
   // du code de la consommation.
   /signal\s+de\s+vente/i,
+  // Variante trouvee le 05/08/2026 dans les fiches elles-memes : « tres fort
+  // signal de commandes recentes ». Meme aveu, autre mot.
+  /signal\s+de\s+commandes/i,
   /couche\s+catalogue/i,
   /potentiel\s+promo/i,
   /\bsourcing\b/i,
