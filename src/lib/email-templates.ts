@@ -20,8 +20,19 @@ import {
   adressePostale,
   champFacultatif,
   identiteVendeurUneLigne,
+  mentionTva,
   vendeurLegal,
 } from "@/lib/legal-identity";
+
+/**
+ * Mention fiscale sous les totaux de l'email de confirmation — cet email fait
+ * office de facture pour le client, la mention TVA doit donc y figurer.
+ * Uniquement quand le statut est connu : un email envoye ne se corrige pas,
+ * il ne doit jamais montrer le trou « [A COMPLETER ...] » des pages du site.
+ */
+function mentionFiscale() {
+  return champFacultatif("statutTva") ? mentionTva() : "";
+}
 
 export type EmailContent = {
   subject: string;
@@ -523,6 +534,11 @@ export function renderOrderConfirmationEmail(
         ? `<table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;margin:10px 0 4px 0;">${totalsRows}</table>`
         : ""
     }
+    ${
+      totalsRows && mentionFiscale()
+        ? `<p style="margin:2px 0 4px 0;font-size:12px;color:${palette.muted};">${escapeHtml(mentionFiscale())}</p>`
+        : ""
+    }
     ${renderAddressBlock(input.shippingAddress, methodLabel)}
     <table role="presentation" width="100%" cellpadding="0" cellspacing="0" border="0" style="width:100%;margin:18px 0 4px 0;background:${palette.softTeal};border-radius:10px;">
       <tr>
@@ -573,6 +589,10 @@ export function renderOrderConfirmationEmail(
 
   if (totalPaid !== null) {
     textParts.push(`Total payé : ${formatEuroCents(totalPaid)}`);
+  }
+
+  if ((itemsTotal !== null || totalPaid !== null) && mentionFiscale()) {
+    textParts.push(mentionFiscale());
   }
 
   const addressText = addressToText(input.shippingAddress, methodLabel);

@@ -27,6 +27,7 @@ import {
   champsRecommandesManquants,
   identifiantsRepManquants,
   IDENTIFIANTS_REP,
+  mentionTva,
   vendeurComplet,
 } from "@/lib/legal-identity";
 import { getEmailSettings } from "@/lib/mailer";
@@ -456,6 +457,10 @@ export async function GET(request: Request) {
     base,
     juridique: {
       vendeurAffiche: vendeurComplet(),
+      // La phrase exacte servie par mentionTva() — celle des mentions legales,
+      // des CGV et de l'email de confirmation. L'exposer ici permet de
+      // VERIFIER en ligne ce que l'email affichera, sans envoyer d'email.
+      mentionTva: mentionTva(),
       champsObligatoiresManquants: juridiqueManquant,
       champsRecommandesManquants: champsRecommandesManquants(),
       pretAPublier: juridiqueManquant.length === 0,

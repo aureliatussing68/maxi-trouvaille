@@ -108,8 +108,7 @@ export const IDENTITE_LEGALE = {
    *                   ci-dessous.
    *
    *   ""           -> INCONNU. Le site n'affirme RIEN et affiche un trou
-   *                   visible. C'est l'etat actuel, en attendant la
-   *                   verification sur impots.gouv.fr.
+   *                   visible.
    *
    * POURQUOI ON NE DEVINE PAS : ecrire « TVA non applicable » sans le savoir
    * est une mention fiscale fausse a cote d'un prix affiche, donc une pratique
@@ -119,9 +118,16 @@ export const IDENTITE_LEGALE = {
    * tout en restant micro-entrepreneur. Les deux notions sont independantes.
    *
    * La phrase affichee est construite une seule fois, par `mentionTva()` en bas
-   * de ce fichier. Les mentions legales et les CGV l'utilisent toutes les deux.
+   * de ce fichier. Les mentions legales, les CGV et l'email de confirmation de
+   * commande l'utilisent tous les trois.
+   *
+   * Bascule sur "franchise" le 06/08/2026, sur decision de Mustapha : jamais
+   * de declaration de TVA deposee depuis la creation (2020), jamais de TVA
+   * facturee aux clients. Le jour d'un depassement des seuils : passer la
+   * ligne ci-dessous a "assujetti" ET remplir `tauxTva` et
+   * `tvaIntracommunautaire` — rien d'autre a toucher, tout le site suit.
    */
-  statutTva: "" as "" | "franchise" | "assujetti",
+  statutTva: "franchise" as "" | "franchise" | "assujetti",
 
   /** Taux de TVA applique, en pourcentage. UNIQUEMENT si assujetti. Ex : "20". */
   tauxTva: "",
