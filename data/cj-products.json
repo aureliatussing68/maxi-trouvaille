@@ -1,0 +1,159 @@
+{
+  "_mode_emploi": [
+    "Une entree par fiche du site. Le champ `vid` est l'identifiant de VARIANTE CJ : tant qu'il est vide, la commande automatique refuse la fiche (et le dit dans la note interne de la commande).",
+    "Pour remplir un vid : chercher `rechercheCj` sur cjdropshipping.com, comparer photos et prix avec `referenceAliExpress`, ouvrir la variante exacte (couleur/taille), copier son vid, dater `verifieLe`.",
+    "Les 15 entrees ci-dessous sont les produits des 15 premieres videos PUBLIEES de la file Facebook/Instagram (2 videos de la file pointent vers des fiches archivees et ont ete sautees : voir le rapport du 09/08)."
+  ],
+  "produits": [
+    {
+      "slug": "balle-interactive-chat-automatique",
+      "productName": "Balle interactive automatique pour chat",
+      "vid": "",
+      "cjSku": "",
+      "rechercheCj": "Balle interactive automatique pour chat",
+      "referenceAliExpress": "https://fr.aliexpress.com/item/1005007598004926.html",
+      "verifieLe": "",
+      "note": "Prix fournisseur AliExpress : 3.39 EUR — comparer avec le prix CJ avant de valider le mapping."
+    },
+    {
+      "slug": "barre-lumineuse-ecran-usb-50cm",
+      "productName": "Barre lumineuse d'écran USB 50 cm",
+      "vid": "",
+      "cjSku": "",
+      "rechercheCj": "Barre lumineuse d'écran USB 50 cm",
+      "referenceAliExpress": "https://fr.aliexpress.com/item/1005007805766024.html",
+      "verifieLe": "",
+      "note": "Prix fournisseur AliExpress : 12.49 EUR — comparer avec le prix CJ avant de valider le mapping."
+    },
+    {
+      "slug": "brosse-autonettoyante-chien-chat",
+      "productName": "Brosse autonettoyante pour chien et chat",
+      "vid": "",
+      "cjSku": "",
+      "rechercheCj": "Brosse autonettoyante pour chien et chat",
+      "referenceAliExpress": "https://fr.aliexpress.com/item/1005005619774026.html",
+      "verifieLe": "",
+      "note": "Prix fournisseur AliExpress : 2.95 EUR — comparer avec le prix CJ avant de valider le mapping."
+    },
+    {
+      "slug": "cable-usb-c-charge-rapide-affichage-led",
+      "productName": "Câble USB-C charge rapide avec affichage LED",
+      "vid": "",
+      "cjSku": "",
+      "rechercheCj": "Câble USB-C charge rapide avec affichage LED",
+      "referenceAliExpress": "https://fr.aliexpress.com/item/1005010439240901.html",
+      "verifieLe": "",
+      "note": "Prix fournisseur AliExpress : 1.89 EUR — comparer avec le prix CJ avant de valider le mapping."
+    },
+    {
+      "slug": "claquettes-nuage-eva-ultra-souples",
+      "productName": "Claquettes nuage ultra souples",
+      "vid": "",
+      "cjSku": "",
+      "rechercheCj": "Claquettes nuage ultra souples",
+      "referenceAliExpress": "https://fr.aliexpress.com/item/1005012425399363.html",
+      "verifieLe": "",
+      "note": "Prix fournisseur AliExpress : 6.29 EUR — comparer avec le prix CJ avant de valider le mapping."
+    },
+    {
+      "slug": "clavier-mecanique-ajazz-ak820-pro",
+      "productName": "Clavier mécanique AJAZZ AK820 Pro sans fil",
+      "vid": "",
+      "cjSku": "",
+      "rechercheCj": "Clavier mécanique AJAZZ AK820 Pro sans fil",
+      "referenceAliExpress": "https://fr.aliexpress.com/item/1005007168889184.html",
+      "verifieLe": "",
+      "note": "Prix fournisseur AliExpress : 41.79 EUR — comparer avec le prix CJ avant de valider le mapping."
+    },
+    {
+      "slug": "cle-universelle-double-tete-3-17mm",
+      "productName": "Clé universelle double tête auto-serrante 3-17 mm",
+      "vid": "",
+      "cjSku": "",
+      "rechercheCj": "Clé universelle double tête auto-serrante 3-17 mm",
+      "referenceAliExpress": "https://fr.aliexpress.com/item/1005006980090984.html",
+      "verifieLe": "",
+      "note": "Prix fournisseur AliExpress : 1.56 EUR — comparer avec le prix CJ avant de valider le mapping."
+    },
+    {
+      "slug": "coffret-cle-cliquet-douilles-46-pieces",
+      "productName": "Coffret clé à cliquet et douilles 46 pièces",
+      "vid": "",
+      "cjSku": "",
+      "rechercheCj": "Coffret clé à cliquet et douilles 46 pièces",
+      "referenceAliExpress": "https://fr.aliexpress.com/item/1005009918638131.html",
+      "verifieLe": "",
+      "note": "Prix fournisseur AliExpress : 6.09 EUR — comparer avec le prix CJ avant de valider le mapping."
+    },
+    {
+      "slug": "compresseur-air-portable-carsun-sans-fil",
+      "productName": "Compresseur d'air portable CARSUN sans fil",
+      "vid": "",
+      "cjSku": "",
+      "rechercheCj": "Compresseur d'air portable CARSUN sans fil",
+      "referenceAliExpress": "https://fr.aliexpress.com/item/1005005768360349.html",
+      "verifieLe": "",
+      "note": "Prix fournisseur AliExpress : 19.39 EUR — comparer avec le prix CJ avant de valider le mapping."
+    },
+    {
+      "slug": "coupe-avocat-3-en-1-trancheur",
+      "productName": "Coupe-avocat 3 en 1 : ouvre, dénoyaute, tranche",
+      "vid": "",
+      "cjSku": "",
+      "rechercheCj": "Coupe-avocat 3 en 1 : ouvre, dénoyaute, tranche",
+      "referenceAliExpress": "https://fr.aliexpress.com/item/1005005620406744.html",
+      "verifieLe": "",
+      "note": "Prix fournisseur AliExpress : 1.80 EUR — comparer avec le prix CJ avant de valider le mapping."
+    },
+    {
+      "slug": "coupe-legumes-12-en-1-avec-panier",
+      "productName": "Coupe-légumes 12 en 1 avec panier",
+      "vid": "",
+      "cjSku": "",
+      "rechercheCj": "Coupe-légumes 12 en 1 avec panier",
+      "referenceAliExpress": "https://fr.aliexpress.com/item/1005006966162935.html",
+      "verifieLe": "",
+      "note": "Prix fournisseur AliExpress : 15.19 EUR — comparer avec le prix CJ avant de valider le mapping."
+    },
+    {
+      "slug": "cubes-rangement-valise-lot-6",
+      "productName": "Cubes de rangement valise - lot de 6",
+      "vid": "",
+      "cjSku": "",
+      "rechercheCj": "Cubes de rangement valise - lot de 6",
+      "referenceAliExpress": "https://fr.aliexpress.com/item/1005005449320271.html",
+      "verifieLe": "",
+      "note": "Prix fournisseur AliExpress : 5.49 EUR — comparer avec le prix CJ avant de valider le mapping."
+    },
+    {
+      "slug": "distributeur-croquettes-automatique-rojeco-wifi",
+      "productName": "Distributeur de croquettes automatique ROJECO WiFi",
+      "vid": "",
+      "cjSku": "",
+      "rechercheCj": "Distributeur de croquettes automatique ROJECO WiFi",
+      "referenceAliExpress": "https://fr.aliexpress.com/item/1005006860715612.html",
+      "verifieLe": "",
+      "note": "Prix fournisseur AliExpress : 68.69 EUR — comparer avec le prix CJ avant de valider le mapping."
+    },
+    {
+      "slug": "distributeur-oeufs-roulant-frigo",
+      "productName": "Distributeur d'œufs roulant pour frigo",
+      "vid": "",
+      "cjSku": "",
+      "rechercheCj": "Distributeur d'œufs roulant pour frigo",
+      "referenceAliExpress": "https://fr.aliexpress.com/item/1005009313031651.html",
+      "verifieLe": "",
+      "note": "Prix fournisseur AliExpress : 4.79 EUR — comparer avec le prix CJ avant de valider le mapping."
+    },
+    {
+      "slug": "distributeur-savon-automatique-mural",
+      "productName": "Distributeur de savon automatique mural 500 ml",
+      "vid": "",
+      "cjSku": "",
+      "rechercheCj": "Distributeur de savon automatique mural 500 ml",
+      "referenceAliExpress": "https://fr.aliexpress.com/item/1005007368872654.html",
+      "verifieLe": "",
+      "note": "Prix fournisseur AliExpress : 16.39 EUR — comparer avec le prix CJ avant de valider le mapping."
+    }
+  ]
+}

@@ -1,6 +1,10 @@
 import { NextResponse } from "next/server";
 import Stripe from "stripe";
-import { markDropshippingOrderPaid } from "@/lib/dropshipping-server";
+import { tenterCommandeFournisseurCj } from "@/lib/cj-client";
+import {
+  markDropshippingOrderPaid,
+  updateDropshippingOrder,
+} from "@/lib/dropshipping-server";
 import type { DropshippingOrder } from "@/lib/dropshipping-shared";
 import { recordEmailFailureIfReal } from "@/lib/email-incidents";
 import {
@@ -62,6 +66,46 @@ export async function POST(request: Request) {
         // envoie les emails, et on renvoie le 500 a la toute fin pour que
         // Stripe reessaie l'enregistrement.
         storageFailed = true;
+      }
+    }
+
+    // Commande fournisseur CJ : LE maillon automatique de la chaine.
+    // Totalement isole — un echec ici ne change JAMAIS la reponse a Stripe
+    // (le paiement client est deja encaisse et enregistre) et n'empeche
+    // JAMAIS les emails de partir. Inerte tant que CJ_ENABLED n'est pas
+    // "true" : deploiement sans risque avant meme que le compte CJ existe.
+    // Chaque issue (transmis, refuse, echoue) s'ecrit dans la commande :
+    // le statut et la note interne disent toujours ou elle en est.
+    if (paidOrder) {
+      try {
+        const cj = await tenterCommandeFournisseurCj(paidOrder);
+
+        if (cj.tente && cj.reussi) {
+          await updateDropshippingOrder(paidOrder.id, {
+            status: "commande-fournisseur",
+            supplierOrderReference: cj.cjOrderId,
+            internalNote: cj.paye
+              ? `Commande CJ ${cj.cjOrderId} creee et payee du solde automatiquement.`
+              : `Commande CJ ${cj.cjOrderId} creee automatiquement — RESTE A PAYER depuis le solde CJ (CJ_AUTOPAY desactive).`,
+          });
+        } else if (cj.tente && !cj.reussi) {
+          await updateDropshippingOrder(paidOrder.id, {
+            status: "probleme-fournisseur",
+            internalNote: `Echec commande automatique CJ : ${cj.erreur} — a commander manuellement.`,
+          });
+          console.error(
+            `[webhook] commande CJ impossible pour ${paidOrder.orderNumber} : ${cj.erreur}`,
+          );
+        } else if (!cj.tente && !cj.raison.includes("non configure")) {
+          // Connecteur actif mais commande non transmissible (produit non
+          // mappe, pays inconnu…) : on le dit dans la commande, sans bruit
+          // quand le connecteur est simplement absent.
+          await updateDropshippingOrder(paidOrder.id, {
+            internalNote: `Commande automatique CJ non tentee : ${cj.raison}.`,
+          });
+        }
+      } catch (error) {
+        console.error("[webhook] connecteur CJ en erreur inattendue :", error);
       }
     }
 
