@@ -32,6 +32,13 @@ import {
 type LegalSection = {
   title: string;
   paragraphs: string[];
+  /**
+   * Section rendue dans un encadre visuellement distinct. L'article L217-15
+   * du code de la consommation impose que le texte des garanties legales
+   * figure « dans un encadre » — un rendu identique aux autres clauses ne
+   * satisfait pas la loi, meme si le texte est le bon.
+   */
+  boxed?: boolean;
 };
 
 type LegalDocument = {
@@ -42,7 +49,7 @@ type LegalDocument = {
 
 export type LegalDocumentKey = "mentions" | "cgv" | "privacy" | "retractation";
 
-const MISE_A_JOUR = "5 août 2026";
+const MISE_A_JOUR = "11 août 2026";
 
 /** Ligne « Capital social : ... » uniquement si le champ est rempli. */
 function ligneCapital() {
@@ -233,6 +240,7 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
         title: "8. Droit de rétractation",
         paragraphs: [
           `Le client consommateur dispose d'un délai de ${DELAI_RETRACTATION_JOURS} jours à compter de la réception du produit pour exercer son droit de rétractation, sans avoir à justifier de motif ni à payer de pénalité.`,
+          `En cas de rétractation, les frais de renvoi du produit sont à la charge du client, sauf produit défectueux ou non conforme. Le renvoi s'effectue vers l'établissement du vendeur en France, à l'adresse indiquée à l'article 1. À titre indicatif, l'envoi d'un colis standard de moins de 2 kg en France coûte de l'ordre de 5 à 12 € au tarif public de La Poste en vigueur ; le coût réel dépend du poids, du format et du transporteur choisi par le client.`,
           `Les modalités complètes, les exceptions légales et le formulaire type figurent sur la page « Droit de rétractation » du site.`,
         ],
       },
@@ -240,9 +248,37 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
         title: "9. Garanties légales",
         paragraphs: [
           `Indépendamment de toute garantie commerciale, le vendeur reste tenu de la garantie légale de conformité (articles L217-3 et suivants du code de la consommation) et de la garantie des vices cachés (articles 1641 et suivants du code civil).`,
-          `Au titre de la garantie légale de conformité, le client dispose d'un délai de deux ans à compter de la délivrance du bien. Il peut choisir entre la réparation et le remplacement, sous réserve des conditions de coût prévues par la loi. Il est dispensé de rapporter la preuve du défaut de conformité pendant les vingt-quatre mois suivant la délivrance.`,
-          `Au titre de la garantie des vices cachés, le client peut agir dans un délai de deux ans à compter de la découverte du vice et obtenir la résolution de la vente ou une réduction du prix.`,
+          `Le contenu de ces garanties est détaillé dans l'encadré ci-dessous, dont le texte est celui prescrit par l'annexe à l'article D. 211-2 du code de la consommation.`,
           `Ces garanties s'exercent auprès du vendeur, à l'adresse et aux coordonnées indiquées à l'article 1, sans aucun contact nécessaire avec le partenaire logistique.`,
+        ],
+      },
+      {
+        // Texte REGLEMENTAIRE, recopie mot pour mot depuis l'annexe a
+        // l'article D. 211-2 du code de la consommation (version en vigueur
+        // depuis le 01/10/2022, creee par le decret n° 2022-946 du 29 juin
+        // 2022), relevee sur Legifrance le 11/08/2026. L'article L217-15
+        // impose ce texte tel quel, dans un encadre : NE PAS le reformuler,
+        // NE PAS le resumer, NE PAS le fusionner avec une autre clause.
+        title: "Garanties légales — encadré d'information réglementaire",
+        boxed: true,
+        paragraphs: [
+          `Le consommateur dispose d'un délai de deux ans à compter de la délivrance du bien pour obtenir la mise en œuvre de la garantie légale de conformité en cas d'apparition d'un défaut de conformité. Durant ce délai, le consommateur n'est tenu d'établir que l'existence du défaut de conformité et non la date d'apparition de celui-ci.`,
+          `Lorsque le contrat de vente du bien prévoit la fourniture d'un contenu numérique ou d'un service numérique de manière continue pendant une durée supérieure à deux ans, la garantie légale est applicable à ce contenu numérique ou ce service numérique tout au long de la période de fourniture prévue. Durant ce délai, le consommateur n'est tenu d'établir que l'existence du défaut de conformité affectant le contenu numérique ou le service numérique et non la date d'apparition de celui-ci.`,
+          `La garantie légale de conformité emporte obligation pour le professionnel, le cas échéant, de fournir toutes les mises à jour nécessaires au maintien de la conformité du bien.`,
+          `La garantie légale de conformité donne au consommateur droit à la réparation ou au remplacement du bien dans un délai de trente jours suivant sa demande, sans frais et sans inconvénient majeur pour lui.`,
+          `Si le bien est réparé dans le cadre de la garantie légale de conformité, le consommateur bénéficie d'une extension de six mois de la garantie initiale.`,
+          `Si le consommateur demande la réparation du bien, mais que le vendeur impose le remplacement, la garantie légale de conformité est renouvelée pour une période de deux ans à compter de la date de remplacement du bien.`,
+          `Le consommateur peut obtenir une réduction du prix d'achat en conservant le bien ou mettre fin au contrat en se faisant rembourser intégralement contre restitution du bien, si :`,
+          `1° Le professionnel refuse de réparer ou de remplacer le bien ;`,
+          `2° La réparation ou le remplacement du bien intervient après un délai de trente jours ;`,
+          `3° La réparation ou le remplacement du bien occasionne un inconvénient majeur pour le consommateur, notamment lorsque le consommateur supporte définitivement les frais de reprise ou d'enlèvement du bien non conforme, ou s'il supporte les frais d'installation du bien réparé ou de remplacement ;`,
+          `4° La non-conformité du bien persiste en dépit de la tentative de mise en conformité du vendeur restée infructueuse.`,
+          `Le consommateur a également droit à une réduction du prix du bien ou à la résolution du contrat lorsque le défaut de conformité est si grave qu'il justifie que la réduction du prix ou la résolution du contrat soit immédiate. Le consommateur n'est alors pas tenu de demander la réparation ou le remplacement du bien au préalable.`,
+          `Le consommateur n'a pas droit à la résolution de la vente si le défaut de conformité est mineur.`,
+          `Toute période d'immobilisation du bien en vue de sa réparation ou de son remplacement suspend la garantie qui restait à courir jusqu'à la délivrance du bien remis en état.`,
+          `Les droits mentionnés ci-dessus résultent de l'application des articles L. 217-1 à L. 217-32 du code de la consommation.`,
+          `Le vendeur qui fait obstacle de mauvaise foi à la mise en œuvre de la garantie légale de conformité encourt une amende civile d'un montant maximal de 300 000 euros, qui peut être porté jusqu'à 10 % du chiffre d'affaires moyen annuel (article L. 241-5 du code de la consommation).`,
+          `Le consommateur bénéficie également de la garantie légale des vices cachés en application des articles 1641 à 1649 du code civil, pendant une durée de deux ans à compter de la découverte du défaut. Cette garantie donne droit à une réduction de prix si le bien est conservé ou à un remboursement intégral contre restitution du bien.`,
         ],
       },
       {
@@ -313,6 +349,7 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
         paragraphs: [
           `Renvoyez le produit au plus tard ${DELAI_RETRACTATION_JOURS} jours après nous avoir informés de votre décision.`,
           `Les frais de retour sont à votre charge, sauf si le produit livré était défectueux ou non conforme à votre commande : dans ce cas, nous les prenons intégralement en charge.`,
+          `Le renvoi s'effectue vers notre établissement en France, à l'adresse communiquée avec les instructions de retour. À titre indicatif, l'envoi d'un colis standard de moins de 2 kg en France coûte de l'ordre de 5 à 12 € au tarif public de La Poste en vigueur ; le coût réel dépend du poids et du format de votre colis.`,
           `Votre responsabilité n'est engagée qu'à l'égard de la dépréciation du produit résultant de manipulations autres que celles nécessaires pour établir sa nature, ses caractéristiques et son bon fonctionnement.`,
         ],
       },
@@ -378,8 +415,24 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
         title: "Destinataires",
         paragraphs: [
           `Les données de livraison sont transmises au partenaire logistique et au transporteur chargés d'acheminer la commande, strictement dans la mesure nécessaire à la livraison.`,
-          `Lorsque le partenaire logistique est situé hors de l'Union européenne, la transmission de l'adresse de livraison est nécessaire à l'exécution du contrat conclu avec vous, au sens de l'article 49.1.b du RGPD.`,
+          `Lorsque le partenaire logistique est situé hors de l'Union européenne, la transmission de l'adresse de livraison est nécessaire à l'exécution du contrat conclu avec vous, au sens de l'article 49.1.b du RGPD. Le pays de destination ne fait pas l'objet d'une décision d'adéquation de la Commission européenne.`,
+          `Le site s'appuie par ailleurs sur des prestataires techniques qui traitent certaines données pour le compte du vendeur : Vercel Inc. (hébergement du site et de sa base de données, société établie aux États-Unis), Stripe (paiement) et Resend (envoi des emails de commande, société établie aux États-Unis). Ces prestataires n'utilisent pas les données pour leur propre compte.`,
           `Aucune donnée n'est vendue ni cédée à des fins publicitaires.`,
+        ],
+      },
+      {
+        title: "Avis clients",
+        paragraphs: [
+          `Après une commande, le client peut laisser un avis sur les produits achetés via un lien personnel. Ce lien repose sur un jeton associé à la commande et à l'adresse email du client, valable 45 jours ; il sert uniquement à vérifier que l'avis provient d'un acheteur réel.`,
+          `Si l'avis est publié après modération, seuls le prénom du client, la note et le texte de l'avis apparaissent sur la fiche produit. Déposer un avis est entièrement facultatif : ce traitement repose sur le consentement (article 6.1.a du RGPD).`,
+          `Le client peut demander à tout moment la modification ou la suppression de son avis en écrivant à ${champ("email")}.`,
+        ],
+      },
+      {
+        title: "Favoris et statistiques",
+        paragraphs: [
+          `Les favoris sont enregistrés uniquement dans le navigateur du visiteur : rien n'est transmis au serveur et aucun profil de navigation n'est constitué.`,
+          `Le site n'utilise aucun identifiant visiteur : l'identifiant déposé par une ancienne version du site a été supprimé et le code efface celui des visiteurs qui en portaient encore un.`,
         ],
       },
       {
@@ -392,7 +445,8 @@ export const legalDocuments: Record<LegalDocumentKey, LegalDocument> = {
       {
         title: "Cookies et stockage local",
         paragraphs: [
-          `Le panier utilise le stockage local du navigateur pour conserver les articles ajoutés. Ce stockage est strictement nécessaire au fonctionnement du site et ne nécessite pas de consentement.`,
+          `Le site n'utilise aucun cookie. Il écrit trois informations dans le stockage local du navigateur : les articles du panier, le mode de livraison choisi et la liste des produits mis en favoris. Ces trois stockages restent sur l'appareil du visiteur, ne sont pas transmis au serveur en dehors de la validation de la commande, et sont strictement nécessaires aux services demandés par le visiteur : ils sont exemptés de consentement (article 82 de la loi Informatique et Libertés).`,
+          `Le mode de livraison mémorisé est effacé automatiquement après la confirmation de la commande.`,
           `Aucun outil de mesure d'audience ni de publicité ciblée n'est installé sur le site à ce jour. Si un tel outil devait l'être, un bandeau de consentement serait mis en place au préalable.`,
         ],
       },

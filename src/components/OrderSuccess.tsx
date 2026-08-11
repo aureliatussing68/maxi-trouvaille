@@ -4,6 +4,7 @@ import Link from "next/link";
 import { CheckCircle2, MessageSquare } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import { useCart } from "@/components/CartProvider";
+import { SHIPPING_STORAGE_KEY } from "@/lib/shipping";
 
 export function OrderSuccess({ sessionId }: { sessionId?: string }) {
   const { clearCart } = useCart();
@@ -15,6 +16,15 @@ export function OrderSuccess({ sessionId }: { sessionId?: string }) {
 
   useEffect(() => {
     clearCart();
+
+    // La commande est passee : l'adresse et le mode de livraison memorises
+    // dans le navigateur n'ont plus d'usage. Les garder indefiniment etait
+    // le seul stockage local qui survivait a son propre besoin.
+    try {
+      window.localStorage.removeItem(SHIPPING_STORAGE_KEY);
+    } catch {
+      // Navigateur sans stockage local : rien a effacer.
+    }
   }, [clearCart]);
 
   useEffect(() => {
@@ -50,7 +60,11 @@ export function OrderSuccess({ sessionId }: { sessionId?: string }) {
   return (
     <div className="container-page py-12">
       <div className="rounded-lg border border-line bg-paper p-8 text-center shadow-sm">
-        <CheckCircle2 className="mx-auto mb-4 text-teal" size={46} aria-hidden="true" />
+        <CheckCircle2
+          className="mx-auto mb-4 text-teal"
+          size={46}
+          aria-hidden="true"
+        />
         <h1 className="text-2xl font-black">Paiement confirmé</h1>
         <p className="mx-auto mt-3 max-w-md text-sm leading-6 text-muted">
           Votre commande est prise en compte. Les informations de suivi seront
