@@ -44,6 +44,7 @@ tmp-codex*.log
 /data/product-stats.json
 /data/product-reviews.json
 /data/product-messages.json
+/data/dropshipping-orders.json
 
 # env files (can opt-in for committing if needed)
 .env*
